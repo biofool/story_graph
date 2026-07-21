@@ -1,0 +1,57 @@
+# Environment & secrets
+.env*
+!.env.example
+nohup.out
+*.pem
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+.venv-*/
+env/
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Data — ignore runtime outputs, keep static reference files
+data/raw/
+data/processed/
+data/cache/*
+!data/cache/.gitkeep
+data/graph.db
+data/*.jsonl
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# spaCy models (downloaded at runtime)
+data/spacy_models/

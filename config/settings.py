@@ -1,0 +1,94 @@
+"""
+Centralized configuration loader.
+Reads from .env and provides typed access to settings.
+"""
+
+import os
+from pathlib import Path
+from typing import Optional
+
+from dotenv import load_dotenv
+from pydantic import BaseModel, Field
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+load_dotenv(PROJECT_ROOT / ".env")
+
+
+class Settings(BaseModel):
+    """Typed settings loaded from environment variables."""
+
+    # Crawling
+    crawl_delay_seconds: float = Field(
+        default_factory=lambda: float(os.getenv("CRAWL_DELAY_SECONDS", "3"))
+    )
+    crawl_max_depth: int = Field(
+        default_factory=lambda: int(os.getenv("CRAWL_MAX_DEPTH", "2"))
+    )
+    crawl_max_pages: int = Field(
+        default_factory=lambda: int(os.getenv("CRAWL_MAX_PAGES", "200"))
+    )
+    crawl_user_agent: str = Field(
+        default_factory=lambda: os.getenv(
+            "CRAWL_USER_AGENT", "story-graph-bot/0.1 (+research)"
+        )
+    )
+    crawl_timeout: int = Field(
+        default_factory=lambda: int(os.getenv("CRAWL_TIMEOUT", "30"))
+    )
+
+    # NLP
+    spacy_model: str = Field(
+        default_factory=lambda: os.getenv("SPACY_MODEL", "en_core_web_sm")
+    )
+
+    # Storage
+    graph_db_path: str = Field(
+        default_factory=lambda: os.getenv("GRAPH_DB_PATH", "data/graph.db")
+    )
+    raw_pages_dir: str = Field(
+        default_factory=lambda: os.getenv("RAW_PAGES_DIR", "data/raw")
+    )
+
+    # Seed URLs
+    seed_urls: list[str] = Field(
+        default_factory=lambda: [
+            "https://lifeinthesourcefamily.blogspot.com/",
+            "https://cultnews.com/2016/08/documentary-about-source-family-cult-doesnt-tell-the-whole-story/",
+            "https://sourcerestaurants.com/",
+            "https://en.wikipedia.org/wiki/Father_Yod",
+            "https://pleasekillme.com/father-yod/",
+        ]
+    )
+
+    # Allowed crawl domains
+    allowed_domains: set[str] = Field(
+        default_factory=lambda: {
+            "cultnews.com",
+            "lifeinthesourcefamily.blogspot.com",
+            "blogspot.com",
+            "yahowha.org",
+            "youtube.com",
+            "wordpress.com",
+            "sourcerestaurants.com",
+            "en.wikipedia.org",
+            "pleasekillme.com",
+            "latimes.com",
+        }
+    )
+
+    @property
+    def graph_db_abs_path(self) -> Path:
+        p = Path(self.graph_db_path)
+        if not p.is_absolute():
+            p = PROJECT_ROOT / p
+        return p
+
+    @property
+    def raw_pages_abs_dir(self) -> Path:
+        p = Path(self.raw_pages_dir)
+        if not p.is_absolute():
+            p = PROJECT_ROOT / p
+        return p
+
+
+settings = Settings()

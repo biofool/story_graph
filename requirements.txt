@@ -1,0 +1,33 @@
+# Story Graph — Source Family / Father Yod
+# Python 3.10+
+
+# HTTP & web crawling
+requests>=2.31.0
+httpx>=0.27.0
+
+# HTML parsing
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# Data handling
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+
+# NLP / entity extraction
+spacy>=3.7.0
+
+# Rate limiting & retry
+tenacity>=8.2.0
+
+# CLI & logging
+click>=8.1.0
+rich>=13.7.0
+structlog>=24.1.0
+
+# Storage
+datasette>=0.64.0          # SQLite web explorer (optional)
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+responses>=0.24.0

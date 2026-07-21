@@ -1,0 +1,32 @@
+[project]
+name = "story-graph"
+version = "0.1.0"
+description = "Source Family story graph — crawl, extract, and graph people, claims, and events around The Source Restaurant (LA)"
+authors = [
+    {name = "biofool", email = "biofool@noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_functions = "test_*"
+python_classes = "Test*"
+addopts = "-v --tb=short"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning",
+]
+
+markers = [
+    "unit: Unit tests (fast, isolated)",
+    "integration: Integration tests (may use fixtures)",
+    "slow: Slow tests (network crawling, spaCy model loading)",
+]
