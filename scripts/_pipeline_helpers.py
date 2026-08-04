@@ -32,6 +32,17 @@ from src.storage.models import (
 )
 from src.utils.text_utils import get_domain
 
+# Maps relation type strings from the extractor output to the
+# RelationType enum. Used by process_page to add typed edges.
+_REL_TYPE_MAP: dict[str, RelationType] = {
+    "FOUNDED": RelationType.FOUNDED,
+    "MEMBER_OF": RelationType.MEMBER_OF,
+    "WORKED_AT": RelationType.WORKED_AT,
+    "LIVED_AT": RelationType.LIVED_AT,
+    "LOCATED_IN": RelationType.LOCATED_IN,
+    "CREATED": RelationType.CREATED,
+}
+
 
 def classify_source(url: str, title: str, text: str) -> tuple[SourceClass, BiasHint]:
     """Heuristically classify a source page."""
@@ -286,14 +297,6 @@ def process_page(
     # Process typed relations (FOUNDED, MEMBER_OF, WORKED_AT, LIVED_AT,
     # LOCATED_IN). The src/dst nodes were created above; here we only add
     # the typed edge between them.
-    _REL_TYPE_MAP = {
-        "FOUNDED": RelationType.FOUNDED,
-        "MEMBER_OF": RelationType.MEMBER_OF,
-        "WORKED_AT": RelationType.WORKED_AT,
-        "LIVED_AT": RelationType.LIVED_AT,
-        "LOCATED_IN": RelationType.LOCATED_IN,
-        "CREATED": RelationType.CREATED,
-    }
     for rel in entities.get("relations", []):
         rel_type_str = rel.get("rel_type", "")
         rel_enum = _REL_TYPE_MAP.get(rel_type_str)

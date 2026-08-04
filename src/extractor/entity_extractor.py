@@ -51,8 +51,9 @@ def _is_valid_person_name(name: str) -> bool:
 
     Rejects common single-token false positives (e.g. 'Although', 'Also',
     'Tuesday'). Single-token names are only accepted if they are known
-    persons, Aquarian-style names, or title-cased and not in the stopword
-    list. Multi-token names are accepted unless every token is a stopword.
+    persons or Aquarian-style names; ambiguous title-cased single tokens
+    like 'Robin' are rejected. Multi-token names are accepted unless
+    every token is a stopword.
     """
     cleaned = name.strip().strip("'\".,;:()[]")
     if not cleaned or len(cleaned) < 3:
@@ -449,7 +450,8 @@ class EntityExtractor:
         ``rel_type``, ``src`` ({type, name}), ``dst`` ({type, name}).
 
         Detected relation types: FOUNDED, MEMBER_OF, WORKED_AT, LIVED_AT,
-        CREATED, LOCATED_IN.
+        LOCATED_IN. (CREATED is not extracted here because works are not
+        available as entities at the per-sentence level.)
         """
         relations: list[dict] = []
         seen: set[tuple[str, str, str]] = set()
@@ -479,8 +481,10 @@ class EntityExtractor:
             sent_groups = self._surfaces_in_sentence(sent, group_surfaces)
             sent_places = self._surfaces_in_sentence(sent, place_surfaces)
 
-            # FOUNDED: "X founded/opened/started Y" (person -> group)
-            if any(t in sent_lower for t in ("founded", " opened", " opened the", "started the")):
+            # FOUNDED: "X founded/opened/started Y" (person -> group).
+            # Use word-boundary regex to catch sentence-initial "Opened"
+            # as well as mid-sentence " opened".
+            if re.search(r"\b(founded|opened|started\s+the)\b", sent_lower):
                 for p in sent_persons:
                     for g in sent_groups:
                         _add("FOUNDED", p, "person", g, "group")

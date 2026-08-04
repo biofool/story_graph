@@ -156,6 +156,13 @@ class TestRelationExtraction:
             for r in rels
         )
 
+    def test_founded_edge_sentence_initial(self, extractor):
+        # "Opened" at the start of a sentence (no leading space) must
+        # still trigger FOUNDED — regression test for the word-boundary fix.
+        result = extractor.extract("Opened by Jim Baker, The Source Restaurant became famous.")
+        rels = result["relations"]
+        assert any(r["rel_type"] == "FOUNDED" for r in rels)
+
     def test_member_of_edge(self, extractor):
         result = extractor.extract("Isis Aquarian joined The Source Family in 1970.")
         rels = result["relations"]

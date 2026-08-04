@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 from dataclasses import dataclass
 from typing import Optional
 
@@ -75,7 +76,6 @@ class GraphQA:
     def _retrieve(self, question: str, *, max_nodes: int, max_claims: int) -> dict:
         """Keyword-match the question against node labels/claim text."""
         # Strip punctuation so "Baker?" -> "baker" matches claim text.
-        import re
         terms = [
             re.sub(r"[^\w]", "", t).lower()
             for t in question.split()
