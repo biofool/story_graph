@@ -16,6 +16,10 @@ python-dotenv>=1.0.0
 # NLP / entity extraction
 spacy>=3.7.0
 
+# LLM (Gemini / Google Gen AI SDK) — optional, used for seed discovery,
+# structured entity/claim extraction, and graph Q&A.
+google-genai>=1.0.0
+
 # Rate limiting & retry
 tenacity>=8.2.0
 

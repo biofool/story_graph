@@ -41,6 +41,16 @@ class Settings(BaseModel):
         default_factory=lambda: os.getenv("SPACY_MODEL", "en_core_web_sm")
     )
 
+    # Gemini (Google Gen AI SDK) — used for seed discovery, structured
+    # entity/claim extraction, and graph Q&A. Optional: features degrade
+    # gracefully when GEMINI_API_KEY is unset.
+    gemini_api_key: str = Field(
+        default_factory=lambda: os.getenv("GEMINI_API_KEY", "")
+    )
+    gemini_model: str = Field(
+        default_factory=lambda: os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+    )
+
     # Storage
     graph_db_path: str = Field(
         default_factory=lambda: os.getenv("GRAPH_DB_PATH", "data/graph.db")

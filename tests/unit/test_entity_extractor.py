@@ -1,13 +1,51 @@
 """Unit tests for entity extraction."""
 
 import pytest
-from src.extractor.entity_extractor import EntityExtractor
+from src.extractor.entity_extractor import EntityExtractor, _is_valid_person_name
 
 
 @pytest.fixture
 def extractor():
     """Create extractor without spaCy (rule-based only)."""
     return EntityExtractor(spacy_model_name="nonexistent_model")
+
+
+class TestPersonNameFilter:
+    """Tests for the spaCy NER false-positive filter (_is_valid_person_name)."""
+
+    def test_rejects_common_adverb(self):
+        assert not _is_valid_person_name("Although")
+
+    def test_rejects_also(self):
+        assert not _is_valid_person_name("Also")
+
+    def test_rejects_day_of_week(self):
+        assert not _is_valid_person_name("Tuesday")
+        assert not _is_valid_person_name("Monday")
+
+    def test_rejects_month(self):
+        assert not _is_valid_person_name("January")
+
+    def test_rejects_ambiguous_single_token(self):
+        # 'Robin' is a real word/bird; not in known persons -> rejected
+        assert not _is_valid_person_name("Robin")
+
+    def test_accepts_known_single_token(self):
+        # 'Octavius' is in KNOWN_PERSONS -> accepted
+        assert _is_valid_person_name("Octavius")
+
+    def test_accepts_aquarian_single_token(self):
+        assert _is_valid_person_name("Aquarian")
+
+    def test_accepts_multi_token_name(self):
+        assert _is_valid_person_name("Jim Baker")
+        assert _is_valid_person_name("Laura Garon")
+
+    def test_rejects_all_stopword_tokens(self):
+        assert not _is_valid_person_name("Also Although")
+
+    def test_rejects_short(self):
+        assert not _is_valid_person_name("Al")
 
 
 class TestPersonExtraction:
@@ -100,3 +138,60 @@ class TestEventExtraction:
         result = extractor.extract("The family moved to Kauai on 1974-06-01.")
         events = result["events"]
         assert any(e.get("start_date") == "1974-06-01" for e in events)
+
+
+class TestRelationExtraction:
+    def test_extract_returns_relations_key(self, extractor):
+        result = extractor.extract("Jim Baker opened The Source Restaurant in 1969.")
+        assert "relations" in result
+        assert isinstance(result["relations"], list)
+
+    def test_founded_edge(self, extractor):
+        result = extractor.extract("Jim Baker opened The Source Restaurant in 1969.")
+        rels = result["relations"]
+        assert any(
+            r["rel_type"] == "FOUNDED"
+            and r["src"]["type"] == "person"
+            and r["dst"]["type"] == "group"
+            for r in rels
+        )
+
+    def test_member_of_edge(self, extractor):
+        result = extractor.extract("Isis Aquarian joined The Source Family in 1970.")
+        rels = result["relations"]
+        assert any(r["rel_type"] == "MEMBER_OF" for r in rels)
+
+    def test_lived_at_edge(self, extractor):
+        result = extractor.extract("The Source Family moved to Kauai on 1974-06-01.")
+        rels = result["relations"]
+        assert any(
+            r["rel_type"] == "LIVED_AT"
+            and r["dst"]["type"] == "place"
+            for r in rels
+        )
+
+    def test_located_in_edge(self, extractor):
+        result = extractor.extract("The Source Restaurant was located on Sunset Strip.")
+        rels = result["relations"]
+        assert any(
+            r["rel_type"] == "LOCATED_IN"
+            and r["src"]["type"] == "group"
+            and r["dst"]["type"] == "place"
+            for r in rels
+        )
+
+    def test_no_relation_without_trigger(self, extractor):
+        result = extractor.extract("Father Yod was the leader of The Source Family.")
+        rels = result["relations"]
+        # No founded/member/worked/lived/located trigger words -> no relations
+        assert rels == []
+
+    def test_group_dedup_collapses_source_family_variants(self, extractor):
+        """Both 'The Source Family' and 'Source Family' in one text should
+        collapse to a single group entry (canonical dedup)."""
+        result = extractor.extract("The Source Family was a group. Source Family lived in Nichols Canyon.")
+        groups = result["groups"]
+        # Only one canonical Source Family entry, not two.
+        canonicals = {g.get("canonical") for g in groups}
+        assert "the source family" in canonicals
+        assert sum(1 for g in groups if g.get("canonical") == "the source family") == 1

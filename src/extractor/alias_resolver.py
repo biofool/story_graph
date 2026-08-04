@@ -35,11 +35,32 @@ KNOWN_PERSONS: dict[str, list[str]] = {
     "electronically hughes": ["Electronically Hughes"],
 }
 
+# Set of all known person aliases (lowercased) for quick membership checks.
+KNOWN_PERSON_ALIASES: set[str] = {
+    alias.lower()
+    for aliases in KNOWN_PERSONS.values()
+    for alias in aliases
+} | set(ALIAS_MAP.keys()) | set(ALIAS_MAP.values())
+
 # Known groups
 KNOWN_GROUPS: dict[str, list[str]] = {
     "the source family": ["The Source Family", "Source Family"],
     "the source restaurant": ["The Source Restaurant", "The Source"],
     "ya ho wa 13": ["Ya Ho Wa 13", "Yahowha 13"],
+}
+
+# Group alias map: any alias (normalized) -> canonical group name (normalized).
+# Collapses surface variants like "The Source" / "The Source Restaurant" and
+# "Source Family" / "The Source Family" into a single canonical node.
+GROUP_ALIAS_MAP: dict[str, str] = {
+    "the source family": "the source family",
+    "source family": "the source family",
+    "the source restaurant": "the source restaurant",
+    "the source": "the source restaurant",
+    "source restaurant": "the source restaurant",
+    "ya ho wa 13": "ya ho wa 13",
+    "yahowha 13": "ya ho wa 13",
+    "yahowha": "ya ho wa 13",
 }
 
 # Known places
@@ -51,11 +72,39 @@ KNOWN_PLACES: dict[str, list[str]] = {
     "los angeles": ["Los Angeles", "LA"],
 }
 
+# Place alias map: any alias (normalized) -> canonical place name (normalized).
+PLACE_ALIAS_MAP: dict[str, str] = {
+    "los angeles": "los angeles",
+    "la": "los angeles",
+    "kauai": "kauai",
+    "kauai compound": "kauai",
+    "fairmont hotel san francisco": "fairmont hotel san francisco",
+    "fairmont hotel": "fairmont hotel san francisco",
+    "the fairmont hotel": "fairmont hotel san francisco",
+    "sunset strip": "sunset strip",
+    "nichols canyon": "nichols canyon",
+    "san francisco": "san francisco",
+}
+
 
 def canonical_person(name: str) -> str:
     """Resolve a person name to its canonical form."""
     key = normalize(name)
     return ALIAS_MAP.get(key, key)
+
+
+def canonical_group(name: str) -> str:
+    """Resolve a group name to its canonical form (collapses 'The Source' /
+    'The Source Restaurant' and 'Source Family' / 'The Source Family')."""
+    key = normalize(name)
+    return GROUP_ALIAS_MAP.get(key, key)
+
+
+def canonical_place(name: str) -> str:
+    """Resolve a place name to its canonical form (collapses 'LA' /
+    'Los Angeles', 'Kauai compound' / 'Kauai', etc.)."""
+    key = normalize(name)
+    return PLACE_ALIAS_MAP.get(key, key)
 
 
 def person_id(name: str) -> str:
@@ -65,13 +114,13 @@ def person_id(name: str) -> str:
 
 
 def group_id(name: str) -> str:
-    """Generate a stable group node ID from a name."""
-    return f"group:{slugify(normalize(name))}"
+    """Generate a stable group node ID from a name (canonicalized)."""
+    return f"group:{slugify(canonical_group(name))}"
 
 
 def place_id(name: str) -> str:
-    """Generate a stable place node ID from a name."""
-    return f"place:{slugify(normalize(name))}"
+    """Generate a stable place node ID from a name (canonicalized)."""
+    return f"place:{slugify(canonical_place(name))}"
 
 
 def event_id(label: str) -> str:

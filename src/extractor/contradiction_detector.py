@@ -27,12 +27,66 @@ CONTRADICTORY_STANCE_PAIRS = {
     ("self-mythologizing", "critical"),
 }
 
+# Node types that a claim can legitimately be "about". We inherit MENTIONS
+# targets of these types when inferring implicit claim targets from a source
+# work (avoids tagging every claim as being about every place mentioned).
+_INHERITABLE_TARGET_TYPES = {NodeType.PERSON, NodeType.GROUP}
+
 
 class ContradictionDetector:
     """Detects contradictions between claims and builds timeline edges."""
 
     def __init__(self, db: GraphDB):
         self.db = db
+
+    def infer_implicit_targets(self) -> int:
+        """Add ABOUT edges to claims that have none, by inheriting the
+        person/group targets mentioned by their source work.
+
+        A claim with no explicit ABOUT targets is implicitly about the
+        entities its source page describes. This is a heuristic but
+        materially improves contradiction recall on real crawled data
+        where claim sentences often refer to subjects by pronoun or
+        omit them entirely (e.g. "What a mockery the catchphrase 'Just
+        Be Kind' is when babies were denied medical treatment...").
+
+        Returns the number of ABOUT edges added.
+        """
+        added = 0
+        claims = self.db.get_nodes_by_type(NodeType.CLAIM)
+
+        for claim in claims:
+            existing = self.db.get_edges_from(claim.id)
+            has_about = any(e.rel_type == RelationType.ABOUT for e in existing)
+            if has_about:
+                continue
+
+            # Find the source work that contains this claim
+            # (edge: work -[CONTAINS]-> claim, so the work is the src).
+            work_ids = [
+                e.src_id for e in self.db.get_edges_to(claim.id)
+                if e.rel_type == RelationType.CONTAINS
+            ]
+            if not work_ids:
+                continue
+
+            for work_id in work_ids:
+                for mention_edge in self.db.get_edges_from(work_id):
+                    if mention_edge.rel_type != RelationType.MENTIONS:
+                        continue
+                    target = self.db.get_node(mention_edge.dst_id)
+                    if target is None or target.type not in _INHERITABLE_TARGET_TYPES:
+                        continue
+                    self.db.add_edge(GraphEdge(
+                        src_id=claim.id,
+                        rel_type=RelationType.ABOUT,
+                        dst_id=target.id,
+                        metadata={"inferred": True, "via_work": work_id},
+                    ))
+                    added += 1
+
+        _log.info(f"Inferred {added} implicit ABOUT edges for targetless claims")
+        return added
 
     def detect_contradictions(self) -> list[tuple[str, str]]:
         """Find claims with opposite stances targeting the same node.
@@ -55,12 +109,19 @@ class ContradictionDetector:
                     target_claims[edge.dst_id].append((claim.id, stance))
 
         # Check for contradictions within each target
+        seen_pairs: set[frozenset[str]] = set()
         for target_id, claim_stances in target_claims.items():
             for i, (cid1, stance1) in enumerate(claim_stances):
                 for j, (cid2, stance2) in enumerate(claim_stances):
                     if i >= j:
                         continue
                     if (stance1, stance2) in CONTRADICTORY_STANCE_PAIRS:
+                        # Dedup across targets: the same claim pair may share
+                        # multiple targets, but we only want one edge.
+                        pair_key = frozenset((cid1, cid2))
+                        if pair_key in seen_pairs:
+                            continue
+                        seen_pairs.add(pair_key)
                         # Add CONTRADICTS edge
                         self.db.add_edge(GraphEdge(
                             src_id=cid1,

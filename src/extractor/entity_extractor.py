@@ -12,14 +12,75 @@ from typing import Optional
 from src.extractor.alias_resolver import (
     ALIAS_MAP,
     KNOWN_PERSONS,
+    KNOWN_PERSON_ALIASES,
     KNOWN_GROUPS,
     KNOWN_PLACES,
     is_aquarian_name,
     canonical_person,
+    canonical_group,
+    canonical_place,
 )
 from src.utils.text_utils import normalize, split_sentences, extract_date_from_text
 
 _log = logging.getLogger(__name__)
+
+# Common English words that spaCy mis-tags as PERSON entities in this corpus.
+# Single-token names matching these (case-insensitive) are rejected.
+PERSON_STOPWORDS: frozenset[str] = frozenset({
+    # Conjunctions / adverbs / discourse markers
+    "although", "also", "however", "moreover", "meanwhile", "instead",
+    "otherwise", "therefore", "thus", "indeed", "perhaps", "maybe",
+    "certainly", "basically", "essentially", "ultimately", "apparently",
+    "reportedly", "supposedly", "allegedly", "truly", "really", "actually",
+    # Days of week / months
+    "monday", "tuesday", "wednesday", "thursday", "friday",
+    "saturday", "sunday",
+    "january", "february", "march", "april", "may", "june",
+    "july", "august", "september", "october", "november", "december",
+    # Common nouns / verbs that leak through
+    "share", "comment", "email", "blog", "post", "edit", "legacy",
+    "citation", "needed", "wikipedia", "navigation", "menu", "search",
+    # Pronouns / determiners
+    "he", "she", "they", "we", "you", "it", "his", "her", "their",
+    "this", "that", "those", "these",
+})
+
+
+def _is_valid_person_name(name: str) -> bool:
+    """Heuristic filter for spaCy-detected PERSON names.
+
+    Rejects common single-token false positives (e.g. 'Although', 'Also',
+    'Tuesday'). Single-token names are only accepted if they are known
+    persons, Aquarian-style names, or title-cased and not in the stopword
+    list. Multi-token names are accepted unless every token is a stopword.
+    """
+    cleaned = name.strip().strip("'\".,;:()[]")
+    if not cleaned or len(cleaned) < 3:
+        return False
+    norm = normalize(cleaned)
+    if not norm:
+        return False
+    tokens = norm.split()
+
+    # Reject if every token is a stopword (e.g. "Also Although").
+    if all(tok in PERSON_STOPWORDS for tok in tokens):
+        return False
+
+    # Reject single-token names that are stopwords.
+    if len(tokens) == 1:
+        tok = tokens[0]
+        if tok in PERSON_STOPWORDS:
+            return False
+        # Single-token name: only accept if it is a known person or an
+        # Aquarian-style name. Title-cased-but-ambiguous single tokens
+        # like 'Robin' are rejected to avoid NER false positives.
+        if tok in KNOWN_PERSON_ALIASES:
+            return True
+        if is_aquarian_name(cleaned):
+            return True
+        return False
+
+    return True
 
 # Rule-based person patterns (regex)
 PERSON_PATTERNS = [
@@ -89,13 +150,14 @@ class EntityExtractor:
 
     def extract(self, text: str) -> dict:
         """Extract entities from text.
-        Returns dict with keys: persons, groups, places, events, claims.
+        Returns dict with keys: persons, groups, places, events, claims, relations.
         """
         persons = self._extract_persons(text)
         groups = self._extract_groups(text)
         places = self._extract_places(text)
         events = self._extract_events(text)
         claims = self._extract_claims(text)
+        relations = self._extract_relations(text, persons, groups, places)
 
         return {
             "persons": persons,
@@ -103,6 +165,7 @@ class EntityExtractor:
             "places": places,
             "events": events,
             "claims": claims,
+            "relations": relations,
         }
 
     def _extract_persons(self, text: str) -> list[dict]:
@@ -138,6 +201,11 @@ class EntityExtractor:
                     name = ent.text.strip()
                     if len(name) < 3:
                         continue
+                    # Filter common NER false positives ('Although', 'Also',
+                    # 'Tuesday', single ambiguous tokens like 'Robin').
+                    if not _is_valid_person_name(name):
+                        _log.debug("Filtered spaCy PERSON false positive: %r", name)
+                        continue
                     canonical = canonical_person(name)
                     if canonical not in persons:
                         persons[canonical] = {
@@ -155,13 +223,19 @@ class EntityExtractor:
         for pattern in GROUP_PATTERNS:
             for match in re.finditer(pattern, text):
                 name = match.group()
-                key = normalize(name)
-                groups[key] = {"name": name, "source": "rule"}
+                # Dedup by canonical group so 'The Source Family' and
+                # 'Source Family' collapse to one entry per page.
+                key = canonical_group(name)
+                groups[key] = {"name": name, "canonical": key, "source": "rule"}
 
         for canonical, aliases in KNOWN_GROUPS.items():
             for alias in aliases:
                 if alias.lower() in text.lower():
-                    groups[canonical] = {"name": aliases[0], "source": "known_list"}
+                    groups[canonical] = {
+                        "name": aliases[0],
+                        "canonical": canonical,
+                        "source": "known_list",
+                    }
 
         # spaCy NER for ORG
         if self._nlp:
@@ -171,9 +245,13 @@ class EntityExtractor:
                     name = ent.text.strip()
                     if len(name) < 3:
                         continue
-                    key = normalize(name)
+                    key = canonical_group(name)
                     if key not in groups:
-                        groups[key] = {"name": name, "source": "spacy"}
+                        groups[key] = {
+                            "name": name,
+                            "canonical": key,
+                            "source": "spacy",
+                        }
 
         return list(groups.values())
 
@@ -184,13 +262,19 @@ class EntityExtractor:
         for pattern in PLACE_PATTERNS:
             for match in re.finditer(pattern, text):
                 name = match.group()
-                key = normalize(name)
-                places[key] = {"name": name, "source": "rule"}
+                # Dedup by canonical place so 'Kauai' and 'Kauai compound'
+                # collapse to one entry per page.
+                key = canonical_place(name)
+                places[key] = {"name": name, "canonical": key, "source": "rule"}
 
         for canonical, aliases in KNOWN_PLACES.items():
             for alias in aliases:
                 if alias.lower() in text.lower():
-                    places[canonical] = {"name": aliases[0], "source": "known_list"}
+                    places[canonical] = {
+                        "name": aliases[0],
+                        "canonical": canonical,
+                        "source": "known_list",
+                    }
 
         # spaCy NER for GPE/LOC
         if self._nlp:
@@ -200,9 +284,13 @@ class EntityExtractor:
                     name = ent.text.strip()
                     if len(name) < 3:
                         continue
-                    key = normalize(name)
+                    key = canonical_place(name)
                     if key not in places:
-                        places[key] = {"name": name, "source": "spacy"}
+                        places[key] = {
+                            "name": name,
+                            "canonical": key,
+                            "source": "spacy",
+                        }
 
         return list(places.values())
 
@@ -346,3 +434,101 @@ class EntityExtractor:
                 return match.group(1)
 
         return None
+
+    # --- Relation extraction ---
+
+    def _extract_relations(
+        self,
+        text: str,
+        persons: list[dict],
+        groups: list[dict],
+        places: list[dict],
+    ) -> list[dict]:
+        """Extract typed relations between entities by scanning sentences for
+        relational trigger phrases. Returns a list of dicts with keys:
+        ``rel_type``, ``src`` ({type, name}), ``dst`` ({type, name}).
+
+        Detected relation types: FOUNDED, MEMBER_OF, WORKED_AT, LIVED_AT,
+        CREATED, LOCATED_IN.
+        """
+        relations: list[dict] = []
+        seen: set[tuple[str, str, str]] = set()
+
+        # Build (surface_form -> canonical name) indexes so we can match
+        # what actually appears in the sentence text, then emit the
+        # canonical name in the relation.
+        person_surfaces = {p.get("raw_name") or p["name"]: p["name"] for p in persons}
+        group_surfaces = {g.get("raw_name") or g["name"]: g["name"] for g in groups}
+        place_surfaces = {pl.get("raw_name") or pl["name"]: pl["name"] for pl in places}
+
+        def _add(rel_type: str, src_name: str, src_type: str, dst_name: str, dst_type: str):
+            key = (rel_type, src_name, dst_name)
+            if key in seen:
+                return
+            seen.add(key)
+            relations.append({
+                "rel_type": rel_type,
+                "src": {"type": src_type, "name": src_name},
+                "dst": {"type": dst_type, "name": dst_name},
+            })
+
+        sentences = split_sentences(text)
+        for sent in sentences:
+            sent_lower = sent.lower()
+            sent_persons = self._surfaces_in_sentence(sent, person_surfaces)
+            sent_groups = self._surfaces_in_sentence(sent, group_surfaces)
+            sent_places = self._surfaces_in_sentence(sent, place_surfaces)
+
+            # FOUNDED: "X founded/opened/started Y" (person -> group)
+            if any(t in sent_lower for t in ("founded", " opened", " opened the", "started the")):
+                for p in sent_persons:
+                    for g in sent_groups:
+                        _add("FOUNDED", p, "person", g, "group")
+
+            # MEMBER_OF: "X joined/was a member of Y" (person -> group)
+            if any(t in sent_lower for t in (" joined", "became a member", "member of", "was a member")):
+                for p in sent_persons:
+                    for g in sent_groups:
+                        _add("MEMBER_OF", p, "person", g, "group")
+
+            # WORKED_AT: "X worked at Y" (person -> group)
+            if "worked at" in sent_lower or "worked for" in sent_lower:
+                for p in sent_persons:
+                    for g in sent_groups:
+                        _add("WORKED_AT", p, "person", g, "group")
+
+            # LIVED_AT: "X lived at/in Y" or "X moved to Y"
+            # (person OR group -> place; a group can live at a place too)
+            if "lived at" in sent_lower or "lived in" in sent_lower or "moved to" in sent_lower:
+                for p in sent_persons:
+                    for pl in sent_places:
+                        _add("LIVED_AT", p, "person", pl, "place")
+                for g in sent_groups:
+                    for pl in sent_places:
+                        _add("LIVED_AT", g, "group", pl, "place")
+
+            # CREATED: "X wrote/created/recorded/published Y" (person -> work)
+            # Works are not extracted as entities here, so we skip CREATED
+            # at the per-sentence level; it is handled in the pipeline when
+            # the source work is known.
+
+            # LOCATED_IN: "Y located in/on Z" (group -> place)
+            # Only group -> place; place -> place would conflate distinct places.
+            if "located in" in sent_lower or "located on" in sent_lower:
+                for g in sent_groups:
+                    for pl in sent_places:
+                        if g == pl:
+                            continue
+                        _add("LOCATED_IN", g, "group", pl, "place")
+
+        return relations
+
+    @staticmethod
+    def _surfaces_in_sentence(sentence: str, surface_to_canonical: dict[str, str]) -> list[str]:
+        """Return canonical names whose surface form appears in the sentence."""
+        out = []
+        sent_lower = sentence.lower()
+        for surface, canonical in surface_to_canonical.items():
+            if surface and surface.lower() in sent_lower:
+                out.append(canonical)
+        return out

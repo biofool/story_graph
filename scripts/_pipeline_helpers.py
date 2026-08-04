@@ -282,3 +282,30 @@ def process_page(
                 dst_id=tid,
                 metadata={"evidence": url},
             ))
+
+    # Process typed relations (FOUNDED, MEMBER_OF, WORKED_AT, LIVED_AT,
+    # LOCATED_IN). The src/dst nodes were created above; here we only add
+    # the typed edge between them.
+    _REL_TYPE_MAP = {
+        "FOUNDED": RelationType.FOUNDED,
+        "MEMBER_OF": RelationType.MEMBER_OF,
+        "WORKED_AT": RelationType.WORKED_AT,
+        "LIVED_AT": RelationType.LIVED_AT,
+        "LOCATED_IN": RelationType.LOCATED_IN,
+        "CREATED": RelationType.CREATED,
+    }
+    for rel in entities.get("relations", []):
+        rel_type_str = rel.get("rel_type", "")
+        rel_enum = _REL_TYPE_MAP.get(rel_type_str)
+        if rel_enum is None:
+            continue
+        src = rel.get("src", {})
+        dst = rel.get("dst", {})
+        src_id = resolve_target_id(src)
+        dst_id = resolve_target_id(dst)
+        db.add_edge(GraphEdge(
+            src_id=src_id,
+            rel_type=rel_enum,
+            dst_id=dst_id,
+            metadata={"evidence": url, "trigger": rel_type_str},
+        ))

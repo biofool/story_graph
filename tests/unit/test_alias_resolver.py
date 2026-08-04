@@ -3,6 +3,8 @@
 import pytest
 from src.extractor.alias_resolver import (
     canonical_person,
+    canonical_group,
+    canonical_place,
     person_id,
     group_id,
     place_id,
@@ -29,6 +31,40 @@ class TestCanonicalPerson:
         assert canonical_person("Laura Garon") == "laura garon"
 
 
+class TestCanonicalGroup:
+    def test_source_family_variants_collapse(self):
+        assert canonical_group("The Source Family") == canonical_group("Source Family")
+        assert canonical_group("Source Family") == "the source family"
+
+    def test_source_restaurant_variants_collapse(self):
+        assert canonical_group("The Source Restaurant") == canonical_group("The Source")
+        assert canonical_group("The Source") == "the source restaurant"
+
+    def test_yahowha_variants_collapse(self):
+        assert canonical_group("Yahowha 13") == canonical_group("Ya Ho Wa 13")
+        assert canonical_group("Yahowha") == "ya ho wa 13"
+
+    def test_unknown_passes_through(self):
+        assert canonical_group("Some Other Group") == "some other group"
+
+
+class TestCanonicalPlace:
+    def test_la_collapses_to_los_angeles(self):
+        assert canonical_place("LA") == canonical_place("Los Angeles")
+        assert canonical_place("LA") == "los angeles"
+
+    def test_kauai_compound_collapses(self):
+        assert canonical_place("Kauai compound") == canonical_place("Kauai")
+        assert canonical_place("Kauai compound") == "kauai"
+
+    def test_fairmont_variants_collapse(self):
+        assert canonical_place("Fairmont Hotel") == canonical_place("Fairmont Hotel San Francisco")
+        assert canonical_place("The Fairmont Hotel") == "fairmont hotel san francisco"
+
+    def test_unknown_passes_through(self):
+        assert canonical_place("Detroit") == "detroit"
+
+
 class TestPersonId:
     def test_stable(self):
         assert person_id("Jim Baker") == person_id("Father Yod")
@@ -45,12 +81,22 @@ class TestGroupId:
         assert gid.startswith("group:")
         assert "source-family" in gid
 
+    def test_aliases_collapse_to_same_id(self):
+        assert group_id("The Source Family") == group_id("Source Family")
+        assert group_id("The Source Restaurant") == group_id("The Source")
+        assert group_id("Yahowha 13") == group_id("Ya Ho Wa 13")
+
 
 class TestPlaceId:
     def test_basic(self):
         plid = place_id("Sunset Strip")
         assert plid.startswith("place:")
         assert "sunset-strip" in plid
+
+    def test_aliases_collapse_to_same_id(self):
+        assert place_id("LA") == place_id("Los Angeles")
+        assert place_id("Kauai compound") == place_id("Kauai")
+        assert place_id("Fairmont Hotel") == place_id("Fairmont Hotel San Francisco")
 
 
 class TestEventId:

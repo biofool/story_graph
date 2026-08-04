@@ -32,6 +32,8 @@ from src.storage.models import NodeType
 from src.utils.text_utils import get_domain
 from scripts._pipeline_helpers import process_page, classify_source
 
+console = Console()
+
 
 @click.command()
 @click.option("--max-depth", default=None, type=int, help="Override max crawl depth")
@@ -83,6 +85,9 @@ def main(max_depth, max_pages, skip_crawl, db_path):
     # Phase 3: Detect contradictions + timeline
     console.print("[bold]Phase 3: Detecting contradictions and building timeline[/bold]")
     detector = ContradictionDetector(db)
+    inferred = detector.infer_implicit_targets()
+    if inferred:
+        console.print(f"  [dim]Inferred {inferred} implicit ABOUT edges for targetless claims[/dim]")
     contradictions = detector.detect_contradictions()
     timeline_edges = detector.build_timeline_edges()
 
