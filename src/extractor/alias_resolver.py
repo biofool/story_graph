@@ -32,7 +32,7 @@ KNOWN_PERSONS: dict[str, list[str]] = {
     "djin aquarian": ["Djin Aquarian"],
     "rhythm aquarian": ["Rhythm Aquarian"],
     "hom aquarian": ["Hom Aquarian"],
-    "electronically hughes": ["Electronically Hughes"],
+    "electricity aquarian": ["Electricity Aquarian"],
 }
 
 # Set of all known person aliases (lowercased) for quick membership checks.

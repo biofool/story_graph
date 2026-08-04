@@ -10,7 +10,6 @@ import re
 from typing import Optional
 
 from src.extractor.alias_resolver import (
-    ALIAS_MAP,
     KNOWN_PERSONS,
     KNOWN_PERSON_ALIASES,
     KNOWN_GROUPS,
@@ -157,7 +156,7 @@ class EntityExtractor:
         groups = self._extract_groups(text)
         places = self._extract_places(text)
         events = self._extract_events(text)
-        claims = self._extract_claims(text)
+        claims = self._extract_claims(text, persons, groups)
         relations = self._extract_relations(text, persons, groups, places)
 
         return {
@@ -329,10 +328,31 @@ class EntityExtractor:
 
         return events
 
-    def _extract_claims(self, text: str) -> list[dict]:
-        """Extract claims: sentences containing assertion verbs."""
+    def _extract_claims(
+        self,
+        text: str,
+        persons: Optional[list[dict]] = None,
+        groups: Optional[list[dict]] = None,
+    ) -> list[dict]:
+        """Extract claims: sentences containing assertion verbs.
+
+        When ``persons`` and ``groups`` are provided (the already-extracted
+        entities for the full text), targets are identified by checking
+        which of those entities' surface forms appear in each claim
+        sentence — avoiding a redundant spaCy NER pass per sentence.
+        """
         claims = []
         sentences = split_sentences(text)
+
+        # Pre-index surface forms for fast per-sentence membership tests.
+        person_surfaces = (
+            {p.get("raw_name") or p["name"]: p["name"] for p in persons}
+            if persons else {}
+        )
+        group_surfaces = (
+            {g.get("raw_name") or g["name"]: g["name"] for g in groups}
+            if groups else {}
+        )
 
         for sent in sentences:
             sent_lower = sent.lower()
@@ -350,12 +370,20 @@ class EntityExtractor:
             # Try to identify speaker (heuristic: "X said/claimed/..." or "X, ... said")
             speaker = self._extract_speaker(sent)
 
-            # Identify targets (persons/groups mentioned in the sentence)
+            # Identify targets: persons/groups whose surface form appears
+            # in this sentence. Reuse the already-extracted entities when
+            # available; fall back to per-sentence extraction otherwise.
             targets = []
-            for p in self._extract_persons(sent):
-                targets.append({"type": "person", "name": p["name"]})
-            for g in self._extract_groups(sent):
-                targets.append({"type": "group", "name": g["name"]})
+            if person_surfaces or group_surfaces:
+                for canonical in self._surfaces_in_sentence(sent, person_surfaces):
+                    targets.append({"type": "person", "name": canonical})
+                for canonical in self._surfaces_in_sentence(sent, group_surfaces):
+                    targets.append({"type": "group", "name": canonical})
+            else:
+                for p in self._extract_persons(sent):
+                    targets.append({"type": "person", "name": p["name"]})
+                for g in self._extract_groups(sent):
+                    targets.append({"type": "group", "name": g["name"]})
 
             claims.append({
                 "text": sent,

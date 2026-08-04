@@ -6,12 +6,10 @@ Also builds timeline edges (PRECEDES) from event dates.
 from __future__ import annotations
 
 import logging
-from typing import Optional
 from collections import defaultdict
 
 from src.storage.graph_db import GraphDB
 from src.storage.models import (
-    GraphNode,
     GraphEdge,
     NodeType,
     RelationType,
