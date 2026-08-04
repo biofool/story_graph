@@ -18,7 +18,7 @@ spacy>=3.7.0
 
 # LLM (Gemini / Google Gen AI SDK) — optional, used for seed discovery,
 # structured entity/claim extraction, and graph Q&A.
-google-genai>=1.0.0
+google-genai
 
 # Rate limiting & retry
 tenacity>=8.2.0
