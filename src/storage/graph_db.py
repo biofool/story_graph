@@ -9,17 +9,16 @@ import json
 import logging
 import sqlite3
 from pathlib import Path
-from typing import Optional, Any
 
 from src.storage.models import (
-    GraphNode,
+    BiasHint,
+    ClaimSourceLink,
     GraphEdge,
+    GraphNode,
     NodeType,
     RelationType,
-    SourceRecord,
-    ClaimSourceLink,
     SourceClass,
-    BiasHint,
+    SourceRecord,
 )
 
 _log = logging.getLogger(__name__)
@@ -98,6 +97,18 @@ class GraphDB:
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.close()
 
+    def _get_conn(self) -> sqlite3.Connection:
+        """Return the open connection, or raise a clear error if closed.
+
+        Guards against use-after-close (including after exiting a
+        ``with GraphDB(...) as db:`` block, since ``__exit__`` calls
+        ``close()``), so callers get a readable ``RuntimeError`` instead
+        of an ``AttributeError`` from calling a method on ``None``.
+        """
+        if self._conn is None:
+            raise RuntimeError("GraphDB is closed")
+        return self._conn
+
     # --- Node operations ---
 
     def add_node(self, node: GraphNode):
@@ -115,7 +126,7 @@ class GraphDB:
             canonical = node.canonical_name
             label = node.label
 
-        self._conn.execute(
+        self._get_conn().execute(
             """
             INSERT INTO nodes (id, type, label, canonical_name, metadata_json, source_urls_json)
             VALUES (?, ?, ?, ?, ?, ?)
@@ -134,10 +145,10 @@ class GraphDB:
                 json.dumps(merged_urls),
             ),
         )
-        self._conn.commit()
+        self._get_conn().commit()
 
-    def get_node(self, node_id: str) -> Optional[GraphNode]:
-        row = self._conn.execute(
+    def get_node(self, node_id: str) -> GraphNode | None:
+        row = self._get_conn().execute(
             "SELECT * FROM nodes WHERE id = ?", (node_id,)
         ).fetchone()
         if not row:
@@ -152,7 +163,7 @@ class GraphDB:
         )
 
     def get_nodes_by_type(self, node_type: NodeType) -> list[GraphNode]:
-        rows = self._conn.execute(
+        rows = self._get_conn().execute(
             "SELECT * FROM nodes WHERE type = ? ORDER BY label",
             (node_type.value,),
         ).fetchall()
@@ -172,7 +183,7 @@ class GraphDB:
 
     def add_edge(self, edge: GraphEdge):
         """Insert edge if not already present (ignore duplicates)."""
-        self._conn.execute(
+        self._get_conn().execute(
             """
             INSERT OR IGNORE INTO edges (src_id, rel_type, dst_id, metadata_json)
             VALUES (?, ?, ?, ?)
@@ -184,10 +195,10 @@ class GraphDB:
                 json.dumps(edge.metadata),
             ),
         )
-        self._conn.commit()
+        self._get_conn().commit()
 
     def get_edges_from(self, node_id: str) -> list[GraphEdge]:
-        rows = self._conn.execute(
+        rows = self._get_conn().execute(
             "SELECT * FROM edges WHERE src_id = ?", (node_id,)
         ).fetchall()
         return [
@@ -201,7 +212,7 @@ class GraphDB:
         ]
 
     def get_edges_to(self, node_id: str) -> list[GraphEdge]:
-        rows = self._conn.execute(
+        rows = self._get_conn().execute(
             "SELECT * FROM edges WHERE dst_id = ?", (node_id,)
         ).fetchall()
         return [
@@ -215,7 +226,7 @@ class GraphDB:
         ]
 
     def get_all_edges(self) -> list[GraphEdge]:
-        rows = self._conn.execute("SELECT * FROM edges").fetchall()
+        rows = self._get_conn().execute("SELECT * FROM edges").fetchall()
         return [
             GraphEdge(
                 src_id=r["src_id"],
@@ -230,7 +241,7 @@ class GraphDB:
 
     def add_source(self, source: SourceRecord):
         """Insert or update a source record (upsert by id)."""
-        self._conn.execute(
+        self._get_conn().execute(
             """
             INSERT INTO sources (id, url, title, author, publish_date, platform, raw_text, source_class, bias_hint)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
@@ -255,18 +266,18 @@ class GraphDB:
                 source.bias_hint.value if source.bias_hint else None,
             ),
         )
-        self._conn.commit()
+        self._get_conn().commit()
 
-    def get_source_by_url(self, url: str) -> Optional[SourceRecord]:
-        row = self._conn.execute(
+    def get_source_by_url(self, url: str) -> SourceRecord | None:
+        row = self._get_conn().execute(
             "SELECT * FROM sources WHERE url = ?", (url,)
         ).fetchone()
         if not row:
             return None
         return self._row_to_source(row)
 
-    def get_source(self, source_id: str) -> Optional[SourceRecord]:
-        row = self._conn.execute(
+    def get_source(self, source_id: str) -> SourceRecord | None:
+        row = self._get_conn().execute(
             "SELECT * FROM sources WHERE id = ?", (source_id,)
         ).fetchone()
         if not row:
@@ -274,7 +285,7 @@ class GraphDB:
         return self._row_to_source(row)
 
     def get_all_sources(self) -> list[SourceRecord]:
-        rows = self._conn.execute("SELECT * FROM sources ORDER BY url").fetchall()
+        rows = self._get_conn().execute("SELECT * FROM sources ORDER BY url").fetchall()
         return [self._row_to_source(r) for r in rows]
 
     def _row_to_source(self, row: sqlite3.Row) -> SourceRecord:
@@ -293,7 +304,7 @@ class GraphDB:
     # --- Claim-source link operations ---
 
     def add_claim_source_link(self, link: ClaimSourceLink):
-        self._conn.execute(
+        self._get_conn().execute(
             """
             INSERT OR IGNORE INTO claim_sources (claim_id, source_id, quote_span_start, quote_span_end)
             VALUES (?, ?, ?, ?)
@@ -305,13 +316,13 @@ class GraphDB:
                 link.quote_span_end,
             ),
         )
-        self._conn.commit()
+        self._get_conn().commit()
 
     # --- Query helpers ---
 
     def get_claims_about(self, node_id: str) -> list[GraphNode]:
         """Get all Claim nodes that have an ABOUT edge targeting node_id."""
-        rows = self._conn.execute(
+        rows = self._get_conn().execute(
             """
             SELECT n.* FROM nodes n
             JOIN edges e ON e.src_id = n.id AND e.rel_type = 'ABOUT'
@@ -333,7 +344,7 @@ class GraphDB:
 
     def get_persons_connected_to_group(self, group_label_substr: str) -> list[tuple[str, str]]:
         """Get (person_label, relation_type) for persons connected to groups matching label substring."""
-        rows = self._conn.execute(
+        rows = self._get_conn().execute(
             """
             SELECT n.label AS person_label, e.rel_type
             FROM edges e
@@ -347,7 +358,7 @@ class GraphDB:
 
     def get_contradictions(self) -> list[tuple[str, str]]:
         """Get pairs of contradicting claim texts."""
-        rows = self._conn.execute(
+        rows = self._get_conn().execute(
             """
             SELECT c1.label AS claim1, c2.label AS claim2
             FROM edges e
@@ -359,13 +370,13 @@ class GraphDB:
         return [(r["claim1"], r["claim2"]) for r in rows]
 
     def get_node_count(self) -> int:
-        row = self._conn.execute("SELECT COUNT(*) AS c FROM nodes").fetchone()
+        row = self._get_conn().execute("SELECT COUNT(*) AS c FROM nodes").fetchone()
         return row["c"]
 
     def get_edge_count(self) -> int:
-        row = self._conn.execute("SELECT COUNT(*) AS c FROM edges").fetchone()
+        row = self._get_conn().execute("SELECT COUNT(*) AS c FROM edges").fetchone()
         return row["c"]
 
     def get_source_count(self) -> int:
-        row = self._conn.execute("SELECT COUNT(*) AS c FROM sources").fetchone()
+        row = self._get_conn().execute("SELECT COUNT(*) AS c FROM sources").fetchone()
         return row["c"]
