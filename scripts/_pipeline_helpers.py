@@ -7,28 +7,28 @@ crawled page and stores them in the graph database.
 from __future__ import annotations
 
 from src.crawler.web_crawler import CrawledPage
-from src.extractor.entity_extractor import EntityExtractor
-from src.extractor.claim_extractor import ClaimExtractor
 from src.extractor.alias_resolver import (
-    person_id,
-    group_id,
-    place_id,
-    event_id,
-    work_id,
-    resolve_target_id,
     canonical_person,
+    event_id,
     get_aliases_for_canonical,
+    group_id,
+    person_id,
+    place_id,
+    resolve_target_id,
+    work_id,
 )
+from src.extractor.claim_extractor import ClaimExtractor
+from src.extractor.entity_extractor import EntityExtractor
 from src.storage.graph_db import GraphDB
 from src.storage.models import (
-    GraphNode,
+    BiasHint,
+    ClaimSourceLink,
     GraphEdge,
+    GraphNode,
     NodeType,
     RelationType,
-    SourceRecord,
-    ClaimSourceLink,
     SourceClass,
-    BiasHint,
+    SourceRecord,
 )
 from src.utils.text_utils import get_domain
 
@@ -51,9 +51,7 @@ def classify_source(url: str, title: str, text: str) -> tuple[SourceClass, BiasH
 
     if "blogspot" in domain or "wordpress" in domain:
         source_class = SourceClass.PRIMARY_FIRST_PERSON
-    elif "wikipedia" in domain:
-        source_class = SourceClass.JOURNALISTIC
-    elif "cultnews" in domain or "latimes" in domain:
+    elif "wikipedia" in domain or "cultnews" in domain or "latimes" in domain:
         source_class = SourceClass.JOURNALISTIC
     elif "youtube" in domain:
         source_class = SourceClass.DOCUMENTARY_PROMOTIONAL

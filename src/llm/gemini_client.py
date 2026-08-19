@@ -12,7 +12,7 @@ from __future__ import annotations
 import json
 import logging
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 from config.settings import settings
 
@@ -45,8 +45,8 @@ class GeminiClient:
 
     def __init__(
         self,
-        api_key: Optional[str] = None,
-        model: Optional[str] = None,
+        api_key: str | None = None,
+        model: str | None = None,
     ):
         self._api_key = api_key if api_key is not None else settings.gemini_api_key
         self._model = model or settings.gemini_model
@@ -92,7 +92,7 @@ class GeminiClient:
         self,
         contents: str,
         *,
-        model: Optional[str] = None,
+        model: str | None = None,
         config: Any = None,
     ) -> Any:
         """Call ``client.models.generate_content`` and return the raw response.
@@ -116,8 +116,8 @@ class GeminiClient:
         self,
         prompt: str,
         *,
-        model: Optional[str] = None,
-        system_instruction: Optional[str] = None,
+        model: str | None = None,
+        system_instruction: str | None = None,
     ) -> str:
         """Plain text generation. Returns the model's text output."""
         from google.genai import types  # type: ignore
@@ -134,8 +134,8 @@ class GeminiClient:
         prompt: str,
         response_schema: dict[str, Any],
         *,
-        model: Optional[str] = None,
-        system_instruction: Optional[str] = None,
+        model: str | None = None,
+        system_instruction: str | None = None,
     ) -> Any:
         """Structured JSON generation constrained to ``response_schema``.
 
@@ -159,7 +159,7 @@ class GeminiClient:
         except json.JSONDecodeError as e:
             raise GeminiError(f"Gemini returned invalid JSON: {e}\n{text}") from e
 
-    def generate_grounded(self, prompt: str, *, model: Optional[str] = None) -> GroundingResult:
+    def generate_grounded(self, prompt: str, *, model: str | None = None) -> GroundingResult:
         """Generation with Google Search grounding.
 
         Returns the text plus the cited web sources extracted from

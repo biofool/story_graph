@@ -1,21 +1,20 @@
 """Integration test: process a mock page and verify graph construction."""
 
-import pytest
-import tempfile
 import os
 import sys
+import tempfile
 from pathlib import Path
 
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
+from scripts._pipeline_helpers import process_page
+from src.crawler.web_crawler import CrawledPage
+from src.extractor.alias_resolver import group_id, person_id, work_id
+from src.extractor.claim_extractor import ClaimExtractor
+from src.extractor.entity_extractor import EntityExtractor
 from src.storage.graph_db import GraphDB
 from src.storage.models import NodeType
-from src.crawler.web_crawler import CrawledPage
-from src.extractor.entity_extractor import EntityExtractor
-from src.extractor.claim_extractor import ClaimExtractor
-from src.extractor.alias_resolver import person_id, group_id, work_id
-from scripts._pipeline_helpers import process_page
 
 
 def test_process_page_builds_graph():

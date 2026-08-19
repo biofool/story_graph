@@ -6,9 +6,7 @@ from __future__ import annotations
 
 import hashlib
 import re
-from datetime import datetime
-from typing import Optional
-from urllib.parse import urlparse, urljoin
+from urllib.parse import urljoin, urlparse
 
 
 def normalize(text: str) -> str:
@@ -44,8 +42,7 @@ def get_domain(url: str) -> str:
     parsed = urlparse(url)
     host = parsed.hostname or ""
     # Strip leading 'www.'
-    if host.startswith("www."):
-        host = host[4:]
+    host = host.removeprefix("www.")
     return host.lower()
 
 
@@ -90,7 +87,7 @@ def clean_text(html_text: str) -> str:
     return text.strip()
 
 
-def extract_date_from_text(text: str) -> Optional[str]:
+def extract_date_from_text(text: str) -> str | None:
     """Try to find a date string in text. Returns ISO format YYYY-MM-DD if found."""
     # Common date patterns
     patterns = [

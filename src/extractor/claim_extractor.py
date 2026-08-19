@@ -6,11 +6,10 @@ Wraps the entity extractor's claim detection and provides structured output.
 from __future__ import annotations
 
 import logging
-from typing import Optional
 
-from src.extractor.entity_extractor import EntityExtractor, CLAIM_TRIGGERS
-from src.extractor.alias_resolver import canonical_person, person_id
-from src.utils.text_utils import split_sentences, stable_hash
+from src.extractor.alias_resolver import person_id
+from src.extractor.entity_extractor import CLAIM_TRIGGERS, EntityExtractor
+from src.utils.text_utils import stable_hash
 
 _log = logging.getLogger(__name__)
 
@@ -18,7 +17,7 @@ _log = logging.getLogger(__name__)
 class ClaimExtractor:
     """Extracts claims from text with stance labels and speaker attribution."""
 
-    def __init__(self, extractor: Optional[EntityExtractor] = None):
+    def __init__(self, extractor: EntityExtractor | None = None):
         self._extractor = extractor or EntityExtractor()
 
     def extract_claims(self, text: str, source_url: str = "") -> list[dict]:

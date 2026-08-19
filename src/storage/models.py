@@ -5,7 +5,8 @@ Data models for the story graph: nodes, edges, sources, and claim-source links.
 from __future__ import annotations
 
 from enum import Enum
-from typing import Optional, Any
+from typing import Any
+
 from pydantic import BaseModel, Field
 
 
@@ -81,7 +82,7 @@ class GraphNode(BaseModel):
     id: str
     type: NodeType
     label: str
-    canonical_name: Optional[str] = None
+    canonical_name: str | None = None
     metadata: dict[str, Any] = Field(default_factory=dict)
     source_urls: list[str] = Field(default_factory=list)
 
@@ -98,18 +99,18 @@ class SourceRecord(BaseModel):
     """A crawled source page."""
     id: str
     url: str
-    title: Optional[str] = None
-    author: Optional[str] = None
-    publish_date: Optional[str] = None
-    platform: Optional[str] = None
-    raw_text: Optional[str] = None
-    source_class: Optional[SourceClass] = None
-    bias_hint: Optional[BiasHint] = None
+    title: str | None = None
+    author: str | None = None
+    publish_date: str | None = None
+    platform: str | None = None
+    raw_text: str | None = None
+    source_class: SourceClass | None = None
+    bias_hint: BiasHint | None = None
 
 
 class ClaimSourceLink(BaseModel):
     """Links a claim to a source with optional quote span."""
     claim_id: str
     source_id: str
-    quote_span_start: Optional[int] = None
-    quote_span_end: Optional[int] = None
+    quote_span_start: int | None = None
+    quote_span_end: int | None = None

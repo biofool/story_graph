@@ -5,21 +5,18 @@ All tests use a fake GeminiClient so no network or API key is required.
 
 from __future__ import annotations
 
-import json
 import os
 import tempfile
-from dataclasses import dataclass, field
 from typing import Any
 
 import pytest
 
+from src.llm.entity_claim_extractor import GeminiClaimExtractor, GeminiExtractor
 from src.llm.gemini_client import GroundingResult
-from src.llm.seed_discoverer import SeedDiscoverer
-from src.llm.entity_claim_extractor import GeminiExtractor, GeminiClaimExtractor
 from src.llm.graph_qa import GraphQA
+from src.llm.seed_discoverer import SeedDiscoverer
 from src.storage.graph_db import GraphDB
-from src.storage.models import GraphNode, GraphEdge, NodeType, RelationType
-
+from src.storage.models import GraphEdge, GraphNode, NodeType, RelationType
 
 # --- shared fake client ---
 

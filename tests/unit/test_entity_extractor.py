@@ -1,6 +1,7 @@
 """Unit tests for entity extraction."""
 
 import pytest
+
 from src.extractor.entity_extractor import EntityExtractor, _is_valid_person_name
 
 
