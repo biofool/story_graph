@@ -11,7 +11,6 @@ import json
 import logging
 import re
 from dataclasses import dataclass
-from typing import Optional
 
 from src.llm.gemini_client import GeminiClient, GeminiError
 from src.storage.graph_db import GraphDB
@@ -41,7 +40,7 @@ class QAResponse:
 class GraphQA:
     """Answers natural-language questions over the graph via Gemini."""
 
-    def __init__(self, db: GraphDB, client: Optional[GeminiClient] = None):
+    def __init__(self, db: GraphDB, client: GeminiClient | None = None):
         self._db = db
         self._client = client or GeminiClient()
 

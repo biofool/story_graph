@@ -10,7 +10,6 @@ from __future__ import annotations
 
 import logging
 from dataclasses import dataclass
-from typing import Optional
 
 from src.llm.gemini_client import GeminiClient, GeminiError
 from src.utils.text_utils import get_domain
@@ -38,14 +37,14 @@ class DiscoveredSeed:
 class SeedDiscoverer:
     """Discovers new seed URLs using Gemini's Google Search grounding."""
 
-    def __init__(self, client: Optional[GeminiClient] = None):
+    def __init__(self, client: GeminiClient | None = None):
         self._client = client or GeminiClient()
 
     def discover(
         self,
-        query: Optional[str] = None,
+        query: str | None = None,
         *,
-        exclude_urls: Optional[set[str]] = None,
+        exclude_urls: set[str] | None = None,
     ) -> list[DiscoveredSeed]:
         """Run a grounded search and return discovered seed URLs.
 

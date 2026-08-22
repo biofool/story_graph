@@ -1,12 +1,13 @@
 """Unit tests for contradiction detection."""
 
-import pytest
-import tempfile
 import os
+import tempfile
 
-from src.storage.graph_db import GraphDB
-from src.storage.models import GraphNode, GraphEdge, NodeType, RelationType
+import pytest
+
 from src.extractor.contradiction_detector import ContradictionDetector
+from src.storage.graph_db import GraphDB
+from src.storage.models import GraphEdge, GraphNode, NodeType, RelationType
 
 
 @pytest.fixture

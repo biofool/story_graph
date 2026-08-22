@@ -8,10 +8,7 @@ Usage:
 
 from __future__ import annotations
 
-import json
-import logging
 import sys
-import os
 from pathlib import Path
 
 # Add project root to path
@@ -23,14 +20,13 @@ from rich.console import Console
 from rich.table import Table
 
 from config.settings import settings
-from src.crawler.web_crawler import WebCrawler, CrawledPage
-from src.extractor.entity_extractor import EntityExtractor
+from scripts._pipeline_helpers import process_page
+from src.crawler.web_crawler import WebCrawler
 from src.extractor.claim_extractor import ClaimExtractor
 from src.extractor.contradiction_detector import ContradictionDetector
+from src.extractor.entity_extractor import EntityExtractor
 from src.storage.graph_db import GraphDB
 from src.storage.models import NodeType
-from src.utils.text_utils import get_domain
-from scripts._pipeline_helpers import process_page, classify_source
 
 console = Console()
 

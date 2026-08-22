@@ -1,19 +1,18 @@
 """Unit tests for alias resolution."""
 
-import pytest
 from src.extractor.alias_resolver import (
-    canonical_person,
     canonical_group,
+    canonical_person,
     canonical_place,
-    person_id,
-    group_id,
-    place_id,
-    event_id,
-    work_id,
     claim_id,
+    event_id,
     get_aliases_for_canonical,
+    group_id,
     is_aquarian_name,
+    person_id,
+    place_id,
     resolve_target_id,
+    work_id,
 )
 
 

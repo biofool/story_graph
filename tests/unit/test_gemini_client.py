@@ -7,7 +7,6 @@ helpers are exercised via the fake response objects below.
 
 from __future__ import annotations
 
-import json
 from dataclasses import dataclass, field
 from typing import Any
 
@@ -16,11 +15,9 @@ import pytest
 from src.llm.gemini_client import (
     GeminiClient,
     GeminiError,
-    GroundingResult,
-    _response_text,
     _extract_grounding_sources,
+    _response_text,
 )
-
 
 # --- fake SDK response shapes ---
 

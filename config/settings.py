@@ -5,7 +5,6 @@ Reads from .env and provides typed access to settings.
 
 import os
 from pathlib import Path
-from typing import Optional
 
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field
