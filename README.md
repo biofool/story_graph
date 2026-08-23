@@ -94,8 +94,40 @@ story_graph/
 ├── scripts/
 │   └── 01_crawl_and_build_graph.py
 ├── tests/
-└── data/
+├── graph_snapshot/              # Tracked JSON/JSONL graph (source of truth)
+└── data/                        # data/graph.db: local SQLite working copy (git-ignored)
 ```
+
+## Data storage: JSON snapshot is the source of truth, SQLite is a local working copy
+
+The graph is stored two ways, deliberately with different lifecycles:
+
+- **`graph_snapshot/`** (repo root) — the tracked, version-controlled source
+  of truth. One JSONL file per entity type (`nodes.jsonl`, `edges.jsonl`,
+  `sources.jsonl`, `claim_sources.jsonl`), one JSON object per line, sorted
+  deterministically by id. This is what reviewers see change in an MR diff.
+- **`data/graph.db`** — a disposable local SQLite working copy, git-ignored.
+  `GraphDB` (`src/storage/graph_db.py`) still does all the actual
+  reading/writing/querying during a run; nothing else changes about how the
+  pipeline works internally.
+
+`src/storage/json_export.py` translates between the two:
+`import_from_json`/`load_from_json` rebuilds a fresh `data/graph.db` from
+`graph_snapshot/` at the start of a run, and `export_to_json` writes the
+resulting graph back out to `graph_snapshot/` when the run finishes.
+`scripts/03_targeted_entity_research.py` does both automatically; see its
+module docstring for the exact phases.
+
+JSON was chosen over committing `data/graph.db` directly because a JSONL
+diff shows exactly which nodes/edges/sources changed, one readable line at
+a time, where a SQLite file would only ever show as an opaque binary diff
+in a merge request. The tradeoff is JSON/JSONL's usual limits — no indexes,
+no concurrent writers, a full-file rewrite on every export. **This can be
+revisited** (e.g. back to SQLite as the tracked format, or a real
+server-side DB) if the graph ever grows large enough for JSON export/import
+or diffing to become an actual performance problem; until then, GraphDB
+remains the only code that understands the graph's schema, so switching the
+tracked format later should not require touching call sites elsewhere.
 
 ## Querying the graph
 
