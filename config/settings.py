@@ -58,6 +58,12 @@ class Settings(BaseModel):
     raw_pages_dir: str = Field(
         default_factory=lambda: os.getenv("RAW_PAGES_DIR", "data/raw")
     )
+    # Tracked/version-controlled JSON snapshot of the graph (source of
+    # truth) — data/graph.db above is only the local SQLite working copy
+    # rebuilt from this at pipeline startup. See src/storage/json_export.py.
+    graph_snapshot_dir: str = Field(
+        default_factory=lambda: os.getenv("GRAPH_SNAPSHOT_DIR", "graph_snapshot")
+    )
 
     # Seed URLs
     seed_urls: list[str] = Field(
@@ -96,6 +102,13 @@ class Settings(BaseModel):
     @property
     def raw_pages_abs_dir(self) -> Path:
         p = Path(self.raw_pages_dir)
+        if not p.is_absolute():
+            p = PROJECT_ROOT / p
+        return p
+
+    @property
+    def graph_snapshot_abs_dir(self) -> Path:
+        p = Path(self.graph_snapshot_dir)
         if not p.is_absolute():
             p = PROJECT_ROOT / p
         return p
