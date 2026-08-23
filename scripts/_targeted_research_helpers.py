@@ -16,6 +16,12 @@ Two kinds of helpers live in this module:
   ``store_kkron_claim``) that store kkron's own first-hand claims using the
   same GraphDB/GraphNode/GraphEdge storage layer as scripts/_pipeline_helpers
   — covered by tests/integration/test_targeted_research_pipeline.py.
+
+None of this module writes to or reads from ``graph_snapshot/`` directly —
+that JSON-snapshot-is-source-of-truth load/export lifecycle lives in
+scripts/03_targeted_entity_research.py's ``main()``, via
+src/storage/json_export.py. This module only ever touches the ``GraphDB``
+instance it is handed.
 """
 
 from __future__ import annotations
