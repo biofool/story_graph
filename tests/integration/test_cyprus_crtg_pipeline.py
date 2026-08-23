@@ -15,9 +15,11 @@ from src.storage.graph_db import GraphDB
 from src.storage.models import NodeType, RelationType
 from scripts._cyprus_crtg_helpers import (
     CRTG_GROUP_NAME,
+    CYPRUS_FULBRIGHT_COMMISSION_NAME,
     DEFAULT_LEADS,
     KKRON_SOURCE_PERSON_ID,
     KKRON_WORK_ID,
+    citation_source_url,
     store_lead_claim,
 )
 
@@ -165,6 +167,56 @@ def test_all_default_leads_can_be_stored_and_produce_one_claim_each():
         higher_conf_claims = [c for c in claims if c.metadata["provenance"] != "kkron"]
         assert higher_conf_claims
         assert any(c.metadata["confidence"] > 0.5 for c in higher_conf_claims)
+    finally:
+        db.close()
+        os.unlink(db_path)
+
+
+def _thorsen_hired_lead():
+    return next(l for l in DEFAULT_LEADS if l.subject_name == "Christopher Thorsen"
+                and l.relation == RelationType.WORKED_AT)
+
+
+def test_citation_pending_lead_stores_placeholder_source_and_flags_citation_needed():
+    """Covers the 2026-08-23 'citation, pending exact identification'
+    mechanism end to end against a real SQLite GraphDB."""
+    with tempfile.NamedTemporaryFile(suffix=".db", delete=False) as f:
+        db_path = f.name
+    db = GraphDB(db_path)
+    try:
+        lead = _thorsen_hired_lead()
+        cid = store_lead_claim(db, lead)
+
+        claim = db.get_node(cid)
+        assert claim is not None
+        assert claim.metadata["provenance"] == "citation"
+        assert claim.metadata["citation_needed"] is True
+
+        pseudo_url = citation_source_url(lead)
+        assert pseudo_url.startswith("pseudo://citation-needed/")
+        source = db.get_source_by_url(pseudo_url)
+        assert source is not None
+
+        # Not attributed to kkron.
+        edge_triples = {(e.src_id, e.rel_type, e.dst_id) for e in db.get_all_edges()}
+        assert (cid, RelationType.ASSERTED_BY, KKRON_SOURCE_PERSON_ID) not in edge_triples
+    finally:
+        db.close()
+        os.unlink(db_path)
+
+
+def test_thorsen_node_records_both_spellings_via_also_known_as():
+    with tempfile.NamedTemporaryFile(suffix=".db", delete=False) as f:
+        db_path = f.name
+    db = GraphDB(db_path)
+    try:
+        lead = _thorsen_hired_lead()
+        store_lead_claim(db, lead)
+
+        thorsen = db.get_node(lead.subject_id())
+        assert thorsen is not None
+        assert "Chris Thorsen" in thorsen.metadata["also_known_as"]
+        assert "Thorson" in thorsen.metadata["also_known_as"]
     finally:
         db.close()
         os.unlink(db_path)
