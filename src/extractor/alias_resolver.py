@@ -47,6 +47,10 @@ KNOWN_GROUPS: dict[str, list[str]] = {
     "the source family": ["The Source Family", "Source Family"],
     "the source restaurant": ["The Source Restaurant", "The Source"],
     "ya ho wa 13": ["Ya Ho Wa 13", "Yahowha 13"],
+    # Jim Baker's earlier, pre-Source restaurant (see
+    # scripts/03_targeted_entity_research.py).
+    "aware inn": ["Aware Inn", "The Aware Inn"],
+    "wild mountain cafe": ["Wild Mountain Cafe", "Wild Mountain Café"],
 }
 
 # Group alias map: any alias (normalized) -> canonical group name (normalized).
@@ -61,6 +65,10 @@ GROUP_ALIAS_MAP: dict[str, str] = {
     "ya ho wa 13": "ya ho wa 13",
     "yahowha 13": "ya ho wa 13",
     "yahowha": "ya ho wa 13",
+    "aware inn": "aware inn",
+    "the aware inn": "aware inn",
+    "wild mountain cafe": "wild mountain cafe",
+    "wild mountain café": "wild mountain cafe",
 }
 
 # Known places
