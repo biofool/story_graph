@@ -330,6 +330,48 @@ DEFAULT_LEADS: list[ResearchLead] = [
 ]
 
 
+def lead_search_priority(lead: ResearchLead) -> float:
+    """Priority score for search ordering — higher = search first.
+
+    The tiered search strategy uses free-tier Gemini quota first, so the
+    leads with the most to gain from independent corroboration should be
+    searched first (while free quota is still available). The score is:
+
+    - **High kkron confidence + not yet corroborated** = highest priority.
+      These are the leads where independent corroboration would produce
+      the biggest confidence jump (from capped 0.5 to uncapped ~1.0).
+    - **Citation-sourced leads** (source_url set) get a moderate priority:
+      they already have one cited source, so additional corroboration is
+      valuable but less critical than an uncorroborated first-hand claim.
+    - **Low kkron confidence** (e.g. Wild Mountain Cafe at 0.35) gets
+      lower priority — less likely to find anything, and the confidence
+      gain is smaller even if found.
+    """
+    # Citation-sourced leads: moderate priority based on source_confidence.
+    if lead.source_url is not None:
+        return 0.3 + (lead.source_confidence or 0.4) * 0.2  # 0.38-0.50
+
+    # kkron-sourced leads: priority proportional to raw confidence.
+    # Higher confidence = more to gain from corroboration.
+    return lead.kkron_confidence
+
+
+def sort_leads_by_priority(
+    leads: list[ResearchLead],
+    *,
+    free_quota_leads: Optional[int] = None,
+) -> list[ResearchLead]:
+    """Sort leads so the highest-value-for-corroboration leads come first.
+
+    If ``free_quota_leads`` is given (e.g. estimated number of leads that
+    can be searched with remaining free-tier quota), the sort ensures
+    those leads get the highest-priority ones. Leads beyond the free
+    quota will be searched via the paid tier, so the lowest-priority
+    leads end up there (minimizing paid cost).
+    """
+    return sorted(leads, key=lead_search_priority, reverse=True)
+
+
 def effective_kkron_confidence(raw_confidence: float) -> float:
     """Clamp a kkron first-hand confidence into [0, KKRON_CONFIDENCE_CEILING].
 

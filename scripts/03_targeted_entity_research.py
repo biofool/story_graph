@@ -92,6 +92,7 @@ Usage:
 
 from __future__ import annotations
 
+import logging
 import sys
 from pathlib import Path
 
@@ -107,7 +108,7 @@ from config.settings import settings
 from src.crawler.web_crawler import WebCrawler
 from src.extractor.contradiction_detector import ContradictionDetector
 from src.llm.entity_claim_extractor import GeminiClaimExtractor, GeminiExtractor
-from src.llm.gemini_client import GeminiClient
+from src.llm.gemini_client import GeminiClient, TieredGeminiClient
 from src.llm.seed_discoverer import SeedDiscoverer
 from src.storage.graph_db import GraphDB
 from src.storage.json_export import export_to_json, import_from_json, snapshot_exists
@@ -118,18 +119,60 @@ from scripts._targeted_research_helpers import (
     ResearchLead,
     build_search_queries,
     filter_new_urls,
+    lead_search_priority,
+    sort_leads_by_priority,
     store_kkron_claim,
 )
 
 console = Console()
+_log = logging.getLogger(__name__)
+
+_VERTEXAI_REDIRECT_PREFIX = "https://vertexaisearch.cloud.google.com/grounding-api-redirect/"
 
 
-def _require_gemini(client: GeminiClient) -> bool:
+def _resolve_redirect_url(url: str, timeout: int = 10) -> str:
+    """Resolve a Vertex AI grounding redirect URL to its final destination.
+
+    Vertex AI's Google Search grounding returns obfuscated redirect URLs
+    (``vertexaisearch.cloud.google.com/grounding-api-redirect/...``) that
+    302-redirect to the real source URL. The crawler can't fetch the
+    redirect URL directly (returns 403), so we resolve it first via a
+    lightweight HTTP GET with ``allow_redirects=True`` and use the final
+    URL for crawling.
+
+    For non-redirect URLs, returns the input unchanged.
+    """
+    if not url.startswith(_VERTEXAI_REDIRECT_PREFIX):
+        return url
+    try:
+        import requests
+        resp = requests.get(
+            url,
+            allow_redirects=True,
+            timeout=timeout,
+            headers={"User-Agent": settings.crawl_user_agent},
+        )
+        final = resp.url
+        if final and not final.startswith(_VERTEXAI_REDIRECT_PREFIX):
+            return final
+        # If the final URL is still the redirect, try the Location header.
+        location = resp.headers.get("Location", "")
+        if location and not location.startswith(_VERTEXAI_REDIRECT_PREFIX):
+            return location
+        _log.warning("Could not resolve Vertex AI redirect URL: %s", url[:80])
+        return url
+    except Exception as e:
+        _log.warning("Failed to resolve Vertex AI redirect URL: %s", e)
+        return url
+
+
+def _require_gemini(client) -> bool:
     if not client.is_available():
         console.print("[red]Gemini is not available.[/red]")
         console.print(
-            "Set GEMINI_API_KEY in .env (see .env.example). "
-            "Get a key from https://aistudio.google.com/apikey"
+            "Set GEMINI_API_KEY in .env (see .env.example), or configure "
+            "Vertex AI fallback (GEMINI_VERTEXAI_ENABLED=true + ADC). "
+            "Get an AI Studio key from https://aistudio.google.com/apikey"
         )
         return False
     return True
@@ -143,12 +186,15 @@ def _research_lead(
     gemini_claim_ext: GeminiClaimExtractor,
     max_results: int,
     already_seen_urls: set[str],
+    allow_paid: bool = False,
 ) -> dict:
     """Run search + crawl + extraction for one lead. Returns a summary dict."""
     queries = build_search_queries(lead)
     discovered: list[str] = []
     for query in queries:
-        seeds = discoverer.discover(query, exclude_urls=already_seen_urls)
+        seeds = discoverer.discover(
+            query, exclude_urls=already_seen_urls, allow_paid=allow_paid,
+        )
         for s in seeds:
             if s.url not in discovered:
                 discovered.append(s.url)
@@ -157,10 +203,18 @@ def _research_lead(
     discovered = discovered[:max_results]
 
     new_urls = filter_new_urls(discovered, already_seen_urls)
-    processed = 0
-    errors: list[str] = []
+    # Resolve Vertex AI redirect URLs to their final destinations.
+    resolved_urls: list[str] = []
     for url in new_urls:
         already_seen_urls.add(url)
+        final_url = _resolve_redirect_url(url)
+        if final_url != url:
+            already_seen_urls.add(final_url)
+        resolved_urls.append(final_url)
+
+    processed = 0
+    errors: list[str] = []
+    for url in resolved_urls:
         try:
             crawler = WebCrawler(
                 seed_urls=[url],
@@ -213,25 +267,39 @@ def _research_lead(
     help="Don't run web search/crawl/extraction — store kkron's claims only, no network or Gemini calls",
 )
 @click.option(
+    "--no-paid",
+    is_flag=True,
+    help="Only use free-tier AI Studio keys; don't fall back to Vertex AI (paid) when free quota is exhausted",
+)
+@click.option(
+    "--free-quota-leads",
+    default=None,
+    type=int,
+    help="Estimated number of leads searchable with remaining free-tier quota. Leads beyond this are deferred to the paid tier. If unset, all leads are tried free-first and only fall to paid on 429.",
+)
+@click.option(
     "--dry-run",
     is_flag=True,
     help="Print the configured leads and search queries; touch neither the DB nor the network",
 )
-def main(db_path, snapshot_dir, max_results_per_lead, skip_kkron_claims, skip_search, dry_run):
+def main(db_path, snapshot_dir, max_results_per_lead, skip_kkron_claims, skip_search, no_paid, free_quota_leads, dry_run):
     """Targeted research for a hand-picked list of leads (see DEFAULT_LEADS
     in scripts/_targeted_research_helpers.py)."""
     console.print("[bold cyan]Story Graph — Targeted Entity Research[/bold cyan]")
     console.print()
 
     if dry_run:
-        for lead in DEFAULT_LEADS:
+        sorted_leads = sort_leads_by_priority(DEFAULT_LEADS)
+        console.print("[dim]Leads sorted by search priority (highest confidence-gain first):[/dim]")
+        for i, lead in enumerate(sorted_leads):
+            priority = lead_search_priority(lead)
             console.print(
-                f"[yellow]{lead.subject_name}[/yellow] --{lead.relation.value}--> "
+                f"  [{i+1}] [yellow]{lead.subject_name}[/yellow] --{lead.relation.value}--> "
                 f"[yellow]{lead.object_name}[/yellow]  "
-                f"(kkron confidence: {lead.kkron_confidence})"
+                f"(priority: {priority:.2f}, kkron confidence: {lead.kkron_confidence})"
             )
             for q in build_search_queries(lead):
-                console.print(f"    query: {q}")
+                console.print(f"      query: {q}")
         return
 
     db_file = db_path or str(settings.graph_db_abs_path)
@@ -265,19 +333,48 @@ def main(db_path, snapshot_dir, max_results_per_lead, skip_kkron_claims, skip_se
         if not skip_search:
             console.print()
             console.print("[bold]Phase 2: Searching + extracting from independent sources[/bold]")
-            client = GeminiClient()
-            if not _require_gemini(client):
+            console.print("[dim]Tiered strategy: free-tier AI Studio keys first, "
+                          "then Vertex AI (paid) for remaining high-value leads[/dim]")
+
+            # Build the tiered client: free-tier keys first, Vertex AI paid
+            # fallback (unless --no-paid).
+            tiered_client = TieredGeminiClient(
+                vertexai_enabled=not no_paid,
+            )
+            if not _require_gemini(tiered_client):
                 return
-            discoverer = SeedDiscoverer(client)
-            gemini_ext = GeminiExtractor(client)
+
+            # Sort leads by confidence-gain priority — highest-value leads
+            # searched first (while free quota is still available).
+            sorted_leads = sort_leads_by_priority(DEFAULT_LEADS)
+            console.print(f"[dim]Search order (by priority): {len(sorted_leads)} leads[/dim]")
+            for i, lead in enumerate(sorted_leads):
+                console.print(
+                    f"  [dim]{i+1}. {lead.subject_name} --{lead.relation.value}--> "
+                    f"{lead.object_name} (priority: {lead_search_priority(lead):.2f})[/dim]"
+                )
+
+            discoverer = SeedDiscoverer(tiered_client)
+            # Use the same tiered client for extraction too — when free
+            # quota is exhausted, extraction falls back to Vertex AI paid
+            # (allow_paid=True) so we don't lose crawled pages to 429.
+            gemini_ext = GeminiExtractor(tiered_client, allow_paid=not no_paid)
             gemini_claim_ext = GeminiClaimExtractor(gemini_ext)
             already_seen = {s.url for s in db.get_all_sources()}
 
-            for lead in DEFAULT_LEADS:
+            # If --free-quota-leads is set, split leads into free and paid
+            # batches. Otherwise, all leads are tried free-first and fall
+            # to paid on 429 (allow_paid=True for all).
+            allow_paid_for_all = free_quota_leads is None
+            free_leads = sorted_leads if allow_paid_for_all else sorted_leads[:free_quota_leads]
+            paid_leads = [] if allow_paid_for_all else sorted_leads[free_quota_leads:]
+
+            for lead in free_leads:
                 console.print(f"  [{lead.subject_name} --{lead.relation.value}--> {lead.object_name}]")
                 result = _research_lead(
                     lead, db, discoverer, gemini_ext, gemini_claim_ext,
                     max_results_per_lead, already_seen,
+                    allow_paid=allow_paid_for_all and not no_paid,
                 )
                 results.append(result)
                 console.print(
@@ -286,6 +383,29 @@ def main(db_path, snapshot_dir, max_results_per_lead, skip_kkron_claims, skip_se
                 )
                 for err in result["errors"]:
                     console.print(f"    [red]error:[/red] {err}")
+
+            # Paid-tier batch: only if free quota was insufficient and
+            # paid is allowed.
+            if paid_leads and not no_paid:
+                console.print()
+                console.print(f"[bold yellow]Paid-tier batch: {len(paid_leads)} leads via Vertex AI[/bold yellow]")
+                for lead in paid_leads:
+                    console.print(f"  [{lead.subject_name} --{lead.relation.value}--> {lead.object_name}]")
+                    result = _research_lead(
+                        lead, db, discoverer, gemini_ext, gemini_claim_ext,
+                        max_results_per_lead, already_seen,
+                        allow_paid=True,
+                    )
+                    results.append(result)
+                    console.print(
+                        f"    discovered={len(result['discovered'])} "
+                        f"processed={result['processed']} errors={len(result['errors'])}"
+                    )
+                    for err in result["errors"]:
+                        console.print(f"    [red]error:[/red] {err}")
+            elif paid_leads and no_paid:
+                console.print()
+                console.print(f"[yellow]Skipping {len(paid_leads)} leads (--no-paid, free quota exhausted)[/yellow]")
         else:
             console.print("[yellow]Skipping web search (--skip-search)[/yellow]")
 
@@ -314,6 +434,18 @@ def main(db_path, snapshot_dir, max_results_per_lead, skip_kkron_claims, skip_se
                     str(len(r["errors"])),
                 )
             console.print(table)
+
+        # Tiered search cost summary
+        if not skip_search:
+            stats = tiered_client.stats
+            console.print()
+            console.print("[bold]Gemini API cost summary:[/bold]")
+            console.print(f"  [green]Free-tier calls: {stats['free_calls']}[/green]")
+            console.print(f"  [yellow]Paid-tier calls: {stats['paid_calls']}[/yellow]")
+            console.print(
+                f"  [dim]Free keys: {stats['free_keys_exhausted']}/"
+                f"{stats['free_keys_total']} exhausted[/dim]"
+            )
 
         console.print()
         console.print("[bold]Phase 4: Exporting graph to tracked JSON snapshot[/bold]")

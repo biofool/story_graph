@@ -51,6 +51,37 @@ class Settings(BaseModel):
         default_factory=lambda: os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
     )
 
+    # Additional AI Studio API keys for free-tier round-robin (each has its
+    # own daily quota). Only keys that are set and non-empty are used.
+    google_api_key: str = Field(
+        default_factory=lambda: os.getenv("GOOGLE_API_KEY", "")
+    )
+    movement_arts_google_api_key: str = Field(
+        default_factory=lambda: os.getenv("MOVEMENT_ARTS_GOOGLE_API_KEY", "")
+    )
+
+    # Vertex AI (paid tier) fallback — used when all free-tier AI Studio
+    # keys are exhausted (429). Authenticates via Application Default
+    # Credentials (e.g. a service account key file set via
+    # GOOGLE_APPLICATION_CREDENTIALS or gcloud auth).
+    gemini_vertexai_enabled: bool = Field(
+        default_factory=lambda: os.getenv("GEMINI_VERTEXAI_ENABLED", "true").lower()
+        in ("true", "1", "yes")
+    )
+    gemini_vertexai_project: str = Field(
+        default_factory=lambda: os.getenv("GEMINI_VERTEXAI_PROJECT", "")
+    )
+    gemini_vertexai_location: str = Field(
+        default_factory=lambda: os.getenv("GEMINI_VERTEXAI_LOCATION", "us-central1")
+    )
+    # Model to use on Vertex AI (may differ from the AI Studio model —
+    # e.g. gemini-3.6-flash is available on AI Studio but not yet on
+    # Vertex AI for some projects; gemini-2.5-flash is the stable Vertex
+    # default).
+    gemini_vertexai_model: str = Field(
+        default_factory=lambda: os.getenv("GEMINI_VERTEXAI_MODEL", "gemini-2.5-flash")
+    )
+
     # Storage
     graph_db_path: str = Field(
         default_factory=lambda: os.getenv("GRAPH_DB_PATH", "data/graph.db")
