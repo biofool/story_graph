@@ -17,11 +17,19 @@ ALIAS_MAP: dict[str, str] = {
     "ya ho wa": "james edward baker",
     "yahowha": "james edward baker",
     "ya ho wa 13": "james edward baker",
+    # Cyprus Conflict Resolution Trainers Group (CRTG) topic: two different
+    # published sources spell this person's name two different ways — "Chris
+    # Thorsen" in a 2008 case study, "Thorson" in Keith E. Peterson's
+    # account/book (see scripts/_cyprus_crtg_helpers.py's DEFAULT_LEADS and
+    # its "also_known_as" notes for which source uses which spelling).
+    "chris thorsen": "christopher thorsen",
+    "thorson": "christopher thorsen",
 }
 
 # Reverse map: canonical -> list of known aliases
 CANONICAL_ALIASES: dict[str, list[str]] = {
     "james edward baker": ["Jim Baker", "Father Yod", "Ya Ho Wa", "Yahowha"],
+    "christopher thorsen": ["Chris Thorsen", "Thorson"],
 }
 
 # Known Source Family member names (partial — will grow via extraction)
