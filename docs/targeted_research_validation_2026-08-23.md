@@ -118,10 +118,23 @@ results.
 
 ## Technical notes
 
-- The script's Phase 2 (web search + crawl + extraction via Gemini) could
-  not be executed because `GEMINI_API_KEY` is empty in `.env`. The
-  corroboration searches above were performed independently via web search
-  tools using the same query strings the script would issue.
+- The script's Phase 2 (web search + crawl + extraction via Gemini) was
+  attempted with a `GEMINI_API_KEY` pulled from GCP Secret Manager
+  (`quantum-aikido-coaching` project, secret `GEMINI_API_KEY`). Two issues
+  were hit:
+  1. **Model deprecation**: `gemini-2.5-flash` (the `.env` default) returns
+     404 — Google requires `gemini-3.6-flash` for new users. Updated
+     `GEMINI_MODEL` in `.env` accordingly.
+  2. **Quota exhausted**: the key is on the free tier and hit its daily
+     quota (429 RESOURCE_EXHAUSTED) on the first lead's search. Phase 1
+     (storing kkron's claims) succeeded; Phase 2 could not complete today.
+  The corroboration searches above were performed independently via web
+  search tools using the same query strings the script would issue, and
+  are not dependent on the Gemini quota.
 - All 24 unit and integration tests pass.
 - The script is idempotent: re-running `--skip-search` produces identical
   node/edge counts with no duplicates.
+- The remote branch added 3 new leads (March 1971 meeting of Richard Moon,
+  Father Yod, and Yogi Bhajan) since the initial validation; those leads
+  are included in the script run but were not part of the original
+  independent web search corroboration above.
