@@ -115,9 +115,14 @@ class GraphDB:
         """Insert or update a node (upsert by id)."""
         existing = self.get_node(node.id)
         if existing:
-            # Merge: update non-empty fields
+            # Merge: update non-empty fields. source_urls is de-duplicated via
+            # a sorted list (not a bare set()) so repeated upserts of the same
+            # node produce byte-identical output across runs/processes — a
+            # bare set()'s iteration order is randomized per-process (string
+            # hash randomization), which would otherwise make
+            # src/storage/json_export.py's JSONL export non-deterministic.
             merged_meta = {**existing.metadata, **node.metadata}
-            merged_urls = list(set(existing.source_urls + node.source_urls))
+            merged_urls = sorted(set(existing.source_urls + node.source_urls))
             canonical = node.canonical_name or existing.canonical_name
             label = node.label or existing.label
         else:
@@ -161,6 +166,25 @@ class GraphDB:
             metadata=json.loads(row["metadata_json"] or "{}"),
             source_urls=json.loads(row["source_urls_json"] or "[]"),
         )
+
+    def get_all_nodes(self) -> list[GraphNode]:
+        """Get every node across all types, ordered by id.
+
+        Used by src/storage/json_export.py to produce a deterministic,
+        diff-stable JSON export of the whole graph.
+        """
+        rows = self._conn.execute("SELECT * FROM nodes ORDER BY id").fetchall()
+        return [
+            GraphNode(
+                id=r["id"],
+                type=NodeType(r["type"]),
+                label=r["label"],
+                canonical_name=r["canonical_name"],
+                metadata=json.loads(r["metadata_json"] or "{}"),
+                source_urls=json.loads(r["source_urls_json"] or "[]"),
+            )
+            for r in rows
+        ]
 
     def get_nodes_by_type(self, node_type: NodeType) -> list[GraphNode]:
         rows = self._get_conn().execute(
@@ -317,6 +341,25 @@ class GraphDB:
             ),
         )
         self._get_conn().commit()
+
+    def get_all_claim_source_links(self) -> list[ClaimSourceLink]:
+        """Get every claim-source link, ordered by (claim_id, source_id).
+
+        Used by src/storage/json_export.py to produce a deterministic,
+        diff-stable JSON export of the whole graph.
+        """
+        rows = self._conn.execute(
+            "SELECT * FROM claim_sources ORDER BY claim_id, source_id"
+        ).fetchall()
+        return [
+            ClaimSourceLink(
+                claim_id=r["claim_id"],
+                source_id=r["source_id"],
+                quote_span_start=r["quote_span_start"],
+                quote_span_end=r["quote_span_end"],
+            )
+            for r in rows
+        ]
 
     # --- Query helpers ---
 

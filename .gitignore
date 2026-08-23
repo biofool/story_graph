@@ -28,6 +28,14 @@ data/cache/*
 data/graph.db
 data/*.jsonl
 
+# graph_snapshot/ (repo root, NOT under data/) is the tracked JSON/JSONL
+# source of truth for the graph — see src/storage/json_export.py and
+# README.md. It lives outside data/ specifically so the broad "ignore
+# runtime outputs" rules above never need special-casing to keep it
+# tracked. Do not add a data/graph_snapshot/ path to this project — that
+# would fall under data/*.jsonl above and be silently ignored.
+!graph_snapshot/
+
 # Logs
 logs/
 *.log
