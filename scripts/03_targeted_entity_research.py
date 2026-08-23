@@ -52,6 +52,30 @@ git-ignored, so cron output stays local. The run summary is printed to
 stdout/stderr — redirect it to a log file (as in the cron example above) to
 keep a persistent record across runs.
 
+JSON snapshot is the source of truth, SQLite is a local working copy
+------------------------------------------------------------------------
+data/graph.db is git-ignored and disposable. What actually gets committed
+and reviewed in an MR is a tracked JSON/JSONL snapshot of the graph under
+``graph_snapshot/`` at the repo root (override with --snapshot-dir or the
+GRAPH_SNAPSHOT_DIR env var — see config/settings.py and
+src/storage/json_export.py). Every run of this script:
+
+  1. Rebuilds a fresh local SQLite working copy from that tracked snapshot
+     before doing anything else (src/storage/json_export.import_from_json),
+     so the graph state a run starts from is always exactly what is in git
+     — not whatever a previous, possibly-stale local data/graph.db held.
+  2. Does its work against that local SQLite copy, same as before.
+  3. Exports the resulting graph back out to the same tracked snapshot
+     directory when it finishes (src/storage/json_export.export_to_json),
+     so the JSONL diff in the MR reflects this run's changes.
+
+JSON/JSONL was chosen over committing data/graph.db directly because it
+diffs cleanly in a merge request (one sorted, human-readable line per
+node/edge/source) where a SQLite file would show as an opaque binary diff.
+This can be revisited (e.g. back to SQLite as the tracked format) if the
+graph grows large enough for JSON export/import to become a real
+performance problem — see src/storage/json_export.py's module docstring.
+
 The script is idempotent: re-running it re-upserts the same kkron-sourced
 nodes/edges (safe no-ops) and skips URLs already present in the `sources`
 table, so a daily cron job naturally converges rather than re-processing
@@ -63,6 +87,7 @@ Usage:
     python scripts/03_targeted_entity_research.py --skip-kkron-claims
     python scripts/03_targeted_entity_research.py --skip-search
     python scripts/03_targeted_entity_research.py --dry-run
+    python scripts/03_targeted_entity_research.py --snapshot-dir graph_snapshot
 """
 
 from __future__ import annotations
@@ -85,6 +110,7 @@ from src.llm.entity_claim_extractor import GeminiClaimExtractor, GeminiExtractor
 from src.llm.gemini_client import GeminiClient
 from src.llm.seed_discoverer import SeedDiscoverer
 from src.storage.graph_db import GraphDB
+from src.storage.json_export import export_to_json, import_from_json, snapshot_exists
 from src.utils.text_utils import get_domain
 from scripts._pipeline_helpers import process_page
 from scripts._targeted_research_helpers import (
@@ -164,7 +190,12 @@ def _research_lead(
 
 
 @click.command()
-@click.option("--db-path", default=None, help="Override SQLite DB path")
+@click.option("--db-path", default=None, help="Override SQLite (local working copy) DB path")
+@click.option(
+    "--snapshot-dir",
+    default=None,
+    help="Override tracked JSON snapshot directory (source of truth; default: graph_snapshot/)",
+)
 @click.option(
     "--max-results-per-lead",
     default=5,
@@ -186,7 +217,7 @@ def _research_lead(
     is_flag=True,
     help="Print the configured leads and search queries; touch neither the DB nor the network",
 )
-def main(db_path, max_results_per_lead, skip_kkron_claims, skip_search, dry_run):
+def main(db_path, snapshot_dir, max_results_per_lead, skip_kkron_claims, skip_search, dry_run):
     """Targeted research for a hand-picked list of leads (see DEFAULT_LEADS
     in scripts/_targeted_research_helpers.py)."""
     console.print("[bold cyan]Story Graph — Targeted Entity Research[/bold cyan]")
@@ -204,8 +235,19 @@ def main(db_path, max_results_per_lead, skip_kkron_claims, skip_search, dry_run)
         return
 
     db_file = db_path or str(settings.graph_db_abs_path)
-    console.print(f"[dim]Database: {db_file}[/dim]")
-    db = GraphDB(db_file)
+    snap_dir = Path(snapshot_dir) if snapshot_dir else settings.graph_snapshot_abs_dir
+    console.print(f"[dim]Snapshot (source of truth): {snap_dir}[/dim]")
+    console.print(f"[dim]Local working DB: {db_file}[/dim]")
+
+    if snapshot_exists(snap_dir):
+        console.print("[dim]Loading tracked JSON snapshot into local working DB...[/dim]")
+        db = import_from_json(snap_dir, db_file)
+    else:
+        console.print(
+            "[yellow]No tracked JSON snapshot found at "
+            f"{snap_dir} — starting from an empty local DB[/yellow]"
+        )
+        db = GraphDB(db_file)
 
     try:
         if not skip_kkron_claims:
@@ -274,8 +316,15 @@ def main(db_path, max_results_per_lead, skip_kkron_claims, skip_search, dry_run)
             console.print(table)
 
         console.print()
+        console.print("[bold]Phase 4: Exporting graph to tracked JSON snapshot[/bold]")
+        counts = export_to_json(db, snap_dir)
+        for fname, count in counts.items():
+            console.print(f"  {fname}: {count} row(s)")
+
+        console.print()
         console.print("[bold green]Targeted research run complete.[/bold green]")
-        console.print(f"[dim]Database: {db_file}[/dim]")
+        console.print(f"[dim]Snapshot (commit this): {snap_dir}[/dim]")
+        console.print(f"[dim]Local working DB: {db_file}[/dim]")
         console.print(f"[dim]Explore with: datasette {db_file}[/dim]")
     finally:
         db.close()
