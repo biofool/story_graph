@@ -58,6 +58,86 @@ this one feature, MEMBER_OF and MENTIONS (already used elsewhere for
 person/group participation and generic "connected to" links, respectively)
 are reused as the closest existing fits — flagged here as a finding per
 project convention, not a silent workaround.
+
+2026-08-23 update — kkron's Wikipedia Talk-page COI disclosure/proposal
+--------------------------------------------------------------------------
+kkron drafted (but has not posted — posting is his own action) a Talk-page
+disclosure disclosing that he personally knows Richard Moon, Christopher
+Thorsen, and Douglas Stone, and that he was present for an unpublished
+interview that may have informed part of Keith E. Peterson's account. Per
+kkron's explicit instruction, none of that personal knowledge/unpublished
+interview material is usable as an article source — only two published
+sources are: a 2008 case study, and Keith E. Peterson's account/book. This
+adds a fourth provenance sub-kind and a couple of small schema extensions to
+support it:
+
+- **citation, pending exact identification** (``ResearchLead.source_pending_label``/
+  ``source_pending_author``, used when ``source_url`` is not yet known): the
+  claim is still attributed to a specific named, citable publication (not
+  kkron's own account) — just one this session hasn't pinned down an exact
+  title/author/URL for yet. Stored like a normal "citation" lead (same
+  ``provenance()`` value, not run through the kkron confidence ceiling)
+  under a ``pseudo://citation-needed/...`` placeholder Work/Source, with
+  ``citation_needed: True`` recorded in both the Work node's metadata and
+  the claim's metadata as an explicit TODO for a future run's SeedDiscoverer
+  search to resolve. See :func:`citation_source_url` and
+  :func:`ensure_citation_source`.
+- **also_known_as** (``ResearchLead.subject_also_known_as``/
+  ``object_also_known_as``, free text merged into the entity's node
+  metadata): records alternate name spellings and which source uses which
+  — e.g. Christopher Thorsen is "Chris Thorsen" in the 2008 case study but
+  "Thorson" in Peterson's book. The two spellings are also cross-linked via
+  ``src/extractor/alias_resolver.ALIAS_MAP`` so both canonicalize onto the
+  same ``person:christopher-thorsen`` node rather than fragmenting.
+- **claim_type** (``ResearchLead.claim_type``, defaults to
+  ``ClaimType.BIOGRAPHICAL``): previously every "citation" lead was
+  hardcoded to ``ClaimType.HISTORICAL_DISPUTE``, which fit the one
+  Wikipedia-Talk-page lead that existed at the time but does not fit the
+  newer biographical citation-pending leads below. The one existing
+  Wikipedia Talk lead now sets ``claim_type=ClaimType.HISTORICAL_DISPUTE``
+  explicitly so its stored behavior is unchanged.
+- **open research gap as a lead** (still "citation" provenance, just with a
+  low ``source_confidence`` and a ``role_note`` explicitly marking it as a
+  TODO, not a stated fact): used for Douglas Stone's connection (or lack of
+  one) to the Cyprus Fulbright Commission programme Peterson describes — no
+  source has been identified yet either way. Framed this way (rather than
+  inventing a fourth provenance kind) so it still flows through the normal
+  ``build_search_queries``/``SeedDiscoverer`` pipeline like every other
+  lead, i.e. it actually gets searched for on a real run instead of sitting
+  inert as a comment.
+
+OPEN DISAMBIGUATION FLAG — NOT RESOLVED, DO NOT ASSUME AN ANSWER
+--------------------------------------------------------------------------
+Peterson's account (per kkron's draft) describes an Aikido instructor named
+Richard Moon, brought into the Cyprus Fulbright Commission's conflict-
+resolution work by Louise Diamond. This lead necessarily creates a
+``person:richard-moon`` node (full-name "Richard Moon", via the ordinary
+``person_id()``/``canonical_person()`` path — no alias entry changes this).
+
+That is the exact same node id that a *separate, unmerged* research topic in
+this project (MR !3, `kkron/targeted-entity-research-1787520638` — the
+Father Yod / Source Family topic) would produce for its own "Richard Moon"
+leads (WORKED_AT The Source restaurant / Aware Inn / Wild Mountain Cafe,
+1960s-70s Los Angeles). That earlier research separately found a modern web
+presence for a "Richard Moon" who is a Quantum Aikido instructor said to
+study under Robert Nadeau since 1971, and treated him there as an unrelated
+namesake to the 1969 Source Family restaurant claim.
+
+Given the Cyprus "Richard Moon" is *also* described as an Aikido instructor,
+there is a real possibility this is the SAME Richard Moon as that modern
+Quantum Aikido instructor — which would mean (a) the earlier "unrelated
+namesake" conclusion in the Father Yod research may have been wrong, and/or
+(b) this one person could bridge two currently-separate research topics
+(Father Yod/Source Family and Cyprus CRTG). This is NOT resolved or asserted
+here in either direction — it is flagged (in this docstring, and again as a
+``role_note`` on the "Richard Moon" leads below, so it lands in the stored
+claim metadata too) for a future research pass with real network access,
+and it should be raised with kkron directly rather than silently assumed.
+Also note: if/when both MR !3 and this MR land on main and are run against
+the same graph DB, their same-named "Richard Moon" nodes will upsert-merge
+into one node purely because the id scheme is name-based, regardless of
+whether a human has actually confirmed they're the same person — another
+reason this needs a human decision, not a silent merge.
 """
 
 from __future__ import annotations
@@ -175,6 +255,15 @@ class ResearchLead:
     object_group_type: Optional[str] = None
     extra_queries: tuple[str, ...] = field(default_factory=tuple)
     role_note: Optional[str] = None
+    claim_type: ClaimType = ClaimType.BIOGRAPHICAL
+
+    # Free-text alias/spelling notes merged into the subject's/object's node
+    # metadata (key "also_known_as") — e.g. "aka 'Thorson' per Peterson's
+    # book". Not used for ID resolution (see src/extractor/alias_resolver.py
+    # ALIAS_MAP for that) — purely a human-readable provenance-of-spelling
+    # note attached to the entity itself.
+    subject_also_known_as: Optional[str] = None
+    object_also_known_as: Optional[str] = None
 
     # kkron first-hand account
     kkron_claim_text: Optional[str] = None
@@ -185,13 +274,23 @@ class ResearchLead:
     source_claim_text: Optional[str] = None
     source_confidence: Optional[float] = None
 
+    # citation-sourced, pending exact identification of the publication
+    # (still not kkron's own account — attributed to a specific named
+    # source, just one this session hasn't pinned an exact title/author/URL
+    # for yet). Mutually exclusive with source_url in practice, but if both
+    # are set source_url wins (see citation_source_url()).
+    source_pending_label: Optional[str] = None
+    source_pending_author: Optional[str] = None
+
     # public-record (well-established fact, no specific fetched URL yet)
     public_record_text: Optional[str] = None
     public_record_confidence: Optional[float] = None
 
     def provenance(self) -> str:
-        """Which of the three provenance kinds this lead uses."""
-        if self.source_url:
+        """Which of the three provenance kinds this lead uses ("citation"
+        covers both a known source_url and a pending source_pending_label —
+        see module docstring's 2026-08-23 update)."""
+        if self.source_url or self.source_pending_label:
             return "citation"
         if self.public_record_text is not None:
             return "public_record"
@@ -220,6 +319,28 @@ CRTG_DISPUTE_EVENT_NAME = (
     "2026 Wikipedia editing dispute over the Cyprus Conflict Resolution "
     "Trainers Group's credited trainer count"
 )
+
+# ---------------------------------------------------------------------------
+# Two published sources kkron's 2026-08-23 disclosure draft names as the
+# *only* citable sources for the "Christopher Thorsen"/"Louise Diamond"
+# material (his own personal knowledge and an unpublished interview/
+# recording/transcription/email correspondence are explicitly NOT to be used
+# as article sources — see module docstring). Neither source's exact
+# title/author/publisher/URL has been identified yet by this session — see
+# "citation, pending exact identification" in the module docstring.
+# ---------------------------------------------------------------------------
+CYPRUS_2008_CASE_STUDY_LABEL = (
+    "2008 case study on the Cyprus Conflict Resolution Trainers Group "
+    "(citation TBD)"
+)
+PETERSON_ACCOUNT_LABEL = (
+    "Keith E. Peterson's account/book describing the Cyprus Fulbright "
+    "Commission's conflict-resolution and peace-building work (citation TBD)"
+)
+PETERSON_AUTHOR = "Keith E. Peterson"
+
+CYPRUS_CONSORTIUM_NAME = "Cyprus Consortium"
+CYPRUS_FULBRIGHT_COMMISSION_NAME = "Cyprus Fulbright Commission"
 
 # ---------------------------------------------------------------------------
 # Seed leads, per kkron (project owner) first-hand account of a forwarded
@@ -359,6 +480,7 @@ DEFAULT_LEADS: list[ResearchLead] = [
         object_name=CRTG_DISPUTE_EVENT_NAME,
         object_type="event",
         source_url=CRTG_WIKIPEDIA_TALK_URL,
+        claim_type=ClaimType.HISTORICAL_DISPUTE,
         source_claim_text=(
             "The Wikipedia Talk page for 'Cyprus Conflict Resolution "
             "Trainers Group' documents a dispute over whether the article's "
@@ -447,6 +569,267 @@ DEFAULT_LEADS: list[ResearchLead] = [
         public_record_confidence=0.85,
         extra_queries=('"Sheila Heen" "Difficult Conversations" book',),
     ),
+    # -- citation-sourced (pending exact identification): kkron's ----------
+    # -- 2026-08-23 Wikipedia Talk-page COI disclosure draft names two ------
+    # -- published sources (a 2008 case study; Keith E. Peterson's account/-
+    # -- book) as the only ones usable as article sources — NOT kkron's own
+    # -- personal knowledge or the unpublished interview he mentions. See
+    # -- module docstring's 2026-08-23 update for the citation-pending
+    # -- mechanism and the OPEN DISAMBIGUATION flag on "Richard Moon". -----
+    ResearchLead(
+        subject_name="Christopher Thorsen",
+        subject_type="person",
+        relation=RelationType.WORKED_AT,
+        object_name=CYPRUS_CONSORTIUM_NAME,
+        object_type="group",
+        object_group_type="conflict_resolution_consortium",
+        subject_also_known_as=(
+            "Also referred to as 'Chris Thorsen' in the 2008 case study "
+            "(that source's spelling) and as 'Thorson' in Keith E. "
+            "Peterson's account/book (a different spelling for the same "
+            "person, per kkron's draft) — both spellings are also mapped "
+            "to this canonical name in src/extractor/alias_resolver.py."
+        ),
+        source_pending_label=CYPRUS_2008_CASE_STUDY_LABEL,
+        source_claim_text=(
+            "A 2008 case study identifies the Cyprus Conflict Resolution "
+            "Trainers Group as a body of Cypriot conflict-resolution "
+            "trainers and separately records that Chris Thorsen was hired "
+            "by the Cyprus Consortium in 1995 under the title 'Aikido' "
+            "(instructor)."
+        ),
+        source_confidence=0.5,
+        role_note=(
+            "Job title recorded verbatim in the case study as 'Aikido' "
+            "(read as Aikido instructor). Exact case study title/author/"
+            "publisher not yet identified — citation needed; this is one "
+            "of the leads a future run's search pipeline should actively "
+            "try to resolve (see extra_queries)."
+        ),
+        extra_queries=(
+            '"Cyprus Consortium" Thorsen 1995 Aikido',
+            '"Chris Thorsen" Cyprus 1995',
+            '2008 case study "Cyprus Conflict Resolution Trainers Group"',
+        ),
+    ),
+    ResearchLead(
+        subject_name="Richard Moon",
+        subject_type="person",
+        relation=RelationType.MEMBER_OF,
+        object_name=CYPRUS_FULBRIGHT_COMMISSION_NAME,
+        object_type="group",
+        object_group_type="fulbright_commission_program",
+        source_pending_label=PETERSON_ACCOUNT_LABEL,
+        source_pending_author=PETERSON_AUTHOR,
+        source_claim_text=(
+            "According to Keith E. Peterson, Louise Diamond brought Aikido "
+            "instructor Richard Moon and his colleague Christopher Thorsen "
+            "into the Cyprus Fulbright Commission's conflict-resolution and "
+            "peace-building work. Peterson describes them as working with "
+            "Cypriot participants; the account does not establish that "
+            "either was a member of the Cyprus Conflict Resolution "
+            "Trainers Group."
+        ),
+        source_confidence=0.5,
+        role_note=(
+            "OPEN DISAMBIGUATION FLAG — NOT RESOLVED: this 'Richard Moon' "
+            "(Aikido instructor per Peterson's Cyprus Fulbright Commission "
+            "account) resolves to the same person:richard-moon graph node "
+            "id that a separate, unmerged research topic in this project "
+            "(MR !3, kkron/targeted-entity-research-1787520638 — Father "
+            "Yod/Source Family) would use for its own 'Richard Moon' leads "
+            "(1960s-70s Los Angeles restaurant work). That topic separately "
+            "found a modern web presence for a 'Richard Moon' who is a "
+            "Quantum Aikido instructor said to study under Robert Nadeau "
+            "since 1971, treated there as an unrelated namesake. Since this "
+            "Cyprus 'Richard Moon' is *also* an Aikido instructor, they may "
+            "be the same person — which would mean that 'unrelated "
+            "namesake' conclusion could be wrong, and/or that this person "
+            "bridges the two topics. NOT asserted either way here; flag "
+            "for a future research pass with real network access and for "
+            "kkron to weigh in on directly, not a silent merge. Also "
+            "distinct from the existing unconfirmed bare-first-name "
+            "'Richard' placeholder lead elsewhere in this topic (surname "
+            "unconfirmed there) — not asserted to be the same or a "
+            "different person from that placeholder either."
+        ),
+        extra_queries=(
+            '"Richard Moon" "Cyprus Fulbright Commission"',
+            '"Richard Moon" Aikido Cyprus Louise Diamond',
+        ),
+    ),
+    ResearchLead(
+        subject_name="Christopher Thorsen",
+        subject_type="person",
+        relation=RelationType.MEMBER_OF,
+        object_name=CYPRUS_FULBRIGHT_COMMISSION_NAME,
+        object_type="group",
+        object_group_type="fulbright_commission_program",
+        subject_also_known_as=(
+            "Also referred to as 'Chris Thorsen' in the 2008 case study "
+            "and as 'Thorson' in Keith E. Peterson's account/book."
+        ),
+        source_pending_label=PETERSON_ACCOUNT_LABEL,
+        source_pending_author=PETERSON_AUTHOR,
+        source_claim_text=(
+            "According to Keith E. Peterson, Louise Diamond brought Aikido "
+            "instructor Richard Moon and his colleague Christopher Thorsen "
+            "(referred to as 'Thorson' in Peterson's book) into the Cyprus "
+            "Fulbright Commission's conflict-resolution and peace-building "
+            "work. Peterson describes them as working with Cypriot "
+            "participants; the account does not establish that either was "
+            "a member of the Cyprus Conflict Resolution Trainers Group."
+        ),
+        source_confidence=0.5,
+        role_note=(
+            "Brought in per Louise Diamond, per Peterson's account. "
+            "Explicitly does NOT establish CRTG membership — see the "
+            "companion negative/scoping lead below."
+        ),
+        extra_queries=(
+            '"Thorson" OR "Thorsen" "Cyprus Fulbright Commission"',
+            '"Christopher Thorsen" Aikido Cyprus Louise Diamond',
+        ),
+    ),
+    ResearchLead(
+        subject_name="Louise Diamond",
+        subject_type="person",
+        relation=RelationType.MENTIONS,
+        object_name="Richard Moon",
+        object_type="person",
+        source_pending_label=PETERSON_ACCOUNT_LABEL,
+        source_pending_author=PETERSON_AUTHOR,
+        source_claim_text=(
+            "Per Keith E. Peterson's account, Louise Diamond brought Aikido "
+            "instructor Richard Moon into the Cyprus Fulbright Commission's "
+            "conflict-resolution and peace-building work."
+        ),
+        source_confidence=0.5,
+        role_note=(
+            "Distinct from the existing unconfirmed bare-first-name "
+            "'Louise' placeholder lead elsewhere in this topic (surname "
+            "unconfirmed there, referenced only via 'Louise's papers') — "
+            "not asserted to be the same or a different person from that "
+            "placeholder."
+        ),
+        extra_queries=('"Louise Diamond" Cyprus Fulbright Commission',),
+    ),
+    ResearchLead(
+        subject_name="Louise Diamond",
+        subject_type="person",
+        relation=RelationType.MENTIONS,
+        object_name="Christopher Thorsen",
+        object_type="person",
+        object_also_known_as=(
+            "Also referred to as 'Chris Thorsen' in the 2008 case study "
+            "and as 'Thorson' in Keith E. Peterson's account/book."
+        ),
+        source_pending_label=PETERSON_ACCOUNT_LABEL,
+        source_pending_author=PETERSON_AUTHOR,
+        source_claim_text=(
+            "Per Keith E. Peterson's account, Louise Diamond brought Aikido "
+            "instructor Christopher Thorsen (referred to as 'Thorson' in "
+            "Peterson's book) into the Cyprus Fulbright Commission's "
+            "conflict-resolution and peace-building work."
+        ),
+        source_confidence=0.5,
+        extra_queries=('"Louise Diamond" Thorsen OR Thorson Cyprus',),
+    ),
+    ResearchLead(
+        subject_name="Richard Moon",
+        subject_type="person",
+        relation=RelationType.MENTIONS,
+        object_name=CRTG_GROUP_NAME,
+        object_type="group",
+        object_group_type="conflict_resolution_training_group",
+        source_pending_label=PETERSON_ACCOUNT_LABEL,
+        source_pending_author=PETERSON_AUTHOR,
+        source_claim_text=(
+            "Keith E. Peterson's account describes Richard Moon working "
+            "with Cypriot participants via the Cyprus Fulbright "
+            "Commission, brought in by Louise Diamond — but the account "
+            "does NOT establish that Richard Moon was a member of the "
+            "Cyprus Conflict Resolution Trainers Group specifically."
+        ),
+        source_confidence=0.5,
+        role_note=(
+            "NEGATIVE/SCOPING CLAIM — explicitly does NOT assert CRTG "
+            "membership; recorded so the graph does not over-claim CRTG "
+            "membership for Richard Moon from the Fulbright Commission "
+            "facts alone. Uses MENTIONS rather than MEMBER_OF precisely "
+            "because the source does not support a membership claim (see "
+            "module docstring's RelationType note)."
+        ),
+    ),
+    ResearchLead(
+        subject_name="Christopher Thorsen",
+        subject_type="person",
+        relation=RelationType.MENTIONS,
+        object_name=CRTG_GROUP_NAME,
+        object_type="group",
+        object_group_type="conflict_resolution_training_group",
+        subject_also_known_as=(
+            "Also referred to as 'Chris Thorsen' in the 2008 case study "
+            "and as 'Thorson' in Keith E. Peterson's account/book."
+        ),
+        source_pending_label=PETERSON_ACCOUNT_LABEL,
+        source_pending_author=PETERSON_AUTHOR,
+        source_claim_text=(
+            "Keith E. Peterson's account describes Christopher Thorsen "
+            "(referred to as 'Thorson' in Peterson's book) working with "
+            "Cypriot participants via the Cyprus Fulbright Commission, "
+            "brought in by Louise Diamond — but the account does NOT "
+            "establish that Thorsen was a member of the Cyprus Conflict "
+            "Resolution Trainers Group specifically."
+        ),
+        source_confidence=0.5,
+        role_note=(
+            "NEGATIVE/SCOPING CLAIM — explicitly does NOT assert CRTG "
+            "membership; see the companion Richard Moon lead above. Uses "
+            "MENTIONS rather than MEMBER_OF for the same reason."
+        ),
+    ),
+    ResearchLead(
+        subject_name="Douglas Stone",
+        subject_type="person",
+        relation=RelationType.MENTIONS,
+        object_name=CYPRUS_FULBRIGHT_COMMISSION_NAME,
+        object_type="group",
+        object_group_type="fulbright_commission_program",
+        source_pending_label=(
+            "Open research gap: search for a published source connecting "
+            "Douglas Stone to the Cyprus Fulbright Commission / CRTG "
+            "outside-trainer programme Peterson and the 2008 case study "
+            "describe (none identified yet)"
+        ),
+        source_claim_text=(
+            "No currently-identified reliable published source establishes "
+            "that Douglas Stone served as an outside trainer in the Cyprus "
+            "Fulbright Commission/CRTG programme described by Keith E. "
+            "Peterson and the 2008 case study. This is recorded as an open "
+            "research gap/TODO, not a stated fact in either direction, so "
+            "a future run with real network access actively searches for "
+            "one (see extra_queries)."
+        ),
+        source_confidence=0.1,
+        role_note=(
+            "OPEN RESEARCH GAP / TODO, not a fact claim (deliberately low "
+            "confidence reflects 'no evidence found', not 'found "
+            "unlikely'). Distinct from the existing kkron-sourced 'Douglas "
+            "Stone MEMBER_OF Cyprus Conflict Resolution Trainers Group' "
+            "lead elsewhere in this topic (kkron's own general CRTG "
+            "membership account) — this lead specifically tracks whether "
+            "Stone's presence in the Fulbright-Commission/Peterson-"
+            "described programme is independently corroborable. Confirm "
+            "or refute on a future run with live search; do not assert "
+            "either way absent a source."
+        ),
+        extra_queries=(
+            '"Douglas Stone" "Cyprus Fulbright Commission"',
+            '"Douglas Stone" Peterson Cyprus conflict resolution',
+            "Douglas Stone Cyprus Aikido conflict resolution trainer",
+        ),
+    ),
 ]
 
 
@@ -483,6 +866,19 @@ def build_search_queries(lead: ResearchLead) -> list[str]:
     return queries
 
 
+def citation_source_url(lead: ResearchLead) -> str:
+    """The URL a "citation" lead's Work/Source record is stored under.
+
+    ``lead.source_url`` if known; otherwise a stable ``pseudo://citation-
+    needed/...`` placeholder derived from ``lead.source_pending_label`` (see
+    module docstring's 2026-08-23 update — "citation, pending exact
+    identification").
+    """
+    if lead.source_url:
+        return lead.source_url
+    return f"pseudo://citation-needed/{slugify(lead.source_pending_label or lead.lead_key())}"
+
+
 def build_claim_record(lead: ResearchLead) -> dict:
     """Build the claim dict for a lead, dispatching on its provenance kind
     (see :meth:`ResearchLead.provenance`).
@@ -498,19 +894,20 @@ def build_claim_record(lead: ResearchLead) -> dict:
         return {
             "id": f"claim:citation:{lead.lead_key()}",
             "claim_text": lead.source_claim_text,
-            "claim_type": ClaimType.HISTORICAL_DISPUTE.value,
+            "claim_type": lead.claim_type.value,
             "stance": ClaimStance.NEUTRAL.value,
             "confidence": lead.source_confidence,
             "evidence_mode": EvidenceMode.SECONDARY_REPORT.value,
             "speaker": None,
             "speaker_id": None,
-            "source_url": lead.source_url,
+            "source_url": citation_source_url(lead),
+            "citation_needed": lead.source_url is None,
         }
     if kind == "public_record":
         return {
             "id": f"claim:public-record:{lead.lead_key()}",
             "claim_text": lead.public_record_text,
-            "claim_type": ClaimType.BIOGRAPHICAL.value,
+            "claim_type": lead.claim_type.value,
             "stance": ClaimStance.NEUTRAL.value,
             "confidence": lead.public_record_confidence,
             "evidence_mode": EvidenceMode.SECONDARY_REPORT.value,
@@ -522,7 +919,7 @@ def build_claim_record(lead: ResearchLead) -> dict:
     return {
         "id": f"claim:kkron:{lead.lead_key()}",
         "claim_text": lead.kkron_claim_text,
-        "claim_type": ClaimType.BIOGRAPHICAL.value,
+        "claim_type": lead.claim_type.value,
         "stance": ClaimStance.NEUTRAL.value,
         "confidence": effective_kkron_confidence(lead.kkron_confidence),
         "raw_kkron_confidence": lead.kkron_confidence,
@@ -578,6 +975,31 @@ def ensure_kkron_source(db: GraphDB) -> None:
                 f"node are capped at confidence <= {KKRON_CONFIDENCE_CEILING} "
                 "until independently corroborated."
             ),
+            # Disclosure from kkron's 2026-08-23 draft Wikipedia Talk-page
+            # COI disclosure (which he intends to post himself — this
+            # project does not post to Wikipedia). Recorded here as
+            # metadata/context on kkron-as-source, separate from and never
+            # substituting for the citation-sourced claims in DEFAULT_LEADS
+            # above — per kkron's explicit instruction, this personal
+            # knowledge (and the unpublished interview/recording/
+            # transcription/email correspondence it mentions) must NOT be
+            # used as a source for the Wikipedia article itself; only the
+            # 2008 case study and Keith E. Peterson's account/book may be
+            # cited there.
+            "personally_knows": ["Richard Moon", "Christopher Thorsen", "Douglas Stone"],
+            "personally_knows_note": (
+                "kkron discloses personally knowing Richard Moon, "
+                "Christopher Thorsen, and Douglas Stone, and states he was "
+                "present for an unpublished interview that may have "
+                "informed part of Keith E. Peterson's account. This "
+                "personal knowledge and the unpublished interview/"
+                "recording/transcription/email correspondence are NOT "
+                "usable as article sources (kkron's explicit instruction) "
+                "— only the 2008 case study and Peterson's published "
+                "account/book may be cited. Not a claim about any of the "
+                "three people's CRTG/Cyprus involvement itself; see the "
+                "citation-sourced leads in DEFAULT_LEADS for those."
+            ),
         },
         source_urls=[KKRON_SOURCE_URL],
     ))
@@ -605,27 +1027,51 @@ def ensure_kkron_source(db: GraphDB) -> None:
 
 
 def ensure_citation_source(db: GraphDB, lead: ResearchLead) -> str:
-    """Idempotently create the Work/Source record for a lead's cited URL
-    (``lead.source_url``). Returns the Work node id."""
-    wid = work_id(lead.source_url)
+    """Idempotently create the Work/Source record for a lead's cited
+    publication — a known, fetchable ``lead.source_url``, or (see module
+    docstring's 2026-08-23 update) a pending placeholder built from
+    ``lead.source_pending_label`` when no URL is known yet. Returns the Work
+    node id."""
+    url = citation_source_url(lead)
+    if lead.source_url:
+        label = f"cited source: {lead.source_url}"
+        platform = get_domain(lead.source_url)
+        metadata = {"url": url, "platform": platform, "work_type": "web_page"}
+        title = None
+    else:
+        label = f"citation pending: {lead.source_pending_label}"
+        platform = "citation-pending"
+        metadata = {
+            "url": url,
+            "platform": platform,
+            "work_type": "citation_pending_placeholder",
+            "citation_needed": True,
+            "note": (
+                "Attributed to a specific named published source, but this "
+                "session has not identified its exact title/author/URL. "
+                "See module docstring's 'citation, pending exact "
+                "identification' note — the SeedDiscoverer/search pipeline "
+                "should actively look for it (see the lead's extra_queries)."
+            ),
+        }
+        if lead.source_pending_author:
+            metadata["author"] = lead.source_pending_author
+        title = lead.source_pending_label
+    wid = work_id(url)
     db.add_node(GraphNode(
         id=wid,
         type=NodeType.WORK,
-        label=f"cited source: {lead.source_url}",
+        label=label,
         canonical_name=None,
-        metadata={
-            "url": lead.source_url,
-            "platform": get_domain(lead.source_url),
-            "work_type": "web_page",
-        },
-        source_urls=[lead.source_url],
+        metadata=metadata,
+        source_urls=[url],
     ))
     db.add_source(SourceRecord(
         id=wid,
-        url=lead.source_url,
-        title=None,
-        author=None,
-        platform=get_domain(lead.source_url),
+        url=url,
+        title=title,
+        author=lead.source_pending_author,
+        platform=platform,
         source_class=SourceClass.JOURNALISTIC,
         bias_hint=BiasHint.NEUTRAL_ISH,
     ))
@@ -672,10 +1118,13 @@ def _ensure_entity_node(
     entity_type: str,
     group_type: Optional[str],
     source_url: str = KKRON_SOURCE_URL,
+    also_known_as: Optional[str] = None,
 ) -> str:
     node_id = _ENTITY_ID_FN[entity_type](name)
     canonical = _CANONICAL_FN[entity_type](name)
     metadata = {"group_type": group_type} if (entity_type == "group" and group_type) else {}
+    if also_known_as:
+        metadata["also_known_as"] = also_known_as
     db.add_node(GraphNode(
         id=node_id,
         type=_NODE_TYPE_FOR[entity_type],
@@ -701,7 +1150,7 @@ def store_lead_claim(db: GraphDB, lead: ResearchLead) -> str:
     kind = lead.provenance()
     if kind == "citation":
         wid = ensure_citation_source(db, lead)
-        evidence_url = lead.source_url
+        evidence_url = citation_source_url(lead)
     elif kind == "public_record":
         wid = ensure_public_record_source(db, lead)
         evidence_url = _public_record_pseudo_url(lead)
@@ -712,11 +1161,11 @@ def store_lead_claim(db: GraphDB, lead: ResearchLead) -> str:
 
     subject_id = _ensure_entity_node(
         db, lead.subject_name, lead.subject_type, lead.subject_group_type,
-        source_url=evidence_url,
+        source_url=evidence_url, also_known_as=lead.subject_also_known_as,
     )
     object_id = _ensure_entity_node(
         db, lead.object_name, lead.object_type, lead.object_group_type,
-        source_url=evidence_url,
+        source_url=evidence_url, also_known_as=lead.object_also_known_as,
     )
 
     claim = build_claim_record(lead)
@@ -732,6 +1181,8 @@ def store_lead_claim(db: GraphDB, lead: ResearchLead) -> str:
     }
     if "raw_kkron_confidence" in claim:
         metadata["raw_kkron_confidence"] = claim["raw_kkron_confidence"]
+    if "citation_needed" in claim:
+        metadata["citation_needed"] = claim["citation_needed"]
     if lead.role_note:
         metadata["role_note"] = lead.role_note
 
