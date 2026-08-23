@@ -13,11 +13,11 @@ from __future__ import annotations
 
 import hashlib
 import logging
-from typing import Any, Optional
+from typing import Any
 
 from src.extractor.alias_resolver import (
-    canonical_person,
     canonical_group,
+    canonical_person,
     canonical_place,
     person_id,
 )
@@ -177,7 +177,7 @@ class GeminiExtractor:
     ``events``, ``claims``, ``relations``).
     """
 
-    def __init__(self, client: Optional[GeminiClient] = None, allow_paid: bool = False):
+    def __init__(self, client: GeminiClient | None = None, allow_paid: bool = False):
         self._client = client or GeminiClient()
         self._allow_paid = allow_paid
         # Cache the last extraction by text hash so a paired

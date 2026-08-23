@@ -1,17 +1,16 @@
 """Unit tests for text utilities."""
 
-import pytest
 from src.utils.text_utils import (
-    normalize,
-    slugify,
-    hash_url,
-    stable_hash,
-    get_domain,
-    is_allowed_domain,
-    resolve_url,
     clean_text,
     extract_date_from_text,
+    get_domain,
+    hash_url,
+    is_allowed_domain,
+    normalize,
+    resolve_url,
+    slugify,
     split_sentences,
+    stable_hash,
 )
 
 

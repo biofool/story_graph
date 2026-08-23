@@ -7,19 +7,18 @@ from __future__ import annotations
 
 import logging
 import re
-from typing import Optional
 
 from src.extractor.alias_resolver import (
-    KNOWN_PERSONS,
-    KNOWN_PERSON_ALIASES,
     KNOWN_GROUPS,
+    KNOWN_PERSON_ALIASES,
+    KNOWN_PERSONS,
     KNOWN_PLACES,
-    is_aquarian_name,
-    canonical_person,
     canonical_group,
+    canonical_person,
     canonical_place,
+    is_aquarian_name,
 )
-from src.utils.text_utils import normalize, split_sentences, extract_date_from_text
+from src.utils.text_utils import extract_date_from_text, normalize, split_sentences
 
 _log = logging.getLogger(__name__)
 
@@ -331,8 +330,8 @@ class EntityExtractor:
     def _extract_claims(
         self,
         text: str,
-        persons: Optional[list[dict]] = None,
-        groups: Optional[list[dict]] = None,
+        persons: list[dict] | None = None,
+        groups: list[dict] | None = None,
     ) -> list[dict]:
         """Extract claims: sentences containing assertion verbs.
 
@@ -442,7 +441,7 @@ class EntityExtractor:
             return "commentary"
         return "secondary_report"
 
-    def _extract_speaker(self, sentence: str) -> Optional[str]:
+    def _extract_speaker(self, sentence: str) -> str | None:
         """Try to identify the speaker of a quoted/paraphrased claim."""
         # Pattern: "X said/claimed/remembered..."
         match = re.match(r"^([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)\s+(?:said|claimed|remembered|described|argued|wrote|stated|recalled|insisted|denied)", sentence)

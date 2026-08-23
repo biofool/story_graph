@@ -36,14 +36,14 @@ from rich.console import Console
 from rich.table import Table
 
 from config.settings import settings
-from src.llm.gemini_client import GeminiClient
-from src.llm.seed_discoverer import SeedDiscoverer
-from src.llm.entity_claim_extractor import GeminiExtractor, GeminiClaimExtractor
-from src.llm.graph_qa import GraphQA
-from src.storage.graph_db import GraphDB
-from src.crawler.web_crawler import WebCrawler, CrawledPage
-from src.utils.text_utils import get_domain
 from scripts._pipeline_helpers import process_page
+from src.crawler.web_crawler import CrawledPage, WebCrawler
+from src.llm.entity_claim_extractor import GeminiClaimExtractor, GeminiExtractor
+from src.llm.gemini_client import GeminiClient
+from src.llm.graph_qa import GraphQA
+from src.llm.seed_discoverer import SeedDiscoverer
+from src.storage.graph_db import GraphDB
+from src.utils.text_utils import get_domain
 
 console = Console()
 
@@ -91,7 +91,7 @@ def discover(query, json_out):
     for s in seeds:
         table.add_row(s.url, s.title[:60], s.domain)
     console.print(table)
-    console.print(f"\n[dim]Add these to settings.seed_urls or use as one-off crawl seeds.[/dim]")
+    console.print("\n[dim]Add these to settings.seed_urls or use as one-off crawl seeds.[/dim]")
 
 
 @cli.command()

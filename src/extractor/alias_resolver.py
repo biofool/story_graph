@@ -5,7 +5,6 @@ Alias resolution: normalizes person names to canonical IDs using alias tables.
 from __future__ import annotations
 
 import re
-from typing import Optional
 
 from src.utils.text_utils import normalize, slugify
 

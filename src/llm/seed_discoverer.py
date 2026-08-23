@@ -15,7 +15,6 @@ from __future__ import annotations
 
 import logging
 from dataclasses import dataclass
-from typing import Optional, Union
 
 from src.llm.gemini_client import GeminiClient, GeminiError, TieredGeminiClient
 from src.utils.text_utils import get_domain
@@ -43,15 +42,15 @@ class DiscoveredSeed:
 class SeedDiscoverer:
     """Discovers new seed URLs using Gemini's Google Search grounding."""
 
-    def __init__(self, client: Optional[Union[GeminiClient, TieredGeminiClient]] = None):
+    def __init__(self, client: GeminiClient | TieredGeminiClient | None = None):
         self._client = client or GeminiClient()
         self._is_tiered = isinstance(self._client, TieredGeminiClient)
 
     def discover(
         self,
-        query: Optional[str] = None,
+        query: str | None = None,
         *,
-        exclude_urls: Optional[set[str]] = None,
+        exclude_urls: set[str] | None = None,
         allow_paid: bool = False,
     ) -> list[DiscoveredSeed]:
         """Run a grounded search and return discovered seed URLs.

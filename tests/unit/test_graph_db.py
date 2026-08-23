@@ -1,20 +1,20 @@
 """Unit tests for SQLite graph storage."""
 
-import pytest
-import tempfile
 import os
-from pathlib import Path
+import tempfile
+
+import pytest
 
 from src.storage.graph_db import GraphDB
 from src.storage.models import (
-    GraphNode,
+    BiasHint,
+    ClaimSourceLink,
     GraphEdge,
+    GraphNode,
     NodeType,
     RelationType,
-    SourceRecord,
-    ClaimSourceLink,
     SourceClass,
-    BiasHint,
+    SourceRecord,
 )
 
 
@@ -215,3 +215,26 @@ class TestCounts:
         assert db.get_node_count() == 2
         assert db.get_edge_count() == 1
         assert db.get_source_count() == 1
+
+
+class TestUseAfterClose:
+    def test_method_after_close_raises_runtime_error(self, db):
+        """Calling a DB method after close() should fail loudly and clearly,
+        not with a raw AttributeError from `.execute` on None."""
+        db.add_node(GraphNode(id="person:a", type=NodeType.PERSON, label="A"))
+        db.close()
+
+        with pytest.raises(RuntimeError, match="GraphDB is closed"):
+            db.get_node("person:a")
+
+    def test_method_after_context_manager_exit_raises_runtime_error(self, db):
+        """__exit__ calls close(), so using the object after a `with` block
+        should raise the same clear error."""
+        db_path = db.db_path
+        db.close()  # let the fixture's own teardown close() be a no-op
+
+        with GraphDB(db_path) as ctx_db:
+            ctx_db.add_node(GraphNode(id="person:b", type=NodeType.PERSON, label="B"))
+
+        with pytest.raises(RuntimeError, match="GraphDB is closed"):
+            ctx_db.get_node("person:b")

@@ -7,20 +7,17 @@ from __future__ import annotations
 
 import logging
 import time
-from dataclasses import dataclass, field
-from typing import Optional
 from collections import deque
+from dataclasses import dataclass, field
 
 import requests
 from bs4 import BeautifulSoup
 from tenacity import retry, stop_after_attempt, wait_exponential
 
 from src.utils.text_utils import (
-    get_domain,
+    clean_text,
     is_allowed_domain,
     resolve_url,
-    clean_text,
-    hash_url,
 )
 
 _log = logging.getLogger(__name__)
@@ -33,10 +30,10 @@ class CrawledPage:
     title: str = ""
     text: str = ""
     links: list[str] = field(default_factory=list)
-    author: Optional[str] = None
-    publish_date: Optional[str] = None
+    author: str | None = None
+    publish_date: str | None = None
     status_code: int = 0
-    error: Optional[str] = None
+    error: str | None = None
 
 
 class WebCrawler:
