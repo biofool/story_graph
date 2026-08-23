@@ -1,0 +1,155 @@
+repository_revision: "68fc0c42f3ae5abe5216a5ff13575168bdaa9c93"
+analysis_timestamp: "2026-08-23" # refresh-3: seed-url merge + DEBT-018 lint fix; refresh-2 validation same day; full analysis 2026-08-22
+analyzer_version: "context-compiler-prompt-c-v2"
+pass_plan:
+  session_scope: "Full repository — all 47 files, 4.9K LOC (Python). Small enough for complete coverage in a single pass."
+  stages_executed:
+    - "Stage 0 — Scope Budget"
+    - "Stage 1 — Repository Discovery"
+    - "Stage 2 — Architecture Compilation"
+    - "Stage 3 — Coding Patterns & Conventions"
+    - "Stage 4 — Runtime Workflow Mapping"
+    - "Stage 5 — Dependency & Change-Impact Mapping"
+    - "Stage 6 — Test & Validation Routing"
+    - "Stage 7 — Quality & Technical-Debt Analysis"
+    - "Stage 8 — Context Publication"
+  stages_deferred: []
+  components_in_scope:
+    - "scripts/01_crawl_and_build_graph.py"
+    - "scripts/02_gemini_search.py"
+    - "scripts/_pipeline_helpers.py"
+    - "src/crawler/web_crawler.py"
+    - "src/extractor/entity_extractor.py"
+    - "src/extractor/alias_resolver.py"
+    - "src/extractor/claim_extractor.py"
+    - "src/extractor/contradiction_detector.py"
+    - "src/storage/graph_db.py"
+    - "src/storage/models.py"
+    - "src/utils/text_utils.py"
+    - "src/llm/gemini_client.py"
+    - "src/llm/entity_claim_extractor.py"
+    - "src/llm/graph_qa.py"
+    - "src/llm/seed_discoverer.py"
+    - "config/settings.py"
+  components_deferred: []
+coverage:
+  analyzed_domains:
+    - "crawling"
+    - "entity-extraction"
+    - "claim-extraction"
+    - "contradiction-detection"
+    - "graph-storage"
+    - "llm-integration"
+    - "cli"
+    - "configuration"
+    - "testing"
+  excluded_paths:
+    - ".git/"
+    - ".venv/"
+    - "__pycache__/"
+    - ".ruff_cache/"
+    - ".pytest_cache/"
+    - "data/"  # runtime output, gitignored
+commands_run:
+  - "git log --oneline -5"
+  - "git rev-parse HEAD"
+  - "git remote -v"
+  - "git branch -a"
+  - "find . -type f (file enumeration)"
+  - "wc -l (LOC count)"
+  - "file (language detection)"
+  - "pytest tests/unit/ tests/integration/ — 139 passed (verified 2026-08-23, system python3)"
+  - "python3 -m ruff check . — 23 E402 errors found (verified 2026-08-23; see debt DEBT-018)"
+  - "git log main..gitlab/<branch> ×3 — branch containment / merge status (UNKNOWN-007 resolved)"
+  - ".ai-context YAML parse check via python-yaml — all 7 files valid"
+  - ".ai-context internal markdown link check — all resolve"
+  - "git diff main...gitlab/fix/seed-url-and-readme-schema — full pre-merge review (README.md, config/settings.py)"
+  - "git merge --no-ff gitlab/fix/seed-url-and-readme-schema — clean ort merge, no conflicts (merge commit 1d897fe)"
+  - "python3 -m ruff check . — All checks passed! exit 0 after DEBT-018 per-file-ignores fix (68fc0c4)"
+  - "pytest tests/unit/ tests/integration/ -q — 139 passed at 68fc0c4"
+  - "google-genai version probe (import only) — 1.16.1; live API call NOT made: no .env / GEMINI_API_KEY available (UNKNOWN-006 blocked)"
+  - ".ai-context YAML parse check post-refresh-3 — all files valid"
+commands_not_run:
+  - "ruff check on unmerged GitLab branches (out of scope — analysis covers main)"
+limitations:
+  - "Gemini API behavior is INFERRED from code + tests using fake clients, not verified against live API — live smoke test attempted 2026-08-23 but BLOCKED: no .env in project root, GEMINI_API_KEY unset in ambient env (installed SDK recorded: google-genai 1.16.1)"
+  - "No CI/CD pipeline exists in the repo — no CI commands to document"
+  - "Tests executed and passing (2026-08-23, system python3); full-suite result recorded in manifest commands_run"
+artifacts:
+  - path: ".ai-context/index.md"
+    source_paths: ["README.md", "pyproject.toml", "requirements.txt", "all src/ files"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/quickstart.md"
+    source_paths: ["README.md", "pyproject.toml", "scripts/"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/architecture/system-overview.md"
+    source_paths: ["src/", "scripts/", "config/settings.py", "README.md"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/architecture/data.md"
+    source_paths: ["src/storage/graph_db.py", "src/storage/models.py"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/components/index.md"
+    source_paths: ["src/", "scripts/"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/components/graph-db.md"
+    source_paths: ["src/storage/graph_db.py", "src/storage/models.py"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/components/entity-extractor.md"
+    source_paths: ["src/extractor/entity_extractor.py", "src/extractor/alias_resolver.py"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/components/pipeline-helpers.md"
+    source_paths: ["scripts/_pipeline_helpers.py", "scripts/01_crawl_and_build_graph.py"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/components/llm-layer.md"
+    source_paths: ["src/llm/", "scripts/02_gemini_search.py"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/components/web-crawler.md"
+    source_paths: ["src/crawler/web_crawler.py", "src/utils/text_utils.py"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/workflows/index.md"
+    source_paths: ["scripts/", "src/"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/workflows/full-pipeline.md"
+    source_paths: ["scripts/01_crawl_and_build_graph.py", "scripts/_pipeline_helpers.py"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/workflows/gemini-extract.md"
+    source_paths: ["scripts/02_gemini_search.py", "src/llm/"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/workflows/contradiction-detection.md"
+    source_paths: ["src/extractor/contradiction_detector.py"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/change-impact/relationships.yaml"
+    source_paths: ["src/", "scripts/"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/conventions/index.md"
+    source_paths: ["src/", "scripts/", "pyproject.toml"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/conventions/coding-patterns.md"
+    source_paths: ["src/", "scripts/"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/conventions/errors.md"
+    source_paths: ["src/", "scripts/"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/conventions/configuration.md"
+    source_paths: ["config/settings.py", ".env.example"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/testing/test-map.yaml"
+    source_paths: ["pyproject.toml", "requirements.txt", "tests/"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/debt/register.yaml"
+    source_paths: ["src/", "scripts/", "tests/"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/decisions/conflicts.yaml"
+    source_paths: ["README.md", "src/", "scripts/"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/unknowns/register.yaml"
+    source_paths: ["src/", "docs/", "config/"]
+    last_verified_revision: "fb82bbf"
+  - path: ".ai-context/deltas/latest.yaml"
+    source_paths: []
+    last_verified_revision: "fb82bbf"
+unresolved_unknowns:
+  - "UNKNOWN-001: Facebook Graph API integration referenced in docs/ but no implementation code found in repo"
+  - "UNKNOWN-002: No CI/CD pipeline exists — test/lint automation status unknown"
+  - "UNKNOWN-003: structlog is in requirements.txt but unused — logging uses stdlib logging module"
+prior_analyzed_revision: null

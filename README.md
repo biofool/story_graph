@@ -59,6 +59,23 @@ cp .env.example .env
 python scripts/01_crawl_and_build_graph.py
 ```
 
+## Secrets & API keys
+
+Production keys are **not** stored in this repository. They live in
+**Google Secret Manager**:
+
+| Secret | Project | Used by |
+|---|---|---|
+| `GEMINI_API_KEY` | `aiqa-coaching`, `quantum-aikido-coaching` | Gemini seed discovery, LLM extraction, graph Q&A |
+
+- **Local development:** copy `.env.example` to `.env` and fill in values.
+  `.env` is gitignored — never commit it or any key material.
+- **Fetching a secret for local use:**
+  `gcloud secrets versions access latest --secret=GEMINI_API_KEY --project=aiqa-coaching`
+  (requires appropriate IAM on the project).
+- The full secret-name inventory is maintained in the CloudManagement repo's
+  `AGENTS.md`. Never paste secret values into code, logs, docs, or commits.
+
 ## Seed URLs
 
 - `https://lifeinthesourcefamily.blogspot.com/`

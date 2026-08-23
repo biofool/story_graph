@@ -1,0 +1,117 @@
+# Test & Validation Routing Map
+# Single source of truth for test/lint commands.
+# All commands verified against pyproject.toml and requirements.txt (OBSERVED).
+# No Makefile or CI/CD pipeline exists in this repo.
+
+# --- Global commands (run from repo root) ---
+target: "global"
+unit:
+  - "pytest tests/unit/"
+integration:
+  - "pytest tests/integration/"
+lint:
+  - "ruff check ."
+typecheck: []
+# No type checker (mypy/pyright) is configured in pyproject.toml or requirements.txt.
+
+# --- Full suite ---
+target: "full-suite"
+unit:
+  - "pytest"
+integration: []
+lint:
+  - "ruff check ."
+
+# --- Per-component routing ---
+# Each target maps a repo area to the specific test file(s) that cover it.
+# Test file paths are OBSERVED from the tests/ directory listing.
+
+target: "src/storage/graph_db.py"
+unit:
+  - "pytest tests/unit/test_graph_db.py"
+integration:
+  - "pytest tests/integration/test_pipeline.py"
+
+target: "src/storage/models.py"
+unit:
+  - "pytest tests/unit/test_graph_db.py"
+  - "pytest tests/unit/test_contradiction_detector.py"
+
+target: "src/extractor/entity_extractor.py"
+unit:
+  - "pytest tests/unit/test_entity_extractor.py"
+
+target: "src/extractor/alias_resolver.py"
+unit:
+  - "pytest tests/unit/test_alias_resolver.py"
+
+target: "src/extractor/claim_extractor.py"
+unit:
+  - "pytest tests/unit/test_entity_extractor.py"
+integration:
+  - "pytest tests/integration/test_pipeline.py"
+
+target: "src/extractor/contradiction_detector.py"
+unit:
+  - "pytest tests/unit/test_contradiction_detector.py"
+
+target: "src/crawler/web_crawler.py"
+integration:
+  - "pytest tests/integration/test_cli_smoke.py"
+
+target: "src/utils/text_utils.py"
+unit:
+  - "pytest tests/unit/test_text_utils.py"
+
+target: "src/llm/gemini_client.py"
+unit:
+  - "pytest tests/unit/test_gemini_client.py"
+
+target: "src/llm/entity_claim_extractor.py"
+unit:
+  - "pytest tests/unit/test_gemini_extractors.py"
+
+target: "src/llm/graph_qa.py"
+unit:
+  - "pytest tests/unit/test_gemini_extractors.py"
+
+target: "src/llm/seed_discoverer.py"
+unit:
+  - "pytest tests/unit/test_gemini_extractors.py"
+
+target: "scripts/_pipeline_helpers.py"
+unit:
+  - "pytest tests/unit/test_entity_extractor.py"
+integration:
+  - "pytest tests/integration/test_pipeline.py"
+
+target: "scripts/01_crawl_and_build_graph.py"
+integration:
+  - "pytest tests/integration/test_cli_smoke.py"
+
+target: "scripts/02_gemini_search.py"
+unit:
+  - "pytest tests/unit/test_gemini_extractors.py"
+  - "pytest tests/unit/test_gemini_client.py"
+
+target: "config/settings.py"
+unit:
+  - "pytest tests/unit/test_gemini_client.py"
+
+# --- Marker-based selection (pyproject.toml defines: unit, integration, slow) ---
+# NOTE: No test files currently use @pytest.mark markers (OBSERVED — grep found
+# zero @pytest.mark.* decorators). The markers are declared in pyproject.toml
+# but unused. Selection by marker will match nothing until markers are applied.
+target: "by-marker"
+unit:
+  - "pytest -m unit"
+integration:
+  - "pytest -m integration"
+slow:
+  - "pytest -m slow"
+
+# --- Coverage ---
+# pytest-cov is in requirements.txt but no coverage config exists in
+# pyproject.toml or .coveragerc. To get coverage, run manually:
+#   pytest --cov=src --cov=scripts --cov-report=term-missing
+# This is not a pre-configured command — it is an ad-hoc invocation.

@@ -1,0 +1,474 @@
+# Change-Impact Relationships
+# Evidence: direct import analysis of all Python source files (OBSERVED)
+
+- component:
+    name: "GraphDB"
+    path: "src/storage/graph_db.py"
+  depends_on:
+    - type: code
+      target: "src/storage/models.py"
+      reason: "imports GraphNode, GraphEdge, SourceRecord, ClaimSourceLink, NodeType, RelationType, SourceClass, BiasHint"
+    - type: code
+      target: "sqlite3 (stdlib)"
+  used_by:
+    - "scripts/_pipeline_helpers.py (process_page)"
+    - "scripts/01_crawl_and_build_graph.py (main)"
+    - "scripts/02_gemini_search.py (extract, ask)"
+    - "src/extractor/contradiction_detector.py"
+    - "src/llm/graph_qa.py"
+    - "tests/unit/test_graph_db.py"
+    - "tests/unit/test_contradiction_detector.py"
+    - "tests/integration/test_pipeline.py"
+    - "tests/integration/test_cli_smoke.py"
+    - "tests/unit/test_gemini_extractors.py"
+  interfaces:
+    - "add_node, get_node, get_nodes_by_type"
+    - "add_edge, get_edges_from, get_edges_to, get_all_edges"
+    - "add_source, get_source, get_source_by_url, get_all_sources"
+    - "add_claim_source_link"
+    - "get_claims_about, get_persons_connected_to_group, get_contradictions"
+    - "get_node_count, get_edge_count, get_source_count"
+    - "close, __enter__, __exit__"
+  data_stores:
+    - "SQLite (data/graph.db)"
+  configuration:
+    - "config/settings.py:graph_db_path"
+  runtime_workflows:
+    - "full-pipeline"
+    - "gemini-extract"
+    - "contradiction-detection"
+  decisions: []
+  known_risks:
+    - "No FK enforcement — orphan edges possible"
+    - "No transaction batching — each operation commits individually"
+    - "No migration framework — schema is additive only"
+    - "Single connection — no concurrent access support"
+  security_sensitive: false
+  operationally_sensitive: false
+  before_modifying:
+    - "Schema changes require updating SCHEMA_SQL; existing DBs won't auto-migrate"
+    - "Enum value changes (NodeType/RelationType) break existing stored data"
+    - "ID format changes invalidate existing graph databases"
+  test_map_target: "tests/unit/test_graph_db.py"
+  evidence:
+    - path: "src/storage/graph_db.py"
+      symbol: "GraphDB"
+      evidence_type: "source"
+      confidence: "OBSERVED"
+
+- component:
+    name: "Data Models"
+    path: "src/storage/models.py"
+  depends_on:
+    - type: code
+      target: "pydantic (BaseModel, Field)"
+    - type: code
+      target: "enum (Enum)"
+  used_by:
+    - "src/storage/graph_db.py"
+    - "scripts/_pipeline_helpers.py"
+    - "src/extractor/contradiction_detector.py"
+    - "src/llm/graph_qa.py"
+    - "tests/unit/test_graph_db.py"
+    - "tests/unit/test_contradiction_detector.py"
+    - "tests/integration/test_pipeline.py"
+    - "tests/unit/test_gemini_extractors.py"
+  interfaces:
+    - "NodeType enum (6 values)"
+    - "RelationType enum (16 values)"
+    - "ClaimStance, ClaimType, EvidenceMode, SourceClass, BiasHint enums"
+    - "GraphNode, GraphEdge, SourceRecord, ClaimSourceLink Pydantic models"
+  data_stores: []
+  configuration: []
+  runtime_workflows:
+    - "full-pipeline"
+    - "gemini-extract"
+    - "contradiction-detection"
+  decisions: []
+  known_risks:
+    - "Enum values stored as TEXT in SQLite — removing/renaming breaks existing data"
+  security_sensitive: false
+  operationally_sensitive: false
+  before_modifying:
+    - "Adding enum values is safe; removing/renaming breaks stored data"
+    - "Changing Pydantic model fields affects all consumers and tests"
+  test_map_target: "tests/unit/test_graph_db.py"
+  evidence:
+    - path: "src/storage/models.py"
+      symbol: "NodeType, RelationType"
+      evidence_type: "source"
+      confidence: "OBSERVED"
+
+- component:
+    name: "EntityExtractor"
+    path: "src/extractor/entity_extractor.py"
+  depends_on:
+    - type: code
+      target: "src/extractor/alias_resolver.py"
+    - type: code
+      target: "src/utils/text_utils.py"
+    - type: external
+      target: "spacy (optional, lazy import)"
+  used_by:
+    - "src/extractor/claim_extractor.py"
+    - "scripts/_pipeline_helpers.py (process_page)"
+    - "scripts/01_crawl_and_build_graph.py"
+    - "tests/unit/test_entity_extractor.py"
+  interfaces:
+    - "extract(text) -> dict with keys: persons, groups, places, events, claims, relations"
+  data_stores: []
+  configuration:
+    - "config/settings.py:spacy_model"
+  runtime_workflows:
+    - "full-pipeline"
+  decisions:
+    - "spaCy is optional — falls back to rule-based extraction"
+    - "Text truncated to 100K chars for spaCy processing"
+    - "False-positive filter for single-token PERSON names"
+  known_risks:
+    - "565 LOC in single file — largest source file"
+    - "Keyword-based stance/claim_type classification is coarse"
+  security_sensitive: false
+  operationally_sensitive: false
+  before_modifying:
+    - "extract() return shape is the contract for GeminiExtractor — changes break drop-in compatibility"
+    - "Keyword list changes affect extraction output — update tests"
+  test_map_target: "tests/unit/test_entity_extractor.py"
+  evidence:
+    - path: "src/extractor/entity_extractor.py"
+      symbol: "EntityExtractor.extract"
+      evidence_type: "source"
+      confidence: "OBSERVED"
+
+- component:
+    name: "AliasResolver"
+    path: "src/extractor/alias_resolver.py"
+  depends_on:
+    - type: code
+      target: "src/utils/text_utils.py (normalize, slugify, hash_url, stable_hash)"
+  used_by:
+    - "src/extractor/entity_extractor.py"
+    - "src/extractor/claim_extractor.py"
+    - "scripts/_pipeline_helpers.py"
+    - "src/llm/entity_claim_extractor.py"
+    - "tests/unit/test_alias_resolver.py"
+  interfaces:
+    - "canonical_person, canonical_group, canonical_place"
+    - "person_id, group_id, place_id, event_id, work_id, claim_id"
+    - "resolve_target_id, get_aliases_for_canonical, is_aquarian_name"
+    - "KNOWN_PERSONS, KNOWN_GROUPS, KNOWN_PLACES, ALIAS_MAP, GROUP_ALIAS_MAP, PLACE_ALIAS_MAP"
+  data_stores: []
+  configuration: []
+  runtime_workflows:
+    - "full-pipeline"
+    - "gemini-extract"
+  decisions:
+    - "Canonical names are lowercased normalized strings"
+    - "IDs are type-prefixed slugs: person:{slug}, group:{slug}, etc."
+    - "Claim/work IDs use hash-based IDs for uniqueness"
+  known_risks:
+    - "Changing ID format invalidates existing graph databases"
+    - "Alias tables are hardcoded — new entities require code changes"
+  security_sensitive: false
+  operationally_sensitive: false
+  before_modifying:
+    - "ID generation functions are used everywhere — format changes are high-impact"
+    - "Alias table additions are safe; removals may merge previously distinct nodes"
+  test_map_target: "tests/unit/test_alias_resolver.py"
+  evidence:
+    - path: "src/extractor/alias_resolver.py"
+      symbol: "person_id, canonical_person"
+      evidence_type: "source"
+      confidence: "OBSERVED"
+
+- component:
+    name: "PipelineHelpers"
+    path: "scripts/_pipeline_helpers.py"
+  depends_on:
+    - type: code
+      target: "src/crawler/web_crawler.py (CrawledPage)"
+    - type: code
+      target: "src/extractor/alias_resolver.py"
+    - type: code
+      target: "src/extractor/claim_extractor.py"
+    - type: code
+      target: "src/extractor/entity_extractor.py"
+    - type: code
+      target: "src/storage/graph_db.py"
+    - type: code
+      target: "src/storage/models.py"
+    - type: code
+      target: "src/utils/text_utils.py (get_domain)"
+  used_by:
+    - "scripts/01_crawl_and_build_graph.py"
+    - "scripts/02_gemini_search.py"
+    - "tests/integration/test_pipeline.py"
+  interfaces:
+    - "process_page(page, extractor, claim_extractor, db) -> None"
+    - "classify_source(url, title, text) -> tuple[SourceClass, BiasHint]"
+  data_stores:
+    - "SQLite (via GraphDB)"
+  configuration: []
+  runtime_workflows:
+    - "full-pipeline"
+    - "gemini-extract"
+  decisions:
+    - "Duck-typed extractor/claim_extractor — accepts EntityExtractor or GeminiExtractor"
+    - "_REL_TYPE_MAP maps extractor relation strings to RelationType enum"
+  known_risks:
+    - "No unit test for classify_source() (DEBT-003)"
+    - "process_page is 230+ LOC — complex integration function"
+  security_sensitive: false
+  operationally_sensitive: false
+  before_modifying:
+    - "This is the sole extraction→storage bridge — changes affect both pipelines"
+    - "Adding new entity types requires updating the storage loop"
+    - "New relation types require updating _REL_TYPE_MAP"
+  test_map_target: "tests/integration/test_pipeline.py"
+  evidence:
+    - path: "scripts/_pipeline_helpers.py"
+      symbol: "process_page"
+      evidence_type: "source"
+      confidence: "OBSERVED"
+
+- component:
+    name: "WebCrawler"
+    path: "src/crawler/web_crawler.py"
+  depends_on:
+    - type: external
+      target: "requests"
+    - type: external
+      target: "beautifulsoup4 + lxml"
+    - type: external
+      target: "tenacity"
+    - type: code
+      target: "src/utils/text_utils.py"
+  used_by:
+    - "scripts/01_crawl_and_build_graph.py"
+    - "scripts/02_gemini_search.py (extract subcommand)"
+    - "tests/integration/test_cli_smoke.py (mocked)"
+  interfaces:
+    - "crawl() -> list[CrawledPage]"
+    - "CrawledPage dataclass"
+  data_stores: []
+  configuration:
+    - "config/settings.py:seed_urls, allowed_domains, crawl_*"
+  runtime_workflows:
+    - "full-pipeline"
+    - "gemini-extract"
+  decisions:
+    - "BFS with domain filtering and depth cap"
+    - "Tenacity retry: 3 attempts, exponential backoff 2-10s"
+    - "Rate limiting via time.sleep(delay_seconds)"
+  known_risks:
+    - "No try/except in _parse_page — malformed HTML could raise unhandled exception (DEBT-001)"
+    - "No robots.txt checking"
+  security_sensitive: false
+  operationally_sensitive: true
+  before_modifying:
+    - "Parser changes affect all downstream extraction quality"
+    - "Rate limiting changes affect crawl politeness"
+  test_map_target: "tests/integration/test_cli_smoke.py"
+  evidence:
+    - path: "src/crawler/web_crawler.py"
+      symbol: "WebCrawler.crawl"
+      evidence_type: "source"
+      confidence: "OBSERVED"
+
+- component:
+    name: "ContradictionDetector"
+    path: "src/extractor/contradiction_detector.py"
+  depends_on:
+    - type: code
+      target: "src/storage/graph_db.py"
+    - type: code
+      target: "src/storage/models.py"
+  used_by:
+    - "scripts/01_crawl_and_build_graph.py"
+    - "tests/unit/test_contradiction_detector.py"
+  interfaces:
+    - "infer_implicit_targets() -> int"
+    - "detect_contradictions() -> list[tuple[str, str]]"
+    - "build_timeline_edges() -> list[tuple[str, str]]"
+  data_stores:
+    - "SQLite (via GraphDB — reads and mutates)"
+  configuration: []
+  runtime_workflows:
+    - "contradiction-detection"
+  decisions:
+    - "Only PERSON and GROUP targets inherited (not PLACE)"
+    - "Contradictory pairs: critical vs supportive, critical vs self-mythologizing"
+    - "Timeline uses string comparison for ISO dates"
+  known_risks:
+    - "String date comparison breaks for non-ISO dates (DEBT-005)"
+    - "O(n²) claim pair comparison per target"
+  security_sensitive: false
+  operationally_sensitive: false
+  before_modifying:
+    - "All three methods mutate the DB by adding edges"
+    - "Running twice is safe (INSERT OR IGNORE) but infer_implicit_targets checks existing ABOUT edges"
+  test_map_target: "tests/unit/test_contradiction_detector.py"
+  evidence:
+    - path: "src/extractor/contradiction_detector.py"
+      symbol: "ContradictionDetector"
+      evidence_type: "source"
+      confidence: "OBSERVED"
+
+- component:
+    name: "GeminiClient"
+    path: "src/llm/gemini_client.py"
+  depends_on:
+    - type: external
+      target: "google-genai SDK (optional, lazy import)"
+    - type: code
+      target: "config/settings.py"
+  used_by:
+    - "src/llm/entity_claim_extractor.py"
+    - "src/llm/graph_qa.py"
+    - "src/llm/seed_discoverer.py"
+    - "scripts/02_gemini_search.py"
+    - "tests/unit/test_gemini_client.py"
+  interfaces:
+    - "is_available() -> bool"
+    - "generate_text(prompt, *, system_instruction) -> str"
+    - "generate_json(prompt, response_schema, *, system_instruction) -> Any"
+    - "generate_grounded(prompt) -> GroundingResult"
+  data_stores: []
+  configuration:
+    - "config/settings.py:gemini_api_key, gemini_model"
+  runtime_workflows:
+    - "gemini-extract"
+  decisions:
+    - "Lazy construction — SDK imported only on first use"
+    - "Centralized generate_content for test mocking"
+  known_risks:
+    - "Uses response_json_schema (newer SDK API) — may break on SDK downgrade"
+    - "Response shape parsing has fallback but may need updates on SDK upgrade"
+  security_sensitive: true
+  operationally_sensitive: false
+  before_modifying:
+    - "API key handling — never log or expose the key"
+    - "SDK version changes may affect response parsing"
+  test_map_target: "tests/unit/test_gemini_client.py"
+  evidence:
+    - path: "src/llm/gemini_client.py"
+      symbol: "GeminiClient"
+      evidence_type: "source"
+      confidence: "OBSERVED"
+
+- component:
+    name: "GeminiExtractor"
+    path: "src/llm/entity_claim_extractor.py"
+  depends_on:
+    - type: code
+      target: "src/llm/gemini_client.py"
+    - type: code
+      target: "src/extractor/alias_resolver.py"
+    - type: code
+      target: "src/utils/text_utils.py (stable_hash)"
+  used_by:
+    - "scripts/02_gemini_search.py"
+    - "scripts/_pipeline_helpers.py (duck-typed)"
+    - "tests/unit/test_gemini_extractors.py"
+  interfaces:
+    - "extract(text) -> dict (same shape as EntityExtractor)"
+    - "GeminiClaimExtractor.extract_claims(text, source_url) -> list[dict]"
+  data_stores: []
+  configuration: []
+  runtime_workflows:
+    - "gemini-extract"
+  decisions:
+    - "JSON Schema constrains Gemini output to 6-key shape"
+    - "Caches by text hash to avoid duplicate API calls"
+    - "_normalize() reshapes Gemini output to EntityExtractor dict shape"
+  known_risks:
+    - "Text truncated to 20K chars for Gemini prompt"
+    - "Gemini may hallucinate entities not in text despite system instruction"
+  security_sensitive: false
+  operationally_sensitive: false
+  before_modifying:
+    - "EXTRACTION_SCHEMA changes must stay compatible with process_page()"
+    - "_normalize() must match EntityExtractor's dict shape"
+  test_map_target: "tests/unit/test_gemini_extractors.py"
+  evidence:
+    - path: "src/llm/entity_claim_extractor.py"
+      symbol: "GeminiExtractor.extract"
+      evidence_type: "source"
+      confidence: "OBSERVED"
+
+- component:
+    name: "GraphQA"
+    path: "src/llm/graph_qa.py"
+  depends_on:
+    - type: code
+      target: "src/llm/gemini_client.py"
+    - type: code
+      target: "src/storage/graph_db.py"
+    - type: code
+      target: "src/storage/models.py"
+  used_by:
+    - "scripts/02_gemini_search.py (ask subcommand)"
+    - "tests/unit/test_gemini_extractors.py"
+  interfaces:
+    - "answer(question, *, max_nodes, max_claims) -> QAResponse"
+  data_stores:
+    - "SQLite (via GraphDB — read only)"
+  configuration: []
+  runtime_workflows:
+    - "gemini-extract"
+  decisions:
+    - "Keyword-based retrieval (not embedding)"
+    - "System instruction enforces answer-from-context-only"
+  known_risks:
+    - "Keyword matching may miss semantically relevant but lexically different nodes"
+  security_sensitive: false
+  operationally_sensitive: false
+  before_modifying:
+    - "Retrieval logic changes affect Q&A quality"
+  test_map_target: "tests/unit/test_gemini_extractors.py"
+  evidence:
+    - path: "src/llm/graph_qa.py"
+      symbol: "GraphQA.answer"
+      evidence_type: "source"
+      confidence: "OBSERVED"
+
+- component:
+    name: "Config"
+    path: "config/settings.py"
+  depends_on:
+    - type: external
+      target: "pydantic (BaseModel, Field)"
+    - type: external
+      target: "python-dotenv"
+  used_by:
+    - "scripts/01_crawl_and_build_graph.py"
+    - "scripts/02_gemini_search.py"
+    - "src/llm/gemini_client.py"
+  interfaces:
+    - "settings singleton (Settings instance)"
+    - "settings.graph_db_abs_path, settings.raw_pages_abs_dir (properties)"
+  data_stores: []
+  configuration:
+    - ".env file (see .env.example)"
+    - "CRAWL_*, SPACY_MODEL, GEMINI_*, GRAPH_DB_PATH, RAW_PAGES_DIR, FB_ACCESS_TOKEN"
+  runtime_workflows:
+    - "full-pipeline"
+    - "gemini-extract"
+  decisions:
+    - "Pydantic BaseModel with Field default_factory reading os.getenv"
+    - "load_dotenv at module import time"
+    - "Seed URLs and allowed domains hardcoded as defaults"
+  known_risks:
+    - "Module-level load_dotenv — settings initialized at import time"
+    - "FB_ACCESS_TOKEN in .env.example but no implementation code (UNKNOWN-001)"
+  security_sensitive: true
+  operationally_sensitive: false
+  before_modifying:
+    - "Adding settings requires updating .env.example"
+    - "Settings are read at import time — test monkeypatching needed"
+  test_map_target: "tests/unit/test_gemini_client.py"
+  evidence:
+    - path: "config/settings.py"
+      symbol: "Settings"
+      evidence_type: "source"
+      confidence: "OBSERVED"

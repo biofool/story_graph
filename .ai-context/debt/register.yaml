@@ -1,0 +1,388 @@
+# Technical Debt Register
+# Sorted by priority_score (impact × likelihood × reach), highest first.
+# All items are OBSERVED from source code analysis unless marked otherwise.
+# Classification: confirmed-defect / architectural-risk / code-smell / improvement-opportunity / evidence-gap
+
+- id: "DEBT-001"
+  summary: "WebCrawler._parse_page() has no try/except — malformed HTML can crash the crawl"
+  classification: "confirmed-defect"
+  location: "src/crawler/web_crawler.py:67 (_parse_page)"
+  evidence:
+    path: "src/crawler/web_crawler.py"
+    symbol: "_parse_page"
+    evidence_type: "source"
+    confidence: "OBSERVED"
+  impact: 4  # 1-5: crash halts entire crawl run
+  likelihood: 3  # 1-5: lxml is resilient but edge cases exist
+  reach: 4  # 1-5: affects every crawl run
+  priority_score: 48
+  detail: |
+    _parse_page() calls BeautifulSoup(html, "lxml") with no exception
+    handling. While lxml is generally robust, certain malformed inputs
+    or encoding issues can raise. The outer crawl() loop catches
+    exceptions per-page, but _parse_page itself is called outside that
+    catch in some code paths. A single bad page could abort the run.
+  recommended_action: "Wrap _parse_page body in try/except, return error CrawledPage on failure"
+
+- id: "DEBT-002"
+  summary: "No SQLite foreign key enforcement — orphan edges/sources possible"
+  classification: "architectural-risk"
+  location: "src/storage/graph_db.py:27-64 (SCHEMA_SQL)"
+  evidence:
+    path: "src/storage/graph_db.py"
+    symbol: "SCHEMA_SQL"
+    evidence_type: "source"
+    confidence: "OBSERVED"
+  impact: 3  # data integrity
+  likelihood: 2  # callers generally add nodes before edges
+  reach: 5  # all graph data
+  priority_score: 30
+  detail: |
+    edges and claim_sources tables have no FOREIGN KEY constraints
+    referencing nodes/sources. PRAGMA foreign_keys is never set.
+    Code-level ordering (add_node before add_edge) prevents most
+    orphans, but nothing enforces it at the DB level. A bug in
+    process_page() ordering could silently create dangling edges.
+  recommended_action: "Add FK constraints + PRAGMA foreign_keys=ON, or document the ordering contract"
+
+- id: "DEBT-003"
+  summary: "classify_source() in _pipeline_helpers.py has no unit test"
+  classification: "evidence-gap"
+  location: "scripts/_pipeline_helpers.py (classify_source)"
+  evidence:
+    path: "scripts/_pipeline_helpers.py"
+    symbol: "classify_source"
+    evidence_type: "source"
+    confidence: "OBSERVED"
+  impact: 3  # source classification affects bias hints
+  likelihood: 2  # logic is simple but untested
+  reach: 3  # affects source metadata quality
+  priority_score: 18
+  detail: |
+    classify_source() determines SourceClass and BiasHint for crawled
+    pages. grep for 'classify_source' in tests/ returns zero matches.
+    The function is exercised only indirectly via test_pipeline.py.
+  recommended_action: "Add unit tests for classify_source() covering each SourceClass/BiasHint branch"
+
+- id: "DEBT-004"
+  summary: "No database migration framework — schema is additive-only with CREATE TABLE IF NOT EXISTS"
+  classification: "architectural-risk"
+  location: "src/storage/graph_db.py:27 (SCHEMA_SQL)"
+  evidence:
+    path: "src/storage/graph_db.py"
+    symbol: "SCHEMA_SQL"
+    evidence_type: "source"
+    confidence: "OBSERVED"
+  impact: 4  # schema evolution blocked
+  likelihood: 2  # currently stable, but future changes are hard
+  reach: 5  # all existing databases
+  priority_score: 40
+  detail: |
+    Schema uses CREATE TABLE IF NOT EXISTS exclusively. No ALTER TABLE,
+    no migration framework, no schema_version tracking. Existing
+    data/graph.db files cannot be upgraded if columns are added or
+    types change — the only option is to rebuild from scratch.
+  recommended_action: "Add a schema_version table + migration scripts, or document rebuild-only policy"
+
+- id: "DEBT-005"
+  summary: "Timeline edge sorting uses string comparison on dates — breaks for non-ISO formats"
+  classification: "confirmed-defect"
+  location: "src/extractor/contradiction_detector.py:151 (build_timeline_edges)"
+  evidence:
+    path: "src/extractor/contradiction_detector.py"
+    symbol: "build_timeline_edges"
+    evidence_type: "source"
+    confidence: "OBSERVED"
+  impact: 2  # wrong timeline ordering, not data corruption
+  likelihood: 3  # dates from web crawls are inconsistently formatted
+  reach: 2  # only timeline edges
+  priority_score: 12
+  detail: |
+    build_timeline_edges() sorts events by start_date string and
+    compares with < operator. This works for ISO 8601 (YYYY-MM-DD)
+    but produces wrong ordering for mixed formats (e.g. "2020"
+    vs "January 2020" vs "2020-01-15"). No date parsing/validation.
+  recommended_action: "Parse dates to datetime objects before comparison; fall back to string sort on parse failure"
+
+- id: "DEBT-006"
+  summary: "Each GraphDB operation commits individually — no transaction batching for bulk inserts"
+  classification: "improvement-opportunity"
+  location: "src/storage/graph_db.py (add_node, add_edge, add_source, add_claim_source_link)"
+  evidence:
+    path: "src/storage/graph_db.py"
+    symbol: "add_node, add_edge, add_source"
+    evidence_type: "source"
+    confidence: "OBSERVED"
+  impact: 2  # performance on large crawls
+  likelihood: 4  # always happens — every insert commits
+  reach: 4  # all pipeline runs
+  priority_score: 32
+  detail: |
+    Every add_node/add_edge/add_source call ends with self._conn.commit().
+    For a 200-page crawl producing thousands of nodes/edges, this means
+    thousands of individual fsync calls. No batch/transaction API exists.
+  recommended_action: "Add a context manager or batch method that defers commit; or use INSERT OR IGNORE with executemany"
+
+- id: "DEBT-007"
+  summary: "Single SQLite connection — no concurrent access support"
+  classification: "architectural-risk"
+  location: "src/storage/graph_db.py:84 (sqlite3.connect)"
+  evidence:
+    path: "src/storage/graph_db.py"
+    symbol: "GraphDB.__init__"
+    evidence_type: "source"
+    confidence: "OBSERVED"
+  impact: 2  # only matters if parallelism is added
+  likelihood: 1  # currently single-process, no concurrency
+  reach: 3  # all DB access
+  priority_score: 6
+  detail: |
+    GraphDB opens a single sqlite3.Connection with default
+    check_same_thread=True. No connection pool, no WAL mode.
+    If the pipeline is ever parallelized (e.g. concurrent crawling
+    + extraction), this will serialize or error.
+  recommended_action: "Document single-writer constraint; add WAL mode if read-during-write is needed"
+
+- id: "DEBT-008"
+  summary: "structlog in requirements.txt but completely unused — stdlib logging used everywhere"
+  classification: "code-smell"
+  location: "requirements.txt:29 (structlog>=24.1.0)"
+  evidence:
+    path: "requirements.txt"
+    symbol: "structlog"
+    evidence_type: "source"
+    confidence: "OBSERVED"
+  impact: 1  # unused dependency, no functional impact
+  likelihood: 5  # confirmed unused
+  reach: 1  # only affects install footprint
+  priority_score: 5
+  detail: |
+    structlog is listed as a dependency but grep finds zero imports
+    across all src/, scripts/, config/, and tests/ files. Every
+    module uses stdlib logging.getLogger(__name__). Either the
+    migration to structlog was planned but never done, or it was
+    removed and the dependency left behind.
+  recommended_action: "Remove structlog from requirements.txt, or migrate logging to it"
+
+- id: "DEBT-009"
+  summary: "httpx in requirements.txt but never imported — only requests is used for HTTP"
+  classification: "code-smell"
+  location: "requirements.txt:6 (httpx>=0.27.0)"
+  evidence:
+    path: "requirements.txt"
+    symbol: "httpx"
+    evidence_type: "source"
+    confidence: "OBSERVED"
+  impact: 1
+  likelihood: 5
+  reach: 1
+  priority_score: 5
+  detail: |
+    httpx is listed as a dependency but grep finds zero imports
+    across all source and test files. WebCrawler uses requests
+    exclusively. Likely a leftover from planned async work.
+  recommended_action: "Remove httpx from requirements.txt, or document intended use"
+
+- id: "DEBT-010"
+  summary: "responses in requirements.txt but not used in tests — HTTP mocking done via unittest.mock"
+  classification: "code-smell"
+  location: "requirements.txt:37 (responses>=0.24.0)"
+  evidence:
+    path: "requirements.txt"
+    symbol: "responses"
+    evidence_type: "source"
+    confidence: "OBSERVED"
+  impact: 1
+  likelihood: 5
+  reach: 1
+  priority_score: 5
+  detail: |
+    responses library (HTTP mock for requests) is in requirements.txt
+    but no test file imports it. Crawler is mocked via
+    unittest.mock.patch.object(WebCrawler, 'crawl', ...). Gemini
+    is mocked via FakeGeminiClient classes.
+  recommended_action: "Remove responses from requirements.txt, or use it for crawler unit tests"
+
+- id: "DEBT-011"
+  summary: "RAW_PAGES_DIR configured but never used in source code"
+  classification: "code-smell"
+  location: "config/settings.py:57 (raw_pages_dir), :96 (raw_pages_abs_dir)"
+  evidence:
+    path: "config/settings.py"
+    symbol: "raw_pages_dir, raw_pages_abs_dir"
+    evidence_type: "source"
+    confidence: "OBSERVED"
+  impact: 1
+  likelihood: 5
+  reach: 1
+  priority_score: 5
+  detail: |
+    settings.raw_pages_dir and the raw_pages_abs_dir property are
+    defined but grep finds no consumer in src/, scripts/, or tests/.
+    Crawled page text is stored in the sources table, not written
+    to the raw pages directory. Dead configuration.
+  recommended_action: "Remove raw_pages_dir/raw_pages_abs_dir, or implement raw page archival"
+
+- id: "DEBT-012"
+  summary: "process_page() is 312 LOC with no error handling — extraction/storage errors propagate unhandled"
+  classification: "code-smell"
+  location: "scripts/_pipeline_helpers.py (process_page)"
+  evidence:
+    path: "scripts/_pipeline_helpers.py"
+    symbol: "process_page"
+    evidence_type: "source"
+    confidence: "OBSERVED"
+  impact: 3  # unhandled error kills pipeline run
+  likelihood: 2  # extractors are generally stable
+  reach: 4  # sole extraction→storage bridge
+  priority_score: 24
+  detail: |
+    process_page() is the single integration point between extractors
+    and GraphDB. At 312 LOC it handles entity normalization, relation
+    mapping, claim storage, and source classification — all without
+    try/except. Any exception (bad data, DB error) propagates to the
+    caller and aborts the pipeline.
+  recommended_action: "Add per-page try/except with logging; consider splitting into smaller functions"
+
+- id: "DEBT-013"
+  summary: "entity_extractor.py is 565 LOC — largest source file, mixing NER, rules, and classification"
+  classification: "code-smell"
+  location: "src/extractor/entity_extractor.py"
+  evidence:
+    path: "src/extractor/entity_extractor.py"
+    symbol: "EntityExtractor"
+    evidence_type: "source"
+    confidence: "OBSERVED"
+  impact: 2  # maintainability
+  likelihood: 3  # already large, growing harder
+  reach: 3  # core extraction
+  priority_score: 18
+  detail: |
+    Single file handles spaCy NER loading, rule-based person/group/
+    place/event extraction, claim detection with stance classification,
+    relation extraction, and false-positive filtering. Mixing concerns
+    makes it hard to test or modify individual extraction strategies.
+  recommended_action: "Split into separate modules: ner_loader, rule_patterns, claim_classifier"
+
+- id: "DEBT-014"
+  summary: "No robots.txt checking in WebCrawler"
+  classification: "improvement-opportunity"
+  location: "src/crawler/web_crawler.py (WebCrawler)"
+  evidence:
+    path: "src/crawler/web_crawler.py"
+    symbol: "WebCrawler"
+    evidence_type: "source"
+    confidence: "OBSERVED"
+  impact: 2  # crawl politeness / ethical scraping
+  likelihood: 2  # allowed_domains limits scope
+  reach: 3  # all crawl runs
+  priority_score: 12
+  detail: |
+    WebCrawler respects rate limiting (time.sleep) and domain filtering
+    but does not fetch or respect robots.txt. For a research crawler
+    targeting specific blogs and news sites, this is a politeness gap.
+  recommended_action: "Add robots.txt fetching + url-for-allowed check before crawling"
+
+- id: "DEBT-015"
+  summary: "No retry on non-200 HTTP responses — only retries on exceptions"
+  classification: "improvement-opportunity"
+  location: "src/crawler/web_crawler.py:62 (_fetch)"
+  evidence:
+    path: "src/crawler/web_crawler.py"
+    symbol: "_fetch"
+    evidence_type: "source"
+    confidence: "OBSERVED"
+  impact: 2  # transient 503/429 not retried
+  likelihood: 3  # common for blog servers
+  reach: 3  # all crawl runs
+  priority_score: 18
+  detail: |
+    @retry decorator on _fetch() only retries on raised exceptions.
+    Non-200 responses (503, 429, 502) are returned as-is without
+    raising, so tenacity never triggers. Transient server errors
+    are treated as permanent failures.
+  recommended_action: "Raise on non-200 (or specific retryable codes) to let tenacity handle them"
+
+- id: "DEBT-016"
+  summary: "Alias tables and keyword patterns hardcoded in source — new entities require code changes"
+  classification: "architectural-risk"
+  location: "src/extractor/alias_resolver.py, src/extractor/entity_extractor.py"
+  evidence:
+    path: "src/extractor/alias_resolver.py"
+    symbol: "KNOWN_PERSONS, ALIAS_MAP, GROUP_ALIAS_MAP"
+    evidence_type: "source"
+    confidence: "OBSERVED"
+  impact: 2  # extensibility
+  likelihood: 3  # every new entity needs a code change
+  reach: 3  # extraction quality
+  priority_score: 18
+  detail: |
+    KNOWN_PERSONS, KNOWN_GROUPS, ALIAS_MAP, GROUP_ALIAS_MAP,
+    PLACE_ALIAS_MAP, PERSON_PATTERNS, GROUP_PATTERNS, etc. are all
+    hardcoded Python dicts/lists. Adding a new person alias or
+    extraction pattern requires editing source code and redeploying.
+    No external config file or DB-driven approach.
+  recommended_action: "Move alias/pattern tables to JSON/YAML config files loaded at startup"
+
+- id: "DEBT-017"
+  summary: "No CI/CD pipeline — tests and lint must be run manually"
+  classification: "improvement-opportunity"
+  location: "repo root (no .github/workflows/, no .gitlab-ci.yml)"
+  evidence:
+    path: ".github/workflows/"
+    symbol: "N/A"
+    evidence_type: "absence"
+    confidence: "OBSERVED"
+  impact: 3  # regressions can ship undetected
+  likelihood: 3  # human-only validation is unreliable
+  reach: 5  # entire repo
+  priority_score: 45
+  detail: |
+    No GitHub Actions, GitLab CI, or any CI config exists. Tests
+    and ruff linting depend on the developer remembering to run them
+    locally. The GitLab remote has several feature/fix branches,
+    suggesting manual workflow. The most recent merge (fb82bbf)
+    bundled ruff cleanup + CLI smoke tests, indicating quality
+    gates are applied post-hoc rather than automatically.
+  recommended_action: "Add a minimal CI config: pytest + ruff check on push/PR for both GitHub and GitLab"
+
+- id: "DEBT-018"
+  summary: "`ruff check .` fails with 23 errors — E402 in both CLI scripts despite 'ruff cleanup' merge"
+  classification: "confirmed-defect"
+  location: "scripts/01_crawl_and_build_graph.py:18-29, scripts/02_gemini_search.py:34-46"
+  evidence:
+    path: "scripts/01_crawl_and_build_graph.py, scripts/02_gemini_search.py"
+    symbol: "module-level imports after sys.path.insert()"
+    evidence_type: "command-output"
+    command: "python3 -m ruff check . --output-format=concise"
+    result: "Found 23 errors (all E402 Module level import not at top of file)"
+    confidence: "OBSERVED"
+  impact: 2  # cosmetic/lint-gate failure, no runtime effect
+  likelihood: 5  # deterministic — every run fails
+  reach: 2  # two files, but blocks any lint-gated workflow (e.g. future CI per DEBT-017)
+  priority_score: 20
+  detail: |
+    Both CLI scripts insert the project root into sys.path before their
+    src/config imports (a necessary pattern for script-style execution),
+    which trips E402. Commit 74f2aa5 ('Auto-fix ruff lint findings') did
+    not address these, and [tool.ruff] in pyproject.toml has no E402
+    ignore or per-file-ignores for scripts/. Any CI gate running
+    `ruff check .` (as recommended in DEBT-017 remediation) will fail.
+  recommended_action: >
+    Either add per-file-ignores to [tool.ruff]
+    ("scripts/*" = ["E402"]) acknowledging the sys.path bootstrap
+    pattern as intentional, or restructure imports. First option is the
+    smallest safe improvement.
+  smallest_safe_improvement: "Add [tool.ruff.lint.per-file-ignores] \"scripts/*\" = [\"E402\"] to pyproject.toml"
+  validation_plan: "python3 -m ruff check . exits 0 after change"
+  status: "resolved"
+  resolved_date: "2026-08-23"
+  resolution_commit: "68fc0c42f3ae5abe5216a5ff13575168bdaa9c93"
+  resolution_note: >-
+    Applied the smallest_safe_improvement: added
+    [tool.ruff.lint.per-file-ignores] "scripts/*" = ["E402"] under the
+    existing [tool.ruff] section of pyproject.toml, acknowledging the
+    sys.path bootstrap pattern as intentional. Validated:
+    python3 -m ruff check . -> "All checks passed!" exit 0 (previously 23
+    E402 errors), and pytest tests/unit/ tests/integration/ still green
+    (139 passed).

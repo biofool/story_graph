@@ -1,0 +1,118 @@
+# Conflicts Register
+# Contradictions between declared claims and observed behavior.
+# Per spec: resolution UNKNOWN until verified.
+
+- id: "CONFLICT-001"
+  summary: "README project structure says src/scrapers/ but actual code is in src/crawler/"
+  declared_claim:
+    statement: "Project structure section lists `src/scrapers/web_crawler.py` as the crawler location"
+    source: "README.md:85-86"
+    evidence_type: "DECLARED"
+  observed_behavior:
+    statement: "The actual directory is `src/crawler/web_crawler.py` — no `src/scrapers/` directory exists. All imports use `from src.crawler.web_crawler import ...`"
+    source: "find . -type d -name 'scrapers' (none); src/crawler/web_crawler.py exists; grep imports confirm src.crawler"
+    evidence_type: "OBSERVED"
+  resolution: "OBSERVED_WINS"
+  resolution_evidence: "Code and all imports use src/crawler/. README is stale."
+  pending_fix: >-
+    RESOLVED — commit 90ea00c on gitlab/fix/seed-url-and-readme-schema fixed
+    this README drift and was merged into main as 1d897fe on 2026-08-23.
+    See resolution_update below.
+  impact_if_agent_trusts_wrong_side: "Agent following README would look in src/scrapers/, find nothing, and waste time or create a duplicate directory"
+  resolution_update:
+    status: "resolved_by_merge"
+    date: "2026-08-23"
+    merge_commit: "1d897fef162b1aaf468785a238648f6e48e7202f"
+    note: "README project structure now lists src/crawler/web_crawler.py; verified against disk layout post-merge."
+
+- id: "CONFLICT-002"
+  summary: "README project structure omits src/llm/ directory entirely"
+  declared_claim:
+    statement: "README project structure section lists src/storage/, src/scrapers/, src/extractors/, src/utils/ but not src/llm/"
+    source: "README.md:81-90"
+    evidence_type: "DECLARED"
+  observed_behavior:
+    statement: "src/llm/ exists with 4 modules (gemini_client.py, entity_claim_extractor.py, graph_qa.py, seed_discoverer.py) and is a major architectural component (the Gemini integration layer)"
+    source: "ls src/llm/; import analysis in relationships.yaml"
+    evidence_type: "OBSERVED"
+  resolution: "OBSERVED_WINS"
+  resolution_evidence: "src/llm/ is a core package with 4 modules and extensive tests."
+  impact_if_agent_trusts_wrong_side: "Agent would not know the LLM layer exists, missing a major component when assessing change impact"
+  resolution_update:
+    status: "still_open"
+    date: "2026-08-23"
+    merge_commit_checked: "1d897fef162b1aaf468785a238648f6e48e7202f"
+    note: >-
+      The seed-url-and-readme-schema merge (1d897fe) corrected the
+      scrapers/extractors directory names but did NOT add src/llm/ (nor
+      scripts/02_gemini_search.py) to the README project structure tree.
+      Omission persists at 1d897fe; conflict remains open.
+
+- id: "CONFLICT-003"
+  summary: "README uses 'extractors' (plural) but actual directory is 'extractor' (singular)"
+  declared_claim:
+    statement: "README project structure shows `src/extractors/`"
+    source: "README.md:87"
+    evidence_type: "DECLARED"
+  observed_behavior:
+    statement: "Actual directory is `src/extractor/` (singular). All imports use `from src.extractor.entity_extractor import ...`"
+    source: "find . -type d -name 'extractors' (none); src/extractor/ exists"
+    evidence_type: "OBSERVED"
+  resolution: "OBSERVED_WINS"
+  resolution_evidence: "Code uses singular form throughout."
+  impact_if_agent_trusts_wrong_side: "Agent would use wrong import path; Python imports would fail"
+  resolution_update:
+    status: "resolved_by_merge"
+    date: "2026-08-23"
+    merge_commit: "1d897fef162b1aaf468785a238648f6e48e7202f"
+    note: "README project structure now shows src/extractor/ (singular); verified against disk layout post-merge."
+
+- id: "CONFLICT-004"
+  summary: "docs/app_review_submission.md references scripts/03_facebook_research.py but no such file exists"
+  declared_claim:
+    statement: "Screencast guidelines say 'running 03_facebook_research.py or querying datasette data/graph.db'"
+    source: "docs/app_review_submission.md:29"
+    evidence_type: "DECLARED"
+  observed_behavior:
+    statement: "No scripts/03* file exists in the repo. Only scripts/01_crawl_and_build_graph.py and scripts/02_gemini_search.py exist."
+    source: "ls scripts/03* (no results); find . -name '03_*' (none)"
+    evidence_type: "OBSERVED"
+  resolution: "UNKNOWN"
+  resolution_evidence: |
+    The script may have existed in a prior commit and been removed,
+    or may exist on an unmerged branch, or may be planned but not
+    yet written. The Meta App Review docs describe Facebook Graph
+    API integration that has no implementation in the current codebase.
+  impact_if_agent_trusts_wrong_side: "Agent may assume Facebook research script exists and try to run or modify it"
+
+- id: "CONFLICT-005"
+  summary: "docs/privacy_policy.md describes Meta Graph API data access but no implementation code exists"
+  declared_claim:
+    statement: "Our application accesses data exclusively through official Meta Graph API endpoints"
+    source: "docs/privacy_policy.md:11"
+    evidence_type: "DECLARED"
+  observed_behavior:
+    statement: "No Python code imports or calls Facebook Graph API. .env.example defines FB_ACCESS_TOKEN but no code reads it beyond the settings field. The crawler targets blogs, Wikipedia, and news sites — not Facebook."
+    source: "grep -rn 'facebook|FB_ACCESS_TOKEN|graph api' src/ scripts/ config/"
+    evidence_type: "OBSERVED"
+  resolution: "UNKNOWN"
+  resolution_evidence: |
+    The privacy policy and app review docs describe a Facebook
+    integration that is either planned, was removed, or exists
+    elsewhere. The current codebase has no Facebook functionality.
+    This is a documentation-vs-code contradiction, not a code bug.
+  impact_if_agent_trusts_wrong_side: "Agent may believe the system handles Facebook data and design changes around non-existent functionality. Could also be a compliance concern if the privacy policy is public."
+
+- id: "CONFLICT-006"
+  summary: "README project structure lists src/extractors/ with 4 files but actual src/extractor/ has different filenames"
+  declared_claim:
+    statement: "README shows extractors/entity_extractor.py, alias_resolver.py, claim_extractor.py, contradiction_detector.py"
+    source: "README.md:87-90"
+    evidence_type: "DECLARED"
+  observed_behavior:
+    statement: "Actual src/extractor/ contains exactly these 4 files (entity_extractor.py, alias_resolver.py, claim_extractor.py, contradiction_detector.py) — filenames match, only the directory name differs (singular vs plural)"
+    source: "ls src/extractor/"
+    evidence_type: "OBSERVED"
+  resolution: "OBSERVED_WINS"
+  resolution_evidence: "File names are correct; only the parent directory name is wrong in README."
+  impact_if_agent_trusts_wrong_side: "Minor — file names are right, directory name is wrong (covered by CONFLICT-003)"

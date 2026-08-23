@@ -1,0 +1,76 @@
+# Context Delta — Refresh 3 (2026-08-23)
+# Maintenance session: merged GitLab fix/seed-url-and-readme-schema and fixed
+# DEBT-018 lint gate. Refresh 2 content is summarized at the bottom of this
+# file because .ai-context/ is untracked and has no git history to preserve it.
+
+from_revision: "fb82bbf8ed1209dbe44307687516f41dc4efdfc0"
+to_revision: "68fc0c42f3ae5abe5216a5ff13575168bdaa9c93"
+
+merge:
+  branch: "gitlab/fix/seed-url-and-readme-schema"
+  strategy: "--no-ff"
+  merge_commit: "1d897fef162b1aaf468785a238648f6e48e7202f"
+  commits_merged:
+    - "5d4dc53 Replace irrelevant sourcerestaurants.com crawl seed with real Source restaurant sources"
+    - "90ea00c Fix README: correct source dirs and repair broken example SQL query"
+  conflicts_encountered: false # clean ort auto-merge
+  files_touched: ["README.md", "config/settings.py"]
+  seed_consistency_check: |
+    Post-merge README.md seed list == config/settings.py seed_urls default:
+    lifeinthesourcefamily.blogspot.com, cultnews documentary URL,
+    www.lamag.com/askchris/source-on-the-sunset-strip/,
+    martinostimemachine.blogspot.com/2021/06/the-source-restaurant.html,
+    en.wikipedia.org/wiki/Father_Yod, pleasekillme.com/father-yod/.
+    allowed_domains also aligned (sourcerestaurants.com -> lamag.com).
+    .env.example contains NO seed URLs — nothing to align there.
+    No residual 'sourcerestaurants' references anywhere in tracked code.
+
+added:
+  - "pyproject.toml [tool.ruff.lint.per-file-ignores] \"scripts/*\" = [\"E402\"] (commit 68fc0c4)"
+
+changed:
+  - ".ai-context/decisions/conflicts.yaml#CONFLICT-001 (resolution_update: resolved_by_merge)"
+  - ".ai-context/decisions/conflicts.yaml#CONFLICT-002 (resolution_update: still_open — merge did NOT add src/llm/ or scripts/02_gemini_search.py to README tree)"
+  - ".ai-context/decisions/conflicts.yaml#CONFLICT-003 (resolution_update: resolved_by_merge)"
+  - ".ai-context/debt/register.yaml#DEBT-018 (status: resolved)"
+  - ".ai-context/manifest.yaml (repository_revision -> 68fc0c4; commands_run updated)"
+
+invalidated:
+  - "README example SQL queries replaced with metadata_json/json_extract() + claim_sources join versions (old type-specific-column queries were invalid against actual schema)"
+  - "README project structure: src/scrapers/ -> src/crawler/, src/extractors/ -> src/extractor/"
+
+reverified:
+  - "python3 -m ruff check . — All checks passed! exit 0 (previously 23 E402 errors)"
+  - "pytest tests/unit/ tests/integration/ -q — 139 passed at 68fc0c4"
+  - "All .ai-context YAML files parse cleanly after these edits"
+  - "README spot-check post-merge: crawler/ and extractor/ sections match disk layout"
+
+unknowns_updated:
+  - "UNKNOWN-006: live Gemini verification attempted 2026-08-23 — BLOCKED, no credentials available. /home/kkron/projects/github/story_graph/.env does not exist, GEMINI_API_KEY not set in ambient environment, scripts/02_gemini_search.py requires GEMINI_API_KEY loaded from .env via config/settings.py dotenv. No API call was made; .env intentionally NOT created by the agent. Installed SDK recorded for future runs: google-genai 1.16.1."
+
+# ---- Prior refresh summary (Refresh 2, 2026-08-23, at fb82bbf) ----
+# Validation-only delta (repository revision unchanged fb82bbf -> fb82bbf):
+# added DEBT-018 to debt register; resolved UNKNOWN-007 (git containment checks:
+# priority-items merged, wip/20260820 + seed-url-and-readme-schema unmerged);
+# noted CONFLICT-001 pending_fix on the then-unmerged branch; ran full test
+# suite (139 passed), YAML parse checks, markdown link checks.
+
+# ---- Refresh 4 (2026-08-23) ----
+# README updated with a "Secrets & API keys" section documenting that
+# production keys live in Google Secret Manager (GEMINI_API_KEY under
+# aiqa-coaching and quantum-aikido-coaching). .ai-context/ added to git
+# tracking in the same commit (was untracked since initial compilation;
+# secret-scanned before committing — clean).
+
+refresh_4:
+  from_revision: "68fc0c42f3ae5abe5216a5ff13575168bdaa9c93"
+  to_revision: "9b3a4b63d6d54591a8d59a874779235cea452512"
+  added:
+    - "README.md 'Secrets & API keys' section (Google Secret Manager key locations, gcloud fetch command, .env gitignore note)"
+    - ".ai-context/ now git-tracked"
+  changed:
+    - "README.md line numbers shifted (+16) below the new section — CONFLICT entry line refs are approximate"
+  notes:
+    - "Secrets scan of .ai-context/ before first commit: no AIza/sk-/ghp_/ya29 token patterns found"
+
+

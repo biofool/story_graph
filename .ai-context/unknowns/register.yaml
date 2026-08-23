@@ -1,0 +1,141 @@
+# Unknowns Register
+# Items where evidence is insufficient to establish a claim.
+# Each entry identifies what would resolve the unknown.
+
+- id: "UNKNOWN-001"
+  summary: "Facebook/Meta Graph API integration referenced in docs and config but no implementation code exists"
+  classification: "evidence-gap"
+  declared_claim:
+    statement: "The app accesses data through Meta Graph API endpoints for public Facebook Page content"
+    source: "docs/privacy_policy.md, docs/app_review_submission.md, .env.example:FB_ACCESS_TOKEN"
+    evidence_type: "DECLARED"
+  observed_behavior:
+    statement: "No Python code in src/, scripts/, or config/ imports or references Facebook Graph API, requests to facebook.com, or FB_ACCESS_TOKEN beyond the settings field definition"
+    source: "grep across all .py files for 'facebook', 'FB_ACCESS_TOKEN', 'graph api'"
+    evidence_type: "OBSERVED"
+  what_would_resolve: |
+    1. Check git history for a deleted scripts/03_facebook_research.py
+       (docs/app_review_submission.md:29 references it by name).
+    2. Check other branches (feature/extraction-and-gemini-integration)
+       for Facebook integration code.
+    3. Confirm whether the Meta App Review was submitted and whether
+       the integration is planned but not yet implemented.
+  impact: "Agent may assume Facebook crawling works; docs describe a feature that doesn't exist in code"
+  confidence: "OBSERVED — absence of code is confirmed; intent is UNKNOWN"
+
+- id: "UNKNOWN-002"
+  summary: "No CI/CD pipeline exists — test/lint automation status and intended workflow unknown"
+  classification: "evidence-gap"
+  declared_claim:
+    statement: "N/A — no CI config files exist"
+    source: "repo root"
+    evidence_type: "OBSERVED"
+  observed_behavior:
+    statement: "No .github/workflows/, no .gitlab-ci.yml, no .circleci/, no Jenkinsfile. Tests and ruff are configured in pyproject.toml but no automation runs them."
+    source: "find . -name '*.yml' -path '*ci*' etc."
+    evidence_type: "OBSERVED"
+  what_would_resolve: |
+    1. Ask maintainer whether CI is intentionally omitted (local-only
+       dev workflow) or planned.
+    2. Check if GitLab CI was configured on the GitLab remote side
+       (not visible from the repo checkout).
+  impact: "Agent cannot assume any automated quality gate; must recommend manual test/lint runs"
+  confidence: "OBSERVED — absence is confirmed; intent is UNKNOWN"
+
+- id: "UNKNOWN-003"
+  summary: "structlog is in requirements.txt but unused — migration planned or dependency leftover?"
+  classification: "evidence-gap"
+  declared_claim:
+    statement: "structlog>=24.1.0 is a project dependency"
+    source: "requirements.txt:29"
+    evidence_type: "DECLARED"
+  observed_behavior:
+    statement: "Zero imports of structlog across all Python files. Every module uses stdlib logging.getLogger(__name__)."
+    source: "grep -rn 'structlog' src/ scripts/ config/ tests/"
+    evidence_type: "OBSERVED"
+  what_would_resolve: |
+    1. Check git log for when structlog was added and whether logging
+       was ever migrated.
+    2. Ask maintainer if structured logging migration is planned.
+  impact: "Agent may attempt to use structlog patterns; current code uses stdlib logging exclusively"
+  confidence: "OBSERVED — unused is confirmed; intent is UNKNOWN"
+
+- id: "UNKNOWN-004"
+  summary: "RAW_PAGES_DIR configured in settings but never consumed — dead config or planned feature?"
+  classification: "evidence-gap"
+  declared_claim:
+    statement: "RAW_PAGES_DIR and raw_pages_abs_dir property are defined in config/settings.py"
+    source: "config/settings.py:57, :96"
+    evidence_type: "DECLARED"
+  observed_behavior:
+    statement: "No code in src/, scripts/, or tests/ reads settings.raw_pages_dir or raw_pages_abs_dir"
+    source: "grep -rn 'raw_pages' src/ scripts/ tests/"
+    evidence_type: "OBSERVED"
+  what_would_resolve: |
+    1. Check git history for removed raw page archival code.
+    2. Ask maintainer if raw page storage to disk is planned.
+  impact: "Agent may assume crawled pages are saved to disk; they are only stored in SQLite sources table"
+  confidence: "OBSERVED — unused is confirmed; intent is UNKNOWN"
+
+- id: "UNKNOWN-005"
+  summary: "httpx in requirements.txt but never imported — planned async client or leftover?"
+  classification: "evidence-gap"
+  declared_claim:
+    statement: "httpx>=0.27.0 is a project dependency"
+    source: "requirements.txt:6"
+    evidence_type: "DECLARED"
+  observed_behavior:
+    statement: "Zero imports of httpx across all source and test files. WebCrawler uses requests exclusively."
+    source: "grep -rn 'httpx' src/ scripts/ tests/"
+    evidence_type: "OBSERVED"
+  what_would_resolve: |
+    1. Check git history for when httpx was added and whether async
+       crawling was attempted.
+    2. Ask maintainer if httpx is intended for future async work.
+  impact: "Low — agent should use requests, not httpx, for any HTTP work"
+  confidence: "OBSERVED — unused is confirmed; intent is UNKNOWN"
+
+- id: "UNKNOWN-006"
+  summary: "Gemini API runtime behavior inferred from code + fake-client tests, not verified against live API"
+  classification: "evidence-gap"
+  declared_claim:
+    statement: "GeminiClient wraps google-genai SDK for text/JSON/grounded generation"
+    source: "src/llm/gemini_client.py"
+    evidence_type: "OBSERVED"
+  observed_behavior:
+    statement: "All tests use FakeGeminiClient or mock subclasses — no test makes a real API call. Response parsing logic (response_json_schema, _response_text fallbacks) is untested against actual SDK responses."
+    source: "tests/unit/test_gemini_client.py, tests/unit/test_gemini_extractors.py"
+    evidence_type: "OBSERVED"
+  what_would_resolve: |
+    1. Run scripts/02_gemini_search.py with a real GEMINI_API_KEY
+       against the live API.
+    2. Verify response shape parsing matches current SDK version.
+    3. Check if response_json_schema API is still current in the
+       installed google-genai version.
+  impact: "Agent may trust Gemini integration works; SDK version drift could break response parsing silently"
+  confidence: "INFERRED — code structure is sound but live behavior unverified"
+
+- id: "UNKNOWN-007"
+  summary: "GitLab remote branches — merge status RESOLVED 2026-08-23 via git containment checks"
+  classification: "resolved"
+  declared_claim:
+    statement: "Multiple feature/fix branches exist on the GitLab remote"
+    source: "git branch -a output"
+    evidence_type: "OBSERVED"
+  observed_behavior:
+    statement: |
+      RESOLVED via `git log main..<branch>` (empty = fully merged):
+      - gitlab/fix/priority-items: MERGED into main (contained in fb82bbf merge)
+      - gitlab/wip/20260820: NOT merged — 1 commit (b17c796 wip snapshot 2026-08-19)
+      - gitlab/fix/seed-url-and-readme-schema: NOT merged — 2 commits
+        (90ea00c 'Fix README: correct source dirs and repair broken example SQL query',
+         5d4dc53 'Replace irrelevant sourcerestaurants.com crawl seed with real Source restaurant sources')
+    source: "git log --oneline main..gitlab/<branch>; git log --oneline main..gitlab/fix/priority-items (empty)"
+    evidence_type: "OBSERVED"
+  what_would_resolve: |
+    RESOLVED for merge status. Remaining sub-unknown: whether the two
+    unmerged branches are intended for merge — ask maintainer. Note that
+    90ea00c fixes the README directory-name drift recorded in
+    CONFLICT-001/002/003; if merged, those conflicts become stale.
+  impact: "Agent working on main may miss unmerged work on GitLab branches — specifically the README fix and seed-URL replacement on fix/seed-url-and-readme-schema"
+  confidence: "OBSERVED — merge status verified by git containment checks 2026-08-23 at revision fb82bbf"
