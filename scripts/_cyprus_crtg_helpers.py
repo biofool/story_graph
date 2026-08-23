@@ -33,9 +33,9 @@ project so far, this module's leads come in three flavors — see
 
 1. **kkron first-hand account** (``kkron_claim_text``/``kkron_confidence``):
    kkron's own recollection of the forwarded email thread. Stored confidence
-   is capped at ``KKRON_CONFIDENCE_CEILING``, same rationale as the Richard
-   Moon leads elsewhere in this project — real signal, not yet independent
-   corroboration.
+   is capped at ``KKRON_CONFIDENCE_CEILING``, same rationale as other
+   kkron-first-hand leads elsewhere in this project — real signal, not yet
+   independent corroboration.
 2. **citation-sourced** (``source_url``/``source_claim_text``/
    ``source_confidence``): a claim tied to an already-known, citable URL —
    here, the Wikipedia Talk page documenting the dispute itself. Not
@@ -230,45 +230,12 @@ CRTG_DISPUTE_EVENT_NAME = (
 #
 # "Richard", "Louise", and "Diana" are placeholder Person nodes: their
 # surnames were not given in the forwarded email and are NOT guessed here.
-# "Richard" is explicitly a *different, unidentified* person from "Richard
-# Moon" in the (separate, unmerged) targeted-entity-research feature —
-# do not conflate them.
+# "Richard" here is an unidentified person, distinct from any similarly
+# named person appearing in other, separate research topics in this
+# project — do not conflate them.
 # ---------------------------------------------------------------------------
 DEFAULT_LEADS: list[ResearchLead] = [
     # -- kkron's own account of the dispute + who was involved ------------
-    ResearchLead(
-        subject_name="Kenneth Kron",
-        subject_type="person",
-        relation=RelationType.MEMBER_OF,
-        object_name=CRTG_GROUP_NAME,
-        object_type="group",
-        object_group_type="conflict_resolution_training_group",
-        kkron_claim_text=(
-            "kkron states he was himself one of the outside trainers for the "
-            "Cyprus Conflict Resolution Trainers Group (CRTG), alongside "
-            "roughly 30 Cypriot trainees and several other outside trainers."
-        ),
-        kkron_confidence=0.95,
-        extra_queries=('"Kenneth Kron" Cyprus conflict resolution trainer',),
-    ),
-    ResearchLead(
-        subject_name="Kenneth Kron",
-        subject_type="person",
-        relation=RelationType.MENTIONS,
-        object_name=CRTG_DISPUTE_EVENT_NAME,
-        object_type="event",
-        kkron_claim_text=(
-            "kkron states the Wikipedia article on CRTG currently credits "
-            "only 4 initial trainers, which he says is inaccurate/"
-            "incomplete given the group's actual size (~30 Cypriot trainees "
-            "plus multiple outside trainers), and that he is disputing this "
-            "with Wikipedia editors."
-        ),
-        kkron_confidence=0.9,
-        extra_queries=(
-            '"Cyprus Conflict Resolution Trainers Group" Wikipedia dispute',
-        ),
-    ),
     ResearchLead(
         subject_name="Douglas Stone",
         subject_type="person",
@@ -311,11 +278,12 @@ DEFAULT_LEADS: list[ResearchLead] = [
         kkron_claim_text=(
             "kkron's forwarded email names an outside trainer/participant "
             "referred to only as 'Richard' (surname not given). This is a "
-            "distinct, unidentified person — not to be conflated with "
-            "'Richard Moon' from unrelated Source Family research."
+            "distinct, unidentified person — not to be conflated with any "
+            "similarly named person appearing in other, unrelated research "
+            "in this project."
         ),
         kkron_confidence=0.3,
-        role_note="surname unconfirmed; distinct from 'Richard Moon' (unrelated research)",
+        role_note="surname unconfirmed; distinct from any similarly-named person in unrelated research",
     ),
     ResearchLead(
         subject_name="Richard",
