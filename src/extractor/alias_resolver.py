@@ -33,6 +33,10 @@ KNOWN_PERSONS: dict[str, list[str]] = {
     "rhythm aquarian": ["Rhythm Aquarian"],
     "hom aquarian": ["Hom Aquarian"],
     "electricity aquarian": ["Electricity Aquarian"],
+    # Not a Source Family member, but registered so the name resolves
+    # cleanly during extraction — appears in the March 1971 meeting lead
+    # (see scripts/03_targeted_entity_research.py).
+    "yogi bhajan": ["Yogi Bhajan"],
 }
 
 # Set of all known person aliases (lowercased) for quick membership checks.
