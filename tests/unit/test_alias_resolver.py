@@ -30,6 +30,22 @@ class TestCanonicalPerson:
     def test_unknown(self):
         assert canonical_person("Laura Garon") == "laura garon"
 
+    def test_chris_thorsen_and_thorson_collapse_to_christopher_thorsen(self):
+        """Cyprus CRTG topic: 'Chris Thorsen' (2008 case study) and
+        'Thorson' (Peterson's book) are two spellings for the same person —
+        see scripts/_cyprus_crtg_helpers.py DEFAULT_LEADS."""
+        assert canonical_person("Chris Thorsen") == "christopher thorsen"
+        assert canonical_person("Thorson") == "christopher thorsen"
+        assert canonical_person("Chris Thorsen") == canonical_person("Thorson")
+
+    def test_richard_moon_has_no_alias_entry(self):
+        """Regression guard: 'Richard Moon' must canonicalize to itself
+        (plain normalize, no ALIAS_MAP entry) — this project deliberately
+        does not assert an identity between the Cyprus CRTG topic's
+        'Richard Moon' and any other same-named person found elsewhere; see
+        the OPEN DISAMBIGUATION note in scripts/_cyprus_crtg_helpers.py."""
+        assert canonical_person("Richard Moon") == "richard moon"
+
 
 class TestCanonicalGroup:
     def test_source_family_variants_collapse(self):
