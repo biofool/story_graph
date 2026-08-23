@@ -39,13 +39,13 @@ class TestEffectiveKkronConfidence:
 
     def test_diana_lead_stays_below_more_certain_kkron_leads(self):
         diana = next(l for l in DEFAULT_LEADS if l.subject_name == "Diana")
-        kkron = next(
+        stone = next(
             l for l in DEFAULT_LEADS
-            if l.subject_name == "Kenneth Kron" and l.object_name == CRTG_GROUP_NAME
+            if l.subject_name == "Douglas Stone" and l.object_name == CRTG_GROUP_NAME
         )
         assert (
             effective_kkron_confidence(diana.kkron_confidence)
-            < effective_kkron_confidence(kkron.kkron_confidence)
+            < effective_kkron_confidence(stone.kkron_confidence)
         )
 
 
@@ -207,7 +207,7 @@ class TestDefaultLeads:
     def test_all_leads_cover_expected_entities(self):
         names = {lead.subject_name for lead in DEFAULT_LEADS} | {lead.object_name for lead in DEFAULT_LEADS}
         assert {
-            "Kenneth Kron", "Douglas Stone", "Sheila Heen", "Richard", "Louise", "Diana",
+            "Douglas Stone", "Sheila Heen", "Richard", "Louise", "Diana",
             CRTG_GROUP_NAME,
         } <= names
 
@@ -217,11 +217,16 @@ class TestDefaultLeads:
             assert leads, f"expected at least one lead for {name}"
             assert any(l.role_note and "surname unconfirmed" in l.role_note for l in leads)
 
-    def test_richard_is_not_conflated_with_richard_moon(self):
+    def test_richard_lead_does_not_resolve_to_an_unrelated_persons_id(self):
+        """Regression guard: the Cyprus 'Richard' placeholder must keep its
+        own bare-first-name node id and must not get aliased/merged onto a
+        full name belonging to an unrelated person from a different,
+        separate research topic in this project."""
         richard_leads = [l for l in DEFAULT_LEADS if l.subject_name == "Richard"]
+        assert richard_leads
         for lead in richard_leads:
-            assert lead.subject_name != "Richard Moon"
-            assert lead.subject_id() != "person:richard-moon"
+            assert lead.subject_name == "Richard"
+            assert lead.subject_id() == "person:richard"
 
     def test_diana_lead_is_lowest_confidence(self):
         diana = next(l for l in DEFAULT_LEADS if l.subject_name == "Diana")
