@@ -63,7 +63,8 @@ class Settings(BaseModel):
         default_factory=lambda: [
             "https://lifeinthesourcefamily.blogspot.com/",
             "https://cultnews.com/2016/08/documentary-about-source-family-cult-doesnt-tell-the-whole-story/",
-            "https://sourcerestaurants.com/",
+            "https://www.lamag.com/askchris/source-on-the-sunset-strip/",
+            "https://martinostimemachine.blogspot.com/2021/06/the-source-restaurant.html",
             "https://en.wikipedia.org/wiki/Father_Yod",
             "https://pleasekillme.com/father-yod/",
         ]
@@ -78,7 +79,7 @@ class Settings(BaseModel):
             "yahowha.org",
             "youtube.com",
             "wordpress.com",
-            "sourcerestaurants.com",
+            "lamag.com",
             "en.wikipedia.org",
             "pleasekillme.com",
             "latimes.com",

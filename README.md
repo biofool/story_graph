@@ -63,14 +63,15 @@ python scripts/01_crawl_and_build_graph.py
 
 - `https://lifeinthesourcefamily.blogspot.com/`
 - `https://cultnews.com/2016/08/documentary-about-source-family-cult-doesnt-tell-the-whole-story/`
-- `https://sourcerestaurants.com/`
+- `https://www.lamag.com/askchris/source-on-the-sunset-strip/`
+- `https://martinostimemachine.blogspot.com/2021/06/the-source-restaurant.html`
 - `https://en.wikipedia.org/wiki/Father_Yod`
 - `https://pleasekillme.com/father-yod/`
 
 ## Allowed crawl domains
 
 `cultnews.com`, `lifeinthesourcefamily.blogspot.com`, `blogspot.com`,
-`yahowha.org`, `youtube.com`, `wordpress.com`, `sourcerestaurants.com`,
+`yahowha.org`, `youtube.com`, `wordpress.com`, `lamag.com`,
 `en.wikipedia.org`, `pleasekillme.com`, `latimes.com`
 
 ## Project structure
@@ -82,9 +83,9 @@ story_graph/
 │   ├── storage/
 │   │   ├── models.py           # Node/Edge Pydantic data models
 │   │   └── graph_db.py         # SQLite graph storage
-│   ├── scrapers/
+│   ├── crawler/
 │   │   └── web_crawler.py      # Domain-filtered BFS crawler
-│   ├── extractors/
+│   ├── extractor/
 │   │   ├── entity_extractor.py # NER + rule-based entity extraction
 │   │   ├── alias_resolver.py   # Name normalization / alias tables
 │   │   ├── claim_extractor.py  # Claim extraction with stance labels
@@ -105,16 +106,30 @@ The SQLite database can be explored with `datasette`:
 datasette data/graph.db
 ```
 
+Nodes and edges are stored generically (see `src/storage/models.py` and
+`src/storage/graph_db.py`): every `GraphNode` has a single `metadata` dict,
+persisted as an unindexed `metadata_json` TEXT column on the `nodes` table.
+Type-specific fields such as a claim's text, type, or stance are *not*
+separate columns — they live inside that JSON blob and must be pulled out
+with SQLite's `json_extract()`. A claim's relationship to the page it came
+from is likewise not a column on `nodes`; it's a row in the `claim_sources`
+join table (`claim_id`, `source_id`) pointing at `sources.id`.
+
 Example SQL queries:
 
 ```sql
 -- All critical claims about Father Yod
-SELECT c.claim_text, c.claim_type, s.url
+SELECT
+    json_extract(c.metadata_json, '$.claim_text') AS claim_text,
+    json_extract(c.metadata_json, '$.claim_type') AS claim_type,
+    s.url AS source_url
 FROM nodes c
 JOIN edges e ON e.src_id = c.id AND e.rel_type = 'ABOUT'
 JOIN nodes p ON e.dst_id = p.id AND p.type = 'Person'
-JOIN sources s ON s.id = c.source_work_id
-WHERE c.type = 'Claim' AND c.stance = 'critical'
+JOIN claim_sources cs ON cs.claim_id = c.id
+JOIN sources s ON s.id = cs.source_id
+WHERE c.type = 'Claim'
+  AND json_extract(c.metadata_json, '$.stance') = 'critical'
   AND p.canonical_name = 'James Edward Baker';
 
 -- Everyone connected to The Source Restaurant
@@ -125,9 +140,11 @@ JOIN nodes g ON e.dst_id = g.id AND g.type = 'Group'
 WHERE g.label LIKE '%Source%';
 
 -- Narrative conflicts
-SELECT c1.claim_text, c2.claim_text
+SELECT
+    json_extract(c1.metadata_json, '$.claim_text') AS claim1_text,
+    json_extract(c2.metadata_json, '$.claim_text') AS claim2_text
 FROM edges e
-JOIN nodes c1 ON e.src_id = c1.id
-JOIN nodes c2 ON e.dst_id = c2.id
+JOIN nodes c1 ON e.src_id = c1.id AND c1.type = 'Claim'
+JOIN nodes c2 ON e.dst_id = c2.id AND c2.type = 'Claim'
 WHERE e.rel_type = 'CONTRADICTS';
 ```
