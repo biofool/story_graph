@@ -19,13 +19,9 @@
 {"dst_id": "group:wild-mountain-cafe", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:385b8c4a2024dfe2"}
 {"dst_id": "person:richard-moon", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:385b8c4a2024dfe2"}
 {"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:385b8c4a2024dfe2"}
-{"dst_id": "group:aware-inn", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:407d5488d18f6745"}
-{"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:407d5488d18f6745"}
-{"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:407d5488d18f6745"}
 {"dst_id": "group:aware-inn", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:8f95a8c739443c70"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:8f95a8c739443c70"}
 {"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:8f95a8c739443c70"}
-{"dst_id": "group:the-source-restaurant", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "PRECEDES", "src_id": "group:aware-inn"}
 {"dst_id": "group:aware-inn", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "FOUNDED", "src_id": "person:james-edward-baker"}
 {"dst_id": "group:the-source-restaurant", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "FOUNDED", "src_id": "person:james-edward-baker"}
 {"dst_id": "event:march-1971-meeting-of-richard-moon-father-yod-and-yogi-bhajan", "metadata": {"asserted_by": "cited_source", "evidence": "https://pleasekillme.com/father-yod/", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:james-edward-baker"}
@@ -45,7 +41,6 @@
 {"dst_id": "claim:kkron:0e842747e2d98504", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "claim:kkron:218252fe4b9771cb", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "claim:kkron:385b8c4a2024dfe2", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
-{"dst_id": "claim:kkron:407d5488d18f6745", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "claim:kkron:8f95a8c739443c70", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "group:aware-inn", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}

@@ -12,7 +12,7 @@ grounding, plus local execution of the script's `--dry-run` and
 | Check | Result |
 |---|---|
 | `--dry-run` prints leads + queries | Pass |
-| `--skip-search` stores kkron's 6 claims in temp SQLite DB | Pass |
+| `--skip-search` stores kkron's 5 claims in temp SQLite DB | Pass |
 | Confidence clamping to <= 0.5 ceiling (raw 0.75->0.5, 0.85->0.5, 0.7->0.5, 0.35->0.35) | Pass |
 | Wild Mountain Cafe lead stays below others (0.35 < 0.5) | Pass |
 | All claims marked `pending_independent_corroboration=True` | Pass |
@@ -41,19 +41,7 @@ grounding, plus local execution of the script's `--dry-run` and
 
 **Verdict: Corroborated.** Jim Baker (Father Yod) founded/ran the Aware Inn.
 
-#### Lead 4 — Aware Inn PRECEDES The Source (kkron conf 0.7)
-
-- Restaurant-ing through history: Aware Inn opened 1957 -> The Source
-  established 1969 after divorce from Elaine
-- Wikipedia: "In 1969, Baker founded the Source Restaurant"
-- NYT: "He started the Aware Inn... He had the Old World, and finally he had
-  The Source"
-- LAist, Eater LA: all confirm the chronological sequence
-
-**Verdict: Corroborated.** The Aware Inn (1957/1958) preceded The Source
-(1969).
-
-#### Lead 5 — Jim Baker FOUNDED The Source (kkron conf 0.85)
+#### Lead 4 — Jim Baker FOUNDED The Source (kkron conf 0.85)
 
 - Wikipedia: "In 1969, Baker founded the Source Restaurant on the Sunset
   Strip"
@@ -86,7 +74,7 @@ Aware Inn's staff is not documented in any of the sources found.
 
 **Verdict: Not corroborated.** Same reasoning as Lead 1.
 
-#### Lead 6 — Richard Moon WORKED_AT Wild Mountain Cafe (kkron conf 0.35)
+#### Lead 5 — Richard Moon WORKED_AT Wild Mountain Cafe (kkron conf 0.35)
 
 No independent web source connects "Richard Moon" to any Wild Mountain Cafe.
 The only Wild Mountain Cafe found is in Seattle (Ballard), opened 2002,
@@ -103,12 +91,11 @@ certainty.
 | 1 | Richard Moon WORKED_AT The Source | 0.75 | None found |
 | 2 | Richard Moon WORKED_AT Aware Inn | 0.75 | None found |
 | 3 | Jim Baker FOUNDED Aware Inn | 0.7 | Strong (5+ sources) |
-| 4 | Aware Inn PRECEDES The Source | 0.7 | Strong (5+ sources) |
-| 5 | Jim Baker FOUNDED The Source | 0.85 | Strong (5+ sources) |
-| 6 | Richard Moon WORKED_AT Wild Mountain Cafe | 0.35 | None found |
+| 4 | Jim Baker FOUNDED The Source | 0.85 | Strong (5+ sources) |
+| 5 | Richard Moon WORKED_AT Wild Mountain Cafe | 0.35 | None found |
 
-3 of 6 leads are strongly corroborated by multiple independent web sources.
-3 of 6 leads (all Richard Moon leads) are not corroborated by any
+2 of 5 leads are strongly corroborated by multiple independent web sources.
+3 of 5 leads (all Richard Moon leads) are not corroborated by any
 independent web source found — this may reflect that restaurant staff from
 the 1960s-70s are not well-documented online, not necessarily that the
 claims are false. The script's design handles this correctly: kkron's claims
@@ -118,6 +105,16 @@ results.
 
 ## Technical notes
 
+- **Correction (2026-08-23):** The original validation included a sixth lead
+  ("Aware Inn PRECEDES The Source") that asserted the Aware Inn predated The
+  Source restaurant. kkron did not claim which restaurant started first —
+  the ordering assertion was incorrectly injected into the claim text. This
+  lead has been removed from `_targeted_research_helpers.py` and the graph
+  snapshot. The two related leads (Jim Baker FOUNDED Aware Inn, Richard Moon
+  WORKED_AT Aware Inn) were also corrected to remove ordering language
+  ("before opening The Source", "that predated The Source"). The independent
+  web sources do confirm the chronological sequence (Aware Inn ~1957, The
+  Source ~1969), but that ordering is not a kkron claim.
 - The script's Phase 2 (web search + crawl + extraction via Gemini) was
   attempted with a `GEMINI_API_KEY` pulled from GCP Secret Manager
   (`quantum-aikido-coaching` project, secret `GEMINI_API_KEY`). Two issues

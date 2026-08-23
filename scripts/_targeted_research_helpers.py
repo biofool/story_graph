@@ -195,8 +195,8 @@ DEFAULT_LEADS: list[ResearchLead] = [
         object_group_type="restaurant",
         kkron_claim_text=(
             "kkron states he knows Richard Moon personally and has confirmed "
-            "that Richard Moon also worked at the Aware Inn, Jim Baker's "
-            "restaurant that predated The Source."
+            "that Richard Moon also worked at the Aware Inn, a restaurant "
+            "associated with Jim Baker."
         ),
         kkron_confidence=0.75,
         extra_queries=('"Richard Moon" "Aware Inn" restaurant',),
@@ -210,25 +210,10 @@ DEFAULT_LEADS: list[ResearchLead] = [
         object_group_type="restaurant",
         kkron_claim_text=(
             "kkron states that Jim Baker (Father Yod) ran the Aware Inn "
-            "restaurant before opening The Source."
+            "restaurant."
         ),
         kkron_confidence=0.7,
         extra_queries=('"Aware Inn" "Jim Baker" OR "Father Yod"',),
-    ),
-    ResearchLead(
-        subject_name="Aware Inn",
-        subject_type="group",
-        subject_group_type="restaurant",
-        relation=RelationType.PRECEDES,
-        object_name="The Source",
-        object_type="group",
-        object_group_type="restaurant",
-        kkron_claim_text=(
-            "kkron states the Aware Inn was Jim Baker's earlier restaurant, "
-            "preceding The Source restaurant on the Sunset Strip."
-        ),
-        kkron_confidence=0.7,
-        extra_queries=('"Aware Inn" "The Source" restaurant history Baker',),
     ),
     ResearchLead(
         subject_name="Jim Baker",
