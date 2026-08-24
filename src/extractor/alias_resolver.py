@@ -16,6 +16,13 @@ ALIAS_MAP: dict[str, str] = {
     "ya ho wa": "james edward baker",
     "yahowha": "james edward baker",
     "ya ho wa 13": "james edward baker",
+    # Chris/Christopher Thorsen is one person; Keith/Keith E. Peterson and
+    # Ben/Benjamin J. Broome likewise. Same-person alias collapsing, which
+    # is the opposite problem from HOMONYM_DISAMBIGUATION below.
+    "chris thorsen": "christopher thorsen",
+    "keith peterson": "keith e. peterson",
+    "ben broome": "benjamin j. broome",
+    "benjamin broome": "benjamin j. broome",
 }
 
 # Reverse map: canonical -> list of known aliases
@@ -33,9 +40,18 @@ KNOWN_PERSONS: dict[str, list[str]] = {
     "hom aquarian": ["Hom Aquarian"],
     "electricity aquarian": ["Electricity Aquarian"],
     # Not a Source Family member, but registered so the name resolves
-    # cleanly during extraction — appears in the March 1971 meeting lead
+    # cleanly during extraction — appears in the Baker/Bhajan leads
     # (see scripts/03_targeted_entity_research.py).
     "yogi bhajan": ["Yogi Bhajan"],
+    # Cyprus-thread figures (2026-08-25). Registered here for the same
+    # reason as Yogi Bhajan: they are not Source Family people, but their
+    # names must resolve to one node each rather than fragmenting across
+    # surface variants. See docs/journalistic_sources_2026-08-24.md.
+    "christopher thorsen": ["Christopher Thorsen", "Chris Thorsen"],
+    "louise diamond": ["Louise Diamond"],
+    "diana chigas": ["Diana Chigas"],
+    "keith e. peterson": ["Keith E. Peterson", "Keith Peterson"],
+    "benjamin j. broome": ["Benjamin J. Broome", "Ben Broome"],
 }
 
 # Set of all known person aliases (lowercased) for quick membership checks.

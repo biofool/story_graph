@@ -510,23 +510,243 @@ DEFAULT_LEADS: list[ResearchLead] = [
         object_type="group",
         object_group_type="binational_commission",
         kkron_claim_text=(
-            "kkron's hypothesis under test: that Doug Stone was employed or "
-            "formally contracted by the Cyprus Fulbright Commission to train "
-            "the Cyprus Conflict Resolution Trainers Group. Research to date "
-            "does NOT support the 'employed by' framing: Stone's own "
-            "biography claims only that he has worked with 'Greek and "
-            "Turkish political and community leaders in Cyprus', naming no "
-            "sponsor, and he appears in none of the Cyprus rosters found "
-            "(Broome 1998, the CRTG Wikipedia article, the Future Worlds "
-            "Center wiki). The four named Fulbright Scholars in Conflict "
-            "Resolution are Broome, Philip Snyder, John Ungerleider and "
-            "Marco Turk. See docs/journalistic_sources_2026-08-24.md."
+            "Superseded framing, kept because the question was asked and "
+            "answered. Doug Stone was NOT employed or formally appointed by "
+            "the Cyprus Fulbright Commission: he appears in none of the "
+            "Cyprus rosters found (Broome 1998, the CRTG Wikipedia article, "
+            "the Future Worlds Center wiki), and the four named Fulbright "
+            "Scholars in Conflict Resolution are Broome, Philip Snyder, "
+            "John Ungerleider and Marco Turk. kkron subsequently reports "
+            "(2026-08-25) that Stone confirmed to him the actual route in: "
+            "Diana Chigas recruited him. That is a different and better-"
+            "fitting mechanism — see the 'Doug Stone MEMBER_OF Cyprus "
+            "Consortium' lead — and it is consistent with Broome 1998, "
+            "which names Chigas (of CMG) as a Cyprus Consortium team "
+            "leader. See docs/journalistic_sources_2026-08-24.md."
         ),
-        kkron_confidence=0.2,
+        kkron_confidence=0.15,
         extra_queries=(
             '"Doug Stone" OR "Douglas Stone" "Cyprus Fulbright Commission"',
             '"Douglas Stone" Cyprus conflict resolution trainers group 1990s',
             '"Conflict Management Group" Cyprus team roster "Stone"',
+        ),
+    ),
+    # ---------------------------------------------------------------------
+    # 2026-08-25. kkron reports back from interviews he conducted himself
+    # (Richard Moon, Doug Stone) and from correspondence with Keith E.
+    # Peterson, author of "American Dreams: The Story of the Cyprus
+    # Fulbright Commission" (Armida Books, 2024).
+    #
+    # Provenance discipline, which is the whole point of this file: a lead
+    # gets a source_url ONLY where the URL is a document that has been read
+    # and demonstrably says the thing. kkron's report of what a person told
+    # him, or of what a book he holds contains, is kkron-path — real signal,
+    # capped, and honestly labelled as second-hand attribution. Two of the
+    # leads below cleared the citation bar; the rest did not, and are filed
+    # accordingly rather than dressed up.
+    # ---------------------------------------------------------------------
+    ResearchLead(
+        subject_name="Christopher Thorsen",
+        subject_type="person",
+        relation=RelationType.WORKED_AT,
+        object_name="Cyprus Fulbright Commission",
+        object_type="group",
+        object_group_type="binational_commission",
+        kkron_claim_text="N/A — citation-sourced lead, see source_claim_text.",
+        kkron_confidence=1.0,
+        source_url="https://openmindadventures.com/chris-thorsen/",
+        source_claim_text=(
+            "Christopher (Chris) Thorsen's own published biography states: "
+            "'In the late nineties, Chris spent five years providing "
+            "periodic Aikido/Conflict Resolution Seminars for policy "
+            "leaders from the Turkish and Greek factions on the war torn "
+            "Island of Cyprus.' It names no sponsor — not the Fulbright "
+            "Commission, not the Cyprus Consortium, not IMTD — so the "
+            "employing body is Thorsen's-account-silent and this edge "
+            "records the programme he describes, not a contract. Note the "
+            "date tension with the kkron-reported 2008 case study, which "
+            "has him hired in 1995: 'late nineties' plus five years reads "
+            "as roughly 1996-2001. Both are stored as stated; neither is "
+            "reconciled. Self-published autobiography, not journalism."
+        ),
+        source_confidence=0.45,
+        extra_queries=(
+            '"Chris Thorsen" OR "Christopher Thorsen" Cyprus aikido seminars policy leaders',
+            '"Thorsen" "Cyprus Consortium" OR "Cyprus Fulbright" aikido trainer',
+        ),
+    ),
+    ResearchLead(
+        subject_name="Richard Moon",
+        subject_type="person",
+        # person MENTIONS event, matching how the other association leads in
+        # this file are modelled — there is no COLLABORATED_WITH relation,
+        # and MEMBER_OF person->person would assert something false.
+        relation=RelationType.MENTIONS,
+        object_name="Peace-building initiatives of Richard Moon with Louise Diamond",
+        object_type="event",
+        kkron_claim_text="N/A — citation-sourced lead, see source_claim_text.",
+        kkron_confidence=1.0,
+        source_url=(
+            "https://thetaichinotebook.com/2026/01/31/"
+            "the-first-podcast-of-2026-quantum-aikido-with-richard-moon/"
+        ),
+        source_claim_text=(
+            "The Tai Chi Notebook podcast episode notes, 31 January 2026, "
+            "state: 'Richard Moon describes developing a \"very freestyle, "
+            "jazz-oriented approach\" to Aikido, which eventually led to "
+            "corporate coaching with Chris Thorsen and international peace "
+            "building initiatives with Louise Diamond and a $30 million "
+            "project in Bosnia funded by Dan Whalen.' This is the first "
+            "source found for Moon's peace-building work that is NOT "
+            "self-published — a third party's account of an interview — and "
+            "it independently links Moon both to Louise Diamond (whom "
+            "Broome 1998 names as a Cyprus Consortium team leader) and to "
+            "Chris Thorsen. It says nothing about Cyprus, the Fulbright "
+            "Commission, Los Angeles, The Source, Jim Baker or Yogi Bhajan; "
+            "none of those words appears on the page."
+        ),
+        source_confidence=0.6,
+        extra_queries=(
+            '"Richard Moon" "Louise Diamond" aikido peace building Bosnia',
+            '"Richard Moon" "Chris Thorsen" aikido consulting',
+        ),
+    ),
+    ResearchLead(
+        subject_name="Doug Stone",
+        subject_type="person",
+        relation=RelationType.MEMBER_OF,
+        object_name="Cyprus Consortium",
+        object_type="group",
+        object_group_type="ngo",
+        kkron_claim_text=(
+            "kkron reports (2026-08-25) that Doug Stone confirmed to him "
+            "that Diana Chigas recruited him for the Cyprus work. This is "
+            "kkron's second-hand report of what Stone said, not a document "
+            "read, so it is stored on the kkron path — but it fits the "
+            "documented structure exactly: Broome 1998 names Chigas, of the "
+            "Conflict Management Group, as one of the two Cyprus Consortium "
+            "team leaders alongside Louise Diamond, and CMG is a Consortium "
+            "member. Recruitment onto a CMG/Consortium team is a different "
+            "claim from employment by the Cyprus Fulbright Commission, "
+            "which remains unsupported. Corroborate by finding Stone named "
+            "on a CMG or Consortium roster."
+        ),
+        kkron_confidence=0.5,
+        extra_queries=(
+            '"Doug Stone" OR "Douglas Stone" "Diana Chigas" Cyprus',
+            '"Conflict Management Group" Cyprus team 1990s Stone Chigas roster',
+        ),
+    ),
+    ResearchLead(
+        subject_name="Christopher Thorsen",
+        subject_type="person",
+        relation=RelationType.MEMBER_OF,
+        object_name="Cyprus Consortium",
+        object_type="group",
+        object_group_type="ngo",
+        kkron_claim_text=(
+            "kkron reports (2026-08-25) that a 2008 case study records "
+            "Chris Thorsen as hired by the Cyprus Consortium in 1995 under "
+            "the title 'Aikido'. OPEN LEAD: the case study has not been "
+            "located — searches for a 2008 Cyprus bicommunal case study "
+            "naming Thorsen or an Aikido training returned nothing, so this "
+            "records what kkron reports the study says, and carries no "
+            "source_url until the document is in hand. It also sits in "
+            "tension with Thorsen's own bio ('late nineties', five years, "
+            "so roughly 1996-2001); both dates are stored as stated."
+        ),
+        kkron_confidence=0.4,
+        extra_queries=(
+            '2008 case study Cyprus bicommunal trainers "Aikido" Thorsen 1995',
+            'Laouris OR Hadjipavlou OR Broome 2008 Cyprus case study aikido training 1995',
+            '"Cyprus Consortium" 1995 trainers hired aikido',
+        ),
+    ),
+    ResearchLead(
+        subject_name="Louise Diamond",
+        subject_type="person",
+        relation=RelationType.MENTIONS,
+        object_name="Recruitment of Richard Moon and Christopher Thorsen into the Cyprus Fulbright conflict-resolution programme",
+        object_type="event",
+        kkron_claim_text=(
+            "kkron reports (2026-08-25) that Keith E. Peterson's book "
+            "'American Dreams: The Story of the Cyprus Fulbright "
+            "Commission' (Armida Books, 2024) attributes to Louise Diamond "
+            "the bringing of Aikido instructor Richard Moon and his "
+            "colleague Christopher Thorsen into the Cyprus Fulbright "
+            "Commission's conflict-resolution and peace-building work, and "
+            "describes them working with Cypriot participants. This is "
+            "PROPOSED attribution text kkron is drafting for editorial "
+            "review, not a verified quotation: no page or verbatim passage "
+            "from the book has been supplied, so there is no source_url to "
+            "the book. kkron's own framing is explicit that the account "
+            "does NOT establish that either man was a member of the Cyprus "
+            "Conflict Resolution Trainers Group — and no MEMBER_OF edge to "
+            "the CRTG is created for either, consistent with Broome 1998 "
+            "and both roster sources, in which neither name appears."
+        ),
+        kkron_confidence=0.45,
+        extra_queries=(
+            'Peterson "American Dreams" Cyprus Fulbright "Richard Moon" OR "Thorsen" aikido',
+            '"Louise Diamond" recruited aikido instructors Cyprus Fulbright conflict resolution',
+        ),
+    ),
+    ResearchLead(
+        subject_name="Keith E. Peterson",
+        subject_type="person",
+        relation=RelationType.MENTIONS,
+        object_name="Christopher Thorsen",
+        object_type="person",
+        kkron_claim_text=(
+            "kkron reports (2026-08-25) receiving email correspondence from "
+            "Keith E. Peterson, author of 'American Dreams: The Story of "
+            "the Cyprus Fulbright Commission' (Armida Books, 2024), in "
+            "which Peterson states he remembers at least one conversation "
+            "with Mr. Thorsen; that he recorded and transcribed all 180 "
+            "interviews he conducted for the book but archived every voice "
+            "file, document, email and photo to a storage device about a "
+            "year ago, so retrieval would not currently be easy; that he "
+            "acknowledges the Moon citation in his book; and that he "
+            "acknowledges an error kkron reported to him, the second or "
+            "third found since publication. IMPORTANT: in the same email "
+            "Peterson explicitly DECLINES to discuss Richard Moon's work. "
+            "The email therefore corroborates that Thorsen was among his "
+            "interviewees — it is not Peterson confirming anything about "
+            "Moon or Doug Stone. Only the research-bearing content is "
+            "recorded here; personal matters in the email are deliberately "
+            "omitted from this public graph."
+        ),
+        kkron_confidence=0.5,
+        extra_queries=(
+            'Peterson "American Dreams" Cyprus Fulbright Commission interviews Thorsen',
+        ),
+    ),
+    ResearchLead(
+        subject_name="Richard Moon",
+        subject_type="person",
+        relation=RelationType.MENTIONS,
+        object_name="Interview of Richard Moon by kkron",
+        object_type="event",
+        kkron_claim_text=(
+            "kkron reports (2026-08-25) that he interviewed Richard Moon "
+            "and that Moon confirmed kkron's assertions about his own "
+            "history — the Source restaurant and Aware Inn work, and the "
+            "introduction of Jim Baker to Yogi Bhajan. This claim records "
+            "the confirmation event; the underlying assertions remain "
+            "stored as the existing kkron leads rather than being "
+            "duplicated. Provenance caveat that does not go away: Moon "
+            "confirming claims about Moon is first-person testimony from "
+            "the subject, which is real signal but is not independent "
+            "corroboration, and no transcript has been supplied. Nothing "
+            "here upgrades the Source Family claims to journalistically "
+            "confirmed — no published source found names Moon in "
+            "connection with The Source, Jim Baker or Yogi Bhajan. Supply "
+            "the transcript to store what Moon actually said, in his own "
+            "words, attributed to him as speaker."
+        ),
+        kkron_confidence=0.5,
+        extra_queries=(
+            '"Richard Moon" aikido interview "The Source" OR "Father Yod" restaurant Los Angeles',
         ),
     ),
 ]

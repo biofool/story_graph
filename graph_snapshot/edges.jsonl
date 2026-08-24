@@ -4104,6 +4104,9 @@
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:cff3b5e2edeb1b1f"}
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:cff3b5e2edeb1b1f"}
 {"dst_id": "claim:ca562c81c6adefce", "metadata": {"reason": "opposite stances: critical vs supportive"}, "rel_type": "CONTRADICTS", "src_id": "claim:cff3b5e2edeb1b1f"}
+{"dst_id": "event:peace-building-initiatives-of-richard-moon-with-louise-diamond", "metadata": {"evidence": "https://thetaichinotebook.com/2026/01/31/the-first-podcast-of-2026-quantum-aikido-with-richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:citation:2dd618d53cb7adba"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "https://thetaichinotebook.com/2026/01/31/the-first-podcast-of-2026-quantum-aikido-with-richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:citation:2dd618d53cb7adba"}
+{"dst_id": "work:cf339d689b742d52", "metadata": {"evidence": "https://thetaichinotebook.com/2026/01/31/the-first-podcast-of-2026-quantum-aikido-with-richard-moon/"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:2dd618d53cb7adba"}
 {"dst_id": "group:cyprus-consortium", "metadata": {"evidence": "https://cyprusreview.org/index.php/cr/article/download/490/438"}, "rel_type": "ABOUT", "src_id": "claim:citation:583b893760f88efa"}
 {"dst_id": "group:cyprus-fulbright-commission", "metadata": {"evidence": "https://cyprusreview.org/index.php/cr/article/download/490/438"}, "rel_type": "ABOUT", "src_id": "claim:citation:583b893760f88efa"}
 {"dst_id": "work:0359843f058e0a76", "metadata": {"evidence": "https://cyprusreview.org/index.php/cr/article/download/490/438"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:583b893760f88efa"}
@@ -4122,6 +4125,9 @@
 {"dst_id": "group:3ho", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "ABOUT", "src_id": "claim:citation:e47fb42e5b9a39df"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "ABOUT", "src_id": "claim:citation:e47fb42e5b9a39df"}
 {"dst_id": "work:3ceaefb5ffac8d5b", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:e47fb42e5b9a39df"}
+{"dst_id": "group:cyprus-fulbright-commission", "metadata": {"evidence": "https://openmindadventures.com/chris-thorsen/"}, "rel_type": "ABOUT", "src_id": "claim:citation:f77fb706256658b0"}
+{"dst_id": "person:christopher-thorsen", "metadata": {"evidence": "https://openmindadventures.com/chris-thorsen/"}, "rel_type": "ABOUT", "src_id": "claim:citation:f77fb706256658b0"}
+{"dst_id": "work:a869b10dd8d70d37", "metadata": {"evidence": "https://openmindadventures.com/chris-thorsen/"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:f77fb706256658b0"}
 {"dst_id": "group:lebensreform", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ABOUT", "src_id": "claim:d086e578976bb44f"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ASSERTED_BY", "src_id": "claim:d086e578976bb44f"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ABOUT", "src_id": "claim:d08defc845a87ae1"}
@@ -4663,15 +4669,30 @@
 {"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:218252fe4b9771cb"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:218252fe4b9771cb"}
 {"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:218252fe4b9771cb"}
+{"dst_id": "group:cyprus-consortium", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:26412d9781ccb0ec"}
+{"dst_id": "person:christopher-thorsen", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:26412d9781ccb0ec"}
+{"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:26412d9781ccb0ec"}
+{"dst_id": "person:christopher-thorsen", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:2bb1c72b61aae51f"}
+{"dst_id": "person:keith-e-peterson", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:2bb1c72b61aae51f"}
+{"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:2bb1c72b61aae51f"}
 {"dst_id": "group:wild-mountain-cafe", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:385b8c4a2024dfe2"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:385b8c4a2024dfe2"}
 {"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:385b8c4a2024dfe2"}
 {"dst_id": "event:meeting-of-baker-and-yogi-bhajan", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:8595b54efb638272"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:8595b54efb638272"}
 {"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:8595b54efb638272"}
+{"dst_id": "group:cyprus-consortium", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:8bb78d481299bc7f"}
+{"dst_id": "person:douglas-stone-negotiation", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:8bb78d481299bc7f"}
+{"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:8bb78d481299bc7f"}
 {"dst_id": "group:aware-inn", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:8f95a8c739443c70"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:8f95a8c739443c70"}
 {"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:8f95a8c739443c70"}
+{"dst_id": "event:interview-of-richard-moon-by-kkron", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:bc1a0f29158e98d7"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:bc1a0f29158e98d7"}
+{"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:bc1a0f29158e98d7"}
+{"dst_id": "event:recruitment-of-richard-moon-and-christopher-thorsen-into-the-cyprus-fulbright-conflict-resolution-programme", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:d357c59ad9199e69"}
+{"dst_id": "person:louise-diamond", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:d357c59ad9199e69"}
+{"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:d357c59ad9199e69"}
 {"dst_id": "group:cyprus-fulbright-commission", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:f27d36ff1e898050"}
 {"dst_id": "person:douglas-stone-negotiation", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:f27d36ff1e898050"}
 {"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:f27d36ff1e898050"}
@@ -4757,6 +4778,8 @@
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:c-girard"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:charlie-kitchings"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:christina-ward"}
+{"dst_id": "group:cyprus-consortium", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "MEMBER_OF", "src_id": "person:christopher-thorsen"}
+{"dst_id": "group:cyprus-fulbright-commission", "metadata": {"asserted_by": "cited_source", "evidence": "https://openmindadventures.com/chris-thorsen/", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:christopher-thorsen"}
 {"dst_id": "group:wild-mountain-cafe", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Wild_Mountain_Cafe", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:connie-stone"}
 {"dst_id": "group:wild-mountain-cafe", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Wild_Mountain_Cafe", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:connie-stone"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:damascus"}
@@ -4767,6 +4790,7 @@
 {"dst_id": "group:branch-davidians", "metadata": {"evidence": "https://podscripts.co/podcasts/timesuck-with-dan-cummins/161-the-source-family-cult", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:david-koresh"}
 {"dst_id": "group:wild-mountain-cafe", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Wild_Mountain_Cafe", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:desirae-aylesworth"}
 {"dst_id": "group:old-world-restaurant", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:dora"}
+{"dst_id": "group:cyprus-consortium", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "MEMBER_OF", "src_id": "person:douglas-stone-negotiation"}
 {"dst_id": "group:cyprus-fulbright-commission", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:douglas-stone-negotiation"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:e-macfarlane"}
 {"dst_id": "group:nature-boys", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:eden-ahbez"}
@@ -4893,9 +4917,11 @@
 {"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:joni-mitchell"}
 {"dst_id": "place:los-angeles", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:julie-christie"}
 {"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "https://military-history.fandom.com/wiki/Father_Yod", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:julie-christie"}
+{"dst_id": "person:christopher-thorsen", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:keith-e-peterson"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:kerri-froc"}
 {"dst_id": "group:the-curated-feast", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:liz-birnbaum"}
 {"dst_id": "group:gastro-obscura-and-atlas-obscura-event", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:liz-birnbaum"}
+{"dst_id": "event:recruitment-of-richard-moon-and-christopher-thorsen-into-the-cyprus-fulbright-conflict-resolution-programme", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:louise-diamond"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:lovely-previn"}
 {"dst_id": "group:scared-to-death", "metadata": {"evidence": "https://podscripts.co/podcasts/timesuck-with-dan-cummins/161-the-source-family-cult", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:lynze-cummins"}
 {"dst_id": "group:software-industry-staffing-company", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:magus"}
@@ -4926,7 +4952,9 @@
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:prism"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:r-barker"}
 {"dst_id": "group:institute-for-multi-track-diplomacy", "metadata": {"asserted_by": "cited_source", "evidence": "https://openmindadventures.com/richard-moon/", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "event:interview-of-richard-moon-by-kkron", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:meeting-of-baker-and-yogi-bhajan", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "event:peace-building-initiatives-of-richard-moon-with-louise-diamond", "metadata": {"asserted_by": "cited_source", "evidence": "https://thetaichinotebook.com/2026/01/31/the-first-podcast-of-2026-quantum-aikido-with-richard-moon/", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "group:aware-inn", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "group:the-source-restaurant", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "group:wild-mountain-cafe", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-aikido"}
@@ -6131,6 +6159,9 @@
 {"dst_id": "place:sunset-strip", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "MENTIONS", "src_id": "work:a7a7e909d30a4e18"}
 {"dst_id": "place:united-states", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "MENTIONS", "src_id": "work:a7a7e909d30a4e18"}
 {"dst_id": "place:virginia", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "MENTIONS", "src_id": "work:a7a7e909d30a4e18"}
+{"dst_id": "claim:citation:f77fb706256658b0", "metadata": {"evidence": "https://openmindadventures.com/chris-thorsen/"}, "rel_type": "CONTAINS", "src_id": "work:a869b10dd8d70d37"}
+{"dst_id": "group:cyprus-fulbright-commission", "metadata": {"evidence": "https://openmindadventures.com/chris-thorsen/"}, "rel_type": "MENTIONS", "src_id": "work:a869b10dd8d70d37"}
+{"dst_id": "person:christopher-thorsen", "metadata": {"evidence": "https://openmindadventures.com/chris-thorsen/"}, "rel_type": "MENTIONS", "src_id": "work:a869b10dd8d70d37"}
 {"dst_id": "claim:citation:93aec62a19b92dd0", "metadata": {"evidence": "https://openmindadventures.com/richard-moon/"}, "rel_type": "CONTAINS", "src_id": "work:afbbc0bdd862d723"}
 {"dst_id": "group:institute-for-multi-track-diplomacy", "metadata": {"evidence": "https://openmindadventures.com/richard-moon/"}, "rel_type": "MENTIONS", "src_id": "work:afbbc0bdd862d723"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "https://openmindadventures.com/richard-moon/"}, "rel_type": "MENTIONS", "src_id": "work:afbbc0bdd862d723"}
@@ -6199,6 +6230,9 @@
 {"dst_id": "place:venice-beach", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars"}, "rel_type": "MENTIONS", "src_id": "work:bda8ddd26707c690"}
 {"dst_id": "place:west-coast", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars"}, "rel_type": "MENTIONS", "src_id": "work:bda8ddd26707c690"}
 {"dst_id": "place:whisky-a-go-go", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars"}, "rel_type": "MENTIONS", "src_id": "work:bda8ddd26707c690"}
+{"dst_id": "claim:citation:2dd618d53cb7adba", "metadata": {"evidence": "https://thetaichinotebook.com/2026/01/31/the-first-podcast-of-2026-quantum-aikido-with-richard-moon/"}, "rel_type": "CONTAINS", "src_id": "work:cf339d689b742d52"}
+{"dst_id": "event:peace-building-initiatives-of-richard-moon-with-louise-diamond", "metadata": {"evidence": "https://thetaichinotebook.com/2026/01/31/the-first-podcast-of-2026-quantum-aikido-with-richard-moon/"}, "rel_type": "DESCRIBES", "src_id": "work:cf339d689b742d52"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "https://thetaichinotebook.com/2026/01/31/the-first-podcast-of-2026-quantum-aikido-with-richard-moon/"}, "rel_type": "MENTIONS", "src_id": "work:cf339d689b742d52"}
 {"dst_id": "claim:0b50a0d7329a5142", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "CONTAINS", "src_id": "work:d3e86e4983ff566b"}
 {"dst_id": "claim:203664b82de1b5a4", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "CONTAINS", "src_id": "work:d3e86e4983ff566b"}
 {"dst_id": "claim:23e57445d89cc44b", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "CONTAINS", "src_id": "work:d3e86e4983ff566b"}
@@ -6572,15 +6606,26 @@
 {"dst_id": "claim:kkron:01f6d77a42220475", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "claim:kkron:0e842747e2d98504", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "claim:kkron:218252fe4b9771cb", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "claim:kkron:26412d9781ccb0ec", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "claim:kkron:2bb1c72b61aae51f", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "claim:kkron:385b8c4a2024dfe2", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "claim:kkron:8595b54efb638272", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "claim:kkron:8bb78d481299bc7f", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "claim:kkron:8f95a8c739443c70", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "claim:kkron:bc1a0f29158e98d7", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "claim:kkron:d357c59ad9199e69", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "claim:kkron:f27d36ff1e898050", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "event:interview-of-richard-moon-by-kkron", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "event:meeting-of-baker-and-yogi-bhajan", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "event:recruitment-of-richard-moon-and-christopher-thorsen-into-the-cyprus-fulbright-conflict-resolution-programme", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "group:aware-inn", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "group:cyprus-consortium", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "group:cyprus-fulbright-commission", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "group:wild-mountain-cafe", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "person:christopher-thorsen", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "person:douglas-stone-negotiation", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "person:keith-e-peterson", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "person:louise-diamond", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}

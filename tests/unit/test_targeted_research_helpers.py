@@ -187,3 +187,72 @@ class TestDefaultLeads:
         for lead in DEFAULT_LEADS:
             assert lead.subject_id()
             assert lead.object_id()
+
+
+class TestCyprusThreadLeads:
+    """Invariants for the Cyprus-thread leads added 2026-08-25.
+
+    These pin two things the research pass established and that a careless
+    future edit could quietly undo.
+    """
+
+    def _lead(self, subject, obj):
+        return next(
+            lead for lead in DEFAULT_LEADS
+            if lead.subject_name == subject and lead.object_name == obj
+        )
+
+    def test_no_lead_makes_moon_or_thorsen_a_member_of_the_crtg(self):
+        """Broome 1998 and both roster sources agree neither man appears on
+        the Cyprus Conflict Resolution Trainers Group's membership, and
+        kkron's own proposed text disclaims it explicitly. They are
+        modelled against the Consortium and the Commission's programme
+        instead, never as CRTG members."""
+        crtg_names = {
+            "Cyprus Conflict Resolution Trainers Group",
+            "Conflict Resolution Trainers Group",
+            "CRTG",
+        }
+        for lead in DEFAULT_LEADS:
+            if lead.subject_name in ("Richard Moon", "Christopher Thorsen"):
+                assert lead.object_name not in crtg_names
+
+    def test_unverified_attributions_carry_no_source_url(self):
+        """A source_url is a provenance assertion — it may only point at a
+        document that has been read and demonstrably says the thing.
+
+        Neither Peterson's book (no page or verbatim passage supplied) nor
+        the 2008 case study (never located) qualifies, so both leads stay on
+        the kkron path. This is the invariant that the withdrawn
+        pleasekillme citation and the latimes.com homepage both violated.
+        """
+        peterson = self._lead(
+            "Louise Diamond",
+            "Recruitment of Richard Moon and Christopher Thorsen into the "
+            "Cyprus Fulbright conflict-resolution programme",
+        )
+        case_study = self._lead("Christopher Thorsen", "Cyprus Consortium")
+        for lead in (peterson, case_study):
+            assert lead.source_url is None
+            assert lead.source_claim_text is None
+
+    def test_documents_actually_read_are_on_the_citation_path(self):
+        """The two leads whose URLs were fetched and quoted do get one."""
+        thorsen_bio = self._lead("Christopher Thorsen", "Cyprus Fulbright Commission")
+        podcast = self._lead(
+            "Richard Moon",
+            "Peace-building initiatives of Richard Moon with Louise Diamond",
+        )
+        assert thorsen_bio.source_url == "https://openmindadventures.com/chris-thorsen/"
+        assert "thetaichinotebook.com" in (podcast.source_url or "")
+        for lead in (thorsen_bio, podcast):
+            assert lead.source_claim_text
+
+    def test_superseded_stone_lead_ranks_below_its_replacement(self):
+        """The 'employed by the Cyprus Fulbright Commission' framing was
+        answered in the negative and is kept only as a record of the
+        question. The Chigas/Consortium route that replaced it must outrank
+        it."""
+        superseded = self._lead("Doug Stone", "Cyprus Fulbright Commission")
+        replacement = self._lead("Doug Stone", "Cyprus Consortium")
+        assert superseded.kkron_confidence < replacement.kkron_confidence

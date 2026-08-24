@@ -1,6 +1,7 @@
 # Journalistic & Archival Sources — Two Threads
 
-**Date**: 2026-08-24
+**Date**: 2026-08-24, **updated 2026-08-25** (see "Update" section at the end —
+kkron's interviews and Peterson correspondence materially refine Thread 2)
 **Brief**: Find journalistic sources for (1) the founding of The Source restaurant
 and the claim that Richard Moon introduced Jim Baker to Yogi Bhajan, and (2) the
 Cyprus Conflict Resolution Trainers Group / Cyprus Fulbright Commission / Doug
@@ -37,7 +38,9 @@ config change to be fetchable when Phase 2 next runs.
    hypothesis is not supported, and is mildly contradicted.** The contemporaneous
    insider account (Broome 1998) names the Cyprus Consortium's team leaders and
    every Fulbright Scholar in Conflict Resolution. Stone is not among them and
-   appears on no Cyprus roster found.
+   appears on no Cyprus roster found. **Refined 2026-08-25**: kkron reports Stone
+   confirmed that *Diana Chigas recruited him*. That is a different mechanism, it
+   fits Broome 1998 exactly, and it is now the live claim — see the Update.
 
 4. **Richard Moon's Cyprus work is documented — but only by Richard Moon.**
    His own biography places him in Cyprus and Bosnia under IMTD auspices "in
@@ -346,3 +349,158 @@ pre-emptively for the same reason. Covered by `TestHomonymDisambiguation` in
    captcha-blocked).
 6. *The New York Times*, 23 October 1976 full text — closest contemporaneous
    national coverage of Baker.
+
+
+---
+
+# Update — 2026-08-25
+
+kkron reported back from interviews he conducted himself (Richard Moon, Doug
+Stone) and from email correspondence with Keith E. Peterson, author of *American
+Dreams: The Story of the Cyprus Fulbright Commission* (Armida Books, 2024). Two
+new names enter the record, and Thread 2's central question resolves — in a
+different shape than it was asked.
+
+## Provenance triage
+
+The whole discipline of this file is that a `source_url` may only point at a
+document that has been **read** and demonstrably says the thing. Of the six new
+inputs, two cleared that bar:
+
+| New input | Document read? | Path |
+|---|---|---|
+| Thorsen ran Aikido/CR seminars for Greek & Turkish policy leaders in Cyprus | **Yes** — openmindadventures.com/chris-thorsen/ | citation, 0.45 |
+| Moon's peace-building with Louise Diamond, and coaching with Chris Thorsen | **Yes** — The Tai Chi Notebook, 31 Jan 2026 | citation, 0.60 |
+| Diana Chigas recruited Doug Stone | kkron's report of what Stone said | kkron, 0.50 |
+| Diamond brought Moon and Thorsen into the Commission's CR work | No — attributed to Peterson 2024; no page, no quote | kkron, 0.45 |
+| Thorsen hired by the Cyprus Consortium in 1995, "under the title Aikido" | No — the 2008 case study could not be located | kkron, 0.40 |
+| Moon confirmed kkron's assertions in interview | kkron's report; no transcript supplied | kkron, 0.50 |
+
+Filing the Peterson attribution or the 1995 hire against a `source_url` they
+cannot support would have been the third instance of the exact defect this
+document opens by withdrawing. They are stored as kkron-path claims that say
+plainly whose report they are.
+
+## Christopher Thorsen enters the record
+
+**New source, read and quoted** — Chris Thorsen's own published biography:
+
+> "In the late nineties, Chris spent five years providing periodic
+> Aikido/Conflict Resolution Seminars for policy leaders from the Turkish and
+> Greek factions on the war torn Island of Cyprus."
+
+Thorsen is described as a Founding Consultant of Interaction Associates and, per
+the Tai Chi Notebook interview, Richard Moon's colleague in corporate coaching.
+His bio names **no sponsor** — not the Fulbright Commission, not the Consortium,
+not IMTD.
+
+**A date tension worth keeping, not smoothing.** Thorsen's bio says "late
+nineties" plus five years, i.e. roughly 1996–2001. The kkron-reported 2008 case
+study has him hired in **1995**. Both are stored as stated and neither is
+reconciled — this graph exists to hold exactly that kind of disagreement.
+
+## The first non-self-published source for Moon's peace-building work
+
+**The Tai Chi Notebook**, "The first podcast of 2026: Quantum Aikido with Richard
+Moon," 31 January 2026:
+
+> "Richard Moon describes developing a 'very freestyle, jazz-oriented approach'
+> to Aikido, which eventually led to corporate coaching with Chris Thorsen and
+> international peace building initiatives with Louise Diamond and a $30 million
+> project in Bosnia funded by Dan Whalen."
+
+This matters more than its register suggests. Every previous source for Moon's
+peace-building was Moon's own website. This is a third party's account of an
+interview, and it independently links Moon to **Louise Diamond** — whom Broome
+1998 names as one of the two Cyprus Consortium team leaders — and to **Chris
+Thorsen**, whose Cyprus presence is separately attested by his own bio.
+
+Two clean negatives from the same page: **Cyprus** and **Fulbright** do not
+appear on it, and neither do **Los Angeles**, **The Source**, **Jim Baker** or
+**Yogi Bhajan**. It corroborates the Diamond and Thorsen links, not the Cyprus
+programme and not Thread 1.
+
+## Doug Stone: right substance, wrong mechanism
+
+kkron reports that **Stone confirmed Diana Chigas recruited him**.
+
+That resolves the hypothesis in a better-fitting shape. Broome 1998 names Chigas,
+of the **Conflict Management Group**, as a Cyprus Consortium team leader; CMG is a
+Consortium member; the Consortium is what the Commission contracted. Recruitment
+by Chigas onto a CMG/Consortium team and employment by the Cyprus Fulbright
+Commission are different claims, and the evidence now separates them cleanly:
+
+- **Employed / appointed by the Commission** — still **not supported**. Stone is
+  on no Commission appointment list, and the four Fulbright Scholars in Conflict
+  Resolution remain Broome, Snyder, Ungerleider and Turk. The original lead is
+  kept at 0.15 as a record of a question asked and answered, with its claim text
+  rewritten in place so it no longer asserts a conclusion that has moved on.
+- **Recruited via Chigas onto the Consortium team** — the live claim, stored at
+  0.50. Corroborate by finding Stone named on a CMG or Consortium roster.
+
+This also explains the earlier confusion cleanly: Stone was at the Harvard
+**Negotiation Project**, a distinct organization from **Conflict Management
+Group**, both Harvard-adjacent and both descended from Roger Fisher's work.
+
+## What Peterson's email does and does not confirm
+
+Peterson states he remembers **at least one conversation with Mr. Thorsen**; that
+he recorded and transcribed all **180 interviews** for the book but archived every
+voice file, document, email and photo about a year ago, so retrieval is not
+currently easy; that he **acknowledges the Moon citation in his book**; and that he
+acknowledges an error kkron reported, the second or third found since publication.
+
+**In the same email he explicitly declines to discuss Richard Moon's work.** The
+email corroborates that Thorsen was among his interviewees. It is not Peterson
+confirming anything about Moon's or Stone's role, and it is recorded that way.
+
+Only the research-bearing content is in the graph. Peterson is a private
+individual, `graph_snapshot/` is committed to a **public** GitHub repository, and
+the email's personal matters have no bearing on the research, so they are
+deliberately omitted.
+
+## The Peterson-attributed claim is proposed text, not a finding
+
+kkron's Peterson attribution is drafted for editorial review — "if editors
+consider the published sources sufficient", "proposed text for consideration".
+It is stored as a proposal, and it carries its own constraint, which the graph
+now enforces:
+
+> "the account does not establish that either was a member of the Cyprus Conflict
+> Resolution Trainers Group"
+
+**No `MEMBER_OF` edge from Moon or Thorsen to the CRTG exists**, and a test
+(`TestCyprusThreadLeads`) fails if one is ever added. Both men are modelled
+against the **Cyprus Consortium** and the **Commission's programme**, which is
+where the evidence points, and Broome 1998 plus both roster sources agree neither
+name appears on the CRTG itself.
+
+## Thread 1 is unchanged
+
+kkron reports that Richard Moon confirmed his assertions in interview. That is
+recorded as a confirmation event attached to Moon; the underlying assertions stay
+as the existing kkron leads rather than being duplicated.
+
+The caveat does not go away: Moon confirming claims about Moon is first-person
+testimony from the subject — real signal, not independent corroboration — and no
+transcript has been supplied. **Nothing here upgrades the Source Family claims to
+journalistically confirmed.** No published source found names Moon in connection
+with The Source, Jim Baker or Yogi Bhajan, and the newly-read Tai Chi Notebook
+interview, which covers Moon's biography at length, does not either.
+
+Supplying the transcript is the single highest-value next step for Thread 1: it
+would let the graph store what Moon actually said, verbatim, attributed to him as
+speaker, instead of a second-hand summary.
+
+## Revised next steps
+
+1. **The Moon interview transcript** — converts a second-hand summary into
+   quotable first-person testimony from the only living witness to both threads.
+2. **Locate the 2008 case study** naming Thorsen's 1995 Consortium hire, and
+   resolve it against his bio's "late nineties".
+3. **A page and verbatim passage from Peterson 2024** for the Diamond/Moon/Thorsen
+   attribution — turns a proposal into a citation.
+4. **Stone on a CMG or Cyprus Consortium roster** — corroborates the Chigas route
+   independently of Stone's own account.
+5. Isis Aquarian, *The Source* (2007), and the *LA Times*, 22 June 1969 — both
+   still the highest-yield unopened sources for Thread 1.
