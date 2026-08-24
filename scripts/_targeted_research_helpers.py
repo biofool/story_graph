@@ -290,7 +290,13 @@ DEFAULT_LEADS: list[ResearchLead] = [
         subject_name="Richard Moon",
         subject_type="person",
         relation=RelationType.MENTIONS,
-        object_name="Introduction of Jim Baker to Yogi Bhajan",
+        # Deliberately the label of the Event node the crawl already
+        # produced (from grokipedia, dated May 1969), not a new
+        # "Introduction of..." label — event_id() slugifies the label, so a
+        # near-synonym would fork the same real meeting into two nodes and
+        # the contradiction detector would never relate kkron's account to
+        # the crawled facts about it.
+        object_name="Meeting of Baker and Yogi Bhajan",
         object_type="event",
         kkron_claim_text=(
             "kkron states that Richard Moon introduced Jim Baker (later "
@@ -373,18 +379,25 @@ DEFAULT_LEADS: list[ResearchLead] = [
         object_type="event",
         kkron_claim_text="N/A — citation-sourced lead, see source_claim_text.",
         kkron_confidence=1.0,
+        # Anchored to Deslippe's PDF, the page actually read — not to a
+        # constructed washingtonpost.com URL that has never been fetched.
+        # A source_url is a provenance assertion: it has to point at
+        # something that demonstrably says this. Deslippe's bibliography
+        # does; a guessed archive URL might 404.
         source_url=(
-            "https://www.washingtonpost.com/archive/local/1970/12/23/"
-            "yoga-students-set-india-trip-for-drug-study/"
+            "https://escholarship.org/content/qt6r63q6qn/"
+            "qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"
         ),
         source_claim_text=(
-            "William L. Claiborne, 'Yoga students set India trip for drug "
-            "study', The Washington Post, 23 December 1970, p. B2 — a "
-            "contemporaneous newspaper report on the India trip, cited by "
-            "Deslippe (2012). Yogi Bhajan told the reporter the group was on "
-            "a fact-finding mission to research how best to get American "
-            "youth off drugs via yoga. Full text not yet retrieved; citation "
-            "recorded from Deslippe's bibliography."
+            "Deslippe (2012) cites, and quotes for the trip's stated "
+            "purpose, a contemporaneous newspaper report: William L. "
+            "Claiborne, 'Yoga students set India trip for drug study', The "
+            "Washington Post, 23 December 1970, p. B2. Per Deslippe, Yogi "
+            "Bhajan told the reporter the group was on a fact-finding "
+            "mission in India to research how best to get the youth of "
+            "America off drugs via yoga. The Post article itself has not "
+            "been retrieved — this claim is about what Deslippe's "
+            "bibliography records, not about text read in the Post."
         ),
         source_confidence=0.5,
         extra_queries=(
@@ -399,16 +412,23 @@ DEFAULT_LEADS: list[ResearchLead] = [
         object_type="event",
         kkron_claim_text="N/A — citation-sourced lead, see source_claim_text.",
         kkron_confidence=1.0,
-        source_url="https://www.latimes.com/",
+        # Anchored to Deslippe's PDF for the same reason as the lead above:
+        # latimes.com's homepage does not assert anything about a 1969
+        # article, and the archived article itself is paywalled and unread.
+        source_url=(
+            "https://escholarship.org/content/qt6r63q6qn/"
+            "qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"
+        ),
         source_claim_text=(
-            "Marty Altschul, 'Tense housewives, businessmen try relaxing "
-            "Hindu way', Los Angeles Times, 22 June 1969 — the earliest "
-            "contemporaneous Los Angeles Times coverage of Yogi Bhajan "
-            "teaching in Los Angeles located so far, cited by Deslippe "
-            "(2012) for Yogi Bhajan's shifting account of how long he had "
-            "studied yoga. Full text is behind the LA Times historical "
-            "archive / ProQuest and has not been retrieved; citation "
-            "recorded from Deslippe's bibliography."
+            "Deslippe (2012) cites Marty Altschul, 'Tense housewives, "
+            "businessmen try relaxing Hindu way', Los Angeles Times, 22 "
+            "June 1969 — the earliest contemporaneous Los Angeles Times "
+            "coverage of Yogi Bhajan teaching in Los Angeles located so "
+            "far — for Yogi Bhajan's shifting account of how long he had "
+            "studied yoga. The LA Times article is behind the paper's "
+            "historical archive / ProQuest and has not been retrieved: this "
+            "claim is about what Deslippe's bibliography records, not about "
+            "text read in the Times."
         ),
         source_confidence=0.5,
         extra_queries=(

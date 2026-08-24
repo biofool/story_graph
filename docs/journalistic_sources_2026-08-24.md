@@ -10,6 +10,12 @@ Stone / Richard Moon thread.
 grounding. No paid Gemini/Vertex calls were made — same precedent as the
 2026-08-23 validation run (`docs/targeted_research_validation_2026-08-23.md`).
 
+**Note on the Cyprus leads and `allowed_domains`**: the README's allowed-domain
+list gates only `scripts/01`'s broad BFS crawl. `scripts/03` builds a fresh
+`WebCrawler` per discovered URL with `allowed_domains={get_domain(url)}`, so the
+Cyprus-thread domains (cyprusreview.org, escholarship.org, imtd.org, …) need no
+config change to be fetchable when Phase 2 next runs.
+
 ---
 
 ## Headline findings
@@ -78,6 +84,14 @@ these is the highest-value next step for this thread.**
 | **A3** | William L. Claiborne, "Yoga students set India trip for drug study," **The Washington Post, 23 December 1970, B2** | Contemporaneous report on the India trip Baker went on. Deslippe cites it for Bhajan's stated purpose (getting American youth off drugs via yoga). |
 | **A4** | Edna Hampton, "Yoga's challenges and promises," **The Globe and Mail, 28 November 1968** | Bhajan's pre-LA Toronto period; Deslippe cites it for his shifting account of how long he had studied. |
 | **A5** | Suresh Sharma, "Warrant issued against Yogi," *Hindustan Times*, 19 March 1971; Anon., "Yogi bailed out, flies back to US," *Hindustan Times*, 20 March 1971 | The India trip's collapse, same month as the pleasekillme "March 1971" passage. |
+
+Both A2 and A3 are stored in the graph with `source_url` pointing at **Deslippe's
+PDF**, not at latimes.com or washingtonpost.com. A `source_url` is a provenance
+assertion — it has to point at something that demonstrably says this. Deslippe's
+bibliography does; a newspaper homepage says nothing about a 1969 article, and a
+URL reconstructed from a bibliography entry may not resolve at all. The claim text
+says plainly that it records what Deslippe's bibliography holds, not text read in
+the Times or the Post. Re-point these once the articles themselves are retrieved.
 
 Also in Deslippe's bibliography, lower relevance: Anon., "Yogi on yoga," *Santa Fe
 New Mexican*, 20 March 1970; Brett Gray, "World must purify self soon, yoga
@@ -156,9 +170,14 @@ text kkron never made).
 - The `MENTIONS` edges from the pleasekillme Work node to Baker and Yogi Bhajan
   are **kept** — the article genuinely mentions both. Only the Moon edge is gone.
 - The introduction hypothesis is re-filed on the kkron path
-  (`claim:kkron:7bc3ecee892035e6`, capped at 0.5,
+  (`claim:kkron:8595b54efb638272`, capped at 0.5,
   `pending_independent_corroboration=True`) where an uncorroborated first-hand
-  account belongs.
+  account belongs. It is attached to the Event node the crawl had already
+  produced — `event:meeting-of-baker-and-yogi-bhajan`, dated May 1969 — rather
+  than to a new "Introduction of…" node. `event_id()` slugifies the label, so a
+  near-synonym would have forked one real meeting into two nodes and left the
+  contradiction detector unable to relate kkron's account to the crawled facts
+  about the same event.
 - Two accurate citation leads replace it: the Deslippe claim (A1) and the actual
   Sheppard India-trip claim (C2), each quoting what its source really says.
 

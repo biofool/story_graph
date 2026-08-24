@@ -4107,15 +4107,15 @@
 {"dst_id": "group:cyprus-consortium", "metadata": {"evidence": "https://cyprusreview.org/index.php/cr/article/download/490/438"}, "rel_type": "ABOUT", "src_id": "claim:citation:583b893760f88efa"}
 {"dst_id": "group:cyprus-fulbright-commission", "metadata": {"evidence": "https://cyprusreview.org/index.php/cr/article/download/490/438"}, "rel_type": "ABOUT", "src_id": "claim:citation:583b893760f88efa"}
 {"dst_id": "work:0359843f058e0a76", "metadata": {"evidence": "https://cyprusreview.org/index.php/cr/article/download/490/438"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:583b893760f88efa"}
-{"dst_id": "event:1970-1971-3ho-pilgrimage-to-india-led-by-yogi-bhajan", "metadata": {"evidence": "https://www.washingtonpost.com/archive/local/1970/12/23/yoga-students-set-india-trip-for-drug-study/"}, "rel_type": "ABOUT", "src_id": "claim:citation:8b3e7a083f57ed92"}
-{"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "https://www.washingtonpost.com/archive/local/1970/12/23/yoga-students-set-india-trip-for-drug-study/"}, "rel_type": "ABOUT", "src_id": "claim:citation:8b3e7a083f57ed92"}
-{"dst_id": "work:f04c9ce687745171", "metadata": {"evidence": "https://www.washingtonpost.com/archive/local/1970/12/23/yoga-students-set-india-trip-for-drug-study/"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:8b3e7a083f57ed92"}
+{"dst_id": "event:1970-1971-3ho-pilgrimage-to-india-led-by-yogi-bhajan", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "ABOUT", "src_id": "claim:citation:8b3e7a083f57ed92"}
+{"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "ABOUT", "src_id": "claim:citation:8b3e7a083f57ed92"}
+{"dst_id": "work:3ceaefb5ffac8d5b", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:8b3e7a083f57ed92"}
 {"dst_id": "group:institute-for-multi-track-diplomacy", "metadata": {"evidence": "https://openmindadventures.com/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:citation:93aec62a19b92dd0"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "https://openmindadventures.com/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:citation:93aec62a19b92dd0"}
 {"dst_id": "work:afbbc0bdd862d723", "metadata": {"evidence": "https://openmindadventures.com/richard-moon/"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:93aec62a19b92dd0"}
-{"dst_id": "event:yogi-bhajan-teaching-kundalini-yoga-in-los-angeles-1968-1971", "metadata": {"evidence": "https://www.latimes.com/"}, "rel_type": "ABOUT", "src_id": "claim:citation:9e4fdd5ededc04a8"}
-{"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "https://www.latimes.com/"}, "rel_type": "ABOUT", "src_id": "claim:citation:9e4fdd5ededc04a8"}
-{"dst_id": "work:8a0739c970af3477", "metadata": {"evidence": "https://www.latimes.com/"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:9e4fdd5ededc04a8"}
+{"dst_id": "event:yogi-bhajan-teaching-kundalini-yoga-in-los-angeles-1968-1971", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "ABOUT", "src_id": "claim:citation:9e4fdd5ededc04a8"}
+{"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "ABOUT", "src_id": "claim:citation:9e4fdd5ededc04a8"}
+{"dst_id": "work:3ceaefb5ffac8d5b", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:9e4fdd5ededc04a8"}
 {"dst_id": "event:1970-1971-3ho-pilgrimage-to-india-led-by-yogi-bhajan", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "ABOUT", "src_id": "claim:citation:afc42fdf70a1e297"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "ABOUT", "src_id": "claim:citation:afc42fdf70a1e297"}
 {"dst_id": "work:eb9ed8858a7734a5", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:afc42fdf70a1e297"}
@@ -4666,9 +4666,9 @@
 {"dst_id": "group:wild-mountain-cafe", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:385b8c4a2024dfe2"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:385b8c4a2024dfe2"}
 {"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:385b8c4a2024dfe2"}
-{"dst_id": "event:introduction-of-jim-baker-to-yogi-bhajan", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:7bc3ecee892035e6"}
-{"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:7bc3ecee892035e6"}
-{"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:7bc3ecee892035e6"}
+{"dst_id": "event:meeting-of-baker-and-yogi-bhajan", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:8595b54efb638272"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:8595b54efb638272"}
+{"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:8595b54efb638272"}
 {"dst_id": "group:aware-inn", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:8f95a8c739443c70"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:8f95a8c739443c70"}
 {"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:8f95a8c739443c70"}
@@ -4926,7 +4926,7 @@
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:prism"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:r-barker"}
 {"dst_id": "group:institute-for-multi-track-diplomacy", "metadata": {"asserted_by": "cited_source", "evidence": "https://openmindadventures.com/richard-moon/", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon-aikido"}
-{"dst_id": "event:introduction-of-jim-baker-to-yogi-bhajan", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "event:meeting-of-baker-and-yogi-bhajan", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "group:aware-inn", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "group:the-source-restaurant", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "group:wild-mountain-cafe", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-aikido"}
@@ -4994,8 +4994,8 @@
 {"dst_id": "group:sikh-dharma-international", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:yogi-bhajan"}
 {"dst_id": "group:sikh-students-federation", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Yogi_Bhajan", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:yogi-bhajan"}
 {"dst_id": "group:world-fellowship-of-religions", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:yogi-bhajan"}
-{"dst_id": "event:1970-1971-3ho-pilgrimage-to-india-led-by-yogi-bhajan", "metadata": {"asserted_by": "cited_source", "evidence": "https://www.washingtonpost.com/archive/local/1970/12/23/yoga-students-set-india-trip-for-drug-study/", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:yogi-bhajan"}
-{"dst_id": "event:yogi-bhajan-teaching-kundalini-yoga-in-los-angeles-1968-1971", "metadata": {"asserted_by": "cited_source", "evidence": "https://www.latimes.com/", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:yogi-bhajan"}
+{"dst_id": "event:1970-1971-3ho-pilgrimage-to-india-led-by-yogi-bhajan", "metadata": {"asserted_by": "cited_source", "evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:yogi-bhajan"}
+{"dst_id": "event:yogi-bhajan-teaching-kundalini-yoga-in-los-angeles-1968-1971", "metadata": {"asserted_by": "cited_source", "evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:yogi-bhajan"}
 {"dst_id": "group:claremont", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:yogi-bhajan"}
 {"dst_id": "group:east-west-cultural-center", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:yogi-bhajan"}
 {"dst_id": "group:government-of-india", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Yogi_Bhajan", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:yogi-bhajan"}
@@ -5289,9 +5289,14 @@
 {"dst_id": "place:venice-pavilion", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "MENTIONS", "src_id": "work:1e03e9ebf75ff821"}
 {"dst_id": "place:washington-d-c", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "MENTIONS", "src_id": "work:1e03e9ebf75ff821"}
 {"dst_id": "place:woodstock-new-york", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "MENTIONS", "src_id": "work:1e03e9ebf75ff821"}
+{"dst_id": "claim:citation:8b3e7a083f57ed92", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "CONTAINS", "src_id": "work:3ceaefb5ffac8d5b"}
+{"dst_id": "claim:citation:9e4fdd5ededc04a8", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "CONTAINS", "src_id": "work:3ceaefb5ffac8d5b"}
 {"dst_id": "claim:citation:e47fb42e5b9a39df", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "CONTAINS", "src_id": "work:3ceaefb5ffac8d5b"}
+{"dst_id": "event:1970-1971-3ho-pilgrimage-to-india-led-by-yogi-bhajan", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "DESCRIBES", "src_id": "work:3ceaefb5ffac8d5b"}
+{"dst_id": "event:yogi-bhajan-teaching-kundalini-yoga-in-los-angeles-1968-1971", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "DESCRIBES", "src_id": "work:3ceaefb5ffac8d5b"}
 {"dst_id": "group:3ho", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "MENTIONS", "src_id": "work:3ceaefb5ffac8d5b"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "MENTIONS", "src_id": "work:3ceaefb5ffac8d5b"}
+{"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "MENTIONS", "src_id": "work:3ceaefb5ffac8d5b"}
 {"dst_id": "claim:ab229b24b38e8e8f", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/"}, "rel_type": "CONTAINS", "src_id": "work:44ee776da46de7c8"}
 {"dst_id": "event:law-school-teaching-award", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/"}, "rel_type": "DESCRIBES", "src_id": "work:44ee776da46de7c8"}
 {"dst_id": "event:mary-lou-dietz-award", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/"}, "rel_type": "DESCRIBES", "src_id": "work:44ee776da46de7c8"}
@@ -5505,9 +5510,6 @@
 {"dst_id": "group:university-of-windsor", "metadata": {"evidence": "https://www.ucl.ac.uk/laws/global-centre-democratic-constitutionalism/about-global-centre-democratic-constitutionalism/members/professor-richard-moon"}, "rel_type": "MENTIONS", "src_id": "work:7a13f120a2dfef9a"}
 {"dst_id": "person:richard-moon-law-professor", "metadata": {"evidence": "https://www.ucl.ac.uk/laws/global-centre-democratic-constitutionalism/about-global-centre-democratic-constitutionalism/members/professor-richard-moon"}, "rel_type": "MENTIONS", "src_id": "work:7a13f120a2dfef9a"}
 {"dst_id": "place:canada", "metadata": {"evidence": "https://www.ucl.ac.uk/laws/global-centre-democratic-constitutionalism/about-global-centre-democratic-constitutionalism/members/professor-richard-moon"}, "rel_type": "MENTIONS", "src_id": "work:7a13f120a2dfef9a"}
-{"dst_id": "claim:citation:9e4fdd5ededc04a8", "metadata": {"evidence": "https://www.latimes.com/"}, "rel_type": "CONTAINS", "src_id": "work:8a0739c970af3477"}
-{"dst_id": "event:yogi-bhajan-teaching-kundalini-yoga-in-los-angeles-1968-1971", "metadata": {"evidence": "https://www.latimes.com/"}, "rel_type": "DESCRIBES", "src_id": "work:8a0739c970af3477"}
-{"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "https://www.latimes.com/"}, "rel_type": "MENTIONS", "src_id": "work:8a0739c970af3477"}
 {"dst_id": "claim:003c08a46edc5835", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family"}, "rel_type": "CONTAINS", "src_id": "work:93d9eaf6480fefc6"}
 {"dst_id": "claim:0afcb5e1ece1f06a", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family"}, "rel_type": "CONTAINS", "src_id": "work:93d9eaf6480fefc6"}
 {"dst_id": "claim:1cdc2b6f829b72ba", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family"}, "rel_type": "CONTAINS", "src_id": "work:93d9eaf6480fefc6"}
@@ -6534,9 +6536,6 @@
 {"dst_id": "event:1970-1971-3ho-pilgrimage-to-india-led-by-yogi-bhajan", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "DESCRIBES", "src_id": "work:eb9ed8858a7734a5"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "MENTIONS", "src_id": "work:eb9ed8858a7734a5"}
 {"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "MENTIONS", "src_id": "work:eb9ed8858a7734a5"}
-{"dst_id": "claim:citation:8b3e7a083f57ed92", "metadata": {"evidence": "https://www.washingtonpost.com/archive/local/1970/12/23/yoga-students-set-india-trip-for-drug-study/"}, "rel_type": "CONTAINS", "src_id": "work:f04c9ce687745171"}
-{"dst_id": "event:1970-1971-3ho-pilgrimage-to-india-led-by-yogi-bhajan", "metadata": {"evidence": "https://www.washingtonpost.com/archive/local/1970/12/23/yoga-students-set-india-trip-for-drug-study/"}, "rel_type": "DESCRIBES", "src_id": "work:f04c9ce687745171"}
-{"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "https://www.washingtonpost.com/archive/local/1970/12/23/yoga-students-set-india-trip-for-drug-study/"}, "rel_type": "MENTIONS", "src_id": "work:f04c9ce687745171"}
 {"dst_id": "claim:06c9838e0f192782", "metadata": {"evidence": "https://en.wikipedia.org/wiki/The_Source_Family"}, "rel_type": "CONTAINS", "src_id": "work:f739841f314f0e99"}
 {"dst_id": "claim:3afc53021218e2ab", "metadata": {"evidence": "https://en.wikipedia.org/wiki/The_Source_Family"}, "rel_type": "CONTAINS", "src_id": "work:f739841f314f0e99"}
 {"dst_id": "claim:4befb29401e06e8a", "metadata": {"evidence": "https://en.wikipedia.org/wiki/The_Source_Family"}, "rel_type": "CONTAINS", "src_id": "work:f739841f314f0e99"}
@@ -6574,10 +6573,10 @@
 {"dst_id": "claim:kkron:0e842747e2d98504", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "claim:kkron:218252fe4b9771cb", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "claim:kkron:385b8c4a2024dfe2", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
-{"dst_id": "claim:kkron:7bc3ecee892035e6", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "claim:kkron:8595b54efb638272", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "claim:kkron:8f95a8c739443c70", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "claim:kkron:f27d36ff1e898050", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
-{"dst_id": "event:introduction-of-jim-baker-to-yogi-bhajan", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "event:meeting-of-baker-and-yogi-bhajan", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "group:aware-inn", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "group:cyprus-fulbright-commission", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}

@@ -422,9 +422,9 @@
 {"claim_id": "claim:cfa78cd2e034190c", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:cff3b5e2edeb1b1f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:citation:583b893760f88efa", "quote_span_end": null, "quote_span_start": null, "source_id": "work:0359843f058e0a76"}
-{"claim_id": "claim:citation:8b3e7a083f57ed92", "quote_span_end": null, "quote_span_start": null, "source_id": "work:f04c9ce687745171"}
+{"claim_id": "claim:citation:8b3e7a083f57ed92", "quote_span_end": null, "quote_span_start": null, "source_id": "work:3ceaefb5ffac8d5b"}
 {"claim_id": "claim:citation:93aec62a19b92dd0", "quote_span_end": null, "quote_span_start": null, "source_id": "work:afbbc0bdd862d723"}
-{"claim_id": "claim:citation:9e4fdd5ededc04a8", "quote_span_end": null, "quote_span_start": null, "source_id": "work:8a0739c970af3477"}
+{"claim_id": "claim:citation:9e4fdd5ededc04a8", "quote_span_end": null, "quote_span_start": null, "source_id": "work:3ceaefb5ffac8d5b"}
 {"claim_id": "claim:citation:afc42fdf70a1e297", "quote_span_end": null, "quote_span_start": null, "source_id": "work:eb9ed8858a7734a5"}
 {"claim_id": "claim:citation:e47fb42e5b9a39df", "quote_span_end": null, "quote_span_start": null, "source_id": "work:3ceaefb5ffac8d5b"}
 {"claim_id": "claim:d086e578976bb44f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:968e9a5d3a76f258"}
@@ -524,6 +524,6 @@
 {"claim_id": "claim:kkron:0e842747e2d98504", "quote_span_end": null, "quote_span_start": null, "source_id": "work:kkron-personal-communication"}
 {"claim_id": "claim:kkron:218252fe4b9771cb", "quote_span_end": null, "quote_span_start": null, "source_id": "work:kkron-personal-communication"}
 {"claim_id": "claim:kkron:385b8c4a2024dfe2", "quote_span_end": null, "quote_span_start": null, "source_id": "work:kkron-personal-communication"}
-{"claim_id": "claim:kkron:7bc3ecee892035e6", "quote_span_end": null, "quote_span_start": null, "source_id": "work:kkron-personal-communication"}
+{"claim_id": "claim:kkron:8595b54efb638272", "quote_span_end": null, "quote_span_start": null, "source_id": "work:kkron-personal-communication"}
 {"claim_id": "claim:kkron:8f95a8c739443c70", "quote_span_end": null, "quote_span_start": null, "source_id": "work:kkron-personal-communication"}
 {"claim_id": "claim:kkron:f27d36ff1e898050", "quote_span_end": null, "quote_span_start": null, "source_id": "work:kkron-personal-communication"}
