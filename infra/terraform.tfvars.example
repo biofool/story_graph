@@ -1,0 +1,13 @@
+# Copy to terraform.tfvars (gitignored) and fill in.
+
+project_id = "your-gcp-project-id"
+region     = "us-central1"
+
+# Built + pushed by deploy.sh before `terraform apply`.
+image = "us-central1-docker.pkg.dev/your-gcp-project-id/story-graph/targeted-research:latest"
+
+# Uncomment to point at an existing GEMINI_API_KEY secret (e.g. the one
+# story_graph's README already documents in aiqa-coaching /
+# quantum-aikido-coaching) instead of creating a new one here:
+# create_secret     = false
+# gemini_secret_id  = "projects/123456789012/secrets/GEMINI_API_KEY"

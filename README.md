@@ -40,6 +40,16 @@ Key relations: `ALIAS_OF`, `FOUNDED`, `MEMBER_OF`, `WORKED_AT`, `LIVED_AT`,
 4. **Detect** — Contradiction detection between claims with opposite stances
    targeting the same entity/event. Timeline edges from date mentions.
 
+## Scheduled deployment
+
+`scripts/03_targeted_entity_research.py` is meant to run daily (see its
+module docstring). It's packaged as a container (`Dockerfile`, repo root)
+and deployed as a GCP Cloud Run Job on a Cloud Scheduler cron trigger via
+the Terraform in `infra/` — build/push/apply with `./deploy.sh`. See
+`infra/README.md` for first-time setup and, importantly, the "known
+limitations" section: this was built and validated without live GCP
+credentials and has not yet been applied against a real project.
+
 ## Quick start
 
 ```bash
@@ -139,8 +149,12 @@ story_graph/
 │   └── utils/
 │       └── text_utils.py       # Text cleaning, URL hashing, normalization
 ├── scripts/
-│   └── 01_crawl_and_build_graph.py
+│   ├── 01_crawl_and_build_graph.py
+│   └── 03_targeted_entity_research.py  # scheduled — see infra/README.md
 ├── tests/
+├── Dockerfile                    # Container image for scripts/03 (Cloud Run Job)
+├── deploy.sh                      # Build/push/terraform-apply wrapper — see infra/README.md
+├── infra/                         # Terraform: Cloud Run Job + Cloud Scheduler + IAM
 ├── graph_snapshot/              # Tracked JSON/JSONL graph (source of truth)
 └── data/                        # data/graph.db: local SQLite working copy (git-ignored)
 ```

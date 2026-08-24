@@ -37,20 +37,29 @@ For each lead this script:
 
 This script does not fabricate or guess at research results — it only
 issues real search/crawl/extraction calls, which require network access and
-a configured GEMINI_API_KEY. It is meant to be run from a cron job on a
-machine that actually has internet access, e.g.:
+a configured GEMINI_API_KEY. It needs to run on a schedule from somewhere
+that actually has internet access; see infra/README.md for the deployed
+version of this: a GCP Cloud Run Job (see Dockerfile at the repo root) plus
+a Cloud Scheduler trigger on the same "0 6 * * *" cron this docstring used
+to just describe in prose, provisioned by the Terraform under infra/ and
+built/pushed/applied via ./deploy.sh. That setup has not yet been applied
+against a real GCP project — see infra/README.md's "known limitations"
+section before assuming it's live.
 
-    # crontab -e
-    0 6 * * *  cd /path/to/story_graph && \\
-        /path/to/.venv/bin/python scripts/03_targeted_entity_research.py \\
+For a one-off local/manual run instead of the deployed job, invoke it the
+same way cron would:
+
+    cd /path/to/story_graph && \\
+        .venv/bin/python scripts/03_targeted_entity_research.py \\
         >> data/targeted_research.log 2>&1
 
 Results land in the same SQLite graph DB as scripts/01 and scripts/02
 (default: data/graph.db, override with --db-path or the GRAPH_DB_PATH env
 var — see config/settings.py). data/graph.db and *.log are already
-git-ignored, so cron output stays local. The run summary is printed to
-stdout/stderr — redirect it to a log file (as in the cron example above) to
-keep a persistent record across runs.
+git-ignored, so a local run's output stays local. The run summary is
+printed to stdout/stderr — redirect it to a log file (as above) to keep a
+persistent record across runs; the deployed Cloud Run Job's output instead
+goes to Cloud Logging.
 
 JSON snapshot is the source of truth, SQLite is a local working copy
 ------------------------------------------------------------------------
