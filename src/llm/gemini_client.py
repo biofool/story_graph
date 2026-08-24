@@ -48,16 +48,47 @@ class GeminiClient:
     Construction is lazy: the real SDK client is only created on first
     use (or when :meth:`is_available` is called), so importing this
     module never requires the SDK or an API key.
+
+    An optional ``cost_tracker`` (a :class:`src.llm.cost_tracker.GeminiCostTracker`)
+    may be attached. When present, each successful API call is reported to the
+    CloudManagement hub as an incremental actual (best-effort, never blocks).
+    This makes any caller of ``GeminiClient`` cost-tracked without each call
+    site wiring its own reporting — mirroring how ``TieredGeminiClient``
+    reports via its own ``_report_call``. The inner ``GeminiClient`` instances
+    built by ``TieredGeminiClient`` never carry a tracker, so there is no
+    double-reporting when a ``TieredGeminiClient`` delegates to them.
     """
 
     def __init__(
         self,
         api_key: str | None = None,
         model: str | None = None,
+        cost_tracker: Any = None,
     ):
         self._api_key = api_key if api_key is not None else settings.gemini_api_key
         self._model = model or settings.gemini_model
         self._client: Any = None
+        # Optional cost tracker (src.llm.cost_tracker.GeminiCostTracker).
+        # When attached, _report_call is invoked after each successful API
+        # call (best-effort, never blocks). Plain GeminiClient always uses
+        # an AI Studio key (free tier), so calls are reported as tier="free"
+        # with cost_usd=0.0 — matching TieredGeminiClient's free-tier reporting.
+        self._cost_tracker = cost_tracker
+        # Local call counter (mirrors TieredGeminiClient.free_calls).
+        self.free_calls = 0
+
+    def _report_call(self, tier: str, model: str, cost_usd: float) -> None:
+        """Best-effort cost-tracker report after a successful API call.
+
+        Never raises — all errors are logged at WARNING inside the tracker.
+        """
+        tracker = self._cost_tracker
+        if tracker is None:
+            return
+        try:
+            tracker.report_call(tier=tier, model=model, cost_usd=cost_usd)
+        except Exception as e:
+            _log.warning("cost_tracker report_call failed (best-effort): %s", e)
 
     # --- availability / construction ---
 
@@ -109,13 +140,19 @@ class GeminiClient:
         """
         client = self._ensure_client()
         try:
-            return client.models.generate_content(
+            response = client.models.generate_content(
                 model=model or self._model,
                 contents=contents,
                 config=config,
             )
         except Exception as e:
             raise GeminiError(f"Gemini generate_content failed: {e}") from e
+        # Report the successful call to the cost tracker (best-effort).
+        # Plain GeminiClient uses an AI Studio key (free tier), so tier="free"
+        # and cost_usd=0.0 — matching TieredGeminiClient's free-tier reporting.
+        self.free_calls += 1
+        self._report_call(tier="free", model=model or self._model, cost_usd=0.0)
+        return response
 
     # --- convenience shapes ---
 
@@ -181,6 +218,18 @@ class GeminiClient:
         text = _response_text(response)
         sources = _extract_grounding_sources(response)
         return GroundingResult(text=text, sources=sources, raw=response)
+
+    @property
+    def stats(self) -> dict[str, Any]:
+        """Summary stats for reporting (mirrors TieredGeminiClient.stats shape)."""
+        s: dict[str, Any] = {
+            "free_calls": self.free_calls,
+            "paid_calls": 0,
+        }
+        if self._cost_tracker is not None:
+            s["total_cost_usd"] = self._cost_tracker.total_cost_usd
+            s["cost_tracker_enabled"] = self._cost_tracker.is_available()
+        return s
 
 
 class TieredGeminiClient:

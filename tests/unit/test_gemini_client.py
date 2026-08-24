@@ -189,3 +189,78 @@ class TestGeminiClientAvailability:
         client = GeminiClient(api_key="")
         with pytest.raises(GeminiError):
             client.generate_content("hi")
+
+
+# --- tests: tracker-aware GeminiClient ---
+
+
+class TestGeminiClientCostTracker:
+    """Verify GeminiClient reports each successful call to an attached tracker."""
+
+    def test_generate_content_reports_to_tracker(self):
+        from unittest.mock import MagicMock
+
+        tracker = MagicMock()
+        tracker.is_available.return_value = True
+        client = _FakeGeminiClientWithTracker(
+            raw_response=_Response(text="ok"), cost_tracker=tracker,
+        )
+        client.generate_content("hi")
+        # free_calls incremented and report_call invoked once with tier="free".
+        assert client.free_calls == 1
+        tracker.report_call.assert_called_once()
+        kwargs = tracker.report_call.call_args.kwargs
+        assert kwargs["tier"] == "free"
+        assert kwargs["cost_usd"] == 0.0
+
+    def test_no_tracker_no_report_no_error(self):
+        # Without a tracker, generate_content must not raise and free_calls
+        # still increments.
+        client = _FakeGeminiClientWithTracker(raw_response=_Response(text="ok"))
+        client.generate_content("hi")
+        assert client.free_calls == 1
+
+    def test_stats_include_cost_fields_when_tracker_attached(self):
+        from unittest.mock import MagicMock
+
+        tracker = MagicMock()
+        tracker.total_cost_usd = 0.05
+        tracker.is_available.return_value = True
+        client = GeminiClient(api_key="fake-key", model="m", cost_tracker=tracker)
+        stats = client.stats
+        assert stats["free_calls"] == 0
+        assert stats["paid_calls"] == 0
+        assert stats["total_cost_usd"] == 0.05
+        assert stats["cost_tracker_enabled"] is True
+
+    def test_stats_omit_cost_fields_without_tracker(self):
+        client = GeminiClient(api_key="fake-key", model="m")
+        stats = client.stats
+        assert "total_cost_usd" not in stats
+        assert "cost_tracker_enabled" not in stats
+        assert stats["free_calls"] == 0
+
+
+class _FakeGeminiClientWithTracker(GeminiClient):
+    """GeminiClient that bypasses the real SDK but keeps the real
+    generate_content's tracker-reporting path by calling super().generate_content
+    against a fake SDK client."""
+
+    def __init__(self, *, raw_response: Any = None, cost_tracker: Any = None):
+        super().__init__(api_key="fake-key", model="gemini-fake", cost_tracker=cost_tracker)
+        self._raw_response = raw_response
+
+    def _ensure_client(self) -> Any:
+        # Return a fake SDK client whose models.generate_content yields the
+        # canned response. Bypasses the real google-genai import.
+        outer = self
+
+        class _Models:
+            def generate_content(self, model, contents, config=None):
+                return outer._raw_response
+
+        class _FakeSDK:
+            models = _Models()
+
+        return _FakeSDK()
+
