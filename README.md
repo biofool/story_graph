@@ -93,9 +93,28 @@ story_graph/
 │       └── text_utils.py       # Text cleaning, URL hashing, normalization
 ├── scripts/
 │   └── 01_crawl_and_build_graph.py
+├── prompts/
+│   └── graph_to_wikipedia_update.md  # reusable LLM prompt: graph export -> Wikipedia proposal
 ├── tests/
 └── data/
 ```
+
+## Turning research into a Wikipedia update proposal
+
+`prompts/graph_to_wikipedia_update.md` is a standalone, reusable LLM prompt
+that takes a `graph_snapshot/` export for one topic and turns it into a
+Wikipedia update proposal — a Talk-page COI disclosure + hedged proposed
+wording by default, or direct article-text suggestions when there's no
+conflict of interest and the sourcing is solid. It enforces WP:V/WP:NOR/
+WP:NPOV/WP:RS, separates citation-backed claims from personal-knowledge/
+unpublished ones (never usable as a source, only as COI disclosure context —
+the same convention used for kkron's own claims elsewhere in this project),
+and carries the graph's `confidence`/`pending_independent_corroboration`
+flags through as hedged language rather than flat assertions. See that
+file's own "How to use this" section for the exact copy/paste + fill-in
+steps, and its inline worked example (built from the real Cyprus CRTG
+research in `scripts/_cyprus_crtg_helpers.py`) for what a good vs. bad
+output looks like.
 
 ## Querying the graph
 
