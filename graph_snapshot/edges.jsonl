@@ -178,7 +178,7 @@
 {"dst_id": "group:ya-ho-wa-13", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ABOUT", "src_id": "claim:0b1d2acf8ed026f7"}
 {"dst_id": "person:john-wyatt", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ASSERTED_BY", "src_id": "claim:0b1d2acf8ed026f7"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:0b50a0d7329a5142"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:0b50a0d7329a5142"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:0b50a0d7329a5142"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:0b50a0d7329a5142"}
 {"dst_id": "person:elaine-baker", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99"}, "rel_type": "ABOUT", "src_id": "claim:0c2e10ec04a35be5"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99"}, "rel_type": "ABOUT", "src_id": "claim:0c2e10ec04a35be5"}
@@ -467,7 +467,7 @@
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:1ffd0937149d68b2"}
 {"dst_id": "person:scott", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:1ffd0937149d68b2"}
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:1ffd0937149d68b2"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:203664b82de1b5a4"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:203664b82de1b5a4"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:203664b82de1b5a4"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:20f6b81c255efc1c"}
 {"dst_id": "person:isis-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:20f6b81c255efc1c"}
@@ -511,7 +511,7 @@
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99"}, "rel_type": "ABOUT", "src_id": "claim:2190fd61afdf006f"}
 {"dst_id": "group:blue-mountains-life", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:23e57445d89cc44b"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:23e57445d89cc44b"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:23e57445d89cc44b"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:23e57445d89cc44b"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:23e57445d89cc44b"}
 {"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Yogi_Bhajan"}, "rel_type": "ABOUT", "src_id": "claim:2465872b5391a7e7"}
 {"dst_id": "person:an-olive-branch", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Yogi_Bhajan"}, "rel_type": "ASSERTED_BY", "src_id": "claim:2465872b5391a7e7"}
@@ -1120,7 +1120,7 @@
 {"dst_id": "claim:feb33131201edd67", "metadata": {"reason": "opposite stances: self-mythologizing vs critical"}, "rel_type": "CONTRADICTS", "src_id": "claim:3819ad8f18bc59ab"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99"}, "rel_type": "ABOUT", "src_id": "claim:383ba09077931794"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:384563599693a737"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:384563599693a737"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:384563599693a737"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:384563599693a737"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ABOUT", "src_id": "claim:3866ad7d5dba87ad"}
 {"dst_id": "person:isis-aquarian", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ABOUT", "src_id": "claim:3866ad7d5dba87ad"}
@@ -1751,7 +1751,7 @@
 {"dst_id": "claim:508b5d8e8859e68a", "metadata": {"reason": "opposite stances: supportive vs critical"}, "rel_type": "CONTRADICTS", "src_id": "claim:52cb7120a96e6c38"}
 {"dst_id": "claim:9e44c9d730d26ab4", "metadata": {"reason": "opposite stances: supportive vs critical"}, "rel_type": "CONTRADICTS", "src_id": "claim:52cb7120a96e6c38"}
 {"dst_id": "claim:c58fe93d7d1e9117", "metadata": {"reason": "opposite stances: supportive vs critical"}, "rel_type": "CONTRADICTS", "src_id": "claim:52cb7120a96e6c38"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:532ffa535ee2c17a"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:532ffa535ee2c17a"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:532ffa535ee2c17a"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99"}, "rel_type": "ABOUT", "src_id": "claim:534f58c7e3342a96"}
 {"dst_id": "place:los-angeles", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99"}, "rel_type": "ABOUT", "src_id": "claim:534f58c7e3342a96"}
@@ -2142,7 +2142,7 @@
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:698da121edfce5e1"}
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:69bfd4dc0ac7b9b9"}
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:69bfd4dc0ac7b9b9"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:6a80f548c5ec4711"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:6a80f548c5ec4711"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:6a80f548c5ec4711"}
 {"dst_id": "group:electricity-aquarian-s-early-commune", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:6b4605850910da2f"}
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:6b4605850910da2f"}
@@ -2740,7 +2740,7 @@
 {"dst_id": "group:sondi-s-studio", "metadata": {"inferred": true, "via_work": "work:d3e86e4983ff566b"}, "rel_type": "ABOUT", "src_id": "claim:87f0a96af1be6c7c"}
 {"dst_id": "group:the-red-door-caf\u00e9", "metadata": {"inferred": true, "via_work": "work:d3e86e4983ff566b"}, "rel_type": "ABOUT", "src_id": "claim:87f0a96af1be6c7c"}
 {"dst_id": "person:michael-burge", "metadata": {"inferred": true, "via_work": "work:d3e86e4983ff566b"}, "rel_type": "ABOUT", "src_id": "claim:87f0a96af1be6c7c"}
-{"dst_id": "person:richard-moon", "metadata": {"inferred": true, "via_work": "work:d3e86e4983ff566b"}, "rel_type": "ABOUT", "src_id": "claim:87f0a96af1be6c7c"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"inferred": true, "via_work": "work:d3e86e4983ff566b"}, "rel_type": "ABOUT", "src_id": "claim:87f0a96af1be6c7c"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:87f0a96af1be6c7c"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:88246cd64a956d79"}
 {"dst_id": "person:jodi-wille", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:88246cd64a956d79"}
@@ -3015,7 +3015,7 @@
 {"dst_id": "place:san-fernando-valley", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99"}, "rel_type": "ABOUT", "src_id": "claim:9274e34e2df774d9"}
 {"dst_id": "person:sylvester-graham", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ABOUT", "src_id": "claim:934848538224f9b4"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ASSERTED_BY", "src_id": "claim:934848538224f9b4"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:9408e3c4d9cf080d"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:9408e3c4d9cf080d"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:9408e3c4d9cf080d"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ABOUT", "src_id": "claim:9587ed882ccd1590"}
 {"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ABOUT", "src_id": "claim:9587ed882ccd1590"}
@@ -3262,7 +3262,7 @@
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:a278f2b20be4a3fb"}
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:a278f2b20be4a3fb"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:a297d9108c178963"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:a297d9108c178963"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:a297d9108c178963"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:a297d9108c178963"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99"}, "rel_type": "ABOUT", "src_id": "claim:a2e5ea6b244a312e"}
 {"dst_id": "claim:18c4d36153dc6303", "metadata": {"reason": "opposite stances: critical vs supportive"}, "rel_type": "CONTRADICTS", "src_id": "claim:a2e5ea6b244a312e"}
@@ -3489,7 +3489,7 @@
 {"dst_id": "claim:c249f383f4b97b0c", "metadata": {"reason": "opposite stances: critical vs supportive"}, "rel_type": "CONTRADICTS", "src_id": "claim:a89e44957dd8d93d"}
 {"dst_id": "claim:d0bd6d7b18019d0b", "metadata": {"reason": "opposite stances: critical vs self-mythologizing"}, "rel_type": "CONTRADICTS", "src_id": "claim:a89e44957dd8d93d"}
 {"dst_id": "claim:d4ef2487ddcd8173", "metadata": {"reason": "opposite stances: critical vs supportive"}, "rel_type": "CONTRADICTS", "src_id": "claim:a89e44957dd8d93d"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:a949a227773c238f"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:a949a227773c238f"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:a949a227773c238f"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ABOUT", "src_id": "claim:a9bed41917647d2c"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ASSERTED_BY", "src_id": "claim:a9bed41917647d2c"}
@@ -3558,7 +3558,7 @@
 {"dst_id": "claim:ca562c81c6adefce", "metadata": {"reason": "opposite stances: critical vs supportive"}, "rel_type": "CONTRADICTS", "src_id": "claim:aa2957aeecaa341c"}
 {"dst_id": "claim:e7a00e8e05ce685c", "metadata": {"reason": "opposite stances: critical vs supportive"}, "rel_type": "CONTRADICTS", "src_id": "claim:aa2957aeecaa341c"}
 {"dst_id": "claim:f30bfe6ab25579dd", "metadata": {"reason": "opposite stances: critical vs self-mythologizing"}, "rel_type": "CONTRADICTS", "src_id": "claim:aa2957aeecaa341c"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/"}, "rel_type": "ABOUT", "src_id": "claim:ab229b24b38e8e8f"}
+{"dst_id": "person:richard-moon-law-professor", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/"}, "rel_type": "ABOUT", "src_id": "claim:ab229b24b38e8e8f"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:ab229b24b38e8e8f"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod"}, "rel_type": "ABOUT", "src_id": "claim:ab577248c058dccc"}
 {"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod"}, "rel_type": "ABOUT", "src_id": "claim:ab577248c058dccc"}
@@ -3642,7 +3642,7 @@
 {"dst_id": "place:the-source", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99"}, "rel_type": "ABOUT", "src_id": "claim:ad18520540f22612"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:ad2d551f4f369b21"}
 {"dst_id": "person:isis-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:ad2d551f4f369b21"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:ad55c7b8e769d6da"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:ad55c7b8e769d6da"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:ad55c7b8e769d6da"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:ad701a352ecedec5"}
 {"dst_id": "person:isis-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:ad701a352ecedec5"}
@@ -3725,7 +3725,7 @@
 {"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ABOUT", "src_id": "claim:b689e8fa7802c60b"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ASSERTED_BY", "src_id": "claim:b689e8fa7802c60b"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:b6b7e4eb18bd3671"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:b6b7e4eb18bd3671"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:b6b7e4eb18bd3671"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:b6b7e4eb18bd3671"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:b7521ca065296643"}
 {"dst_id": "person:isis-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:b7521ca065296643"}
@@ -3751,7 +3751,7 @@
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:b9a93fa0507929be"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family"}, "rel_type": "ABOUT", "src_id": "claim:b9c8f173970ef3df"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:b9c8f173970ef3df"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:ba322f19694c478c"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:ba322f19694c478c"}
 {"dst_id": "place:blue-mountains", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:ba322f19694c478c"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:ba322f19694c478c"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://podscripts.co/podcasts/timesuck-with-dan-cummins/161-the-source-family-cult"}, "rel_type": "ABOUT", "src_id": "claim:bc72ba5fe0ece1f9"}
@@ -4044,7 +4044,7 @@
 {"dst_id": "place:university-of-south-carolina", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:c68e402356abe553"}
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:c68e402356abe553"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:c694d3522da6de56"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:c694d3522da6de56"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:c694d3522da6de56"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:c694d3522da6de56"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ABOUT", "src_id": "claim:c7226b6e96624b91"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ASSERTED_BY", "src_id": "claim:c7226b6e96624b91"}
@@ -4104,15 +4104,24 @@
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:cff3b5e2edeb1b1f"}
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:cff3b5e2edeb1b1f"}
 {"dst_id": "claim:ca562c81c6adefce", "metadata": {"reason": "opposite stances: critical vs supportive"}, "rel_type": "CONTRADICTS", "src_id": "claim:cff3b5e2edeb1b1f"}
-{"dst_id": "event:march-1971-meeting-of-richard-moon-father-yod-and-yogi-bhajan", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "ABOUT", "src_id": "claim:citation:1f97a7769d7863cd"}
-{"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "ABOUT", "src_id": "claim:citation:1f97a7769d7863cd"}
-{"dst_id": "work:eb9ed8858a7734a5", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:1f97a7769d7863cd"}
-{"dst_id": "event:march-1971-meeting-of-richard-moon-father-yod-and-yogi-bhajan", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "ABOUT", "src_id": "claim:citation:46daaf7e52bb06ea"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "ABOUT", "src_id": "claim:citation:46daaf7e52bb06ea"}
-{"dst_id": "work:eb9ed8858a7734a5", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:46daaf7e52bb06ea"}
-{"dst_id": "event:march-1971-meeting-of-richard-moon-father-yod-and-yogi-bhajan", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "ABOUT", "src_id": "claim:citation:f4e5ff0dabb9c656"}
-{"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "ABOUT", "src_id": "claim:citation:f4e5ff0dabb9c656"}
-{"dst_id": "work:eb9ed8858a7734a5", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:f4e5ff0dabb9c656"}
+{"dst_id": "group:cyprus-consortium", "metadata": {"evidence": "https://cyprusreview.org/index.php/cr/article/download/490/438"}, "rel_type": "ABOUT", "src_id": "claim:citation:583b893760f88efa"}
+{"dst_id": "group:cyprus-fulbright-commission", "metadata": {"evidence": "https://cyprusreview.org/index.php/cr/article/download/490/438"}, "rel_type": "ABOUT", "src_id": "claim:citation:583b893760f88efa"}
+{"dst_id": "work:0359843f058e0a76", "metadata": {"evidence": "https://cyprusreview.org/index.php/cr/article/download/490/438"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:583b893760f88efa"}
+{"dst_id": "event:1970-1971-3ho-pilgrimage-to-india-led-by-yogi-bhajan", "metadata": {"evidence": "https://www.washingtonpost.com/archive/local/1970/12/23/yoga-students-set-india-trip-for-drug-study/"}, "rel_type": "ABOUT", "src_id": "claim:citation:8b3e7a083f57ed92"}
+{"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "https://www.washingtonpost.com/archive/local/1970/12/23/yoga-students-set-india-trip-for-drug-study/"}, "rel_type": "ABOUT", "src_id": "claim:citation:8b3e7a083f57ed92"}
+{"dst_id": "work:f04c9ce687745171", "metadata": {"evidence": "https://www.washingtonpost.com/archive/local/1970/12/23/yoga-students-set-india-trip-for-drug-study/"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:8b3e7a083f57ed92"}
+{"dst_id": "group:institute-for-multi-track-diplomacy", "metadata": {"evidence": "https://openmindadventures.com/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:citation:93aec62a19b92dd0"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "https://openmindadventures.com/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:citation:93aec62a19b92dd0"}
+{"dst_id": "work:afbbc0bdd862d723", "metadata": {"evidence": "https://openmindadventures.com/richard-moon/"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:93aec62a19b92dd0"}
+{"dst_id": "event:yogi-bhajan-teaching-kundalini-yoga-in-los-angeles-1968-1971", "metadata": {"evidence": "https://www.latimes.com/"}, "rel_type": "ABOUT", "src_id": "claim:citation:9e4fdd5ededc04a8"}
+{"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "https://www.latimes.com/"}, "rel_type": "ABOUT", "src_id": "claim:citation:9e4fdd5ededc04a8"}
+{"dst_id": "work:8a0739c970af3477", "metadata": {"evidence": "https://www.latimes.com/"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:9e4fdd5ededc04a8"}
+{"dst_id": "event:1970-1971-3ho-pilgrimage-to-india-led-by-yogi-bhajan", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "ABOUT", "src_id": "claim:citation:afc42fdf70a1e297"}
+{"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "ABOUT", "src_id": "claim:citation:afc42fdf70a1e297"}
+{"dst_id": "work:eb9ed8858a7734a5", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:afc42fdf70a1e297"}
+{"dst_id": "group:3ho", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "ABOUT", "src_id": "claim:citation:e47fb42e5b9a39df"}
+{"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "ABOUT", "src_id": "claim:citation:e47fb42e5b9a39df"}
+{"dst_id": "work:3ceaefb5ffac8d5b", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:e47fb42e5b9a39df"}
 {"dst_id": "group:lebensreform", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ABOUT", "src_id": "claim:d086e578976bb44f"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ASSERTED_BY", "src_id": "claim:d086e578976bb44f"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ABOUT", "src_id": "claim:d08defc845a87ae1"}
@@ -4299,7 +4308,7 @@
 {"dst_id": "person:isis-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:dbb1be348254cb2c"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars"}, "rel_type": "ABOUT", "src_id": "claim:dc03346865741142"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars"}, "rel_type": "ASSERTED_BY", "src_id": "claim:dc03346865741142"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:dc1a17e89848ca0d"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:dc1a17e89848ca0d"}
 {"dst_id": "place:north-leura", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:dc1a17e89848ca0d"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:dc1a17e89848ca0d"}
 {"dst_id": "group:isis-aquarian-s-family", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:dc36d7241b07943e"}
@@ -4384,7 +4393,7 @@
 {"dst_id": "claim:c1bb17ebd214fca7", "metadata": {"reason": "opposite stances: critical vs supportive"}, "rel_type": "CONTRADICTS", "src_id": "claim:e677be229b58a372"}
 {"dst_id": "claim:ca562c81c6adefce", "metadata": {"reason": "opposite stances: critical vs supportive"}, "rel_type": "CONTRADICTS", "src_id": "claim:e677be229b58a372"}
 {"dst_id": "claim:e7a00e8e05ce685c", "metadata": {"reason": "opposite stances: critical vs supportive"}, "rel_type": "CONTRADICTS", "src_id": "claim:e677be229b58a372"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:e6d9c99685af6575"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:e6d9c99685af6575"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:e6d9c99685af6575"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99"}, "rel_type": "ABOUT", "src_id": "claim:e757bb286b9d9c31"}
 {"dst_id": "claim:071406a17a2f62d6", "metadata": {"reason": "opposite stances: critical vs supportive"}, "rel_type": "CONTRADICTS", "src_id": "claim:e757bb286b9d9c31"}
@@ -4433,7 +4442,7 @@
 {"dst_id": "claim:74edac881e3a4a72", "metadata": {"reason": "opposite stances: supportive vs critical"}, "rel_type": "CONTRADICTS", "src_id": "claim:ea0384a0a7287134"}
 {"dst_id": "claim:a89e44957dd8d93d", "metadata": {"reason": "opposite stances: supportive vs critical"}, "rel_type": "CONTRADICTS", "src_id": "claim:ea0384a0a7287134"}
 {"dst_id": "claim:ab9f6c67d81da420", "metadata": {"reason": "opposite stances: supportive vs critical"}, "rel_type": "CONTRADICTS", "src_id": "claim:ea0384a0a7287134"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:eb5a7623c7784f65"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:eb5a7623c7784f65"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:eb5a7623c7784f65"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ABOUT", "src_id": "claim:eb7600c47cb10acb"}
 {"dst_id": "person:j-gordon-melton", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ASSERTED_BY", "src_id": "claim:eb7600c47cb10acb"}
@@ -4490,7 +4499,7 @@
 {"dst_id": "claim:c1bb17ebd214fca7", "metadata": {"reason": "opposite stances: critical vs supportive"}, "rel_type": "CONTRADICTS", "src_id": "claim:f1c4430149797c17"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99"}, "rel_type": "ABOUT", "src_id": "claim:f23532abdb364bda"}
 {"dst_id": "group:blue-mountains-international-hotel-management-school", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:f23715b7fa500f24"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:f23715b7fa500f24"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:f23715b7fa500f24"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:f23715b7fa500f24"}
 {"dst_id": "person:hail-aquarian", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ABOUT", "src_id": "claim:f23f39b08f6fa1e5"}
 {"dst_id": "person:isis-aquarian", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ASSERTED_BY", "src_id": "claim:f23f39b08f6fa1e5"}
@@ -4543,7 +4552,7 @@
 {"dst_id": "person:magus", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:f53228bd45c27888"}
 {"dst_id": "person:robin", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:f53228bd45c27888"}
 {"dst_id": "person:dimitri-ehrlich", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:f53228bd45c27888"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:f659f5f43c5f9c19"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:f659f5f43c5f9c19"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:f659f5f43c5f9c19"}
 {"dst_id": "group:3ho", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/"}, "rel_type": "ABOUT", "src_id": "claim:f6cf8565f129e9af"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:f6cf8565f129e9af"}
@@ -4635,7 +4644,7 @@
 {"dst_id": "claim:e7a00e8e05ce685c", "metadata": {"reason": "opposite stances: critical vs supportive"}, "rel_type": "CONTRADICTS", "src_id": "claim:feb33131201edd67"}
 {"dst_id": "claim:f30bfe6ab25579dd", "metadata": {"reason": "opposite stances: critical vs self-mythologizing"}, "rel_type": "CONTRADICTS", "src_id": "claim:feb33131201edd67"}
 {"dst_id": "group:sondi-s-studio", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:feb3d9ce81692c82"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:feb3d9ce81692c82"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:feb3d9ce81692c82"}
 {"dst_id": "place:wentworth-falls", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:feb3d9ce81692c82"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:feb3d9ce81692c82"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://divinity.interactivelion.com/new-religious-movements/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:fee6af61f9b13ebb"}
@@ -4649,17 +4658,23 @@
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:01f6d77a42220475"}
 {"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:01f6d77a42220475"}
 {"dst_id": "group:aware-inn", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:0e842747e2d98504"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:0e842747e2d98504"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:0e842747e2d98504"}
 {"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:0e842747e2d98504"}
 {"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:218252fe4b9771cb"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:218252fe4b9771cb"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:218252fe4b9771cb"}
 {"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:218252fe4b9771cb"}
 {"dst_id": "group:wild-mountain-cafe", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:385b8c4a2024dfe2"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:385b8c4a2024dfe2"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:385b8c4a2024dfe2"}
 {"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:385b8c4a2024dfe2"}
+{"dst_id": "event:introduction-of-jim-baker-to-yogi-bhajan", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:7bc3ecee892035e6"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:7bc3ecee892035e6"}
+{"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:7bc3ecee892035e6"}
 {"dst_id": "group:aware-inn", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:8f95a8c739443c70"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:8f95a8c739443c70"}
 {"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:8f95a8c739443c70"}
+{"dst_id": "group:cyprus-fulbright-commission", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:f27d36ff1e898050"}
+{"dst_id": "person:douglas-stone-negotiation", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:f27d36ff1e898050"}
+{"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:f27d36ff1e898050"}
 {"dst_id": "place:california", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:3ho"}
 {"dst_id": "group:united-nations", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "group:3ho"}
 {"dst_id": "place:georgia", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:atlanta-pop-festival"}
@@ -4672,6 +4687,7 @@
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://military-history.fandom.com/wiki/Father_Yod", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "group:breath"}
 {"dst_id": "place:new-orleans", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:celebration-of-life-music-festival"}
 {"dst_id": "place:northern-california", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:chez-panisse"}
+{"dst_id": "group:cyprus-fulbright-commission", "metadata": {"asserted_by": "cited_source", "evidence": "https://cyprusreview.org/index.php/cr/article/download/490/438", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "MEMBER_OF", "src_id": "group:cyprus-consortium"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "group:father-yod-and-the-spirit-of-76"}
 {"dst_id": "group:gastro-obscura-and-atlas-obscura-event", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "group:gastro-obscura"}
 {"dst_id": "place:los-angeles-california", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Yogi_Bhajan", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:healthy-happy-holy-organization"}
@@ -4751,6 +4767,7 @@
 {"dst_id": "group:branch-davidians", "metadata": {"evidence": "https://podscripts.co/podcasts/timesuck-with-dan-cummins/161-the-source-family-cult", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:david-koresh"}
 {"dst_id": "group:wild-mountain-cafe", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Wild_Mountain_Cafe", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:desirae-aylesworth"}
 {"dst_id": "group:old-world-restaurant", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:dora"}
+{"dst_id": "group:cyprus-fulbright-commission", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:douglas-stone-negotiation"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:e-macfarlane"}
 {"dst_id": "group:nature-boys", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:eden-ahbez"}
 {"dst_id": "group:aware-inn", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:elaine"}
@@ -4829,6 +4846,7 @@
 {"dst_id": "place:cincinnati-ohio", "metadata": {"evidence": "https://military-history.fandom.com/wiki/Father_Yod", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "person:james-edward-baker"}
 {"dst_id": "place:lanikai-beach", "metadata": {"evidence": "https://military-history.fandom.com/wiki/Father_Yod", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "person:james-edward-baker"}
 {"dst_id": "place:oahu", "metadata": {"evidence": "https://military-history.fandom.com/wiki/Father_Yod", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "person:james-edward-baker"}
+{"dst_id": "group:3ho", "metadata": {"asserted_by": "cited_source", "evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "MEMBER_OF", "src_id": "person:james-edward-baker"}
 {"dst_id": "group:aware-inn", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:james-edward-baker"}
 {"dst_id": "group:civilian-conservation-corps", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:james-edward-baker"}
 {"dst_id": "group:marine-corps", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:james-edward-baker"}
@@ -4846,7 +4864,7 @@
 {"dst_id": "group:ya-ho-wha-13", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:james-edward-baker"}
 {"dst_id": "group:yo-ha-wa", "metadata": {"evidence": "https://en.wikipedia.org/wiki/The_Source_Family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:james-edward-baker"}
 {"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:james-edward-baker"}
-{"dst_id": "event:march-1971-meeting-of-richard-moon-father-yod-and-yogi-bhajan", "metadata": {"asserted_by": "cited_source", "evidence": "https://pleasekillme.com/father-yod/", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:james-edward-baker"}
+{"dst_id": "event:1970-1971-3ho-pilgrimage-to-india-led-by-yogi-bhajan", "metadata": {"asserted_by": "cited_source", "evidence": "https://pleasekillme.com/father-yod/", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:james-edward-baker"}
 {"dst_id": "group:aware-inn", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:james-edward-baker"}
 {"dst_id": "group:baker-studio-of-body-culture", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:james-edward-baker"}
 {"dst_id": "group:civilian-conservation-corps", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:james-edward-baker"}
@@ -4907,26 +4925,27 @@
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:patrick-lundborg"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:prism"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:r-barker"}
-{"dst_id": "group:the-red-door-caf\u00e9", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:richard-moon"}
-{"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://cfe.torontomu.ca/people/richard-moon", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:richard-moon"}
-{"dst_id": "group:the-red-door-caf\u00e9", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:richard-moon"}
-{"dst_id": "place:north-leura", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:richard-moon"}
-{"dst_id": "place:outer-brisbane-home", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:richard-moon"}
-{"dst_id": "place:queensland", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:richard-moon"}
-{"dst_id": "group:bodds-caf\u00e9-katoomba", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon"}
-{"dst_id": "group:canadian-law-and-society-assn", "metadata": {"evidence": "https://cfe.torontomu.ca/people/richard-moon", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon"}
-{"dst_id": "group:global-centre-for-democratic-constitutionalism", "metadata": {"evidence": "https://www.ucl.ac.uk/laws/global-centre-democratic-constitutionalism/about-global-centre-democratic-constitutionalism/members/professor-richard-moon", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon"}
-{"dst_id": "group:oxford-university", "metadata": {"evidence": "https://www.uottawa.ca/faculty-law/common-law/faculty/moon-richard", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon"}
-{"dst_id": "group:queen-s-university", "metadata": {"evidence": "https://www.uottawa.ca/faculty-law/common-law/faculty/moon-richard", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon"}
-{"dst_id": "group:trent-university", "metadata": {"evidence": "https://www.uottawa.ca/faculty-law/common-law/faculty/moon-richard", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon"}
-{"dst_id": "event:march-1971-meeting-of-richard-moon-father-yod-and-yogi-bhajan", "metadata": {"asserted_by": "cited_source", "evidence": "https://pleasekillme.com/father-yod/", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:richard-moon"}
-{"dst_id": "group:aware-inn", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon"}
-{"dst_id": "group:blue-mountains-international-hotel-management-school", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon"}
-{"dst_id": "group:sondi-s-studio", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon"}
-{"dst_id": "group:the-red-door-caf\u00e9", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon"}
-{"dst_id": "group:the-source-restaurant", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon"}
-{"dst_id": "group:university-of-windsor", "metadata": {"evidence": "https://cfe.torontomu.ca/people/richard-moon", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon"}
-{"dst_id": "group:wild-mountain-cafe", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon"}
+{"dst_id": "group:institute-for-multi-track-diplomacy", "metadata": {"asserted_by": "cited_source", "evidence": "https://openmindadventures.com/richard-moon/", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "event:introduction-of-jim-baker-to-yogi-bhajan", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "group:aware-inn", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "group:the-source-restaurant", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "group:wild-mountain-cafe", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "group:the-red-door-caf\u00e9", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:richard-moon-chef"}
+{"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://cfe.torontomu.ca/people/richard-moon", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:richard-moon-chef"}
+{"dst_id": "group:the-red-door-caf\u00e9", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:richard-moon-chef"}
+{"dst_id": "place:north-leura", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:richard-moon-chef"}
+{"dst_id": "place:outer-brisbane-home", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:richard-moon-chef"}
+{"dst_id": "place:queensland", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:richard-moon-chef"}
+{"dst_id": "group:bodds-caf\u00e9-katoomba", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon-chef"}
+{"dst_id": "group:blue-mountains-international-hotel-management-school", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-chef"}
+{"dst_id": "group:sondi-s-studio", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-chef"}
+{"dst_id": "group:the-red-door-caf\u00e9", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-chef"}
+{"dst_id": "group:canadian-law-and-society-assn", "metadata": {"evidence": "https://cfe.torontomu.ca/people/richard-moon", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon-law-professor"}
+{"dst_id": "group:global-centre-for-democratic-constitutionalism", "metadata": {"evidence": "https://www.ucl.ac.uk/laws/global-centre-democratic-constitutionalism/about-global-centre-democratic-constitutionalism/members/professor-richard-moon", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon-law-professor"}
+{"dst_id": "group:oxford-university", "metadata": {"evidence": "https://www.uottawa.ca/faculty-law/common-law/faculty/moon-richard", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon-law-professor"}
+{"dst_id": "group:queen-s-university", "metadata": {"evidence": "https://www.uottawa.ca/faculty-law/common-law/faculty/moon-richard", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon-law-professor"}
+{"dst_id": "group:trent-university", "metadata": {"evidence": "https://www.uottawa.ca/faculty-law/common-law/faculty/moon-richard", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon-law-professor"}
+{"dst_id": "group:university-of-windsor", "metadata": {"evidence": "https://cfe.torontomu.ca/people/richard-moon", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-law-professor"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:rick-rubin"}
 {"dst_id": "group:ya-ho-wha-13", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:rick-rubin"}
 {"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:rick-rubin"}
@@ -4975,7 +4994,8 @@
 {"dst_id": "group:sikh-dharma-international", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:yogi-bhajan"}
 {"dst_id": "group:sikh-students-federation", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Yogi_Bhajan", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:yogi-bhajan"}
 {"dst_id": "group:world-fellowship-of-religions", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:yogi-bhajan"}
-{"dst_id": "event:march-1971-meeting-of-richard-moon-father-yod-and-yogi-bhajan", "metadata": {"asserted_by": "cited_source", "evidence": "https://pleasekillme.com/father-yod/", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:yogi-bhajan"}
+{"dst_id": "event:1970-1971-3ho-pilgrimage-to-india-led-by-yogi-bhajan", "metadata": {"asserted_by": "cited_source", "evidence": "https://www.washingtonpost.com/archive/local/1970/12/23/yoga-students-set-india-trip-for-drug-study/", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:yogi-bhajan"}
+{"dst_id": "event:yogi-bhajan-teaching-kundalini-yoga-in-los-angeles-1968-1971", "metadata": {"asserted_by": "cited_source", "evidence": "https://www.latimes.com/", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:yogi-bhajan"}
 {"dst_id": "group:claremont", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:yogi-bhajan"}
 {"dst_id": "group:east-west-cultural-center", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:yogi-bhajan"}
 {"dst_id": "group:government-of-india", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Yogi_Bhajan", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:yogi-bhajan"}
@@ -5018,6 +5038,9 @@
 {"dst_id": "place:west-hollywood", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:sunset-strip"}
 {"dst_id": "place:sunset-boulevard", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:the-source"}
 {"dst_id": "place:california", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:west-hollywood"}
+{"dst_id": "claim:citation:583b893760f88efa", "metadata": {"evidence": "https://cyprusreview.org/index.php/cr/article/download/490/438"}, "rel_type": "CONTAINS", "src_id": "work:0359843f058e0a76"}
+{"dst_id": "group:cyprus-consortium", "metadata": {"evidence": "https://cyprusreview.org/index.php/cr/article/download/490/438"}, "rel_type": "MENTIONS", "src_id": "work:0359843f058e0a76"}
+{"dst_id": "group:cyprus-fulbright-commission", "metadata": {"evidence": "https://cyprusreview.org/index.php/cr/article/download/490/438"}, "rel_type": "MENTIONS", "src_id": "work:0359843f058e0a76"}
 {"dst_id": "claim:3f97d3b26e2ef619", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Wild_Mountain_Cafe"}, "rel_type": "CONTAINS", "src_id": "work:095b593eeea2e955"}
 {"dst_id": "claim:53a65dd1811387e5", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Wild_Mountain_Cafe"}, "rel_type": "CONTAINS", "src_id": "work:095b593eeea2e955"}
 {"dst_id": "event:break-in-at-wild-mountain-cafe", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Wild_Mountain_Cafe"}, "rel_type": "DESCRIBES", "src_id": "work:095b593eeea2e955"}
@@ -5073,7 +5096,7 @@
 {"dst_id": "person:natalie-alkiviadou", "metadata": {"evidence": "https://www.uottawa.ca/faculty-law/common-law/faculty/moon-richard"}, "rel_type": "MENTIONS", "src_id": "work:185ab1ff4f9130a4"}
 {"dst_id": "person:p-babie", "metadata": {"evidence": "https://www.uottawa.ca/faculty-law/common-law/faculty/moon-richard"}, "rel_type": "MENTIONS", "src_id": "work:185ab1ff4f9130a4"}
 {"dst_id": "person:r-barker", "metadata": {"evidence": "https://www.uottawa.ca/faculty-law/common-law/faculty/moon-richard"}, "rel_type": "MENTIONS", "src_id": "work:185ab1ff4f9130a4"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://www.uottawa.ca/faculty-law/common-law/faculty/moon-richard"}, "rel_type": "MENTIONS", "src_id": "work:185ab1ff4f9130a4"}
+{"dst_id": "person:richard-moon-law-professor", "metadata": {"evidence": "https://www.uottawa.ca/faculty-law/common-law/faculty/moon-richard"}, "rel_type": "MENTIONS", "src_id": "work:185ab1ff4f9130a4"}
 {"dst_id": "person:sejal-parmar", "metadata": {"evidence": "https://www.uottawa.ca/faculty-law/common-law/faculty/moon-richard"}, "rel_type": "MENTIONS", "src_id": "work:185ab1ff4f9130a4"}
 {"dst_id": "person:tom-herrenberg", "metadata": {"evidence": "https://www.uottawa.ca/faculty-law/common-law/faculty/moon-richard"}, "rel_type": "MENTIONS", "src_id": "work:185ab1ff4f9130a4"}
 {"dst_id": "place:canada", "metadata": {"evidence": "https://www.uottawa.ca/faculty-law/common-law/faculty/moon-richard"}, "rel_type": "MENTIONS", "src_id": "work:185ab1ff4f9130a4"}
@@ -5089,7 +5112,7 @@
 {"dst_id": "group:u-of-t-press", "metadata": {"evidence": "https://cfe.torontomu.ca/people/richard-moon"}, "rel_type": "MENTIONS", "src_id": "work:1a0e275f68edc0b2"}
 {"dst_id": "group:ubc-press", "metadata": {"evidence": "https://cfe.torontomu.ca/people/richard-moon"}, "rel_type": "MENTIONS", "src_id": "work:1a0e275f68edc0b2"}
 {"dst_id": "group:university-of-windsor", "metadata": {"evidence": "https://cfe.torontomu.ca/people/richard-moon"}, "rel_type": "MENTIONS", "src_id": "work:1a0e275f68edc0b2"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://cfe.torontomu.ca/people/richard-moon"}, "rel_type": "MENTIONS", "src_id": "work:1a0e275f68edc0b2"}
+{"dst_id": "person:richard-moon-law-professor", "metadata": {"evidence": "https://cfe.torontomu.ca/people/richard-moon"}, "rel_type": "MENTIONS", "src_id": "work:1a0e275f68edc0b2"}
 {"dst_id": "claim:07aa0c8e62115896", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "CONTAINS", "src_id": "work:1e03e9ebf75ff821"}
 {"dst_id": "claim:08283f77ff9b03d3", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "CONTAINS", "src_id": "work:1e03e9ebf75ff821"}
 {"dst_id": "claim:1439c4fd8621a0ec", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "CONTAINS", "src_id": "work:1e03e9ebf75ff821"}
@@ -5266,6 +5289,9 @@
 {"dst_id": "place:venice-pavilion", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "MENTIONS", "src_id": "work:1e03e9ebf75ff821"}
 {"dst_id": "place:washington-d-c", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "MENTIONS", "src_id": "work:1e03e9ebf75ff821"}
 {"dst_id": "place:woodstock-new-york", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "MENTIONS", "src_id": "work:1e03e9ebf75ff821"}
+{"dst_id": "claim:citation:e47fb42e5b9a39df", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "CONTAINS", "src_id": "work:3ceaefb5ffac8d5b"}
+{"dst_id": "group:3ho", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "MENTIONS", "src_id": "work:3ceaefb5ffac8d5b"}
+{"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "MENTIONS", "src_id": "work:3ceaefb5ffac8d5b"}
 {"dst_id": "claim:ab229b24b38e8e8f", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/"}, "rel_type": "CONTAINS", "src_id": "work:44ee776da46de7c8"}
 {"dst_id": "event:law-school-teaching-award", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/"}, "rel_type": "DESCRIBES", "src_id": "work:44ee776da46de7c8"}
 {"dst_id": "event:mary-lou-dietz-award", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/"}, "rel_type": "DESCRIBES", "src_id": "work:44ee776da46de7c8"}
@@ -5311,7 +5337,7 @@
 {"dst_id": "person:p-babie", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/"}, "rel_type": "MENTIONS", "src_id": "work:44ee776da46de7c8"}
 {"dst_id": "person:pierre-trudeau", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/"}, "rel_type": "MENTIONS", "src_id": "work:44ee776da46de7c8"}
 {"dst_id": "person:r-barker", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/"}, "rel_type": "MENTIONS", "src_id": "work:44ee776da46de7c8"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/"}, "rel_type": "MENTIONS", "src_id": "work:44ee776da46de7c8"}
+{"dst_id": "person:richard-moon-law-professor", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/"}, "rel_type": "MENTIONS", "src_id": "work:44ee776da46de7c8"}
 {"dst_id": "person:sejal-parmar", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/"}, "rel_type": "MENTIONS", "src_id": "work:44ee776da46de7c8"}
 {"dst_id": "person:tom-herrenberg", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/"}, "rel_type": "MENTIONS", "src_id": "work:44ee776da46de7c8"}
 {"dst_id": "claim:2e9a3ed75aa52b46", "metadata": {"evidence": "https://alchetron.com/Father-Yod"}, "rel_type": "CONTAINS", "src_id": "work:50cc49055c0675fe"}
@@ -5477,8 +5503,11 @@
 {"dst_id": "group:u-of-t-press", "metadata": {"evidence": "https://www.ucl.ac.uk/laws/global-centre-democratic-constitutionalism/about-global-centre-democratic-constitutionalism/members/professor-richard-moon"}, "rel_type": "MENTIONS", "src_id": "work:7a13f120a2dfef9a"}
 {"dst_id": "group:ubc-press", "metadata": {"evidence": "https://www.ucl.ac.uk/laws/global-centre-democratic-constitutionalism/about-global-centre-democratic-constitutionalism/members/professor-richard-moon"}, "rel_type": "MENTIONS", "src_id": "work:7a13f120a2dfef9a"}
 {"dst_id": "group:university-of-windsor", "metadata": {"evidence": "https://www.ucl.ac.uk/laws/global-centre-democratic-constitutionalism/about-global-centre-democratic-constitutionalism/members/professor-richard-moon"}, "rel_type": "MENTIONS", "src_id": "work:7a13f120a2dfef9a"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://www.ucl.ac.uk/laws/global-centre-democratic-constitutionalism/about-global-centre-democratic-constitutionalism/members/professor-richard-moon"}, "rel_type": "MENTIONS", "src_id": "work:7a13f120a2dfef9a"}
+{"dst_id": "person:richard-moon-law-professor", "metadata": {"evidence": "https://www.ucl.ac.uk/laws/global-centre-democratic-constitutionalism/about-global-centre-democratic-constitutionalism/members/professor-richard-moon"}, "rel_type": "MENTIONS", "src_id": "work:7a13f120a2dfef9a"}
 {"dst_id": "place:canada", "metadata": {"evidence": "https://www.ucl.ac.uk/laws/global-centre-democratic-constitutionalism/about-global-centre-democratic-constitutionalism/members/professor-richard-moon"}, "rel_type": "MENTIONS", "src_id": "work:7a13f120a2dfef9a"}
+{"dst_id": "claim:citation:9e4fdd5ededc04a8", "metadata": {"evidence": "https://www.latimes.com/"}, "rel_type": "CONTAINS", "src_id": "work:8a0739c970af3477"}
+{"dst_id": "event:yogi-bhajan-teaching-kundalini-yoga-in-los-angeles-1968-1971", "metadata": {"evidence": "https://www.latimes.com/"}, "rel_type": "DESCRIBES", "src_id": "work:8a0739c970af3477"}
+{"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "https://www.latimes.com/"}, "rel_type": "MENTIONS", "src_id": "work:8a0739c970af3477"}
 {"dst_id": "claim:003c08a46edc5835", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family"}, "rel_type": "CONTAINS", "src_id": "work:93d9eaf6480fefc6"}
 {"dst_id": "claim:0afcb5e1ece1f06a", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family"}, "rel_type": "CONTAINS", "src_id": "work:93d9eaf6480fefc6"}
 {"dst_id": "claim:1cdc2b6f829b72ba", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family"}, "rel_type": "CONTAINS", "src_id": "work:93d9eaf6480fefc6"}
@@ -6100,6 +6129,9 @@
 {"dst_id": "place:sunset-strip", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "MENTIONS", "src_id": "work:a7a7e909d30a4e18"}
 {"dst_id": "place:united-states", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "MENTIONS", "src_id": "work:a7a7e909d30a4e18"}
 {"dst_id": "place:virginia", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "MENTIONS", "src_id": "work:a7a7e909d30a4e18"}
+{"dst_id": "claim:citation:93aec62a19b92dd0", "metadata": {"evidence": "https://openmindadventures.com/richard-moon/"}, "rel_type": "CONTAINS", "src_id": "work:afbbc0bdd862d723"}
+{"dst_id": "group:institute-for-multi-track-diplomacy", "metadata": {"evidence": "https://openmindadventures.com/richard-moon/"}, "rel_type": "MENTIONS", "src_id": "work:afbbc0bdd862d723"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "https://openmindadventures.com/richard-moon/"}, "rel_type": "MENTIONS", "src_id": "work:afbbc0bdd862d723"}
 {"dst_id": "claim:0330e7fca870f254", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars"}, "rel_type": "CONTAINS", "src_id": "work:bda8ddd26707c690"}
 {"dst_id": "claim:0c863c19a62e4408", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars"}, "rel_type": "CONTAINS", "src_id": "work:bda8ddd26707c690"}
 {"dst_id": "claim:18c4d36153dc6303", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars"}, "rel_type": "CONTAINS", "src_id": "work:bda8ddd26707c690"}
@@ -6202,7 +6234,7 @@
 {"dst_id": "group:sondi-s-studio", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "MENTIONS", "src_id": "work:d3e86e4983ff566b"}
 {"dst_id": "group:the-red-door-caf\u00e9", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "MENTIONS", "src_id": "work:d3e86e4983ff566b"}
 {"dst_id": "person:michael-burge", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "MENTIONS", "src_id": "work:d3e86e4983ff566b"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "MENTIONS", "src_id": "work:d3e86e4983ff566b"}
+{"dst_id": "person:richard-moon-chef", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "MENTIONS", "src_id": "work:d3e86e4983ff566b"}
 {"dst_id": "place:blue-mountains", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "MENTIONS", "src_id": "work:d3e86e4983ff566b"}
 {"dst_id": "place:brisbane", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "MENTIONS", "src_id": "work:d3e86e4983ff566b"}
 {"dst_id": "place:katoomba", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/"}, "rel_type": "MENTIONS", "src_id": "work:d3e86e4983ff566b"}
@@ -6498,13 +6530,13 @@
 {"dst_id": "place:united-states", "metadata": {"evidence": "https://en.wikipedia.org/wiki/The_Source_Family", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "work:e3b0c44298fc1c14"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "work:e3b0c44298fc1c14"}
 {"dst_id": "person:kevin-harris", "metadata": {"evidence": "https://divinity.interactivelion.com/new-religious-movements/the-source-family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "work:e3b0c44298fc1c14"}
-{"dst_id": "claim:citation:1f97a7769d7863cd", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "CONTAINS", "src_id": "work:eb9ed8858a7734a5"}
-{"dst_id": "claim:citation:46daaf7e52bb06ea", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "CONTAINS", "src_id": "work:eb9ed8858a7734a5"}
-{"dst_id": "claim:citation:f4e5ff0dabb9c656", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "CONTAINS", "src_id": "work:eb9ed8858a7734a5"}
-{"dst_id": "event:march-1971-meeting-of-richard-moon-father-yod-and-yogi-bhajan", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "DESCRIBES", "src_id": "work:eb9ed8858a7734a5"}
+{"dst_id": "claim:citation:afc42fdf70a1e297", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "CONTAINS", "src_id": "work:eb9ed8858a7734a5"}
+{"dst_id": "event:1970-1971-3ho-pilgrimage-to-india-led-by-yogi-bhajan", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "DESCRIBES", "src_id": "work:eb9ed8858a7734a5"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "MENTIONS", "src_id": "work:eb9ed8858a7734a5"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "MENTIONS", "src_id": "work:eb9ed8858a7734a5"}
 {"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "MENTIONS", "src_id": "work:eb9ed8858a7734a5"}
+{"dst_id": "claim:citation:8b3e7a083f57ed92", "metadata": {"evidence": "https://www.washingtonpost.com/archive/local/1970/12/23/yoga-students-set-india-trip-for-drug-study/"}, "rel_type": "CONTAINS", "src_id": "work:f04c9ce687745171"}
+{"dst_id": "event:1970-1971-3ho-pilgrimage-to-india-led-by-yogi-bhajan", "metadata": {"evidence": "https://www.washingtonpost.com/archive/local/1970/12/23/yoga-students-set-india-trip-for-drug-study/"}, "rel_type": "DESCRIBES", "src_id": "work:f04c9ce687745171"}
+{"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "https://www.washingtonpost.com/archive/local/1970/12/23/yoga-students-set-india-trip-for-drug-study/"}, "rel_type": "MENTIONS", "src_id": "work:f04c9ce687745171"}
 {"dst_id": "claim:06c9838e0f192782", "metadata": {"evidence": "https://en.wikipedia.org/wiki/The_Source_Family"}, "rel_type": "CONTAINS", "src_id": "work:f739841f314f0e99"}
 {"dst_id": "claim:3afc53021218e2ab", "metadata": {"evidence": "https://en.wikipedia.org/wiki/The_Source_Family"}, "rel_type": "CONTAINS", "src_id": "work:f739841f314f0e99"}
 {"dst_id": "claim:4befb29401e06e8a", "metadata": {"evidence": "https://en.wikipedia.org/wiki/The_Source_Family"}, "rel_type": "CONTAINS", "src_id": "work:f739841f314f0e99"}
@@ -6542,9 +6574,14 @@
 {"dst_id": "claim:kkron:0e842747e2d98504", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "claim:kkron:218252fe4b9771cb", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "claim:kkron:385b8c4a2024dfe2", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "claim:kkron:7bc3ecee892035e6", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "claim:kkron:8f95a8c739443c70", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "claim:kkron:f27d36ff1e898050", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "CONTAINS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "event:introduction-of-jim-baker-to-yogi-bhajan", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "group:aware-inn", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "group:cyprus-fulbright-commission", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "group:wild-mountain-cafe", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "person:douglas-stone-negotiation", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
-{"dst_id": "person:richard-moon", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}

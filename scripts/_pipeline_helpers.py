@@ -119,12 +119,12 @@ def process_page(
     db.add_source(source_record)
 
     # Extract entities
-    entities = extractor.extract(page.text)
+    entities = extractor.extract(page.text, source_url=url)
 
     # Process persons
     for person in entities["persons"]:
-        pid = person_id(person["name"])
-        canonical = canonical_person(person["name"])
+        pid = person_id(person["name"], url)
+        canonical = canonical_person(person["name"], url)
         aliases = get_aliases_for_canonical(canonical)
         node = GraphNode(
             id=pid,
@@ -243,7 +243,7 @@ def process_page(
                 id=claim["speaker_id"],
                 type=NodeType.PERSON,
                 label=claim["speaker"],
-                canonical_name=canonical_person(claim["speaker"]),
+                canonical_name=canonical_person(claim["speaker"], url),
                 metadata={},
                 source_urls=[url],
             ))
@@ -255,14 +255,14 @@ def process_page(
             ))
 
         for target in claim.get("targets", []):
-            tid = resolve_target_id(target)
+            tid = resolve_target_id(target, url)
             target_type = target.get("type", "person")
             if target_type == "person":
                 tnode = GraphNode(
                     id=tid,
                     type=NodeType.PERSON,
                     label=target.get("name", ""),
-                    canonical_name=canonical_person(target.get("name", "")),
+                    canonical_name=canonical_person(target.get("name", ""), url),
                     metadata={},
                     source_urls=[url],
                 )

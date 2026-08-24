@@ -17,6 +17,7 @@ from scripts._targeted_research_helpers import (
     DEFAULT_LEADS,
     KKRON_SOURCE_PERSON_ID,
     KKRON_WORK_ID,
+    build_kkron_claim_record,
     store_kkron_claim,
 )
 
@@ -88,9 +89,22 @@ def test_all_default_leads_can_be_stored_and_produce_one_claim_each():
         claims = db.get_nodes_by_type(NodeType.CLAIM)
         assert len(claims) == len(DEFAULT_LEADS)
         # Every claim from this pipeline is pending independent
-        # corroboration and capped below a "fully verified" confidence.
+        # corroboration, whichever provenance path it took.
         assert all(c.metadata["pending_independent_corroboration"] for c in claims)
-        assert all(c.metadata["confidence"] <= 0.5 for c in claims)
+
+        # The KKRON_CONFIDENCE_CEILING applies only to kkron's own
+        # first-hand claims — it exists to stop his unverified word
+        # outranking something independently found, which is not a risk for
+        # a claim that already cites a real published source. Citation
+        # claims therefore keep their own source_confidence, which can and
+        # does exceed the ceiling (e.g. the peer-reviewed Deslippe lead).
+        by_id = {c.id: c for c in claims}
+        for lead in DEFAULT_LEADS:
+            claim = by_id[build_kkron_claim_record(lead)["id"]]
+            if lead.source_url:
+                assert claim.metadata["confidence"] == lead.source_confidence
+            else:
+                assert claim.metadata["confidence"] <= 0.5
     finally:
         db.close()
         os.unlink(db_path)

@@ -149,9 +149,39 @@ class TestDefaultLeads:
         assert {"Richard Moon", "Jim Baker", "The Source", "Aware Inn", "Wild Mountain Cafe"} <= names
 
     def test_wild_mountain_cafe_lead_is_marked_lower_confidence(self):
+        """kkron flagged the Wild Mountain Cafe lead as his least certain of
+        the original Source Family leads, and its stored confidence has to
+        reflect that.
+
+        The comparison is against the other *kkron-sourced Source Family*
+        leads only. Citation leads carry a ``source_confidence`` on a
+        different scale entirely, and the Doug Stone lead is deliberately
+        lower still (0.2) — research actively failed to support it, which is
+        covered by :meth:`test_doug_stone_lead_is_the_least_supported`.
+        """
         lead = next(l for l in DEFAULT_LEADS if l.object_name == "Wild Mountain Cafe")
-        others = [l.kkron_confidence for l in DEFAULT_LEADS if l.object_name != "Wild Mountain Cafe"]
+        source_family_leads = {"The Source", "Aware Inn"}
+        others = [
+            l.kkron_confidence
+            for l in DEFAULT_LEADS
+            if l.source_url is None and l.object_name in source_family_leads
+        ]
+        assert others, "expected other kkron-sourced Source Family leads to compare against"
         assert all(lead.kkron_confidence < c for c in others)
+
+    def test_doug_stone_lead_is_the_least_supported(self):
+        """The Doug Stone / Cyprus Fulbright lead is stored at the lowest
+        confidence of any kkron lead: it is the one hypothesis the research
+        actively contradicted rather than merely failed to corroborate."""
+        stone = next(
+            lead for lead in DEFAULT_LEADS
+            if lead.subject_name == "Doug Stone" and lead.source_url is None
+        )
+        others = [
+            lead.kkron_confidence for lead in DEFAULT_LEADS
+            if lead.source_url is None and lead is not stone
+        ]
+        assert all(stone.kkron_confidence < c for c in others)
 
     def test_subject_and_object_ids_resolve(self):
         for lead in DEFAULT_LEADS:

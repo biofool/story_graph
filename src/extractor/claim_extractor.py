@@ -29,7 +29,7 @@ class ClaimExtractor:
             cid = f"claim:{stable_hash(claim['text'], source_url)}"
             speaker_id = None
             if claim.get("speaker"):
-                speaker_id = person_id(claim["speaker"])
+                speaker_id = person_id(claim["speaker"], source_url or None)
 
             enriched.append({
                 "id": cid,

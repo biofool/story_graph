@@ -6,7 +6,7 @@ from __future__ import annotations
 
 import re
 
-from src.utils.text_utils import normalize, slugify
+from src.utils.text_utils import get_domain, normalize, slugify
 
 # Canonical person: "James Edward Baker"
 ALIAS_MAP: dict[str, str] = {
@@ -98,9 +98,94 @@ PLACE_ALIAS_MAP: dict[str, str] = {
 }
 
 
-def canonical_person(name: str) -> str:
-    """Resolve a person name to its canonical form."""
+# ---------------------------------------------------------------------------
+# Homonym disambiguation: same surface name, different real people.
+#
+# A plain name is not an identity. "Richard Moon" resolves to at least three
+# unrelated people who all turn up in this project's crawl: the Aikido
+# teacher and Quantum Aikido author kkron's leads are about, a Canadian
+# constitutional-law professor, and an Australian chef. Before this table
+# existed, all three collapsed onto one ``person:richard-moon`` node, so the
+# graph asserted a single merged biography — a law professor who also cooked
+# in the Blue Mountains and worked at Father Yod's Source restaurant.
+#
+# Disambiguation is by *publishing domain*, because that is the only signal
+# available at extraction time: a bio on uwindsor.ca is about the law
+# professor, one on burgewords.com is about the chef. Names listed here have
+# NO unqualified canonical form — ``DEFAULT`` names the person a mention
+# resolves to when the domain is unknown or unlisted, and every canonical
+# form carries its disambiguator, so the graph never claims a bare
+# "Richard Moon" that silently merges three men.
+#
+# Add an entry when (and only when) two distinct people genuinely share a
+# surface name in the crawl. See docs/ for the research notes behind the
+# current entries.
+# ---------------------------------------------------------------------------
+HOMONYM_DEFAULT = "DEFAULT"
+
+HOMONYM_DISAMBIGUATION: dict[str, dict[str, str]] = {
+    "richard moon": {
+        # kkron's leads, the Quantum Aikido author, IMTD Cyprus/Bosnia work.
+        HOMONYM_DEFAULT: "richard moon (aikido)",
+        "quantumaikido.com": "richard moon (aikido)",
+        "nautilus.org": "richard moon (aikido)",
+        "openmindadventures.com": "richard moon (aikido)",
+        "createabeautifulworld.org": "richard moon (aikido)",
+        "innertraditions.com": "richard moon (aikido)",
+        "simonandschuster.com": "richard moon (aikido)",
+        # Canadian constitutional-law professor (Univ. of Windsor).
+        "uwindsor.ca": "richard moon (law professor)",
+        "uottawa.ca": "richard moon (law professor)",
+        "ucl.ac.uk": "richard moon (law professor)",
+        "cfe.torontomu.ca": "richard moon (law professor)",
+        # Australian chef, subject of Michael Burge's "Moon on a Spoon".
+        "burgewords.com": "richard moon (chef)",
+    },
+    "doug stone": {
+        # Harvard Negotiation Project / Triad Consulting, co-author of
+        # "Difficult Conversations"; the Cyprus-relevant Doug Stone.
+        HOMONYM_DEFAULT: "douglas stone (negotiation)",
+    },
+    "douglas stone": {
+        HOMONYM_DEFAULT: "douglas stone (negotiation)",
+    },
+}
+
+
+def _disambiguate_person(key: str, source_url: str | None) -> str | None:
+    """Resolve a homonymous person name using the publishing domain.
+
+    Returns the disambiguated canonical name, or None if ``key`` is not a
+    known homonym. An unknown/unlisted domain falls back to the entry's
+    ``HOMONYM_DEFAULT``, which is still a disambiguated name — never a bare
+    surface name.
+    """
+    variants = HOMONYM_DISAMBIGUATION.get(key)
+    if variants is None:
+        return None
+    if source_url:
+        domain = get_domain(source_url)
+        for listed_domain, canonical in variants.items():
+            if listed_domain == HOMONYM_DEFAULT:
+                continue
+            if domain == listed_domain or domain.endswith("." + listed_domain):
+                return canonical
+    return variants[HOMONYM_DEFAULT]
+
+
+def canonical_person(name: str, source_url: str | None = None) -> str:
+    """Resolve a person name to its canonical form.
+
+    ``source_url`` is the page the mention came from. It only matters for
+    names in :data:`HOMONYM_DISAMBIGUATION` — names shared by two or more
+    unrelated real people — where the publishing domain is what tells them
+    apart. Omitting it for such a name yields that entry's default person
+    rather than a bare, merged surface name.
+    """
     key = normalize(name)
+    disambiguated = _disambiguate_person(key, source_url)
+    if disambiguated is not None:
+        return disambiguated
     return ALIAS_MAP.get(key, key)
 
 
@@ -118,9 +203,14 @@ def canonical_place(name: str) -> str:
     return PLACE_ALIAS_MAP.get(key, key)
 
 
-def person_id(name: str) -> str:
-    """Generate a stable person node ID from a name."""
-    canonical = canonical_person(name)
+def person_id(name: str, source_url: str | None = None) -> str:
+    """Generate a stable person node ID from a name.
+
+    Pass ``source_url`` wherever the originating page is known so
+    homonymous names resolve to the right person — see
+    :func:`canonical_person` and :data:`HOMONYM_DISAMBIGUATION`.
+    """
+    canonical = canonical_person(name, source_url)
     return f"person:{slugify(canonical)}"
 
 
@@ -161,12 +251,16 @@ def is_aquarian_name(name: str) -> bool:
     return bool(re.search(r"\bAquarian\b", name, re.IGNORECASE))
 
 
-def resolve_target_id(target: dict) -> str:
-    """Resolve a target dict (with 'type' and 'name'/'label') to a node ID."""
+def resolve_target_id(target: dict, source_url: str | None = None) -> str:
+    """Resolve a target dict (with 'type' and 'name'/'label') to a node ID.
+
+    ``source_url`` is forwarded to :func:`person_id` so a homonymous person
+    target resolves to the right person — see :data:`HOMONYM_DISAMBIGUATION`.
+    """
     ttype = target.get("type", "").lower()
     name = target.get("name") or target.get("label") or ""
     if ttype == "person":
-        return person_id(name)
+        return person_id(name, source_url)
     elif ttype == "group":
         return group_id(name)
     elif ttype == "place":

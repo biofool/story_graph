@@ -159,3 +159,63 @@ class TestResolveTargetId:
     def test_place(self):
         tid = resolve_target_id({"type": "place", "name": "Kauai"})
         assert tid == place_id("Kauai")
+
+
+class TestHomonymDisambiguation:
+    """A plain name is not an identity.
+
+    Three unrelated men named "Richard Moon" turn up in this project's
+    crawl. Before disambiguation existed they collapsed onto one node, so
+    the graph asserted a single merged biography — a constitutional-law
+    professor who also cooked in the Blue Mountains and worked at Father
+    Yod's Source restaurant. These tests pin the split.
+    """
+
+    AIKIDO = "person:richard-moon-aikido"
+    LAW = "person:richard-moon-law-professor"
+    CHEF = "person:richard-moon-chef"
+
+    def test_the_three_richard_moons_get_distinct_ids(self):
+        assert len({self.AIKIDO, self.LAW, self.CHEF}) == 3
+        assert person_id("Richard Moon", "https://quantumaikido.com/") == self.AIKIDO
+        assert person_id("Richard Moon", "https://www.uwindsor.ca/law/rmoon/") == self.LAW
+        assert person_id("Richard Moon", "https://burgewords.com/tag/richard-moon/") == self.CHEF
+
+    def test_law_professor_bios_across_four_universities_agree(self):
+        for url in (
+            "https://www.uwindsor.ca/law/rmoon/",
+            "https://www.uottawa.ca/faculty-law/common-law/faculty/moon-richard",
+            "https://www.ucl.ac.uk/laws/members/professor-richard-moon",
+            "https://cfe.torontomu.ca/people/richard-moon",
+        ):
+            assert person_id("Richard Moon", url) == self.LAW
+
+    def test_subdomains_resolve_like_their_parent_domain(self):
+        assert person_id("Richard Moon", "https://law.uwindsor.ca/rmoon/") == self.LAW
+
+    def test_unknown_domain_falls_back_to_a_disambiguated_default(self):
+        """Never a bare 'person:richard-moon' — an unlisted domain still
+        lands on a named person, the one this project is actually about."""
+        assert person_id("Richard Moon", "https://example.com/someone") == self.AIKIDO
+        assert person_id("Richard Moon") == self.AIKIDO
+        assert person_id("Richard Moon", None) != "person:richard-moon"
+
+    def test_canonical_names_carry_their_disambiguator(self):
+        assert canonical_person("Richard Moon", "https://burgewords.com/x") == "richard moon (chef)"
+        assert canonical_person("richard  MOON ", "https://www.uwindsor.ca/law/rmoon/") == (
+            "richard moon (law professor)"
+        )
+
+    def test_doug_and_douglas_stone_resolve_to_one_person(self):
+        assert person_id("Doug Stone") == person_id("Douglas Stone")
+        assert person_id("Doug Stone") == "person:douglas-stone-negotiation"
+
+    def test_non_homonymous_names_are_unaffected_by_source_url(self):
+        for url in (None, "https://burgewords.com/x", "https://www.uwindsor.ca/law/rmoon/"):
+            assert person_id("Jim Baker", url) == "person:james-edward-baker"
+            assert person_id("Father Yod", url) == "person:james-edward-baker"
+
+    def test_resolve_target_id_threads_the_source_url_through(self):
+        target = {"type": "person", "name": "Richard Moon"}
+        assert resolve_target_id(target, "https://burgewords.com/tag/richard-moon/") == self.CHEF
+        assert resolve_target_id(target, "https://quantumaikido.com/") == self.AIKIDO
