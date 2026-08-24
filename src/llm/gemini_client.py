@@ -206,6 +206,7 @@ class TieredGeminiClient:
         vertexai_location: Optional[str] = None,
         vertexai_model: Optional[str] = None,
         ai_studio_model: Optional[str] = None,
+        cost_tracker: Any = None,
     ):
         # Collect non-empty free-tier keys.
         if free_tier_keys is not None:
@@ -242,6 +243,11 @@ class TieredGeminiClient:
         self._vertexai_client: Any = None
         self._vertexai_available: Optional[bool] = None
 
+        # Optional cost tracker (src.llm.cost_tracker.GeminiCostTracker).
+        # When attached, report_call is invoked after each successful API
+        # call (best-effort, never blocks).
+        self._cost_tracker = cost_tracker
+
         # Stats
         self.free_calls = 0
         self.paid_calls = 0
@@ -254,6 +260,19 @@ class TieredGeminiClient:
         if self._vertexai_enabled:
             return self._ensure_vertexai_client() is not None
         return False
+
+    def _report_call(self, tier: str, model: str, cost_usd: float) -> None:
+        """Best-effort cost-tracker report after a successful API call.
+
+        Never raises — all errors are logged at WARNING inside the tracker.
+        """
+        tracker = self._cost_tracker
+        if tracker is None:
+            return
+        try:
+            tracker.report_call(tier=tier, model=model, cost_usd=cost_usd)
+        except Exception as e:
+            _log.warning("cost_tracker report_call failed (best-effort): %s", e)
 
     def _has_free_quota(self) -> bool:
         return any(i not in self._exhausted_keys for i in range(len(self._free_keys)))
@@ -339,6 +358,7 @@ class TieredGeminiClient:
                     prompt, model=model or self._ai_studio_model, config=config,
                 )
                 self.free_calls += 1
+                self._report_call(tier="free", model=model or self._ai_studio_model, cost_usd=0.0)
                 text = _response_text(response)
                 sources = _extract_grounding_sources(response)
                 return GroundingResult(text=text, sources=sources, raw=response)
@@ -384,6 +404,7 @@ class TieredGeminiClient:
                 config=config,
             )
             self.paid_calls += 1
+            self._report_call(tier="paid", model=self._vertexai_model, cost_usd=0.01)
             text = _response_text(response)
             sources = _extract_grounding_sources(response)
             return GroundingResult(text=text, sources=sources, raw=response)
@@ -410,6 +431,7 @@ class TieredGeminiClient:
                     contents, model=model or self._ai_studio_model, config=config,
                 )
                 self.free_calls += 1
+                self._report_call(tier="free", model=model or self._ai_studio_model, cost_usd=0.0)
                 return response
             except GeminiError as e:
                 if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
@@ -443,6 +465,7 @@ class TieredGeminiClient:
                 config=config,
             )
             self.paid_calls += 1
+            self._report_call(tier="paid", model=self._vertexai_model, cost_usd=0.01)
             return response
         except Exception as e:
             raise GeminiError(f"Vertex AI paid-tier call failed: {e}") from e
@@ -502,14 +525,18 @@ class TieredGeminiClient:
         return _response_text(response)
 
     @property
-    def stats(self) -> dict[str, int]:
+    def stats(self) -> dict[str, Any]:
         """Summary stats for reporting."""
-        return {
+        s: dict[str, Any] = {
             "free_calls": self.free_calls,
             "paid_calls": self.paid_calls,
             "free_keys_total": len(self._free_keys),
             "free_keys_exhausted": len(self._exhausted_keys),
         }
+        if self._cost_tracker is not None:
+            s["total_cost_usd"] = self._cost_tracker.total_cost_usd
+            s["cost_tracker_enabled"] = self._cost_tracker.is_available()
+        return s
 
 
 # --- helpers (module-level so tests can reuse) ---

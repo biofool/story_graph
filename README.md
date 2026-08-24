@@ -76,6 +76,35 @@ Production keys are **not** stored in this repository. They live in
 - The full secret-name inventory is maintained in the CloudManagement repo's
   `AGENTS.md`. Never paste secret values into code, logs, docs, or commits.
 
+### Cost tracking (optional, opt-in)
+
+The targeted-research script (`scripts/03_targeted_entity_research.py`) can
+optionally declare an intent with the **CloudManagement** hub before making
+paid Gemini calls and report actual costs incrementally, enabling
+centralized budget gating and kill-switch integration across the biofool
+portfolio. The `cloud_management_client` package is vendored at
+`src/cloud_management_client/` (stdlib-only — no pip dependency).
+
+The integration is **disabled by default**. To enable it, set these env vars
+in `.env` (see `.env.example`):
+
+| Env var | Purpose |
+|---|---|
+| `CLOUDMANAGEMENT_ENABLED` | Set to `true` to opt in (default `false`) |
+| `CLOUDMANAGEMENT_URL` | Hub base URL (default `http://127.0.0.1:8080`) |
+| `CLOUDMANAGEMENT_PROJECT_ID` | Project ID registered in the hub |
+| `CLOUDMANAGEMENT_REPORT_TOKEN` | Report token (secret — never log) |
+| `CLOUDMANAGEMENT_APPLICATION` | App name for attribution (default `StoryGraph`) |
+| `CLOUDMANAGEMENT_SOURCE_REPO` | Source repo (default `biofool/story_graph`) |
+| `CLOUDMANAGEMENT_STRICT` | Raise on hub errors instead of logging (default `false`) |
+| `CLOUDMANAGEMENT_TIMEOUT` | HTTP timeout in seconds (default `5`) |
+| `CLOUDMANAGEMENT_INTENT_TIMEOUT` | Intent declaration timeout (default `3`) |
+
+When disabled, the pipeline runs exactly as before with zero behavior change.
+When enabled and the hub is unreachable, the tracker enters degraded mode:
+calls proceed without blocking and a warning is logged. If the hub denies the
+intent, Phase 2 (paid API calls) is skipped. See `src/llm/cost_tracker.py`.
+
 ## Seed URLs
 
 - `https://lifeinthesourcefamily.blogspot.com/`

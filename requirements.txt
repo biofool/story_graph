@@ -20,6 +20,11 @@ spacy>=3.7.0
 # structured entity/claim extraction, and graph Q&A.
 google-genai
 
+# CloudManagement cost-control client — vendored at
+# src/cloud_management_client/ (stdlib-only, no pip dependency).
+# Used by src/llm/cost_tracker.py for budget gating / kill-switch integration.
+# Opt-in via CLOUDMANAGEMENT_ENABLED=true.
+
 # Rate limiting & retry
 tenacity>=8.2.0
 

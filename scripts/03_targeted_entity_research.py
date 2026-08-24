@@ -109,6 +109,12 @@ from src.crawler.web_crawler import WebCrawler
 from src.extractor.contradiction_detector import ContradictionDetector
 from src.llm.entity_claim_extractor import GeminiClaimExtractor, GeminiExtractor
 from src.llm.gemini_client import GeminiClient, TieredGeminiClient
+from src.llm.cost_tracker import (
+    BillingDenied,
+    GeminiCostTracker,
+    make_cost_tracker_from_settings,
+    make_run_job_id,
+)
 from src.llm.seed_discoverer import SeedDiscoverer
 from src.storage.graph_db import GraphDB
 from src.storage.json_export import export_to_json, import_from_json, snapshot_exists
@@ -330,18 +336,28 @@ def main(db_path, snapshot_dir, max_results_per_lead, skip_kkron_claims, skip_se
             console.print("[yellow]Skipping kkron claims (--skip-kkron-claims)[/yellow]")
 
         results: list[dict] = []
+        tiered_client = None
+        cost_tracker = None
         if not skip_search:
             console.print()
             console.print("[bold]Phase 2: Searching + extracting from independent sources[/bold]")
             console.print("[dim]Tiered strategy: free-tier AI Studio keys first, "
                           "then Vertex AI (paid) for remaining high-value leads[/dim]")
 
+            # Construct the cost tracker (opt-in via CLOUDMANAGEMENT_ENABLED).
+            # When disabled, is_available() is False and all tracker methods
+            # are no-ops — the pipeline runs exactly as before.
+            cost_tracker = make_cost_tracker_from_settings()
+
             # Build the tiered client: free-tier keys first, Vertex AI paid
-            # fallback (unless --no-paid).
+            # fallback (unless --no-paid). Pass the cost tracker so per-call
+            # actuals are reported to the hub (best-effort).
             tiered_client = TieredGeminiClient(
                 vertexai_enabled=not no_paid,
+                cost_tracker=cost_tracker,
             )
             if not _require_gemini(tiered_client):
+                cost_tracker.finalize(status="failed")
                 return
 
             # Sort leads by confidence-gain priority — highest-value leads
@@ -352,6 +368,53 @@ def main(db_path, snapshot_dir, max_results_per_lead, skip_kkron_claims, skip_se
                 console.print(
                     f"  [dim]{i+1}. {lead.subject_name} --{lead.relation.value}--> "
                     f"{lead.object_name} (priority: {lead_search_priority(lead):.2f})[/dim]"
+                )
+
+            # Declare intent with the CloudManagement hub before making paid
+            # calls (only if the tracker is enabled). If denied, skip Phase 2
+            # early so we don't make calls the hub said we can't afford.
+            intent_declared = False
+            if cost_tracker.is_available():
+                job_id = make_run_job_id()
+                # Estimate calls: search + extraction per lead (×2 for both phases).
+                estimated_calls = len(sorted_leads) * max_results_per_lead * 2
+                estimated_cost = cost_tracker.suggest_expected_cost(
+                    "google", settings.gemini_model, estimated_calls,
+                )
+                if estimated_cost is None:
+                    estimated_cost = estimated_calls * 0.01
+                console.print(
+                    f"[dim]CloudManagement: declaring intent for {estimated_calls} "
+                    f"calls (~${estimated_cost:.2f}) — job_id={job_id}[/dim]"
+                )
+                try:
+                    intent_id = cost_tracker.declare_intent_for_run(
+                        job_id=job_id,
+                        expected_calls=estimated_calls,
+                        expected_cost_usd=estimated_cost,
+                        model=settings.gemini_model,
+                    )
+                    intent_declared = intent_id is not None
+                    if intent_declared:
+                        console.print(
+                            f"[green]CloudManagement: intent approved "
+                            f"(intent_id={intent_id})[/green]"
+                        )
+                    elif cost_tracker.degraded:
+                        console.print(
+                            "[yellow]CloudManagement: hub unreachable — degraded mode, "
+                            "calls proceed without budget gating[/yellow]"
+                        )
+                except BillingDenied as e:
+                    console.print(f"[red]CloudManagement: intent DENIED — {e}[/red]")
+                    console.print(
+                        "[red]Skipping Phase 2 (paid API calls not approved by hub).[/red]"
+                    )
+                    cost_tracker.finalize(status="failed")
+                    skip_search = True
+            else:
+                console.print(
+                    "[dim]CloudManagement cost tracking disabled (set CLOUDMANAGEMENT_ENABLED=true to enable)[/dim]"
                 )
 
             discoverer = SeedDiscoverer(tiered_client)
@@ -369,7 +432,16 @@ def main(db_path, snapshot_dir, max_results_per_lead, skip_kkron_claims, skip_se
             free_leads = sorted_leads if allow_paid_for_all else sorted_leads[:free_quota_leads]
             paid_leads = [] if allow_paid_for_all else sorted_leads[free_quota_leads:]
 
-            for lead in free_leads:
+            for lead in (free_leads if not skip_search else []):
+                # Poll kill-switch before each lead (best-effort).
+                if cost_tracker.is_available():
+                    kills = cost_tracker.check_killed()
+                    if kills:
+                        console.print(
+                            f"[red]CloudManagement: kill order received — stopping Phase 2[/red]"
+                        )
+                        skip_search = True
+                        break
                 console.print(f"  [{lead.subject_name} --{lead.relation.value}--> {lead.object_name}]")
                 result = _research_lead(
                     lead, db, discoverer, gemini_ext, gemini_claim_ext,
@@ -386,10 +458,18 @@ def main(db_path, snapshot_dir, max_results_per_lead, skip_kkron_claims, skip_se
 
             # Paid-tier batch: only if free quota was insufficient and
             # paid is allowed.
-            if paid_leads and not no_paid:
+            if paid_leads and not no_paid and not skip_search:
                 console.print()
                 console.print(f"[bold yellow]Paid-tier batch: {len(paid_leads)} leads via Vertex AI[/bold yellow]")
                 for lead in paid_leads:
+                    if cost_tracker.is_available():
+                        kills = cost_tracker.check_killed()
+                        if kills:
+                            console.print(
+                                f"[red]CloudManagement: kill order received — stopping Phase 2[/red]"
+                            )
+                            skip_search = True
+                            break
                     console.print(f"  [{lead.subject_name} --{lead.relation.value}--> {lead.object_name}]")
                     result = _research_lead(
                         lead, db, discoverer, gemini_ext, gemini_claim_ext,
@@ -436,7 +516,7 @@ def main(db_path, snapshot_dir, max_results_per_lead, skip_kkron_claims, skip_se
             console.print(table)
 
         # Tiered search cost summary
-        if not skip_search:
+        if tiered_client is not None:
             stats = tiered_client.stats
             console.print()
             console.print("[bold]Gemini API cost summary:[/bold]")
@@ -446,6 +526,11 @@ def main(db_path, snapshot_dir, max_results_per_lead, skip_kkron_claims, skip_se
                 f"  [dim]Free keys: {stats['free_keys_exhausted']}/"
                 f"{stats['free_keys_total']} exhausted[/dim]"
             )
+            if "total_cost_usd" in stats:
+                console.print(f"  [cyan]Total estimated cost: ${stats['total_cost_usd']:.4f}[/cyan]")
+                console.print(
+                    f"  [dim]Cost tracker: {'enabled' if stats['cost_tracker_enabled'] else 'disabled'}[/dim]"
+                )
 
         console.print()
         console.print("[bold]Phase 4: Exporting graph to tracked JSON snapshot[/bold]")
@@ -459,6 +544,13 @@ def main(db_path, snapshot_dir, max_results_per_lead, skip_kkron_claims, skip_se
         console.print(f"[dim]Local working DB: {db_file}[/dim]")
         console.print(f"[dim]Explore with: datasette {db_file}[/dim]")
     finally:
+        # Finalize cost tracking (sync final report + flush + close).
+        # Best-effort — no-op when the tracker is disabled.
+        if cost_tracker is not None:
+            try:
+                cost_tracker.finalize(status="completed")
+            except Exception as e:
+                _log.warning("cost_tracker finalize failed: %s", e)
         db.close()
 
 

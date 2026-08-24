@@ -81,6 +81,44 @@ class Settings(BaseModel):
         default_factory=lambda: os.getenv("GEMINI_VERTEXAI_MODEL", "gemini-2.5-flash")
     )
 
+    # CloudManagement cost controls — optional, opt-in. When
+    # CLOUDMANAGEMENT_ENABLED is true, the targeted-research script declares
+    # an intent with the CloudManagement hub before making paid Gemini calls
+    # and reports actuals incrementally. When unset/false (default), cost
+    # tracking is disabled and the pipeline runs exactly as before.
+    # The cloud_management_client package is vendored at
+    # src/cloud_management_client/ (stdlib-only, no pip dependency).
+    cloudmanagement_enabled: bool = Field(
+        default_factory=lambda: os.getenv("CLOUDMANAGEMENT_ENABLED", "false").lower()
+        in ("true", "1", "yes")
+    )
+    cloudmanagement_url: str = Field(
+        default_factory=lambda: os.getenv("CLOUDMANAGEMENT_URL", "http://127.0.0.1:8080")
+    )
+    cloudmanagement_project_id: str = Field(
+        default_factory=lambda: os.getenv("CLOUDMANAGEMENT_PROJECT_ID", "")
+    )
+    # Report token — a secret. Never log or print this value.
+    cloudmanagement_report_token: str = Field(
+        default_factory=lambda: os.getenv("CLOUDMANAGEMENT_REPORT_TOKEN", "")
+    )
+    cloudmanagement_application: str = Field(
+        default_factory=lambda: os.getenv("CLOUDMANAGEMENT_APPLICATION", "StoryGraph")
+    )
+    cloudmanagement_source_repo: str = Field(
+        default_factory=lambda: os.getenv("CLOUDMANAGEMENT_SOURCE_REPO", "biofool/story_graph")
+    )
+    cloudmanagement_strict: bool = Field(
+        default_factory=lambda: os.getenv("CLOUDMANAGEMENT_STRICT", "false").lower()
+        in ("true", "1", "yes")
+    )
+    cloudmanagement_timeout: int = Field(
+        default_factory=lambda: int(os.getenv("CLOUDMANAGEMENT_TIMEOUT", "5"))
+    )
+    cloudmanagement_intent_timeout: int = Field(
+        default_factory=lambda: int(os.getenv("CLOUDMANAGEMENT_INTENT_TIMEOUT", "3"))
+    )
+
     # Storage
     graph_db_path: str = Field(
         default_factory=lambda: os.getenv("GRAPH_DB_PATH", "data/graph.db")
