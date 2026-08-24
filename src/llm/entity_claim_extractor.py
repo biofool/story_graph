@@ -177,8 +177,9 @@ class GeminiExtractor:
     ``events``, ``claims``, ``relations``).
     """
 
-    def __init__(self, client: GeminiClient | None = None):
+    def __init__(self, client: GeminiClient | None = None, allow_paid: bool = False):
         self._client = client or GeminiClient()
+        self._allow_paid = allow_paid
         # Cache the last extraction by text hash so a paired
         # GeminiClaimExtractor can reuse it without a second API call.
         self._cache_key: str = ""
@@ -206,11 +207,21 @@ class GeminiExtractor:
             f"SOURCE TEXT:\n{text[:20000]}"
         )
         try:
-            data = self._client.generate_json(
-                prompt,
-                EXTRACTION_SCHEMA,
-                system_instruction=_SYSTEM_INSTRUCTION,
-            )
+            # TieredGeminiClient.generate_json accepts allow_paid;
+            # plain GeminiClient.generate_json does not.
+            if hasattr(self._client, "stats"):
+                data = self._client.generate_json(
+                    prompt,
+                    EXTRACTION_SCHEMA,
+                    allow_paid=self._allow_paid,
+                    system_instruction=_SYSTEM_INSTRUCTION,
+                )
+            else:
+                data = self._client.generate_json(
+                    prompt,
+                    EXTRACTION_SCHEMA,
+                    system_instruction=_SYSTEM_INSTRUCTION,
+                )
         except GeminiError as e:
             _log.error("Gemini extraction failed: %s", e)
             data = _empty_result()

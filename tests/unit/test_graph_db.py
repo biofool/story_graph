@@ -68,6 +68,22 @@ class TestNodeOperations:
         assert "https://a.com" in retrieved.source_urls
         assert "https://b.com" in retrieved.source_urls
 
+    def test_upsert_merges_source_urls_deterministically(self, db):
+        """source_urls must be sorted, not just de-duplicated — a bare
+        set() has process-randomized iteration order, which would make
+        src/storage/json_export.py's JSONL export non-reproducible across
+        runs (see src/storage/json_export.py's module docstring)."""
+        db.add_node(GraphNode(
+            id="person:test", type=NodeType.PERSON, label="Test",
+            source_urls=["https://b.com", "https://a.com"],
+        ))
+        db.add_node(GraphNode(
+            id="person:test", type=NodeType.PERSON, label="Test",
+            source_urls=["https://c.com"],
+        ))
+        retrieved = db.get_node("person:test")
+        assert retrieved.source_urls == ["https://a.com", "https://b.com", "https://c.com"]
+
     def test_get_nonexistent(self, db):
         assert db.get_node("nonexistent") is None
 
