@@ -63,3 +63,8 @@ temp/
 
 # spaCy models (downloaded at runtime)
 data/spacy_models/
+
+# Graph visualization HTML outputs
+graph_focused.html
+graph_structural.html
+index.html

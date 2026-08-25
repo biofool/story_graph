@@ -114,3 +114,47 @@ class ClaimSourceLink(BaseModel):
     source_id: str
     quote_span_start: int | None = None
     quote_span_end: int | None = None
+
+
+# --- Reviewer verdict overlay ---------------------------------------------
+#
+# Verdicts are a human-judgment *overlay* on top of the machine-extracted
+# graph. They are NOT part of the crawled/LLM-extracted property graph and
+# are stored in their own file (graph_snapshot/verdicts.jsonl) so that
+# re-running the extraction pipeline never clobbers a reviewer's work.
+# See src/storage/verdict_store.py for the read/write path.
+
+class VerdictValue(str, Enum):
+    """A reviewer's judgment on whether a claim is a correct assertion."""
+    CORRECT = "correct"
+    INCORRECT = "incorrect"
+    UNCERTAIN = "uncertain"
+    PARTIALLY_CORRECT = "partially_correct"
+
+
+class Verdict(BaseModel):
+    """A reviewer's verdict on a single claim, with reasoning and evidence.
+
+    One verdict per (claim_id, reviewer). Upsert semantics: re-saving a
+    verdict for the same claim+reviewer updates it in place and bumps
+    ``updated_at`` rather than creating a duplicate.
+    """
+    id: str
+    claim_id: str
+    verdict: VerdictValue
+    confidence: float = 0.5
+    """The reviewer's confidence in their own verdict (0.0–1.0)."""
+    reasoning: str = ""
+    evidence_urls: list[str] = Field(default_factory=list)
+    """URLs the reviewer used to decide — may differ from the claim's own sources."""
+    corroborating_claim_ids: list[str] = Field(default_factory=list)
+    """Other graph claims that support this verdict."""
+    contradicting_claim_ids: list[str] = Field(default_factory=list)
+    """Other graph claims that argue against this verdict."""
+    reviewer: str = "reviewer"
+    created_at: str
+    """ISO-8601 UTC timestamp."""
+    updated_at: str
+    """ISO-8601 UTC timestamp; bumped on every upsert."""
+    tags: list[str] = Field(default_factory=list)
+    """Freeform review tags (e.g. 'well-sourced', 'needs-followup')."""
