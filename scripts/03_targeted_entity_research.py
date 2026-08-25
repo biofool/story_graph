@@ -37,20 +37,29 @@ For each lead this script:
 
 This script does not fabricate or guess at research results — it only
 issues real search/crawl/extraction calls, which require network access and
-a configured GEMINI_API_KEY. It is meant to be run from a cron job on a
-machine that actually has internet access, e.g.:
+a configured GEMINI_API_KEY. It needs to run on a schedule from somewhere
+that actually has internet access; see infra/README.md for the deployed
+version of this: a GCP Cloud Run Job (see Dockerfile at the repo root) plus
+a Cloud Scheduler trigger on the same "0 6 * * *" cron this docstring used
+to just describe in prose, provisioned by the Terraform under infra/ and
+built/pushed/applied via ./deploy.sh. That setup has not yet been applied
+against a real GCP project — see infra/README.md's "known limitations"
+section before assuming it's live.
 
-    # crontab -e
-    0 6 * * *  cd /path/to/story_graph && \\
-        /path/to/.venv/bin/python scripts/03_targeted_entity_research.py \\
+For a one-off local/manual run instead of the deployed job, invoke it the
+same way cron would:
+
+    cd /path/to/story_graph && \\
+        .venv/bin/python scripts/03_targeted_entity_research.py \\
         >> data/targeted_research.log 2>&1
 
 Results land in the same SQLite graph DB as scripts/01 and scripts/02
 (default: data/graph.db, override with --db-path or the GRAPH_DB_PATH env
 var — see config/settings.py). data/graph.db and *.log are already
-git-ignored, so cron output stays local. The run summary is printed to
-stdout/stderr — redirect it to a log file (as in the cron example above) to
-keep a persistent record across runs.
+git-ignored, so a local run's output stays local. The run summary is
+printed to stdout/stderr — redirect it to a log file (as above) to keep a
+persistent record across runs; the deployed Cloud Run Job's output instead
+goes to Cloud Logging.
 
 JSON snapshot is the source of truth, SQLite is a local working copy
 ------------------------------------------------------------------------
@@ -120,6 +129,7 @@ from src.storage.graph_db import GraphDB
 from src.storage.json_export import export_to_json, import_from_json, snapshot_exists
 from src.utils.text_utils import get_domain
 from scripts._pipeline_helpers import process_page
+from scripts._run_lock import RunLock
 from scripts._targeted_research_helpers import (
     DEFAULT_LEADS,
     ResearchLead,
@@ -312,6 +322,26 @@ def main(db_path, snapshot_dir, max_results_per_lead, skip_kkron_claims, skip_se
     snap_dir = Path(snapshot_dir) if snapshot_dir else settings.graph_snapshot_abs_dir
     console.print(f"[dim]Snapshot (source of truth): {snap_dir}[/dim]")
     console.print(f"[dim]Local working DB: {db_file}[/dim]")
+
+    # Overlap guard: parallelism=1/task_count=1 (infra/main.tf) only stops
+    # fan-out within one execution, not two overlapping executions (e.g. a
+    # manual `gcloud run jobs execute` racing the daily scheduled run) --
+    # see scripts/_run_lock.py. A no-op when no shared lock directory is
+    # configured (e.g. a local/manual run).
+    run_lock = RunLock.from_settings()
+    if not run_lock.acquire():
+        msg = (
+            "Another execution's lock is already held and not stale -- "
+            "exiting to avoid racing it for the same Gemini free-tier quota."
+        )
+        _log.warning(msg)
+        console.print(f"[yellow]{msg}[/yellow]")
+        # Exit 0, not a failure: an overlapping trigger is an expected,
+        # benign race to back off from, and this only logs at WARNING (not
+        # ERROR) so it does not trip the Cloud Monitoring alert policy on
+        # failed executions (infra/main.tf), which watches ERROR-severity
+        # log entries.
+        sys.exit(0)
 
     if snapshot_exists(snap_dir):
         console.print("[dim]Loading tracked JSON snapshot into local working DB...[/dim]")
@@ -552,6 +582,7 @@ def main(db_path, snapshot_dir, max_results_per_lead, skip_kkron_claims, skip_se
             except Exception as e:
                 _log.warning("cost_tracker finalize failed: %s", e)
         db.close()
+        run_lock.release()
 
 
 if __name__ == "__main__":

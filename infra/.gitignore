@@ -1,0 +1,10 @@
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+*.tfplan
+
+# .terraform.lock.hcl is intentionally NOT ignored -- it should be
+# committed so provider versions/checksums are pinned across machines and
+# time (standard Terraform practice, even for a local-state,
+# single-maintainer setup like this one).

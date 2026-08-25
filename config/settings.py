@@ -119,6 +119,26 @@ class Settings(BaseModel):
         default_factory=lambda: int(os.getenv("CLOUDMANAGEMENT_INTENT_TIMEOUT", "3"))
     )
 
+    # Overlap guard for the scheduled targeted-research Cloud Run Job (see
+    # scripts/_run_lock.py). parallelism=1/task_count=1 in infra/main.tf
+    # only prevents fan-out *within* one execution; it does nothing to stop
+    # two separate executions (e.g. a manual `gcloud run jobs execute`
+    # overlapping the daily scheduled run) from racing the same shared
+    # Gemini free-tier quota. job_lock_dir points at a directory shared
+    # across executions (the mounted GCS state bucket) to hold a
+    # staleness-checked marker file; infra/main.tf sets JOB_LOCK_DIR only
+    # when create_state_bucket=true. Empty (default) means "no shared
+    # storage available -- skip locking" (e.g. a local/manual run).
+    job_lock_dir: str = Field(default_factory=lambda: os.getenv("JOB_LOCK_DIR", ""))
+    # A lock older than this is treated as abandoned (the execution that
+    # held it crashed or was killed) and silently reclaimed, so a bad run
+    # can never permanently deadlock future scheduled runs. Comfortably
+    # above task_timeout_seconds' default (infra/variables.tf) so a
+    # slow-but-healthy run is never mistaken for stale.
+    lock_stale_after_seconds: int = Field(
+        default_factory=lambda: int(os.getenv("LOCK_STALE_SECONDS", str(2 * 60 * 60)))
+    )
+
     # Storage
     graph_db_path: str = Field(
         default_factory=lambda: os.getenv("GRAPH_DB_PATH", "data/graph.db")
