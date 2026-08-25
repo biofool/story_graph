@@ -85,6 +85,27 @@ build_and_push() {
   docker push "$IMAGE_URI"
 }
 
+# Cloud Run Job + Terraform is a known footgun with a mutable tag like
+# ":latest" -- depending on provider/API version, the resource's `image`
+# field either shows a spurious diff every plan (GCP resolves the tag to a
+# digest in state) or fails to pick up a rebuild at all (the config string
+# ":latest" never changes between applies). Resolving the actual pushed
+# digest and pinning Terraform to `...@sha256:...` makes each deploy
+# deterministic and visible in `terraform plan`, rather than relying on
+# tag-resolution behavior. Sets IMAGE_URI_DIGEST.
+resolve_pushed_digest() {
+  echo "==> Resolving pushed digest for ${IMAGE_URI}"
+  local digest
+  digest="$(gcloud artifacts docker images describe "$IMAGE_URI" \
+    --project="$PROJECT_ID" --format='value(image_summary.digest)')"
+  if [[ -z "$digest" ]]; then
+    echo "ERROR: could not resolve a digest for ${IMAGE_URI} (gcloud artifacts docker images describe returned nothing)" >&2
+    exit 1
+  fi
+  IMAGE_URI_DIGEST="${IMAGE_URI%%:*}@${digest}"
+  echo "==> Resolved: ${IMAGE_URI_DIGEST}"
+}
+
 case "$command" in
   build)
     build_and_push
@@ -99,12 +120,13 @@ case "$command" in
     ;;
   apply|plan)
     build_and_push
+    resolve_pushed_digest
     echo "==> terraform init"
     terraform -chdir="$INFRA_DIR" init
-    echo "==> terraform ${command} (project=${PROJECT_ID}, region=${REGION})"
+    echo "==> terraform ${command} (project=${PROJECT_ID}, region=${REGION}, image=${IMAGE_URI_DIGEST})"
     terraform -chdir="$INFRA_DIR" "$command" \
       -var="project_id=${PROJECT_ID}" \
       -var="region=${REGION}" \
-      -var="image=${IMAGE_URI}"
+      -var="image=${IMAGE_URI_DIGEST}"
     ;;
 esac

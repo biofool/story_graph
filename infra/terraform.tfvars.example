@@ -11,3 +11,8 @@ image = "us-central1-docker.pkg.dev/your-gcp-project-id/story-graph/targeted-res
 # quantum-aikido-coaching) instead of creating a new one here:
 # create_secret     = false
 # gemini_secret_id  = "projects/123456789012/secrets/GEMINI_API_KEY"
+
+# Uncomment and set to get emailed when a scheduled execution fails. Left
+# unset by default -- no alert policy/notification channel is created
+# without it.
+# notification_email = "you@example.com"

@@ -32,3 +32,8 @@ output "manual_run_command" {
   description = "gcloud command to trigger the job immediately without waiting for the scheduler."
   value       = "gcloud run jobs execute ${google_cloud_run_v2_job.targeted_research.name} --region=${var.region} --project=${var.project_id}"
 }
+
+output "failure_alerting_enabled" {
+  description = "Whether the Cloud Monitoring alert policy + email notification channel for failed executions was created (true iff var.notification_email is set)."
+  value       = var.notification_email != ""
+}

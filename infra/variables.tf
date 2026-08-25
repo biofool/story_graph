@@ -111,6 +111,19 @@ variable "vertexai_project_id" {
   default     = ""
 }
 
+variable "vertexai_model" {
+  description = <<-EOT
+    Value for the GEMINI_VERTEXAI_MODEL env var (Vertex AI / paid-tier
+    model, consumed by TieredGeminiClient's paid fallback). Empty string
+    (default) reuses var.gemini_model, so the free and paid tiers stay on
+    the same model unless explicitly overridden -- set this separately
+    only if a model available on AI Studio isn't (yet) available on Vertex
+    AI for this project, or vice versa.
+  EOT
+  type        = string
+  default     = ""
+}
+
 variable "gemini_secret_id" {
   description = <<-EOT
     Secret Manager secret id/name holding the GEMINI_API_KEY value.
@@ -147,6 +160,18 @@ variable "create_state_bucket" {
 
 variable "state_bucket_name" {
   description = "GCS bucket name for job state (must be globally unique). Empty string computes a default of \"<project_id>-story-graph-state\"."
+  type        = string
+  default     = ""
+}
+
+variable "notification_email" {
+  description = <<-EOT
+    Email address to notify (via a Cloud Monitoring notification channel)
+    when a scheduled job execution fails. Leave empty (default) to skip
+    creating the alert policy and notification channel entirely -- there
+    is intentionally no hardcoded default address here; set this in
+    terraform.tfvars.
+  EOT
   type        = string
   default     = ""
 }
