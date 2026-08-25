@@ -188,7 +188,7 @@ class GeminiExtractor:
     def is_available(self) -> bool:
         return self._client.is_available()
 
-    def extract(self, text: str) -> dict[str, Any]:
+    def extract(self, text: str, source_url: str | None = None) -> dict[str, Any]:
         """Extract entities/claims/relations from text via Gemini."""
         if not text or not text.strip():
             return _empty_result()
@@ -226,7 +226,7 @@ class GeminiExtractor:
             _log.error("Gemini extraction failed: %s", e)
             data = _empty_result()
 
-        result = _normalize(data)
+        result = _normalize(data, source_url)
         self._cache_key = key
         self._cache_val = result
         return result
@@ -246,13 +246,13 @@ class GeminiClaimExtractor:
         self._extractor = extractor
 
     def extract_claims(self, text: str, source_url: str = "") -> list[dict]:
-        entities = self._extractor.extract(text)
+        entities = self._extractor.extract(text, source_url=source_url or None)
         enriched = []
         for claim in entities.get("claims", []):
             claim_text = claim.get("text", "")
             cid = f"claim:{stable_hash(claim_text, source_url)}"
             speaker = claim.get("speaker")
-            speaker_id = person_id(speaker) if speaker else None
+            speaker_id = person_id(speaker, source_url or None) if speaker else None
             enriched.append({
                 "id": cid,
                 "claim_text": claim_text,
@@ -280,8 +280,12 @@ def _empty_result() -> dict[str, Any]:
     return {"persons": [], "groups": [], "places": [], "events": [], "claims": [], "relations": []}
 
 
-def _normalize(data: Any) -> dict[str, Any]:
-    """Normalize Gemini's JSON output to the EntityExtractor shape."""
+def _normalize(data: Any, source_url: str | None = None) -> dict[str, Any]:
+    """Normalize Gemini's JSON output to the EntityExtractor shape.
+
+    ``source_url`` disambiguates homonymous person names (see
+    :data:`~src.extractor.alias_resolver.HOMONYM_DISAMBIGUATION`).
+    """
     if not isinstance(data, dict):
         return _empty_result()
 
@@ -289,7 +293,7 @@ def _normalize(data: Any) -> dict[str, Any]:
     for p in data.get("persons", []) or []:
         if not isinstance(p, dict) or not p.get("name"):
             continue
-        canonical = canonical_person(p["name"])
+        canonical = canonical_person(p["name"], source_url)
         persons.append({
             "name": canonical,
             "raw_name": p.get("raw_name") or p["name"],

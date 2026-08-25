@@ -147,11 +147,15 @@ class EntityExtractor:
             _log.warning(f"spaCy model '{model_name}' not available ({e}); using rule-based extraction only")
             self._nlp = None
 
-    def extract(self, text: str) -> dict:
+    def extract(self, text: str, source_url: str | None = None) -> dict:
         """Extract entities from text.
+
+        ``source_url`` is the page the text came from; it disambiguates
+        homonymous person names (see
+        :data:`~src.extractor.alias_resolver.HOMONYM_DISAMBIGUATION`).
         Returns dict with keys: persons, groups, places, events, claims, relations.
         """
-        persons = self._extract_persons(text)
+        persons = self._extract_persons(text, source_url)
         groups = self._extract_groups(text)
         places = self._extract_places(text)
         events = self._extract_events(text)
@@ -167,15 +171,19 @@ class EntityExtractor:
             "relations": relations,
         }
 
-    def _extract_persons(self, text: str) -> list[dict]:
-        """Extract person entities."""
+    def _extract_persons(self, text: str, source_url: str | None = None) -> list[dict]:
+        """Extract person entities.
+
+        ``source_url`` disambiguates homonymous names (see
+        :data:`~src.extractor.alias_resolver.HOMONYM_DISAMBIGUATION`).
+        """
         persons = {}
 
         # Rule-based patterns
         for pattern in PERSON_PATTERNS:
             for match in re.finditer(pattern, text):
                 name = match.group()
-                canonical = canonical_person(name)
+                canonical = canonical_person(name, source_url)
                 persons[canonical] = {
                     "name": canonical,
                     "raw_name": name,
@@ -205,7 +213,7 @@ class EntityExtractor:
                     if not _is_valid_person_name(name):
                         _log.debug("Filtered spaCy PERSON false positive: %r", name)
                         continue
-                    canonical = canonical_person(name)
+                    canonical = canonical_person(name, source_url)
                     if canonical not in persons:
                         persons[canonical] = {
                             "name": canonical,

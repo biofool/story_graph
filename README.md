@@ -88,12 +88,21 @@ Production keys are **not** stored in this repository. They live in
 
 ### Cost tracking (optional, opt-in)
 
-The targeted-research script (`scripts/03_targeted_entity_research.py`) can
-optionally declare an intent with the **CloudManagement** hub before making
-paid Gemini calls and report actual costs incrementally, enabling
-centralized budget gating and kill-switch integration across the biofool
-portfolio. The `cloud_management_client` package is vendored at
-`src/cloud_management_client/` (stdlib-only — no pip dependency).
+The Gemini-calling scripts (`scripts/02_gemini_search.py` and
+`scripts/03_targeted_entity_research.py`) can optionally declare an intent
+with the **CloudManagement** hub before making Gemini calls and report
+actual costs incrementally, enabling centralized budget gating and
+kill-switch integration across the biofool portfolio. The
+`cloud_management_client` package is vendored at `src/cloud_management_client/`
+(stdlib-only — no pip dependency).
+
+Both `GeminiClient` (single AI Studio key) and `TieredGeminiClient`
+(free-tier-first with Vertex AI paid fallback) are tracker-aware: when a
+tracker is attached, each successful API call is reported to the hub as an
+incremental actual (best-effort, never blocks). `scripts/02` declares an
+intent per subcommand (`discover` / `extract` / `ask`) and aborts if the hub
+denies; `scripts/03` declares one intent for the whole targeted-research run
+and polls the kill-switch between leads.
 
 The integration is **disabled by default**. To enable it, set these env vars
 in `.env` (see `.env.example`):
