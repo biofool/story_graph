@@ -129,6 +129,7 @@ from src.storage.graph_db import GraphDB
 from src.storage.json_export import export_to_json, import_from_json, snapshot_exists
 from src.utils.text_utils import get_domain
 from scripts._pipeline_helpers import process_page
+from scripts._run_lock import RunLock
 from scripts._targeted_research_helpers import (
     DEFAULT_LEADS,
     ResearchLead,
@@ -321,6 +322,26 @@ def main(db_path, snapshot_dir, max_results_per_lead, skip_kkron_claims, skip_se
     snap_dir = Path(snapshot_dir) if snapshot_dir else settings.graph_snapshot_abs_dir
     console.print(f"[dim]Snapshot (source of truth): {snap_dir}[/dim]")
     console.print(f"[dim]Local working DB: {db_file}[/dim]")
+
+    # Overlap guard: parallelism=1/task_count=1 (infra/main.tf) only stops
+    # fan-out within one execution, not two overlapping executions (e.g. a
+    # manual `gcloud run jobs execute` racing the daily scheduled run) --
+    # see scripts/_run_lock.py. A no-op when no shared lock directory is
+    # configured (e.g. a local/manual run).
+    run_lock = RunLock.from_settings()
+    if not run_lock.acquire():
+        msg = (
+            "Another execution's lock is already held and not stale -- "
+            "exiting to avoid racing it for the same Gemini free-tier quota."
+        )
+        _log.warning(msg)
+        console.print(f"[yellow]{msg}[/yellow]")
+        # Exit 0, not a failure: an overlapping trigger is an expected,
+        # benign race to back off from, and this only logs at WARNING (not
+        # ERROR) so it does not trip the Cloud Monitoring alert policy on
+        # failed executions (infra/main.tf), which watches ERROR-severity
+        # log entries.
+        sys.exit(0)
 
     if snapshot_exists(snap_dir):
         console.print("[dim]Loading tracked JSON snapshot into local working DB...[/dim]")
@@ -561,6 +582,7 @@ def main(db_path, snapshot_dir, max_results_per_lead, skip_kkron_claims, skip_se
             except Exception as e:
                 _log.warning("cost_tracker finalize failed: %s", e)
         db.close()
+        run_lock.release()
 
 
 if __name__ == "__main__":
