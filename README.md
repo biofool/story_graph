@@ -159,7 +159,8 @@ story_graph/
 │       └── text_utils.py       # Text cleaning, URL hashing, normalization
 ├── scripts/
 │   ├── 01_crawl_and_build_graph.py
-│   └── 03_targeted_entity_research.py  # scheduled — see infra/README.md
+│   ├── 03_targeted_entity_research.py  # scheduled — see infra/README.md
+│   └── 09_graph_api.py                 # enrichment API + web UI — see below
 ├── prompts/
 │   └── graph_to_wikipedia_update.md  # reusable LLM prompt: graph export -> Wikipedia proposal
 ├── tests/
@@ -268,3 +269,43 @@ JOIN nodes c1 ON e.src_id = c1.id AND c1.type = 'Claim'
 JOIN nodes c2 ON e.dst_id = c2.id AND c2.type = 'Claim'
 WHERE e.rel_type = 'CONTRADICTS';
 ```
+
+## Interactive graph enrichment (API + web UI)
+
+`scripts/09_graph_api.py` is a lightweight Flask server that serves the
+browsable graph visualization and exposes REST endpoints for adding nodes,
+edges, claims, and sources interactively from the browser — no Python scripts
+to run by hand. All mutations go through `GraphDB`'s upsert path and can be
+persisted to the tracked `graph_snapshot/` JSONL via the `/api/export`
+endpoint.
+
+```bash
+python scripts/09_graph_api.py
+#   → http://127.0.0.1:8090
+#   --port 8090 --db data/graph.db --snapshot graph_snapshot
+#   --rebuild  # rebuild the local SQLite DB from the snapshot first
+```
+
+The web UI extends `scripts/08_visualize_graph.py`'s read-only view with
+tabbed forms in the side panel: **Add Node**, **Add Edge**, **Add Claim**,
+**Add Source**, plus an **Export to Snapshot** button. After any mutation the
+vis.js network re-fetches `/api/graph` and updates in place.
+
+### API endpoints
+
+| Method | Path | Purpose |
+|---|---|---|
+| `GET`  | `/api/graph` | All nodes/edges/sources as JSON (for vis.js) |
+| `POST` | `/api/nodes` | Add a node (validates `NodeType`, auto-generates ID from label) |
+| `POST` | `/api/edges` | Add an edge (validates `RelationType`, checks both endpoints exist) |
+| `POST` | `/api/claims` | Add a Claim + optional source + `ABOUT`/`ASSERTED_BY` edges in one call |
+| `POST` | `/api/sources` | Add a `SourceRecord` (validates `SourceClass`/`BiasHint`) |
+| `POST` | `/api/export` | Persist the in-memory DB to `graph_snapshot/` JSONL |
+| `GET`  | `/api/node/<id>` | Full details for one node + connected edges + claims about it |
+| `GET`  | `/` | The interactive visualization HTML (regenerated live from the DB) |
+
+Enum fields (`NodeType`, `RelationType`, `SourceClass`, `BiasHint`,
+`ClaimStance`, `ClaimType`) are validated server-side. The server is
+local-only and has no auth — it's a research tool, not a public service.
+Mutations are additive only (no deletion from the UI); use scripts for
+cleanup, and git is the version control for the snapshot.
