@@ -17,6 +17,7 @@ class NodeType(str, Enum):
     WORK = "Work"
     EVENT = "Event"
     CLAIM = "Claim"
+    IMAGE = "Image"
 
 
 class RelationType(str, Enum):
@@ -36,6 +37,7 @@ class RelationType(str, Enum):
     PRECEDES = "PRECEDES"
     MENTIONS = "MENTIONS"
     CONTAINS = "CONTAINS"
+    DEPICTS = "DEPICTS"
 
 
 class ClaimStance(str, Enum):

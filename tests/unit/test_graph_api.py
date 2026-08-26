@@ -257,3 +257,78 @@ class TestIndex:
         r = client.get("/")
         assert r.status_code == 200
         assert b"Story Graph" in r.data
+
+
+# --- Image nodes / badges / media routes ---
+
+def _add_image(db, work_id: str, content_hash: str = "a" * 64, alt: str = "a photo"):
+    from src.storage.models import GraphEdge, GraphNode, NodeType, RelationType
+
+    image_id = f"image:{content_hash}"
+    db.add_node(GraphNode(
+        id=image_id, type=NodeType.IMAGE, label=alt,
+        metadata={"original_url": "https://example.com/x.jpg",
+                  "content_hash": content_hash, "mime": "image/jpeg",
+                  "width": 400, "height": 300, "alt": alt},
+        source_urls=["https://example.com/page"],
+    ))
+    db.add_edge(GraphEdge(src_id=work_id, rel_type=RelationType.DEPICTS, dst_id=image_id))
+    return image_id
+
+
+class TestImages:
+    def test_image_nodes_excluded_from_graph_canvas(self, client, tmp_db):
+        from src.storage.models import GraphNode, NodeType
+        tmp_db.add_node(GraphNode(id="work:w1", type=NodeType.WORK, label="Page"))
+        _add_image(tmp_db, "work:w1")
+        r = client.get("/api/graph")
+        data = r.get_json()
+        ids = [n["id"] for n in data["nodes"]]
+        assert "work:w1" in ids
+        assert not any(n["group"] == "Image" for n in data["nodes"])
+        assert data["counts"]["nodes"] == 1
+
+    def test_has_images_badge(self, client, tmp_db):
+        from src.storage.models import GraphNode, NodeType
+        tmp_db.add_node(GraphNode(id="work:w1", type=NodeType.WORK, label="Page"))
+        _add_image(tmp_db, "work:w1")
+        r = client.get("/api/graph")
+        node = next(n for n in r.get_json()["nodes"] if n["id"] == "work:w1")
+        assert node["has_images"] is True
+        assert node["image_count"] == 1
+
+    def test_node_detail_includes_images(self, client, tmp_db):
+        from src.storage.models import GraphNode, NodeType
+        tmp_db.add_node(GraphNode(id="work:w1", type=NodeType.WORK, label="Page"))
+        image_id = _add_image(tmp_db, "work:w1", content_hash="b" * 64, alt="caption text")
+        r = client.get("/api/node/work:w1")
+        data = r.get_json()
+        assert len(data["images"]) == 1
+        img = data["images"][0]
+        assert img["alt"] == "caption text"
+        assert img["thumb_url"] == "/media/thumb/" + "b" * 64
+        assert img["full_url"] == "/media/image/" + "b" * 64
+        # DEPICTS edges shouldn't also show up in the generic connections list
+        assert not any(e.get("dst_id") == image_id for e in data["edges"])
+
+    def test_media_thumb_rejects_bad_hash(self, client):
+        r = client.get("/media/thumb/not-a-hash")
+        assert r.status_code == 400
+
+    def test_media_thumb_404_when_missing(self, client):
+        r = client.get("/media/thumb/" + "c" * 64)
+        assert r.status_code == 404
+
+    def test_media_image_404_when_missing(self, client):
+        r = client.get("/media/image/" + "c" * 64)
+        assert r.status_code == 404
+
+    def test_media_thumb_serves_existing_file(self, client, monkeypatch, tmp_path):
+        content_hash = "d" * 64
+        thumbs_dir = tmp_path / "images" / "thumbs"
+        thumbs_dir.mkdir(parents=True)
+        (thumbs_dir / f"{content_hash}.jpg").write_bytes(b"\xff\xd8\xff fake jpeg")
+        monkeypatch.setattr(api_mod, "DEFAULT_IMAGES_DIR", tmp_path / "images")
+        r = client.get(f"/media/thumb/{content_hash}")
+        assert r.status_code == 200
+        assert r.mimetype == "image/jpeg"

@@ -27,6 +27,7 @@ data/cache/*
 !data/cache/.gitkeep
 data/graph.db
 data/*.jsonl
+data/images/
 
 # graph_snapshot/ (repo root, NOT under data/) is the tracked JSON/JSONL
 # source of truth for the graph — see src/storage/json_export.py and

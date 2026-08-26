@@ -149,7 +149,8 @@ story_graph/
 │   │   ├── models.py           # Node/Edge Pydantic data models
 │   │   └── graph_db.py         # SQLite graph storage
 │   ├── crawler/
-│   │   └── web_crawler.py      # Domain-filtered BFS crawler
+│   │   ├── web_crawler.py      # Domain-filtered BFS crawler
+│   │   └── image_capture.py    # Download/dedupe/thumbnail images found while crawling
 │   ├── extractor/
 │   │   ├── entity_extractor.py # NER + rule-based entity extraction
 │   │   ├── alias_resolver.py   # Name normalization / alias tables
@@ -160,7 +161,8 @@ story_graph/
 ├── scripts/
 │   ├── 01_crawl_and_build_graph.py
 │   ├── 03_targeted_entity_research.py  # scheduled — see infra/README.md
-│   └── 09_graph_api.py                 # enrichment API + web UI — see below
+│   ├── 09_graph_api.py                 # enrichment API + web UI — see below
+│   └── 10_capture_images.py            # backfill images for already-crawled sources
 ├── prompts/
 │   └── graph_to_wikipedia_update.md  # reusable LLM prompt: graph export -> Wikipedia proposal
 ├── tests/
@@ -309,3 +311,43 @@ Enum fields (`NodeType`, `RelationType`, `SourceClass`, `BiasHint`,
 local-only and has no auth — it's a research tool, not a public service.
 Mutations are additive only (no deletion from the UI); use scripts for
 cleanup, and git is the version control for the snapshot.
+
+## Image capture
+
+While crawling, each page's `og:image` meta tag and in-article `<img>` tags
+are collected (`src/crawler/web_crawler.py`), downloaded, deduped by
+content hash, and thumbnailed (`src/crawler/image_capture.py`, Pillow).
+Spacer/nav-icon junk is filtered out (`data:` URIs, `.svg`/`.ico`, anything
+under 200×200px). Each surviving image becomes an `Image` node, linked to
+the page's `Work` node via a `DEPICTS` edge — this runs automatically as
+part of `process_page` (`scripts/_pipeline_helpers.py`), no separate step
+needed during normal crawling.
+
+Images are stored in git-ignored `data/images/` (`<hash>.<ext>` + a
+`thumbs/<hash>.jpg`); only metadata (original URL, hash, dimensions, alt
+text) is tracked in `graph_snapshot/`, matching the SQLite-local/JSONL-tracked
+split described above.
+
+To backfill images for sources that were crawled before this existed:
+
+```bash
+python scripts/10_capture_images.py            # rescans every source without images
+python scripts/10_capture_images.py --limit 50  # bound one run
+python scripts/10_capture_images.py --domain blogspot.com
+python scripts/10_capture_images.py --force     # re-check sources that already have images
+```
+
+It re-fetches each source's URL directly (`SourceRecord.raw_text` is
+cleaned text, not HTML, so the original `<img>` markup only exists on the
+live page), skips sources that already have a `DEPICTS` edge unless
+`--force` is passed, and exports the updated snapshot when it finishes —
+safe to interrupt and re-run.
+
+In the graph viewer (`scripts/09_graph_api.py`), `Image` nodes are never
+drawn on the vis.js canvas (they'd add hundreds of grey dots); instead
+`/api/graph` computes a `has_images`/`image_count` badge (a small 🖼 on the
+node label) server-side, and clicking a node's detail panel shows a lazy
+loaded thumbnail gallery — click a thumbnail to open a lightbox with the
+full-resolution image, its alt text, and a link back to the source page.
+Thumbnails/originals are served from `/media/thumb/<hash>` and
+`/media/image/<hash>` (content-hash addressed, never by filesystem path).

@@ -21,11 +21,12 @@ import re
 import sys
 from pathlib import Path
 
-from flask import Flask, jsonify, request, send_file
+from flask import Flask, abort, jsonify, request, send_file
 
 # Add src to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
+from src.crawler.image_capture import DEFAULT_IMAGES_DIR, image_path_for, thumb_path_for
 from src.storage.graph_db import GraphDB
 from src.storage.json_export import export_to_json, import_from_json
 from src.storage.models import (
@@ -39,6 +40,11 @@ from src.storage.models import (
     SourceRecord,
 )
 
+# Matches the image node id scheme from scripts/_pipeline_helpers.py
+# ("image:<sha256>") — validated before touching the filesystem so a
+# crafted node id can't be used for path traversal.
+_CONTENT_HASH_RE = re.compile(r"^[0-9a-f]{64}$")
+
 app = Flask(__name__, static_folder=None)
 
 # Global DB handle — opened in main(), reused across requests.
@@ -48,13 +54,14 @@ _SNAPSHOT_DIR: Path = Path("graph_snapshot")
 _NODE_COLORS = {
     "Person": "#e74c3c", "Group": "#3498db", "Place": "#2ecc71",
     "Event": "#f39c12", "Work": "#9b59b6", "Claim": "#95a5a6",
+    "Image": "#16a085",
 }
 _EDGE_COLORS = {
     "FOUNDED": "#e74c3c", "WORKED_AT": "#3498db", "MEMBER_OF": "#1abc9c",
     "MENTIONS": "#95a5a6", "ABOUT": "#bdc3c7", "DESCRIBES": "#f39c12",
     "CONTAINS": "#3498db", "ASSERTED_BY": "#e67e22", "SUPPORTED_BY": "#2ecc71",
     "CONTRADICTS": "#e74c3c", "CREATED": "#9b59b6", "LIVED_AT": "#1abc9c",
-    "LOCATED_IN": "#2ecc71",
+    "LOCATED_IN": "#2ecc71", "DEPICTS": "#16a085",
 }
 
 
@@ -97,20 +104,48 @@ def index():
                      download_name="index.html")
 
 
+def _image_counts_by_node(db: GraphDB) -> dict[str, int]:
+    """Count DEPICTS edges per source node, for the has_images/image_count badge.
+
+    Image nodes themselves are never drawn on the canvas (they'd add
+    hundreds of grey dots for what the user actually wants — an
+    indicator + thumbnail gallery on the node they illustrate) so this
+    is computed server-side and folded into the regular node payload.
+    """
+    counts: dict[str, int] = {}
+    for e in db.get_all_edges():
+        if e.rel_type == RelationType.DEPICTS:
+            counts[e.src_id] = counts.get(e.src_id, 0) + 1
+    return counts
+
+
 @app.route("/api/graph")
 def api_graph():
-    """Return all nodes, edges, sources as JSON for vis.js."""
+    """Return all nodes, edges, sources as JSON for vis.js.
+
+    Image nodes are excluded from the canvas payload (see
+    _image_counts_by_node); every other node gets a has_images flag
+    and image_count so the UI can render a badge.
+    """
     db = get_db()
+    image_counts = _image_counts_by_node(db)
     nodes = []
     for n in db.get_all_nodes():
         ntype = n.type.value
+        if ntype == "Image":
+            continue
+        img_count = image_counts.get(n.id, 0)
+        label = n.label[:50] + (" \U0001f5bc" if img_count else "")
         nodes.append({
             "id": n.id,
-            "label": n.label[:50],
+            "label": label,
             "group": ntype,
+            "has_images": img_count > 0,
+            "image_count": img_count,
             "title": json.dumps({
                 "id": n.id, "type": ntype, "label": n.label,
                 "metadata": n.metadata, "source_urls": n.source_urls,
+                "image_count": img_count,
             }, default=str),
             "color": {"background": _NODE_COLORS.get(ntype, "#bdc3c7"),
                       "border": "#34495e"},
@@ -118,6 +153,8 @@ def api_graph():
         })
     edges = []
     for e in db.get_all_edges():
+        if e.rel_type == RelationType.DEPICTS:
+            continue
         edges.append({
             "from": e.src_id, "to": e.dst_id, "label": e.rel_type.value,
             "color": {"color": _EDGE_COLORS.get(e.rel_type.value, "#bdc3c7"),
@@ -329,8 +366,12 @@ def api_node_detail(node_id: str):
     if node is None:
         return jsonify({"error": "not found"}), 404
     edges_out = []
+    images = []
     for e in db.get_edges_from(node_id):
         dst = db.get_node(e.dst_id)
+        if e.rel_type == RelationType.DEPICTS and dst is not None:
+            images.append(_image_summary(dst))
+            continue
         edges_out.append({"rel_type": e.rel_type.value, "dst_id": e.dst_id,
                           "dst_label": dst.label if dst else "?",
                           "dst_type": dst.type.value if dst else "?",
@@ -350,9 +391,48 @@ def api_node_detail(node_id: str):
             "source_urls": node.source_urls,
         },
         "edges": edges_out,
+        "images": images,
         "claims": [{"id": c.id, "label": c.label,
                      "metadata": c.metadata} for c in claims],
     })
+
+
+def _image_summary(image_node: GraphNode) -> dict:
+    """Build the JSON shape the sidebar gallery/lightbox needs for one Image node."""
+    meta = image_node.metadata
+    content_hash = meta.get("content_hash", "")
+    return {
+        "id": image_node.id,
+        "thumb_url": f"/media/thumb/{content_hash}",
+        "full_url": f"/media/image/{content_hash}",
+        "alt": meta.get("alt", ""),
+        "width": meta.get("width"),
+        "height": meta.get("height"),
+        "source_urls": image_node.source_urls,
+    }
+
+
+@app.route("/media/thumb/<content_hash>")
+def media_thumb(content_hash: str):
+    """Serve a generated thumbnail, addressed by content hash (never by path)."""
+    if not _CONTENT_HASH_RE.match(content_hash):
+        abort(400)
+    path = thumb_path_for(content_hash, DEFAULT_IMAGES_DIR)
+    if not path.exists():
+        abort(404)
+    return send_file(path, mimetype="image/jpeg")
+
+
+@app.route("/media/image/<content_hash>")
+def media_image(content_hash: str):
+    """Serve the original captured image, addressed by content hash."""
+    if not _CONTENT_HASH_RE.match(content_hash):
+        abort(400)
+    for ext in (".jpg", ".png", ".gif", ".webp", ".bmp", ".img"):
+        path = image_path_for(content_hash, ext, DEFAULT_IMAGES_DIR)
+        if path.exists():
+            return send_file(path)
+    abort(404)
 
 
 # --- Visualization HTML ---
@@ -364,8 +444,9 @@ def _build_viz_html() -> str:
     n_edges = db.get_edge_count()
     n_sources = db.get_source_count()
 
-    # Get all node IDs for the edge form dropdowns
-    all_nodes = db.get_all_nodes()
+    # Get all node IDs for the edge form dropdowns (Image nodes are internal
+    # bookkeeping, not something a reviewer should link claims/edges to)
+    all_nodes = [n for n in db.get_all_nodes() if n.type != NodeType.IMAGE]
     node_options = json.dumps([{"id": n.id, "label": n.label[:60], "type": n.type.value}
                                for n in all_nodes])
     all_sources = db.get_all_sources()
@@ -418,6 +499,21 @@ h4 {{ margin: 8px 0 4px 0; font-size: 14px; }}
 .status {{ font-size: 11px; padding: 4px; margin: 4px 0; border-radius: 3px; }}
 .status.ok {{ background: #d4edda; color: #155724; }}
 .status.err {{ background: #f8d7da; color: #721c24; }}
+.image-gallery {{ display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }}
+.image-gallery img {{ width: 72px; height: 72px; object-fit: cover;
+                      border-radius: 4px; border: 1px solid #ccc; cursor: pointer;
+                      background: #eee; }}
+.image-gallery img:hover {{ border-color: #16a085; }}
+#lightbox {{ display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85);
+             z-index: 1000; align-items: center; justify-content: center;
+             flex-direction: column; }}
+#lightbox.open {{ display: flex; }}
+#lightbox img {{ max-width: 90vw; max-height: 80vh; border-radius: 4px; }}
+#lightbox .caption {{ color: #eee; font-size: 12px; margin-top: 8px; max-width: 80vw;
+                       text-align: center; }}
+#lightbox .caption a {{ color: #7fd6ff; }}
+#lightbox-close {{ position: absolute; top: 16px; right: 24px; color: #fff;
+                    font-size: 24px; cursor: pointer; }}
 </style>
 </head>
 <body>
@@ -433,6 +529,7 @@ h4 {{ margin: 8px 0 4px 0; font-size: 14px; }}
     <span class="legend" style="background:#f39c12"></span>Event
     <span class="legend" style="background:#9b59b6"></span>Work
     <span class="legend" style="background:#95a5a6"></span>Claim
+    &nbsp;&nbsp;\U0001f5bc = has images
   </div>
 
   <div class="tab-bar">
@@ -580,6 +677,12 @@ h4 {{ margin: 8px 0 4px 0; font-size: 14px; }}
   <div id="export-status"></div>
 </div>
 
+<div id="lightbox" onclick="closeLightbox(event)">
+  <span id="lightbox-close" onclick="closeLightbox(event)">&times;</span>
+  <img id="lightbox-img" src="">
+  <div class="caption" id="lightbox-caption"></div>
+</div>
+
 <script>
 var allNodeOptions = {node_options};
 var allSourceOptions = {source_options};
@@ -611,6 +714,24 @@ function populateDropdowns() {{
 
 // --- Network ---
 var nodes, edges, network, data;
+var currentImages = [];
+
+function openLightbox(i) {{
+  var img = currentImages[i];
+  if (!img) return;
+  document.getElementById('lightbox-img').src = img.full_url;
+  var cap = (img.alt || '(no caption)');
+  if (img.source_urls && img.source_urls.length > 0) {{
+    cap += ' &middot; <a href="' + img.source_urls[0] + '" target="_blank">source</a>';
+  }}
+  document.getElementById('lightbox-caption').innerHTML = cap;
+  document.getElementById('lightbox').classList.add('open');
+}}
+
+function closeLightbox(e) {{
+  if (e && e.target && e.target.id === 'lightbox-img') return;
+  document.getElementById('lightbox').classList.remove('open');
+}}
 function initNetwork() {{
   fetch('/api/graph').then(r => r.json()).then(d => {{
     nodes = new vis.DataSet(d.nodes);
@@ -646,6 +767,16 @@ function showNodeDetail(nodeId) {{
         html += '<a href="' + u + '" target="_blank">' + u + '</a><br>';
       }});
       html += '</p>';
+    }}
+    currentImages = d.images || [];
+    if (currentImages.length > 0) {{
+      html += '<p><b>Images (' + currentImages.length + '):</b></p><div class="image-gallery">';
+      currentImages.forEach(function(img, i) {{
+        html += '<img src="' + img.thumb_url + '" alt="' + (img.alt || '') +
+                '" loading="lazy" onclick="openLightbox(' + i + ')" ' +
+                "onerror=\"this.style.visibility='hidden'\">";
+      }});
+      html += '</div>';
     }}
     html += '<p><b>Connections (' + d.edges.length + '):</b></p><ul class="edge-list">';
     d.edges.slice(0, 50).forEach(function(e) {{

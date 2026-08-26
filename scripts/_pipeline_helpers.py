@@ -6,6 +6,9 @@ crawled page and stores them in the graph database.
 
 from __future__ import annotations
 
+import logging
+
+from src.crawler.image_capture import capture_image
 from src.crawler.web_crawler import CrawledPage
 from src.extractor.alias_resolver import (
     canonical_person,
@@ -31,6 +34,8 @@ from src.storage.models import (
     SourceRecord,
 )
 from src.utils.text_utils import get_domain
+
+_log = logging.getLogger(__name__)
 
 # Maps relation type strings from the extractor output to the
 # RelationType enum. Used by process_page to add typed edges.
@@ -117,6 +122,8 @@ def process_page(
         bias_hint=bias_hint,
     )
     db.add_source(source_record)
+
+    capture_page_images(page, wid, db)
 
     # Extract entities
     entities = extractor.extract(page.text, source_url=url)
@@ -309,4 +316,39 @@ def process_page(
             rel_type=rel_enum,
             dst_id=dst_id,
             metadata={"evidence": url, "trigger": rel_type_str},
+        ))
+
+
+def capture_page_images(page: CrawledPage, work_id_: str, db: GraphDB, max_images: int = 20):
+    """Download image candidates found on a page and attach them to its Work node.
+
+    Best-effort: a failed/filtered-out image candidate is skipped, never
+    raises. Capped at max_images per page — pages can list dozens of
+    thumbnails/icons in their markup and this is meant to capture a page's
+    illustrative photos, not scrape every asset it references.
+    """
+    for candidate in page.images[:max_images]:
+        captured = capture_image(candidate.url, alt=candidate.alt)
+        if captured is None:
+            continue
+        image_node = GraphNode(
+            id=f"image:{captured.content_hash}",
+            type=NodeType.IMAGE,
+            label=captured.alt[:100] or captured.original_url[:100],
+            metadata={
+                "original_url": captured.original_url,
+                "content_hash": captured.content_hash,
+                "mime": captured.mime,
+                "width": captured.width,
+                "height": captured.height,
+                "alt": captured.alt,
+            },
+            source_urls=[page.url],
+        )
+        db.add_node(image_node)
+        db.add_edge(GraphEdge(
+            src_id=work_id_,
+            rel_type=RelationType.DEPICTS,
+            dst_id=image_node.id,
+            metadata={"evidence": page.url},
         ))

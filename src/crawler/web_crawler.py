@@ -24,12 +24,20 @@ _log = logging.getLogger(__name__)
 
 
 @dataclass
+class ImageCandidate:
+    """An image URL found on a crawled page, with whatever caption/alt text was nearby."""
+    url: str
+    alt: str = ""
+
+
+@dataclass
 class CrawledPage:
     """Result of crawling a single page."""
     url: str
     title: str = ""
     text: str = ""
     links: list[str] = field(default_factory=list)
+    images: list[ImageCandidate] = field(default_factory=list)
     author: str | None = None
     publish_date: str | None = None
     status_code: int = 0
@@ -116,15 +124,54 @@ class WebCrawler:
         # Deduplicate links
         links = list(dict.fromkeys(links))
 
+        images = self._extract_images(url, soup, content_area, title)
+
         return CrawledPage(
             url=url,
             title=title,
             text=text,
             links=links,
+            images=images,
             author=author,
             publish_date=publish_date,
             status_code=200,
         )
+
+    def _extract_images(
+        self, url: str, soup: BeautifulSoup, content_area, page_title: str
+    ) -> list[ImageCandidate]:
+        """Collect image candidates: the og:image meta tag plus in-content <img> tags.
+
+        Only cheap, HTML-level filtering happens here (data: URIs, obvious
+        icon formats); byte-level filtering (size, actual content type) is
+        the image_capture module's job once the bytes are fetched.
+        """
+        candidates: list[ImageCandidate] = []
+        seen: set[str] = set()
+
+        def add(raw_src: str | None, alt: str = ""):
+            if not raw_src:
+                return
+            raw_src = raw_src.strip()
+            if not raw_src or raw_src.startswith("data:"):
+                return
+            resolved = resolve_url(url, raw_src)
+            if resolved.lower().split("?")[0].endswith((".svg", ".ico")):
+                return
+            if resolved in seen:
+                return
+            seen.add(resolved)
+            candidates.append(ImageCandidate(url=resolved, alt=alt.strip()))
+
+        og_image = soup.find("meta", {"property": "og:image"})
+        if og_image and og_image.get("content"):
+            add(og_image["content"], alt=page_title)
+
+        for img_tag in content_area.find_all("img"):
+            src = img_tag.get("src") or img_tag.get("data-src")
+            add(src, alt=img_tag.get("alt", ""))
+
+        return candidates
 
     def crawl(self) -> list[CrawledPage]:
         """Run the BFS crawl from seed URLs up to max_depth."""
