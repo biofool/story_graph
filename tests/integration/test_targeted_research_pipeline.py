@@ -79,6 +79,34 @@ def test_store_kkron_claim_is_idempotent():
         os.unlink(db_path)
 
 
+def test_store_kkron_claim_does_not_add_kkron_url_to_entity_source_urls():
+    """Entity nodes (Person, Group, Event) should NOT have
+    kkron://personal-communication in their source_urls — that URL is a
+    source for the *claim*, not for the entity's existence or metadata.
+    See GitHub #9.
+    """
+    with tempfile.NamedTemporaryFile(suffix=".db", delete=False) as f:
+        db_path = f.name
+    db = GraphDB(db_path)
+    try:
+        lead = DEFAULT_LEADS[0]  # Richard Moon WORKED_AT The Source
+        store_kkron_claim(db, lead)
+
+        subject = db.get_node(lead.subject_id())
+        obj = db.get_node(lead.object_id())
+        assert subject is not None
+        assert obj is not None
+        assert "kkron://personal-communication" not in subject.source_urls, (
+            f"Subject {subject.id} should not have kkron URL in source_urls"
+        )
+        assert "kkron://personal-communication" not in obj.source_urls, (
+            f"Object {obj.id} should not have kkron URL in source_urls"
+        )
+    finally:
+        db.close()
+        os.unlink(db_path)
+
+
 def test_all_default_leads_can_be_stored_and_produce_one_claim_each():
     with tempfile.NamedTemporaryFile(suffix=".db", delete=False) as f:
         db_path = f.name

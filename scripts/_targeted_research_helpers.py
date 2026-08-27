@@ -992,8 +992,19 @@ def _ensure_entity_node(
     name: str,
     entity_type: str,
     group_type: Optional[str],
-    source_url: str = KKRON_SOURCE_URL,
+    source_url: str | None = KKRON_SOURCE_URL,
 ) -> str:
+    """Upsert an entity node (Person/Group/Place/Event) for a lead.
+
+    ``source_url`` is added to the node's ``source_urls`` list when provided.
+    Pass ``None`` when the caller's URL is a source for a *claim* about the
+    entity, not for the entity itself — e.g. kkron's personal communication
+    is a source for kkron's claim that Richard Moon introduced Baker and
+    Bhajan, not for the "Meeting of Baker and Yogi Bhajan" event's
+    existence or metadata. In that case the claim node carries the URL, and
+    the MENTIONS/ABOUT edges capture the connection; polluting the entity
+    node's source_urls with it is misleading (see GitHub #9).
+    """
     node_id = _ENTITY_ID_FN[entity_type](name)
     canonical = _CANONICAL_FN[entity_type](name)
     metadata = {"group_type": group_type} if (entity_type == "group" and group_type) else {}
@@ -1012,7 +1023,7 @@ def _ensure_entity_node(
         label=label,
         canonical_name=canonical,
         metadata=metadata,
-        source_urls=[source_url],
+        source_urls=[source_url] if source_url else [],
     ))
     return node_id
 
@@ -1038,8 +1049,12 @@ def store_kkron_claim(db: GraphDB, lead: ResearchLead) -> str:
         return _store_citation_claim(db, lead)
 
     ensure_kkron_source(db)
-    subject_id = _ensure_entity_node(db, lead.subject_name, lead.subject_type, lead.subject_group_type)
-    object_id = _ensure_entity_node(db, lead.object_name, lead.object_type, lead.object_group_type)
+    # Pass source_url=None: kkron's personal communication is a source for
+    # the *claim* (stored on the claim node below), not for the entity
+    # nodes' existence or metadata. Adding it to entity source_urls is
+    # misleading — see GitHub #9.
+    subject_id = _ensure_entity_node(db, lead.subject_name, lead.subject_type, lead.subject_group_type, source_url=None)
+    object_id = _ensure_entity_node(db, lead.object_name, lead.object_type, lead.object_group_type, source_url=None)
 
     claim = build_kkron_claim_record(lead)
     cid = claim["id"]
