@@ -358,13 +358,30 @@ def api_export():
     return jsonify({"ok": True, "counts": counts})
 
 
+def _degree_map(db: GraphDB) -> dict[str, int]:
+    """Count edges per node (both in and out), for ranking connections."""
+    deg: dict[str, int] = {}
+    for e in db.get_all_edges():
+        if e.rel_type == RelationType.DEPICTS:
+            continue
+        deg[e.src_id] = deg.get(e.src_id, 0) + 1
+        deg[e.dst_id] = deg.get(e.dst_id, 0) + 1
+    return deg
+
+
 @app.route("/api/node/<path:node_id>")
 def api_node_detail(node_id: str):
-    """Get full details for a single node, including connected edges."""
+    """Get full details for a single node, including connected edges.
+
+    Each edge includes the connected node's degree (for ranking by
+    connectivity) and metadata (for temporal proximity sorting — e.g.
+    events with start_date/end_date).
+    """
     db = get_db()
     node = db.get_node(node_id)
     if node is None:
         return jsonify({"error": "not found"}), 404
+    deg = _degree_map(db)
     edges_out = []
     images = []
     for e in db.get_edges_from(node_id):
@@ -375,12 +392,16 @@ def api_node_detail(node_id: str):
         edges_out.append({"rel_type": e.rel_type.value, "dst_id": e.dst_id,
                           "dst_label": dst.label if dst else "?",
                           "dst_type": dst.type.value if dst else "?",
+                          "dst_metadata": dst.metadata if dst else {},
+                          "degree": deg.get(e.dst_id, 0),
                           "direction": "out"})
     for e in db.get_edges_to(node_id):
         src = db.get_node(e.src_id)
         edges_out.append({"rel_type": e.rel_type.value, "src_id": e.src_id,
                           "src_label": src.label if src else "?",
                           "src_type": src.type.value if src else "?",
+                          "src_metadata": src.metadata if src else {},
+                          "degree": deg.get(e.src_id, 0),
                           "direction": "in"})
     # Claims about this node
     claims = db.get_claims_about(node_id)
@@ -511,6 +532,8 @@ h4 {{ margin: 8px 0 4px 0; font-size: 14px; }}
                     padding: 6px; border-radius: 3px; border: 1px solid #eee; }}
 .edge-list {{ font-size: 11px; }}
 .edge-list li {{ margin-bottom: 2px; }}
+.conn-link {{ color: #2980b9; cursor: pointer; text-decoration: none; }}
+.conn-link:hover {{ text-decoration: underline; color: #3498db; }}
 .tab-bar {{ display: flex; gap: 4px; margin-bottom: 8px; }}
 .tab {{ padding: 4px 10px; background: #ddd; border-radius: 4px 4px 0 0;
         cursor: pointer; font-size: 12px; }}
@@ -1124,6 +1147,92 @@ function toggleImagesOnly() {{
 }}
 
 // --- Node detail panel ---
+
+// Extract a sortable date (year as number) from node metadata.
+// Checks start_date, end_date, publish_date, date — parses "1969", "1969-05",
+// "1969-05-01". Returns null if no date found.
+function _extractDate(meta) {{
+  if (!meta) return null;
+  var fields = ['start_date', 'end_date', 'publish_date', 'date', 'founded_date'];
+  for (var i = 0; i < fields.length; i++) {{
+    var v = meta[fields[i]];
+    if (v) {{
+      var m = String(v).match(/^(\\d{{4}})(?:-\\d{{2}})?(?:-\\d{{2}})?/);
+      if (m) return parseInt(m[1], 10);
+    }}
+  }}
+  return null;
+}}
+
+// Format a date range from metadata for display (e.g. "1969-05" or "1969").
+function _formatDateRange(meta) {{
+  if (!meta) return '';
+  var start = meta.start_date || meta.founded_date || meta.publish_date || meta.date;
+  var end = meta.end_date;
+  if (!start) return '';
+  if (end && end !== start) return String(start).substring(0, 7) + ' to ' + String(end).substring(0, 7);
+  return String(start).substring(0, 10);
+}}
+
+// Click a connection link: search for the node in the graph, select it,
+// and show its detail. If the node isn't currently visible (filtered out),
+// turn off filters so it appears, then zoom to it.
+function searchNode(nodeId) {{
+  // First try to select the node directly if it's on the canvas
+  if (cy) {{
+    var n = cy.getElementById(nodeId);
+    if (n && n.length > 0 && n.isNode()) {{
+      cy.animate({{ fit: {{ eles: n.union(n.neighborhood()), padding: 30 }} }}, {{ duration: 400 }});
+      cy.$(':selected').unselect();
+      n.select();
+      showNodeDetail(nodeId);
+      return;
+    }}
+  }}
+  // Node not on canvas — clear filters and search by label
+  if (filteredMode) {{
+    filteredMode = false;
+    var btn = document.getElementById('filter-toggle');
+    if (btn && graphData) btn.textContent = 'Filtered (top 300)';
+  }}
+  if (imagesOnlyMode) {{
+    imagesOnlyMode = false;
+    var ibtn = document.getElementById('images-toggle');
+    if (ibtn) {{ ibtn.style.background = ''; ibtn.style.color = ''; }}
+  }}
+  // Find the node label from graphData to populate the search box
+  if (graphData) {{
+    var found = null;
+    for (var i = 0; i < graphData.nodes.length; i++) {{
+      if (graphData.nodes[i].id === nodeId) {{ found = graphData.nodes[i]; break; }}
+    }}
+    if (found) {{
+      var searchInput = document.getElementById('search');
+      if (searchInput) {{
+        searchInput.value = found.label.replace(/\\s*🖼$/, '').trim();
+        filterNodes();
+      }}
+      // Re-render without filters so the node appears
+      renderGraph();
+      // After re-render, try to select it (async since renderGraph rebuilds cy)
+      setTimeout(function() {{
+        if (cy) {{
+          var n = cy.getElementById(nodeId);
+          if (n && n.length > 0) {{
+            cy.animate({{ fit: {{ eles: n.union(n.neighborhood()), padding: 30 }} }}, {{ duration: 400 }});
+            cy.$(':selected').unselect();
+            n.select();
+          }}
+        }}
+        showNodeDetail(nodeId);
+      }}, 300);
+      return;
+    }}
+  }}
+  // Fallback: just show detail
+  showNodeDetail(nodeId);
+}}
+
 function showNodeDetail(nodeId) {{
   fetch('/api/node/' + encodeURIComponent(nodeId)).then(function(r) {{ return r.json(); }}).then(function(d) {{
     var n = d.node;
@@ -1148,15 +1257,55 @@ function showNodeDetail(nodeId) {{
       }});
       html += '</div>';
     }}
-    html += '<p><b>Connections (' + d.edges.length + '):</b></p><ul class="edge-list">';
-    d.edges.slice(0, 50).forEach(function(e) {{
-      if (e.direction === 'out')
-        html += '<li>' + esc(e.rel_type) + ' &rarr; ' + esc(e.dst_label) + '</li>';
-      else
-        html += '<li>' + esc(e.src_label) + ' &rarr; ' + esc(e.rel_type) + '</li>';
+    html += '<p><b>Connections (' + d.edges.length + '):</b></p>';
+    // Rank by degree (most connected first), then by temporal proximity
+    // to the current node (closest in time first). Show top 20.
+    var nodeDate = _extractDate(n.metadata);
+    var ranked = d.edges.slice().sort(function(a, b) {{
+      var aDeg = a.degree || 0, bDeg = b.degree || 0;
+      if (bDeg !== aDeg) return bDeg - aDeg;
+      // Tie-break by temporal proximity if we have a date for the current node
+      if (nodeDate) {{
+        var aMeta = a.direction === 'out' ? a.dst_metadata : a.src_metadata;
+        var bMeta = b.direction === 'out' ? b.dst_metadata : b.src_metadata;
+        var aDate = _extractDate(aMeta);
+        var bDate = _extractDate(bMeta);
+        if (aDate && bDate) {{
+          var aDiff = Math.abs(aDate - nodeDate);
+          var bDiff = Math.abs(bDate - nodeDate);
+          return aDiff - bDiff;
+        }}
+        // Nodes with dates rank above nodes without
+        if (aDate && !bDate) return -1;
+        if (!aDate && bDate) return 1;
+      }}
+      return 0;
     }});
-    if (d.edges.length > 50) html += '<li>... ' + (d.edges.length - 50) + ' more</li>';
+    var shown = ranked.slice(0, 20);
+    html += '<ul class="edge-list">';
+    shown.forEach(function(e) {{
+      var otherId, otherLabel, otherType;
+      if (e.direction === 'out') {{
+        otherId = e.dst_id; otherLabel = e.dst_label; otherType = e.dst_type;
+        html += '<li>' + esc(e.rel_type) + ' &rarr; ';
+      }} else {{
+        otherId = e.src_id; otherLabel = e.src_label; otherType = e.src_type;
+        html += '<li>';
+      }}
+      var deg = e.degree || 0;
+      var dateStr = _formatDateRange(e.direction === 'out' ? e.dst_metadata : e.src_metadata);
+      html += '<a class="conn-link" onclick="searchNode(\'' + esc(otherId).replace(/'/g, "\\'") + '\')" ' +
+              'title="Click to find this node on the graph (degree: ' + deg + (dateStr ? ', date: ' + dateStr : '') + ')">' +
+              esc(otherLabel) + '</a>';
+      if (e.direction === 'in')
+        html += ' &rarr; ' + esc(e.rel_type);
+      html += ' <span style="color:#999;font-size:10px">(' + deg + ' connections' + (dateStr ? ', ' + dateStr : '') + ')</span>';
+      html += '</li>';
+    }});
     html += '</ul>';
+    if (d.edges.length > 20)
+      html += '<p style="font-size:11px;color:#666">Showing top 20 of ' + d.edges.length + ' by connectivity' +
+              (nodeDate ? ' + temporal proximity' : '') + '.</p>';
     if (d.claims.length > 0) {{
       html += '<p><b>Claims (' + d.claims.length + '):</b></p><ul class="edge-list">';
       d.claims.forEach(function(c) {{
