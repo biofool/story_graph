@@ -629,9 +629,11 @@ h4 {{ margin: 8px 0 4px 0; font-size: 14px; }}
     <button class="btn-sm" onclick="fitGraph()"
             title="Fit — zoom the canvas to show all visible nodes (keyboard: double-click background also fits).">Fit</button>
     <button class="btn-sm" id="filter-toggle" onclick="toggleFilter()"
-            title="Degree filter — for large graphs (>800 nodes), toggles between showing all nodes and only the top 300 by connection count. Auto-enabled on load for large graphs to keep rendering responsive.">Show all</button>
+            title="Degree filter — for large graphs (>800 nodes), toggles between showing all nodes and only the top 100 by connection count. Auto-enabled on load for large graphs to keep rendering responsive.">Show all</button>
     <button class="btn-sm" id="images-toggle" onclick="toggleImagesOnly()"
             title="Images only — show only nodes that have associated images (the 🖼 badge). Click again to return to the previous view. Combined with the degree filter, this shows the most-connected illustrated nodes.">Images only</button>
+    <button class="btn-sm" id="precedes-toggle" onclick="togglePrecedesEdges()"
+            title="PRECEDES edges — temporal ordering between events. Hidden by default because they create O(n²) hairball (7K+ edges). Click to show them.">PRECEDES: hidden</button>
   </div>
   <div id="fallback-view">
     <h3>Graph rendering unavailable — fallback node list</h3>
@@ -877,7 +879,9 @@ var cy = null;              // Cytoscape instance
 var currentImages = [];
 var filteredMode = false;
 var imagesOnlyMode = false;
+var hidePrecedesEdges = true;  // PRECEDES edges create O(n²) hairball — off by default
 var LARGE_GRAPH_THRESHOLD = 800;  // above this, default to top-N by degree
+var TOP_N_NODES = 100;            // reduced from 300 — 300 nodes had 10K+ edges
 
 diag.log('Page loaded, starting initialization');
 diag.set('library', 'loading…');
@@ -981,7 +985,7 @@ function renderGraph() {{
     var ranked = d.nodes.slice().sort(function(a, b) {{
       return (deg[b.id] || 0) - (deg[a.id] || 0);
     }});
-    var topN = ranked.slice(0, 300);
+    var topN = ranked.slice(0, TOP_N_NODES);
     visibleNodeIds = new Set(topN.map(function(n) {{ return n.id; }}));
     diag.log('Filtered to top ' + topN.length + ' nodes by degree (max degree=' + (deg[topN[0].id] || 0) + ')');
   }}
@@ -1024,6 +1028,7 @@ function renderGraph() {{
   }});
   d.edges.forEach(function(e) {{
     if (visibleNodeIds && (!visibleNodeIds.has(e.from) || !visibleNodeIds.has(e.to))) return;
+    if (hidePrecedesEdges && e.label === 'PRECEDES') return;
     elements.push({{
       data: {{ source: e.from, target: e.to, label: e.label }},
     }});
@@ -1129,9 +1134,9 @@ function toggleFilter() {{
   filteredMode = !filteredMode;
   var btn = document.getElementById('filter-toggle');
   if (graphData) {{
-    btn.textContent = filteredMode ? 'Show all (' + graphData.counts.nodes + ')' : 'Filtered (top 300)';
+    btn.textContent = filteredMode ? 'Show all (' + graphData.counts.nodes + ')' : 'Filtered (top ' + TOP_N_NODES + ')';
   }}
-  diag.log('Filter toggled: ' + (filteredMode ? 'ON (top 300 by degree)' : 'OFF (all nodes)'));
+  diag.log('Filter toggled: ' + (filteredMode ? 'ON (top ' + TOP_N_NODES + ' by degree)' : 'OFF (all nodes)'));
   renderGraph();
 }}
 
@@ -1143,6 +1148,18 @@ function toggleImagesOnly() {{
     btn.style.color = imagesOnlyMode ? 'white' : '';
   }}
   diag.log('Images-only filter toggled: ' + (imagesOnlyMode ? 'ON' : 'OFF'));
+  renderGraph();
+}}
+
+function togglePrecedesEdges() {{
+  hidePrecedesEdges = !hidePrecedesEdges;
+  var btn = document.getElementById('precedes-toggle');
+  if (btn) {{
+    btn.textContent = hidePrecedesEdges ? 'PRECEDES: hidden' : 'PRECEDES: shown';
+    btn.style.background = hidePrecedesEdges ? '' : '#f39c12';
+    btn.style.color = hidePrecedesEdges ? '' : 'white';
+  }}
+  diag.log('PRECEDES edges toggled: ' + (hidePrecedesEdges ? 'HIDDEN' : 'SHOWN'));
   renderGraph();
 }}
 
@@ -1294,7 +1311,7 @@ function showNodeDetail(nodeId) {{
       }}
       var deg = e.degree || 0;
       var dateStr = _formatDateRange(e.direction === 'out' ? e.dst_metadata : e.src_metadata);
-      html += '<a class="conn-link" onclick="searchNode(\'' + esc(otherId).replace(/'/g, "\\'") + '\')" ' +
+      html += '<a class="conn-link" onclick="searchNode(\\'' + esc(otherId).replace(/'/g, "\\'") + '\\')" ' +
               'title="Click to find this node on the graph (degree: ' + deg + (dateStr ? ', date: ' + dateStr : '') + ')">' +
               esc(otherLabel) + '</a>';
       if (e.direction === 'in')
