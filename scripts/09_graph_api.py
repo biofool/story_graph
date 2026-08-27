@@ -1016,8 +1016,14 @@ function initGraph() {{
 }}
 
 function _computeDegreeMap(d) {{
+  // Build a set of not_connected node IDs — these are excluded from degree
+  // counting so they don't contribute to the connectivity ranking of
+  // themselves or their neighbors.
+  var ncIds = new Set(d.nodes.filter(function(n) {{ return n.not_connected; }})
+                            .map(function(n) {{ return n.id; }}));
   var deg = {{}};
   d.edges.forEach(function(e) {{
+    if (ncIds.has(e.from) || ncIds.has(e.to)) return;
     deg[e.from] = (deg[e.from] || 0) + 1;
     deg[e.to] = (deg[e.to] || 0) + 1;
   }});
@@ -1027,6 +1033,7 @@ function _computeDegreeMap(d) {{
 function renderGraph() {{
   if (!CYTOSCAPE_LOADED || !graphData) {{
     diag.error('renderGraph called but Cytoscape not loaded or no data');
+    document.getElementById('loading-overlay').classList.add('hidden');
     return;
   }}
   diag.set('render', 'rendering…');
@@ -1034,15 +1041,41 @@ function renderGraph() {{
   var d = graphData;
   var deg = _computeDegreeMap(d);
 
-  // Filter to top-N nodes by degree if in filtered mode
+  // Filter to top-N nodes by degree if in filtered mode.
+  // Not_connected nodes are excluded from the ranking — they don't occupy
+  // a slot. Instead, replacement nodes (next-best by degree that aren't
+  // already visible and aren't not_connected) fill the vacated slots.
   var visibleNodeIds = null;
   if (filteredMode) {{
-    var ranked = d.nodes.slice().sort(function(a, b) {{
+    // Separate active (non-NC) nodes from NC nodes
+    var activeNodes = d.nodes.filter(function(n) {{ return !n.not_connected; }});
+    var ncNodes = d.nodes.filter(function(n) {{ return n.not_connected; }});
+
+    // Rank active nodes by degree (highest first)
+    var ranked = activeNodes.slice().sort(function(a, b) {{
       return (deg[b.id] || 0) - (deg[a.id] || 0);
     }});
     var topN = ranked.slice(0, TOP_N_NODES);
-    visibleNodeIds = new Set(topN.map(function(n) {{ return n.id; }}));
-    diag.log('Filtered to top ' + topN.length + ' nodes by degree (max degree=' + (deg[topN[0].id] || 0) + ')');
+    var topNIds = new Set(topN.map(function(n) {{ return n.id; }}));
+
+    // Include NC nodes that have >1 edge (they stay visible but don't count
+    // toward the top-N slots). NC nodes with 0-1 edges are dropped — no
+    // replacement needed for single-edge nodes.
+    var ncVisible = ncNodes.filter(function(n) {{
+      // Count raw edges (not the degree map, which excludes NC nodes)
+      var rawDeg = 0;
+      d.edges.forEach(function(e) {{
+        if (e.from === n.id || e.to === n.id) rawDeg++;
+      }});
+      return rawDeg > 1;
+    }});
+
+    visibleNodeIds = new Set(topNIds);
+    ncVisible.forEach(function(n) {{ visibleNodeIds.add(n.id); }});
+
+    diag.log('Filtered: top ' + topN.length + ' active nodes (max degree=' +
+             (deg[topN[0].id] || 0) + ') + ' + ncVisible.length +
+             ' not_connected nodes retained (>1 edge)');
   }}
 
   // Images-only filter: intersect visibleNodeIds with nodes that have images.
@@ -1317,19 +1350,23 @@ function searchNode(nodeId) {{
 // --- Mark/unmark node as not connected to core graph ---
 function toggleNotConnected(nodeId, mark) {{
   var endpoint = mark ? 'mark_not_connected' : 'unmark_not_connected';
+  var btn = document.querySelector('[data-action="' + (mark ? 'mark-nc' : 'unmark-nc') + '"]');
+  if (btn) btn.disabled = true;
   fetch('/api/node/' + encodeURIComponent(nodeId) + '/' + endpoint, {{method:'POST'}})
     .then(function(r) {{ return r.json(); }}).then(function(d) {{
       if (d.error) {{
         diag.error('toggleNotConnected failed: ' + d.error);
+        if (btn) btn.disabled = false;
         return;
       }}
       diag.log('Node ' + nodeId + ' ' + (mark ? 'marked' : 'unmarked') + ' as not_connected');
-      // Refresh the detail panel to show the new state
-      showNodeDetail(nodeId);
-      // Refresh the graph to update node styling
-      refreshGraph();
+      // Chain: refresh graph first, then update detail panel after graph is ready
+      refreshGraph().then(function() {{
+        showNodeDetail(nodeId);
+      }});
     }}).catch(function(e) {{
       diag.error('toggleNotConnected fetch failed: ' + e.message);
+      if (btn) btn.disabled = false;
     }});
 }}
 
@@ -1550,11 +1587,11 @@ function showStatus(id, msg, ok) {{
 }}
 
 function refreshGraph() {{
-  if (!CYTOSCAPE_LOADED) {{ renderFallbackTable(); return; }}
-  fetch('/api/graph').then(function(r) {{ return r.json(); }}).then(function(d) {{
+  if (!CYTOSCAPE_LOADED) {{ renderFallbackTable(); return Promise.resolve(); }}
+  document.getElementById('loading-overlay').classList.remove('hidden');
+  return fetch('/api/graph').then(function(r) {{ return r.json(); }}).then(function(d) {{
     graphData = d;
     if (cy) {{ cy.destroy(); cy = null; }}
-    document.getElementById('loading-overlay').classList.remove('hidden');
     renderGraph();
     document.getElementById('counts').textContent =
       d.counts.nodes + ' nodes, ' + d.counts.edges + ' edges, ' + d.counts.sources + ' sources';
@@ -1569,6 +1606,7 @@ function refreshGraph() {{
   }}).catch(function(e) {{
     diag.error('refreshGraph fetch failed: ' + e.message);
     showStatus('node-status', 'Refresh failed: ' + e.message, false);
+    document.getElementById('loading-overlay').classList.add('hidden');
   }});
 }}
 
