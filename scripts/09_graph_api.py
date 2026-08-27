@@ -1350,9 +1350,9 @@ function showNodeDetail(nodeId) {{
     }}
     html += '<div class="node-actions">';
     if (isNC) {{
-      html += '<button class="btn-restore" onclick="toggleNotConnected(\\'' + esc(nodeId) + '\\', false)">Restore to core graph</button>';
+      html += '<button class="btn-restore" data-action="unmark-nc" data-node-id="' + esc(nodeId) + '">Restore to core graph</button>';
     }} else {{
-      html += '<button class="btn-warn" onclick="toggleNotConnected(\\'' + esc(nodeId) + '\\', true)">Mark as not connected</button>';
+      html += '<button class="btn-warn" data-action="mark-nc" data-node-id="' + esc(nodeId) + '">Mark as not connected</button>';
     }}
     html += '</div>';
     if (n.metadata && Object.keys(n.metadata).length > 0)
@@ -1413,9 +1413,12 @@ function showNodeDetail(nodeId) {{
       var dateStr = _formatDateRange(e.direction === 'out' ? e.dst_metadata : e.src_metadata);
       var otherMeta = e.direction === 'out' ? e.dst_metadata : e.src_metadata;
       var otherNC = otherMeta && otherMeta.not_connected;
-      var ncMark = otherNC ? ' <span style="color:#e74c3c;font-size:10px" title="Not connected to core graph">⚠N/C</span>' : '';
-      html += '<a class="conn-link" onclick="searchNode(\\'' + esc(otherId).replace(/'/g, "\\'") + '\\')" ' +
-              'title="Click to find this node on the graph (degree: ' + deg + (dateStr ? ', date: ' + dateStr : '') + (otherNC ? ', NOT CONNECTED' : '') + ')">' +
+      var ncMark = otherNC ? ' <span style="color:#e74c3c;font-size:10px" title="Not connected to core graph">&#9888;N/C</span>' : '';
+      var tooltipParts = ['degree: ' + deg];
+      if (dateStr) tooltipParts.push('date: ' + dateStr);
+      if (otherNC) tooltipParts.push('NOT CONNECTED');
+      html += '<a class="conn-link" data-search-node="' + esc(otherId) + '" ' +
+              'title="' + esc(tooltipParts.join(', ')) + '">' +
               esc(otherLabel) + '</a>' + ncMark;
       if (e.direction === 'in')
         html += ' &rarr; ' + esc(e.rel_type);
@@ -1441,6 +1444,22 @@ function showNodeDetail(nodeId) {{
       html += '</ul>';
     }}
     document.getElementById('detail').innerHTML = html;
+    // Wire up data-attribute-based click handlers (avoids inline JS / XSS risk)
+    var detail = document.getElementById('detail');
+    detail.querySelectorAll('[data-action]').forEach(function(btn) {{
+      btn.addEventListener('click', function() {{
+        var action = this.getAttribute('data-action');
+        var nid = this.getAttribute('data-node-id');
+        if (action === 'mark-nc') toggleNotConnected(nid, true);
+        else if (action === 'unmark-nc') toggleNotConnected(nid, false);
+      }});
+    }});
+    detail.querySelectorAll('[data-search-node]').forEach(function(link) {{
+      link.addEventListener('click', function(e) {{
+        e.preventDefault();
+        searchNode(this.getAttribute('data-search-node'));
+      }});
+    }});
   }}).catch(function(e) {{
     document.getElementById('detail').innerHTML = '<p style="color:#e74c3c">Failed to load details: ' + esc(e.message) + '</p>';
     diag.error('showNodeDetail fetch failed for ' + nodeId + ': ' + e.message);

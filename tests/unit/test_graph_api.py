@@ -294,6 +294,37 @@ class TestNotConnected:
         node = next(n for n in r.get_json()["nodes"] if n["id"] == "person:nc-test")
         assert node["not_connected"] is True
 
+    def test_mark_not_connected_preserves_existing_metadata(self, client):
+        client.post("/api/nodes", json={
+            "type": "Person", "label": "Meta Person",
+            "metadata": {"description": "important", "birth_date": "1969-05"},
+        })
+        r = client.post("/api/node/person:meta-person/mark_not_connected")
+        assert r.status_code == 200
+        r2 = client.get("/api/node/person:meta-person")
+        meta = r2.get_json()["node"]["metadata"]
+        assert meta["not_connected"] is True
+        assert meta["description"] == "important"
+        assert meta["birth_date"] == "1969-05"
+
+    def test_mark_not_connected_idempotent(self, client):
+        client.post("/api/nodes", json={"type": "Person", "label": "Idem NC"})
+        client.post("/api/node/person:idem-nc/mark_not_connected")
+        # Second mark should succeed and not duplicate keys
+        r = client.post("/api/node/person:idem-nc/mark_not_connected")
+        assert r.status_code == 200
+        meta = client.get("/api/node/person:idem-nc").get_json()["node"]["metadata"]
+        assert meta["not_connected"] is True
+        assert "not_connected_set_at" in meta
+
+    def test_unmark_not_connected_idempotent(self, client):
+        client.post("/api/nodes", json={"type": "Person", "label": "Idem NC2"})
+        # Unmark without first marking — should succeed
+        r = client.post("/api/node/person:idem-nc2/unmark_not_connected")
+        assert r.status_code == 200
+        meta = client.get("/api/node/person:idem-nc2").get_json()["node"]["metadata"]
+        assert "not_connected" not in meta
+
 
 # --- GET / (index) ---
 

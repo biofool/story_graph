@@ -1117,9 +1117,12 @@ def _ensure_entity_node(
     name: str,
     entity_type: str,
     group_type: Optional[str],
-    source_url: str = KKRON_SOURCE_URL,
+    source_url: str | None = KKRON_SOURCE_URL,
     also_known_as: Optional[str] = None,
 ) -> str:
+    """Upsert an entity node. Pass source_url=None when the URL is a source
+    for a *claim* about the entity, not for the entity itself (see GitHub #9).
+    """
     node_id = _ENTITY_ID_FN[entity_type](name)
     canonical = _CANONICAL_FN[entity_type](name)
     metadata = {"group_type": group_type} if (entity_type == "group" and group_type) else {}
@@ -1131,7 +1134,7 @@ def _ensure_entity_node(
         label=name,
         canonical_name=canonical,
         metadata=metadata,
-        source_urls=[source_url],
+        source_urls=[source_url] if source_url else [],
     ))
     return node_id
 
@@ -1159,13 +1162,17 @@ def store_lead_claim(db: GraphDB, lead: ResearchLead) -> str:
         wid = KKRON_WORK_ID
         evidence_url = KKRON_SOURCE_URL
 
+    # For kkron-sourced leads, the URL is a source for the *claim*, not for
+    # the entity nodes — pass None to avoid polluting entity source_urls (#9).
+    # Citation and public-record leads pass their real URL.
+    entity_source_url = None if kind == "kkron" else evidence_url
     subject_id = _ensure_entity_node(
         db, lead.subject_name, lead.subject_type, lead.subject_group_type,
-        source_url=evidence_url, also_known_as=lead.subject_also_known_as,
+        source_url=entity_source_url, also_known_as=lead.subject_also_known_as,
     )
     object_id = _ensure_entity_node(
         db, lead.object_name, lead.object_type, lead.object_group_type,
-        source_url=evidence_url, also_known_as=lead.object_also_known_as,
+        source_url=entity_source_url, also_known_as=lead.object_also_known_as,
     )
 
     claim = build_claim_record(lead)
