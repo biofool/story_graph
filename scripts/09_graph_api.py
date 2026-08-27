@@ -462,11 +462,44 @@ def _build_viz_html() -> str:
 <html>
 <head>
 <title>Story Graph — {n_nodes} nodes / {n_edges} edges</title>
-<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+<!-- Multi-CDN fallback for Cytoscape.js: try unpkg, then jsdelivr, then cdnjs.
+     If all fail, the diagnostic panel shows the error and a fallback table
+     view is rendered instead of a blank canvas. -->
+<script>
+var CYTOSCAPE_LOADED = false;
+var CYTOSCAPE_SOURCE = null;
+function _tryLoadCytoscape(srcs, idx) {{
+  if (idx >= srcs.length) {{
+    diag.error('Cytoscape.js failed to load from all CDNs: ' + srcs.join(', '));
+    diag.set('library', 'FAILED (all CDNs unreachable)');
+    renderFallbackTable();
+    return;
+  }}
+  var s = document.createElement('script');
+  s.src = srcs[idx];
+  s.onload = function() {{
+    if (typeof cytoscape !== 'undefined') {{
+      CYTOSCAPE_LOADED = true;
+      CYTOSCAPE_SOURCE = srcs[idx];
+      diag.set('library', 'Cytoscape.js loaded from ' + srcs[idx].split('/')[2]);
+      diag.log('Cytoscape.js loaded successfully from ' + srcs[idx]);
+      initGraph();
+    }} else {{
+      diag.warn('Script loaded but cytoscape undefined from ' + srcs[idx]);
+      _tryLoadCytoscape(srcs, idx + 1);
+    }}
+  }};
+  s.onerror = function() {{
+    diag.warn('CDN failed: ' + srcs[idx]);
+    _tryLoadCytoscape(srcs, idx + 1);
+  }};
+  document.head.appendChild(s);
+}}
+</script>
 <style>
 body {{ font-family: sans-serif; margin: 0; padding: 0; }}
-#network {{ width: 65%; height: 100vh; float: left; }}
-#sidebar {{ width: 35%; height: 100vh; float: right; overflow-y: auto;
+#network {{ width: 65%; height: calc(100vh - 30px); float: left; position: relative; }}
+#sidebar {{ width: 35%; height: calc(100vh - 30px); float: right; overflow-y: auto;
             padding: 12px; box-sizing: border-box; background: #f8f9fa;
             border-left: 1px solid #ddd; }}
 #search {{ width: 100%; padding: 6px; margin-bottom: 8px; font-size: 13px; }}
@@ -496,6 +529,7 @@ h4 {{ margin: 8px 0 4px 0; font-size: 14px; }}
 .btn:hover {{ background: #27ae60; }}
 .btn-export {{ background: #f39c12; }}
 .btn-export:hover {{ background: #e67e22; }}
+.btn-sm {{ padding: 3px 8px; font-size: 11px; }}
 .status {{ font-size: 11px; padding: 4px; margin: 4px 0; border-radius: 3px; }}
 .status.ok {{ background: #d4edda; color: #155724; }}
 .status.err {{ background: #f8d7da; color: #721c24; }}
@@ -514,10 +548,76 @@ h4 {{ margin: 8px 0 4px 0; font-size: 14px; }}
 #lightbox .caption a {{ color: #7fd6ff; }}
 #lightbox-close {{ position: absolute; top: 16px; right: 24px; color: #fff;
                     font-size: 24px; cursor: pointer; }}
+/* --- Diagnostic bar --- */
+#diag-bar {{ position: fixed; bottom: 0; left: 0; right: 0; height: 24px;
+             background: #2c3e50; color: #ecf0f1; font-size: 11px;
+             display: flex; align-items: center; padding: 0 8px; gap: 12px;
+             z-index: 999; font-family: monospace; }}
+#diag-bar .diag-item {{ white-space: nowrap; }}
+#diag-bar .diag-ok {{ color: #2ecc71; }}
+#diag-bar .diag-warn {{ color: #f39c12; }}
+#diag-bar .diag-err {{ color: #e74c3c; }}
+#diag-toggle {{ cursor: pointer; margin-left: auto; text-decoration: underline; }}
+#diag-panel {{ display: none; position: fixed; bottom: 24px; right: 0; width: 400px;
+               max-height: 300px; overflow-y: auto; background: #1a1a2e; color: #a0a0b0;
+               font-size: 11px; font-family: monospace; padding: 8px; z-index: 1001;
+               border: 1px solid #444; }}
+#diag-panel.open {{ display: block; }}
+#diag-panel .log-line {{ margin: 2px 0; }}
+#diag-panel .log-err {{ color: #e74c3c; }}
+#diag-panel .log-warn {{ color: #f39c12; }}
+#diag-panel .log-ok {{ color: #2ecc71; }}
+/* --- Loading overlay --- */
+#loading-overlay {{ position: absolute; inset: 0; background: rgba(255,255,255,0.9);
+                    display: flex; align-items: center; justify-content: center;
+                    flex-direction: column; z-index: 100; }}
+#loading-overlay.hidden {{ display: none; }}
+.spinner {{ width: 40px; height: 40px; border: 4px solid #ddd;
+            border-top: 4px solid #3498db; border-radius: 50%;
+            animation: spin 1s linear infinite; }}
+@keyframes spin {{ 0% {{ transform: rotate(0deg); }} 100% {{ transform: rotate(360deg); }} }}
+/* --- Fallback table --- */
+#fallback-view {{ display: none; padding: 16px; overflow-y: auto; height: 100%; }}
+#fallback-view table {{ width: 100%; border-collapse: collapse; font-size: 12px; }}
+#fallback-view th, #fallback-view td {{ padding: 4px 8px; border-bottom: 1px solid #eee; text-align: left; }}
+#fallback-view th {{ background: #f0f0f0; cursor: pointer; }}
+/* --- Graph controls --- */
+.graph-controls {{ position: absolute; top: 8px; left: 8px; z-index: 50;
+                   display: flex; gap: 4px; flex-wrap: wrap; }}
+.graph-controls select, .graph-controls button {{
+  padding: 3px 8px; font-size: 11px; border: 1px solid #ccc; border-radius: 3px; }}
 </style>
 </head>
 <body>
-<div id="network"></div>
+<div id="network">
+  <div id="loading-overlay">
+    <div class="spinner"></div>
+    <p style="margin-top:12px;color:#555">Loading graph data…</p>
+  </div>
+  <div class="graph-controls" id="graph-controls" style="display:none">
+    <select id="layout-select" onchange="changeLayout()"
+            title="Layout algorithm — how nodes are arranged on the canvas. Concentric: highest-degree nodes in the center. COSE: force-directed (spreads connected nodes apart). Circle: ring. Grid: regular grid. Breadth-first: tree by edge direction.">
+      <option value="concentric">Concentric (by degree)</option>
+      <option value="cose">Force-directed (COSE)</option>
+      <option value="circle">Circle</option>
+      <option value="grid">Grid</option>
+      <option value="breadthfirst">Breadth-first</option>
+    </select>
+    <button class="btn-sm" onclick="fitGraph()"
+            title="Fit — zoom the canvas to show all visible nodes (keyboard: double-click background also fits).">Fit</button>
+    <button class="btn-sm" id="filter-toggle" onclick="toggleFilter()"
+            title="Degree filter — for large graphs (>800 nodes), toggles between showing all nodes and only the top 300 by connection count. Auto-enabled on load for large graphs to keep rendering responsive.">Show all</button>
+    <button class="btn-sm" id="images-toggle" onclick="toggleImagesOnly()"
+            title="Images only — show only nodes that have associated images (the 🖼 badge). Click again to return to the previous view. Combined with the degree filter, this shows the most-connected illustrated nodes.">Images only</button>
+  </div>
+  <div id="fallback-view">
+    <h3>Graph rendering unavailable — fallback node list</h3>
+    <p style="font-size:12px;color:#666">Cytoscape.js could not be loaded. See diagnostic panel for details.</p>
+    <input id="fallback-search" type="text" placeholder="Filter…" oninput="filterFallback()"
+           style="width:100%;padding:4px;margin-bottom:8px">
+    <table id="fallback-table"><thead><tr><th>Type</th><th>Label</th><th>ID</th></tr></thead><tbody></tbody></table>
+  </div>
+</div>
 <div id="sidebar">
   <h3>Story Graph Browser + Enrichment</h3>
   <p id="counts">{n_nodes} nodes, {n_edges} edges, {n_sources} sources</p>
@@ -683,88 +783,358 @@ h4 {{ margin: 8px 0 4px 0; font-size: 14px; }}
   <div class="caption" id="lightbox-caption"></div>
 </div>
 
+<!-- Diagnostic bar + expandable panel -->
+<div id="diag-bar">
+  <span class="diag-item" id="diag-library">library: …</span>
+  <span class="diag-item" id="diag-data">data: …</span>
+  <span class="diag-item" id="diag-render">render: …</span>
+  <span class="diag-item" id="diag-nodes">nodes: …</span>
+  <span class="diag-toggle" onclick="toggleDiagPanel()">diagnostics ▾</span>
+</div>
+<div id="diag-panel"></div>
+
 <script>
+// ============================================================
+// Diagnostic system — logs every step of graph initialization
+// so failures are never silent. The bar at the bottom shows
+// live status; the expandable panel shows the full log.
+// ============================================================
+var diag = (function() {{
+  var entries = [];
+  var panel = document.getElementById('diag-panel');
+  var bar = {{
+    library: document.getElementById('diag-library'),
+    data: document.getElementById('diag-data'),
+    render: document.getElementById('diag-render'),
+    nodes: document.getElementById('diag-nodes'),
+  }};
+  function _cls(level) {{ return level === 'error' ? 'diag-err' : level === 'warn' ? 'diag-warn' : 'diag-ok'; }}
+  function _logCls(level) {{ return level === 'error' ? 'log-err' : level === 'warn' ? 'log-warn' : 'log-ok'; }}
+  function _push(level, msg) {{
+    var ts = new Date().toLocaleTimeString();
+    entries.push({{ts: ts, level: level, msg: msg}});
+    if (panel) {{
+      var div = document.createElement('div');
+      div.className = 'log-line ' + _logCls(level);
+      div.textContent = '[' + ts + '] ' + level.toUpperCase() + ': ' + msg;
+      panel.appendChild(div);
+      panel.scrollTop = panel.scrollHeight;
+    }}
+    if (level === 'error') console.error('[diag] ' + msg);
+    else if (level === 'warn') console.warn('[diag] ' + msg);
+    else console.log('[diag] ' + msg);
+  }}
+  return {{
+    log: function(msg) {{ _push('info', msg); }},
+    ok: function(msg) {{ _push('ok', msg); }},
+    warn: function(msg) {{ _push('warn', msg); }},
+    error: function(msg) {{ _push('error', msg); }},
+    set: function(key, val) {{
+      if (bar[key]) {{ bar[key].textContent = key + ': ' + val; bar[key].className = 'diag-item ' + _cls('ok'); }}
+    }},
+    setWarn: function(key, val) {{
+      if (bar[key]) {{ bar[key].textContent = key + ': ' + val; bar[key].className = 'diag-item ' + _cls('warn'); }}
+    }},
+    setErr: function(key, val) {{
+      if (bar[key]) {{ bar[key].textContent = key + ': ' + val; bar[key].className = 'diag-item ' + _cls('err'); }}
+    }},
+    getEntries: function() {{ return entries; }},
+  }};
+}})();
+
+function toggleDiagPanel() {{ document.getElementById('diag-panel').classList.toggle('open'); }}
+
+// ============================================================
+// Graph data + Cytoscape.js rendering
+// ============================================================
 var allNodeOptions = {node_options};
 var allSourceOptions = {source_options};
+var graphData = null;       // raw API response
+var cy = null;              // Cytoscape instance
+var currentImages = [];
+var filteredMode = false;
+var imagesOnlyMode = false;
+var LARGE_GRAPH_THRESHOLD = 800;  // above this, default to top-N by degree
 
-// Populate dropdowns
-function populateDropdowns() {{
-  var edgeSrc = document.getElementById('edge-src');
-  var edgeDst = document.getElementById('edge-dst');
-  var claimAbout = document.getElementById('claim-about');
-  var claimAsserted = document.getElementById('claim-asserted');
-  allNodeOptions.forEach(function(n) {{
-    var opt1 = document.createElement('option');
-    opt1.value = n.id; opt1.text = '[' + n.type + '] ' + n.label;
-    edgeSrc.appendChild(opt1.cloneNode(true));
-    edgeDst.appendChild(opt1.cloneNode(true));
-    if (n.type === 'Person') {{
-      var opt2 = document.createElement('option');
-      opt2.value = n.id; opt2.text = n.label;
-      claimAsserted.appendChild(opt2);
-    }}
-    // Only non-Claim nodes as claim targets
-    if (n.type !== 'Claim') {{
-      var opt3 = document.createElement('option');
-      opt3.value = n.id; opt3.text = '[' + n.type + '] ' + n.label;
-      claimAbout.appendChild(opt3);
-    }}
+diag.log('Page loaded, starting initialization');
+diag.set('library', 'loading…');
+
+// --- Multi-CDN Cytoscape.js loading ---
+(function() {{
+  var cdns = [
+    'https://unpkg.com/cytoscape@3.30.2/dist/cytoscape.min.js',
+    'https://cdn.jsdelivr.net/npm/cytoscape@3.30.2/dist/cytoscape.min.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.30.2/cytoscape.min.js',
+  ];
+  diag.log('Attempting to load Cytoscape.js from ' + cdns.length + ' CDNs');
+  _tryLoadCytoscape(cdns, 0);
+}})();
+
+// --- Fallback: searchable HTML table if Cytoscape.js fails ---
+function renderFallbackTable() {{
+  document.getElementById('loading-overlay').classList.add('hidden');
+  document.getElementById('graph-controls').style.display = 'none';
+  document.getElementById('fallback-view').style.display = 'block';
+  diag.log('Rendering fallback table view');
+  fetch('/api/graph').then(function(r) {{ return r.json(); }}).then(function(d) {{
+    var tbody = document.querySelector('#fallback-table tbody');
+    tbody.innerHTML = '';
+    d.nodes.forEach(function(n) {{
+      var tr = document.createElement('tr');
+      tr.innerHTML = '<td>' + esc(n.group) + '</td><td>' + esc(n.label) + '</td><td>' + esc(n.id) + '</td>';
+      tr.onclick = function() {{ showNodeDetail(n.id); }};
+      tbody.appendChild(tr);
+    }});
+    diag.set('nodes', d.counts.nodes + ' nodes');
+    diag.set('data', 'OK (fallback)');
+  }}).catch(function(e) {{
+    diag.setErr('data', 'FETCH FAILED');
+    diag.error('Fallback table fetch failed: ' + e);
   }});
 }}
 
-// --- Network ---
-var nodes, edges, network, data;
-var currentImages = [];
-
-function openLightbox(i) {{
-  var img = currentImages[i];
-  if (!img) return;
-  document.getElementById('lightbox-img').src = img.full_url;
-  var cap = (img.alt || '(no caption)');
-  if (img.source_urls && img.source_urls.length > 0) {{
-    cap += ' &middot; <a href="' + img.source_urls[0] + '" target="_blank">source</a>';
-  }}
-  document.getElementById('lightbox-caption').innerHTML = cap;
-  document.getElementById('lightbox').classList.add('open');
+function filterFallback() {{
+  var q = document.getElementById('fallback-search').value.toLowerCase();
+  document.querySelectorAll('#fallback-table tbody tr').forEach(function(tr) {{
+    tr.style.display = tr.textContent.toLowerCase().indexOf(q) >= 0 ? '' : 'none';
+  }});
 }}
 
-function closeLightbox(e) {{
-  if (e && e.target && e.target.id === 'lightbox-img') return;
-  document.getElementById('lightbox').classList.remove('open');
-}}
-function initNetwork() {{
-  fetch('/api/graph').then(r => r.json()).then(d => {{
-    nodes = new vis.DataSet(d.nodes);
-    edges = new vis.DataSet(d.edges);
-    data = {{ nodes: nodes, edges: edges }};
-    var container = document.getElementById('network');
-    var options = {{
-      nodes: {{ shape: 'dot', size: 16 }},
-      edges: {{ width: 0.5, smooth: {{ type: 'continuous' }} }},
-      physics: {{ barnesHut: {{ gravitationalConstant: -3000, springLength: 120 }},
-                  stabilization: {{ iterations: 100 }} }},
-      interaction: {{ hover: true, tooltipDelay: 200 }}
-    }};
-    network = new vis.Network(container, data, options);
+// --- Main graph initialization (called after Cytoscape.js loads) ---
+function initGraph() {{
+  diag.set('data', 'fetching…');
+  var t0 = performance.now();
+  fetch('/api/graph').then(function(r) {{
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  }}).then(function(d) {{
+    var fetchMs = Math.round(performance.now() - t0);
+    graphData = d;
+    diag.set('data', 'OK (' + fetchMs + 'ms)');
+    diag.set('nodes', d.counts.nodes + ' nodes, ' + d.counts.edges + ' edges');
+    diag.log('Fetched ' + d.counts.nodes + ' nodes, ' + d.counts.edges + ' edges, ' + d.counts.sources + ' sources in ' + fetchMs + 'ms');
     document.getElementById('counts').textContent =
       d.counts.nodes + ' nodes, ' + d.counts.edges + ' edges, ' + d.counts.sources + ' sources';
-    network.on('click', function(params) {{
-      if (params.nodes.length > 0) showNodeDetail(params.nodes[0]);
-    }});
+
+    // Auto-degradation: for large graphs, default to top-N nodes by degree
+    if (d.counts.nodes > LARGE_GRAPH_THRESHOLD) {{
+      diag.warn('Graph has ' + d.counts.nodes + ' nodes (>' + LARGE_GRAPH_THRESHOLD + '), enabling degree filter');
+      filteredMode = true;
+      document.getElementById('filter-toggle').textContent = 'Show all (' + d.counts.nodes + ')';
+    }}
+
+    renderGraph();
+  }}).catch(function(e) {{
+    diag.setErr('data', 'FETCH FAILED');
+    diag.error('Failed to fetch /api/graph: ' + e.message);
+    document.getElementById('loading-overlay').innerHTML =
+      '<p style="color:#e74c3c">Failed to load graph data: ' + esc(e.message) + '</p>' +
+      '<button class="btn" onclick="location.reload()">Retry</button>';
   }});
 }}
 
+function _computeDegreeMap(d) {{
+  var deg = {{}};
+  d.edges.forEach(function(e) {{
+    deg[e.from] = (deg[e.from] || 0) + 1;
+    deg[e.to] = (deg[e.to] || 0) + 1;
+  }});
+  return deg;
+}}
+
+function renderGraph() {{
+  if (!CYTOSCAPE_LOADED || !graphData) {{
+    diag.error('renderGraph called but Cytoscape not loaded or no data');
+    return;
+  }}
+  diag.set('render', 'rendering…');
+  var t0 = performance.now();
+  var d = graphData;
+  var deg = _computeDegreeMap(d);
+
+  // Filter to top-N nodes by degree if in filtered mode
+  var visibleNodeIds = null;
+  if (filteredMode) {{
+    var ranked = d.nodes.slice().sort(function(a, b) {{
+      return (deg[b.id] || 0) - (deg[a.id] || 0);
+    }});
+    var topN = ranked.slice(0, 300);
+    visibleNodeIds = new Set(topN.map(function(n) {{ return n.id; }}));
+    diag.log('Filtered to top ' + topN.length + ' nodes by degree (max degree=' + (deg[topN[0].id] || 0) + ')');
+  }}
+
+  // Images-only filter: intersect visibleNodeIds with nodes that have images.
+  // If visibleNodeIds is null (no degree filter), start from all nodes.
+  if (imagesOnlyMode) {{
+    var withImages = d.nodes.filter(function(n) {{ return n.has_images; }});
+    var imgIds = new Set(withImages.map(function(n) {{ return n.id; }}));
+    if (visibleNodeIds) {{
+      // Intersect with existing degree filter
+      var intersected = new Set();
+      visibleNodeIds.forEach(function(id) {{ if (imgIds.has(id)) intersected.add(id); }});
+      visibleNodeIds = intersected;
+    }} else {{
+      visibleNodeIds = imgIds;
+    }}
+    diag.log('Images-only filter: ' + withImages.length + ' nodes have images, ' +
+             (visibleNodeIds ? visibleNodeIds.size : 0) + ' visible after combining with degree filter');
+  }}
+
+  // Build Cytoscape elements
+  var elements = [];
+  var nodeColors = {{
+    Person: '#e74c3c', Group: '#3498db', Place: '#2ecc71',
+    Event: '#f39c12', Work: '#9b59b6', Claim: '#95a5a6',
+  }};
+  d.nodes.forEach(function(n) {{
+    if (visibleNodeIds && !visibleNodeIds.has(n.id)) return;
+    elements.push({{
+      data: {{
+        id: n.id,
+        label: n.label,
+        group: n.group,
+        hasImages: n.has_images,
+        imageCount: n.image_count,
+        degree: deg[n.id] || 0,
+      }},
+    }});
+  }});
+  d.edges.forEach(function(e) {{
+    if (visibleNodeIds && (!visibleNodeIds.has(e.from) || !visibleNodeIds.has(e.to))) return;
+    elements.push({{
+      data: {{ source: e.from, target: e.to, label: e.label }},
+    }});
+  }});
+
+  diag.log('Rendering ' + elements.length + ' elements (' + d.nodes.length + ' total nodes)');
+
+  try {{
+    if (cy) {{ cy.destroy(); cy = null; }}
+    cy = cytoscape({{
+      container: document.getElementById('network'),
+      elements: elements,
+      style: [
+        {{ selector: 'node', style: {{
+          'background-color': function(ele) {{ return nodeColors[ele.data('group')] || '#bdc3c7'; }},
+          'label': 'data(label)',
+          'width': function(ele) {{ var dg = ele.data('degree'); return Math.min(30, 8 + dg * 0.8); }},
+          'height': function(ele) {{ var dg = ele.data('degree'); return Math.min(30, 8 + dg * 0.8); }},
+          'font-size': '8px',
+          'text-valign': 'bottom',
+          'text-halign': 'center',
+          'text-max-width': '80px',
+          'text-wrap': 'ellipsis',
+          'color': '#333',
+          'border-width': function(ele) {{ return ele.data('hasImages') ? 3 : 0; }},
+          'border-color': '#16a085',
+        }} }},
+        {{ selector: 'node:selected', style: {{
+          'border-width': 4, 'border-color': '#2c3e50',
+        }} }},
+        {{ selector: 'edge', style: {{
+          'width': 0.5,
+          'line-color': '#bdc3c7',
+          'line-opacity': 0.4,
+          'target-arrow-color': '#bdc3c7',
+          'target-arrow-shape': 'triangle',
+          'arrow-scale': 0.6,
+          'curve-style': 'bezier',
+        }} }},
+        {{ selector: 'edge:selected', style: {{
+          'line-color': '#e74c3c', 'target-arrow-color': '#e74c3c',
+          'width': 2, 'line-opacity': 1,
+        }} }},
+      ],
+      layout: getLayoutOpts(document.getElementById('layout-select').value, deg),
+    }});
+
+    cy.on('tap', 'node', function(evt) {{
+      showNodeDetail(evt.target.id());
+    }});
+
+    document.getElementById('loading-overlay').classList.add('hidden');
+    document.getElementById('graph-controls').style.display = 'flex';
+
+    var renderMs = Math.round(performance.now() - t0);
+    diag.set('render', 'OK (' + renderMs + 'ms)');
+    diag.ok('Graph rendered in ' + renderMs + 'ms');
+  }} catch(e) {{
+    diag.setErr('render', 'ERROR');
+    diag.error('Cytoscape render failed: ' + e.message);
+    document.getElementById('loading-overlay').innerHTML =
+      '<p style="color:#e74c3c">Render error: ' + esc(e.message) + '</p>' +
+      '<button class="btn" onclick="renderFallbackTable()">Use table view</button>';
+  }}
+}}
+
+function getLayoutOpts(name, deg) {{
+  switch(name) {{
+    case 'cose':
+      return {{ name: 'cose', animate: false, nodeRepulsion: 8000, idealEdgeLength: 50, nodeOverlap: 4, randomize: false }};
+    case 'circle':
+      return {{ name: 'circle', animate: false }};
+    case 'grid':
+      return {{ name: 'grid', animate: false }};
+    case 'breadthfirst':
+      return {{ name: 'breadthfirst', animate: false, directed: true, padding: 10 }};
+    case 'concentric':
+    default:
+      return {{
+        name: 'concentric', animate: false,
+        concentric: function(ele) {{ return ele.data('degree') || 1; }},
+        levelWidth: function() {{ return 2; }},
+        minNodeSpacing: 4,
+      }};
+  }}
+}}
+
+function changeLayout() {{
+  if (!cy || !graphData) return;
+  var name = document.getElementById('layout-select').value;
+  var deg = _computeDegreeMap(graphData);
+  diag.log('Changing layout to ' + name);
+  try {{
+    cy.layout(getLayoutOpts(name, deg)).run();
+  }} catch(e) {{
+    diag.error('Layout "' + name + '" failed: ' + e.message);
+  }}
+}}
+
+function fitGraph() {{ if (cy) {{ try {{ cy.fit(undefined, 30); }} catch(e) {{ diag.warn('fit failed: ' + e); }} }} }}
+
+function toggleFilter() {{
+  filteredMode = !filteredMode;
+  var btn = document.getElementById('filter-toggle');
+  if (graphData) {{
+    btn.textContent = filteredMode ? 'Show all (' + graphData.counts.nodes + ')' : 'Filtered (top 300)';
+  }}
+  diag.log('Filter toggled: ' + (filteredMode ? 'ON (top 300 by degree)' : 'OFF (all nodes)'));
+  renderGraph();
+}}
+
+function toggleImagesOnly() {{
+  imagesOnlyMode = !imagesOnlyMode;
+  var btn = document.getElementById('images-toggle');
+  if (btn) {{
+    btn.style.background = imagesOnlyMode ? '#16a085' : '';
+    btn.style.color = imagesOnlyMode ? 'white' : '';
+  }}
+  diag.log('Images-only filter toggled: ' + (imagesOnlyMode ? 'ON' : 'OFF'));
+  renderGraph();
+}}
+
+// --- Node detail panel ---
 function showNodeDetail(nodeId) {{
-  fetch('/api/node/' + encodeURIComponent(nodeId)).then(r => r.json()).then(d => {{
+  fetch('/api/node/' + encodeURIComponent(nodeId)).then(function(r) {{ return r.json(); }}).then(function(d) {{
     var n = d.node;
-    var html = '<h4>' + n.label + '</h4>';
-    html += '<p><b>ID:</b> ' + n.id + '<br><b>Type:</b> ' + n.type + '</p>';
+    var html = '<h4>' + esc(n.label) + '</h4>';
+    html += '<p><b>ID:</b> ' + esc(n.id) + '<br><b>Type:</b> ' + esc(n.type) + '</p>';
     if (n.metadata && Object.keys(n.metadata).length > 0)
-      html += '<pre>' + JSON.stringify(n.metadata, null, 2) + '</pre>';
+      html += '<pre>' + esc(JSON.stringify(n.metadata, null, 2)) + '</pre>';
     if (n.source_urls && n.source_urls.length > 0) {{
       html += '<p><b>Source URLs:</b><br>';
       n.source_urls.forEach(function(u) {{
-        html += '<a href="' + u + '" target="_blank">' + u + '</a><br>';
+        html += '<a href="' + esc(u) + '" target="_blank">' + esc(u) + '</a><br>';
       }});
       html += '</p>';
     }}
@@ -772,49 +1142,75 @@ function showNodeDetail(nodeId) {{
     if (currentImages.length > 0) {{
       html += '<p><b>Images (' + currentImages.length + '):</b></p><div class="image-gallery">';
       currentImages.forEach(function(img, i) {{
-        html += '<img src="' + img.thumb_url + '" alt="' + (img.alt || '') +
+        html += '<img src="' + esc(img.thumb_url) + '" alt="' + esc(img.alt || '') +
                 '" loading="lazy" onclick="openLightbox(' + i + ')" ' +
-                "onerror=\"this.style.visibility='hidden'\">";
+                "onerror=\\"this.style.visibility='hidden'\\" />";
       }});
       html += '</div>';
     }}
     html += '<p><b>Connections (' + d.edges.length + '):</b></p><ul class="edge-list">';
     d.edges.slice(0, 50).forEach(function(e) {{
       if (e.direction === 'out')
-        html += '<li>' + e.rel_type + ' → ' + e.dst_label + '</li>';
+        html += '<li>' + esc(e.rel_type) + ' &rarr; ' + esc(e.dst_label) + '</li>';
       else
-        html += '<li>' + e.src_label + ' → ' + e.rel_type + '</li>';
+        html += '<li>' + esc(e.src_label) + ' &rarr; ' + esc(e.rel_type) + '</li>';
     }});
     if (d.edges.length > 50) html += '<li>... ' + (d.edges.length - 50) + ' more</li>';
     html += '</ul>';
     if (d.claims.length > 0) {{
       html += '<p><b>Claims (' + d.claims.length + '):</b></p><ul class="edge-list">';
       d.claims.forEach(function(c) {{
-        html += '<li>[' + (c.metadata.stance||'?') + ', conf=' + (c.metadata.confidence||'?') +
-                '] ' + c.label.substring(0,80) + '</li>';
+        html += '<li>[' + esc(c.metadata.stance||'?') + ', conf=' + esc(String(c.metadata.confidence||'?')) +
+                '] ' + esc(c.label.substring(0,80)) + '</li>';
       }});
       html += '</ul>';
     }}
     document.getElementById('detail').innerHTML = html;
+  }}).catch(function(e) {{
+    document.getElementById('detail').innerHTML = '<p style="color:#e74c3c">Failed to load details: ' + esc(e.message) + '</p>';
+    diag.error('showNodeDetail fetch failed for ' + nodeId + ': ' + e.message);
   }});
 }}
 
+// --- Search/filter ---
 function filterNodes() {{
   var q = document.getElementById('search').value.toLowerCase();
-  if (q.length === 0) {{ network.setData(data); return; }}
-  var all = nodes.get();
-  var matches = all.filter(function(n) {{ return n.label.toLowerCase().indexOf(q) >= 0; }});
-  var matchIds = new Set(matches.map(function(n) {{ return n.id; }}));
-  var connectedIds = new Set(matchIds);
-  edges.get().forEach(function(e) {{
-    if (matchIds.has(e.from)) connectedIds.add(e.to);
-    if (matchIds.has(e.to)) connectedIds.add(e.from);
+  if (!cy) return;
+  if (q.length === 0) {{
+    cy.elements().style('opacity', 1);
+    return;
+  }}
+  cy.elements().style('opacity', 0.1);
+  var matched = cy.nodes().filter(function(n) {{
+    return (n.data('label') || '').toLowerCase().indexOf(q) >= 0;
   }});
-  var fn = all.filter(function(n) {{ return connectedIds.has(n.id); }});
-  var fe = edges.get().filter(function(e) {{
-    return connectedIds.has(e.from) && connectedIds.has(e.to);
-  }});
-  network.setData({{ nodes: new vis.DataSet(fn), edges: new vis.DataSet(fe) }});
+  matched.style('opacity', 1);
+  matched.neighborhood().style('opacity', 1);
+  if (matched.length > 0) {{ try {{ cy.animate({{ fit: {{ eles: matched.union(matched.neighborhood()), padding: 30 }} }}, {{ duration: 300 }}); }} catch(e) {{}} }}
+}}
+
+// --- Lightbox ---
+function openLightbox(i) {{
+  var img = currentImages[i];
+  if (!img) return;
+  document.getElementById('lightbox-img').src = img.full_url;
+  var cap = esc(img.alt || '(no caption)');
+  if (img.source_urls && img.source_urls.length > 0) {{
+    cap += ' &middot; <a href="' + esc(img.source_urls[0]) + '" target="_blank">source</a>';
+  }}
+  document.getElementById('lightbox-caption').innerHTML = cap;
+  document.getElementById('lightbox').classList.add('open');
+}}
+function closeLightbox(e) {{
+  if (e && e.target && e.target.id === 'lightbox-img') return;
+  document.getElementById('lightbox').classList.remove('open');
+}}
+
+// --- HTML escape (prevents XSS from crawled alt text / labels) ---
+function esc(s) {{
+  if (!s) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
 }}
 
 // --- Tabs ---
@@ -825,22 +1221,49 @@ function showTab(name) {{
   document.getElementById('tab-' + name).classList.add('active');
 }}
 
+// --- Dropdowns ---
+function populateDropdowns() {{
+  var edgeSrc = document.getElementById('edge-src');
+  var edgeDst = document.getElementById('edge-dst');
+  var claimAbout = document.getElementById('claim-about');
+  var claimAsserted = document.getElementById('claim-asserted');
+  if (!edgeSrc) return;
+  allNodeOptions.forEach(function(n) {{
+    var opt1 = document.createElement('option');
+    opt1.value = n.id; opt1.text = '[' + n.type + '] ' + n.label;
+    edgeSrc.appendChild(opt1.cloneNode(true));
+    edgeDst.appendChild(opt1.cloneNode(true));
+    if (n.type === 'Person') {{
+      var opt2 = document.createElement('option');
+      opt2.value = n.id; opt2.text = n.label;
+      claimAsserted.appendChild(opt2);
+    }}
+    if (n.type !== 'Claim') {{
+      var opt3 = document.createElement('option');
+      opt3.value = n.id; opt3.text = '[' + n.type + '] ' + n.label;
+      claimAbout.appendChild(opt3);
+    }}
+  }});
+}}
+populateDropdowns();
+
 // --- Enrichment API calls ---
 function showStatus(id, msg, ok) {{
   var el = document.getElementById(id);
-  el.innerHTML = '<div class="status ' + (ok ? 'ok' : 'err') + '">' + msg + '</div>';
+  if (!el) return;
+  el.innerHTML = '<div class="status ' + (ok ? 'ok' : 'err') + '">' + esc(msg) + '</div>';
   setTimeout(function() {{ el.innerHTML = ''; }}, 5000);
 }}
 
 function refreshGraph() {{
-  fetch('/api/graph').then(r => r.json()).then(d => {{
-    nodes = new vis.DataSet(d.nodes);
-    edges = new vis.DataSet(d.edges);
-    data = {{ nodes: nodes, edges: edges }};
-    network.setData(data);
+  if (!CYTOSCAPE_LOADED) {{ renderFallbackTable(); return; }}
+  fetch('/api/graph').then(function(r) {{ return r.json(); }}).then(function(d) {{
+    graphData = d;
+    if (cy) {{ cy.destroy(); cy = null; }}
+    document.getElementById('loading-overlay').classList.remove('hidden');
+    renderGraph();
     document.getElementById('counts').textContent =
       d.counts.nodes + ' nodes, ' + d.counts.edges + ' edges, ' + d.counts.sources + ' sources';
-    // Refresh dropdowns
     allNodeOptions = d.nodes.map(function(n) {{
       return {{ id: n.id, label: n.label, type: n.group }};
     }});
@@ -849,6 +1272,9 @@ function refreshGraph() {{
     document.getElementById('claim-about').innerHTML = '';
     document.getElementById('claim-asserted').innerHTML = '<option value="">— none —</option>';
     populateDropdowns();
+  }}).catch(function(e) {{
+    diag.error('refreshGraph fetch failed: ' + e.message);
+    showStatus('node-status', 'Refresh failed: ' + e.message, false);
   }});
 }}
 
@@ -857,19 +1283,19 @@ function addNode() {{
   var body = {{
     type: document.getElementById('node-type').value,
     label: document.getElementById('node-label').value.trim(),
-    source_urls: document.getElementById('node-urls').value.split(',').map(s=>s.trim()).filter(Boolean),
+    source_urls: document.getElementById('node-urls').value.split(',').map(function(s){{return s.trim();}}).filter(Boolean),
   }};
   if (meta) {{ try {{ body.metadata = JSON.parse(meta); }} catch(e) {{
     showStatus('node-status', 'Invalid JSON metadata', false); return; }} }}
   fetch('/api/nodes', {{method:'POST', headers:{{'Content-Type':'application/json'}}, body: JSON.stringify(body)}})
-    .then(r => r.json()).then(d => {{
+    .then(function(r) {{ return r.json(); }}).then(function(d) {{
       if (d.error) {{ showStatus('node-status', d.error, false); return; }}
       showStatus('node-status', 'Added: ' + d.id, true);
       document.getElementById('node-label').value = '';
       document.getElementById('node-meta').value = '';
       document.getElementById('node-urls').value = '';
       refreshGraph();
-    }});
+    }}).catch(function(e) {{ showStatus('node-status', 'Error: ' + e.message, false); }});
 }}
 
 function addEdge() {{
@@ -882,11 +1308,11 @@ function addEdge() {{
   if (meta) {{ try {{ body.metadata = JSON.parse(meta); }} catch(e) {{
     showStatus('edge-status', 'Invalid JSON metadata', false); return; }} }}
   fetch('/api/edges', {{method:'POST', headers:{{'Content-Type':'application/json'}}, body: JSON.stringify(body)}})
-    .then(r => r.json()).then(d => {{
+    .then(function(r) {{ return r.json(); }}).then(function(d) {{
       if (d.error) {{ showStatus('edge-status', d.error, false); return; }}
       showStatus('edge-status', 'Added edge: ' + body.rel_type, true);
       refreshGraph();
-    }});
+    }}).catch(function(e) {{ showStatus('edge-status', 'Error: ' + e.message, false); }});
 }}
 
 function addClaim() {{
@@ -905,12 +1331,12 @@ function addClaim() {{
   }};
   if (!body.claim_text) {{ showStatus('claim-status', 'Claim text required', false); return; }}
   fetch('/api/claims', {{method:'POST', headers:{{'Content-Type':'application/json'}}, body: JSON.stringify(body)}})
-    .then(r => r.json()).then(d => {{
+    .then(function(r) {{ return r.json(); }}).then(function(d) {{
       if (d.error) {{ showStatus('claim-status', d.error, false); return; }}
       showStatus('claim-status', 'Added claim: ' + d.claim_id, true);
       document.getElementById('claim-text').value = '';
       refreshGraph();
-    }});
+    }}).catch(function(e) {{ showStatus('claim-status', 'Error: ' + e.message, false); }});
 }}
 
 function addSource() {{
@@ -924,25 +1350,26 @@ function addSource() {{
   }};
   if (!body.url) {{ showStatus('src-status', 'URL required', false); return; }}
   fetch('/api/sources', {{method:'POST', headers:{{'Content-Type':'application/json'}}, body: JSON.stringify(body)}})
-    .then(r => r.json()).then(d => {{
+    .then(function(r) {{ return r.json(); }}).then(function(d) {{
       if (d.error) {{ showStatus('src-status', d.error, false); return; }}
       showStatus('src-status', 'Added source: ' + d.id, true);
       document.getElementById('src-url').value = '';
       document.getElementById('src-title').value = '';
       refreshGraph();
-    }});
+    }}).catch(function(e) {{ showStatus('src-status', 'Error: ' + e.message, false); }});
 }}
 
 function exportSnapshot() {{
-  fetch('/api/export', {{method:'POST'}}).then(r => r.json()).then(d => {{
+  fetch('/api/export', {{method:'POST'}}).then(function(r) {{ return r.json(); }}).then(function(d) {{
     if (d.error) {{ showStatus('export-status', d.error, false); return; }}
     showStatus('export-status', 'Exported: ' + JSON.stringify(d.counts), true);
-  }});
+  }}).catch(function(e) {{ showStatus('export-status', 'Error: ' + e.message, false); }});
 }}
 
-// Init
-populateDropdowns();
-initNetwork();
+// Global error catch-all — any uncaught error shows in the diagnostic panel
+window.addEventListener('error', function(e) {{
+  diag.error('Uncaught: ' + (e.message || 'unknown error') + (e.filename ? ' (' + e.filename.split('/').pop() + ':' + e.lineno + ')' : ''));
+}});
 </script>
 </body>
 </html>
