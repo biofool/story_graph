@@ -135,6 +135,7 @@ def api_graph():
         if ntype == "Image":
             continue
         img_count = image_counts.get(n.id, 0)
+        not_connected = bool(n.metadata.get("not_connected"))
         label = n.label[:50] + (" \U0001f5bc" if img_count else "")
         nodes.append({
             "id": n.id,
@@ -142,6 +143,7 @@ def api_graph():
             "group": ntype,
             "has_images": img_count > 0,
             "image_count": img_count,
+            "not_connected": not_connected,
             "title": json.dumps({
                 "id": n.id, "type": ntype, "label": n.label,
                 "metadata": n.metadata, "source_urls": n.source_urls,
@@ -350,6 +352,50 @@ def api_add_claim():
                     "source_id": source_id, "asserted_by_id": asserted_by_id or None})
 
 
+@app.route("/api/node/<path:node_id>/mark_not_connected", methods=["POST"])
+def api_mark_not_connected(node_id: str):
+    """Mark a node as not connected to the core information graph.
+
+    The node is retained (to prevent rescraping) but flagged so it cannot
+    contribute to the confidence or veracity of any claims. Sets
+    metadata["not_connected"] = True with a timestamp.
+    """
+    db = get_db()
+    node = db.get_node(node_id)
+    if node is None:
+        return jsonify({"error": "not found"}), 404
+    meta = {**node.metadata, "not_connected": True, "not_connected_set_at": _now_iso()}
+    _update_node_metadata(db, node, meta)
+    return jsonify({"ok": True, "id": node_id, "not_connected": True})
+
+
+@app.route("/api/node/<path:node_id>/unmark_not_connected", methods=["POST"])
+def api_unmark_not_connected(node_id: str):
+    """Remove the not_connected flag from a node, restoring it to the core graph."""
+    db = get_db()
+    node = db.get_node(node_id)
+    if node is None:
+        return jsonify({"error": "not found"}), 404
+    meta = {k: v for k, v in node.metadata.items()
+            if k not in ("not_connected", "not_connected_set_at")}
+    _update_node_metadata(db, node, meta)
+    return jsonify({"ok": True, "id": node_id, "not_connected": False})
+
+
+def _now_iso() -> str:
+    from datetime import datetime, timezone
+    return datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+
+def _update_node_metadata(db: GraphDB, node: GraphNode, meta: dict) -> None:
+    """Update a node's metadata in-place, preserving label/canonical/urls."""
+    db._get_conn().execute(
+        "UPDATE nodes SET metadata_json = ? WHERE id = ?",
+        (json.dumps(meta), node.id),
+    )
+    db._get_conn().commit()
+
+
 @app.route("/api/export", methods=["POST"])
 def api_export():
     """Persist the in-memory DB to graph_snapshot/ JSONL files."""
@@ -534,6 +580,15 @@ h4 {{ margin: 8px 0 4px 0; font-size: 14px; }}
 .edge-list li {{ margin-bottom: 2px; }}
 .conn-link {{ color: #2980b9; cursor: pointer; text-decoration: none; }}
 .conn-link:hover {{ text-decoration: underline; color: #3498db; }}
+.node-actions {{ display: flex; gap: 4px; margin: 6px 0; flex-wrap: wrap; }}
+.node-actions button {{ padding: 3px 8px; font-size: 11px; border: 1px solid #ccc;
+                        border-radius: 3px; cursor: pointer; }}
+.btn-warn {{ background: #e74c3c; color: white; border-color: #c0392b; }}
+.btn-warn:hover {{ background: #c0392b; }}
+.btn-restore {{ background: #2ecc71; color: white; border-color: #27ae60; }}
+.btn-restore:hover {{ background: #27ae60; }}
+.not-connected-banner {{ background: #fdf2f2; border: 1px solid #e74c3c; border-radius: 4px;
+                         padding: 6px 8px; margin: 6px 0; font-size: 11px; color: #c0392b; }}
 .tab-bar {{ display: flex; gap: 4px; margin-bottom: 8px; }}
 .tab {{ padding: 4px 10px; background: #ddd; border-radius: 4px 4px 0 0;
         cursor: pointer; font-size: 12px; }}
@@ -1022,6 +1077,7 @@ function renderGraph() {{
         group: n.group,
         hasImages: n.has_images,
         imageCount: n.image_count,
+        notConnected: n.not_connected,
         degree: deg[n.id] || 0,
       }},
     }});
@@ -1058,6 +1114,14 @@ function renderGraph() {{
         }} }},
         {{ selector: 'node:selected', style: {{
           'border-width': 4, 'border-color': '#2c3e50',
+        }} }},
+        {{ selector: 'node[notConnected = true]', style: {{
+          'background-opacity': 0.15,
+          'border-width': 2,
+          'border-style': 'dashed',
+          'border-color': '#e74c3c',
+          'opacity': 0.5,
+          'text-opacity': 0.4,
         }} }},
         {{ selector: 'edge', style: {{
           'width': 0.5,
@@ -1250,11 +1314,47 @@ function searchNode(nodeId) {{
   showNodeDetail(nodeId);
 }}
 
+// --- Mark/unmark node as not connected to core graph ---
+function toggleNotConnected(nodeId, mark) {{
+  var endpoint = mark ? 'mark_not_connected' : 'unmark_not_connected';
+  fetch('/api/node/' + encodeURIComponent(nodeId) + '/' + endpoint, {{method:'POST'}})
+    .then(function(r) {{ return r.json(); }}).then(function(d) {{
+      if (d.error) {{
+        diag.error('toggleNotConnected failed: ' + d.error);
+        return;
+      }}
+      diag.log('Node ' + nodeId + ' ' + (mark ? 'marked' : 'unmarked') + ' as not_connected');
+      // Refresh the detail panel to show the new state
+      showNodeDetail(nodeId);
+      // Refresh the graph to update node styling
+      refreshGraph();
+    }}).catch(function(e) {{
+      diag.error('toggleNotConnected fetch failed: ' + e.message);
+    }});
+}}
+
 function showNodeDetail(nodeId) {{
   fetch('/api/node/' + encodeURIComponent(nodeId)).then(function(r) {{ return r.json(); }}).then(function(d) {{
     var n = d.node;
+    var isNC = n.metadata && n.metadata.not_connected;
     var html = '<h4>' + esc(n.label) + '</h4>';
     html += '<p><b>ID:</b> ' + esc(n.id) + '<br><b>Type:</b> ' + esc(n.type) + '</p>';
+    // Not-connected banner + action menu
+    if (isNC) {{
+      html += '<div class="not-connected-banner"><b>⚠ Not connected to core graph</b><br>' +
+              'This node is retained to prevent rescraping but cannot contribute to ' +
+              'claim confidence or veracity.';
+      if (n.metadata.not_connected_set_at)
+        html += '<br>Marked: ' + esc(n.metadata.not_connected_set_at);
+      html += '</div>';
+    }}
+    html += '<div class="node-actions">';
+    if (isNC) {{
+      html += '<button class="btn-restore" onclick="toggleNotConnected(\\'' + esc(nodeId) + '\\', false)">Restore to core graph</button>';
+    }} else {{
+      html += '<button class="btn-warn" onclick="toggleNotConnected(\\'' + esc(nodeId) + '\\', true)">Mark as not connected</button>';
+    }}
+    html += '</div>';
     if (n.metadata && Object.keys(n.metadata).length > 0)
       html += '<pre>' + esc(JSON.stringify(n.metadata, null, 2)) + '</pre>';
     if (n.source_urls && n.source_urls.length > 0) {{
@@ -1311,9 +1411,12 @@ function showNodeDetail(nodeId) {{
       }}
       var deg = e.degree || 0;
       var dateStr = _formatDateRange(e.direction === 'out' ? e.dst_metadata : e.src_metadata);
+      var otherMeta = e.direction === 'out' ? e.dst_metadata : e.src_metadata;
+      var otherNC = otherMeta && otherMeta.not_connected;
+      var ncMark = otherNC ? ' <span style="color:#e74c3c;font-size:10px" title="Not connected to core graph">⚠N/C</span>' : '';
       html += '<a class="conn-link" onclick="searchNode(\\'' + esc(otherId).replace(/'/g, "\\'") + '\\')" ' +
-              'title="Click to find this node on the graph (degree: ' + deg + (dateStr ? ', date: ' + dateStr : '') + ')">' +
-              esc(otherLabel) + '</a>';
+              'title="Click to find this node on the graph (degree: ' + deg + (dateStr ? ', date: ' + dateStr : '') + (otherNC ? ', NOT CONNECTED' : '') + ')">' +
+              esc(otherLabel) + '</a>' + ncMark;
       if (e.direction === 'in')
         html += ' &rarr; ' + esc(e.rel_type);
       html += ' <span style="color:#999;font-size:10px">(' + deg + ' connections' + (dateStr ? ', ' + dateStr : '') + ')</span>';
@@ -1324,9 +1427,15 @@ function showNodeDetail(nodeId) {{
       html += '<p style="font-size:11px;color:#666">Showing top 20 of ' + d.edges.length + ' by connectivity' +
               (nodeDate ? ' + temporal proximity' : '') + '.</p>';
     if (d.claims.length > 0) {{
+      if (isNC) {{
+        html += '<p style="font-size:11px;color:#c0392b"><b>Claims below are from a node marked not connected — ' +
+                'their confidence/veracity should not be relied upon.</b></p>';
+      }}
       html += '<p><b>Claims (' + d.claims.length + '):</b></p><ul class="edge-list">';
       d.claims.forEach(function(c) {{
-        html += '<li>[' + esc(c.metadata.stance||'?') + ', conf=' + esc(String(c.metadata.confidence||'?')) +
+        var claimConf = c.metadata.confidence || '?';
+        if (isNC) claimConf = claimConf + ' [N/C]';
+        html += '<li>[' + esc(c.metadata.stance||'?') + ', conf=' + esc(String(claimConf)) +
                 '] ' + esc(c.label.substring(0,80)) + '</li>';
       }});
       html += '</ul>';

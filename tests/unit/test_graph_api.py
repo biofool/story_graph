@@ -250,6 +250,51 @@ class TestNodeDetail:
         assert r.status_code == 404
 
 
+# --- POST /api/node/<id>/mark_not_connected ---
+
+class TestNotConnected:
+    def test_mark_not_connected(self, client):
+        client.post("/api/nodes", json={"type": "Person", "label": "Test NC"})
+        r = client.post("/api/node/person:test-nc/mark_not_connected")
+        assert r.status_code == 200
+        data = r.get_json()
+        assert data["ok"] is True
+        assert data["not_connected"] is True
+        # Verify metadata was updated
+        r2 = client.get("/api/node/person:test-nc")
+        node = r2.get_json()["node"]
+        assert node["metadata"]["not_connected"] is True
+        assert "not_connected_set_at" in node["metadata"]
+
+    def test_unmark_not_connected(self, client):
+        client.post("/api/nodes", json={"type": "Person", "label": "Test NC2"})
+        client.post("/api/node/person:test-nc2/mark_not_connected")
+        r = client.post("/api/node/person:test-nc2/unmark_not_connected")
+        assert r.status_code == 200
+        data = r.get_json()
+        assert data["ok"] is True
+        assert data["not_connected"] is False
+        # Verify flag removed
+        r2 = client.get("/api/node/person:test-nc2")
+        node = r2.get_json()["node"]
+        assert "not_connected" not in node["metadata"]
+        assert "not_connected_set_at" not in node["metadata"]
+
+    def test_mark_not_connected_node_not_found(self, client):
+        r = client.post("/api/node/person:nope/mark_not_connected")
+        assert r.status_code == 404
+
+    def test_not_connected_flag_in_graph_payload(self, client, tmp_db):
+        from src.storage.models import GraphNode, NodeType
+        tmp_db.add_node(GraphNode(
+            id="person:nc-test", type=NodeType.PERSON, label="NC Test",
+            metadata={"not_connected": True},
+        ))
+        r = client.get("/api/graph")
+        node = next(n for n in r.get_json()["nodes"] if n["id"] == "person:nc-test")
+        assert node["not_connected"] is True
+
+
 # --- GET / (index) ---
 
 class TestIndex:
