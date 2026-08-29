@@ -22,6 +22,7 @@ from src.extractor.alias_resolver import (
 )
 from src.extractor.claim_extractor import ClaimExtractor
 from src.extractor.entity_extractor import EntityExtractor
+from src.extractor.scope_filter import ScopeFilter
 from src.storage.graph_db import GraphDB
 from src.storage.models import (
     BiasHint,
@@ -84,12 +85,25 @@ def process_page(
     extractor: EntityExtractor,
     claim_extractor: ClaimExtractor,
     db: GraphDB,
+    scope_filter: ScopeFilter | None = None,
 ):
-    """Process a single crawled page: extract entities, claims, and store in graph."""
+    """Process a single crawled page: extract entities, claims, and store in graph.
+
+    If ``scope_filter`` is provided and the page is primarily about an
+    out-of-scope entity (a namesake not part of the story), extraction is
+    skipped entirely — no Work node, no entities, no edges. The page is
+    effectively invisible to the graph. See
+    :class:`~src.extractor.scope_filter.ScopeFilter`.
+    """
     if page.error or not page.text:
         return
 
     url = page.url
+
+    # Scope filter: skip pages primarily about out-of-scope entities.
+    if scope_filter is not None and not scope_filter.is_empty:
+        if scope_filter.is_page_out_of_scope(page.title, page.text, url):
+            return
     source_class, bias_hint = classify_source(url, page.title, page.text)
 
     # Create Work node + Source record
@@ -352,3 +366,60 @@ def capture_page_images(page: CrawledPage, work_id_: str, db: GraphDB, max_image
             dst_id=image_node.id,
             metadata={"evidence": page.url},
         ))
+
+
+def record_out_of_scope_nodes(db: GraphDB, scope_filter: ScopeFilter):
+    """Record out-of-scope entity nodes in the graph with ``out_of_scope=true`` metadata.
+
+    Each out-of-scope entity (from ``config/out_of_scope.json``) is upserted
+    as a Person or Event node with ``out_of_scope: true`` in its metadata.
+    This makes the namesake visible in the graph viewer as a disambiguation
+    marker — "this is a different Richard Moon, not the one the story is
+    about" — without creating any edges or triggering extraction from pages
+    about it.
+
+    Safe to call on every pipeline run: upsert semantics mean re-running
+    is a no-op for already-recorded nodes.
+    """
+    for entity in scope_filter.entities:
+        if entity.entity_type == "event":
+            nid = event_id(entity.canonical_name)
+            ntype = NodeType.EVENT
+            label = entity.canonical_name
+        else:
+            nid = entity.node_id
+            ntype = NodeType.PERSON
+            # Display label: title-case the name, keep the parenthetical
+            # disambiguator as-is (e.g. "Richard Moon (law professor)").
+            label = _display_label(entity.canonical_name)
+
+        node = GraphNode(
+            id=nid,
+            type=ntype,
+            label=label,
+            canonical_name=entity.canonical_name,
+            metadata={
+                "out_of_scope": True,
+                "note": entity.note,
+                "surface_forms": entity.surface_forms,
+            },
+            source_urls=[],
+        )
+        db.add_node(node)
+        _log.info(
+            "Recorded out-of-scope node: %s (%s)",
+            nid,
+            entity.canonical_name,
+        )
+
+
+def _display_label(canonical: str) -> str:
+    """Human-readable label for a disambiguated canonical name.
+
+    ``"richard moon (law professor)"`` -> ``"Richard Moon (law professor)"``:
+    the name is title-cased, the parenthetical disambiguator left as written.
+    Mirrors :func:`src.extractor.alias_resolver._display_label` but is kept
+    here to avoid importing a private function.
+    """
+    name, _, qualifier = canonical.partition(" (")
+    return f"{name.title()} ({qualifier}" if qualifier else name.title()

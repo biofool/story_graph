@@ -20,11 +20,12 @@ from rich.console import Console
 from rich.table import Table
 
 from config.settings import settings
-from scripts._pipeline_helpers import process_page
+from scripts._pipeline_helpers import process_page, record_out_of_scope_nodes
 from src.crawler.web_crawler import WebCrawler
 from src.extractor.claim_extractor import ClaimExtractor
 from src.extractor.contradiction_detector import ContradictionDetector
 from src.extractor.entity_extractor import EntityExtractor
+from src.extractor.scope_filter import ScopeFilter
 from src.storage.graph_db import GraphDB
 from src.storage.models import NodeType
 
@@ -51,6 +52,14 @@ def main(max_depth, max_pages, skip_crawl, db_path):
     db = GraphDB(db_file)
     extractor = EntityExtractor(settings.spacy_model)
     claim_extractor = ClaimExtractor(extractor)
+    scope_filter = ScopeFilter.from_config()
+
+    # Record out-of-scope entity nodes (namesakes not part of the story)
+    # so they appear in the graph as disambiguation markers with
+    # out_of_scope=true metadata. See config/out_of_scope.json.
+    if not scope_filter.is_empty:
+        console.print(f"[dim]Recording {len(scope_filter.entities)} out-of-scope entity node(s)[/dim]")
+        record_out_of_scope_nodes(db, scope_filter)
 
     # Phase 1: Crawl
     if skip_crawl:
@@ -66,9 +75,11 @@ def main(max_depth, max_pages, skip_crawl, db_path):
             delay_seconds=settings.crawl_delay_seconds,
             user_agent=settings.crawl_user_agent,
             timeout=settings.crawl_timeout,
+            scope_filter=scope_filter,
         )
         pages = crawler.crawl()
-        console.print(f"  Crawled {len(pages)} pages")
+        skipped = sum(1 for p in pages if p.error and "out-of-scope" in (p.error or ""))
+        console.print(f"  Crawled {len(pages)} pages" + (f" ({skipped} skipped as out-of-scope)" if skipped else ""))
 
     # Phase 2: Extract + Store
     console.print("[bold]Phase 2: Extracting entities and claims[/bold]")
@@ -76,7 +87,7 @@ def main(max_depth, max_pages, skip_crawl, db_path):
         if page.error:
             continue
         console.print(f"  [{i+1}/{len(pages)}] {page.url[:80]}")
-        process_page(page, extractor, claim_extractor, db)
+        process_page(page, extractor, claim_extractor, db, scope_filter=scope_filter)
 
     # Phase 3: Detect contradictions + timeline
     console.print("[bold]Phase 3: Detecting contradictions and building timeline[/bold]")

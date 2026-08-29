@@ -56,6 +56,7 @@ class WebCrawler:
         delay_seconds: float = 3.0,
         user_agent: str = "story-graph-bot/0.1 (+research)",
         timeout: int = 30,
+        scope_filter=None,
     ):
         self.seed_urls = seed_urls
         self.allowed_domains = allowed_domains
@@ -64,6 +65,7 @@ class WebCrawler:
         self.delay_seconds = delay_seconds
         self.user_agent = user_agent
         self.timeout = timeout
+        self.scope_filter = scope_filter
         self.visited: set[str] = set()
         self.pages: list[CrawledPage] = []
 
@@ -216,8 +218,22 @@ class WebCrawler:
                 f"text_len={len(page.text)}"
             )
 
-            # Enqueue child links if within depth
-            if depth < self.max_depth:
+            # Scope filter: if this page is primarily about an out-of-scope
+            # entity (a namesake not part of the story), mark it and do NOT
+            # enqueue its links — this is the "blacklist as a traversal
+            # point" behavior. The page itself is still returned (so the
+            # pipeline can log it), but process_page will skip extraction.
+            is_out_of_scope = False
+            if self.scope_filter is not None and not self.scope_filter.is_empty:
+                if self.scope_filter.is_page_out_of_scope(page.title, page.text, url):
+                    is_out_of_scope = True
+                    page.error = "out-of-scope"
+                    _log.info(
+                        f"  -> page is out-of-scope; not following {len(page.links)} links"
+                    )
+
+            # Enqueue child links if within depth (and not out-of-scope)
+            if depth < self.max_depth and not is_out_of_scope:
                 for link in page.links:
                     if link not in self.visited:
                         queue.append((link, depth + 1))

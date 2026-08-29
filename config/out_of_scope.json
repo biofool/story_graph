@@ -1,0 +1,16 @@
+{
+  "_comment": "Entities (persons, events) that share a name with a story-relevant entity but are NOT part of the story being collected. Pages primarily about these entities are skipped during crawl/extraction, and their links are not followed. The entity nodes are still recorded in the graph with out_of_scope=true metadata so they are visible as disambiguation markers but never expanded. Add entries here — no code changes required.",
+  "persons": [
+    {
+      "canonical_name": "richard moon (law professor)",
+      "surface_forms": ["Richard Moon", "Prof. Richard Moon", "Professor Richard Moon"],
+      "note": "Canadian constitutional-law professor, University of Windsor. Namesake of the aikido Richard Moon."
+    },
+    {
+      "canonical_name": "richard moon (chef)",
+      "surface_forms": ["Richard Moon", "Rick Moon"],
+      "note": "Australian chef, subject of 'Moon on a Spoon' by Michael Burge. Namesake of the aikido Richard Moon."
+    }
+  ],
+  "events": []
+}
