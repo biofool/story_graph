@@ -352,7 +352,7 @@ def api_add_claim():
                     "source_id": source_id, "asserted_by_id": asserted_by_id or None})
 
 
-@app.route("/api/node/<path:node_id>/mark_not_connected", methods=["POST"])
+@app.route("/api/node/<node_id>/mark_not_connected", methods=["POST"])
 def api_mark_not_connected(node_id: str):
     """Mark a node as not connected to the core information graph.
 
@@ -369,7 +369,7 @@ def api_mark_not_connected(node_id: str):
     return jsonify({"ok": True, "id": node_id, "not_connected": True})
 
 
-@app.route("/api/node/<path:node_id>/unmark_not_connected", methods=["POST"])
+@app.route("/api/node/<node_id>/unmark_not_connected", methods=["POST"])
 def api_unmark_not_connected(node_id: str):
     """Remove the not_connected flag from a node, restoring it to the core graph."""
     db = get_db()
@@ -415,7 +415,7 @@ def _degree_map(db: GraphDB) -> dict[str, int]:
     return deg
 
 
-@app.route("/api/node/<path:node_id>")
+@app.route("/api/node/<node_id>")
 def api_node_detail(node_id: str):
     """Get full details for a single node, including connected edges.
 
