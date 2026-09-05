@@ -12583,6 +12583,7 @@
 {"dst_id": "place:los-angeles", "metadata": {"evidence": "https://military-history.fandom.com/wiki/Father_Yod", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:old-world"}
 {"dst_id": "place:sunset-strip", "metadata": {"evidence": "https://military-history.fandom.com/wiki/Father_Yod", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:old-world"}
 {"dst_id": "place:sunset-strip", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:old-world-on-the-strip"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "openmindadventures.com hosts a Richard Moon page", "source": "moonsic.com/links.html"}, "rel_type": "MENTIONS", "src_id": "group:open-mind-adventures"}
 {"dst_id": "place:new-delhi", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Yogi_Bhajan", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:panjab-university"}
 {"dst_id": "place:sherborn-ma", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:peace-abbey"}
 {"dst_id": "place:los-feliz", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:philosophical-research-society"}
@@ -14640,3 +14641,17 @@
 {"dst_id": "person:keith-e-peterson", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "person:louise-diamond", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "MENTIONS", "src_id": "work:kkron-personal-communication"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "moon@moonsic.com", "source": "moonsic.com"}, "rel_type": "MENTIONS", "src_id": "work:moonsic:contact"}
+{"dst_id": "group:moonsensei-com", "metadata": {"evidence": "Moonsensei.com", "source": "moonsic.com"}, "rel_type": "MENTIONS", "src_id": "work:moonsic:home"}
+{"dst_id": "group:new-improved-jook-savages", "metadata": {"evidence": "The New Improved Jook Savages", "source": "moonsic.com", "subpath": "jook/jook.html"}, "rel_type": "MENTIONS", "src_id": "work:moonsic:home"}
+{"dst_id": "group:new-improved-night-nurses", "metadata": {"evidence": "The New Improved Night Nurses", "source": "moonsic.com", "subpath": "nn/nn.html"}, "rel_type": "MENTIONS", "src_id": "work:moonsic:home"}
+{"dst_id": "person:eugene-lesser", "metadata": {"evidence": "Eugene Lesser", "source": "moonsic.com", "subpath": "lesser/lesserindex.html"}, "rel_type": "MENTIONS", "src_id": "work:moonsic:home"}
+{"dst_id": "person:liko-martin", "metadata": {"evidence": "Liko Martin", "source": "moonsic.com", "subpath": "liko/likoindex.html"}, "rel_type": "MENTIONS", "src_id": "work:moonsic:home"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "R. Moon", "source": "moonsic.com", "subpath": "rmoon/moonindex.html"}, "rel_type": "MENTIONS", "src_id": "work:moonsic:home"}
+{"dst_id": "group:new-improved-jook-savages", "metadata": {"evidence": "The New Improved Jook Savages", "source": "moonsic.com"}, "rel_type": "MENTIONS", "src_id": "work:moonsic:jook"}
+{"dst_id": "person:eugene-lesser", "metadata": {"evidence": "Eugene Lesser", "source": "moonsic.com"}, "rel_type": "MENTIONS", "src_id": "work:moonsic:lesser"}
+{"dst_id": "person:liko-martin", "metadata": {"evidence": "Liko Martin", "source": "moonsic.com"}, "rel_type": "MENTIONS", "src_id": "work:moonsic:liko"}
+{"dst_id": "group:open-mind-adventures", "metadata": {"evidence": "Open Mind Adventures", "source": "moonsic.com"}, "rel_type": "MENTIONS", "src_id": "work:moonsic:links"}
+{"dst_id": "group:quantum-edge", "metadata": {"evidence": "Quantum Edge", "source": "moonsic.com"}, "rel_type": "MENTIONS", "src_id": "work:moonsic:links"}
+{"dst_id": "group:new-improved-night-nurses", "metadata": {"evidence": "The New Improved Night Nurses", "source": "moonsic.com"}, "rel_type": "MENTIONS", "src_id": "work:moonsic:nn"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "R. Moon", "source": "moonsic.com"}, "rel_type": "MENTIONS", "src_id": "work:moonsic:rmoon"}

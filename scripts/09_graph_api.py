@@ -352,7 +352,7 @@ def api_add_claim():
                     "source_id": source_id, "asserted_by_id": asserted_by_id or None})
 
 
-@app.route("/api/node/<path:node_id>/mark_not_connected", methods=["POST"])
+@app.route("/api/node/<node_id>/mark_not_connected", methods=["POST"])
 def api_mark_not_connected(node_id: str):
     """Mark a node as not connected to the core information graph.
 
@@ -369,7 +369,7 @@ def api_mark_not_connected(node_id: str):
     return jsonify({"ok": True, "id": node_id, "not_connected": True})
 
 
-@app.route("/api/node/<path:node_id>/unmark_not_connected", methods=["POST"])
+@app.route("/api/node/<node_id>/unmark_not_connected", methods=["POST"])
 def api_unmark_not_connected(node_id: str):
     """Remove the not_connected flag from a node, restoring it to the core graph."""
     db = get_db()
@@ -415,7 +415,7 @@ def _degree_map(db: GraphDB) -> dict[str, int]:
     return deg
 
 
-@app.route("/api/node/<path:node_id>")
+@app.route("/api/node/<node_id>")
 def api_node_detail(node_id: str):
     """Get full details for a single node, including connected edges.
 
@@ -1348,7 +1348,16 @@ function searchNode(nodeId) {{
 }}
 
 // --- Mark/unmark node as not connected to core graph ---
+// Guard so rapid clicks can't overlap the POST -> refreshGraph -> showNodeDetail
+// chain (the detail panel rebuild re-enables the button, so disabling alone is
+// not enough to prevent a second toggle from racing with an in-flight one).
+var _toggleNotConnectedInFlight = false;
 function toggleNotConnected(nodeId, mark) {{
+  if (_toggleNotConnectedInFlight) {{
+    diag.log('toggleNotConnected already in progress — ignoring click for ' + nodeId);
+    return;
+  }}
+  _toggleNotConnectedInFlight = true;
   var endpoint = mark ? 'mark_not_connected' : 'unmark_not_connected';
   var btn = document.querySelector('[data-action="' + (mark ? 'mark-nc' : 'unmark-nc') + '"]');
   if (btn) btn.disabled = true;
@@ -1356,16 +1365,19 @@ function toggleNotConnected(nodeId, mark) {{
     .then(function(r) {{ return r.json(); }}).then(function(d) {{
       if (d.error) {{
         diag.error('toggleNotConnected failed: ' + d.error);
-        if (btn) btn.disabled = false;
         return;
       }}
       diag.log('Node ' + nodeId + ' ' + (mark ? 'marked' : 'unmarked') + ' as not_connected');
-      // Chain: refresh graph first, then update detail panel after graph is ready
-      refreshGraph().then(function() {{
+      // Chain: refresh graph first, then update the detail panel only after the
+      // graph state is ready. Returning the promise folds any rejection into the
+      // outer .catch so the button/guard are always released via .finally.
+      return refreshGraph().then(function() {{
         showNodeDetail(nodeId);
       }});
     }}).catch(function(e) {{
       diag.error('toggleNotConnected fetch failed: ' + e.message);
+    }}).finally(function() {{
+      _toggleNotConnectedInFlight = false;
       if (btn) btn.disabled = false;
     }});
 }}
