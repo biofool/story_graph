@@ -27,6 +27,7 @@ data/cache/*
 !data/cache/.gitkeep
 data/graph.db
 data/*.jsonl
+data/*.csv
 data/images/
 
 # graph_snapshot/ (repo root, NOT under data/) is the tracked JSON/JSONL

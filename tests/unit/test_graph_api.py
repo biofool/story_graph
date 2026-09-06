@@ -326,6 +326,47 @@ class TestNotConnected:
         assert "not_connected" not in meta
 
 
+# --- Issue #10: route ambiguity — <path:node_id> must not swallow suffixes ---
+
+class TestRouteDisambiguation:
+    """Issue #10: the mark/unmark routes used the greedy ``<path:>`` converter,
+    which matches slashes. A node id containing ``/mark_not_connected`` would be
+    misrouted. Node ids follow ``type:slug`` and never contain slashes, so the
+    routes should use the plain string converter (no slashes) instead.
+    """
+
+    def test_node_routes_use_string_converter_not_path(self):
+        rules = {r.rule for r in app.url_map.iter_rules()}
+        assert "/api/node/<node_id>" in rules
+        assert "/api/node/<node_id>/mark_not_connected" in rules
+        assert "/api/node/<node_id>/unmark_not_connected" in rules
+        # No node route should use the greedy <path:node_id> converter.
+        assert not any("<path:node_id>" in r for r in rules)
+
+    def test_mark_not_connected_path_not_swallowed_by_detail_route(self, client):
+        """A GET against the mark_not_connected path must NOT be silently handled
+        by the detail route (which would treat ``<id>/mark_not_connected`` as a
+        single node id and return a misleading 404).
+
+        With the string converter the only rule matching the path is the
+        POST-only mark route, so a GET yields 405 Method Not Allowed. With the
+        old ``<path:>`` converter the detail route would match and return 404.
+        """
+        client.post("/api/nodes", json={"type": "Person", "label": "Foo"})
+        r = client.get("/api/node/person:foo/mark_not_connected")
+        assert r.status_code == 405
+
+    def test_node_id_with_slash_is_not_a_valid_detail_path(self, client):
+        """A node id containing a slash can never exist (ids are ``type:slug``),
+        and the routing layer must not treat ``person:foo/bar`` as a single
+        ``<path:node_id>``. With the string converter no rule matches, so the
+        request 404s at the routing layer rather than reaching the detail
+        handler with a fabricated slash-containing id.
+        """
+        r = client.get("/api/node/person:foo/bar")
+        assert r.status_code == 404
+
+
 # --- GET / (index) ---
 
 class TestIndex:

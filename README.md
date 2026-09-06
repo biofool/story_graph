@@ -304,6 +304,8 @@ vis.js network re-fetches `/api/graph` and updates in place.
 | `POST` | `/api/sources` | Add a `SourceRecord` (validates `SourceClass`/`BiasHint`) |
 | `POST` | `/api/export` | Persist the in-memory DB to `graph_snapshot/` JSONL |
 | `GET`  | `/api/node/<id>` | Full details for one node + connected edges + claims about it |
+| `POST` | `/api/node/<id>/mark_not_connected` | Flag a node as not connected to the core graph (retained but excluded from confidence/veracity) |
+| `POST` | `/api/node/<id>/unmark_not_connected` | Remove the not_connected flag, restoring the node to the core graph |
 | `GET`  | `/` | The interactive visualization HTML (regenerated live from the DB) |
 
 Enum fields (`NodeType`, `RelationType`, `SourceClass`, `BiasHint`,
