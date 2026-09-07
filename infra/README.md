@@ -17,12 +17,57 @@ already proposed. See the repo root `Dockerfile` for the image and
 | `google_secret_manager_secret.gemini_api_key` (optional, `create_secret=true`) | Container for the API key. Terraform never writes the value. |
 | `google_storage_bucket.state` (optional, `create_state_bucket=true`) | Persists the job's local SQLite working DB + exported JSON snapshot across scheduled runs. Also backs the overlap-guard lock file (see caveat below). |
 | `google_monitoring_notification_channel.job_failure_email` / `google_monitoring_alert_policy.job_execution_failed` (optional, `notification_email` set) | Emails `var.notification_email` when an execution logs an ERROR-severity entry, so a failed scheduled run doesn't silently go unnoticed. |
+| `google_artifact_registry_repository.story_graph` (optional, `create_artifact_registry=true`) | Docker repository for the targeted-research image. |
+| `google_cloudbuild_trigger.story_graph` (optional, `enable_cloud_build_trigger=true`) | Cloud Build trigger that constructs the image on push to a GitHub branch. |
+
+## Two deployment modes
+
+### 1. Local build (original) — `deploy.sh apply`
+
+Builds the image with local docker, pushes it to Artifact Registry, then
+runs `terraform apply`. Requires docker on the machine running deploy.sh.
+
+```bash
+PROJECT_ID=quantum-aikido-coaching ./deploy.sh apply
+```
+
+### 2. Cloud Build (Oracle host workflow) — `deploy.sh cloud-apply`
+
+Triggers GCP Cloud Build to construct the image remotely (no local docker
+needed), waits for it to finish, resolves the pushed digest, then runs
+`terraform apply`. This is the mode the Oracle host uses — Oracle triggers
+the build via `gcloud builds submit`, and GCP handles all image
+construction.
+
+```bash
+PROJECT_ID=quantum-aikido-coaching ./deploy.sh cloud-apply
+```
+
+Or use the Python trigger script for more control:
+
+```bash
+# Build + deploy + run + wait for completion
+PROJECT_ID=quantum-aikido-coaching python scripts/trigger_research.py --build --apply --wait
+
+# Just trigger a run with the current image
+PROJECT_ID=quantum-aikido-coaching python scripts/trigger_research.py
+
+# Check status
+PROJECT_ID=quantum-aikido-coaching python scripts/trigger_research.py --status
+```
+
+The `cloudbuild.yaml` at the repo root defines the build steps. A
+GitHub-connected Cloud Build trigger (optional, `enable_cloud_build_trigger
+= true` in terraform.tfvars) can also build automatically on push to
+`main` or `dev`.
 
 ## First-time setup
 
 1. `gcloud auth login` and `gcloud auth application-default login` against
    the target project.
-2. Create the Artifact Registry repo the image will live in (once):
+2. (Optional) The Artifact Registry repo is now created by Terraform
+   (`create_artifact_registry = true`, default). If you prefer to create
+   it manually or already have one, set `create_artifact_registry = false`:
    ```
    gcloud artifacts repositories create story-graph \
      --repository-format=docker --location=<region> --project=<project_id>
@@ -30,7 +75,12 @@ already proposed. See the repo root `Dockerfile` for the image and
 3. `cp terraform.tfvars.example terraform.tfvars` and fill in `project_id`
    (and `image`, though `deploy.sh` passes `-var=image=...` itself so you
    can leave it out of `terraform.tfvars` if you always use `deploy.sh`).
-4. From the repo root: `PROJECT_ID=<project_id> ./deploy.sh apply`.
+   For the `quantum-aikido-coaching` project, see the commented example
+   in `terraform.tfvars.example` — it reuses the existing GEMINI_API_KEY
+   secret and sets the notification email.
+4. From the repo root: `PROJECT_ID=<project_id> ./deploy.sh apply`
+   (local build) or `PROJECT_ID=<project_id> ./deploy.sh cloud-apply`
+   (Cloud Build, no local docker needed).
 5. **Add the actual `GEMINI_API_KEY` value** (Terraform only creates the
    empty secret container):
    ```
@@ -44,7 +94,8 @@ already proposed. See the repo root `Dockerfile` for the image and
    creating a new one.
 6. Trigger a first run without waiting for 06:00 UTC:
    `terraform output manual_run_command` prints the exact `gcloud run jobs
-   execute ...` command, or use the Cloud Console.
+   execute ...` command, or use `PROJECT_ID=<project_id> ./deploy.sh run`,
+   or `PROJECT_ID=<project_id> python scripts/trigger_research.py`.
 7. **Set `notification_email` in `terraform.tfvars`** to get emailed when a
    scheduled execution fails (see `terraform.tfvars.example`). Left unset,
    no alert policy or notification channel is created at all -- a failed

@@ -5,10 +5,16 @@
 # Cloud Run Job.
 #
 # Usage:
-#   ./deploy.sh apply     Build image, push it, terraform apply (default)
-#   ./deploy.sh plan       Build image, push it, terraform plan (no changes)
-#   ./deploy.sh destroy   terraform destroy (does NOT touch the image)
-#   ./deploy.sh build     Build + push the image only, skip Terraform
+#   ./deploy.sh apply          Build image, push it, terraform apply (default)
+#   ./deploy.sh plan           Build image, push it, terraform plan (no changes)
+#   ./deploy.sh destroy        terraform destroy (does NOT touch the image)
+#   ./deploy.sh build          Build + push the image only, skip Terraform
+#   ./deploy.sh cloud-build    Trigger GCP Cloud Build to construct the image
+#                              (no local docker needed — Oracle host uses this)
+#   ./deploy.sh cloud-apply    Trigger Cloud Build, then terraform apply with
+#                              the resolved digest (Oracle host uses this)
+#   ./deploy.sh run            Trigger a one-off execution of the Cloud Run Job
+#   ./deploy.sh status         Show Cloud Run Job execution status
 #
 # Required environment variables (or set them in infra/terraform.tfvars --
 # see infra/terraform.tfvars.example):
@@ -19,7 +25,7 @@
 #   - gcloud CLI, authenticated (`gcloud auth login` and
 #     `gcloud auth application-default login`) against PROJECT_ID
 #   - terraform >= 1.5
-#   - docker
+#   - docker (only for local build modes: apply, plan, build)
 #   - Artifact Registry repo named "story-graph" in PROJECT_ID/REGION
 #     (create once: gcloud artifacts repositories create story-graph
 #      --repository-format=docker --location=$REGION --project=$PROJECT_ID)
@@ -37,19 +43,26 @@ REGION="${REGION:-us-central1}"
 
 usage() {
   cat <<'EOF'
-Usage: ./deploy.sh [apply|plan|destroy|build]
+Usage: ./deploy.sh [apply|plan|destroy|build|cloud-build|cloud-apply|run|status]
 
-  apply     (default) Build + push the container image, then `terraform apply`.
-  plan      Build + push the container image, then `terraform plan` (no changes made).
-  destroy   `terraform destroy` only -- does not touch the container image.
-  build     Build + push the container image only, skip Terraform entirely.
+  apply          (default) Local docker build + push, then `terraform apply`.
+  plan           Local docker build + push, then `terraform plan` (no changes made).
+  destroy        `terraform destroy` only -- does not touch the container image.
+  build          Local docker build + push only, skip Terraform entirely.
+  cloud-build    Trigger GCP Cloud Build to construct the image (no local docker).
+  cloud-apply    Trigger Cloud Build, wait for it, then terraform apply with
+                 the resolved digest. This is the Oracle host workflow.
+  run            Trigger a one-off execution of the Cloud Run Job.
+  status         Show recent Cloud Run Job executions.
 
 Environment:
   PROJECT_ID   (required) GCP project id.
   REGION       (optional) GCP region, default us-central1.
+  JOB_NAME     (optional) Cloud Run Job name, default story-graph-targeted-research.
 
 Example:
-  PROJECT_ID=my-story-graph-project ./deploy.sh apply
+  PROJECT_ID=quantum-aikido-coaching ./deploy.sh cloud-apply
+  PROJECT_ID=quantum-aikido-coaching ./deploy.sh run
 EOF
 }
 
@@ -60,7 +73,7 @@ case "$command" in
     usage
     exit 0
     ;;
-  apply|plan|destroy|build)
+  apply|plan|destroy|build|cloud-build|cloud-apply|run|status)
     ;;
   *)
     echo "Unknown command: $command" >&2
@@ -75,6 +88,8 @@ if [[ -z "${PROJECT_ID:-}" ]]; then
 fi
 
 IMAGE_URI="${REGION}-docker.pkg.dev/${PROJECT_ID}/story-graph/${IMAGE_NAME}:latest"
+
+JOB_NAME="${JOB_NAME:-story-graph-targeted-research}"
 
 build_and_push() {
   echo "==> Building ${IMAGE_URI}"
@@ -106,6 +121,24 @@ resolve_pushed_digest() {
   echo "==> Resolved: ${IMAGE_URI_DIGEST}"
 }
 
+# Trigger GCP Cloud Build to construct the image remotely (no local docker).
+# Outputs the build ID. Sets CLOUD_BUILD_ID on success.
+cloud_build() {
+  echo "==> Triggering Cloud Build (GCP-side image construction)"
+  local build_id
+  build_id="$(gcloud builds submit "$SCRIPT_DIR" \
+    --config="$SCRIPT_DIR/cloudbuild.yaml" \
+    --project="$PROJECT_ID" \
+    --substitutions=_REGION="${REGION}",_REPO_NAME="story-graph",_IMAGE_NAME="${IMAGE_NAME}",_IMAGE_TAG="latest" \
+    --format='value(id)')"
+  if [[ -z "$build_id" ]]; then
+    echo "ERROR: Cloud Build did not return a build ID" >&2
+    exit 1
+  fi
+  CLOUD_BUILD_ID="$build_id"
+  echo "==> Cloud Build completed: build ID ${CLOUD_BUILD_ID}"
+}
+
 case "$command" in
   build)
     build_and_push
@@ -128,5 +161,41 @@ case "$command" in
       -var="project_id=${PROJECT_ID}" \
       -var="region=${REGION}" \
       -var="image=${IMAGE_URI_DIGEST}"
+    ;;
+  cloud-build)
+    cloud_build
+    resolve_pushed_digest
+    echo "Image built and pushed via Cloud Build: ${IMAGE_URI_DIGEST}"
+    ;;
+  cloud-apply)
+    cloud_build
+    resolve_pushed_digest
+    echo "==> terraform init"
+    terraform -chdir="$INFRA_DIR" init
+    echo "==> terraform apply (project=${PROJECT_ID}, region=${REGION}, image=${IMAGE_URI_DIGEST})"
+    terraform -chdir="$INFRA_DIR" apply \
+      -var="project_id=${PROJECT_ID}" \
+      -var="region=${REGION}" \
+      -var="image=${IMAGE_URI_DIGEST}"
+    ;;
+  run)
+    echo "==> Triggering Cloud Run Job: ${JOB_NAME}"
+    local execution_id
+    execution_id="$(gcloud run jobs execute "${JOB_NAME}" \
+      --project="${PROJECT_ID}" \
+      --region="${REGION}" \
+      --format='value(metadata.name)')"
+    echo "==> Execution started: ${execution_id}"
+    echo "    Check status: PROJECT_ID=${PROJECT_ID} ./deploy.sh status"
+    echo "    Stream logs:  gcloud run jobs executions logs ${execution_id} --project=${PROJECT_ID} --region=${REGION}"
+    ;;
+  status)
+    echo "==> Recent executions for ${JOB_NAME}"
+    gcloud run jobs executions list \
+      --job="${JOB_NAME}" \
+      --project="${PROJECT_ID}" \
+      --region="${REGION}" \
+      --limit=5 \
+      --format='table(name,status,startTime,completionTime)'
     ;;
 esac

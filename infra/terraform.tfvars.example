@@ -3,8 +3,19 @@
 project_id = "your-gcp-project-id"
 region     = "us-central1"
 
-# Built + pushed by deploy.sh before `terraform apply`.
+# Built + pushed by deploy.sh (or Cloud Build) before `terraform apply`.
+# deploy.sh passes -var=image=... itself, so you can leave this out if
+# you always use deploy.sh.
 image = "us-central1-docker.pkg.dev/your-gcp-project-id/story-graph/targeted-research:latest"
+
+# --- Quantum Aikido Coaching project (recommended target) ---
+# This project already has GEMINI_API_KEY in Secret Manager and billing
+# enabled. To use it:
+#
+# project_id = "quantum-aikido-coaching"
+# create_secret    = false
+# gemini_secret_id = "projects/713321572668/secrets/GEMINI_API_KEY"
+# notification_email = "kkron.jobs@gmail.com"
 
 # Uncomment to point at an existing GEMINI_API_KEY secret (e.g. the one
 # story_graph's README already documents in aiqa-coaching /
@@ -16,3 +27,19 @@ image = "us-central1-docker.pkg.dev/your-gcp-project-id/story-graph/targeted-res
 # unset by default -- no alert policy/notification channel is created
 # without it.
 # notification_email = "you@example.com"
+
+# --- Cloud Build (GCP-side image construction) ---
+# Enable to create a Cloud Build trigger that builds the image on push
+# to the specified branch. The Oracle host can then trigger builds via
+# `gcloud builds submit` or rely on the GitHub-connected trigger, with
+# GCP doing all image construction (no local docker needed).
+# enable_cloud_build_trigger = true
+# cloud_build_trigger_branch  = "main"
+# cloud_build_github_owner    = "biofool"
+# cloud_build_github_repo     = "story_graph"
+
+# --- Artifact Registry ---
+# Terraform creates the Artifact Registry Docker repo for the image by
+# default. Set to false if it already exists.
+# create_artifact_registry    = true
+# artifact_registry_repo_name = "story-graph"
