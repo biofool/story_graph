@@ -27,108 +27,25 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
 import requests
-from bs4 import BeautifulSoup
 
 from config.settings import settings
 from scripts._pipeline_helpers import process_page
-from src.crawler.web_crawler import CrawledPage, ImageCandidate
+from src.crawler.fetch_page import fetch_page
 from src.extractor.claim_extractor import ClaimExtractor
 from src.extractor.entity_extractor import EntityExtractor
 from src.storage.graph_db import GraphDB
 from src.storage.json_export import export_to_json, import_from_json
-from src.utils.text_utils import clean_text
 
 # Primary sources about Dan Millman
 DEFAULT_URLS = [
     "https://en.wikipedia.org/wiki/Dan_Millman",
-    "https://www.whistlekickmartialartsradio.com/blog/episode-672-mr-dan-millman/",
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman",
     "https://usagym.org/halloffame/inductee/millman-dan",
     "https://usghof.org/d_millman",
     "https://alchetron.com/Dan-Millman",
 ]
 
-USER_AGENT = settings.crawl_user_agent
-BROWSER_USER_AGENT = (
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-)
 TIMEOUT = settings.crawl_timeout
-
-
-def fetch_page(url: str, use_browser_ua: bool = False) -> CrawledPage:
-    """Fetch and parse a single URL into a CrawledPage."""
-    ua = BROWSER_USER_AGENT if use_browser_ua else USER_AGENT
-    headers = {
-        "User-Agent": ua,
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.5",
-    }
-    resp = requests.get(url, headers=headers, timeout=TIMEOUT)
-    resp.raise_for_status()
-
-    soup = BeautifulSoup(resp.text, "lxml")
-
-    title_tag = soup.find("title")
-    title = title_tag.get_text(strip=True) if title_tag else ""
-
-    author = None
-    for selector in [
-        ("meta", {"name": "author"}),
-        ("meta", {"property": "article:author"}),
-        ("meta", {"name": "twitter:creator"}),
-    ]:
-        tag = soup.find(*selector)
-        if tag and tag.get("content"):
-            author = tag["content"]
-            break
-
-    publish_date = None
-    for selector in [
-        ("meta", {"property": "article:published_time"}),
-        ("meta", {"name": "date"}),
-        ("meta", {"name": "DC.date"}),
-        ("time", {}),
-    ]:
-        tag = soup.find(*selector)
-        if tag:
-            val = tag.get("content") or tag.get("datetime") or ""
-            if val:
-                publish_date = val
-                break
-
-    content_area = soup.find("article") or soup.find("main") or soup.find("body") or soup
-    text = clean_text(str(content_area))
-
-    images: list[ImageCandidate] = []
-    seen: set[str] = set()
-    og_image = soup.find("meta", {"property": "og:image"})
-    if og_image and og_image.get("content"):
-        img_url = og_image["content"].strip()
-        if img_url and not img_url.startswith("data:"):
-            seen.add(img_url)
-            images.append(ImageCandidate(url=img_url, alt=title))
-
-    for img_tag in content_area.find_all("img"):
-        src = (img_tag.get("src") or img_tag.get("data-src") or "").strip()
-        if not src or src.startswith("data:"):
-            continue
-        if src.lower().split("?")[0].endswith((".svg", ".ico")):
-            continue
-        if src in seen:
-            continue
-        seen.add(src)
-        images.append(ImageCandidate(url=src, alt=img_tag.get("alt", "").strip()))
-
-    return CrawledPage(
-        url=url,
-        title=title,
-        text=text,
-        links=[],
-        images=images,
-        author=author,
-        publish_date=publish_date,
-        status_code=resp.status_code,
-    )
 
 
 def main():
@@ -141,7 +58,9 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Fetch and show what would be ingested, no DB writes")
     parser.add_argument("--no-export", action="store_true", help="Skip snapshot export after ingestion")
     parser.add_argument("--no-rebuild", action="store_true", help="Don't rebuild DB from snapshot first")
-    parser.add_argument("--browser-ua", action="store_true", help="Use a browser-like User-Agent")
+    parser.add_argument("--browser-ua", action="store_true", default=True, help="Use a browser-like User-Agent (default: on)")
+    parser.add_argument("--no-browser-ua", action="store_true", help="Use the bare bot User-Agent instead of the browser one")
+    parser.add_argument("--retry-archive", action="store_true", help="Skip the direct fetch and go straight to the Wayback Machine archive")
     args = parser.parse_args()
 
     urls = args.urls if args.urls else DEFAULT_URLS
@@ -164,9 +83,15 @@ def main():
     # Phase 1: Fetch all pages
     print("[1/3] Fetching pages...")
     pages = []
+    use_browser_ua = not args.no_browser_ua
     for url in urls:
         try:
-            page = fetch_page(url, use_browser_ua=args.browser_ua)
+            page = fetch_page(
+                url,
+                timeout=TIMEOUT,
+                use_browser_ua=use_browser_ua,
+                retry_archive=args.retry_archive,
+            )
             pages.append(page)
             print(f"  OK  {url}")
             print(f"       Title: {page.title[:80]}")

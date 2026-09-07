@@ -58,6 +58,7 @@
 {"dst_id": "person:null", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod"}, "rel_type": "ASSERTED_BY", "src_id": "claim:0411e03665d51f50"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod"}, "rel_type": "ABOUT", "src_id": "claim:05b726ef724e8d1d"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod"}, "rel_type": "ASSERTED_BY", "src_id": "claim:05b726ef724e8d1d"}
+{"dst_id": "person:she", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "ASSERTED_BY", "src_id": "claim:05cd37aabafa28f0"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://divinity.interactivelion.com/new-religious-movements/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:06255cb80a5d0d5c"}
 {"dst_id": "person:divinity-atlas", "metadata": {"evidence": "https://divinity.interactivelion.com/new-religious-movements/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:06255cb80a5d0d5c"}
 {"dst_id": "group:nikko-jujitsu-school", "metadata": {"asserted_by": "kkron", "source": "kkron://personal-communication/kufferath-nadeau-bunch"}, "rel_type": "MENTIONS", "src_id": "claim:062dc00c871d8e21"}
@@ -501,6 +502,7 @@
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:1ffd0937149d68b2"}
 {"dst_id": "person:scott", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:1ffd0937149d68b2"}
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:1ffd0937149d68b2"}
+{"dst_id": "person:yeah", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "ASSERTED_BY", "src_id": "claim:208f78c270bc63b5"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:20f6b81c255efc1c"}
 {"dst_id": "person:isis-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:20f6b81c255efc1c"}
 {"dst_id": "claim:0f66784d35ce3a06", "metadata": {"reason": "opposite stances: supportive vs critical"}, "rel_type": "CONTRADICTS", "src_id": "claim:20f6b81c255efc1c"}
@@ -2372,6 +2374,7 @@
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:698da121edfce5e1"}
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:69bfd4dc0ac7b9b9"}
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:69bfd4dc0ac7b9b9"}
+{"dst_id": "person:however", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "ASSERTED_BY", "src_id": "claim:6a3c59fa32c6f4df"}
 {"dst_id": "group:electricity-aquarian-s-early-commune", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:6b4605850910da2f"}
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:6b4605850910da2f"}
 {"dst_id": "place:potrero-hill", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:6b4605850910da2f"}
@@ -5030,6 +5033,7 @@
 {"dst_id": "claim:74edac881e3a4a72", "metadata": {"reason": "opposite stances: supportive vs critical"}, "rel_type": "CONTRADICTS", "src_id": "claim:ea0384a0a7287134"}
 {"dst_id": "claim:a89e44957dd8d93d", "metadata": {"reason": "opposite stances: supportive vs critical"}, "rel_type": "CONTRADICTS", "src_id": "claim:ea0384a0a7287134"}
 {"dst_id": "claim:ab9f6c67d81da420", "metadata": {"reason": "opposite stances: supportive vs critical"}, "rel_type": "CONTRADICTS", "src_id": "claim:ea0384a0a7287134"}
+{"dst_id": "person:first", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "ASSERTED_BY", "src_id": "claim:eab5f51964c3d07d"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ABOUT", "src_id": "claim:eb7600c47cb10acb"}
 {"dst_id": "person:j-gordon-melton", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ASSERTED_BY", "src_id": "claim:eb7600c47cb10acb"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99"}, "rel_type": "ABOUT", "src_id": "claim:ebaef3d5e9e0393c"}
@@ -18796,6 +18800,54 @@
 {"dst_id": "image:2be75f11a20a9335df710f3dc27803979c88f5da01c081f24b8f10ba76024244", "metadata": {"evidence": "https://openmindadventures.com/chris-thorsen/"}, "rel_type": "DEPICTS", "src_id": "work:a869b10dd8d70d37"}
 {"dst_id": "group:cyprus-fulbright-commission", "metadata": {"evidence": "https://openmindadventures.com/chris-thorsen/"}, "rel_type": "MENTIONS", "src_id": "work:a869b10dd8d70d37"}
 {"dst_id": "person:christopher-thorsen", "metadata": {"evidence": "https://openmindadventures.com/chris-thorsen/"}, "rel_type": "MENTIONS", "src_id": "work:a869b10dd8d70d37"}
+{"dst_id": "claim:058a2f17572773d8", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:05cd37aabafa28f0", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:116b57671e44a864", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:13fe76419dd0f68c", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:208f78c270bc63b5", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:2ade5bd415e7995f", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:3691110d93ddb4c4", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:4ee110bd5f356ccd", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:536b8cc4263cf1d6", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:601f9540179420e9", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:6a3c59fa32c6f4df", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:6dadb3134e93ed4d", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:6f164ce9455c7f2a", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:7c95974eb2875614", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:81bdea53373391a1", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:88c2b3967fd6a8f9", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:8eea6b8284cf9979", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:91f7eb03553b04bc", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:9f14cbe3a6d043b2", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:b4364e9e716134bc", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:b615dc7efc036489", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:cfea9644413933ee", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:d62c981899882b0a", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:d8fb06947d8a6903", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:eab5f51964c3d07d", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:ef3bfeed8ac4f873", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "claim:f2c6c448e66e3f11", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "CONTAINS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "image:b2727bbc8a117d4af77bb5b2dc6c349b9529611931b7210be03bbf1253309f82", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DEPICTS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "image:c9cd1fbf787aa0fe74bfd641ab65094924fc7c4a14843c9cdca07c8ab5a7abd4", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DEPICTS", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "event:and-anyone-who-studied-the-martial-arts-or-any-form-of-movement", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DESCRIBES", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "event:and-finally-i-guess-one-of-the-most-interesting-arts-i-ever-studied-was-with-a-fellow-who-is-really-good-at-pak-silat", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DESCRIBES", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "event:and-i-left-to-do-more-creative-work-in-a-sense-at-oberlin-college", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DESCRIBES", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "event:and-i-started-asking-bigger-questions-how-can-we-develop-talent-not-for-sport-or-martial-arts-if-you-will-but-talent", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DESCRIBES", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "event:and-later-on-after-i-started-coaching-at-stanford-university-in-gymnastics-i-took-up-aikido", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DESCRIBES", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "event:and-so-i-started-to-renovate-and-restructure-test-it-against-reality", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DESCRIBES", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "event:but-after-that-i-took-up-tai-chi-and-learned-a-108-move-form-on-both-sides-right-and-left", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DESCRIBES", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "event:but-when-i-started-jumping-on-it-it-allowed-me-to-jump-like-a-kangaroo-higher-than-i-could-on-the-ground", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DESCRIBES", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "event:but-yet-when-i-started-coaching-i-was-doing-gymnastics-anymore", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DESCRIBES", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "event:he-opened-a-school-with-marcella-garcia-in-new-york-city", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DESCRIBES", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "event:i-also-trained-with-matthew-thomas-who-started-model-mugging", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DESCRIBES", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "event:i-started-school-early-with-kindergarten-and-from-then-on-i-was-one-of-the-younger-ones", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DESCRIBES", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "event:i-wish-i-had-started-my-martial-arts-career-with-this-art-or-this-instructor-or-or", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DESCRIBES", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "event:in-fact-the-first-day-in-gymnastics-class-it-was-a-club-a-tumbling-and-trampoline-club-in-my-middle-school-my-homer", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DESCRIBES", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "event:she-said-i-am-right-handed-but-i-ve-injured-my-right-hand-so-i-m-going-to-have-to-use-my-left-hand-and-i-ve-never-done", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DESCRIBES", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "event:so-let-s-start-here-if-we-think-about-when-you-started-martial-arts-there-must-have-been-a-point-where-you-were-aware", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DESCRIBES", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "event:some-of-them-haven-t-even-started-yet-but-they-feel-an-affinity-for-it-and-they-want-to-and-they-re-hoping-to-get-ther", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DESCRIBES", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "event:the-first-discipline-that-i-studied-was-modern-dance", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "DESCRIBES", "src_id": "work:ab260c68c6cd27d4"}
+{"dst_id": "place:los-angeles", "metadata": {"evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"}, "rel_type": "MENTIONS", "src_id": "work:ab260c68c6cd27d4"}
 {"dst_id": "work:0306cac128cb36b0", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on https://web.archive.org/web/20070630014449/http://moonsic.com/"}, "rel_type": "MENTIONS", "src_id": "work:acf0f9f0a9881c77"}
 {"dst_id": "work:03ef0addab711748", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on https://web.archive.org/web/20070630014449/http://moonsic.com/"}, "rel_type": "MENTIONS", "src_id": "work:acf0f9f0a9881c77"}
 {"dst_id": "work:04d38e556b5240a2", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on https://web.archive.org/web/20070630014449/http://moonsic.com/"}, "rel_type": "MENTIONS", "src_id": "work:acf0f9f0a9881c77"}
