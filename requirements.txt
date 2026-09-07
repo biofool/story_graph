@@ -4,6 +4,7 @@
 # HTTP & web crawling
 requests>=2.31.0
 httpx>=0.27.0
+brotli>=1.1.0  # for Accept-Encoding: br decompression in fetch_page.py
 
 # HTML parsing
 beautifulsoup4>=4.12.0
