@@ -1,0 +1,473 @@
+{
+  "plan_id": "e0536008f1b3",
+  "created_at": "2026-09-07T21:45:30.855512+00:00",
+  "cluster_id": "bay_area_aikido_lineage",
+  "cluster_name": "Bay Area Aikido lineage",
+  "entities": [
+    {
+      "node_id": "person:dan-millman",
+      "label": "Dan Millman",
+      "entity_type": "Person",
+      "aliases": [],
+      "style": "aikido"
+    },
+    {
+      "node_id": "person:robert-nadeau",
+      "label": "Robert Nadeau",
+      "entity_type": "Person",
+      "aliases": [],
+      "style": "aikido"
+    },
+    {
+      "node_id": "person:richard-moon-aikido",
+      "label": "Richard Moon",
+      "entity_type": "Person",
+      "aliases": [],
+      "style": "aikido"
+    },
+    {
+      "node_id": "person:bob-noha",
+      "label": "Bob Noha",
+      "entity_type": "Person",
+      "aliases": [],
+      "style": "aikido"
+    }
+  ],
+  "pair_queries": [
+    {
+      "query": "\"Dan Millman\" \"Robert Nadeau\" training",
+      "template_id": "training_together",
+      "target_edge": "TRAINED_WITH",
+      "entity_a": "person:dan-millman",
+      "entity_b": "person:robert-nadeau",
+      "description": "Find documentation of two people training together"
+    },
+    {
+      "query": "\"Dan Millman\" student of \"Robert Nadeau\"",
+      "template_id": "student_of",
+      "target_edge": "STUDENT_OF",
+      "entity_a": "person:dan-millman",
+      "entity_b": "person:robert-nadeau",
+      "description": "Find documentation of a teacher-student relationship"
+    },
+    {
+      "query": "\"Dan Millman\" taught by \"Robert Nadeau\"",
+      "template_id": "taught_by",
+      "target_edge": "STUDENT_OF",
+      "entity_a": "person:dan-millman",
+      "entity_b": "person:robert-nadeau",
+      "description": "Alternative phrasing for teacher-student"
+    },
+    {
+      "query": "\"Dan Millman\" \"Robert Nadeau\" seminar",
+      "template_id": "seminar_together",
+      "target_edge": "ATTENDED_WITH",
+      "entity_a": "person:dan-millman",
+      "entity_b": "person:robert-nadeau",
+      "description": "Find seminar/workshop co-attendance"
+    },
+    {
+      "query": "\"Dan Millman\" \"Robert Nadeau\" dojo",
+      "template_id": "dojo_shared",
+      "target_edge": "TRAINED_AT",
+      "entity_a": "person:dan-millman",
+      "entity_b": "person:robert-nadeau",
+      "description": "Find shared dojo connections"
+    },
+    {
+      "query": "\"Dan Millman\" \"Robert Nadeau\" interview",
+      "template_id": "interview_mention",
+      "target_edge": "MENTIONS",
+      "entity_a": "person:dan-millman",
+      "entity_b": "person:robert-nadeau",
+      "description": "Find interviews where one mentions the other"
+    },
+    {
+      "query": "\"Dan Millman\" \"Richard Moon\" training",
+      "template_id": "training_together",
+      "target_edge": "TRAINED_WITH",
+      "entity_a": "person:dan-millman",
+      "entity_b": "person:richard-moon-aikido",
+      "description": "Find documentation of two people training together"
+    },
+    {
+      "query": "\"Dan Millman\" student of \"Richard Moon\"",
+      "template_id": "student_of",
+      "target_edge": "STUDENT_OF",
+      "entity_a": "person:dan-millman",
+      "entity_b": "person:richard-moon-aikido",
+      "description": "Find documentation of a teacher-student relationship"
+    },
+    {
+      "query": "\"Dan Millman\" taught by \"Richard Moon\"",
+      "template_id": "taught_by",
+      "target_edge": "STUDENT_OF",
+      "entity_a": "person:dan-millman",
+      "entity_b": "person:richard-moon-aikido",
+      "description": "Alternative phrasing for teacher-student"
+    },
+    {
+      "query": "\"Dan Millman\" \"Richard Moon\" seminar",
+      "template_id": "seminar_together",
+      "target_edge": "ATTENDED_WITH",
+      "entity_a": "person:dan-millman",
+      "entity_b": "person:richard-moon-aikido",
+      "description": "Find seminar/workshop co-attendance"
+    },
+    {
+      "query": "\"Dan Millman\" \"Richard Moon\" dojo",
+      "template_id": "dojo_shared",
+      "target_edge": "TRAINED_AT",
+      "entity_a": "person:dan-millman",
+      "entity_b": "person:richard-moon-aikido",
+      "description": "Find shared dojo connections"
+    },
+    {
+      "query": "\"Dan Millman\" \"Richard Moon\" interview",
+      "template_id": "interview_mention",
+      "target_edge": "MENTIONS",
+      "entity_a": "person:dan-millman",
+      "entity_b": "person:richard-moon-aikido",
+      "description": "Find interviews where one mentions the other"
+    },
+    {
+      "query": "\"Dan Millman\" \"Bob Noha\" training",
+      "template_id": "training_together",
+      "target_edge": "TRAINED_WITH",
+      "entity_a": "person:dan-millman",
+      "entity_b": "person:bob-noha",
+      "description": "Find documentation of two people training together"
+    },
+    {
+      "query": "\"Dan Millman\" student of \"Bob Noha\"",
+      "template_id": "student_of",
+      "target_edge": "STUDENT_OF",
+      "entity_a": "person:dan-millman",
+      "entity_b": "person:bob-noha",
+      "description": "Find documentation of a teacher-student relationship"
+    },
+    {
+      "query": "\"Dan Millman\" taught by \"Bob Noha\"",
+      "template_id": "taught_by",
+      "target_edge": "STUDENT_OF",
+      "entity_a": "person:dan-millman",
+      "entity_b": "person:bob-noha",
+      "description": "Alternative phrasing for teacher-student"
+    },
+    {
+      "query": "\"Dan Millman\" \"Bob Noha\" seminar",
+      "template_id": "seminar_together",
+      "target_edge": "ATTENDED_WITH",
+      "entity_a": "person:dan-millman",
+      "entity_b": "person:bob-noha",
+      "description": "Find seminar/workshop co-attendance"
+    },
+    {
+      "query": "\"Dan Millman\" \"Bob Noha\" dojo",
+      "template_id": "dojo_shared",
+      "target_edge": "TRAINED_AT",
+      "entity_a": "person:dan-millman",
+      "entity_b": "person:bob-noha",
+      "description": "Find shared dojo connections"
+    },
+    {
+      "query": "\"Dan Millman\" \"Bob Noha\" interview",
+      "template_id": "interview_mention",
+      "target_edge": "MENTIONS",
+      "entity_a": "person:dan-millman",
+      "entity_b": "person:bob-noha",
+      "description": "Find interviews where one mentions the other"
+    },
+    {
+      "query": "\"Robert Nadeau\" \"Richard Moon\" training",
+      "template_id": "training_together",
+      "target_edge": "TRAINED_WITH",
+      "entity_a": "person:robert-nadeau",
+      "entity_b": "person:richard-moon-aikido",
+      "description": "Find documentation of two people training together"
+    },
+    {
+      "query": "\"Robert Nadeau\" student of \"Richard Moon\"",
+      "template_id": "student_of",
+      "target_edge": "STUDENT_OF",
+      "entity_a": "person:robert-nadeau",
+      "entity_b": "person:richard-moon-aikido",
+      "description": "Find documentation of a teacher-student relationship"
+    },
+    {
+      "query": "\"Robert Nadeau\" taught by \"Richard Moon\"",
+      "template_id": "taught_by",
+      "target_edge": "STUDENT_OF",
+      "entity_a": "person:robert-nadeau",
+      "entity_b": "person:richard-moon-aikido",
+      "description": "Alternative phrasing for teacher-student"
+    },
+    {
+      "query": "\"Robert Nadeau\" \"Richard Moon\" seminar",
+      "template_id": "seminar_together",
+      "target_edge": "ATTENDED_WITH",
+      "entity_a": "person:robert-nadeau",
+      "entity_b": "person:richard-moon-aikido",
+      "description": "Find seminar/workshop co-attendance"
+    },
+    {
+      "query": "\"Robert Nadeau\" \"Richard Moon\" dojo",
+      "template_id": "dojo_shared",
+      "target_edge": "TRAINED_AT",
+      "entity_a": "person:robert-nadeau",
+      "entity_b": "person:richard-moon-aikido",
+      "description": "Find shared dojo connections"
+    },
+    {
+      "query": "\"Robert Nadeau\" \"Richard Moon\" interview",
+      "template_id": "interview_mention",
+      "target_edge": "MENTIONS",
+      "entity_a": "person:robert-nadeau",
+      "entity_b": "person:richard-moon-aikido",
+      "description": "Find interviews where one mentions the other"
+    },
+    {
+      "query": "\"Robert Nadeau\" \"Bob Noha\" training",
+      "template_id": "training_together",
+      "target_edge": "TRAINED_WITH",
+      "entity_a": "person:robert-nadeau",
+      "entity_b": "person:bob-noha",
+      "description": "Find documentation of two people training together"
+    },
+    {
+      "query": "\"Robert Nadeau\" student of \"Bob Noha\"",
+      "template_id": "student_of",
+      "target_edge": "STUDENT_OF",
+      "entity_a": "person:robert-nadeau",
+      "entity_b": "person:bob-noha",
+      "description": "Find documentation of a teacher-student relationship"
+    },
+    {
+      "query": "\"Robert Nadeau\" taught by \"Bob Noha\"",
+      "template_id": "taught_by",
+      "target_edge": "STUDENT_OF",
+      "entity_a": "person:robert-nadeau",
+      "entity_b": "person:bob-noha",
+      "description": "Alternative phrasing for teacher-student"
+    },
+    {
+      "query": "\"Robert Nadeau\" \"Bob Noha\" seminar",
+      "template_id": "seminar_together",
+      "target_edge": "ATTENDED_WITH",
+      "entity_a": "person:robert-nadeau",
+      "entity_b": "person:bob-noha",
+      "description": "Find seminar/workshop co-attendance"
+    },
+    {
+      "query": "\"Robert Nadeau\" \"Bob Noha\" dojo",
+      "template_id": "dojo_shared",
+      "target_edge": "TRAINED_AT",
+      "entity_a": "person:robert-nadeau",
+      "entity_b": "person:bob-noha",
+      "description": "Find shared dojo connections"
+    },
+    {
+      "query": "\"Robert Nadeau\" \"Bob Noha\" interview",
+      "template_id": "interview_mention",
+      "target_edge": "MENTIONS",
+      "entity_a": "person:robert-nadeau",
+      "entity_b": "person:bob-noha",
+      "description": "Find interviews where one mentions the other"
+    },
+    {
+      "query": "\"Richard Moon\" \"Bob Noha\" training",
+      "template_id": "training_together",
+      "target_edge": "TRAINED_WITH",
+      "entity_a": "person:richard-moon-aikido",
+      "entity_b": "person:bob-noha",
+      "description": "Find documentation of two people training together"
+    },
+    {
+      "query": "\"Richard Moon\" student of \"Bob Noha\"",
+      "template_id": "student_of",
+      "target_edge": "STUDENT_OF",
+      "entity_a": "person:richard-moon-aikido",
+      "entity_b": "person:bob-noha",
+      "description": "Find documentation of a teacher-student relationship"
+    },
+    {
+      "query": "\"Richard Moon\" taught by \"Bob Noha\"",
+      "template_id": "taught_by",
+      "target_edge": "STUDENT_OF",
+      "entity_a": "person:richard-moon-aikido",
+      "entity_b": "person:bob-noha",
+      "description": "Alternative phrasing for teacher-student"
+    },
+    {
+      "query": "\"Richard Moon\" \"Bob Noha\" seminar",
+      "template_id": "seminar_together",
+      "target_edge": "ATTENDED_WITH",
+      "entity_a": "person:richard-moon-aikido",
+      "entity_b": "person:bob-noha",
+      "description": "Find seminar/workshop co-attendance"
+    },
+    {
+      "query": "\"Richard Moon\" \"Bob Noha\" dojo",
+      "template_id": "dojo_shared",
+      "target_edge": "TRAINED_AT",
+      "entity_a": "person:richard-moon-aikido",
+      "entity_b": "person:bob-noha",
+      "description": "Find shared dojo connections"
+    },
+    {
+      "query": "\"Richard Moon\" \"Bob Noha\" interview",
+      "template_id": "interview_mention",
+      "target_edge": "MENTIONS",
+      "entity_a": "person:richard-moon-aikido",
+      "entity_b": "person:bob-noha",
+      "description": "Find interviews where one mentions the other"
+    }
+  ],
+  "single_queries": [
+    {
+      "query": "\"Dan Millman\" aikido biography",
+      "template_id": "bio_search",
+      "entity": "person:dan-millman",
+      "description": "Find biographical sources for a single person"
+    },
+    {
+      "query": "\"Dan Millman\" aikido instructor",
+      "template_id": "instructor_search",
+      "entity": "person:dan-millman",
+      "description": "Find instructor profile sources"
+    },
+    {
+      "query": "\"Dan Millman\"  member",
+      "template_id": "org_member_search",
+      "entity": "person:dan-millman",
+      "description": "Find organizational membership documentation"
+    },
+    {
+      "query": "\"Dan Millman\" seminar ",
+      "template_id": "seminar_year",
+      "entity": "person:dan-millman",
+      "description": "Find seminar records for a specific year"
+    },
+    {
+      "query": "\"Dan Millman\" interview martial arts",
+      "template_id": "interview_search",
+      "entity": "person:dan-millman",
+      "description": "Find interview sources"
+    },
+    {
+      "query": "\"Dan Millman\" obituary martial arts",
+      "template_id": "obituary_search",
+      "entity": "person:dan-millman",
+      "description": "Find obituary sources (often rich biographical detail)"
+    },
+    {
+      "query": "\"Robert Nadeau\" aikido biography",
+      "template_id": "bio_search",
+      "entity": "person:robert-nadeau",
+      "description": "Find biographical sources for a single person"
+    },
+    {
+      "query": "\"Robert Nadeau\" aikido instructor",
+      "template_id": "instructor_search",
+      "entity": "person:robert-nadeau",
+      "description": "Find instructor profile sources"
+    },
+    {
+      "query": "\"Robert Nadeau\"  member",
+      "template_id": "org_member_search",
+      "entity": "person:robert-nadeau",
+      "description": "Find organizational membership documentation"
+    },
+    {
+      "query": "\"Robert Nadeau\" seminar ",
+      "template_id": "seminar_year",
+      "entity": "person:robert-nadeau",
+      "description": "Find seminar records for a specific year"
+    },
+    {
+      "query": "\"Robert Nadeau\" interview martial arts",
+      "template_id": "interview_search",
+      "entity": "person:robert-nadeau",
+      "description": "Find interview sources"
+    },
+    {
+      "query": "\"Robert Nadeau\" obituary martial arts",
+      "template_id": "obituary_search",
+      "entity": "person:robert-nadeau",
+      "description": "Find obituary sources (often rich biographical detail)"
+    },
+    {
+      "query": "\"Richard Moon\" aikido biography",
+      "template_id": "bio_search",
+      "entity": "person:richard-moon-aikido",
+      "description": "Find biographical sources for a single person"
+    },
+    {
+      "query": "\"Richard Moon\" aikido instructor",
+      "template_id": "instructor_search",
+      "entity": "person:richard-moon-aikido",
+      "description": "Find instructor profile sources"
+    },
+    {
+      "query": "\"Richard Moon\"  member",
+      "template_id": "org_member_search",
+      "entity": "person:richard-moon-aikido",
+      "description": "Find organizational membership documentation"
+    },
+    {
+      "query": "\"Richard Moon\" seminar ",
+      "template_id": "seminar_year",
+      "entity": "person:richard-moon-aikido",
+      "description": "Find seminar records for a specific year"
+    },
+    {
+      "query": "\"Richard Moon\" interview martial arts",
+      "template_id": "interview_search",
+      "entity": "person:richard-moon-aikido",
+      "description": "Find interview sources"
+    },
+    {
+      "query": "\"Richard Moon\" obituary martial arts",
+      "template_id": "obituary_search",
+      "entity": "person:richard-moon-aikido",
+      "description": "Find obituary sources (often rich biographical detail)"
+    },
+    {
+      "query": "\"Bob Noha\" aikido biography",
+      "template_id": "bio_search",
+      "entity": "person:bob-noha",
+      "description": "Find biographical sources for a single person"
+    },
+    {
+      "query": "\"Bob Noha\" aikido instructor",
+      "template_id": "instructor_search",
+      "entity": "person:bob-noha",
+      "description": "Find instructor profile sources"
+    },
+    {
+      "query": "\"Bob Noha\"  member",
+      "template_id": "org_member_search",
+      "entity": "person:bob-noha",
+      "description": "Find organizational membership documentation"
+    },
+    {
+      "query": "\"Bob Noha\" seminar ",
+      "template_id": "seminar_year",
+      "entity": "person:bob-noha",
+      "description": "Find seminar records for a specific year"
+    },
+    {
+      "query": "\"Bob Noha\" interview martial arts",
+      "template_id": "interview_search",
+      "entity": "person:bob-noha",
+      "description": "Find interview sources"
+    },
+    {
+      "query": "\"Bob Noha\" obituary martial arts",
+      "template_id": "obituary_search",
+      "entity": "person:bob-noha",
+      "description": "Find obituary sources (often rich biographical detail)"
+    }
+  ],
+  "total_queries": 60
+}

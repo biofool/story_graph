@@ -139,6 +139,29 @@ class Settings(BaseModel):
         default_factory=lambda: int(os.getenv("LOCK_STALE_SECONDS", str(2 * 60 * 60)))
     )
 
+    # Brave Search API — used for relationship discovery searches.
+    # Get a key at https://api.search.brave.com (free tier: 2K queries/month).
+    brave_search_api_key: str = Field(
+        default_factory=lambda: os.getenv("BRAVE_SEARCH_API_KEY", "")
+    )
+
+    # Relationship search budgets
+    search_session_budget_queries: int = Field(
+        default_factory=lambda: int(os.getenv("SEARCH_SESSION_BUDGET_QUERIES", "100"))
+    )
+    search_monthly_budget_queries: int = Field(
+        default_factory=lambda: int(os.getenv("SEARCH_MONTHLY_BUDGET_QUERIES", "2000"))
+    )
+    search_cache_ttl_days: int = Field(
+        default_factory=lambda: int(os.getenv("SEARCH_CACHE_TTL_DAYS", "30"))
+    )
+    search_cache_path: str = Field(
+        default_factory=lambda: os.getenv("SEARCH_CACHE_PATH", "data/cache/search_cache.sqlite")
+    )
+    search_runs_dir: str = Field(
+        default_factory=lambda: os.getenv("SEARCH_RUNS_DIR", "data/search_runs")
+    )
+
     # Storage
     graph_db_path: str = Field(
         default_factory=lambda: os.getenv("GRAPH_DB_PATH", "data/graph.db")
