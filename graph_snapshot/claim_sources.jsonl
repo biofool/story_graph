@@ -9,6 +9,7 @@
 {"claim_id": "claim:0411e03665d51f50", "quote_span_end": null, "quote_span_start": null, "source_id": "work:99ca339cfd100a36"}
 {"claim_id": "claim:05b726ef724e8d1d", "quote_span_end": null, "quote_span_start": null, "source_id": "work:99ca339cfd100a36"}
 {"claim_id": "claim:06255cb80a5d0d5c", "quote_span_end": null, "quote_span_start": null, "source_id": "work:e0e7c55265f491fd"}
+{"claim_id": "claim:062dc00c871d8e21", "quote_span_end": null, "quote_span_start": null, "source_id": "kkron:kufferath-nadeau-bunch-research"}
 {"claim_id": "claim:0683b61a071c9c74", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a46d003f349ba458"}
 {"claim_id": "claim:06c9838e0f192782", "quote_span_end": null, "quote_span_start": null, "source_id": "work:f739841f314f0e99"}
 {"claim_id": "claim:06d2dde3efd69955", "quote_span_end": null, "quote_span_start": null, "source_id": "work:968e9a5d3a76f258"}
@@ -16,6 +17,7 @@
 {"claim_id": "claim:07aa0c8e62115896", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:08283f77ff9b03d3", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:09502e13c293aa67", "quote_span_end": null, "quote_span_start": null, "source_id": "work:9c415280b98e657f"}
+{"claim_id": "claim:0a48f3c6a3dbbdad", "quote_span_end": null, "quote_span_start": null, "source_id": "kkron:kufferath-nadeau-bunch-research"}
 {"claim_id": "claim:0a58127f5ee17654", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:0a5d8991c2bec7d3", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a46d003f349ba458"}
 {"claim_id": "claim:0acd2fa0b9834319", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
@@ -47,10 +49,13 @@
 {"claim_id": "claim:1a4525c0f10dd4dd", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:1a4dc4fa61933c0b", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a7a7e909d30a4e18"}
 {"claim_id": "claim:1a6aa4b68eef2690", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
+{"claim_id": "claim:1a900592a61c9313", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a2141cac8e8c09c1"}
+{"claim_id": "claim:1b2e530b0ccaa57b", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a2141cac8e8c09c1"}
 {"claim_id": "claim:1b8deba01230717c", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:1c47e1d4fd023458", "quote_span_end": null, "quote_span_start": null, "source_id": "work:e0e7c55265f491fd"}
 {"claim_id": "claim:1c5885e92005ca4b", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:1c604a3a498f35f8", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
+{"claim_id": "claim:1c80d30ecc7fbeb0", "quote_span_end": null, "quote_span_start": null, "source_id": "work:bf2f4a20a618fc1d"}
 {"claim_id": "claim:1cdc2b6f829b72ba", "quote_span_end": null, "quote_span_start": null, "source_id": "work:93d9eaf6480fefc6"}
 {"claim_id": "claim:1d1ece5342d8f25e", "quote_span_end": null, "quote_span_start": null, "source_id": "work:93d9eaf6480fefc6"}
 {"claim_id": "claim:1daf3f0d0775df4f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:9c415280b98e657f"}
@@ -119,6 +124,7 @@
 {"claim_id": "claim:3866ad7d5dba87ad", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a7a7e909d30a4e18"}
 {"claim_id": "claim:393a814a10406901", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:394945b1842e5e9c", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
+{"claim_id": "claim:395e3214a8d11e41", "quote_span_end": null, "quote_span_start": null, "source_id": "kkron:kufferath-nadeau-bunch-research"}
 {"claim_id": "claim:3a18856cfdb9aeff", "quote_span_end": null, "quote_span_start": null, "source_id": "work:93d9eaf6480fefc6"}
 {"claim_id": "claim:3a359b6e125b38ed", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a46d003f349ba458"}
 {"claim_id": "claim:3a5fc7923e490e24", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a46d003f349ba458"}
@@ -142,6 +148,7 @@
 {"claim_id": "claim:407e8197cbb84cb2", "quote_span_end": null, "quote_span_start": null, "source_id": "work:50cc49055c0675fe"}
 {"claim_id": "claim:40829ea22e72c9ab", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:40d92ea897248a39", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
+{"claim_id": "claim:41ffb3c0123fe287", "quote_span_end": null, "quote_span_start": null, "source_id": "kkron:kufferath-nadeau-bunch-research"}
 {"claim_id": "claim:421a9687741c9883", "quote_span_end": null, "quote_span_start": null, "source_id": "work:bda8ddd26707c690"}
 {"claim_id": "claim:4237d7502e26d9aa", "quote_span_end": null, "quote_span_start": null, "source_id": "work:93d9eaf6480fefc6"}
 {"claim_id": "claim:43fed2551231f0bd", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
@@ -153,9 +160,11 @@
 {"claim_id": "claim:467c79cb22c30e9b", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:47939168a04800cc", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:47dc9e7d3b2de96c", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a46d003f349ba458"}
+{"claim_id": "claim:488f57275770869c", "quote_span_end": null, "quote_span_start": null, "source_id": "kkron:kufferath-nadeau-bunch-research"}
 {"claim_id": "claim:4973f65b0bacaf31", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a7a7e909d30a4e18"}
 {"claim_id": "claim:4979d29ab94716c7", "quote_span_end": null, "quote_span_start": null, "source_id": "work:968e9a5d3a76f258"}
 {"claim_id": "claim:4a3639a3b441fd8d", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
+{"claim_id": "claim:4a5cf3f67a545d7c", "quote_span_end": null, "quote_span_start": null, "source_id": "kkron:kufferath-nadeau-bunch-research"}
 {"claim_id": "claim:4acb04b564e85d64", "quote_span_end": null, "quote_span_start": null, "source_id": "work:968e9a5d3a76f258"}
 {"claim_id": "claim:4b7f5a1dc03dba57", "quote_span_end": null, "quote_span_start": null, "source_id": "work:09723868bf0e97b4"}
 {"claim_id": "claim:4bb08137d1cff60d", "quote_span_end": null, "quote_span_start": null, "source_id": "work:9c415280b98e657f"}
@@ -176,12 +185,14 @@
 {"claim_id": "claim:4e8d2581df6a52a5", "quote_span_end": null, "quote_span_start": null, "source_id": "work:99ca339cfd100a36"}
 {"claim_id": "claim:4e9f242ff9eb80e5", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:4f16b7071f8f900f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:968e9a5d3a76f258"}
+{"claim_id": "claim:500f24cf4c7833d9", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a2141cac8e8c09c1"}
 {"claim_id": "claim:508b5d8e8859e68a", "quote_span_end": null, "quote_span_start": null, "source_id": "work:65a2a280c44bc331"}
 {"claim_id": "claim:51464f61e0b1ecdf", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:5165832dff113504", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:5174c57562de1d1d", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:51ff3f2d783c6564", "quote_span_end": null, "quote_span_start": null, "source_id": "work:e2cea00a8baf5a81"}
 {"claim_id": "claim:524fec79937af11c", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
+{"claim_id": "claim:5298d34392b9cf80", "quote_span_end": null, "quote_span_start": null, "source_id": "work:182e049cd9debba6"}
 {"claim_id": "claim:52ca75309d492053", "quote_span_end": null, "quote_span_start": null, "source_id": "work:9c415280b98e657f"}
 {"claim_id": "claim:52cb7120a96e6c38", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a46d003f349ba458"}
 {"claim_id": "claim:534f58c7e3342a96", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
@@ -192,6 +203,7 @@
 {"claim_id": "claim:5595981ca72c9ffe", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:55ce183b7c8a13ed", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:567ceb2dc1c565cf", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
+{"claim_id": "claim:571407174e34d051", "quote_span_end": null, "quote_span_start": null, "source_id": "kkron:kufferath-nadeau-bunch-research"}
 {"claim_id": "claim:573e50fb1197c2ff", "quote_span_end": null, "quote_span_start": null, "source_id": "work:99ca339cfd100a36"}
 {"claim_id": "claim:57ff39f23f53cd31", "quote_span_end": null, "quote_span_start": null, "source_id": "work:93d9eaf6480fefc6"}
 {"claim_id": "claim:5891381966773497", "quote_span_end": null, "quote_span_start": null, "source_id": "work:99ca339cfd100a36"}
@@ -228,6 +240,7 @@
 {"claim_id": "claim:69bfd4dc0ac7b9b9", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:6b4605850910da2f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:6b861fde8e1d6537", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a7a7e909d30a4e18"}
+{"claim_id": "claim:6be30685f8bf224f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:e06527e66dfbb97d"}
 {"claim_id": "claim:6cb418a3e856c102", "quote_span_end": null, "quote_span_start": null, "source_id": "work:99ca339cfd100a36"}
 {"claim_id": "claim:6cefff51ef1e1504", "quote_span_end": null, "quote_span_start": null, "source_id": "work:968e9a5d3a76f258"}
 {"claim_id": "claim:6cfa75ad844c7b96", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
@@ -340,6 +353,7 @@
 {"claim_id": "claim:a702ed18cb9bd01f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:a7135df0f96505fe", "quote_span_end": null, "quote_span_start": null, "source_id": "work:bda8ddd26707c690"}
 {"claim_id": "claim:a73c25fcea291b24", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
+{"claim_id": "claim:a74d408f8be630b5", "quote_span_end": null, "quote_span_start": null, "source_id": "kkron:kufferath-nadeau-bunch-research"}
 {"claim_id": "claim:a7636f962198ca1a", "quote_span_end": null, "quote_span_start": null, "source_id": "work:09723868bf0e97b4"}
 {"claim_id": "claim:a7679291603148d5", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:a7d182c3456a468f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
@@ -382,6 +396,7 @@
 {"claim_id": "claim:b9888b4740f758ce", "quote_span_end": null, "quote_span_start": null, "source_id": "work:968e9a5d3a76f258"}
 {"claim_id": "claim:b9a93fa0507929be", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:b9c8f173970ef3df", "quote_span_end": null, "quote_span_start": null, "source_id": "work:93d9eaf6480fefc6"}
+{"claim_id": "claim:ba4482a93b79a7cd", "quote_span_end": null, "quote_span_start": null, "source_id": "kkron:kufferath-nadeau-bunch-research"}
 {"claim_id": "claim:bc72ba5fe0ece1f9", "quote_span_end": null, "quote_span_start": null, "source_id": "work:9c415280b98e657f"}
 {"claim_id": "claim:bc79444ac4b6aa51", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:be08731929da8d70", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
@@ -430,6 +445,7 @@
 {"claim_id": "claim:cb6cb0998a8a6444", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a7a7e909d30a4e18"}
 {"claim_id": "claim:cb6eb77c42f7e5af", "quote_span_end": null, "quote_span_start": null, "source_id": "work:93d9eaf6480fefc6"}
 {"claim_id": "claim:cd17253b6393dc95", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
+{"claim_id": "claim:cd84f308609cf5ed", "quote_span_end": null, "quote_span_start": null, "source_id": "kkron:kufferath-nadeau-bunch-research"}
 {"claim_id": "claim:ceb8ab59398a0c41", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:cf316972794d605e", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:cfa78cd2e034190c", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
@@ -453,7 +469,9 @@
 {"claim_id": "claim:d3a6b4acc9805bdb", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:d3f5f71ddfb95493", "quote_span_end": null, "quote_span_start": null, "source_id": "work:65a2a280c44bc331"}
 {"claim_id": "claim:d414ba698da86e97", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
+{"claim_id": "claim:d49902e59d6dfa1f", "quote_span_end": null, "quote_span_start": null, "source_id": "kkron:kufferath-nadeau-bunch-research"}
 {"claim_id": "claim:d4ef2487ddcd8173", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a7a7e909d30a4e18"}
+{"claim_id": "claim:d522d34270731219", "quote_span_end": null, "quote_span_start": null, "source_id": "work:067626c085575634"}
 {"claim_id": "claim:d5e0727ed34a018e", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:d6496f6a5646b396", "quote_span_end": null, "quote_span_start": null, "source_id": "work:09723868bf0e97b4"}
 {"claim_id": "claim:d65fa05a58051872", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
@@ -493,6 +511,7 @@
 {"claim_id": "claim:e5536de89071a2f8", "quote_span_end": null, "quote_span_start": null, "source_id": "work:65a2a280c44bc331"}
 {"claim_id": "claim:e63afe2aae798d22", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:e677be229b58a372", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
+{"claim_id": "claim:e6cf80a1a963cbe3", "quote_span_end": null, "quote_span_start": null, "source_id": "kkron:kufferath-nadeau-bunch-research"}
 {"claim_id": "claim:e757bb286b9d9c31", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:e76586f19f69a1e2", "quote_span_end": null, "quote_span_start": null, "source_id": "work:65a2a280c44bc331"}
 {"claim_id": "claim:e7a00e8e05ce685c", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
@@ -503,6 +522,7 @@
 {"claim_id": "claim:ec141e30204cd142", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:ec2c22df5bb46f13", "quote_span_end": null, "quote_span_start": null, "source_id": "work:968e9a5d3a76f258"}
 {"claim_id": "claim:ed574d9dfcdd7811", "quote_span_end": null, "quote_span_start": null, "source_id": "work:09723868bf0e97b4"}
+{"claim_id": "claim:edf1655273dccdd3", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a2141cac8e8c09c1"}
 {"claim_id": "claim:ef02f107a3125d01", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:ef41dde77669253f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:50cc49055c0675fe"}
 {"claim_id": "claim:ef91f00c828e8c63", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
