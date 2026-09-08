@@ -23,10 +23,7 @@ Usage:
 
 import argparse
 import csv
-import json
 import logging
-import re
-import sqlite3
 import sys
 from pathlib import Path
 
@@ -39,7 +36,7 @@ from src.storage.lineage_db import LineageDB
 from src.storage.models import GraphNode, GraphEdge, NodeType, RelationType
 from src.search.disambiguator import (
     build_alias_index, clean_dojo_name, deduplicate_dojos,
-    map_head_to_person, normalize_domain, normalize_person_name, slugify,
+    map_head_to_person, normalize_domain, slugify,
 )
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
@@ -357,10 +354,10 @@ def main():
         elif local_csv.exists():
             csv_path = local_csv
         else:
-            print(f"ERROR: Could not find aikido_pilot_review.csv")
+            print("ERROR: Could not find aikido_pilot_review.csv")
             print(f"  Tried: {wsf_csv}")
             print(f"  Tried: {local_csv}")
-            print(f"  Use --csv to specify the path")
+            print("  Use --csv to specify the path")
             sys.exit(1)
 
     print()
