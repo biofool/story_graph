@@ -353,3 +353,37 @@ loaded thumbnail gallery — click a thumbnail to open a lightbox with the
 full-resolution image, its alt text, and a link back to the source page.
 Thumbnails/originals are served from `/media/thumb/<hash>` and
 `/media/image/<hash>` (content-hash addressed, never by filesystem path).
+
+## Email-based URL ingestion
+
+The story graph can ingest URLs sent via email. Send an email to
+`story@magicsolutions.biz` with URLs in the body or subject, and a
+Cloudflare Email Worker extracts the URLs and stores them in KV for
+batch processing.
+
+Architecture: email → Cloudflare Email Routing → Email Worker → KV →
+batch ingestion script (`scripts/17_ingest_from_kv.py`) → graph pipeline
+→ `graph_snapshot/` JSONL.
+
+The graph API (`scripts/09_graph_api.py`) is deployed as a slim Docker
+container on the Oracle Always Free instance alongside CloudManagement,
+accessible at `http://graph-origin.magicsolutions.biz:8091`. The
+Dockerfile is `Dockerfile.graph-api` — it includes only Flask + GraphDB
++ Pillow (~57 MB RSS), not spaCy. The API server doesn't need spaCy;
+only the ingestion scripts do, and those run as separate ephemeral
+processes.
+
+See `docs/email-ingest-setup.md` for the full setup guide, and
+`email-worker/` for the Cloudflare Email Worker code.
+
+### Single-URL ingestion
+
+To ingest a single URL without the email pipeline:
+
+```bash
+python scripts/16_ingest_aikidojournal.py --url <URL>
+python scripts/16_ingest_aikidojournal.py --url <URL> --dry-run
+```
+
+This fetches the page, runs it through the entity/claim extraction
+pipeline (`process_page`), and exports to `graph_snapshot/`.

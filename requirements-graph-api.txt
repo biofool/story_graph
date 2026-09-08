@@ -1,0 +1,8 @@
+# Slim requirements for the graph API Docker container (scripts/09_graph_api.py).
+# Only what the API server actually imports — no spaCy, no crawler, no LLM.
+# This keeps the image small and memory footprint low (~48 MB RSS vs ~159 MB).
+
+flask>=3.0.0
+pillow>=10.0.0
+requests>=2.31.0
+pydantic>=2.5.0

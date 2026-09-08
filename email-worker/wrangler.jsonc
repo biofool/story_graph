@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "story-graph-email",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-01-01",
+  "kv_namespaces": [
+    {
+      "binding": "STORY_URLS",
+      "id": "REPLACE_WITH_KV_NAMESPACE_ID"
+    }
+  ],
+  "vars": {
+    "GRAPH_API_URL": "http://hub-origin.magicsolutions.biz:8091",
+    "ALLOWED_SENDERS": "kkron@gmail.com,kklistmail2008@gmail.com",
+    "STORY_GRAPH_AUTH_TOKEN": "REPLACE_WITH_AUTH_TOKEN"
+  }
+}

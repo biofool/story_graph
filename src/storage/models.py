@@ -18,6 +18,12 @@ class NodeType(str, Enum):
     EVENT = "Event"
     CLAIM = "Claim"
     IMAGE = "Image"
+    # Lineage graph extensions
+    DOJO = "Dojo"
+    FEDERATION = "Federation"
+    BOOK = "Book"
+    PODCAST = "Podcast"
+    RANK = "Rank"
 
 
 class RelationType(str, Enum):
@@ -38,6 +44,16 @@ class RelationType(str, Enum):
     MENTIONS = "MENTIONS"
     CONTAINS = "CONTAINS"
     DEPICTS = "DEPICTS"
+    # Lineage graph extensions
+    TEACHER_STUDENT = "TEACHER_STUDENT"
+    CO_AUTHORED = "CO_AUTHORED"
+    CO_APPEARANCE = "CO_APPEARANCE"
+    ORGANIZATIONAL_ROLE = "ORGANIZATIONAL_ROLE"
+    DOJO_AFFILIATION = "DOJO_AFFILIATION"
+    DOJO_LOCATION = "DOJO_LOCATION"
+    HEAD_INSTRUCTOR = "HEAD_INSTRUCTOR"
+    RANK_AWARDED = "RANK_AWARDED"
+    PUBLISHED = "PUBLISHED"
 
 
 class ClaimStance(str, Enum):
