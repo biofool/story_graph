@@ -2075,6 +2075,17 @@ CS1. Key templates and their current parameters:
     Courier profile), martial-arts magazines (Aikido Journal, Black Belt, Journal of
     Asian Martial Arts), book reviews in independent publications, academic coverage
     of the consciousness movement.
+  - **Independent authoritative (establishes facts, strengthens notability)**: Aikikai
+    Japan kagami biraki promotion lists
+    ([aikikai.or.jp/pdf/suisen/](https://aikikai.or.jp/pdf/suisen/) — annual PDFs,
+    e.g. [2025 list](https://aikikai.or.jp/pdf/suisen/2025.pdf)); CAA promotion lists
+    ([ai-ki-do.org/promotions](https://ai-ki-do.org/promotions) — annual PDFs back to
+    2011). These are official records of the Aikikai Hombu Dojo / Doshu, independent of
+    the subject's own dojo. **Confirmed**: ROBERT NOHA appears under 7th dan in the
+    [Aikikai Japan 2025 kagami biraki PDF](https://aikikai.or.jp/pdf/suisen/2025.pdf).
+    The 5th dan (2000) and 6th dan (2013) are not in the online Aikikai PDFs (which
+    start ~2020) or the CAA PDFs (which start 2011) — older archives or the subject's
+    yudansha book would be needed for those.
   - **Publisher/bibliographic (establishes facts, weak for notability)**: Open Library,
     Penguin NZ author page, Inner Traditions author page, Simon & Schuster author page.
   - **Self-published/official (establishes facts about the subject's own claims, does
@@ -2086,7 +2097,9 @@ CS1. Key templates and their current parameters:
 - The current Ralston draft leans heavily on chenghsin.com and publisher pages —
   **notability is not yet established**. The current Noha draft leans on
   aikidopetaluma.com and Medium — **notability is not yet established**. Both need
-  independent secondary sourcing before submission.
+  independent secondary sourcing before submission. Noha's 7th dan rank claim,
+  however, **is** independently confirmable via the Aikikai Japan kagami biraki PDF
+  (see above), which is a stronger source than the dojo's own page.
 
 ### C.11 Biographies of living persons (BLP)
 
@@ -2102,6 +2115,11 @@ CS1. Key templates and their current parameters:
   contentious material. The subject's own rank claims (5th/6th/7th dan) sourced only to
   aikidopetaluma.com are acceptable as self-description but should be attributed:
   "According to his dojo's biography, Noha holds the rank of 7th dan."
+  **However**, the 7th dan is independently confirmed by the
+  [Aikikai Japan 2025 kagami biraki PDF](https://aikikai.or.jp/pdf/suisen/2025.pdf),
+  so that specific rank claim can be stated as fact with that citation rather than
+  attributed as self-description. The 5th dan (2000) and 6th dan (2013) remain
+  sourced only to the dojo's own page unless older Aikikai or CAA archives surface.
 - Do not publish personal details (home address, family members' names) beyond what
   independent reliable sources have published.
 
@@ -2124,8 +2142,12 @@ Before submitting either draft, confirm:
       (not trivial/passing) coverage of the subject.
 - [ ] The "first non-Asian to win" championship claim (Ralston) is sourced to
       independent news or martial-arts magazine coverage, not only chenghsin.com.
-- [ ] The 7th dan rank claim (Noha) is either attributed to the dojo's own page or
-      sourced to an independent rank-promotion record (CAA, Aikikai).
+- [x] The 7th dan rank claim (Noha) is independently confirmed by the
+      [Aikikai Japan 2025 kagami biraki PDF](https://aikikai.or.jp/pdf/suisen/2025.pdf).
+      The 5th dan (2000) and 6th dan (2013) still need older archives or the subject's
+      yudansha book. CAA promotion lists at
+      [ai-ki-do.org/promotions](https://ai-ki-do.org/promotions) should also be checked
+      for those years.
 - [ ] No claim relies solely on Medium/Authority Magazine or other user-generated
       platforms.
 - [ ] The lead does not assert notability as fact — it summarizes what sources say.
