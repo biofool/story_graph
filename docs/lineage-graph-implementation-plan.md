@@ -905,161 +905,848 @@ for div in caa_divisions:
 - Fallback: OpenStreetMap Nominatim (free, 1 req/sec limit)
 - Store: `lat`, `lng`, `geocode_precision` (ROOFTOP/APPROXIMATE), `geocode_source`
 
-### 3.4 Disambiguation strategies
+### 3.4 ETL from existing dojo datasets
 
-#### 3.4.1 Person name collisions
+#### 3.4.1 Raw staging layer
 
-**Problem**: "Richard Moon" exists as 3+ different people (aikido instructor, chef, law professor).
-
-**Solution**: `name_collisions` table + disambiguator suffix in node IDs.
-
-```python
-def resolve_person_by_name(name: str, context: str = "") -> str | None:
-    """Resolve a name to a person node_id, handling collisions.
-    
-    1. Check name_collisions table for exact match + disambiguator
-    2. If multiple matches and no disambiguator, return None (ambiguous)
-    3. If single match, return the node_id
-    4. If no match, try KG API for resolution
-    """
-    # Check existing collisions
-    matches = db.query("SELECT node_id FROM name_collisions WHERE canonical_name = ?", name)
-    if len(matches) == 1:
-        return matches[0]["node_id"]
-    elif len(matches) > 1:
-        if context:
-            # Try disambiguator
-            for m in matches:
-                if context.lower() in m.get("disambiguator", "").lower():
-                    return m["node_id"]
-        return None  # ambiguous — needs manual resolution
-    return None
+Assume CSV/SQLite source tables with columns like:
+```
+dojo_name, website, head_name, email, phone_number, division, city, region, country
 ```
 
-**Rules**:
-- Node ID format: `person:<first-last>-<disambiguator>` (e.g., `person:richard-moon-aikido`)
-- Disambiguator is the shortest unique qualifier: `aikido`, `chef`, `law-professor`
-- `name_collisions` table tracks all known collisions and their resolution
-- When a new person is created, check for existing nodes with the same canonical name → if found, require a disambiguator
-
-#### 3.4.2 Multiple teachers per dojo
-
-**Problem**: A dojo may have multiple instructors, or the head instructor may change over time.
-
-**Solution**: `HEAD_INSTRUCTOR` edges with `valid_from`/`valid_until` dates. Current instructor = edge where `valid_until IS NULL`.
+**Step 1 — Stage raw data into `dojo_raw` table** (no transformation, preserves provenance):
 
 ```sql
--- Get current head instructor for a dojo
-SELECT p.canonical_name, e.valid_from
-FROM lineage_edges e
-JOIN lineage_persons p ON e.src_id = p.node_id
-WHERE e.dst_id = 'dojo:aikido-of-marin'
-  AND e.edge_type = 'HEAD_INSTRUCTOR'
-  AND e.valid_until IS NULL;
+CREATE TABLE IF NOT EXISTS dojo_raw (
+    id              INTEGER PRIMARY KEY AUTOINCREMENT,
+    source_file     TEXT NOT NULL,              -- e.g. 'aikido_pilot_review.csv'
+    source_row      INTEGER NOT NULL,
+    dojo_name       TEXT,
+    website         TEXT,
+    head_name       TEXT,
+    email           TEXT,
+    phone_number    TEXT,
+    division        TEXT,
+    city            TEXT,
+    region          TEXT,
+    state           TEXT,
+    country         TEXT,
+    lat             REAL,
+    lng             REAL,
+    lineage         TEXT,
+    youth_program   TEXT,
+    web_maturity    TEXT,
+    dojo_cho_name   TEXT,
+    heuristic_dojo_cho TEXT,
+    philosophy_keywords TEXT,
+    raw_json        TEXT,                       -- full original row as JSON
+    imported_at     TIMESTAMPTZ DEFAULT now(),
+    UNIQUE(source_file, source_row)
+);
+
+CREATE INDEX idx_dojo_raw_name ON dojo_raw(dojo_name);
+CREATE INDEX idx_dojo_raw_website ON dojo_raw(website);
+CREATE INDEX idx_dojo_raw_city ON dojo_raw(city, state, country);
 ```
 
-#### 3.4.3 Dojo name collisions
+```python
+def stage_dojo_csv(csv_path: str, db: GraphDB):
+    """Stage raw CSV rows into dojo_raw without any transformation."""
+    with open(csv_path) as f:
+        reader = csv.DictReader(f)
+        for row_num, row in enumerate(reader, start=2):
+            db.execute("""
+                INSERT OR IGNORE INTO dojo_raw (source_file, source_row, dojo_name, website,
+                    head_name, email, phone_number, division, city, region, state, country,
+                    lat, lng, lineage, youth_program, web_maturity, dojo_cho_name,
+                    heuristic_dojo_cho, philosophy_keywords, raw_json)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, (
+                Path(csv_path).name, row_num,
+                row.get("name", ""), row.get("website", ""),
+                row.get("dojo_cho_name", "") or row.get("head_name", ""),
+                row.get("email", ""), row.get("phone", ""),
+                row.get("division", ""), row.get("city", ""),
+                row.get("region", ""), row.get("state", ""),
+                row.get("country", ""),
+                row.get("lat"), row.get("lng"),
+                row.get("lineage", ""), row.get("youth_program", ""),
+                row.get("web_maturity", ""), row.get("dojo_cho_name", ""),
+                row.get("heuristic_dojo_cho", ""),
+                row.get("philosophy_keywords", ""),
+                json.dumps(row),
+            ))
+```
 
-**Problem**: "Aikido of San Francisco" might appear in multiple datasets with slightly different names.
+#### 3.4.2 Cleaning and deduplication
 
-**Solution**: Normalize by website domain (primary key) rather than name.
+**Step 2 — Clean names (trim, normalize case) and deduplicate by website+city**:
 
 ```python
-def dedupe_dojo_by_website(dojo: dict, existing: dict) -> str | None:
-    """Match dojo by website domain, then by name+city."""
-    domain = extract_domain(dojo.get("website", ""))
-    if domain and domain in existing["by_domain"]:
-        return existing["by_domain"][domain]
-    # Fallback: name + city match
-    key = f"{dojo['name'].lower()}|{dojo.get('city','').lower()}"
-    if key in existing["by_name_city"]:
-        return existing["by_name_city"][key]
+import re
+from urllib.parse import urlparse
+
+def clean_dojo_name(name: str) -> str:
+    """Normalize dojo name: trim, title-case, remove redundant suffixes."""
+    name = name.strip()
+    # Remove trailing "Aikido" if it's redundant (e.g., "Aikido of Marin Aikido")
+    name = re.sub(r'\s+Aikido$', '', name, flags=re.IGNORECASE)
+    # Normalize whitespace
+    name = re.sub(r'\s+', ' ', name)
+    return name
+
+def normalize_domain(website: str) -> str:
+    """Extract and normalize the domain from a URL."""
+    if not website:
+        return ""
+    url = website.strip()
+    if not url.startswith("http"):
+        url = "https://" + url
+    try:
+        parsed = urlparse(url)
+        domain = parsed.netloc.lower().removeprefix("www.")
+        return domain
+    except Exception:
+        return ""
+
+def deduplicate_dojos(db: GraphDB) -> list[dict]:
+    """Deduplicate dojo_raw rows by (normalized_domain, city).
+    
+    Returns a list of deduplicated dojo dicts ready for node creation.
+    """
+    rows = db.query_all("""
+        SELECT * FROM dojo_raw
+        ORDER BY source_file, source_row
+    """)
+    
+    seen = {}  # key: (domain, city_lower) → first row
+    deduped = []
+    
+    for row in rows:
+        domain = normalize_domain(row["website"])
+        city_lower = (row["city"] or "").strip().lower()
+        
+        # Primary dedup key: domain (if present)
+        if domain:
+            key = f"domain:{domain}"
+        else:
+            # Fallback: name + city
+            name_lower = clean_dojo_name(row["dojo_name"]).lower()
+            key = f"name_city:{name_lower}|{city_lower}"
+        
+        if key not in seen:
+            seen[key] = row
+            deduped.append(row)
+        else:
+            # Merge: keep the row with more complete data
+            existing = seen[key]
+            for field in ["email", "phone_number", "dojo_cho_name", "lat", "lng"]:
+                if not existing.get(field) and row.get(field):
+                    existing[field] = row[field]
+    
+    _log.info("Dojo dedup: %d raw → %d unique (by domain+city)", len(rows), len(deduped))
+    return deduped
+```
+
+#### 3.4.3 Mapping to organization nodes and person edges
+
+**Step 3 — Map to organization, creating new IDs**:
+
+```python
+def slugify(text: str) -> str:
+    """Create a URL-safe slug from text."""
+    text = text.lower().strip()
+    text = re.sub(r'[^\w\s-]', '', text)
+    text = re.sub(r'[\s_-]+', '-', text)
+    text = text.strip('-')
+    return text
+
+def create_dojo_nodes(deduped: list[dict], db: GraphDB) -> dict[str, str]:
+    """Create Dojo nodes from deduplicated rows. Returns {dedup_key: node_id}."""
+    id_map = {}
+    for row in deduped:
+        clean_name = clean_dojo_name(row["dojo_name"])
+        dojo_id = f"dojo:{slugify(clean_name)}"
+        
+        # Skip if already exists (idempotent)
+        if db.get_node(dojo_id):
+            id_map[row["id"]] = dojo_id
+            continue
+        
+        node = GraphNode(
+            id=dojo_id,
+            type=NodeType.DOJO,
+            label=clean_name,
+            canonical_name=clean_name,
+            metadata={
+                "city": row["city"],
+                "state": row["state"],
+                "region": row["region"],
+                "country": row["country"],
+                "website": row["website"],
+                "domain": normalize_domain(row["website"]),
+                "email": row["email"],
+                "phone": row["phone_number"],
+                "lineage": row["lineage"],
+                "youth_program": row["youth_program"] == "yes",
+                "web_maturity": row["web_maturity"],
+                "philosophy_keywords": row["philosophy_keywords"],
+                "lat": row["lat"],
+                "lng": row["lng"],
+                "source": "worldstudiofinder_etl",
+                "source_file": row["source_file"],
+            },
+            source_urls=[row["website"]] if row["website"] else [],
+        )
+        db.add_node(node)
+        id_map[row["id"]] = dojo_id
+    return id_map
+```
+
+**Step 4 — Map `head_name` strings to person nodes via string normalization and alias lists**:
+
+```python
+def normalize_person_name(name: str) -> str:
+    """Normalize a person name for matching."""
+    name = name.strip()
+    # Remove common titles
+    name = re.sub(r'^(Sensei|Shihan|Hanshi|Professor|Prof\.|Dr\.)\s+', '', name, flags=re.IGNORECASE)
+    # Normalize whitespace
+    name = re.sub(r'\s+', ' ', name)
+    return name
+
+def map_head_to_person(head_name: str, db: GraphDB, alias_index: dict) -> str | None:
+    """Map a head_name string from a CSV row to a person node_id.
+    
+    Resolution order:
+    1. Exact match on canonical_name (case-insensitive)
+    2. Match against alias index (pre-built from all Person nodes)
+    3. Fuzzy match (Levenshtein distance ≤ 2 on last name)
+    4. Return None → goes to person_candidate table
+    """
+    normalized = normalize_person_name(head_name)
+    if not normalized:
+        return None
+    
+    name_lower = normalized.lower()
+    
+    # 1. Exact canonical_name match
+    matches = db.query_all("""
+        SELECT node_id FROM lineage_persons
+        WHERE lower(canonical_name) = ?
+    """, name_lower)
+    if len(matches) == 1:
+        return matches[0]["node_id"]
+    
+    # 2. Alias match
+    if name_lower in alias_index:
+        candidates = alias_index[name_lower]
+        if len(candidates) == 1:
+            return candidates[0]
+        # Multiple candidates → ambiguous, needs disambiguation
+        return None  # → person_candidate
+    
+    # 3. Fuzzy last-name match
+    last_name = name_lower.split()[-1]
+    fuzzy = db.query_all("""
+        SELECT node_id, canonical_name FROM lineage_persons
+        WHERE lower(canonical_name) LIKE ?
+    """, f"%{last_name}%")
+    if len(fuzzy) == 1:
+        return fuzzy[0]["node_id"]
+    
+    return None  # → person_candidate
+```
+
+**Step 5 — Insert `HEAD_INSTRUCTOR` and `DOJO_AFFILIATION` edges**:
+
+```python
+def insert_dojo_edges(dojo_id: str, row: dict, person_id: str | None, db: GraphDB):
+    """Insert HEAD_INSTRUCTOR and DOJO_AFFILIATION edges for a dojo."""
+    
+    # HEAD_INSTRUCTOR edge (if person resolved)
+    if person_id:
+        edge = GraphEdge(
+            src_id=person_id,
+            rel_type=RelationType.HEAD_INSTRUCTOR,
+            dst_id=dojo_id,
+            metadata={
+                "source": "worldstudiofinder_etl",
+                "source_file": row["source_file"],
+                "is_primary": True,  # first/head instructor
+            },
+        )
+        db.add_edge(edge)
+    
+    # DOJO_AFFILIATION edge (based on lineage field)
+    lineage = (row["lineage"] or "").lower()
+    fed_id = LINEAGE_TO_FED.get(lineage)  # {"nadeau": "fed:caa", "aikikai": "fed:aikikai", ...}
+    if fed_id:
+        edge = GraphEdge(
+            src_id=dojo_id,
+            rel_type=RelationType.DOJO_AFFILIATION,
+            dst_id=fed_id,
+            metadata={
+                "division": row.get("division", ""),
+                "lineage": lineage,
+                "source": "worldstudiofinder_etl",
+            },
+        )
+        db.add_edge(edge)
+```
+
+#### 3.4.4 Entity reconciliation table
+
+**Step 6 — Manual reconciliation layer for ambiguous cases**:
+
+```sql
+CREATE TABLE IF NOT EXISTS entity_reconciliation (
+    id              INTEGER PRIMARY KEY AUTOINCREMENT,
+    entity_type     TEXT NOT NULL,              -- 'person' | 'dojo'
+    candidate_name  TEXT NOT NULL,              -- the raw name from source
+    candidate_data  TEXT,                       -- JSON: {source_file, row, context}
+    matched_node_id TEXT,                       -- resolved node_id (NULL if unresolved)
+    match_method    TEXT,                       -- 'exact' | 'alias' | 'fuzzy' | 'manual' | 'kg_api'
+    confidence      REAL DEFAULT 0.0,           -- 0.0–1.0
+    resolution_status TEXT DEFAULT 'pending',   -- 'pending' | 'resolved' | 'rejected' | 'needs_review'
+    resolved_by     TEXT,                       -- 'auto' | 'manual:<reviewer>' | 'kg_api'
+    resolved_at     TIMESTAMPTZ,
+    created_at      TIMESTAMPTZ DEFAULT now(),
+    notes           TEXT
+);
+
+CREATE INDEX idx_recon_status ON entity_reconciliation(resolution_status);
+CREATE INDEX idx_recon_name ON entity_reconciliation(candidate_name);
+CREATE INDEX idx_recon_node ON entity_reconciliation(matched_node_id);
+```
+
+```python
+def queue_for_reconciliation(name: str, entity_type: str, candidate_data: dict,
+                              db: GraphDB, confidence: float = 0.0):
+    """Queue an ambiguous match for manual review."""
+    db.execute("""
+        INSERT INTO entity_reconciliation
+            (entity_type, candidate_name, candidate_data, confidence, resolution_status)
+        VALUES (?, ?, ?, ?, 'needs_review')
+    """, entity_type, name, json.dumps(candidate_data), confidence)
+
+def resolve_reconciliation(rec_id: int, node_id: str, reviewer: str, notes: str = ""):
+    """Manually resolve a reconciliation candidate."""
+    db.execute("""
+        UPDATE entity_reconciliation
+        SET matched_node_id = ?, match_method = 'manual',
+            resolution_status = 'resolved', resolved_by = ?,
+            resolved_at = now(), notes = ?
+        WHERE id = ?
+    """, node_id, f"manual:{reviewer}", notes, rec_id)
+```
+
+**If multiple rows map to same canonical name, reuse `person_id`**:
+```python
+def get_or_create_person(name: str, db: GraphDB, alias_index: dict) -> tuple[str, bool]:
+    """Get existing person_id or create new. Returns (node_id, was_created)."""
+    existing = map_head_to_person(name, db, alias_index)
+    if existing:
+        return existing, False
+    
+    # Create new person node
+    normalized = normalize_person_name(name)
+    person_id = f"person:{slugify(normalized)}"
+    
+    # Check for name collision — if exists, add disambiguator
+    if db.get_node(person_id):
+        # Queue for reconciliation
+        queue_for_reconciliation(name, "person", {"reason": "name_collision"}, db)
+        return None, False
+    
+    node = GraphNode(
+        id=person_id,
+        type=NodeType.PERSON,
+        label=normalized,
+        canonical_name=normalized,
+        metadata={"source": "dojo_etl_auto_created", "needs_review": True},
+    )
+    db.add_node(node)
+    return person_id, True
+```
+
+### 3.5 Disambiguation strategies
+
+#### 3.5.1 Challenges
+
+- **Common names**: "Robert Nadeau" appears as an aikidoka and as a separate academic
+- **Multiple teachers per dojo**: a dojo may list 3–5 instructors
+- **Changes in affiliation over time**: dojos switch divisions or federations
+
+#### 3.5.2 Contextual signal disambiguation
+
+Use contextual signals (rank, aikido-specific keywords, domain names) to disambiguate aikidoka vs non-aikidoka for the same name:
+
+```python
+AIKIDO_CONTEXT_SIGNALS = [
+    "aikido", "sensei", "shihan", "dojo", "dan", "aikikai",
+    "ueshiba", "hombu", "seminar", "training", "uke",
+    "iaido", "jo", "bokken", "tatami", "keikogi", "hakama",
+]
+
+def is_likely_aikidoka(name: str, context_text: str, domain: str = "") -> bool:
+    """Determine if a name reference is likely an aikido practitioner.
+    
+    Uses contextual signals from surrounding text and website domain
+    to disambiguate aikidoka from non-aikidoka with the same name.
+    """
+    text_lower = (context_text or "").lower()
+    domain_lower = (domain or "").lower()
+    
+    # Strong signal: aikido-related domain
+    aikido_domains = ["aikido", "aikikai", "dojo", "caa"]
+    if any(d in domain_lower for d in aikido_domains):
+        return True
+    
+    # Context keywords
+    signal_count = sum(1 for s in AIKIDO_CONTEXT_SIGNALS if s in text_lower)
+    return signal_count >= 2
+
+def disambiguate_person(name: str, context: str, domain: str,
+                        candidates: list[dict]) -> str | None:
+    """Disambiguate among multiple person candidates using context.
+    
+    Args:
+        candidates: list of {node_id, disambiguator, metadata} from name_collisions
+    Returns:
+        The best-matching node_id, or None if still ambiguous.
+    """
+    if len(candidates) == 1:
+        return candidates[0]["node_id"]
+    
+    # Filter by aikido context
+    if is_likely_aikidoka(name, context, domain):
+        aikido_candidates = [c for c in candidates if c.get("disambiguator") == "aikido"]
+        if len(aikido_candidates) == 1:
+            return aikido_candidates[0]["node_id"]
+    
+    # Filter by domain match (person's primary_url domain matches source domain)
+    for c in candidates:
+        primary_url = c.get("metadata", {}).get("primary_url", "")
+        if primary_url and normalize_domain(primary_url) == normalize_domain(domain):
+            return c["node_id"]
+    
+    # Still ambiguous → queue for reconciliation
     return None
 ```
 
-### 3.5 Versioning / time-series handling
+#### 3.5.3 Aliases and primary_url for clustering
 
-**Principle**: Never overwrite historical data. Use `valid_from`/`valid_until` on edges and append-only history tables.
+Maintain aliases and `primary_url` for each person to cluster search hits:
 
-**Edge versioning**:
-- When a person's rank changes, don't update the old edge — insert a new edge with `valid_from = today` and set the old edge's `valid_until = today`
-- When a dojo changes federation, same pattern
-- When a head instructor changes, same pattern
+```sql
+-- Add to lineage_persons table:
+ALTER TABLE lineage_persons ADD COLUMN primary_url TEXT;
+-- aliases[] already defined as TEXT[] in the schema
+
+-- Build an alias index for fast lookup:
+CREATE INDEX idx_persons_aliases_gin ON lineage_persons USING GIN(aliases);
+```
 
 ```python
-def update_edge_with_version(db, src_id, edge_type, dst_id, new_metadata, valid_from):
-    """Update an edge, closing the old version and opening a new one."""
+def build_alias_index(db: GraphDB) -> dict[str, list[str]]:
+    """Build a {alias_lower: [person_node_ids]} index from all Person nodes."""
+    persons = db.query_all("SELECT node_id, canonical_name, aliases FROM lineage_persons")
+    index = {}
+    for p in persons:
+        names = [p["canonical_name"]] + (p["aliases"] or [])
+        for name in names:
+            key = name.strip().lower()
+            if key:
+                index.setdefault(key, []).append(p["node_id"])
+    return index
+```
+
+#### 3.5.4 Multiple instructors per dojo
+
+Where a dojo lists multiple instructors, allow multiple `HEAD_INSTRUCTOR` edges; optionally designate one as `primary_head` via a property:
+
+```python
+def add_dojo_instructors(dojo_id: str, instructor_names: list[str],
+                          primary_idx: int, db: GraphDB, alias_index: dict):
+    """Add multiple instructor edges for a dojo.
+    
+    Args:
+        instructor_names: list of instructor name strings from the source
+        primary_idx: index into instructor_names of the primary/head instructor
+    """
+    for i, name in enumerate(instructor_names):
+        person_id = map_head_to_person(name, db, alias_index)
+        if not person_id:
+            queue_for_reconciliation(name, "person", {
+                "dojo_id": dojo_id,
+                "context": "instructor_list",
+            }, db, confidence=0.3)
+            continue
+        
+        edge = GraphEdge(
+            src_id=person_id,
+            rel_type=RelationType.HEAD_INSTRUCTOR,
+            dst_id=dojo_id,
+            metadata={
+                "is_primary": i == primary_idx,
+                "source": "dojo_etl",
+            },
+        )
+        db.add_edge(edge)
+```
+
+```sql
+-- Query: get all instructors for a dojo, primary first
+SELECT p.canonical_name, e.metadata_json->>'is_primary' AS is_primary
+FROM lineage_edges e
+JOIN lineage_persons p ON e.src_id = p.node_id
+WHERE e.dst_id = ? AND e.edge_type = 'HEAD_INSTRUCTOR'
+ORDER BY (e.metadata_json->>'is_primary') DESC, p.canonical_name;
+```
+
+#### 3.5.5 Person candidate table for uncertain matches
+
+Keep uncertain matches in a `person_candidate` table with lower confidence; only promote to canonical person after manual review or multiple corroborating sources:
+
+```sql
+CREATE TABLE IF NOT EXISTS person_candidate (
+    id              INTEGER PRIMARY KEY AUTOINCREMENT,
+    candidate_name  TEXT NOT NULL,
+    suggested_node_id TEXT,                    -- best guess (may be NULL)
+    context         TEXT,                      -- where this candidate was seen
+    source_url      TEXT,
+    source_file     TEXT,
+    confidence      REAL DEFAULT 0.0,
+    corroborating_sources TEXT DEFAULT '[]',   -- JSON array of source URLs
+    status          TEXT DEFAULT 'candidate',  -- 'candidate' | 'promoted' | 'rejected'
+    promoted_to     TEXT,                      -- person node_id if promoted
+    created_at      TIMESTAMPTZ DEFAULT now(),
+    reviewed_at     TIMESTAMPTZ,
+    reviewed_by     TEXT
+);
+
+CREATE INDEX idx_pcandidate_name ON person_candidate(candidate_name);
+CREATE INDEX idx_pcandidate_status ON person_candidate(status);
+```
+
+```python
+def add_person_candidate(name: str, context: str, source_url: str,
+                          suggested_node_id: str | None, confidence: float,
+                          db: GraphDB):
+    """Add an uncertain person match as a candidate."""
+    # Check if this candidate already exists
+    existing = db.query_one("""
+        SELECT id, corroborating_sources FROM person_candidate
+        WHERE candidate_name = ? AND status = 'candidate'
+    """, name)
+    
+    if existing:
+        # Add corroborating source
+        sources = json.loads(existing["corroborating_sources"] or "[]")
+        if source_url not in sources:
+            sources.append(source_url)
+        db.execute("""
+            UPDATE person_candidate
+            SET corroborating_sources = ?, confidence = ?
+            WHERE id = ?
+        """, json.dumps(sources), min(1.0, confidence + 0.1), existing["id"])
+    else:
+        db.execute("""
+            INSERT INTO person_candidate
+                (candidate_name, suggested_node_id, context, source_url, confidence)
+            VALUES (?, ?, ?, ?, ?)
+        """, name, suggested_node_id, context, source_url, confidence)
+
+def promote_candidate(candidate_id: int, person_node_id: str, reviewer: str):
+    """Promote a person candidate to a canonical person after review."""
+    db.execute("""
+        UPDATE person_candidate
+        SET status = 'promoted', promoted_to = ?,
+            reviewed_at = now(), reviewed_by = ?
+        WHERE id = ?
+    """, person_node_id, reviewer, candidate_id)
+```
+
+**Auto-promotion rule**: If a candidate accumulates ≥3 corroborating sources and confidence ≥0.7, auto-promote:
+```python
+def auto_promote_candidates(db: GraphDB):
+    """Auto-promote candidates with strong corroboration."""
+    candidates = db.query_all("""
+        SELECT * FROM person_candidate
+        WHERE status = 'candidate'
+        AND json_array_length(corroborating_sources) >= 3
+        AND confidence >= 0.7
+    """)
+    for c in candidates:
+        if c["suggested_node_id"]:
+            promote_candidate(c["id"], c["suggested_node_id"], "auto_promotion")
+```
+
+### 3.6 Versioning and time-series handling
+
+**Principle**: Never overwrite historical data. Use `valid_from`/`valid_to` on edges and maintain `observed_at` timestamps so you can reconstruct the graph state at any point in time.
+
+#### 3.6.1 Edge versioning with valid_from / valid_to
+
+When you detect a change (e.g., a dojo changes affiliation from Division 2 to Division 1; a person is promoted from 6th dan to 7th dan), close out the old edge by setting `valid_to`, and insert a new edge with updated properties:
+
+```python
+def update_edge_with_version(db, src_id, edge_type, dst_id,
+                              new_metadata: dict, valid_from: str,
+                              observed_at: str | None = None):
+    """Close the current edge version and open a new one.
+    
+    Args:
+        valid_from: ISO date string for when the new version takes effect
+        observed_at: when we observed this change (defaults to now)
+    """
+    observed = observed_at or datetime.now(timezone.utc).isoformat()
+    
     # Close existing current edge
     db.execute("""
         UPDATE lineage_edges 
-        SET valid_until = ? 
+        SET valid_until = ?, observed_at = ?
         WHERE src_id = ? AND edge_type = ? AND dst_id = ? AND valid_until IS NULL
-    """, (valid_from, src_id, edge_type, dst_id))
+    """, (valid_from, observed, src_id, edge_type, dst_id))
     
     # Insert new version
     db.execute("""
-        INSERT INTO lineage_edges (src_id, edge_type, dst_id, valid_from, metadata_json, ...)
-        VALUES (?, ?, ?, ?, ?, ...)
-    """, (src_id, edge_type, dst_id, valid_from, json.dumps(new_metadata), ...))
+        INSERT INTO lineage_edges 
+            (src_id, edge_type, dst_id, valid_from, observed_at, 
+             confidence, source_url, discovered_via, review_status, metadata_json)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    """, (
+        src_id, edge_type, dst_id, valid_from, observed,
+        new_metadata.get("confidence", 0.5),
+        new_metadata.get("source_url"),
+        new_metadata.get("discovered_via", "etl"),
+        new_metadata.get("review_status", "pending"),
+        json.dumps(new_metadata),
+    ))
 ```
 
-**Rank history** (append-only):
+#### 3.6.2 observed_at timestamp for temporal reconstruction
+
+Maintain an `observed_at` timestamp for each edge; you can reconstruct the graph state at any point in time for historical analysis:
+
+```sql
+-- Add observed_at to lineage_edges (if not already present)
+ALTER TABLE lineage_edges ADD COLUMN observed_at TIMESTAMPTZ DEFAULT now();
+CREATE INDEX idx_edges_observed ON lineage_edges(observed_at);
+
+-- "What did Nadeau's lineage network look like in 2005 vs 2025?"
+-- Reconstruct graph state as of a specific date:
+CREATE OR REPLACE VIEW graph_state_at(date TEXT) AS
+SELECT * FROM lineage_edges
+WHERE valid_from <= date::date
+  AND (valid_until IS NULL OR valid_until > date::date);
+```
+
 ```python
-def record_rank_change(person_id, new_rank, awarded_date, awarded_by, source_url):
+def query_graph_at_date(db, date: str, edge_type: str | None = None):
+    """Reconstruct all edges active as of a specific date.
+    
+    Example: query_graph_at_date(db, "2005-06-01", "TEACHER_STUDENT")
+    returns all teacher-student relationships that were active on June 1, 2005.
+    """
+    return db.query_all("""
+        SELECT * FROM lineage_edges
+        WHERE valid_from <= ?
+          AND (valid_until IS NULL OR valid_until > ?)
+          AND (? IS NULL OR edge_type = ?)
+        ORDER BY edge_type, src_id
+    """, date, date, edge_type, edge_type)
+
+def lineage_network_at_date(db, person_id: str, date: str, depth: int = 3):
+    """Reconstruct a person's lineage network as of a specific date.
+    
+    Answers: 'What did Nadeau's lineage network look like in 2005?'
+    """
+    return db.query_all("""
+        WITH RECURSIVE lineage AS (
+            SELECT ? AS person_id, 0 AS depth
+            UNION ALL
+            SELECT e.dst_id, l.depth + 1
+            FROM lineage l
+            JOIN lineage_edges e ON e.src_id = l.person_id AND e.edge_type = 'TEACHER_STUDENT'
+            WHERE e.valid_from <= ?
+              AND (e.valid_until IS NULL OR e.valid_until > ?)
+              AND l.depth < ?
+        )
+        SELECT l.person_id, p.canonical_name, l.depth,
+               d.name AS dojo_name, d.city, d.state
+        FROM lineage l
+        JOIN lineage_persons p ON l.person_id = p.node_id
+        LEFT JOIN lineage_dojos d ON d.head_instructor = l.person_id
+        ORDER BY l.depth, p.canonical_name
+    """, person_id, date, date, depth)
+```
+
+#### 3.6.3 Rank history (append-only)
+
+```python
+def record_rank_change(person_id: str, new_rank: str, awarded_date: str,
+                        awarded_by: str | None, source_url: str, db: GraphDB):
     """Record a rank promotion. Never update existing rank_history rows."""
     db.execute("""
-        INSERT INTO rank_history (person_id, rank_level, awarded_by, awarded_date, source_url)
-        VALUES (?, ?, ?, ?, ?)
-    """, (person_id, new_rank, awarded_by, awarded_date, source_url))
+        INSERT OR IGNORE INTO rank_history 
+            (person_id, rank_level, rank_system, awarded_by, awarded_date, source_url)
+        VALUES (?, ?, ?, ?, ?, ?)
+    """, (person_id, new_rank, "aikikai", awarded_by, awarded_date, source_url))
     
-    # Update the person's current_rank in lineage_persons (denormalized view)
+    # Close old RANK_AWARDED edge, open new one
+    update_edge_with_version(db, awarded_by or "fed:aikikai", "RANK_AWARDED",
+                              person_id, {"rank_level": new_rank}, awarded_date)
+    
+    # Update denormalized current_rank in lineage_persons
     db.execute("""
         UPDATE lineage_persons SET current_rank = ?, updated_at = now()
         WHERE node_id = ?
-    """, (new_rank, person_id))
+    """, new_rank, person_id)
 ```
 
-**Dojo affiliation history** (append-only):
+#### 3.6.4 Dojo affiliation history (append-only)
+
 ```python
-def record_affiliation_change(dojo_id, new_fed_id, division, start_date, source_url):
-    """Record a dojo changing federation/division."""
+def record_affiliation_change(dojo_id: str, new_fed_id: str, division: str,
+                               start_date: str, source_url: str, db: GraphDB):
+    """Record a dojo changing federation/division.
+    
+    Example: dojo moves from CAA Division 2 to Division 1.
+    """
     # Close old affiliation
     db.execute("""
         UPDATE dojo_affiliation_history 
-        SET end_date = ? 
+        SET end_date = ?
         WHERE dojo_id = ? AND end_date IS NULL
     """, (start_date, dojo_id))
     
     # Insert new affiliation
     db.execute("""
-        INSERT INTO dojo_affiliation_history (dojo_id, federation_id, division, start_date, source_url)
+        INSERT INTO dojo_affiliation_history 
+            (dojo_id, federation_id, division, start_date, source_url)
         VALUES (?, ?, ?, ?, ?)
     """, (dojo_id, new_fed_id, division, start_date, source_url))
+    
+    # Close old DOJO_AFFILIATION edge, open new one
+    update_edge_with_version(db, dojo_id, "DOJO_AFFILIATION", new_fed_id,
+                              {"division": division, "source_url": source_url},
+                              start_date)
 ```
 
-### 3.6 Implementation order (priority sequence)
+### 3.7 Indexing and analytics examples
+
+With the above design, the implementation agent can expose queries like:
+
+#### 3.7.1 All dojos teaching Nadeau-lineage aikido in California
+
+**In SQL** — join `TEACHER_STUDENT` edges from Nadeau to a person, to `HEAD_INSTRUCTOR` edges from that person to a dojo, filter by region and confidence:
+
+```sql
+SELECT DISTINCT d.name, d.city, d.state, d.website,
+       p.canonical_name AS instructor_name,
+       e2.confidence AS instructor_confidence
+FROM lineage_edges e1
+JOIN lineage_persons p ON e1.dst_id = p.node_id
+JOIN lineage_edges e2 ON e2.src_id = p.node_id AND e2.edge_type = 'HEAD_INSTRUCTOR'
+JOIN lineage_dojos d ON e2.dst_id = d.node_id
+WHERE e1.src_id = 'person:robert-nadeau'
+  AND e1.edge_type = 'TEACHER_STUDENT'
+  AND d.state = 'CA'
+  AND e2.confidence >= 0.7
+  AND e2.valid_until IS NULL
+ORDER BY d.city, d.name;
+```
+
+**In Neo4j**:
+```cypher
+MATCH (n:Person {canonical_name: "Robert Nadeau"})-[:TEACHER_STUDENT]->(s:Person)
+      -[:HEAD_INSTRUCTOR]->(d:Dojo)
+WHERE d.state = "California" AND e.confidence >= 0.7
+RETURN d, s;
+```
+
+#### 3.7.2 List all co-authored works linking Nadeau's senior students
+
+**In SQL**:
+```sql
+SELECT b.title, b.isbn_13, b.publish_date,
+       array_agg(p.canonical_name) AS co_authors
+FROM lineage_books b
+JOIN lineage_edges e ON e.dst_id = b.node_id AND e.edge_type = 'CO_AUTHORED'
+JOIN lineage_persons p ON e.src_id = p.node_id
+WHERE b.node_id IN (
+    SELECT e2.dst_id FROM lineage_edges e2
+    JOIN lineage_edges e3 ON e3.dst_id = e2.src_id
+    WHERE e3.src_id = 'person:robert-nadeau'
+      AND e3.edge_type = 'TEACHER_STUDENT'
+      AND e2.edge_type = 'CO_AUTHORED'
+)
+GROUP BY b.node_id, b.title, b.isbn_13, b.publish_date
+ORDER BY b.publish_date;
+```
+
+**In Neo4j**:
+```cypher
+MATCH (n:Person {canonical_name: "Robert Nadeau"})-[:TEACHER_STUDENT]->(s:Person)-[:CO_AUTHORED]->(w:Book)
+WITH collect(s) AS students, w
+MATCH (w)<-[:CO_AUTHORED]-(co:Person)
+WHERE co IN students
+RETURN w.title, collect(co.canonical_name);
+```
+
+#### 3.7.3 Show all CAA division heads and their dojos
+
+**In SQL**:
+```sql
+SELECT div.metadata_json->>'division' AS division,
+       p.canonical_name AS division_head,
+       array_agg(d.name) AS dojos
+FROM lineage_edges div
+JOIN lineage_persons p ON div.src_id = p.node_id
+LEFT JOIN lineage_dojos d ON d.federation_id = div.dst_id
+  AND d.division = div.metadata_json->>'division'
+WHERE div.edge_type = 'ORGANIZATIONAL_ROLE'
+  AND div.dst_id = 'fed:caa'
+  AND div.metadata_json->>'role' = 'division_head'
+  AND div.valid_until IS NULL
+GROUP BY division, p.canonical_name
+ORDER BY division;
+```
+
+**In Neo4j**:
+```cypher
+MATCH (caa:Federation {name: "California Aikido Association"})
+      <-[:DOJO_AFFILIATION {division: d}]-(dojo:Dojo),
+      (head:Person)-[:ORGANIZATIONAL_ROLE {role: "division_head", division: d}]->(caa)
+RETURN d AS division, head.canonical_name AS division_head, collect(dojo.name) AS dojos;
+```
+
+### 3.8 Implementation order (priority sequence)
 
 | Step | Task | Dependencies | Est. effort |
 |---|---|---|---|
 | 1 | Add new `NodeType` and `RelationType` enum values to `models.py` | None | 30 min |
-| 2 | Create new SQL tables (`lineage_*`, `rank_history`, `dojo_affiliation_history`, `name_collisions`) | Step 1 | 1 hour |
+| 2 | Create new SQL tables (`lineage_*`, `dojo_raw`, `rank_history`, `dojo_affiliation_history`, `name_collisions`, `entity_reconciliation`, `person_candidate`) | Step 1 | 1 hour |
 | 3 | Build `scripts/26_create_lineage_tables.py` — DDL migration script | Step 2 | 30 min |
-| 4 | Build `src/search/openlibrary_client.py` — Open Library API client | None | 1 hour |
-| 5 | Build `src/search/google_books_client.py` — Google Books API client | None | 1 hour |
-| 6 | Build `src/search/itunes_podcast_client.py` — iTunes + RSS podcast discovery | None | 2 hours |
-| 7 | Build `scripts/27_resolve_books.py` — resolve all target persons' books via OL + Google Books | Steps 4, 5 | 1 hour |
-| 8 | Build `scripts/28_discover_podcasts.py` — discover podcast episodes featuring target persons | Step 6 | 2 hours |
-| 9 | Build `scripts/29_etl_dojo_directory.py` — ETL WorldStudioFinder CSV → lineage_dojos | Step 2 | 3 hours |
-| 10 | Build `src/search/geocode_client.py` — geocoding with caching | None | 1 hour |
-| 11 | Build `scripts/30_geocode_dojos.py` — batch geocode all dojo addresses | Step 10 | 1 hour |
-| 12 | Build `scripts/31_caa_division_heads.py` — ingest CAA organizational structure | Step 2 | 1 hour |
-| 13 | Build `src/search/disambiguator.py` — person/dojo name resolution | Step 2 | 2 hours |
-| 14 | Build `src/storage/lineage_db.py` — typed CRUD for lineage tables with versioning | Step 2 | 3 hours |
-| 15 | Build `scripts/32_recursive_lineage_expansion.py` — depth-limited recursive student-of expansion | Steps 1–13 | 3 hours |
-| 16 | Add lineage query endpoints to Graph API (Flask) | Step 14 | 2 hours |
-| 17 | Build `scripts/33_export_lineage_geojson.py` — export dojos as GeoJSON for map visualization | Step 11 | 1 hour |
+| 4 | Build `src/storage/lineage_db.py` — typed CRUD for lineage tables with `valid_from`/`valid_to` versioning, `observed_at` timestamps | Step 2 | 3 hours |
+| 5 | Build `src/search/disambiguator.py` — person/dojo name resolution with contextual signals, alias index, `person_candidate` queueing | Step 2 | 2 hours |
+| 6 | Build `scripts/27_etl_dojo_directory.py` — full ETL: stage raw CSV → `dojo_raw`, clean+dedup by domain+city, create Dojo nodes, map `head_name` → Person, insert `HEAD_INSTRUCTOR` + `DOJO_AFFILIATION` edges | Steps 3, 4, 5 | 3 hours |
+| 7 | Build `src/search/openlibrary_client.py` — Open Library API client | None | 1 hour |
+| 8 | Build `src/search/google_books_client.py` — Google Books API client | None | 1 hour |
+| 9 | Build `src/search/itunes_podcast_client.py` — iTunes + RSS podcast discovery | None | 2 hours |
+| 10 | Build `scripts/28_resolve_books.py` — resolve all target persons' books via OL + Google Books | Steps 7, 8 | 1 hour |
+| 11 | Build `scripts/29_discover_podcasts.py` — discover podcast episodes featuring target persons | Step 9 | 2 hours |
+| 12 | Build `src/search/geocode_client.py` — geocoding with caching | None | 1 hour |
+| 13 | Build `scripts/30_geocode_dojos.py` — batch geocode all dojo addresses | Step 12 | 1 hour |
+| 14 | Build `scripts/31_caa_division_heads.py` — ingest CAA organizational structure with `ORGANIZATIONAL_ROLE` edges | Step 4 | 1 hour |
+| 15 | Build `scripts/32_recursive_lineage_expansion.py` — depth-limited recursive student-of expansion | Steps 1–14 | 3 hours |
+| 16 | Build `scripts/33_temporal_reconstruction.py` — graph state at date queries, lineage network snapshots over time | Step 4 | 2 hours |
+| 17 | Add lineage query endpoints to Graph API (Flask) | Step 4 | 2 hours |
+| 18 | Build `scripts/34_export_lineage_geojson.py` — export dojos as GeoJSON for map visualization | Step 13 | 1 hour |
 
-### 3.7 Downstream analytics and visualization
+### 3.9 Downstream analytics and visualization
 
 **Pre-built query templates** (to expose as API endpoints):
 
