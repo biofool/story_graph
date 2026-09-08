@@ -1,0 +1,14 @@
+{
+  "abc123": {
+    "id": "abc123",
+    "title": "Source Family post",
+    "selftext": "body text",
+    "author": "user1",
+    "created_utc": 1600000000,
+    "created_iso": "2020-09-13T12:26:40+00:00",
+    "subreddit": "cults",
+    "permalink": "https://www.reddit.com/r/cults/x",
+    "score": 42,
+    "num_comments": 5
+  }
+}

@@ -20,7 +20,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 from unittest.mock import MagicMock, patch
 
-import pytest
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 SCRIPT_PATH = PROJECT_ROOT / "scripts" / "07_arctic_shift_reddit.py"

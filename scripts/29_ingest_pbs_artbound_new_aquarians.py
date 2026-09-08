@@ -69,7 +69,7 @@ def main(argv: list[str] | None = None) -> int:
     print("=" * 70)
     print("INGESTING PBS SOCAL ARTBOUND: 'MEET THE NEW AQUARIANS'")
     print(f"URL: {PBS_URL}")
-    print(f"Author: Caroline Ryder | Published: 2012-05-07")
+    print("Author: Caroline Ryder | Published: 2012-05-07")
     print("=" * 70)
 
     if args.dry_run:
