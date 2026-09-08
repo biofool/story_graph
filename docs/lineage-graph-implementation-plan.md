@@ -1865,3 +1865,320 @@ def export_dojo_geojson(db, lineage_filter=None):
 | Robert Nadeau | aikido | `person:robert-nadeau` | 8th dan Shihan (only one in graph) |
 | Peter Ralston | martial-arts | `person:peter-ralston` | Cheng Hsin founder (only one in graph) |
 | George Leonard | author | `person:george-leonard` | Writer, aikido practitioner (only one in graph) |
+
+## Appendix C — Wikipedia draft syntax and editorial guidance
+
+> **Purpose**: Authoritative, current reference for drafting Wikipedia-style biographies of
+> Story Graph subjects (Peter Ralston, Bob Noha, and future subjects). Applies to
+> `docs/wikipedia-ralston-noha.md` and any successor draft files.
+> **Scope**: Drafting and pre-submission review only. This project does **not** publish,
+> submit, or edit live Wikipedia articles without explicit operator approval.
+> **Authoritative sources reviewed**: Wikipedia policy/guideline pages fetched 2026-09-08 —
+> [Wikipedia:Drafts](https://en.wikipedia.org/wiki/Wikipedia:Drafts),
+> [Wikipedia:Articles for creation](https://en.wikipedia.org/wiki/Wikipedia:Articles_for_creation),
+> [Wikipedia:Notability (people)](https://en.wikipedia.org/wiki/Wikipedia:Notability_(people)),
+> [Wikipedia:Biographies of living persons](https://en.wikipedia.org/wiki/Wikipedia:Biographies_of_living_persons),
+> [Wikipedia:Conflict of interest](https://en.wikipedia.org/wiki/Wikipedia:Conflict_of_interest),
+> [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources),
+> [Template:Draft article](https://en.wikipedia.org/wiki/Template:Draft_article),
+> [Template:AfC submission](https://en.wikipedia.org/wiki/Template:AFC_submission),
+> [Template:Cite web](https://en.wikipedia.org/wiki/Template:Cite_web).
+
+### C.1 Draft lifecycle and namespace
+
+- Drafts live in the **Draft namespace** (`Draft:Peter Ralston (martial artist)`), not mainspace.
+  Drafts are excluded from search-engine indexing, which is intentional during development.
+- A draft begins with `{{Draft article|<intended title>}}` at the top. This renders the
+  "This is a draft article" banner and categorizes the page under
+  [Category:Draft articles](https://en.wikipedia.org/wiki/Category:Draft_articles).
+  Do **not** use `{{Draft article}}` in mainspace — it will not display there.
+- When the draft is ready for review, replace the Draft article banner with
+  `{{subst:submit}}` (or use the "Submit for review" button). This substitutes the
+  [Template:AfC submission](https://en.wikipedia.org/wiki/Template:AFC_submission) banner,
+  which places the draft in the
+  [Articles for Creation](https://en.wikipedia.org/wiki/Wikipedia:Articles_for_creation)
+  review queue. A yellow "Review waiting, please be patient" box confirms submission.
+- **Do not add categories to drafts** — reviewers add categories upon acceptance. Stub
+  templates (e.g. `{{US-martial-artist-bio-stub}}`) are acceptable but are also typically
+  added/adjusted by the reviewer.
+- **WikiProject banners** (e.g. `{{WikiProject Biography}}`) belong on the draft's **talk
+  page**, not the draft itself. The AfC "Add tags to your draft" button wires these up.
+  The current `docs/wikipedia-ralston-noha.md` places `{{WikiProject Biography}}` on the
+  draft body — this should move to the talk page before submission.
+- Drafts not edited for six months are routinely deleted under
+  [WP:CSD#G13](https://en.wikipedia.org/wiki/Wikipedia:Criteria_for_speedy_deletion#G13);
+  they can be recovered at WP:REFUND/G13.
+- **Articles generated entirely by LLMs will be rejected** (per AfC). Drafts may be
+  assembled with LLM assistance but must be reviewed, fact-checked, and rewritten by a
+  human editor before submission.
+
+### C.2 Lead section and headings
+
+- The **lead** is the first paragraph, has no heading, and should establish notability,
+  nationality, occupation, and the single most defining achievement. The subject's name
+  is **bold** on first mention: `'''Peter Ralston''' is an American martial artist...`.
+- Do not overstate. The lead summarizes what **independent reliable sources** say, not
+  what the subject says about themselves.
+- Headings use `== Title ==` (level 2). Subsections use `=== Sub ===`. Sentence case for
+  headings: `== Early life and training ==`, not `== Early Life And Training ==`.
+- Standard biography headings: *Early life*, *Career*, *Bibliography* (for authors),
+  *Personal life* (only if independently sourced), *See also*, *References*,
+  *External links*. Avoid trivial sections (e.g. "Connection to Aikido lineage" is too
+  thin unless it has independent sourcing and substance).
+
+### C.3 Wikilinks
+
+- Link the first occurrence of a notable concept or person: `[[Aikido]]`,
+  `[[Robert Nadeau (aikidoka)|Robert Nadeau]]` (piped link with disambiguator).
+- Do not link to non-existent articles (red links) in drafts unless you intend to create
+  them. Link to the disambiguated form only if the target exists: `[[Cheng Hsin]]` is a
+  red link today — either remove it or pipe to a broader existing article.
+- Avoid overlinking: link a term once per section, not every occurrence.
+
+### C.4 Citations and `<ref>` tags
+
+- Every contentious or likely-challenged claim needs an **inline citation** in a
+  `<ref>` tag. Per [WP:V](https://en.wikipedia.org/wiki/Wikipedia:Verifiability),
+  quotations and BLP claims always require citations.
+- Named references for reuse: `<ref name="chenghsin-bio">{{cite web ... }}</ref>` then
+  later `<ref name="chenghsin-bio" />`. The current draft uses this correctly.
+- The references section uses `{{Reflist}}` (or `{{Reflist|2}}` for two columns). The
+  current draft uses `{{Reflist}}` correctly.
+- **Avoid citation overloading**: do not stack 3+ refs on a single trivial claim to
+  manufacture the appearance of strong sourcing. One solid independent source beats
+  three self-published ones.
+
+### C.5 Citation templates — current parameter syntax
+
+Use the [citation templates](https://en.wikipedia.org/wiki/Help:Citation_Style_1) per
+CS1. Key templates and their current parameters:
+
+**`{{cite web}}`** — for web pages:
+```
+{{cite web
+  | url         =
+  | title       =
+  | website     =
+  | publisher   =
+  | last        =
+  | first       =
+  | date        =
+  | access-date =
+  | archive-url =
+  | archive-date=
+  | url-status  = live
+}}
+```
+- Use `access-date` (hyphenated), **not** `accessdate`. The current draft uses
+  `accessdate` — this is a **syntax fix needed** before submission (it still renders,
+  but `access-date` is the current canonical form).
+- `website` is the name of the site; `publisher` is the publishing organization. If the
+  site name equals the publisher, prefer `website` and omit `publisher`.
+- Add `archive-url` and `archive-date` for any source likely to change or disappear
+  (personal sites, publisher pages, Medium). Set `|url-status=live` if the original is
+  still live.
+
+**`{{cite book}}`** — for books (use for the bibliography entries):
+```
+{{cite book
+  | last    =
+  | first   =
+  | title   =
+  | publisher=
+  | location=
+  | date    =
+  | isbn    =
+  | pages   =
+}}
+```
+
+**`{{cite news}}`** — for newspaper/magazine articles:
+```
+{{cite news
+  | last      =
+  | first     =
+  | title     =
+  | newspaper =
+  | date      =
+  | url       =
+  | access-date=
+  | pages     =
+}}
+```
+
+**`{{cite interview}}`** — for interviews (use for the MAYTT and Argus Courier pieces):
+```
+{{cite interview
+  | last    =
+  | first   =
+  | interviewer=
+  | title   =
+  | work    =
+  | date    =
+  | url     =
+  | access-date=
+}}
+```
+
+### C.6 Bibliography formatting
+
+- A bibliography list (`== Bibliography ==`) uses a bulleted list or a wikitable. The
+  current draft uses a `{| class="wikitable sortable" ... |}` table — this is valid
+  wikitext. Keep columns factual (Title, Year, Publisher). The "Subject" column in the
+  Ralston draft is editorial/subjective — consider removing it or sourcing each entry.
+- For each book, prefer a `{{cite book}}` reference over a bare table row so the entry
+  is verifiable against Open Library or the publisher.
+
+### C.7 External links
+
+- `== External links ==` goes last, before stub templates. Format:
+  `* [https://chenghsin.com Official Cheng Hsin website]`.
+- Only link the subject's **official** site and major authoritative profiles (Open
+  Library, publisher author page). Do not link to promotional pages, Amazon listings,
+  or self-published blogs.
+- The current Ralston draft links to a YouTube channel and an Amazon Australia listing
+  indirectly via book citations — the YouTube channel link is acceptable if it is the
+  subject's official channel; remove any retail/affiliate links.
+
+### C.8 Infobox guidance
+
+- Biographies of martial artists should use
+  [Template:Infobox person](https://en.wikipedia.org/wiki/Template:Infobox_person)
+  (or a specialized infobox if one exists). The current drafts have **no infobox** —
+  add one before submission with: `name`, `birth_date`, `birth_place`,
+  `occupation`, `known_for`, `website`. Only include fields that are independently
+  sourced.
+- Do not put unsourced or self-published personal details (birth date, family) in the
+  infobox for a living person.
+
+### C.9 Neutral point of view and attribution
+
+- Attribute contested or self-reported claims in text: "According to his official
+  biography..." or "His publisher's profile states..." rather than asserting them as
+  fact. The current draft asserts "first non-Asian ever to win" as fact sourced only to
+  chenghsin.com and a publisher page — this needs **independent** sourcing (news
+  archives, martial-arts magazines) or must be attributed.
+- Avoid promotional language: "historically significant achievement," "one of the
+  founders of the consciousness movement," "profound spiritual awakening." Replace
+  with neutral, sourced statements.
+- No original research: do not synthesize a "Connection to Aikido lineage" from a
+  single book listing. Each claim must trace to a reliable source.
+
+### C.10 Reliable, independent, secondary sources
+
+- [WP:GNG](https://en.wikipedia.org/wiki/Wikipedia:Notability#General_notability_guideline)
+  requires **significant coverage** in **multiple** **independent** **secondary**
+  **reliable** sources. Self-published, official, and promotional sources do not count
+  toward notability (they can establish facts but not notability).
+- Source tiers for this project:
+  - **Independent secondary (counts toward notability)**: newspaper archives (Argus
+    Courier profile), martial-arts magazines (Aikido Journal, Black Belt, Journal of
+    Asian Martial Arts), book reviews in independent publications, academic coverage
+    of the consciousness movement.
+  - **Publisher/bibliographic (establishes facts, weak for notability)**: Open Library,
+    Penguin NZ author page, Inner Traditions author page, Simon & Schuster author page.
+  - **Self-published/official (establishes facts about the subject's own claims, does
+    not establish notability)**: chenghsin.com, aikidopetaluma.com, nadeaushihan.com.
+  - **User-generated/promotional (avoid for BLP claims)**: Medium/Authority Magazine,
+    personal blogs, Goodreads, Amazon reviews. These are generally not reliable
+    sources per
+    [WP:USERG](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources#User-generated_content).
+- The current Ralston draft leans heavily on chenghsin.com and publisher pages —
+  **notability is not yet established**. The current Noha draft leans on
+  aikidopetaluma.com and Medium — **notability is not yet established**. Both need
+  independent secondary sourcing before submission.
+
+### C.11 Biographies of living persons (BLP)
+
+- Both Ralston and Noha are living. Per
+  [WP:BLP](https://en.wikipedia.org/wiki/Wikipedia:Biographies_of_living_persons),
+  all material about living persons must be written with the greatest care for
+  verifiability, neutrality, and avoidance of original research.
+- **Remove contentious material that is unsourced or poorly sourced immediately** — do
+  not wait for a challenge. This includes rank claims, biographical details, and family
+  information sourced only to the subject's own site.
+- Self-published sources may be used for **limited** claims about the subject themselves
+  (their own occupation, their own school) but **not** for third-party claims or
+  contentious material. The subject's own rank claims (5th/6th/7th dan) sourced only to
+  aikidopetaluma.com are acceptable as self-description but should be attributed:
+  "According to his dojo's biography, Noha holds the rank of 7th dan."
+- Do not publish personal details (home address, family members' names) beyond what
+  independent reliable sources have published.
+
+### C.12 Conflict of interest (COI) disclosure
+
+- Per [WP:COI](https://en.wikipedia.org/wiki/Wikipedia:Conflict_of_interest), editors
+  with a conflict of interest (including being paid, being a student/associate of the
+  subject, or promoting the subject's organization) **must disclose** on the draft's
+  talk page and **must use the AfC process** rather than creating mainspace articles
+  directly.
+- If this project's operator has a relationship with the subjects (student, collaborator,
+  lineage member), that must be disclosed on the talk page before submission.
+- **Articles generated entirely by LLMs will be rejected**. LLM-assisted drafts must be
+  human-reviewed and rewritten. Disclose AI assistance if asked by a reviewer.
+
+### C.13 Notability evidence — pre-submission checklist
+
+Before submitting either draft, confirm:
+- [ ] At least **two** independent, secondary, reliable sources provide **significant**
+      (not trivial/passing) coverage of the subject.
+- [ ] The "first non-Asian to win" championship claim (Ralston) is sourced to
+      independent news or martial-arts magazine coverage, not only chenghsin.com.
+- [ ] The 7th dan rank claim (Noha) is either attributed to the dojo's own page or
+      sourced to an independent rank-promotion record (CAA, Aikikai).
+- [ ] No claim relies solely on Medium/Authority Magazine or other user-generated
+      platforms.
+- [ ] The lead does not assert notability as fact — it summarizes what sources say.
+- [ ] Promotional adjectives ("profound," "historically significant," "pioneer") are
+      removed or attributed.
+
+### C.14 Pre-submission validation steps
+
+1. Run the draft through the
+   [Wikipedia article wizard](https://en.wikipedia.org/wiki/Wikipedia:Articles_for_creation)
+   or copy into `Draft:` namespace.
+2. Fix `accessdate` → `access-date` in all `{{cite web}}` calls.
+3. Move `{{WikiProject Biography}}` to the draft's talk page.
+4. Add an `{{Infobox person}}` with independently-sourced fields.
+5. Add `archive-url`/`archive-date` to self-published and publisher sources.
+6. Remove or attribute every claim sourced only to a self-published/official source.
+7. Remove the "Subject" column from the Ralston bibliography table or source each.
+8. Remove the "Connection to Aikido lineage" section unless independently sourced.
+9. Disclose any COI on the draft talk page.
+10. Replace `{{Draft article}}` with `{{subst:submit}}` when ready for AfC review.
+
+### C.15 Maintenance templates and categories (post-acceptance)
+
+- Reviewers add categories upon acceptance — do not pre-add them.
+- Stub templates (`{{US-martial-artist-bio-stub}}`) are acceptable in drafts but may be
+  swapped for a more specific stub by the reviewer.
+- If a draft is accepted and later needs cleanup, use maintenance templates like
+  `{{BLP sources}}` (insufficient sourcing for a BLP), `{{COI}}` (conflict of interest),
+  `{{Advert}}` (promotional tone). These are reviewer/operator tools, not draft-stage
+  tags.
+
+### C.16 Monthly refresh requirement
+
+> **This section must be reviewed and refreshed at least once per calendar month.**
+
+Wikipedia policy, templates, and AfC workflow change frequently (template parameters
+are deprecated/renamed, submission processes are restructured, notability criteria are
+amended). To keep this guidance accurate:
+
+- **Cadence**: review this Appendix C on the first working day of each month.
+- **Next review due**: 2026-10-01.
+- **Last reviewed**: 2026-09-08.
+- **Review process**:
+  1. Re-fetch the authoritative Wikipedia pages listed in the header of this appendix
+     (Drafts, AfC, Notability (people), BLP, COI, Citing sources, Template:Draft
+     article, Template:AfC submission, Template:Cite web) and diff against the guidance
+     here.
+  2. Update parameter names, template usage, and policy citations if they have changed.
+  3. Check for newly deprecated citation parameters (e.g. `accessdate` → `access-date`
+     was one such migration) and update the draft files accordingly.
+  4. Update the "Last reviewed" date and "Next review due" date.
+  5. Commit the refresh with a message like
+     `docs: monthly refresh of Wikipedia draft syntax guidance (Appendix C)`.
+- **Do not** treat this guidance as permanently current. If a Wikipedia policy or
+  template referenced here has been renamed, merged, or deprecated, update this section
+  before relying on it for a new draft or submission.
