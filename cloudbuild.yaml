@@ -1,0 +1,60 @@
+# Cloud Build configuration — GCP-side image construction for story_graph.
+#
+# This lets the Oracle host trigger a build on Google's infrastructure
+# (no local docker needed on Oracle) and have Artifact Registry + Cloud
+# Build handle all image construction, per issue #18.
+#
+# Trigger this manually from the Oracle host:
+#   gcloud builds submit --config cloudbuild.yaml \
+#     --project=$PROJECT_ID --region=$REGION
+#
+# Or wire it to a Cloud Build trigger (see infra/cloudbuild.tf) that fires
+# on push to main/dev, then the Oracle host just calls:
+#   gcloud builds trigger run <trigger-name> --branch=main \
+#     --project=$PROJECT_ID --region=$REGION
+#
+# The resulting image is pushed to Artifact Registry and can be run as the
+# existing Cloud Run Job (see infra/main.tf) via:
+#   gcloud run jobs execute story-graph-targeted-research \
+#     --region=$REGION --project=$PROJECT_ID
+#
+# Required substitutions (set via --substitutions or the trigger config):
+#   _REGION         GCP region (default us-central1)
+#   _ARTIFACT_REPO  Artifact Registry docker repo name (default story-graph)
+#   _IMAGE_NAME     image name (default targeted-research)
+#
+# PROJECT_ID is provided automatically by Cloud Build.
+
+substitutions:
+  _REGION: us-central1
+  _ARTIFACT_REPO: story-graph
+  _IMAGE_NAME: targeted-research
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+
+steps:
+  # Build the container image on Google's infrastructure and push it to
+  # Artifact Registry in one step. Cloud Build authenticates to Artifact
+  # Registry automatically — no `gcloud auth configure-docker` needed.
+  - name: gcr.io/cloud-builders/docker
+    id: Build-and-push
+    args:
+      - build
+      - -t
+      - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_ARTIFACT_REPO}/${_IMAGE_NAME}:latest
+      - .
+
+  # Tag with the commit SHA for traceability + deterministic deploys.
+  - name: gcr.io/cloud-builders/docker
+    id: Tag-sha
+    args:
+      - tag
+      - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_ARTIFACT_REPO}/${_IMAGE_NAME}:latest
+      - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_ARTIFACT_REPO}/${_IMAGE_NAME}:$SHORT_SHA
+    waitFor:
+      - Build-and-push
+
+images:
+  - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_ARTIFACT_REPO}/${_IMAGE_NAME}:latest
+  - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_ARTIFACT_REPO}/${_IMAGE_NAME}:$SHORT_SHA

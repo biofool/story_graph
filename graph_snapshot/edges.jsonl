@@ -13082,6 +13082,8 @@
 {"dst_id": "place:santa-clara", "metadata": {"evidence": "https://kodenkan.com/kufferath", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:kodenkan-jujitsu-school"}
 {"dst_id": "place:los-angeles", "metadata": {"evidence": "https://military-history.fandom.com/wiki/Father_Yod", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:nature-boys"}
 {"dst_id": "group:bohemian-counterculture", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "group:nature-boys"}
+{"dst_id": "group-source-family", "metadata": {"relationship": "contemporary movement inspired by", "source_verification": "PBS Artbound journalism (2012)"}, "rel_type": "MENTIONS", "src_id": "group:new-aquarians"}
+{"dst_id": "work:the-source-family-book-2007", "metadata": {"relationship": "triggered by the 2007 book"}, "rel_type": "MENTIONS", "src_id": "group:new-aquarians"}
 {"dst_id": "place:jujitsu", "metadata": {"evidence": "https://www.usadojo.com/sig-kufferath", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:nikko"}
 {"dst_id": "place:kodenkan", "metadata": {"evidence": "https://www.usadojo.com/sig-kufferath", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:nikko"}
 {"dst_id": "place:santa-clara", "metadata": {"evidence": "https://www.usadojo.com/sig-kufferath", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:nikko"}
@@ -13142,6 +13144,7 @@
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "group:ya-ho-wa-13"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://divinity.interactivelion.com/new-religious-movements/the-source-family", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "group:ya-ho-wha-13"}
 {"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "group:ya-ho-wha-13"}
+{"dst_id": "group:ya-ho-wa-13", "metadata": {"relationship": "contemporary open-jam continuation"}, "rel_type": "MENTIONS", "src_id": "group:yahowha33"}
 {"dst_id": "image:68693cc73073d35a0a9f2b3b80bbc537ce05185cc1510d3485fba242bf2ee71a", "metadata": {"evidence": "https://proquest.com/historical-newspapers"}, "rel_type": "DEPICTS", "src_id": "la-times-winchell-1961-aware-inn"}
 {"dst_id": "image:751062308bb5a90fd16b75de722f9a0eb3fa457ad41d7e5422238f28473d5d01", "metadata": {"evidence": "https://proquest.com/historical-newspapers"}, "rel_type": "DEPICTS", "src_id": "la-times-winchell-1961-aware-inn"}
 {"dst_id": "image:83d9b3036da8af188c014fc7a146be5f6635df464b807329dfd4fb256417d938", "metadata": {"evidence": "https://proquest.com/historical-newspapers"}, "rel_type": "DEPICTS", "src_id": "la-times-winchell-1961-aware-inn"}
@@ -13166,6 +13169,12 @@
 {"dst_id": "la-times-1971-source-review", "metadata": {"quote": "smiling swamis in white turbans and flowing eastern garments", "type": "cites"}, "rel_type": "MENTIONS", "src_id": "laist-meares-20191129-source"}
 {"dst_id": "la-times-1972-source-family-profile", "metadata": {"quote": "pie of crushed nuts topped by guacamole, sliced tomatoes and alfalfa sprouts", "type": "cites"}, "rel_type": "MENTIONS", "src_id": "laist-meares-20191129-source"}
 {"dst_id": "la-times-winchell-1961-aware-inn", "metadata": {"quote": "tiny Upstairs Aware provides a beautiful view of the city lights", "type": "cites"}, "rel_type": "MENTIONS", "src_id": "laist-meares-20191129-source"}
+{"dst_id": "group:new-aquarians", "metadata": {"type": "primary_subject"}, "rel_type": "MENTIONS", "src_id": "pbs-socal-artbound-new-aquarians-2012"}
+{"dst_id": "person-isis-aquarian", "metadata": {"type": "subject"}, "rel_type": "MENTIONS", "src_id": "pbs-socal-artbound-new-aquarians-2012"}
+{"dst_id": "person-jim-baker-father-yod", "metadata": {"type": "subject"}, "rel_type": "MENTIONS", "src_id": "pbs-socal-artbound-new-aquarians-2012"}
+{"dst_id": "person:djin-aquarian", "metadata": {"type": "subject"}, "rel_type": "MENTIONS", "src_id": "pbs-socal-artbound-new-aquarians-2012"}
+{"dst_id": "person:jodi-wille", "metadata": {"type": "subject"}, "rel_type": "MENTIONS", "src_id": "pbs-socal-artbound-new-aquarians-2012"}
+{"dst_id": "person:sky-saxon", "metadata": {"type": "subject"}, "rel_type": "MENTIONS", "src_id": "pbs-socal-artbound-new-aquarians-2012"}
 {"dst_id": "person-jim-baker-father-yod", "metadata": {"context": "Connection point between Bhajan ashram and Baker's restaurant", "relationship": "helped name The Source restaurant", "significance": "Named the restaurant, bridging spiritual and commercial domains"}, "rel_type": "MENTIONS", "src_id": "person-baba-don"}
 {"dst_id": "person-yogi-bhajan", "metadata": {"relationship": "member of ashram"}, "rel_type": "MENTIONS", "src_id": "person-baba-don"}
 {"dst_id": "group-cyprus-peace-training-team", "metadata": {"role": "co-trainer", "training_focus": "physical metaphor for dialogue"}, "rel_type": "MEMBER_OF", "src_id": "person-chris-thorsten"}
@@ -13173,6 +13182,9 @@
 {"dst_id": "group-cyprus-peace-training-team", "metadata": {"role": "trainer"}, "rel_type": "MEMBER_OF", "src_id": "person-doug-stone"}
 {"dst_id": "place-chandler-mansion", "metadata": {"relationship": "previous owner"}, "rel_type": "MENTIONS", "src_id": "person-harry-chandler"}
 {"dst_id": "group-source-family", "metadata": {"role": "member, photographer, archivist"}, "rel_type": "MEMBER_OF", "src_id": "person-isis-aquarian"}
+{"dst_id": "group:new-aquarians", "metadata": {"activity": "spreads Father Yod's 'Just Be Kind' philosophy", "role": "spiritual mother of the New Aquarian movement"}, "rel_type": "MENTIONS", "src_id": "person-isis-aquarian"}
+{"dst_id": "person:devendra-banhart", "metadata": {"relationship": "met at Harvard and Stone venue, LA"}, "rel_type": "MENTIONS", "src_id": "person-isis-aquarian"}
+{"dst_id": "person:mear-one", "metadata": {"relationship": "MEAR ONE is one of Isis' biggest fans"}, "rel_type": "MENTIONS", "src_id": "person-isis-aquarian"}
 {"dst_id": "group-source-family", "metadata": {"role": "founder and spiritual leader"}, "rel_type": "FOUNDED", "src_id": "person-jim-baker-father-yod"}
 {"dst_id": "person-yogi-bhajan", "metadata": {"context": "spiritual influence", "description": "Baker followed Yogi Bhajan, guru credited with bringing kundalini yoga to the west", "relationship": "became a follower of", "source_verification": "CONFIRMED via LAist journalism (line 55)"}, "rel_type": "MENTIONS", "src_id": "person-jim-baker-father-yod"}
 {"dst_id": "place-aware-inn", "metadata": {"role": "founder and owner", "years": "1958-1963+"}, "rel_type": "WORKED_AT", "src_id": "person-jim-baker-father-yod"}
@@ -13190,7 +13202,12 @@
 {"dst_id": "place:united-states", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:bibiji"}
 {"dst_id": "group:sleeping-lady", "metadata": {}, "rel_type": "MEMBER_OF", "src_id": "person:billy-bramblet"}
 {"dst_id": "group:well-with-foods", "metadata": {}, "rel_type": "MEMBER_OF", "src_id": "person:billy-bramblet"}
+{"dst_id": "group:smashing-pumpkins", "metadata": {"role": "lead singer"}, "rel_type": "MEMBER_OF", "src_id": "person:billy-corgan"}
+{"dst_id": "group:yahowha33", "metadata": {"role": "bass at first performance (2009)"}, "rel_type": "MEMBER_OF", "src_id": "person:billy-corgan"}
+{"dst_id": "person:djin-aquarian", "metadata": {"aquarian_name": "Shmuel", "relationship": "named by Sky Saxon and Djin"}, "rel_type": "MENTIONS", "src_id": "person:billy-corgan"}
+{"dst_id": "person:sky-saxon", "metadata": {"relationship": "played bass at Sky Saxon tribute (2009)"}, "rel_type": "MENTIONS", "src_id": "person:billy-corgan"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:c-girard"}
+{"dst_id": "pbs-socal-artbound-new-aquarians-2012", "metadata": {"role": "author"}, "rel_type": "CREATED", "src_id": "person:caroline-ryder"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:charlie-kitchings"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:christina-ward"}
 {"dst_id": "group:cyprus-consortium", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "MEMBER_OF", "src_id": "person:christopher-thorsen"}
@@ -13213,7 +13230,11 @@
 {"dst_id": "group:children-of-god", "metadata": {"evidence": "https://podscripts.co/podcasts/timesuck-with-dan-cummins/161-the-source-family-cult", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:david-berg"}
 {"dst_id": "group:world-religions-and-spirituality-project", "metadata": {"evidence": "https://divinity.interactivelion.com/new-religious-movements/the-source-family", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:david-g-bromley"}
 {"dst_id": "group:branch-davidians", "metadata": {"evidence": "https://podscripts.co/podcasts/timesuck-with-dan-cummins/161-the-source-family-cult", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:david-koresh"}
+{"dst_id": "group:the-entrance-band", "metadata": {"role": "drummer"}, "rel_type": "MEMBER_OF", "src_id": "person:derek-james"}
 {"dst_id": "group:wild-mountain-cafe", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Wild_Mountain_Cafe", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:desirae-aylesworth"}
+{"dst_id": "group:new-aquarians", "metadata": {"role": "gives Aquarian names; go-to figure for contemporary musicians"}, "rel_type": "MENTIONS", "src_id": "person:djin-aquarian"}
+{"dst_id": "group:yahowha33", "metadata": {"role": "leads YaHoWha33 jams"}, "rel_type": "MENTIONS", "src_id": "person:djin-aquarian"}
+{"dst_id": "person-jim-baker-father-yod", "metadata": {"relationship": "carries on Father Yod's Aquarian naming tradition"}, "rel_type": "MENTIONS", "src_id": "person:djin-aquarian"}
 {"dst_id": "group:old-world-restaurant", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:dora"}
 {"dst_id": "group:cyprus-consortium", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "MEMBER_OF", "src_id": "person:douglas-stone-negotiation"}
 {"dst_id": "group:cyprus-fulbright-commission", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:douglas-stone-negotiation"}
@@ -13241,6 +13262,9 @@
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:eric-heinze"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:galaxy-aquarian"}
 {"dst_id": "person:robert-nadeau", "metadata": {"context": "George Leonard is listed as a notable student of Robert Nadeau", "corroborating_sources": ["https://www.aikido-health.com/robert-nadeau.html", "https://www.cityaikido.com/nadeau-shihan", "https://www.usadojo.com/robert-nadeau/"], "discovered_via": "relationship_search", "evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)", "relationship": "student_of"}, "rel_type": "MEMBER_OF", "src_id": "person:george-leonard"}
+{"dst_id": "group:the-entrance-band", "metadata": {"role": "frontman"}, "rel_type": "MEMBER_OF", "src_id": "person:guy-blakeslee"}
+{"dst_id": "group:new-aquarians", "metadata": {"relationship": "early adopter of Source Family"}, "rel_type": "MENTIONS", "src_id": "person:guy-blakeslee"}
+{"dst_id": "person:djin-aquarian", "metadata": {"aquarian_name": "Sir Guyser Aquarian", "relationship": "named by Djin; regular contact"}, "rel_type": "MENTIONS", "src_id": "person:guy-blakeslee"}
 {"dst_id": "group:nature-boys", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:gypsy-boots"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:h-kislowicz"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:hail-aquarian"}
@@ -13335,6 +13359,8 @@
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:jim-baker-ancestor"}
 {"dst_id": "group:the-people-s-temple", "metadata": {"evidence": "https://podscripts.co/podcasts/timesuck-with-dan-cummins/161-the-source-family-cult", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:jim-jones"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:jodi-wille"}
+{"dst_id": "work:the-source-documentary-2012", "metadata": {"role": "director (with Maria Demopoulos)", "year": 2012}, "rel_type": "CREATED", "src_id": "person:jodi-wille"}
+{"dst_id": "work:the-source-family-book-2007", "metadata": {"role": "author/publisher", "year": 2007}, "rel_type": "CREATED", "src_id": "person:jodi-wille"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:jodi-wille"}
 {"dst_id": "group:gastro-obscura-and-atlas-obscura-event", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:john-harry"}
 {"dst_id": "place:los-angeles", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:john-lennon"}
@@ -13365,11 +13391,13 @@
 {"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:marlon-brando"}
 {"dst_id": "group:heaven-s-gate", "metadata": {"evidence": "https://podscripts.co/podcasts/timesuck-with-dan-cummins/161-the-source-family-cult", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:marshall-applewhite"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:marshall-brickman"}
+{"dst_id": "group:new-aquarians", "metadata": {"contribution": "Father Yod stencil 'Just Be Kind' \u2014 OBEY GIANT-style for New Aquarians"}, "rel_type": "CREATED", "src_id": "person:mear-one"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:michael-burge"}
 {"dst_id": "place:north-leura", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:michael-burge"}
 {"dst_id": "place:queensland", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:michael-burge"}
 {"dst_id": "group:the-red-door-caf\u00e9", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:michael-burge"}
 {"dst_id": "group:blue-mountains-life", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:michael-burge"}
+{"dst_id": "person-isis-aquarian", "metadata": {"relationship": "creating Isis-inspired clothing looks"}, "rel_type": "MENTIONS", "src_id": "person:michael-cepress"}
 {"dst_id": "person:robert-nadeau", "metadata": {"context": "Michael Murphy (founder of Esalen) featured Nadeau in his books, alongside Dan Millman", "corroborating_sources": ["https://www.cityaikido.com/nadeau-shihan", "https://www.usadojo.com/robert-nadeau/"], "discovered_via": "relationship_search", "evidence": "https://www.aikido-health.com/robert-nadeau.html"}, "rel_type": "MENTIONS", "src_id": "person:michael-murphy"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:n-foster"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:n-karazivan"}
@@ -13431,6 +13459,8 @@
 {"dst_id": "group:aji", "metadata": {"evidence": "https://www.usadojo.com/sig-kufferath", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:ryu-jujitsu"}
 {"dst_id": "group:american-jujitsu-institute", "metadata": {"evidence": "https://www.usadojo.com/sig-kufferath", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:ryu-jujitsu"}
 {"dst_id": "group:okazaki", "metadata": {"evidence": "https://www.usadojo.com/sig-kufferath", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:ryu-jujitsu"}
+{"dst_id": "group:spindrift", "metadata": {"role": "musician"}, "rel_type": "MEMBER_OF", "src_id": "person:sasha-vallely"}
+{"dst_id": "person:djin-aquarian", "metadata": {"aquarian_name": "Kaleidoscopia Aquarian", "relationship": "named by Djin"}, "rel_type": "MENTIONS", "src_id": "person:sasha-vallely"}
 {"dst_id": "group:electricity-aquarian-s-early-commune", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:scott"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:sejal-parmar"}
 {"dst_id": "group:aji", "metadata": {"evidence": "https://www.usadojo.com/sig-kufferath", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:sig-kufferat"}
@@ -13559,9 +13589,13 @@
 {"dst_id": "place:los-angeles", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:8301-sunset-boulevard"}
 {"dst_id": "place:san-fernando-valley", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:aware-inn"}
 {"dst_id": "place:sunset-boulevard", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:aware-inn"}
+{"dst_id": "group-source-family", "metadata": {"relationship": "culinary legacy of The Source (vegetarian/whole foods)"}, "rel_type": "MENTIONS", "src_id": "place:cafe-gratitude"}
 {"dst_id": "place:us", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:california"}
 {"dst_id": "place:ohio", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:cincinnati"}
 {"dst_id": "place:ohio", "metadata": {"evidence": "https://alchetron.com/Father-Yod", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:cincinnati-ohio"}
+{"dst_id": "group:ya-ho-wa-13", "metadata": {"event": "YaHoWha13 reunion, November 2007"}, "rel_type": "MENTIONS", "src_id": "place:echoplex"}
+{"dst_id": "person:sky-saxon", "metadata": {"event": "Sky Saxon tribute show, 2009"}, "rel_type": "MENTIONS", "src_id": "place:echoplex"}
+{"dst_id": "person-isis-aquarian", "metadata": {"event": "Isis and MEAR ONE met here to discuss Father Yod stencil"}, "rel_type": "MENTIONS", "src_id": "place:elf-restaurant"}
 {"dst_id": "place:united-states", "metadata": {"evidence": "https://alchetron.com/Father-Yod", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:hawaii"}
 {"dst_id": "place:us", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:hawaii"}
 {"dst_id": "place:california", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:hollywood-hills"}
@@ -18986,6 +19020,7 @@
 {"dst_id": "image:ee043a7fdcd754b3aef23f71d3760858a6b677fdb6123052628119edd712e9e5", "metadata": {"evidence": "https://openmindadventures.com/richard-moon/"}, "rel_type": "DEPICTS", "src_id": "work:afbbc0bdd862d723"}
 {"dst_id": "group:institute-for-multi-track-diplomacy", "metadata": {"evidence": "https://openmindadventures.com/richard-moon/"}, "rel_type": "MENTIONS", "src_id": "work:afbbc0bdd862d723"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "https://openmindadventures.com/richard-moon/"}, "rel_type": "MENTIONS", "src_id": "work:afbbc0bdd862d723"}
+{"dst_id": "group:the-source-restaurant", "metadata": {"relationship": "film featured The Source restaurant on Sunset Strip"}, "rel_type": "MENTIONS", "src_id": "work:annie-hall-1977"}
 {"dst_id": "work:12a44e9959a42f8f", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on http://www.moonsensei.com"}, "rel_type": "MENTIONS", "src_id": "work:b0b53e646a2cdd0e"}
 {"dst_id": "work:1ddaf2984c1a472f", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on http://www.moonsensei.com"}, "rel_type": "MENTIONS", "src_id": "work:b0b53e646a2cdd0e"}
 {"dst_id": "work:3c3391c08d871d5d", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on http://www.moonsensei.com"}, "rel_type": "MENTIONS", "src_id": "work:b0b53e646a2cdd0e"}
@@ -20449,6 +20484,10 @@
 {"dst_id": "person:yoga-t-krishnamacharya", "metadata": {"evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"}, "rel_type": "MENTIONS", "src_id": "work:reddit:yoga-1mxe4ua"}
 {"dst_id": "person:yoga-taylor-hunt", "metadata": {"evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"}, "rel_type": "MENTIONS", "src_id": "work:reddit:yoga-1mxe4ua"}
 {"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"}, "rel_type": "MENTIONS", "src_id": "work:reddit:yoga-1mxe4ua"}
+{"dst_id": "group-source-family", "metadata": {"subject": "Father Yod, Ya Ho Wa 13, and the Source Family"}, "rel_type": "ABOUT", "src_id": "work:the-source-documentary-2012"}
+{"dst_id": "person-jim-baker-father-yod", "metadata": {"subject": "Father Yod"}, "rel_type": "ABOUT", "src_id": "work:the-source-documentary-2012"}
+{"dst_id": "group-source-family", "metadata": {"subject": "Source Family history"}, "rel_type": "ABOUT", "src_id": "work:the-source-family-book-2007"}
+{"dst_id": "person-jim-baker-father-yod", "metadata": {"subject": "Father Yod"}, "rel_type": "ABOUT", "src_id": "work:the-source-family-book-2007"}
 {"dst_id": "group:yoga-jivamukti", "metadata": {"evidence": "A Workplace, an Ashram, or a Cult? Inside the sexual harassment lawsuit against Jivamukti Yoga.", "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)"}, "rel_type": "MENTIONS", "src_id": "work:yoga-a-workplace-an-ashram-or-a-cult-inside-t-e42d111a"}
 {"dst_id": "person:yoga-ruth-lauer-manenti", "metadata": {"evidence": "A Workplace, an Ashram, or a Cult? Inside the sexual harassment lawsuit against Jivamukti Yoga.", "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)"}, "rel_type": "MENTIONS", "src_id": "work:yoga-a-workplace-an-ashram-or-a-cult-inside-t-e42d111a"}
 {"dst_id": "group:yoga-para-yoga", "metadata": {"evidence": "Abuse of Spiritual Power: My Story Why I Wrote About Rod Stryker", "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)"}, "rel_type": "MENTIONS", "src_id": "work:yoga-abuse-of-spiritual-power-my-story-why-i--ff198860"}
