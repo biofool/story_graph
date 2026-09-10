@@ -29,9 +29,9 @@ Three temporal dimensions are tracked for each source:
 
 | # | Source | Event date | Recorded date | Retrieved | Conflicts |
 |---|--------|------------|---------------|-----------|-----------|
-| 1 | Terry Dobson (aikidoka) - Wikipedia | 1992-08-01 | n.d. | 2026-09-11 | alternative date 1992-08-02 (day): source text: '1992-08-02'; alternative date 2 |
-| 2 | Terry Dobson – Aikido Journal | 1937-01-01 | n.d. | 2026-09-11 | alternative date 1962-01-01 (year): source text: '1962'; alternative date 1992-0 |
-| 3 | Interview with Robert Nadeau – Aiki | 1962-01-01 | 2019-09-02 | 2026-09-10 | alternative date 2001-01-01 (year): source text: '2001'; alternative date 2002-0 |
+| 1 | Terry Dobson (aikidoka) - Wikipedia | 1992-08 | n.d. | 2026-09-11 | alternative date 1992-08-02 (day): source text: '1992-08-02'; alternative date 2 |
+| 2 | Terry Dobson – Aikido Journal | 1937 | n.d. | 2026-09-11 | alternative date 1962 (year): source text: '1962'; alternative date 1992 (year): |
+| 3 | Interview with Robert Nadeau – Aiki | 1962 | 2019-09-02 | 2026-09-10 | alternative date 2001 (year): source text: '2001'; alternative date 2002 (year): |
 
 ### Date provenance
 

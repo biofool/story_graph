@@ -47,28 +47,28 @@ Three temporal dimensions are tracked for each source:
 
 | # | Source | Event date | Recorded date | Retrieved | Conflicts |
 |---|--------|------------|---------------|-----------|-----------|
-| 1 | Black Belt Magazine, December 1978  | 1978-12-01 | 1978-12-01 | 2026-09-10 | — |
-| 2 | Blitz Magazine, August 2011 (Vol. 2 | 1978-01-01 | 2011-08-01 | 2026-09-10 | alternative date 2011-08-01 (day): source title: 'August 2011' |
+| 1 | Black Belt Magazine, December 1978  | 1978-12 | 1978-12 | 2026-09-10 | — |
+| 2 | Blitz Magazine, August 2011 (Vol. 2 | 1978 | 2011-08 | 2026-09-10 | alternative date 2011-08 (month): source title: 'August 2011' |
 | 3 | Interview with Peter Ralston (Tai C | n.d. | n.d. | 2026-09-10 | — |
-| 4 | Peter Ralston Cheng Hsin | USAdojo. | 1975-01-01 | 2000-11-02 | 2026-09-10 | alternative date 1977-01-01 (year): source text: '1977'; alternative date 1978-0 |
+| 4 | Peter Ralston Cheng Hsin | USAdojo. | 1975 | 2000-11-02 | 2026-09-10 | alternative date 1977 (year): source text: '1977'; alternative date 1978 (year): |
 | 5 | Tai Chi Interview met Peter Ralston | n.d. | n.d. | 2026-09-10 | — |
 | 6 | Episode 672 - Mr. Dan Millman — whi | n.d. | n.d. | 2026-09-08 | — |
 | 7 | Robert Nadeau Shihan | n.d. | n.d. | 2026-09-10 | — |
-| 8 | Origins Interview with Peter Ralsto | 1978-01-01 | n.d. | 2026-09-10 | — |
-| 9 | Peter Ralston Shares Profound Insig | 1978-01-01 | 2025-06-18 | 2026-09-10 | — |
-| 10 | Peter Ralston Shares Profound Insig | 2025-06-01 | 2025-06-09 | 2026-09-10 | — |
-| 11 | Peter Ralston - Wikitia | 1978-01-01 | n.d. | 2026-09-10 | alternative date 1978-12-01 (day): source text: 'December 1978'; alternative dat |
-| 12 | Cheng Hsin: The Principles of Effor | 1999-01-01 | n.d. | 2026-09-10 | — |
-| 13 | Cheng Hsin Montage - Promoting Chen | 2026-01-01 | n.d. | 2026-09-10 | — |
-| 14 | DAOI Talks (21): Body Being, Martia | 2026-01-01 | n.d. | 2026-09-10 | — |
-| 15 | Richard Moon | Official Publisher P | 1969-01-01 | n.d. | 2026-09-10 | alternative date 1971-01-01 (year): source text: '1971' |
-| 16 | Peter Ralston - Penguin Books New Z | 1975-01-01 | n.d. | 2026-09-10 | — |
-| 17 | Peter Ralston | 1978-01-01 | n.d. | 2026-09-10 | — |
-| 18 | Peter Ralston | Official Publisher  | 1978-01-01 | n.d. | 2026-09-10 | — |
+| 8 | Origins Interview with Peter Ralsto | 1978 | n.d. | 2026-09-10 | — |
+| 9 | Peter Ralston Shares Profound Insig | 1978 | 2025-06-18 | 2026-09-10 | — |
+| 10 | Peter Ralston Shares Profound Insig | 2025-06 | 2025-06-09 | 2026-09-10 | — |
+| 11 | Peter Ralston - Wikitia | 1978-12 | n.d. | 2026-09-10 | alternative date 1981-06 (month): source text: 'June 1981'; alternative date 201 |
+| 12 | Cheng Hsin: The Principles of Effor | 1999-01 | n.d. | 2026-09-10 | — |
+| 13 | Cheng Hsin Montage - Promoting Chen | 2026 | n.d. | 2026-09-10 | — |
+| 14 | DAOI Talks (21): Body Being, Martia | 2026 | n.d. | 2026-09-10 | — |
+| 15 | Richard Moon | Official Publisher P | 1969 | n.d. | 2026-09-10 | alternative date 1971 (year): source text: '1971' |
+| 16 | Peter Ralston - Penguin Books New Z | 1975 | n.d. | 2026-09-10 | — |
+| 17 | Peter Ralston | 1978 | n.d. | 2026-09-10 | — |
+| 18 | Peter Ralston | Official Publisher  | 1978 | n.d. | 2026-09-10 | — |
 | 19 | Books and More — Peter Ralston | n.d. | n.d. | 2026-09-08 | — |
 | 20 | Open Library: Peter Ralston books | n.d. | n.d. | 2026-09-08 | — |
 | 21 | Who is Peter Ralston? — Cheng Hsin | n.d. | n.d. | 2026-09-08 | — |
-| 22 | Peter Ralston Holland Interview (20 | 2016-01-01 | 2016-01-01 | 2026-09-10 | alternative date 2016-01-01 (year): source text: '2016'; alternative date 2017-0 |
+| 22 | Peter Ralston Holland Interview (20 | 2016 | 2016 | 2026-09-10 | alternative date 2016 (year): source text: '2016'; alternative date 2017 (year): |
 
 ### Date provenance
 
@@ -103,9 +103,9 @@ Three temporal dimensions are tracked for each source:
 ## Citation-pending claims
 
 3 claim(s) have no linked source in the graph. These need source verification before they can be cited.
-- `claim:ralston-1978-world-championship`: Peter Ralston was the first non-Asian to win the World Championship full-contact martial arts tourna
 - `claim:search:nadeau-millman-student`: Dan Millman is a notable student of Robert Nadeau (Wikipedia + multiple sources)
 - `claim:ralston-wikipedia-gap`: Peter Ralston has no Wikipedia page despite clear notability (martial arts pioneer, author of 9+ boo
+- `claim:ralston-1978-world-championship`: Peter Ralston was the first non-Asian to win the World Championship full-contact martial arts tourna
 
 ---
 

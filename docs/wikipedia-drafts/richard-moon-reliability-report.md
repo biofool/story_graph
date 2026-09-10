@@ -85,23 +85,23 @@ Three temporal dimensions are tracked for each source:
 
 | # | Source | Event date | Recorded date | Retrieved | Conflicts |
 |---|--------|------------|---------------|-----------|-----------|
-| 1 | Terry Dobson (aikidoka) - Wikipedia | 1992-08-01 | n.d. | 2026-09-11 | alternative date 1992-08-02 (day): source text: '1992-08-02'; alternative date 2 |
-| 2 | A Journey Through Aikido: Robert Na | 2025-01-01 | 2025-05-13 | 2026-09-08 | — |
-| 3 | Interview with Robert Nadeau – Aiki | 1962-01-01 | 2019-09-02 | 2026-09-10 | alternative date 2001-01-01 (year): source text: '2001'; alternative date 2002-0 |
-| 4 | Aikido | The Tai Chi Notebook | 2026-01-01 | 2026-01-31 | 2026-09-06 | alternative date 2026-01-01 (year): source text: '2026'; alternative date 2026-0 |
-| 5 | The first podcast of 2026: Quantum  | 2026-01-01 | 2026-01-01 | 2026-08-25 | alternative date 2026-01-01 (year): source text: '2026'; alternative date 2026-0 |
-| 6 | Sig Kufferath Danzan Ryu Jujitsu |  | 1911-01-01 | 1999-05-07 | 2026-09-08 | alternative date 1920-01-01 (year): source text: '1920'; alternative date 1937-0 |
-| 7 | Interview with Jamie Zimron Sensei  | 2022-01-01 | 2022-01-01 | 2026-09-10 | — |
-| 8 | Peter Ralston Cheng Hsin | USAdojo. | 1975-01-01 | 2000-11-02 | 2026-09-10 | alternative date 1977-01-01 (year): source text: '1977'; alternative date 1978-0 |
-| 9 | Quantum Aikido: The Power of Harmon | 1971-01-01 | n.d. | 2026-09-10 | — |
-| 10 | O Sensei Revisited Down Under - Ria | 2019-03-01 | 2019-02-18 | 2026-09-10 | — |
-| 11 | Robert Nadeau — CAA | 1960-01-01 | n.d. | 2026-09-10 | alternative date 1961-01-01 (year): source text: '1961'; alternative date 1962-0 |
+| 1 | Terry Dobson (aikidoka) - Wikipedia | 1992-08 | n.d. | 2026-09-11 | alternative date 1992-08-02 (day): source text: '1992-08-02'; alternative date 2 |
+| 2 | A Journey Through Aikido: Robert Na | 2025 | 2025-05-13 | 2026-09-08 | — |
+| 3 | Interview with Robert Nadeau – Aiki | 1962 | 2019-09-02 | 2026-09-10 | alternative date 2001 (year): source text: '2001'; alternative date 2002 (year): |
+| 4 | Aikido | The Tai Chi Notebook | 2026 | 2026-01-31 | 2026-09-06 | alternative date 2026 (year): source text: '2026'; alternative date 2026 (year): |
+| 5 | The first podcast of 2026: Quantum  | 2026 | 2026 | 2026-08-25 | alternative date 2026 (year): source text: '2026'; alternative date 2026 (year): |
+| 6 | Sig Kufferath Danzan Ryu Jujitsu |  | 1911 | 1999-05-07 | 2026-09-08 | alternative date 1920 (year): source text: '1920'; alternative date 1937 (year): |
+| 7 | Interview with Jamie Zimron Sensei  | 2022-01 | 2022-01 | 2026-09-10 | — |
+| 8 | Peter Ralston Cheng Hsin | USAdojo. | 1975 | 2000-11-02 | 2026-09-10 | alternative date 1977 (year): source text: '1977'; alternative date 1978 (year): |
+| 9 | Quantum Aikido: The Power of Harmon | 1971 | n.d. | 2026-09-10 | — |
+| 10 | O Sensei Revisited Down Under - Ria | 2019-03 | 2019-02-18 | 2026-09-10 | — |
+| 11 | Robert Nadeau — CAA | 1960 | n.d. | 2026-09-10 | alternative date 1961 (year): source text: '1961'; alternative date 1962 (year): |
 | 12 | Лучшая школа Айкидо для детей в Каз | n.d. | n.d. | 2026-09-10 | — |
 | 13 | Episode 672 - Mr. Dan Millman — whi | n.d. | n.d. | 2026-09-08 | — |
-| 14 | Aikido: Harmony, Unity, Peace - Ria | 2005-01-01 | 2013-12-08 | 2026-09-10 | alternative date 2013-01-01 (year): source text: '2013' |
-| 15 | Quantum Aikido: The Power of Harmon | 2026-01-01 | 2026-01-06 | 2026-09-10 | — |
+| 14 | Aikido: Harmony, Unity, Peace - Ria | 2005 | 2013-12-08 | 2026-09-10 | alternative date 2013 (year): source text: '2013' |
+| 15 | Quantum Aikido: The Power of Harmon | 2026 | 2026-01-06 | 2026-09-10 | — |
 | 16 | Robert Nadeau Shihan | n.d. | n.d. | 2026-09-10 | — |
-| 17 | Aikido: The Art of Transformation.  | 2025-01-01 | 2025-07-10 | 2026-09-10 | — |
+| 17 | Aikido: The Art of Transformation.  | 2025 | 2025-07-10 | 2026-09-10 | — |
 | 18 | Quantum Aikido: The Power of Harmon | n.d. | 2026-09-08 | 2026-09-06 | — |
 | 19 | https://openmindadventures.com/rich | n.d. | n.d. | 2026-08-24 | — |
 | 20 | About Moonsic.com | n.d. | 2016-05-18 | 2026-09-05 | — |
@@ -113,13 +113,13 @@ Three temporal dimensions are tracked for each source:
 | 26 | Links We Like | n.d. | 2016-05-18 | 2026-09-05 | — |
 | 27 | The New Improved Night Nurses | n.d. | 2016-05-18 | 2026-09-05 | — |
 | 28 | R. Moon — Moon Music | n.d. | 2016-05-18 | 2026-09-05 | — |
-| 29 | Prof. Sig Kufferath | 1911-01-01 | n.d. | 2026-09-08 | alternative date 1911-01-01 (year): source text: '1911'; alternative date 1911-0 |
-| 30 | Richard Moon | Faculty of Law | 1978-01-01 | n.d. | 2026-08-24 | alternative date 1981-01-01 (year): source text: '1981'; alternative date 1984-0 |
-| 31 | Richard Moon | Centre for Free Expr | 2006-01-01 | n.d. | 2026-08-24 | alternative date 2008-01-01 (year): source text: '2008'; alternative date 2008-0 |
-| 32 | Richard Moon | 2000-01-01 | n.d. | 2026-08-24 | alternative date 2006-01-01 (year): source text: '2006'; alternative date 2008-0 |
-| 33 | Professor Richard Moon | Faculty of | 2025-06-01 | n.d. | 2026-08-24 | — |
-| 34 | Richard Moon | Michael Burge Media | 2006-01-01 | 2026-08-01 | 2026-08-24 | alternative date 2007-01-01 (year): source text: '2007'; alternative date 2026-0 |
-| 35 | FATHER YOD: WAR HERO, BANK ROBBER,  | 1971-03-01 | 2018-09-18 | 2026-08-23 | alternative date 2018-09-01 (day): claim text: 'September 2018' |
+| 29 | Prof. Sig Kufferath | 1911 | n.d. | 2026-09-08 | alternative date 1911 (year): source text: '1911'; alternative date 1911 (year): |
+| 30 | Richard Moon | Faculty of Law | 1978 | n.d. | 2026-08-24 | alternative date 1981 (year): source text: '1981'; alternative date 1984 (year): |
+| 31 | Richard Moon | Centre for Free Expr | 2006 | n.d. | 2026-08-24 | alternative date 2008 (year): source text: '2008'; alternative date 2008 (year): |
+| 32 | Richard Moon | 2000 | n.d. | 2026-08-24 | alternative date 2006 (year): source text: '2006'; alternative date 2008 (year): |
+| 33 | Professor Richard Moon | Faculty of | 2025-06 | n.d. | 2026-08-24 | — |
+| 34 | Richard Moon | Michael Burge Media | 2006 | 2026-08-01 | 2026-08-24 | alternative date 2007 (year): source text: '2007'; alternative date 2026 (year): |
+| 35 | FATHER YOD: WAR HERO, BANK ROBBER,  | 1971-03 | 2018-09-18 | 2026-08-23 | alternative date 2018-09 (month): claim text: 'September 2018' |
 | 36 | Kitaura sensei practice in Russia — | n.d. | n.d. | 2026-09-10 | — |
 | 37 | http://www.moonsensei.com/books/Hea | n.d. | n.d. | 2026-09-06 | — |
 | 38 | http://www.moonsensei.com/index.htm | n.d. | n.d. | 2026-09-06 | — |
@@ -135,15 +135,15 @@ Three temporal dimensions are tracked for each source:
 | 48 | http://www.moonsensei.com/seminar.h | n.d. | n.d. | 2026-09-06 | — |
 | 49 | http://www.moonsensei.com/books/Riv | n.d. | n.d. | 2026-09-06 | — |
 | 50 | http://www.moonsensei.com/books/Adv | n.d. | n.d. | 2026-09-06 | — |
-| 51 | TEP #443 Mystical and Practical Aik | 2026-01-01 | n.d. | 2026-09-10 | — |
-| 52 | Fundamentals N.Z. Exploration - Qua | 2025-01-01 | 2025-01-01 | 2026-09-10 | alternative date 2026-01-01 (year): source text: '2026' |
-| 53 | Richard Moon | Official Publisher P | 1969-01-01 | n.d. | 2026-09-10 | alternative date 1971-01-01 (year): source text: '1971' |
-| 54 | Ep 42: Quantum Aikido with Richard  | 1997-01-01 | n.d. | 2026-09-10 | alternative date 2026-01-01 (year): source text: '2026' |
-| 55 | Jack Wada — City Aikido | 1969-01-01 | n.d. | 2026-09-10 | alternative date 1976-01-01 (year): source text: '1976'; alternative date 1980-0 |
-| 56 | Aikido of San Jose - About the Inst | 1969-01-01 | n.d. | 2026-09-10 | — |
-| 57 | Instructors - Aikido of San Jose | 1969-01-01 | n.d. | 2026-09-10 | alternative date 1974-01-01 (year): source text: '1974' |
-| 58 | kkron — personal communication (pro | 2026-08-01 | n.d. | 2026-08-23 | alternative date 2026-08-25 (day): claim text: '2026-08-25' |
-| 59 | Billy Bramblet verbal confirmation  | 2023-03-01 | 2026-08-01 | 2026-09-11 | alternative date 2026-08-01 (month): source title: '2026-08'; alternative date 2 |
+| 51 | TEP #443 Mystical and Practical Aik | 2026 | n.d. | 2026-09-10 | — |
+| 52 | Fundamentals N.Z. Exploration - Qua | 2025 | 2025 | 2026-09-10 | alternative date 2026 (year): source text: '2026' |
+| 53 | Richard Moon | Official Publisher P | 1969 | n.d. | 2026-09-10 | alternative date 1971 (year): source text: '1971' |
+| 54 | Ep 42: Quantum Aikido with Richard  | 1997 | n.d. | 2026-09-10 | alternative date 2026 (year): source text: '2026' |
+| 55 | Jack Wada — City Aikido | 1969 | n.d. | 2026-09-10 | alternative date 1976 (year): source text: '1976'; alternative date 1980 (year): |
+| 56 | Aikido of San Jose - About the Inst | 1969 | n.d. | 2026-09-10 | — |
+| 57 | Instructors - Aikido of San Jose | 1969 | n.d. | 2026-09-10 | alternative date 1974 (year): source text: '1974' |
+| 58 | kkron — personal communication (pro | n.d. | n.d. | 2026-08-23 | — |
+| 59 | Billy Bramblet verbal confirmation  | 2026-08 | 2026-08 | 2026-09-11 | alternative date 2026-08-25 (day): source title: '2026-08-25'; alternative date  |
 
 ### Date provenance
 
@@ -210,8 +210,8 @@ Three temporal dimensions are tracked for each source:
 ## Citation-pending claims
 
 2 claim(s) have no linked source in the graph. These need source verification before they can be cited.
-- `claim:search:nadeau-millman-student`: Dan Millman is a notable student of Robert Nadeau (Wikipedia + multiple sources)
 - `claim:search:nadeau-moon-student`: Richard Moon is a notable student of Robert Nadeau (Wikipedia)
+- `claim:search:nadeau-millman-student`: Dan Millman is a notable student of Robert Nadeau (Wikipedia + multiple sources)
 
 ---
 

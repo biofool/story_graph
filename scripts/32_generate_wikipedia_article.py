@@ -94,7 +94,11 @@ SOURCE_CLASS_POINTS = {
 # "always use the earliest verifiable date when there is conflict" rule.
 
 # Regex patterns for date extraction from text
-_YEAR_RE = re.compile(r"\b(1[89][0-9]{2}|20[0-2][0-9])\b")
+# Negative lookahead excludes decade references: "1960s", "1960-х" (Russian),
+# "1960's" — these are decade references, not specific years.
+_YEAR_RE = re.compile(
+    r"\b(1[89][0-9]{2}|20[0-2][0-9])\b(?![\s\-]?[sх']|'s)"
+)
 # "December 1978", "Aug 2011", "September 1992"
 _MONTH_YEAR_RE = re.compile(
     r"\b(January|February|March|April|May|June|July|August|September|"
@@ -136,9 +140,21 @@ def _parse_iso(s: str) -> date | None:
     return None
 
 
-def _normalize_to_iso(d: date | None) -> str:
-    """Convert a date to ISO YYYY-MM-DD string, or empty string if None."""
-    return d.isoformat() if d else ""
+def _normalize_to_iso(d: date | None, precision: str = "day") -> str:
+    """Convert a date to ISO string, or empty string if None.
+
+    Precision controls the output format:
+    - "day"   → YYYY-MM-DD
+    - "month" → YYYY-MM
+    - "year"  → YYYY
+    """
+    if not d:
+        return ""
+    if precision == "year":
+        return str(d.year)
+    if precision == "month":
+        return f"{d.year:04d}-{d.month:02d}"
+    return d.isoformat()
 
 
 def _month_year_to_date(month_str: str, year: int) -> date | None:
@@ -152,12 +168,13 @@ def _month_year_to_date(month_str: str, year: int) -> date | None:
         return None
 
 
-def extract_dates_from_text(text: str) -> list[tuple[date, str]]:
+def extract_dates_from_text(text: str) -> list[tuple[date, str, str]]:
     """Extract all date references from text.
 
-    Returns a list of (date, matched_substring) tuples, sorted earliest first.
+    Returns a list of (date, matched_substring, precision) tuples,
+    sorted earliest first. Precision is "day", "month", or "year".
     """
-    results: list[tuple[date, str]] = []
+    results: list[tuple[date, str, str]] = []
     if not text:
         return results
 
@@ -165,19 +182,19 @@ def extract_dates_from_text(text: str) -> list[tuple[date, str]]:
     for m in _ISO_DATE_RE.finditer(text):
         d = _parse_iso(m.group(1))
         if d:
-            results.append((d, m.group(0)))
+            results.append((d, m.group(0), "day"))
 
     # Month + Year
     for m in _MONTH_YEAR_RE.finditer(text):
         d = _month_year_to_date(m.group(1), int(m.group(2)))
         if d:
-            results.append((d, m.group(0)))
+            results.append((d, m.group(0), "month"))
 
     # ISO month (YYYY-MM)
     for m in _ISO_MONTH_RE.finditer(text):
         try:
             d = date(int(m.group(1)), int(m.group(2)), 1)
-            results.append((d, m.group(0)))
+            results.append((d, m.group(0), "month"))
         except ValueError:
             pass
 
@@ -186,7 +203,7 @@ def extract_dates_from_text(text: str) -> list[tuple[date, str]]:
         for m in _YEAR_RE.finditer(text):
             try:
                 d = date(int(m.group(1)), 1, 1)
-                results.append((d, m.group(0)))
+                results.append((d, m.group(0), "year"))
             except ValueError:
                 pass
 
@@ -216,29 +233,20 @@ def extract_event_date(
         claim_text = claim.get("label", "") or claim.get("metadata", {}).get(
             "claim_text", ""
         )
-        for d, matched in extract_dates_from_text(claim_text):
-            precision = "day" if len(matched) >= 10 else (
-                "month" if len(matched) >= 7 else "year"
-            )
-            candidates.append((d, precision, f"claim text: '{matched}'"))
+        for d, matched, prec in extract_dates_from_text(claim_text):
+            candidates.append((d, prec, f"claim text: '{matched}'"))
 
     # 2. Source title — magazine issues often have dates in the title
     title = source.get("title", "") or ""
-    for d, matched in extract_dates_from_text(title):
-        precision = "day" if len(matched) >= 10 else (
-            "month" if len(matched) >= 7 else "year"
-        )
-        candidates.append((d, precision, f"source title: '{matched}'"))
+    for d, matched, prec in extract_dates_from_text(title):
+        candidates.append((d, prec, f"source title: '{matched}'"))
 
     # 3. Source raw_text — look for date references
     raw = source.get("raw_text", "") or ""
     if raw:
         # Only look at the first 2000 chars to avoid noise
-        for d, matched in extract_dates_from_text(raw[:2000]):
-            precision = "day" if len(matched) >= 10 else (
-                "month" if len(matched) >= 7 else "year"
-            )
-            candidates.append((d, precision, f"source text: '{matched}'"))
+        for d, matched, prec in extract_dates_from_text(raw[:2000]):
+            candidates.append((d, prec, f"source text: '{matched}'"))
 
     if not candidates:
         return "", "", []
@@ -253,10 +261,10 @@ def extract_event_date(
     if alternatives:
         for d, prec, prov in alternatives:
             conflict_notes.append(
-                f"alternative date {_normalize_to_iso(d)} ({prec}): {prov}"
+                f"alternative date {_normalize_to_iso(d, prec)} ({prec}): {prov}"
             )
 
-    return _normalize_to_iso(earliest[0]), earliest[1], conflict_notes
+    return _normalize_to_iso(earliest[0], earliest[1]), earliest[1], conflict_notes
 
 
 def extract_recorded_date(source: dict) -> tuple[str, str, list[str]]:
@@ -276,11 +284,8 @@ def extract_recorded_date(source: dict) -> tuple[str, str, list[str]]:
 
     # 2. Source title — magazine issues: "December 1978", "August 2011"
     title = source.get("title", "") or ""
-    for d, matched in extract_dates_from_text(title):
-        precision = "day" if len(matched) >= 10 else (
-            "month" if len(matched) >= 7 else "year"
-        )
-        candidates.append((d, precision, f"source title: '{matched}'"))
+    for d, matched, prec in extract_dates_from_text(title):
+        candidates.append((d, prec, f"source title: '{matched}'"))
 
     if not candidates:
         return "", "", []
@@ -293,10 +298,10 @@ def extract_recorded_date(source: dict) -> tuple[str, str, list[str]]:
     conflict_notes: list[str] = []
     for d, prec, prov in alternatives:
         conflict_notes.append(
-            f"alternative date {_normalize_to_iso(d)} ({prec}): {prov}"
+            f"alternative date {_normalize_to_iso(d, prec)} ({prec}): {prov}"
         )
 
-    return _normalize_to_iso(earliest[0]), earliest[1], conflict_notes
+    return _normalize_to_iso(earliest[0], earliest[1]), earliest[1], conflict_notes
 
 
 # Cache for git-derived retrieval dates (URL -> ISO date string)

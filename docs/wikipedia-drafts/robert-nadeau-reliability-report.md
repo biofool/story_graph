@@ -50,28 +50,28 @@ Three temporal dimensions are tracked for each source:
 | # | Source | Event date | Recorded date | Retrieved | Conflicts |
 |---|--------|------------|---------------|-----------|-----------|
 | 1 | Robert Nadeau (aikidoka) - Wikipedi | n.d. | n.d. | 2026-09-08 | — |
-| 2 | A Journey Through Aikido: Robert Na | 2025-01-01 | 2025-05-13 | 2026-09-08 | — |
-| 3 | Interview with Robert Nadeau – Aiki | 1962-01-01 | 2019-09-02 | 2026-09-10 | alternative date 2001-01-01 (year): source text: '2001'; alternative date 2002-0 |
-| 4 | Айкидо | 1980-01-01 | n.d. | 2026-09-10 | alternative date 1982-01-01 (year): source text: '1982'; alternative date 1987-0 |
-| 5 | Московский Айки Клуб | 1960-01-01 | n.d. | 2026-09-10 | alternative date 1967-01-01 (year): source text: '1967'; alternative date 1969-0 |
+| 2 | A Journey Through Aikido: Robert Na | 2025 | 2025-05-13 | 2026-09-08 | — |
+| 3 | Interview with Robert Nadeau – Aiki | 1962 | 2019-09-02 | 2026-09-10 | alternative date 2001 (year): source text: '2001'; alternative date 2002 (year): |
+| 4 | Айкидо | 1980 | n.d. | 2026-09-10 | alternative date 1982 (year): source text: '1982'; alternative date 1987 (year): |
+| 5 | Московский Айки Клуб | 1967 | n.d. | 2026-09-10 | alternative date 1969 (year): source text: '1969'; alternative date 2003 (year): |
 | 6 | Robert Nadeau Aikido - USAdojo.com | n.d. | n.d. | 2026-09-08 | — |
-| 7 | Quantum Aikido: The Power of Harmon | 1971-01-01 | n.d. | 2026-09-10 | — |
+| 7 | Quantum Aikido: The Power of Harmon | 1971 | n.d. | 2026-09-10 | — |
 | 8 | Robert Nadeau - Aikido Master | n.d. | n.d. | 2026-09-08 | — |
-| 9 | Robert Nadeau — CAA | 1960-01-01 | n.d. | 2026-09-10 | alternative date 1961-01-01 (year): source text: '1961'; alternative date 1962-0 |
-| 10 | O Sensei Revisited Down Under - Ria | 1960-01-01 | 2019-02-18 | 2026-09-10 | alternative date 2019-03-01 (day): source text: 'March 2019' |
+| 9 | Robert Nadeau — CAA | 1960 | n.d. | 2026-09-10 | alternative date 1961 (year): source text: '1961'; alternative date 1962 (year): |
+| 10 | O Sensei Revisited Down Under - Ria | 1960 | 2019-02-18 | 2026-09-10 | alternative date 2019-03 (month): source text: 'March 2019' |
 | 11 | Episode 672 - Mr. Dan Millman — whi | n.d. | n.d. | 2026-09-08 | — |
 | 12 | Лучшая школа Айкидо для детей в Каз | n.d. | n.d. | 2026-09-10 | — |
-| 13 | Quantum Aikido: The Power of Harmon | 2026-01-01 | 2026-01-06 | 2026-09-10 | — |
-| 14 | Aikido: The Art of Transformation.  | 2025-01-01 | 2025-07-10 | 2026-09-10 | — |
+| 13 | Quantum Aikido: The Power of Harmon | 2026 | 2026-01-06 | 2026-09-10 | — |
+| 14 | Aikido: The Art of Transformation.  | 2025 | 2025-07-10 | 2026-09-10 | — |
 | 15 | Energy Process work | n.d. | n.d. | 2026-09-10 | — |
 | 16 | Aikido: The Art of Transformation:  | n.d. | n.d. | 2026-09-08 | — |
 | 17 | Robert Nadeau Shihan - City Aikido | n.d. | n.d. | 2026-09-08 | — |
 | 18 | Robert Nadeau Shihan | n.d. | n.d. | 2026-09-10 | — |
-| 19 | Richard Moon | Official Publisher P | 1969-01-01 | n.d. | 2026-09-10 | alternative date 1971-01-01 (year): source text: '1971' |
-| 20 | Jack Wada — City Aikido | 1969-01-01 | n.d. | 2026-09-10 | alternative date 1976-01-01 (year): source text: '1976'; alternative date 1980-0 |
-| 21 | Kufferath-Nadeau-Bunch connection r | 1966-01-01 | n.d. | 2026-09-08 | — |
-| 22 | Aikido of San Jose - About the Inst | 1969-01-01 | n.d. | 2026-09-10 | — |
-| 23 | Instructors - Aikido of San Jose | 1969-01-01 | n.d. | 2026-09-10 | alternative date 1974-01-01 (year): source text: '1974' |
+| 19 | Richard Moon | Official Publisher P | 1969 | n.d. | 2026-09-10 | alternative date 1971 (year): source text: '1971' |
+| 20 | Jack Wada — City Aikido | 1969 | n.d. | 2026-09-10 | alternative date 1976 (year): source text: '1976'; alternative date 1980 (year): |
+| 21 | Kufferath-Nadeau-Bunch connection r | 1966 | n.d. | 2026-09-08 | — |
+| 22 | Aikido of San Jose - About the Inst | 1969 | n.d. | 2026-09-10 | — |
+| 23 | Instructors - Aikido of San Jose | 1969 | n.d. | 2026-09-10 | alternative date 1974 (year): source text: '1974' |
 
 ### Date provenance
 

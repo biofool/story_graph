@@ -15,7 +15,7 @@ Terry Dobson was living in Tokyo, but I didn't meet him for months. He was runni
 == References ==
 
 <references>
-<ref name="ref1">[https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka) Terry Dobson (aikidoka) - Wikipedia, event: 1992-08-01; retrieved 2026-09-11, en.wikipedia.org]</ref>
-<ref name="ref2">[https://aikidojournal.com/terry-dobson/ Terry Dobson – Aikido Journal, event: 1937-01-01; retrieved 2026-09-11, aikidojournal.com]</ref>
-<ref name="ref3">[https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/ Interview with Robert Nadeau – Aikido Journal, published 2019-09-02; event: 1962-01-01; retrieved 2026-09-10, aikidojournal.com]</ref>
+<ref name="ref1">[https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka) Terry Dobson (aikidoka) - Wikipedia, event: 1992-08; retrieved 2026-09-11, en.wikipedia.org]</ref>
+<ref name="ref2">[https://aikidojournal.com/terry-dobson/ Terry Dobson – Aikido Journal, event: 1937; retrieved 2026-09-11, aikidojournal.com]</ref>
+<ref name="ref3">[https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/ Interview with Robert Nadeau – Aikido Journal, published 2019-09-02; event: 1962; retrieved 2026-09-10, aikidojournal.com]</ref>
 </references>
