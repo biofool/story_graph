@@ -148,6 +148,8 @@ import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 
+_VERTEXAI_REDIRECT_PREFIX = "https://vertexaisearch.cloud.google.com/grounding-api-redirect/"
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
@@ -460,8 +462,12 @@ def technique2_discover_from_neighbors(
             if url in existing or not url.startswith("http"):
                 continue
             existing.add(url)
+            # Resolve Vertex AI redirect URLs before crawling
+            final_url = _resolve_redirect_url(url)
+            if final_url != url:
+                existing.add(final_url)
             try:
-                pages = _fetch_single_page(url)
+                pages = _fetch_single_page(final_url)
                 if not pages or pages[0].error or not pages[0].text:
                     continue
                 if gemini_ext and gemini_claim_ext:
@@ -558,6 +564,39 @@ def _fetch_single_page(url: str):
         timeout=settings.crawl_timeout,
     )
     return crawler.crawl()
+
+
+def _resolve_redirect_url(url: str, timeout: int = 10) -> str:
+    """Resolve a Vertex AI grounding redirect URL to its final destination.
+
+    Vertex AI's Google Search grounding returns obfuscated redirect URLs
+    (vertexaisearch.cloud.google.com/grounding-api-redirect/...) that
+    302-redirect to the real source URL. The crawler can't fetch the
+    redirect URL directly (returns 403/timeout), so we resolve it first.
+
+    Ported from scripts/03_targeted_entity_research.py.
+    """
+    if not url.startswith(_VERTEXAI_REDIRECT_PREFIX):
+        return url
+    try:
+        import requests
+        resp = requests.get(
+            url,
+            allow_redirects=True,
+            timeout=timeout,
+            headers={"User-Agent": settings.crawl_user_agent},
+        )
+        final = resp.url
+        if final and not final.startswith(_VERTEXAI_REDIRECT_PREFIX):
+            return final
+        location = resp.headers.get("Location", "")
+        if location and not location.startswith(_VERTEXAI_REDIRECT_PREFIX):
+            return location
+        _log.warning("Could not resolve Vertex AI redirect URL: %s", url[:80])
+        return url
+    except Exception as e:
+        _log.warning("Failed to resolve Vertex AI redirect URL: %s", e)
+        return url
 
 
 def _dry_run_lookup_node(
@@ -763,15 +802,19 @@ def main() -> int:
                     if url in existing_urls:
                         continue
                     existing_urls.add(url)
+                    # Resolve Vertex AI redirect URLs before crawling
+                    final_url = _resolve_redirect_url(url)
+                    if final_url != url:
+                        existing_urls.add(final_url)
                     try:
-                        pages = _fetch_single_page(url)
+                        pages = _fetch_single_page(final_url)
                         if pages and not pages[0].error and pages[0].text:
                             process_page(pages[0], gemini_ext, gemini_claim_ext, db)
-                            print(f"  ✓ {url}")
+                            print(f"  ✓ {final_url}")
                         else:
-                            print(f"  ✗ {url} (fetch failed)")
+                            print(f"  ✗ {final_url} (fetch failed)")
                     except Exception as e:
-                        print(f"  ✗ {url} ({e})")
+                        print(f"  ✗ {final_url} ({e})")
 
         # ── Technique 2: Graph-Neighbor Link-Following ─────────────────
         seed_node_id = args.from_node
