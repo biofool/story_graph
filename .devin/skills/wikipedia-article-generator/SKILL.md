@@ -136,6 +136,12 @@ the subject's known affiliations (extracted from the graph's
 - If the source domain matches any domain in the subject's own
   `source_urls`, or matches an organization the subject founded/is a
   member of → **affiliated** (-20).
+- If the source domain is a **publisher or bookseller** page about the
+  subject (e.g., `simonandschuster.com/authors/...`, `penguin.co.nz/authors/...`,
+  `innertraditions.com/author/...`, `books.google.com`, `openlibrary.org`,
+  `amazon.com`, `goodreads.com`) → **affiliated** (-20). A publisher's
+  page about its own author is ABOUTSELF — the publisher has a financial
+  stake in promoting the author's books and is not an independent source.
 - Otherwise → **independent** (+10).
 
 ### Composite score and tiers
@@ -315,7 +321,9 @@ These are usually `journalistic` or `archival` sources with editorial oversight 
 
 - **Black Belt Magazine**, **Karate Illustrated**, and similar legacy martial-arts magazines: print/online magazines with edited feature articles, profiles, and tournament coverage, often cited in martial-arts historiography.
 
-- **Tai Chi Chuan Journal** and **Tai Chi Union for Great Britain** publications (`taichiunion.com`, journal PDFs): union/journal articles that discuss internal-arts teachers, methods, and books, providing secondary analysis rather than just listings.
+- **Tai Chi Chuan Journal** (`tqj.de`) and **Tai Chi Union for Great Britain** publications (`taichiunion.com`, journal PDFs): union/journal articles that discuss internal-arts teachers, methods, and books, providing secondary analysis rather than just listings.
+
+- **Taijivizier magazine** (Stichting Taijiquan Nederland / STN, hosted at `chenghsin.nl`): the Dutch Tai Chi Association's magazine, with interviews and articles on internal-arts teachers. Independent secondary source — martial arts association journal with editorial oversight.
 
 - **National or regional association histories** (e.g., Taijiquan association of the Netherlands) that document workshop activity and recommend specific teachers' books.
 
@@ -353,6 +361,7 @@ In summary, for martial-arts biographies the skill should:
 - Prefer Aikido Journal, legacy martial-arts magazines, union journals, and association histories as **primary drivers of notability**.
 - Use sites like USAdojo as supporting evidence for achievements and timelines.
 - Treat practitioner/co-author material (including Bob Noha) explicitly as primary, not independent journalism, and keep it out of the article's core notability assertions.
+- **Never treat publisher pages as independent sources.** A publisher's author page (Simon & Schuster, Penguin, Inner Traditions, etc.) is ABOUTSELF — the publisher has a financial stake in promoting the author's books. These pages must be classified as `documentary_promotional` and scored as affiliated (-20 independence).
 - Explicitly note in the reliability report that the graph considers Bob Noha a high-trust witness for martial-arts lineage questions even though he is low-circulation and primary rather than a mainstream journalist.
 
 ## Output format

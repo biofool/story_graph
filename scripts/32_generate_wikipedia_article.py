@@ -169,6 +169,24 @@ def independence_points(
     if source and source.get("source_class") == "primary_first_person":
         return -20
 
+    # Publisher author pages are NOT independent sources.
+    # A publisher's page about its own author is ABOUTSELF — the publisher
+    # has a financial stake in promoting the author's books. This includes:
+    # simonandschuster.com, penguin.co.nz, penguinrandomhouse.com,
+    # innertraditions.com, books.google.com, openlibrary.org, etc.
+    PUBLISHER_DOMAINS = {
+        "simonandschuster.com", "simonandschuster.net",
+        "penguin.co.nz", "penguinrandomhouse.com", "penguin.com",
+        "innertraditions.com", "bearandcompany.com",
+        "books.google.com", "books.google.co.nz", "books.google.co.uk",
+        "openlibrary.org",
+        "amazon.com", "amazon.co.uk", "amazon.de",
+        "audible.com", "audible.in",
+        "goodreads.com",
+    }
+    if domain in PUBLISHER_DOMAINS:
+        return -20
+
     # Collect domains of organizations the subject FOUNDED only
     # (MEMBER_OF / WORKED_AT doesn't make the org's website "affiliated")
     # NOTE: We only check the source's domain against domains that appear
