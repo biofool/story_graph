@@ -1543,6 +1543,8 @@
 {"dst_id": "person:null", "metadata": {"evidence": "https://blog.darkthread.net/blog/vibe-coding-case/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:3d3824759818d0ab"}
 {"dst_id": "person:patricia-arquette", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ABOUT", "src_id": "claim:3d4a7fce46b74d64"}
 {"dst_id": "person:patricia-arquette", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ASSERTED_BY", "src_id": "claim:3d4a7fce46b74d64"}
+{"dst_id": "person:terry-dobson", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "ABOUT", "src_id": "claim:3dbc033eaa83e894"}
+{"dst_id": "person:robert-frager", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "ASSERTED_BY", "src_id": "claim:3dbc033eaa83e894"}
 {"dst_id": "person:koichi-tohei", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/"}, "rel_type": "ABOUT", "src_id": "claim:3ddcf70f30b46724"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:3ddcf70f30b46724"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ABOUT", "src_id": "claim:3e385b6e564ff240"}
@@ -2934,6 +2936,8 @@
 {"dst_id": "person:louisiana-legislature", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117656408.html"}, "rel_type": "ASSERTED_BY", "src_id": "claim:7555121384be50e4"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://alchetron.com/Father-Yod"}, "rel_type": "ABOUT", "src_id": "claim:755a215bec51b454"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://alchetron.com/Father-Yod"}, "rel_type": "ASSERTED_BY", "src_id": "claim:755a215bec51b454"}
+{"dst_id": "person:terry-dobson", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "ABOUT", "src_id": "claim:759d736f0613f0fe"}
+{"dst_id": "person:robert-frager", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "ASSERTED_BY", "src_id": "claim:759d736f0613f0fe"}
 {"dst_id": "group:ya-ho-wha-13", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ABOUT", "src_id": "claim:75d1e6be9f858c3c"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ASSERTED_BY", "src_id": "claim:75d1e6be9f858c3c"}
 {"dst_id": "group:ai", "metadata": {"evidence": "https://blog.darkthread.net/blog/vibe-coding-case/"}, "rel_type": "ABOUT", "src_id": "claim:75f53ba8824e159c"}
@@ -13989,6 +13993,7 @@
 {"dst_id": "place:lam-dong", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:belvie-chocolate"}
 {"dst_id": "place:tien-giang", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:belvie-chocolate"}
 {"dst_id": "place:katoomba", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:bodds-caf\u00e9-katoomba"}
+{"dst_id": "place:new-york-city", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:bond-street-dojo"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://military-history.fandom.com/wiki/Father_Yod", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "group:breath"}
 {"dst_id": "place:vietnam", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:bun-cha-34"}
 {"dst_id": "place:vietnam", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:bun-cha-dac-kim"}
@@ -14503,6 +14508,8 @@
 {"dst_id": "group:crazygames-f\u00f3rum", "metadata": {"evidence": "https://rfcrazygames.forumeiros.com/images", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:katezai"}
 {"dst_id": "group:aikikai-hombu-dojo", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:kazuo-chiba"}
 {"dst_id": "person:christopher-thorsen", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:keith-e-peterson"}
+{"dst_id": "group:bond-street-dojo", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:ken-nisson"}
+{"dst_id": "group:vermont-aikido", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:ken-nisson"}
 {"dst_id": "place:berkeley", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:kenichi-suzuki"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:kerri-froc"}
 {"dst_id": "group:aikikai-hombu-dojo", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:kisaburo-osawa"}
@@ -14756,6 +14763,12 @@
 {"dst_id": "place:los-feliz", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:tau"}
 {"dst_id": "group:aikido-the-art-of-transformation", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:teja-bell"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:teja-bell"}
+{"dst_id": "group:bond-street-dojo", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:terry-dobson"}
+{"dst_id": "group:vermont-aikido", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:terry-dobson"}
+{"dst_id": "place:san-francisco", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:terry-dobson"}
+{"dst_id": "place:tokyo", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:terry-dobson"}
+{"dst_id": "group:aikikai-hombu-dojo", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:terry-dobson"}
+{"dst_id": "group:united-states-marine-corps", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:terry-dobson"}
 {"dst_id": "group:western-martial-artists", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:terry-dobson"}
 {"dst_id": "group:ya-ho-wha-13", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:thurston-moore"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:tom-herrenberg"}
@@ -22945,6 +22958,27 @@
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "MENTIONS", "src_id": "work:eb9ed8858a7734a5"}
 {"dst_id": "person:yogi-bhajan", "metadata": {"evidence": "https://pleasekillme.com/father-yod/"}, "rel_type": "MENTIONS", "src_id": "work:eb9ed8858a7734a5"}
 {"dst_id": "work:f56fb0f834348214", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on https://pleasekillme.com/father-yod/"}, "rel_type": "MENTIONS", "src_id": "work:eb9ed8858a7734a5"}
+{"dst_id": "claim:3dbc033eaa83e894", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "CONTAINS", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "claim:759d736f0613f0fe", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "CONTAINS", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "event:death-of-terry-dobson", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "DESCRIBES", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "event:lebanon-crisis-of-1958", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "DESCRIBES", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "group:aikikai-hombu-dojo", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "group:bond-street-dojo", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "group:mythopoetic-men-s-movement", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "group:united-states-marine-corps", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "group:vermont-aikido", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "person:andr\u00e9-nocquet", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "person:ken-nisson", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "person:morihei-ueshiba", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "person:riki-moss", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "person:robert-bly", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "person:robert-frager", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "person:terry-dobson", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "place:cambridge-massachusetts", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "place:inverness-california", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "place:new-york-city", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "place:san-francisco", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "work:ec27a95222f2b641"}
+{"dst_id": "place:tokyo", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "work:ec27a95222f2b641"}
 {"dst_id": "event:kufferath-continued-in-this-position-until-1960-when-he-moved-to-the-mainland", "metadata": {"evidence": "https://www.kuialuaopuna.com/to/news/sig-kufferath"}, "rel_type": "DESCRIBES", "src_id": "work:edda15947d54730f"}
 {"dst_id": "group:aji", "metadata": {"evidence": "https://www.kuialuaopuna.com/to/news/sig-kufferath"}, "rel_type": "MENTIONS", "src_id": "work:edda15947d54730f"}
 {"dst_id": "group:jujutsu", "metadata": {"evidence": "https://www.kuialuaopuna.com/to/news/sig-kufferath"}, "rel_type": "MENTIONS", "src_id": "work:edda15947d54730f"}
