@@ -19,7 +19,7 @@ from __future__ import annotations
 import json
 import logging
 from dataclasses import dataclass, field
-from typing import Any
+from typing import Any, Optional
 
 from config.settings import settings
 
@@ -191,7 +191,7 @@ class GeminiClient:
 
         cfg_kwargs: dict[str, Any] = {
             "response_mime_type": "application/json",
-            "response_json_schema": response_schema,
+            "response_schema": response_schema,
         }
         if system_instruction:
             cfg_kwargs["system_instruction"] = system_instruction
@@ -544,7 +544,7 @@ class TieredGeminiClient:
 
         cfg_kwargs: dict[str, Any] = {
             "response_mime_type": "application/json",
-            "response_json_schema": response_schema,
+            "response_schema": response_schema,
         }
         if system_instruction:
             cfg_kwargs["system_instruction"] = system_instruction
