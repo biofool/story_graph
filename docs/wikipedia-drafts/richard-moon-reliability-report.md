@@ -72,8 +72,85 @@
 | 55 | Jack Wada — City Aikido | cityaikido.com | -30 | UNRELIABLE | No | dr=10 rsp=0 sc=-20 ind=-20 |
 | 56 | Aikido of San Jose - About the Instructo | aikidosj.com | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
 | 57 | Instructors - Aikido of San Jose | aikidosj.com | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
-| 58 | Billy Bramblet verbal confirmation (2026 |  | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
-| 59 | kkron — personal communication (project  | personal-communication | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
+| 58 | kkron — personal communication (project  | personal-communication | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
+| 59 | Billy Bramblet verbal confirmation (2026 |  | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
+
+## Source date metadata
+
+Three temporal dimensions are tracked for each source:
+- **Event date** — when the described event occurred
+- **Recorded date** — when the source was published/recorded
+- **Retrieved date** — when the source was fetched into the graph
+- When dates conflict, the **earliest verifiable date** is selected; alternatives are preserved in the conflict notes.
+
+| # | Source | Event date | Recorded date | Retrieved | Conflicts |
+|---|--------|------------|---------------|-----------|-----------|
+| 1 | Terry Dobson (aikidoka) - Wikipedia | 1992-08-01 | n.d. | 2026-09-11 | alternative date 1992-08-02 (day): source text: '1992-08-02'; alternative date 2 |
+| 2 | A Journey Through Aikido: Robert Na | 2025-01-01 | 2025-05-13 | 2026-09-08 | — |
+| 3 | Interview with Robert Nadeau – Aiki | 1962-01-01 | 2019-09-02 | 2026-09-10 | alternative date 2001-01-01 (year): source text: '2001'; alternative date 2002-0 |
+| 4 | Aikido | The Tai Chi Notebook | 2026-01-01 | 2026-01-31 | 2026-09-06 | alternative date 2026-01-01 (year): source text: '2026'; alternative date 2026-0 |
+| 5 | The first podcast of 2026: Quantum  | 2026-01-01 | 2026-01-01 | 2026-08-25 | alternative date 2026-01-01 (year): source text: '2026'; alternative date 2026-0 |
+| 6 | Sig Kufferath Danzan Ryu Jujitsu |  | 1911-01-01 | 1999-05-07 | 2026-09-08 | alternative date 1920-01-01 (year): source text: '1920'; alternative date 1937-0 |
+| 7 | Interview with Jamie Zimron Sensei  | 2022-01-01 | 2022-01-01 | 2026-09-10 | — |
+| 8 | Peter Ralston Cheng Hsin | USAdojo. | 1975-01-01 | 2000-11-02 | 2026-09-10 | alternative date 1977-01-01 (year): source text: '1977'; alternative date 1978-0 |
+| 9 | Quantum Aikido: The Power of Harmon | 1971-01-01 | n.d. | 2026-09-10 | — |
+| 10 | O Sensei Revisited Down Under - Ria | 2019-03-01 | 2019-02-18 | 2026-09-10 | — |
+| 11 | Robert Nadeau — CAA | 1960-01-01 | n.d. | 2026-09-10 | alternative date 1961-01-01 (year): source text: '1961'; alternative date 1962-0 |
+| 12 | Лучшая школа Айкидо для детей в Каз | n.d. | n.d. | 2026-09-10 | — |
+| 13 | Episode 672 - Mr. Dan Millman — whi | n.d. | n.d. | 2026-09-08 | — |
+| 14 | Aikido: Harmony, Unity, Peace - Ria | 2005-01-01 | 2013-12-08 | 2026-09-10 | alternative date 2013-01-01 (year): source text: '2013' |
+| 15 | Quantum Aikido: The Power of Harmon | 2026-01-01 | 2026-01-06 | 2026-09-10 | — |
+| 16 | Robert Nadeau Shihan | n.d. | n.d. | 2026-09-10 | — |
+| 17 | Aikido: The Art of Transformation.  | 2025-01-01 | 2025-07-10 | 2026-09-10 | — |
+| 18 | Quantum Aikido: The Power of Harmon | n.d. | 2026-09-08 | 2026-09-06 | — |
+| 19 | https://openmindadventures.com/rich | n.d. | n.d. | 2026-08-24 | — |
+| 20 | About Moonsic.com | n.d. | 2016-05-18 | 2026-09-05 | — |
+| 21 | Moonsic — Contact | n.d. | 2016-05-18 | 2026-09-05 | — |
+| 22 | Moonsic — Homepage | n.d. | 2007-06-30 | 2026-09-05 | — |
+| 23 | The New Improved Jook Savages Are C | n.d. | 2016-05-18 | 2026-09-05 | — |
+| 24 | Eugene Lesser — A Man, A Plan, A Ca | n.d. | 2016-05-18 | 2026-09-05 | — |
+| 25 | Liko Martin — A sleeping volcano aw | n.d. | 2016-05-18 | 2026-09-05 | — |
+| 26 | Links We Like | n.d. | 2016-05-18 | 2026-09-05 | — |
+| 27 | The New Improved Night Nurses | n.d. | 2016-05-18 | 2026-09-05 | — |
+| 28 | R. Moon — Moon Music | n.d. | 2016-05-18 | 2026-09-05 | — |
+| 29 | Prof. Sig Kufferath | 1911-01-01 | n.d. | 2026-09-08 | alternative date 1911-01-01 (year): source text: '1911'; alternative date 1911-0 |
+| 30 | Richard Moon | Faculty of Law | 1978-01-01 | n.d. | 2026-08-24 | alternative date 1981-01-01 (year): source text: '1981'; alternative date 1984-0 |
+| 31 | Richard Moon | Centre for Free Expr | 2006-01-01 | n.d. | 2026-08-24 | alternative date 2008-01-01 (year): source text: '2008'; alternative date 2008-0 |
+| 32 | Richard Moon | 2000-01-01 | n.d. | 2026-08-24 | alternative date 2006-01-01 (year): source text: '2006'; alternative date 2008-0 |
+| 33 | Professor Richard Moon | Faculty of | 2025-06-01 | n.d. | 2026-08-24 | — |
+| 34 | Richard Moon | Michael Burge Media | 2006-01-01 | 2026-08-01 | 2026-08-24 | alternative date 2007-01-01 (year): source text: '2007'; alternative date 2026-0 |
+| 35 | FATHER YOD: WAR HERO, BANK ROBBER,  | 1971-03-01 | 2018-09-18 | 2026-08-23 | alternative date 2018-09-01 (day): claim text: 'September 2018' |
+| 36 | Kitaura sensei practice in Russia — | n.d. | n.d. | 2026-09-10 | — |
+| 37 | http://www.moonsensei.com/books/Hea | n.d. | n.d. | 2026-09-06 | — |
+| 38 | http://www.moonsensei.com/index.htm | n.d. | n.d. | 2026-09-06 | — |
+| 39 | http://www.moonsensei.com/about.htm | n.d. | n.d. | 2026-09-06 | — |
+| 40 | http://www.moonsensei.com/books/Tha | n.d. | n.d. | 2026-09-06 | — |
+| 41 | http://www.moonsensei.com/books/Lif | n.d. | n.d. | 2026-09-06 | — |
+| 42 | http://www.moonsensei.com/leadersan | n.d. | n.d. | 2026-09-06 | — |
+| 43 | http://www.moonsensei.com/books/AFY | n.d. | n.d. | 2026-09-06 | — |
+| 44 | http://www.moonsensei.com/books/The | n.d. | n.d. | 2026-09-06 | — |
+| 45 | http://www.moonsensei.com/books/Egb | n.d. | n.d. | 2026-09-06 | — |
+| 46 | http://www.moonsensei.com/books/Ten | n.d. | n.d. | 2026-09-06 | — |
+| 47 | http://www.moonsensei.com/books/tpo | n.d. | n.d. | 2026-09-06 | — |
+| 48 | http://www.moonsensei.com/seminar.h | n.d. | n.d. | 2026-09-06 | — |
+| 49 | http://www.moonsensei.com/books/Riv | n.d. | n.d. | 2026-09-06 | — |
+| 50 | http://www.moonsensei.com/books/Adv | n.d. | n.d. | 2026-09-06 | — |
+| 51 | TEP #443 Mystical and Practical Aik | 2026-01-01 | n.d. | 2026-09-10 | — |
+| 52 | Fundamentals N.Z. Exploration - Qua | 2025-01-01 | 2025-01-01 | 2026-09-10 | alternative date 2026-01-01 (year): source text: '2026' |
+| 53 | Richard Moon | Official Publisher P | 1969-01-01 | n.d. | 2026-09-10 | alternative date 1971-01-01 (year): source text: '1971' |
+| 54 | Ep 42: Quantum Aikido with Richard  | 1997-01-01 | n.d. | 2026-09-10 | alternative date 2026-01-01 (year): source text: '2026' |
+| 55 | Jack Wada — City Aikido | 1969-01-01 | n.d. | 2026-09-10 | alternative date 1976-01-01 (year): source text: '1976'; alternative date 1980-0 |
+| 56 | Aikido of San Jose - About the Inst | 1969-01-01 | n.d. | 2026-09-10 | — |
+| 57 | Instructors - Aikido of San Jose | 1969-01-01 | n.d. | 2026-09-10 | alternative date 1974-01-01 (year): source text: '1974' |
+| 58 | kkron — personal communication (pro | 2026-08-01 | n.d. | 2026-08-23 | alternative date 2026-08-25 (day): claim text: '2026-08-25' |
+| 59 | Billy Bramblet verbal confirmation  | 2023-03-01 | 2026-08-01 | 2026-09-11 | alternative date 2026-08-01 (month): source title: '2026-08'; alternative date 2 |
+
+### Date provenance
+
+- **Event date**: extracted from claim text, source title, or source raw_text. Earliest verifiable date selected when multiple dates are found.
+- **Recorded date**: from the source's `publish_date` meta tag (captured during crawl) or parsed from the source title. Earliest verifiable date selected.
+- **Retrieved date**: derived from git history — the earliest commit where the source URL appeared in `graph_snapshot/sources.jsonl`.
+- **Conflict policy**: when multiple verifiable dates exist, the earliest is selected as canonical. Alternative dates are preserved in the conflict notes column with their provenance.
 
 ## Excluded sources (not cited in article)
 
@@ -133,8 +210,8 @@
 ## Citation-pending claims
 
 2 claim(s) have no linked source in the graph. These need source verification before they can be cited.
-- `claim:search:nadeau-moon-student`: Richard Moon is a notable student of Robert Nadeau (Wikipedia)
 - `claim:search:nadeau-millman-student`: Dan Millman is a notable student of Robert Nadeau (Wikipedia + multiple sources)
+- `claim:search:nadeau-moon-student`: Richard Moon is a notable student of Robert Nadeau (Wikipedia)
 
 ---
 

@@ -39,6 +39,47 @@
 | 22 | Aikido of San Jose - About the Instructo | aikidosj.com | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
 | 23 | Instructors - Aikido of San Jose | aikidosj.com | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
 
+## Source date metadata
+
+Three temporal dimensions are tracked for each source:
+- **Event date** — when the described event occurred
+- **Recorded date** — when the source was published/recorded
+- **Retrieved date** — when the source was fetched into the graph
+- When dates conflict, the **earliest verifiable date** is selected; alternatives are preserved in the conflict notes.
+
+| # | Source | Event date | Recorded date | Retrieved | Conflicts |
+|---|--------|------------|---------------|-----------|-----------|
+| 1 | Robert Nadeau (aikidoka) - Wikipedi | n.d. | n.d. | 2026-09-08 | — |
+| 2 | A Journey Through Aikido: Robert Na | 2025-01-01 | 2025-05-13 | 2026-09-08 | — |
+| 3 | Interview with Robert Nadeau – Aiki | 1962-01-01 | 2019-09-02 | 2026-09-10 | alternative date 2001-01-01 (year): source text: '2001'; alternative date 2002-0 |
+| 4 | Айкидо | 1980-01-01 | n.d. | 2026-09-10 | alternative date 1982-01-01 (year): source text: '1982'; alternative date 1987-0 |
+| 5 | Московский Айки Клуб | 1960-01-01 | n.d. | 2026-09-10 | alternative date 1967-01-01 (year): source text: '1967'; alternative date 1969-0 |
+| 6 | Robert Nadeau Aikido - USAdojo.com | n.d. | n.d. | 2026-09-08 | — |
+| 7 | Quantum Aikido: The Power of Harmon | 1971-01-01 | n.d. | 2026-09-10 | — |
+| 8 | Robert Nadeau - Aikido Master | n.d. | n.d. | 2026-09-08 | — |
+| 9 | Robert Nadeau — CAA | 1960-01-01 | n.d. | 2026-09-10 | alternative date 1961-01-01 (year): source text: '1961'; alternative date 1962-0 |
+| 10 | O Sensei Revisited Down Under - Ria | 1960-01-01 | 2019-02-18 | 2026-09-10 | alternative date 2019-03-01 (day): source text: 'March 2019' |
+| 11 | Episode 672 - Mr. Dan Millman — whi | n.d. | n.d. | 2026-09-08 | — |
+| 12 | Лучшая школа Айкидо для детей в Каз | n.d. | n.d. | 2026-09-10 | — |
+| 13 | Quantum Aikido: The Power of Harmon | 2026-01-01 | 2026-01-06 | 2026-09-10 | — |
+| 14 | Aikido: The Art of Transformation.  | 2025-01-01 | 2025-07-10 | 2026-09-10 | — |
+| 15 | Energy Process work | n.d. | n.d. | 2026-09-10 | — |
+| 16 | Aikido: The Art of Transformation:  | n.d. | n.d. | 2026-09-08 | — |
+| 17 | Robert Nadeau Shihan - City Aikido | n.d. | n.d. | 2026-09-08 | — |
+| 18 | Robert Nadeau Shihan | n.d. | n.d. | 2026-09-10 | — |
+| 19 | Richard Moon | Official Publisher P | 1969-01-01 | n.d. | 2026-09-10 | alternative date 1971-01-01 (year): source text: '1971' |
+| 20 | Jack Wada — City Aikido | 1969-01-01 | n.d. | 2026-09-10 | alternative date 1976-01-01 (year): source text: '1976'; alternative date 1980-0 |
+| 21 | Kufferath-Nadeau-Bunch connection r | 1966-01-01 | n.d. | 2026-09-08 | — |
+| 22 | Aikido of San Jose - About the Inst | 1969-01-01 | n.d. | 2026-09-10 | — |
+| 23 | Instructors - Aikido of San Jose | 1969-01-01 | n.d. | 2026-09-10 | alternative date 1974-01-01 (year): source text: '1974' |
+
+### Date provenance
+
+- **Event date**: extracted from claim text, source title, or source raw_text. Earliest verifiable date selected when multiple dates are found.
+- **Recorded date**: from the source's `publish_date` meta tag (captured during crawl) or parsed from the source title. Earliest verifiable date selected.
+- **Retrieved date**: derived from git history — the earliest commit where the source URL appeared in `graph_snapshot/sources.jsonl`.
+- **Conflict policy**: when multiple verifiable dates exist, the earliest is selected as canonical. Alternative dates are preserved in the conflict notes column with their provenance.
+
 ## Excluded sources (not cited in article)
 
 - **kkron personal-communication claims** (16 source(s)) — primary_first_person, excluded per WP:RS (requires independent secondary reporting). These remain first-class evidence in the Story Graph but are not citable in a Wikipedia article.
@@ -63,9 +104,9 @@
 ## Citation-pending claims
 
 3 claim(s) have no linked source in the graph. These need source verification before they can be cited.
+- `claim:search:nadeau-moon-student`: Richard Moon is a notable student of Robert Nadeau (Wikipedia)
 - `claim:search:nadeau-millman-student`: Dan Millman is a notable student of Robert Nadeau (Wikipedia + multiple sources)
 - `claim:search:nadeau-bunch-kufferath`: Robert Nadeau shared dojo space with Sig Kufferath, later with Richard Bunch (Wikipedia)
-- `claim:search:nadeau-moon-student`: Richard Moon is a notable student of Robert Nadeau (Wikipedia)
 
 ---
 

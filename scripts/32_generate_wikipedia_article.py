@@ -26,14 +26,17 @@ Usage:
 import argparse
 import json
 import re
+import subprocess
 import sys
 from collections import defaultdict
+from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import urlparse
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SNAPSHOT_DIR = PROJECT_ROOT / "graph_snapshot"
 DOMAIN_TIERS_PATH = PROJECT_ROOT / "data" / "reference" / "domain_tiers.json"
+SOURCES_JSONL = SNAPSHOT_DIR / "sources.jsonl"
 
 # Reuse collection logic from the data ticket generator
 import importlib.util
@@ -76,6 +79,357 @@ SOURCE_CLASS_POINTS = {
     "comment_thread": -30,
     "primary_first_person": -20,
 }
+
+
+# --- Date extraction / normalization ---------------------------------------
+#
+# Three temporal dimensions are tracked for every source:
+#   1. event_date     — when the described event occurred
+#   2. recorded_date  — when the source recorded/published the information
+#   3. retrieved_date — when the source was fetched into the graph
+#
+# When multiple verifiable dates conflict, the EARLIEST verifiable date is
+# selected as the canonical date; alternatives are preserved in
+# `date_conflict_notes` with provenance.  This implements the user's
+# "always use the earliest verifiable date when there is conflict" rule.
+
+# Regex patterns for date extraction from text
+_YEAR_RE = re.compile(r"\b(1[89][0-9]{2}|20[0-2][0-9])\b")
+# "December 1978", "Aug 2011", "September 1992"
+_MONTH_YEAR_RE = re.compile(
+    r"\b(January|February|March|April|May|June|July|August|September|"
+    r"October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|"
+    r"Oct|Nov|Dec)\s+(\d{4})\b",
+    re.IGNORECASE,
+)
+# "1978-12", "2011-08", ISO month
+_ISO_MONTH_RE = re.compile(r"\b(\d{4})-(\d{2})\b")
+# Full ISO date "2025-05-13T13:49:39-08:00" or "2025-05-13"
+_ISO_DATE_RE = re.compile(r"\b(\d{4}-\d{2}-\d{2})(?:T\d{2}:\d{2})?")
+
+_MONTHS = {
+    "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
+    "july": 7, "august": 8, "september": 9, "october": 10, "november": 11,
+    "december": 12,
+    "jan": 1, "feb": 2, "mar": 3, "apr": 4, "jun": 6, "jul": 7, "aug": 8,
+    "sep": 9, "sept": 9, "oct": 10, "nov": 11, "dec": 12,
+}
+
+
+def _parse_iso(s: str) -> date | None:
+    """Parse an ISO date string (YYYY-MM-DD or YYYY-MM-DDTHH:MM:SS...) into a date."""
+    if not s:
+        return None
+    s = s.strip()
+    # Try full ISO datetime first
+    for fmt in ("%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%S.%f%z", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(s[:26], fmt).date()
+        except (ValueError, OverflowError):
+            continue
+    # Try just the date prefix
+    if len(s) >= 10 and s[4] == "-" and s[7] == "-":
+        try:
+            return date(int(s[:4]), int(s[5:7]), int(s[8:10]))
+        except ValueError:
+            pass
+    return None
+
+
+def _normalize_to_iso(d: date | None) -> str:
+    """Convert a date to ISO YYYY-MM-DD string, or empty string if None."""
+    return d.isoformat() if d else ""
+
+
+def _month_year_to_date(month_str: str, year: int) -> date | None:
+    """Convert a month name + year to a date (first of month)."""
+    m = _MONTHS.get(month_str.lower())
+    if not m:
+        return None
+    try:
+        return date(year, m, 1)
+    except ValueError:
+        return None
+
+
+def extract_dates_from_text(text: str) -> list[tuple[date, str]]:
+    """Extract all date references from text.
+
+    Returns a list of (date, matched_substring) tuples, sorted earliest first.
+    """
+    results: list[tuple[date, str]] = []
+    if not text:
+        return results
+
+    # Full ISO dates (highest precision)
+    for m in _ISO_DATE_RE.finditer(text):
+        d = _parse_iso(m.group(1))
+        if d:
+            results.append((d, m.group(0)))
+
+    # Month + Year
+    for m in _MONTH_YEAR_RE.finditer(text):
+        d = _month_year_to_date(m.group(1), int(m.group(2)))
+        if d:
+            results.append((d, m.group(0)))
+
+    # ISO month (YYYY-MM)
+    for m in _ISO_MONTH_RE.finditer(text):
+        try:
+            d = date(int(m.group(1)), int(m.group(2)), 1)
+            results.append((d, m.group(0)))
+        except ValueError:
+            pass
+
+    # Bare years (lowest precision — only use if no better date found)
+    if not results:
+        for m in _YEAR_RE.finditer(text):
+            try:
+                d = date(int(m.group(1)), 1, 1)
+                results.append((d, m.group(0)))
+            except ValueError:
+                pass
+
+    # Sort earliest first
+    results.sort(key=lambda x: x[0])
+    return results
+
+
+def extract_event_date(
+    source: dict, claim: dict | None = None,
+) -> tuple[str, str, list[str]]:
+    """Extract the event/context date — when the described event occurred.
+
+    Returns (event_date_iso, event_date_precision, conflict_notes).
+    The event date is extracted from:
+      1. Claim text (e.g., "In 1978, Peter Ralston won...")
+      2. Source title (e.g., "Black Belt Magazine, December 1978")
+      3. Source raw_text (date references near the person's name)
+
+    When multiple dates conflict, the EARLIEST verifiable date is selected
+    and alternatives are preserved in conflict_notes.
+    """
+    candidates: list[tuple[date, str, str]] = []  # (date, precision, provenance)
+
+    # 1. Claim text — look for dates in the claim label/text
+    if claim:
+        claim_text = claim.get("label", "") or claim.get("metadata", {}).get(
+            "claim_text", ""
+        )
+        for d, matched in extract_dates_from_text(claim_text):
+            precision = "day" if len(matched) >= 10 else (
+                "month" if len(matched) >= 7 else "year"
+            )
+            candidates.append((d, precision, f"claim text: '{matched}'"))
+
+    # 2. Source title — magazine issues often have dates in the title
+    title = source.get("title", "") or ""
+    for d, matched in extract_dates_from_text(title):
+        precision = "day" if len(matched) >= 10 else (
+            "month" if len(matched) >= 7 else "year"
+        )
+        candidates.append((d, precision, f"source title: '{matched}'"))
+
+    # 3. Source raw_text — look for date references
+    raw = source.get("raw_text", "") or ""
+    if raw:
+        # Only look at the first 2000 chars to avoid noise
+        for d, matched in extract_dates_from_text(raw[:2000]):
+            precision = "day" if len(matched) >= 10 else (
+                "month" if len(matched) >= 7 else "year"
+            )
+            candidates.append((d, precision, f"source text: '{matched}'"))
+
+    if not candidates:
+        return "", "", []
+
+    # Earliest-verifiable-date selection
+    # Sort by date, then by precision (higher precision = more verifiable)
+    candidates.sort(key=lambda x: (x[0], -len(x[2])))
+    earliest = candidates[0]
+    alternatives = candidates[1:]
+
+    conflict_notes: list[str] = []
+    if alternatives:
+        for d, prec, prov in alternatives:
+            conflict_notes.append(
+                f"alternative date {_normalize_to_iso(d)} ({prec}): {prov}"
+            )
+
+    return _normalize_to_iso(earliest[0]), earliest[1], conflict_notes
+
+
+def extract_recorded_date(source: dict) -> tuple[str, str, list[str]]:
+    """Extract the recorded/publication date — when the source was published.
+
+    Returns (recorded_date_iso, precision, conflict_notes).
+    Uses publish_date field, then falls back to title parsing.
+    """
+    candidates: list[tuple[date, str, str]] = []
+
+    # 1. publish_date field (from meta tags during crawl)
+    pub = source.get("publish_date", "")
+    if pub:
+        d = _parse_iso(pub)
+        if d:
+            candidates.append((d, "day", f"publish_date meta tag: {pub}"))
+
+    # 2. Source title — magazine issues: "December 1978", "August 2011"
+    title = source.get("title", "") or ""
+    for d, matched in extract_dates_from_text(title):
+        precision = "day" if len(matched) >= 10 else (
+            "month" if len(matched) >= 7 else "year"
+        )
+        candidates.append((d, precision, f"source title: '{matched}'"))
+
+    if not candidates:
+        return "", "", []
+
+    # Earliest verifiable date
+    candidates.sort(key=lambda x: (x[0], -len(x[2])))
+    earliest = candidates[0]
+    alternatives = candidates[1:]
+
+    conflict_notes: list[str] = []
+    for d, prec, prov in alternatives:
+        conflict_notes.append(
+            f"alternative date {_normalize_to_iso(d)} ({prec}): {prov}"
+        )
+
+    return _normalize_to_iso(earliest[0]), earliest[1], conflict_notes
+
+
+# Cache for git-derived retrieval dates (URL -> ISO date string)
+_retrieval_date_cache: dict[str, str] = {}
+
+
+def get_retrieval_date(url: str) -> str:
+    """Derive the retrieval date for a source URL from git history.
+
+    Uses `git log -S <url>` to find the earliest commit where the URL
+    appeared in graph_snapshot/sources.jsonl.  Falls back to the last
+    commit date of the snapshot file, then to today's date.
+    """
+    if url in _retrieval_date_cache:
+        return _retrieval_date_cache[url]
+
+    result = ""
+    try:
+        # Find the earliest commit where this URL was added to sources.jsonl
+        proc = subprocess.run(
+            ["git", "log", "-S", url, "--pretty=format:%ci",
+             "--", str(SOURCES_JSONL)],
+            capture_output=True, text=True, cwd=str(PROJECT_ROOT),
+            timeout=30,
+        )
+        if proc.returncode == 0 and proc.stdout.strip():
+            # git log prints newest first; take the last line (oldest)
+            lines = proc.stdout.strip().split("\n")
+            oldest = lines[-1].strip()
+            # Parse "2026-09-10 22:42:49 +1200"
+            d = _parse_iso(oldest[:10])
+            if d:
+                result = _normalize_to_iso(d)
+    except (subprocess.TimeoutExpired, Exception):
+        pass
+
+    if not result:
+        # Fallback: last commit that touched sources.jsonl
+        try:
+            proc = subprocess.run(
+                ["git", "log", "-1", "--pretty=format:%ci",
+                 "--", str(SOURCES_JSONL)],
+                capture_output=True, text=True, cwd=str(PROJECT_ROOT),
+                timeout=10,
+            )
+            if proc.returncode == 0 and proc.stdout.strip():
+                d = _parse_iso(proc.stdout.strip()[:10])
+                if d:
+                    result = _normalize_to_iso(d)
+        except (subprocess.TimeoutExpired, Exception):
+            pass
+
+    if not result:
+        result = date.today().isoformat()
+
+    _retrieval_date_cache[url] = result
+    return result
+
+
+def build_source_date_metadata(
+    source: dict, claim: dict | None = None,
+) -> dict:
+    """Build the full date metadata structure for a source.
+
+    Returns a dict with:
+      - event_date: ISO date string (when the event occurred)
+      - event_date_precision: "day" | "month" | "year" | ""
+      - recorded_date: ISO date string (when published/recorded)
+      - recorded_date_precision: "day" | "month" | "year" | ""
+      - retrieved_date: ISO date string (when fetched into graph)
+      - date_conflict_notes: list of strings describing conflicts
+      - date_provenance: dict mapping date_type -> provenance string
+      - selected_by: "earliest_verifiable"
+    """
+    event_date, event_prec, event_conflicts = extract_event_date(source, claim)
+    recorded_date, rec_prec, rec_conflicts = extract_recorded_date(source)
+    retrieved_date = get_retrieval_date(source.get("url", ""))
+
+    all_conflicts = event_conflicts + rec_conflicts
+
+    return {
+        "event_date": event_date,
+        "event_date_precision": event_prec,
+        "recorded_date": recorded_date,
+        "recorded_date_precision": rec_prec,
+        "retrieved_date": retrieved_date,
+        "date_conflict_notes": all_conflicts,
+        "date_provenance": {
+            "event_date": "earliest verifiable date from claim text, "
+                          "source title, or source text",
+            "recorded_date": "earliest verifiable date from publish_date "
+                             "field or source title",
+            "retrieved_date": "git history of graph_snapshot/sources.jsonl",
+        },
+        "selected_by": "earliest_verifiable",
+    }
+
+
+def format_citation_with_dates(
+    source: dict, date_meta: dict, ref_name: str,
+) -> str:
+    """Format a Wikipedia-style citation with all three date dimensions.
+
+    Format: <ref name="refN">[URL title — author, published YYYY-MM-DD
+             (event: YYYY-MM-DD), retrieved YYYY-MM-DD, platform]</ref>
+    """
+    url = source.get("url", "")
+    title = source.get("title", "") or "(untitled)"
+    author = source.get("author", "") or ""
+    platform = source.get("platform", "") or ""
+
+    parts = [f"[{url} {title}"]
+    if author:
+        parts.append(f" — {author}")
+
+    recorded = date_meta.get("recorded_date", "")
+    event = date_meta.get("event_date", "")
+    retrieved = date_meta.get("retrieved_date", "")
+
+    date_parts = []
+    if recorded:
+        date_parts.append(f"published {recorded}")
+    if event and event != recorded:
+        date_parts.append(f"event: {event}")
+    if retrieved:
+        date_parts.append(f"retrieved {retrieved}")
+    if date_parts:
+        parts.append(f", {'; '.join(date_parts)}")
+    if platform:
+        parts.append(f", {platform}")
+    parts.append("]")
+
+    return f'<ref name="{ref_name}">{"".join(parts)}</ref>'
 
 
 def load_domain_tiers() -> dict[str, int]:
@@ -442,22 +796,24 @@ def generate_article(
                 citable_claims.append(c)
         # Also include claims with no source links but text about the person
 
-    # Build reference list
+    # Build reference list — with full date metadata
     ref_lines = []
     ref_map = {}
+    # Build a map from source_id to the best claim for event-date extraction
+    source_to_claim: dict[str, dict] = {}
+    for c in claims:
+        for sid in c.get("_source_ids", []):
+            if sid not in source_to_claim:
+                source_to_claim[sid] = c
+
     for i, s in enumerate(citable, 1):
         ref_name = f"ref{i}"
         ref_map[s["id"]] = ref_name
-        url = s.get("url", "")
-        title = s.get("title", "") or "(untitled)"
-        platform = s.get("platform", "") or ""
-        author = s.get("author", "") or ""
-        date = s.get("publish_date", "") or ""
+        # Build date metadata for this source
+        linked_claim = source_to_claim.get(s["id"])
+        date_meta = build_source_date_metadata(s, linked_claim)
         ref_lines.append(
-            f'<ref name="{ref_name}">[{url} {title}'
-            f"{f' — {author}' if author else ''}"
-            f"{f', ' + date if date else ''}"
-            f"{f', ' + platform if platform else ''}]</ref>"
+            format_citation_with_dates(s, date_meta, ref_name)
         )
 
     lines = []
@@ -638,6 +994,80 @@ def generate_report(
             f"| {i} | {title[:40]} | {domain} | {srs} | {tier} | {citable} | {reason} |"
         )
 
+    lines.append("")
+
+    # Date metadata section — event, recorded, retrieved dates
+    lines.append("## Source date metadata")
+    lines.append("")
+    lines.append(
+        "Three temporal dimensions are tracked for each source:"
+    )
+    lines.append(
+        "- **Event date** — when the described event occurred"
+    )
+    lines.append(
+        "- **Recorded date** — when the source was published/recorded"
+    )
+    lines.append(
+        "- **Retrieved date** — when the source was fetched into the graph"
+    )
+    lines.append(
+        "- When dates conflict, the **earliest verifiable date** is selected; "
+        "alternatives are preserved in the conflict notes."
+    )
+    lines.append("")
+    lines.append(
+        "| # | Source | Event date | Recorded date | Retrieved | Conflicts |"
+    )
+    lines.append(
+        "|---|--------|------------|---------------|-----------|-----------|"
+    )
+
+    # Build source-to-claim map for event date extraction
+    source_to_claim: dict[str, dict] = {}
+    for c in claims:
+        for sid in c.get("_source_ids", []):
+            if sid not in source_to_claim:
+                source_to_claim[sid] = c
+
+    for i, s in enumerate(scored_sources, 1):
+        title = s.get("title", "") or s.get("url", "")[:40]
+        linked_claim = source_to_claim.get(s["id"])
+        date_meta = build_source_date_metadata(s, linked_claim)
+        event_d = date_meta["event_date"] or "n.d."
+        rec_d = date_meta["recorded_date"] or "n.d."
+        ret_d = date_meta["retrieved_date"] or "n.d."
+        conflicts = date_meta["date_conflict_notes"]
+        conflict_str = "; ".join(conflicts) if conflicts else "—"
+        lines.append(
+            f"| {i} | {title[:35]} | {event_d} | {rec_d} | {ret_d} | {conflict_str[:80]} |"
+        )
+
+    lines.append("")
+
+    # Date provenance notes
+    lines.append("### Date provenance")
+    lines.append("")
+    lines.append(
+        "- **Event date**: extracted from claim text, source title, or "
+        "source raw_text. Earliest verifiable date selected when multiple "
+        "dates are found."
+    )
+    lines.append(
+        "- **Recorded date**: from the source's `publish_date` meta tag "
+        "(captured during crawl) or parsed from the source title. "
+        "Earliest verifiable date selected."
+    )
+    lines.append(
+        "- **Retrieved date**: derived from git history — the earliest "
+        "commit where the source URL appeared in "
+        "`graph_snapshot/sources.jsonl`."
+    )
+    lines.append(
+        "- **Conflict policy**: when multiple verifiable dates exist, the "
+        "earliest is selected as canonical. Alternative dates are preserved "
+        "in the conflict notes column with their provenance."
+    )
     lines.append("")
 
     # Excluded sources

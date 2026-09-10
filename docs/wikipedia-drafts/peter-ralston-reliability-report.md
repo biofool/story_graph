@@ -37,6 +37,46 @@
 | 21 | Who is Peter Ralston? — Cheng Hsin | chenghsin.com | -35 | UNRELIABLE | No | dr=5 rsp=0 sc=-20 ind=-20 |
 | 22 | Peter Ralston Holland Interview (2016, C | chenghsin.com | -35 | UNRELIABLE | No | dr=5 rsp=0 sc=-20 ind=-20 |
 
+## Source date metadata
+
+Three temporal dimensions are tracked for each source:
+- **Event date** — when the described event occurred
+- **Recorded date** — when the source was published/recorded
+- **Retrieved date** — when the source was fetched into the graph
+- When dates conflict, the **earliest verifiable date** is selected; alternatives are preserved in the conflict notes.
+
+| # | Source | Event date | Recorded date | Retrieved | Conflicts |
+|---|--------|------------|---------------|-----------|-----------|
+| 1 | Black Belt Magazine, December 1978  | 1978-12-01 | 1978-12-01 | 2026-09-10 | — |
+| 2 | Blitz Magazine, August 2011 (Vol. 2 | 1978-01-01 | 2011-08-01 | 2026-09-10 | alternative date 2011-08-01 (day): source title: 'August 2011' |
+| 3 | Interview with Peter Ralston (Tai C | n.d. | n.d. | 2026-09-10 | — |
+| 4 | Peter Ralston Cheng Hsin | USAdojo. | 1975-01-01 | 2000-11-02 | 2026-09-10 | alternative date 1977-01-01 (year): source text: '1977'; alternative date 1978-0 |
+| 5 | Tai Chi Interview met Peter Ralston | n.d. | n.d. | 2026-09-10 | — |
+| 6 | Episode 672 - Mr. Dan Millman — whi | n.d. | n.d. | 2026-09-08 | — |
+| 7 | Robert Nadeau Shihan | n.d. | n.d. | 2026-09-10 | — |
+| 8 | Origins Interview with Peter Ralsto | 1978-01-01 | n.d. | 2026-09-10 | — |
+| 9 | Peter Ralston Shares Profound Insig | 1978-01-01 | 2025-06-18 | 2026-09-10 | — |
+| 10 | Peter Ralston Shares Profound Insig | 2025-06-01 | 2025-06-09 | 2026-09-10 | — |
+| 11 | Peter Ralston - Wikitia | 1978-01-01 | n.d. | 2026-09-10 | alternative date 1978-12-01 (day): source text: 'December 1978'; alternative dat |
+| 12 | Cheng Hsin: The Principles of Effor | 1999-01-01 | n.d. | 2026-09-10 | — |
+| 13 | Cheng Hsin Montage - Promoting Chen | 2026-01-01 | n.d. | 2026-09-10 | — |
+| 14 | DAOI Talks (21): Body Being, Martia | 2026-01-01 | n.d. | 2026-09-10 | — |
+| 15 | Richard Moon | Official Publisher P | 1969-01-01 | n.d. | 2026-09-10 | alternative date 1971-01-01 (year): source text: '1971' |
+| 16 | Peter Ralston - Penguin Books New Z | 1975-01-01 | n.d. | 2026-09-10 | — |
+| 17 | Peter Ralston | 1978-01-01 | n.d. | 2026-09-10 | — |
+| 18 | Peter Ralston | Official Publisher  | 1978-01-01 | n.d. | 2026-09-10 | — |
+| 19 | Books and More — Peter Ralston | n.d. | n.d. | 2026-09-08 | — |
+| 20 | Open Library: Peter Ralston books | n.d. | n.d. | 2026-09-08 | — |
+| 21 | Who is Peter Ralston? — Cheng Hsin | n.d. | n.d. | 2026-09-08 | — |
+| 22 | Peter Ralston Holland Interview (20 | 2016-01-01 | 2016-01-01 | 2026-09-10 | alternative date 2016-01-01 (year): source text: '2016'; alternative date 2017-0 |
+
+### Date provenance
+
+- **Event date**: extracted from claim text, source title, or source raw_text. Earliest verifiable date selected when multiple dates are found.
+- **Recorded date**: from the source's `publish_date` meta tag (captured during crawl) or parsed from the source title. Earliest verifiable date selected.
+- **Retrieved date**: derived from git history — the earliest commit where the source URL appeared in `graph_snapshot/sources.jsonl`.
+- **Conflict policy**: when multiple verifiable dates exist, the earliest is selected as canonical. Alternative dates are preserved in the conflict notes column with their provenance.
+
 ## Excluded sources (not cited in article)
 
 - **kkron personal-communication claims** (16 source(s)) — primary_first_person, excluded per WP:RS (requires independent secondary reporting). These remain first-class evidence in the Story Graph but are not citable in a Wikipedia article.
@@ -63,9 +103,9 @@
 ## Citation-pending claims
 
 3 claim(s) have no linked source in the graph. These need source verification before they can be cited.
+- `claim:ralston-1978-world-championship`: Peter Ralston was the first non-Asian to win the World Championship full-contact martial arts tourna
 - `claim:search:nadeau-millman-student`: Dan Millman is a notable student of Robert Nadeau (Wikipedia + multiple sources)
 - `claim:ralston-wikipedia-gap`: Peter Ralston has no Wikipedia page despite clear notability (martial arts pioneer, author of 9+ boo
-- `claim:ralston-1978-world-championship`: Peter Ralston was the first non-Asian to win the World Championship full-contact martial arts tourna
 
 ---
 
