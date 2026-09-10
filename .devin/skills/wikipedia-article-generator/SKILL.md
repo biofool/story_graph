@@ -302,6 +302,59 @@ force:
 - The skill should flag BLP-sensitive claims in the reliability report and
   require explicit human review before including them in the draft.
 
+### Martial-arts–specific source guidance
+
+For martial arts, aikido, and internal-arts biographies, the skill should treat some domains and writers as stronger evidence than generic blogs or dojo marketing pages.
+
+#### High-authority outlets (typically RELIABLE or strong MARGINAL)
+
+These are usually `journalistic` or `archival` sources with editorial oversight and non-trivial coverage:
+
+- **Aikido Journal** (`aikidojournal.com`): long-running, edited publication with in-depth interviews and historical articles on aikido teachers and lineages.
+  - Founders/editors such as **Stanley Pranin** (historical research) and **Josh Gold** (current editor) are generally treated as authoritative on aikido history and biographies.
+
+- **Black Belt Magazine**, **Karate Illustrated**, and similar legacy martial-arts magazines: print/online magazines with edited feature articles, profiles, and tournament coverage, often cited in martial-arts historiography.
+
+- **Tai Chi Chuan Journal** and **Tai Chi Union for Great Britain** publications (`taichiunion.com`, journal PDFs): union/journal articles that discuss internal-arts teachers, methods, and books, providing secondary analysis rather than just listings.
+
+- **National or regional association histories** (e.g., Taijiquan association of the Netherlands) that document workshop activity and recommend specific teachers' books.
+
+When these domains appear, the skill should usually classify them as `journalistic` or `archival`, count them as independent secondary sources, and allow them to carry notability and core claims—subject to normal WP:RS/WP:GNG checks.
+
+#### Mid-tier martial-arts sites (directory / commentary)
+
+These are useful but must be weighted more cautiously:
+
+- **USAdojo.com** (`usadojo.com`): independent dojo directory and article site that often profiles teachers and records achievements (e.g., Ralston's 1978 world championship).
+  - Treat as `journalistic` or `documentary_promotional` depending on context: good for corroborating biographical facts and tournament results, but not as strong as union journals or major magazines.
+
+- Practitioner essays and blogs on martial arts and internal arts (e.g., "Radical Relaxation" discussing Peter Ralston's tournament footage).
+  - Classify as `commentary` or `documentary_promotional`; they can support minor narrative details but should not, by themselves, establish notability.
+
+These sources can push a claim from WEAK toward MARGINAL, but the skill should look for at least one higher-tier outlet before using them for lead-section claims.
+
+#### Primary practitioners and co-authors (including Bob Noha)
+
+Practitioners' own books, bios, and co-authored works are **primary**:
+
+- **Bob Noha** is an aikido teacher and long-term student of Robert Nadeau, best known as a co-author of *Aikido: The Art of Transformation: The Life and Teachings of Robert Nadeau Sensei*.
+  - His writing about Nadeau, Ralston, or the Bay Area aikido scene is valuable as firsthand testimony, but per WP:PRIMARY/ABOUTSELF it should be classified as `primary_first_person` and not used as independent secondary evidence for notability or contested claims.
+
+- Other co-authors and students (e.g., Teja Bell, Laurin Herr, Richard Moon) similarly provide important primary perspectives; the skill should list them in the reliability report's "excluded or primary sources" section and only use them to corroborate non-controversial facts that already have independent coverage.
+
+**However, the Story Graph itself considers Bob Noha a high-trust witness for martial-arts lineage questions** even though he is low-circulation and primary rather than a mainstream journalist. This means:
+
+- Noha's claims in the graph carry high `confidence` and should be preserved as first-class graph evidence (per `AGENTS.md`).
+- The reliability report should explicitly note Noha's high-trust-witness status in the graph, even while excluding him from Wikipedia citation eligibility.
+- If a Noha claim conflicts with a lower-confidence web source, the graph retains both (per the "who said what" principle), but the Wikipedia draft should attribute the web source if it meets WP:RS, and note the Noha account in the reliability report.
+
+In summary, for martial-arts biographies the skill should:
+
+- Prefer Aikido Journal, legacy martial-arts magazines, union journals, and association histories as **primary drivers of notability**.
+- Use sites like USAdojo as supporting evidence for achievements and timelines.
+- Treat practitioner/co-author material (including Bob Noha) explicitly as primary, not independent journalism, and keep it out of the article's core notability assertions.
+- Explicitly note in the reliability report that the graph considers Bob Noha a high-trust witness for martial-arts lineage questions even though he is low-circulation and primary rather than a mainstream journalist.
+
 ## Output format
 
 The skill produces two files (or stdout if no `--article` / `--report`
