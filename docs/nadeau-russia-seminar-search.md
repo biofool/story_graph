@@ -219,3 +219,19 @@ Supplementary searches were run for:
 - "Роберт Надо" семинар
 - "Надо" "Айкидо" "семинар" combined with city names and years
 - site:aikiclub.ru "Роберт НАДО" — confirmed the key source
+
+## 8. Page-level OCR follow-up (2026-09-09)
+
+The repository now has an auditable page-level OCR command at `scripts/30_ocr_periodical.py`. It accepts a local PDF/image or a direct document URL, renders PDFs page by page, runs Tesseract, records full text and SHA-256 hashes for the source and each page's OCR text, and flags page-level excerpts for the Russian and English search terms relevant to this investigation.
+
+The search identified scans or catalog records for *Боевое искусство планеты* issues from 1992–1993, but no stable direct scan was retrievable for OCR. The Studmed pages require an interactive access check; the KatFile copy of issue 7 (1992) has been removed; and the remaining Mirageswar links lead to file-hosting intermediaries rather than a stable document URL. These catalog pages are leads, not evidence from the scanned pages themselves.
+
+The *Додзё. Боевые искусства Японии* lead is outside the requested period: the National Library of Belarus serial record dates the earlier title to 1997, while *Додзё. Боевые искусства Японии* is cataloged for 2002–2005. It therefore cannot provide 1990–1993 coverage and was not queued for OCR.
+
+Once a lawful local scan is obtained, run:
+
+```bash
+./scripts/30_ocr_periodical.py path/to/issue.pdf --output data/audit/nadeau-russia/issue.json --tessdata-dir path/to/tessdata
+```
+
+A Russian Tesseract language model is required for useful Cyrillic recognition. The implementation was smoke-tested with `rus+eng`; it correctly located `айкидо`, `Федерация Айкидо СССР`, `Роберт Надо`, and `Ленкай` on a synthetic Cyrillic page. No magazine claim has been added to the graph or Wikipedia draft because no source scan has yet produced page-level evidence.
