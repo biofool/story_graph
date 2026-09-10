@@ -604,6 +604,14 @@ def _run_search_method(
         result.status = "Unavailable"
         return result
 
+    # Health check — skip engines that are broken (wrong plan, 403, etc.)
+    if hasattr(client, "health_check") and not client.health_check():
+        result.skipped = True
+        result.skip_reason = "health check failed"
+        result.status = "Skipped (health check failed)"
+        print(f"  {method}: skipped — health check failed")
+        return result
+
     queries = build_queries(ctx.person_name, ctx.dates, ctx.cities, ctx.context)
 
     if ctx.dry_run:
@@ -702,6 +710,19 @@ def _run_magazine_archive(ctx: EnrichmentContext) -> MethodResult:
                 discovered.append({"url": url, "title": title})
         except Exception as e:
             _log.warning("magazine_archive phase 1 failed for '%s': %s", q, e)
+
+    # ── Phase 1b: Google Books API direct search ─────────────────────
+    # The Google Books API doesn't require web search — it searches the
+    # Google Books index directly. This finds magazine issues that web
+    # search engines (Bing, DDG) miss.
+    print(f"  Phase 1b: Google Books API direct search")
+    gb_urls = _search_google_books_api(ctx.person_name, ctx.dates)
+    for url, title in gb_urls:
+        if url in seen_urls or url in ctx.existing_urls:
+            continue
+        seen_urls.add(url)
+        discovered.append({"url": url, "title": title, "source": "google_books_api"})
+    print(f"    Found {len(gb_urls)} Google Books URL(s)")
 
     # ── Phase 2: Wiki mirror citation tracing ─────────────────────────
     print(f"  Phase 2: tracing wiki mirror citations")
@@ -832,6 +853,113 @@ def build_magazine_archive_queries(
     return queries
 
 
+def _search_google_books_api(
+    person_name: str,
+    dates: list[str],
+) -> list[tuple[str, str]]:
+    """Search the Google Books API directly for magazine issues containing
+    the person's name.
+
+    The Google Books API (https://www.googleapis.com/books/v1/volumes) searches
+    the Google Books index directly, bypassing web search engines entirely.
+    This finds magazine issues that web search engines (Bing, DDG) miss because
+    they don't index books.google.com URLs well.
+
+    No API key required for basic search (anonymous quota: 1K requests/day).
+
+    Returns list of (url, title) pairs where url is a books.google.com URL.
+    """
+    import json as _json
+    from urllib.parse import urlencode
+
+    urls: list[tuple[str, str]] = []
+    seen_ids: set[str] = set()
+
+    # Build search queries targeting magazine issues
+    # The Google Books API searches full text, so we can search for the
+    # person's name within magazine titles.
+    magazine_names = [m["name"] for m in _MARTIAL_ARTS_MAGAZINES if m["name"]]
+
+    queries: list[str] = [f'"{person_name}"']
+
+    # Add magazine-specific queries
+    for mag in magazine_names:
+        queries.append(f'"{person_name}" {mag}')
+
+    # Add date-specific queries
+    for date in dates:
+        queries.append(f'"{person_name}" {date}')
+        for mag in magazine_names:
+            queries.append(f'"{person_name}" {mag} {date}')
+
+    # Deduplicate
+    seen_queries: set[str] = set()
+    unique_queries = []
+    for q in queries:
+        q = " ".join(q.split())
+        if q not in seen_queries:
+            seen_queries.add(q)
+            unique_queries.append(q)
+
+    for q in unique_queries[:20]:  # Cap at 20 queries to stay within quota
+        try:
+            params = {
+                "q": q,
+                "maxResults": "10",
+                "printType": "magazines",
+            }
+            # Use GOOGLE_API_KEY if available (higher quota: 1K/day with key
+            # vs ~100/day anonymous). The Google Books API requires a standard
+            # Google API key (AIza... prefix), not a Gemini AI Studio key.
+            # Only use the key if it starts with "AIza" (standard Google API key).
+            google_key = settings.google_api_key or ""
+            if google_key and google_key.startswith("AIza"):
+                params["key"] = google_key
+            api_url = "https://www.googleapis.com/books/v1/volumes?" + urlencode(params)
+            req = requests.get(
+                api_url,
+                headers={"User-Agent": settings.crawl_user_agent},
+                timeout=15,
+            )
+            resp = req.json()
+            # Handle rate limiting (429) and auth errors (401) gracefully
+            if req.status_code in (401, 403, 429):
+                _log.info("Google Books API returned %d for '%s' — skipping remaining queries", req.status_code, q[:40])
+                break
+        except Exception as e:
+            _log.warning("Google Books API search failed for '%s': %s", q, e)
+            continue
+
+        items = resp.get("items", [])
+        for item in items:
+            vol_info = item.get("volumeInfo", {})
+            book_id = item.get("id", "")
+            if not book_id or book_id in seen_ids:
+                continue
+            seen_ids.add(book_id)
+
+            title = vol_info.get("title", "")
+            authors = vol_info.get("authors", [])
+            pub_date = vol_info.get("publishedDate", "")
+
+            # Construct the Google Books URL
+            gb_url = f"https://books.google.com/books?id={book_id}"
+
+            # Build a descriptive title
+            desc_parts = [title]
+            if authors:
+                desc_parts.append(f"by {', '.join(authors[:2])}")
+            if pub_date:
+                desc_parts.append(f"({pub_date})")
+            desc = " ".join(desc_parts)
+
+            urls.append((gb_url, desc))
+
+        time.sleep(0.5)  # Be gentle with the API
+
+    return urls
+
+
 def _search_web_for_magazine_hits(
     ctx: EnrichmentContext,
     query: str,
@@ -839,12 +967,19 @@ def _search_web_for_magazine_hits(
     """Search for magazine archive hits using available search clients.
 
     Returns list of (url, title) pairs. Tries brave → bing → duckduckgo
-    in order, using whichever is available.
+    in order, using whichever is available and healthy.
+
+    Uses health_check() to skip engines that are broken (e.g. Brave on
+    the wrong plan, DuckDuckGo returning 403) before wasting queries.
     """
     results: list[tuple[str, str]] = []
 
     for client in [ctx.brave_client, ctx.bing_client, ctx.ddg_client]:
         if client is None or not client.is_available():
+            continue
+        # Skip engines that fail health check (wrong plan, 403, etc.)
+        if hasattr(client, "health_check") and not client.health_check():
+            _log.info("skipping %s — health check failed", client.__class__.__name__)
             continue
         try:
             if ctx.quota:
@@ -919,6 +1054,9 @@ def _find_wiki_mirror_pages_via_search(
         query = f'"{person_name}" site:{domain}'
         for client in [ctx.brave_client, ctx.bing_client, ctx.ddg_client]:
             if client is None or not client.is_available():
+                continue
+            # Skip engines that fail health check
+            if hasattr(client, "health_check") and not client.health_check():
                 continue
             try:
                 hits = client.search(query, count=5)
@@ -1072,6 +1210,9 @@ def _verify_magazine_citation_via_search(
     for q in queries:
         for client in [ctx.brave_client, ctx.bing_client, ctx.ddg_client]:
             if client is None or not client.is_available():
+                continue
+            # Skip engines that fail health check
+            if hasattr(client, "health_check") and not client.health_check():
                 continue
             try:
                 hits = client.search(q, count=10)

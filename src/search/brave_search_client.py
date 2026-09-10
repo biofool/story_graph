@@ -58,6 +58,27 @@ class BraveSearchClient:
     def is_available(self) -> bool:
         return bool(self.api_key)
 
+    def health_check(self) -> bool:
+        """Verify the API key works and the endpoint is reachable.
+
+        Makes a single test query and checks that the response contains
+        web search results (not just an empty Answers-plan response).
+        Caches the result so repeated health checks don't waste quota.
+        """
+        if not self.api_key:
+            return False
+        if hasattr(self, "_health_checked"):
+            return self._health_checked
+        try:
+            results = self._call_api("test", count=1, country="US",
+                                     search_lang="en", safesearch="moderate")
+            # A working Search-plan key returns results for "test".
+            # An Answers-plan key returns 0 results with no error.
+            self._health_checked = len(results) > 0
+        except Exception:
+            self._health_checked = False
+        return self._health_checked
+
     def search(
         self,
         query: str,

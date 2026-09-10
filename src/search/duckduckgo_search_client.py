@@ -44,6 +44,21 @@ class DuckDuckGoSearchClient:
     def is_available(self) -> bool:
         return True  # No API key needed
 
+    def health_check(self) -> bool:
+        """Verify DuckDuckGo HTML scraping is working.
+
+        Makes a single test query and checks that results are returned.
+        Caches the result so repeated health checks don't waste requests.
+        """
+        if hasattr(self, "_health_checked"):
+            return self._health_checked
+        try:
+            results = self._fetch_html("test", 1)
+            self._health_checked = len(results) > 0
+        except Exception:
+            self._health_checked = False
+        return self._health_checked
+
     def search(
         self,
         query: str,
