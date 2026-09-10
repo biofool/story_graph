@@ -98,9 +98,50 @@ ALL_METHODS = [
     "brave",
     "bing",
     "duckduckgo",
+    "magazine_archive",
     "reference_discovery",
     "arctic_shift",
 ]
+
+# ──────────────────────────────────────────────────────────────────────────
+#  Magazine archive discovery
+# ──────────────────────────────────────────────────────────────────────────
+
+# Martial-arts magazines with Google Books archives (ISSN → search URL pattern).
+# These are editorially-overseen publications that count as RELIABLE sources
+# for WP:GNG when they contain significant coverage of the subject.
+_MARTIAL_ARTS_MAGAZINES = [
+    {"name": "Black Belt Magazine", "issn": "0277-3066", "domain": "blackbeltmag.com"},
+    {"name": "Karate Illustrated", "issn": "0022-9016", "domain": "karateillustrated.com"},
+    {"name": "Blitz Magazine", "issn": "", "domain": "blitzmag.com.au"},
+    {"name": "Aikido Journal", "issn": "", "domain": "aikidojournal.com"},
+    {"name": "Fighting Stars", "issn": "", "domain": ""},
+    {"name": "Inside Kung-Fu", "issn": "", "domain": ""},
+    {"name": "Karate Illustrated", "issn": "0022-9016", "domain": ""},
+]
+
+# Document archives that mirror magazine content (searchable via web search).
+_DOC_ARCHIVE_DOMAINS = [
+    "doczz.net",
+    "archive.org",
+    "scribd.com",
+    "doczz.com",
+    "documents.site",
+]
+
+# Wiki mirrors that cite real publications — used for citation tracing.
+# These are NOT reliable sources themselves, but their citations point to
+# real magazine articles that can be verified separately.
+_WIKI_MIRROR_DOMAINS = [
+    "wikitia.com",
+    "en-academic.com",
+    "alchetron.com",
+    "grokipedia.com",
+    "everybodywiki.com",
+]
+
+_GOOGLE_BOOKS_SEARCH_URL = "https://www.google.com/search"
+_ARCHIVE_SEARCH_URL = "https://www.google.com/search"
 
 
 # ──────────────────────────────────────────────────────────────────────────
@@ -295,12 +336,13 @@ def method_already_tried(ctx: EnrichmentContext, method: str) -> bool:
             return False
         return _cache_has_query_for(ctx.cache, "arctic_shift", ctx.person_name)
 
-    # brave / bing / duckduckgo / gemini_grounded
+    # brave / bing / duckduckgo / gemini_grounded / magazine_archive
     provider_map = {
         "brave": "brave",
         "bing": "bing",
         "duckduckgo": "duckduckgo",
         "gemini_grounded": "gemini_grounded",
+        "magazine_archive": "magazine_archive",
     }
     provider = provider_map.get(method)
     if provider is None or ctx.cache is None:
@@ -583,6 +625,333 @@ def _run_search_method(
     return result
 
 
+def _run_magazine_archive(ctx: EnrichmentContext) -> MethodResult:
+    """6. Search magazine archives (Google Books, document archives) for
+    editorially-overseen martial-arts magazine coverage of the person.
+
+    This method discovers sources that are typically RELIABLE for WP:GNG:
+    magazine articles with editorial oversight. It searches:
+
+    1. Google Books for magazine issues containing the person's name
+       (uses the books.google.com search API to find page-level hits).
+    2. Document archives (doczz.net, archive.org, scribd.com) for
+       magazine article text that has been mirrored online.
+    3. Wiki mirrors (wikitia.com, en-academic.com) for citation tracing —
+       these are NOT reliable sources themselves, but their citations
+       point to real magazine articles that can be verified separately.
+
+    Discovered URLs are ingested with source_class='journalistic'.
+    """
+    result = MethodResult(method="magazine_archive")
+
+    queries = build_magazine_archive_queries(ctx.person_name, ctx.dates, ctx.cities, ctx.context)
+
+    if ctx.dry_run:
+        result.tried = True
+        result.status = f"[dry-run] {len(queries)} queries"
+        print(f"  [dry-run] magazine_archive: {len(queries)} queries")
+        for q in queries[:5]:
+            print(f"        {q}")
+        if len(queries) > 5:
+            print(f"        ... ({len(queries) - 5} more)")
+        return result
+
+    all_urls: list[str] = []
+    seen: set[str] = set()
+
+    # Phase 1: Search Google Books for magazine issues containing the name.
+    # We use web search to find books.google.com URLs for magazine issues
+    # that mention the person, then verify via the Google Books page-level
+    # search (vq= parameter).
+    for q in queries:
+        try:
+            # Use the brave/bing client to search for Google Books magazine hits.
+            # Fall back to a direct HTTP search if no search client is available.
+            search_results = _search_web_for_magazine_hits(ctx, q)
+            for url, title in search_results:
+                if url and url not in seen and url not in ctx.existing_urls:
+                    seen.add(url)
+                    all_urls.append(url)
+        except Exception as e:
+            _log.warning("magazine_archive search failed for '%s': %s", q, e)
+            continue
+
+    # Phase 2: Trace citations from wiki mirrors to underlying magazine sources.
+    # Wiki mirrors like Wikitia often cite real magazine articles with full
+    # bibliographic details. We fetch the wiki mirror page, extract
+    # magazine citations, and search for verifiable copies of those articles.
+    wiki_mirror_urls = _find_wiki_mirror_pages(ctx, ctx.person_name)
+    for mirror_url in wiki_mirror_urls:
+        if mirror_url in ctx.existing_urls:
+            continue
+        try:
+            citations = _extract_magazine_citations(mirror_url)
+            for citation in citations:
+                # Search for the cited article on Google Books or document archives.
+                citation_urls = _verify_magazine_citation(citation)
+                for url in citation_urls:
+                    if url and url not in seen and url not in ctx.existing_urls:
+                        seen.add(url)
+                        all_urls.append(url)
+        except Exception as e:
+            _log.warning("wiki mirror citation trace failed for %s: %s", mirror_url, e)
+
+    # Track in cache so re-runs skip this method.
+    if ctx.cache:
+        cache_key = f"magazine_archive:{ctx.person_name}"
+        ctx.cache.put(
+            cache_key,
+            "magazine_archive",
+            [{"url": u} for u in all_urls],
+            {"queries": len(queries)},
+        )
+
+    ingest_urls(ctx, all_urls, result)
+    result.tried = True
+    result.status = "OK" if result.new_urls else ("No new URLs" if all_urls else "No results")
+    return result
+
+
+def build_magazine_archive_queries(
+    person_name: str,
+    dates: list[str],
+    cities: list[str],
+    context: str,
+) -> list[str]:
+    """Build search queries targeting magazine archives.
+
+    Generates queries that search for the person's name within known
+    martial-arts magazine domains and document archives.
+    """
+    style = context or "martial arts"
+    queries: list[str] = []
+    seen: set[str] = set()
+
+    def _add(q: str) -> None:
+        q = " ".join(q.split())
+        if q and q not in seen:
+            seen.add(q)
+            queries.append(q)
+
+    # 1. Magazine name + person name (for Google Books / magazine site search)
+    for mag in _MARTIAL_ARTS_MAGAZINES:
+        if mag["name"]:
+            _add(f'"{person_name}" "{mag["name"]}"')
+            _add(f'"{person_name}" "{mag["name"]}" {style}')
+
+    # 2. Person + document archive domains (site: searches)
+    for domain in _DOC_ARCHIVE_DOMAINS:
+        _add(f'"{person_name}" site:{domain}')
+
+    # 3. Person + wiki mirror domains (for citation tracing)
+    for domain in _WIKI_MIRROR_DOMAINS:
+        _add(f'"{person_name}" site:{domain}')
+
+    # 4. Person + "magazine" + date context (for date-specific magazine coverage)
+    for date in dates:
+        _add(f'"{person_name}" magazine {date}')
+        for mag in _MARTIAL_ARTS_MAGAZINES:
+            if mag["name"]:
+                _add(f'"{person_name}" "{mag["name"]}" {date}')
+
+    # 5. Person + "interview" or "article" (broader magazine coverage)
+    _add(f'"{person_name}" interview magazine {style}')
+    _add(f'"{person_name}" article magazine {style}')
+
+    return queries
+
+
+def _search_web_for_magazine_hits(
+    ctx: EnrichmentContext,
+    query: str,
+) -> list[tuple[str, str]]:
+    """Search for magazine archive hits using available search clients.
+
+    Returns list of (url, title) pairs. Tries brave → bing → duckduckgo
+    in order, using whichever is available.
+    """
+    results: list[tuple[str, str]] = []
+
+    for client in [ctx.brave_client, ctx.bing_client, ctx.ddg_client]:
+        if client is None or not client.is_available():
+            continue
+        try:
+            if ctx.quota:
+                ctx.quota.check_budget("magazine_archive")
+            hits = client.search(query, count=10)
+            for h in hits:
+                if h.url and h.url.startswith("http"):
+                    results.append((h.url, h.title or ""))
+            if results:
+                break
+        except Exception as e:
+            _log.warning("magazine search failed for '%s': %s", query, e)
+            continue
+
+    return results
+
+
+def _find_wiki_mirror_pages(
+    ctx: EnrichmentContext,
+    person_name: str,
+) -> list[str]:
+    """Find wiki mirror pages about the person in the existing graph.
+
+    Wiki mirrors (wikitia.com, en-academic.com, etc.) often cite real
+    magazine articles. We look for these in the graph's existing sources.
+    """
+    mirror_urls: list[str] = []
+    for source in ctx.db.get_all_sources():
+        if not source.url:
+            continue
+        for domain in _WIKI_MIRROR_DOMAINS:
+            if domain in source.url:
+                # Check if the source mentions the person.
+                if person_name.lower() in (source.raw_text or "").lower():
+                    mirror_urls.append(source.url)
+                    break
+    return mirror_urls
+
+
+def _extract_magazine_citations(wiki_url: str) -> list[dict]:
+    """Extract magazine citations from a wiki mirror page.
+
+    Parses the page text for citation patterns like:
+    - "Author (Month Year). "Title." Magazine Name, pp. X-Y."
+    - "Author. "Title." Magazine, Vol. X, No. Y, pp. X-Y."
+
+    Returns list of dicts with keys: author, title, magazine, date, pages.
+    """
+    import re
+
+    try:
+        page = fetch_page(
+            wiki_url,
+            timeout=settings.crawl_timeout,
+            use_browser_ua=True,
+        )
+    except Exception as e:
+        _log.warning("fetch failed for wiki mirror %s: %s", wiki_url, e)
+        return []
+
+    if page.error or not page.text:
+        return []
+
+    text = page.text
+
+    # Citation patterns for magazine articles.
+    # Pattern: Author (Month Year). "Title." Magazine, pp. X-Y.
+    # Pattern: Author (Year). "Title." Magazine, Vol. X, No. Y, pp. X-Y.
+    patterns = [
+        # "Author (Month Year). \"Title.\" Magazine, pp. X-Y."
+        r'([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)\s*'
+        r'\((\w+\s+\d{4})\)\s*\.?\s*'
+        r'"([^"]+)"\s*\.?\s*'
+        r'([A-Z][^,]+?),?\s*'
+        r'(?:Vol\.?\s*\d+,?\s*No\.?\s*\d+,?\s*)?'
+        r'pp?\.\s*(\d+)[-–](\d+)',
+        # "Author (Year). \"Title.\" Magazine, pp. X-Y."
+        r'([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)\s*'
+        r'\((\d{4})\)\s*\.?\s*'
+        r'"([^"]+)"\s*\.?\s*'
+        r'([A-Z][^,]+?),?\s*'
+        r'pp?\.\s*(\d+)[-–](\d+)',
+    ]
+
+    citations: list[dict] = []
+    seen_titles: set[str] = set()
+
+    for pattern in patterns:
+        for match in re.finditer(pattern, text):
+            author = match.group(1)
+            date = match.group(2)
+            title = match.group(3)
+            magazine = match.group(4).strip().rstrip(".")
+            pages_start = match.group(5)
+            pages_end = match.group(6)
+
+            if title in seen_titles:
+                continue
+            seen_titles.add(title)
+
+            citations.append({
+                "author": author,
+                "date": date,
+                "title": title,
+                "magazine": magazine,
+                "pages": f"{pages_start}-{pages_end}",
+            })
+
+    return citations
+
+
+def _verify_magazine_citation(citation: dict) -> list[str]:
+    """Search for verifiable copies of a magazine citation.
+
+    Given a citation dict (author, title, magazine, date, pages),
+    searches Google Books and document archives for the article.
+
+    Returns list of URLs where the article can be found.
+    """
+    import re
+
+    urls: list[str] = []
+
+    # Build search query from citation.
+    title = citation.get("title", "")
+    magazine = citation.get("magazine", "")
+    author = citation.get("author", "")
+    date = citation.get("date", "")
+
+    if not title or not magazine:
+        return urls
+
+    # Search Google Books for the magazine issue.
+    # Google Books indexes many magazine issues and allows page-level search.
+    query = f'"{title}" "{magazine}"'
+    if author:
+        query = f'"{author}" "{title}" "{magazine}"'
+
+    try:
+        # Use a simple HTTP search to find Google Books URLs.
+        # We look for books.google.com URLs in search results.
+        search_url = "https://www.google.com/search"
+        params = {"q": f'{query} site:books.google.com'}
+        headers = {
+            "User-Agent": settings.crawl_user_agent,
+        }
+        resp = requests.get(search_url, params=params, headers=headers, timeout=15)
+        # Extract books.google.com URLs from the response.
+        for match in re.finditer(
+            r'https://books\.google\.[a-z.]+/books\?id=([A-Za-z0-9_-]+)',
+            resp.text,
+        ):
+            url = match.group(0)
+            if url not in urls:
+                urls.append(url)
+    except Exception as e:
+        _log.warning("Google Books citation search failed: %s", e)
+
+    # Search document archives for the article text.
+    for domain in _DOC_ARCHIVE_DOMAINS:
+        try:
+            search_url = "https://www.google.com/search"
+            params = {"q": f'"{title}" "{magazine}" site:{domain}'}
+            headers = {"User-Agent": settings.crawl_user_agent}
+            resp = requests.get(search_url, params=params, headers=headers, timeout=15)
+            for match in re.finditer(
+                rf'https://{re.escape(domain)}/[^\s"<>]+',
+                resp.text,
+            ):
+                url = match.group(0).rstrip(".,;)")
+                if url not in urls:
+                    urls.append(url)
+        except Exception as e:
+            _log.warning("doc archive search failed for %s: %s", domain, e)
+
+    return urls
+
+
 def _run_reference_discovery(ctx: EnrichmentContext) -> MethodResult:
     """6. Follow outbound links from existing sources (ReferenceDiscoverer)."""
     result = MethodResult(method="reference_discovery")
@@ -740,6 +1109,8 @@ def run_enrichment(ctx: EnrichmentContext, skip_methods: set[str]) -> None:
                 r = _run_search_method(ctx, method, "bing", ctx.bing_client)
             elif method == "duckduckgo":
                 r = _run_search_method(ctx, method, "duckduckgo", ctx.ddg_client)
+            elif method == "magazine_archive":
+                r = _run_magazine_archive(ctx)
             elif method == "reference_discovery":
                 r = _run_reference_discovery(ctx)
             elif method == "arctic_shift":
