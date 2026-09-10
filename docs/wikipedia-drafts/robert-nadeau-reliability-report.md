@@ -63,9 +63,9 @@
 ## Citation-pending claims
 
 3 claim(s) have no linked source in the graph. These need source verification before they can be cited.
+- `claim:search:nadeau-millman-student`: Dan Millman is a notable student of Robert Nadeau (Wikipedia + multiple sources)
 - `claim:search:nadeau-bunch-kufferath`: Robert Nadeau shared dojo space with Sig Kufferath, later with Richard Bunch (Wikipedia)
 - `claim:search:nadeau-moon-student`: Richard Moon is a notable student of Robert Nadeau (Wikipedia)
-- `claim:search:nadeau-millman-student`: Dan Millman is a notable student of Robert Nadeau (Wikipedia + multiple sources)
 
 ---
 

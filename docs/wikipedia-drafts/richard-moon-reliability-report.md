@@ -2,7 +2,8 @@
 
 ## Notability check
 
-- RELIABLE independent secondary sources with significant coverage: 2
+- RELIABLE independent secondary sources with significant coverage: 3
+  - en.wikipedia.org (https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka))
   - aikidojournal.com (https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/)
   - aikidojournal.com (https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/)
 
@@ -14,62 +15,65 @@
 
 | # | Source | Domain | SRS | Tier | Citable? | Reason |
 |---|--------|--------|-----|------|----------|--------|
-| 1 | A Journey Through Aikido: Robert Nadeau  | aikidojournal.com | 70 | RELIABLE | Yes | dr=35 rsp=0 sc=25 ind=10 |
-| 2 | Interview with Robert Nadeau – Aikido Jo | aikidojournal.com | 70 | RELIABLE | Yes | dr=35 rsp=0 sc=25 ind=10 |
-| 3 | Aikido | The Tai Chi Notebook | thetaichinotebook.com | 55 | MARGINAL | Yes | dr=20 rsp=0 sc=25 ind=10 |
-| 4 | The first podcast of 2026: Quantum Aikid | thetaichinotebook.com | 55 | MARGINAL | Yes | dr=20 rsp=0 sc=25 ind=10 |
-| 5 | Sig Kufferath Danzan Ryu Jujitsu | USAdo | usadojo.com | 50 | MARGINAL | Yes | dr=15 rsp=0 sc=25 ind=10 |
-| 6 | Peter Ralston Cheng Hsin | USAdojo.com | usadojo.com | 50 | MARGINAL | Yes | dr=15 rsp=0 sc=25 ind=10 |
-| 7 | Quantum Aikido: The Power of Harmony Boo | budovideos.com | 50 | MARGINAL | Yes | dr=15 rsp=0 sc=25 ind=10 |
-| 8 | O Sensei Revisited Down Under - Riai Aik | aikido.org.nz | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
-| 9 | Robert Nadeau — CAA | ai-ki-do.org | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
-| 10 | Лучшая школа Айкидо для детей в Казани | rebenok-na-aikido.ru | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
-| 11 | Episode 672 - Mr. Dan Millman — whistlek | whistlekickmartialartsradio.com | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
-| 12 | Aikido: Harmony, Unity, Peace - Riai Aik | aikido.org.nz | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
-| 13 | Quantum Aikido: The Power of Harmony  -  | kitothecity.substack.com | 40 | WEAK | No | dr=5 rsp=0 sc=25 ind=10 |
-| 14 | Robert Nadeau Shihan | nadeaushihan.com | 40 | WEAK | No | dr=5 rsp=0 sc=25 ind=10 |
-| 15 | Aikido: The Art of Transformation. The L | kitothecity.substack.com | 40 | WEAK | No | dr=5 rsp=0 sc=25 ind=10 |
-| 16 | Quantum Aikido: The Power of Harmony - R | quantumaikido.com | 40 | WEAK | No | dr=5 rsp=0 sc=25 ind=10 |
-| 17 | https://openmindadventures.com/richard-m | openmindadventures.com | 40 | WEAK | No | dr=5 rsp=0 sc=25 ind=10 |
-| 18 | About Moonsic.com | moonsic.com | 35 | WEAK | No | dr=5 rsp=0 sc=20 ind=10 |
-| 19 | Moonsic — Contact | moonsic.com | 35 | WEAK | No | dr=5 rsp=0 sc=20 ind=10 |
-| 20 | Moonsic — Homepage | moonsic.com | 35 | WEAK | No | dr=5 rsp=0 sc=20 ind=10 |
-| 21 | The New Improved Jook Savages Are Coming | moonsic.com | 35 | WEAK | No | dr=5 rsp=0 sc=20 ind=10 |
-| 22 | Eugene Lesser — A Man, A Plan, A Canal,  | moonsic.com | 35 | WEAK | No | dr=5 rsp=0 sc=20 ind=10 |
-| 23 | Liko Martin — A sleeping volcano awakens | moonsic.com | 35 | WEAK | No | dr=5 rsp=0 sc=20 ind=10 |
-| 24 | Links We Like | moonsic.com | 35 | WEAK | No | dr=5 rsp=0 sc=20 ind=10 |
-| 25 | The New Improved Night Nurses | moonsic.com | 35 | WEAK | No | dr=5 rsp=0 sc=20 ind=10 |
-| 26 | R. Moon — Moon Music | moonsic.com | 35 | WEAK | No | dr=5 rsp=0 sc=20 ind=10 |
-| 27 | Prof. Sig Kufferath | danzan.com | 35 | WEAK | No | dr=0 rsp=0 sc=25 ind=10 |
-| 28 | Richard Moon | Faculty of Law | uottawa.ca | 35 | WEAK | No | dr=0 rsp=0 sc=25 ind=10 |
-| 29 | Richard Moon | Centre for Free Expressio | cfe.torontomu.ca | 35 | WEAK | No | dr=0 rsp=0 sc=25 ind=10 |
-| 30 | Richard Moon | uwindsor.ca | 35 | WEAK | No | dr=0 rsp=0 sc=25 ind=10 |
-| 31 | Professor Richard Moon | Faculty of Laws | ucl.ac.uk | 35 | WEAK | No | dr=0 rsp=0 sc=25 ind=10 |
-| 32 | Richard Moon | Michael Burge Media | burgewords.com | 35 | WEAK | No | dr=0 rsp=0 sc=25 ind=10 |
-| 33 | FATHER YOD: WAR HERO, BANK ROBBER, POLYG | pleasekillme.com | 35 | WEAK | No | dr=0 rsp=0 sc=25 ind=10 |
-| 34 | http://www.moonsensei.com/books/HealingW | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
-| 35 | http://www.moonsensei.com/index.html | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
-| 36 | http://www.moonsensei.com/about.html | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
-| 37 | http://www.moonsensei.com/books/Thalamic | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
-| 38 | http://www.moonsensei.com/books/Lifein3E | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
-| 39 | http://www.moonsensei.com/leadersandteam | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
-| 40 | http://www.moonsensei.com/books/AFYL.pdf | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
-| 41 | http://www.moonsensei.com/books/TheBusin | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
-| 42 | http://www.moonsensei.com/books/Egbert.p | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
-| 43 | http://www.moonsensei.com/books/TenToThe | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
-| 44 | http://www.moonsensei.com/books/tpoel.pd | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
-| 45 | http://www.moonsensei.com/seminar.html | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
-| 46 | http://www.moonsensei.com/books/River.pd | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
-| 47 | http://www.moonsensei.com/books/Adventur | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
-| 48 | TEP #443 Mystical and Practical Aikido - | youtube.com | 0 | UNRELIABLE | No | dr=0 rsp=0 sc=-10 ind=10 |
-| 49 | Fundamentals N.Z. Exploration - Quantum  | youtube.com | 0 | UNRELIABLE | No | dr=0 rsp=0 sc=-10 ind=10 |
-| 50 | Richard Moon | Official Publisher Page | | simonandschuster.com | -20 | UNRELIABLE | No | dr=10 rsp=0 sc=-10 ind=-20 |
-| 51 | Ep 42: Quantum Aikido with Richard Moon  | audible.in | -25 | UNRELIABLE | No | dr=5 rsp=0 sc=-10 ind=-20 |
-| 52 | Jack Wada — City Aikido | cityaikido.com | -30 | UNRELIABLE | No | dr=10 rsp=0 sc=-20 ind=-20 |
-| 53 | Aikido of San Jose - About the Instructo | aikidosj.com | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
-| 54 | Instructors - Aikido of San Jose | aikidosj.com | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
-| 55 | kkron — personal communication (project  | personal-communication | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
-| 56 | Billy Bramblet verbal confirmation (2026 |  | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
+| 1 | Terry Dobson (aikidoka) - Wikipedia | en.wikipedia.org | 75 | RELIABLE | Yes | dr=40 rsp=0 sc=25 ind=10 |
+| 2 | A Journey Through Aikido: Robert Nadeau  | aikidojournal.com | 70 | RELIABLE | Yes | dr=35 rsp=0 sc=25 ind=10 |
+| 3 | Interview with Robert Nadeau – Aikido Jo | aikidojournal.com | 70 | RELIABLE | Yes | dr=35 rsp=0 sc=25 ind=10 |
+| 4 | Aikido | The Tai Chi Notebook | thetaichinotebook.com | 55 | MARGINAL | Yes | dr=20 rsp=0 sc=25 ind=10 |
+| 5 | The first podcast of 2026: Quantum Aikid | thetaichinotebook.com | 55 | MARGINAL | Yes | dr=20 rsp=0 sc=25 ind=10 |
+| 6 | Sig Kufferath Danzan Ryu Jujitsu | USAdo | usadojo.com | 50 | MARGINAL | Yes | dr=15 rsp=0 sc=25 ind=10 |
+| 7 | Interview with Jamie Zimron Sensei — Big | bigrock-aikikai.com | 50 | MARGINAL | Yes | dr=15 rsp=0 sc=25 ind=10 |
+| 8 | Peter Ralston Cheng Hsin | USAdojo.com | usadojo.com | 50 | MARGINAL | Yes | dr=15 rsp=0 sc=25 ind=10 |
+| 9 | Quantum Aikido: The Power of Harmony Boo | budovideos.com | 50 | MARGINAL | Yes | dr=15 rsp=0 sc=25 ind=10 |
+| 10 | O Sensei Revisited Down Under - Riai Aik | aikido.org.nz | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
+| 11 | Robert Nadeau — CAA | ai-ki-do.org | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
+| 12 | Лучшая школа Айкидо для детей в Казани | rebenok-na-aikido.ru | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
+| 13 | Episode 672 - Mr. Dan Millman — whistlek | whistlekickmartialartsradio.com | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
+| 14 | Aikido: Harmony, Unity, Peace - Riai Aik | aikido.org.nz | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
+| 15 | Quantum Aikido: The Power of Harmony  -  | kitothecity.substack.com | 40 | WEAK | No | dr=5 rsp=0 sc=25 ind=10 |
+| 16 | Robert Nadeau Shihan | nadeaushihan.com | 40 | WEAK | No | dr=5 rsp=0 sc=25 ind=10 |
+| 17 | Aikido: The Art of Transformation. The L | kitothecity.substack.com | 40 | WEAK | No | dr=5 rsp=0 sc=25 ind=10 |
+| 18 | Quantum Aikido: The Power of Harmony - R | quantumaikido.com | 40 | WEAK | No | dr=5 rsp=0 sc=25 ind=10 |
+| 19 | https://openmindadventures.com/richard-m | openmindadventures.com | 40 | WEAK | No | dr=5 rsp=0 sc=25 ind=10 |
+| 20 | About Moonsic.com | moonsic.com | 35 | WEAK | No | dr=5 rsp=0 sc=20 ind=10 |
+| 21 | Moonsic — Contact | moonsic.com | 35 | WEAK | No | dr=5 rsp=0 sc=20 ind=10 |
+| 22 | Moonsic — Homepage | moonsic.com | 35 | WEAK | No | dr=5 rsp=0 sc=20 ind=10 |
+| 23 | The New Improved Jook Savages Are Coming | moonsic.com | 35 | WEAK | No | dr=5 rsp=0 sc=20 ind=10 |
+| 24 | Eugene Lesser — A Man, A Plan, A Canal,  | moonsic.com | 35 | WEAK | No | dr=5 rsp=0 sc=20 ind=10 |
+| 25 | Liko Martin — A sleeping volcano awakens | moonsic.com | 35 | WEAK | No | dr=5 rsp=0 sc=20 ind=10 |
+| 26 | Links We Like | moonsic.com | 35 | WEAK | No | dr=5 rsp=0 sc=20 ind=10 |
+| 27 | The New Improved Night Nurses | moonsic.com | 35 | WEAK | No | dr=5 rsp=0 sc=20 ind=10 |
+| 28 | R. Moon — Moon Music | moonsic.com | 35 | WEAK | No | dr=5 rsp=0 sc=20 ind=10 |
+| 29 | Prof. Sig Kufferath | danzan.com | 35 | WEAK | No | dr=0 rsp=0 sc=25 ind=10 |
+| 30 | Richard Moon | Faculty of Law | uottawa.ca | 35 | WEAK | No | dr=0 rsp=0 sc=25 ind=10 |
+| 31 | Richard Moon | Centre for Free Expressio | cfe.torontomu.ca | 35 | WEAK | No | dr=0 rsp=0 sc=25 ind=10 |
+| 32 | Richard Moon | uwindsor.ca | 35 | WEAK | No | dr=0 rsp=0 sc=25 ind=10 |
+| 33 | Professor Richard Moon | Faculty of Laws | ucl.ac.uk | 35 | WEAK | No | dr=0 rsp=0 sc=25 ind=10 |
+| 34 | Richard Moon | Michael Burge Media | burgewords.com | 35 | WEAK | No | dr=0 rsp=0 sc=25 ind=10 |
+| 35 | FATHER YOD: WAR HERO, BANK ROBBER, POLYG | pleasekillme.com | 35 | WEAK | No | dr=0 rsp=0 sc=25 ind=10 |
+| 36 | Kitaura sensei practice in Russia — Aiki | en.aikido.ru | 30 | WEAK | No | dr=0 rsp=0 sc=20 ind=10 |
+| 37 | http://www.moonsensei.com/books/HealingW | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
+| 38 | http://www.moonsensei.com/index.html | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
+| 39 | http://www.moonsensei.com/about.html | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
+| 40 | http://www.moonsensei.com/books/Thalamic | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
+| 41 | http://www.moonsensei.com/books/Lifein3E | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
+| 42 | http://www.moonsensei.com/leadersandteam | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
+| 43 | http://www.moonsensei.com/books/AFYL.pdf | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
+| 44 | http://www.moonsensei.com/books/TheBusin | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
+| 45 | http://www.moonsensei.com/books/Egbert.p | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
+| 46 | http://www.moonsensei.com/books/TenToThe | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
+| 47 | http://www.moonsensei.com/books/tpoel.pd | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
+| 48 | http://www.moonsensei.com/seminar.html | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
+| 49 | http://www.moonsensei.com/books/River.pd | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
+| 50 | http://www.moonsensei.com/books/Adventur | moonsensei.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
+| 51 | TEP #443 Mystical and Practical Aikido - | youtube.com | 0 | UNRELIABLE | No | dr=0 rsp=0 sc=-10 ind=10 |
+| 52 | Fundamentals N.Z. Exploration - Quantum  | youtube.com | 0 | UNRELIABLE | No | dr=0 rsp=0 sc=-10 ind=10 |
+| 53 | Richard Moon | Official Publisher Page | | simonandschuster.com | -20 | UNRELIABLE | No | dr=10 rsp=0 sc=-10 ind=-20 |
+| 54 | Ep 42: Quantum Aikido with Richard Moon  | audible.in | -25 | UNRELIABLE | No | dr=5 rsp=0 sc=-10 ind=-20 |
+| 55 | Jack Wada — City Aikido | cityaikido.com | -30 | UNRELIABLE | No | dr=10 rsp=0 sc=-20 ind=-20 |
+| 56 | Aikido of San Jose - About the Instructo | aikidosj.com | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
+| 57 | Instructors - Aikido of San Jose | aikidosj.com | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
+| 58 | Billy Bramblet verbal confirmation (2026 |  | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
+| 59 | kkron — personal communication (project  | personal-communication | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
 
 ## Excluded sources (not cited in article)
 
@@ -102,6 +106,7 @@
 - [Professor Richard Moon | Faculty of Laws](https://www.ucl.ac.uk/laws/global-centre-democratic-constitutionalism/about-global-centre-democratic-constitutionalism/members/professor-richard-moon) — SRS=35 (WEAK): dr=0 rsp=0 sc=25 ind=10
 - [Richard Moon | Michael Burge Media](https://burgewords.com/tag/richard-moon/) — SRS=35 (WEAK): dr=0 rsp=0 sc=25 ind=10
 - [FATHER YOD: WAR HERO, BANK ROBBER, POLYGAMIST CULT LEADER AND PSYCHEDELIC RECORDING ARTIST!](https://pleasekillme.com/father-yod/) — SRS=35 (WEAK): dr=0 rsp=0 sc=25 ind=10
+- [Kitaura sensei practice in Russia — Aikido.ru (IEAAF)](http://en.aikido.ru/p/content/content.php?content.22.=) — SRS=30 (WEAK): dr=0 rsp=0 sc=20 ind=10
 - [(untitled)](http://www.moonsensei.com/books/HealingWithKi.pdf) — SRS=10 (UNRELIABLE): dr=5 rsp=0 sc=25 ind=-20
 - [(untitled)](http://www.moonsensei.com/index.html) — SRS=10 (UNRELIABLE): dr=5 rsp=0 sc=25 ind=-20
 - [(untitled)](http://www.moonsensei.com/about.html) — SRS=10 (UNRELIABLE): dr=5 rsp=0 sc=25 ind=-20
@@ -128,8 +133,8 @@
 ## Citation-pending claims
 
 2 claim(s) have no linked source in the graph. These need source verification before they can be cited.
-- `claim:search:nadeau-millman-student`: Dan Millman is a notable student of Robert Nadeau (Wikipedia + multiple sources)
 - `claim:search:nadeau-moon-student`: Richard Moon is a notable student of Robert Nadeau (Wikipedia)
+- `claim:search:nadeau-millman-student`: Dan Millman is a notable student of Robert Nadeau (Wikipedia + multiple sources)
 
 ---
 
@@ -137,7 +142,7 @@
 
 - Total matched nodes: 57
 - Total claims collected: 61
-- Total sources scored: 56
-- Citable sources (SRS >= 50): 7
-- RELIABLE sources (SRS >= 70): 2
-- Independent RELIABLE sources: 2
+- Total sources scored: 59
+- Citable sources (SRS >= 50): 9
+- RELIABLE sources (SRS >= 70): 3
+- Independent RELIABLE sources: 3

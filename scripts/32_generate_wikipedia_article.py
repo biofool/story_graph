@@ -173,12 +173,18 @@ def independence_points(
     # A publisher's page about its own author is ABOUTSELF — the publisher
     # has a financial stake in promoting the author's books. This includes:
     # simonandschuster.com, penguin.co.nz, penguinrandomhouse.com,
-    # innertraditions.com, books.google.com, openlibrary.org, etc.
+    # innertraditions.com, openlibrary.org, etc.
+    #
+    # NOTE: books.google.com is NOT in this set — Google Books is an archive
+    # that hosts both publisher pages AND independent magazine issues. The
+    # independence of a Google Books URL depends on its source_class:
+    #   - JOURNALISTIC (magazine issues) → independent (ind=10)
+    #   - DOCUMENTARY_PROMOTIONAL (book pages) → not independent (ind=-20)
+    # The source_class-based scoring handles this distinction.
     PUBLISHER_DOMAINS = {
         "simonandschuster.com", "simonandschuster.net",
         "penguin.co.nz", "penguinrandomhouse.com", "penguin.com",
         "innertraditions.com", "bearandcompany.com",
-        "books.google.com", "books.google.co.nz", "books.google.co.uk",
         "openlibrary.org",
         "amazon.com", "amazon.co.uk", "amazon.de",
         "audible.com", "audible.in",
@@ -186,6 +192,18 @@ def independence_points(
     }
     if domain in PUBLISHER_DOMAINS:
         return -20
+
+    # Google Books book pages (DOCUMENTARY_PROMOTIONAL) are not independent,
+    # but Google Books magazine issues (JOURNALISTIC) ARE independent.
+    # The source_class check below handles this distinction.
+    if domain in ("books.google.com", "books.google.co.nz", "books.google.co.uk"):
+        # Check source_class — magazine issues are independent, book pages are not
+        sc = source.get("source_class", "") if source else ""
+        sc_str = str(sc) if sc else ""
+        if "documentary_promotional" in sc_str.lower():
+            return -20
+        # JOURNALISTIC sources on Google Books are magazine issues — independent
+        return 10
 
     # Collect domains of organizations the subject FOUNDED only
     # (MEMBER_OF / WORKED_AT doesn't make the org's website "affiliated")
