@@ -768,8 +768,8 @@ def main() -> int:
             gemini_ext = None
             gemini_claim_ext = None
             if not args.discover_only and gemini_client.is_available():
-                gemini_ext = GeminiExtractor(gemini_client)
-                gemini_claim_ext = GeminiClaimExtractor(gemini_client)
+                gemini_ext = GeminiExtractor(gemini_client, allow_paid=True)
+                gemini_claim_ext = GeminiClaimExtractor(gemini_ext)
 
         # ── Technique 1: Name-Grounded Discovery ───────────────────────
         t1_result = None
