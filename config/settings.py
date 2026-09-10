@@ -141,8 +141,11 @@ class Settings(BaseModel):
 
     # Brave Search API — used for relationship discovery searches.
     # Get a key at https://api.search.brave.com (free tier: 2K queries/month).
+    # Also checks BRAVE_ANSWERS_API_KEY (legacy name in Secret Manager) as a
+    # fallback so the key is picked up regardless of which name it's stored under.
     brave_search_api_key: str = Field(
         default_factory=lambda: os.getenv("BRAVE_SEARCH_API_KEY", "")
+        or os.getenv("BRAVE_ANSWERS_API_KEY", "")
     )
 
     # Relationship search budgets
