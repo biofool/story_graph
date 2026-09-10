@@ -208,6 +208,17 @@ class WebCrawler:
                 )
                 continue
 
+            # Fix mojibake: requests defaults to ISO-8859-1 when no charset
+            # is declared in the Content-Type header (RFC 2616). This mangles
+            # Windows-1251/Cyrillic and other non-Latin-1 pages. Fall back to
+            # chardet/charset_normalizer detection via apparent_encoding.
+            if response.encoding is None or response.encoding.lower() in (
+                "iso-8859-1", "latin-1", "latin1",
+            ):
+                detected = response.apparent_encoding
+                if detected:
+                    response.encoding = detected
+
             page = self._parse_page(url, response.text)
             self.pages.append(page)
             pages_crawled += 1

@@ -4599,6 +4599,7 @@
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/"}, "rel_type": "ABOUT", "src_id": "claim:b033c2a69480e5bb"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:b033c2a69480e5bb"}
 {"dst_id": "group:aikido", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "ABOUT", "src_id": "claim:b10b8acc6c8b2e51"}
+{"dst_id": "person:morihei-ueshiba", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "ABOUT", "src_id": "claim:b10b8acc6c8b2e51"}
 {"dst_id": "person:tuan-din", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "ASSERTED_BY", "src_id": "claim:b10b8acc6c8b2e51"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://lifeinthesourcefamily.blogspot.com/"}, "rel_type": "ABOUT", "src_id": "claim:b151c7c045494812"}
 {"dst_id": "person:although", "metadata": {"evidence": "https://lifeinthesourcefamily.blogspot.com/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:b151c7c045494812"}
@@ -14031,6 +14032,7 @@
 {"dst_id": "place:santa-clara", "metadata": {"evidence": "https://kodenkan.com/kufferath", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:kodenkan-jujitsu-school"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "group:lady-trieu"}
 {"dst_id": "place:vietnam", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:lady-trieu"}
+{"dst_id": "place:saint-petersburg", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:lenkai-club"}
 {"dst_id": "place:the-arena", "metadata": {"evidence": "https://comicvine.gamespot.com/forums/battles-7/unwritten-season-25-the-dream-arena-second-main-ev-2384030/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:live-crowd"}
 {"dst_id": "place:the-dream-arena-main-stage", "metadata": {"evidence": "https://comicvine.gamespot.com/forums/battles-7/unwritten-season-25-the-dream-arena-second-main-ev-2384030/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:live-crowd"}
 {"dst_id": "place:baton-rouge-louisiana", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117213731.html", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:louisiana-department-of-justice"}
@@ -14681,6 +14683,8 @@
 {"dst_id": "group:aikikai-hombu-dojo", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:seigo-yamaguchi"}
 {"dst_id": "group:aikikai-hombu-dojo", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:seiichi-sugano"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:sejal-parmar"}
+{"dst_id": "group:federation-of-aikido-of-leningrad-and-oblast", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:sergei-viktorovich-kiselev"}
+{"dst_id": "group:federation-of-aikido-of-the-ussr", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:sergei-viktorovich-kiselev"}
 {"dst_id": "group:federation-of-aikido-of-leningrad-and-region", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:sergey-kiselev"}
 {"dst_id": "group:ussr-aikido-federation", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:sergey-kiselev"}
 {"dst_id": "group:aji", "metadata": {"evidence": "https://www.usadojo.com/sig-kufferath", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:sig-kufferat"}
@@ -20263,17 +20267,19 @@
 {"dst_id": "image:a455923217c482b19654a760cabda178375e79739d4c9591622042e2694ae1dd", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "DEPICTS", "src_id": "work:9c12646dacf2facd"}
 {"dst_id": "event:1st-international-aikido-festival-white-nights", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "DESCRIBES", "src_id": "work:9c12646dacf2facd"}
 {"dst_id": "event:founding-conference-of-the-ussr-aikido-federation", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "DESCRIBES", "src_id": "work:9c12646dacf2facd"}
-{"dst_id": "group:federation-of-aikido-of-leningrad-and-region", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
-{"dst_id": "group:takemusu-aiki", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
-{"dst_id": "group:union-of-oriental-martial-arts-of-leningrad", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
-{"dst_id": "group:ussr-aikido-federation", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
-{"dst_id": "person:alfat-makashev", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
+{"dst_id": "group:federation-of-aikido-of-leningrad-and-oblast", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
+{"dst_id": "group:federation-of-aikido-of-saint-petersburg", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
+{"dst_id": "group:federation-of-aikido-of-the-ussr", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
+{"dst_id": "group:lenkai-club", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
+{"dst_id": "group:union-of-eastern-martial-arts-of-leningrad", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
+{"dst_id": "person:alfat-makhmudovich-makashev", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
 {"dst_id": "person:morihei-ueshiba", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
-{"dst_id": "person:sergey-kiselev", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
-{"dst_id": "person:van-bay", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
-{"dst_id": "person:vladislav-rukavishnikov", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
+{"dst_id": "person:sergei-viktorovich-kiselev", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
+{"dst_id": "person:victor-skrylev", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
+{"dst_id": "person:vladislav-alekseevich-rukavishnikov", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
 {"dst_id": "place:bamako", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
-{"dst_id": "place:leningrad", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
+{"dst_id": "place:moscow", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
+{"dst_id": "place:saint-petersburg", "metadata": {"evidence": "http://www.aikiclub.ru/spb.html"}, "rel_type": "MENTIONS", "src_id": "work:9c12646dacf2facd"}
 {"dst_id": "claim:014b59821e5c2330", "metadata": {"evidence": "https://podscripts.co/podcasts/timesuck-with-dan-cummins/161-the-source-family-cult"}, "rel_type": "CONTAINS", "src_id": "work:9c415280b98e657f"}
 {"dst_id": "claim:09502e13c293aa67", "metadata": {"evidence": "https://podscripts.co/podcasts/timesuck-with-dan-cummins/161-the-source-family-cult"}, "rel_type": "CONTAINS", "src_id": "work:9c415280b98e657f"}
 {"dst_id": "claim:0d748c45fd023b00", "metadata": {"evidence": "https://podscripts.co/podcasts/timesuck-with-dan-cummins/161-the-source-family-cult"}, "rel_type": "CONTAINS", "src_id": "work:9c415280b98e657f"}
