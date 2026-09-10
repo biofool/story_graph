@@ -40,6 +40,7 @@
 {"claim_id": "claim:09502e13c293aa67", "quote_span_end": null, "quote_span_start": null, "source_id": "work:9c415280b98e657f"}
 {"claim_id": "claim:096d3afe9b8f9109", "quote_span_end": null, "quote_span_start": null, "source_id": "work:e9f954a4f17fd9ec"}
 {"claim_id": "claim:09d6938a12b2022d", "quote_span_end": null, "quote_span_start": null, "source_id": "work:4b04424018416c9a"}
+{"claim_id": "claim:09e3117013302f96", "quote_span_end": null, "quote_span_start": null, "source_id": "work:3c03ea12e3c2486d"}
 {"claim_id": "claim:0a24cff914c0a6fa", "quote_span_end": null, "quote_span_start": null, "source_id": "work:7814798dccd3679a"}
 {"claim_id": "claim:0a48f3c6a3dbbdad", "quote_span_end": null, "quote_span_start": null, "source_id": "kkron:kufferath-nadeau-bunch-research"}
 {"claim_id": "claim:0a58127f5ee17654", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
@@ -55,6 +56,7 @@
 {"claim_id": "claim:0ce7e66023bc68f4", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:0d31ba70e3b8d96e", "quote_span_end": null, "quote_span_start": null, "source_id": "work:fc54ae4143043d0d"}
 {"claim_id": "claim:0d748c45fd023b00", "quote_span_end": null, "quote_span_start": null, "source_id": "work:9c415280b98e657f"}
+{"claim_id": "claim:0e6331ec93fc081d", "quote_span_end": null, "quote_span_start": null, "source_id": "work:3c03ea12e3c2486d"}
 {"claim_id": "claim:0f423d247a653d15", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1b3fd7e232200bb3"}
 {"claim_id": "claim:0f66784d35ce3a06", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:0f7f7b7bb3ab462f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:65a2a280c44bc331"}
@@ -80,11 +82,11 @@
 {"claim_id": "claim:16d5e0e86dac4c10", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:171b3ebc7d5d253f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:7b9a237040312432"}
 {"claim_id": "claim:1746e9685ae3c0dc", "quote_span_end": null, "quote_span_start": null, "source_id": "work:968e9a5d3a76f258"}
+{"claim_id": "claim:17c7f09cc7839b01", "quote_span_end": null, "quote_span_start": null, "source_id": "work:3c03ea12e3c2486d"}
 {"claim_id": "claim:17fa9726e77f53ad", "quote_span_end": null, "quote_span_start": null, "source_id": "work:378625267eb32805"}
 {"claim_id": "claim:1813b4a44dbde867", "quote_span_end": null, "quote_span_start": null, "source_id": "work:968e9a5d3a76f258"}
 {"claim_id": "claim:18278dda89702593", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:18753bc160dc5b63", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
-{"claim_id": "claim:189244cc17193ec4", "quote_span_end": null, "quote_span_start": null, "source_id": "work:92b539b35cb4aff3"}
 {"claim_id": "claim:189d9a0ecf8fa256", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:18c14c159fc8eae1", "quote_span_end": null, "quote_span_start": null, "source_id": "work:378625267eb32805"}
 {"claim_id": "claim:18c4d36153dc6303", "quote_span_end": null, "quote_span_start": null, "source_id": "work:bda8ddd26707c690"}
@@ -182,6 +184,7 @@
 {"claim_id": "claim:2e9a3ed75aa52b46", "quote_span_end": null, "quote_span_start": null, "source_id": "work:50cc49055c0675fe"}
 {"claim_id": "claim:2fbc33199a3f4aa3", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:2fd4ce73b767fe23", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
+{"claim_id": "claim:2fffda0b108e124d", "quote_span_end": null, "quote_span_start": null, "source_id": "work:3c03ea12e3c2486d"}
 {"claim_id": "claim:3047e547b13f3196", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:307930ab8393fa4f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a46d003f349ba458"}
 {"claim_id": "claim:31059a2faee892f9", "quote_span_end": null, "quote_span_start": null, "source_id": "work:33538e6c637eae76"}
@@ -312,6 +315,7 @@
 {"claim_id": "claim:4e9f242ff9eb80e5", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:4ee110bd5f356ccd", "quote_span_end": null, "quote_span_start": null, "source_id": "work:ab260c68c6cd27d4"}
 {"claim_id": "claim:4f16b7071f8f900f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:968e9a5d3a76f258"}
+{"claim_id": "claim:4f295937f56218bd", "quote_span_end": null, "quote_span_start": null, "source_id": "work:3c03ea12e3c2486d"}
 {"claim_id": "claim:4f3911714028854e", "quote_span_end": null, "quote_span_start": null, "source_id": "work:7814798dccd3679a"}
 {"claim_id": "claim:4fe35bf1bb0a5df7", "quote_span_end": null, "quote_span_start": null, "source_id": "work:dd8985de5d2c1aea"}
 {"claim_id": "claim:500f24cf4c7833d9", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a2141cac8e8c09c1"}
@@ -443,6 +447,7 @@
 {"claim_id": "claim:72c07f191eb1e447", "quote_span_end": null, "quote_span_start": null, "source_id": "work:e9f954a4f17fd9ec"}
 {"claim_id": "claim:72f27e649377194a", "quote_span_end": null, "quote_span_start": null, "source_id": "work:0e2c38b43873be00"}
 {"claim_id": "claim:73edaca5da0fb518", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
+{"claim_id": "claim:74004e9bbbbe848c", "quote_span_end": null, "quote_span_start": null, "source_id": "work:3c03ea12e3c2486d"}
 {"claim_id": "claim:74abd0f1d3e93cb1", "quote_span_end": null, "quote_span_start": null, "source_id": "work:0e2c38b43873be00"}
 {"claim_id": "claim:74edac881e3a4a72", "quote_span_end": null, "quote_span_start": null, "source_id": "work:93d9eaf6480fefc6"}
 {"claim_id": "claim:753adbc80aa0f8c5", "quote_span_end": null, "quote_span_start": null, "source_id": "work:8c8c416a09ccd343"}
@@ -470,6 +475,7 @@
 {"claim_id": "claim:7a791697f2bbd68e", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:7ae1a072c4e06d84", "quote_span_end": null, "quote_span_start": null, "source_id": "work:7b9a237040312432"}
 {"claim_id": "claim:7c0baf5e9b2cfda3", "quote_span_end": null, "quote_span_start": null, "source_id": "work:dd8985de5d2c1aea"}
+{"claim_id": "claim:7c1482be55b8321d", "quote_span_end": null, "quote_span_start": null, "source_id": "work:3c03ea12e3c2486d"}
 {"claim_id": "claim:7c95974eb2875614", "quote_span_end": null, "quote_span_start": null, "source_id": "work:ab260c68c6cd27d4"}
 {"claim_id": "claim:7d37866ef24e37ca", "quote_span_end": null, "quote_span_start": null, "source_id": "work:e9f954a4f17fd9ec"}
 {"claim_id": "claim:7d5e972fd5455062", "quote_span_end": null, "quote_span_start": null, "source_id": "work:9c415280b98e657f"}
@@ -599,7 +605,7 @@
 {"claim_id": "claim:a278f2b20be4a3fb", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:a2925fdd384721d4", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1b3fd7e232200bb3"}
 {"claim_id": "claim:a2e5ea6b244a312e", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
-{"claim_id": "claim:a39f053b50fe88d8", "quote_span_end": null, "quote_span_start": null, "source_id": "work:92b539b35cb4aff3"}
+{"claim_id": "claim:a31f590fefa807f1", "quote_span_end": null, "quote_span_start": null, "source_id": "work:3c03ea12e3c2486d"}
 {"claim_id": "claim:a3abcbb06a607b12", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:a43c7af0812b7410", "quote_span_end": null, "quote_span_start": null, "source_id": "work:e9f954a4f17fd9ec"}
 {"claim_id": "claim:a566ffb6942f002b", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
@@ -645,6 +651,7 @@
 {"claim_id": "claim:aedbacf57771a746", "quote_span_end": null, "quote_span_start": null, "source_id": "work:378625267eb32805"}
 {"claim_id": "claim:af00c8743519cb9a", "quote_span_end": null, "quote_span_start": null, "source_id": "work:bda8ddd26707c690"}
 {"claim_id": "claim:afbf1081cc794c8b", "quote_span_end": null, "quote_span_start": null, "source_id": "work:6470ba69bd77dbb9"}
+{"claim_id": "claim:aff7788faf5b74cd", "quote_span_end": null, "quote_span_start": null, "source_id": "work:3c03ea12e3c2486d"}
 {"claim_id": "claim:b01ce834269f8b28", "quote_span_end": null, "quote_span_start": null, "source_id": "work:378625267eb32805"}
 {"claim_id": "claim:b033c2a69480e5bb", "quote_span_end": null, "quote_span_start": null, "source_id": "work:e9f954a4f17fd9ec"}
 {"claim_id": "claim:b10b8acc6c8b2e51", "quote_span_end": null, "quote_span_start": null, "source_id": "work:9c12646dacf2facd"}
@@ -657,6 +664,7 @@
 {"claim_id": "claim:b1d80499a2b50500", "quote_span_end": null, "quote_span_start": null, "source_id": "work:dd8985de5d2c1aea"}
 {"claim_id": "claim:b209475807c53d90", "quote_span_end": null, "quote_span_start": null, "source_id": "work:519a1b661a0df069"}
 {"claim_id": "claim:b2c37d68fe0c9738", "quote_span_end": null, "quote_span_start": null, "source_id": "work:04dc5debe9b504ea"}
+{"claim_id": "claim:b2eda79eed377d8a", "quote_span_end": null, "quote_span_start": null, "source_id": "work:99ff356dad743b17"}
 {"claim_id": "claim:b2fe3e769473fab8", "quote_span_end": null, "quote_span_start": null, "source_id": "work:378625267eb32805"}
 {"claim_id": "claim:b319d2cac66e6626", "quote_span_end": null, "quote_span_start": null, "source_id": "work:8c8c416a09ccd343"}
 {"claim_id": "claim:b32b3ed371ffcba7", "quote_span_end": null, "quote_span_start": null, "source_id": "work:968e9a5d3a76f258"}
@@ -805,6 +813,8 @@
 {"claim_id": "claim:d75244a0f65c5d78", "quote_span_end": null, "quote_span_start": null, "source_id": "work:99ca339cfd100a36"}
 {"claim_id": "claim:d79dfef7958f78a2", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:d8ac3404a9c1de64", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a7a7e909d30a4e18"}
+{"claim_id": "claim:d8d2c8b797f60ccd", "quote_span_end": null, "quote_span_start": null, "source_id": "work:3c03ea12e3c2486d"}
+{"claim_id": "claim:d8dd4919b2d2c08b", "quote_span_end": null, "quote_span_start": null, "source_id": "work:3c03ea12e3c2486d"}
 {"claim_id": "claim:d8fb06947d8a6903", "quote_span_end": null, "quote_span_start": null, "source_id": "work:ab260c68c6cd27d4"}
 {"claim_id": "claim:d99241059be158cc", "quote_span_end": null, "quote_span_start": null, "source_id": "work:bda8ddd26707c690"}
 {"claim_id": "claim:da1e341a36da415a", "quote_span_end": null, "quote_span_start": null, "source_id": "work:968e9a5d3a76f258"}
@@ -812,7 +822,6 @@
 {"claim_id": "claim:dbb1be348254cb2c", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:dc03346865741142", "quote_span_end": null, "quote_span_start": null, "source_id": "work:bda8ddd26707c690"}
 {"claim_id": "claim:dc36d7241b07943e", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
-{"claim_id": "claim:dc3abddfe9f9f5d3", "quote_span_end": null, "quote_span_start": null, "source_id": "work:92b539b35cb4aff3"}
 {"claim_id": "claim:dc4fd128d4ee2f7a", "quote_span_end": null, "quote_span_start": null, "source_id": "work:e9f954a4f17fd9ec"}
 {"claim_id": "claim:dc54dba367500a0f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:e9f954a4f17fd9ec"}
 {"claim_id": "claim:dc8f3e0ca6f75708", "quote_span_end": null, "quote_span_start": null, "source_id": "work:94d6d4a238487009"}

@@ -6,6 +6,7 @@ Fetches pages, extracts text + outbound links, and respects allowed domains + de
 from __future__ import annotations
 
 import logging
+import re
 import time
 from collections import deque
 from dataclasses import dataclass, field
@@ -210,14 +211,25 @@ class WebCrawler:
 
             # Fix mojibake: requests defaults to ISO-8859-1 when no charset
             # is declared in the Content-Type header (RFC 2616). This mangles
-            # Windows-1251/Cyrillic and other non-Latin-1 pages. Fall back to
-            # chardet/charset_normalizer detection via apparent_encoding.
+            # Windows-1251/Cyrillic and other non-Latin-1 pages. Try in order:
+            #   1. HTML <meta charset> tag (most reliable — author-declared)
+            #   2. chardet/charset_normalizer via apparent_encoding
             if response.encoding is None or response.encoding.lower() in (
                 "iso-8859-1", "latin-1", "latin1",
             ):
-                detected = response.apparent_encoding
-                if detected:
-                    response.encoding = detected
+                meta_charset = None
+                head = response.content[:4096]
+                m = re.search(
+                    rb'charset=["\']?([\w-]+)', head, re.IGNORECASE,
+                )
+                if m:
+                    meta_charset = m.group(1).decode("ascii", errors="ignore")
+                if meta_charset:
+                    response.encoding = meta_charset
+                else:
+                    detected = response.apparent_encoding
+                    if detected:
+                        response.encoding = detected
 
             page = self._parse_page(url, response.text)
             self.pages.append(page)

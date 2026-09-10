@@ -201,6 +201,10 @@
 {"dst_id": "claim:ab9f6c67d81da420", "metadata": {"reason": "opposite stances: supportive vs critical"}, "rel_type": "CONTRADICTS", "src_id": "claim:09502e13c293aa67"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/"}, "rel_type": "ABOUT", "src_id": "claim:096d3afe9b8f9109"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:096d3afe9b8f9109"}
+{"dst_id": "person:niu-baoyuan", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:09e3117013302f96"}
+{"dst_id": "person:wang-yongquan", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:09e3117013302f96"}
+{"dst_id": "person:yan-weiwen", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:09e3117013302f96"}
+{"dst_id": "person:\u607d\u6d77\u804a\u751f\u6d3b", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ASSERTED_BY", "src_id": "claim:09e3117013302f96"}
 {"dst_id": "group:red-boat", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam"}, "rel_type": "ABOUT", "src_id": "claim:0a24cff914c0a6fa"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam"}, "rel_type": "ASSERTED_BY", "src_id": "claim:0a24cff914c0a6fa"}
 {"dst_id": "group:american-jujitsu-institute", "metadata": {"asserted_by": "kkron", "source": "kkron://personal-communication/kufferath-nadeau-bunch"}, "rel_type": "MENTIONS", "src_id": "claim:0a48f3c6a3dbbdad"}
@@ -262,6 +266,8 @@
 {"dst_id": "person:dan-cummins", "metadata": {"evidence": "https://podscripts.co/podcasts/timesuck-with-dan-cummins/161-the-source-family-cult"}, "rel_type": "ASSERTED_BY", "src_id": "claim:0d748c45fd023b00"}
 {"dst_id": "claim:4c8c79014243939f", "metadata": {"reason": "opposite stances: critical vs supportive"}, "rel_type": "CONTRADICTS", "src_id": "claim:0d748c45fd023b00"}
 {"dst_id": "claim:81ae2e31ee54c666", "metadata": {"reason": "opposite stances: critical vs self-mythologizing"}, "rel_type": "CONTRADICTS", "src_id": "claim:0d748c45fd023b00"}
+{"dst_id": "group:\u90e8\u961f\u6587\u827a\u521b\u4f5c\u9009", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:0e6331ec93fc081d"}
+{"dst_id": "person:wang-yongquan", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:0e6331ec93fc081d"}
 {"dst_id": "person:peter-ralston", "metadata": {"evidence": "https://chenghsin.com/origins-interview-with-peter-ralston/"}, "rel_type": "ABOUT", "src_id": "claim:0f423d247a653d15"}
 {"dst_id": "person:peter-ralston", "metadata": {"evidence": "https://chenghsin.com/origins-interview-with-peter-ralston/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:0f423d247a653d15"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99"}, "rel_type": "ABOUT", "src_id": "claim:0f66784d35ce3a06"}
@@ -376,6 +382,9 @@
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.easyhindityping.com/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:171b3ebc7d5d253f"}
 {"dst_id": "group:ya-ho-wha-13", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ABOUT", "src_id": "claim:1746e9685ae3c0dc"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ASSERTED_BY", "src_id": "claim:1746e9685ae3c0dc"}
+{"dst_id": "person:niu-baoyuan", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:17c7f09cc7839b01"}
+{"dst_id": "person:wang-yongquan", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:17c7f09cc7839b01"}
+{"dst_id": "person:\u9ca8\u9c7c\u661f\u5c0f\u6e38\u620f", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ASSERTED_BY", "src_id": "claim:17c7f09cc7839b01"}
 {"dst_id": "group:district-attorney", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117656408.html"}, "rel_type": "ABOUT", "src_id": "claim:17fa9726e77f53ad"}
 {"dst_id": "person:sullivan-walter", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117656408.html"}, "rel_type": "ABOUT", "src_id": "claim:17fa9726e77f53ad"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117656408.html"}, "rel_type": "ASSERTED_BY", "src_id": "claim:17fa9726e77f53ad"}
@@ -1204,6 +1213,7 @@
 {"dst_id": "claim:f1a0e7a25c443e51", "metadata": {"reason": "opposite stances: supportive vs critical"}, "rel_type": "CONTRADICTS", "src_id": "claim:2fd4ce73b767fe23"}
 {"dst_id": "claim:f1c4430149797c17", "metadata": {"reason": "opposite stances: supportive vs critical"}, "rel_type": "CONTRADICTS", "src_id": "claim:2fd4ce73b767fe23"}
 {"dst_id": "claim:fc7080694278b165", "metadata": {"reason": "opposite stances: supportive vs critical"}, "rel_type": "CONTRADICTS", "src_id": "claim:2fd4ce73b767fe23"}
+{"dst_id": "group:\u90e8\u961f\u6587\u827a\u521b\u4f5c\u9009", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:2fffda0b108e124d"}
 {"dst_id": "group:isis-aquarian-s-family", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:3047e547b13f3196"}
 {"dst_id": "person:isis-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:3047e547b13f3196"}
 {"dst_id": "group:superhealth", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/"}, "rel_type": "ABOUT", "src_id": "claim:307930ab8393fa4f"}
@@ -2112,6 +2122,9 @@
 {"dst_id": "person:taso-g-lagos", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99"}, "rel_type": "ASSERTED_BY", "src_id": "claim:4e9f242ff9eb80e5"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ABOUT", "src_id": "claim:4f16b7071f8f900f"}
 {"dst_id": "person:diana-hubbell", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ASSERTED_BY", "src_id": "claim:4f16b7071f8f900f"}
+{"dst_id": "person:niu-baoyuan", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:4f295937f56218bd"}
+{"dst_id": "person:wang-yongquan", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:4f295937f56218bd"}
+{"dst_id": "person:\u5e10\u53f7\u5df2\u6ce8\u9500", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ASSERTED_BY", "src_id": "claim:4f295937f56218bd"}
 {"dst_id": "person:thu\u1eadn-an-t\u01b0\u01a1ng-\u1edbt-l\u00e0ng-ta", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam"}, "rel_type": "ABOUT", "src_id": "claim:4f3911714028854e"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam"}, "rel_type": "ASSERTED_BY", "src_id": "claim:4f3911714028854e"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://blog.darkthread.net/blog/vibe-coding-case/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:4fe35bf1bb0a5df7"}
@@ -2898,6 +2911,8 @@
 {"dst_id": "claim:a89e44957dd8d93d", "metadata": {"reason": "opposite stances: supportive vs critical"}, "rel_type": "CONTRADICTS", "src_id": "claim:73edaca5da0fb518"}
 {"dst_id": "claim:ab9f6c67d81da420", "metadata": {"reason": "opposite stances: supportive vs critical"}, "rel_type": "CONTRADICTS", "src_id": "claim:73edaca5da0fb518"}
 {"dst_id": "claim:bef1b9287e163a23", "metadata": {"reason": "opposite stances: supportive vs critical"}, "rel_type": "CONTRADICTS", "src_id": "claim:73edaca5da0fb518"}
+{"dst_id": "person:mao-zedong", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:74004e9bbbbe848c"}
+{"dst_id": "place:\u5317\u4eac", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:74004e9bbbbe848c"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://ai-ki-do.org/robert-nadeau"}, "rel_type": "ABOUT", "src_id": "claim:74abd0f1d3e93cb1"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://ai-ki-do.org/robert-nadeau"}, "rel_type": "ASSERTED_BY", "src_id": "claim:74abd0f1d3e93cb1"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family"}, "rel_type": "ABOUT", "src_id": "claim:74edac881e3a4a72"}
@@ -3140,6 +3155,8 @@
 {"dst_id": "group:hindi", "metadata": {"evidence": "https://www.easyhindityping.com/"}, "rel_type": "ABOUT", "src_id": "claim:7ae1a072c4e06d84"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.easyhindityping.com/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:7ae1a072c4e06d84"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://blog.darkthread.net/blog/vibe-coding-case/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:7c0baf5e9b2cfda3"}
+{"dst_id": "group:\u603b\u653f\u6b4c\u821e\u56e2\u5408\u5531\u961f", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:7c1482be55b8321d"}
+{"dst_id": "person:\u6210\u98de\u6c896e", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ASSERTED_BY", "src_id": "claim:7c1482be55b8321d"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/"}, "rel_type": "ABOUT", "src_id": "claim:7d37866ef24e37ca"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:7d37866ef24e37ca"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://podscripts.co/podcasts/timesuck-with-dan-cummins/161-the-source-family-cult"}, "rel_type": "ABOUT", "src_id": "claim:7d5e972fd5455062"}
@@ -4117,6 +4134,9 @@
 {"dst_id": "claim:4c8c79014243939f", "metadata": {"reason": "opposite stances: critical vs supportive"}, "rel_type": "CONTRADICTS", "src_id": "claim:a2e5ea6b244a312e"}
 {"dst_id": "claim:4e8d2581df6a52a5", "metadata": {"reason": "opposite stances: critical vs self-mythologizing"}, "rel_type": "CONTRADICTS", "src_id": "claim:a2e5ea6b244a312e"}
 {"dst_id": "claim:6b861fde8e1d6537", "metadata": {"reason": "opposite stances: critical vs self-mythologizing"}, "rel_type": "CONTRADICTS", "src_id": "claim:a2e5ea6b244a312e"}
+{"dst_id": "group:\u65b0\u4e00\u4ee3\u519b\u4eba", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:a31f590fefa807f1"}
+{"dst_id": "person:null", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ASSERTED_BY", "src_id": "claim:a31f590fefa807f1"}
+{"dst_id": "person:\u7403\u573a\u98ce\u4e91", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ASSERTED_BY", "src_id": "claim:a31f590fefa807f1"}
 {"dst_id": "group:bytedance", "metadata": {"evidence": "https://doubao.aigc.cn/"}, "rel_type": "ABOUT", "src_id": "claim:a39f053b50fe88d8"}
 {"dst_id": "group:doubao", "metadata": {"evidence": "https://doubao.aigc.cn/"}, "rel_type": "ABOUT", "src_id": "claim:a39f053b50fe88d8"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://doubao.aigc.cn/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:a39f053b50fe88d8"}
@@ -4593,6 +4613,9 @@
 {"dst_id": "person:adroit", "metadata": {"evidence": "https://comicvine.gamespot.com/conan/4005-2438/"}, "rel_type": "ABOUT", "src_id": "claim:afbf1081cc794c8b"}
 {"dst_id": "person:conan", "metadata": {"evidence": "https://comicvine.gamespot.com/conan/4005-2438/"}, "rel_type": "ABOUT", "src_id": "claim:afbf1081cc794c8b"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://comicvine.gamespot.com/conan/4005-2438/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:afbf1081cc794c8b"}
+{"dst_id": "person:niu-baoyuan", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:aff7788faf5b74cd"}
+{"dst_id": "person:wang-yongquan", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:aff7788faf5b74cd"}
+{"dst_id": "person:\u7403\u573a\u98ce\u4e91", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ASSERTED_BY", "src_id": "claim:aff7788faf5b74cd"}
 {"dst_id": "person:sullivan-walter", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117656408.html"}, "rel_type": "ABOUT", "src_id": "claim:b01ce834269f8b28"}
 {"dst_id": "person:sullivan-walter", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117656408.html"}, "rel_type": "ASSERTED_BY", "src_id": "claim:b01ce834269f8b28"}
 {"dst_id": "person:morihei-ueshiba", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/"}, "rel_type": "ABOUT", "src_id": "claim:b033c2a69480e5bb"}
@@ -4622,6 +4645,9 @@
 {"dst_id": "person:peter-ralston", "metadata": {"evidence": "https://www.penguin.co.nz/authors/peter-ralston"}, "rel_type": "ABOUT", "src_id": "claim:b2c37d68fe0c9738"}
 {"dst_id": "place:oakland-california", "metadata": {"evidence": "https://www.penguin.co.nz/authors/peter-ralston"}, "rel_type": "ABOUT", "src_id": "claim:b2c37d68fe0c9738"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.penguin.co.nz/authors/peter-ralston"}, "rel_type": "ASSERTED_BY", "src_id": "claim:b2c37d68fe0c9738"}
+{"dst_id": "group:yandex", "metadata": {"evidence": "https://zhidao.baidu.com/question/725567645356284605.html"}, "rel_type": "ABOUT", "src_id": "claim:b2eda79eed377d8a"}
+{"dst_id": "group:\u534e\u4fc4\u56fd\u9645\u5546\u52a1-\u5317\u4eac-\u6709\u9650\u516c\u53f8", "metadata": {"evidence": "https://zhidao.baidu.com/question/725567645356284605.html"}, "rel_type": "ABOUT", "src_id": "claim:b2eda79eed377d8a"}
+{"dst_id": "person:\u534e\u4fc4\u56fd\u9645\u5546\u52a1", "metadata": {"evidence": "https://zhidao.baidu.com/question/725567645356284605.html"}, "rel_type": "ASSERTED_BY", "src_id": "claim:b2eda79eed377d8a"}
 {"dst_id": "person:o-neal", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117656408.html"}, "rel_type": "ABOUT", "src_id": "claim:b2fe3e769473fab8"}
 {"dst_id": "person:walter-two-court", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117656408.html"}, "rel_type": "ASSERTED_BY", "src_id": "claim:b2fe3e769473fab8"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ABOUT", "src_id": "claim:b32b3ed371ffcba7"}
@@ -5377,6 +5403,12 @@
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99"}, "rel_type": "ASSERTED_BY", "src_id": "claim:d79dfef7958f78a2"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ABOUT", "src_id": "claim:d8ac3404a9c1de64"}
 {"dst_id": "person:rick-rubin", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant"}, "rel_type": "ASSERTED_BY", "src_id": "claim:d8ac3404a9c1de64"}
+{"dst_id": "person:niu-baoyuan", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:d8d2c8b797f60ccd"}
+{"dst_id": "group:\u90e8\u961f", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:d8dd4919b2d2c08b"}
+{"dst_id": "person:niu-baoyuan", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:d8dd4919b2d2c08b"}
+{"dst_id": "place:\u5927\u8fde\u6d77\u6ee8", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:d8dd4919b2d2c08b"}
+{"dst_id": "place:\u8fbd\u5b81\u7701\u5317\u9547\u53bf", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:d8dd4919b2d2c08b"}
+{"dst_id": "place:\u9ec4\u9f99\u5c3e", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "ABOUT", "src_id": "claim:d8dd4919b2d2c08b"}
 {"dst_id": "group:ya-ho-wha-13", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars"}, "rel_type": "ABOUT", "src_id": "claim:d99241059be158cc"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars"}, "rel_type": "ASSERTED_BY", "src_id": "claim:d99241059be158cc"}
 {"dst_id": "person:james-edward-baker", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ABOUT", "src_id": "claim:da1e341a36da415a"}
@@ -13943,6 +13975,7 @@
 {"dst_id": "group:united-nations", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "group:3ho"}
 {"dst_id": "place:mountain-view", "metadata": {"evidence": "https://ai-ki-do.org/robert-nadeau", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:aikido-of-mountain-view"}
 {"dst_id": "place:san-jose", "metadata": {"evidence": "https://ai-ki-do.org/robert-nadeau", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:aikido-of-san-jose"}
+{"dst_id": "place:500-howard-street-san-francisco-california-u-s", "metadata": {"evidence": "https://claude.ai/login-Claude", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:anthropic-pbc"}
 {"dst_id": "place:georgia", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:atlanta-pop-festival"}
 {"dst_id": "group:gastro-obscura-and-atlas-obscura-event", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "group:atlas-obscura"}
 {"dst_id": "place:los-angeles", "metadata": {"evidence": "https://military-history.fandom.com/wiki/Father_Yod", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:aware-inn"}
@@ -14156,11 +14189,14 @@
 {"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "group:ya-ho-wha-13"}
 {"dst_id": "group:ya-ho-wa-13", "metadata": {"relationship": "contemporary open-jam continuation"}, "rel_type": "MENTIONS", "src_id": "group:yahowha33"}
 {"dst_id": "group:yahowha13", "metadata": {"note": "YaHoWha33 is an open band of YaHoWha13 fans jamming with Djin"}, "rel_type": "MENTIONS", "src_id": "group:yahowha33"}
+{"dst_id": "place:\u4fc4\u7f57\u65af", "metadata": {"evidence": "https://zhidao.baidu.com/question/725567645356284605.html", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:yandex"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "group:\u00e1i-ngh\u0129a"}
 {"dst_id": "place:qu\u1ea3ng-nam-province", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:\u00e1i-ngh\u0129a"}
 {"dst_id": "place:southeast-asia", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:\u00e1i-ngh\u0129a"}
 {"dst_id": "place:\u0111\u1ea1i-l\u1ed9c", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:\u00e1i-ngh\u0129a"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.oribe-jp.co.jp/mission/fdgrip/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "group:\u30b7\u30e5\u30cd\u30eb\u793e"}
+{"dst_id": "place:\u6771\u4eac\u90fd\u6771\u5927\u548c\u5e02\u5357\u8857\uff15\u4e01\u76ee\uff19-\uff13", "metadata": {"evidence": "https://everpet.jp/salon/detail/31768", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:\u30da\u30c3\u30c8\u30b5\u30ed\u30f3\u30da\u30c3\u30d1\u30fc"}
+{"dst_id": "place:\u5317\u4eac", "metadata": {"evidence": "https://zhidao.baidu.com/question/725567645356284605.html", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:\u534e\u4fc4\u56fd\u9645\u5546\u52a1-\u5317\u4eac-\u6709\u9650\u516c\u53f8"}
 {"dst_id": "group:youtube", "metadata": {"evidence": "https://blog.darkthread.net/blog/vibe-coding-case/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:\u5beb\u5b57\u7df4\u5fc3"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.oribe-jp.co.jp/mission/fdgrip/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "group:\u682a\u5f0f\u4f1a\u793e\u30aa\u30ea\u30d9"}
 {"dst_id": "place:\u5927\u962a\u4e09\u4e95\u7269\u7523\u30d3\u30eb", "metadata": {"evidence": "https://www.oribe-jp.co.jp/mission/fdgrip/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:\u682a\u5f0f\u4f1a\u793e\u30aa\u30ea\u30d9"}
@@ -14537,6 +14573,9 @@
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:natalie-alkiviadou"}
 {"dst_id": "group:kpfa-radio-show-over-the-edge", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:negativland"}
 {"dst_id": "group:thu\u1eadn-an", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:nguy\u1ec5n-v\u0103n-tr\u1ecdng"}
+{"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:niu-baoyuan"}
+{"dst_id": "place:\u8fbd\u5b81\u7701\u5317\u9547\u53bf", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:niu-baoyuan"}
+{"dst_id": "group:\u90e8\u961f", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:niu-baoyuan"}
 {"dst_id": "group:aikikai-hombu-dojo", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:nobuyoshi-tamura"}
 {"dst_id": "group:aikikai-hombu-dojo", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:norihiko-ichihashi"}
 {"dst_id": "group:new-orleans-police-department", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117656408.html", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:o-neal"}
@@ -14727,6 +14766,7 @@
 {"dst_id": "group:ya-ho-wha-13", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:vincent-gallo"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://blog.darkthread.net/blog/github-copilot-hang/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:waderyan"}
 {"dst_id": "group:western-martial-artists", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:wang-shu-chin"}
+{"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:wang-yongquan"}
 {"dst_id": "group:aikido-and-words-of-power", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:william-gleason"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://quantumaikido.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:william-isaacs"}
 {"dst_id": "group:nature-boys", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:william-pester"}
@@ -14835,6 +14875,8 @@
 {"dst_id": "group:\u0438\u043d\u0442\u0435\u0440\u043d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u0430\u044f-\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u044f-\u0430\u0439\u043a\u0438\u0434\u043e-\u0430\u0439\u043a\u0438\u043a\u0430\u0439-\u0440\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438-\u0442\u0430\u0442\u0430\u0440\u0441\u0442\u0430\u043d", "metadata": {"evidence": "https://rebenok-na-aikido.ru/", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:\u0441\u0438\u0432\u043a\u043e\u0432-\u0430\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440-\u043b\u0435\u043e\u043d\u0438\u0434\u043e\u0432\u0438\u0447"}
 {"dst_id": "group:\u0444\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0439-\u0430\u043b\u044c\u044f\u043d\u0441-\u0431\u0443\u0434\u0436\u0438\u0442\u0441\u0443-\u0440\u043e\u0441\u0441\u0438\u0438", "metadata": {"evidence": "https://rebenok-na-aikido.ru/", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:\u0441\u0438\u0432\u043a\u043e\u0432-\u0430\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440-\u043b\u0435\u043e\u043d\u0438\u0434\u043e\u0432\u0438\u0447"}
 {"dst_id": "group:\u0438\u043d\u0442\u0435\u0440\u043d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u0430\u044f-\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u044f-\u0430\u0439\u043a\u0438\u0434\u043e-\u0430\u0439\u043a\u0438\u043a\u0430\u0439-\u0440\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438-\u0442\u0430\u0442\u0430\u0440\u0441\u0442\u0430\u043d", "metadata": {"evidence": "https://rebenok-na-aikido.ru/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:\u0441\u0438\u0432\u043a\u043e\u0432-\u0430\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440-\u043b\u0435\u043e\u043d\u0438\u0434\u043e\u0432\u0438\u0447"}
+{"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:\u725b\u5b9d\u6e90"}
+{"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:\u738b\u6c38\u6cc9"}
 {"dst_id": "place:sunset-strip", "metadata": {"note": "The Source restaurant on the Sunset Strip"}, "rel_type": "LOCATED_IN", "src_id": "place-the-source"}
 {"dst_id": "place:los-angeles", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:8301-sunset-boulevard"}
 {"dst_id": "place:saudi-arabia", "metadata": {"evidence": "https://allevents.in/cebu-ph/sports", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:al-khobar"}
@@ -14902,6 +14944,8 @@
 {"dst_id": "place:cebu-city", "metadata": {"evidence": "https://allevents.in/cebu-ph/sports", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:yati-elementary-school"}
 {"dst_id": "place:\u043a\u0430\u0437\u0430\u043d\u044c", "metadata": {"evidence": "https://rebenok-na-aikido.ru/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:\u043e\u0441\u0446-\u043a\u0433\u043c\u0443"}
 {"dst_id": "place:\u043a\u0430\u0437\u0430\u043d\u044c", "metadata": {"evidence": "https://rebenok-na-aikido.ru/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:\u0448\u043a\u043e\u043b\u0430-80"}
+{"dst_id": "place:\u8fbd\u5b81\u7701", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:\u5317\u9547\u53bf"}
+{"dst_id": "place:\u5927\u8fde\u6d77\u6ee8", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:\u9ec4\u9f99\u5c3e"}
 {"dst_id": "group:new-aquarians", "metadata": {"type": "primary_subject"}, "rel_type": "MENTIONS", "src_id": "source:pbs-artbound-new-aquarians"}
 {"dst_id": "person-isis-aquarian", "metadata": {"type": "subject"}, "rel_type": "MENTIONS", "src_id": "source:pbs-artbound-new-aquarians"}
 {"dst_id": "person-jim-baker-father-yod", "metadata": {"type": "subject"}, "rel_type": "MENTIONS", "src_id": "source:pbs-artbound-new-aquarians"}
@@ -15006,6 +15050,10 @@
 {"dst_id": "person:peter-ralston", "metadata": {"evidence": "https://www.penguin.co.nz/authors/peter-ralston"}, "rel_type": "MENTIONS", "src_id": "work:04dc5debe9b504ea"}
 {"dst_id": "place:oakland-california", "metadata": {"evidence": "https://www.penguin.co.nz/authors/peter-ralston"}, "rel_type": "MENTIONS", "src_id": "work:04dc5debe9b504ea"}
 {"dst_id": "image:32429172730e451bb93c8ecc8fdba768fcc3e2783b6aa48eb7fd985bdce9e8d4", "metadata": {"evidence": "https://claude.ai/login-Claude"}, "rel_type": "DEPICTS", "src_id": "work:05d6fb4ba8b7e338"}
+{"dst_id": "group:anthropic-pbc", "metadata": {"evidence": "https://claude.ai/login-Claude"}, "rel_type": "MENTIONS", "src_id": "work:05d6fb4ba8b7e338"}
+{"dst_id": "group:aws-cloud-services", "metadata": {"evidence": "https://claude.ai/login-Claude"}, "rel_type": "MENTIONS", "src_id": "work:05d6fb4ba8b7e338"}
+{"dst_id": "person:dario-amodei", "metadata": {"evidence": "https://claude.ai/login-Claude"}, "rel_type": "MENTIONS", "src_id": "work:05d6fb4ba8b7e338"}
+{"dst_id": "place:500-howard-street-san-francisco-california-u-s", "metadata": {"evidence": "https://claude.ai/login-Claude"}, "rel_type": "MENTIONS", "src_id": "work:05d6fb4ba8b7e338"}
 {"dst_id": "claim:1d02cdd6d76c6a40", "metadata": {"evidence": "https://www.nadeaushihan.com/"}, "rel_type": "CONTAINS", "src_id": "work:060b9f3e83672906"}
 {"dst_id": "claim:213846e8570d1744", "metadata": {"evidence": "https://www.nadeaushihan.com/"}, "rel_type": "CONTAINS", "src_id": "work:060b9f3e83672906"}
 {"dst_id": "claim:22b987daa685326e", "metadata": {"evidence": "https://www.nadeaushihan.com/"}, "rel_type": "CONTAINS", "src_id": "work:060b9f3e83672906"}
@@ -16869,6 +16917,9 @@
 {"dst_id": "place:the-mountains", "metadata": {"evidence": "https://chenghsin.com/origins-interview-with-peter-ralston/"}, "rel_type": "MENTIONS", "src_id": "work:1b3fd7e232200bb3"}
 {"dst_id": "place:wales", "metadata": {"evidence": "https://chenghsin.com/origins-interview-with-peter-ralston/"}, "rel_type": "MENTIONS", "src_id": "work:1b3fd7e232200bb3"}
 {"dst_id": "image:8a84b17890fe3c54621989a89a43b95f9c55f4d5b2f3af4c87b567213b356b9e", "metadata": {"evidence": "https://www.hostinger.com/hk/whois"}, "rel_type": "DEPICTS", "src_id": "work:1c23b8dfd3270e1f"}
+{"dst_id": "group:hostinger", "metadata": {"evidence": "https://www.hostinger.com/hk/whois"}, "rel_type": "MENTIONS", "src_id": "work:1c23b8dfd3270e1f"}
+{"dst_id": "group:icann", "metadata": {"evidence": "https://www.hostinger.com/hk/whois"}, "rel_type": "MENTIONS", "src_id": "work:1c23b8dfd3270e1f"}
+{"dst_id": "place:\u6b27\u76df", "metadata": {"evidence": "https://www.hostinger.com/hk/whois"}, "rel_type": "MENTIONS", "src_id": "work:1c23b8dfd3270e1f"}
 {"dst_id": "image:17e55ec1420f965ee75794425b9cf097c3a06f34b583d79b10d3be0681744d76", "metadata": {"evidence": "https://www.goodreturns.in/gold-rates/ramanathapuram.html"}, "rel_type": "DEPICTS", "src_id": "work:1ddbe0773c1b5b94"}
 {"dst_id": "image:1be4c2bd7dda99fe4b3ca5937f407c98eb71931bade67afb6139b4d53a7b3526", "metadata": {"evidence": "https://blog.sejda.com/"}, "rel_type": "DEPICTS", "src_id": "work:1dec9e1c81cf5c56"}
 {"dst_id": "image:1c3b973385c23fc8c3c1f3e9c2192071b9602ecf0afb568eeb61a7315125df84", "metadata": {"evidence": "https://blog.sejda.com/"}, "rel_type": "DEPICTS", "src_id": "work:1dec9e1c81cf5c56"}
@@ -17154,6 +17205,7 @@
 {"dst_id": "image:83e7c3ecd564de7d2c8991ea9de24ade0aeb9a77e4a92880b387ae89c653fba5", "metadata": {"evidence": "https://encikhotel.com/panduan/tempat-percutian-menarik-di-malaysia/"}, "rel_type": "DEPICTS", "src_id": "work:284b0e7c0037382d"}
 {"dst_id": "image:898e0f595ff9d48a04c07d4840c5abc998b8856a828ba488dbafeb76c31094ed", "metadata": {"evidence": "https://encikhotel.com/panduan/tempat-percutian-menarik-di-malaysia/"}, "rel_type": "DEPICTS", "src_id": "work:284b0e7c0037382d"}
 {"dst_id": "image:2e94b328ae907f8f5da59b14268ca02249c528580ae38abe775549c9868d86d5", "metadata": {"evidence": "https://t-kizai.co.jp/order/2_304.html"}, "rel_type": "DEPICTS", "src_id": "work:29ba78f78b1fbe87"}
+{"dst_id": "group:baidu", "metadata": {"evidence": "https://zhidao.baidu.com/home/partnerhome"}, "rel_type": "MENTIONS", "src_id": "work:2cd9e0762828b854"}
 {"dst_id": "image:3ea0c69d127bd9af991f1aa90ae6c6271262a6837325bcd987d0cdd036483ad6", "metadata": {"evidence": "https://www.youtube.com/watch?v=jWeV3nZGCeQ"}, "rel_type": "DEPICTS", "src_id": "work:2d0d160215f452a0"}
 {"dst_id": "image:39149d11770a259218c129cf90ccfa40e89e4f59c7893aefcc593ad4edfc49f6", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Microsoft"}, "rel_type": "DEPICTS", "src_id": "work:2eb8f51c503dbb28"}
 {"dst_id": "image:60296e457a5ddbe4b14ba629adb90ae7fd479de11a2ba6dcbadf6cc463e77d93", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Microsoft"}, "rel_type": "DEPICTS", "src_id": "work:2eb8f51c503dbb28"}
@@ -17725,13 +17777,39 @@
 {"dst_id": "event:next-he-traveled-to-hawaii-india-hong-kong-and-japan-he-studied-various-disciplines-including-yoga-and-martial-a", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Dan_Millman"}, "rel_type": "DESCRIBES", "src_id": "work:38dfe39d96df0fd0"}
 {"dst_id": "place:los-angeles", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Dan_Millman"}, "rel_type": "MENTIONS", "src_id": "work:38dfe39d96df0fd0"}
 {"dst_id": "place:san-francisco", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Dan_Millman"}, "rel_type": "MENTIONS", "src_id": "work:38dfe39d96df0fd0"}
+{"dst_id": "claim:09e3117013302f96", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "CONTAINS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "claim:0e6331ec93fc081d", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "CONTAINS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "claim:17c7f09cc7839b01", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "CONTAINS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "claim:2fffda0b108e124d", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "CONTAINS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "claim:4f295937f56218bd", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "CONTAINS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "claim:74004e9bbbbe848c", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "CONTAINS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "claim:7c1482be55b8321d", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "CONTAINS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "claim:a31f590fefa807f1", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "CONTAINS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "claim:aff7788faf5b74cd", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "CONTAINS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "claim:d8d2c8b797f60ccd", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "CONTAINS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "claim:d8dd4919b2d2c08b", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "CONTAINS", "src_id": "work:3c03ea12e3c2486d"}
 {"dst_id": "image:2bf853ac50ef7e013a321ac1c9150e2a07d30715b78d8a791e8169a08abda520", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "DEPICTS", "src_id": "work:3c03ea12e3c2486d"}
 {"dst_id": "image:513b54d82dde444aa25f0043f4751294575ce8d777f39e48e752f033fb75b5d9", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "DEPICTS", "src_id": "work:3c03ea12e3c2486d"}
 {"dst_id": "image:704ee43b90887cabf886ab97011ebb77eb8ffff31ac4e0ceb3efacd795f2eb22", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "DEPICTS", "src_id": "work:3c03ea12e3c2486d"}
 {"dst_id": "image:c281739d824745f604f96ca6f119d603a5e7328f2a42698b0de5d38686182b6a", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "DEPICTS", "src_id": "work:3c03ea12e3c2486d"}
 {"dst_id": "image:c3abcbf03e309a4054f7a88fbfcad75a35cc6d9401a99104cfc1cfb7d0e3dfb6", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "DEPICTS", "src_id": "work:3c03ea12e3c2486d"}
-{"dst_id": "image:e1dddd16f767e41e89e57824f7d9e561542c5b6d193bd194202f39f47ae60fd2", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "DEPICTS", "src_id": "work:3c03ea12e3c2486d"}
 {"dst_id": "image:e39644aa054501a8912aac6724e91f09435b76f86736d6ab87319e24dae116e1", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "DEPICTS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "event:creation-of-niu-baoyuan-s-poem", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "DESCRIBES", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "event:military-live-fire-training", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "DESCRIBES", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "event:niu-baoyuan-s-enlistment", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "DESCRIBES", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "event:publication-of-niu-baoyuan-s-poem", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "DESCRIBES", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "event:wang-yongquan-composes-\u6253\u9776\u5f52\u6765", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "DESCRIBES", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "group:\u603b\u653f\u6b4c\u821e\u56e2\u5408\u5531\u961f", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "MENTIONS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "group:\u90e8\u961f", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "MENTIONS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "group:\u90e8\u961f\u6587\u827a\u521b\u4f5c\u9009", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "MENTIONS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "person:mao-zedong", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "MENTIONS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "person:niu-baoyuan", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "MENTIONS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "person:wang-yongquan", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "MENTIONS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "person:yan-weiwen", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "MENTIONS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "place:\u5317\u4eac", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "MENTIONS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "place:\u5927\u8fde\u6d77\u6ee8", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "MENTIONS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "place:\u8fbd\u5b81\u7701\u5317\u9547\u53bf", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "MENTIONS", "src_id": "work:3c03ea12e3c2486d"}
+{"dst_id": "place:\u9ec4\u9f99\u5c3e", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html"}, "rel_type": "MENTIONS", "src_id": "work:3c03ea12e3c2486d"}
 {"dst_id": "claim:citation:8b3e7a083f57ed92", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "CONTAINS", "src_id": "work:3ceaefb5ffac8d5b"}
 {"dst_id": "claim:citation:9e4fdd5ededc04a8", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "CONTAINS", "src_id": "work:3ceaefb5ffac8d5b"}
 {"dst_id": "claim:citation:e47fb42e5b9a39df", "metadata": {"evidence": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"}, "rel_type": "CONTAINS", "src_id": "work:3ceaefb5ffac8d5b"}
@@ -17918,7 +17996,6 @@
 {"dst_id": "event:the-first-of-the-2-main-events-tonight", "metadata": {"evidence": "https://comicvine.gamespot.com/forums/battles-7/unwritten-season-25-the-dream-arena-second-main-ev-2384030/"}, "rel_type": "DESCRIBES", "src_id": "work:4b04424018416c9a"}
 {"dst_id": "place:the-arena", "metadata": {"evidence": "https://comicvine.gamespot.com/forums/battles-7/unwritten-season-25-the-dream-arena-second-main-ev-2384030/"}, "rel_type": "MENTIONS", "src_id": "work:4b04424018416c9a"}
 {"dst_id": "place:the-dream-arena-main-stage", "metadata": {"evidence": "https://comicvine.gamespot.com/forums/battles-7/unwritten-season-25-the-dream-arena-second-main-ev-2384030/"}, "rel_type": "MENTIONS", "src_id": "work:4b04424018416c9a"}
-{"dst_id": "image:32429172730e451bb93c8ecc8fdba768fcc3e2783b6aa48eb7fd985bdce9e8d4", "metadata": {"evidence": "https://claude.ai/"}, "rel_type": "DEPICTS", "src_id": "work:4c1282370971cad9"}
 {"dst_id": "work:0484061e6a4e5e53", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on http://www.culteducation.com/whats-new.html"}, "rel_type": "MENTIONS", "src_id": "work:4e7be8a68dfc818f"}
 {"dst_id": "work:0cd771cc0f11084a", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on http://www.culteducation.com/whats-new.html"}, "rel_type": "MENTIONS", "src_id": "work:4e7be8a68dfc818f"}
 {"dst_id": "work:1dfcf4e33adabe1f", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on http://www.culteducation.com/whats-new.html"}, "rel_type": "MENTIONS", "src_id": "work:4e7be8a68dfc818f"}
@@ -19365,10 +19442,6 @@
 {"dst_id": "image:d83eb3125bedb7473377dab40d7c1c55ddaa126057f3b53bb3e83f9faefcb88b", "metadata": {"evidence": "https://www.sejda.com/merge-pdf"}, "rel_type": "DEPICTS", "src_id": "work:8033965021b7b875"}
 {"dst_id": "image:769c3b58471aa41f32b468dfc841cd8ce6b1264c71199012cc6de1a291ceab0c", "metadata": {"evidence": "https://doubao.zube.cn/index.html"}, "rel_type": "DEPICTS", "src_id": "work:830cb08e1b8eaa41"}
 {"dst_id": "image:d3c7670fc7b0fa29132efbf27fe67e8ce5374d49051b126c3f62aa342ff07256", "metadata": {"evidence": "https://doubao.zube.cn/index.html"}, "rel_type": "DEPICTS", "src_id": "work:830cb08e1b8eaa41"}
-{"dst_id": "event:doubao-large-model-1-6-released", "metadata": {"evidence": "https://doubao.zube.cn/index.html"}, "rel_type": "DESCRIBES", "src_id": "work:830cb08e1b8eaa41"}
-{"dst_id": "event:intelligent-image-editing-4-0-online", "metadata": {"evidence": "https://doubao.zube.cn/index.html"}, "rel_type": "DESCRIBES", "src_id": "work:830cb08e1b8eaa41"}
-{"dst_id": "event:video-generation-function-open", "metadata": {"evidence": "https://doubao.zube.cn/index.html"}, "rel_type": "DESCRIBES", "src_id": "work:830cb08e1b8eaa41"}
-{"dst_id": "place:github", "metadata": {"evidence": "https://doubao.zube.cn/index.html"}, "rel_type": "MENTIONS", "src_id": "work:830cb08e1b8eaa41"}
 {"dst_id": "claim:663bd94fe2db7da6", "metadata": {"evidence": "https://miniwebtool.com/click-counter/"}, "rel_type": "CONTAINS", "src_id": "work:8639991e8a53cc63"}
 {"dst_id": "claim:92a420068cc9ec8b", "metadata": {"evidence": "https://miniwebtool.com/click-counter/"}, "rel_type": "CONTAINS", "src_id": "work:8639991e8a53cc63"}
 {"dst_id": "claim:d509ef5a1a1ea054", "metadata": {"evidence": "https://miniwebtool.com/click-counter/"}, "rel_type": "CONTAINS", "src_id": "work:8639991e8a53cc63"}
@@ -19514,12 +19587,6 @@
 {"dst_id": "image:9d2f9bffa7adf8d15243b2a6706924eec8922fcaf22aec81cf6488f6270fdd80", "metadata": {"evidence": "https://mobile-xvideos.com/tags/romantic-sex"}, "rel_type": "DEPICTS", "src_id": "work:909676fb6b3e2312"}
 {"dst_id": "image:b9e99a664df06b610c49c473b0e6e990f0e8ffe4eb2f72a5efd9b664c286b8ea", "metadata": {"evidence": "https://mobile-xvideos.com/tags/romantic-sex"}, "rel_type": "DEPICTS", "src_id": "work:909676fb6b3e2312"}
 {"dst_id": "image:f130f6d06e3b01bb976a4ce740f3d46efeb338e8ae83bec2e008616681ac5b66", "metadata": {"evidence": "https://mobile-xvideos.com/tags/romantic-sex"}, "rel_type": "DEPICTS", "src_id": "work:909676fb6b3e2312"}
-{"dst_id": "claim:189244cc17193ec4", "metadata": {"evidence": "https://doubao.aigc.cn/"}, "rel_type": "CONTAINS", "src_id": "work:92b539b35cb4aff3"}
-{"dst_id": "claim:a39f053b50fe88d8", "metadata": {"evidence": "https://doubao.aigc.cn/"}, "rel_type": "CONTAINS", "src_id": "work:92b539b35cb4aff3"}
-{"dst_id": "claim:dc3abddfe9f9f5d3", "metadata": {"evidence": "https://doubao.aigc.cn/"}, "rel_type": "CONTAINS", "src_id": "work:92b539b35cb4aff3"}
-{"dst_id": "group:bytedance", "metadata": {"evidence": "https://doubao.aigc.cn/"}, "rel_type": "MENTIONS", "src_id": "work:92b539b35cb4aff3"}
-{"dst_id": "group:bytedance-s-ai-lab", "metadata": {"evidence": "https://doubao.aigc.cn/"}, "rel_type": "MENTIONS", "src_id": "work:92b539b35cb4aff3"}
-{"dst_id": "group:doubao", "metadata": {"evidence": "https://doubao.aigc.cn/"}, "rel_type": "MENTIONS", "src_id": "work:92b539b35cb4aff3"}
 {"dst_id": "image:878476d09701508605e783f59388f9b43da8186fab200b3773c772be1c1e8bde", "metadata": {"evidence": "https://zhidao.baidu.com/question/278127107.html"}, "rel_type": "DEPICTS", "src_id": "work:93d4bd5d4cba4c4a"}
 {"dst_id": "claim:003c08a46edc5835", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family"}, "rel_type": "CONTAINS", "src_id": "work:93d9eaf6480fefc6"}
 {"dst_id": "claim:0afcb5e1ece1f06a", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family"}, "rel_type": "CONTAINS", "src_id": "work:93d9eaf6480fefc6"}
@@ -20238,7 +20305,15 @@
 {"dst_id": "work:fa98f79d7db03059", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on https://en.wikipedia.org/wiki/Father_Yod"}, "rel_type": "MENTIONS", "src_id": "work:99ca339cfd100a36"}
 {"dst_id": "work:fdf4548c41323f6a", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on https://en.wikipedia.org/wiki/Father_Yod"}, "rel_type": "MENTIONS", "src_id": "work:99ca339cfd100a36"}
 {"dst_id": "work:ff82da5f6af679e1", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on https://en.wikipedia.org/wiki/Father_Yod"}, "rel_type": "MENTIONS", "src_id": "work:99ca339cfd100a36"}
+{"dst_id": "claim:b2eda79eed377d8a", "metadata": {"evidence": "https://zhidao.baidu.com/question/725567645356284605.html"}, "rel_type": "CONTAINS", "src_id": "work:99ff356dad743b17"}
 {"dst_id": "image:66902b96ae971d239f7252974513ae81fd83771afb945fd89afe92613c741cfb", "metadata": {"evidence": "https://zhidao.baidu.com/question/725567645356284605.html"}, "rel_type": "DEPICTS", "src_id": "work:99ff356dad743b17"}
+{"dst_id": "event:yandex\u4e0euber\u6253\u8f66\u4e1a\u52a1\u5408\u5e76", "metadata": {"evidence": "https://zhidao.baidu.com/question/725567645356284605.html"}, "rel_type": "DESCRIBES", "src_id": "work:99ff356dad743b17"}
+{"dst_id": "group:uber", "metadata": {"evidence": "https://zhidao.baidu.com/question/725567645356284605.html"}, "rel_type": "MENTIONS", "src_id": "work:99ff356dad743b17"}
+{"dst_id": "group:yandex", "metadata": {"evidence": "https://zhidao.baidu.com/question/725567645356284605.html"}, "rel_type": "MENTIONS", "src_id": "work:99ff356dad743b17"}
+{"dst_id": "group:\u534e\u4fc4\u56fd\u9645\u5546\u52a1-\u5317\u4eac-\u6709\u9650\u516c\u53f8", "metadata": {"evidence": "https://zhidao.baidu.com/question/725567645356284605.html"}, "rel_type": "MENTIONS", "src_id": "work:99ff356dad743b17"}
+{"dst_id": "person:\u963f\u6684\u8f6f\u4ef6\u5c0f\u7a8d\u95e8", "metadata": {"evidence": "https://zhidao.baidu.com/question/725567645356284605.html"}, "rel_type": "MENTIONS", "src_id": "work:99ff356dad743b17"}
+{"dst_id": "place:\u4fc4\u7f57\u65af", "metadata": {"evidence": "https://zhidao.baidu.com/question/725567645356284605.html"}, "rel_type": "MENTIONS", "src_id": "work:99ff356dad743b17"}
+{"dst_id": "place:\u5317\u4eac", "metadata": {"evidence": "https://zhidao.baidu.com/question/725567645356284605.html"}, "rel_type": "MENTIONS", "src_id": "work:99ff356dad743b17"}
 {"dst_id": "image:0629930183a1d65aec883c786ccb617052d213838d17d1783893bd1371538502", "metadata": {"evidence": "https://rfcrazygames.forumeiros.com/images"}, "rel_type": "DEPICTS", "src_id": "work:9c00fb4cb766af89"}
 {"dst_id": "group:crazygames-f\u00f3rum", "metadata": {"evidence": "https://rfcrazygames.forumeiros.com/images"}, "rel_type": "MENTIONS", "src_id": "work:9c00fb4cb766af89"}
 {"dst_id": "person:aioros", "metadata": {"evidence": "https://rfcrazygames.forumeiros.com/images"}, "rel_type": "MENTIONS", "src_id": "work:9c00fb4cb766af89"}
@@ -22195,6 +22270,10 @@
 {"dst_id": "work:daebc3b7dc518ca0", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on https://burgewords.com/tag/richard-moon/"}, "rel_type": "MENTIONS", "src_id": "work:d3e86e4983ff566b"}
 {"dst_id": "work:e49c6351773ff439", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on https://burgewords.com/tag/richard-moon/"}, "rel_type": "MENTIONS", "src_id": "work:d3e86e4983ff566b"}
 {"dst_id": "work:fd910cbb7fbab6fd", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on https://burgewords.com/tag/richard-moon/"}, "rel_type": "MENTIONS", "src_id": "work:d3e86e4983ff566b"}
+{"dst_id": "group:\u571f\u6728\u5b66\u4f1a", "metadata": {"evidence": "https://www.fujibolt.co.jp/product_fd_top.html"}, "rel_type": "MENTIONS", "src_id": "work:d479b91fb271d1b7"}
+{"dst_id": "group:\u5efa\u8a2d\u7701", "metadata": {"evidence": "https://www.fujibolt.co.jp/product_fd_top.html"}, "rel_type": "MENTIONS", "src_id": "work:d479b91fb271d1b7"}
+{"dst_id": "place:\u30d9\u30a4\u30d6\u30ea\u30c3\u30b8", "metadata": {"evidence": "https://www.fujibolt.co.jp/product_fd_top.html"}, "rel_type": "MENTIONS", "src_id": "work:d479b91fb271d1b7"}
+{"dst_id": "place:\u702c\u6238\u5927\u6a4b", "metadata": {"evidence": "https://www.fujibolt.co.jp/product_fd_top.html"}, "rel_type": "MENTIONS", "src_id": "work:d479b91fb271d1b7"}
 {"dst_id": "image:2c3292c7def9bd91af89366ab2b12f29b17e2f3e4d00a9cea83e0d4bbacdcb80", "metadata": {"evidence": "https://www.sejda.com/pt/pdf-editor"}, "rel_type": "DEPICTS", "src_id": "work:d65a7271384fd951"}
 {"dst_id": "image:3a289b9f8ad4ce311b6348404c21ce2c34dd15df6070a6dfc4fd79e62eb0dc06", "metadata": {"evidence": "https://www.sejda.com/pt/pdf-editor"}, "rel_type": "DEPICTS", "src_id": "work:d65a7271384fd951"}
 {"dst_id": "image:423c175507f281f09a901eec280de509a53412576d0a9eaf60906d5ddd25ee81", "metadata": {"evidence": "https://www.sejda.com/pt/pdf-editor"}, "rel_type": "DEPICTS", "src_id": "work:d65a7271384fd951"}
@@ -22454,7 +22533,6 @@
 {"dst_id": "group:llm", "metadata": {"evidence": "https://blog.darkthread.net/blog/vibe-coding-case/"}, "rel_type": "MENTIONS", "src_id": "work:dd8985de5d2c1aea"}
 {"dst_id": "group:youtube", "metadata": {"evidence": "https://blog.darkthread.net/blog/vibe-coding-case/"}, "rel_type": "MENTIONS", "src_id": "work:dd8985de5d2c1aea"}
 {"dst_id": "group:\u5beb\u5b57\u7df4\u5fc3", "metadata": {"evidence": "https://blog.darkthread.net/blog/vibe-coding-case/"}, "rel_type": "MENTIONS", "src_id": "work:dd8985de5d2c1aea"}
-{"dst_id": "image:3b1ab4e53fc50c69622d21d6863663013f9dc62f1a0dd63a1651bf23b2ece8b4", "metadata": {"evidence": "https://zhidao.baidu.com/question/2073760346883207148.html"}, "rel_type": "DEPICTS", "src_id": "work:ded2b16c40b97397"}
 {"dst_id": "image:8c4e8059fe381cac601382ad2371a1e3afee4b2341faa838e962dec4528e8d86", "metadata": {"evidence": "https://zhidao.baidu.com/question/2073760346883207148.html"}, "rel_type": "DEPICTS", "src_id": "work:ded2b16c40b97397"}
 {"dst_id": "image:8cb4eb12acb67e79eef671d9d7aa533242431fb50fae33d4257a6b79b7273294", "metadata": {"evidence": "https://zhidao.baidu.com/question/2073760346883207148.html"}, "rel_type": "DEPICTS", "src_id": "work:ded2b16c40b97397"}
 {"dst_id": "work:3ceaefb5ffac8d5b", "metadata": {"note": "Same paper, enriched metadata"}, "rel_type": "ALIAS_OF", "src_id": "work:deslippe-2012-maharaj-to-mahan-tantric"}
@@ -23208,6 +23286,8 @@
 {"dst_id": "image:b5024b1cb222af9405e86c6717cf38e6deef9f9fec317db28397df78089647f7", "metadata": {"evidence": "https://www.ekiten.jp/shop_236221/"}, "rel_type": "DEPICTS", "src_id": "work:fd92f580d3d2382a"}
 {"dst_id": "image:b74a86181dadca6646fc662de7c3bf134e1197822346773efb6bae4db6f1ed94", "metadata": {"evidence": "https://www.ekiten.jp/shop_236221/"}, "rel_type": "DEPICTS", "src_id": "work:fd92f580d3d2382a"}
 {"dst_id": "image:da9d517ff173e162895e7af968bb1800ff9bb0913c5c3e5dc1bdaecd2944948b", "metadata": {"evidence": "https://www.ekiten.jp/shop_236221/"}, "rel_type": "DEPICTS", "src_id": "work:fd92f580d3d2382a"}
+{"dst_id": "group:\u30da\u30c3\u30c8\u30b5\u30ed\u30f3\u30da\u30c3\u30d1\u30fc", "metadata": {"evidence": "https://everpet.jp/salon/detail/31768"}, "rel_type": "MENTIONS", "src_id": "work:fe0a630be44f71db"}
+{"dst_id": "place:\u6771\u4eac\u90fd\u6771\u5927\u548c\u5e02\u5357\u8857\uff15\u4e01\u76ee\uff19-\uff13", "metadata": {"evidence": "https://everpet.jp/salon/detail/31768"}, "rel_type": "MENTIONS", "src_id": "work:fe0a630be44f71db"}
 {"dst_id": "claim:yoga-abuse-amma-fd3727e6", "metadata": {"evidence": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit"}, "rel_type": "CONTAINS", "src_id": "work:googlesheets:yoga-abuse-research"}
 {"dst_id": "claim:yoga-abuse-amrit-desai-0666e0ca", "metadata": {"evidence": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit"}, "rel_type": "CONTAINS", "src_id": "work:googlesheets:yoga-abuse-research"}
 {"dst_id": "claim:yoga-abuse-ana-forrest-9277b7ee", "metadata": {"evidence": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit"}, "rel_type": "CONTAINS", "src_id": "work:googlesheets:yoga-abuse-research"}
