@@ -23940,3 +23940,4 @@
 {"src_id": "claim:kenneth-dobson-aia-chapter", "dst_id": "person:terry-dobson", "rel_type": "ABOUT", "metadata": {"evidence": "kkron://personal-communication/kenneth-dobson-email"}}
 {"src_id": "claim:kenneth-dobson-subway-article", "dst_id": "person:terry-dobson", "rel_type": "ABOUT", "metadata": {"evidence": "kkron://personal-communication/kenneth-dobson-email"}}
 {"src_id": "claim:kenneth-leonard-successful-author", "dst_id": "person:terry-dobson", "rel_type": "ABOUT", "metadata": {"evidence": "kkron://personal-communication/kenneth-dobson-email"}}
+{"src_id": "source:kenneth-aia-scan-pdf", "dst_id": "work:e2088ab0e8f7da65", "rel_type": "DERIVED_FROM", "metadata": {"context": "Scanned PDF of pp. 43-46 from Aikido in America, sent by Kenneth", "evidence": "kkron://personal-communication/kenneth-dobson-email", "note": "Pages are rotated"}}
