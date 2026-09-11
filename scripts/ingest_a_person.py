@@ -132,9 +132,35 @@ is a single command instead of a hand-written one-off script.
     python scripts/ingest_a_person.py "Sig Kufferath" --context "jujitsu danzan" \
         --discover-only
 
+    # Document a Wikipedia gap (person is notable but has no Wikipedia page)
+    python scripts/ingest_a_person.py "Peter Ralston" --context "aikido" \
+        --wikipedia-gap --notability-notes "1978 world champion, 9+ books"
+
+    # Record discovered persons and edges to the LineageDB lineage tables
+    python scripts/ingest_a_person.py "Bob Noha" --context "aikido" \
+        --lineage-db --expand
+
     # Use a specific snapshot dir / DB path
     python scripts/ingest_a_person.py "Richard Moon" --context "aikido" \
         --snapshot-dir graph_snapshot --db data/graph.db
+
+============================================================================
+  Enrichment steps merged from one-off scripts
+============================================================================
+
+  The following enrichment capabilities were merged from one-off ingestion
+  scripts that have been consolidated into this generalized pipeline:
+
+  1. Wikipedia gap claim (--wikipedia-gap)
+     From: scripts/25_ingest_peter_ralston.py
+     When KG resolution finds no Wikipedia URL for a person, creates a
+     Claim node documenting the gap with notability notes and checked URLs.
+
+  2. LineageDB recording (--lineage-db)
+     From: scripts/28_ingest_ralston_noha.py, scripts/30_ingest_moon_ralston_edge.py
+     After extraction, upserts persons and inserts lineage edges (with
+     confidence, review status, source attribution) to the LineageDB
+     lineage tables for versioned relationship tracking.
 
 ============================================================================
 """
@@ -165,7 +191,8 @@ from src.search.quota import QuotaTracker
 from src.search.search_cache import SearchCache
 from src.storage.graph_db import GraphDB
 from src.storage.json_export import export_to_json, import_from_json, snapshot_exists
-from src.storage.models import NodeType
+from src.storage.lineage_db import LineageDB
+from src.storage.models import GraphEdge, GraphNode, NodeType, RelationType
 from src.utils.text_utils import get_domain
 from scripts._pipeline_helpers import process_page
 
@@ -320,6 +347,221 @@ def _single_entity_templates(context: str) -> list[str]:
         '"{a}" seminar {style}',
         '"{a}" {style} teacher',
     ]
+
+
+# ──────────────────────────────────────────────────────────────────────────
+#  Wikipedia Gap Claim — enrichment from 25_ingest_peter_ralston.py
+# ──────────────────────────────────────────────────────────────────────────
+
+def create_wikipedia_gap_claim(
+    person_name: str,
+    db: GraphDB,
+    *,
+    context: str = "",
+    discovered_urls: list[str] | None = None,
+    notability_notes: str = "",
+    wikipedia_urls_checked: list[str] | None = None,
+    dry_run: bool = False,
+) -> str | None:
+    """Create a Claim node documenting that a notable person has no Wikipedia page.
+
+    Generalized from the Wikipedia gap claim in scripts/25_ingest_peter_ralston.py,
+    which documented that Peter Ralston has no Wikipedia page despite clear
+    notability (martial arts pioneer, author of 9+ books, 1978 world champion).
+
+    This enrichment step runs after Technique 1's KG resolution fails to find
+    a Wikipedia URL. It creates a Claim node with:
+    - The Wikipedia URLs that were checked (all 404)
+    - The discovered source URLs (evidence of notability)
+    - Optional notability notes from the caller
+
+    Args:
+        person_name: The person's display name (e.g. "Peter Ralston").
+        db: The graph database to write the claim to.
+        context: Disambiguation context (e.g. "aikido").
+        discovered_urls: URLs discovered by Technique 1 (evidence of notability).
+        notability_notes: Free-text notes on why the person is notable.
+        wikipedia_urls_checked: Wikipedia URLs that returned 404.
+        dry_run: If True, return the claim ID without writing to the DB.
+
+    Returns:
+        The claim node ID, or None if the claim already exists.
+    """
+    person_slug = person_name.lower().replace(" ", "-")
+    claim_id = f"claim:{person_slug}-wikipedia-gap"
+
+    if not dry_run and db.get_node(claim_id):
+        _log.info("Wikipedia gap claim already exists for '%s'", person_name)
+        return None
+
+    urls_checked = wikipedia_urls_checked or [
+        f"https://en.wikipedia.org/wiki/{person_name.replace(' ', '_')}",
+        f"https://en.wikipedia.org/wiki/{person_name.replace(' ', '_')}_(martial_artist)",
+        f"https://en.wikipedia.org/wiki/{person_name.replace(' ', '_')}_(author)",
+    ]
+
+    source_urls = discovered_urls or []
+    label = (
+        f"{person_name} has no Wikipedia page despite notability"
+        + (f" ({context})" if context else "")
+    )
+
+    claim_node = GraphNode(
+        id=claim_id,
+        type=NodeType.CLAIM,
+        label=label,
+        canonical_name=f"{person_name} Wikipedia gap",
+        metadata={
+            "claim_type": "historical_dispute",
+            "stance": "neutral",
+            "evidence_mode": "archival_clipping",
+            "wikipedia_urls_checked": urls_checked,
+            "all_404": True,
+            "notability_notes": notability_notes,
+            "discovered_source_count": len(source_urls),
+            "source": "wikipedia_gap_detection",
+        },
+        source_urls=source_urls,
+    )
+
+    if not dry_run:
+        db.add_node(claim_node)
+        # Link the claim to the person node (if it exists)
+        person_node_id = f"person:{person_slug}"
+        if db.get_node(person_node_id):
+            db.add_edge(GraphEdge(
+                src_id=claim_id,
+                rel_type=RelationType.ABOUT,
+                dst_id=person_node_id,
+                metadata={"evidence": "wikipedia_gap_detection"},
+            ))
+        _log.info("Created Wikipedia gap claim for '%s'", person_name)
+
+    return claim_id
+
+
+# ──────────────────────────────────────────────────────────────────────────
+#  LineageDB integration — enrichment from 28_ingest_ralston_noha.py
+#  and 30_ingest_moon_ralston_edge.py
+# ──────────────────────────────────────────────────────────────────────────
+
+def record_to_lineage_db(
+    db: GraphDB,
+    lineage_db: LineageDB,
+    *,
+    person_name: str | None = None,
+    context: str = "",
+    discovered_urls: list[str] | None = None,
+    kg_entity: dict | None = None,
+) -> int:
+    """Record discovered persons and edges to the LineageDB lineage tables.
+
+    Generalized from the LineageDB integration in scripts/28_ingest_ralston_noha.py
+    (upsert_person, insert_lineage_edge for TEACHER_STUDENT/HEAD_INSTRUCTOR edges)
+    and scripts/30_ingest_moon_ralston_edge.py (insert_lineage_edge with confidence
+    and source attribution).
+
+    After the pipeline discovers and extracts a person, this function:
+    1. Upserts the person into lineage_persons with KG metadata (if available)
+    2. Inserts lineage edges for any TEACHER_STUDENT, HEAD_INSTRUCTOR, FOUNDED,
+       or MEMBER_OF edges discovered during extraction
+
+    Args:
+        db: The GraphDB to read discovered nodes/edges from.
+        lineage_db: The LineageDB to write lineage records to.
+        person_name: The person's name (for upsert). If None, uses all Person nodes.
+        context: Disambiguation context (stored in metadata).
+        discovered_urls: URLs discovered by Technique 1 (stored in metadata).
+        kg_entity: KG entity dict from Technique 1 (for wikipedia_url, kg_id).
+
+    Returns:
+        Number of lineage edges inserted.
+    """
+    edges_inserted = 0
+
+    # ── Upsert the person into lineage_persons ─────────────────────────
+    if person_name:
+        person_slug = person_name.lower().replace(" ", "-")
+        person_node_id = f"person:{person_slug}"
+        person_node = db.get_node(person_node_id)
+
+        # Also try fuzzy match if exact node not found
+        if not person_node:
+            for n in db.get_all_nodes():
+                if n.type == NodeType.PERSON and person_name.lower() in n.label.lower():
+                    person_node_id = n.id
+                    person_node = n
+                    break
+
+        if person_node:
+            wikipedia_url = None
+            kg_id = None
+            if kg_entity:
+                wikipedia_url = kg_entity.get("wikipedia_url")
+                kg_id = kg_entity.get("kg_id")
+
+            lineage_db.upsert_person(
+                node_id=person_node_id,
+                canonical_name=person_node.canonical_name or person_node.label,
+                aliases=[person_node.label],
+                primary_art=context or None,
+                wikipedia_url=wikipedia_url,
+                kg_id=kg_id,
+                metadata={
+                    "context": context,
+                    "discovered_urls": discovered_urls or [],
+                    "source": "ingest_a_person",
+                },
+            )
+
+    # ── Insert lineage edges for typed relations ────────────────────────
+    # Record edges that the extraction pipeline created in GraphDB
+    lineage_edge_types = {
+        RelationType.TEACHER_STUDENT,
+        RelationType.HEAD_INSTRUCTOR,
+        RelationType.FOUNDED,
+        RelationType.MEMBER_OF,
+        RelationType.WORKED_AT,
+    }
+
+    for edge in db.get_all_edges():
+        if edge.rel_type not in lineage_edge_types:
+            continue
+        # Only record edges involving the target person (if specified)
+        if person_name:
+            person_slug = person_name.lower().replace(" ", "-")
+            person_node_id = f"person:{person_slug}"
+            if edge.src_id != person_node_id and edge.dst_id != person_node_id:
+                # Also check fuzzy-matched node ID
+                fuzzy_id = None
+                for n in db.get_all_nodes():
+                    if n.type == NodeType.PERSON and person_name.lower() in n.label.lower():
+                        fuzzy_id = n.id
+                        break
+                if not fuzzy_id or (edge.src_id != fuzzy_id and edge.dst_id != fuzzy_id):
+                    continue
+
+        source_url = None
+        if edge.metadata:
+            source_url = edge.metadata.get("evidence") or edge.metadata.get("source_url")
+
+        edge_id = lineage_db.insert_lineage_edge(
+            src_id=edge.src_id,
+            edge_type=edge.rel_type.value,
+            dst_id=edge.dst_id,
+            confidence=0.7,
+            source_url=source_url,
+            discovered_via="ingest_a_person",
+            review_status="auto",
+            metadata={
+                "context": context,
+                "source": "ingest_a_person",
+            },
+        )
+        if edge_id:
+            edges_inserted += 1
+
+    return edges_inserted
 
 
 # ──────────────────────────────────────────────────────────────────────────
@@ -676,6 +918,21 @@ def main() -> int:
         help="Discover URLs but don't fetch/extract (skip crawl + Gemini extraction)",
     )
     parser.add_argument(
+        "--wikipedia-gap",
+        action="store_true",
+        help="Create a Wikipedia gap claim if KG resolution finds no Wikipedia page",
+    )
+    parser.add_argument(
+        "--notability-notes",
+        default="",
+        help="Free-text notability notes for the Wikipedia gap claim (use with --wikipedia-gap)",
+    )
+    parser.add_argument(
+        "--lineage-db",
+        action="store_true",
+        help="Record discovered persons and edges to the LineageDB lineage tables",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="Show what would be done without network calls or DB writes",
@@ -816,6 +1073,29 @@ def main() -> int:
                     except Exception as e:
                         print(f"  ✗ {final_url} ({e})")
 
+            # ── Wikipedia gap claim ──────────────────────────────────────
+            # If KG resolution found no Wikipedia URL and the user requested
+            # it, create a Claim node documenting the Wikipedia gap.
+            # Generalized from scripts/25_ingest_peter_ralston.py.
+            if (
+                args.wikipedia_gap
+                and not args.dry_run
+                and t1_result
+                and not (t1_result.kg_entity and t1_result.kg_entity.get("wikipedia_url"))
+            ):
+                print("\n  Creating Wikipedia gap claim...")
+                claim_id = create_wikipedia_gap_claim(
+                    args.name,
+                    db,
+                    context=args.context,
+                    discovered_urls=t1_result.all_urls,
+                    notability_notes=args.notability_notes,
+                )
+                if claim_id:
+                    print(f"  ✓ Wikipedia gap claim created: {claim_id}")
+                else:
+                    print(f"  (Wikipedia gap claim already exists)")
+
         # ── Technique 2: Graph-Neighbor Link-Following ─────────────────
         seed_node_id = args.from_node
         if not seed_node_id and args.expand and t1_result:
@@ -861,6 +1141,28 @@ def main() -> int:
             elif args.from_node:
                 print(f"\n[ERROR] Node '{seed_node_id}' not found in graph.")
                 return 1
+
+        # ── LineageDB recording ──────────────────────────────────────────
+        # If requested, record discovered persons and edges to the LineageDB
+        # lineage tables. Generalized from scripts/28_ingest_ralston_noha.py
+        # and scripts/30_ingest_moon_ralston_edge.py.
+        if args.lineage_db and not args.dry_run:
+            print("\n  Recording to LineageDB...")
+            ldb = LineageDB(db_file)
+            try:
+                kg_entity = t1_result.kg_entity if t1_result else None
+                discovered = t1_result.all_urls if t1_result else []
+                edges_recorded = record_to_lineage_db(
+                    db,
+                    ldb,
+                    person_name=args.name,
+                    context=args.context,
+                    discovered_urls=discovered,
+                    kg_entity=kg_entity,
+                )
+                print(f"  ✓ LineageDB: {edges_recorded} edges recorded")
+            finally:
+                ldb.close()
 
         # ── Export back to snapshot ────────────────────────────────────
         if not args.dry_run:
