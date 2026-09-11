@@ -22,22 +22,21 @@
 | 5 | Московский Айки Клуб | aikiclub.ru | 55 | MARGINAL | Yes | dr=20 rsp=0 sc=25 ind=10 |
 | 6 | Robert Nadeau Aikido - USAdojo.com | usadojo.com | 50 | MARGINAL | Yes | dr=15 rsp=0 sc=25 ind=10 |
 | 7 | Quantum Aikido: The Power of Harmony Boo | budovideos.com | 50 | MARGINAL | Yes | dr=15 rsp=0 sc=25 ind=10 |
-| 8 | Robert Nadeau - Aikido Master | aikido-health.com | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
-| 9 | Robert Nadeau — CAA | ai-ki-do.org | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
-| 10 | O Sensei Revisited Down Under - Riai Aik | aikido.org.nz | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
-| 11 | Episode 672 - Mr. Dan Millman — whistlek | whistlekickmartialartsradio.com | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
-| 12 | Лучшая школа Айкидо для детей в Казани | rebenok-na-aikido.ru | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
-| 13 | Quantum Aikido: The Power of Harmony  -  | kitothecity.substack.com | 40 | WEAK | No | dr=5 rsp=0 sc=25 ind=10 |
-| 14 | Aikido: The Art of Transformation. The L | kitothecity.substack.com | 40 | WEAK | No | dr=5 rsp=0 sc=25 ind=10 |
-| 15 | Energy Process work | dev.aikidoofpetaluma.com | 35 | WEAK | No | dr=0 rsp=0 sc=25 ind=10 |
-| 16 | Aikido: The Art of Transformation: The L | budovideos.com | 15 | UNRELIABLE | No | dr=15 rsp=0 sc=-10 ind=10 |
-| 17 | Robert Nadeau Shihan - City Aikido | cityaikido.com | 10 | UNRELIABLE | No | dr=10 rsp=0 sc=-10 ind=10 |
-| 18 | Robert Nadeau Shihan | nadeaushihan.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
-| 19 | Richard Moon | Official Publisher Page | | simonandschuster.com | -20 | UNRELIABLE | No | dr=10 rsp=0 sc=-10 ind=-20 |
-| 20 | Jack Wada — City Aikido | cityaikido.com | -30 | UNRELIABLE | No | dr=10 rsp=0 sc=-20 ind=-20 |
-| 21 | Kufferath-Nadeau-Bunch connection resear | personal-communication | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
-| 22 | Aikido of San Jose - About the Instructo | aikidosj.com | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
-| 23 | Instructors - Aikido of San Jose | aikidosj.com | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
+| 8 | Robert Nadeau — CAA | ai-ki-do.org | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
+| 9 | O Sensei Revisited Down Under - Riai Aik | aikido.org.nz | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
+| 10 | Episode 672 - Mr. Dan Millman — whistlek | whistlekickmartialartsradio.com | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
+| 11 | Лучшая школа Айкидо для детей в Казани | rebenok-na-aikido.ru | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
+| 12 | Quantum Aikido: The Power of Harmony  -  | kitothecity.substack.com | 40 | WEAK | No | dr=5 rsp=0 sc=25 ind=10 |
+| 13 | Aikido: The Art of Transformation. The L | kitothecity.substack.com | 40 | WEAK | No | dr=5 rsp=0 sc=25 ind=10 |
+| 14 | Energy Process work | dev.aikidoofpetaluma.com | 35 | WEAK | No | dr=0 rsp=0 sc=25 ind=10 |
+| 15 | Aikido: The Art of Transformation: The L | budovideos.com | 15 | UNRELIABLE | No | dr=15 rsp=0 sc=-10 ind=10 |
+| 16 | Robert Nadeau Shihan - City Aikido | cityaikido.com | 10 | UNRELIABLE | No | dr=10 rsp=0 sc=-10 ind=10 |
+| 17 | Robert Nadeau Shihan | nadeaushihan.com | 10 | UNRELIABLE | No | dr=5 rsp=0 sc=25 ind=-20 |
+| 18 | Richard Moon | Official Publisher Page | | simonandschuster.com | -20 | UNRELIABLE | No | dr=10 rsp=0 sc=-10 ind=-20 |
+| 19 | Jack Wada — City Aikido | cityaikido.com | -30 | UNRELIABLE | No | dr=10 rsp=0 sc=-20 ind=-20 |
+| 20 | Kufferath-Nadeau-Bunch connection resear | personal-communication | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
+| 21 | Aikido of San Jose - About the Instructo | aikidosj.com | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
+| 22 | Instructors - Aikido of San Jose | aikidosj.com | -40 | UNRELIABLE | No | dr=0 rsp=0 sc=-20 ind=-20 |
 
 ## Source date metadata
 
@@ -56,22 +55,21 @@ Three temporal dimensions are tracked for each source:
 | 5 | Московский Айки Клуб | 1967 | n.d. | 2026-09-10 | alternative date 1969 (year): source text: '1969'; alternative date 2003 (year): |
 | 6 | Robert Nadeau Aikido - USAdojo.com | n.d. | n.d. | 2026-09-08 | — |
 | 7 | Quantum Aikido: The Power of Harmon | 1971 | n.d. | 2026-09-10 | — |
-| 8 | Robert Nadeau - Aikido Master | n.d. | n.d. | 2026-09-08 | — |
-| 9 | Robert Nadeau — CAA | 1960 | n.d. | 2026-09-10 | alternative date 1961 (year): source text: '1961'; alternative date 1962 (year): |
-| 10 | O Sensei Revisited Down Under - Ria | 1960 | 2019-02-18 | 2026-09-10 | alternative date 2019-03 (month): source text: 'March 2019' |
-| 11 | Episode 672 - Mr. Dan Millman — whi | n.d. | n.d. | 2026-09-08 | — |
-| 12 | Лучшая школа Айкидо для детей в Каз | n.d. | n.d. | 2026-09-10 | — |
-| 13 | Quantum Aikido: The Power of Harmon | 2026 | 2026-01-06 | 2026-09-10 | — |
-| 14 | Aikido: The Art of Transformation.  | 2025 | 2025-07-10 | 2026-09-10 | — |
-| 15 | Energy Process work | n.d. | n.d. | 2026-09-10 | — |
-| 16 | Aikido: The Art of Transformation:  | n.d. | n.d. | 2026-09-08 | — |
-| 17 | Robert Nadeau Shihan - City Aikido | n.d. | n.d. | 2026-09-08 | — |
-| 18 | Robert Nadeau Shihan | n.d. | n.d. | 2026-09-10 | — |
-| 19 | Richard Moon | Official Publisher P | 1969 | n.d. | 2026-09-10 | alternative date 1971 (year): source text: '1971' |
-| 20 | Jack Wada — City Aikido | 1969 | n.d. | 2026-09-10 | alternative date 1976 (year): source text: '1976'; alternative date 1980 (year): |
-| 21 | Kufferath-Nadeau-Bunch connection r | 1966 | n.d. | 2026-09-08 | — |
-| 22 | Aikido of San Jose - About the Inst | 1969 | n.d. | 2026-09-10 | — |
-| 23 | Instructors - Aikido of San Jose | 1969 | n.d. | 2026-09-10 | alternative date 1974 (year): source text: '1974' |
+| 8 | Robert Nadeau — CAA | 1960 | n.d. | 2026-09-10 | alternative date 1961 (year): source text: '1961'; alternative date 1962 (year): |
+| 9 | O Sensei Revisited Down Under - Ria | 1960 | 2019-02-18 | 2026-09-10 | alternative date 2019-03 (month): source text: 'March 2019' |
+| 10 | Episode 672 - Mr. Dan Millman — whi | n.d. | n.d. | 2026-09-08 | — |
+| 11 | Лучшая школа Айкидо для детей в Каз | n.d. | n.d. | 2026-09-10 | — |
+| 12 | Quantum Aikido: The Power of Harmon | 2026 | 2026-01-06 | 2026-09-10 | — |
+| 13 | Aikido: The Art of Transformation.  | 2025 | 2025-07-10 | 2026-09-10 | — |
+| 14 | Energy Process work | n.d. | n.d. | 2026-09-10 | — |
+| 15 | Aikido: The Art of Transformation:  | n.d. | n.d. | 2026-09-08 | — |
+| 16 | Robert Nadeau Shihan - City Aikido | n.d. | n.d. | 2026-09-08 | — |
+| 17 | Robert Nadeau Shihan | n.d. | n.d. | 2026-09-10 | — |
+| 18 | Richard Moon | Official Publisher P | 1969 | n.d. | 2026-09-10 | alternative date 1971 (year): source text: '1971' |
+| 19 | Jack Wada — City Aikido | 1969 | n.d. | 2026-09-10 | alternative date 1976 (year): source text: '1976'; alternative date 1980 (year): |
+| 20 | Kufferath-Nadeau-Bunch connection r | 1966 | n.d. | 2026-09-08 | — |
+| 21 | Aikido of San Jose - About the Inst | 1969 | n.d. | 2026-09-10 | — |
+| 22 | Instructors - Aikido of San Jose | 1969 | n.d. | 2026-09-10 | alternative date 1974 (year): source text: '1974' |
 
 ### Date provenance
 
@@ -85,7 +83,6 @@ Three temporal dimensions are tracked for each source:
 - **kkron personal-communication claims** (16 source(s)) — primary_first_person, excluded per WP:RS (requires independent secondary reporting). These remain first-class evidence in the Story Graph but are not citable in a Wikipedia article.
   - The Story Graph considers kkron a high-trust witness, but Wikipedia requires independent secondary sources.
 
-- [Robert Nadeau - Aikido Master](https://www.aikido-health.com/robert-nadeau.html) — SRS=45 (WEAK): dr=10 rsp=0 sc=25 ind=10
 - [Robert Nadeau — CAA](https://ai-ki-do.org/robert-nadeau) — SRS=45 (WEAK): dr=10 rsp=0 sc=25 ind=10
 - [O Sensei Revisited Down Under - Riai Aikido](https://aikido.org.nz/nadeauworkshop/) — SRS=45 (WEAK): dr=10 rsp=0 sc=25 ind=10
 - [Episode 672 - Mr. Dan Millman — whistlekick Martial Arts Radio](https://www.whistlekickmartialartsradio.com/blog/672-dan-millman) — SRS=45 (WEAK): dr=10 rsp=0 sc=25 ind=10
@@ -105,16 +102,16 @@ Three temporal dimensions are tracked for each source:
 
 3 claim(s) have no linked source in the graph. These need source verification before they can be cited.
 - `claim:search:nadeau-moon-student`: Richard Moon is a notable student of Robert Nadeau (Wikipedia)
-- `claim:search:nadeau-millman-student`: Dan Millman is a notable student of Robert Nadeau (Wikipedia + multiple sources)
 - `claim:search:nadeau-bunch-kufferath`: Robert Nadeau shared dojo space with Sig Kufferath, later with Richard Bunch (Wikipedia)
+- `claim:search:nadeau-millman-student`: Dan Millman is a notable student of Robert Nadeau (Wikipedia + multiple sources)
 
 ---
 
 ## Graph evidence summary
 
-- Total matched nodes: 48
+- Total matched nodes: 47
 - Total claims collected: 102
-- Total sources scored: 23
+- Total sources scored: 22
 - Citable sources (SRS >= 50): 7
 - RELIABLE sources (SRS >= 70): 3
 - Independent RELIABLE sources: 3

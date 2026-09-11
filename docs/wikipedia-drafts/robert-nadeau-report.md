@@ -25,7 +25,6 @@
 | 7 | Robert Nadeau Aikido - USAdojo.com | usadojo.com | 50 | MARGINAL | Yes | dr=15 rsp=0 sc=25 ind=10 |
 | 8 | Quantum Aikido: The Power of Harmony Boo | budovideos.com | 50 | MARGINAL | Yes | dr=15 rsp=0 sc=25 ind=10 |
 | 9 | Лучшая школа Айкидо для детей в Казани | rebenok-na-aikido.ru | 45 | WEAK | No | dr=10 rsp=0 sc=25 ind=10 |
-| 10 | Robert Nadeau - Aikido Master | aikido-health.com | 40 | WEAK | No | dr=5 rsp=0 sc=25 ind=10 |
 | 11 | Robert Nadeau — CAA | ai-ki-do.org | 40 | WEAK | No | dr=5 rsp=0 sc=25 ind=10 |
 | 12 | O Sensei Revisited Down Under - Riai Aik | aikido.org.nz | 40 | WEAK | No | dr=5 rsp=0 sc=25 ind=10 |
 | 13 | Quantum Aikido: The Power of Harmony  -  | kitothecity.substack.com | 40 | WEAK | No | dr=5 rsp=0 sc=25 ind=10 |
@@ -46,7 +45,6 @@
   - The Story Graph considers kkron a high-trust witness, but Wikipedia requires independent secondary sources.
 
 - [Лучшая школа Айкидо для детей в Казани](https://rebenok-na-aikido.ru/) — SRS=45 (WEAK): dr=10 rsp=0 sc=25 ind=10
-- [Robert Nadeau - Aikido Master](https://www.aikido-health.com/robert-nadeau.html) — SRS=40 (WEAK): dr=5 rsp=0 sc=25 ind=10
 - [Robert Nadeau — CAA](https://ai-ki-do.org/robert-nadeau) — SRS=40 (WEAK): dr=5 rsp=0 sc=25 ind=10
 - [O Sensei Revisited Down Under - Riai Aikido](https://aikido.org.nz/nadeauworkshop/) — SRS=40 (WEAK): dr=5 rsp=0 sc=25 ind=10
 - [Quantum Aikido: The Power of Harmony  - by kitothecity](https://kitothecity.substack.com/p/quantum-aikido) — SRS=40 (WEAK): dr=5 rsp=0 sc=25 ind=10
