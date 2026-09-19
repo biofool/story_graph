@@ -120,6 +120,7 @@
 {"claim_id": "claim:1eed208f4c42457b", "quote_span_end": null, "quote_span_start": null, "source_id": "work:e9f954a4f17fd9ec"}
 {"claim_id": "claim:1ef46bc351e4204c", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:1f3b733cfda00081", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
+{"claim_id": "claim:1f61d8e6a63bcc2a", "quote_span_end": null, "quote_span_start": null, "source_id": "source:caa-about-page"}
 {"claim_id": "claim:1f9edc04fff6683f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:65a2a280c44bc331"}
 {"claim_id": "claim:1ffd0937149d68b2", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:2020dd4d94182be0", "quote_span_end": null, "quote_span_start": null, "source_id": "work:8dff6ec071cd4bae"}
@@ -209,6 +210,7 @@
 {"claim_id": "claim:3792c208fb35e3de", "quote_span_end": null, "quote_span_start": null, "source_id": "work:e0e7c55265f491fd"}
 {"claim_id": "claim:379ab9e4bb34cfd7", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:37b3371a82b90fd8", "quote_span_end": null, "quote_span_start": null, "source_id": "work:7814798dccd3679a"}
+{"claim_id": "claim:37c48544fa31d42a", "quote_span_end": null, "quote_span_start": null, "source_id": "kkron:dojo-origins-caa-research"}
 {"claim_id": "claim:3819ad8f18bc59ab", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:382825d466b4169a", "quote_span_end": null, "quote_span_start": null, "source_id": "work:4b04424018416c9a"}
 {"claim_id": "claim:383ba09077931794", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
@@ -272,6 +274,7 @@
 {"claim_id": "claim:463e18957f02e254", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:467c79cb22c30e9b", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:46852dac67c74244", "quote_span_end": null, "quote_span_start": null, "source_id": "work:7b9a237040312432"}
+{"claim_id": "claim:468a9dbb7a28b205", "quote_span_end": null, "quote_span_start": null, "source_id": "kkron:dojo-origins-caa-research"}
 {"claim_id": "claim:471027cddbf540cc", "quote_span_end": null, "quote_span_start": null, "source_id": "work:e9f954a4f17fd9ec"}
 {"claim_id": "claim:47939168a04800cc", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:47b9af3a7162a862", "quote_span_end": null, "quote_span_start": null, "source_id": "work:e9f954a4f17fd9ec"}
@@ -314,6 +317,7 @@
 {"claim_id": "claim:4e24de8e3f5d5e9e", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:4e8d2581df6a52a5", "quote_span_end": null, "quote_span_start": null, "source_id": "work:99ca339cfd100a36"}
 {"claim_id": "claim:4e9f242ff9eb80e5", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
+{"claim_id": "claim:4ec786c90a7b46bb", "quote_span_end": null, "quote_span_start": null, "source_id": "source:caa-about-page"}
 {"claim_id": "claim:4ee110bd5f356ccd", "quote_span_end": null, "quote_span_start": null, "source_id": "work:ab260c68c6cd27d4"}
 {"claim_id": "claim:4f16b7071f8f900f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:968e9a5d3a76f258"}
 {"claim_id": "claim:4f295937f56218bd", "quote_span_end": null, "quote_span_start": null, "source_id": "work:3c03ea12e3c2486d"}
@@ -341,12 +345,14 @@
 {"claim_id": "claim:536b8cc4263cf1d6", "quote_span_end": null, "quote_span_start": null, "source_id": "work:ab260c68c6cd27d4"}
 {"claim_id": "claim:536f79d6f203e383", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a46d003f349ba458"}
 {"claim_id": "claim:53a65dd1811387e5", "quote_span_end": null, "quote_span_start": null, "source_id": "work:095b593eeea2e955"}
+{"claim_id": "claim:5488d5782740b9ab", "quote_span_end": null, "quote_span_start": null, "source_id": "kkron:dojo-origins-caa-research"}
 {"claim_id": "claim:54d6f253ab296214", "quote_span_end": null, "quote_span_start": null, "source_id": "work:9c415280b98e657f"}
 {"claim_id": "claim:55508222fa0545e8", "quote_span_end": null, "quote_span_start": null, "source_id": "work:6470ba69bd77dbb9"}
 {"claim_id": "claim:5570ee597d75fd40", "quote_span_end": null, "quote_span_start": null, "source_id": "work:13e98346b9b6477e"}
 {"claim_id": "claim:5595981ca72c9ffe", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:55a14bd222e321b4", "quote_span_end": null, "quote_span_start": null, "source_id": "work:dd8985de5d2c1aea"}
 {"claim_id": "claim:55ce183b7c8a13ed", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
+{"claim_id": "claim:563f28a0b279d92c", "quote_span_end": null, "quote_span_start": null, "source_id": "kkron:dojo-origins-caa-research"}
 {"claim_id": "claim:567ceb2dc1c565cf", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:56b59f7c381c59b8", "quote_span_end": null, "quote_span_start": null, "source_id": "work:8dff6ec071cd4bae"}
 {"claim_id": "claim:570143dc7eeda844", "quote_span_end": null, "quote_span_start": null, "source_id": "work:378625267eb32805"}
@@ -414,6 +420,7 @@
 {"claim_id": "claim:698da121edfce5e1", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:69bfd4dc0ac7b9b9", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
 {"claim_id": "claim:69fde586f278a1f6", "quote_span_end": null, "quote_span_start": null, "source_id": "work:dd8985de5d2c1aea"}
+{"claim_id": "claim:6a3181b026e31302", "quote_span_end": null, "quote_span_start": null, "source_id": "source:caa-about-page"}
 {"claim_id": "claim:6a3c59fa32c6f4df", "quote_span_end": null, "quote_span_start": null, "source_id": "work:ab260c68c6cd27d4"}
 {"claim_id": "claim:6a4fc98d42b1fb9a", "quote_span_end": null, "quote_span_start": null, "source_id": "work:7ba69e121ecb5b6c"}
 {"claim_id": "claim:6a592a563ecc08fb", "quote_span_end": null, "quote_span_start": null, "source_id": "work:fc54ae4143043d0d"}
@@ -561,6 +568,7 @@
 {"claim_id": "claim:936fa3456503d7ab", "quote_span_end": null, "quote_span_start": null, "source_id": "work:7814798dccd3679a"}
 {"claim_id": "claim:93c144b0bc328655", "quote_span_end": null, "quote_span_start": null, "source_id": "work:378625267eb32805"}
 {"claim_id": "claim:93ffb2c87523fa7c", "quote_span_end": null, "quote_span_start": null, "source_id": "work:48ade6026cd7845b"}
+{"claim_id": "claim:9460d88945c25744", "quote_span_end": null, "quote_span_start": null, "source_id": "source:witt-interview-norcal-aikido"}
 {"claim_id": "claim:9550a5b01acdc4a2", "quote_span_end": null, "quote_span_start": null, "source_id": "work:8dff6ec071cd4bae"}
 {"claim_id": "claim:9550d1cef6561708", "quote_span_end": null, "quote_span_start": null, "source_id": "work:7814798dccd3679a"}
 {"claim_id": "claim:95789eb310f50072", "quote_span_end": null, "quote_span_start": null, "source_id": "work:e9f954a4f17fd9ec"}
@@ -783,6 +791,7 @@
 {"claim_id": "claim:citation:afc42fdf70a1e297", "quote_span_end": null, "quote_span_start": null, "source_id": "work:eb9ed8858a7734a5"}
 {"claim_id": "claim:citation:e47fb42e5b9a39df", "quote_span_end": null, "quote_span_start": null, "source_id": "work:3ceaefb5ffac8d5b"}
 {"claim_id": "claim:citation:f77fb706256658b0", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a869b10dd8d70d37"}
+{"claim_id": "claim:d0611e3bf02868e3", "quote_span_end": null, "quote_span_start": null, "source_id": "source:caa-about-page"}
 {"claim_id": "claim:d086e578976bb44f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:968e9a5d3a76f258"}
 {"claim_id": "claim:d08defc845a87ae1", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a7a7e909d30a4e18"}
 {"claim_id": "claim:d0bd6d7b18019d0b", "quote_span_end": null, "quote_span_start": null, "source_id": "work:a7a7e909d30a4e18"}
@@ -858,6 +867,7 @@
 {"claim_id": "claim:e3235b10a957df0c", "quote_span_end": null, "quote_span_start": null, "source_id": "work:9c415280b98e657f"}
 {"claim_id": "claim:e353c5e18a586ef0", "quote_span_end": null, "quote_span_start": null, "source_id": "work:9c415280b98e657f"}
 {"claim_id": "claim:e38e465c3e09728f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
+{"claim_id": "claim:e39912974ac50962", "quote_span_end": null, "quote_span_start": null, "source_id": "kkron:dojo-origins-caa-research"}
 {"claim_id": "claim:e3be0a7ce73c30e0", "quote_span_end": null, "quote_span_start": null, "source_id": "work:968e9a5d3a76f258"}
 {"claim_id": "claim:e46987c29ca3c10a", "quote_span_end": null, "quote_span_start": null, "source_id": "work:db82e13bfb60b07b"}
 {"claim_id": "claim:e4979d17db417f7e", "quote_span_end": null, "quote_span_start": null, "source_id": "work:7814798dccd3679a"}

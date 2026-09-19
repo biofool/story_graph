@@ -1,0 +1,98 @@
+{
+  "query": "\"Hiroshi Ikeda\" aikido",
+  "source": "newspapers.com",
+  "downloaded": "2026-09-16",
+  "note": "full-page scans via CDP printToPDF; OCR pending",
+  "results": [
+    {
+      "pdf": "npc_1196156737.pdf",
+      "image_id": "1196156737",
+      "url": "https://www.newspapers.com/image/1196156737/",
+      "paper": "Santa Barbara News-Press",
+      "date": "Fri, Jul 13, 2012",
+      "page": "20",
+      "location": ""
+    },
+    {
+      "pdf": "npc_268725982.pdf",
+      "image_id": "268725982",
+      "url": "https://www.newspapers.com/image/268725982/",
+      "paper": "Pensacola News Journal",
+      "date": "Sat, Sep 30, 2000",
+      "page": "34",
+      "location": ""
+    },
+    {
+      "pdf": "npc_277508543.pdf",
+      "image_id": "277508543",
+      "url": "https://www.newspapers.com/image/277508543/",
+      "paper": "The Tennessean",
+      "date": "Thu, Mar 30, 2006",
+      "page": "R13",
+      "location": "Nashv"
+    },
+    {
+      "pdf": "npc_349991222.pdf",
+      "image_id": "349991222",
+      "url": "https://www.newspapers.com/image/349991222/",
+      "paper": "The Missoulian",
+      "date": "Tue, Apr 13, 1982",
+      "page": "11",
+      "location": "Missoula,"
+    },
+    {
+      "pdf": "npc_349994891.pdf",
+      "image_id": "349994891",
+      "url": "https://www.newspapers.com/image/349994891/",
+      "paper": "The Missoulian",
+      "date": "Sun, Apr 25, 1982",
+      "page": "39",
+      "location": "Missoula"
+    },
+    {
+      "pdf": "npc_556464647.pdf",
+      "image_id": "556464647",
+      "url": "https://www.newspapers.com/image/556464647/",
+      "paper": "Hawaii Tribune-Herald",
+      "date": "Sun, Jun 16, 1985",
+      "page": "75",
+      "location": "H"
+    },
+    {
+      "pdf": "npc_557243249.pdf",
+      "image_id": "557243249",
+      "url": "https://www.newspapers.com/image/557243249/",
+      "paper": "Hawaii Tribune-Herald",
+      "date": "Tue, Dec 09, 2003",
+      "page": "21",
+      "location": "H"
+    },
+    {
+      "pdf": "npc_557271334.pdf",
+      "image_id": "557271334",
+      "url": "https://www.newspapers.com/image/557271334/",
+      "paper": "Hawaii Tribune-Herald",
+      "date": "Fri, Oct 15, 1993",
+      "page": "15",
+      "location": "Hilo"
+    },
+    {
+      "pdf": "npc_557515447.pdf",
+      "image_id": "557515447",
+      "url": "https://www.newspapers.com/image/557515447/",
+      "paper": "Hawaii Tribune-Herald",
+      "date": "Tue, Sep 15, 2009",
+      "page": "12",
+      "location": "H"
+    },
+    {
+      "pdf": "npc_558283893.pdf",
+      "image_id": "558283893",
+      "url": "https://www.newspapers.com/image/558283893/",
+      "paper": "Hawaii Tribune-Herald",
+      "date": "Fri, Sep 23, 2011",
+      "page": "20",
+      "location": "Hil"
+    }
+  ]
+}

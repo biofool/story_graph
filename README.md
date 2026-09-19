@@ -162,7 +162,13 @@ story_graph/
 │   ├── 01_crawl_and_build_graph.py
 │   ├── 03_targeted_entity_research.py  # scheduled — see infra/README.md
 │   ├── 09_graph_api.py                 # enrichment API + web UI — see below
-│   └── 10_capture_images.py            # backfill images for already-crawled sources
+│   ├── 10_capture_images.py            # backfill images for already-crawled sources
+│   ├── 16_ingest_aikidojournal.py      # single-URL ingest — see below
+│   ├── 17_ingest_from_kv.py            # email-ingest batch processor — see below
+│   ├── 4[2-4]_npc_*.py                 # newspapers.com search/extract/cleanup
+│   ├── 45_aikiweb_seminars_crawl.py    # archive AikiWeb seminar listing pages
+│   ├── 47_ingest_moon_newspaper_events.py
+│   └── 48_ingest_aikiweb_seminars.py   # per-instructor seminar ingest (--taught-by)
 ├── prompts/
 │   └── graph_to_wikipedia_update.md  # reusable LLM prompt: graph export -> Wikipedia proposal
 ├── tests/
@@ -387,3 +393,67 @@ python scripts/16_ingest_aikidojournal.py --url <URL> --dry-run
 
 This fetches the page, runs it through the entity/claim extraction
 pipeline (`process_page`), and exports to `graph_snapshot/`.
+
+## AikiWeb seminar research
+
+Two scripts support seminar-history research on aikido figures. AikiWeb
+403s non-browser fetches, so the crawl uses Playwright with a persistent
+headed-Chrome profile (`data/cache/aikiweb_chrome_profile`); the ingest
+step then works entirely off the local archive — no live requests needed
+to re-extract or ingest additional instructors.
+
+### Crawl and archive the seminar listings
+
+```bash
+python scripts/45_aikiweb_seminars_crawl.py \
+    --pattern "ikeda|bridge" --tag ikeda_bridge
+```
+
+- Fetches every per-state / per-country listing page linked from
+  `aikiweb.com/seminars/past.html` (~170 pages).
+- **Every** page is archived to
+  `data/reference/aikiweb/seminar_pages/<region>.txt` regardless of
+  pattern match; pages matching `--pattern` are additionally collected
+  into `data/reference/aikiweb_seminar_pages_<tag>.json`.
+- Resumable: completed URLs are recorded in
+  `data/reference/aikiweb_crawl_done_<tag>.txt`, and already-archived
+  pages are re-read from disk instead of re-fetched.
+- The "United States" aggregate page can time out — it is redundant
+  (it duplicates the per-state pages), so its absence from the archive
+  is harmless.
+
+### Ingest seminars for an instructor
+
+`scripts/48_ingest_aikiweb_seminars.py` scans the archived listing pages
+(`data/reference/aikiweb/seminar_pages/*.txt`) locally and ingests every
+entry whose title matches `--taught-by`:
+
+```bash
+python scripts/48_ingest_aikiweb_seminars.py \
+    --taught-by "Richard Moon" --person-id person:richard-moon-aikido
+
+python scripts/48_ingest_aikiweb_seminars.py \
+    --taught-by Ikeda --person-id person:hiroshi-ikeda
+
+# preview edges without writing
+python scripts/48_ingest_aikiweb_seminars.py --taught-by "Frank Doran" --dry-run
+```
+
+`--taught-by` is a case-insensitive regex matched against listing
+**titles** — so `Ikeda` catches "Hiroshi Ikeda" and any other Ikeda;
+verify identity when names collide. `--person-id` binds results to an
+existing Person node; without it the script creates `person:<slug>`.
+
+For each matching listing the script upserts:
+
+- an `event:aikiweb-*` **Event** node — metadata carries `dates`,
+  `region`, `venue`, `notes`, `listing_url`, `event_type: seminar`;
+- a `person -[CO_APPEARANCE]-> event` edge for the taught-by instructor;
+- additional `CO_APPEARANCE` edges for any **other existing Person
+  node** whose label/canonical name appears in the title (co-teachers);
+- an `event -[LOCATED_IN]-> dojo:*` edge when the venue matches an
+  existing Dojo node.
+
+Extracted listings are also written to
+`data/reference/aikiweb_<slug>_listings.json`. All writes go through
+`GraphDB` upserts, so re-runs are idempotent.
