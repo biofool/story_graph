@@ -240,10 +240,23 @@ class GeminiClaimExtractor:
     passed to :func:`process_page`. Reuses the GeminiExtractor's cached
     extraction to avoid a second API call when used alongside
     :class:`GeminiExtractor`.
+
+    Optional Jev claim verification (JEV assessment, CQ ticket #129): when
+    enabled, each extracted claim is checked against the source text with
+    a bounded supported/contradicted/unresolved choice. The verdict is
+    annotation only — claims are never dropped by the verifier.
     """
 
-    def __init__(self, extractor: GeminiExtractor):
+    def __init__(self, extractor: GeminiExtractor,
+                 verify_claims: bool | None = None, jev_client=None):
         self._extractor = extractor
+        # Explicit arg wins; otherwise JEV_CLAIM_VERIFY env enables it.
+        if verify_claims is None:
+            import os
+            verify_claims = os.getenv("JEV_CLAIM_VERIFY", "").strip().lower() in (
+                "1", "true", "yes", "on")
+        self._verify_claims = verify_claims
+        self._jev_client = jev_client
 
     def extract_claims(self, text: str, source_url: str = "") -> list[dict]:
         entities = self._extractor.extract(text, source_url=source_url or None)
@@ -265,7 +278,31 @@ class GeminiClaimExtractor:
                 "evidence_mode": claim.get("evidence_mode", "secondary_report"),
                 "source_url": source_url,
             })
+        if self._verify_claims:
+            self._verify(enriched, text)
         return enriched
+
+    def _verify(self, claims: list[dict], source_text: str) -> None:
+        """Annotate each claim with a Jev verdict (in place).
+
+        Bounded supported/contradicted/unresolved choice per claim. On any
+        failure the claim gets ``jev_verdict: "unverified"`` — verification
+        is observational, never destructive.
+        """
+        from src.llm.jev_client import JevClient, verify_claim
+        client = self._jev_client or JevClient()
+        if not client.is_available():
+            _log.warning("Jev claim verification enabled but unavailable.")
+            return
+        for claim in claims:
+            try:
+                verdict = verify_claim(claim.get("claim_text", ""), source_text, client)
+            except Exception:  # noqa: BLE001 — annotate, never crash extraction
+                verdict = None
+            if verdict:
+                claim.update(verdict)
+            else:
+                claim["jev_verdict"] = "unverified"
 
     @staticmethod
     def has_claim_verb(sentence: str) -> bool:
