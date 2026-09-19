@@ -70,3 +70,6 @@ data/spacy_models/
 graph_focused.html
 graph_structural.html
 index.html
+
+# LibreOffice lock files
+.~lock.*
