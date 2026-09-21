@@ -83,6 +83,9 @@ def main():
                     help="instructor name/regex matched against listing titles")
     ap.add_argument("--person-id",
                     help="graph id for the instructor (default person:<slug>)")
+    ap.add_argument("--alias", action="append", default=[],
+                    help="extra alias for the instructor node "
+                         "(repeatable; used when the node is created)")
     ap.add_argument("--pages-dir", default=PAGES_DIR)
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
@@ -110,7 +113,8 @@ def main():
         nodes.append(GraphNode(
             id=person_id, type=NodeType.PERSON, label=args.taught_by,
             canonical_name=args.taught_by,
-            metadata={"notes": "created by 48_ingest_aikiweb_seminars.py"},
+            metadata={"aliases": args.alias,
+                      "notes": "created by 48_ingest_aikiweb_seminars.py"},
             source_urls=[]))
         print(f"  will create {person_id}")
 
