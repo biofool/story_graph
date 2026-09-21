@@ -5,6 +5,44 @@
 This PRD defines which search engines the enrichment pipeline uses,
 when to use each one, what API keys they require, and how they fail over.
 
+## JEV bounded-decision availability
+
+JEV (`typesafe/jev-1.13`) is available through OpenRouter's Decisions API to
+annotate extracted claims as `supported`, `contradicted`, or `unresolved`
+against their source evidence. Extraction remains Gemini/open-ended LLM work;
+JEV is only the bounded verification layer. It is off by default
+(`JEV_CLAIM_VERIFY=1` enables it), and its verdict/confidence are annotations:
+claims are never dropped. API failure produces `unverified` and preserves the
+claim.
+
+Enabled runs use `JEV_API_KEY` or `OPENROUTER_API_KEY` and report intent/actual
+to CloudManagement as provider `openrouter`, API `decisions`, decision kind
+`claim_verification`. Promotion beyond annotation requires a labeled benchmark,
+confidence/disagreement policy, current OpenRouter pricing, and a project
+budget.
+
+### Candidate JEV decision kinds (assessed 2026-09-21)
+
+Bounded decisions where JEV's typed answers fit story_graph's pain points.
+All remain **unimplemented / shadow-only** until each has a labeled eval set,
+confidence/disagreement policy, and is registered as a decision kind in
+CloudManagement's `docs/per-repo-api-specs.md` §6A. Priority order:
+
+| Decision kind | Bounded question | Where it applies | Pain point it addresses |
+|---|---|---|---|
+| `identity_match` | Choice `{same_person, different_person, insufficient_evidence}` — does this text refer to the same person as a known identity card? | Corpus triage (`scripts/42-44`), `--taught-by` ingest screening (`scripts/48`), newspaper hit filtering | The dominant manual cost in this project: 700+ newspaper pages hand-triaged for "which Hiroshi Ikeda / Richard Moon" (bonsai Ikeda, Tadanori Ikeda, rugby Moon, Sir Richard Moon). JEV gets the candidate text + an identity card (affiliations, dates, places) as state. |
+| `entity_resolution` | Choice `{same_entity, alias_only, different_entities, uncertain}` for a node pair | Dedup pipeline (`scripts/50` pattern), ingest-time alias detection | Duplicate person/dojo nodes (`person-richard-moon` vs `person:richard-moon-aikido`, 8 Kufferath nodes). Human stays final authority; JEV ranks/groups candidate pairs. |
+| `event_dedup` | Choice `{same_event, different_event, uncertain}` for event pairs sharing venue/date overlap | Post-ingest maintenance | The AikiWeb ingest produced literal duplicate edges; deterministic IDs don't catch near-dupes across sources. |
+| `source_relevance` | Score 1-5 — how likely is this search-result snippet to document the research target? | `scripts/42` before download/OCR | Would have flagged the 201 Japan-query pages as collision-noise *before* extraction cost; prioritizes quota spend. |
+| `disposition_classify` | Choice `{collision, unrelated, same_context, keep}` + named collision target | `scripts/44`-style terminal-node cleanup | Formalizes today's hand-written `disposition`/`not_connected` metadata. |
+| `review_priority` | Score 1-5 — does this claim need human review? | Claim pipeline after `claim_verification` | Routes kkron's attention: contradicted/low-confidence/high-stakes claims first. Pure annotation; never drops claims. |
+
+Shared constraints (from CloudManagement PRD §6.5): start off or shadow-only;
+existing rule/regex path stays the fallback; JEV failure must preserve current
+behavior; nothing JEV decides is destructive without a human gate. Identity and
+dedup decisions are the highest-value targets but also the most
+calibration-sensitive — they stay annotation-only longest.
+
 ## Search engine inventory
 
 | Engine | API key required | Plan | Cost | Strengths | Weaknesses |
