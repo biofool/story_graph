@@ -41,6 +41,7 @@ and NZ-connected aikido hits are our subject.
 {{short description|American aikido teacher}}
 {{Infobox martial artist
 | name            = Richard Moon
+| birth_date      = {{Birth year and age|1946}}
 | martial_art     = [[Aikido]]
 | teacher         = [[Robert Nadeau (aikidoka)|Robert Nadeau]]
 | rank            = 6th ''[[dan rank|dan]]''
@@ -48,8 +49,11 @@ and NZ-connected aikido hits are our subject.
 | website         = 
 }}
 
-'''Richard Moon''' is an American [[aikido]] teacher holding the rank of
-6th ''[[dan rank|dan]]''.<ref name="nadeau-bio">{{cite web
+'''Richard Moon''' (born 1946) is an American [[aikido]] teacher holding
+the rank of 6th ''[[dan rank|dan]]''.<ref name="copyright-1946">{{cite
+web |title=Copyright registrations — Richard Moon, 1946-
+ |work=Copyright Encyclopedia |access-date=2026-09-21
+ |url=https://www.copyrightencyclopedia.com/radical-militant-vegetarians-in-naziland-against-the-odds/}}</ref><ref name="nadeau-bio">{{cite web
  |title=Authors — Robert Nadeau Shihan
  |url=https://www.nadeaushihan.com/authors
  |access-date=2026-09-17}}</ref> He is the founder and chief instructor of
@@ -139,6 +143,53 @@ He returned in September 2025 for a three-weekend seminar tour covering
 the South Island, [[Wellington]] and the [[North Island]].<ref
 name="linkedin-2025"/>
 
+=== Europe ===
+
+Aikido Maastricht in the Netherlands lists Moon among its hosted guest
+teachers alongside Nadeau, [[Patrick Cassidy]] and Miles Kessler;<ref
+name="maastricht">{{cite web |title=Welcome to Aikido Maastricht
+ |work=Aikido Maastricht
+ |url=http://www.aikido-maastricht.nl/index.php/english
+ |access-date=2026-09-21}}</ref> videos of his "Aiki — Energy State" and
+"introduction to aiki-dance" sessions there were posted to his YouTube
+channel in March 2010.<ref name="yt-maastricht">{{cite web
+ |title=moonsensei in maastricht: Aiki - Energy State |work=YouTube
+ |date=2010-03-14
+ |url=https://www.youtube.com/watch?v=MedDDBQHt6Y
+ |access-date=2026-09-21}}</ref> In June 2025 he taught at the annual
+Riviera Seminar on [[Lake Geneva]] in Switzerland, co-leading with
+Cassidy, Roberto Martucci and Dan Messisco,<ref name="riviera-2025">{{
+cite web |title=Riviera Seminar 2025: the heart of Freedom
+ |work=Novum Experience |date=2025-06-09
+ |url=https://www.novumexperience.com/2025/06/09/riviera-seminar-2025-the-heart-of-freedom/
+ |access-date=2026-09-21}}</ref> and led guest sessions at the Awase
+dojo in [[Helsinki]], Finland.<ref name="awase-2025">{{cite web
+ |title=Richard Moon, 6. dan Awasessa 12.6.2025 |work=Awase
+ |url=https://www.awase.fi/aikido/language/fi/richard-moon-6-dan-awasessa-12-6-2025
+ |access-date=2026-09-21}}</ref>
+
+== Peace work ==
+
+Moon has engaged in international peace-building through the
+[[Institute for Multi-Track Diplomacy]] (IMTD) in Washington, D.C. He
+joined IMTD at its first Lake Trails camp in 1999, where he taught
+young participants to use aikido as a conflict-resolution tool;<ref
+name="imtd-assoc">{{cite web |title=Associates |work=Institute for
+Multi-Track Diplomacy
+ |url=https://imtdsite.wordpress.com/about/associates/
+ |access-date=2026-09-21}}</ref> the program fed into IMTD's Youth
+Leadership Adventure work in [[Bosnia and Herzegovina|Bosnia]]. In
+[[Cyprus]], Moon worked on the conflict-resolution project developed by
+IMTD with the [[Fulbright Program|Cyprus Fulbright Commission]], the
+American Embassy, the Conflict Management Group and the Harvard
+Negotiation Project — the initiative that seeded the
+[[Cyprus Conflict Resolution Trainers Group]].<ref name="riai-bio"/><ref
+name="nautilus">{{cite web |title=Richard Moon |work=Nautilus
+Institute for Security and Sustainability
+ |url=https://nautilus.org/network/associates/richard-moon/
+ |access-date=2026-09-21}}</ref> He is a senior associate of the
+Nautilus Institute.<ref name="nautilus"/>
+
 == Books and other work ==
 
 Moon is the creator of the instructional program ''Aikido in Three Easy
@@ -167,7 +218,7 @@ He lives in [[Nicasio, California]].<ref name="linkedin-2025"/>
 [[Category:American aikidoka]]
 [[Category:Living people]]
 [[Category:People from Marin County, California]]
-[[Category:Year of birth missing (living people)]]
+[[Category:1946 births]]
 ```
 
 ## Source inventory
@@ -199,6 +250,20 @@ He lives in [[Nicasio, California]].<ref name="linkedin-2025"/>
 - http://aikido.org.nz/39th-riai-aikido-friendship-festival-... — Riai Aikido Friendship Festival context (39th in 2020)
 - https://copperfieldsbooks.com/book/9781644119778 — Quantum Aikido
 
+### Issue #60 additions (2026-09-21, archived under `data/reference/`)
+
+- `moon/imtd_associates.html` — IMTD associates: joined at first Lake Trails camp 1999, aikido as conflict-resolution tool
+- `moon/aikido_maastricht_english.html` — Aikido Maastricht hosted-teachers list
+- `moon/moon_maastricht_blog.html` — blog index of 3 "moonsensei in maastricht" YouTube videos (uploaded Mar 2010)
+- `moon/novum_riviera_2025.html` — Riviera Seminar 2025, Lake Geneva, w/ Cassidy, Martucci, Messisco
+- `moon/awase_fi_2025.html` — Awase Helsinki guest sessions Jun 2025, billed 6th dan
+- `moon/nautilus_moon.html` — Nautilus Institute bio (Cyprus + Bosnia peace building)
+- `moon/riai_moon_bio.html` — Riai bio incl. Cyprus/IMTD/Fulbright paragraph
+- `cyprus/Bicom_Groups_Map_Revised2007_12_08.jpg` + `futureworlds_crtg_overview.html` — Laouris 1997 map of ~40 CRTG-facilitated groups (context for cite_note-23 = Laouris & Laouri 2008)
+- `cyprus/wolleh_berghof_br8e.pdf` — Wolleh 2001 Berghof Report 8 (no Moon mention; checked)
+- `cyprus/crtg_wikipedia_wikitext.txt` — Wikipedia CRTG article wikitext
+- copyright records — "Richard Moon, 1946-" (birth year; San Anselmo releases)
+
 ### Papers Past (NZ national library) — context, no Moon hits
 
 NZ aikido press exists (The Press, Christchurch): Sugano visit 1976,
@@ -208,12 +273,19 @@ Masuda 8th dan seminar 1993, Shinryukan. No "Richard Moon" or
 
 ## Open items for the draft
 
-- Birth year/date — not found in any source; left out (BLP-safe).
-- Current rank — 6th dan per 2024-era bios; the older Riai page says 5th
-  dan (1997). If a newer rank (7th) is confirmable, update.
+- ~~Birth year/date~~ — **resolved: 1946** (US copyright records
+  "Richard Moon, 1946-" on his San Anselmo music releases + LinkedIn
+  "Jul 1946"). Exact date still unknown.
+- Current rank — 6th dan per nadeaushihan.com, Simon & Schuster, and
+  awase.fi (Jun 2025); older Riai page says 5th dan (1997). Promotion
+  date not yet sourced.
 - Whether the Moon/NZ first-visit year (~1987) can be nailed to a
   secondary source — LinkedIn is primary/self-published.
 - "Ria Friendship seminars" resolved = **Riai Aikido Friendship
   Festival** (annual, Auckland; 39th in 2020). Moon's specific festival
   appearances aren't independently dated yet beyond 2019 + 2025.
+- Maastricht seminar exact date — videos uploaded Mar 2010, seminar on
+  or before that; Aikido Maastricht may have archived announcements.
+- FOSBO (Switzerland) on the Bicom map — acronym unresolved; possibly a
+  Swiss friends-of-bicommunal-work support group (8/97).
 ```
