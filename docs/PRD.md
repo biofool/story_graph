@@ -7,19 +7,27 @@ when to use each one, what API keys they require, and how they fail over.
 
 ## JEV bounded-decision availability
 
-JEV (`typesafe/jev-1.13`) is available through OpenRouter's Decisions API to
-annotate extracted claims as `supported`, `contradicted`, or `unresolved`
-against their source evidence. Extraction remains Gemini/open-ended LLM work;
-JEV is only the bounded verification layer. It is off by default
-(`JEV_CLAIM_VERIFY=1` enables it), and its verdict/confidence are annotations:
-claims are never dropped. API failure produces `unverified` and preserves the
-claim.
+JEV (`jev-latest` / `typesafe/jev-1.13`) is available to annotate extracted
+claims as `supported`, `contradicted`, or `unresolved` against their source
+evidence. Extraction remains Gemini/open-ended LLM work; JEV is only the
+bounded verification layer. It is off by default (`JEV_CLAIM_VERIFY=1` enables
+it), and its verdict/confidence are annotations: claims are never dropped. API
+failure produces `unverified` and preserves the claim.
 
-Enabled runs use `JEV_API_KEY` or `OPENROUTER_API_KEY` and report intent/actual
-to CloudManagement as provider `openrouter`, API `decisions`, decision kind
-`claim_verification`. Promotion beyond annotation requires a labeled benchmark,
-confidence/disagreement policy, current OpenRouter pricing, and a project
-budget.
+**Credentials (verified live 2026-09-21):** this repo's key is a **direct
+TypeSafe API key** (not an OpenRouter key). It is stored in `.env` as
+`JEV_API_KEY` and in GCP Secret Manager `quantum-aikido-coaching/JEV_API_KEY`.
+The client defaults to the OpenRouter Decisions endpoint, so `.env` also pins
+`JEV_BASE_URL=https://api.typesafe.ai/v1/systemone` and `JEV_MODEL=jev-latest`
+— without those overrides the direct key gets a 401 from OpenRouter. Verified:
+`verify_claim` returns `supported`/`unresolved` verdicts correctly over the
+TypeSafe endpoint.
+
+Report intent/actual to CloudManagement as provider `typesafe`, API
+`systemone`, decision kind `claim_verification` (the OpenRouter
+`openrouter`/`decisions` pair applies only when an OpenRouter-format key is
+used). Promotion beyond annotation requires a labeled benchmark,
+confidence/disagreement policy, current pricing, and a project budget.
 
 ### Candidate JEV decision kinds (assessed 2026-09-21)
 
