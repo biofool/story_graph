@@ -207,9 +207,7 @@ class GeminiExtractor:
             f"SOURCE TEXT:\n{text[:20000]}"
         )
         try:
-            # TieredGeminiClient.generate_json accepts allow_paid;
-            # plain GeminiClient.generate_json does not.
-            if hasattr(self._client, "stats"):
+            if getattr(self._client, "supports_paid_fallback", False):
                 data = self._client.generate_json(
                     prompt,
                     EXTRACTION_SCHEMA,

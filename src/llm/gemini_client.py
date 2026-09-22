@@ -107,6 +107,10 @@ class GeminiClient:
     def model(self) -> str:
         return self._model
 
+    @property
+    def supports_paid_fallback(self) -> bool:
+        return False
+
     def _ensure_client(self) -> Any:
         if self._client is not None:
             return self._client
@@ -310,6 +314,16 @@ class TieredGeminiClient:
             return self._ensure_vertexai_client() is not None
         return False
 
+    @property
+    def supports_paid_fallback(self) -> bool:
+        return True
+
+    def _paid_fallback_admitted(self) -> bool:
+        tracker = self._cost_tracker
+        if tracker is None:
+            return False
+        return bool(getattr(tracker, "paid_fallback_approved", False))
+
     def _report_call(self, tier: str, model: str, cost_usd: float) -> None:
         """Best-effort cost-tracker report after a successful API call.
 
@@ -444,6 +458,10 @@ class TieredGeminiClient:
                 f"{len(self._exhausted_keys)}/{len(self._free_keys)}. "
                 "Set allow_paid=True to fall back to Vertex AI (paid)."
             )
+        if not self._paid_fallback_admitted():
+            raise GeminiError(
+                "Vertex AI paid fallback requires an approved CloudManagement intent."
+            )
 
         va_client = self._ensure_vertexai_client()
         if va_client is None:
@@ -508,6 +526,10 @@ class TieredGeminiClient:
         if not allow_paid:
             raise GeminiError(
                 "All free-tier Gemini keys exhausted and allow_paid=False."
+            )
+        if not self._paid_fallback_admitted():
+            raise GeminiError(
+                "Vertex AI paid fallback requires an approved CloudManagement intent."
             )
         va_client = self._ensure_vertexai_client()
         if va_client is None:

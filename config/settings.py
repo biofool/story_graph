@@ -64,7 +64,7 @@ class Settings(BaseModel):
     # Credentials (e.g. a service account key file set via
     # GOOGLE_APPLICATION_CREDENTIALS or gcloud auth).
     gemini_vertexai_enabled: bool = Field(
-        default_factory=lambda: os.getenv("GEMINI_VERTEXAI_ENABLED", "true").lower()
+        default_factory=lambda: os.getenv("GEMINI_VERTEXAI_ENABLED", "false").lower()
         in ("true", "1", "yes")
     )
     gemini_vertexai_project: str = Field(
