@@ -1,0 +1,17 @@
+{
+  "run_id": "b5b2333fa2e7",
+  "plan_id": "e0536008f1b3",
+  "created_at": "2026-09-07T21:48:47.355469+00:00",
+  "results": [],
+  "total_results": 0,
+  "queries_executed": 60,
+  "queries_cached": 0,
+  "budget_status": {
+    "brave": {
+      "session_used": 60,
+      "session_budget": 100,
+      "monthly_used": 60,
+      "monthly_budget": 2000
+    }
+  }
+}

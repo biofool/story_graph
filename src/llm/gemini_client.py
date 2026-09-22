@@ -19,7 +19,7 @@ from __future__ import annotations
 import json
 import logging
 from dataclasses import dataclass, field
-from typing import Any
+from typing import Any, Optional
 
 from config.settings import settings
 
@@ -191,7 +191,7 @@ class GeminiClient:
 
         cfg_kwargs: dict[str, Any] = {
             "response_mime_type": "application/json",
-            "response_json_schema": response_schema,
+            "response_schema": response_schema,
         }
         if system_instruction:
             cfg_kwargs["system_instruction"] = system_instruction
@@ -351,7 +351,14 @@ class TieredGeminiClient:
             self._vertexai_available = False
             return None
         try:
-            creds, project = _adc_default()
+            # Request cloud-platform scope explicitly. Service account ADC
+            # credentials returned by google.auth.default() have scopes=None
+            # by default, which causes an "invalid_scope" RefreshError when
+            # the Vertex AI client tries to use them. Passing scopes here
+            # ensures the token assertion includes the required OAuth scope.
+            creds, project = _adc_default(
+                scopes=["https://www.googleapis.com/auth/cloud-platform"],
+            )
             project = self._vertexai_project or project
             if not project:
                 _log.warning("Vertex AI fallback unavailable: no GCP project resolved")
@@ -537,7 +544,7 @@ class TieredGeminiClient:
 
         cfg_kwargs: dict[str, Any] = {
             "response_mime_type": "application/json",
-            "response_json_schema": response_schema,
+            "response_schema": response_schema,
         }
         if system_instruction:
             cfg_kwargs["system_instruction"] = system_instruction

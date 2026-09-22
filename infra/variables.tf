@@ -175,3 +175,60 @@ variable "notification_email" {
   type        = string
   default     = ""
 }
+
+# ---------------------------------------------------------------------------
+# Cloud Build / Artifact Registry — GCP-side image construction (issue #18)
+# ---------------------------------------------------------------------------
+
+variable "enable_cloudbuild" {
+  description = <<-EOT
+    Whether to provision the Artifact Registry repo + Cloud Build trigger
+    so GCP constructs the container image (issue #18). When true, the
+    Oracle host triggers builds via `gcloud builds submit` or the Cloud
+    Build trigger and never runs docker locally.
+  EOT
+  type        = bool
+  default     = false
+}
+
+variable "artifact_repo_name" {
+  description = "Artifact Registry docker repository name for the image."
+  type        = string
+  default     = "story-graph"
+}
+
+variable "cloudbuild_image_name" {
+  description = "Container image name produced by the Cloud Build pipeline."
+  type        = string
+  default     = "targeted-research"
+}
+
+variable "enable_github_trigger" {
+  description = <<-EOT
+    Whether to create a GitHub-connected Cloud Build trigger that builds
+    on push to github_branch. Requires enable_cloudbuild = true and the
+    GitHub repo to be connected to Cloud Build (see Cloud Console >
+    Cloud Build > Triggers > Connect repository). When false, the Oracle
+    host triggers builds manually via `gcloud builds submit`.
+  EOT
+  type        = bool
+  default     = false
+}
+
+variable "github_owner" {
+  description = "GitHub owner (org/user) for the Cloud Build trigger repo."
+  type        = string
+  default     = "biofool"
+}
+
+variable "github_repo" {
+  description = "GitHub repo name for the Cloud Build trigger."
+  type        = string
+  default     = "story_graph"
+}
+
+variable "github_branch" {
+  description = "Branch the GitHub Cloud Build trigger fires on."
+  type        = string
+  default     = "main"
+}

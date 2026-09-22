@@ -1,0 +1,143 @@
+{
+  "_comment": "Query templates for relationship discovery searches. {a} and {b} are entity labels/names. {style} is an optional martial art or domain keyword.",
+  "pair_templates": [
+    {
+      "id": "training_together",
+      "template": "\"{a}\" \"{b}\" training",
+      "target_edge": "TRAINED_WITH",
+      "description": "Find documentation of two people training together"
+    },
+    {
+      "id": "student_of",
+      "template": "\"{a}\" student of \"{b}\"",
+      "target_edge": "STUDENT_OF",
+      "description": "Find documentation of a teacher-student relationship"
+    },
+    {
+      "id": "taught_by",
+      "template": "\"{a}\" taught by \"{b}\"",
+      "target_edge": "STUDENT_OF",
+      "description": "Alternative phrasing for teacher-student"
+    },
+    {
+      "id": "seminar_together",
+      "template": "\"{a}\" \"{b}\" seminar",
+      "target_edge": "ATTENDED_WITH",
+      "description": "Find seminar/workshop co-attendance"
+    },
+    {
+      "id": "dojo_shared",
+      "template": "\"{a}\" \"{b}\" dojo",
+      "target_edge": "TRAINED_AT",
+      "description": "Find shared dojo connections"
+    },
+    {
+      "id": "interview_mention",
+      "template": "\"{a}\" \"{b}\" interview",
+      "target_edge": "MENTIONS",
+      "description": "Find interviews where one mentions the other"
+    },
+    {
+      "id": "lineage",
+      "template": "\"{a}\" \"{b}\" lineage",
+      "target_edge": "LINEAGE",
+      "description": "Find lineage chart connections"
+    },
+    {
+      "id": "style_specific",
+      "template": "\"{a}\" \"{b}\" {style}",
+      "target_edge": "MENTIONS",
+      "description": "Style-specific co-mention search"
+    },
+    {
+      "id": "aikido_together",
+      "template": "\"{a}\" \"{b}\" aikido",
+      "target_edge": "TRAINED_WITH",
+      "description": "Aikido-specific co-training search"
+    },
+    {
+      "id": "california_aikido",
+      "template": "\"{a}\" \"{b}\" California aikido",
+      "target_edge": "TRAINED_WITH",
+      "description": "California aikido scene co-mention"
+    },
+    {
+      "id": "biography_mention",
+      "template": "\"{a}\" biography \"{b}\"",
+      "target_edge": "MENTIONS",
+      "description": "Find biographical sources mentioning both"
+    },
+    {
+      "id": "book_mention",
+      "template": "\"{a}\" \"{b}\" book",
+      "target_edge": "MENTIONS",
+      "description": "Find book sources mentioning both"
+    }
+  ],
+  "single_templates": [
+    {
+      "id": "bio_search",
+      "template": "\"{a}\" {style} biography",
+      "description": "Find biographical sources for a single person"
+    },
+    {
+      "id": "instructor_search",
+      "template": "\"{a}\" {style} instructor",
+      "description": "Find instructor profile sources"
+    },
+    {
+      "id": "org_member_search",
+      "template": "\"{a}\" {org} member",
+      "description": "Find organizational membership documentation"
+    },
+    {
+      "id": "seminar_year",
+      "template": "\"{a}\" seminar {year}",
+      "description": "Find seminar records for a specific year"
+    },
+    {
+      "id": "interview_search",
+      "template": "\"{a}\" interview martial arts",
+      "description": "Find interview sources"
+    },
+    {
+      "id": "obituary_search",
+      "template": "\"{a}\" obituary martial arts",
+      "description": "Find obituary sources (often rich biographical detail)"
+    }
+  ],
+  "priority_clusters": [
+    {
+      "id": "bay_area_aikido_lineage",
+      "name": "Bay Area Aikido lineage",
+      "entities": [
+        "person:dan-millman",
+        "person:robert-nadeau",
+        "person:richard-moon-aikido",
+        "person:bob-noha"
+      ],
+      "style": "aikido",
+      "rationale": "User firsthand knowledge: Dan Millman trained with Robert Nadeau and/or Richard Moon and/or Bob Noha. Zero direct edges currently exist between these four persons."
+    },
+    {
+      "id": "nadeau_kufferath_bunch",
+      "name": "Nadeau-Kufferath-Bunch connection",
+      "entities": [
+        "person:robert-nadeau",
+        "person:sig-kufferath",
+        "person:richard-bunch"
+      ],
+      "style": "aikido",
+      "rationale": "Richard Bunch was the operational link between Nadeau's Aikido community and Kufferath's Danzan-ryu community. Partially documented via kkron assertions, needs independent sourcing."
+    },
+    {
+      "id": "danzan_ryu_lineage",
+      "name": "Danzan-ryu / Kodenkan lineage",
+      "entities": [
+        "person:sig-kufferath"
+      ],
+      "style": "danzan",
+      "rationale": "Kufferath lineage is core to Danzan-ryu history. Enrich with additional biographical and lineage sources."
+    }
+  ]
+}

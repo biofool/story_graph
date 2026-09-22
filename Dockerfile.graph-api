@@ -1,0 +1,55 @@
+# Slim container image for scripts/09_graph_api.py — the Flask-based graph
+# enrichment API + web UI. Deployed as a second Docker container on the
+# Oracle Always Free instance alongside CloudManagement.
+#
+# This image is intentionally minimal: it includes only what the API server
+# actually imports (Flask, Pillow, requests, pydantic). No spaCy, no crawler,
+# no LLM, no beautifulsoup4 — those are only needed by the ingestion scripts
+# which run as separate ephemeral processes, not as a long-running server.
+#
+# Memory footprint: ~48 MB RSS (vs ~159 MB with spaCy loaded).
+#
+# Build:
+#   docker build -f Dockerfile.graph-api -t story-graph-api:latest .
+# Run:
+#   docker run --rm -p 8091:8091 \
+#     -v $(pwd)/graph_snapshot:/app/graph_snapshot \
+#     -v $(pwd)/data:/app/data \
+#     story-graph-api:latest
+
+FROM mirror.gcr.io/library/python:3.12-slim
+
+WORKDIR /app
+
+# Install only the slim dependency set (cached layer)
+COPY requirements-graph-api.txt .
+RUN pip install --no-cache-dir -r requirements-graph-api.txt
+
+# Copy only the source the API needs at runtime:
+#   src/storage/   — GraphDB, models, json_export
+#   src/crawler/   — image_capture (Pillow thumbnails)
+#   src/utils/     — text_utils (URL helpers used by image_capture)
+#   scripts/09_graph_api.py — the server itself
+# config/ is NOT copied — the API doesn't import config.settings, and it
+# pulls in python-dotenv which isn't in the slim requirements.
+COPY src/storage/ src/storage/
+COPY src/crawler/ src/crawler/
+COPY src/utils/ src/utils/
+COPY scripts/09_graph_api.py scripts/09_graph_api.py
+COPY graph_snapshot/ graph_snapshot/
+
+# Create data directory for SQLite + images
+RUN mkdir -p data/images/thumbs
+
+# Run as a non-root user
+RUN useradd --create-home --shell /usr/sbin/nologin appuser \
+    && chown -R appuser:appuser /app
+USER appuser
+
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1
+
+EXPOSE 8091
+
+# The graph API server — serves the web UI + REST endpoints
+ENTRYPOINT ["python", "scripts/09_graph_api.py", "--port", "8091", "--host", "0.0.0.0"]

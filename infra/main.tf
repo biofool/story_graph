@@ -49,6 +49,68 @@ resource "google_project_service" "aiplatform" {
   disable_on_destroy = false
 }
 
+resource "google_project_service" "cloudbuild" {
+  count              = var.enable_cloud_build_trigger ? 1 : 0
+  project            = var.project_id
+  service            = "cloudbuild.googleapis.com"
+  disable_on_destroy = false
+}
+
+resource "google_project_service" "artifactregistry" {
+  count              = var.create_artifact_registry ? 1 : 0
+  project            = var.project_id
+  service            = "artifactregistry.googleapis.com"
+  disable_on_destroy = false
+}
+
+# ---------------------------------------------------------------------------
+# Artifact Registry: Docker repository for the targeted-research image
+# ---------------------------------------------------------------------------
+
+resource "google_artifact_registry_repository" "story_graph" {
+  count         = var.create_artifact_registry ? 1 : 0
+  project       = var.project_id
+  location      = var.region
+  repository_id = var.artifact_registry_repo_name
+  format        = "DOCKER"
+  description   = "Container images for story_graph targeted-research Cloud Run Job"
+
+  depends_on = [google_project_service.artifactregistry]
+}
+
+# ---------------------------------------------------------------------------
+# Cloud Build: trigger that builds the image on push (GCP-side construction)
+# ---------------------------------------------------------------------------
+
+resource "google_cloudbuild_trigger" "story_graph" {
+  count       = var.enable_cloud_build_trigger ? 1 : 0
+  project     = var.project_id
+  name        = "story-graph-targeted-research"
+  description = "Build story_graph targeted-research image on push to ${var.cloud_build_trigger_branch}"
+
+  github {
+    owner = var.cloud_build_github_owner
+    name  = var.cloud_build_github_repo
+    push {
+      branch = "^${var.cloud_build_trigger_branch}$"
+    }
+  }
+
+  filename = "cloudbuild.yaml"
+
+  substitutions = {
+    _REGION     = var.region
+    _REPO_NAME  = var.artifact_registry_repo_name
+    _IMAGE_NAME = "targeted-research"
+    _IMAGE_TAG  = "latest"
+  }
+
+  depends_on = [
+    google_project_service.cloudbuild,
+    google_artifact_registry_repository.story_graph,
+  ]
+}
+
 # ---------------------------------------------------------------------------
 # Service accounts (least privilege, one per role rather than one shared SA)
 # ---------------------------------------------------------------------------
