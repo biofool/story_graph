@@ -1,0 +1,102 @@
+{
+  "person": {
+    "canonical_id": "person:richard-moon-aikido",
+    "aliases": ["person-richard-moon"],
+    "roles": ["aikido_teacher", "chef", "musician", "executive_coach", "peace_builder"],
+    "facets": {
+      "aikido_teacher": "6th dan; founder/chief instructor Aikido of Marin; co-founder City Aikido SF; 50+ year student of Robert Nadeau; guest teaching NZ/Europe since ~1987",
+      "chef": "Worked at The Source restaurant (Sunset Strip) and the Aware Inn during the Source Family era; later food work incl. Teriyaki Age product and La Cocina SF Street Food Festival",
+      "musician": "moonsic.com — R. Moon 'Moon Music' (Moon Rocks, Moon Tunes); US copyright registrations list 'Richard Moon, 1946-' on San Anselmo CA music releases",
+      "executive_coach": "Performance Edge consultancy with Chris Thorsen — 'Aikido and Dialogue' organizational-learning programs; Open Mind Adventures; Extraordinary Listening communications program; QuantumEdge.org — coaching for John Combs (several companies), Dan Whalen, and other QuantumEdge customers",
+      "peace_builder": "Cyprus Peace Training Team (IMTD/Fulbright consortium behind the CRTG); Bosnia Peace Trails / IMTD Lake Trails camp 1999 feeding Bosnia YLA; senior associate Nautilus Institute"
+    },
+    "facets_source": "kkron personal communication 2026-09-22"
+  },
+  "nodes": [
+    {
+      "id": "group:bosnia-peace-trails",
+      "type": "Group",
+      "label": "Bosnia Peace Trails",
+      "metadata": {
+        "description": "IMTD peace-building program in Bosnia; successor lineage of the Lake Trails camp (1999) and Bosnia Youth Leadership Adventure. Richard Moon taught aikido as a conflict-resolution tool.",
+        "source": "kkron personal communication 2026-09-22"
+      }
+    },
+    {
+      "id": "person:john-combs",
+      "type": "Person",
+      "label": "John Combs",
+      "metadata": {
+        "description": "Executive-coaching client of Richard Moon at several companies; associated with the QuantumEdge customer network.",
+        "source": "kkron personal communication 2026-09-22",
+        "distinct_note": "NOT Sean 'Diddy' Combs — different person entirely."
+      }
+    }
+  ],
+  "edges": [
+    {"src": "person:richard-moon-aikido", "rel": "WORKED_AT", "dst": "group:the-source-restaurant",
+     "source": "kkron personal communication 2026-09-22; claim:kkron:218252fe4b9771cb"},
+    {"src": "person:richard-moon-aikido", "rel": "WORKED_AT", "dst": "group:aware-inn",
+     "source": "kkron personal communication 2026-09-22; claim:kkron:0e842747e2d98504"},
+    {"src": "person:richard-moon-aikido", "rel": "WORKED_AT", "dst": "group:second-aware-inn",
+     "source": "kkron personal communication 2026-09-22; claim:kkron:0e842747e2d98504"},
+    {"src": "person:richard-moon-aikido", "rel": "CREATED", "dst": "work:moonsic:rmoon",
+     "source": "moonsic.com R. Moon Moon Music; kkron 2026-09-22"},
+    {"src": "person:richard-moon-aikido", "rel": "CREATED", "dst": "work:moonsic:home",
+     "source": "moonsic.com; kkron 2026-09-22"},
+    {"src": "person:richard-moon-aikido", "rel": "CREATED", "dst": "work:b0b53e646a2cdd0e",
+     "source": "extraordinarylistening.com; kkron 2026-09-22"},
+    {"src": "person:richard-moon-aikido", "rel": "MEMBER_OF", "dst": "group-cyprus-peace-training-team",
+     "source": "mirrored from alias node; Riai bio / IMTD"},
+    {"src": "person:richard-moon-aikido", "rel": "WORKED_AT", "dst": "group:bosnia-peace-trails",
+     "source": "kkron personal communication 2026-09-22"},
+    {"src": "person:richard-moon-aikido", "rel": "WORKED_AT", "dst": "group:quantum-edge",
+     "source": "kkron personal communication 2026-09-22; quantumedge.org linked from moonsic.com"},
+    {"src": "person:richard-moon-aikido", "rel": "WORKED_FOR", "dst": "person:john-combs",
+     "source": "kkron personal communication 2026-09-22 — executive coaching at several companies"},
+    {"src": "person:richard-moon-aikido", "rel": "WORKED_FOR", "dst": "person:dan-whalen",
+     "source": "kkron personal communication 2026-09-22 — QuantumEdge customer; Whalen also funded the $30M Bosnia project (claim:d5f961ce9a32aa98)"},
+    {"src": "group:bosnia-peace-trails", "rel": "PRODUCED", "dst": "event:international-peace-building-project-in-bosnia",
+     "source": "kkron personal communication 2026-09-22; claim:d5f961ce9a32aa98 ($30M Bosnia project funded by Dan Whalen)"}
+  ],
+  "claims": [
+    {
+      "id": "claim:kkron:moon-unified-identity",
+      "label": "kkron: Richard Moon (aikidoka, b.1946) is one person across roles — aikido teacher, chef, musician, executive coach, peace negotiator",
+      "metadata": {
+        "claim_text": "The aikido Richard Moon is the same person as the chef (Source restaurant / Aware Inn era, later Teriyaki Age / La Cocina), the musician (moonsic.com, 1946- copyright releases), the executive coach (Performance Edge, Extraordinary Listening, Open Mind Adventures, QuantumEdge.org), and the peace negotiator (Cyprus PTT, IMTD, Bosnia Peace Trails).",
+        "claim_type": "biographical",
+        "stance": "asserting",
+        "confidence": 0.95,
+        "evidence_mode": "first_person",
+        "platform": "kkron (personal communication)",
+        "source_class": "verbal_confirmation",
+        "source_url": "kkron://personal-communication"
+      },
+      "about": ["person:richard-moon-aikido", "person-richard-moon"],
+      "asserted_by": "person:richard-moon-aikido"
+    },
+    {
+      "id": "claim:kkron:moon-quantumedge-clients",
+      "label": "kkron: Moon's executive-coaching clients included John Combs (several companies), Dan Whalen, and others from the QuantumEdge.org customer list",
+      "metadata": {
+        "claim_text": "Richard Moon worked for John Combs at several companies, and for Dan Whalen and others from the QuantumEdge.org customer list, in his executive-coaching capacity.",
+        "claim_type": "biographical",
+        "stance": "asserting",
+        "confidence": 0.9,
+        "evidence_mode": "first_person",
+        "platform": "kkron (personal communication)",
+        "source_class": "verbal_confirmation",
+        "source_url": "kkron://personal-communication"
+      },
+      "about": ["person:richard-moon-aikido", "person:john-combs", "person:dan-whalen", "group:quantum-edge"],
+      "asserted_by": "person:richard-moon-aikido"
+    }
+  ],
+  "distinct_from": [
+    {
+      "node": "person:richard-moon-chef",
+      "note": "Australian chef (Blue Mountains, 'Moon on a Spoon'). NOT the Source/La Cocina chef facet of the aikido Moon — those are different Richard Moons."
+    }
+  ]
+}

@@ -6204,6 +6204,11 @@
 {"dst_id": "group:cyprus-fulbright-commission", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:f27d36ff1e898050"}
 {"dst_id": "person:douglas-stone-negotiation", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:f27d36ff1e898050"}
 {"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:f27d36ff1e898050"}
+{"dst_id": "group:quantum-edge", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:kkron:moon-quantumedge-clients"}
+{"dst_id": "person:dan-whalen", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:kkron:moon-quantumedge-clients"}
+{"dst_id": "person:john-combs", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:kkron:moon-quantumedge-clients"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:kkron:moon-quantumedge-clients"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:moon-quantumedge-clients"}
 {"dst_id": "person-richard-moon", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:kkron:moon-unified-identity"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:kkron:moon-unified-identity"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:moon-unified-identity"}
@@ -14127,6 +14132,7 @@
 {"dst_id": "place:tien-giang", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:belvie-chocolate"}
 {"dst_id": "place:katoomba", "metadata": {"evidence": "https://burgewords.com/tag/richard-moon/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:bodds-caf\u00e9-katoomba"}
 {"dst_id": "place:new-york-city", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:bond-street-dojo"}
+{"dst_id": "event:international-peace-building-project-in-bosnia", "metadata": {"source": "kkron personal communication 2026-09-22; claim:d5f961ce9a32aa98 ($30M Bosnia project funded by Dan Whalen)"}, "rel_type": "PRODUCED", "src_id": "group:bosnia-peace-trails"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://military-history.fandom.com/wiki/Father_Yod", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "group:breath"}
 {"dst_id": "place:vietnam", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:bun-cha-34"}
 {"dst_id": "place:vietnam", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:bun-cha-dac-kim"}
@@ -15278,12 +15284,16 @@
 {"dst_id": "event:peace-building-initiatives-of-richard-moon-with-louise-diamond", "metadata": {"asserted_by": "cited_source", "evidence": "https://thetaichinotebook.com/2026/01/31/the-first-podcast-of-2026-quantum-aikido-with-richard-moon/", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "MENTIONS", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "person:rochelle-moon", "metadata": {"relation": "wife"}, "rel_type": "MENTIONS", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "group:aware-inn", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "group:bosnia-peace-trails", "metadata": {"source": "kkron personal communication 2026-09-22"}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "group:grateful-dead", "metadata": {"evidence": "https://thetaichinotebook.com/2026/01/31/the-first-podcast-of-2026-quantum-aikido-with-richard-moon/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "group:quantum-edge", "metadata": {"source": "kkron personal communication 2026-09-22; quantumedge.org linked from moonsic.com"}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "group:second-aware-inn", "metadata": {"source": "kkron personal communication 2026-09-22; claim:kkron:0e842747e2d98504"}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "group:the-source-restaurant", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "group:wild-mountain-cafe", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "person:christopher-thorsen", "metadata": {"evidence": "https://thetaichinotebook.com/2026/01/31/the-first-podcast-of-2026-quantum-aikido-with-richard-moon/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "person:louise-diamond", "metadata": {"evidence": "https://thetaichinotebook.com/2026/01/31/the-first-podcast-of-2026-quantum-aikido-with-richard-moon/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "person:dan-whalen", "metadata": {"source": "kkron personal communication 2026-09-22 \u2014 QuantumEdge customer; Whalen also funded the $30M Bosnia project (claim:d5f961ce9a32aa98)"}, "rel_type": "WORKED_FOR", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "person:john-combs", "metadata": {"source": "kkron personal communication 2026-09-22 \u2014 executive coaching at several companies"}, "rel_type": "WORKED_FOR", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "group:canadian-law-and-society-assn", "metadata": {"evidence": "https://cfe.torontomu.ca/people/richard-moon", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon-law-professor"}
 {"dst_id": "group:global-centre-for-democratic-constitutionalism", "metadata": {"evidence": "https://www.ucl.ac.uk/laws/global-centre-democratic-constitutionalism/about-global-centre-democratic-constitutionalism/members/professor-richard-moon", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon-law-professor"}
 {"dst_id": "group:oxford-university", "metadata": {"evidence": "https://www.uottawa.ca/faculty-law/common-law/faculty/moon-richard", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon-law-professor"}
