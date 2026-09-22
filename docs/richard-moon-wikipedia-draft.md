@@ -31,14 +31,23 @@ Multiple people named Richard Moon appear in newspaper archives:
 - **Richard Moon** — England U-23 / Rosslyn Park rugby scrum-half, 1980s
 - **Richard Moon** — Grande Prairie AB painter/decorator, 1980s–90s
 - **Richard Moon** — Hanover NH photographer ("The Homeless" slides, 1991)
+- **Richard Moon** — Australian chef, Blue Mountains ("Moon on a Spoon")
+- **Richard Moon** — Canadian constitutional-law professor, U. Windsor
 
 None of these is the aikido teacher. Only Marin County CA, Durham NC,
-and NZ-connected aikido hits are our subject.
+and NZ-connected aikido hits are our subject. **Conversely**, the
+subject himself spans facets that look like different people: Source-
+era chef, moonsic.com musician, executive coach, Cyprus/Bosnia peace
+worker — all confirmed by kkron (2026-09-22) as the same man, encoded
+in the graph as `roles`/`facets` + `claim:kkron:moon-unified-identity`.
+
+JEV identity_match verified 73/73 collision labels correctly
+(`scripts/55_jev_moon_analysis.py`, `data/audit/jev_moon_2026-09-22.json`).
 
 ## Draft wikitext
 
 ```wikitext
-{{short description|American aikido teacher}}
+{{short description|American aikido teacher and peace activist}}
 {{Infobox martial artist
 | name            = Richard Moon
 | birth_date      = {{Birth year and age|1946}}
@@ -46,11 +55,13 @@ and NZ-connected aikido hits are our subject.
 | teacher         = [[Robert Nadeau (aikidoka)|Robert Nadeau]]
 | rank            = 6th ''[[dan rank|dan]]''
 | club            = Aikido of Marin
+| occupation      = {{hlist|Aikido teacher|executive coach|peace activist|musician|chef}}
 | website         = 
 }}
 
-'''Richard Moon''' (born 1946) is an American [[aikido]] teacher holding
-the rank of 6th ''[[dan rank|dan]]''.<ref name="copyright-1946">{{cite
+'''Richard Moon''' (born 1946) is an American [[aikido]] teacher,
+executive coach, and peace activist holding the rank of 6th
+''[[dan rank|dan]]''.<ref name="copyright-1946">{{cite
 web |title=Copyright registrations — Richard Moon, 1946-
  |work=Copyright Encyclopedia |access-date=2026-09-21
  |url=https://www.copyrightencyclopedia.com/radical-militant-vegetarians-in-naziland-against-the-odds/}}</ref><ref name="nadeau-bio">{{cite web
@@ -75,6 +86,11 @@ continued for over fifty years.<ref name="nadeau-bio"/> Moon was also a
 personal student of capoeira master [[Mestre Acordeon]] (Bira Almeida),
 practiced Cheng Hsin with [[Peter Ralston]], and trained in [[qigong]]
 with [[B. K. Frantzis]].<ref name="nadeau-bio"/><ref name="riai-bio"/>
+
+In the early 1970s Moon was associated with the circle around
+[[Jim Baker (Father Yod)|Jim Baker]] and worked at Baker's
+[[The Source (restaurant)|Source restaurant]] on the [[Sunset Strip]]
+and at the earlier Aware Inn.{{better source needed|date=September 2026}}
 
 == Teaching career ==
 
@@ -124,7 +140,12 @@ program — Chris Thorsen and Richard Moon: Aikido and Dialogue
 name="hs-2001">{{cite news |title=presenters listing — Chris Thorsen &
 Richard Moon: Aikido |newspaper=[[The Herald-Sun (Durham, North
 Carolina)|The Herald-Sun]] |location=Durham, NC |date=2001-09-23
- |page=80 |url=https://www.newspapers.com/image/795545627/}}</ref>
+ |page=80 |url=https://www.newspapers.com/image/795545627/}}</ref> He
+also developed "Extraordinary Listening", a communications-training
+program offered to community and business groups.<ref
+name="xl-site">{{cite web |title=ExtraordinaryListening.com
+ |work=Extraordinary Listening |url=http://extraordinarylistening.com/
+ |access-date=2026-09-22}}</ref><ref name="linkedin-2025"/>
 
 === New Zealand ===
 
@@ -190,6 +211,19 @@ Institute for Security and Sustainability
  |access-date=2026-09-21}}</ref> He is a senior associate of the
 Nautilus Institute.<ref name="nautilus"/>
 
+== Music and food ventures ==
+
+Moon has recorded and published music under the name "R. Moon" through
+his site Moonsic.com, including the collections ''Moon Rocks'' and
+''Moon Tunes''.<ref name="moonsic">{{cite web |title=R. Moon — Moon
+Music |work=Moonsic.com |url=http://moonsic.com/rmoon/moonrocks/moonrocks.html
+ |access-date=2026-09-22}}</ref> US copyright records for his San
+Anselmo music releases give his birth year as 1946.<ref
+name="copyright-1946"/> He has also pursued food ventures — among them
+a tofu-based product called "Teriyaki Age", which he presented at
+La Cocina SF's Street Food Festival.{{better source
+needed|date=September 2026}}
+
 == Books and other work ==
 
 Moon is the creator of the instructional program ''Aikido in Three Easy
@@ -205,9 +239,6 @@ The Power of Harmony'', was published by Inner Traditions.<ref
 name="quantum">{{cite book |last=Moon |first=Richard |title=Quantum
 Aikido: The Power of Harmony |publisher=[[Inner Traditions]]
  |isbn=9781644119778}}</ref>
-
-Moon also teaches "Extraordinary Listening", a communications program
-offered to community and business groups.<ref name="linkedin-2025"/>
 
 He lives in [[Nicasio, California]].<ref name="linkedin-2025"/>
 
@@ -288,4 +319,11 @@ Masuda 8th dan seminar 1993, Shinryukan. No "Richard Moon" or
   or before that; Aikido Maastricht may have archived announcements.
 - FOSBO (Switzerland) on the Bicom map — acronym unresolved; possibly a
   Swiss friends-of-bicommunal-work support group (8/97).
+- Source/Aware Inn era — currently kkron + Bramblet verbal confirmations
+  only; needs a published Source Family source (Isis Aquarian's book
+  indexes?) or an interview citation before it's AfC-safe.
+- Teriyaki Age / La Cocina — Bramblet verbal only; La Cocina may have
+  festival records/archives.
+- Music facet — moonsic.com is primary; copyright records support the
+  releases + birth year but coverage is thin for WP:NMG.
 ```
