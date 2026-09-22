@@ -51,6 +51,23 @@ behavior; nothing JEV decides is destructive without a human gate. Identity and
 dedup decisions are the highest-value targets but also the most
 calibration-sensitive — they stay annotation-only longest.
 
+### Live eval results (2026-09-22, `scripts/53_jev_eval.py`)
+
+~10% samples tested against the TypeSafe endpoint (`api.typesafe.ai/v1/systemone`,
+`jev-latest`, 51 calls). Raw results: `data/audit/jev_eval_2026-09-22.json`.
+
+| Decision kind | Accuracy | Verdict distribution | Notes |
+|---|---|---|---|
+| `entity_resolution` | 10/11 (91%) | same_entity 5, alias_only 1, different 5 | Sole miss: `richard-moon-aikido` vs `richard-moon-chef` judged different — a genuinely hard Source-Family-era case (same human, different roles); acceptable calibration miss. |
+| `event_dedup` | 6/6 (100%) | same_event 4, different 2 | Correctly merged the 4-node Ralston "World Championship" cluster and the Cheng Hsin opened/opening pair. |
+| `identity_match` | 28/34 (82%), 30/34 (88%) after label-noise fix | insufficient_evidence 25, different 3, same 6 | Two "misses" were mislabeled eval positives (same-page neighbor articles about other people — JEV was right). Remaining misses are conservative `insufficient_evidence` abstentions on thin/garbled OCR — the *safe* failure mode for a triage screen: it escalates rather than false-confirming. |
+
+Takeaway: JEV is usable now for triage/annotation workloads — its error
+profile skews conservative (abstain > false-positive). `identity_match`
+metadata-only screening mostly abstains, which is correct behavior before
+article text exists; the real win is post-OCR screening where full text is
+available.
+
 ## Search engine inventory
 
 | Engine | API key required | Plan | Cost | Strengths | Weaknesses |

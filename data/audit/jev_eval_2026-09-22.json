@@ -1,0 +1,404 @@
+{
+  "date": "2026-09-22",
+  "model": "jev-latest",
+  "endpoint": "https://api.typesafe.ai/v1/systemone",
+  "tasks": {
+    "identity_match": [
+      {
+        "id": "work:npc-1056879673",
+        "person": "moon",
+        "expected": "different_person",
+        "label_reason": "collision: richard moon (rugby player)",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1058458460",
+        "person": "moon",
+        "expected": "different_person",
+        "label_reason": "collision: richard moon (rugby player)",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1056877052",
+        "person": "moon",
+        "expected": "different_person",
+        "label_reason": "collision: richard moon (rugby player)",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1058468893",
+        "person": "moon",
+        "expected": "different_person",
+        "label_reason": "collision: richard moon (rugby player)",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-730226478",
+        "person": "moon",
+        "expected": "different_person",
+        "label_reason": "collision: richard moon (painter, grande prairie)",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1165453599",
+        "person": "moon",
+        "expected": "different_person",
+        "label_reason": "collision: richard moon (painter, grande prairie)",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-823801605",
+        "person": "moon",
+        "expected": "different_person",
+        "label_reason": "collision: richard moon (rugby player)",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-730232438",
+        "person": "moon",
+        "expected": "different_person",
+        "label_reason": "collision: richard moon (painter, grande prairie)",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-725600717",
+        "person": "moon",
+        "expected": "different_person",
+        "label_reason": "collision: richard moon (rugby player)",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1058473825",
+        "person": "moon",
+        "expected": "different_person",
+        "label_reason": "collision: richard moon (rugby player)",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1136846182",
+        "person": "moon",
+        "expected": "different_person",
+        "label_reason": "collision: sir richard moon (railway chairman)",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1058467627",
+        "person": "moon",
+        "expected": "different_person",
+        "label_reason": "collision: richard moon (rugby player)",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-556146247",
+        "person": "ikeda",
+        "expected": "different_person",
+        "label_reason": "collision: hiroshi ikeda (bonsai master, hilo)",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1058466211",
+        "person": "moon",
+        "expected": "different_person",
+        "label_reason": "collision: richard moon (rugby player)",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1344024666",
+        "person": "ikeda",
+        "expected": "different_person",
+        "label_reason": "collision: pm hayato ikeda",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-930180367",
+        "person": "moon",
+        "expected": "different_person",
+        "label_reason": "collision: sir richard moon (railway chairman)",
+        "got": "different_person",
+        "correct": true
+      },
+      {
+        "id": "work:npc-645020172",
+        "person": "moon",
+        "expected": "different_person",
+        "label_reason": "unassociated: no subject-relevant article on page",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-283059693",
+        "person": "ikeda",
+        "expected": "different_person",
+        "label_reason": "unassociated: no subject-relevant article on page",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-268542517",
+        "person": "moon",
+        "expected": "different_person",
+        "label_reason": "unassociated: no subject-relevant article on page",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1103332696",
+        "person": "moon",
+        "expected": "different_person",
+        "label_reason": "unassociated: no subject-relevant article on page",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-556285467",
+        "person": "ikeda",
+        "expected": "different_person",
+        "label_reason": "unassociated: no subject-relevant article on page",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "work:npc-877270768",
+        "person": "moon",
+        "expected": "different_person",
+        "label_reason": "unassociated: no subject-relevant article on page",
+        "got": "insufficient_evidence",
+        "correct": true
+      },
+      {
+        "id": "1100943153__a4.txt",
+        "person": "moon",
+        "expected": "same_person",
+        "label_reason": "verified kept article",
+        "got": "insufficient_evidence",
+        "correct": false
+      },
+      {
+        "id": "1100842319__a2.txt",
+        "person": "moon",
+        "expected": "same_person",
+        "label_reason": "verified kept article",
+        "got": "same_person",
+        "correct": true
+      },
+      {
+        "id": "268725982__a4.txt",
+        "person": "ikeda",
+        "expected": "same_person",
+        "label_reason": "verified kept article",
+        "got": "same_person",
+        "correct": true
+      },
+      {
+        "id": "1100943276__a4.txt",
+        "person": "moon",
+        "expected": "same_person",
+        "label_reason": "verified kept article",
+        "got": "same_person",
+        "correct": true
+      },
+      {
+        "id": "1100933658__a5.txt",
+        "person": "moon",
+        "expected": "same_person",
+        "label_reason": "verified kept article",
+        "got": "insufficient_evidence",
+        "correct": false
+      },
+      {
+        "id": "1100894910__a2.txt",
+        "person": "moon",
+        "expected": "same_person",
+        "label_reason": "verified kept article",
+        "got": "same_person",
+        "correct": true
+      },
+      {
+        "id": "1100916601__a7.txt",
+        "person": "moon",
+        "expected": "same_person",
+        "label_reason": "verified kept article",
+        "got": "insufficient_evidence",
+        "correct": false
+      },
+      {
+        "id": "1101035804__a8.txt",
+        "person": "moon",
+        "expected": "same_person",
+        "label_reason": "verified kept article",
+        "got": "same_person",
+        "correct": true
+      },
+      {
+        "id": "1100894996__a4.txt",
+        "person": "moon",
+        "expected": "same_person",
+        "label_reason": "verified kept article",
+        "got": "different_person",
+        "correct": false
+      },
+      {
+        "id": "1101135895__a6.txt",
+        "person": "moon",
+        "expected": "same_person",
+        "label_reason": "verified kept article",
+        "got": "insufficient_evidence",
+        "correct": false
+      },
+      {
+        "id": "349991222__a12.txt",
+        "person": "ikeda",
+        "expected": "same_person",
+        "label_reason": "verified kept article",
+        "got": "different_person",
+        "correct": false
+      },
+      {
+        "id": "1100842220__a10.txt",
+        "person": "moon",
+        "expected": "same_person",
+        "label_reason": "verified kept article",
+        "got": "same_person",
+        "correct": true
+      }
+    ],
+    "entity_resolution": [
+      {
+        "a": "person-richard-moon",
+        "b": "person:richard-moon-aikido",
+        "expected": "same_entity",
+        "got": "same_entity",
+        "correct": true
+      },
+      {
+        "a": "person:nadeau-shihan",
+        "b": "person:robert-nadeau",
+        "expected": "same_entity",
+        "got": "same_entity",
+        "correct": true
+      },
+      {
+        "a": "person:nadeau-sensei",
+        "b": "person:robert-nadeau",
+        "expected": "same_entity",
+        "got": "same_entity",
+        "correct": true
+      },
+      {
+        "a": "person:robert-nadeau-sensei",
+        "b": "person:robert-nadeau",
+        "expected": "same_entity",
+        "got": "same_entity",
+        "correct": true
+      },
+      {
+        "a": "person:sig-kufferath",
+        "b": "person:siegfried-kufferath",
+        "expected": "same_entity",
+        "got": "alias_only",
+        "correct": true
+      },
+      {
+        "a": "person:kufferath-sig-kufferath",
+        "b": "person:sig-kufferath",
+        "expected": "same_entity",
+        "got": "same_entity",
+        "correct": true
+      },
+      {
+        "a": "person:richard-moon-aikido",
+        "b": "person:richard-moon-chef",
+        "expected": "same_entity",
+        "got": "different_entities",
+        "correct": false
+      },
+      {
+        "a": "person:richard-moon-law-professor",
+        "b": "person:richard-moon-aikido",
+        "expected": "different_entities",
+        "got": "different_entities",
+        "correct": true
+      },
+      {
+        "a": "person:rochelle-moon",
+        "b": "person:richard-moon-aikido",
+        "expected": "different_entities",
+        "got": "different_entities",
+        "correct": true
+      },
+      {
+        "a": "person:shin-hori-kufferath",
+        "b": "person:sig-kufferath",
+        "expected": "different_entities",
+        "got": "different_entities",
+        "correct": true
+      },
+      {
+        "a": "person:peter-ralston",
+        "b": "person:laura-ralston",
+        "expected": "different_entities",
+        "got": "different_entities",
+        "correct": true
+      }
+    ],
+    "event_dedup": [
+      {
+        "a": "event:peter-ralston-wins-world-championship",
+        "b": "event:peter-ralston-wins-world-tournament",
+        "expected": "same_event",
+        "got": "same_event",
+        "correct": true
+      },
+      {
+        "a": "event:peter-ralston-wins-world-championship",
+        "b": "event:won-world-championship-full-contact-martial-arts-tournament",
+        "expected": "same_event",
+        "got": "same_event",
+        "correct": true
+      },
+      {
+        "a": "event:won-world-championship-full-contact-martial-arts-tournament",
+        "b": "event:world-championship-full-contact-martial-arts-tournament",
+        "expected": "same_event",
+        "got": "same_event",
+        "correct": true
+      },
+      {
+        "a": "event:opened-cheng-hsin-school-of-internal-martial-arts-and-center-for-ontological-research",
+        "b": "event:opening-of-the-cheng-hsin-school-of-internal-martial-arts-and-center-for-ontological-research",
+        "expected": "same_event",
+        "got": "same_event",
+        "correct": true
+      },
+      {
+        "a": "event:peter-ralston-begins-martial-arts-in-singapore",
+        "b": "event:peter-ralston-s-first-enlightenment-experience",
+        "expected": "different_event",
+        "got": "different_event",
+        "correct": true
+      },
+      {
+        "a": "event:aikiweb-grand-opening-seminar-with-robert-nadeau-7th-dan-richard-moo-efd81a0f5d",
+        "b": "event:aikiweb-seminar-with-robert-nadeau-shihan-7th-dan-richard-moon-5th-d-d3694d611e",
+        "expected": "different_event",
+        "got": "different_event",
+        "correct": true
+      }
+    ]
+  }
+}
