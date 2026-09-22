@@ -1,0 +1,998 @@
+_____________________________________________________________________________________
+
+Akademik Sosyal Araştırmalar Dergisi, Yıl: 9, Sayı: 121, Ekim 2021, s. 340-360
+ISSN: 2148-2489 Doi Number: http://dx.doi.org/10.29228/ASOS.52536
+Yayın Geliş Tarihi / Article Arrival Date
+5.09.2021
+
+Yayımlanma Tarihi / The Publication Date
+29.10.2021
+
+Melodi VAR ONGEL
+melodivarongel@gmail.com
+BEYOND BORDERS: UNDERSTANDING THE DIFFERENT DYNAMICS
+OF THE CYPRUS CONFLICT1
+Abstract
+Abstract: This article aims to engage with the intractable conflict in Cyprus and the
+changes in many Cypriots’ lives after the island was divided into two parts.
+Building on insights from political and social psychological studies, this article
+analyzes the Cyprus conflict durability, the different countries’ role in conflict
+management and the role of education, politics, culture, and nationalism in the
+continuation of the conflict. In order to gain a better insight into the people’s
+experiences with the conflict and its effects on their lives, semi-structured
+interviews were conducted with 10 Greek Cypriots and 10 Turkish Cypriots (mean
+age=45.4) through reaching out to different networks and narrative thematic
+analysis is used to interpret the responses. Analyzing the interviews with the
+various conflict transformation theories, the purpose was to understand the ethnic
+conflicts through the lens of social identities, social belongings, and establishing
+inter-communal interactions. Responses showed that people who had more contact
+with the other community and less connection with the motherlands showed more
+eagerness to live with the other community. The research concludes that while the
+motherland countries’ involvement in the conflict, borders, the education system
+and the cultural elements deepen the divide, there is a huge potential of intergroup
+contact in bringing the communities in conflict together and constructing an
+alternative and a more collaborative future.
+Keywords: Cyprus, Peacebuilding, Conflict transformation, Intractable
+conflict
+
+1
+
+The author is a trainee at the European Union Agency for Fundamental Rights (FRA). This article was drafted prior
+to the author’s arrival at the FRA. The information and views contained in this article are the responsibility of the
+author and do not reflect the views or the official position of the FRA. A longer version of this research paper was
+submitted as a graduation dissertation at Bennington College in 2018.
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+1. Introduction:
+Many researchers have attempted to answer why the Cyprus problem, one of the world's
+most intractable conflicts, remains unresolved. When we look at the conflicts in the world from
+a broader perspective, the Cyprus conflict has much in common with other conflicts based on
+religious, cultural, socioeconomic and language differences, population shifts, territory claims,
+and decolonization/globalization process.
+Cyprus is a divided island in the Mediterranean Sea with Greek Cypriots and Turkish
+Cypriots living in separate territories. After Cyprus gained its independence in 1960 from the
+UK, the bi-communal government was formed which lasted only for three years. The question
+of how to share power and sovereignty between the two politically equal communities of
+Cyprus determined the start of the main conflict today. Archbishop Makarios, a long-standing
+Greek Cypriot leader, was made the President and ratified a constitution that provided for a
+Turkish Cypriot vice-president and a division of the civil services in a 70-30 split between the
+Greek Cypriots and Turkish Cypriots, respectively. However, Makarios’ proposed amendments
+to the constitution were viewed as an assault on the Turkish Cypriots who had broken away to
+establish a parallel administration in the north (Dodd, 2010).
+The period 1963 to 1974 has no agreed historical interpretation: While the Greek Cypriot
+narrative has been that in 1963 the Turkish Cypriots mounted an insurrection, the Turkish
+Cypriot narrative claims that after EOKA-B (a paramilitary group) led by the Greek junta
+overthrew Makarios with the aim of enosis (the political union of Cyprus and Greece), the
+conflict took another shape. In July 1974, citing the 1960 Treaty of Guarantee as a legal basis
+for its intervention, Turkey sent troops to Cyprus with security concerns and took control of the
+northern 36 percent of the country. As a result, about 180,000 Greek Cypriots fled from their
+homes in the north and came south as refugees; 45,000 Turkish Cypriots were similarly
+uprooted (Yılmaz, 2005). Since then, Cyprus has been divided into two parts, and the
+intercommunal violence eventually led to the formation of the UN Peacekeeping Forces in
+Cyprus (UNFICYP).
+While the Republic of Cyprus has been recognized by the UN, the separation of the
+northern territories by the Turkish forces has subsequently been recognized only by Turkey but
+condemned by the UN Security Council and other international organizations. Talks with
+Turkish Cypriots continued during 1999 and 2000, but progress remained stable because the
+parties were unable to agree on future constitutional arrangements. While Greek Cypriots, with
+the support of the international community, were seeking a return to a bi-communal
+independent federation with a central government, Turkish Cypriots were insisting on a
+confederation of two equal states. With the resumption of peace talks in 2008 and the pause in
+the negotiations between the leaders of Greek Cypriots and Turkish Cypriots, there has been a
+need to set up Working Groups on several issues to assist negotiations and pave the way for a
+bi-zonal, bi-communal federation in Cyprus. As a result, confidence-building measures related
+to several matters have been initiated (Panteli, 1984).
+Alienation is a basic aspect of a culture of violence, which derives from the preservation of
+social structures in Cyprus that maintain perceptions and attitudes against basic human values,
+such as acceptance of diversity, intercultural respect, reconciliation, and solidarity. This
+research’s imperative is to recognize the problems in order to construct bridges across the
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+341
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+existing divides and barriers (physical, psychological, mental, etc.) Understanding of conflict
+can happen once we understand where it comes from and what the main reasons are.
+This research paper aims to answer the following questions: 1) How is the Cyprus conflict
+justified by the different political actors and how does existence of borders affect the durability
+of the Cyprus conflict? 2) How do people culturally construct their identities and express
+themselves in Cyprus? 3) To what extent do education and cultural elements affect the
+perceptions of people and the durability of the conflict? 4) What is the role of intergroup contact
+in creating a common platform in conflicts, and bringing people from diverse communities
+together, and what are some challenges? Since this research work doesn’t only aim to reveal
+narratives from local people who have been affected by the separation but also aims to
+understand the durability and complexity of the conflict itself, the research draws on social
+psychological, sociological, political, and ethnographic studies.
+1.1. Peace Negotiations:
+Intractability of the Cyprus conflict is due to its complexity: involving several parties,
+existential fears, ethnic victimization, unaddressed historical traumas, economic differences, and
+structural inequalities. Because of its complexity and internationalization of the conflict, the
+United Nations established a peacekeeping force on the island, and it has been involved in the
+peaceful settlement process. The Security Council Resolutions has defined the UN’s position on
+Cyprus in the framework of political equality of the communities and searching for a federal
+solution. Mediation is identified as one of the tools for conflict management by the UN which
+has been accepted as a third-party mediator by both Cypriot communities since the
+establishment of UNFICYP (United Nations Peacekeeping Force in Cyprus) in 1964. The UN’s
+strategy became to stabilize the situation on the island with its peacekeeping force and prevent
+any inter-communal violence (Erhürman, 2010).
+Various opinions have emerged about how to bring peace to the island life after 1974 and
+the perspectives on the intervention of the Turkish military have differed between the two
+Cypriot communities. While the common Turkish Cypriot narrative argues that Turkish army is
+a peace force and a protector, the Greek Cypriot narrative argues that military intervention is an
+invasion, and the presence of the Turkish military power is a threat to their sovereignty. In 1975,
+the return of refugees and demilitarization were discussed, and the UN supported this process by
+stating that “all refugees should return to their homes in safety” and called upon the concerned
+parties to undertake urgent measures to that end. Also, both communities accepted to discuss
+their proposals regarding the territorial and constitutional aspects (Solomonides, 2008).
+The main disagreement was about the territorial borders and the federal state. During
+negotiations, Greek Cypriots have insisted on the elimination of territorial borders and aimed to
+create a federal state with a strong central government whereas Turkish Cypriots focused on the
+decentralized federal solution with territorial boundaries. In fact, Greek Cypriots were in
+support of “multi regional federation” which would guarantee the return of all refugees and
+create conditions for a harmonic co-existence between the two communities. However,
+suspicion between the two communities made the bi-zonal federation necessary which was
+suggested by the Turkish Cypriots to provide the communities living in their own areas a sense
+of security (Aksu, 2018).
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+342
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+On the constitutional issue, there were also contradictory opinions: The Greek Cypriots
+advocated a strong central government with a communal proportional representation and argued
+that the federal government would be headed by a president and a vice president from each of
+the communities, acknowledging the fact that it was more likely that the president would be a
+Greek Cypriot because of their majority. Regarding the federal structure, the Turkish Cypriots
+advocated a loose federation with equal power sharing and suggested a rotating federal
+presidency that would have representative powers (Erhürman, 2010).
+After the failed negotiations, in 2002, the UN Secretary Kofi Annan presented a settlement
+plan for the conflict which aimed to resolve disagreements about the level of governance of the
+federation and which aimed to establish a united Republic of Cyprus. The initiative was
+connected to the European Union’s enlargement process which aimed to integrate a reunified
+Cyprus into the EU. Annan’s strategy had several important approaches. The United Cyprus
+Republic (UCR) would be comprised of two equal states; the Greek Cypriot State and the
+Turkish Cypriot State, with a single international personality; one government with two nations.
+Federalism would be based on single Cypriot citizenship, as well as on “internal constituent
+state citizenship”. The federal government would have equal representation of Greek and
+Turkish Cypriots in the Senate, and proportional representation in the Chamber of Deputies
+(Asmussen, 2004).
+The Annan plan was different from the other proposals in a way that it integrated the EU in
+the settlement process which would serve as a source of security, and as a guarantor for Cyprus
+bi-communal federation. The plan had three major advantages: it addressed the refugee and
+property issues, demilitarization, and lastly the structure of the government. However, despite
+the hope that Annan Plan would solve the problem, the referendum results failed the plan where
+Turkish Cypriots voted for yes and Greek Cypriots voted for no. Uncertainty about Turkey’s
+insufficient troop reduction, territorial adjustments, return of refugees, and workability of the
+state were the main reasons for the Greek Cypriot community to vote for no. Additionally,
+Greek Cypriots had been mostly skeptical and uneasy about federalism and bi-communal
+“equality” due to the belief in their numerical superiority, and their sense of being the
+indigenous inhabitants of Cyprus (Asmussen, 2004).
+As a result, the UN has failed to come up with innovative strategies and faced with several
+problems. Different perception about “sovereignty” was the biggest problem in the UNsponsored negotiations. Moreover, the lack of mutual trust and direct contact between the
+communities made it hard for two parties to negotiate.
+2. Methodology
+2.1. Participants
+The participants for this study were 10 Greek Cypriots and 10 Turkish Cypriots who were
+recruited through reaching out to different networks in Cyprus such as civil society
+organizations, universities, and bi-communal choirs and groups. At the time of the interviews,
+the people were aged between 23 and 75 (mean age=45.4) and they were diverse regarding age,
+educational level, employment status, and religion.
+2.2. Procedure
+The participants were asked whether they would want to participate in this research and the
+ones who agreed to be part of it received detailed information about the study which outlined
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+343
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+the scope, aims, duration, and confidentiality of the study. Informed consent was obtained prior
+to interviews. All the interviews were recorded with the participants’ permission and were
+transcribed for further analysis (Rutakumwa et al., 2019). Data collection occurred between
+January and August 2018. A total of 20 semi-structured interviews were conducted which lasted
+approximately 40-60 minutes and were conducted in multiple places depending on the
+participants’ availability: in their houses, at Home for Cooperation organization at the buffer
+zone, at a university or in a café. To protect the interviewees’ privacy, pseudo names are used
+throughout the paper.
+2.3. Interview
+The research design was qualitative because this provides a space for people’s voices to be
+heard which has the potential to enable people to tell their own stories in their own voices to
+make better sense of the conflict (Fox, 2009). Semi-structured interviews were conducted using
+an interview guide that was based on the specific aims of the research project (Adams, 2015).
+The interview was performed face to face and included open questions about people’s
+engagement with the conflict and how the conflict occupies everyday life. Participants were
+encouraged to develop and express their own answers. Below is the guide of the interview
+questions:
+
+
+How do the conflict and the existence of borders occupy everyday life?
+
+
+
+What do you think about the sources of the ongoing conflict and why do you think the
+conflict still continues?
+
+
+
+What do you think about the education in both cultures?
+
+
+
+What is your opinion about the past/current peacebuilding efforts? Successes and
+failures?
+
+
+
+How is your interaction with the other community?
+
+
+
+Do you have any story to share which includes positive engagement with the other
+community?
+
+
+
+What do you think would be effective in the conflict management process in Cyprus?
+
+2.4. On-Site Visits
+In addition to the interviews, the research also includes qualitative on-site visits with the
+aim of understanding the conflict dynamics. The fieldwork consists of two months, visiting the
+buffer zone, doing a 5-week internship with the Association for Historical Dialogue and
+Research (AHDR) organization, being involved in Home for Cooperation activities which is a
+civil society organization working on peace and diversity issues, joining the bi-communal choir,
+and lastly visiting the museums on both north and south of Cyprus. Before the on-site visits,
+preparation has been made through background materials and doing research about the places to
+ensure that skills and knowledge in qualitative observation are acquired (Patton, 2015). During
+and after visit, the notes were taken about the important aspects of each place, and some photos
+were taken to illustrate the different aspects of the conflict.
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+344
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+2.5. Analysis
+As a common method in qualitative research, a narrative thematic analysis was used to
+report the experiences of the participants (Butina, 2021). All the interviews were transcribed,
+and the transcribed interviews were read and reread to grasp the meaningful themes and topics.
+Next, the data were categorized, and the relations between the variables were analyzed. After
+examining the interviews with 20 people, the themes and categories were established, and these
+themes were analyzed with theories regarding borders, nationalism and conflict transformation
+and with the observations I made during the fieldwork.
+3. Results
+3.1. Borders and Durability of the conflict
+The existence of borders affects some people’s perceptions about the conflict. As Richard
+Hartshorne (1939) describes the process of demarcation, Cyprus shows two kinds of bordering:
+“subsequent borders” as those which were demarcated according to the existing settlement
+patterns and differences in cultures, reflecting the ethno-territorial patterns of the region and
+“superimposed borders” as those which were imposed by outside powers on a region under their
+control. Some people think that the conflict continues due to the several factors that created the
+borders: ethnic and linguistic differences between the Turkish Cypriots and Greek Cypriots, and
+the involvement of the motherlands Turkey and Greece on the island. For example, Sevil from
+the Turkish Cypriot community says:
+“As long as the borders exist, it is hard to understand each other but we don’t speak the same
+language, we don’t have the same religion, so it becomes easier for the motherlands to impose
+their ideas on the people and make them believe that borders are necessary, so the conflict
+continues. But I believe that borders are not natural, they are produced and maintained by the
+people in power.”
+Moreover, some scholars have focused on the “closed-open” nature of the border and its
+impact on the “borderland” (House, 1980). Especially the discussion of how to use the frontier
+region becomes very critical: Some countries may use the frontier region for military activities,
+some may use the area for infrastructure and settlement issues, and some may use it for
+integrative purposes. In his work, Oskar Martinez (1994) analyzes the borders, and the level of
+political and physical interaction and socialization in borderlands, interactions varying from
+“alienated” to “integrated”. For example, closed borders imply a lack of interaction, increased
+tensions, and alienated borderlands whereas open borders mean cooperative and integrated
+borderlands. Costi from the Greek community describes the inclusive frontier regions as:
+“Although the borders keep the conflict going, we have a buffer zone in Nicosia which is used
+for integrative purposes where both communities and other nationalities can easily spend some
+time with each other and enjoy the activities that are organized by the civil society
+organizations. I am happy that we can now use the buffer zone because in the past, the buffer
+zone was framed as the dead zone and it was inaccessible to civilians.”
+Similarly, Tulay from the Turkish Cypriot community explains how she is grateful for the
+use of the buffer zone which increases the intergroup contact: Established in 2003 by a group of
+young Cypriots, the Association for Historical Dialogue and Research (AHDR) has enlisted
+members from various ethnic, linguistic, and professional backgrounds working at different
+educational levels in Cyprus. In 2005, the AHDR came up with the idea of establishing an inter-
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+345
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+communal educational center at the buffer zone. They established the Home for Cooperation
+organization by converting an old building into an integrative place, aiming to break the
+common perception of the buffer zone by turning it from a dead zone to a zone of intercommunal cooperation and dialogue. The building hosts a couple of non-governmental
+organizations which work to promote peace, including the AHDR. Moreover, Home for
+Cooperation organizes panels, conferences, walking tours, musical, poetry, and sports activities
+for everyone from every background.
+
+Figure 1: Home for Cooperation building at the buffer zone
+The buffer zone in Nicosia is a long street where there are police controls at two sides of the
+street, one side being the Turkish Cypriot police control and the other side being the Greek
+Cypriot police control. Across the Home for Cooperation building, there is an old historical
+hotel called Ledra Palace which is not used as a hotel anymore but used by the UN and for
+peacebuilding activities like hosting the bi-communal choir or some other events. Although
+buffer zone promotes peace, at the Greek Cypriot police control before entering the zone, there
+are two illustrations at the entrance wall which are about the violent events in the past and
+which remind people of the conflict. When you exit the buffer zone from the Turkish Cypriot
+checkpoint, it’s written: “Welcome to the Turkish Republic of Northern Cyprus”. There are two
+flags, Turkey’s flag and Northern Cyprus’s flag, which make people feel like you are entering a
+new country. It is the same case for the Greek Cypriot side.
+
+Figure 2: Two illustrations at the Greek Cypriot checkpoint before entering the buffer zone
+which are about the violent events in the past
+For example, Maria from the Greek Cypriot community says:
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+346
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+“With the existence of the buffer zone and integrative activities, people have started to learn
+about each other’s culture more. However, despite the buffer zone, having borders create
+inequality between the two regions and makes it hard for people to accept each other.”
+Moreover, some scholars argue that borders are not just political boundaries on a map, but
+they are also an expression of the fears, phobias, and expectations of the societies that enforce
+them (Carr, 2012). Boundaries create symbols and become signs of power relations and social
+institutions which shape social and cultural activities, and practices of the society, impose norms
+and values, and lastly form legal and moral codes (Paasi, 1996). Since state boundaries are not
+only physical constructs like walls or fences but also social, political, and cultural constructions,
+the dichotomy of “here-there” and “us-them” also becomes imagined and is constantly narrated
+by the societies. Therefore, people define themselves as belonging to a different social, ethnic,
+economic or religious group, and create social and cultural boundaries in their heads separating
+their own selves from the other (Newman & Paasi, 1998).
+For example, Ayse from the Turkish Cypriot community says:
+“Since 2003 when the borders were opened for the Cypriot citizens, both communities can
+easily cross the borders and go to the other side by showing their identification cards. However,
+it is not the same case for the Turkish and Azerbaijani citizens. Greek Cypriots are very strict
+about the border rules since they see the Turkish Cypriot region as occupied areas by Turkey
+and not an established country. So, everyone from Turkey and Azerbaijan is seen as potential
+danger and is not allowed to go to the Greek Cypriot region without a visa.”
+Moreover, although the Cypriots can cross the borders easily, the existence of borders still
+creates the narratives of “here-there” and “us-them” because the two communities can’t live
+together anymore. In their own lands, the education, media, and other entertainment platforms
+remain highly cultural and exclusive where people create boundaries in their heads and feel
+more attached to their motherland cultures. Ayse from the Turkish Cypriot community
+continues her statement by saying that she has fears about the Greek Cypriot community, and
+she thinks that the borders are necessary for the safety and threat issues:
+“Turkish Cypriots who like Greek Cypriots are the people who don’t like Turkish people and
+their influence on the island. And Turkish Cypriots who don’t like Greek Cypriots are the
+people who associate themselves more with Turkey. But I don’t understand people who support
+Greek Cypriots because we have the same language, religion and race with Turkish people so
+to be on the Turkish side seems more logical to me. I know that there are a lot of military troops
+on the Turkish Cypriot side but that’s how we feel safe. I personally want them to exist because
+I don’t trust the Greek Cypriots.”
+Therefore, as Carr points out, the fear and phobia become very visible in people’s opinions
+about the necessity of the border. However, despite the fear that still exists, the opening borders
+and the activities that take place in the buffer zone still provide people a chance to interact with
+the other culture and overcome their fears and prejudices.
+3.2. Cypriot Identity Construction
+Considering the different dimensions of the Cyprus conflict, one should ask “What does it
+mean to be a Cypriot?”, “For islanders, to what extent does history and language matter?”, and
+“Was there a Cypriot national identity before the separation?” To find answers to these
+questions, it is worth looking at different theories about nationalism.
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+347
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+Many scholars have different understandings of what constitutes the nation, how nations are
+defined, and the relationship between states and nations. According to Gellner (1983), two men
+are of the same nation if and only if they share the same culture, where culture, in turn, means a
+system of ideas and signs, ways of behaving and associations, and ways of behaving and
+communicating. He further claims that two men are of the same nation if and only if they
+recognize each other as belonging to the same nation.
+Along similar lines with cultural explanations of nationalism, Karl Deutsch argues that
+“complementary habits” and “facilities of communication” are what form nations (Smith, 1994).
+These communicative facilities can include symbols, such as language, alphabets, writings,
+paintings, calculations, and most importantly, learned habits, preferences, memories,
+associations, events in history. Taken all together, they include specific elements that create
+“culture.” Deutsch specifically (1953) states that social communication does not necessarily
+include speaking the same language but rather belonging to a similar culture or having a
+complementary culture.
+He further explains “ethnic complementarity” which suggests the difficulty to form a
+harmony within the members of the different professions who have the same ethnic background.
+According to Deutsch (1953), efficient communication among engineers, artists, or farmers is
+very limited due to the difference in their childhood memories, their perceptions of beauty, their
+habits of food and drink, their understanding of marriage, etc. Therefore, they become less close
+to their countrymen in terms of mutual communication and understanding than to their fellow
+specialists in other countries.
+In both communities in Cyprus, these theories about nationalism can be observed where
+some people feel closer to the other community than their own community because of their
+cultural background, shared memories, and experiences. For example, Derya and her son Burak,
+from the Turkish Cypriot community describe themselves as Cypriots instead of Turkish or
+Turkish Cypriots. Derya, who is 72 years old and who attends the bi-communal choir every
+week, says that she supports peace although her husband was killed by the Greek Cypriots
+during the conflict because she believes that new generations should not experience such things
+and the only way to prevent violence is to work for peace in every means. Both she and her son
+Burak think that Turkish people who came to the island after the conflict assimilate the Cyprus
+culture and their culture doesn’t quite fit into the Cypriot culture. Burak says:
+“We are afraid that after we die, the next generation won’t know anything about Cyprus. There
+is serious assimilation by Turkey. The Cyprus culture is disappearing. If the conflict is still not
+solved, Northern Cyprus will be a part of Turkey, a city in Turkey.”
+As Deutsch (1953) says, social communication does not necessarily include speaking the
+same language but rather belonging to a similar culture. The people who don’t associate
+themselves with their motherlands think that Turkish and Greek cultures are different than the
+Cypriot culture. For example, some Greek Cypriots call Greeks “galamara” which is
+condescending. Similarly, some Turkish Cypriots call Turks “garasakal” which means barbaric,
+vulgar, uncouth, and uneducated.
+For example, Lana, who is a Greek Cypriot, says, while she was working in the military, she
+had negative thoughts about the other community because she was brainwashed. However, after
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+348
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+she went to Greece to study sociology for her undergraduate, she realized that Greek Cypriots
+and Greeks were not very similar.
+“We have many differences between Greeks and Greek Cypriots. People think that we are the
+same but we don’t laugh at the same joke, we don’t have the same culture. It’s not the same. We
+have our own dialect. If we don’t want Greeks to understand what we are saying, we can
+manage that. Despite Hellenism, there are differences between these two countries.”
+Similar to Lana, Greg, who is also a Greek Cypriot, thinks that Greek Cypriots and Greeks
+are not similar, and he feels much closer to the Turkish Cypriots. Although he was born into a
+very nationalistic and close-minded family, he doesn’t share the same views with his parents.
+As a 24-year-old speaking Turkish very fluently, he has more Turkish Cypriot friends than
+Greek Cypriot friends because he feels closer to the Turkish Cypriots ideologically and
+culturally.
+“My parents didn’t get angry when I took courses related to Turkish studies because they said
+that I should study whatever makes me happy and they would support it. But they get angry
+when I cross the border or when I shop from the Turkish Cypriots. My parents finally believed
+that I am crazy, and they stopped complaining. They remain silent now. For them, Turks are
+Greeks’ enemies because they took our properties, our houses. But I feel closer to the Turkish
+Cypriot community because I am culturally more similar to the Turkish Cypriots.”
+On the other hand, some scholars approach nationalism in terms of “solidarity.” According
+to Renan (2018), common sufferings become more important than the common happiness or
+triumphs because they demand common efforts, responsibilities, and obligations. Thus, he
+claims that people feel closer to the ones with whom they share the history which includes
+sufferings and sacrifices. Considering Renan’s point about common sufferings, some people in
+Cyprus express that the reason they don’t feel close to the other community is mainly because
+their parents, relatives or friends were killed by the other community during the conflict.
+Especially, the old Turkish Cypriot men who fought in the war in 1974, and some of their
+children feel more biased than others and they can’t imagine living together again.
+For instance, Ayse from the Turkish Cypriot community says that because her father
+fought in the conflict, the stories they have about the other community are mostly related to the
+sufferings they had. After her aunt and her grandmother were killed by the Greek Cypriots, she
+claims that she and her family felt even closer to the Turks and Turkish community because of
+the pain involved in the conflict. It is clear that in this situation, common sufferings become
+more important than the positive experiences they had with Greek Cypriots and fighting in the
+war creates solidarity among the Turkish Cypriots, especially among the old generation.
+Considering all these different perspectives about the common Cypriot identity, there is a
+variety of efforts in Cyprus by the civil society organizations to alleviate the pain that different
+communities feel because of the conflict and to bring these two communities together.
+However, despite these efforts, education systems and cultural elements in both communities
+make it harder for people to feel close to the other community.
+3.3. Education and Museums
+Some scholars have been arguing that nationalism emerges only when cultural differences
+are present, and when the ruling class has access to the educational systems (O’Leary, 1997).
+When we look at the Cyprus history, we can see how some events prevented to form a Cypriot
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+349
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+identity. In July 1956, the British government appointed Lord Cyril Radcliffe, British
+Constitutional Commissioner, with the task of forming a constitution for Cyprus. The Radcliffe
+Proposals mainly focused on creating a political process that both groups could be involved in.
+For example, the proposals included standardized education, technical schools, English as a
+common language, and mass communication. The intention was to include all cultures in the
+governing process which would allow society to understand the differences, transcend those and
+create a common narrative. He envisioned a common education system which would allow
+students to share a cultural experience (Fisher, 2001).
+However, although the Greek and Turkish Cypriots communities lived together, on some
+occasions, they remained separate from each other. This was the main problem Radcliff faced,
+especially the limited shared sovereignty due to the differences in language, religion, and
+cultural preferences (Pappas, 2012). Radcliffe’s power-sharing plan was doomed by the British
+government’s redefinition of its self-determination policy: “the power should be exercised
+equally by both Greek and Turkish communities and that for the first time the policy should
+include partition as a solution.”
+When Greek and British governments could not agree on a system of self-government,
+Radcliff’s plans failed, and Macmillan Plan was put forward. Unlike Radcliffe’s proposals
+which recommended a single legislative assembly, Macmillan’s plan supported the concept of
+separate communities with each community having its own House of Representatives which
+decreased the possibility of creating a unique cultural narrative. Most importantly, there was no
+mention or effort for the development of a standardized educational system in the new plan
+(Fisher, 2001). Separate educational systems directed by individuals of Greek and Turkish
+heritage prevented the concept of being a “Cypriot.”
+For example, the curriculum of the Greek schools focused on the Greek national history and
+justified the Greekness of Cyprus while the curriculum of the Turkish schools focused on the
+concept of Turkish nationalism as formed by Mustafa Kemal Ataturk. Unlike the nationalist
+theories which claim that state educational institutions promote a shared culture and are an
+essential element in sustaining social cohesion, Cyprus showed an example of how education
+was used to sharpen the differences (Pappas, 2012). For example, Nicos, from the Greek
+Cypriot community, says:
+“Until I finished the elementary school, I didn’t know that the Turkish Cypriots existed on this
+island. In 1974, I was imagining that Turks came to invade without any reason because they
+taught us wrong things in our history classes. They taught us how to hate Turks who are
+described as enemies of Greeks.”
+Similarly, Demetra, who is also from the Greek Cypriot community, states:
+“We spent a lot of time learning Great Alexander, Ancient Greek and how bad the Ottoman
+Empire was. But we spent very little time learning the Cyprus problem. Actually, our history
+books are all about Greek history, not Cypriot history. We don’t learn anything about it.
+Textbooks come from Greece.”
+The nationalism ideas started to emerge under the British colonial and became more visible
+during the period of rising modernity and waning colonialism. Enosis (the desire to unite with
+Greece) was an extension of Greek irredentist nationalism while Turkish Cypriot nationalism
+was imbued by Kemalism which took root in Cyprus after the 1930s and 1940s. Through
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+350
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+education socialization, young Turkish Cypriots started to define their group identity against the
+spread of Hellenic irredentism. Most importantly, the British administration created social,
+political, and economic changes which fostered the idea such as secularist separation of state
+and church, and alienation of the church from the governing process. As a social movement,
+enosis became essential for the traditional elite to gain back their authority and legitimacy
+(Pappas, 2012).
+Some people in Cyprus also addressed the importance of leaving Cyprus and living abroad
+for a while to look at the situation more objectively. Costas talked about the suggestions he
+gives to his students:
+“Greek Cypriots prefer to keep the land divided rather than sharing power with the Turkish
+Cypriots. The Greek Cypriots want the entire island but without any Turkish in it.
+Unfortunately, the church is very much involved in the education system. And from a very young
+age, the students are taught lies. It is very difficult to change people’s opinions after a certain
+point. It is not impossible, but it is very hard. I advise my students to leave the country and go
+somewhere else either to study or do whatever. It’s when they realize all the lies. When they
+come back, I hope they will be different and think differently.”
+Besides education, the museums on both sides of Cyprus also trigger nationalism and
+prevent to form a common Cypriot identity. On the north part, there are two museums called
+“Museums of Barbarism” and “National Struggle Museum” and on the south part, there is one
+museum called “National Struggle Museum.”
+
+Figure 3: Remembrance Wall in the Museum of Barbarism
+The Barbarism Museum is set in the house where the family of Dr. Nihat Ilhan was
+murdered during 1963’s inter-communal attacks. The house has a single floor and has 6 rooms
+in it, with a bathroom and a toilet room where the members of the Turkish Cypriot family were
+killed by the Greek Cypriots. Each room has a photo display of the violent events that occurred
+in the 1960s-70s. As you reach the end of the house, there is a display of the clothes that
+children were wearing before they were murdered. The bathroom and the toilet are the only
+places which are locked where the murders happened, but one can look at them through the
+glass door and can see the bullet traces in some places of the room.
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+351
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+Figure 4: Display of the children’s clothes that they were wearing before they were killed
+By displaying the children’s clothes and using very nationalistic narrations in the
+information bullets, the museum aims to remind the brutal and violent years in the past. Most
+importantly, the word “genocide” is used in narratives, and the museum provides other sources
+like foreign newspapers and their perspectives on Cyprus conflict. In addition, the museum
+doesn’t only focus on the murder of Dr. Nihat’s family but also displays photos of Turkish
+Cypriots who were murdered in the villages of Agios Sozomenos and Agios Vasilios.
+The other museum “The National Struggle Museum,” displays events from 1571 to 1974
+chronologically. The museum is designed in a way that the walls are mostly used to display
+photos and writings but also there are huge spaces in the middle to display things like tanks or
+weapons. When one enters the museum, the first thing they see is the writing of “How happy is
+the one who says I am a Turk” which immediately creates nationalistic feelings. The museum
+also displays violent pictures of killings and war, weapons, and newspaper articles.
+The main narrative in the museum is that the 1974 invasion was necessary because from the
+1960s to 1974, a lot of Turkish Cypriots were killed by the Greek Cypriots. The narrations aim
+to create the feeling that Greek Cypriots were the ones to blame because they killed the Turkish
+Cypriots to achieve their enosis goals. The word “genocide” was used again in some
+descriptions. There was also a section of “We Won’t Forget” where they put all the martyrs’
+names who fought in the violent conflicts. However, there was a lot of missing information
+about after 1974 and how the division of the island still lasts and affects the Cypriots’ lives.
+Unlike these two nationalistic Turkish Cypriot museums, “The National Struggle Museum”
+in the south part of Cyprus where Greek Cypriots live was more about fighting against the
+British colonialism, the violence of British forces, and making the dream of enosis real. The
+museum portrays EOKA (the group who fought against the British forces and later fought
+against the Turkish Cypriots) and how they tried to achieve their enosis goals. The museum’s
+design leads you to the upper level where there is a remembrance wall with candles.
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+352
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+Figure 5: Remembrance Wall
+The most common narrative in the museum was the belief that the island always belonged to
+the Greeks, not to Turks who came later around the Ottoman Empire period and who remained
+the minority. The museum also displayed many texts about how the Greeks and Greek Cypriots
+share the same language, culture, and religion, and how Cyprus needs to unite with Greece
+because of these reasons. The word “self-determination” was used many times to justify the
+notion that Greek Cypriots feel closer to Greece so they should have a right to claim
+independence and unite with Greece. For example, Stelios from the Greek Cypriot community,
+explains this notion among Greek Cypriots in more details:
+“There were Greeks coming to Cyprus but there were also Romans, Italians, Franks,
+Finish…Everyone passed from this island, not only Greeks. But Greek Cypriots think that
+Greeks colonized Cyprus and they settled the first. From then on, whoever came to the island, it
+was called an invasion. What they wanted was to unite with Greece because at that point, it
+would give Cyprus more security; we have the same religion, same language, similar culture…
+They thought that Greece as a motherland would help Cyprus to grow. Nationalists put pictures
+on Facebook; Cyprus as a little daughter begging Greece to ‘free me.’ It’s like a child was
+taken away from the mother. From the 1960s to 1974, they wanted to unite with Greece, and
+they brought guns from Greece.”
+The narratives that are used in museums for both Turkish Cypriots and Greek Cypriots
+show that the authorities need to prove to their communities that the past actions were correct
+and necessary with the purpose of creating a deep level of attachment to the motherlands. As a
+result, both education and the use of museums make the reconciliation harder for some people
+in both communities who are attached more to their motherlands.
+3.4. Reconciliation and intergroup contact
+Considering all the factors that cause islanders to feel less connected to the other
+community, it is important to understand how the conflicts move into destructive spirals.
+Deutsch (2006) suggests three factors: Competitive processes which lead to the idea that
+conflicts might be “won”, misperception and selective information that accentuate the contrast
+of oneself with the other side, and lastly cognitive and societal elements that heighten one’s
+commitment to engage in the conflict.
+As an alternative to destructive conflict, he suggests the term “productive conflict” which
+means that although the parties might have different interests or attitudes, they resist the
+temptations to escalate the conflict and focus on the following aspects: Thinking creatively
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+353
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+about the problems, finding possibilities for mutual problem solving, and seeking to negotiate
+cooperation. Deutsch (2006) further discusses the ways how a conflict can become a
+“productive conflict” rather than moving in the destructive direction: A presence of honest
+communication, a prior relationship between the parties that is not antagonistic, an avoidance of
+rigidity, and a conscious focus on the objective aspects of the conflict. Regarding Deutsch’s
+points, Pavlos from the Greek Cypriot community, tells how important is to have a relationship
+with the opposing parties:
+“If I could manage to be in peace with Turkish Cypriots as a person whose family is very
+nationalistic, I think everyone can manage it. The most important thing is to have the desire to
+be in peace. It is important to be close to the other community. Look at me, I have a lot of
+friends from the Turkish Cypriot community and, if everyone does the same thing, we get closer
+to the solution. Many people are afraid of getting closer because they don’t trust each other.”
+Nadler (2008) argues that mutual trust and acceptance are two necessary tools for smooth
+and cooperative interactions between groups within a society where people are mindful of each
+other’s sense of security, dignity, and well-being. These are elements that are lacking in the
+relationship between identity groups in deep-rooted, intractable conflicts.
+The distinction between socio-emotional and instrumental reconciliation becomes important
+in bringing diverse communities together: Instrumental reconciliation aims to change the
+adversarial relations into positive relations that would allow parties to co-exist in a conflict- free
+environment. It requires a long-term process in which the parties gradually learn to replace
+hatred with trust and replace negative perceptions with relatively positive perceptions of each
+other. On the other hand, socio-emotional reconciliation aims to work on the premise that
+recurring experiences of pain and humiliation create a threat to identity and ending conflict can
+be possible when a perpetrator accepts responsibility for past wrongdoings, expresses remorse,
+and is forgiven by the victim (Kelman, 2010). Therefore, a long-term relationship based on
+mutual respect and acceptance can’t be achieved without a peace agreement which addresses the
+fundamental needs and sense of justice that both sides need. For example, Mehmet, from the
+Turkish Cypriot community, says:
+“There is no solution because the compensation problem is a big issue. The Turkish people buy
+and sell everywhere, like a gambler. And the value of the commodities in the past is not similar
+to today’s value. So how are they going to handle this compensation problem? I live in a Greek
+house and I am ready to pay whatever amount I have to pay. I have a guilty conscience.”
+Similarly, the other people thought that the main reasons for the ongoing conflict was not
+only related to nationalistic thoughts, but it was also related to the money and property issues,
+and not having remorse about the past wrongdoings. Some Turkish Cypriots stated that after
+1974, a lot of Turkish Cypriots took Greek Cypriots’ properties and owned them without any
+permission and most of the Greek Cypriots had to leave their most important and valuable
+belongings behind.
+Reconciliation serves the best tool which goes beyond conflict resolution and having
+pragmatic relationships. It enables conflicting parties to internalize the new relationships and
+integrate them into their own identities. As the new attitudes become integrated into the groups’
+own identity, they gradually replace the old attitudes (Kriesberg, 1982). Reconciliation requires
+different processes such as mutual acknowledgement of others’ nationhood and humanity,
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+354
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+development of a common moral basis for peace, and confrontation with history. Reconciliation
+does not require writing a joint history, but it requires admitting the other’s truth into your own
+narrative. Reconciliation also requires acknowledgment of responsibility for the wrongs it has
+done to the other. Most importantly, reconciliation becomes successful when there are
+institutional mechanisms for cooperation. By establishing common interests and personal
+relations, cooperative activities can help stabilize a new peaceful relationship (Kriesberg, 1982).
+Allport’s (1979) intergroup contact hypothesis explains that simple contact between groups
+is not sufficient to improve intergroup relations. He argues that certain prerequisite features
+must be present for the contact between groups to reduce bias successfully. These characteristics
+include equal status between groups, cooperative (rather than competitive) interactions,
+opportunities for personal acquaintance, and supportive norms by authorities. However, it is
+argued that to meet all those conditions above can be very difficult although this formula
+becomes effective when those conditions are met (Pettigrew, 1998).
+Considering this point, common in-group identity model proposes that the development of
+a group identity can be a common mediating factor to achieve the conditions identified by
+Allport (Pettigrew, 1998). With the process of re-categorization, members of different groups
+start to perceive themselves as single, more inclusive superordinate group rather than as two
+completely separate groups. It seeks to reshape group boundaries rather than dissolve them and
+aims to create “we”, a common group identity in order to reduce the bias level (Hornsey, 2008).
+Re-categorization can take two forms: Firstly, two different social entities can be combined
+to form a single superordinate category. In other words, representations of the groups can be
+transformed from two separate groups to one inclusive group. The second form of recategorization occurs when the members maintain their initial identities in the group, but they
+do within the context of a superordinate category. This represents a “dual identity” or “two
+subgroups in one group” (Gaertner et al., 1993).
+Considering all these arguments, Cyprus shows examples of re-categorization. The bicommunal choir for both children and adults meets once a week at the buffer zone where both
+Greek Cypriots and Turkish Cypriots sing songs in different languages and give concerts in
+different parts of Cyprus. Moreover, civil society organizations design programs, especially for
+children and young adults, to promote an education which prepares children and youth to live in
+a multi-cultural, multi-lingual, and multi-faith society in Cyprus. These programs consist of
+anti-racism workshops in schools, educational programs that prepare students to be in contact
+with the other community, and activities that provide chances to students of similar age to come
+together and collaborate with each other.
+Some projects I observed included young Greek Cypriot and Turkish Cypriot kids and
+youth coming together, learning each other’s languages and cultures slowly, and working on
+activities together. These projects were very significant in terms of re-categorization of
+identities where Turkish Cypriots and Greek Cypriots united under one identity “Cypriots” by
+learning their common identities, shared history, and common humanity. At the end of the
+projects, many students left the occasions with feelings of curiosity about the other culture and
+eager to connect with the other community. Although these two communities still maintained
+their Turkish and Greek identity, these projects showed them that they live in the same country,
+and reminded them that before the conflict, there was a Cypriot identity where two communities
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+355
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+were neighbors, close friends, or even partners. Regarding this, Ayşen, from the Turkish
+community who attends the bi-communal choir, says:
+“We don’t have any difference. Can you see any difference between the Turkish Cypriots and
+Greek Cypriots? No, because we have similar genes. Who feels happy about the separation? I
+had a Greek Cypriot friend and neighbor when I was young and we used to play together, share
+everything. She taught me Greek, and I taught her Turkish. We were close friends until they had
+to leave the town because of the conflict. I always speak Greek with my Greek Cypriot friends.
+Some people don’t like us because we get along with the Greek Cypriots very well. We love our
+country more than they do because we are Cypriots.”
+Greg, from the Greek Cypriot community who is also in the choir shares the same feelings:
+“After living in Greece, I went back to Cyprus and I joined the bi-communal choir when I was
+18. I met my best friend in the choir who is a Turkish Cypriot. Last year, I asked her to be her
+best man in her marriage. For the first time, two Greek Cypriot people became best men in a
+Turkish marriage. Until that day, nothing like this has happened before. We appeared on a TV
+interview and they published our story on the newspapers. For a Greek Cypriot, it was a very
+special experience.”
+These people proved that interaction and a good level of communication increase the trust
+level between the two communities and create a shared and a common identity where the
+individuals don’t only feel that they belong to their own communities, but they also feel
+attached to the other community.
+3.4. Challenges
+Threats lead to biases and conflicts because group members are motivated to protect their
+groups’ resources and maintain their values and traditions. For example, realistic threat occurs
+when there are intergroup competitions and conflicting goals whereas symbolic threat occurs
+when an out-group violates the group values (Stephan et al., 2000). Symbolic threats can be
+more seen in religious and political contexts where one group’s beliefs are seen as violating or
+conflicting with another group. However, social identity theory and self-categorization theory
+propose that people can shift back and forth between collective and personal identities when the
+contexts change. Therefore, they argue that social identities are never fixed. People can have
+multiple social identities at different levels of inclusiveness (Croucher, 2017). Social
+psychology theories argue that constructive intergroup contact requires equal status between
+group members. However, the difficulty of having equal status may not be easily overcome.
+Moreover, some other challenges might occur in intergroup relations such as intergroup anxiety,
+group homogeneity, naïve realism and desire to maintain the group power and status (Croucher,
+2017).
+For example, in some situations, anticipated intergroup contact causes intergroup anxiety
+because of the unknown where a collection of negative feelings occurs such as fear, anger, or
+disgust. When groups are homogenous, people expect each other to have similar traits and
+behaviors which creates barriers to individualization and to connect with groups that are
+different. In fact, people tend to identify with group members when group boundaries are less
+permeable, and they tend to maintain their groups’ power and status when out-groups are
+perceived as threats. Lastly, naïve realism suggests that groups think that their perception of the
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+356
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+world is objective and accurate, so they expect out-group members to have the same judgments
+and decisions based on their reality (Pettigrew, 1998).
+Considering these arguments, Cyprus displays a very complex picture because although
+there is a considerable amount of people who try to increase the interaction between these two
+communities, either personally or socially, there are still people who are afraid of interaction,
+and think that there is a threat to communicate with the other community. For example,
+Michalis, from the Greek Cypriot community, expresses his concerns about bringing peace to
+the island.
+“The Greek Cypriots who want peace, it is like a crime. They still teach how to hate each other.
+After realizing that what I was taught was not accurate, I started to research by myself and I
+learned the other side of history, I learned about the mistakes that Greek Cypriots made in the
+past. But the truth is here. The truth is not based on what Turkish Cypriots or Greek Cypriots
+say. If you want to learn the truth, you have to listen to both sides. But I received a lot of
+reactions from other people. When I talk about the mistakes that Greek Cypriots make, people
+start to get angry. I heard a lot negative comments from my parents and from the people in my
+school… Without knowing the other person, you can’t have an opinion about them.”
+Similarly, Hatice, from the Turkish Cypriot community, shares her thoughts about
+interacting with the other community:
+“People want to keep the status quo because it is easy to live apart and not communicate.
+Although I want to communicate with the other culture, I usually feel anxious and nervous
+because I don’t know how they will perceive me and how they will react. I wish there were more
+activities for both communities to come together because that seems like the only way we can
+overcome our prejudice and feel closer to the other community.”
+What both Hatice and Michalis say is very important in order to understand the challenges
+people face with intergroup relations and listen to their suggestions and expectations to
+overcome those challenges. It is crucial to announce the peacebuilding activities to more people
+and try to increase the participation, especially for people who feel more prejudiced towards the
+other culture and who feel anxious about getting together.
+Unite Cyprus is a movement with almost 7,000 people who fight for peace which shows
+that there are no two separate groups but there is a “Cypriot” identity. It is an independent selffunded grassroots initiative to connect Cypriots by seeking the truth, building empathy,
+respecting diversity, reinforcing solidarity and promoting a joint future in order to reach a united
+Cyprus for all Cypriots. After interviewing people and observing the daily lives of people, I
+realized that there is a good number of people who support peace and want to live together
+again, and there are people who have trust issues and who don’t feel comfortable getting
+together because of the past events. However, if peace projects and activities continue,
+especially for the young children, there is a great promise that the communities can agree on a
+solution, not necessarily living together but learning to respect diversity and each other’s
+culture.
+4. Conclusion
+This paper analyzed the deep- rooted conflict in Cyprus through different fields of studies
+such as politics, border studies, and social psychology. The interviews that are made with the
+islanders showed that although there is a considerable amount of people who feel closer to the
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+357
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+other community because of shared experiences and friendship connections, the peace solutions
+seem harder for some people who are hesitant to communicate with the other community. The
+results showed four main challenges in bringing the communities together and transforming the
+conflict which are the involvement of the motherlands, the education systems in both societies,
+the cultural elements such as museums and entertainment tools which trigger nationalism, and
+lastly the feeling of the anxiety to come together. The only way to understand the different
+dynamics of the conflicts is to look at how and why the conflict occurred in the first place, what
+has been done to promote peace and what is needed in the future to bring these communities in
+conflict together. Despite all these challenges, responses from the interviews revealed that
+people who had more contact with the other community and less connection with the
+motherlands showed more eagerness to live with the other community. This research provided
+explanations of why the conflict is still not resolved and gave examples of how to reduce
+prejudice between the groups in conflict. The study concludes that in order to construct an
+alternative and a more collaborative future, the inter-communal contact between communities
+should be increased, and the new paradigm of positive peace and nonviolence should be
+embraced where the culture of war is dismantled, learning for peace is encouraged and the
+geographic limits are deconstructed.
+REFERENCES
+Adams WC (2010). Conducting semi-structured interviews. In Wholey JS, Hatry HP and
+Newcomer KE. Handbook of Practical program evaluation. San Francisco: John Wiley
+and Sons
+Aksu, E. (2018). The UN in the Cyprus conflict: UNFICYP. The United Nations, Intra-State
+Peacekeeping
+and
+Normative
+Change.
+Published.
+https://doi.org/10.7765/9781526137906.00010
+Allport, G. W., Clark, K., & Pettigrew, T. (1979). The Nature of Prejudice: 25th Anniversary
+Edition (Unabridged ed.). Basic Books.
+Andreas, P. (2003). Redrawing the Line: Borders and Security in the Twenty-first
+Century. International
+Security, 28(2),
+78–111.
+https://doi.org/10.1162/016228803322761973
+Asmussen, J. (2004). Cyprus after the failure of the Annan-Plan. European Centre for Minority
+Issues, 1–15.
+Brown, R. (2000). Social identity theory: past achievements, current problems and future
+challenges. European Journal of Social Psychology, 30(6), 745–778.
+Butina, M., (2015). A narrative approach to qualitative inquiry. Clinical Laboratory Science,
+28(3), 190-196.
+Carr, M. (2012). Fortress Europe: Dispatches from a Gated Continent. The New Press.
+Croucher, S. M. (2017). Integrated Threat Theory. Oxford Research Encyclopedia of
+Communication. Published. https://doi.org/10.1093/acrefore/9780190228613.013.490
+Deutsch, K. W. (1953). Nationalism and Social Communication: An Inquiry into the
+Foundations of Nationality. The Technology Press of MIT.
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+358
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+Deutsch, M., Coleman, P. T., & Marcus, E. C. (2006). The Handbook of Conflict Resolution:
+Theory and Practice (2nd ed.). Jossey-Bass.
+Dodd, C. (2010). The History and Politics of the Cyprus Conflict (1st ed. 2010 ed.). Palgrave
+Macmillan.
+Erhürman, T. (2010). New Set of Negotiations in the Cyprus Problem: Federation for a Stable
+Democracy. Ankarabarreview, 35–41.
+Fisher, R. J. (2001). Cyprus: The Failure of Mediation and the Escalation of an Identity-Based
+Conflict to an Adversarial Impasse. Journal of Peace Research, 38(3), 307–326.
+https://doi.org/10.1177/0022343301038003003
+Fox, N. (2009). Using interview in a research project. Yorkshire, UK: The NIHR Research
+Design Service.
+Gaertner, S. L., Dovidio, J. F., Anastasio, P. A., Bachman, B. A., & Rust, M. C. (1993). The
+Common Ingroup Identity Model: Recategorization and the Reduction of Intergroup
+Bias. European
+Review
+of
+Social
+Psychology, 4(1),
+1–26.
+https://doi.org/10.1080/14792779343000004
+Gellner, E. (1983). Nations and Nationalism (New Perspectives on the Past). Cornell University
+Press.
+Hartshorne, R. (1939). The Nature of Geography (1st ed.). The Association of American
+Geographers.
+Hornsey, M. J. (2008). Social Identity Theory and Self-categorization Theory: A Historical
+Review. Social
+and
+Personality
+Psychology
+Compass, 2(1),
+204–222.
+https://doi.org/10.1111/j.1751-9004.2007.00066.x
+House, J. (1980). The Frontier Zone. International Political Science Review, 1(4), 456–477.
+https://doi.org/10.1177/019251218000100403
+Kelman, Herbert C. (2010) "Conflict Resolution and Reconciliation: A Social-Psychological
+Perspective on Ending Violent Conflict Between Identity Groups," Landscapes of
+Violence: Vol. 1 : No. 1 , Article 5.
+Kriesberg, L. (1982). Social Conflict Theories and Conflict Resolution. Peace & Change, 8(2–
+3), 3–17. https://doi.org/10.1111/j.1468-0130.1982.tb00644.x
+Martinez, O. J. (1994). The Dynamics of Border Interaction: New Approaches to Border
+Analysis. In C. H. Schofield (Ed.), Global Boundaries (1st ed., pp. 1–15). Routledge.
+Nadler, A., Malloy, T., & Fisher, J. D. (2008). Social Psychology of Intergroup Reconciliation:
+From Violent Conflict to Peaceful Co-Existence (1st ed.). Oxford University Press.
+Newman, D., & Paasi, A. (1998). Fences and neighbors in the postmodern world: boundary
+narratives in political geography. Progress in Human Geography, 22(2), 186–207.
+https://doi.org/10.1191/030913298666039113
+O’Leary, B. (1997). On the Nature of Nationalism: An Appraisal of Ernest Gellner’s Writings
+on
+Nationalism. British
+Journal
+of
+Political
+Science, 27(2),
+191–222.
+https://doi.org/10.1017/s0007123497000112
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+359
+
+Beyond Borders: Understandıng The Dıfferent Dynamımcs Of Cyprus Conflıct
+
+Paasi, A. (1996). Territories, Boundaries and Consciousness: The Changing Geographies of the
+Finnish-Russian Border. John Wiley & Sons, London.
+Panteli, S. (1984). A new history of Cyprus: From the earliest times to the present day. EastWest Publications.
+Pappas, B. N. (2012). Cyprus: State Creation Without a National Identity. Georgetown
+University.
+https://repository.library.georgetown.edu/bitstream/handle/10822/558324/Pappas_georg
+etown_0076M_12017.pdf?sequence=1&isAllowed=y
+Patton MQ (2015) Evaluation in the field: The need for site visit standards. American Journal of
+Evaluation 36(4): 444–60.
+Pettigrew, T. F. (1998). INTERGROUP CONTACT THEORY. Annual Review of
+Psychology, 49(1), 65–85. https://doi.org/10.1146/annurev.psych.49.1.65
+Renan, E., Giglioli, M. F. N., & Howard, D. (2018). What Is a Nation? and Other Political
+Writings (Columbia Studies in Political Thought / Political History). Columbia
+University Press.
+Rutakumwa, R., Mugisha, J. O., Bernays, S., Kabunga, E., Tumwekwase, G., Mbonye, M., &
+Seeley, J. (2019). Conducting in-depth interviews with and without voice recorders: A
+comparative
+analysis. Qualitative
+Research, 20(5),
+565-581.
+doi:10.1177/1468794119884806.
+Sibley, D. (1988). Purification of Space. Environment and Planning D: Society and Space, 6(4),
+409–421. https://doi.org/10.1068/d060409
+Smith, Anthony D.; Hutchinson, John [Editors]. (1994). Nationalism (1st Edition). Oxford
+University Press.
+Solomonides, N. (2008). One State or Two? The Search for a Solution to the Cyprus Problem.
+International Public Policy Review, 4(1), 61-75.
+Stephan, W. G., Diaz-Loving, R., & Duran, A. (2000). Integrated Threat Theory and
+Intercultural Attitudes. Journal of Cross-Cultural Psychology, 31(2), 240–249.
+https://doi.org/10.1177/0022022100031002006
+Yılmaz, M. E. (2005). The Cyprus Conflict and the Annan Plan: Why One More Failure? Dergi
+Park, 29–39.
+
+The Journal of Academic Social Science Yıl:9, Sayı: 121, Ekim 2021, s. 340-360
+
+360
+
+

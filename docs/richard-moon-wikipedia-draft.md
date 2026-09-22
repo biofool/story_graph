@@ -205,6 +205,12 @@ IMTD with the [[Fulbright Program|Cyprus Fulbright Commission]], the
 American Embassy, the Conflict Management Group and the Harvard
 Negotiation Project — the initiative that seeded the
 [[Cyprus Conflict Resolution Trainers Group]].<ref name="riai-bio"/><ref
+name="cda-2008">{{cite report |title=The Impacts of Peacebuilding Work
+on the Cyprus Conflict |last1=Hadjipavlou |first1=Maria |last2=Kanol
+ |first2=Bülent |publisher=CDA Collaborative Learning Projects,
+Reflecting on Peace Practice |date=February 2008}} (bicommunal-activities
+timeline, 1995 entry: "Aikido, Chris Thorsen, hired by Cyprus
+Consortium")</ref><ref
 name="nautilus">{{cite web |title=Richard Moon |work=Nautilus
 Institute for Security and Sustainability
  |url=https://nautilus.org/network/associates/richard-moon/
@@ -290,6 +296,10 @@ He lives in [[Nicasio, California]].<ref name="linkedin-2025"/>
 - `moon/awase_fi_2025.html` — Awase Helsinki guest sessions Jun 2025, billed 6th dan
 - `moon/nautilus_moon.html` — Nautilus Institute bio (Cyprus + Bosnia peace building)
 - `moon/riai_moon_bio.html` — Riai bio incl. Cyprus/IMTD/Fulbright paragraph
+- `cyprus/academia_peacebuilding_bundle/` — 38-paper Academia.edu bundle
+  (Hadjipavlou & Kanol 2008 CDA case study + similar papers); the main
+  paper resolves the kkron open lead: 1995 "Aikido, Chris Thorsen,
+  hired by Cyprus Consortium" (timeline p.63)
 - `cyprus/Bicom_Groups_Map_Revised2007_12_08.jpg` + `futureworlds_crtg_overview.html` — Laouris 1997 map of ~40 CRTG-facilitated groups (context for cite_note-23 = Laouris & Laouri 2008)
 - `cyprus/wolleh_berghof_br8e.pdf` — Wolleh 2001 Berghof Report 8 (no Moon mention; checked)
 - `cyprus/crtg_wikipedia_wikitext.txt` — Wikipedia CRTG article wikitext

@@ -1,0 +1,1209 @@
+4
+The shifting sands of relational peace
+in Cyprus
+Jason Klocek
+
+On March 31, 2004, Kofi Annan made an impassioned plea for local Cypriot
+leaders to support impending referenda to end three decades of division on
+the island. He framed the importance of these plebiscites in no uncertain
+terms: “Let me be clear. The choice is not between this settlement plan and
+some other magical or mythical solution. In reality, at this stage, the choice
+is between this settlement and no settlement” (Annan 2004). The SecretaryGeneral’s words proved to be hauntingly accurate. While a majority of the
+Turkish Cypriot population voted in favor of a federation of two states,
+more than three-quarters of Greek Cypriots cast their ballots in opposition.
+And in the decade and a half since the failed 2004 reunification plan, no
+fewer than four additional rounds of peace talks have been attempted and
+abandoned.1 Today, the divided island remains the site of Europe’s longest
+unresolved political dispute and an archetype of intractable conflict (Heraclides
+2011).2 The half-century of political stalemate in Cyprus raises challenging
+questions for peace scholars and practitioners alike.3 Why has it been so
+difficult to reunify the island? Why have top-down negotiations such as
+the Annan Plan, as well as more recent bottom-up approaches, proved
+equally ineffective? What might a permanent settlement even look like at this
+point?
+There is, of course, no shortage of answers to such questions. Politicians,
+policy analysts, peacemakers, and conflict scholars have all weighed in over
+the years. This diverse set of actors has advanced varied and inventive plans
+of action, but most share a common perspective. Taking a negative peace
+framework as their starting point, they stress that the island has been free
+of extended periods of armed conflict since the 1974 ceasefire that divided
+Cyprus and express a strong desire not to undermine the current status quo.
+Policy suggestions, in turn, involve some variation of security guarantees
+and a plan for shared governance between the Greek and Turkish Cypriot
+communities. The primary concern of these plans is to avoid a return to
+intercommunal violence. They overwhelmingly frame the Greek and Turkish
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Relational peace in Cyprus
+
+103
+
+Cypriot communities as unitary and static actors and focus more on political
+than societal tensions between the two groups. They often overlook cooperative initiatives that have emerged between the two communities in recent
+years, and they rarely consider variation within either society.
+This chapter applies a relational view of peace as an alternative way of
+understanding the Cyprus problem (Söderström et al. 2021; Jarstad et al.,
+this volume, Introduction). It traces variation in each of the framework’s
+components (i.e., behavioral interactions, subjective attitudes, and ideas of
+the relationship) since 1960. A key value added by this perspective is that
+it shifts our attention to a more complex set of interactions than is captured
+by past analyses. Rather than viewing Greek and Turkish Cypriots as
+homogeneous and fixed groups, this framework draws attention to a varied
+set of cooperative and competitive relationships within and between the
+two communities.
+This chapter pays particular attention to two sets of dyads at the elite
+level: those between leaders in the Greek Cypriot community and those
+between Greek and Turkish Cypriot officials. Understanding the behavior,
+attitudes, and ideas of Greek Cypriot elites is especially important for securing
+a lasting peace on the island given the Greek Cypriot community has been
+the primary veto player in recent years. The opening anecdote of this chapter
+underscores how support for the 2004 Annan Plan was weakest within that
+community. A more recent public opinion poll suggests that attitudes toward
+a federation have not shifted in over a decade (Psaltis et al. 2017: 72–75).
+Moreover, as the majority population with de jure sovereignty over the
+island, Greek Cypriots have fewer incentives than their counterparts to
+reach a resolution in the short term.
+The analysis draws on historical accounts, public opinion data, policy
+reports, English-language news material, and informal conversations with
+residents of Nicosia during two months of fieldwork in 2015. These data
+are complemented by secondary sources where appropriate. My analysis is
+also informed by eight months of research at The National Archives of the
+United Kingdom and the Cyprus State Archives.4 This approach of combining
+multiple data collection methods – known as between-method triangulation
+– provides several advantages (Denzin 2012, 1970; see also Tarrow 2010:
+108–110). It increases the reliability of findings by cross-referencing the
+accuracy of different data-generating processes. Additionally, triangulation
+is an important method for mitigating researcher bias because it forces an
+analyst to consider multiple perspectives and can reveal prejudices underlying
+a single data source (Fusch et al. 2018). It is also a method especially well
+suited for the relational peace framework since no single method is likely
+to capture all of the framework’s components. Of course, triangulation is
+not without its limits. Although the aim is to draw on the best of each
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+104
+
+Relational peace practices
+
+method, it does not eliminate the methods’ flaws. I have, therefore, drawn
+on a diverse set of sources that complement one another rather than those
+that reproduce biases. In this way, between-method triangulation increases
+confidence in my claims in this chapter because the different types of evidence
+I use strengthen the validity of both descriptive and causal inferences (Brady
+and Collier 2010: 310).
+What I ultimately find is not only that peace and conflict coexist within
+and between political elites in Cyprus, but also that these relationships have
+evolved in varied and often clashing ways. For instance, while deliberation
+between Greek and Turkish leaders through formal peace processes is a
+hallmark of the Cyprus problem, there has been considerably less room to
+exchange competing views within the Greek Cypriot community. At various
+points in time, this lack of deliberation has served as a critical barrier to
+reaching a political solution, as well as to developing cooperation across
+communities. This chapter further illustrates how the components of the
+relational peace framework can be mutually reinforcing. The failure to
+reform the school curricula in the Republic of Cyprus has, for example,
+also bolstered cultural forms of dominance on the island.
+The remainder of this chapter proceeds in five parts. In the following
+section, I discuss existing research on the Cyprus dispute and emphasize
+why a negative peace framework remains insufficient. I then examine the
+three components of the relational peace framework. Each section of the
+chapter includes an operationalization of the component and additional
+detail on the dyads of political elites examined. My analysis of behavioral
+interactions is the most extensive section because it offers a direct comparison
+to what a negative peace framework attempts to capture. Demonstrating
+how the relational peace framework reveals additional complexity in this
+component, as well as shedding light on other dimensions of peace, offers
+a compelling case for the value of adopting this alternative. Finally, I consider
+the broader implications of my analysis for the relational peace framework
+and contemporary efforts to bring a lasting peace to Cyprus and similar
+intractable conflicts in the concluding section.
+
+Current approaches to the Cyprus problem
+A substantial literature exists on Cyprus and its politics, most of which is
+centered on how to resolve the protracted conflict on the island.5 A majority
+of scholars acknowledge that the situation is complex, multi-causal, and
+nuanced. At the same time, peace and conflict scholars typically highlight
+two distinct factors as the driving obstacles to a permanent settlement:
+ethno-nationalism and foreign powers. Each factor takes a negative peace
+framework as a primary point of reference.
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Relational peace in Cyprus
+
+105
+
+Ethno-nationalism
+One commonly used approach to understanding the Cyprus problem stresses
+the role of ethno-nationalism. This strand of research defines the Cyprus
+problem as an identity-based conflict in which Greek and Turkish Cypriot
+communities interpret their struggle for political autonomy, its causes, and
+potential solutions along a real or perceived ethno-national divide (Wolff
+2011; Vogel 2016). Existential fears, mistrust, demonization of the other,
+unaddressed historical grievances, and socioeconomic inequalities fuel and
+exacerbate these divisions (Azar 1985; Rouhana and Bar-Tal 1998).
+The ethno-national approach pays particular attention to how competing
+claims for sovereignty evolved and have become reified over time, especially
+in relation to periods of intercommunal violence (Vogel 2016). The two
+ethnic communities were widely dispersed across the island and functioned
+more or less separately during the four centuries prior to independence
+(Ioannides 2014). This changed, however, with the guerrilla campaign against
+the British that erupted in 1955 (French 2015). The conflict, waged by the
+insurgent group EOKA (National Organization of Cypriot Fighters), was
+the culmination of longstanding and increasingly assertive calls by the Greek
+Cypriot community for enosis, a political union with Greece. British forces
+remained the focus of EOKA attacks, but intercommunal violence was not
+uncommon. In response, Turkish Cypriots formed the TMT (Turkish Defense
+Organization) and asserted their own ethno-national demands, which called
+for partition of the island into separate ethnic communities (taksim).
+The end of the guerrilla war in 1959 saw the British withdrawal from
+the Island, but intercommunal tensions and competing ethno-nationalist
+claims persisted despite attempts to address them through the 1960 constitution (Salem 1992). That document set up a complex power-sharing arrangement that included a national legislature and two communal chambers
+(Jarstad 2001). In addition, it established separate municipal administrations
+for the two groups in the five largest cities on the island. Archbishop Makarios
+III, head of the Church of Cyprus, was named the first president of the new
+republic, while Dr. Fazil Kutchuk, the main leader of the Turkish Cypriot
+community, served as vice-president.
+Leaders of each community quickly sought to exploit the new system
+(Salem 1992; Jarstad 2001). This culminated in a 1963 proposal by Archbishop Makarios III to amend the constitution in such a way as to undermine
+most of the privileges enjoyed by the Turkish Cypriot community (James
+2001). In protest, Turkish Cypriot leaders withdrew from the government,
+and a new round of intercommunal violence broke out in December of the
+same year. Hostilities became so intense over the next few months that
+Makarios requested that the UN deploy a peacekeeping force, which it did
+in March 1964. Still, violence and segregation between the two communities
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+106
+
+Relational peace practices
+
+continued through the subsequent decade until Turkish military involvement
+and de facto partition of the island in 1974.
+
+Foreign powers
+A second approach to understanding the Cyprus problem shifts the analytic
+lens toward colonial politics and the regional interests of foreign powers.
+On the first point, numerous studies demonstrate how the British “divide
+and rule” policy exacerbated communal tensions on the island (Pollis 1973;
+Argyriou 2018). The advisory British Legislative Council established in
+1882 provides one striking illustration. This representative body, meant to
+advise British officials, initially consisted of nine Greek and three Turkish
+Cypriots, elected by their respective communities. The process, however,
+superimposed political identities on religiously and ethnically defined communities that previously did not view themselves as such (see Faustmann
+1998). It also created controversy over representation. In 1924, when the
+island became a Crown Colony, Greek Cypriot membership on the council
+was expanded while Turkish participation remained unchanged. Thus, even
+as the British tried to establish representative political institutions, they also
+strengthened identification within each community, sharpened the cleavages
+between them, and drew the communities into political relationships to
+which they did not previously subscribe (Holland 1998; Rappas 2014).
+Of equal, if not greater, consequence has been the role of Greece and
+Turkey since the 1950s. Both countries were directly involved in British
+attempts to reach a peaceful resolution to the EOKA insurgency. Indeed, it
+was the two countries’ foreign ministers that were largely responsible for
+the Zurich Agreement that finally brought an end to the conflict and independence for Cyprus (Holland 1998: 302–305; French 2015: 288–290). A
+key component, along with the 1960 constitution that followed, was powersharing arrangements for each ethnic community (Souter 1984). The
+imposition of a peace treaty and a rigid constitution that reinforced religious
+and ethnic divisions, of course, did not achieve their intended effect. Within
+three years, intense intercommunal violence reignited. This was followed
+by increased interference in Greek Cypriot politics by the military junta in
+Greece, which sought to replace Makarios with a leader who would more
+aggressively advance the cause of enosis. In 1974, Turkish military forces
+moved onto the island, ostensibly to protect Turkish Cypriots in the north.
+
+The limits of current approaches
+Current approaches to understanding the Cyprus problem focus almost
+exclusively on intercommunal divisions. Some disagreement persists as to
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Relational peace in Cyprus
+
+107
+
+the primary driver of these tensions, especially regarding the degree to which
+they predate British colonial rule. However, two important assumptions are
+shared. The first is that the two communities are relatively homogeneous.
+Even when acknowledging the social construction of Greek and Turkish
+Cypriot identities, extant studies tend to conceptualize and report a shared
+set of anxieties and preferences for each group. This is particularly evident
+in studies that draw on public opinion data, which routinely report the
+majority view of each society (Hadjipavlou 2007; Stevens 2016). Far less
+attention, if any at all, is paid to variation within these groups. A second
+key assumption concerns the unit of analysis. The majority of studies either
+focus on the whole of the island or treat one side as a homogeneous population. Consequently, they focus on areas where conflict does or does not
+persist, rather than investigating who within those areas may be cooperating
+or competing.
+Both assumptions have important policy implications. Because the Cyprus
+problem is understood as being driven by intercommunal divisions, peace
+processes focus on improving dialogue between Greek and Turkish Cypriot
+citizens and/or ensuring group rights. This, however, can also reinforce
+social divisions – much like the above-mentioned British Legislative Council.
+Additionally, most peace processes concentrate on the idea of territorial
+unification and political representation based on ethnicity. This obscures
+other tensions and peaceful interactions, along with alternative ways in
+which Greek and Turkish Cypriots organize politically. These complexities
+are precisely what a relational view of peace seeks to capture.
+
+Behavioral interactions in Cyprus
+The first component of a relational peace framework involves behavioral
+interaction (Söderström et al. 2021; Jarstad et al., this volume, Introduction).
+This includes three main elements: deliberation, non-domination, and
+cooperation. The initial two elements have evolved in different and sometimes
+contradictory ways within and across Greek and Turkish Cypriot communities.
+There is significantly less variation when it comes to cooperation within
+and between these groups.
+
+Deliberation in Cyprus
+Deliberation refers to “the exchange of views combined with actors involved
+giving reasons for their positions” (Söderström et al. 2021: 489). The
+establishment of, and participation in, political processes whereby key conflict
+issues can be addressed without turning to violence is a key indicator of
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+108
+
+Relational peace practices
+
+this component. Parliament, the education sector, the media, and formal
+peace talks stand out as four of the most important arenas for political
+discussion in Cyprus. Yet, perhaps counterintuitively, there has been more
+room for deliberation between the two communities than within each of
+them. One reason for this is that the conflict in Cyprus has been as much
+a struggle over the territory of the island as it has been a battle for hegemony
+within each community (Loizos 1998; Lacher and Kaymak 2005).
+
+Deliberation within the Greek Cypriot community
+The first parliamentary elections in Cyprus were held on July 31, 1960.
+Rather than the parliament becoming a site for deliberation, however,
+infighting among Greek Cypriot leaders quickly undermined the efficacy of
+this legislative body. Many Greek Cypriot politicians worried, for instance,
+that the 1960 constitution was a symbol of defeat for their community.
+Consequently, they urged Archbishop Makarios to advance constitutional
+modifications that favored Greek over Turkish Cypriots (Souter 1984;
+Richmond 2002).
+The secret right-wing nationalist group known as EOK, or the Akritas
+organization, was particularly active in advancing this cause. It was formed
+by Greek Cypriot community leaders and a number of cabinet members.
+In 1963, EOK authored a plan that formally called for the weakening of
+the Turkish Cypriot wing of the government and pursuit once more of
+enosis, or the political union of Cyprus with Greece (Necatigil 1993). The
+influence of EOK, along with the refusal of Turkish Cypriot legislatures to
+approve fiscal legislation, eventually led Makarios to introduce constitutional
+amendments that sparked a constitutional crisis and intercommunal violence
+in 1963–1964.
+The archbishop acted in part to appease right-wing nationalists within
+his community. However, he did not go far enough for them. Even as
+intercommunal fighting abated in 1967, dissent from public officials within
+the Greek Cypriot community intensified. Yet Makarios’s attention remained
+on reestablishing political stability on the island rather than union with
+Greece after his reelection in 1968 (Mayes 1981; Assos 2018). This policy
+increasingly frustrated a number of religious and nationalist leaders. The
+former included three of the highest-ranking bishops on the island (i.e., the
+Metropolitans of Paphos, Kition, and Kyrenia), who called for Makarios’s
+resignation as president in 1973. As discussed further below, this not only
+undercut political discussion on the island, but also contributed to forms
+of domination that put a check on public dissent.
+The media in Cyprus reflected similar tensions to those in parliament
+during the 1960s and 1970s. Even though there were both right-wing and
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Relational peace in Cyprus
+
+109
+
+left-wing TV stations and radio channels, the right dominated in terms of
+number and resources. As a result, right-wing views were broadcast much
+more widely and leftist positions were regularly dismissed as propaganda.
+Close ties between specific print media outlets and political parties persist
+today (Avraamidou and Psaltis 2019). However, the disparity has been
+reduced. Since at least the 1980s, the majority of dailies, regardless of
+political position, have been churning out papers seven days a week (Vassiliadou 2007).
+A similar proliferation has occurred with broadcast media. The Cyprus
+Broadcasting Service enjoyed a monopoly and operated as a semi-governmental
+organization until 1990. Since then, Cypriots have increasingly turned to
+private channels. These are predominately owned by Greek or Turkish
+multimedia conglomerates. Thus, even as state policies ensure freedom of
+expression and press, a cultural connection to Greece or Turkey and a
+shared national view are still reinforced via the broadcast media.
+The education sector provides a more contemporary example of stifled
+attempts to promote deliberation within the Greek Cypriot community.
+Ethnic nationalism remains a central theme in school curricula on the island.
+Until quite recently, Greek Cypriots were taught the history only of Greece.
+And even with the introduction of a history of Cyprus to textbooks and
+classrooms, considerably less space and time is allotted to the island’s past
+compared with Greek history (Koullapis 2002). A 2004 report from the
+Ministry of Education and Culture in the Republic of Cyprus went so far
+as to conclude, “the ideological-political framework of contemporary Cypriot
+[sic] education remains Greek-Cypriot centered, narrowly ethnocentric and
+culturally monolithic” (as cited in Papadakis 2008: 134–135).
+Efforts by some Greek Cypriot politicians to reform the curricula remain
+unsuccessful. In 2008, a newly elected leftist government established a
+committee to produce a revised framework for teaching the island’s history.
+The committee charged with reforming the history curriculum consisted of
+five academics who consulted with a number of teacher-led working groups.
+The final proposal that emerged focused on substantive knowledge and a
+single narrative approach (Perikleous 2010). However, a center-right government which took power in 2013 froze the process before the curriculum
+could be implemented.
+Nevertheless, deliberation around the 2004 Annan Plan offers some hope
+that discourse among Greek Cypriot leaders might be broadening and, at
+the same time, the efficacy of ethnic outbidding waning. Ethnic outbidding
+refers to a “process where ethnically-based political parties take increasingly
+extreme ideological positions as a means of distancing themselves from rival
+parties’ (Stewart and McGauvran 2020: 405). The Democratic Party (DIKO)
+and the Movement for Social Democracy (EDEK), in particular, engaged in
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+110
+
+Relational peace practices
+
+this process in the period leading up to the public referendum on the Annan
+Plan by appealing to Greek Cypriot concerns around property rights, security,
+and collective identity (Avraamidou 2018; Amaral 2019). And these appeals
+did achieve their short-term goal: the majority of Greek Cypriots rejected
+the peace agreement, as discussed at the start of this chapter. However,
+ethnic outbidding did not lead to subsequent electoral gains for either party
+nor did it escalate to violence. Rather, the Democratic Rally (DISY) party
+peacefully maintained its dominance in elections despite supporting the
+referendum when the majority of its members and the public did not (Vural
+and Peristianis 2008).
+One key reason why ethnic outbidding may have worked for the referendum
+but not for subsequent voting lies in the difference in frames employed by
+the two sides (Moore et al. 2014). Despite advice from the opposition
+parties’ own communication advisors to avoid “brutal patriotic propaganda”
+and “soften their language towards moderation,” DIKO, EDEK, and other
+groups adopted more ideologically extreme positions than DISY during and
+after the referendum (as cited in Moore et al. 2014: 172–173). In contrast,
+DISY employed an adaptable and prognostic framing strategy. It emphasized,
+for instance, pragmatic gains to increase the influence of Cyprus within
+European institutions (Katsourides 2014). At the same time, DISY selectively
+drew on identity issues during election periods, which included slogans
+stating that “Cyprus is Greek” (Moore et al. 2014: 174, see also Sandal
+and Loizides 2013). Thus, deliberations over the 2004 Annan Plan suggest
+that while ethnic outbidding has not entirely disappeared from the Cypriot
+landscape, political elites that also give explicit, strategic reasons for their
+actions have fared better in the long term. Moreover, the non-violent, public
+disagreement that occurred during the 2004 referendum stands in stark
+contrast to the belligerent interactions between groups with competing
+viewpoints in the 1960s.
+
+Deliberation between the Greek and Turkish Cypriot communities
+While deliberation within the Greek Cypriot community remains muted,
+the exchange of competing views between the two communities has been
+a central feature of peace talks since even before partition. Many analyses
+capture this. However, they also often point to intercommunal, rather than
+intracommunal, differences as the reason why talks break down.
+Following the reelection of Archbishop Makarios in 1968, for example,
+UN-sponsored talks began to develop a system of local government which
+would have given Turkish Cypriots a degree of local autonomy (Polyviou
+1980). The main representatives at these meetings were the presidents of
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Relational peace in Cyprus
+
+111
+
+the communal chambers, Glafkos Clerides for the Greek Cypriot side and
+Rauf Raif Denktaş on the Turkish Cypriot side. These formal discussions
+offered the space to present both competing views and the reasons behind
+them. However, no consensus was reached by 1970, at which time SecretaryGeneral U Thant called off the talks, blaming both sides’ leaders for their
+inability to compromise (Mirbagheri 2014). As discussed above, one major
+constraint on the Greek Cypriot leadership was intracommunal pressure
+from religious and political elites to hold out for full union with Greece.
+Indeed, the more Makarios tried to focus on political stability rather than
+enosis, the more opposition he faced from within his community.
+Talks in 1977 made substantially more progress. This time President
+Makarios and Vice-President Denktaş met directly. After five rounds of
+UN-managed talks, the two leaders signed a four-point agreement confirming
+that any future Cyprus settlement would be based on a federation. Other
+details were to be worked out at a later time, but the death of Makarios
+in August 1977 prevented such an outcome. Instead, Spyros Achilleos
+Kyprianou, the archbishop’s successor and leader of the Democratic Party,
+rejected the plan in 1979 (Souter 1984).
+It is beyond the scope of this chapter to detail all of the peace talks that
+have taken place over the past five decades. Collectively they demonstrate
+that deliberation between the two communities has not been absent. They
+also indicate that there is more room for political dissent within the Greek
+Cypriot community than there is between Greek and Turkish Cypriot communities. Take the most recent round of stalled UN-sponsored peace talks,
+which began in 2017. After initial optimism, the special advisor appointed
+to lead the effort, Jane Holl Lute, reported after an April 2019 meeting that
+the two sides seemed more divided than ever and subsequently recommended
+the negotiations be suspended indefinitely (Congressional Research Service
+2019). This episode also raises questions about other factors that can influence the space for dialogue. Non-domination is one important permissive
+condition.
+
+Non-domination in Cyprus
+Non-domination refers to a freedom from the arbitrary influence of a more
+powerful actor. In line with the Introduction of this volume, I operationalize
+non-domination as the extent to which elites and others adapt or moderate
+their behavior in the shadow of more powerful actors (Jarstad et al., this
+volume, Introduction). This is an especially apt allusion for Cyprus. The
+two communities literally live under the shadow of each other’s communal
+symbols, with flags and other nationalist images prolific on the island.
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+112
+
+Relational peace practices
+
+Accordingly, I look at both explicit and implicit forms of coercion in this
+section.
+
+Domination within the Greek Cypriot community
+Violence or the threat of violence characterized many relations between
+Greek Cypriot elites and community members before partition. During the
+insurgency war of the 1950s, for instance, EOKA killed far more civilians
+than British security forces did. This was because they targeted defectors
+from the group and local leaders that cooperated with British authorities.
+Moreover, they often conducted the assassination of defectors publicly with
+the explicit aim of deterring similar behavior in the future (see French 2015:
+111–114).
+Following Makarios’s reelection in 1968 and his refusal to further advance
+the cause of unification with Greece, General Georgios Grivas formed EOKA-B
+as a successor organization to the insurgent group he had led a decade
+earlier. It was supported by a number of pro-enosis members in parliament,
+as well as clergy in the Church of Cyprus. For several years, the organization
+engaged in a campaign of sabotage and civilian attacks that culminated in
+a short-lived coup against Archbishop Makarios in July 1974 (Assos 2018).
+Makarios weathered that attempt, in part thanks to the Efedriko, a special
+police force he created with support from the leaders of EDEK.
+Over the years, this type of violence has given way to less explicit – but
+no less influential – forms of coercion, and indeed domination. The most
+notable is an ethos that Loizos characterizes as “obsessive ethnic nationalism”
+(Loizos 1998: 40). This perspective not only limits room for debate but
+actively demonizes those who express opposition and demands they be
+silenced. Its persistence is particularly striking not just in the school curricula
+discussed above, but also in how teachers in Cyprus structure their classrooms
+and lessons. A number of studies, for example, find that teachers are hesitant
+to discuss controversial periods in the past, especially those that challenge
+one-sided victimization narratives (see Zembylas 2015). Thus, even when
+the threat of violence is removed, institutionalized norms continue to shape
+the behavior of educators on the island.
+Self-censorship among elites and within the broader Greek Cypriot community is another marker of this persistent ethos. For instance, during
+fieldwork I conducted in Nicosia in the winter of 2015, most of my interlocutors regulated what they did and did not share about the past. Discussion
+of intercommunal violence or tension no longer appears to be an entirely
+taboo subject. However, when I would bring up specific events or actors,
+my conversation partners, especially those older than fifty, would quickly
+steer the conversation back to general terms. Part of the reason for this may
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Relational peace in Cyprus
+
+113
+
+have been that I was an outsider. However, Cypriot-born scholar Papadakis
+(2006) observed similar behavior during his fieldwork in the 1990s. One
+particularly telling example comes from his time in coffee shops, which
+were rigidly split along ideological lines. Certain cafes hosted right-wing
+nationalist party leaders and members, such as the Progressive Front and
+the Democratic National Party, and others were for leftist party leaders and
+members, the most notable being the Progressive Party of Working People
+(AKEL). Both of our experiences suggest that even in the absence of societal
+violence, Greek Cypriots remain guarded in their political discussions and
+behavior.
+
+Domination between the Greek and Turkish Cypriot communities
+Forms of symbolic domination persist even more between the two communities than within Greek Cypriot society. In the north, an image of the
+flag of the Turkish Republic of Northern Cyprus is displayed on the side of
+Beşparmaklar mountain. Next to the image is the quotation “How happy
+is the one who says ‘I am a Turk.’” Both are impossible to miss when
+approaching Nicosia. Furthermore, in 2009, a Greek Cypriot Member of
+the European Parliament submitted an official complaint about the symbols,
+describing them as an “unprecedented daily provocation” and a “hostile
+action” (Papadopoulou 2009).
+Such symbolism is, of course, not absent south of the partition line. In
+1987, a ten-meter-high bronze statue of Makarios III was erected outside
+the archbishop’s palace in the capital. It stood as a towering landmark until
+2008, when it was moved to the archbishop’s mausoleum in the Troodos
+mountains. Speculation remains as to whether its position facing toward
+the northern end of the island is intentional (Assos 2018).
+The symbols that dominate the skyline also overshadow the streets of
+Cyprus. The Greek flag is an example par excellence. One can hardly travel
+around the Republic of Cyprus without spotting the “sky blue and white”
+on homes, stores, stadiums, ships, and even beach resorts. On Greek national
+holidays, the numbers increase exponentially. And the impact of this practice
+is unambiguous. Turkish Cypriots routinely state that they see the Greek
+flag as a symbol of “domination, degradation, siege, and violence” that
+embodies all of their negative experiences prior to 1960 (Anastasiou 2002:
+587). The seriousness of this issue led the UN to go so far during the 1990s
+as to regulate when Greek or Turkish flags could be flown in villages that
+bordered the Green Line (Papadakis 1997). Despite this effort, however,
+the number of flags has swelled in recent years.
+The symbolic domination within and across communities has reinforced
+social divisions and produced contestation around the physical development
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+114
+
+Relational peace practices
+
+of the island (Björkdahl and Kappler 2017: 13–31). And while several peace
+movements have tried to reshape the politics of these physical places, elites
+and local media outlets continue to exploit them for their political ends.
+For example, in a 2004 speech opposing the Annan Peace Plan, President
+Papadopoulos addressed the public as “Greek Cypriot people” – a term
+that had not been used in decades and before then used exclusively by
+Archbishop Makarios (Cyprus News Agency 2004). Papadopoulos’s speech
+resulted in a spontaneous mass gathering in front of the presidential palace
+with hundreds waving Cypriot flags and, ultimately, the failure of that peace
+plan (Loizides 2007).
+
+Cooperation in Cyprus
+If deliberation and non-domination concern the external and internal space
+to express dissent, cooperation shifts attention to activities that bring communities together. This involves taking steps that benefit both sides, as well
+as adopting common goals and identities (Söderström et al. 2021: 492).
+Despite various attempts to bring Greek and Turkish Cypriot communities
+together, including a bi-communal citizen-based peace movement that has
+grown since the 1990s, cooperation within and between the two communities
+remains elusive.6
+Formal peace talks stand out as the most illustrative examples of a failure
+to identify common goals at the elite level. Since 2004, Greek and Turkish
+leaders have increasingly talked in terms of “convergences” related to EU
+affairs, governance, economics, citizenship, and disputed individual property.
+This term is notable, as it embodies the overriding frame for more recent
+negotiations – that nothing is agreed until everything is agreed (Congressional Research Service 2019). Leaders no longer seem willing or able to
+enter into agreements like the 1997 Makarios–Denktaş accords, which
+settled the federation question but left other issues on the table. If anything,
+the interests and goals that might unite the two sides have only become
+opaquer.
+A 2015 public opinion survey suggests that consensus within and between
+communities remains just as elusive at the local level (Psaltis et al. 2017:
+72–75). In particular, efforts to engender a shared identity for inhabitants
+of the island remain hampered by what that might entail in practice. Two
+thirds of the survey respondents from the Republic of Cyprus, for instance,
+favored the development of a common “Cypriot identity.” Sixteen percent,
+however, expressed that such a project would also be detrimental to national
+interests. Moreover, when they were asked what factors were key for a
+“Cypriot identity,” sharp divisions within and between the two communities
+emerged. For instance, one third of Greek Cypriot respondents said a love
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Relational peace in Cyprus
+
+115
+
+of the homeland should form the basis of a common identity, whereas a
+mere 2 percent of Turkish Cypriot respondents shared the same view. Instead,
+Turkish Cypriots were much more likely to point to a shared past, culture,
+and temperament. There was also disagreement about the best timing for
+cultivating a common Cypriot identity. Turkish Cypriots were three times
+as likely as Greek Cypriots to say that a common identity was a prerequisite
+for any permanent solution. Greek Cypriots were again divided, with nearly
+a quarter stating that the development of a common identity should never
+happen. Other research, including a 2013 interview study conducted with
+youth in Nicosia, corroborates these patterns (Leonard 2013). This, undoubtedly, also has effects on the subjective attitudes of each group and their idea
+of relationship with one another.
+
+Subjective attitudes in Cyprus
+Peaceful relations involve more than just behaviors; they also encompass
+how groups perceive one another. These subjective attitudes include patterns
+of mutual recognition and trust. I assess mutual recognition by identifying
+explicit and symbolic acts of acceptance of the other’s existence. Trust, in
+turn, involves a psychological state whereby actors have a positive expectation of the intentions or behavior of another and can express vulnerability
+(Söderström et al. 2021: 494). Like behavioral interactions, attitudes have
+moved in contrasting directions within and between the communities in
+Cyprus.
+
+Recognition and trust within the Greek Cypriot community
+Following independence, the infighting among elites was marked by a refusal
+to accept those with competing visions for the future of Cyprus. Consider
+again the coup attempt against Makarios in July 1974. In many ways,
+the archbishop became a victim of the ideology he spearheaded in the
+1950s. During the insurgency war, the motto of Greek Cypriot religious
+leaders and EOKA fighters was “enosis and only enosis” (French 2015:
+25). Yet when the archbishop tried to consolidate his authority after British
+withdrawal through a loose coalition known as the Patriotic Front, some
+were unwilling to abandon that call. And, as discussed above, a small,
+but influential opposition movement consisting of right-wing religious and
+political officials eventually tried to forcibly remove Makarios from office.
+This example also highlights the relational aspect of recognition; it is an
+interaction between an actor’s asserted image and the image perceived by
+others (Lindemann 2011).
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+116
+
+Relational peace practices
+
+Since at least the 1974 partition, Greek Cypriot politics have settled into
+a more routine set of activities with four major parties: DIKO, DISY, EDEK,
+and AKEL. Moreover, the Republic’s proportional representation system
+has necessitated compromise and coalition-building since no single party
+enjoys the support of a majority of voters. For instance, the left-wing party
+EDEK formed an alliance with the centrist party DIKO during the early
+2000s. Together they promoted a closer cultural, though not political,
+connection with Greece (Peristianis 2006).
+This is not to say that a thick form of recognition has emerged. Elections
+remain deeply contested, especially between candidates on opposite ends
+of the ideological spectrum (i.e., those of DIKO and AKEL). Still, a thin
+form of recognition has developed whereby elites accept that competing
+parties have the equal right to participate in politics. For example, while
+communist parties were banned from 1931 to 1941 and during the insurgency
+war, the current communist party, AKEL, has participated in every election
+since 1960 (Dunphy and Bale 2007).
+Mutual recognition developed among political elites by the 1970s, but
+social spaces continued to reflect ideological differences for several decades
+more. As discussed above, coffee shops in cities and villages were rigidly
+split as late as the 1990s, with some establishments being reserved for
+right-wing nationalist parties and others hosting leftist organizations. Not
+only did political officials and members regulate which cafes they frequented,
+but Greek Cypriots also self-policed the reading materials they brought with
+them (Papadakis 2006). This latter point is a striking example of the lack
+of mutual trust that persisted more broadly within the Greek Cypriot community for several decades as party affiliation created and reinforced negative
+expectations about the other.
+What conclusions can we draw about levels of mutual trust today? It is
+difficult to infer attitudes from behavior, but the relatively peaceful relations
+within the Greek Cypriot community suggest that stereotyping and prejudices
+along ideological lines are minimal. Public opinion surveys would be an
+even more effective way to measure popular trust, but these can be difficult
+to implement and interpret in Cyprus. One reason for this is that surveys
+typically take the ethnic community as their unit of analysis and report only
+aggregate responses. This provides insight into how average levels of trust
+have changed between the two communities over time, but we still know
+far less about change in subjective attitudes within the Greek Cypriot community (or Turkish Cypriot society, for that matter). To my knowledge, no
+surveys have been designed to intentionally compare differences in the
+attitudes of citizens in major cities of the Republic of Cyprus. Additionally,
+there is the self-censorship discussed above, raising questions about how
+openly Greek Cypriots would share their views if asked. The polls cited in
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Relational peace in Cyprus
+
+117
+
+this chapter do provide the demographic backgrounds of respondents, but
+this is not always the case. Of course, it is not always possible to avoid all
+bias in a sample. Yet several surveys seem to actually introduce it by restricting
+their sample owing to the preferences of funding organizations, rather than
+methodological grounds. For example, Webster (2005) relied on data from
+an omnibus survey conducted by a market research firm. That organization
+excluded respondents aged over sixty-five because that demographic was
+of limited interest to the commercial organization. The study, despite this
+sampling bias, still claimed that the data were a generally representative
+sample of the government-controlled areas of Cyprus (Webster 2005: 82).
+While there may be reasons to suspect that public trust has increased
+within the Greek Cypriot community, the same cannot be said of political
+trust. Most notably, the 2012–2013 economic crisis appears to have engendered suspicion of political elites as a whole and contributed to voter disillusionment (Triga 2017). According to the 2013 Eurobarometer survey, for
+instance, 91 percent of Cypriots responded that they did not trust their
+political parties (Eurobarometer 2013). This ranked Cyprus as the second
+highest on this measure in Europe that year. Moreover, confidence in political
+parties has yet to rebound, with some 88 percent of Cypriots still expressing
+no trust in political parties nearly five years later (Eurobarometer 2017).
+Thus, even as political parties in Cyprus have gradually come to recognize
+one another, the divide between political parties and the Cypriot populace
+has grown.
+
+Recognition and trust between the Greek and
+Turkish Cypriot communities
+While intracommunal divisions and non-recognition characterized party
+politics in the years leading up to and immediately after independence,
+connections between workers’ parties in Greek and Turkish Cypriot communities stand out as a remarkable example of intercommunal recognition
+and trust. During the 1930s and 1940s, for example, Greek and Turkish
+Cypriots frequently interacted through left-wing workers’ institutions
+(Papadakis 2006). Later too, a clear sense of mutual recognition persisted
+throughout the 1950s and early 1960s. One telling indicator of this is the
+practice of official and unofficial AKEL publications reporting attacks by
+Greek Cypriots against Turkish Cypriots (Papadakis 2006: 72).
+Other, especially more contemporary, examples of mutual recognition
+are few and far between. One is the outcome of the Aziz vs. Republic of
+Cyprus case in the European Court of Human Rights, which restored some
+individual civil rights to Turkish Cypriots residing in the Republic of Cyprus
+(Trimikliniotis and Demetriou 2008). It has not, however, restored any of
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+118
+
+Relational peace practices
+
+the communal rights laid out in the 1960 constitution. Another example
+of a thin form of mutual recognition is Article Six of the current constitution
+of Cyprus, which explicitly prohibits discrimination of either Greek or
+Turkish Cypriots based on race.
+Far more common, however, are instances of non-recognition or active
+attempts to erase the history of the other community. Here the most conspicuous example is the desecration of cemeteries and worship spaces on both
+sides of the island (Björkdahl and Kappler 2017: 36). North of the Green
+Line, crosses have been broken off tombstones and icons destroyed. In the
+Republic of Cyprus, the burial grounds of Turkish Cypriots have been
+abandoned and vandalized. All of this is compounded by the fact that Greek
+and Turkish Cypriots have limited interaction because of the formal partition
+of the island. Nearly three-quarters of both Greek and Turkish Cypriots
+report they do not maintain any relations and/or contact with members of
+the other community (Psaltis et al. 2017: 72–75). This isolation has created
+conditions that make it difficult to advance mutual recognition or trust
+between elites or citizens. It also has implications for the third component
+of relational peace.
+
+Ideas of the relationship in Cyprus
+Relational peace involves not just behavioral interactions and subjective
+attitudes, but also actors’ ideas of how they relate to one another. As
+discussed in the Introduction to this volume, the idea of relationship lies
+along a continuum from foe to fellow to friend. What demarcates these
+categories is the extent to which they hold a shared vision about society.
+Here I evaluate these on the basis of words and deeds of political elites.
+Like the other components, relations within the Greek Cypriot community
+have taken a form that differs from those between them and their Turkish
+Cypriot counterparts.
+The contemporary Greek Cypriot community, especially at the elite level,
+is best characterized as a fellowship. One indicator of this is the evolution
+of the House of Representatives. Despite its shaky beginnings, the Cypriot
+parliament has emerged as a deliberative body where parties compete in
+non-violent ways to advance their vision for the future of Cyprus (Charalambous 2009). As discussed above, political leaders now recognize each other
+as peers and even form coalitions in order to govern. But this does not
+mean there are warm feelings between them or that they share a single
+vision of what the future of Cyprus entails.
+Similar ideas characterize the broader Greek Cypriot community. Roughly
+half of respondents to public opinion polls conducted in 2006 and 2007,
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Relational peace in Cyprus
+
+119
+
+for instance, selected “Cypriot” in response to a question that asked how
+they personally identified (Faustmann 2009). Another third of respondents
+chose the category of equally Greek and Cypriot. The smallest percentage
+of respondents identified as more Greek than Cypriot. A more recent poll,
+conducted in 2015, shows similar results (Psaltis et al. 2017: 72–75). These
+surveys demonstrate that while debate persists, disagreements are construed
+as legitimate.
+Relations between Greek and Turkish Cypriots have evolved differently.
+Prior to independence, one could make an argument that a fellowship also
+existed at this level. The two communities acted more or less separately
+prior to the mid-twentieth century (Ioannides 2014). However, each group
+accepted the right of the other group to exist and cooperated through a
+number of political institutions as outlined above. The division of the island
+has once again isolated the two communities, but now the overarching idea
+of relationship may be more that of foes than that of fellows, especially at
+the elite level.
+This was neither an inevitable outcome nor did it occur uniformly within
+the two societies. In 1963, Turkish Cypriot officials withdrew from government
+following Makarios’s proposed amendments favoring Greek Cypriots. Yet
+even after those formal ties were severed, left-wing parties on the two sides
+continued to express strong feelings of mutual solidarity until 1974. Their
+leaders expressed both a common ideological emphasis on being “Cypriot
+first” and a shared sense of victimization from nationalist parties within
+their communities (Papadakis 2006). Moreover, as discussed above, they
+publicly reported attacks by members of their own societies.
+Interactions among Greek and Turkish elites are now reduced to formal
+peace talks. It may be tempting to see this as a form of fellowship, as both
+sides recognize the authority of the other and are engaging in a common
+exercise to advance a more lasting peace. However, a deeper look at negotiations offers a more cautionary note. For instance, a round of negotiations
+between President Demetris Christofias and Turkish Cypriot leader Dervis
+Eroglu in 2010 raises questions about whether the two sides really see one
+another as worthy of respect or simply engage in talks because external
+forces pressure them into doing so. The meeting was held under the auspices
+of the UN Secretary-General’s special advisor in Cyprus, Alexander Downer.
+After just four months, Eroglu expressed his frustration with the process
+in an interview with Greek Cypriot press and accused the Greek Cypriots
+of treating Turkish Cypriot positions with contempt (Cyprus Mail 2010).
+Moreover, in the most recent round of talks (2017–2019) doubt has even
+been expressed about terms that were thought to be settled more than a
+decade ago, such as the formation of a bi-zonal, bi-communal federation
+(Andreou 2020).
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+120
+
+Relational peace practices
+
+Conclusion
+A relational view of peace underscores the complexity of associations that
+exist both within and across communities in Cyprus. Most importantly, this
+chapter highlights considerable variation within Greek Cypriot society, an
+issue overlooked by a negative peace framework. Attention to within-group
+competition and cooperation demonstrates that the Cyprus conflict is less
+static than past analyses suggest. It further brings to light a problematic
+asymmetry between intercommunal and intracommunal relations. Efforts
+to advance the former are often undermined and exacerbated by within-group
+differences. A relational peace framework also shifts the analytic lens away
+from ethno-nationalism and foreign interests to the strategic priorities of
+and actions within each community. This underscores how intercommunal
+relations are difficult to advance while within-group competition is high.
+Finally, a relational view of peace raises important questions about civil-society
+peacebuilding efforts that aim to improve dialogue across communities.
+This is a worthy goal. But so too should be efforts to increase the diversity
+of viewpoints within Greek Cypriot society.
+Cyprus is not alone in facing such challenges. This chapter and the relational
+peace framework more broadly can speak to other longstanding interethnic
+conflicts, especially those where domestic identities overlap with regional
+powers. These include active conflicts such as those in Kashmir and Myanmar
+and places where peace deals have been signed but tensions persist, such
+as Northern Ireland, the Balkans, and South Sudan. The Israeli–Palestinian
+conflict also stands out for its striking similarities to Cyprus. An armed
+struggle against British rule led to the establishment of the State of Israel
+in 1948. Intercommunal violence preceded and continued long after British
+withdrawal. And an endless series of peace processes have taken the division
+between the two communities as their starting point. As in Cyprus, internal
+politics within Israeli and Palestinian societies have played a pivotal role in
+undermining attempts at a lasting peace. The most notable example is the
+role of factional politics within the Palestine Liberation Organization, which
+limited Arafat’s bargaining position during the Camp David Accords. It is
+telling that foreign policy and conflict scholars have not explored that factor
+until very recently (see Anziska 2018).
+This chapter is, of course, not without its limitations. The most notable of
+these concerns what is not analyzed. I do not examine variation within the
+Turkish Cypriot communities, nor do I look at Greek- or Turkish-language
+sources. A more systematic study of the Turkish Cypriot community and
+primary sources would add nuance to the investigation. Whether it would
+contradict the findings is unclear. If anything, a deeper dive into the deliberations of each community might reveal more, not less, internal dissent.
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Relational peace in Cyprus
+
+121
+
+Moreover, the examined sources are public and, for the most part, represent
+a consensus view of the political parties. These were most likely preceded
+by internal debate, which would only further demonstrate the multifaceted
+nature of the communities. Nevertheless, attention to the Turkish Cypriot
+community and the analysis of primary documents in a future study would
+be a welcome way to provide additional insight into communities and a
+peace that are often assumed to be uniform and static.
+This chapter also has not systematically explored the interplay between
+the components of the relational peace framework. Rather, it has pointed
+out several ways in which the components can be mutually reinforcing.
+Questions remain as to whether certain components are more influential or
+should be prioritized by peacebuilders at particular times or during particular
+activities, such as formal negotiations, or in a certain order. Additional
+study could shed light on these issues and identify specific mechanisms that
+might build on advances in one area to promote change in another.
+To conclude, analysts all too quickly apply a negative peace framework
+to interethnic conflicts such as Cyprus. They construe conflict parties as
+homogeneous communities and frame failed efforts to promote a more
+lasting peace as a consequence of relations between, not within, these societies.
+The relational peace framework and the case of Cyprus challenge this
+conventional approach. They draw attention to opportunities for cooperation,
+while also providing a cautionary note that some relations can remain
+competitive and resistant to change over time. Interactions may also not
+necessarily move in a linear direction, as for example with efforts to identify
+common goals during elite negotiations. Shared understandings that characterized peace talks in the late 1990s, for instance, no longer seem to be held
+in common. It is, therefore, never just a simple question of settlement or
+no settlement between two communities.
+
+Notes
+1 These include the 2008–2010 Christofias–Talat negotiations, the 2010–2012
+Christofias–Eroglu negotiations, the 2014 Anastasiades–Eroglu negotiations, and
+the 2015–2017 Anastasiades–Akinci peace talks.
+2 Cyprus also boasts one of the longest-standing peacekeeping missions, the UN
+Peacekeeping Force in Cyprus (UNFICYP), which began in 1964.
+3 In line with the extant scholarship on Cyprus, I refer to the Cyprus problem,
+conflict, dispute, stalemate, and issue interchangeably. For consistency, I use the
+first nomenclature most often.
+4 The archival research focused primarily on the Emergency Period (1955–1959)
+and the years immediately following independence. I reviewed records from the
+War, Foreign, and Colonial Offices, along with the Foreign and Commonwealth
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+122
+
+Relational peace practices
+
+Offices’ migrated archives. The latter has been available to the public only since
+2013.
+5 For a general history of politics on the island, see Souter 1984; Holland 1998;
+Papadakis et al. 2006; Dodd 2010; Ker-Lindsay 2011; Bryant and Papadakis
+2012.
+6 For a summary of the peace movement, see Anastasiou 2002.
+
+References
+Amaral, Joana. 2019. Making Peace with Referendums: Cyprus and Northern Ireland.
+Syracuse, NY: Syracuse University Press.
+Anastasiou, Harry. 2002. “Communication across conflict lines: the case of ethnically
+divided Cyprus.” Journal of Peace Research 39(5): 581–596.
+Andreou, Evie. 2020. “Akinci says won’t make move on Cyprus problem until
+mandate renewed.” Cyprus Mail, June 2, 2020. https://cyprus-mail.com/2020/06/02/
+akinci-says-wont-make-move-on-cyprus-problem-until-mandate-renewed/ (accessed
+September 21, 2020).
+Annan, Kofi. 2004. “Remarks by the Secretary-General on the final settlement plan
+for Cyprus.” Bürgenstock, Switzerland, March 13, 2004. https://www.un.org/
+press/en/2004/sgsm9239.doc.htm (accessed September 21, 2020).
+Anziska, Seth. 2018. Preventing Palestine: A Political History from Camp David
+to Oslo. Princeton, NJ: Princeton University Press.
+Argyriou, Sophia. 2018. “The imperialistic foundations of British colonial rule in
+Cyprus.” Cyprus Review 30(1): 297–316.
+Assos, Demetris. 2018. Makarios: The Revolutionary Priest of Cyprus. London and
+New York: I. B. Tauris.
+Avraamidou, Maria. 2018. “Exploring Greek-Cypriot media representations of national
+identities in ethnically divided Cyprus: the case of the 2002/2004 Annan Plan
+negotiations.” National Identities 20(5): 439–461.
+Avraamidou, Maria, and Charis Psaltis. 2019. “Blocking the solution: social representations of threats and (non) dialogue with alternative representations in
+Greek-Cypriot newspapers during peace negotiations.” Journal for the Theory
+of Social Behaviour 49(4): 460–479.
+Azar, Edward E. 1985. “Protracted international conflicts: ten propositions.”
+International Interactions 12(1): 59–70.
+Björkdahl, Annika, and Stefanie Kappler. 2017. Peacebuilding and Spatial Transformation: Peace, Space and Place. New York: Routledge.
+Brady, Henry, and David Collier. 2010. Rethinking Social Inquiry: Diverse Goals,
+Shared Standards. Lanham, MD: Rowman & Littlefield.
+Bryant, Rebecca, and Yiannis Papadakis. 2012. Cyprus and the Politics of Memory:
+History, Community and Conflict. New York: I. B. Tauris.
+Charalambous, Giorgios. 2009. “The House of Representatives.” In The Government
+and Politics of Cyprus, ed. James Ker-Lindsay and Hubert Faustman, 143–168.
+Bern, Switzerland: Peter Lang.
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Relational peace in Cyprus
+
+123
+
+Congressional Research Service. 2019.“Cyprus: Reunification Proving Elusive.”
+R41136. Washington, DC: Congressional Research Service. https://sgp.fas.org/
+crs/row/R41136.pdf (accessed November 18, 2022).
+Cyprus Mail. 2010. “Eroglu: treated with contempt.” September 19, 2010. https://
+archives.cyprus-mail.com/2010/09/19/eroglu-treated-with-contempt/ (accessed
+September 21, 2020).
+Cyprus News Agency. 2004. “Address to Cypriots by President Papadopoulos (full
+text).” April 8, 2004. http://www.hri.org/news/cyprus/cna/2004/04-04-08.cna.html
+(accessed September 21, 2020).
+Denzin, Norman K. 1970. The Research Act. Chicago: Aldine.
+Denzin, Norman K. 2012. “Triangulation 2.0.” Journal of Mixed Methods Research
+6(2): 80–88.
+Dodd, Clement. 2010. The History and Politics of the Cyprus Conflict. New York:
+Springer.
+Dunphy, Richard, and Tim Bale. 2007. “Red flag still flying? Explaining AKEL –
+Cyprus’s communist anomaly.” Party Politics 13(3): 287–304.
+Eurobarometer. 2013. “Public opinion in the European Union, national analysis – Cyprus (autumn).” Brussels: European Commission. https://europa.eu/
+eurobarometer/surveys/detail/1123 (accessed November 23, 2022).
+Eurobarometer. 2017. “Public opinion in the European Union, national analysis – Cyprus (autumn).” Brussels: European Commission. https://europa.eu/
+eurobarometer/surveys/detail/2143 (accessed November 23, 2022).
+Faustmann, Hubert. 1998. “Clientelism in the Greek Cypriot community of Cyprus
+under British rule.” The Cyprus Review 10(2): 41–77.
+Faustmann, Hubert. 2009. “Aspects of political culture in Cyprus.” In The Government
+and Politics of Cyprus, ed. James Ker-Lindsay and Hubert Faustmann, 17–44.
+New York: Peter Lang.
+French, David. 2015. Fighting EOKA: The British Counter-Insurgency Campaign
+on Cyprus, 1955–1959. Oxford: Oxford University Press.
+Fusch, Patricia, Gene E. Fusch, and Lawrence R. Ness. 2018. “Denzin’s paradigm
+shift: revisiting triangulation in qualitative research.” Journal of Social Change
+10(1): 2.
+Hadjipavlou, Maria. 2007. “The Cyprus conflict: root causes and implications for
+peacebuilding.” Journal of Peace Research 44(3): 349–365.
+Heraclides, Alexis. 2011. “The Cyprus Gordian knot: an intractable ethnic conflict.”
+Nationalism and Ethnic Politics 17(2): 117–139.
+Holland, Robert. 1998. Britain and the Revolt in Cyprus, 1954–1959. Oxford:
+Oxford University Press.
+Ioannides, Christos. 2014. “Cyprus, British colonialism and the seeds of partition:
+from coexistence to communal strife.” Journal of Modern Hellenism 30: 41–72.
+James, Alan. 2001. Keeping the Peace in the Cyprus Crisis of 1963–64. New York:
+Springer.
+Jarstad, Anna. 2001. “Changing the game: consociational theory and ethnic quotas
+in Cyprus and New Zealand.” Ph.D. thesis, Department of Peace and Conflict
+Research, Uppsala University.
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+124
+
+Relational peace practices
+
+Katsourides, Yiannos. 2014. “Partisan responses to the European Union in Cyprus.”
+Journal of European Integration 36(7): 641–658.
+Ker-Lindsay, James. 2011. The Cyprus Problem: What Everyone Needs to Know.
+New York: Oxford University Press.
+Koullapis, Loris. 2002. “The subject of history in the Greek-Cypriot education
+system: a subset of the Greek nation.” In Clio in the Balkans: The Politics of
+History Education, ed. Christina Koulouri, 406–422. Thessaloniki, Greece: Centre
+for Democracy and Reconciliation in Southeast Europe.
+Lacher, Hannes, and Erol Kaymak. 2005. “Transforming identities: beyond the politics
+of non-settlement in North Cyprus.” Mediterranean Politics 10(2): 147–166.
+Leonard, Madeleine. 2013. “Young people’s perspectives on conflict, reconciliation
+and reunification in Cyprus.” Children’s Geographies 11(3): 326–339.
+Lindemann, Thomas. 2011. “Peace through recognition: an interactionist interpretation
+of international crises.” International Political Sociology 5(1): 68–86.
+Loizides, Neophytos G. 2007. “Ethnic nationalism and adaptation in Cyprus.”
+International Studies Perspectives 8(2): 172–189.
+Loizos, Peter. 1998. “How might Turkish and Greek Cypriots see each other
+more clearly?” In Cyprus and Its People: Nation, Identity and Experience in
+an Unimaginable Community, ed. Vangelis Calotychos, 35–52. Boulder, CO:
+Westview Press.
+Mayes, Stanley. 1981. Makarios: A Biography. New York: Macmillan Press.
+Mirbagheri, Farid. 2014. Cyprus and International Peacemaking 1964–1986. New
+York: Routledge.
+Moore, Gavin, Neophytos Loizides, Nukhet A. Sandal, and Alexandros Lordos.
+2014. “Winning peace frames: intra-ethnic outbidding in Northern Ireland and
+Cyprus.” West European Politics 37(1): 159–181.
+Necatigil, Zaim M. 1993. The Cyprus Question and the Turkish Position in International Law. Oxford: Oxford University Press.
+Papadakis, Yiannis. 1997. “Pyla: A mixed borderline village under UN supervision
+in Cyprus.” International Journal on Minority and Group Rights 4: 353–372.
+Papadakis, Yiannis. 2006. “Disclosure and censorship in divided Cyprus: toward
+an anthropology of ethnic autism.” In Divided Cyprus: Modernity, History, and
+an Island in Conflict, ed. Yiannis Papadakis, Nicos Peristianis, and Gisela Welz,
+66–83. Bloomington, IN: Indiana University Press.
+Papadakis, Yiannis. 2008. “Narrative, memory and history education in divided
+Cyprus: a comparison of schoolbooks on the ‘history of Cyprus.’” History &
+Memory 20(2): 128–148.
+Papadakis, Yiannis, Nicos Peristianis, and Gisela Welz, eds. 2006. Divided Cyprus:
+Modernity, History, and an Island in Conflict. Bloomington, IN: Indiana University
+Press.
+Papadopoulou, Antigoni. 2009. “Written question by Antigoni Papadopoulou (S&D)
+to the commission.” Brussels: European Parliament. https://www.europarl.europa.eu/
+doceo/document/E-7-2009-5053_EN.html?redirect (accessed November 23, 2022).
+Perikleous, Lukas. 2010. “At a crossroad between memory and thinking: the case of
+primary history education in the Greek Cypriot educational system.” Education
+3–13 38(3): 315–328.
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Relational peace in Cyprus
+
+125
+
+Peristianis, Nicos. 2006. “Cypriot nationalism, dual identity, and politics.” In Divided
+Cyprus: Modernity, History, and an Island in Conflict, ed. Yannis Papadakis,
+Nicos Peristianis, and Gisela Welz, 100–120. Bloomington, IN: Indiana University
+Press.
+Pollis, Adamantia. 1973. “Intergroup conflict and British Colonial policy: the case
+of Cyprus.” Comparative Politics 5(4): 575–599.
+Polyviou, Polyvios G. 1980. Cyprus: Conflict and Negotiation 1960–1980. London:
+Duckworth.
+Psaltis, Iacovos, Nicos Anastasiou, Hubert Faustmann, Maria Hadjipavlou, Hakan
+Karahasan, and Marilena Zachkeos, eds. 2017. Education in a Multicultural
+Cyprus. Newcastle upon Tyne: Cambridge Scholars Publishing.
+Rappas, Alexis. 2014. Cyprus in the 1930s: British Colonial Rule and the Roots of
+the Cyprus Conflict. London: I. B. Tauris.
+Richmond, Oliver P. 2002. “Decolonisation and post-independence causes of conflict:
+the case of Cyprus.” Civil Wars 5(3): 163–190.
+Rouhana, Nadim N., and Daniel Bar-Tal. 1998. “Psychological dynamics of intractable
+ethnonational conflicts: the Israeli–Palestinian case.” American Psychologist 53(7):
+761.
+Salem, Norma. 1992. “The constitution of 1960 and its failure.” In Cyprus: A
+Regional Conflict and Its Resolution, ed. Norma Salem, 117–125. New York:
+St. Martin’s Press, Inc.
+Sandal, Nukhet, and Neophytos Loizides. 2013. “Center-right parties in peace
+processes: ‘slow learning’ or punctuated peace socialization?” Political Studies
+61(2): 401–421.
+Söderström, Johanna, Malin Åkebo, and Anna Jarstad. 2021. “Friends, fellows,
+and foes: a new framework for studying relational peace.” International Studies
+Review 23(3): 484–508.
+Souter, David. 1984. “An island apart: a review of the Cyprus problem.” Third
+World Quarterly 6(3): 657–674.
+Stevens, Peter A. J. 2016. Ethnicity and Racism in Cyprus: National Pride and
+Prejudice? New York: Palgrave Macmillan.
+Stewart, Brandon, and Ronald J. McGauvran. 2020. “what do we know about
+ethnic outbidding? We need to take ideology seriously.” Nationalism and Ethnic
+Politics 26(4): 405–420.
+Tarrow, Sidney. 2010. “Bridging the Quantitative-Qualitative Divide.” In Rethinking
+Social Inquiry: Diverse Goals, Shared Standards, ed. Henry Brady and David
+Collier, 101–110. Lanham, MD: Rowman & Littlefield.
+Triga, Vasiliki. 2017. “Parties and change in the post-bailout Cyprus: the May 2016
+parliamentary elections.” South European Society and Politics 22(2): 261–279.
+Trimikliniotis, Nicos, and Corina Demetriou. 2008. “Evaluating the anti-discrimination
+law in the Republic of Cyprus.” The Cyprus Review 20(2): 79–116.
+Vassiliadou, Myria. 2007. “The Cypriot media landscape.” In European Media
+Governance: National and Regional Dimensions, ed. Georgios Terzis, 201–213.
+Chicago: Intellect.
+Vogel, Birte. 2016. “The Cyprus conflict and party–society relations: between ethnonationalism and peace formation.” In Party–Society Relations in the Republic
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+126
+
+Relational peace practices
+
+of Cyprus: Political and Societal Strategies, ed. Giorgios Charalambous and
+Christophoros Christophorou, 151–165. New York: Routledge.
+Vural, Yücel, and Nicos Peristianis. 2008. “Beyond ethno-nationalism: emerging trends
+in Cypriot politics after the Annan Plan.” Nations and Nationalism 14(1): 39–60.
+Webster, Craig. 2005. “Greek Cypriot perspectives on interacting with Turkish
+Cypriots.” The Cyprus Review 17(1): 79–92.
+Wolff, Stefan. 2011. “Managing ethno-national conflict: towards an analytical
+framework.” Commonwealth & Comparative Politics 49(2): 162–195.
+Zembylas, Michalinos. 2015. Emotion and Traumatic Conflict: Reclaiming Healing
+in Education. Oxford: Oxford University Press.
+
+Jason Klocek - 9781526168979
+Downloaded from manchesterhive.com at 12/08/2023 11:04:36AM
+via Open Access. CC BY-NC-ND
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+

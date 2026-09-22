@@ -1,0 +1,2501 @@
+International Peace Academy
+I n t e r n a t io n a l
+
+Post-Conflict Peacebuilding
+Revisited:
+Achievements, Limitations,
+Challenges
+
+Neclâ Tschirgi
+
+Prepared for the WSP International/IPA Peacebuilding Forum
+Conference
+7 OCTOBER 2004 ■ NEW YORK
+
+Acknowledgements
+The IPA Security-Development Program gratefully acknowledges support from the Rockefeller Foundation,
+the governments of Australia, Canada (DFAIT and CIDA), Germany, Luxembourg, Norway, and the United
+Kingdom (DfID). The Program also greatly benefits from core support to IPA from the governments of
+Denmark, Sweden, and Switzerland, as well as the Ford Foundation and the William and Flora Hewlett
+Foundation.
+WSP International would like to thank all those who contributed to the Peacebuilding Forum process, and
+expresses special gratitude for the generous financial support of Canada, the Netherlands, Norway, Sweden,
+the Rockefeller Foundation, and the International Development Research Centre (Canada).
+
+About the Author
+Dr. Necla Tschirgi is Vice President of IPA and Director of the Security-Development Program. Previously she
+was the Team Leader of the Peacebuilding and Reconstruction Initiative at the International Development
+Research Centre (IDRC) of Canada, where she was actively involved in the design and management of
+research projects on peacebuilding in the Middle East, Central America, and Southern Africa.
+
+About the Programs
+IPA’s Security-Development Nexus Program aims to contribute to a better understanding of the linkages
+between security and development strategies in conflict management. Through its research projects,
+conferences and publications, the program seeks to make concrete recommendations to the UN system and
+the broader international community for more effective strategies, policies and programs in achieving
+sustainable peace and development.
+WSP International (formerly the War-torn Societies Project) contributes to the recovery and strengthening
+of societies emerging from conflict by bringing together a diverse group of local actors to set priorities,
+build consensus and formulate responses to the needs identified, underpinned by participatory action
+research. This process is supported by bilateral and multilateral agencies.
+The Peacebuilding Forum is a year-long process initiated by WSP International which examines the critical
+relationship between internal and external actors as they respond to the challenges of consolidating peace
+and rebuilding in countries after war. Experience has shown that sustainable peace requires the legitimacy
+that only local responsibility and ownership can bring. The recommendations put forward by the Forum thus
+seek to define a better balance between external partnerships and national ownership of peacebuilding
+strategies and activities.
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+Contents
+Executive Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . i
+I.
+
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+
+II. The Emergence of Peacebuilding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+III. Normative Underpinnings of Peacebuilding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+IV. International Responses to Peacebuilding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+Institutional Innovations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+Policy Development . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+Resource Mobilization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+V. Operational Principles of Post-Conflict Peacebuilding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+VI. From Practice to Results: Reviewing the Record . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+Evaluating Peacebuilding. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+Research Findings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+VII. Challenges to Effective Post-Conflict Peacebuilding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+Systemic and Structural Issues . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+Policy Orthodoxy. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+Policy Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+VIII.
+
+Challenges to Consolidating Post-Conflict Peacebuilding. . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+IX. Conclusion. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+Endnotes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+Selected Bibliography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+
+Contents
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+sources of violent conflicts in conflict-torn
+societies while preparing the grounds for sustainable peace and development. Grounded in “liberal
+internationalism,” peacebuilding was seen as going
+beyond state centric conceptions of realpolitik or
+the interests of any single country, bloc or entity
+even though national interests of member states
+inevitably influenced the nature of the international response.
+
+Executive Summary
+•
+
+A full decade after it became a high-profile
+international commitment, post-conflict peacebuilding remains a fragile undertaking with mixed
+results. While there is little doubt that
+peacebuilding will continue to require international attention, the lessons of the last ten years do
+not add up to a successful record.
+
+•
+
+Along with preventive diplomacy, peacemaking
+and peacekeeping, peacebuilding was identified as
+one of a series of instruments in the UN’s toolkit to
+respond to conflicts at the end of the Cold War.
+Originally, peacebuilding referred to action to
+identify and support structures to consolidate
+peace in post-conflict countries in order to avoid a
+relapse into conflict. In the 1990s the concept
+became more expansive, combining conflict
+prevention, conflict management and post-conflict
+reconstruction. Today, peacebuilding is no longer
+an exact term; it often needs the qualifier “postconflict” peacebuilding to refer primarily to the
+non-military or civilian dimensions of international efforts to support countries emerging from
+conflict—even though it might accompany or
+succeed military operations. Despite over ten years
+of practice, there is no commonly agreed postconflict peacebuilding policy or doctrine.
+
+•
+
+•
+
+Many international actors responded to the
+challenges of post-conflict peacebuilding by
+creating designated units, new policy instruments
+and special funding mechanisms. While these
+innovations were important, they did not translate
+into significant policy changes, institutional
+reforms or funding arrangements. Even though
+many agencies within the UN system and in donor
+governments are now involved in post-conflict
+activities, peacebuilding remains an institutional
+orphan without a home. It straddles different
+departments, agencies and units.
+During the 1990s, peacebuilding was seen as an
+international necessity and responsibility. It
+represented a collective commitment by the United
+Nations and other international actors to redress
+
+Executive Summary
+
+•
+
+In the course of its implementation, post-conflict
+peacebuilding ran into multiple political, institutional and operational challenges. Many of these
+were a function of the difficulties of rebuilding
+societies torn apart by war. Others derived from the
+built-in limitations, contradictions, shortcomings
+and failures of international policies and institutions. Nonetheless, international peacebuilding
+expanded in significant ways. There is a growing
+body of knowledge about its basic principles and
+operational prerequisites. There even is an impressive catalogue of lessons learned (as well as lessons
+spurned). Yet the results of over ten years of
+peacebuilding policy and practice have been ad
+hoc, tentative and uneven.
+
+•
+
+One of the persistent obstacles to more effective
+peacebuilding outcomes is the chronic inability of
+international actors to adapt their assistance to the
+political dynamics of the war-torn societies they
+seek to support. The internal-external disconnect
+manifests itself at the conceptual, policy,
+operational and institutional levels. Unless significant modifications are made to the existing models
+of collaboration between internal and external
+actors by addressing the politics of peacebuilding,
+international efforts will continue to fall short of
+their declared goals of enabling war-torn societies
+to get on the path to sustainable peace and
+development.
+
+•
+
+More fundamentally, the favorable international
+environment within which peacebuilding
+flourished in the 1990s has changed dramatically
+after 9/11 and the military interventions in
+Afghanistan and Iraq. The post–Cold War international consensus has largely dissipated—leaving in
+
+i
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+its place a deeply divided international community
+which does not have the appropriate institutions or
+the necessary political will to forge a new
+consensus about international priorities. It is
+increasingly recognized that An Agenda for Peace,
+An Agenda for Development and the Millennium
+Development Goals (which collectively defined the
+aspirations of the post–Cold War international
+community) no longer remain at the nucleus of the
+UN system. The UN itself falls short of representing
+the collective will of the international community.
+•
+
+Since 9/11, peacebuilding has increasingly been
+taken over by a new discourse on “nationbuilding,” “regime change,” and “stabilization and
+reconstruction,” which is predicated on the
+necessity of securing the stability of weak or
+failing states to avoid the negative external fallout from state failure. Such a formulation, driven
+primarily by external concerns, is likely to
+undermine the basic premise of peacebuilding that
+peace, security and stability cannot be imposed
+from the outside but need to be nurtured internally
+through patient, flexible, responsive strategies that
+are in tune with domestic political realities.
+
+•
+
+The persistence of intra-state and civil conflicts in
+different regions, the breakdown of peace
+processes, the relapse of a number of countries into
+violent conflict, and the emergence of new
+
+ii
+
+conflicts ensure that the demand for post-conflict
+peacebuilding will continue unabated in the
+coming years and decades—despite its multiple
+shortcomings and weaknesses. As an organization
+of member states, the United Nations cannot afford
+to ignore the national security interests of its
+powerful member states which have come to the
+forefront of the international agenda since 9/11.
+Nor can it ignore its responsibility to the needs of
+its most vulnerable members, including postconflict countries.
+•
+
+Great expectations are placed on the forthcoming
+report of the High Level Panel on Threats,
+Challenges and Change which has been tasked by
+the UN Secretary-General to propose ways of
+enhancing multilateral efforts to address global
+problems. It is anticipated that the Panel will urge
+the UN to renew its commitment to conflict
+prevention and post-conflict peacebuilding,
+combining the UN’s twin agendas for peace and
+development. If UN member states agree that
+peacebuilding is too important an enterprise to
+give up, they face a dual challenge. They need to
+learn from and further improve upon the innovative but modest gains made to date. Equally
+important, they need to resist the slippery slope of
+allowing post-conflict peacebuilding to be replaced
+by the post 9/11 stabilization agenda of certain
+powerful states.
+
+Executive Summary
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+I. Introduction
+The Cartigny meeting of the War-torn Societies Project
+(WSP) in late 1994 raised a question that had been
+gaining attention since the end of the Cold War: How
+can external actors, working collectively, best assist
+countries emerging from violent conflict and war?
+Throughout the Cold War, the United Nations and the
+broader international community had confined their
+efforts in conflict contexts primarily to humanitarian
+relief, peacemaking and peacekeeping activities. They
+were not prepared to deal with the multiple and
+complex challenges of post-conflict reconstruction as
+various violent conflicts wound down in the late 1980s
+and early 1990s. Namibia, Nicaragua, Cambodia, El
+Salvador, and Mozambique were harbingers of a new
+era whereby external actors would be asked to play
+active roles in assisting countries emerging from
+conflict.
+Participants to the Cartigny meeting identified a
+catalogue of issues requiring serious attention and
+pointed to the “dearth of data and research on the
+whole peace-rehabilitation-development continuum.”1
+A decade after the Cartigny meeting, post-conflict
+peacebuilding has become an international growth
+industry. More than a dozen international peace
+operations have been mounted since Namibia. The
+number and range of external actors involved in postconflict peacebuilding have increased manifold. The
+literature on peacebuilding has grown exponentially.2
+The field of post-conflict peacebuilding has come very
+far both in theory and in practice in the last decade.
+Yet the record of peacebuilding is at best mixed, and
+two nagging questions confront analysts and practitioners alike: Why is it that after more than ten years
+of practice, the international peacebuilding project is
+still experimental, amorphous and tenuous in nature?
+And how can the knowledge and experience gained to
+date be better put to use to achieve more effective
+peacebuilding outcomes?
+This study is designed to address these questions at a
+macro or systemic level as part of the Peacebuilding
+
+Introduction
+
+Forum launched by WSP International. Other studies
+commissioned by the Peacebuilding Forum focus more
+specifically on thematic or country-level answers. It is
+hoped that, collectively, they will lead to a better
+understanding of the persistent systemic, political,
+institutional and operational obstacles that confront
+post-conflict peacebuilding and suggest ways of
+overcoming them.
+The paper has two inter-related theses. The first is that
+international peacebuilding has several inherent
+weaknesses that do not lend themselves to easy
+solutions. One of these, which also is the core concern
+of the WSP International/IPA Peacebuilding Forum
+Conference, is the perennial difficulty faced by
+external actors in aligning their efforts and interests to
+the domestic political realities of the war-torn societies
+they seek to support. The second thesis is that while
+peacebuilding policies and practices have advanced
+significantly in the last decade, the environment within
+which peacebuilding flourished in the 1990s has
+dramatically changed after 9/11. Thus, the advances
+that were achieved during a brief and experimental
+decade did not have a chance to be consolidated
+sufficiently before they were overtaken by other
+international priorities.
+As the paper demonstrates, addressing complex
+political, institutional, policy or operational challenges
+in an international environment favorable to postconflict peacebuilding is difficult enough. Addressing
+them in an international environment characterized by
+deep cleavages, lack of consensus on the threats to
+international peace and security, and ongoing wars
+involving major states presents overwhelming
+challenges to the entire peacebuilding project. The
+paper argues that there is considerable room for the
+United Nations and the international community at
+large to improve peacebuilding policy and practice.
+However, it also warns that the post-conflict
+peacebuilding project is at risk of being overtaken by
+other agendas which have emerged in the post 9/11
+environment, including the attempt to conflate
+peacebuilding with the narrowly-cast national security
+agendas of powerful member states.
+
+1
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+II. The Emergence of Peacebuilding
+The term peacebuilding entered the international
+lexicon in 1992 when UN Secretary-General Boutros
+Boutros-Ghali defined it in An Agenda for Peace as
+post-conflict “action to identify and support structures
+which tend to strengthen and solidify peace to avoid a
+relapse into conflict.”3 Since then, peacebuilding has
+become a catchall concept, encompassing multiple (and
+at times contradictory) perspectives and agendas. It is
+indiscriminately used to refer to preventive diplomacy,
+preventive development, conflict prevention, conflict
+resolution and post-conflict reconstruction.4
+This paper focuses on the original definition of
+peacebuilding.5 More specifically, it examines nonmilitary interventions by external actors to help wartorn societies not only to avoid a relapse into conflict,
+but more importantly, to establish the conditions for
+sustainable peace. The time frame for the
+peacebuilding interventions covered in this paper is
+not confined to the immediate, short-term, postconflict peace operations to consolidate the peace or
+the early reconstruction efforts of the early post-war
+years. Rather, post-conflict peacebuilding encompasses
+the full range of non-military commitments
+undertaken by the international community to assist
+countries to achieve self-sustaining peace and socioeconomic development. Despite its deliberate narrow
+focus, the paper traces the gradual broadening of the
+concept of peacebuilding by key international actors
+and its implications for peacebuilding practice.6
+While the term peacebuilding is relatively new,
+external assistance for post-war rebuilding goes back
+to the reconstruction of post–World War II Europe and
+Japan. What was new in Boutros Boutros-Ghali's
+formulation, and what caught the world's attention,
+was a realization that the end of the Cold War opened
+new possibilities for international action.7
+Traditionally, states intervened in the affairs of other
+states as part of their foreign policy. Where realpolitik
+permitted, intervention was undisguised and forceful.
+Where realpolitik blocked action, the United Nations
+and other multilateral institutions were paralyzed to
+act collectively.
+
+2
+
+The promise of the new peacebuilding agenda was that
+the international community would intervene collectively—as a “third party”—to help resolve violent
+conflicts and civil wars, and that external actors would
+actively support the process of rebuilding in the
+affected countries without the shadow of Cold War
+politics or to suit the narrow national interests of
+individual states. In other words, what was being
+promised was unlike earlier generations of imperialist,
+colonialist, or other self-serving external interventions
+even though in an international system based on
+states, it was recognized that state interests shaped
+their international policies.
+The impetus for peacebuilding came from multiple
+sources but found its strongest expression at the United
+Nations. Throughout the 1990s, the UN provided both
+the rationale and the operational principles for postconflict peacebuilding.8 An Agenda for Peace
+introduced post-conflict peacebuilding as one of a
+series of tools at the UN's disposal alongside preventive
+diplomacy,
+peacemaking
+and
+peacekeeping.
+Distinguishing between these tools, it stated:
+“Peacemaking and peace-keeping operations, to be
+truly successful, must come to include comprehensive
+efforts to identify and support structures which will
+tend to consolidate peace and advance a sense of
+confidence and well-being among people. Through
+agreements ending civil strife, these may include
+disarming the previously warring parties and the
+restoration of order, the custody and possible destruction of weapons, repatriating refugees, advisory and
+training support for security personnel, monitoring
+elections, advancing efforts to protect human rights,
+reforming or strengthening governmental institutions
+and promoting formal and informal processes of
+political participation.”9
+An Agenda for Peace stimulated significant new
+thinking and policy development within and outside
+the UN. The 1995 Supplement to An Agenda for Peace,
+for example, noted the linkages between conflict
+prevention and peacebuilding: “Demilitarization, the
+control of small arms, institutional reform, improved
+police and judicial systems, the monitoring of human
+rights, electoral reform and social and economic
+development can be as valuable in preventing conflict
+
+The Emergence of Peacebuilding
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+as in healing the wounds after conflict has occurred.”
+It also acknowledged that implementing peacebuilding
+could be complicated—requiring “integrated action and
+delicate dealings between the United Nations and the
+parties to the conflict in respect of which peacebuilding activities are to be undertaken.”10
+The Supplement distinguished between the UN's
+peacekeeping and peacebuilding roles: “Most of the
+activities that together constitute peace-building fall
+within the mandates of the various programmes, funds,
+offices and agencies of the United Nations system with
+responsibilities in the economic, social, humanitarian
+and human rights fields. In a country ruined by war,
+resumption of such activities may initially have to be
+entrusted to, or at least coordinated by, a multifunctional peace-keeping operation, but as that operation
+succeeds in restoring normal conditions, the
+programmes, funds, offices and agencies can reestablish themselves and gradually take over responsibility from the peace-keepers, with the resident coordinator in due course assuming the coordination
+functions temporarily entrusted to the special representative of the Secretary-General.” 11
+An Agenda for Peace, its Supplement, and An Agenda
+for Development informed the UN's approach to
+peacebuilding throughout the 1990s. However, practice
+quickly outpaced policy. For much of the 1990s, the UN
+responded to peacebuilding primarily as an extension
+of its peacekeeping operations as many UN programs
+and agencies became involved in a variety of civilian
+activities. After 1989, there were more than a dozen UN
+peace operations with civilian components. In the
+complex conflicts of the 1990s where the boundaries
+between war making and peace making were blurred,
+peacekeeping and peacebuilding became closely
+interlinked.12
+By August 2000, the Report of the Panel on United
+Nations Peace Operations (otherwise known as the
+Brahimi Report) fully acknowledged these linkages.
+Accordingly, the Panel recommended various specific
+peacebuilding tools and strategies in peace operations,
+including the adoption of quick impact projects (QIPs),
+the creation of a fund for disarmament, demobilization
+and reintegration (DDR), the adoption of a “doctrinal
+
+The Emergence of Peacebuilding
+
+shift” away from international civilian policing to “rule
+of law teams” in complex peace operations, the
+establishment of a pilot Peacebuilding Unit, and
+regularized funding for the Electoral Affairs Division. 13
+In calling for an action plan to implement the Brahimi
+Report, Secretary-General Kofi Annan urged better
+synchronization of effort: “The plan must help to
+identify the ways in which different parts of the system
+might properly work together to devise countryspecific peace-building strategies and to implement
+them together, in the context of the country team.
+Arrangements for peacebuilding must be coherent,
+flexible and field-driven, mobilizing all relevant
+resources of the United Nations system and other
+international actors in support of national initiatives,
+and building or reorienting ongoing activities so that
+they contribute to peace. What is required is a
+headquarters capacity to provide those resources
+necessary for the country team to propose specific
+strategies and see them through. This capacity must
+help to identify best practices and lessons to be learned
+from within the system, provide knowledge of discussions and debates on peace-building from external
+institutions and organizations and formulate systemwide guidelines and generic methodologies.”14
+As the number of crises on the Security Council's
+agenda increased, the Council as well as the SecretaryGeneral began to acknowledge the limitations of UN
+peacekeeping and peacebuilding efforts. As a result,
+they began to turn to conflict prevention to complement the UN's broader peacebuilding agenda. By early
+2001, conflict prevention and peacebuilding were
+being used interchangeably at the UN.15
+In short, between 1992–2001, the UN moved from a
+linear view of the transition from war to peace in the
+post–Cold War era to an integrated approach to
+conflict prevention, conflict management, and
+peacebuilding. It came to view peacebuilding as
+requiring the full range of its capacities (military,
+political, humanitarian, human rights, and socioeconomic) at the policy and operational levels. The UN
+also realized that peacebuilding involved the active
+engagement of many external actors with multiple
+mandates and capacities. As the Security Council
+
+3
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+gradually assumed an expanded role beyond
+immediate crisis management, the UN's peacekeeping
+and peacebuilding missions became increasingly
+intertwined.16 As Sir Brian Urquhart recently noted: “In
+the twentieth century war was pronounced, belatedly,
+to be too important to be left to the generals; in the
+twenty-first century peace, prosperity, and security
+have already turned out to be much too complex to be
+left to the politicians. In a dangerous, high-speed,
+information-logged, globalized world, disastrously
+divided between the prosperous and the impoverished,
+the old distinctions between war and peace, civil and
+military, national and international, private and public,
+have become increasingly blurred.”17 Peacebuilding
+came to capture the complexity and multi-dimensional
+nature of the challenges facing the United Nations.
+
+III. Normative Underpinnings of
+Peacebuilding
+Peacebuilding was part of a larger, activist post–Cold
+War international agenda.18 Throughout the 1990s,
+there was a gradual elaboration of an expanded
+normative framework for international affairs under
+the UN umbrella. In the early part of the decade, a
+series of international conferences sought to generate a
+global agenda on issues ranging from population and
+sustainable development to human rights and gender.
+These conferences served to underline the importance
+of multilateral approaches to addressing global
+problems and affirmed the role of the United Nations
+as an important instrument of global governance. The
+Millennium Declaration was a culmination of these
+processes and provided a global plan of action to deal
+with the world's most persistent problems.19
+Meanwhile, the Security Council saw an expansion of
+the issues brought before it as threats to international
+peace and security. These included human rights
+abuses, protection of civilians in war, small arms, and
+the role of natural resources in armed conflict—issues
+that had traditionally been viewed as falling within the
+sovereign domain of member states. Breaking away
+from its tradition of dealing with individual crises, the
+Council passed a number of thematic resolutions on
+human rights, small arms, and children and armed
+
+4
+
+conflict. Subsequent Council resolutions were drafted
+to take into account these international commitments.
+In line with its new interest in human security, the
+Security Council devoted an increasing proportion of
+its work to crises in Africa.20
+In tandem with developments at the United Nations,
+several governmental and non-governmental actors
+championed various issues that came to be subsumed
+under the new “human security” agenda. The
+campaigns to ban anti-personnel landmines, to
+regulate small arms and light weapons, and to establish
+an international criminal court were part of the
+emerging international commitment to human
+security. The landmines campaign and the call for an
+international criminal court led to new international
+treaties.
+Alongside these advances, the 1990s witnessed intense
+(albeit localized) conflicts and humanitarian crises
+which led to growing international appeals for
+“humanitarian intervention” in sovereign states,
+causing considerable unease among the UN's member
+states. Although the United Nations refrained from
+dealing with it formally, the report published by the
+independent International Commission on Intervention
+and State Sovereignty (ICISS) entitled Responsibility to
+Protect was ground breaking in offering a normative
+framework for humanitarian interventions. 21
+The injunction against intervention in the domestic
+affairs of sovereign states came under even greater
+pressure as conflict prevention emerged as a new
+international priority. Collectively, conflict prevention,
+humanitarian interventions, and post-conflict
+peacebuilding became parts of an activist international
+agenda. Over the course of the 1990s, the conflict
+prevention and post-conflict peacebuilding agendas
+came to be seen as two sides of the same coin,
+especially in countries that had already experienced
+conflict. Given the exceptionally high rate of recidivism of countries that had experienced conflict, postconflict peacebuilding became a strategy for conflict
+prevention.
+It was argued that fundamental “re-engineering” of
+conflict prone societies was essential to prevent their
+
+Normative Underpinnings of Peacebuilding
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+relapse into conflict. External actors began to develop
+a peacebuilding template and a package of standard
+remedies to be applied in different contexts. Security
+needed to be established through disarmament,
+demobilization and reintegration of former combatants
+as well as through security sector reform. Political
+consolidation required national dialogues, early
+elections, the expansion of political rights, and the
+establishment of rule of law. Economic reconstruction
+involved reforms for speedy recovery and rehabilitation. International strategies for conflict prevention
+and peacebuilding increasingly converged, becoming
+part of what has come to be known as “liberal internationalism.”22
+The international approach to peacebuilding and
+conflict prevention is grounded in the concept of
+“liberal peace” which derives from a long tradition of
+Western liberal theory and practice.23 The liberal peace
+thesis views political and economic liberalization as
+effective antidotes to violent conflicts. Thus, promotion
+of human rights, democracy, elections, constitutionalism, rule of law, property rights, good governance,
+and neo-liberal economics have become part and
+parcel of the international peacebuilding strategy.24
+Liberal internationalism is interventionist in nature.
+Going beyond assisting individual countries emerging
+from war, it promotes a normative agenda. This, of
+course, stands in stark contrast with the widely
+declared principle that peacebuilding ultimately
+requires the establishment of a non-violent political
+authority which can legitimately guide a country's
+post-conflict reconstruction on its own terms. The
+shortcomings of international peacebuilding will be
+discussed in Section VII. Nonetheless, it needs to be
+recognized that this normative framework has firmly
+underpinned peacebuilding practice since the 1990s.
+
+IV. International Responses to
+Peacebuilding
+In the last decade, many external actors became
+actively involved in post-conflict peacebuilding. The
+following review will focus on approaches by governments and inter-governmental actors to underscore the
+highly political nature of peacebuilding interventions.
+
+International Approaches to Peacebuilding
+
+In any society emerging from conflict, the establishment of a legitimate political authority that can
+provide security, avoid a relapse into violent conflict
+and undertake longer-term socio-economic reconstruction efforts lies at the heart of peacebuilding. Other
+initiatives at the societal or micro-level are important
+components that can complement but not substitute
+for the need for a political strategy for peacebuilding
+on the part of external actors.25
+Yet, the picture of international peacebuilding strategies pursued throughout the 1990s is one of ad hoc,
+piecemeal, and fragmented responses by a multitude of
+actors without an overall political framework or an
+institutional base. Many crises in the last decade
+involved combined humanitarian, peacekeeping and
+peacebuilding operations. While humanitarian and
+peacekeeping efforts had institutional homes,
+peacebuilding was (and still remains) an institutional
+orphan.26 Straddling the various political, military and
+development agencies and departments in international organizations and donor governments,
+peacebuilding found temporary and tenuous shelter
+under the roof of development agencies.27
+Given the great variation in the approaches of different
+governments and international organizations, it is
+difficult to provide a comprehensive and accurate
+picture of the evolution of international peacebuilding
+policy and practice across the full spectrum of bilateral
+and multilateral donor agencies involved in postconflict peacebuilding. The discussion below briefly
+highlights three important areas that illustrate external
+responses to peacebuilding: institutional innovations,
+policy development, and resource mobilization.
+Institutional Innovations
+In the early 1990s, post-conflict reconstruction was
+seen as a temporary stage in the unilinear transition
+from war to peace and considered as part of the “reliefto-development” continuum. Thus, the reconstruction
+and rehabilitation of war-torn societies became a subspecialty within the broader development agenda.28 The
+expectation was that international responses to
+conflicts would be sequential in nature, with various
+actors playing different roles in assisting in the transi-
+
+5
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+tion from war to peace. The special needs of societies
+emerging from conflict were seen to require hybrid
+approaches drawn from the flexible, rapid and responsive strategies of humanitarian operations, and the
+long-term vision of development assistance. As then
+Vice President of External Affairs of the World Bank
+(and current administrator of UNDP) Mark Malloch
+Brown indicated: “Post-conflict development is
+something that defies the exact boundaries of
+traditional forms of assistance: it is neither sustainable
+development nor is it humanitarian response.”29
+
+Peacebuilding Initiative in October 1996, which
+defined peacebuilding as a short-term activity, “a lifeline” thrown to countries emerging from conflict. As a
+result, a Peacebuilding Fund was created (to be jointly
+managed by the Department of Foreign Affairs and the
+Canadian aid agency, CIDA) to serve as a catalyst to
+stimulate local sustainable initiatives toward peace
+while strengthening Canadian capacities to support
+peacebuilding. CIDA created its Peacebuilding Unit
+with its counterpart Peacebuilding Program in the
+Department of Foreign Affairs.
+
+Viewing peacebuilding as a temporary phase, development agencies initially responded by creating specialized and designated units to address the institutional
+and programming void between humanitarian
+assistance and development aid.30 These units had
+narrowly defined responsibilities and designated
+budgets to address immediate and short-term priorities.
+Nonetheless, they were instrumental in designing and
+implementing new “peacebuilding” programs, projects
+and activities that fell outside conventional humanitarian or development assistance. De-mining, DDR,
+election monitoring, and civilian policing became new
+areas of programming for development actors.
+
+In the Netherlands, the Ministry of Foreign Affairs took
+the lead on peacebuilding through its Directorate of
+Crisis Management and Humanitarian Assistance
+(DCH), which was established in 1996. DCH sought to
+dismantle the compartmentalization of emergency
+relief and the political aspects of crisis management,
+and to integrate various policy options—political,
+humanitarian, developmental, economic, and military—
+into a coherent response to crises, potential violent
+conflicts and post-conflict peacebuilding. To ensure
+such integration, the Directorate reported to both the
+Minister of Foreign Affairs and the Minister for
+Development Cooperation.
+
+For example, USAID created the Office of Transition
+Initiatives (OTI) in 1994. The mandate of OTI was to
+support the triple transitions from authoritarianism to
+democracy, from violent conflict to peace and from
+political crisis to stability. It sought to serve as a
+catalyst for political change by seizing on windows of
+opportunity to shape conditions on the ground.
+Similarly, in the UK the Department for International
+Development (DFID) created the Conflict and Human
+Affairs Department (CHAD) in 1997 to help reduce the
+incidence and impact of violent conflicts and to
+promote effective responses for conflict prevention,
+conflict management, and humanitarian assistance.
+CHAD was mandated with developing policy and
+providing advice and support in non-conventional
+areas for development assistance.
+
+In tandem with changes in donor capitals, intergovernmental organizations responded to the
+challenge of post-conflict peacebuilding by seeking
+new directions from their governing boards to initiate
+new programming and create designated units. In
+1995, UNDP established its Emergency Response
+Division (ERD) and allocated five percent of its core
+budget to assist countries in special development
+situations. The World Bank created its Post-Conflict
+Unit in July 1997. In other words, there was a gradual
+recognition that post-conflict peacebuilding required
+special attention within conventional development
+agencies with primary responsibility for socioeconomic development, but without the expertise or
+mandates for the critical political and security
+dimensions of peacebuilding.
+
+Several smaller countries also played an important role
+in pioneering novel institutional and policy initiatives.
+For example, in Canada, Foreign Minister Lloyd
+Axworthy and Diane Marleau, Minister for
+International Cooperation, announced the Canadian
+
+Confined largely to small, designated units and an
+equally small cadre of dedicated staff, peacebuilding
+basically remained outside the mainstream of the
+operations of development agencies. Despite repeated
+commitments to “mainstreaming” peacebuilding,
+
+6
+
+International Approaches to Peacebuilding
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+development agencies found it difficult to integrate
+peacebuilding into their core mandates. While many
+agencies gained a better understanding of the
+challenges of post-conflict peacebuilding, their
+capacity to translate those into their operations were
+severely constrained by institutional politics, human
+resource shortages, and competing priorities.
+Inconsistent policy directions at the governmental
+level also constrained the role of post-conflict
+peacebuilding units.
+Policy Development
+Creating designated units with special mandates for
+conflict management enabled governments and
+agencies to respond to immediate needs for transitional
+assistance. But these ad hoc responses could not serve
+as a substitute for clear policy development which
+required multi-dimensional responses.
+Mirroring the policy evolution at the United Nations,
+throughout the 1990s, many governments expanded
+their definition of peacebuilding in light of domestic
+policy imperatives, institutional considerations, and
+the complexity of conflict dynamics on the ground.
+Conflict management, conflict prevention and postconflict peacebuilding gradually became interchangeable policy priorities. The merging of multiple agendas
+greatly militated against clear policy formulation. As a
+result, despite over ten years of practice in working in
+post-conflict countries, governments that are actively
+engaged in peacebuilding still do not have clear,
+consistent, and well-articulated policies on postconflict peacebuilding. Instead, there are general calls
+for “policy coherence” across issue areas, pleas for
+“whole-of-government” approaches, and increased
+mechanisms for policy coordination. These, however,
+do not add up to a strategic peacebuilding doctrine or
+policy framework.
+For example, the recently completed Utstein Evaluation
+Study of Peacebuilding by Norway, the Netherlands,
+Germany and the UK (which constitute the Utstein-4
+countries) offers the following conclusion:
+“Apart from the shared goals, two common strands
+emerge from the summaries of policy evolution [in
+the four countries]… The first is that no U4 country
+
+International Approaches to Peacebuilding
+
+has what any of the research teams was prepared
+to characterize without reservation as ‘a policy' on
+peacebuilding—in three cases the policies were
+deduced from a variety of sources, and in the
+fourth a policy (or a strategy) is in draft form. The
+second is that in the U4 as in other donor
+countries, a major role in peacebuilding is played
+by the part of the government responsible for
+development cooperation.” 31
+Despite the lack of a clear peacebuilding policy or
+doctrine, donor governments undertook many initiatives both individually and collectively throughout the
+1990s. The OECD Development Assistance Committee
+(OECD DAC) played a critical role in documenting
+individual donor innovations and spearheaded collective responses.32 The DAC considered the issue of
+conflict, peace and development cooperation at a High
+Level Meeting in May 1995, which set up the Informal
+DAC Task Force on Conflict, Peace and Development
+Co-operation. The Task Force completed its Guidelines
+on Conflict, Peace and Development Co-operation in
+1997. The Guidelines offered a useful conceptual
+framework for donors' work on conflict, and offered
+practical and operational approaches to development
+cooperation in conflict situations. However, reflecting
+policy challenges in capitals, the OECD DAC situated
+post-conflict peacebuilding within a larger policy
+framework linking conflict and development. The DAC
+Guidelines were elaborated in 2001 to address conflict
+prevention and today constitute a robust and comprehensive framework for donor approaches to conflict.33
+Perhaps the most significant contribution of the
+Guidelines to peacebuilding doctrine is its emphasis on
+the need for coherence across donor policies, including
+trade, finance, investments, foreign affairs, defense and
+development cooperation.
+Paralleling the work of the OECD DAC, a network of the
+conflict, transition and emergency units of multilateral
+and bilateral organizations has been in existence since
+1997. Bringing together more than thirty units with
+operational
+responsibilities
+for
+post-conflict
+peacebuilding, the Conflict Prevention and PostConflict Reconstruction (CPR) Network has sought to
+strengthen peacebuilding practice and inter-agency
+collaboration in applying the DAC guidelines. However,
+as its name indicates, the group also had to extend its
+
+7
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+mandate to include conflict prevention in line with
+changing policy priorities. The CPR Donors' Network
+has served to promote operational coordination,
+knowledge-sharing, improved effectiveness and
+innovation of CPR programming, the development of
+practical tools and lessons learned as well as their
+application in the field. 34
+
+Peacebuilding Fund and the Peacebuilding Program in
+the Canadian Department of Foreign Affairs and
+Canadian CIDA respectively. Still other governments,
+like the UK, pooled resources from across government
+departments for the expanded peacebuilding agenda.
+More recently, individual governments have been
+receptive to pooling their resources for post-conflict
+reconstruction under Trust Funds. 38
+
+Resource Mobilization
+One of the important yardsticks for gauging the
+international
+commitment
+to
+post-conflict
+peacebuilding is the scale of financial resources
+mobilized across agencies, governments and international organizations. Paradoxically, in an area where
+quantification is technically possible, there is insufficient and highly fragmented information about the
+total costs of post-conflict peacebuilding in the last
+decade. Part of the difficulty derives from the fact that
+governments and agencies define peacebuilding differently. Moreover, with multiple departments and
+agencies involved in post-conflict peacebuilding, it is
+difficult to reconstruct the aggregate financial burdens
+of peacebuilding. On the other hand, in integrated
+peacekeeping-peacebuilding missions where more
+accurate figures are available, disaggregating between
+military and civilian costs of international assistance
+has proved to be problematic.35
+One rough method of calculating total expenditures on
+peacebuilding would be to tally up the cost of
+designated peacebuilding projects as a portion of
+development assistance in specific countries. Indeed,
+the Utstein Evaluation Studies attempt to trace
+financial allocations for peacebuilding. Even then,
+definitional issues militate against gaining an accurate
+understanding of financial commitments at the level of
+the donor or the recipient countries.36 It is clear,
+however, that there is a significant gap between policy
+commitments, programming innovations and the
+financial resources available for post-conflict
+peacebuilding.37 Some governments (like Norway)
+responded to this challenge by identifying resources
+for transitional assistance beyond long-term development assistance and short-term humanitarian aid.
+Other governments created special funding facilities.
+These include the Office of Transition Initiative (OTI) at
+USAID, the Stability Fund in the Netherlands, and the
+
+8
+
+Equally important has been the changing response of
+the World Bank and the IMF to investing in postconflict reconstruction. Both the World Bank and IMF
+were
+reluctant
+latecomers
+to
+post-conflict
+peacebuilding. Ironically, the World Bank was initially
+created in 1944 to serve as a bank for reconstruction.
+Over time it defined its role primarily as a development
+agency, even when it occasionally found itself working
+in post-conflict countries, and undertook infrastructure
+reconstruction projects. Clinging to its formal mandate
+that precludes it from playing a “political” role, the
+World Bank was hesitant to get involved in
+peacebuilding. Nonetheless, the Bank could not remain
+immune to the international peacebuilding agenda. The
+Bank's lending in post-conflict countries rose significantly in the 1990s, providing support for the
+provision of social safety nets, coordination of aid,
+demobilization and reintegration of former combatants, mine clearance, reintegration of displaced
+populations, and rehabilitation of infrastructure.39 In
+July 1997, the Bank created a Post Conflict Unit.
+Subsequently renamed the Conflict Prevention and
+Reconstruction Unit, the CPR Unit has participated as
+an observer on the DAC Task Force on Conflict, Peace
+and Development and the CPR Network. The Bank has
+also developed its own conflict analysis framework for
+screening Bank projects, and has actively sought CPR
+Network support to advance peacebuilding more
+broadly in the Bank's economically inclined agenda.
+The IMF was even more hesitant than the Bank in
+getting involved in post-conflict reconstruction. Given
+its fairly surgical and short-term interventions to
+stabilize balance of payments problems, the IMF did
+not consider itself well placed to engage in postconflict peacebuilding. However, in 1995 the IMF
+introduced a new financing instrument for postconflict countries and has been providing technical
+assistance through expertise and aid to its members in
+
+International Approaches to Peacebuilding
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+several areas, including institution building.40
+Importantly, a representative from the IMF has
+attended the DAC Task Force on Conflict, Peace and
+Development and the CPR Network routinely and
+actively engaged in its deliberations.41
+
+actively be involved in setting the agenda and
+leading the process, which is a highly political
+process complicated by the deep wounds of the
+conflict.
+•
+
+External Actors: Given the fragility of societies
+emerging from war, support from external actors is
+critical for post-conflict reconstruction. Yet,
+external assistance is never neutral. External actors
+come to post-conflict peacebuilding with multiple
+agendas and motivations—which are not
+necessarily compatible with or driven by the
+political realities on the ground. Proper
+mechanisms need to be established to ensure that
+external and internal actors work within a
+coherent strategy, establish priorities, and mobilize
+the necessary resources.
+
+•
+
+Capacity Building: A commitment to local capacity
+building from the earliest stages is vital for
+sustainability.
+
+•
+
+Time Element: Time has two dimensions in postconflict reconstruction. Timely, opportunistic and
+quick-impact interventions are critical in
+influencing peacebuilding outcomes. However,
+reconstruction itself is a long-term process, that
+may take a generation to bear fruit. Rapid response
+is necessary but not sufficient for success.
+
+•
+
+Funding: Adequate, predictable and flexible
+funding is essential to support post-conflict
+reconstruction. Appropriate funding mechanisms
+are indispensable to have impact on the ground in
+a timely manner.
+
+V. Operational Principles of PostConflict Peacebuilding
+The previous review sought to demonstrate that key
+bilateral and multilateral actors approached postconflict peacebuilding from multiple perspectives
+without a common definition or “doctrine” of
+peacebuilding. Nonetheless, peacebuilding interventions since the early 1990s have begun to exhibit
+certain common characteristics with the result that
+practice has come to substitute for doctrine.42
+A review of practice throughout the 1990s reveals a set
+of operational principles that can be said to constitute
+a shared “post-conflict peacebuilding paradigm.” These
+are worth highlighting:
+•
+
+•
+
+•
+
+•
+
+Peacebuilding is a Multi-Dimensional Enterprise
+with Several Pillars: While various actors define
+these pillars differently, there is consensus that
+peacebuilding has political, social, economic,
+security and legal dimensions, each of which
+requires attention. Distinguishing it from conventional development, peacebuilding is understood to
+be a highly political project involving the creation
+of a legitimate political authority that can avoid
+the resurgence of violence.
+Security is Key: Establishing security is considered
+the pre-requisite for post-conflict peacebuilding.
+Hierarchy of Priorities: While peacebuilding is a
+multi-faceted
+process
+requiring
+holistic
+approaches, it needs to be guided by a hierarchy of
+priorities established in response to the specific
+needs and political dynamics in a given context.
+Establishing such a hierarchy requires an overall
+political strategy.
+Ownership: The people of the war-torn society
+must own the reconstruction process. They must
+
+Operational Principles of Post-Conflict Peacebuilding
+
+• Response Levels: Post-conflict reconstruction
+involves appropriate responses at the local,
+national, regional and international levels.
+•
+
+Accountability: Given the high stakes in postconflict environments, the commitment to “do no
+harm” while supporting peacebuilding is an
+essential principle.43
+
+The growing consensus on these operational principles
+attests to the fact that post-conflict peacebuilding has
+evolved significantly as a field of practice in the last
+
+9
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+decade—with impressive learning and adaptation on
+the part of key actors. Underpinning these principles is
+the explicit recognition that external actors need to
+play an important but primarily catalytic role in postconflict peacebuilding, which is a long-term,
+homegrown and political process.
+While recognizing the need to anchor their efforts in
+the target countries, throughout the 1990s external
+actors invested their energies, activities and resources
+in enhancing their own guidelines, capacities,
+operations, and institutional arrangements as well as
+compiling serial lessons learned from their operations.
+How has this collective learning translated into
+peacebuilding outcomes on the ground? What have
+been the results of more than a decade of experimentation, learning, and practice in post-conflict
+peacebuilding?
+
+VI. From Practice to Results:
+Reviewing the Record
+Four important trends need to be considered in
+reviewing the record of post-conflict peacebuilding.
+First, although the number of violent conflicts has been
+on a downward trend since the end of the Cold War,
+there is strong evidence of recidivism in many postconflict countries, as witnessed in Eritrea-Ethiopia,
+Angola, Sierra Leone, Liberia, and Haiti. 44 Longitudinal
+research undertaken by Collier and colleagues indicate
+that there is almost a forty-four percent risk of a
+country reaching the end of a conflict to return to
+conflict within five years. 45
+Second, the end of war does not necessarily translate
+into peacebuilding. In numerous countries where peace
+agreements have held without a relapse into conflict
+beyond the critical period, the structural factors lying
+at the source of the original conflict remain
+unaddressed and continue to fester. From Cambodia
+and Guatemala to East Timor, serious issues related to
+land tenure, property rights, rule of law, political
+participation and transitional justice continue to pose
+serious challenges to peace consolidation and
+peacebuilding. Conflict prevention literature points to
+these structural factors as potential seeds of future
+wars.46 In other post-conflict countries such as El
+
+10
+
+Salvador or South Africa where political violence has
+been curtailed, there is strong evidence of the mutation
+of political violence into criminal and common
+violence. In other cases, such as the West African
+region with multiple conflict-torn countries, the
+curtailment of violence in one country has had
+“ballooning effects” as violence has been exported to
+neighboring countries. In other words, the end of the
+political violence has not led to peacebuilding.
+Third, even in cases where peace has held beyond the
+initial post-conflict phase as in Sierra Leone, Bosnia
+and Kosovo, the need for the continued presence of
+international peacekeepers has shed serious doubt
+about the long-term viability of the post-conflict
+peacebuilding efforts in these contexts.
+Fourth, if peacebuilding is designed to bridge the
+transition from humanitarian relief to a country's
+return to a conventional development trajectory, the
+unchanging status of most post-conflict countries at
+the bottom rungs of various development indices
+cannot be ignored. These trends are not encouraging in
+terms of the longer term prospects of countries
+emerging from conflict. However, they do not
+necessarily provide the basis for assessing the success
+of international peacebuilding efforts. For that, there is
+need for evaluation of external peacebuilding
+interventions.
+Evaluating Peacebuilding
+Rigorous, systematic and comparative peacebuilding
+evaluations at the country level remain an underdeveloped area. 47
+There are good reasons why it is difficult to evaluate
+peacebuilding, which is a long-term process that does
+not readily lend itself to causal analysis.48 Moreover,
+there is little consensus about the definition or the
+ultimate goals of peacebuilding with the result that
+analysts differ amongst themselves in evaluating
+peacebuilding outcomes. In the absence of a reliable
+body of peacebuilding evaluations at the country level,
+the following review is based upon two complementary
+bodies of literature. The first is the broader academic
+literature dealing with civil wars, conflict resolution,
+peacemaking, peace implementation, and post-conflict
+
+From Practice to Results: Reviewing the Record
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+reconstruction. The second is the operational evaluations undertaken or commissioned by external actors
+of their own peacebuilding programs, projects and
+activities.49 Although these two bodies of work employ
+different methodologies and approaches, when viewed
+together, they provide useful insights into the
+peacebuilding efforts since the 1990s.
+The academic literature is both diverse and openended. Researchers approach peacebuilding from
+divergent perspectives. Many analysts focus more on
+the peacemaking, peace implementation and early
+post-conflict phases where the international role is
+more dominant and the policy implications for international actors in greater demand. There are fewer studies
+employing a longer-term perspective on post-conflict
+peacebuilding and fewer cases of longer-term
+peacebuilding to study.
+Despite the definitional and methodological variations
+among them, there is a critical mass of country-based
+research, which allows some comparative perspective on
+what the international community has attempted in the
+last decade and a comparative assessment of outcomes.
+Some researchers take a minimalist approach in
+evaluating peacebuilding, defining it as the avoidance of
+a return to violence; others adopt a maximalist approach
+by searching for evidence of structural transformation of
+the economic, social and political factors that had led to
+war in the first place. Still others take an instrumentalist
+approach by identifying promising short-term changes
+underpinning the peace, which can contribute to more
+sustainable societal transformation in the long run.
+However, there is no common framework that allows for
+a systematic examination of the different dimensions of
+peacebuilding: political, security, economic and psychosocial. Most studies grapple with the problem of how to
+account for environmental factors (such as the existence
+of spoilers, the role of regional neighbors, and the nature
+of war economies) that heavily affect peacebuilding
+outcomes while assessing the impact of external
+interventions. There is no easy solution to this challenge.
+Research Findings
+In the absence of a common evaluation framework,
+this paper draws upon findings from several multicountry studies to compare their assessment of
+
+From Practice to Results: Reviewing the Record
+
+peacebuilding outcomes based primarily on the
+political/security aspects of peacebuilding. The
+shortcomings of the economic benefits of
+peacebuilding in terms of a return to a sustainable
+development course is easier to ascertain through a
+comparative review of the development indicators of
+post-conflict countries and is therefore not covered
+below. However, it is also recognized that many
+conflict-torn countries originally start with very low
+development indicators. Thus, the vicious cycle
+between conflict and underdevelopment remains a
+perennial issue.
+One of the most comprehensive studies of international
+peacebuilding is the seminal work by Doyle and
+Sambanis entitled “International Peacebuilding: A
+Theoretical and Quantitative Analysis.” Using an
+extensive data set of 124 post-World War II civil wars,
+the study examines a range of international interventions ranging from monitoring missions, traditional
+peacekeeping, multidimensional peacekeeping and
+peace enforcement. In other words, like many other
+similar studies, it does not differentiate between the
+peacemaking, peacekeeping and post-conflict
+peacebuilding roles of the international actors. The
+study finds that multilateral enforcement operations
+are usually successful in ending the violence and that
+there is a positive correlation between UN
+peacekeeping operations and democratization
+processes after civil wars. However, even using their
+lenient criteria of success in terms of war termination,
+many post–Cold War civil wars covered by Doyle and
+Sambanis are considered failures. 50
+Taking a narrower definition of peacebuilding, in his
+recent book entitled At War's End: Building Peace
+After Civil Conflict, Roland Paris examined eleven case
+studies. Focusing narrowly on two dimensions of postconflict peacebuilding (namely political and economic
+liberalization), Paris sought to identify whether
+political and economic liberalization strategies
+promoted by the international community contributed
+in any discernible way to the resurgence of fighting or
+to ameliorating the conditions that had led to war. His
+conclusion is that the record is quite mixed: “In most
+of the eleven cases, the process of political liberalization, or economic liberalization, or both, produced
+destabilizing side effects that worked against the
+
+11
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+consolidation of peace. In some countries, liberalization exacerbated societal tensions; and in others it
+reproduced traditional sources of violence. The
+approach to peacebuilding that prevailed in the 1990s
+was, it seems, based on overtly optimistic assumptions
+about the effects of democratization and marketization
+in the immediate aftermath of civil war.”51
+Similarly, in a forthcoming study entitled The UN's
+Role in Nation-Building: From the Belgian Congo to
+Iraq, a sequel to their earlier study entitled America's
+Role in Nation-Building, James Dobbins and colleagues
+reviewed sixteen cases of “nation-building” since
+1945.52 In their study, “nation-building” corresponds to
+the UN's terminology for combined peacekeeping/
+peacebuilding operations. They define it as the use of
+military force in the aftermath of a conflict to underpin
+rapid and fundamental societal transformation. In
+other words, “nation-building” involves multidimensional peace operations, including civilian tasks
+such as stabilizing the security environment, building
+the state's military and police forces, overseeing
+humanitarian relief efforts, providing administrative
+support to government ministries, overseeing a transition to democracy, and improving economic growth
+and stability.53
+Defining success broadly as the ability to establish a
+stable and enduring democratic political system, these
+two companion studies examined several quantitative
+and qualitative indicators of success in the selected
+countries. These included the number of combatrelated casualties suffered by the mission, return rates
+of refugees and internally displaced persons, type of
+political system that evolved, and economic growth
+rates. On the two key criteria—of enduring peace and
+democratic development—the study concludes that
+among the sixteen cases studied in their comparative
+studies of UN- and US-led nation-building operations,
+five are not at peace today.54 The authors recognize that
+objective judgments are more difficult on democratic
+development; however, using Freedom House and
+University of Maryland Polity Project ratings, they
+conclude that eleven out of sixteen cases studied
+remain democratic.55
+Thus, using the relatively macro-level criteria of a
+holding peace and transition to competitive politics,
+
+12
+
+the conclusions from these multi-country studies
+demonstrate that peacebuilding has a mixed track
+record.
+These findings parallel the results of a study by
+Michael Lund which provides a useful summary of the
+conclusions drawn by six different sets of studies on
+the effectiveness of international efforts in building
+peace in seventeen post-conflict countries. 56 According
+to Lund:
+“Though they differ in rating some of the missions,
+these several studies sort out successes from
+failures quite consistently. Except for a few like
+Cambodia where differing interpretations are
+given, there is considerable agreement about those
+countries where some minimum notion of negative
+peace has been achieved and where it has not.
+Post-conflict peacebuilding has produced positive
+results in some places, but as many or more have
+been ‘failures.' Thus, peacebuilding effectiveness in
+terms of the absence of violence is not a yes or no
+matter. Quite different outcomes resulted from
+different cases, and success and failure each
+showed some gradations. That the overall picture is
+quite mixed, even on the most uncontested
+peacebuilding criterion of ending the threat of
+major violence, is an important finding.”57
+Combined with the longer-term trends outlined above,
+the conclusions of these comparative case studies are
+sobering and point to a need to examine the factors
+that have militated against effective peacebuilding
+outcomes.
+
+VII. Challenges to Effective PostConflict Peacebuilding
+The existing body of literature sheds light on two sets
+of questions to explain the mixed record of international peacebuilding. The first deals with the policies,
+strategies, and approaches employed by external actors
+to determine whether these were appropriate to the
+challenges of post-conflict peacebuilding. In other
+words: Did the international community do the right
+thing? The second relates to the effective implementation of international policies, strategies and
+
+Challenges to Effective Peacebuilding
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+approaches. In other words: Did the international
+community do peacebuilding right?
+These are different sets of issues and need corrective
+action at different levels. Nonetheless, they both
+impact upon the effectiveness of peacebuilding as
+demonstrated by policy relevant research. Academic
+studies generally examine broader systemic or political
+factors while operational evaluations tend to focus on
+implementation issues.
+Systemic and Structural Issues
+Research on conflict and peacebuilding reveals that
+although the international community places great
+importance on “getting it right” at the country level,
+there are important political and systemic issues that
+affect peacebuilding outcomes. Five such issues
+deserve particular attention.
+International peacebuilding, despite its lofty aspirations, is a political undertaking which is ultimately
+dependent upon the political will and commitment of
+national governments. Thus, the first determining
+factor is inevitably the level and nature of support
+provided by member states. 58
+The second relates to the difficulty of “de-linking”
+post-conflict reconstruction in any given country from
+its regional environment. Regional conflict formations
+and their implications for post-conflict peacebuilding
+have become one of the most promising areas of policy
+research. It is increasingly recognized that focusing
+narrowly on country-level peacebuilding efforts is
+unlikely to yield significant changes in peacebuilding
+outcomes—especially in regions where conflicts have
+interlocking political, security and economic dynamics.
+Yet, international approaches to peacebuilding remain
+almost exclusively at the country level.59
+A third systemic issue relates to the availability and
+deployment of necessary financial resources for postconflict reconstruction in a timely manner. This is a
+difficult policy area since it requires a radical rethinking of existing funding sources and mechanisms
+for post-conflict reconstruction.60 As mentioned above,
+multilateral and bilateral donors have initiated innovative ways of dealing with the funding challenge
+
+Challenges to Effective Peacebuilding
+
+through designated post-conflict peacebuilding
+funding mechanisms, Conflict Pools, and multi-donor
+trust funds. 61 However, with the exception of strategically important countries (such as Bosnia), analysts
+note the inadequacy of both the absolute amounts of
+aid as well as the mechanisms through which aid is
+disbursed.62 A strong body of research demonstrates
+that without timely, sustained, and well-targeted
+resources, external support to post-conflict
+peacebuilding is unlikely to make a significant difference on the ground.63 While high levels of aid are not
+a guarantee of success, the inadequacy of aid
+condemns post-conflict peacebuilding efforts to
+tinkering on the margins. 64
+A fourth systemic issue relates to the viability of
+country-based peacebuilding strategies de-linked from
+broader trends in a globalized world economy. For
+example, there is growing evidence that the failure to
+address international trade in conflict goods helps to
+sustain criminal economic networks in post-conflict
+contexts, thereby significantly reducing the impact of
+in-country peacebuilding strategies.65 Similarly, the
+steady global trade in small arms and light weapons
+compounds the difficulties of country-based DDR
+strategies. Analysts note that international support for
+post-conflict peacebuilding needs to be strengthened
+through greater coherence across various policy areas
+at the global level. These include trade, aid, private
+investment, disarmament and arms control, human
+rights and natural resource management.66 Bilateral and
+multilateral donors increasingly recognize the interconnections between different policies and have begun to
+call for “linked-up” or “whole-of-government” strategies such as the three Ds (defense, diplomacy, development) in Canada, the Utstein principles, and Sweden's
+recently-released “Shared Responsibility: Sweden's
+Policy for Global Development.”
+Finally, institutional architecture issues affect the
+success of peacebuilding. As already noted, there are
+diverse actors at the governmental and inter-governmental levels involved in peacebuilding without an
+effective mechanism for better alignment of their
+collective efforts. Despite its pioneering role in
+promoting peacebuilding, the United Nations remains
+poorly organized to deal with the challenges of postconflict peacebuilding. The relations between the
+
+13
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+Security Council and ECOSOC (the UN's key organs
+with responsibility for security and socio-economic
+issues respectively), are dysfunctional and counterproductive.67 Similarly, notwithstanding many efforts
+at internal re-organization, the three departments
+within the UN Secretariat—DPA, DPKO and OCHA—face
+ongoing difficulties coordinating their respective
+peacebuilding operations. The creation of the
+Executive Committee for Peace and Security (ECPS) is
+a step in the right direction. However, it does not go far
+enough in promoting policy coherence and coordination within the UN family, including the UN's various
+funds and programs and the Bretton Woods institutions—each of which has a different governing board
+and mandate.68
+Policy Orthodoxy
+The suitability of externally promoted policies for postconflict peacebuilding has attracted considerable
+research attention. As noted, peacebuilding has a
+liberal normative orientation. When applied to postconflict contexts, the peacebuilding “template” has
+come to include concrete programs and projects such
+as civil society promotion, multi-party elections,
+constitutionalism, rule of law, human and minority
+rights, gender equality, good governance through
+transparency and accountability, economic liberalization, and security sector reform. These policies are
+considered as part of an overall package that is
+coherent and mutually reinforcing. There is growing
+evidence that a liberal peacebuilding package might be
+fundamentally ill suited for post-conflict contexts.69
+The most radical critics of the liberal peacebuilding
+agenda challenge the assumption that civil wars and
+political violence are an aberration which can be
+redressed through the use of appropriate tools and
+instruments. These analysts see contemporary civil wars
+as natural products of aggressive globalization, which
+simultaneously creates wealth and stability for some
+and instability and violence for others in an interconnected global system.70 Although quite uncompromising, this analysis deserves consideration at a time
+when civil wars are rarely confined within states, and
+the role of transnational networks in promoting and
+perpetuating local wars is increasingly recognized.
+
+14
+
+Other analysts challenge the appropriateness of liberal
+strategies in dealing specifically with the needs of
+post-conflict countries. There are different strands to
+this line of criticism. For example, a seminal study by
+James Boyce and colleagues on post-conflict economic
+strategies in El Salvador demonstrated that conventional economic reform packages are inappropriate and
+counterproductive in post conflict contexts. Boyce and
+colleagues argued that during the post-conflict transition, the goals of economic policy cannot be limited to
+macroeconomic stabilization and conventional
+structural adjustment—which are the mainstay of
+liberal economic policy. Instead, economic policy must
+also promote the adjustment toward peace. These
+require policies that mobilize resources for the peace
+process and financing the immediate costs of peace
+while addressing the longer-term relationship among
+economic growth, income distribution, and the consolidation of peace. 71
+This early study has been reinforced by a major
+research project undertaken by the Development
+Research Group at the World Bank on the economic
+costs and consequences of civil wars. In a recent book
+entitled Breaking the Conflict Trap: Civil War and
+Development Policy, Paul Collier and colleagues argue
+that well-chosen policies can reduce the global
+incidence of civil war, provided that they are
+appropriate to different conflict contexts and take
+country-specific characteristics into account.72 They
+propose different economic strategies for four different
+types of conflict contexts: conflict prevention in
+successful developers; marginalized countries at peace;
+ending conflicts and reducing post-conflict risks.
+Noting that post-conflict countries are a small but a
+particularly difficult subset, they maintain that the
+international community can significantly reduce the
+risk of renewed conflict in these countries by
+implementing a set of policies that are relatively
+“straightforward to implement.” These include more
+targeted strategies for economic growth, better
+sequencing of development assistance, and greater
+integration of economic policies with political and
+military strategies (including disarmament and
+demobilization, engagement of diasporas, political
+reform and external military presence.) Their study
+supports the liberal economic reform agenda, but
+
+Challenges to Effective Peacebuilding
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+argues that in post conflict contexts the scope for rapid
+reforms requires that it be limited to two or three
+policies with rapid payoffs. It further suggests that the
+relative importance of macroeconomic, social and
+structural reform is quite different in post-conflict
+settings, with social policy taking precedence over
+macroeconomic policy.73
+The policy recommendations promoted by Collier and
+colleagues have been strongly opposed on various
+grounds. The most persistent criticism is that this body
+of research reduces civil wars and conflicts to their
+essential economic elements, which are then found to
+be amenable to policy fixes by international actors.
+While this is true, Collier's powerful critique of
+conventional macroeconomic policies in post-conflict
+contexts merits recognition. Indeed, early research by
+de Soto and del Castillo warned precisely against the
+counterproductive disconnect between the conventional macro economic policies pursued by the Bretton
+Woods institutions and the political strategies
+promoted by the UN in El Salvador.74
+Overall, economic policies for post-conflict
+peacebuilding remain poorly understood and designed.
+Theories of economic development, dating to the decolonization period of the early 1950s and 1960s, are
+largely out-of-step with the challenges of post-conflict
+reconstruction in the post–Cold War era. The contradictions between the reform and reconstruction
+agendas are not sufficiently acknowledged, with the
+result that reform strategies are promoted without close
+attention to the challenges of reconstruction.75 Based
+on a growing understanding of the economic dynamics
+of contemporary civil wars, there is a new wave of
+studies that are beginning to examine alternative
+economic and social policies for post-conflict
+peacebuilding. These focus on such issues as employment, livelihoods and social policies targeted to special
+groups including economic spoilers, returnees and
+displaced populations and de-mobilized soldiers.76
+Despite its shortcomings, economic liberalism remains
+the dominant paradigm for international peacebuilding
+assistance. However, the creation of the Low Income
+Countries Under Stress (LICUS) project at the World
+Bank, the recognition of “difficult partnerships” by the
+
+Challenges to Effective Peacebuilding
+
+OECD DAC, and the numerous countries-at-risk studies
+produced by donor agencies are important steps in
+reshaping donor policies.77 One of the few studies that
+focuses primarily on the role of national actors
+(communities, the private sectors and states) in
+contributing to broad based, anti-poverty recovery and
+growth after conflict is Tony Addison's book entitled
+From Conflict to Recovery in Africa.78
+The uneasy fit between externally driven policies and
+fragile conditions in post-conflict countries becomes
+even sharper when examining external support for
+political liberalization. There is a rich and growing
+literature on democracy assistance.79 These studies point
+to several important features of donor-driven democracy
+assistance programs, which have direct peacebuilding
+implications. Donor programs in democracy assistance
+are generally skewed in favor of boiler plate favorites
+such as elections, human rights promotion and media
+development—which do not necessarily correspond to
+local needs. Moreover, the donor preference for timebound projects is at odds with the need for building and
+nurturing sustainable domestic political processes.
+Evaluation studies increasingly demonstrate that the
+success of democratization processes in post-conflict
+societies depends more on domestic/regional factors
+(such as political power structures, socio-economic
+conditions, historical experiences, leadership and
+regional neighborhood) than on donor-led democracy
+assistance models. Some analysts also note that donor
+pressure for democratization in post-conflict countries
+risk jeopardizing fragile peace processes and thus pose
+serious threats to peacebuilding.80
+In his aforementioned book, Paris makes a similar
+argument. According to Paris, economic and political
+liberalization are particularly ill suited and counterproductive in post-conflict peacebuilding since they
+promote economic and political competition at a
+difficult and fragile phase. Instead, Paris recommends a
+gradual and controlled peacebuilding strategy, which
+he calls “Institutionalization Before Liberalization.”
+Along with a growing body of literature on statebuilding, Paris supports the establishment of domestic
+institutions that are capable of managing the transition
+from war while avoiding the destabilizing effects of
+democratization and marketization.81
+
+15
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+The critique of donor approaches to economic and
+political liberalization is echoed in other studies that
+examine discrete aspects of the post-conflict
+governance programs promoted by the international
+community in other areas such as security sector
+reform and rule of law. These studies draw attention to
+the tensions and contradictions that exist between
+different policy prescriptions, as well as the inability of
+external actors to tailor these to concrete contexts. It is
+argued that external actors follow a narrow template
+that is often divorced from domestic political realities.
+While there is little consensus among analysts about
+the most appropriate policy options, there is strong
+agreement that ultimately local political processes and
+institutions should play an important role in shaping
+the design, implementation and outcomes of policy
+choices.82
+Policy Implementation
+The above review drew attention to some of the builtin contradictions and limitations of current international approaches to peacebuilding. The effectiveness
+of peacebuilding policies also depends greatly on their
+implementation. The United Nations, donor governments, regional organizations, international NGOs and
+other international actors have individually and collectively started to document “Policy Guidelines,”
+“Lessons Learned,” and “Best Practices” in
+peacebuilding. These include sectoral studies on key
+components of the new peacebuilding agenda such as
+peace implementation and peace enforcement; truth
+and reconciliation; gender and peacebuilding;
+governance and participation. They also include
+operational lessons on inter-agency collaboration and
+coordination, institutional and individual skills
+development and training, new funding mechanisms,
+timing of interventions and exit strategies.83
+These evaluation studies provide valuable lessons on
+implementation of peacebuilding programs and
+projects across agencies and contexts. These generally
+relate to the design, delivery and monitoring of
+peacebuilding on the part of external actors.84 Many
+commissioned studies are internally-focused—seeking
+ways of improving the performance of client agencies
+themselves through internal improvements related to
+recruitment, training, deployment of funds, program
+
+16
+
+design and management, and monitoring and evaluation.85 Among these studies, a series of papers produced
+by the Center on International Cooperation (CIC) at
+New York University for the June 2004 meeting in
+Copenhagen on Civilian Crisis Management
+Capabilities deserves special attention.86 These papers
+not only examine the nagging problems in the civilian
+dimensions of peacebuilding practice by external
+actors, but they provide practical and far-reaching
+recommendations for improving the capacities of
+international actors.
+Although salutary, the continued focus of external
+actors on their own activities, capacities and
+mechanisms tends to overshadow the more pressing
+need to strengthen the capacities of domestic actors.
+Ultimately, the transfer of power, resources and capacities to local actors defines the effectiveness of
+peacebuilding on the ground. Indeed, many evaluation
+studies readily acknowledge this but shy away from
+offering ways of addressing it. Basically, there are
+several persistent problems in the implementation of
+peacebuilding policies and programs:
+•
+
+Donors channel their support in the form of timebound projects without a strategic framework and
+long-term commitment to peacebuilding.
+
+•
+
+Despite lip service paid to local ownership, there is
+a disconnect between external priorities and
+programs and national processes and priorities.
+
+•
+
+External actors consistently neglect institution and
+capacity building, which are recognized as central
+to peacebuilding.
+
+•
+
+In the absence of a strategic peacebuilding
+framework, external interventions are uncoordinated, fragmented, and incoherent.
+
+In a nutshell, external actors approach peacebuilding as
+a short-term, time-bound, project-based enterprise,
+even while acknowledging that peacebuilding is a longterm, home-grown, multi-dimensional process. As one
+study notes: “Although the quick fix might be unavoidable in humanitarian assistance, it should not be
+applied in peace-building. The dominant approach to
+peace-building should therefore be re-examined and
+
+Challenges to Effective Peacebuilding
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+reframed. This entails coming up with a framework that
+fosters not only local ownership but builds on local
+capacities, and takes a more process-oriented approach
+to create endogenous political capacity to cope with
+future violent conflict. Furthermore, it asks for priority
+setting of certain programmes under the guidance of a
+clear peace-building strategy.”87
+It concludes: “This void in international policy making
+asks for a systematic assessment of international
+assistance to post-conflict societies in order to identify
+the critical factors that contribute to the success of
+institutions that help to foster sustainable peace. Such
+factors may include the role of local and external
+actors and the question of ownership of the peace
+process, the commitment of local stakeholders to the
+establishment of political arrangements for managing
+conflicting interests and the presence of wellorganized civil society and independent media organizations that can serve as ‘watchdogs' for the behaviour
+of local, regional and national (governmental) institutions.”88
+
+VIII.Challenges to Consolidating
+Post-Conflict Peacebuilding
+The above analysis highlighted the multiple problems
+that continue to bedevil peacebuilding more than a
+decade since its inception. These derive largely from
+the policy, institutional, operational and resource
+issues specific to the design and implementation of
+peacebuilding assistance. However, peacebuilding faces
+another set of challenges related to the broader
+international context, which also deserves serious
+attention.
+International peacebuilding emerged at a special point
+in history when the ending of bloc politics created
+opportunities for multilateral cooperation to address
+violent conflicts around the world. Although never
+divorced from state interests, peacebuilding
+represented a collective international project. It is not
+evident that the international commitment to the
+expanded peacebuilding project will outlive the serious
+political cleavages and challenges that have emerged
+on the international stage in the wake of 9/11, and
+especially after the war in Iraq.
+
+Challenges to Consolidating Peacebuilding
+
+The international commitment to post-conflict
+peacebuilding is under threat from three main sources.
+The first relates to the heightened urgency of security
+threats posed by terrorism, proliferation of weapons of
+mass destruction, and the new arms race among states.
+When confronted with “hard” threats to their national
+interests, states inevitably re-order their priorities,
+diplomatic energies and financial resources. To the
+extent that certain conflicts such as Afghanistan and
+Iraq are seen as national security issues, they will
+continue to attract external assistance motivated
+largely by the geo-strategic and security interests of
+powerful external actors. Other peacebuilding needs, as
+in the Sudan, Burundi and the DRC, are therefore
+relegated to “second tier” international concernsattracting limited political attention and resources
+despite their urgency and gravity.
+There is a second, and in the long run perhaps more
+corrosive, threat to the entire international
+peacebuilding enterprise. Post-conflict peacebuilding
+rested on the premise that physical security, political
+stability, social reconciliation, and economic
+reconstruction are integrated elements of a domestically owned enterprise in which external actors need to
+play a supportive role. The necessity of internal
+ownership was firmly accepted by international actors,
+although this paper demonstrated the serious
+shortcomings in achieving that goal.
+Since 9/11, peacebuilding has been conflated with a
+new discourse of “nation-building,” “regime change,”
+and “stabilization and reconstruction” which is
+predicated on the necessity of forcefully securing the
+stability of weak or failing states to avoid the
+negative fall-out from state failure. Such a formulation, driven primarily by external concerns, is likely
+to undermine the basic agreement that peace, security
+and stability cannot be imposed from outside but
+need to be nurtured internally through patient,
+flexible, responsive strategies that are in tune with
+domestic realities.
+The post 9/11 “stabilization” agenda is cast in the same
+terms as the peacebuilding agenda of the early 1990s,
+with a call for holistic, joined-up approaches to avoid
+state failure and state collapse. However, the drivers of
+the stabilization agenda are the national security
+
+17
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+interests of dominant external actors—regionally or
+internationally.89 The peacebuilding interventions of
+the 1990s, which were largely motivated by humanitarian impulses, will be seen to have prepared the
+ground for external interventions in sovereign states—
+albeit for a different agenda. This is bound to create a
+backlash against international peacebuilding when it is
+most needed. Recent debates on the Darfur crisis and
+the peace process in the Sudan have revealed the
+heightened political sensitivities among the UN's
+member states.
+In light of its overwhelming power and its policies in
+Afghanistan and Iraq, the United States remains the
+critical player in this regard although other countries
+including Russia, have also embraced it for their own
+purposes. Given the nature of the US political system,
+there are divergent views on both the nature of the new
+stabilization agenda and on how best to implement it.
+These are reflected in the mushrooming academic and
+policy literature in the field.90 A recent study usefully
+distinguishes between three “generations” of the
+American approach to post conflict reconstruction:
+Post–World War II Occupations; Post–Cold War
+Humanitarian
+Interventions;
+and
+Post–9/11
+Interventions in an Era of Global Terrorism and WMD.
+The study goes on to argue that “Iraq is the case that
+could define the newest generation of nation building.
+The situation on the ground and how the Bush
+administration responds to it will determine whether
+this effort becomes a real post-conflict reconstruction
+effort or else becomes a counter insurgency strategy
+that uses post-conflict reconstruction tools”
+[emphasis added].91
+Indeed, whatever the actual label, the externally driven
+nature of the “stabilization and reconstruction” agenda
+would almost certainly require policy tools, instruments and approaches that are sufficiently different
+from the multilateral “peacebuilding paradigm”
+described in this paper.
+A final threat to the peacebuilding agenda arises from
+the deep political divisions that have emerged within
+the international community following the US-led war
+on terrorism and the war in Iraq. These divisions are
+
+18
+
+not simply ideological, developmental or geographic in
+nature. They cut across multiple divides, and
+undermine ongoing efforts to define a common and
+collective framework for international action in the
+early years of the 21st century. Within the Security
+Council, at the General Assembly, within regional
+organizations, and even among allies, there are deep
+differences as to what constitutes the top priorities for
+the international community and how to address them.
+The establishment of the Secretary General's High
+Level Panel on Threats, Challenges and Change is
+indicative of the uncertainties at the international
+level. The “international compact” (articulated in the
+Millennium Declaration, An Agenda for Peace and An
+Agenda for Development) that was endorsed at the end
+of the Cold War seems to have lost its hold. There is
+currently no comparable substitute to give direction or
+cohesion to the efforts of the international community
+to address the multiple threats and challenges that lie
+ahead.
+The United Nations, which represents the collective
+international will, is in need of reform. However,
+reform efforts have run into major obstacles. Great
+expectations are placed in the High Level Panel to
+propose recommendations to reform the international
+system to respond to new of global threats and
+challenges. It is unlikely, however, that the Panel's
+recommendations will be acceptable to both the
+powerful members of the UN as well as to the
+majority of its members. It is anticipated that the
+Panel will identify post-conflict peacebuilding as a
+key priority due to its contributions to international
+peace and security. Even then, it is not certain that
+the international community can garner the political
+will and the resources to address it effectively given
+the current composition of the Security Council and
+the General Assembly as well as the UN's chronic
+shortage of resources for post-conflict peacebuilding
+without the involvement of the key bilateral and
+multilateral donors. The aforementioned political
+cleavages in the international community are already
+beginning to reflect themselves in the priorities and
+operations of the main bilateral and multilateral
+donors with the risk of the “securitization” of
+development aid.
+
+Challenges to Effective Peacebuilding
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+IX. Conclusion
+The persistence of intra-state and civil conflicts in
+different regions (especially in Africa), the breakdown of
+peace processes and the relapse of a number of countries
+into violent conflict (such as in Sri Lanka and
+Colombia), and the emergence of new conflicts ensure
+that post-conflict peacebuilding will continue to require
+international assistance in the coming years and decades
+despite its multiple shortcomings and weaknesses. If the
+United Nations and other external actors who were in
+the forefront of post-conflict peacebuilding of the 1990s
+decide that peacebuilding is too important an enterprise
+to give up, they face a dual challenge. They need to
+
+Conclusion
+
+learn from and further improve upon the innovative but
+modest gains made to date in peacebuilding policy and
+practice. They also need to stop the slippery slope of
+providing an easy cover for the unilateralist impulses of
+powerful members of the UN family by subordinating
+international peacebuilding to the post–9/11 agenda of
+stabilization and reconstruction. As some of the most
+vulnerable members of the international community,
+conflict-affected countries depend upon multidimensional international assistance to achieve their
+simultaneous need for security and development. The
+principles for effective peacebuilding are now
+sufficiently established to enable the next decade of
+peacebuilding to yield better results—provided there is
+the necessary political will.
+
+19
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+Endnotes
+_________________________
+1 After the Conflict: A review of selected sources on rebuilding war-torn societies, which was undertaken by Patricia Weiss Fagen as
+part of WSP, provided an inventory of the state of knowledge at the time. The literature was relatively limited and Weiss Fagen
+usefully grouped key resources into several broad categories: a) general works, b) international organizational capacities, c) reforming
+security structures, d) political rebuilding, e) economic rebuilding, and f) social rebuilding, local empowerment and capacity building.
+2 In May 2002, a joint project team from the Center for Strategic and International Studies (CSIS) and the Association of the United
+States Army (AUSA) produced a detailed Post-Conflict Reconstruction Framework. It provided a comprehensive inventory of tasks
+that external actors face in assisting countries emerging from conflict. Drawing from a rich body of literature and experience gained
+in the intervening years, the joint CSIS/AUSA framework laid out a “universe of options” that confront international peacebuilders
+on four fronts: security; justice and reconciliation; social and economic well-being; and governance and participation. The tasks
+falling under each “pillar” of reconstruction were organized into three phases: initial response, transformation, and fostering sustainability—each phase requiring a different mix of policies and strategies. Although not a road map to post-conflict reconstruction, the
+depth and breadth of the issues covered by the CSIS/AUSA framework are impressive. See <http://www.csis.org/
+isp.pcr/framework.pdf>.
+3 United Nations, An Agenda for Development: Report of the Secretary-General, UN Doc A/48/935 (6 May 1994).
+4 Charles Call, “The Problem of Peacebuilding: How UN Thinking Has Evolved in Recent Years,” draft paper prepared for DPA, 27
+August 2004.
+5 In an earlier paper entitled “Peacebuilding as the Link between Security and Development” (IPA Reports, Dec. 2003), I have argued
+in favor of the expanded definition of peacebuilding since a sequential approach to peace no longer holds true.
+6 Joint Utstein Study of Peacebuilding: National Report on Germany (Eschborn: Deutsche Gesellschaft für Technische Zusammenarbeit
+(GTZ) GmbH, 2003).
+7 During the Cold War, the international community was so polarized that there was little room for collective, non-partisan international action on issues dealing with peace and security. Moreover, the artificial division between security and development issues
+ensured that international development community did not engage in peace and security issues while the political and security actors
+avoided direct involvement in the socio-economic affairs of war-prone or war-affected states. In other words, during the Cold War,
+post-conflict peacebuilding (involving active political engagement in the socio-economic reconstruction of sovereign states) did not
+exist as an international project.
+8 The applicability of the peacebuilding model of the 1990s to Afghanistan and Iraq is not universally accepted. Some analysts argue
+that these countries represent only more difficult cases of peacebuilding. Others consider them sui generis because of the preceding
+military action in both cases and the fact that the international role is not that of a disinterested “third party.” Whatever the final
+verdict, the terms of the debate have changed significantly since 9/11 as peacebuilding is equated with regime change, stabilization,
+state building and nation building as instruments of foreign policies of certain states.
+9 In the case of international wars, An Agenda for Peace called for confidence building measures, joint programs, cultural and
+educational projects, and noted: “… the concept of peace-building as the construction of a new environment should be viewed as the
+counterpart of preventive diplomacy, which seeks to avoid the breakdown of peaceful conditions. … Preventive diplomacy is to avoid
+a crisis; post-conflict peace-building is to prevent a recurrence.” United Nations, An Agenda for Peace: Preventive Diplomacy,
+Peacemaking and Peace-keeping (Report of the Secretary-General pursuant to the statement adopted by the Summit Meeting of the
+Security Council on 31 January 1992), UN Doc A/47/277-S/2411 (17 June 1992).
+10 The Supplement to An Agenda for Peace reviewed two kinds of post-conflict peacebuilding: when it is linked to a multifunctional
+peacekeeping operation, and when it is undertaken without any peacekeeping operation being deployed. It argued that the first
+situation is the easier to manage, since the UN already has an entree. Yet it warned that the “timing and modalities of the departure
+
+20
+
+Endnotes
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+of the peace-keeping operation and the transfer of its peace-building functions to others must therefore be carefully managed.” In
+turning to the more difficult situation when peace-building activities are needed in a country where the UN has no peacemaking or
+peace-keeping mandate, the Supplement outlined a dual role for the UN: through its economic, social and humanitarian agencies and
+programs and under the purview of the UN resident coordinator; and through political action at the level of UN Headquarters. United
+Nations, Supplement to An Agenda for Peace: Position Paper of the Secretary-General on the Occasion of the Fiftieth Anniversary of
+the United Nations, UN Doc A/50/60-S/1995/1 (3 January 1995).
+11 The Supplement added that in such cases, it may be necessary to arrange the transfer of decision-making responsibility from the
+Security Council (which had authorized the mandate and deployment of peacekeepers) to the General Assembly or other inter-governmental bodies with responsibility for the civilian peacebuilding activities that would continue.
+12 Call, “The Problem of Peacebuilding: How UN Thinking Has Evolved in Recent Years.”
+13 United Nations, Report of the Panel on United Nations Peace Operations (Brahimi Report), UN Doc A/55/305-S/2000/809 (21
+August 2000).
+14 United Nations, Review of Technical Cooperation in the United Nations (Report of the Secretary-General), 19 September 2003, UN
+Doc A/58/382 (19 September 2003).
+15 See the United Nations, UN Doc S/PRST/2001/5: “The Security Council recognizes that peace-building is aimed at preventing the
+outbreak, the recurrence or continuation of armed conflict and therefore encompasses a wider range of political, developmental,
+humanitarian and human rights programmes and mechanisms. This requires short and long term actions tailored to address the
+particular needs of societies sliding into conflict or emerging from it. These actions should focus on fostering sustainable institutions
+and processes in areas such as sustainable development, the eradication of poverty and inequalities, transparent and accountable
+governance, the promotion of democracy, respect for human rights and the rule of law and the promotion of a culture of peace and
+non-violence.”
+16 See Call, “The Problem of Peacebuilding: How UN Thinking Has Evolved in Recent Years.” Given its narrow focus on post-conflict
+peacebuilding, this paper does not examine the combined peacemaking, peacekeeping and peacebuilding role of the UN in its multidimensional peace operations. However, the multilateral approaches to post-conflict peacebuilding under the UN umbrella provide
+the framework within which peacebuilding policy and practice since the 1990s will be reviewed.
+17 Brian Urquhart, “The Good General,” New York Review of Books 51, no. 14 (September 23, 2004).
+18 For a thoughtful and comprehensive history of the creation of the post–World War II international normative and legal order, see
+Ralakrishnan Rajagopal, International Law from Below: Development, Social Movements and Third World Resistance (Cambridge:
+Cambridge University Press, 2003).
+19 For a list of these conferences and the Millennium Declaration, see <www.un.org>.
+20 David M. Malone, The UN Security Council: From the Cold War to the 21st Century (Boulder, CO: Lynne Rienner Publishers, 2004).
+21 International Commission on Intervention and State Sovereignty (ICISS), “The Responsibility to Protect: Report of the International
+Commission on Intervention and State Sovereignty” (Ottawa: International Development Research Centre, December 2001).
+22 Roland Paris, At War's End: Building Peace After Civil Conflict (Cambridge: Cambridge University Press, 2004); Michael Lund,
+“Taking Stock of Post-Conflict Peacebuilding and Charting Future Directions,” in What Kind of Peace is Being Built? Reflections on
+the State of Building Ten Years After The Agenda for Peace (Ottawa: International Development Research Centre, January 2003).
+23 Paris, At War's End; James Dobbins et al., The UN's Role in Nation-Building: From the Belgian Congo to Iraq, vol. 2 of Rand's
+History of Nation-Building (RAND National Defense Research Institute, forthcoming 2005).
+
+Endnotes
+
+21
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+24 A review of key policy documents by OECD DAC, the European Union, the United Nations, and other bilateral and multilateral
+organizations reveals a shared analysis that peace, development, human rights, and democracy are interlinked, and need to be
+pursued in tandem. These values are promoted and advanced not only as universally valid and desirable goals, but also as key
+elements of an international conflict prevention and peacebuilding agenda. Collectively, they constitute a normative framework for
+international action.
+25 For a compelling case on the political dimension of peacebuilding, see Elizabeth Cousens and Chetan Kumar, with Karin
+Wermester, eds., Peacebuilding as Politics: Cultivating Peace in Fragile Societies (Boulder, CO: Lynne Rienner Publishers, 2001). For
+an equally compelling argument on the role of non-governmental actors, see John Prendergast and Emily Plumb, “Building Local
+Capacity: From Implementation to Peacebuilding,” in Stedman, et. al, eds., Ending Civil Wars.
+26 Within the UN system, DPA has been designated the focal point for peacebuilding. However, the Peacebuilding Unit within DPA
+which was recommended by the Brahimi Panel never came to life due to the opposition of certain UN member states.
+27 During the Cold War, aid agencies had generally been linked to departments of foreign affairs and served as operational arms of
+their governments' foreign policies. Nonetheless, aid programs were administered by development professionals with considerable
+latitude in the design and delivery of humanitarian and socio-economic aid programs. Official aid agencies were generally averse to
+dealing with political and security issues. Where there was conflict, they sought to minimize the impact of conflict on their programming but avoided dealing directly with conflict issues. When they could not continue their work in conflict, they interrupted their
+development programming and provided humanitarian assistance. Humanitarian assistance was intended to be short term and limited
+in nature, while development aid was designed to support a longer-term strategy for socio-economic development through consultations with recipient governments. Neither of these forms of assistance was appropriate for post-conflict rebuilding which required
+new types of programming—such as providing public security, consolidating political stability, promoting psycho-social reconciliation and initiating socio-economic rehabilitation—to meet immediate needs within a politically fragile context.
+28 The development enterprise is, itself, the outgrowth of security concerns after World War II when the emergence of new states
+threat was seen to raise the stakes vis-à-vis the Soviet bloc. Development was seen as an instrument to prevent the slide of developing
+countries into the Soviet orbit.
+29 World Bank Report of the Paris Meeting, available at <www.worldbank.org>.
+30 The evolution of donor responses to the peacebuilding agenda needs to be understood within the context of the official aid system
+that influences its constituent agencies. Official development assistance is highly decentralized, guided largely by the priorities of
+donor governments, permanently under-resourced, and slow to change. Yet it is also highly responsive to peer influence. Innovations
+by individual members as well as multilateral institutions have strong demonstration effects. This was indeed the case with postconflict peacebuilding where the work of a few key agencies and the OECD DAC had multiplier effects throughout the international
+donor community.
+31 GTZ, Joint Utstein Study.
+32 The OECD DAC is the coordinating body for bilateral development donors with the aim of improving the effectiveness of development cooperation. It is a standard and norm setting body rather than an operational actor. Nonetheless, since its standards are considered binding by member states, OECD DAC has traditionally played an important role in influencing donor policies and behavior.
+33 OECD, DAC Guidelines: Helping Prevent Violent Conflict (2001), and DAC Guidelines on Poverty Reduction (2001). Although the
+DAC Task Force has since been discontinued, its successor, the Conflict, Peace and Development Co-operation (CPDC) Network of the
+DAC, continues work on four related policy areas: security sector reform, mainstreaming conflict prevention, responding to crisis
+country needs, and regional conflict dynamics.
+34 Canadian International Development Agency, Compendium of Operational Frameworks for Peace Building and Donor Coordination
+(Conflict Prevention and Post-Conflict Reconstruction [CPR Peacebuilding Network]). The Compendium encompasses diverse practice
+areas such as gender and peacebuilding, security sector reform, transitional justice, child soldiers, peace and conflict impact assessment, and media and peacebuilding. See <www.cprnet.net>.
+
+22
+
+Endnotes
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+35 Shepard Forman and Dirk Salomons, “Meeting Essential Needs in Societies Emerging from Conflict,” paper prepared for the
+Brookings Roundtable on the Relief to Development Gap (New York: Center on International Cooperation, n.d.); Shepard Forman and
+Stewart Patrick, Good Intentions: Pledges of Aid for Post-Conflict Recovery (Boulder, CO: Lynne Rienner Publishers, 2000).
+36 OECD, “Security System Reform and Governance: Policy and Good Practice,” High Level Meeting, 15-16 April 2004.
+37 James K Boyce, “The International Financial Institutions: Postconflict Reconstruction and Peacebuilding Capacities,” prepared for
+the meeting on Strengthening the UN's Capacity on Civilian Crisis Management, Copenhagen, 8-9 June 2004. Forman and Patrick,
+Good Intentions: Pledges of Aid for Post-Conflict Recovery. James Boyce, Investing in Peace: Aid and Conditionality after Civil Wars
+(Oxford University Press, 2002)
+38 Salvatore Schiavo-Campo, “Financing and Aid Management Arrangements in Post-Conflict Situations,” Working Paper No. 6
+(Washington, D.C.: World Bank Conflict Prevention and Reconstruction Unit, 2003). Shepard Forman, Stewart Patrick, and Dirk
+Salomons, “Recovering from Conflict: Strategy for An International Response,” in Paying For Essentials Policy Paper Series (New
+York: New York University Center on International Cooperation, 2001).
+39 World Bank, The Role of the World Bank in Conflict and Development: An Evolving Agenda (Washington, D.C.: World Bank Conflict
+Prevention and Reconstruction Unit, 2003).
+40 International Monetary Fund (IMF) website at <www.imf.org>. A recent IMF Working Paper from the Policy Development and
+Review Department called “Economic Performance Over the Conflict Cycle,” prepared by Nicholas Staines, shows that the Fund is
+engaging more actively on this issue. The paper finds “a significant shift in the economic characteristics of civil conflicts during
+the1990s. Conflicts have become shorter but with more severe contractions and a stronger recovery of growth. …The stance of
+macroeconomic policy was an important factor while the underlying “conflict process” remained unchanged.
+41 For a quick review of the role of IFIs, see James Boyce, “The International Financial Institutions,” a paper prepared for CIC for the
+Copenhagen Meeting, June 2004.
+42 GTZ, Joint Utstein Study.
+43 For selected documents, see: Robert C. Orr, Winning the Peace: An American Strategy for Post-Conflict Reconstruction
+(Washington, D.C.: Center for Strategic International Studies, 2004); WSP Bossey Statement at <www.wsp-international.org>; OECD,
+DAC Guidelines; United Nations, Draft Plan of Action on Peacebuilding, 6 April 2001.
+44 Nils Peter Gleditch et al., “Armed Conflict 1964-2001: A New Dataset,” Journal of Peace Research 39(5): 615-637; Monty Marshall
+and Ted Robert Gurr, Peace and Conflict 2003: A Global Survey of Armed Conflicts, Self-Determination Movements and Democracy
+(College Park, MD: Center for International Development and Conflict Management, 2003).
+45 Paul Collier, Breaking the Conflict Trap: Civil War and Development Policy (Washington, D.C.: World Bank, 2003).
+46 The work of the Carnegie Commission on Preventing Deadly Conflict and IPA’s Conflict Prevention Program provide ample
+evidence of this.
+47 Ken Menkhaus, “Impact Assessment in Post-Conflict Peace-Building: The State of the Art,” a paper prepared for the War-Torn
+Societies Project-International (April 2003); GTZ, Joint Utstein Study; Cheyanne Church and Julie Shouldice, The Evaluation of
+Conflict Resolution Interventions: Framing the State of Play (Ulster: INCORE International Conflict Research, 2002); Chr. Michelsen
+Institute, After War: Reconciliation and Democratization: Lessons Learned. Summary Report (Norway: Chr. Michelsen Institute, 2000).
+48 For a rigorous examination of evaluation issues with a focus on peace implementation, see George Downs and Stephen John
+Stedman’s chapter in Stedman et al., eds., Ending Civil Wars.
+
+Endnotes
+
+23
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+49 Several donor countries, most notably the Utstein-4 including Germany, the Netherlands, Norway and the UK as well as Sweden,
+have started to undertake country-level evaluation of their peacebuilding programs. These evaluation studies assess the effectiveness
+of the programs and projects of the donor country rather than their impact on the ground. For a useful review of evaluation studies,
+see: Swedish Sida Evaluation 00/37 entitled “Assessment of Lessons Learned from Sida Support to Conflict Management and Peace
+Building: State of the Art/Annotated Bibliography.”
+50 Michael W. Doyle and Nicholas Sambanis, “International Peacebuilding: A Theoretical and Quantitative Analysis,” American
+Political Science Review 94: 779.
+51 Paris, At War's End, includes Angola, Rwanda, Cambodia, Liberia, Bosnia, Croatia, El Salvador, Nicaragua, Guatemala, Namibia
+and Mozambique. Paris also reviewed three other cases (Kosovo, East Timor and Sierra Leone) which were launched after 1998. His
+assessment of these operations, as well as in Afghanistan, is also fairly negative although on different grounds.
+52 The case studies included Germany, Japan, Somalia, Haiti, Bosnia, Kosovo, Afghanistan and Iraq for the US led “nation-building”
+projects and Congo, Namibia, El Salvador, Cambodia, Mozambique, Eastern Slavonia, Sierra Leone and East Timor for the UN-led
+missions.
+53 Dobbins et al., The UN's Role in Nation-Building: From the Belgian Congo to Iraq.
+54 Ibid., p.xxi.
+55 Ibid., p.xxiii.
+56 The cases covered included Angola, Bosnia, Cambodia, Cyprus, Eastern Slavonia, El Salvador, Guatemala, Haiti, Lebanon, Liberia,
+Mozambique, Nicaragua, Namibia, Rwanda, Somalia, Sri Lanka and Zimbabwe. Michael Lund, “Taking Stock of Post-Conflict
+Peacebuilding and Charting Future Directions,” in What Kind of Peace is Being Built? Reflections on the State of Building Ten Years
+After The Agenda for Peace (Ottawa: International Development Research Centre, January 2003).
+57 Ibid., pp.30-31.
+58 Stedman, et al., eds., Ending Civil Wars, makes the most convincing case about the importance of political will.
+59 Chandra Sriram and Zoe Nielsen, eds., Exploring Subregional Conflict (Boulder, CO: Lynne Rienner Publishers, 2004); Michael Pugh
+and W.P.S. Sidhu, The United Nations and Regional Security: Europe and Beyond (Boulder, CO: Lynne Rienner Publishers, 2003); Necla
+Tschirgi, “A Regional Conflict Approach to Peacebuilding,” Journal of Peacebuilding and Development ( I:1, 2002).
+60 Forman and Patrick, Good Intentions; Forman and Salomons, Meeting Essential Needs.
+61 Uwe Kievelitz et al., “Practical Guide to Multilateral Needs Assessments in Post-Conflict Situations” (Washington, D.C.: World
+Bank, August 2004).
+62 Stephen John Stedman et al., eds., Ending Civil Wars: The Implementation of Peace Agreements (Boulder, CO: Lynne Rienner
+Publishers, 2002).
+63 Forman and Patrick, Good Intentions; Dirk Salomons and Dennis Dijkzeul, “The Conjurers' Hat: Financing United Nations Peacebuilding in Operations Directed by Special Representatives of the Secretary-General” (Oslo: Fafo Institute of Applied Social Science
+and Center on International Cooperation, New York University, 2001); Collier, Breaking the Conflict Trap ; Boyce, “Strengthening the
+UN's Capacity.”
+64 Susan L.Woodward, “Peace Operations: the Civilian Dimension: Accounting for UNDP and the UN Specialized Agencies,” prepared
+for the New York University Center on International Cooperation meeting on Strengthening the UN's Capacity on Civilian Crisis
+Management, Copenhagen, 8-9 June 2004.
+
+24
+
+Endnotes
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+65 IPA's Economic Agendas in Civil Wars Project (EACW) generated a rich body of research on conflict trade which is accessible at
+<www.ipacademy.org/programs>. Collier, Breaking the Conflict Trap .
+66 OECD, DAC Guidelines.
+67 Malone, The UN Security Council.
+68 For an insightful account, see Michele Griffin, “The Helmet and the Hoe: Linkages Between United Nations Development
+Assistance and Conflict Management,” Global Governance 9:2, 2003.
+69 Simon Chesterman in You, the People raises the question as to whether it is possible to establish the conditions for legitimate and
+sustainable national governance through a period of benevolent foreign autocracy which defines societal norms and values.
+70 M. Duffield, Global Governance and the New Wars: The Merging of Development and Security (New York: Zed Books, 2001);
+Alejandro Bendaña, “Critical Assessments from the South,” in What Kind of Peace is Being Built? Reflections on the State of Building
+Ten Years After The Agenda for Peace (Ottawa: International Development Research Centre, January 2003).
+71 James K. Boyce, Economic Policy for Building Peace: The Lessons of El Salvador (Boulder, CO: Lynne Rienner Publishers, 1996).
+72 Collier, Breaking the Conflict Trap .
+73 Ibid.
+74 Alvaro De Soto and Graciana del Castillo, “Obstacles to Peacebuilding,” Foreign Affairs 94 (spring 1994): 69-93
+75 Tony Addison, “From Conflict to Reconstruction,” Discussion Paper No 2001/16 (UNU: WIDER, June 2001).
+76 Eugenia Date-Bah, ed., Jobs After War: A Critical Challenge in the Peace and Reconstruction Puzzle. (Geneva: ILO, September
+2003). Boyce, “The International Financial Institutions.”
+77 There is, however, is a growing appreciation by various agencies of the need to ground economic policies in local realities. For
+example, a recent World Bank commissioned study by Salvatore Schiavo-Campo entitled “Financing and Aid Management
+Arrangements in Post-Conflict Situations” notes that the first lesson of experience for aid in post conflict situations is “the imperative of assuring robust linkages between the aid and the rebuilding of local institutions, and the core challenge of balancing
+immediate reconstruction priorities with long-term institutional development.” Similarly, a recent World Bank publication entitled
+“Practical Guide to Multilateral Needs Assessments in Post-Conflict Situations” argues that a multilateral needs assessment should be
+seen as a “complex analytical process led by the national authorities and supported by the international community and carried out
+by multilateral agencies on their behalf, with the closest possible collaboration of national stakeholders and civil society.”
+78 Tony Addison, ed., From Conflict to Recovery in Africa (New York: Oxford University Press, 2003).
+79 Karen Von Hippel, Democracy by Force: US Military Intervention in the Post-Cold War World (Cambridge: Cambridge University
+Press, 2000); Krishna Kumar, ed., Post-Conflict Elections, Democratization & International Assistance (Boulder, CO: Lynne Rienner
+Publishers, 1998); Bertrand Badie, The Imported State: The Westernization of Political Order, translated by Claudia Royal (Stanford:
+Stanford University Press, 2004).
+80 See for example, Jeroen de Zeeuw, “Projects Do Not Create Institutions: The Record of Democracy Assistance in Post-Conflict
+Societies,” a paper prepared for the UNU/WIDER Conference on Making Peace Work, June 2004.
+81 Paris, At War's End.
+
+Endnotes
+
+25
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+82 See, for example: Sunil Bastian and Robin Luckham, Can Democracy be Designed? The Politics of Institutional Choice in Conflicttorn Societies (London: Zed Books, 2003); Von Hippel, Democracy by Force; William G. O'Neill, “International Human Rights
+Assistance” (The Hague: Clingendael Institute, July 2003); Benjamin Reilly, “International Electoral Assistance” (The Hague:
+Clingendael Institute, June 2003); Ross Howard, “International Media Assistance” (The Hague: Clingendael Institute, June 2003).
+83 Swedish Sida Evaluation Studies; Clingendael Evaluation Studies.
+84 Ibid.
+85 Susan Woodward notes that “The entire corpus of learning about how to leave behind a functioning state and consolidate peace
+is in conflict with decisions taken with little or no relation to developments at the country level.” Susan Woodward, “Peace
+Operations: the Civilian Dimension: Accounting for UNDP and the UN Specialized Agencies,” p.13.
+86 See the papers prepared by CIC for the Copenhagen Conference: Boyce, “The International Financial Institutions”; Durch,
+“Strengthening the UN Capacity”; Forman, “Building Civilian Capacity”; Peter V. Jakobsen, “The Emerging EU Civilian Crisis
+Management Capacity”; Woodward, “Peace Operations.”
+87 De Zeeuw, “Projects Do Not Create Institutions.”
+88 Ibid.
+89 For a concise statement of the links between weak states and US National Security, see Center for Global Development, On the
+Brink: Weak States and US National Security (Washington, D.C.: Center for Global Development, 2004).
+90 Dobbins et al., America's Role in Nation-Building; Dobbins et al., UN's Role in Nation Building; Orr, Winning the Peace; Center
+for Global Development, On the Brink.
+91 Orr, Winning the Peace, p.7.
+
+26
+
+Endnotes
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+Selected Bibliography
+Addison, Tony, ed. From Conflict to Recovery in Africa (New York: Oxford University Press, 2003).
+Anderson, Mary. Do No Harm (Boulder, CO: Lynne Rienner Publishers, 1999).
+Anderson, Mary, and Lara Olson. Confronting War: Critical Lessons For Peace Practitioners (Cambridge, MA: The Collaborative for
+Development Action, 2003).
+Australian Agency for International Development. “Peace, Conflict and Development Policy” (Canberra: AusAID, June 2002).
+Badie, Bertrand. The Imported State: The Westernization of Political Order, translated by Claudia Royal (Stanford: Stanford University
+Press, 2004).
+Bastian, Sunil, and Robin Luckham. Can Democracy Be Designed? The Politics of Institutional Choice in Conflict-Torn Societies
+(London: Zed Books Ltd., 2003).
+Bendaña, Alejandro. “Critical Assessments from the South,” in What Kind of Peace is Being Built? Reflections on the State of Building
+Ten Years After The Agenda for Peace (Ottawa: International Development Research Centre (IDRC), January 2003).
+Boyce, James K. “The International Financial Institutions: Postconflict Reconstruction and Peacebuilding Capacities,” prepared for the
+New York University Center on International Cooperation meeting on Strengthening the UN's Capacity on Civilian Crisis Management
+(Copenhagen, 8-9 June 2004).
+_____. Investing in Peace: Aid and Conditionality after Civil Wars (New York: Oxford University Press, 2002).
+_____. Economic Policy for Building Peace: The Lessons of El Salvador (Boulder, CO: Lynne Rienner Publishers, 1996).
+Bray, John. “MIGA's Experience in Conflict-Affected Countries: The Case of Bosnia and Herzegovina” (Washington, D.C.: World Bank
+Conflict Prevention and Reconstruction Unit, June 2004).
+Canadian International Development Agency. Compendium of Operational Frameworks for Peace Building and Donor Coordination
+(Conflict Prevention and Post-Conflict Reconstruction [CPR Peacebuilding Network], available at <http://www.acdi-cida.gc.ca/peace>.
+Canadian International Development Agency website, <http://www.acdi-cida.gc.ca/index-e.htm>.
+Cater, Charles. “The Regionalization of Conflict and Intervention,” IPA New York Seminar (West Point, NY: 5-9 May 2003).
+Cawthra, Gavin, and Robin Luckham. Governing Insecurity: Democratic Control of Military and Security Establishments in
+Transitional Democracies (London: Zed Books Ltd., 2003).
+Center for Global Development. On the Brink: Weak States and U.S. National Security (Washington, D.C.: Center for Global
+Development, 2004).
+Center for Strategic and International Studies (CSIS) and the Association of the United States Army (AUSA). “Post-Conflict
+Reconstruction: Task Framework” (May 2002), <http://www.csis.org/isp/pcr/framework.pdf>.
+Chesterman, Simon. You, the People: The United Nations, Transitional Administration, and State-Building (New York: Oxford
+University Press, 2004).
+Church, Cheyanne, and Julie Shouldice. The Evaluation of Conflict Resolution Interventions: Framing the State of Play (Ulster: INCORE
+International Conflict Research, 2002).
+Chr. Michelsen Institute. “After War: Reconciliation and Democratization in Divided Societies—Lessons Learned,” Summary Report
+(Bergen: Chr. Michelsen Institute 2000).
+Collier, Paul. Breaking the Conflict Trap: Civil War and Development Policy, (Washington D.C.: World Bank, 2003).
+Cousens, Elizabeth, and Chetan Kumar, with Karin Wermester, eds. Peacebuilding as Politics: Cultivating Peace in Fragile Societies,
+(Boulder, CO: Lynne Rienner Publishers, 2001).
+
+Selected Bibliography
+
+27
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+Dahrendorf, Nicola, et al. “A Review of Peace Operations: A Case for Change” (London: International Policy Unit, Kings College,
+March 2003).
+Date-Bah, Eugenia, ed. Jobs After War: A Critical Challenge in the Peace and Reconstruction Puzzle (Geneva: ILO, September 2003).
+Deutsche Gesellschaft für Technische Zusammenarbeit. Joint Utstein Study of Peacebuilding: National Report on Germany, (Eschborn:
+[GTZ] GmbH, 2003).
+_____. “Peace-building, Crisis Prevention and Conflict Management: Technical Cooperation in the Context of Crises, Conflicts and
+Disasters” (Eschborn: [GTZ] GmbH, 2002).
+Dobbins, James, et al. The UN's Role in Nation-Building: From the Belgian Congo to Iraq, Volume 2 in Rand's History of NationBuilding (Santa Monica, CA: RAND, forthcoming 2005).
+_____. America's Role in Nation-Building: From Germany to Iraq (Santa Monica, CA: RAND, 2003).
+Douma, P.S. The Political Economy of Internal Conflict: A Comparative Analysis of Angola, Colombia, Sierra Leone and Sri Lanka
+(The Hague: Netherlands Institute of Internaitonal Relations Clingendael, 2003).
+Duffield, M. Global Governance and the New Wars: The Merging of Development and Security (New York: Zed Books Ltd., 2001).
+Durch William J. “Strengthening UN Secretariat Capacity for Civilian Post-Conflict Response,” prepared for the New York University
+Center on International Cooperation meeting on Strengthening the UN's Capacity on Civilian Crisis Management (Copenhagen, 8-9
+June 2004).
+Durch, William J., et al. The Brahimi Report and the Future of UN Peace Operations (Washington, D.C.: The Henry J. Stimson Center,
+2003).
+Forman, Shepard. “Building Civilian Capacity for Conflict Management and Sustainable Peace,” prepared for the New York University
+Center on International Cooperation meeting on Strengthening the UN's Capacity on Civilian Crisis Management (Copenhagen, 8-9
+June 2004).
+Forman, Shepard, and Dirk Salomons. “Meeting Essential Needs in Societies Emerging from Conflict,” paper prepared for the
+Brookings Roundtable on the Relief to Development Gap (New York: Center on International Cooperation, n.d).
+Forman, Shepard, and Stewart Patrick. Good Intentions: Pledges of Aid for Post-Conflict Recovery, Center on International
+Cooperation Studies in Multilateralism (Boulder, CO: Lynne Reinner Publishers, 2000).
+Forman, Shepard, Stewart Patrick, and Dirk Salomons. “Recovering from Conflict: Strategy for An International Response,” Paying
+For Essentials Policy Paper Series, (New York: New York University Center on International Cooperation, n.d), available at
+<http://www.nyu.edu/pages/cic/pdf/Recovering%20From%20Conflict.pdf>.
+Fukuyama, Francis. State-Building: Governance and World Order in the 21st Century (Ithaca, NY: Cornell University Press, 2004).
+_____. “Nation-Building 101,” The Atlantic Monthly 293, No. 1 (January/February 2001).
+Gaigals, C., with M. Leonhardt. Conflict-Sensitive Approaches to Development: A Review of Practice (London: International Alert &
+International Development Research Centre, 2001), available at <http://www.international-alert.org/pdf/pubdev/develop.pdf>.
+Galama, Anneke, and Paul van Tongeren, eds. Towards Better Peacebuilding Practice: On Lessons Learned, Evaluation Practice and
+Aid & Conflict (Utrecht: European Centre for Conflict Prevention, 2002).
+Goodhand, J., with P. Atkinson. Conflict and Aid: Enhancing the Peacebuilding Impact of International Engagement: A Synthesis of
+Findings from Afghanistan, Liberia and Sri Lanka (London: International Alert, 2001).
+Government of Canada Department of Foreign Affairs and International Trade, “Report on Canada's Human Security Program 200001 and 2001-02” (Ottawa: DFAIT).
+_____.“Freedom from Fear: Canada's Foreign Policy for Human Security” (Ottawa: DFAIT, 2002).
+
+28
+
+Selected Bibliography
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+Government of Canada Department of Foreign Affairs and International Trade website, <http://www.dfait-maeci.gc.ca>.
+Griffin, M. “The Helmet and the Hoe: Linkages Between United Nations Development Assistance and Conflict Management,” Global
+Governance 9, no.2 (2003).
+Harris, Peter, and Ben Reilly. Democracy and Deep-Rooted Conflict: Options for Negotiators, International Institute for Democracy and
+Electoral Assistance (Stockholm: International IDEA, 1998).
+Howard, Ross. “International Media Assistance” (The Hague: Clingendael Institute, June 2003).
+_____. “International Media Assistance. A Review of Donor Activities and Lessons Learned,” CRU Working Paper 19 (The Hague:
+Netherlands Institute of International Relations Clingendael, 2003).
+Humphreys, Macartan. “Economics and Violent Conflict,” Human Security Bulletin: The Canadian Consortium on Human Security 1,
+No. 3 (October 2003).
+International Commission on Intervention and State Sovereignty (ICISS). “The Responsibility to Protect: Report of the International
+Commission on Intervention and State Sovereignty” (Ottawa: International Development Research Centre, December 2001),
+<http://www.dfait-maeci.gc.ca/iciss-ciise/pdf/Commission-Report.pdf>.
+International Development Research Center (IDRC) website, <www.idrc.org>.
+International Monetary Fund website, <www.imf.org>.
+Jakobsen, Peter V. “The Emerging EU Civilian Crisis Management Capacity: A ‘Real Added Value' for the UN?” prepared for the New
+York University Center on International Cooperation meeting on Strengthening the UN's Capacity on Civilian Crisis Management,
+Copenhagen, 8-9 June 2004.
+Kaldor, Mary. New and Old Wars: Organized Violence in a Global Era (Stanford, CA: Stanford University Press, 1999).
+Kievelitz, Uwe, et al. “Practical Guide to Multilateral Needs Assessments in Post-Conflict Situations,” Paper No. 15 (Washington, DC.:
+World Bank, August 2004).
+Klingebiel, Stephan, and Katja Roehder, “Development-Military Interfaces: New Challenges in Crises and Post-Conflict Situations”
+(Bonn: German Development Institute, 2004).
+Klingebiel, Stephan. “Impact of Development Cooperation in Conflict Situations: Cross-section Report on Evaluations of German
+Development Cooperation in Six Countries” (Berlin: German Development Institute, 1999).
+Kreimer, A., et al. The World Bank's Experience with Post-Conflict Reconstruction (Washington, DC.: World Bank, 1998).
+Kumar, Krishna, ed. Post-Conflict Elections, Democratization & International Assistance (Boulder, CO: Lynne Rienner Publishers,
+1998).
+_____, ed. Rebuilding Societies After Civil War: Critical Roles for International Assistance (Boulder CO: Lynne Rienner Publishers,
+1997).
+Leonhardt, M. Conflict Impact Assessment of EU Development Co-operation with ACP Countries: A Review of Literature and Practice
+(London: International Alert & Saferworld, 2000).
+Lund, Michael. “Taking Stock of Post-Conflict Peacebuilding and Charting Future Directions,” in What Kind of Peace is Being Built?
+Reflections on the State of Building Ten Years After The Agenda for Peace (Ottawa: International Development Research Centre,
+January 2003).
+Lund, M., and G. Rasmoelina, eds. The Impact of Conflict Prevention Policy: Cases, Measures and Assessments. SWP-Conflict
+Prevention Network Yearbook 1999/2000 (London: International Alert and Saferworld, 2000).
+Malone, David M. The UN Security Council: From the Cold War to the 21st Century (Boulder: CO: Lynne Rienner Publishers, 2004).
+Martin, Ian. Self-Determination in East Timor: The United Nations, the Ballot, and International Intervention (Boulder, CO: Lynne
+Rienner Publishers, 2001).
+
+Selected Bibliography
+
+29
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+Mehler, A., and C. Ribaux. Crisis Prevention and Conflict Management in Technical Cooperation: An Overview of the National and
+International Debate (Eschborn, Germany: Deutsche Gessellschaft fur Technische Zusammenarbeit [GTZ], 2000).
+Neild, Rachel. “Democratic Police Reforms in War-Torn Societies,” Conflict, Security and Development 1, no.1: 21-43.
+Nyheim, D., et al. Development in Conflict: A Seven Steps Tool for Planners (London: FEWER, International Alert & Saferworld, 2001).
+O'Neill, William G. “International Human Rights Assistance: A Review of Donor Activities and Lessons Learned,” Working Paper No.
+18 (The Hague: Netherlands Institute for International Relations Clingendael, 2003).
+_____. Kosovo: An Unfinished Peace (Boulder, CO: Lynne Rienner Publishers, 2002).
+Organisation for Economic Co-operation and Development. “Security System Reform and Governance: Policy and Good Practice,”
+Development Co-Operation Directorate Development Assistance Commitee [DAC/DAC] High Level Meeting, 15-16 April 2004.
+_____. DAC Guidelines: Helping Prevent Violent Conflict (2001), available at <http://www.gtz.de/security-sector/download/DAC_
+Guidelines.pdf>.
+______. DAC Guidelines on Poverty Reduction (2001), available at <http://www1.oecd.org/dac/pdf/G-pov-ex.pdf>.
+Orr, Robert C. Winning the Peace: An American Strategy for Post-Conflict Reconstruction (Washington D.C.: Center for Strategic
+International Studies, 2004).
+Paris, Roland. At War's End: Building Peace After Civil Conflict (Cambridge: Cambridge University Press, 2004).
+_____. “International Peacebuilding and the 'Mission Civilisatrice',” Review of International Studies 28 (October 2002).
+Pugh, M., and W.P.S. Sidhu, eds. The United Nations and Regional Security: Europe and Beyond (Boulder, CO: Lynne Rienner
+Publishers, 2003).
+Reilly, Benjamin. “International Electoral Assistance: A Review of Donor Activities and Lessons Learned,” Working Paper 17 (The
+Hague: Netherlands Institute for International Relations Clingendael, 2003).
+Salomons, Dirk, and Dennis Dijkzeul. “The Conjurers' Hat: Financing United Nations Peace-building in Operations Directed by Special
+Representatives of the Secretary-General,” (Oslo: Fafo Institute of Applied Social Science and Center on International Cooperation,
+New York University, 2001).
+Schiavo-Campo, Salvatore. “Financing and Aid Management Arrangements in Post-Conflict Situations,” Working Paper No. 6
+(Washington, D.C.: World Bank Conflict Prevention and Reconstruction Unit, 2003).
+Smith, Dan. “Getting Their Act Together: Toward a Strategic Framework for Peacebuilding,” synthesis report of the Joint Utstein Study
+of Peacebuilding (Oslo: The Royal Norwegian Ministry of Foreign Affairs, November 2003).
+Søbøm, Gunnar M., et al. Norwegian Assistance to Countries in Conflict: The Lesson of Experience from Guatemala, Mali,
+Mozambique, Sudan, Rwanda and Burundi (Oslo: The Royal Ministry of Foreign Affairs, 1998).
+Sriram, Chandra L., and Zoe Nielsen, eds. Exploring Subregional Conflict: Opportunities for Conflict Prevention (Boulder, CO: Lynne
+Rienner Publishers, 2004).
+Stedman, Steve, et al., eds., Ending Civil Wars: The Implementation of Peace Agreements (Boulder, CO: Lynne Rienner Publishers,
+2002).
+Stewart, Frances. “Conflict and the Millennium Development Goals,” Journal of Human Development 4, iss. 3.
+Stiefel, Matthias. “UNDP in Conflicts and Disasters: An Overview of the “Continuum Project,” UNDP Project INT/93/709 (Geneva:
+August 1994).
+Swedish Government Offices. “Shared Responsibility: An Integrated Policy for Global Development” (Swedish Government Offices,
+September 2003), available at <http://www.sweden.se/upload/Sweden_se/english/publications/RK/PDF/RK_Shared_responsability.
+pdf>.
+
+30
+
+Selected Bibliography
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+______. “Assessment of Lessons Learned From Sida Support to Conflict Management and Peace Building” (Stockholm: SIDA, 2000).
+UK Government Department for International Development (DFID) website, <http://www.dfid.gov.uk>.
+UK Government Department for International Development, Foreign and Commonwealth Office, “The Global Conflict Prevention
+Pool: A Joint UK Government Approach to Reducing Conflict” (London: DFID, August 2003).
+United Nations website, <www.un.org>.
+_____. “United Nations Plan of Action on Peacebuilding” (6 April 2001).
+_____. “Report of the UNDG-ECHA Working Group on Transition Issues” (December 2003 or February 2004).
+_____. An Agenda for Development: Report of the Secretary-General, UN Doc A/48/935 (6 May 1994), available at
+<http://www.un.org/Docs/SG/agdev.html>.
+_____, An Agenda for Peace: Preventive Diplomacy, Peacemaking and Peace-keeping (Report of the Secretary-General pursuant to the
+statement adopted by the Summit Meeting of the Security Council on 31 January 1992), UN Doc A/47/277-S/2411 (17 June 1992),
+available at <http://www.un.org/Docs/SG/agpeace.html>.
+_____. Handbook on United Nations Multidimensional Peacekeeping Operations (New York: United Nations, 2003).
+_____. Prevention of Armed Conflict: Report of the Secretary-General, UN Doc A/55/985-S/2001/574 (7 June 2001), available at
+<http://ods-dds-ny.un.org/doc/UNDOC/GEN/N01/404/64/PDF/N0140464.pdf?OpenElement>.
+_____. Report of the Panel on United Nations Peace Operations (Brahimi Report), UN Doc A/55/305-S/2000/809 (21 August 2000),
+available at <http://www.un.org/peace/reports/peace_operations/>.
+_____. Report of the Secretary-General on the Implementation of the Report of the Panel on United Nations Peace Operations,
+A/55/502 (20 October 2000), available at <http://www.un.org/peace/reports/peace_operations/docs/55_502e.pdf>.
+_____. Review of Technical Cooperation in the United Nations (Report of the Secretary-General), UN Doc A/58/382 (19 September
+2003), available at <http://www.un.org/ga/58/documentation/list3.html>.
+_____. Supplement to An Agenda for Peace: Position Paper of the Secretary-General on the Occasion of the Fiftieth Anniversary of
+the United Nations, UN Doc A/50/60-S/1995/1 (3 January 1995), available at <http://www.un.org/documents/ga/docs/50/
+plenary/a50-60.htm>.
+United Nations Department of Peacekeeping Operations. “Disarmament, Demobilization and Reintegration of Ex-Combatants in a
+Peacekeeping Environment: Principles and Guidelines” (New York: DPKO, December 1999).
+United Nations Development Programme. “Bureau for Crisis Prevention and Recovery, Introductory Kit,” 2003.
+US Agency for International Development (USAID) website, <www.usaid.gov>.
+Uvin, Peter. “The Development/Peacebuilding Nexus: A Typology and History of Changing Paradigms,” Journal of Peacebuilding and
+Development 1, no.1 (2002).
+_____. “The Influence of Aid in Situations of Violent Conflict,” prepared for the Development Assistance Committee Informal Task
+Force on Conflict, Peace, and Development Co-operation (Paris: OECD, 1999).
+Von Hippel, K. Democracy by Force: US Military Intervention in the Post-Cold War World (Cambridge: Cambridge University Press,
+2000).
+Waller, Peter. “Lessons Learned from Evaluations: Findings from a Recent Evaluation of German Development Co-Operation in
+Conflict Situations in Six Countries,” prepared for the seminar on After War Reconciliation and Democratisation in Divided Societies—
+Lessons Learned (Solstrand, Norway: 27-29 March 2000).
+Walter, B. F., and J. Snyder, eds. Civil Wars, Insecurity, and Intervention (New York: Columbia University Press, 1999).
+
+Selected Bibliography
+
+31
+
+POST-CONFLICT PEACEBUILDING REVISITED: ACHIEVEMENTS, LIMITATIONS, CHALLENGES
+
+Wartorn Societies Project website, <www.wsp-international.org>.
+Wood, Bernard. “Development Dimensions of Conflict Prevention and Peace-Building” (Ottawa: UNDP Emergency Response Division,
+June 2001).
+Woodward, Susan L. “Peace Operations: the Civilian Dimension: Accounting for UNDP and the UN Specialized Agencies,” prepared
+for the New York University Center on International Cooperation meeting on Strengthening the UN's Capacity on Civilian Crisis
+Management, Copenhagen, 8-9 June 2004.
+World Bank. The Role of the World Bank in Conflict and Development: An Evolving Agenda (Washington, D.C.: World Bank: Conflict
+Prevention and Reconstruction Unit, 2004).
+_____. “Building Capacity in Post-Conflict Countries,” Social Development Notes No. 14 (Washington, D.C.: World Bank, December
+2003).
+_____. “Conflict-Affected Countries: A Comprehensive Development Framework Approach” (Washington, D.C.: World Bank,
+September 2003).
+_____. “Development Cooperation and Conflict: The World Bank in Conflict-Affected Countries” (February 2003).
+_____. Post-Conflict Reconstruction: The Role of the World Bank (Washington, D.C.: World Bank, 1998).
+_____. Conflict Prevention and Post-Conflict Reconstruction Network, available at <http://www.worldbank.org/peacebuilding>.
+World Bank Group website, <www.worldbank.org>.
+Zeeuw, Jeroen de. “How to Make Democracy Assistance More Effective: Recommendations for Doing it Differently,” in Enhancing the
+European Profile in Democracy Assistance (The Hague: Netherlands Institute for International Relations Clingendael, 2004).
+_____. “Projects Do Not Create Institutions: The Record of Democracy Assistance in Post-Conflict Societies,” prepared for UNU/WIDER
+conference on Making Peace Work, Helsinki, 4-5 June 2004.
+
+32
+
+Selected Bibliography
+
+International Peace Academy
+
+WSP International
+
+777 United Nations Plaza
+New York, NY 10017-3521
+Tel: (212) 687-4300
+Fax: (212) 983-8246
+www.ipacademy.org
+
+International Environment House 2
+Chemin de Balexert 7-9
+1219 Chatelaine-Geneva
+Switzerland
+Tel: +41 22 917 85 93
+Fax: +41 22 917 80 39
+info@wsp-international.org
+http://wsp.dataweb.ch
+
+

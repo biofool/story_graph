@@ -1,0 +1,1110 @@
+Instrument for Stability Crisis Preparedness Component
+
+Enhancing Civil Society’s Role in Conflict Prevention
+and Peace‐Building in Cyprus
+
+Editor: Constantinos Adamides
+May 2011
+
+1
+
+Table of Contents
+
+Acknowledgements and booklet structure .................................................................................... 3
+Section 1: Introduction ........................................................................................................................... 4
+1.1. Objectives ........................................................................................................................................ 4
+1.2. Methodology and logistics for roundtables and interviews: ..................................... 6
+Section 2: Main Issues that hinder cooperation and lead to distrust ................................. 7
+2.1. Frequency of Interaction (pre and post 2003)................................................................ 7
+2.1.1. Overall assessment on interaction ............................................................................... 7
+2.1.2 Enclosed vs. open environment ..................................................................................... 9
+2.2. Recognition issues ..................................................................................................................... 10
+2.3. Social Pressure ............................................................................................................................ 11
+2.3.1 Family pressure ................................................................................................................... 12
+2.3.2 Peer Pressure (students) ................................................................................................ 13
+2.3.3 Colleagues .............................................................................................................................. 15
+2.3.4. Religious pressure............................................................................................................. 17
+2.4. Sensitive Issues and terminology........................................................................................ 17
+2.5. Media ............................................................................................................................................... 19
+2.6. Social projection of ‘other’ ..................................................................................................... 20
+2.7. Psychological barrier about crossing ................................................................................ 21
+2.8. ‘Recycling’ of Organizers and Participants...................................................................... 22
+2.9. Funding Problems ...................................................................................................................... 23
+2.10. Dissemination Problems ...................................................................................................... 24
+2.11. Use of the ‘other’ as a ‘token’ .............................................................................................. 24
+2.12. Term ‘bi‐communal’ could be counterproductive .................................................... 25
+2.13. Translation issues ................................................................................................................... 25
+2.14. Academic Cooperation: ......................................................................................................... 26
+2.15. Insufficient use of technology ............................................................................................ 27
+Section 3: Conclusion and recommendations ............................................................................. 28
+3.1. Overall Project Conclusions ................................................................................................... 28
+3.2. Recommendations: .................................................................................................................... 29
+3.2.1. Funding for bi‐communal projects (“forced” cooperation): ........................... 29
+3.2.2. Reduction of social pressure: ....................................................................................... 30
+3.2.3. More publication of successful cases of cooperation:........................................ 31
+3.2.4. De‐linking of politics with civil society activities: ............................................... 31
+3.2.5. More student / young activities: ................................................................................. 32
+3.2.6. Better use of technology:................................................................................................ 32
+3.2.7. Creation of bi‐communal cultural center: ............................................................... 33
+3.2.8. Careful phrasing:................................................................................................................ 33
+3.2.9. Sensitivity lessons: ............................................................................................................ 34
+3.2.10. Translation Services and Training: ......................................................................... 34
+3.2.11. Bi‐communal library: .................................................................................................... 35
+3.2.12. Better network:................................................................................................................ 35
+3.2.13. Decrease psychological barriers: ............................................................................. 36
+
+2
+
+ACKNOWLEDGEMENTS AND BOOKLET STRUCTURE
+This booklet is the outcome of a research project entitled Enhancing Civil society’s
+Role in Conflict Prevention and Peace‐building in Cyprus. The research was funded by
+the European Commission1 and was carried out by the Cyprus Center for the
+European and International Affairs in the period of January 2010 – May 2011. The
+aim of this booklet is to present the main findings of the research in an
+uncomplicated and non‐academic way so as to widen the audience spectrum that
+could use the findings of the project and thus disseminate the results to the
+maximum level possible. Subsequently, the bigger part of the booklet is comprised
+of small bullet‐point like paragraphs that emphasize the different issues discussed.
+The booklet is available, free of charge, both in hard copy and electronic forms at
+http://www.rcenter.intercol.edu/round_tables/.
+
+Structure of booklet: The booklet is separated into three broad sections with several
+sub‐categories in each one. The first section is a brief introduction highlighting the
+main objectives and methodology of the project. Following that is a detailed outline
+of the main issues discussed during our roundtable meetings and interviews. These
+are issues that potentially hinder further cooperation (and thus resolution) and
+increase mistrust between the two sides. That said, the booklet will not present the
+findings of each roundtable separately, but will rather present the overall findings
+with references to specific issues that were particularly relevant to certain
+individuals. The last section will present recommendations that were either
+suggested by the participants themselves or emerged from our analysis of the issues
+raised during the roundtables and the interviews.
+
+1
+
+More specifically the project was under the Instrument for Stability Crisis Preparedness Component
+Annual Action Programmes 2007-2008 - Peace-building Partnership Support Organization of Round
+Tables, contract number PBP-2008-2-AAP-2007/2008.
+
+3
+
+SECTION 1: INTRODUCTION
+For the implementation of the project we held a series of bi‐communal roundtable
+meetings with individuals from different sectors of the society, namely artists, NGOs,
+academics, students, business people and low‐level elite, while we also conducted a
+number of interviews with significant actors in Cyprus.
+
+1.1. Objectives
+The project had several broad (general) objectives, some long‐term and over‐
+optimistic and some short‐term and quite feasible. One of the overall and long‐term
+objectives of the project was to use the findings of our meetings to decrease the
+possibility of further crises and create more efficient peace‐building reconciliation
+measures. Whether we managed to contribute towards this goal cannot be entirely
+clear. Certainly the people involved in the roundtables became more aware of the
+problems and fears of the “other” and suggested ways to improve the environment
+in which they operate. Moreover, the recommendations (see below) that derive
+from this project may help towards this goal. We certainly hope that through this
+booklet we will enhance this knowledge and come one step further to this very
+hopeful goal. Overall, and even though we should not have great expectations from a
+small project like this towards the prevention of future crises, we believe that at
+least the people that were directly involved (and thus influenced) will certainly
+contribute towards achieving this objective.
+
+The creation of more efficient peace‐building reconciliation measures was more
+achievable and feasible goal. All participants had recommendations on how the two
+sides (especially on an elite level) could contribute towards the creation of
+measures that would lead to more tangible and concrete outcomes.
+
+4
+
+This project also aimed at identifying the sources of mistrust and fears of the “other”
+and help increase communication between the two sides. We are confident that we
+these two goals, but especially the former, were fully met. The list of factors that
+lead to both fear and mistrust are outline in the next section.
+
+Two additional objectives were the creation of a long‐term network and early
+warning systems. It became obvious quite soon that this would be a feasible and
+rather easy task for some sectors of the society, namely artists, NGOs and even
+students, but not for others, such as business people, elite and academics. The post‐
+roundtable communication between us and among Greek and Turkish Cypriots
+indicates that a form of network has been created between the two sides. That said,
+we cannot yet argue with certainty that this is a “long‐term” network as by
+definition it requires time to prove that this is indeed the case; we certainly hope
+this is the case.
+
+Regarding the early‐warning system, we have some indication that this is beginning
+to work as well. More specifically, with the first political developments (change of
+Turkish Cypriot leadership) that hinted potential future crises, some of our
+participants immediately invited us to discuss the possible impact on the Problem.
+Similarly, other organizations (NGOs, such as Cyprus 2015) also invited us as
+participants and observers in roundtable discussions that involved new opinion
+polls (that could also act as indication for future crises) on the Cyprus problem. We
+are confident, therefore, that to a degree this project has met this objective.
+
+In addition to the overall objectives the project also had smaller and specific ones.
+More specifically, it aimed at creating a database with individuals from the different
+sectors that could be “used” for future cooperation between the two sides. Since the
+database is not publically available, CCEIA could be used as ‘hub’ through which
+individuals or organizations that are interested in engaging in bi‐communal events
+could find information about potential partners.
+
+5
+
+Another specific objective was the creation of grounds for mutual understanding
+and cooperation in specific fields. There is certainly an increased probability among
+our participants to cooperate now as they have a better understanding of the ‘other’
+and less fears. However, we cannot argue that we have changed the overall
+environment in Cyprus to a degree that cooperation is much easier on a wider level.
+This is precisely why our most important recommendation is that we need to
+conduct follow‐up projects that will not deal with the understanding of the factors
+for the problem, but rather with “cooperation games”. In other words, there is a
+need for the actual promotion of cooperation through funded activities.
+
+1.2. Methodology and logistics for roundtables and interviews:
+All roundtables were bi‐communal, with the number of Greek and Turkish Cypriots
+being almost always evenly distributed, and never exceeding a 60%‐40% ratio
+towards one or the other side. Particular attention was also given to have both male
+and female participants in the groups. Participants were chosen based on their
+expertise and profession and not on their political orientation with the only
+exception of academics when we chose, on purpose, academics with different views
+on the Cyprus problem to stimulate more profound discussion.
+
+More specifically:
+For the artists roundtable we chose a wide spectrum of artists, including painters,
+musicians and poets. Similarly, we chose individuals who are part of NGOs that focus
+on the environment, education, art, etc. The students who joined us were between
+the age of 15 and 17 and were accompanied by two of their teachers. Many of the
+student‐participants were also part of a US‐funded bi‐communal project which
+made the discussion very interesting, not least because they were very opinionated
+in regards to the ‘other’ and to the prospects of friendship between the two sides,
+but also in regards to the criticism and hostility they faced because of their actions.
+We chose business people from the construction and banking industries, as these are
+two of the most important industries in both sides of the Green Line. The
+
+6
+
+participants for the civil society roundtable were individuals who were part of the
+Master Plan, a UN‐sponsored bi‐communal plan aiming at renovating the old city of
+Nicosia on both sides of the Buffer Zone.
+
+In addition to the roundtables we also conducted a series of interviews that
+complemented the group discussions. More specifically we interviewed officials
+from the Greek and Turkish Chambers of Commerce, officials from Fire
+Departments, UN personnel, a bi‐communal UN‐stationed police (that act as a
+liaison for the police forces on the two sides), business people and political elite.
+
+Both the roundtables and the interviews had a semi‐structured format with some
+‘fixed’ questions that were used for inter‐sector comparison purposes. We were,
+however, also open to ‘free’ discussion, as the aim was, inter alia, to understand the
+issues that trouble the two sides.
+
+All the roundtable meetings took place at the premises of the University of Nicosia,
+with the exception of that of the civil society, which took place in the old city of
+Nicosia. CCEIA also arranged for the transportation of Turkish Cypriots who
+required transportation to and from the University. All the interviews on the other
+hand took place at the premises of the individuals we interviewed. On average each
+roundtable lasted for two and a half hours, and each interview for one hour.
+
+SECTION 2: MAIN ISSUES THAT HINDER COOPERATION
+AND LEAD TO DISTRUST
+
+2.1. Frequency of Interaction (pre and post 2003)
+
+2.1.1. Overall assessment on interaction
+
+7
+
+The first thing we wanted to establish during this project was how frequently
+individuals and/or organizations from the two sides cooperate(d). As expected,
+interaction between the two sides changed significantly with the opening of a
+number of crossing points in 2003 and the subsequent years. Prior to 2003
+meetings were very scarce and were usually limited to the buffer zone under the
+auspices of the UN or organizations such Fulbright. Many times meetings were held
+abroad, away from the authorities’ control (e.g. in the 1990’s the government of
+Sweden organized a series of bi‐communal events).
+
+In the post 2003 period events and interaction increased dramatically, albeit not
+among the wider population. People who do engage in such activities are indeed
+particularly active and took advantage of the opening of the crossing points. The
+same does not apply however for the wider public. While a significant percentage of
+the population crossed or crosses the Green Line there is little or no interaction with
+the ‘other’ (e.g. creation of friendships, business, sport activities or any other form of
+socialization).
+
+The artists and NGOs seem to be the most active groups. NGOs organize numerous
+events, while artists from both sides constantly struggle to show that arts should be
+over politics and nationality. The same applies for academics. Prior to 2003 it was
+much easier for them to meet abroad than in Cyprus, and their cooperation was
+essentially limited to American efforts to arrange bi‐communal conflict resolution
+groups. In Cyprus, these events were usually organized by the American embassy
+and were hosted mostly at Ledra Palace in the Buffer Zone or at the mixed village of
+Pyla. The Cyprus Fulbright Commission also made efforts for Greek and Turkish
+Cypriot academics to meet in Cyprus and abroad (e.g. Tel Aviv). After 2003
+academics can freely and much more frequently meet for conferences in both sides
+of the Green Line, albeit there is still hesitation to truly cooperate (e.g. co‐
+publications) for the reasons mentioned earlier.
+
+8
+
+Business people did not cooperate at all prior to 2003. After the opening of the
+crossing point however there is some interaction, which, however, is monitored by
+the EU and the Greek and Turkish Cypriot authorities. The construction business is
+perhaps the sector that utilized the opening of the crossing points the most. That
+said, however, the business activities between the two sides are insignificant for the
+economies of either side.
+
+Other officials, such as fire departments or police have even less interaction. The
+former do not cooperate in cases of forest fires or other natural disasters and they
+do not have any plans to do so. Interestingly, while on an unofficial level they know
+each other (i.e. fire department elites), they do not have any form interaction (e.g.
+training, seminars, drills, etc). Cooperation on police‐related matters is somewhat
+different. There is no official interaction, but there is a liaison committee stationed
+in the old Nicosia airport (UN buffer zone). The committee is comprised by two
+Greek and two Turkish Cypriots who act as liaisons for their respective sides, so
+indirectly there is some form of interaction on a top elite level. Direct interaction,
+however, is impossible due to the fear of recognition of the ‘other’ side.
+
+2.1.2 Enclosed vs. open environment
+Our participants raised the issue of open vs closed environments and emphasized
+that the latter have more chances of having an impact. It appears that the more
+effective meetings are the ones that create an ‘enclosed’ environment where
+participants are ‘forced’ to spend a lot of time together (without being able to
+‘escape’) and exchange views and learn to understand each other better, and more
+specifically understand their concerns and fears. Such meetings could be either
+abroad or in Cyprus.
+
+Similarly, the enclosed events last longer (many days or even weeks sometimes),
+increasing thus the chances of success. Almost all participants who experienced
+
+9
+
+both ‘kinds’ (short and long) emphasized that events that last only a few hours or a
+day are not as efficient.
+
+It must be noted, however, that even ‘enclosed’ meetings do not seem to have a long‐
+term effect as in most cases the communication between the participants cease after
+the meetings. This might have to do with the fact that the participants go back to
+their ‘normal’ lives where they are confronted with prejudice, social pressure, and a
+lack of understanding regarding bi‐communal activities.
+
+2.2. Recognition issues
+By far the most important (and obvious) issue that hinders cooperation or even generates
+antagonistic behavior is that of recognition. On one hand Greek Cypriots, elite and public
+alike, are terrified of the prospect of recognizing “TRNC”, while Turkish Cypriots on the
+other hand actively seek to achieve direct or indirect recognition. The fact that the Cyprus
+problem and the efforts for its resolution revolve around that of sovereignty and
+recognition makes this issue very important and extremely sensitive.
+
+The recognition pressure varies from quite implicit, as in the case of Academia, to very
+explicit, as in the case of government employees, army, police, etc. The implicit pressure,
+especially on Greek Cypriots, comes in the form of “do not engage in bi-communal
+activities because you might indirectly recognize “TRNC”. The pressure could be very
+unofficial or “semi-official” through “reminders” and “warnings”. Indicatively there are
+circular letters that remind interested individuals not to participate in bi-communal events
+as members of their institutions but rather only under their own individual capacity. This
+is not surprising, since no private or public institution would like to bear the cost of being
+the “one” which recognized “TRNC”. Said otherwise, these circular letters come
+primarily due to concerns for the impression that such acts may generate implied
+recognition. This is particularly the case if an event is organized in the northern part of
+the divide.
+
+10
+
+It must be noted that this fear is exacerbated because of the way the media present such
+events. The pressure is thus particularly intense for the interested individuals as well as
+the organizations they work for; no participant wishes to become the scapegoat or the
+reason for political trouble. That said, however, it is not just the Greek Cypriot media that
+creates problems in this respect. The Turkish Cypriot media (and political elite for that
+matter) take advantage of cases where individuals or organizations participated in events
+in the northern part to imply that an indirect form of recognition occurred. It is worth
+noting that this might not necessarily have been the organizer’s aim.
+
+Some participants argued that there is an inappropriate misrepresentation of the
+international law, and that recognition could not occur even if participants went under
+their professional capacity (e.g. as professor of ‘x’ university or employee of ‘y’
+ministry). In accordance, it could be concluded that the mere act of meeting with people
+from the Turkish Cypriot community even in territories that are not under the RoC
+control does not in effect constitute recognition, as so indicated in the series of meetings
+between officials of the two communities in all levels.
+
+Overall, regardless if any activities in bi-communal events truly constitutes recognition or
+not, the pressure on participants and organizers is so significant that it hinders
+cooperation on all levels (business, academic, social, athletic, etc).
+
+2.3. Social Pressure
+Social pressure can be exercised by a number of different groups. In order to
+understand the dynamics of this form of pressure it is imperative to break down the
+different ‘kinds’ that exist, namely family pressure, peer pressure, colleagues and
+the wider society in general. Before proceeding to the more detailed observations it
+is worth noting some general issues that emerged during the meetings.
+
+Turkish Cypriots who took part in bi‐communal events with their Greek Cypriot
+
+11
+
+counterparts were primarily accused of cooperating with the Greek Cypriot
+‘tricksters’ (since Greek Cypriots are portrayed as such in the northern part of the
+island). The problem however became significant when the pressure became
+personalized. It is indicative that the names of Turkish Cypriot participants were
+mentioned in the Turkish Cypriot press as CIA agents and were portrayed as people
+who are “selling their souls”. In the Greek Cypriot community things were not so
+dramatic (i.e. mentioning people’s name in the press), but there is still significant
+social pressure, which is usually portrayed in the form of ‘cooperation with the
+‘enemy’’. Moreover, and as some academics noted, the use of international law is
+many times used (even in a misinterpreted way) to apply social pressure (e.g.
+indirectly the “TRNC” will be recognized through such bi‐communal activities).
+
+Overall, the society (on both sides) is generally very skeptical regarding bi‐
+communal activities. Among other things this is due to a general fatigue with the
+Cyprus problem, but also because expectations as regards a political solution to the
+division are diminishing. What came out from most participants reactions was that
+the pressure is rather implicit and is expressed, many times, through their refusal to
+take part in bi‐communal activities and by ignoring others’ efforts in this respect.
+
+2.3.1 Family pressure
+Families and friends are a significant source of societal pressure. This is not
+surprising because they (family and friends) also feel social pressure because a
+family member or a friend is engaged in such activities with the ‘other’.
+
+Families exercise more explicit pressure, asking many times not to cross the Green
+Line or participate too often in such events, as this is considered as a form of
+betrayal and unpatriotic. A lot of the participants say that their families’ views have
+a significant impact on their decisions for this issue. This is particularly relevant for
+students who are under the age of 18.
+
+12
+
+Regarding the stance of parents of youngsters involved in bi‐communal activities, it
+can be observed that although most parents are supportive of the partaking of their
+children, more distant relatives take the side of more nationalist sentiments and
+blame the parents and children for their “wrongdoing”. This is of particular
+importance as the young who get involved in such activities feel particular pressure
+from their relatives, including cousins who are close to their own age.
+What is more, because many parents are afraid of the reactions of their friends and
+relatives they try their best to keep their children’s “acts” a secret. The pressure is
+based on the foundation that the ‘other’ is the reason for ‘our’ suffering therefore
+there cannot really be any trust and thus friendship. Unsurprisingly then, even if
+they do not oppose their children they do not show any interest in knowing the
+details of the activities.
+
+2.3.2 Peer Pressure (students)
+Students encounter considerable pressure from peers who have anti‐bi‐communal
+views and who are also very outspoken about them. The social pressure could be
+explicit as well as implicit, especially for young individuals. Explicit pressure could come
+in the form of name-calling (e.g. traitors, Turk or Greek lover), ‘cyber-war’ (e.g.
+facebook, youtube, etc). They may even be accused of ‘losing their identity’ (i.e.
+Greekness or Turkishness) and so on and so forth. Implicit pressure could come in the
+form of social exclusion (i.e. may not be invited to events or other peers do not want to
+associate with them socially). As a result, many interested individuals (for bi-communal
+activities) refrain from doing so out of fear what others may say and how they may make
+them feel because of the social exclusion.
+In a number of cases students choose not to go to any presentations or activities
+they ideologically disagree with. In other cases however, when they do go (despite
+their disagreement), they do not hesitate to show their convictions during those
+school activities and thus exert enormous pressure on their peers. For example,
+
+13
+
+when some of our participants presented the positive side of the ‘other’ in school
+events, the result was the emergence of groups of students with “hard‐line” and
+anti‐bi‐communal feelings, which openly blamed the participants for “making up”
+with the enemy who has murdered ‘us’ and who is to be blamed for much of our
+pain and suffering. They also blamed participants for bringing the enemy to ‘our’
+camp as friend (i.e. like a Trojan horse). Young people involved in bi‐communal
+activities are presented as traitors and therefore face harsh criticism from their
+schoolmates. Furthermore a number of students ask to avoid discussions like this outside
+the merits of a particular program. They also may threaten in advance about the applied
+terminology of the presentation to avoid any offending topic.
+Unsurprisingly, the pressure is more significant in cases where the anti‐bi‐
+communal students are the majority (as opposed to cases where the majority is
+neutral to the organization of such events). It must be noted that this form of
+behavior and social pressure applies to both sides of the Buffer Zone.
+Interestingly, when the students involved into bi‐communal activities insist on their
+views, some classmates, friends and relatives eventually give in into listening to
+their opinions and many open up more to the possibility that some form of
+friendship could indeed develop between the two sides (even though they still may
+be unwilling to participate themselves into bi‐communal activities).
+What is particularly important to note is that according to our young participants,
+the younger generation “extremists” (as our participants called them) have more
+extreme views than the older generation, even though the former have not
+experienced any violent conflict themselves (as the 1974 war took place many years
+before they were born). With this in mind it is not surprising that they find it
+particularly difficult to listen to any of their classmates who are engaged in bi‐
+communal activities.
+The solution to this problem, according to the students‐participants, is to show
+understanding and respect for their views as well (i.e. anti‐bi‐communal) so as to
+make them listen to the compromising argument of the bi‐communal supporters
+14
+
+afterwards. The key, they argue, is to let them talk first and ‘pour out their
+pessimism’, and then make their counter‐arguments; otherwise what will remain is
+antagonism without any value added to the conversation.
+Another interesting aspect is that a number of people seem to believe that the students’
+participation in bi-communal activities do not necessarily change any opinions, but rather
+help identify where a particular (young) audience stands politically and ideologically so
+that they can individually be approached (by foreigners and interested locals) and used as
+opinion ‘carriers’. Said otherwise, they could potentially become actors that would
+transfer specific opinions to their peers.
+
+2.3.3 Colleagues
+Another aspect of social pressure is that of colleagues, which takes place either at
+the work environment (i.e. physical place of work) or among individuals who are in
+the same line of work even though they do not work at the same place (e.g.
+academics in different universities).
+
+The social pressure in this sub‐category could either be direct (explicit) or indirect
+(implicit) and it depends, to a significant extent, on the profession (e.g. government,
+NGOs, academia, private sector, etc).
+
+One of the general observations is that individuals who refuse to cross over or
+associate with individuals from the other side tend to try to convince their
+colleagues of acting the same way. But even those who may engage in bi‐communal
+activities may also change their views once circumstances change (e.g. political
+developments).
+
+The pressure in the academic and research institutions, and among scholars in
+general, is quite implicit and frequently take place through circular letters that
+remind faculty not to participate in international conferences as members of their
+
+15
+
+institutions, but rather only under their own individual capacity (e.g. as experts in a
+specific field). These circular letters are usually the outcome of direct or indirect
+pressure from the political elites who are concerned with issues of direct or indirect
+recognition or with issues that could potentially harm their side’s position on the
+Cyprus problem. It should be noted that this pressure is on private universities as
+well.
+
+Some of the academics at the roundtable argued that pressure is applied with the
+use of inappropriate misrepresentation of the international law. Specifically they
+argue that recognition could not occur even if scholars went under their
+professional capacity (e.g. as professor of “x” university). According to these
+participants, the mere act of meeting with people from the Turkish or Greek Cypriot
+community even in territories not under the control of the Republic of Cyprus does
+not in effect constitute recognition of its entirety, as so indicated in the series of
+meetings between officials of the two communities in all levels.
+
+The pressure on civil servants may be much more direct as there are usually explicit
+“recommendations” on issues regarding the other side. Almost always cooperation
+between the two sides is unacceptable unless there is an agreement on a top
+(political) level. Moreover, colleagues may also place significant pressure on each
+other, involve superiors to extent the pressure, or even use one of the political
+parties to take action. Individuals working in the private sector are slightly more
+“free” than civil servants, even though this depends to a great extent on the
+corporation.
+
+The pressure that artists or employees in NGOs face is slightly different, not least
+because the majority of them are actively involved in bi‐communal events. In
+addition, most place art (be it music, painting, dance or other activities) above
+political issues. That said, many artists are very opinionated and may react and
+place pressure on colleagues if they consider something to be unacceptable (e.g. a
+recital that takes place in a church north of the buffer zone).
+16
+
+2.3.4. Religious pressure
+Religious pressure is exercised both officially (e.g. financial support for an NGO) and
+unofficially on the Greek Cypriot side. Currently, north of the Green Line religious
+pressure is not prevalent yet. However, due to demographic changes religion is
+becoming more visible in the daily lives of Turkish Cypriots and there is a growing
+demand for more mosques to be built and the Quran to be taught. It appears that on
+the side of politicians the religious surge is instrumentalized in order to further
+their interests, which participants expect to have a big impact on the bi‐communal
+activities as pressure is anticipated to grow.
+
+The religious element is very significant for many families as well in their exercise of
+explicit pressure to convince relatives not to cross to the other side or to participate
+too often in bi‐communal events, as this is considered as a form of betrayal to their
+religion and culture.
+
+2.4. Sensitive Issues and terminology
+One of the most commonly discussed issues during the roundtables and the
+interviews were those of ‘sensitive’ issues and the ‘correct’ terminology. This is
+issue is not, of course, unrelated to that of recognition. What was particularly
+interesting was the fact that not even the people who are frequently involved in bi‐
+communal activities seemed to be aware of the significance of these two issues for
+the ‘other’.
+
+Turkish Cypriots raised the issue that Greek Cypriots (including bi‐communal event
+organizers) lack the understanding of the Turkish Cypriot culture and religious
+beliefs. They gave the example that during meetings many times the only available
+food offered is pork, which, obviously, is not part of their diet. Greek Cypriots on the
+
+17
+
+other hand had similar feelings and gave examples of events organized in places that
+made Greek Cypriot participants uncomfortable (e.g. churches or monasteries in the
+northern part of the island). The majority of Turkish Cypriots argue that the choice
+of these buildings is solely based on their suitability for the events (e.g. recitals,
+galleries, etc) and that there is no intent to aggravate Greek Cypriots. The Greek
+Cypriot opinions, however, are split. Some argue that there is a purposeful choice on
+behalf of Turkish Cypriots in order to ‘irritate’ Greek Cypriots, while others argue
+that the choice may indeed be without any negative intent, even though this does
+not provide an excuse for the lack of basic understanding that the use of such areas
+would make the (Christian) Greek Cypriots very uncomfortable.
+
+Another contentious issue seems to be the question over terminology and
+topographical names (e.g. Istanbul vs Constantinople or North/South, with capital
+“N” and “S”, the use of the word “President” for the Turkish‐Cypriot leader, the use
+of TRNC without quotation marks, etc.). These are issues that many times create
+problems in events such as academic conferences, social or art‐related activities.
+More specifically, a number of times people may focus on the use of words such
+“President” or “TRNC” and miss the entire point of the event, while they will most
+likely leave dissatisfied and angry with the organizers, with all the negative
+repercussions that this will have on future events. What should be noted is that,
+especially Greek Cypriots, may ‘get in trouble’ if they participate or co‐organize an
+event where the ‘proper’ or expected terminology is not used. More specifically, they
+will most likely be accused of indirectly recognizing the entity in the northern part
+as an independent state.
+
+Overall, therefore, if the aim of these events is to promote the bi‐communal spirit
+and reduce the conflict between the two sides, the organizers must be particularly
+careful with the terminology they use and try to avoid the promotion of any political
+agenda. It must be noted that whether the use of quotations on words or the
+‘proper’ terminology could indeed have an impact on the political development of
+the problem is irrelevant. What is relevant is that both the participants and the
+18
+
+audience of such events many times focus on these issues and not on the essence of
+the event. An indicative example is that of a young musician who frequently
+participated in a series of bi‐communal events until she realized that on the
+program it was written in Turkish (not in the English or Greek translation) “under
+the auspices of the President of TRNC”. After this realization not only she refused to
+receive any payment for her work, but also notified the Ministry of Education and
+Culture about this development. Needless to say that neither she, nor any of her
+close associates, will participate in such events in the future.
+
+2.5. Media
+Generally, the media has had at best a neutral and at worst a negative role to play.
+Overall the media (including television, newspapers and radio) do not take a
+supportive stance and do not promote sufficiently bi‐communal activities. On the
+contrary, it was widely accepted from most participants (but especially those of
+NGOs and academics) that the media has harshly criticized participants and
+organizers alike, on both sides of the divide. The criticism created psychological
+obstacles for participants on both sides of the divide, as a number of people were
+unwilling to participate in events that would ‘label’ them as ‘non‐patriotic’.
+
+The media criticisms were particularly harsh and frequent prior to 2003 (opening of
+the crossing points) and in the period leading to and following 2004 and the
+simultaneous referenda. During periods of “national decision making” (e.g. period of
+the Annan Plan) particular emphasis was given to scholars who were engaged in bi‐
+communal work. It must be noted that the media is still actively involved in the
+Cyprus problem and still criticize elite and non‐elite alike for their activities,
+especially when there are ‘interesting’ or potentially path breaking developments.
+
+19
+
+In general, in regards to bi‐communal activities and not just the Cyprus conflict, the
+media approach acted as a disincentive for individuals (especially academics and
+NGOs) to work together. That said, not all newspapers/stations behave the same
+way. Some are more critical and influential than others.
+
+2.6. Social projection of ‘other’
+How Greek Cypriots are portrayed in the Turkish Cypriot community and the other
+way around is also an issue that is ranked high in the list of bi‐communal
+cooperation obstacles. There is no active or conscious effort in either community to
+‘educate’ the public about the ‘other’s’ culture, fears, concerns, etc. As a result, there
+is many times a false or exaggerated representation about the people on the ‘other’
+side of the Buffer Zone.
+
+It is not a coincidence that many of our participants focused on the heated issue of
+the history books. Some were against the current structure and content of the book
+that, as they argue, stress motherland identities (Greek and Turkish) rather than a
+common Cypriot one. Others however defended the content of the books arguing that it is
+factual and not biased. Specifically the argument against Greek Cypriot books was that
+much of the content focuses on the history of Greece rather than that of Cyprus, except
+for the medieval period. In addition, they also argue that an effort has been put on detail
+elaboration on the sufferings caused and killings made by the Turks whereas the potential
+mistakes and misconducts of the Greeks have been ignored or downsized. Unlike the
+Greek Cypriot books that have remained unchanged, the Turkish Cypriots did make some
+changes, but, according to some participants, they political elite is thinking of changing
+them back due to ‘factual errors’ (an argument that seems to be corroborated by the
+press). The overall argument is that the education systems of both sides and more
+specifically the books and celebrations create an environment where the ‘other’ is always
+perceived as the ‘brutal enemy’, with all the problems this creates for possible
+cooperation between the two sides. NGO participants and students were particularly
+
+20
+
+vocal about this issue. Interestingly no participant argued against the validity of the
+historical facts (e.g. whether or not there have been killings or not); what they argued
+instead was the need to include an acknowledgement of ‘our’ mistakes and the need for
+more emphasis on positive past experiences between the two sides.
+
+Some of our students (from both sides) emphasized that they complained about the
+content of the history books, but not much attention is given to their complaints. On the
+contrary, teachers have become more cautious to avoid any comments or opinions
+beyond official guidelines of schools.
+The outcome of this dominant social projection of the ‘other’ is the creation of an
+atmosphere of divisive misunderstanding, specifically among the youth who have not
+experienced the normal life as it used to be between the two communities. General
+alienation among communities has given way to the existence of a rather confrontational
+sentiment among individuals, the youth in specific, towards the ‘other’ that is perceived
+as someone responsible for all ‘our’ suffering. The problem is that once opinions are
+formed, it is difficult to change them as they become internalized.
+
+2.7. Psychological barrier about crossing
+One of the issues that was particularly evident from the roundtables as well as the
+interviews we contacted was the psychological barrier that exists when it comes to
+crossing to the ‘other’ side. This is especially true for Greek Cypriots, whose main
+objection is that they should not be forced to show their identity or passport within
+their own country. It must be noted that some refuse to do that because they do not
+want to indirectly recognize the ‘TRNC’, while others understand that this does not
+imply recognition but still refuse to do it anyway for ideological reasons. Thus, many
+Greek Cypriots do not cross the Green Line even if they are invited to work‐related
+events such as training projects. That being said, most are very willing to work with
+Turkish‐Cypriots as long as the events take place in the government‐controlled
+areas (i.e. south of the Green Line).
+
+21
+
+To support their argument, Greek Cypriots pointed out the conscious efforts made
+by the Turkish Cypriot community to emphasize the feeling that the area north of
+the Green Line is an independent state. Specifically, this feeling is exacerbated by the
+heavy Turkish symbols such as flags, signs and statues (e.g. that of Ataturk). As the
+argument goes, if communication was truly the goal of both communities, both sides
+would do their best to make the ‘other’ feel comfortable and not the other way
+around.
+
+2.8. ‘Recycling’ of Organizers and Participants
+Participants who were actively and frequently involved in either the organization or
+participation of bi‐communal events (e.g. artists, NGOs, academics, artists, students,
+etc) raised a very important issue, namely that of the ‘recycling of people’. More
+specifically, it has been observed that there is a core of the same participants who
+can be found in almost all bi‐communal activities, be it professional (e.g.
+conferences) or social activities. The bigger problem with this ‘recycling’ is rather
+obvious: the bi‐communal activities do not have an impact on the wider population;
+at least not to the degree that some actors hoped.
+
+Subsequently, what we have in Cyprus is an environment where in bi‐communal
+meetings the ‘preachers preach to the converted’. Said otherwise, while the issues
+discussed in the meetings may indeed be very important that could potentially have
+an impact on the Cypriot society, their impact actually remains among the people
+who already share the same ideology, as no ‘outsiders’ follow such events. This is
+not surprising though as most people hold either anti‐bi‐communal or neutral views
+regarding such activities and subsequently they refrain from attending. As a result,
+these issues that could have an impact do not reach the wider population but only
+those who believe in them anyway.
+
+22
+
+In conclusion, a general observation is that there is a problem with the
+dissemination of bi‐communal outcomes/activities.
+
+2.9. Funding Problems
+Another particularly important problem is the insufficient financial grants for bi‐
+communal activities. Most participants (perhaps with the exception of academics)
+argued that the reason behind this problem is not so much the lack of funds, but
+rather the chances of getting them. More specifically, the participants focus on the
+difficulty and complicated structure of the applications, especially for non‐experts
+who are not familiar with the research proposal writing. As a result the chances of
+getting funding through a competitive procedure (e.g. research proposals) are
+significantly reduced.
+
+Similarly, there is usually a considerable time lapse between the application, the
+granting of the funds and the transfer of the money to the local actors. This creates a
+problem for the organizers of events, as many times they do not have sufficient
+funds to conduct their work (especially the NGOs) throughout the year.
+
+The abovementioned problems are in regards to domestic and international grants
+(e.g. EU, USAID, etc). However, what they noted is that there is very limited access to
+domestic grants – i.e. from the government of the Republic of Cyprus and the
+authorities in the north ‐ for bi‐communal projects, which subsequently means that
+all the funding must come externally. This creates other problems though, namely
+social pressure because it is many times assumed that behind any (external) funding
+there is a particular political agenda of the agency or the country that provides the
+grant. It is not surprising that individuals engaged in bi‐communal projects with
+USAID funds were many times labeled as CIA agents.
+
+23
+
+2.10. Dissemination Problems
+The difficulties of disseminating bi‐communal projects are in a number of cases
+closely connected to the ‘recycling of participants’ (§8) and to that of funding (§9).
+Besides the aforementioned problem of recycling, the effectiveness of the
+dissemination activities are handicapped by the lack of funding, as effective
+advertising measures are in most cases out of reach.
+
+Moreover, since the media have either a neutral or rather negative stance towards
+bi‐communal activities they are not of particular assistance when it comes to
+reaching the wider population. Therefore, the dissemination of information usually
+does not take place with the help of the mass media such as the press or TV, but
+rather with small publications or through the Internet, or even through word of
+mouth. This means, however, that only those who are interested in such activities
+will actively search for published material or actively listen to their peers.
+
+2.11. Use of the ‘other’ as a ‘token’
+Perhaps the most unexpected issue raised during the meetings was that of the use of
+the ‘other’ as a ‘token’. Both Greek and Turkish Cypriot participants pointed out that
+they have been used as ‘tokens’ by one or the other side at some point in time. More
+specifically, organizers frequently invite participants from the other side simply to
+prove that there are participants in events from the ‘other’ community. Said
+otherwise, organizers might invite a Greek or Turkish Cypriots just to say that there
+is participation from both sides (when in reality they are not truly interested in their
+presence or their views).
+
+The reasoning behind this behavior has to do with the logistics of organizing bi‐
+communal events. Such ‘tokens’ could help the organizers improve their image
+
+24
+
+internationally and increase their funding opportunities from the EU or other local
+or foreign institutions.
+
+2.12. Term ‘bi‐communal’ could be counterproductive
+Similar to the case above, the use of the term ‘bi‐communal’ could sometimes end up
+hurting any reconciliation process rather than helping it. A number of participants
+pointed out that the use of the term ‘bi‐communal’ is perceived by outsiders as
+negative and often becomes a ‘social weight’ these individuals have to carry,
+becoming thus less efficient or even counterproductive.
+
+More specifically, the use of the term ‘bi‐communal’ does not necessarily create
+increased interest or enthusiasm; on the contrary it creates skepticism. In addition,
+many feel that instead of diminishing the barrier between the two communities, the
+use of the term ‘bi‐communal’ rather increases the awareness of the ‘otherness’ and
+the differences between the two sides. Instead, it was suggested to use simply the
+term ‘Cypriot’ in order to underline what is common between the two population
+groups and not what is different.
+
+2.13. Translation issues
+This is a practical problem, which, however, has a significant impact on the activities
+and the impact they may have. According to our participants it is particularly
+difficult to find, and very expensive to use, translators. This creates a problem for
+the organization and implementation of projects, but also the dissemination of the
+results in both languages.
+
+To overcome this problem translation is often done from Greek into Turkish and
+vice versa with online help. This, however, can be controversial and even cause
+political problems when it comes to sensitive terms such as ‘re‐unification’ vs.
+25
+
+‘unification’. These are details that online software or paid online translation cannot
+easily handle. Similarly, problems arise when terms cannot be translated literally
+into the other language.
+
+What is more, there cannot be direct translation during the meetings, which also
+creates a number of problems, including the actual implementation of bi‐communal
+meetings. This problem is difficult to overcome mainly for two reasons. The first is
+that there are not many people who can translate from Greek to Turkish and vice
+versa. The second is that it costs a lot of money to hire translators and funding is
+very limited.
+
+2.14. Academic Cooperation:
+This section focuses specifically on the prospects and difficulties academics face or might
+face (should they decide to cooperate). According to our participants there are several
+minor, yet significant, issues involved in the process of mutual academic work, such as
+co-authorship of articles and books and the co-hosting of conferences. Most of these
+problems derive from the issue of recognition mentioned above. Specifically, a number of
+these issues revolve around the question of location, the publishing house and the
+assertion of the institutional affiliations of the authors. This is issue if much more
+sensitive for Greek Cypriots who do not want to inadvertently recognize, or be accused of
+recognizing “TRNC” through their academic work. That said, it seems that Turkish
+Cypriots are also particularly sensitive on this issue, even though our participants did not
+openly admit it, given the fact that you very rarely see Turkish Cypriot authors publish in
+Greek Cypriot journals.
+
+It is thus very rare to see local edited volumes with both Greek and Turkish Cypriot
+authors with the exception of PRIO publications (or other similar NGOs). In the rare
+cases where you see conference proceedings, many times the authors are mentioned
+without any reference to their institutional affiliation. However, when the volumes were
+
+26
+
+edited and published by foreigners outside Cyprus, then mentioning of institutional
+affiliation was no longer considered a problem as it was not in the hands of either Greek
+or Turkish Cypriots, but rather in the hands of the editor and/or publishing house (e.g.
+Oxford University Press). As a result, indirect academic cooperation abroad could be
+achieved relatively easily and without any personal cost for the academics involved.
+
+The same matter is persistent when it comes to the participation of Turkish Cypriot
+scholars even in international conferences held in the Greek Cypriot side. Interestingly
+the problem is not just with Greek Cypriots. More specifically one of our participants
+emphasized that there was a case of a Turkish Cypriot academic whose affiliation with
+the Turkish university where he taught was not considered an issue of concern in its
+public expression by Greek Cypriots, but when he moved back to his academic
+institutions in the northern part he faced problems. More specifically, it was considered to
+be ‘unacceptable’ that his work would be publicized by a Greek Cypriot university press.
+
+Some scholars believe that it is the wrong approach to endeavor towards seeking
+principle grounds in the evaluation of bi-communal conventions. This is not least because
+the effort is based on a seemingly idealized perception of the existing facts and that is
+why activities like co-authorship suddenly become significant. In reality the essential fact
+is that there is a general conflict in Cyprus which has consequently resulted in subsequent
+overlapping conflicts within each community, which in turn, lead to conflict of interests
+as there are many stakes essential for various players, like universities, government,
+media, etc. Therefore, according to the participants, it is a mistake to think and talk as if
+there is or must be an idealized frame of principles which implicitly assume that they
+would have an impact on the problem. In so thinking, it is concluded that eventually it is
+simply up to individuals to decide on their actions.
+
+2.15. Insufficient use of technology
+
+27
+
+While the Internet is a particularly useful communication tool (for social or professional
+issues), this does not seem to be the case in Cyprus when it comes to the exchange of
+information and/or communication between the two sides. Specifically, the only way for
+an individual to follow non-political developments (which is covered by the media) on
+the other side (e.g. academic work) is through the Internet, as the use of the ‘other’s’
+libraries and/or other facilities is more of a science fiction than a realistic scenario. The
+use of Internet, however, assumes that the scholarly work is available online in journals
+that the institutions from the other side subscribe to (i.e. international journals). In the
+cases where the work is published in local journals that the ‘other’ side does not
+subscribe to, then it becomes almost impossible to access them. Similarly, any nonjournal work (e.g. books, reports, etc) published by local publishing houses (e.g.
+University of Nicosia Press, or Eastern Mediterranean University Press), is also de facto
+inaccessible since it is highly unlikely that the libraries of academic institutions would
+carry that work (from the ‘other’ side), as this would mean indirect recognition of the
+‘other’s’ institutions and thus state. Clearly this limits to a great extent the options for
+scholars who deal with the same Cypriot issues (in any subject and not just politics) to
+follow the domestic research developments.
+
+SECTION 3: CONCLUSION AND RECOMMENDATIONS
+
+3.1. Overall Project Conclusions
+Perhaps the most positive aspect of the project is that we were able to identify
+common variables in all sectors of the society. These commonalities are witness to
+the fact that some issues are not sector‐specific, but are rather systemic, in the sense
+that they affect individuals in all sectors of the society. This identification allows us
+to make more educated recommendations that would help improve the overall
+environment and not just a specific sector.
+
+28
+
+In addition, another unexpected positive result was the fact that all participants
+were willing to offer not just their negative personal experiences that led to
+cooperation problems, but also the positive ones. Indeed they emphasized how
+some people on both sides try to improve the environment the best way they see fit
+(since for some people such efforts are hurtful). The fact that participants focused
+on the positive aspects as well, not only allowed for the creation of a very positive
+environment during the roundtables, but also increased dramatically the prospects
+for further cooperation between the participants.
+
+Equally important was the fact that all participants found the project particularly
+interesting and were willing to contribute to the project by updating us and
+‘including’ us in their daily operations. As a result a form of network, regardless of
+how small it may be for the time being, seems to be quite strong.
+
+3.2. Recommendations:
+There are a number of recommendations that emerged from the roundtables and
+the interviews (either directly from the participants or from our own analysis) the
+most important of which are:
+
+3.2.1. Funding for bi‐communal projects (“forced” cooperation):
+While projects that help understand the problems behind the distrust in conflict
+areas such as Cyprus are indeed important and essential, they are still just the first
+step in any reconciliation process and cannot, without any follow‐up activities, have
+a concrete effect on the conflict. What is necessary therefore is the funding for
+projects that take a step further (beyond step one) and will promote actual activities
+that will “force” people from the two sides to engage in long‐term activities and not
+just one‐time events (e.g. participation in a roundtable).
+
+29
+
+Such projects could be activities in areas where the zero‐sum mentality cannot
+easily prevail; an indicative example would be projects revolving around the
+environment, pollution, water management, waste management, etc. A cleaner and
+greener Cyprus, for example, would increase the quality of life of all Cypriots on
+both sides of the Buffer Zone. Such projects will not just enhance cooperation
+between the two sides, but may also build friendships and relationships that could
+have spillover effects to other areas (families, peers, or even officials (elite)). In
+addition, cooperation on environmental issues are not easily be politicized assuming
+that the elite or organizers on both sides do not actively choose to do so in order to
+promote their own political agenda.
+
+3.2.2. Reduction of social pressure:
+As noted above perhaps the biggest hindrance for cooperation after that of the fear
+of recognition, is that social pressure. As a result, it is of utmost importance that
+there is a significant reduction in the social pressure for both the organizations as
+well as the individuals that organize or participate in bi‐communal events. The need
+for domestic and external mechanisms that would reduce this pressure is
+imperative, and these mechanisms could and should involve the domestic elite as
+well as the international community (primarily the EU).
+
+One recommendation that emerged from this project is increased EU “pressure”
+from the EU on the local elite to endorse bi‐communal activities in attempt to reduce
+the civil society’s concerns and divisions (i.e. patriots versus nationalists). It is
+understandable that the elite are concerned with the political cost that such
+endorsements may entail, but the EU could be used as a referent point (or an
+excuse) to justify their actions. However, for such actions to have any chance for
+success they must be truly unbiased and must not promote either side’s political
+agenda.
+
+30
+
+Similarly, there could be mechanisms where elite could lead by example. For
+example funding for bi‐communal projects on a low‐level elite level (e.g.
+municipalities) would show the public that the official authorities are not against bi‐
+communal activities. Such acts would certainly reduce the social pressure on other
+civil society actors, which means that they would automatically be empowered and
+their role would become much more important. More specifically, there could be
+grants that would involve training for Greek and Turkish Cypriot fire fighters to
+handle natural disasters. Moreover, there could be cooperation for the creation of
+specific plans in case of natural disasters (e.g. earthquakes), as according to our
+interviewees there are currently no plans for cooperation or common actions.
+
+3.2.3. More publication of successful cases of cooperation:
+There is also a need to make known all the successful cases of cooperation and the
+impact they have had (no matter how small). This would have an even bigger impact
+if the EU along with the local elite praised the actors involved, the actual activities
+and the outcomes, and emphasized their importance and the need for their
+perpetuation and enhancement. Similarly, there is a need to bring forward
+‘personal’ stories, such as the creation of good friendships that emerged because of
+bi‐communal activities. This could also help reduce the social pressure as the ‘other’
+would also be viewed as a ‘potential friend’ and not just the enemy.
+
+3.2.4. De‐linking of politics with civil society activities:
+As mentioned above the issue of recognition is by far the most important problem.
+On one hand Turkish Cypriots are trying to gain recognition through non‐political
+paths (e.g. education, sports, etc) and Greek Cypriots are trying to stop this from
+happening in. As a result everything is politicized and not just politics. Unavoidably,
+the degree of politicization is influenced by the developments of the negotiations
+between the two sides. While a complete delinking of activities with politics is
+
+31
+
+improbable and perhaps impossible, a reduction of the degree of political influence
+on non‐political issues is not. However, for this to happen the elite cooperation is
+somewhat necessary. Elite interventions (foreign and local) that emphasize that
+politics and social activities should not be linked would certainly help. They could
+use examples of how individuals within the same community continue to cooperate
+despite their political disagreements. A number of our participants emphasized that
+if their own political elite explicitly stated that it is not unpatriotic or harmful for
+their side to have social relationships with the ‘other’, they would engage in many
+more activities than they currently are.
+
+3.2.5. More student / young activities:
+The younger generation has not experienced the violent past. Their biases and fears
+exist because of the education (official, social and family education) they receive. As
+we have seen, however, they could break free from them if they have the correct
+opportunities. As a result, more emphasis should be given to projects and activities
+that involve the younger generation as they are more likely to change their minds
+than the older one that may have experienced violence. Examples of such activities
+could include camping, sports (e.g. diving, rock climbing, soccer matches, etc) or
+even academic projects related to the environment, technology, etc. What must be
+noted is that all activities must be de‐linked to any political agenda and efforts to
+use these activities as means of recognition.
+
+3.2.6. Better use of technology:
+The use of technology can significantly increase the prospects of cooperation both
+on a social and a professional level. For example, electronic socialization ‘tools’ (e.g.
+facebook) are unquestionably important, especially for the younger generation. It is
+an easy way to keep in touch and share experiences. Similarly, technology, and more
+
+32
+
+specifically the Internet, could be used to increase the flow of information regarding
+developments or activities on a professional level. An indicative example is the
+academia where there could easily be a much more efficient flow of information
+regarding research developments on Cyprus‐related issue, which could, inter alia,
+lead to cooperation between the two sides, especially on non‐political issues (e.g.
+environment).
+
+The EU could promote electronic communication between the two sides. EU‐funded
+or EU‐run websites would help eliminate any potential biases regarding any
+potential biases and political agendas.
+
+Lastly, the development of a “virtual Cyprus” similar to the well‐known “second life”
+(www.secondlife.com) could be an extreme but innovative way of bringing people
+(especially the young generation) closer together.
+
+3.2.7. Creation of bi‐communal cultural center:
+One recommendation that emerged from a number of different roundtables was the
+creation of a bi‐communal cultural center (near the Green Line), which could offer
+classes and other activities (e.g. summer school, theater performances, etc). This
+could lead to a wider participation of people from both sides, especially since the
+issues will have a non‐political nature. Such a Center, obviously, requires significant
+funding and cannot be fully funded by one or the other community alone, as this
+would create biases. Perhaps the optimum solution would be co‐funding by the two
+sides and other international actors such as the UN or the EU, but not individual
+states such as the UK or the US as many people consider them to be very biased.
+
+3.2.8. Careful phrasing:
+
+33
+
+As mentioned above, the term bi‐communal sometimes creates problems. However,
+because many grants require bi‐communal activities, it is rather inevitable not to
+use this term. Thus, one recommendation would be the EU to allow for grant
+applications for bi‐communal projects, without however the term bi‐communal
+being necessary.
+
+Similarly, and as mentioned, both sides are sensitive about certain words or
+terminology. As a result there could be EU projects or activities that focus
+specifically on the education of NGOs or other institutions that engage in such
+activities.
+
+3.2.9. Sensitivity lessons:
+Similar to the point above, it would help if there were projects or funding that would
+help increase the knowledge about basic things regarding the ‘other’s’ culture. This
+could include religious issues, diet limitations (e.g. pork), etc. Just like there are Jean
+Monnet sponsored Modules that aim at improving knowledge regarding European
+Integration, there could be funding for cultural learning. These “sensitivity lessons”
+could help towards the understanding of the ‘other’, which would subsequently lead
+to more tolerance.
+
+3.2.10. Translation Services and Training:
+There could also be funding for translation services. As mentioned, translation is
+one of the major problems as translators are basically non‐existent in Cyprus. As a
+result, one recommendation would be to create grants for projects that would fund
+translation training (from Greek to Turkish and visa versa). The ‘graduates’ from
+these programs would then be registered as ‘official’ translators and they could be
+hired for events or for publication translations.
+
+34
+
+3.2.11. Bi‐communal library:
+As mentioned there is no direct access to books/articles published by Greek Cypriot
+presses for the Turkish Cypriots and vise versa. If a researcher wishes to acquire a
+book/article from a local press s/he needs to go to the libraries on one or the other
+side, assuming of course s/he knows that such a publication exists. This is due to the
+fact that libraries are unwilling to hold books from the ‘other’ side, for the reasons
+mentioned above. As a result, one recommendation would be for the EU offices on
+both sides to create a small library that would hold only publications from local
+publishing houses from the ‘other side’. For example, the “EU House” in Nicosia
+(southern part) could hold the books published by Turkish or Turkish‐Cypriot
+publishing houses that would be available to any interested party. This way the local
+institutions would not bring themselves in the awkward position of holding an
+article or book from a ‘non‐recognized entity’.
+
+3.2.12. Better network:
+The police forces on both sides have a ‘liaison office’ stationed in the UN that helps
+facilitate police matters between the two sides. A similar situation could exist for
+other areas as well (e.g. academia, environment, business, etc), where individuals
+from both sides could work closely simply for ‘updating’ and ‘information’ purposes.
+Put simply, what could be done, with the help of the EU and/or the UN, is a bi‐
+communal team that would update its members on any developments (e.g. in
+academic, business, environment sectors) that the ‘other’ side does not have access
+to. The members of this team would then transfer this knowledge to their own
+respective communities. This way dissemination is much more efficient and does
+not create any issues of recognition or peer pressure. This team need not be
+comprised of full‐time employees, as this would require a significant budget. What
+could be done instead is create a network of interested parties who are actively
+engaged in their field to communicate with individuals from the other community
+who are equally engaged in their field. The academia is an indicative example of how
+35
+
+this recommendation could put into action. Academics in a number of different
+fields, who actively follow the local research developments, could be in contact with
+their counterparts in the ‘other’ side and update them on any developments. The
+individuals on the ‘recipient’ side will then have the responsibility to update their
+colleagues in their own community. This is not difficult to achieve considering that
+there are only a handful of academic institutions on both sides of the Buffer Zone.
+
+3.2.13. Decrease psychological barriers:
+There could be more conscious efforts from the local elite, and the international
+actors should help in this respect, to decrease the psychological barriers of people
+(e.g. symbols, such as signs, flags, statues, etc, that emphasize the ‘Turkishness’
+immediately after the crossing point). Another indicative example is the (now
+lighted) gigantic flag on the mountains of Pendadaktilos, which was created in a
+position that would be visible, essentially only, to Greek Cypriots. These are issues
+that create significant psychological pressure to a number of Greek Cypriots, who,
+unsurprisingly, refuse to cross to the ‘other’ side. We do acknowledge that Cyprus is
+a highly politicized (and securitized) environment where everything has a political
+connotation and any ‘de‐linking’ with the political aim (of either side) is often
+impossible. However, small acts such as provocative signs at the crossing points
+could potentially help and their removal should not have a significant political cost
+for either side. The international actors should pressure both sides, but especially
+the Turkish Cypriot one, to make the ‘crossing’ psychologically smoother.
+
+36
+
+
