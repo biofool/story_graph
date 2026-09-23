@@ -1,0 +1,281 @@
+{
+ "name": "deslippe_paper",
+ "description": "Migrated from scripts/14_ingest_deslippe_paper.py (now deleted).",
+ "migrated_from": "scripts/14_ingest_deslippe_paper.py",
+ "nodes": [
+  {
+   "id": "work:deslippe-2012-maharaj-to-mahan-tantric",
+   "type": "Work",
+   "label": "From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga",
+   "canonical_name": null,
+   "metadata": {
+    "url": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf",
+    "platform": "eScholarship (UC Santa Barbara)",
+    "work_type": "academic_journal_article",
+    "journal": "Sikh Formations",
+    "volume": "8",
+    "issue": "3",
+    "pages": "369-387",
+    "publish_date": "2012-12",
+    "author": "Philip Deslippe",
+    "citation": "Deslippe, P. (2012). From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga. Sikh Formations, 8(3), 369-387.",
+    "publisher_url": "http://www.tandfonline.com/doi/abs/10.1080/17448727.2012.745303",
+    "note": "Peer-reviewed scholarly paper. The primary academic source on the constructed origins of Yogi Bhajan's Kundalini Yoga."
+   },
+   "source_urls": [
+    "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf",
+    "http://www.tandfonline.com/doi/abs/10.1080/17448727.2012.745303"
+   ]
+  },
+  {
+   "id": "work:3ceaefb5ffac8d5b",
+   "type": "Work",
+   "label": "From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga",
+   "canonical_name": null,
+   "metadata": {
+    "url": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf",
+    "platform": "eScholarship (UC Santa Barbara)",
+    "work_type": "academic_journal_article",
+    "journal": "Sikh Formations",
+    "volume": "8",
+    "issue": "3",
+    "pages": "369-387",
+    "publish_date": "2012-12",
+    "author": "Philip Deslippe",
+    "citation": "Deslippe, P. (2012). From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga. Sikh Formations, 8(3), 369-387.",
+    "enriched_by": "scripts/14_ingest_deslippe_paper.py"
+   },
+   "source_urls": [
+    "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf",
+    "http://www.tandfonline.com/doi/abs/10.1080/17448727.2012.745303"
+   ]
+  },
+  {
+   "id": "person:philip-deslippe",
+   "type": "Person",
+   "label": "Philip Deslippe",
+   "canonical_name": "Philip Deslippe",
+   "metadata": {
+    "affiliation": "Religious Studies Department, UC Santa Barbara",
+    "role": "academic_researcher",
+    "note": "Author of 'From Maharaj to Mahan Tantric' (Sikh Formations, 2012). Leading academic researcher on Yogi Bhajan, 3HO, and the construction of Kundalini Yoga."
+   },
+   "source_urls": [
+    "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"
+   ]
+  },
+  {
+   "id": "person:swami-dhirendra-brahmachari",
+   "type": "Person",
+   "label": "Swami Dhirendra Brahmachari",
+   "canonical_name": "Swami Dhirendra Brahmachari",
+   "metadata": {
+    "life_dates": "1924-1994",
+    "description": "Hatha yoga teacher and author of Sūkṣma Vyāyāma and Yogāsana Vijñāna. Taught at Vishwayatan Ashram in New Delhi. His students included Indira Gandhi and Jawaharlal Nehru. Identified by Philip Deslippe as a primary source of the physical exercises in Yogi Bhajan's Kundalini Yoga.",
+    "source": "Deslippe (2012), Sikh Formations 8(3)"
+   },
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Yogi_Bhajan",
+    "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"
+   ]
+  },
+  {
+   "id": "person:maharaj-virsa-singh",
+   "type": "Person",
+   "label": "Maharaj Virsa Singh",
+   "canonical_name": "Maharaj Virsa Singh",
+   "metadata": {
+    "life_dates": "1934-2007",
+    "description": "Sikh sant and founder of Gobind Sadan, outside New Delhi. Identified by Philip Deslippe as Yogi Bhajan's actual teacher in the early years of 3HO. The early years of 3HO were 'all about Virsa Singh.' Yogi Bhajan later erased Virsa Singh from 3HO's official history after a dramatic break during the 1970-71 India trip. Also known as Baba Virsa Singh in his later years.",
+    "source": "Deslippe (2012), Sikh Formations 8(3)"
+   },
+   "source_urls": [
+    "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"
+   ]
+  },
+  {
+   "id": "person:sant-hazara-singh",
+   "type": "Person",
+   "label": "Sant Hazara Singh",
+   "canonical_name": "Sant Hazara Singh",
+   "metadata": {
+    "description": "Figure claimed by Yogi Bhajan as his Kundalini Yoga teacher from age 7 to 16½. First mentioned in print in July 1970, 1.5 years after Yogi Bhajan began teaching. No independent evidence for his existence has been found, including by Yogi Bhajan's own biographer. Deslippe argues this figure was likely fabricated or greatly embellished to provide a lineage provenance for Kundalini Yoga.",
+    "claimed_role": "Yogi Bhajan's Kundalini Yoga teacher",
+    "existence_evidence": "no independent verification found",
+    "source": "Deslippe (2012), Sikh Formations 8(3)"
+   },
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Yogi_Bhajan",
+    "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf",
+    "https://www.3ho.org/yogi-bhajan-our-founder/"
+   ]
+  },
+  {
+   "id": "person:lama-lilan-po",
+   "type": "Person",
+   "label": "Lama Lilan Po",
+   "canonical_name": "Lama Lilan Po",
+   "metadata": {
+    "description": "Tibetan lama claimed by Yogi Bhajan as a previous holder of the 'Mahan Tantric' title, supposedly a student of Sant Hazara Singh. This claim is historically improbable: a Tibetan lama studying under a Sikh teacher in the Punjab at a time when Tibet was closed off. No independent evidence for this figure has been found.",
+    "claimed_role": "previous Mahan Tantric",
+    "existence_evidence": "no independent verification found",
+    "source": "Deslippe (2012), Sikh Formations 8(3)"
+   },
+   "source_urls": [
+    "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "work:deslippe-2012-maharaj-to-mahan-tantric",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yogi-bhajan",
+   "metadata": {
+    "evidence": "Deslippe, P. (2012). From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga. Sikh Formations, 8(3), 369-387."
+   }
+  },
+  {
+   "src_id": "work:deslippe-2012-maharaj-to-mahan-tantric",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-harbhajan-singh-puri",
+   "metadata": {
+    "evidence": "Deslippe, P. (2012). From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga. Sikh Formations, 8(3), 369-387."
+   }
+  },
+  {
+   "src_id": "work:deslippe-2012-maharaj-to-mahan-tantric",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-3ho-happy-healthy-holy-organization",
+   "metadata": {
+    "evidence": "Deslippe, P. (2012). From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga. Sikh Formations, 8(3), 369-387."
+   }
+  },
+  {
+   "src_id": "work:deslippe-2012-maharaj-to-mahan-tantric",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:3ho",
+   "metadata": {
+    "evidence": "Deslippe, P. (2012). From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga. Sikh Formations, 8(3), 369-387."
+   }
+  },
+  {
+   "src_id": "work:deslippe-2012-maharaj-to-mahan-tantric",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:international-kundalini-yoga-teachers-association",
+   "metadata": {
+    "evidence": "Deslippe, P. (2012). From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga. Sikh Formations, 8(3), 369-387."
+   }
+  },
+  {
+   "src_id": "work:deslippe-2012-maharaj-to-mahan-tantric",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-kri",
+   "metadata": {
+    "evidence": "Deslippe, P. (2012). From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga. Sikh Formations, 8(3), 369-387."
+   }
+  },
+  {
+   "src_id": "work:deslippe-2012-maharaj-to-mahan-tantric",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:swami-dhirendra-brahmachari",
+   "metadata": {
+    "evidence": "Deslippe, P. (2012). From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga. Sikh Formations, 8(3), 369-387."
+   }
+  },
+  {
+   "src_id": "work:deslippe-2012-maharaj-to-mahan-tantric",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:maharaj-virsa-singh",
+   "metadata": {
+    "evidence": "Deslippe, P. (2012). From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga. Sikh Formations, 8(3), 369-387."
+   }
+  },
+  {
+   "src_id": "work:deslippe-2012-maharaj-to-mahan-tantric",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:sant-hazara-singh",
+   "metadata": {
+    "evidence": "Deslippe, P. (2012). From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga. Sikh Formations, 8(3), 369-387."
+   }
+  },
+  {
+   "src_id": "work:deslippe-2012-maharaj-to-mahan-tantric",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:lama-lilan-po",
+   "metadata": {
+    "evidence": "Deslippe, P. (2012). From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga. Sikh Formations, 8(3), 369-387."
+   }
+  },
+  {
+   "src_id": "work:deslippe-2012-maharaj-to-mahan-tantric",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:philip-deslippe",
+   "metadata": {
+    "evidence": "Deslippe, P. (2012). From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga. Sikh Formations, 8(3), 369-387."
+   }
+  },
+  {
+   "src_id": "work:deslippe-2012-maharaj-to-mahan-tantric",
+   "rel_type": "DESCRIBES",
+   "dst_id": "person:yogi-bhajan",
+   "metadata": {
+    "evidence": "Deslippe, P. (2012). From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga. Sikh Formations, 8(3), 369-387."
+   }
+  },
+  {
+   "src_id": "work:deslippe-2012-maharaj-to-mahan-tantric",
+   "rel_type": "DESCRIBES",
+   "dst_id": "group:yoga-3ho-happy-healthy-holy-organization",
+   "metadata": {
+    "evidence": "Deslippe, P. (2012). From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga. Sikh Formations, 8(3), 369-387."
+   }
+  },
+  {
+   "src_id": "work:deslippe-2012-maharaj-to-mahan-tantric",
+   "rel_type": "DESCRIBES",
+   "dst_id": "group:international-kundalini-yoga-teachers-association",
+   "metadata": {
+    "evidence": "Deslippe, P. (2012). From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga. Sikh Formations, 8(3), 369-387."
+   }
+  },
+  {
+   "src_id": "claim:deslippe-2012-kundalini-yoga-bricolage",
+   "rel_type": "CONTRADICTS",
+   "dst_id": "group:yoga-3ho-happy-healthy-holy-organization",
+   "metadata": {
+    "evidence": "Deslippe, P. (2012). From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga. Sikh Formations, 8(3), 369-387.",
+    "note": "Contradicts 3HO's official history of Kundalini Yoga as an ancient secret tradition"
+   }
+  },
+  {
+   "src_id": "person:yoga-harbhajan-singh-puri",
+   "rel_type": "ALIAS_OF",
+   "dst_id": "person:yogi-bhajan",
+   "metadata": {
+    "evidence": "Deslippe, P. (2012). From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga. Sikh Formations, 8(3), 369-387."
+   }
+  },
+  {
+   "src_id": "work:deslippe-2012-maharaj-to-mahan-tantric",
+   "rel_type": "ALIAS_OF",
+   "dst_id": "work:3ceaefb5ffac8d5b",
+   "metadata": {
+    "note": "Same paper, enriched metadata"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "work:3ceaefb5ffac8d5b",
+   "url": "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf",
+   "title": "From Maharaj to Mahan Tantric: The Construction of Yogi Bhajan's Kundalini Yoga",
+   "author": "Philip Deslippe",
+   "publish_date": "2012-12",
+   "platform": "Sikh Formations (eScholarship)",
+   "raw_text": null,
+   "source_class": "archival",
+   "bias_hint": "neutral_ish"
+  }
+ ]
+}

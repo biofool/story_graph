@@ -1,0 +1,453 @@
+{
+ "name": "kkron_dojo_origins",
+ "description": "Migrated from scripts/40_add_kkron_dojo_origins.py (now deleted).",
+ "migrated_from": "scripts/40_add_kkron_dojo_origins.py",
+ "nodes": [
+  {
+   "id": "person:ed-riggs",
+   "type": "Person",
+   "label": "Ed Riggs",
+   "canonical_name": "Edward Riggs",
+   "metadata": {
+    "asserted_by": "kkron"
+   },
+   "source_urls": [
+    "kkron://personal-communication/dojo-origins-caa"
+   ]
+  },
+  {
+   "id": "person:rod-kobayashi",
+   "type": "Person",
+   "label": "Rod Kobayashi",
+   "canonical_name": "Roderick T. Kobayashi",
+   "metadata": {
+    "asserted_by": "kkron"
+   },
+   "source_urls": [
+    "kkron://personal-communication/dojo-origins-caa"
+   ]
+  },
+  {
+   "id": "person:clem-yoshida",
+   "type": "Person",
+   "label": "Clem Yoshida",
+   "canonical_name": "Clem Yoshida",
+   "metadata": {
+    "asserted_by": "kkron"
+   },
+   "source_urls": [
+    "kkron://personal-communication/dojo-origins-caa"
+   ]
+  },
+  {
+   "id": "person:isao-takahashi",
+   "type": "Person",
+   "label": "Isao Takahashi",
+   "canonical_name": "Isao Takahashi",
+   "metadata": {
+    "asserted_by": "kkron"
+   },
+   "source_urls": [
+    "kkron://personal-communication/dojo-origins-caa"
+   ]
+  },
+  {
+   "id": "group:california-aikido-federation",
+   "type": "Group",
+   "label": "California Aikido Federation (pre-1974)",
+   "canonical_name": "California Aikido Federation",
+   "metadata": {
+    "asserted_by": "kkron",
+    "note": "kkron refers to the 'California Aikido Association' being already in existence before Nadeau's return from Japan, headquartered in Southern California. The Aikido Journal entry for Rod Kobayashi refers to the 'California Aikido Federation' which he led through 1974. This may be the same or a precursor organization. The current CAA (ai-ki-do.org) was formed in 2002 from the AANC (1980), which was preceded by the Northern California Yudansha Kai (1974)."
+   },
+   "source_urls": [
+    "kkron://personal-communication/dojo-origins-caa"
+   ]
+  },
+  {
+   "id": "claim:e39912974ac50962",
+   "type": "Claim",
+   "label": "The Mountain View dojo was not started by Sig Kufferath and Robert Nadeau. It opened while Nadeau was still in Japan. It",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "The Mountain View dojo was not started by Sig Kufferath and Robert Nadeau. It opened while Nadeau was still in Japan. It was started by Sig Kufferath and Ed Riggs, who was a retired army officer who studied Aikido in Japan while he was stationed there. Also involved was Ed Dressen who provided the financing to get the school started.",
+    "claim_type": "biographical",
+    "confidence": 0.9,
+    "evidence_mode": "first_person",
+    "stance": "critical",
+    "asserted_by": "kkron"
+   },
+   "source_urls": [
+    "kkron://personal-communication/dojo-origins-caa"
+   ]
+  },
+  {
+   "id": "claim:37c48544fa31d42a",
+   "type": "Claim",
+   "label": "After the school was in operation, Nadeau Sensei returned from Japan and became head Aikido instructor. Sig and Ed Riggs",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "After the school was in operation, Nadeau Sensei returned from Japan and became head Aikido instructor. Sig and Ed Riggs continued to teach even after Nadeau Sensei came on the scene.",
+    "claim_type": "biographical",
+    "confidence": 0.9,
+    "evidence_mode": "first_person",
+    "stance": "neutral",
+    "asserted_by": "kkron"
+   },
+   "source_urls": [
+    "kkron://personal-communication/dojo-origins-caa"
+   ]
+  },
+  {
+   "id": "claim:5488d5782740b9ab",
+   "type": "Claim",
+   "label": "The California Aikido Association was already in existence even before Nadeau Sensei's return from Japan. It was headqua",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "The California Aikido Association was already in existence even before Nadeau Sensei's return from Japan. It was headquartered in Southern California and led, at least in kkron's time with it, by Rod Kobayashi and Clem Yoshida, both Southern California teachers. They came up from LA and administered kkron's Shodan test in 1969.",
+    "claim_type": "biographical",
+    "confidence": 0.9,
+    "evidence_mode": "first_person",
+    "stance": "neutral",
+    "asserted_by": "kkron"
+   },
+   "source_urls": [
+    "kkron://personal-communication/dojo-origins-caa"
+   ]
+  },
+  {
+   "id": "claim:468a9dbb7a28b205",
+   "type": "Claim",
+   "label": "The Association may have been started by Isao Takahashi, who had relocated to LA from Hawaii and then moved to Chicago.",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "The Association may have been started by Isao Takahashi, who had relocated to LA from Hawaii and then moved to Chicago.",
+    "claim_type": "biographical",
+    "confidence": 0.9,
+    "evidence_mode": "first_person",
+    "stance": "neutral",
+    "asserted_by": "kkron"
+   },
+   "source_urls": [
+    "kkron://personal-communication/dojo-origins-caa"
+   ]
+  },
+  {
+   "id": "claim:563f28a0b279d92c",
+   "type": "Claim",
+   "label": "Ed Riggs retired from teaching shortly before kkron left for the East Coast in 1970.",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "Ed Riggs retired from teaching shortly before kkron left for the East Coast in 1970.",
+    "claim_type": "biographical",
+    "confidence": 0.9,
+    "evidence_mode": "first_person",
+    "stance": "neutral",
+    "asserted_by": "kkron"
+   },
+   "source_urls": [
+    "kkron://personal-communication/dojo-origins-caa"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "claim:e39912974ac50962",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:sig-kufferath",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:e39912974ac50962",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:ed-riggs",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:e39912974ac50962",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:ed-dressen",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:e39912974ac50962",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:e39912974ac50962",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:mountain-view",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:e39912974ac50962",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:nikko-jujitsu-school",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:37c48544fa31d42a",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:37c48544fa31d42a",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:sig-kufferath",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:37c48544fa31d42a",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:ed-riggs",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:37c48544fa31d42a",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:mountain-view",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:5488d5782740b9ab",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:california-aikido-federation",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:5488d5782740b9ab",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:california-aikido-association",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:5488d5782740b9ab",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:rod-kobayashi",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:5488d5782740b9ab",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:clem-yoshida",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:5488d5782740b9ab",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:5488d5782740b9ab",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:southern-california",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:468a9dbb7a28b205",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:california-aikido-federation",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:468a9dbb7a28b205",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:isao-takahashi",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:468a9dbb7a28b205",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:los-angeles",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "claim:563f28a0b279d92c",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:ed-riggs",
+   "metadata": {
+    "asserted_by": "kkron",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "person:ed-riggs",
+   "rel_type": "WORKED_AT",
+   "dst_id": "place:mountain-view",
+   "metadata": {
+    "asserted_by": "kkron",
+    "role": "co-founder and teacher",
+    "source": "kkron://personal-communication/dojo-origins-caa",
+    "era": "pre-1970"
+   }
+  },
+  {
+   "src_id": "person:ed-riggs",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:nikko-jujitsu-school",
+   "metadata": {
+    "asserted_by": "kkron",
+    "role": "co-founder",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "person:ed-dressen",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:nikko-jujitsu-school",
+   "metadata": {
+    "asserted_by": "kkron",
+    "role": "financier/co-founder",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "person:rod-kobayashi",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:california-aikido-federation",
+   "metadata": {
+    "asserted_by": "kkron",
+    "role": "leader (with Clem Yoshida)",
+    "source": "kkron://personal-communication/dojo-origins-caa",
+    "era": "1960s"
+   }
+  },
+  {
+   "src_id": "person:clem-yoshida",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:california-aikido-federation",
+   "metadata": {
+    "asserted_by": "kkron",
+    "role": "leader (with Rod Kobayashi)",
+    "source": "kkron://personal-communication/dojo-origins-caa",
+    "era": "1960s"
+   }
+  },
+  {
+   "src_id": "person:isao-takahashi",
+   "rel_type": "FOUNDED",
+   "dst_id": "group:california-aikido-federation",
+   "metadata": {
+    "asserted_by": "kkron",
+    "note": "kkron says 'may have been started by' — expressed uncertainty",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  },
+  {
+   "src_id": "person:robert-nadeau",
+   "rel_type": "WORKED_AT",
+   "dst_id": "place:mountain-view",
+   "metadata": {
+    "asserted_by": "kkron",
+    "role": "head Aikido instructor (after return from Japan, post-1964)",
+    "source": "kkron://personal-communication/dojo-origins-caa"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "kkron:dojo-origins-caa-research",
+   "url": "kkron://personal-communication/dojo-origins-caa",
+   "title": "Mountain View dojo origins and California Aikido Association history (kkron personal communication)",
+   "author": "kkron",
+   "publish_date": null,
+   "platform": "kkron (personal communication)",
+   "raw_text": "kkron's first-person account of the founding of the Mountain View dojo and the early history of the California Aikido Association. Key points: (1) The Mountain View dojo was started by Sig Kufferath and Ed Riggs (retired army officer who studied Aikido in Japan), with Ed Dressen providing financing. It opened while Nadeau was still in Japan. (2) Nadeau returned from Japan and became head Aikido instructor; Sig and Ed Riggs continued to teach. (3) The California Aikido Association was already in existence before Nadeau's return, headquartered in Southern California, led by Rod Kobayashi and Clem Yoshida. They administered kkron's Shodan test in 1969. (4) The Association may have been started by Isao Takahashi. (5) Ed Riggs retired from teaching shortly before kkron left for the East Coast in 1970.",
+   "source_class": "primary_first_person",
+   "bias_hint": "neutral_ish"
+  }
+ ],
+ "claim_sources": [
+  {
+   "claim_id": "claim:e39912974ac50962",
+   "source_id": "kkron:dojo-origins-caa-research",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:37c48544fa31d42a",
+   "source_id": "kkron:dojo-origins-caa-research",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:5488d5782740b9ab",
+   "source_id": "kkron:dojo-origins-caa-research",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:468a9dbb7a28b205",
+   "source_id": "kkron:dojo-origins-caa-research",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:563f28a0b279d92c",
+   "source_id": "kkron:dojo-origins-caa-research",
+   "quote_span_start": null,
+   "quote_span_end": null
+  }
+ ]
+}

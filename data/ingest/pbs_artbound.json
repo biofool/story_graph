@@ -1,0 +1,912 @@
+{
+ "name": "pbs_artbound",
+ "description": "Migrated from scripts/16_ingest_pbs_artbound.py (now deleted).",
+ "migrated_from": "scripts/16_ingest_pbs_artbound.py",
+ "nodes": [
+  {
+   "id": "work:pbs-artbound-new-aquarians",
+   "type": "Work",
+   "label": "Meet The New Aquarians",
+   "canonical_name": null,
+   "metadata": {
+    "url": "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians",
+    "platform": "PBS SoCal (Artbound)",
+    "work_type": "article",
+    "publish_date": "2012-05-07",
+    "author": "Caroline Ryder",
+    "citation": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians",
+    "note": "PBS SoCal Artbound article documenting the 'New Aquarians' — the contemporary cultural influence of the Source Family on the psychedelic art and music underground."
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians",
+    "https://www.kcet.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "work:85eba8cdb9b35388",
+   "type": "Work",
+   "label": "Meet The New Aquarians",
+   "canonical_name": null,
+   "metadata": {
+    "url": "https://www.kcet.org/shows/artbound/meet-the-new-aquarians",
+    "platform": "PBS SoCal (Artbound)",
+    "work_type": "article",
+    "publish_date": "2012-05-07",
+    "author": "Caroline Ryder",
+    "citation": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians",
+    "enriched_by": "scripts/16_ingest_pbs_artbound.py",
+    "note": "Originally crawled as a discovered reference from kcet.org. Enriched with full metadata from the PBS SoCal version (KCET merged with PBS SoCal)."
+   },
+   "source_urls": [
+    "https://www.kcet.org/shows/artbound/meet-the-new-aquarians",
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "person:caroline-ryder",
+   "type": "Person",
+   "label": "Caroline Ryder",
+   "canonical_name": "Caroline Ryder",
+   "metadata": {
+    "roles": [
+     "journalist",
+     "writer"
+    ],
+    "affiliation": "Artbound, PBS SoCal",
+    "note": "Author of 'Meet The New Aquarians' (Artbound, May 2012), documenting the cultural influence of the Source Family on the contemporary psychedelic art and music underground."
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "person:guy-blakeslee",
+   "type": "Person",
+   "label": "Guy Blakeslee",
+   "canonical_name": "Guy Blakeslee",
+   "metadata": {
+    "roles": [
+     "musician",
+     "guitarist",
+     "vocalist"
+    ],
+    "band": "The Entrance Band",
+    "aquarian_name": "Sir Guyser Aquarian",
+    "note": "Frontman of LA rock band The Entrance Band. Early Source Family adopter in the contemporary psych scene. Given his Aquarian name by Djin Aquarian at the YaHoWha13 reunion in San Francisco. Describes the Nov 2007 Echoplex show as a 'pivotal' moment in the LA psych scene."
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "person:billy-corgan",
+   "type": "Person",
+   "label": "Billy Corgan",
+   "canonical_name": "Billy Corgan",
+   "metadata": {
+    "roles": [
+     "musician",
+     "singer",
+     "songwriter"
+    ],
+    "band": "Smashing Pumpkins",
+    "aquarian_name": "Shmuel",
+    "note": "Singer of Smashing Pumpkins. Played bass for Djin Aquarian at the Sky Saxon tribute show at the Echoplex (first performance by YaHoWha33). Given the Aquarian name 'Shmuel' by Sky Saxon and Djin Aquarian. Djin notes the name means Samuel in Hebrew — 'the prophet that anointed King David.'"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "person:devendra-banhart",
+   "type": "Person",
+   "label": "Devendra Banhart",
+   "canonical_name": "Devendra Banhart",
+   "metadata": {
+    "roles": [
+     "musician",
+     "singer-songwriter"
+    ],
+    "note": "Freak folk musician. Named in the article as one of the free spirits influenced by the Source Family book. Met Isis Aquarian at a show at LA's Harvard and Stone venue, expressing honor at meeting her."
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "person:mear-one",
+   "type": "Person",
+   "label": "MEAR ONE",
+   "canonical_name": "MEAR ONE",
+   "metadata": {
+    "roles": [
+     "graffiti artist",
+     "painter"
+    ],
+    "location": "Silverlake, Los Angeles",
+    "note": "LA graffiti artist known for vibrant use of color, rainbows, and psychedelic imagery. One of Isis Aquarian's biggest fans. Creating a stencil of Father Yod's face underscored with Yod's slogan 'Just Be Kind' — described as an 'OBEY GIANT' for the New Aquarian movement. Incorporates Source Family 'vibrant light' inspirations into his collages."
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "person:sasha-vallely",
+   "type": "Person",
+   "label": "Sasha Vallely",
+   "canonical_name": "Sasha Vallely",
+   "metadata": {
+    "roles": [
+     "musician",
+     "touring musician"
+    ],
+    "band": "Spindrift",
+    "aquarian_name": "Kaleidoscopia Aquarian",
+    "note": "Musician in LA band Spindrift. Received her Aquarian name after meeting Djin at the Sky Saxon tribute event, which she helped organize. Describes the Source as 'kind of like a cult, but now it's more spread out, and about like-minded people.' Picks and chooses elements of Source Family philosophy that fit her life as a touring musician."
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "person:derek-james",
+   "type": "Person",
+   "label": "Derek James",
+   "canonical_name": "Derek James",
+   "metadata": {
+    "roles": [
+     "musician",
+     "drummer"
+    ],
+    "band": "The Entrance Band",
+    "aquarian_name": "Lux Deus Aquarian",
+    "note": "Drummer for The Entrance Band. Anointed with the Aquarian name 'Lux Deus Aquarian' by Djin Aquarian at the YaHoWha13 reunion in San Francisco."
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "person:owleyes",
+   "type": "Person",
+   "label": "OwlEyes",
+   "canonical_name": "OwlEyes",
+   "metadata": {
+    "roles": [
+     "artist",
+     "collagist"
+    ],
+    "location": "Los Angeles",
+    "note": "LA artist known for vibrant use of color, rainbows, and psychedelic imagery. Started incorporating Source Family 'vibrant light' inspirations into his collages. Appreciates the Source's 'advanced idea of the way food should be treated and used — Living food for the immortals.'"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "person:michael-cepress",
+   "type": "Person",
+   "label": "Michael Cepress",
+   "canonical_name": "Michael Cepress",
+   "metadata": {
+    "roles": [
+     "clothing designer",
+     "experimental fashion designer"
+    ],
+    "location": "Seattle",
+    "note": "Seattle-based experimental clothing designer. Creating Isis-inspired looks for an upcoming line. Admires the Source Family aesthetic: 'pure, natural beauty of their handmade clothes, their glorious long hair and glowing complexions.'"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "person:sunflower-aquarian",
+   "type": "Person",
+   "label": "Sunflower Aquarian",
+   "canonical_name": "Sunflower Aquarian",
+   "metadata": {
+    "roles": [
+     "musician",
+     "Source Family member"
+    ],
+    "band": "YaHoWha13",
+    "note": "Member of YaHoWha13, the Source Family's influential psych band. Described in the article as one of the 'longhaired, guitar-wielding and gong-smashing wizards.'"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "person:astara",
+   "type": "Person",
+   "label": "Astara",
+   "canonical_name": "Astara",
+   "metadata": {
+    "roles": [
+     "restaurant co-owner",
+     "Source Family devotee"
+    ],
+    "note": "Co-owner of Elf restaurant in Echo Park. Described as another Source Family devotee. Isis Aquarian and MEAR ONE met up at Elf to discuss a Father Yod stencil project."
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "group:yahowha13",
+   "type": "Group",
+   "label": "YaHoWha13",
+   "canonical_name": "YaHoWha13",
+   "metadata": {
+    "group_type": "band",
+    "description": "The Source Family's influential psychedelic band, comprised of Djin, Sunflower, and Octavius Aquarian. Reformed in November 2007 for a concert at the Echoplex celebrating the release of the Source Family book. Their music influenced a generation of neo-hippie musicians.",
+    "members": [
+     "Djin Aquarian",
+     "Sunflower Aquarian",
+     "Octavius Aquarian"
+    ],
+    "source": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "group:the-entrance-band",
+   "type": "Group",
+   "label": "The Entrance Band",
+   "canonical_name": "The Entrance Band",
+   "metadata": {
+    "group_type": "band",
+    "description": "LA rock band fronted by Guy Blakeslee. Backed Sky Saxon at the YaHoWha13 reunion show in San Francisco. Performed at the Echoplex book release concert in November 2007.",
+    "members": [
+     "Guy Blakeslee",
+     "Derek James"
+    ],
+    "source": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "group:yahowha33",
+   "type": "Group",
+   "label": "YaHoWha33",
+   "canonical_name": "YaHoWha33",
+   "metadata": {
+    "group_type": "band",
+    "description": "An open band made up of any YaHoWha13 fan who wants to jam with Djin Aquarian. First performed at the Sky Saxon tribute show at the Echoplex, with Billy Corgan on bass.",
+    "source": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "group:spindrift",
+   "type": "Group",
+   "label": "Spindrift",
+   "canonical_name": "Spindrift",
+   "metadata": {
+    "group_type": "band",
+    "description": "LA band featuring Sasha Vallely (Kaleidoscopia Aquarian).",
+    "source": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "group:smashing-pumpkins",
+   "type": "Group",
+   "label": "Smashing Pumpkins",
+   "canonical_name": "Smashing Pumpkins",
+   "metadata": {
+    "group_type": "band",
+    "description": "Rock band fronted by Billy Corgan. Corgan played bass for Djin Aquarian at the Sky Saxon tribute show.",
+    "source": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "group:the-seeds",
+   "type": "Group",
+   "label": "The Seeds",
+   "canonical_name": "The Seeds",
+   "metadata": {
+    "group_type": "band",
+    "description": "Garage rock band led by Sky Saxon, a Source Family member in the 1970s.",
+    "source": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   },
+   "source_urls": [
+    "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant",
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "place:echoplex",
+   "type": "Place",
+   "label": "The Echoplex",
+   "canonical_name": "The Echoplex",
+   "metadata": {
+    "place_type": "music_venue",
+    "location": "Los Angeles, CA",
+    "description": "LA music venue. Site of the November 2007 YaHoWha13 reunion concert celebrating the Source Family book release, and the 2009 Sky Saxon tribute show (first YaHoWha33 performance).",
+    "source": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "place:mount-shasta",
+   "type": "Place",
+   "label": "Mount Shasta",
+   "canonical_name": "Mount Shasta",
+   "metadata": {
+    "place_type": "location",
+    "location": "Northern California",
+    "description": "Home of Djin Aquarian, the most active YaHoWha13 member and go-to guy for contemporary musicians interested in the Source.",
+    "source": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "place:hawaii",
+   "type": "Place",
+   "label": "Hawaii",
+   "canonical_name": "Hawaii",
+   "metadata": {
+    "place_type": "location",
+    "description": "Site of Father Yod's death in a hang-gliding accident in 1975. Also the home of Isis Aquarian, who travels from Hawaii to LA to spread Father Yod's message.",
+    "source": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/",
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/",
+    "https://alchetron.com/Father-Yod",
+    "https://divinity.interactivelion.com/new-religious-movements/the-source-family",
+    "https://en.wikipedia.org/wiki/Father_Yod",
+    "https://grokipedia.com/page/The_Source_Family",
+    "https://kodenkan.com/kufferath",
+    "https://military-history.fandom.com/wiki/Father_Yod",
+    "https://podscripts.co/podcasts/timesuck-with-dan-cummins/161-the-source-family-cult",
+    "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99",
+    "https://www.interviewmagazine.com/film/the-source-family",
+    "https://www.kuialuaopuna.com/mi/news/sig-kufferath",
+    "https://www.kuialuaopuna.com/to/news/sig-kufferath",
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians",
+    "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars",
+    "https://www.usadojo.com/sig-kufferath"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person-jim-baker-father-yod",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "group-source-family",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person-isis-aquarian",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:isis-aquarian",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:djin-aquarian",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:electricity-aquarian",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:sky-saxon",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:octavius",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:sunflower-aquarian",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:jodi-wille",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person-yogi-bhajan",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "place-the-source",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:the-source",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:nichols-canyon",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:sunset-strip",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:the-source-family-2012-documentary",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:caroline-ryder",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:guy-blakeslee",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:billy-corgan",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:devendra-banhart",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:mear-one",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:sasha-vallely",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:derek-james",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:owleyes",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:michael-cepress",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:astara",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yahowha13",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:the-entrance-band",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yahowha33",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:spindrift",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:smashing-pumpkins",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:the-seeds",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:echoplex",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:mount-shasta",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:hawaii",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "DESCRIBES",
+   "dst_id": "person-jim-baker-father-yod",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "DESCRIBES",
+   "dst_id": "group-source-family",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "DESCRIBES",
+   "dst_id": "person-isis-aquarian",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "DESCRIBES",
+   "dst_id": "person:djin-aquarian",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "DESCRIBES",
+   "dst_id": "group:yahowha13",
+   "metadata": {
+    "evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   }
+  },
+  {
+   "src_id": "work:pbs-artbound-new-aquarians",
+   "rel_type": "ALIAS_OF",
+   "dst_id": "work:85eba8cdb9b35388",
+   "metadata": {
+    "note": "Same article, KCET merged with PBS SoCal"
+   }
+  },
+  {
+   "src_id": "person:djin-aquarian",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yahowha13",
+   "metadata": {
+    "role": "guitarist"
+   }
+  },
+  {
+   "src_id": "person:sunflower-aquarian",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yahowha13",
+   "metadata": {
+    "role": "musician"
+   }
+  },
+  {
+   "src_id": "person:octavius",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yahowha13",
+   "metadata": {
+    "role": "musician"
+   }
+  },
+  {
+   "src_id": "person:guy-blakeslee",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:the-entrance-band",
+   "metadata": {
+    "role": "frontman, guitarist, vocalist"
+   }
+  },
+  {
+   "src_id": "person:derek-james",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:the-entrance-band",
+   "metadata": {
+    "role": "drummer"
+   }
+  },
+  {
+   "src_id": "person:billy-corgan",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:smashing-pumpkins",
+   "metadata": {
+    "role": "singer, songwriter"
+   }
+  },
+  {
+   "src_id": "person:sasha-vallely",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:spindrift",
+   "metadata": {
+    "role": "musician"
+   }
+  },
+  {
+   "src_id": "person:sky-saxon",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:the-seeds",
+   "metadata": {
+    "role": "garage rock legend, vocalist"
+   }
+  },
+  {
+   "src_id": "person:sky-saxon",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group-source-family",
+   "metadata": {
+    "role": "member in the 1970s",
+    "aquarian_name": "Sunlight Aquarian"
+   }
+  },
+  {
+   "src_id": "person-isis-aquarian",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group-source-family",
+   "metadata": {
+    "role": "right hand woman, spiritual wife, record keeper"
+   }
+  },
+  {
+   "src_id": "person:djin-aquarian",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group-source-family",
+   "metadata": {
+    "role": "musician, YaHoWha13 guitarist"
+   }
+  },
+  {
+   "src_id": "person:electricity-aquarian",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group-source-family",
+   "metadata": {
+    "role": "member, book co-author"
+   }
+  },
+  {
+   "src_id": "person-jim-baker-father-yod",
+   "rel_type": "FOUNDED",
+   "dst_id": "group-source-family",
+   "metadata": {
+    "role": "founder and spiritual leader"
+   }
+  },
+  {
+   "src_id": "person-jim-baker-father-yod",
+   "rel_type": "LIVED_AT",
+   "dst_id": "place:nichols-canyon",
+   "metadata": {
+    "note": "mansion in Nichols Canyon with 14 spiritual wives and ~140 members"
+   }
+  },
+  {
+   "src_id": "group-source-family",
+   "rel_type": "LIVED_AT",
+   "dst_id": "place:nichols-canyon",
+   "metadata": {
+    "members": "~140",
+    "note": "mansion in Nichols Canyon"
+   }
+  },
+  {
+   "src_id": "group-source-family",
+   "rel_type": "WORKED_AT",
+   "dst_id": "place-the-source",
+   "metadata": {
+    "relationship": "operated LA's first health food restaurant"
+   }
+  },
+  {
+   "src_id": "place-the-source",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "place:sunset-strip",
+   "metadata": {
+    "note": "The Source restaurant on the Sunset Strip"
+   }
+  },
+  {
+   "src_id": "person:djin-aquarian",
+   "rel_type": "LIVED_AT",
+   "dst_id": "place:mount-shasta",
+   "metadata": {
+    "note": "home of Djin Aquarian"
+   }
+  },
+  {
+   "src_id": "person-isis-aquarian",
+   "rel_type": "LIVED_AT",
+   "dst_id": "place:hawaii",
+   "metadata": {
+    "note": "home of Isis Aquarian, travels to LA regularly"
+   }
+  },
+  {
+   "src_id": "person-jim-baker-father-yod",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:hawaii",
+   "metadata": {
+    "relationship": "died in hang-gliding accident, 1975"
+   }
+  },
+  {
+   "src_id": "person:jodi-wille",
+   "rel_type": "CREATED",
+   "dst_id": "group:the-source-family-2012-documentary",
+   "metadata": {
+    "role": "director/producer",
+    "note": "The Source (2012 documentary)"
+   }
+  },
+  {
+   "src_id": "group:yahowha33",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yahowha13",
+   "metadata": {
+    "note": "YaHoWha33 is an open band of YaHoWha13 fans jamming with Djin"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "source:pbs-artbound-new-aquarians",
+   "url": "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians",
+   "title": "Meet The New Aquarians",
+   "author": "Caroline Ryder",
+   "publish_date": "2012-05-07",
+   "platform": "PBS SoCal (Artbound)",
+   "raw_text": "In 2007, when independent publisher Jodi Wille published a book about a 1970s mystical tribe from L.A. called the Source Family, she had no idea the profound ripple effect it would have... The Source Family was led by a bearded visionary called Father Yod, who lived with his 14 spiritual wives in a mansion in Nichols Canyon alongside around 140 other family members, operating LA's first health food restaurant The Source on the Sunset Strip...",
+   "source_class": "journalistic",
+   "bias_hint": "nostalgic"
+  }
+ ]
+}

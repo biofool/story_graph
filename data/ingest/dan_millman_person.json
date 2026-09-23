@@ -1,0 +1,126 @@
+{
+ "name": "dan_millman_person",
+ "description": "Migrated from scripts/21_add_dan_millman_person.py (now deleted).",
+ "migrated_from": "scripts/21_add_dan_millman_person.py",
+ "nodes": [
+  {
+   "id": "person:dan-millman",
+   "type": "Person",
+   "label": "Dan Millman",
+   "canonical_name": "Daniel Jay Millman",
+   "metadata": {
+    "birth_date": "1946-02-22",
+    "birth_place": "Los Angeles, California",
+    "occupation": "author, lecturer, former gymnast, martial artist",
+    "martial_arts": "Aikido (shodan/black belt), Judo, Karate",
+    "notable_work": "Way of the Peaceful Warrior",
+    "spouse": "Joy Millman",
+    "residence": "Brooklyn, New York (formerly San Rafael, California)"
+   },
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Dan_Millman",
+    "https://usagym.org/halloffame/inductee/millman-dan",
+    "https://usghof.org/d_millman",
+    "https://alchetron.com/Dan-Millman"
+   ]
+  },
+  {
+   "id": "place:stanford-university",
+   "type": "Place",
+   "label": "Stanford University",
+   "canonical_name": "Stanford University",
+   "metadata": {
+    "location": "Stanford, California",
+    "role": "Director of Gymnastics (1968+)"
+   },
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Dan_Millman",
+    "https://usagym.org/halloffame/inductee/millman-dan",
+    "https://alchetron.com/Dan-Millman"
+   ]
+  },
+  {
+   "id": "place:oberlin-college",
+   "type": "Place",
+   "label": "Oberlin College",
+   "canonical_name": "Oberlin College",
+   "metadata": {
+    "location": "Oberlin, Ohio",
+    "role": "Assistant Professor of Physical Education (1972)"
+   },
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Dan_Millman"
+   ]
+  },
+  {
+   "id": "group:aikido",
+   "type": "Group",
+   "label": "Aikido",
+   "canonical_name": "Aikido",
+   "metadata": {
+    "martial_art": true
+   },
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Dan_Millman",
+    "https://usagym.org/halloffame/inductee/millman-dan",
+    "https://usghof.org/d_millman",
+    "https://alchetron.com/Dan-Millman"
+   ]
+  },
+  {
+   "id": "person:steve-hug",
+   "type": "Person",
+   "label": "Steve Hug",
+   "canonical_name": "Steve Hug",
+   "metadata": {
+    "role": "U.S. Olympian, gymnast coached by Dan Millman"
+   },
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Dan_Millman",
+    "https://usagym.org/halloffame/inductee/millman-dan"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "person:dan-millman",
+   "rel_type": "WORKED_AT",
+   "dst_id": "place:stanford-university",
+   "metadata": {
+    "role": "Director of Gymnastics",
+    "start_year": 1968,
+    "evidence": "https://en.wikipedia.org/wiki/Dan_Millman"
+   }
+  },
+  {
+   "src_id": "person:dan-millman",
+   "rel_type": "WORKED_AT",
+   "dst_id": "place:oberlin-college",
+   "metadata": {
+    "role": "Assistant Professor of Physical Education",
+    "start_year": 1972,
+    "evidence": "https://en.wikipedia.org/wiki/Dan_Millman"
+   }
+  },
+  {
+   "src_id": "person:dan-millman",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:aikido",
+   "metadata": {
+    "rank": "shodan (black belt)",
+    "context": "Trained in Aikido during Stanford tenure",
+    "evidence": "https://en.wikipedia.org/wiki/Dan_Millman"
+   }
+  },
+  {
+   "src_id": "person:steve-hug",
+   "rel_type": "WORKED_AT",
+   "dst_id": "place:stanford-university",
+   "metadata": {
+    "role": "U.S. Olympian gymnast",
+    "coach": "Dan Millman",
+    "evidence": "https://en.wikipedia.org/wiki/Dan_Millman"
+   }
+  }
+ ]
+}

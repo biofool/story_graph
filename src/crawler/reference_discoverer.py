@@ -7,8 +7,9 @@ Unlike the BFS WebCrawler (which crawls from seed URLs within allowed
 domains), this module is **graph-driven**: it uses the URLs already stored
 on graph nodes and source records as its crawl frontier. This makes it
 useful for finding new references in sources that were ingested manually
-(e.g. via scripts/11_ingest_cdnc.py, scripts/13_ingest_yoga_abuse_sheet.py,
-scripts/14_ingest_deslippe_paper.py) rather than via the crawl pipeline.
+(e.g. via scripts/11_ingest_cdnc.py or the declarative specs in
+data/ingest/ such as yoga_abuse_sheet.json, deslippe_paper.json) rather
+than via the crawl pipeline.
 
 Design:
 - Collects all unique http(s) URLs from node.source_urls and SourceRecord.url

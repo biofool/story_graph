@@ -1,0 +1,5 @@
+{
+ "name": "ralston_netherlands_sources",
+ "description": "Migrated from scripts/ingest_ralston_netherlands_sources.py (now deleted).",
+ "migrated_from": "scripts/ingest_ralston_netherlands_sources.py"
+}

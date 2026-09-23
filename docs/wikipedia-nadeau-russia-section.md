@@ -277,4 +277,4 @@ issue #28):
 - Graph data: `person:robert-nadeau --CO_APPEARANCE--> dojo:lenkai-aikido-club` (Oct 27, 1990, confidence 0.90)
 - GitHub issue: [#25](https://github.com/biofool/story_graph/issues/25) — Peter Ralston Wikipedia article (contains Russia seminar search strategy as a comment)
 - GitHub issue: [#28](https://github.com/biofool/story_graph/issues/28) — Nadeau Russia source replacement (tracks editorially-reviewed secondary source search)
-- Ingestion script: `scripts/29_ingest_nadeau_russia_seminars.py`
+- Ingestion spec: `data/ingest/nadeau_russia_seminars.json` (migrated from scripts/29_ingest_nadeau_russia_seminars.py)

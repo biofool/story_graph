@@ -1,0 +1,47 @@
+{
+  "name": "ikeda_website",
+  "description": "Ingest hiroshi-ikeda.com — Ikeda Shihan's own website. Static pages go through the standard extraction pipeline; the JS-rendered /seminars calendar is ingested as structured CSV from the published Google Sheet (first-party authoritative seminar calendar). Verified counterpart to the speculative leads in data/ikeda_visited_dojos.json (issue #65). Migrated from scripts/57_ingest_ikeda_website.py.",
+  "migrated_from": "scripts/57_ingest_ikeda_website.py",
+  "pages": [
+    {"url": "https://www.hiroshi-ikeda.com/", "source_class": "primary_first_person"},
+    {"url": "https://www.hiroshi-ikeda.com/about", "source_class": "primary_first_person"},
+    {"url": "https://www.hiroshi-ikeda.com/aikido-bridge", "source_class": "primary_first_person"},
+    {"url": "https://www.hiroshi-ikeda.com/kanji-art", "source_class": "primary_first_person"},
+    {"url": "https://www.hiroshi-ikeda.com/contact", "source_class": "primary_first_person"}
+  ],
+  "csv_events": {
+    "file": "data/reference/ikeda_seminar_calendar.csv",
+    "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSVKDcmv_f3fA4nkwSVkt4GDDzWZMKGyohp9mW7LXWPm9m76AxuJ3nGW8iQAsBcyPPYfwHp0tvnUnLt/pub?gid=501055104&single=true&output=csv",
+    "fallback_source_url": "https://www.hiroshi-ikeda.com/seminars",
+    "person_id": "person:hiroshi-ikeda",
+    "person_match": "ikeda",
+    "bridge_group_id": "group:aikido-bridge",
+    "id_prefix": "ikeda-cal",
+    "source_label": "hiroshi-ikeda.com seminar calendar",
+    "dojo_aliases": {
+      "aikido tamalpais": "dojo:aikido-of-tamalpais",
+      "aikido of tamalpais": "dojo:aikido-of-tamalpais",
+      "san diego aikido bridge": "dojo:jiai-aikido",
+      "aikido shobukan": "dojo:aikido-shobukan-dojo",
+      "tampa aikido": "dojo:aikido-chuseikan-of-tampa-bay",
+      "nashville aikikai": "dojo:nashville-aikikai",
+      "aikido kenkyukai": "dojo:aikido-kenkyukai-los-angeles",
+      "allegheny aikido": "dojo:allegheny-aikido",
+      "boulder aikikai": "dojo:boulder-aikikai",
+      "two cranes aikido": "dojo:two-cranes-aikido",
+      "bond street dojo": "dojo:bond-street-dojo",
+      "aiki-kai zurich": "dojo:aiki-kai-zurich",
+      "aiki-kai zürich": "dojo:aiki-kai-zurich",
+      "shindai aikido": "dojo:shindai-aikikai",
+      "arizona aikido": "dojo:arizona-aikido"
+    },
+    "source_record": {
+      "id": "source:ikeda-seminar-calendar",
+      "title": "Hiroshi Ikeda seminar calendar (published Google Sheet)",
+      "author": "Hiroshi Ikeda",
+      "platform": "hiroshi-ikeda.com",
+      "raw_text_file": "data/reference/ikeda_seminar_calendar.csv",
+      "source_class": "primary_first_person"
+    }
+  }
+}

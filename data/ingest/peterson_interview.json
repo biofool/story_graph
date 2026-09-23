@@ -1,0 +1,124 @@
+{
+ "name": "peterson_interview",
+ "description": "Migrated from scripts/04_add_peterson_interview.py (now deleted).",
+ "migrated_from": "scripts/04_add_peterson_interview.py",
+ "nodes": [
+  {
+   "id": "group-cyprus-peace-training-team",
+   "type": "Group",
+   "label": "Cyprus Peace Training Team",
+   "canonical_name": "Cyprus Peace Training Team",
+   "metadata": {
+    "group_type": "conflict_resolution_training",
+    "focus": "track_two_diplomacy",
+    "training_method": "aikido_based_dialogue",
+    "primary_architect": "Louise Diamond",
+    "period": "1990s-2000s",
+    "context": "Fulbright Commission conflict resolution initiative in Cyprus"
+   },
+   "source_urls": [
+    "/home/kkron/projects/github/story_graph/data/interviews/20260205_Peterson_Cyprus_Interview.json"
+   ]
+  },
+  {
+   "id": "person-richard-moon",
+   "type": "Person",
+   "label": "Richard Moon",
+   "canonical_name": "Richard Moon",
+   "metadata": {
+    "roles": [
+     "aikido_instructor",
+     "conflict_resolution_trainer",
+     "founder_of_peace_training_team"
+    ],
+    "training_focus": "embodied_presence_dialogue",
+    "bio": "Aikido instructor and peace builder who developed somatic/embodied approaches to conflict resolution"
+   },
+   "source_urls": [
+    "/home/kkron/projects/github/story_graph/data/interviews/20260205_Peterson_Cyprus_Interview.json"
+   ]
+  },
+  {
+   "id": "person-doug-stone",
+   "type": "Person",
+   "label": "Doug Stone",
+   "canonical_name": "Doug Stone",
+   "metadata": {
+    "roles": [
+     "conflict_resolution_trainer"
+    ],
+    "training_with": "Cyprus Fulbright Commission programs"
+   },
+   "source_urls": [
+    "/home/kkron/projects/github/story_graph/data/interviews/20260205_Peterson_Cyprus_Interview.json"
+   ]
+  },
+  {
+   "id": "person-chris-thorsten",
+   "type": "Person",
+   "label": "Chris Thorsten",
+   "canonical_name": "Chris Thorsten",
+   "metadata": {
+    "roles": [
+     "aikido_student",
+     "conflict_resolution_trainer"
+    ],
+    "bio": "One of the earliest students who worked with Richard Moon; brought aikido principles into corporate and conflict contexts",
+    "collaboration": "Co-trainer with Richard Moon and Doug Stone in Cyprus peace training programs"
+   },
+   "source_urls": [
+    "/home/kkron/projects/github/story_graph/data/interviews/20260205_Peterson_Cyprus_Interview.json"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "person-richard-moon",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group-cyprus-peace-training-team",
+   "metadata": {
+    "role": "co-founder",
+    "training_focus": "somatic embodiment and dialogue"
+   }
+  },
+  {
+   "src_id": "person-doug-stone",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group-cyprus-peace-training-team",
+   "metadata": {
+    "role": "trainer"
+   }
+  },
+  {
+   "src_id": "person-chris-thorsten",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group-cyprus-peace-training-team",
+   "metadata": {
+    "role": "co-trainer",
+    "training_focus": "physical metaphor for dialogue"
+   }
+  },
+  {
+   "src_id": "person-chris-thorsten",
+   "rel_type": "MENTIONS",
+   "dst_id": "person-richard-moon",
+   "metadata": {
+    "relationship": "early student who worked with",
+    "context": "aikido and conflict resolution"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "peterson-interview-20260205",
+   "url": "file:///home/kkron/projects/github/story_graph/data/interviews/20260205_Peterson_Cyprus_Interview.json",
+   "title": "Keith Peterson Interview: Cyprus Fulbright Commission & Conflict Resolution (Feb 5, 2026)",
+   "author": "Keith Peterson",
+   "publish_date": "2026-02-05",
+   "platform": "recorded_interview",
+   "raw_text": null,
+   "source_class": "primary_first_person",
+   "bias_hint": null
+  }
+ ]
+}

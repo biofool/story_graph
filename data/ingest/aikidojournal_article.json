@@ -1,0 +1,695 @@
+{
+ "name": "aikidojournal_article",
+ "description": "Migrated from scripts/16_ingest_aikidojournal.py (now deleted).",
+ "migrated_from": "scripts/16_ingest_aikidojournal.py",
+ "nodes": [
+  {
+   "id": "work:a2141cac8e8c09c1",
+   "type": "Work",
+   "label": "A Journey Through Aikido: Robert Nadeau on Spirituality, O-Sensei, and the Golden Age of Aikido in California – Aikido Journal",
+   "canonical_name": "A Journey Through Aikido: Robert Nadeau on Spirituality, O-Sensei, and the Golden Age of Aikido in California – Aikido Journal",
+   "metadata": {
+    "url": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/",
+    "publish_date": "2025-05-13T13:49:39-08:00",
+    "author": null,
+    "platform": "aikidojournal.com",
+    "work_type": "web_page"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "image:7fa2d8816a44e21bcfe9bfe2ba6fc7b37eb7c37c2b237908e58a473249e57e27",
+   "type": "Image",
+   "label": "https://aikidojournal.com/wp-content/uploads/2025/05/NADEAU-with-OSensei-seated-group-scaled.jpg",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://aikidojournal.com/wp-content/uploads/2025/05/NADEAU-with-OSensei-seated-group-scaled.jpg",
+    "content_hash": "7fa2d8816a44e21bcfe9bfe2ba6fc7b37eb7c37c2b237908e58a473249e57e27",
+    "mime": "image/jpeg",
+    "width": 2560,
+    "height": 1457,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "image:6653b77d2d28fd1cad9e8fcadb4b319f6c738bac6e4415c37ee681b4d2647d64",
+   "type": "Image",
+   "label": "https://aikidojournal.com/wp-content/uploads/2025/05/Nadeau_group_shrine_visit-scaled.jpg",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://aikidojournal.com/wp-content/uploads/2025/05/Nadeau_group_shrine_visit-scaled.jpg",
+    "content_hash": "6653b77d2d28fd1cad9e8fcadb4b319f6c738bac6e4415c37ee681b4d2647d64",
+    "mime": "image/jpeg",
+    "width": 2560,
+    "height": 1840,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "image:dc5fba14f90ef818162969ae9fbcef3896753f9551e936398d3797bf016bb83a",
+   "type": "Image",
+   "label": "https://aikidojournal.com/wp-content/uploads/2025/05/20241116-untitled-shootuntitled103.jpg",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://aikidojournal.com/wp-content/uploads/2025/05/20241116-untitled-shootuntitled103.jpg",
+    "content_hash": "dc5fba14f90ef818162969ae9fbcef3896753f9551e936398d3797bf016bb83a",
+    "mime": "image/jpeg",
+    "width": 2048,
+    "height": 1365,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "image:2853e7b1007095b261932d87fa7ccfab6441afd3e902052c3cc2503fb7372b93",
+   "type": "Image",
+   "label": "https://aikidojournal.com/wp-content/uploads/2025/05/L46_SAO_Nad_Negatives_014_Nadeau@Turk-copy-2-sc",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://aikidojournal.com/wp-content/uploads/2025/05/L46_SAO_Nad_Negatives_014_Nadeau@Turk-copy-2-scaled.jpg",
+    "content_hash": "2853e7b1007095b261932d87fa7ccfab6441afd3e902052c3cc2503fb7372b93",
+    "mime": "image/jpeg",
+    "width": 2560,
+    "height": 1652,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "image:fa8c89677b37d7e63914c223638c86d98d8993e80664e8e5e14a5e8c1f09e3f7",
+   "type": "Image",
+   "label": "https://aikidojournal.com/wp-content/uploads/2025/05/L49_Nadeau_holds_white_parasol-copy-scaled.jpg",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://aikidojournal.com/wp-content/uploads/2025/05/L49_Nadeau_holds_white_parasol-copy-scaled.jpg",
+    "content_hash": "fa8c89677b37d7e63914c223638c86d98d8993e80664e8e5e14a5e8c1f09e3f7",
+    "mime": "image/jpeg",
+    "width": 2560,
+    "height": 1708,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "image:f6b8429063513b9f701697e0b723b3a3242754797d82687655a46e5cebf7f5dc",
+   "type": "Image",
+   "label": "https://aikidojournal.com/wp-content/uploads/2025/05/Nadeau@Esalen-scaled.jpeg",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://aikidojournal.com/wp-content/uploads/2025/05/Nadeau@Esalen-scaled.jpeg",
+    "content_hash": "f6b8429063513b9f701697e0b723b3a3242754797d82687655a46e5cebf7f5dc",
+    "mime": "image/jpeg",
+    "width": 2053,
+    "height": 2560,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "image:c0ed27c63090da6327cc8e5ff9f9bf0f6e0e885552fd792ce2688dd4050b8aa9",
+   "type": "Image",
+   "label": "https://aikidojournal.com/wp-content/uploads/2025/05/20241116-untitled-shootuntitled118.jpg",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://aikidojournal.com/wp-content/uploads/2025/05/20241116-untitled-shootuntitled118.jpg",
+    "content_hash": "c0ed27c63090da6327cc8e5ff9f9bf0f6e0e885552fd792ce2688dd4050b8aa9",
+    "mime": "image/jpeg",
+    "width": 2048,
+    "height": 1365,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "image:1960b8b1b29e848cad7777e1934f1967ef78bc7d286b2eef205395af4ea2dfb1",
+   "type": "Image",
+   "label": "https://aikidojournal.com/wp-content/uploads/2025/05/Aikido-Art-of-Transformation-Cover-copy.jpg",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://aikidojournal.com/wp-content/uploads/2025/05/Aikido-Art-of-Transformation-Cover-copy.jpg",
+    "content_hash": "1960b8b1b29e848cad7777e1934f1967ef78bc7d286b2eef205395af4ea2dfb1",
+    "mime": "image/jpeg",
+    "width": 432,
+    "height": 648,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "place:san-francisco",
+   "type": "Place",
+   "label": "San Francisco",
+   "canonical_name": "San Francisco",
+   "metadata": {},
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "place:los-angeles",
+   "type": "Place",
+   "label": "Los Angeles",
+   "canonical_name": "Los Angeles",
+   "metadata": {},
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "event:he-co-founded-first-the-aikido-association-of-northern-california-aanc-and-then-the-california-aikido-association-ca",
+   "type": "Event",
+   "label": "He co-founded first the Aikido Association of Northern California (AANC), and then the California Aikido Association (CA",
+   "canonical_name": "He co-founded first the Aikido Association of Northern California (AANC), and then the California Aikido Association (CA",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "He co-founded first the Aikido Association of Northern California (AANC), and then the California Aikido Association (CAA), which has grown into an international community of more than 100 affiliated dojos"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "event:we-were-also-joined-by-laurin-herr-one-of-the-co-authors-of-a-new-book-about-nadeau-sensei",
+   "type": "Event",
+   "label": "We were also joined by Laurin Herr, one of the co-authors of a new book about Nadeau Sensei",
+   "canonical_name": "We were also joined by Laurin Herr, one of the co-authors of a new book about Nadeau Sensei",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "We were also joined by Laurin Herr, one of the co-authors of a new book about Nadeau Sensei"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "event:eventually-they-started-to-coincide",
+   "type": "Event",
+   "label": "Eventually, they started to coincide",
+   "canonical_name": "Eventually, they started to coincide",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "Eventually, they started to coincide"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "event:he-d-been-in-the-marine-corps-studied-aikido-there-and-was-i-believe-the-first-northern-california-teacher",
+   "type": "Event",
+   "label": "He’d been in the Marine Corps, studied Aikido there, and was, I believe, the first Northern California teacher",
+   "canonical_name": "He’d been in the Marine Corps, studied Aikido there, and was, I believe, the first Northern California teacher",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "He’d been in the Marine Corps, studied Aikido there, and was, I believe, the first Northern California teacher"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "event:you-moved-to-japan-in-late-1962-correct",
+   "type": "Event",
+   "label": "You moved to Japan in late 1962, correct",
+   "canonical_name": "You moved to Japan in late 1962, correct",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "You moved to Japan in late 1962, correct"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "event:left-to-right-roy-suenaka-morihei-ueshiba-seiichi-sugano-robert-nadeau",
+   "type": "Event",
+   "label": "Left to right: Roy Suenaka, Morihei Ueshiba, Seiichi Sugano, Robert Nadeau",
+   "canonical_name": "Left to right: Roy Suenaka, Morihei Ueshiba, Seiichi Sugano, Robert Nadeau",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "Left to right: Roy Suenaka, Morihei Ueshiba, Seiichi Sugano, Robert Nadeau"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "event:i-had-a-student-who-worked-at-ibm-and-kept-asking-what-do-you-do-against-a-left-hook",
+   "type": "Event",
+   "label": "I had a student who worked at IBM and kept asking, “What do you do against a left hook",
+   "canonical_name": "I had a student who worked at IBM and kept asking, “What do you do against a left hook",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "I had a student who worked at IBM and kept asking, “What do you do against a left hook"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "event:he-stopped-asking-about-left-hooks",
+   "type": "Event",
+   "label": "He stopped asking about left hooks",
+   "canonical_name": "He stopped asking about left hooks",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "He stopped asking about left hooks"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "event:we-started-summer-camps-because-schools-were-growing-and-we-had-enough-people-to-support-them",
+   "type": "Event",
+   "label": "We started summer camps because schools were growing, and we had enough people to support them",
+   "canonical_name": "We started summer camps because schools were growing, and we had enough people to support them",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "We started summer camps because schools were growing, and we had enough people to support them"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "event:in-2014-we-started-the-o-sensei-revisited-workshops-in-occidental-california-at-a-rented-summer-camp",
+   "type": "Event",
+   "label": "In 2014, we started the O-Sensei Revisited workshops in Occidental, California, at a rented summer camp",
+   "canonical_name": "In 2014, we started the O-Sensei Revisited workshops in Occidental, California, at a rented summer camp",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "In 2014, we started the O-Sensei Revisited workshops in Occidental, California, at a rented summer camp"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "event:it-started-in-my-first-aikido-dojo",
+   "type": "Event",
+   "label": "It started in my first Aikido dojo",
+   "canonical_name": "It started in my first Aikido dojo",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "It started in my first Aikido dojo"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "event:we-started-with-the-concept-of-a-nadeau-roku-a-zen-tradition-where-students-collect-a-teacher-s-stories",
+   "type": "Event",
+   "label": "” We started with the concept of a “Nadeau Roku,” a Zen tradition where students collect a teacher’s stories",
+   "canonical_name": "” We started with the concept of a “Nadeau Roku,” a Zen tradition where students collect a teacher’s stories",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "” We started with the concept of a “Nadeau Roku,” a Zen tradition where students collect a teacher’s stories"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "event:sensei-s-online-sessions-started-during-the-pandemic-featuring-diagrams-by-his-wife-katja-simona-offered-structure-tha",
+   "type": "Event",
+   "label": "Sensei’s online sessions started during the pandemic, featuring diagrams by his wife Katja Simona, offered structure tha",
+   "canonical_name": "Sensei’s online sessions started during the pandemic, featuring diagrams by his wife Katja Simona, offered structure tha",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "Sensei’s online sessions started during the pandemic, featuring diagrams by his wife Katja Simona, offered structure that helped us organize the teachings"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "claim:1a900592a61c9313",
+   "type": "Claim",
+   "label": "It’s not just about techniques—it’s about becoming a better person, as O-Sensei said",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "It’s not just about techniques—it’s about becoming a better person, as O-Sensei said",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "claim:1b2e530b0ccaa57b",
+   "type": "Claim",
+   "label": "” When I arrived, they said I was “Gestalt on the move,” though I didn’t know what Gestalt meant",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "” When I arrived, they said I was “Gestalt on the move,” though I didn’t know what Gestalt meant",
+    "claim_type": "biographical",
+    "stance": "self-mythologizing",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "claim:edf1655273dccdd3",
+   "type": "Claim",
+   "label": "As such, the lessons described can benefit both Aikidoists and non-Aikidoists alike",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "As such, the lessons described can benefit both Aikidoists and non-Aikidoists alike",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "secondary_report"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  },
+  {
+   "id": "claim:500f24cf4c7833d9",
+   "type": "Claim",
+   "label": "Laurin Herr: As O-Sensei said, and Nadeau Sensei emphasizes, Aikido’s purpose is to make better people—more sincere, fulfilling their destiny as doctors, horse trainers, or golfers",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "Laurin Herr: As O-Sensei said, and Nadeau Sensei emphasizes, Aikido’s purpose is to make better people—more sincere, fulfilling their destiny as doctors, horse trainers, or golfers",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:7fa2d8816a44e21bcfe9bfe2ba6fc7b37eb7c37c2b237908e58a473249e57e27",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:6653b77d2d28fd1cad9e8fcadb4b319f6c738bac6e4415c37ee681b4d2647d64",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:dc5fba14f90ef818162969ae9fbcef3896753f9551e936398d3797bf016bb83a",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:2853e7b1007095b261932d87fa7ccfab6441afd3e902052c3cc2503fb7372b93",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:fa8c89677b37d7e63914c223638c86d98d8993e80664e8e5e14a5e8c1f09e3f7",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:f6b8429063513b9f701697e0b723b3a3242754797d82687655a46e5cebf7f5dc",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:c0ed27c63090da6327cc8e5ff9f9bf0f6e0e885552fd792ce2688dd4050b8aa9",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:1960b8b1b29e848cad7777e1934f1967ef78bc7d286b2eef205395af4ea2dfb1",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:san-francisco",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:los-angeles",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:he-co-founded-first-the-aikido-association-of-northern-california-aanc-and-then-the-california-aikido-association-ca",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:we-were-also-joined-by-laurin-herr-one-of-the-co-authors-of-a-new-book-about-nadeau-sensei",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:eventually-they-started-to-coincide",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:he-d-been-in-the-marine-corps-studied-aikido-there-and-was-i-believe-the-first-northern-california-teacher",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:you-moved-to-japan-in-late-1962-correct",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:left-to-right-roy-suenaka-morihei-ueshiba-seiichi-sugano-robert-nadeau",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:i-had-a-student-who-worked-at-ibm-and-kept-asking-what-do-you-do-against-a-left-hook",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:he-stopped-asking-about-left-hooks",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:we-started-summer-camps-because-schools-were-growing-and-we-had-enough-people-to-support-them",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:in-2014-we-started-the-o-sensei-revisited-workshops-in-occidental-california-at-a-rented-summer-camp",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:it-started-in-my-first-aikido-dojo",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:we-started-with-the-concept-of-a-nadeau-roku-a-zen-tradition-where-students-collect-a-teacher-s-stories",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:sensei-s-online-sessions-started-during-the-pandemic-featuring-diagrams-by-his-wife-katja-simona-offered-structure-tha",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:1a900592a61c9313",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:1b2e530b0ccaa57b",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:edf1655273dccdd3",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  },
+  {
+   "src_id": "work:a2141cac8e8c09c1",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:500f24cf4c7833d9",
+   "metadata": {
+    "evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "work:a2141cac8e8c09c1",
+   "url": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/",
+   "title": "A Journey Through Aikido: Robert Nadeau on Spirituality, O-Sensei, and the Golden Age of Aikido in California – Aikido Journal",
+   "author": null,
+   "publish_date": "2025-05-13T13:49:39-08:00",
+   "platform": "aikidojournal.com",
+   "raw_text": "Featured Interviews A Journey Through Aikido: Robert Nadeau on Spirituality, O-Sensei, and the Golden Age of Aikido in California Josh Gold May 12, 2025 8 comments 16 min read Robert Nadeau was a personal student of the founder of Aikido, Morihei Ueshiba, and is one of the most senior teachers of Aikido active in the world today. He holds the rank of 8th dan and was certified as shihan (master teacher) by Aikido World Headquarters (Hombu Dojo). Nadeau has been a key figure in the growth and development of Aikido in America. He co-founded first the Aikido Association of Northern California (AANC), and then the California Aikido Association (CAA), which has grown into an international community of more than 100 affiliated dojos. This interview with Robert Nadeau Sensei, conducted by Josh Gold for Aikido Journal, explores Nadeau’s journey in Aikido, his experiences with O-Sensei in Japan, his perspectives on the art’s spiritual and martial dimensions, and the early days of Aikido in California. We were also joined by Laurin Herr, one of the co-authors of a new book about Nadeau Sensei. Josh Gold: Sensei, you’ve practiced various martial arts and movement disciplines—yoga, bodybuilding, judo, and more. What was your initial impression of Aikido, and why did you fall in love with it over everything else? Robert Nadeau: I was deeply interested in spiritual development—Who am I, really? What’s the universe about? That was strong in my system, alongside my passion for martial arts. Eventually, they started to coincide. With Aikido, through O-Sensei’s representation, I could see the depth of spiritual awareness and the martial art as an exterior form. It was a good blend. Was there something in your life that sparked your interest in the spiritual side? Growing up Catholic, there was always a touch of that. My family didn’t have money, or they might’ve sent me to become a priest, and I might’ve gone for it. We were lower working class, so I was a bit of a street kid, but I still had this spiritual interest. In high school, it hit me harder. I looked at the world and thought, “Is this it? If this is all there is, I don’t care. There must be something more.” Those early inclinations weren’t clear, but they developed over time. I was deeply interested in spiritual development—Who am I, really? What’s the universe about? That was strong in my system, alongside my passion for martial arts. You first encountered Aikido in the Bay Area, right? Yes. A teacher, Bob Tann, came from Hawaii. He’d been in the Marine Corps, studied Aikido there, and was, I believe, the first Northern California teacher. I bumped into him as he began teaching. He only had two white-belt students, but I felt there was something there. I went back a second time, bringing my judo training partners. When Tann mentioned “mind, body, harmony,” it clicked. That’s what I was trying to do in judo, but I couldn’t quite articulate it. His words hooked me. I helped him grow his school by inviting my judo friends to check it out. What did your judo friends think of Aikido? They trained a bit and enjoyed it, but judo and Aikido draw different types. Some cross-trained, but they didn’t quit judo for Aikido. As time went on, I got more into Aikido. You moved to Japan in late 1962, correct? Yes. Tell me a story about an early experience with O-Sensei or Aikido in Japan. I’d trained with Bob Tann and heard stories about O-Sensei, though little was written then. Koichi Tohei, the head teacher at Hombu Dojo at the time, was gregarious and captivating. When I got to Japan, I saw O-Sensei do incredible things—like raising his hand, and people would fall. I thought, “What was that?” After months of watching him drop attackers, I wanted to feel it. One day, he called me up, grabbed my arm, and I sprang up, ready. Suddenly, it was like I wasn’t in the dojo anymore. I’d been thrown before in judo and felt strength or speed, but with O-Sensei, it was like entering another world. I went in hard, came out hard, hit the ground, and students laughed because my mouth was open in shock. That was my first physical experience with O-Sensei. It was fun. O-Sensei with students after practice. Hombu Dojo 1962-64 Did you take ukemi for him other times? Yes, but it wasn’t always the same. He’d show different things. Once, I came in fast, wanting that experience again, but he held me back, saying, “No, I just want to show this little thing.” What was the most important lesson you learned from O-Sensei in Japan? That there are finer dimensions within us—actual spaces, fields of energy. I call it the “Weird Bobby. Bobby. Robert. Nadeau. Nadeau Sensei. Nadeau Shihan” pattern. If Weird Bobby relaxes and opens, he hits another level, becoming Bobby, who’s more normal, then relaxing and opening further to Robert, who’s cooler, more aware. It continues to a Nadeau level. And then to the Nadeau Sensei level, and further to Shihan level. O-Sensei showed this wasn’t just an idea but an actual presence. He operated from that finer level. When he was in that finer level, you couldn’t touch him. You’d move in, and you’d go down without him doing anything. That’s where he did his “magic throws.” It wasn’t just spiritual talk—he demonstrated it through action. Left to right: Roy Suenaka, Morihei Ueshiba, Seiichi Sugano, Robert Nadeau. 1962-64 You refer to “Weird Bobby” and your transformation. Can you share a bit more about how Aikido helped you move from that earlier self? Weird Bobby was a street kid, reactive, even dangerous. I once pulled a knife on a high school teacher who crowded my space—thank God he was a World War II vet and let it slide. Aikido, combined with my inner work, helped me shift. Bobby would react impulsively; Robert is cooler, more aware. Nadeau Sensei operates from an even finer level. Aikido gave me a practice to channel that energy, to harmonize rather than confront. It’s not just about techniques—it’s about becoming a better person, as O-Sensei said. Many who trained with O-Sensei came away with different impressions of his message. Why do you think that is? It depended on their level. Some were only interested in physical exercise or martial techniques—they wanted a workout. Others sought better centering or presence, but as it got finer, fewer followed. People drop off when it gets too inner; they’re leery or want to hold onto what they know. My edge was my early interest in the finer, original aspects, so I gravitated toward that. I never asked O-Sensei about techniques—he might’ve thrown me out. My first question to him, whatever it was, prompted him to say, “Come talk to me anytime.” That gave me carte blanche, unlike many Japanese students who stayed away. Many of them probably thought I, a foreigner, couldn’t understand him. But O-Sensei didn’t have that attitude. Today, people like to debate Aikido’s martial efficacy—whether it works in a “real fight.” Did O-Sensei care about that? My sense is he was showing that at a finer level, your capabilities manifest differently. Dropping someone was a reference for being in a better zone, not about macho fighting. He wasn’t into that from my sense of him. Aikido is an ever-changing practice of positive and receptive sides. You come in positive, the other goes receptive, then it switches. It’s about listening fully, harmonizing, not just falling better. When people ask, “Will this work in a fight?” I say that’s an outer reference. Let’s develop yourself. I had a student who worked at IBM and kept asking, “What do you do against a left hook?” I told him to train. After three months, he had a work evaluation and they praised his improvement and gave him a promotion, and he realized it was from Aikido. He stopped asking about left hooks. At Aikido West, November 2024 That’s a great story. You’ve mentioned your judo friends and cross-training. How did your background in other martial arts influence your Aikido? My judo background gave me a physical foundation—strength, timing, and an understanding of throwing. But judo was more competitive, about winning. Aikido offered something deeper, a harmony I couldn’t find in judo. My yoga practice also helped, teaching me to listen to my body, which complemented Aikido’s emphasis on inner awareness. The blend of physicality from judo and sensitivity from yoga made Aikido feel like the perfect vehicle for my spiritual and martial interests. I never asked O-Sensei about techniques—he might’ve thrown me out. My first question to him, whatever it was, prompted him to say, “Come talk to me anytime.” That gave me carte blanche, unlike many Japanese students who stayed away. Many of them probably thought I, a foreigner, couldn’t understand him. But O-Sensei didn’t have that attitude. How did your time in Japan shape your teaching when you returned to the U.S.? Japan gave me direct exposure to O-Sensei’s presence and Koichi Tohei’s teaching style. I saw Aikido as more than techniques—it was a way to access those finer levels. When I came back to California, I wanted to share that. The Bay Area in the 1960s was ripe for it—people were hungry for centering, energy, and spiritual growth. I taught not just the physical forms but the inner work, encouraging students to explore who they are. That’s why our classes drew so many; people felt the depth. You returned to California after Japan and became a pioneer of Aikido in the Bay Area. What was the vibe of Aikido in the 1960s, and how has it changed? It was great. People were ready for settling, centering energy. They came in droves. At the San Francisco school, it wasn’t unusual for six to eight people to watch a class and half sign up afterward. It was a hot time—a high percentage of the population was interested. Now, I haven’t seen someone watching a class in months. Things have changed. At Aikido of San Francisco, 1980s Was there a key inflection point that caused a shift in interest, or was it just Aikido becoming less novel and mysterious? I’m not sure why the ‘60s and ‘70s were so hot. Certain things come around. Today, words like “mindfulness” and “core” are big. Aikido was tapping into that same hunger for awareness back then. As it became more known, maybe it lost some mystique, but I don’t have a clear answer. People were ready for settling, centering energy. They came in droves. At the San Francisco school, it wasn’t unusual for six to eight people to watch a class and half sign up afterward. It was a hot time—a high percentage of the population was interested. You ran summer camps for years. Can you share about those? We started summer camps because schools were growing, and we had enough people to support them. Students could train five or six days, with a variety of teachers. They grew bigger every year, and people loved them—not just for training but for the social aspect. The last big one in Menlo Park was around 2011 or 2012. In 2014, we started the O-Sensei Revisited workshops in Occidental, California, at a rented summer camp. They were smaller but very nice. I wanted to highlight O-Sensei’s approach more, focusing on inner work. The big camps were more general Aikido, with some centering talk, but I wanted to go deeper. At the Aiki Summer Retreat, Dominican College, 1981 You also taught energy awareness workshops that extended into business, sports, and psychology. What did these workshops look like, and who attended them? They drew a wide variety—psychiatrists, leaders of major church organizations, bodybuilders, female bodybuilders, sports people. Some wanted to be better skiers, wrestlers, or golfers; others just wanted to improve themselves, to feel more settled and comfortable. Initially, many sought to function better in their roles, but over time, it became about functioning better as human beings, not just as professionals or athletes. These workshops were short-term, not the kind of multi-year training path we follow as martial artists. What was your goal in that limited time to create insight or transformation? It started in my first Aikido dojo. I wanted to teach what I’d learned from training and my meditation—spiritual awareness—separate from Aikido classes. I’d hold centering workshops, focusing on settling and energy flow for an hour or two. As they developed, we explored energy awareness—feeling energy exchanges, seeing auras, things like that. It was about getting a finer level across. People heard about my work, and I was invited to Esalen, a major personal growth center in Big Sur. For over 10 years, I led popular workshops there on centering, energy awareness, and meditation, not Aikido techniques. Esalen was psychology oriented before me; I brought an energy experiential approach, and they were open to it. Esalen’s beautiful—I love Big Sur. So, you shifted their focus a bit from psychology to spirituality? Yeah, they called me “Mr. Energy.” When I arrived, they said I was “Gestalt on the move,” though I didn’t know what Gestalt meant. My energy presence touched them. They hadn’t explored meditation much, so I was one of the early meditation introducers there. At Esalen, Big Sur, 1970s You also connected with the human potential movement. How did your work fit into that? The human potential movement was big then, and I fit right in. I wasn’t a leader of it, but my work—centering, energy awareness—aligned with its goals of personal growth and unlocking human potential. In Aikido’s early years, I rode that wave, sharing my approach in those circles. You came to Aikido through a spiritual lens. Has your understanding of its spiritual components changed over the years? It’s improved with experiential awareness. No great breakthroughs, just increasing clarity. Aikido and my inner training go hand in hand—it’s a composite package. So it’s hard to separate Aikido’s impact from your life. Has it helped navigate personal or professional challenges? It’s tough to isolate. Aikido’s part of my being. Aikido’s helped me become a better person, not just a fighter. At Aikido West, November 2024 Let’s talk about your new book. What’s the story behind its creation? Laurin Herr: The idea of a book about Nadeau Sensei had been around for years. People urged him to write one, but nothing happened. During the pandemic, Teja Bell, a Zen Roshi and long-time student, rallied the six co-authors – himself, Richard Moon, Bob Noha, Susan Spence, Elaine Yoder and me, saying, “What else are you doing more important right now?” We started with the concept of a “Nadeau Roku,” a Zen tradition where students collect a teacher’s stories. We solicited stories, asking about first impressions, impactful moments, or memorable experiences training with Sensei. We sent out hundreds of requests and received 82 heartfelt stories. They referenced historical moments, so we added a chronology. Sensei shared his scrapbook with photos of O-Sensei, Koichi Tohei, and other uchi-deshi from his days at Hombu Dojo, milestones in the development of Aikido in California, and more—all significant for Aikido history. Then we realized a chronology wasn’t enough; we wanted to capture Nadeau Sensei’s teachings. This was challenging because his classes are nonlinear—spoken, felt, demonstrated, experienced. But writing for publication requires a linear structure. Sensei’s online sessions started during the pandemic, featuring diagrams by his wife Katja Simona, offered structure that helped us organize the teachings. Our editor made additional helpful suggestions, and students like Alexander Kolbasov and Jan Watson provided photos—Alexander’s from workshops since 2008, Jan’s artistic black-and-white from the ‘70s and ‘80s. The visuals are key, as Aikido often touches people visually first. It turned into a three-year project, with Sensei reviewing drafts to ensure accuracy. The final book, titled Aikido: The Art of Transformation – The Life and Teachings of Robert Nadeau, was released by Inner Traditions in November 2024. It is perhaps a bit unusual as a martial arts book in that it contains no instruction about techniques. Nadeau Sensei teaches Aikido from the inside out, and the coauthors, all long-time students, tried to present his approach as clearly as possible. As such, the lessons described can benefit both Aikidoists and non-Aikidoists alike. It is also rare for a book like this to contain both the master’s teachings and his student’s stories about how they received those teachings or how he impacted their lives, both on and off the mat. It makes for an interesting read. Sensei, what was it like reading the students’ stories in the book? Fascinating and surprising. I was touched by how deeply some were affected. Students don’t always tell you what they got out of it, so reading their stories was like, “Wow, that’s cool.” I want to revisit it again and again. Any thoughts on the current state of Aikido? I don’t know. I hear that question from Aikido folks—where are we going? I say, “We’ll see.” Fair enough. Any parting words for the Aikido community or Aikido Journal readers ? Some Aikido people take the wrong approach, talking about Aikido as a martial art to compete with MMA. That invites challenges we’re not practicing for. Aikido is an inner developmental art. When asked about MMA, say, “I don’t care—I’m getting along better with my wife, or I’m respected in my community.” Some teachers talk about competing without the background to back it up. They’ve never been punched, so they shouldn’t boast. Aikido’s about using outer forms to check inner growth, not proving martial prowess. I agree. Some practitioners create a self-inflicted problem by claiming Aikido is something it’s not. What do you think makes Aikido different from other inner practices, like yoga? I liked yoga, but Aikido felt like a California highway—you’re not solo but in relation to others. Yoga, I could do alone in my living room. Aikido’s about working with a partner, flowing, harmonizing. It develops you with functionality, referencing how you handle relationships. Laurin Herr: As O-Sensei said, and Nadeau Sensei emphasizes, Aikido’s purpose is to make better people—more sincere, fulfilling their destiny as doctors, horse trainers, or golfers. It’s not about defeating others. Also, Aikido can be practiced full speed, safely, unlike karate, where punches are pulled, or judo, with its rules. As a true budo, Aikido has no rules but focuses on self-development, practiced in pairs to foster relationship, blending, and standing your ground. Robert Nadeau: Exactly. O-Sensei talked about becoming a more advanced being. Aikido’s about inner development—Who are you, really? Watch out for Weird Bobby—he’s trouble. But Robert Nadeau Sensei? He’s working on being a better person. For more details about the new book, Aikido: The Art of Transformation The Life and Teachings of Robert Nadeau, please go here . The book is available through Amazon, Barnes & Noble and many local bookstores around the world. Aikikai Hombu Dojo Bob Tann Koichi Tohei Laurin Herr Morihei Ueshiba Robert Nadeau Josh Gold Executive Editor of Aikido Journal, CEO of Budo Accelerator, and Chief Instructor of Ikazuchi Dojo. View all posts Ryuji Shirakawa on Modern Aikido: Movement, Mindset, and Evolution Business Lessons from the Tatami: How Aikido Principles Shape Entrepreneurship",
+   "source_class": "journalistic",
+   "bias_hint": "defensive"
+  }
+ ],
+ "claim_sources": [
+  {
+   "claim_id": "claim:1a900592a61c9313",
+   "source_id": "work:a2141cac8e8c09c1",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:1b2e530b0ccaa57b",
+   "source_id": "work:a2141cac8e8c09c1",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:edf1655273dccdd3",
+   "source_id": "work:a2141cac8e8c09c1",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:500f24cf4c7833d9",
+   "source_id": "work:a2141cac8e8c09c1",
+   "quote_span_start": null,
+   "quote_span_end": null
+  }
+ ]
+}

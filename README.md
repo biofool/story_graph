@@ -163,11 +163,10 @@ story_graph/
 │   ├── 03_targeted_entity_research.py  # scheduled — see infra/README.md
 │   ├── 09_graph_api.py                 # enrichment API + web UI — see below
 │   ├── 10_capture_images.py            # backfill images for already-crawled sources
-│   ├── 16_ingest_aikidojournal.py      # single-URL ingest — see below
+│   ├── ingest.py                       # generic JSON-driven ingest — see below
 │   ├── 17_ingest_from_kv.py            # email-ingest batch processor — see below
 │   ├── 4[2-4]_npc_*.py                 # newspapers.com search/extract/cleanup
 │   ├── 45_aikiweb_seminars_crawl.py    # archive AikiWeb seminar listing pages
-│   ├── 47_ingest_moon_newspaper_events.py
 │   └── 48_ingest_aikiweb_seminars.py   # per-instructor seminar ingest (--taught-by)
 ├── prompts/
 │   └── graph_to_wikipedia_update.md  # reusable LLM prompt: graph export -> Wikipedia proposal
@@ -382,17 +381,24 @@ processes.
 See `docs/email-ingest-setup.md` for the full setup guide, and
 `email-worker/` for the Cloudflare Email Worker code.
 
-### Single-URL ingestion
+### Declarative ingestion (default)
 
-To ingest a single URL without the email pipeline:
+One-off ingests are declared as JSON specs in `data/ingest/` and applied
+by the generic runner — don't write a new numbered script:
 
 ```bash
-python scripts/16_ingest_aikidojournal.py --url <URL>
-python scripts/16_ingest_aikidojournal.py --url <URL> --dry-run
+python scripts/ingest.py data/ingest/<name>.json --dry-run
+python scripts/ingest.py data/ingest/<name>.json
 ```
 
-This fetches the page, runs it through the entity/claim extraction
-pipeline (`process_page`), and exports to `graph_snapshot/`.
+A spec can declare `pages` (fetched and run through `process_page`),
+`nodes`/`edges`/`sources`/`claim_sources`, `delete_edges`, and
+`csv_events` (structured seminar-calendar rows). Historical one-off
+scripts were migrated to specs by `scripts/migrate_ingests.py`; each spec
+carries a `migrated_from` pointer.
+
+To ingest a single URL without the email pipeline, create a minimal spec
+(e.g. `{"name": "...", "pages": ["<URL>"]}`) and run it the same way.
 
 ## AikiWeb seminar research
 

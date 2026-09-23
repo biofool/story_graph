@@ -1,0 +1,1222 @@
+{
+  "name": "ikeda_dojos",
+  "description": "Migrated from scripts/27_add_ikeda_dojos.py (now deleted).",
+  "migrated_from": "scripts/27_add_ikeda_dojos.py",
+  "nodes": [
+    {
+      "id": "dojo:aikido-of-tamalpais",
+      "type": "Dojo",
+      "label": "Aikido of Tamalpais",
+      "canonical_name": "Aikido of Tamalpais",
+      "metadata": {
+        "city": "Corte Madera",
+        "state": "CA",
+        "country": "United States",
+        "email": "bscott111@hotmail.com",
+        "website": "http://www.tam-aikido.org",
+        "wsf_ids": [
+          46509
+        ],
+        "requested_as": "Aikido Tamalpais",
+        "match_type": "exact",
+        "confidence": "high",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:aikido-kenkyukai-los-angeles",
+      "type": "Dojo",
+      "label": "Aikido Kenkyukai Los Angeles",
+      "canonical_name": "Aikido Kenkyukai Los Angeles",
+      "metadata": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "United States",
+        "email": "admin@aikidolosangeles.org",
+        "website": "http://www.aikidolosangeles.org",
+        "wsf_ids": [
+          46301,
+          46299
+        ],
+        "requested_as": "Aikido Kenkyukai LA",
+        "match_type": "exact",
+        "confidence": "high",
+        "notes": "Two WSF listings; alternate contact aikidokenkyukaila@gmail.com",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:allegheny-aikido",
+      "type": "Dojo",
+      "label": "Allegheny Aikido",
+      "canonical_name": "Allegheny Aikido",
+      "metadata": {
+        "city": "Pittsburgh",
+        "state": "PA",
+        "country": "United States",
+        "email": "garth@slaughterhousegallery.com",
+        "website": "http://www.alleghenyaikido.com",
+        "wsf_ids": [
+          46609
+        ],
+        "requested_as": "Allegheny Pittsburgh, PA",
+        "match_type": "exact",
+        "confidence": "high",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:kansas-city-aikido-school",
+      "type": "Dojo",
+      "label": "Kansas City Aikido School",
+      "canonical_name": "Kansas City Aikido School",
+      "metadata": {
+        "city": "Kansas City",
+        "state": "MO",
+        "country": "United States",
+        "email": "graham@skw-inc.com",
+        "website": "http://www.kcaikido.com",
+        "wsf_ids": [
+          46998
+        ],
+        "requested_as": "Aiki jyuku dojo Kansas city",
+        "match_type": "variant",
+        "confidence": "medium",
+        "notes": "No exact 'Aiki Jyuku' in DB; nearest KC aikido dojo. Outreach should confirm.",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:manabi-dojo-kansas-city",
+      "type": "Dojo",
+      "label": "Manabi Dojo",
+      "canonical_name": "Manabi Dojo",
+      "metadata": {
+        "city": "Kansas City",
+        "state": "MO",
+        "country": "United States",
+        "email": "manabidojokc@gmail.com",
+        "website": "http://www.manabidojo.com",
+        "wsf_ids": [
+          47103
+        ],
+        "requested_as": "Aiki jyuku dojo Kansas city",
+        "match_type": "variant",
+        "confidence": "low",
+        "notes": "Alternate KC candidate — 'manabi' and 'jyuku' are both study-related terms.",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:aikido-harmonie-club-87",
+      "type": "Dojo",
+      "label": "Aïkido Harmonie Club 87",
+      "canonical_name": "Aïkido Harmonie Club 87",
+      "metadata": {
+        "city": "Limoges",
+        "state": "",
+        "country": "France",
+        "email": "",
+        "website": "",
+        "wsf_ids": [
+          109882
+        ],
+        "requested_as": "Aikido Harmonie France",
+        "match_type": "exact",
+        "confidence": "high",
+        "notes": "No email on record — contact via federation or form.",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:instituto-takemussu-sao-paulo",
+      "type": "Dojo",
+      "label": "Aikido - Instituto Takemussu",
+      "canonical_name": "Aikido - Instituto Takemussu",
+      "metadata": {
+        "city": "São Paulo",
+        "state": "SP",
+        "country": "Brazil",
+        "email": "inst.takemussu@aikikai.org.br",
+        "website": "http://www.aikikai.org.br",
+        "wsf_ids": [
+          99438
+        ],
+        "requested_as": "Brazil Sao Paulo Aikido Takemssu",
+        "match_type": "exact",
+        "confidence": "high",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:boulder-aikikai",
+      "type": "Dojo",
+      "label": "Boulder Aikikai",
+      "canonical_name": "Boulder Aikikai",
+      "metadata": {
+        "city": "Boulder",
+        "state": "CO",
+        "country": "United States",
+        "email": "boulder-info@boulderaikikai.org",
+        "website": "http://www.boulderaikikai.org",
+        "wsf_ids": [
+          46680
+        ],
+        "requested_as": "Boulder Aikikai Summer Camp",
+        "match_type": "exact",
+        "confidence": "high",
+        "notes": "Ikeda's home dojo; summer camp host. Node already exists in graph.",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:bond-street-dojo",
+      "type": "Dojo",
+      "label": "Bond Street Dojo (New York Aikido Society)",
+      "canonical_name": "Bond Street Dojo (New York Aikido Society)",
+      "metadata": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States",
+        "email": "bookkeeper@bondstreet.org",
+        "website": "http://www.bondstreet.org",
+        "wsf_ids": [
+          740
+        ],
+        "requested_as": "Bond St. Dojo New York",
+        "match_type": "exact",
+        "confidence": "high",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:school-of-budo-portland",
+      "type": "Dojo",
+      "label": "School of Budo",
+      "canonical_name": "School of Budo",
+      "metadata": {
+        "city": "Portland",
+        "state": "OR",
+        "country": "United States",
+        "email": "",
+        "website": "https://www.ecoledebudo.com",
+        "wsf_ids": [
+          155
+        ],
+        "requested_as": "Budo dojo Portland OR",
+        "match_type": "variant",
+        "confidence": "medium",
+        "notes": "Literal name match, no email on record. Alternates: Portland Aikikai (portlandaikikai@gmail.com), Multnomah Aikikai (dojo@multnomahaikikai.com).",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:aiki-shuren-dojo-costa-rica",
+      "type": "Dojo",
+      "label": "Aiki Shuren Dojo Costa Rica",
+      "canonical_name": "Aiki Shuren Dojo Costa Rica",
+      "metadata": {
+        "city": "Tibás",
+        "state": "",
+        "country": "Costa Rica",
+        "email": "info@aikidocostarica.com",
+        "website": "http://www.aikidocostarica.com",
+        "wsf_ids": [
+          48706
+        ],
+        "requested_as": "Costa Rica",
+        "match_type": "city_or_country_lead",
+        "confidence": "medium",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:aikikai-de-costa-rica",
+      "type": "Dojo",
+      "label": "Aikikai de Costa Rica",
+      "canonical_name": "Aikikai de Costa Rica",
+      "metadata": {
+        "city": "San José",
+        "state": "",
+        "country": "Costa Rica",
+        "email": "hschafer@racsa.co.cr",
+        "website": "",
+        "wsf_ids": [
+          48710
+        ],
+        "requested_as": "Costa Rica",
+        "match_type": "city_or_country_lead",
+        "confidence": "medium",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:chicago-aikikai",
+      "type": "Dojo",
+      "label": "Chicago Aikikai",
+      "canonical_name": "Chicago Aikikai",
+      "metadata": {
+        "city": "Chicago",
+        "state": "IL",
+        "country": "United States",
+        "email": "chicago-aikikai@asu.org",
+        "website": "http://www.chicagoaikikai.org",
+        "wsf_ids": [
+          46737
+        ],
+        "requested_as": "Chicago Aikikai",
+        "match_type": "exact",
+        "confidence": "high",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:meido-kan-helsinki",
+      "type": "Dojo",
+      "label": "Meido-Kan",
+      "canonical_name": "Meido-Kan",
+      "metadata": {
+        "city": "Helsinki",
+        "state": "",
+        "country": "Finland",
+        "email": "aikido@meidokan.fi",
+        "website": "http://www.meidokan.fi",
+        "wsf_ids": [
+          49274
+        ],
+        "requested_as": "Finland Helsinki Aikika",
+        "match_type": "variant",
+        "confidence": "medium",
+        "notes": "Largest Helsinki aikikai dojo; 'Helsinki Aikikai' not found verbatim.",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:seitokai-helsinki",
+      "type": "Dojo",
+      "label": "Seitokai",
+      "canonical_name": "Seitokai",
+      "metadata": {
+        "city": "Helsinki",
+        "state": "",
+        "country": "Finland",
+        "email": "",
+        "website": "http://www.seitokai-aikido.fi",
+        "wsf_ids": [
+          49280
+        ],
+        "requested_as": "Finland Helsinki Aikika",
+        "match_type": "variant",
+        "confidence": "low",
+        "notes": "Alternate Helsinki candidate, no email on record.",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:kealamakani-aikido",
+      "type": "Dojo",
+      "label": "Kealamakani Aikido",
+      "canonical_name": "Kealamakani Aikido",
+      "metadata": {
+        "city": "Kamuela",
+        "state": "HI",
+        "country": "United States",
+        "email": "acquaro@hawaii.rr.com",
+        "website": "http://www.kealamakani.com",
+        "wsf_ids": [
+          47005
+        ],
+        "requested_as": "Hawaii Big Island {Kona Island}",
+        "match_type": "city_or_country_lead",
+        "confidence": "medium",
+        "notes": "Kamuela (Waimea) — west/Kona side of Big Island.",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:kohala-aikikai",
+      "type": "Dojo",
+      "label": "Kohala Aikikai",
+      "canonical_name": "Kohala Aikikai",
+      "metadata": {
+        "city": "Kapaau",
+        "state": "HI",
+        "country": "United States",
+        "email": "kvarjan@gmail.com",
+        "website": "http://www.kohalaaikikai.org",
+        "wsf_ids": [
+          47035
+        ],
+        "requested_as": "Hawaii Big Island {Kona Island}",
+        "match_type": "city_or_country_lead",
+        "confidence": "medium",
+        "notes": "North Kohala, Big Island. REFUTED 2026-09-24: owner Kristina Varjan (kvarjan@gmail.com) replied to outreach stating 'Hiroshi Ikeda Shihan has never visited our dojo' — see source:kristina-varjan-kohala-email-2026-09-24.",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:aikido-of-hilo",
+      "type": "Dojo",
+      "label": "Aikido of Hilo",
+      "canonical_name": "Aikido of Hilo",
+      "metadata": {
+        "city": "Hilo",
+        "state": "HI",
+        "country": "United States",
+        "email": "aikidoofhilo@gmail.com",
+        "website": "http://www.aikidoofhilo.org",
+        "wsf_ids": [
+          46405
+        ],
+        "requested_as": "Hawaii Big Island {Kona Island}",
+        "match_type": "city_or_country_lead",
+        "confidence": "low",
+        "notes": "East side of Big Island — farther from Kona.",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:aikido-kyoto",
+      "type": "Dojo",
+      "label": "Aikido Kyoto",
+      "canonical_name": "Aikido Kyoto",
+      "metadata": {
+        "city": "Kyoto",
+        "state": "",
+        "country": "Japan",
+        "email": "aikidokyoto@yahoo.com",
+        "website": "http://www.aikidokyoto.com",
+        "wsf_ids": [
+          50057
+        ],
+        "requested_as": "Kyoto Japan",
+        "match_type": "exact",
+        "confidence": "high",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:white-rose-aikido-kyoto",
+      "type": "Dojo",
+      "label": "White Rose Aikido Kyoto Dojo",
+      "canonical_name": "White Rose Aikido Kyoto Dojo",
+      "metadata": {
+        "city": "Kyoto",
+        "state": "",
+        "country": "Japan",
+        "email": "info@kyoto-aikido.com",
+        "website": "http://www.kyoto-aikido.com",
+        "wsf_ids": [
+          50128
+        ],
+        "requested_as": "Kyoto Japan",
+        "match_type": "variant",
+        "confidence": "medium",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:aikido-aishinjuku",
+      "type": "Dojo",
+      "label": "Aikido Aishinjuku",
+      "canonical_name": "Aikido Aishinjuku",
+      "metadata": {
+        "city": "Kumamoto",
+        "state": "",
+        "country": "Japan",
+        "email": "bac76@hotmail.com",
+        "website": "",
+        "wsf_ids": [
+          50051
+        ],
+        "requested_as": "Kumamoto japan",
+        "match_type": "city_or_country_lead",
+        "confidence": "medium",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:aikido-shinenjuku",
+      "type": "Dojo",
+      "label": "Aikido Shinenjuku",
+      "canonical_name": "Aikido Shinenjuku",
+      "metadata": {
+        "city": "Kumamoto",
+        "state": "",
+        "country": "Japan",
+        "email": "bac76@hotmail.com",
+        "website": "",
+        "wsf_ids": [
+          50059
+        ],
+        "requested_as": "Kumamoto japan",
+        "match_type": "city_or_country_lead",
+        "confidence": "medium",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:aikiryu-monza",
+      "type": "Dojo",
+      "label": "Aikiryu Monza",
+      "canonical_name": "Aikiryu Monza",
+      "metadata": {
+        "city": "Muggio",
+        "state": "",
+        "country": "Italy",
+        "email": "llarosa@tin.it",
+        "website": "",
+        "wsf_ids": [
+          49939
+        ],
+        "requested_as": "Monza Italy",
+        "match_type": "city_or_country_lead",
+        "confidence": "medium",
+        "notes": "Muggio is in Monza province.",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:budo-renshukai-aikido-juku",
+      "type": "Dojo",
+      "label": "Budo Renshukai Aikido Juku",
+      "canonical_name": "Budo Renshukai Aikido Juku",
+      "metadata": {
+        "city": "Milwaukee",
+        "state": "WI",
+        "country": "United States",
+        "email": "contact@milwaukeeaikidodojo.com",
+        "website": "http://www.milwaukeeaikidodojo.com",
+        "wsf_ids": [
+          46696
+        ],
+        "requested_as": "Mid West Aikido Bridge Milwaukee",
+        "match_type": "variant",
+        "confidence": "medium",
+        "notes": "'Midwest Aikido Bridge' is Ikeda's own seminar organization; nearest Milwaukee dojo candidate.",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:milwaukee-aikido-club",
+      "type": "Dojo",
+      "label": "Milwaukee Aikido Club (Marlo Jiu Aikido / Withey Marlo Aikikai)",
+      "canonical_name": "Milwaukee Aikido Club (Marlo Jiu Aikido / Withey Marlo Aikikai)",
+      "metadata": {
+        "city": "Milwaukee",
+        "state": "WI",
+        "country": "United States",
+        "email": "milwaukeeaikidoclub@gmail.com",
+        "website": "http://www.milwaukeeaikido.org",
+        "wsf_ids": [
+          1858,
+          1859
+        ],
+        "requested_as": "Mid West Aikido Bridge Milwaukee",
+        "match_type": "variant",
+        "confidence": "low",
+        "notes": "Alternate Milwaukee candidate; two WSF listings share this contact.",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:nashville-aikikai",
+      "type": "Dojo",
+      "label": "Nashville Aikikai",
+      "canonical_name": "Nashville Aikikai",
+      "metadata": {
+        "city": "Nashville",
+        "state": "TN",
+        "country": "United States",
+        "email": "nashville_aikikai@hotmail.com",
+        "website": "http://www.asu.org/NashAikikai",
+        "wsf_ids": [
+          47176
+        ],
+        "requested_as": "Nashville Aikikai",
+        "match_type": "exact",
+        "confidence": "high",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:shindai-aikikai",
+      "type": "Dojo",
+      "label": "Shindai Aikikai",
+      "canonical_name": "Shindai Aikikai",
+      "metadata": {
+        "city": "Orlando",
+        "state": "FL",
+        "country": "United States",
+        "email": "sfasen@shindai.com",
+        "website": "http://www.shindai.com",
+        "wsf_ids": [
+          47435
+        ],
+        "requested_as": "Orlando FL Shindai Aikido",
+        "match_type": "exact",
+        "confidence": "high",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:oberlin-aikikai",
+      "type": "Dojo",
+      "label": "Oberlin Aikikai",
+      "canonical_name": "Oberlin Aikikai",
+      "metadata": {
+        "city": "Oberlin",
+        "state": "OH",
+        "country": "United States",
+        "email": "aikido@oberlin.edu",
+        "website": "http://www.oberlin.edu/stuorg/Aikido",
+        "wsf_ids": [
+          47238
+        ],
+        "requested_as": "Oberlin OH",
+        "match_type": "exact",
+        "confidence": "high",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:arizona-aikido",
+      "type": "Dojo",
+      "label": "Arizona Aikido",
+      "canonical_name": "Arizona Aikido",
+      "metadata": {
+        "city": "Phoenix",
+        "state": "AZ",
+        "country": "United States",
+        "email": "denveraikikai@comcast.net",
+        "website": "http://www.azaikido.com",
+        "wsf_ids": [
+          1493
+        ],
+        "requested_as": "Phoenix AZ Arizona Aikido",
+        "match_type": "exact",
+        "confidence": "high",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:two-cranes-aikido",
+      "type": "Dojo",
+      "label": "Two Cranes Aikido",
+      "canonical_name": "Two Cranes Aikido",
+      "metadata": {
+        "city": "Seattle",
+        "state": "WA",
+        "country": "United States",
+        "email": "dojoinfo@twocranesinstitute.org",
+        "website": "http://www.twocranesaikido.com/",
+        "wsf_ids": [
+          40
+        ],
+        "requested_as": "Seattle Two Crane Aikido",
+        "match_type": "exact",
+        "confidence": "high",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:aikido-chuseikan-of-tampa-bay",
+      "type": "Dojo",
+      "label": "Aikido Chuseikan of Tampa Bay",
+      "canonical_name": "Aikido Chuseikan of Tampa Bay",
+      "metadata": {
+        "city": "Tampa",
+        "state": "FL",
+        "country": "United States",
+        "email": "",
+        "website": "http://tampaaikido.com",
+        "wsf_ids": [
+          46252
+        ],
+        "requested_as": "Tampa FL Chuseikan Dojo",
+        "match_type": "exact",
+        "confidence": "high",
+        "notes": "No email on record — website contact form.",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:aiki-shuren-dojo-istanbul",
+      "type": "Dojo",
+      "label": "Aiki Shuren dojo Istanbul",
+      "canonical_name": "Aiki Shuren dojo Istanbul",
+      "metadata": {
+        "city": "Istanbul",
+        "state": "",
+        "country": "Turkey",
+        "email": "iwamaryu@turk.net",
+        "website": "http://www.iwama-ryu-tr.org",
+        "wsf_ids": [
+          51304
+        ],
+        "requested_as": "Turkey Istanbul",
+        "match_type": "city_or_country_lead",
+        "confidence": "medium",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:kaya-aiki-budo-dojo",
+      "type": "Dojo",
+      "label": "Kaya Aiki Budo Dojo",
+      "canonical_name": "Kaya Aiki Budo Dojo",
+      "metadata": {
+        "city": "Istanbul",
+        "state": "",
+        "country": "Turkey",
+        "email": "info@aikiturk.net",
+        "website": "http://www.aikiturk.net",
+        "wsf_ids": [
+          51334
+        ],
+        "requested_as": "Turkey Istanbul",
+        "match_type": "city_or_country_lead",
+        "confidence": "medium",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:aiki-kai-zurich",
+      "type": "Dojo",
+      "label": "Aiki-Kai Zurich",
+      "canonical_name": "Aiki-Kai Zurich",
+      "metadata": {
+        "city": "Zurich",
+        "state": "",
+        "country": "Switzerland",
+        "email": "info@aikikai-zuerich.ch",
+        "website": "http://www.aikikai-zuerich.ch",
+        "wsf_ids": [
+          51200
+        ],
+        "requested_as": "Zurich Aiki-kai Zurich",
+        "match_type": "exact",
+        "confidence": "high",
+        "notes": "",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "dojo:aikido-shobukan-dojo",
+      "type": "Dojo",
+      "label": "Aikido Shobukan Dojo",
+      "canonical_name": "Aikido Shobukan Dojo",
+      "metadata": {
+        "city": "Washington",
+        "state": "DC",
+        "country": "United States",
+        "email": "",
+        "website": "http://www.aikido-shobukan.org",
+        "wsf_ids": [
+          133681
+        ],
+        "requested_as": "Washington DC Shobukan dojo",
+        "match_type": "exact",
+        "confidence": "high",
+        "notes": "ASU headquarters dojo; no email on record — contact via aikido-shobukan.org.",
+        "art": "aikido"
+      },
+      "source_urls": [
+        "worldstudiofinder:pipeline.db#studios_flat"
+      ]
+    },
+    {
+      "id": "claim:27ab36180b29ce11",
+      "type": "Claim",
+      "label": "Kristina Varjan, owner of Kohala Aikikai (Kapaau, Big Island, HI), stated by email on 2026-09-24 that Hiroshi Ikeda Shih",
+      "canonical_name": null,
+      "metadata": {
+        "claim_text": "Kristina Varjan, owner of Kohala Aikikai (Kapaau, Big Island, HI), stated by email on 2026-09-24 that Hiroshi Ikeda Shihan has never visited Kohala Aikikai — refuting the claim that the dojo was one Ikeda visited frequently. She also stated she has no information on the other Big Island dojos listed (Kealamakani Aikido, Aikido of Hilo), which remain unconfirmed geographic leads.",
+        "claim_type": "historical_dispute",
+        "confidence": 1.0,
+        "evidence_mode": "first_person",
+        "stance": "critical",
+        "asserted_by": "kristina-varjan",
+        "refutes": "person:hiroshi-ikeda frequent_visited_teacher of dojo:kohala-aikikai"
+      },
+      "source_urls": [
+        "kkron://personal-communication/kristina-varjan-kohala-email"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:aikido-of-tamalpais",
+      "metadata": {
+        "association": "frequent_visited_teacher",
+        "evidence_status": "user-provided, unverified",
+        "context": "User is building Hiroshi Ikeda's Wikipedia page; Ikeda listed this school as one he visited frequently. Outreach requesting visit records/posters pending.",
+        "match_type": "exact",
+        "confidence": "high"
+      }
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:aikido-kenkyukai-los-angeles",
+      "metadata": {
+        "association": "frequent_visited_teacher",
+        "evidence_status": "user-provided, unverified",
+        "context": "User is building Hiroshi Ikeda's Wikipedia page; Ikeda listed this school as one he visited frequently. Outreach requesting visit records/posters pending.",
+        "match_type": "exact",
+        "confidence": "high"
+      }
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:allegheny-aikido",
+      "metadata": {
+        "association": "frequent_visited_teacher",
+        "evidence_status": "user-provided, unverified",
+        "context": "User is building Hiroshi Ikeda's Wikipedia page; Ikeda listed this school as one he visited frequently. Outreach requesting visit records/posters pending.",
+        "match_type": "exact",
+        "confidence": "high"
+      }
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:aikido-harmonie-club-87",
+      "metadata": {
+        "association": "frequent_visited_teacher",
+        "evidence_status": "user-provided, unverified",
+        "context": "User is building Hiroshi Ikeda's Wikipedia page; Ikeda listed this school as one he visited frequently. Outreach requesting visit records/posters pending.",
+        "match_type": "exact",
+        "confidence": "high"
+      }
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:instituto-takemussu-sao-paulo",
+      "metadata": {
+        "association": "frequent_visited_teacher",
+        "evidence_status": "user-provided, unverified",
+        "context": "User is building Hiroshi Ikeda's Wikipedia page; Ikeda listed this school as one he visited frequently. Outreach requesting visit records/posters pending.",
+        "match_type": "exact",
+        "confidence": "high"
+      }
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:boulder-aikikai",
+      "metadata": {
+        "association": "frequent_visited_teacher",
+        "evidence_status": "user-provided, unverified",
+        "context": "User is building Hiroshi Ikeda's Wikipedia page; Ikeda listed this school as one he visited frequently. Outreach requesting visit records/posters pending.",
+        "match_type": "exact",
+        "confidence": "high"
+      }
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:bond-street-dojo",
+      "metadata": {
+        "association": "frequent_visited_teacher",
+        "evidence_status": "user-provided, unverified",
+        "context": "User is building Hiroshi Ikeda's Wikipedia page; Ikeda listed this school as one he visited frequently. Outreach requesting visit records/posters pending.",
+        "match_type": "exact",
+        "confidence": "high"
+      }
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:chicago-aikikai",
+      "metadata": {
+        "association": "frequent_visited_teacher",
+        "evidence_status": "user-provided, unverified",
+        "context": "User is building Hiroshi Ikeda's Wikipedia page; Ikeda listed this school as one he visited frequently. Outreach requesting visit records/posters pending.",
+        "match_type": "exact",
+        "confidence": "high"
+      }
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:aikido-kyoto",
+      "metadata": {
+        "association": "frequent_visited_teacher",
+        "evidence_status": "user-provided, unverified",
+        "context": "User is building Hiroshi Ikeda's Wikipedia page; Ikeda listed this school as one he visited frequently. Outreach requesting visit records/posters pending.",
+        "match_type": "exact",
+        "confidence": "high"
+      }
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:nashville-aikikai",
+      "metadata": {
+        "association": "frequent_visited_teacher",
+        "evidence_status": "user-provided, unverified",
+        "context": "User is building Hiroshi Ikeda's Wikipedia page; Ikeda listed this school as one he visited frequently. Outreach requesting visit records/posters pending.",
+        "match_type": "exact",
+        "confidence": "high"
+      }
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:shindai-aikikai",
+      "metadata": {
+        "association": "frequent_visited_teacher",
+        "evidence_status": "user-provided, unverified",
+        "context": "User is building Hiroshi Ikeda's Wikipedia page; Ikeda listed this school as one he visited frequently. Outreach requesting visit records/posters pending.",
+        "match_type": "exact",
+        "confidence": "high"
+      }
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:oberlin-aikikai",
+      "metadata": {
+        "association": "frequent_visited_teacher",
+        "evidence_status": "user-provided, unverified",
+        "context": "User is building Hiroshi Ikeda's Wikipedia page; Ikeda listed this school as one he visited frequently. Outreach requesting visit records/posters pending.",
+        "match_type": "exact",
+        "confidence": "high"
+      }
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:arizona-aikido",
+      "metadata": {
+        "association": "frequent_visited_teacher",
+        "evidence_status": "user-provided, unverified",
+        "context": "User is building Hiroshi Ikeda's Wikipedia page; Ikeda listed this school as one he visited frequently. Outreach requesting visit records/posters pending.",
+        "match_type": "exact",
+        "confidence": "high"
+      }
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:two-cranes-aikido",
+      "metadata": {
+        "association": "frequent_visited_teacher",
+        "evidence_status": "user-provided, unverified",
+        "context": "User is building Hiroshi Ikeda's Wikipedia page; Ikeda listed this school as one he visited frequently. Outreach requesting visit records/posters pending.",
+        "match_type": "exact",
+        "confidence": "high"
+      }
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:aikido-chuseikan-of-tampa-bay",
+      "metadata": {
+        "association": "frequent_visited_teacher",
+        "evidence_status": "user-provided, unverified",
+        "context": "User is building Hiroshi Ikeda's Wikipedia page; Ikeda listed this school as one he visited frequently. Outreach requesting visit records/posters pending.",
+        "match_type": "exact",
+        "confidence": "high"
+      }
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:aiki-kai-zurich",
+      "metadata": {
+        "association": "frequent_visited_teacher",
+        "evidence_status": "user-provided, unverified",
+        "context": "User is building Hiroshi Ikeda's Wikipedia page; Ikeda listed this school as one he visited frequently. Outreach requesting visit records/posters pending.",
+        "match_type": "exact",
+        "confidence": "high"
+      }
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:aikido-shobukan-dojo",
+      "metadata": {
+        "association": "frequent_visited_teacher",
+        "evidence_status": "user-provided, unverified",
+        "context": "User is building Hiroshi Ikeda's Wikipedia page; Ikeda listed this school as one he visited frequently. Outreach requesting visit records/posters pending.",
+        "match_type": "exact",
+        "confidence": "high"
+      }
+    },
+    {
+      "src_id": "claim:27ab36180b29ce11",
+      "rel_type": "MENTIONS",
+      "dst_id": "person:hiroshi-ikeda",
+      "metadata": {
+        "asserted_by": "kristina-varjan",
+        "source": "kkron://personal-communication/kristina-varjan-kohala-email"
+      }
+    },
+    {
+      "src_id": "claim:27ab36180b29ce11",
+      "rel_type": "MENTIONS",
+      "dst_id": "dojo:kohala-aikikai",
+      "metadata": {
+        "asserted_by": "kristina-varjan",
+        "source": "kkron://personal-communication/kristina-varjan-kohala-email"
+      }
+    },
+    {
+      "src_id": "claim:27ab36180b29ce11",
+      "rel_type": "MENTIONS",
+      "dst_id": "dojo:kealamakani-aikido",
+      "metadata": {
+        "asserted_by": "kristina-varjan",
+        "source": "kkron://personal-communication/kristina-varjan-kohala-email"
+      }
+    },
+    {
+      "src_id": "claim:27ab36180b29ce11",
+      "rel_type": "MENTIONS",
+      "dst_id": "dojo:aikido-of-hilo",
+      "metadata": {
+        "asserted_by": "kristina-varjan",
+        "source": "kkron://personal-communication/kristina-varjan-kohala-email"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:kristina-varjan-kohala-email-2026-09-24",
+      "url": "kkron://personal-communication/kristina-varjan-kohala-email",
+      "title": "Kristina Varjan (Kohala Aikikai) email re: Ikeda visit claim (2026-09-24, received by kkron)",
+      "author": "Kristina Varjan",
+      "publish_date": "2026-09-24",
+      "platform": "personal_communication",
+      "raw_text": "Hiroshi Ikeda Shihan has never visited our dojo. Not sure who gave you this information but it's incorrect. Also, I do not have any information on the dojo's you have listed below. Wishing you luck with your continuing search for your project. Best, Kristina Varjan kvarjan@gmail.com",
+      "source_class": "primary_first_person",
+      "bias_hint": "neutral_ish"
+    }
+  ],
+  "claim_sources": [
+    {
+      "claim_id": "claim:27ab36180b29ce11",
+      "source_id": "source:kristina-varjan-kohala-email-2026-09-24",
+      "quote_span_start": null,
+      "quote_span_end": null
+    }
+  ],
+  "delete_edges": [
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:kansas-city-aikido-school"
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:manabi-dojo-kansas-city"
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:school-of-budo-portland"
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:aiki-shuren-dojo-costa-rica"
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:aikikai-de-costa-rica"
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:meido-kan-helsinki"
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:seitokai-helsinki"
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:kealamakani-aikido"
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:kohala-aikikai"
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:aikido-of-hilo"
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:white-rose-aikido-kyoto"
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:aikido-aishinjuku"
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:aikido-shinenjuku"
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:aikiryu-monza"
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:budo-renshukai-aikido-juku"
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:milwaukee-aikido-club"
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:aiki-shuren-dojo-istanbul"
+    },
+    {
+      "src_id": "person:hiroshi-ikeda",
+      "rel_type": "DOJO_AFFILIATION",
+      "dst_id": "dojo:kaya-aiki-budo-dojo"
+    }
+  ]
+}

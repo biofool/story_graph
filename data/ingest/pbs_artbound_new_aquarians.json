@@ -1,0 +1,666 @@
+{
+ "name": "pbs_artbound_new_aquarians",
+ "description": "Migrated from scripts/29_ingest_pbs_artbound_new_aquarians.py (now deleted).",
+ "migrated_from": "scripts/29_ingest_pbs_artbound_new_aquarians.py",
+ "nodes": [
+  {
+   "id": "person:caroline-ryder",
+   "type": "Person",
+   "label": "Caroline Ryder",
+   "canonical_name": "Caroline Ryder",
+   "metadata": {
+    "roles": [
+     "journalist",
+     "writer"
+    ],
+    "contribution": "Author of PBS Artbound 'Meet The New Aquarians' (2012)",
+    "source_article": "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "person:guy-blakeslee",
+   "type": "Person",
+   "label": "Guy Blakeslee",
+   "canonical_name": "Guy Blakeslee",
+   "metadata": {
+    "roles": [
+     "musician",
+     "frontman"
+    ],
+    "band": "The Entrance Band",
+    "aquarian_name": "Sir Guyser Aquarian",
+    "contribution": "Early Source Family adopter; pivotal figure connecting 1970s Source Family to contemporary LA psych scene",
+    "named_by": "Djin Aquarian"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "person:derek-james",
+   "type": "Person",
+   "label": "Derek James",
+   "canonical_name": "Derek James",
+   "metadata": {
+    "roles": [
+     "musician",
+     "drummer"
+    ],
+    "band": "The Entrance Band",
+    "aquarian_name": "Lux Deus Aquarian",
+    "named_by": "Djin Aquarian"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "person:billy-corgan",
+   "type": "Person",
+   "label": "Billy Corgan",
+   "canonical_name": "William Patrick Corgan",
+   "metadata": {
+    "roles": [
+     "musician",
+     "singer-songwriter"
+    ],
+    "band": "Smashing Pumpkins",
+    "aquarian_name": "Shmuel",
+    "named_by": "Sky Saxon and Djin Aquarian",
+    "contribution": "Played bass for Djin Aquarian at Sky Saxon tribute show (2009, Echoplex) — first YaHoWha33 performance"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "person:sasha-vallely",
+   "type": "Person",
+   "label": "Sasha Vallely",
+   "canonical_name": "Sasha Vallely",
+   "metadata": {
+    "roles": [
+     "musician"
+    ],
+    "band": "Spindrift",
+    "aquarian_name": "Kaleidoscopia Aquarian",
+    "named_by": "Djin Aquarian",
+    "contribution": "Organized Sky Saxon tribute event; received Aquarian name after meeting Djin there"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "person:mear-one",
+   "type": "Person",
+   "label": "MEAR ONE",
+   "canonical_name": "MEAR ONE",
+   "metadata": {
+    "roles": [
+     "graffiti artist",
+     "visual artist"
+    ],
+    "location": "Silverlake, Los Angeles",
+    "contribution": "Creating a stencil of Father Yod's face underscored with Yod's slogan 'Just Be Kind'; fan of Isis Aquarian",
+    "relationship_to_source": "Admirer of Isis Aquarian; New Aquarian"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "person:michael-cepress",
+   "type": "Person",
+   "label": "Michael Cepress",
+   "canonical_name": "Michael Cepress",
+   "metadata": {
+    "roles": [
+     "clothing designer",
+     "experimental fashion"
+    ],
+    "location": "Seattle",
+    "contribution": "Creating Isis-inspired looks; admirer of Source Family aesthetic"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "person:devendra-banhart",
+   "type": "Person",
+   "label": "Devendra Banhart",
+   "canonical_name": "Devendra Banhart",
+   "metadata": {
+    "roles": [
+     "musician"
+    ],
+    "contribution": "New Aquarian; fan of Isis Aquarian and the Source book",
+    "notable_encounter": "Met Isis Aquarian at Harvard and Stone venue, LA"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "group:new-aquarians",
+   "type": "Group",
+   "label": "New Aquarians",
+   "canonical_name": "New Aquarians",
+   "metadata": {
+    "group_type": "cultural_movement",
+    "description": "Contemporary network of musicians, artists, designers, and spiritual seekers inspired by the Source Family, bonded by appreciation rather than guru-worship",
+    "era": "2007-present",
+    "origin": "Triggered by Jodi Wille's 2007 Source Family book",
+    "traditions": [
+     "Aquarian naming",
+     "Source-inspired art/clothing",
+     "rock shows and gallery openings"
+    ],
+    "key_figures": [
+     "Djin Aquarian",
+     "Isis Aquarian",
+     "Guy Blakeslee",
+     "Billy Corgan",
+     "MEAR ONE",
+     "Sasha Vallely"
+    ],
+    "contrast_with_original": "Postmodern, individualistic, not looking for a guru; connected via social media and events rather than commune"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "group:the-entrance-band",
+   "type": "Group",
+   "label": "The Entrance Band",
+   "canonical_name": "The Entrance Band",
+   "metadata": {
+    "group_type": "rock_band",
+    "location": "Los Angeles",
+    "members": [
+     "Guy Blakeslee (frontman)",
+     "Derek James (drummer)"
+    ],
+    "genre": "psychedelic rock",
+    "source_connection": "Backed Sky Saxon at YaHoWha13 reunion show in SF"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "group:spindrift",
+   "type": "Group",
+   "label": "Spindrift",
+   "canonical_name": "Spindrift",
+   "metadata": {
+    "group_type": "rock_band",
+    "location": "Los Angeles",
+    "members": [
+     "Sasha Vallely"
+    ],
+    "genre": "psychedelic rock"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "group:yahowha33",
+   "type": "Group",
+   "label": "YaHoWha33",
+   "canonical_name": "YaHoWha33",
+   "metadata": {
+    "group_type": "band",
+    "description": "Open band made up of any YaHoWha13 fan who wants to jam with Djin Aquarian",
+    "first_performance": "Sky Saxon tribute show, 2009, Echoplex (Billy Corgan on bass)",
+    "relation_to_yahowha13": "Contemporary continuation/open jam of YaHoWha13"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "group:smashing-pumpkins",
+   "type": "Group",
+   "label": "Smashing Pumpkins",
+   "canonical_name": "Smashing Pumpkins",
+   "metadata": {
+    "group_type": "rock_band",
+    "genre": "alternative rock",
+    "lead_singer": "Billy Corgan"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "place:cafe-gratitude",
+   "type": "Place",
+   "label": "Café Gratitude",
+   "canonical_name": "Café Gratitude",
+   "metadata": {
+    "place_type": "restaurant",
+    "description": "LA health food restaurant; part of the Source Family culinary legacy (vegetarian/whole foods)",
+    "source_connection": "Plans Source-themed events; Isis Aquarian expected to attend burger unveiling"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "place:echoplex",
+   "type": "Place",
+   "label": "Echoplex",
+   "canonical_name": "Echoplex",
+   "metadata": {
+    "place_type": "music_venue",
+    "location": "Los Angeles",
+    "significance": "Hosted YaHoWha13 reunion (Nov 2007) and Sky Saxon tribute (2009) — pivotal New Aquarian gatherings"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "place:elf-restaurant",
+   "type": "Place",
+   "label": "Elf Restaurant",
+   "canonical_name": "Elf",
+   "metadata": {
+    "place_type": "restaurant",
+    "location": "Echo Park, Los Angeles",
+    "co_owner": "Astara (Source Family devotee)",
+    "significance": "Meeting place for Isis Aquarian and MEAR ONE"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "work:the-source-family-book-2007",
+   "type": "Work",
+   "label": "The Source: The Untold Story of Father Yod, Ya Ho Wa 13 and The Source Family",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "book",
+    "author": "Jodi Wille (with Isis Aquarian)",
+    "publish_year": 2007,
+    "publisher": "Process Media",
+    "significance": "Triggered the New Aquarian movement; illustrated with Source Family photos"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "work:the-source-documentary-2012",
+   "type": "Work",
+   "label": "The Source (documentary, 2012)",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "documentary_film",
+    "director": "Jodi Wille and Maria Demopoulos",
+    "premiered": "SXSW, March 2012",
+    "significance": "Extended the New Aquarian ripple effect to a wider audience"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  },
+  {
+   "id": "work:annie-hall-1977",
+   "type": "Work",
+   "label": "Annie Hall (1977 film)",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "film",
+    "director": "Woody Allen",
+    "release_year": 1977,
+    "source_connection": "Featured The Source restaurant on the Sunset Strip"
+   },
+   "source_urls": [
+    "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "person:caroline-ryder",
+   "rel_type": "CREATED",
+   "dst_id": "pbs-socal-artbound-new-aquarians-2012",
+   "metadata": {
+    "role": "author"
+   }
+  },
+  {
+   "src_id": "group:new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "group-source-family",
+   "metadata": {
+    "relationship": "contemporary movement inspired by",
+    "source_verification": "PBS Artbound journalism (2012)"
+   }
+  },
+  {
+   "src_id": "group:new-aquarians",
+   "rel_type": "MENTIONS",
+   "dst_id": "work:the-source-family-book-2007",
+   "metadata": {
+    "relationship": "triggered by the 2007 book"
+   }
+  },
+  {
+   "src_id": "person:jodi-wille",
+   "rel_type": "CREATED",
+   "dst_id": "work:the-source-family-book-2007",
+   "metadata": {
+    "role": "author/publisher",
+    "year": 2007
+   }
+  },
+  {
+   "src_id": "person:jodi-wille",
+   "rel_type": "CREATED",
+   "dst_id": "work:the-source-documentary-2012",
+   "metadata": {
+    "role": "director (with Maria Demopoulos)",
+    "year": 2012
+   }
+  },
+  {
+   "src_id": "work:the-source-documentary-2012",
+   "rel_type": "ABOUT",
+   "dst_id": "group-source-family",
+   "metadata": {
+    "subject": "Father Yod, Ya Ho Wa 13, and the Source Family"
+   }
+  },
+  {
+   "src_id": "work:the-source-documentary-2012",
+   "rel_type": "ABOUT",
+   "dst_id": "person-jim-baker-father-yod",
+   "metadata": {
+    "subject": "Father Yod"
+   }
+  },
+  {
+   "src_id": "work:the-source-family-book-2007",
+   "rel_type": "ABOUT",
+   "dst_id": "group-source-family",
+   "metadata": {
+    "subject": "Source Family history"
+   }
+  },
+  {
+   "src_id": "work:the-source-family-book-2007",
+   "rel_type": "ABOUT",
+   "dst_id": "person-jim-baker-father-yod",
+   "metadata": {
+    "subject": "Father Yod"
+   }
+  },
+  {
+   "src_id": "person:guy-blakeslee",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:the-entrance-band",
+   "metadata": {
+    "role": "frontman"
+   }
+  },
+  {
+   "src_id": "person:derek-james",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:the-entrance-band",
+   "metadata": {
+    "role": "drummer"
+   }
+  },
+  {
+   "src_id": "person:guy-blakeslee",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:new-aquarians",
+   "metadata": {
+    "relationship": "early adopter of Source Family"
+   }
+  },
+  {
+   "src_id": "person:guy-blakeslee",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:djin-aquarian",
+   "metadata": {
+    "relationship": "named by Djin; regular contact",
+    "aquarian_name": "Sir Guyser Aquarian"
+   }
+  },
+  {
+   "src_id": "person:billy-corgan",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:smashing-pumpkins",
+   "metadata": {
+    "role": "lead singer"
+   }
+  },
+  {
+   "src_id": "person:billy-corgan",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:djin-aquarian",
+   "metadata": {
+    "relationship": "named by Sky Saxon and Djin",
+    "aquarian_name": "Shmuel"
+   }
+  },
+  {
+   "src_id": "person:billy-corgan",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:sky-saxon",
+   "metadata": {
+    "relationship": "played bass at Sky Saxon tribute (2009)"
+   }
+  },
+  {
+   "src_id": "group:yahowha33",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:ya-ho-wa-13",
+   "metadata": {
+    "relationship": "contemporary open-jam continuation"
+   }
+  },
+  {
+   "src_id": "person:billy-corgan",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yahowha33",
+   "metadata": {
+    "role": "bass at first performance (2009)"
+   }
+  },
+  {
+   "src_id": "person:djin-aquarian",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yahowha33",
+   "metadata": {
+    "role": "leads YaHoWha33 jams"
+   }
+  },
+  {
+   "src_id": "person:sasha-vallely",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:spindrift",
+   "metadata": {
+    "role": "musician"
+   }
+  },
+  {
+   "src_id": "person:sasha-vallely",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:djin-aquarian",
+   "metadata": {
+    "relationship": "named by Djin",
+    "aquarian_name": "Kaleidoscopia Aquarian"
+   }
+  },
+  {
+   "src_id": "person:djin-aquarian",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:new-aquarians",
+   "metadata": {
+    "role": "gives Aquarian names; go-to figure for contemporary musicians"
+   }
+  },
+  {
+   "src_id": "person:djin-aquarian",
+   "rel_type": "MENTIONS",
+   "dst_id": "person-jim-baker-father-yod",
+   "metadata": {
+    "relationship": "carries on Father Yod's Aquarian naming tradition"
+   }
+  },
+  {
+   "src_id": "person-isis-aquarian",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:new-aquarians",
+   "metadata": {
+    "role": "spiritual mother of the New Aquarian movement",
+    "activity": "spreads Father Yod's 'Just Be Kind' philosophy"
+   }
+  },
+  {
+   "src_id": "person-isis-aquarian",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:mear-one",
+   "metadata": {
+    "relationship": "MEAR ONE is one of Isis' biggest fans"
+   }
+  },
+  {
+   "src_id": "person-isis-aquarian",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:devendra-banhart",
+   "metadata": {
+    "relationship": "met at Harvard and Stone venue, LA"
+   }
+  },
+  {
+   "src_id": "person:mear-one",
+   "rel_type": "CREATED",
+   "dst_id": "group:new-aquarians",
+   "metadata": {
+    "contribution": "Father Yod stencil 'Just Be Kind' — OBEY GIANT-style for New Aquarians"
+   }
+  },
+  {
+   "src_id": "person:michael-cepress",
+   "rel_type": "MENTIONS",
+   "dst_id": "person-isis-aquarian",
+   "metadata": {
+    "relationship": "creating Isis-inspired clothing looks"
+   }
+  },
+  {
+   "src_id": "place:echoplex",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:ya-ho-wa-13",
+   "metadata": {
+    "event": "YaHoWha13 reunion, November 2007"
+   }
+  },
+  {
+   "src_id": "place:echoplex",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:sky-saxon",
+   "metadata": {
+    "event": "Sky Saxon tribute show, 2009"
+   }
+  },
+  {
+   "src_id": "place:cafe-gratitude",
+   "rel_type": "MENTIONS",
+   "dst_id": "group-source-family",
+   "metadata": {
+    "relationship": "culinary legacy of The Source (vegetarian/whole foods)"
+   }
+  },
+  {
+   "src_id": "place:elf-restaurant",
+   "rel_type": "MENTIONS",
+   "dst_id": "person-isis-aquarian",
+   "metadata": {
+    "event": "Isis and MEAR ONE met here to discuss Father Yod stencil"
+   }
+  },
+  {
+   "src_id": "work:annie-hall-1977",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:the-source-restaurant",
+   "metadata": {
+    "relationship": "film featured The Source restaurant on Sunset Strip"
+   }
+  },
+  {
+   "src_id": "pbs-socal-artbound-new-aquarians-2012",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:new-aquarians",
+   "metadata": {
+    "type": "primary_subject"
+   }
+  },
+  {
+   "src_id": "pbs-socal-artbound-new-aquarians-2012",
+   "rel_type": "MENTIONS",
+   "dst_id": "person-jim-baker-father-yod",
+   "metadata": {
+    "type": "subject"
+   }
+  },
+  {
+   "src_id": "pbs-socal-artbound-new-aquarians-2012",
+   "rel_type": "MENTIONS",
+   "dst_id": "person-isis-aquarian",
+   "metadata": {
+    "type": "subject"
+   }
+  },
+  {
+   "src_id": "pbs-socal-artbound-new-aquarians-2012",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:djin-aquarian",
+   "metadata": {
+    "type": "subject"
+   }
+  },
+  {
+   "src_id": "pbs-socal-artbound-new-aquarians-2012",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:sky-saxon",
+   "metadata": {
+    "type": "subject"
+   }
+  },
+  {
+   "src_id": "pbs-socal-artbound-new-aquarians-2012",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:jodi-wille",
+   "metadata": {
+    "type": "subject"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "pbs-socal-artbound-new-aquarians-2012",
+   "url": "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians",
+   "title": "Meet The New Aquarians",
+   "author": "Caroline Ryder",
+   "publish_date": "2012-05-07",
+   "platform": "pbs_socal_artbound",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": "neutral_ish"
+  }
+ ]
+}

@@ -1,0 +1,199 @@
+{
+ "name": "issue50_findings",
+ "description": "Migrated from scripts/51_ingest_issue50_findings.py (now deleted).",
+ "migrated_from": "scripts/51_ingest_issue50_findings.py",
+ "nodes": [
+  {
+   "id": "person:ryoichi-kinoshita",
+   "type": "Person",
+   "label": "Ryoichi Kinoshita",
+   "canonical_name": "Ryoichi Kinoshita",
+   "metadata": {
+    "rank": "7th dan",
+    "dojo": "Suisenkan, Osaka",
+    "notes": "trained 30 yrs under Seiseki Abe; co-teaches Kyoto friendship seminars with Ikeda",
+    "source": "aikijuku.com"
+   },
+   "source_urls": [
+    "https://aikijuku.com/kyoto-seminar-2026/"
+   ]
+  },
+  {
+   "id": "place:kyoto-butokuden",
+   "type": "Place",
+   "label": "Kyoto Butokuden",
+   "canonical_name": "Kyoto Butokuden",
+   "metadata": {
+    "city": "Kyoto",
+    "country": "Japan",
+    "notes": "historic Hall of Martial Virtues near Heian Shrine"
+   },
+   "source_urls": [
+    "https://aikijuku.com/kyoto-seminar-2026/"
+   ]
+  },
+  {
+   "id": "work:web-aikijuku-kyoto-issue50",
+   "type": "Work",
+   "label": "Aikijuku Dojo — Kyoto International Friendship Seminar pages",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 50 Ikeda Japan coverage"
+   },
+   "source_urls": [
+    "https://aikijuku.com/kyoto-seminar-2026/",
+    "https://aikijuku.com/kyoto-seminar-2025/"
+   ]
+  },
+  {
+   "id": "event:kyoto-friendship-seminar-2025",
+   "type": "Event",
+   "label": "International Aikido Friendship Seminar, Kyoto Butokuden (Oct 31-Nov 2, 2025)",
+   "canonical_name": "International Aikido Friendship Seminar, Kyoto Butokuden (Oct 31-Nov 2, 2025)",
+   "metadata": {
+    "start_date": "2025-10-31",
+    "description": "Ikeda Shihan (Boulder Aikikai) + Kinoshita Shihan (Suisenkan, Osaka) + intl guests at the historic Kyoto Butokuden.",
+    "event_type": "seminar",
+    "source": "web_research_issue50"
+   },
+   "source_urls": [
+    "https://aikijuku.com/kyoto-seminar-2025/"
+   ]
+  },
+  {
+   "id": "event:kyoto-friendship-seminar-2026",
+   "type": "Event",
+   "label": "International Aikido Friendship Seminar, Kyoto Butokuden (Oct 30-Nov 1, 2026)",
+   "canonical_name": "International Aikido Friendship Seminar, Kyoto Butokuden (Oct 30-Nov 1, 2026)",
+   "metadata": {
+    "start_date": "2026-10-30",
+    "description": "Ikeda Shihan + Kinoshita Shihan + intl guests at the Kyoto Butokuden.",
+    "event_type": "seminar",
+    "source": "web_research_issue50"
+   },
+   "source_urls": [
+    "https://aikijuku.com/kyoto-seminar-2026/"
+   ]
+  },
+  {
+   "id": "work:web-copyright-moon-1946",
+   "type": "Work",
+   "label": "US copyright records — Richard Moon 1946- (San Anselmo music releases)",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 50 Moon birth year"
+   },
+   "source_urls": [
+    "https://www.copyrightencyclopedia.com/radical-militant-vegetarians-in-naziland-against-the-odds/"
+   ]
+  },
+  {
+   "id": "claim:moon-born-1946",
+   "type": "Claim",
+   "label": "Richard Moon born 1946",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "Richard Moon (aikido instructor) was born in 1946.",
+    "claim_type": "biographical",
+    "stance": "supporting",
+    "confidence": "medium",
+    "notes": "US copyright registrations list 'Richard Moon, 1946-' on his San Anselmo CA music releases (matches aikido Moon's Marin County residence); LinkedIn profile shows 'Jul 1946'. Exact date unknown."
+   },
+   "source_urls": [
+    "https://www.copyrightencyclopedia.com/radical-militant-vegetarians-in-naziland-against-the-odds/"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "person:hiroshi-ikeda",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:kyoto-friendship-seminar-2025",
+   "metadata": {
+    "role": "instructor",
+    "date": "2025-10-31",
+    "source": "web_research_issue50"
+   }
+  },
+  {
+   "src_id": "person:ryoichi-kinoshita",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:kyoto-friendship-seminar-2025",
+   "metadata": {
+    "role": "instructor",
+    "date": "2025-10-31",
+    "source": "web_research_issue50"
+   }
+  },
+  {
+   "src_id": "event:kyoto-friendship-seminar-2025",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "place:kyoto-butokuden",
+   "metadata": {
+    "source_url": "https://aikijuku.com/kyoto-seminar-2026/"
+   }
+  },
+  {
+   "src_id": "work:web-aikijuku-kyoto-issue50",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:kyoto-friendship-seminar-2025",
+   "metadata": {
+    "source": "web_research_issue50"
+   }
+  },
+  {
+   "src_id": "person:hiroshi-ikeda",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:kyoto-friendship-seminar-2026",
+   "metadata": {
+    "role": "instructor",
+    "date": "2026-10-30",
+    "source": "web_research_issue50"
+   }
+  },
+  {
+   "src_id": "person:ryoichi-kinoshita",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:kyoto-friendship-seminar-2026",
+   "metadata": {
+    "role": "instructor",
+    "date": "2026-10-30",
+    "source": "web_research_issue50"
+   }
+  },
+  {
+   "src_id": "event:kyoto-friendship-seminar-2026",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "place:kyoto-butokuden",
+   "metadata": {
+    "source_url": "https://aikijuku.com/kyoto-seminar-2026/"
+   }
+  },
+  {
+   "src_id": "work:web-aikijuku-kyoto-issue50",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:kyoto-friendship-seminar-2026",
+   "metadata": {
+    "source": "web_research_issue50"
+   }
+  },
+  {
+   "src_id": "claim:moon-born-1946",
+   "rel_type": "ABOUT",
+   "dst_id": "person:richard-moon-aikido",
+   "metadata": {
+    "source": "web_research_issue50"
+   }
+  },
+  {
+   "src_id": "work:web-copyright-moon-1946",
+   "rel_type": "DESCRIBES",
+   "dst_id": "claim:moon-born-1946",
+   "metadata": {
+    "source": "web_research_issue50"
+   }
+  }
+ ]
+}

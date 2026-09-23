@@ -1,5 +1,21 @@
 # Story Graph — Agent Notes
 
+## Ingests are JSON specs, not scripts (default behavior)
+
+Do NOT write new numbered `scripts/NN_ingest_*.py` one-off scripts.
+Declare the ingest as a JSON spec in `data/ingest/<name>.json` and apply
+it with `python scripts/ingest.py data/ingest/<name>.json`
+(`--dry-run` first). Spec keys: `pages` (fetch + `process_page`),
+`nodes`, `edges`, `sources`, `claim_sources`, `delete_edges`,
+`csv_events` (structured seminar-calendar rows). All historical one-off
+ingest scripts were migrated to specs (each spec records
+`migrated_from`); `scripts/migrate_ingests.py` captures a legacy script's
+writes into a spec if one ever needs converting again.
+
+Only keep parameterized/reusable tooling as scripts (e.g.
+`ingest_a_person.py`, `17_ingest_from_kv.py`, `48_ingest_aikiweb_seminars.py`,
+`11_ingest_cdnc.py`).
+
 ## kkron's assertions always go in the graph
 
 Always add kkron's assertions (claims, evidence, verbal confirmations,

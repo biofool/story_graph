@@ -221,6 +221,18 @@ class GraphDB:
         )
         self._get_conn().commit()
 
+    def delete_edge(
+        self, src_id: str, rel_type: RelationType | str, dst_id: str
+    ) -> int:
+        """Delete an edge by (src_id, rel_type, dst_id). Returns rows deleted."""
+        rel = rel_type.value if isinstance(rel_type, RelationType) else rel_type
+        cur = self._get_conn().execute(
+            "DELETE FROM edges WHERE src_id = ? AND rel_type = ? AND dst_id = ?",
+            (src_id, rel, dst_id),
+        )
+        self._get_conn().commit()
+        return cur.rowcount
+
     def get_edges_from(self, node_id: str) -> list[GraphEdge]:
         rows = self._get_conn().execute(
             "SELECT * FROM edges WHERE src_id = ?", (node_id,)

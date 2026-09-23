@@ -1,0 +1,102 @@
+{
+ "name": "moon_ralston_edge",
+ "description": "Migrated from scripts/30_ingest_moon_ralston_edge.py (now deleted).",
+ "migrated_from": "scripts/30_ingest_moon_ralston_edge.py",
+ "nodes": [
+  {
+   "id": "person:richard-moon-aikido",
+   "type": "Person",
+   "label": "Richard Moon Sensei",
+   "canonical_name": "richard moon aikido",
+   "metadata": {
+    "aliases": [],
+    "disambiguation_note": "Aikido teacher, 6th dan, founder of Aikido of Marin and author of Quantum Aikido; the Richard Moon kkron's leads are about.",
+    "extraction_source": "gemini",
+    "facets": {
+     "aikido_teacher": "6th dan; founder/chief instructor Aikido of Marin; co-founder City Aikido SF; 50+ year student of Robert Nadeau; guest teaching NZ/Europe since ~1987",
+     "chef": "Worked at The Source restaurant (Sunset Strip) and the Aware Inn during the Source Family era; later food work incl. Teriyaki Age product and La Cocina SF Street Food Festival",
+     "executive_coach": "Performance Edge consultancy with Chris Thorsen — 'Aikido and Dialogue' organizational-learning programs; Open Mind Adventures; Extraordinary Listening communications program; QuantumEdge.org — coaching for John Combs (several companies), Dan Whalen, and other QuantumEdge customers",
+     "musician": "moonsic.com — R. Moon 'Moon Music' (Moon Rocks, Moon Tunes); US copyright registrations list 'Richard Moon, 1946-' on San Anselmo CA music releases",
+     "peace_builder": "Cyprus Peace Training Team (IMTD/Fulbright consortium behind the CRTG); Bosnia Peace Trails / IMTD Lake Trails camp 1999 feeding Bosnia YLA; senior associate Nautilus Institute"
+    },
+    "facets_source": "kkron personal communication 2026-09-22",
+    "roles": [
+     "aikido_teacher",
+     "chef",
+     "musician",
+     "executive_coach",
+     "peace_builder"
+    ],
+    "split_from": "person:richard-moon",
+    "split_on": "2026-08-24",
+    "cross_training": [
+     "tai chi",
+     "boxing",
+     "Cheng Hsin"
+    ],
+    "cheng_hsin_teacher": "Peter Ralston",
+    "ralston_training_sources": [
+     "https://quantumaikido.com/",
+     "https://www.nadeaushihan.com/authors"
+    ],
+    "ralston_training_source_class": "primary_first_person"
+   },
+   "source_urls": [
+    "https://aikido.org.nz/nadeauworkshop/",
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/",
+    "https://budovideos.com/products/quantum-aikido-the-power-of-harmony-book-by-richard-moon",
+    "https://openmindadventures.com/richard-moon/",
+    "https://quantumaikido.com/",
+    "https://thetaichinotebook.com/2026/01/31/the-first-podcast-of-2026-quantum-aikido-with-richard-moon/",
+    "https://thetaichinotebook.com/category/aikido/",
+    "https://www.nadeaushihan.com/"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "TEACHER_STUDENT",
+   "dst_id": "person:richard-moon-aikido",
+   "metadata": {
+    "context": "studied tai chi, boxing, and Cheng Hsin with Ralston",
+    "source_urls": [
+     "https://quantumaikido.com/",
+     "https://www.nadeaushihan.com/authors"
+    ],
+    "source_class": "primary_first_person",
+    "independent_corroboration": false,
+    "note": "Both sources are Moon's own self-description (primary/first-person). Not independent corroboration. Per AGENTS.md, kkron assertions are first-class graph evidence.",
+    "arts_studied": [
+     "tai chi",
+     "boxing",
+     "Cheng Hsin"
+    ]
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:moon-ralston:quantumaikido.com",
+   "url": "https://quantumaikido.com/",
+   "title": "Quantum Aikido: The Power of Harmony — Richard Moon (author bio)",
+   "author": null,
+   "publish_date": null,
+   "platform": "quantumaikido.com",
+   "raw_text": null,
+   "source_class": "primary_first_person",
+   "bias_hint": null
+  },
+  {
+   "id": "src:moon-ralston:nadeaushihan.com",
+   "url": "https://www.nadeaushihan.com/authors",
+   "title": "Authors — Robert Nadeau Shihan (Richard Moon bio)",
+   "author": null,
+   "publish_date": null,
+   "platform": "nadeaushihan.com",
+   "raw_text": null,
+   "source_class": "primary_first_person",
+   "bias_hint": null
+  }
+ ]
+}

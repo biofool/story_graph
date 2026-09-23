@@ -1,0 +1,756 @@
+{
+ "name": "moon_newspaper_events",
+ "description": "Migrated from scripts/47_ingest_moon_newspaper_events.py (now deleted).",
+ "migrated_from": "scripts/47_ingest_moon_newspaper_events.py",
+ "nodes": [
+  {
+   "id": "dojo:aikido-of-marin",
+   "type": "Dojo",
+   "label": "Aikido of Marin",
+   "canonical_name": "Aikido of Marin",
+   "metadata": {
+    "city": "Novato",
+    "state": "CA",
+    "country": "USA",
+    "founded": "1985",
+    "head_instructor": "Richard Moon",
+    "notes": "Fictitious business name filed by Richard Moon Feb 1985 (Pt Reyes), renewed Apr 1996 (Novato)"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100894742/",
+    "https://www.newspapers.com/image/1100894830/",
+    "https://www.newspapers.com/image/1100894910/",
+    "https://www.newspapers.com/image/1100894996/",
+    "https://www.newspapers.com/image/1100898652/",
+    "https://www.newspapers.com/image/1100943036/",
+    "https://www.newspapers.com/image/1100943153/",
+    "https://www.newspapers.com/image/1100943276/",
+    "https://www.newspapers.com/image/1100943401/"
+   ]
+  },
+  {
+   "id": "place:dance-palace",
+   "type": "Place",
+   "label": "Dance Palace",
+   "canonical_name": "Dance Palace",
+   "metadata": {
+    "city": "Point Reyes Station",
+    "state": "CA",
+    "country": "USA",
+    "notes": "community center, 503 B St.; recurring venue for Richard Moon's aikido classes and Aiki-Dance events 1980-1998"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100842319/"
+   ]
+  },
+  {
+   "id": "event:aikido-class-dance-palace-1980",
+   "type": "Event",
+   "label": "Aikido adult class at Dance Palace (Nov 24 & Dec 1, 1980)",
+   "canonical_name": "Aikido adult class at Dance Palace (Nov 24 & Dec 1, 1980)",
+   "metadata": {
+    "start_date": "1980-11-24",
+    "description": "Adult aikido class at the Dance Palace, Point Reyes Station, 10:30 a.m.-1:30 p.m., instructor Richard Moon. Point Reyes Light listing, Nov 20, 1980.",
+    "event_type": "seminar",
+    "source": "newspapers_com"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1125183831/"
+   ]
+  },
+  {
+   "id": "work:npc-1125183831",
+   "type": "Work",
+   "label": "Point Reyes Light — Page 13 — Nov 20, 1980",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1125183831/"
+   ]
+  },
+  {
+   "id": "event:aikido-demo-dance-palace-1983",
+   "type": "Event",
+   "label": "Aikido demonstration by Richard Moon, David Gamble & Sandy Jacobs (Sep 1983)",
+   "canonical_name": "Aikido demonstration by Richard Moon, David Gamble & Sandy Jacobs (Sep 1983)",
+   "metadata": {
+    "start_date": "1983-09-13",
+    "description": "Aikido demonstration at a Dance Palace classes showcase, Point Reyes Station. Point Reyes Light, Sep 8, 1983.",
+    "event_type": "seminar",
+    "source": "newspapers_com"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1101135895/"
+   ]
+  },
+  {
+   "id": "work:npc-1101135895",
+   "type": "Work",
+   "label": "Point Reyes Light — Page 9 — Sep 8, 1983",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1101135895/"
+   ]
+  },
+  {
+   "id": "event:aikido-classes-west-marin-1984",
+   "type": "Event",
+   "label": "Weekly aikido classes taught by Richard Moon (1984)",
+   "canonical_name": "Weekly aikido classes taught by Richard Moon (1984)",
+   "metadata": {
+    "start_date": "1984-09-06",
+    "description": "Ongoing West Marin aikido classes taught by Richard Moon. Point Reyes Light class listing, Sep 6, 1984.",
+    "event_type": "seminar",
+    "source": "newspapers_com"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100933658/"
+   ]
+  },
+  {
+   "id": "work:npc-1100933658",
+   "type": "Work",
+   "label": "Point Reyes Light — Page 14 — Sep 6, 1984",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100933658/"
+   ]
+  },
+  {
+   "id": "event:aikido-dance-dance-palace-1992",
+   "type": "Event",
+   "label": "Aikido Dance with Richard Moon, Bun Burton, Alan Kemp & Ira Kamin (Sep 12, 1992)",
+   "canonical_name": "Aikido Dance with Richard Moon, Bun Burton, Alan Kemp & Ira Kamin (Sep 12, 1992)",
+   "metadata": {
+    "start_date": "1992-09-12",
+    "description": "'Aikido Dance' event at the Dance Palace, Saturday Sept 12, 8 pm, with Trane Richard Moon, Bun Burton, Alan Kemp and Ira Kamin. Point Reyes Light, Sep 10, 1992.",
+    "event_type": "seminar",
+    "source": "newspapers_com"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1101035804/",
+    "https://www.newspapers.com/image/1101035712/"
+   ]
+  },
+  {
+   "id": "work:npc-1101035804",
+   "type": "Work",
+   "label": "Point Reyes Light — Page 14 — Sep 10, 1992",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1101035804/"
+   ]
+  },
+  {
+   "id": "work:npc-1101035712",
+   "type": "Work",
+   "label": "Point Reyes Light — Page 22 — Sep 3, 1992",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1101035712/"
+   ]
+  },
+  {
+   "id": "event:aiki-dance-workshop-1997",
+   "type": "Event",
+   "label": "Aiki-Dance Workshop led by Richard Moon (Apr 26, 1997)",
+   "canonical_name": "Aiki-Dance Workshop led by Richard Moon (Apr 26, 1997)",
+   "metadata": {
+    "start_date": "1997-04-26",
+    "description": "'Aiki-Dance Workshop — Led by Richard Moon — the funnest part of aikido and dance', Sunday April 26, 7-9 pm, Dance Palace Community Center, 503 B St., Pt. Reyes Station. Point Reyes Light notices Apr 17 & 24, 1997.",
+    "event_type": "seminar",
+    "source": "newspapers_com"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100842220/",
+    "https://www.newspapers.com/image/1100842319/"
+   ]
+  },
+  {
+   "id": "work:npc-1100842220",
+   "type": "Work",
+   "label": "Point Reyes Light — Page 13 — Apr 17, 1997",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100842220/"
+   ]
+  },
+  {
+   "id": "work:npc-1100842319",
+   "type": "Work",
+   "label": "Point Reyes Light — Page 17 — Apr 24, 1997",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100842319/"
+   ]
+  },
+  {
+   "id": "event:aiki-dance-intro-1998",
+   "type": "Event",
+   "label": "Introduction to Aikido and Dance with Richard Moon (Apr 1998)",
+   "canonical_name": "Introduction to Aikido and Dance with Richard Moon (Apr 1998)",
+   "metadata": {
+    "start_date": "1998-04-16",
+    "description": "'Aiki-Dance — Introduction to Aikido and Dance with Richard Moon'. Point Reyes Light notices, Apr 16 & 23, 1998.",
+    "event_type": "seminar",
+    "source": "newspapers_com"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100916418/",
+    "https://www.newspapers.com/image/1100916601/"
+   ]
+  },
+  {
+   "id": "work:npc-1100916418",
+   "type": "Work",
+   "label": "Point Reyes Light — Page 13 — Apr 16, 1998",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100916418/"
+   ]
+  },
+  {
+   "id": "work:npc-1100916601",
+   "type": "Work",
+   "label": "Point Reyes Light — Page 13 — Apr 23, 1998",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100916601/"
+   ]
+  },
+  {
+   "id": "event:aikido-and-dialogue-durham-1997",
+   "type": "Event",
+   "label": "Aikido and Dialogue — Thorsen & Moon at 'Designing Organizations for the 21st Century' (Oct 1997)",
+   "canonical_name": "Aikido and Dialogue — Thorsen & Moon at 'Designing Organizations for the 21st Century' (Oct 1997)",
+   "metadata": {
+    "start_date": "1997-10-07",
+    "description": "Chris Thorsen and Richard Moon (Performance Edge) presented 'Aikido and Dialogue', an interactive session applying aikido principles to organizational learning, at the 1997 Designing Organizations for the 21st Century conference, Durham NC. The Herald-Sun program, Oct 7, 1997.",
+    "event_type": "seminar",
+    "source": "newspapers_com"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/793520210/",
+    "https://www.newspapers.com/image/793548759/"
+   ]
+  },
+  {
+   "id": "work:npc-793520210",
+   "type": "Work",
+   "label": "The Herald-Sun (Durham NC) — Page 18 — Oct 7, 1997",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/793520210/"
+   ]
+  },
+  {
+   "id": "work:npc-793548759",
+   "type": "Work",
+   "label": "The Herald-Sun (Durham NC) — Page 78 — Oct 19, 1997",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/793548759/"
+   ]
+  },
+  {
+   "id": "event:aikido-and-dialogue-2001",
+   "type": "Event",
+   "label": "Aikido and Dialogue — Thorsen & Moon conference presentation (2001)",
+   "canonical_name": "Aikido and Dialogue — Thorsen & Moon conference presentation (2001)",
+   "metadata": {
+    "start_date": "2001-09-23",
+    "description": "Chris Thorsen & Richard Moon listed as presenters ('Aikido') in the conference series program. The Herald-Sun, Sep 23, 2001.",
+    "event_type": "seminar",
+    "source": "newspapers_com"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/795545627/"
+   ]
+  },
+  {
+   "id": "work:npc-795545627",
+   "type": "Work",
+   "label": "The Herald-Sun (Durham NC) — Page 80 — Sep 23, 2001",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/795545627/"
+   ]
+  },
+  {
+   "id": "work:npc-1100894830",
+   "type": "Work",
+   "label": "Point Reyes Light — Feb/Mar 1985 (FBN)",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page",
+    "notes": "FBN 'Aikido of Marin' filed by Richard Moon, Pt Reyes Light Feb 1985"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100894830/"
+   ]
+  },
+  {
+   "id": "work:npc-1100894910",
+   "type": "Work",
+   "label": "Point Reyes Light — Page 16 — Feb 28, 1985 (FBN)",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page",
+    "notes": "FBN 'Aikido of Marin' filed by Richard Moon, Pt Reyes Light Feb 28 1985"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100894910/"
+   ]
+  },
+  {
+   "id": "work:npc-1100894996",
+   "type": "Work",
+   "label": "Point Reyes Light — Mar 1985 (FBN)",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page",
+    "notes": "FBN 'Aikido of Marin' filing run, Pt Reyes Light Mar 1985"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100894996/"
+   ]
+  },
+  {
+   "id": "work:npc-1100894742",
+   "type": "Work",
+   "label": "Point Reyes Light — Page 16 — Feb 14, 1985",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page",
+    "notes": "Pt Reyes Light page, Feb 14 1985 (FBN cluster; article polygon unextracted)"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100894742/"
+   ]
+  },
+  {
+   "id": "work:npc-1100898652",
+   "type": "Work",
+   "label": "Point Reyes Light — Page 9 — Dec 12, 1985",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page",
+    "notes": "'Richard Moon - Aikido of Marin' donor listing, Pt Reyes Light Dec 12 1985"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100898652/"
+   ]
+  },
+  {
+   "id": "work:npc-1100943036",
+   "type": "Work",
+   "label": "Novato Advance — Page 23 — May 1, 1996 (FBN)",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page",
+    "notes": "FBN renewal 'Aikido of Marin', Novato Advance May 1 1996"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100943036/"
+   ]
+  },
+  {
+   "id": "work:npc-1100943153",
+   "type": "Work",
+   "label": "Novato Advance — Apr 1996 (FBN)",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page",
+    "notes": "FBN renewal 'Aikido of Marin', Novato Advance Apr 1996"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100943153/"
+   ]
+  },
+  {
+   "id": "work:npc-1100943276",
+   "type": "Work",
+   "label": "Novato Advance — Apr 1996 (FBN)",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page",
+    "notes": "FBN renewal 'Aikido of Marin', Novato Advance Apr 1996"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100943276/"
+   ]
+  },
+  {
+   "id": "work:npc-1100943401",
+   "type": "Work",
+   "label": "Novato Advance — Apr 1996 (FBN)",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "newspaper_page",
+    "notes": "FBN renewal 'Aikido of Marin', Novato Advance Apr 1996"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1100943401/"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:aikido-class-dance-palace-1980",
+   "metadata": {
+    "role": "instructor",
+    "date": "1980-11-24",
+    "source": "newspapers_com",
+    "source_url": "https://www.newspapers.com/image/1125183831/"
+   }
+  },
+  {
+   "src_id": "event:aikido-class-dance-palace-1980",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "place:dance-palace",
+   "metadata": {
+    "source_url": "https://www.newspapers.com/image/1125183831/"
+   }
+  },
+  {
+   "src_id": "work:npc-1125183831",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:aikido-class-dance-palace-1980",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:aikido-demo-dance-palace-1983",
+   "metadata": {
+    "role": "instructor",
+    "date": "1983-09-13",
+    "source": "newspapers_com",
+    "source_url": "https://www.newspapers.com/image/1101135895/"
+   }
+  },
+  {
+   "src_id": "event:aikido-demo-dance-palace-1983",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "place:dance-palace",
+   "metadata": {
+    "source_url": "https://www.newspapers.com/image/1101135895/"
+   }
+  },
+  {
+   "src_id": "work:npc-1101135895",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:aikido-demo-dance-palace-1983",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:aikido-classes-west-marin-1984",
+   "metadata": {
+    "role": "instructor",
+    "date": "1984-09-06",
+    "source": "newspapers_com",
+    "source_url": "https://www.newspapers.com/image/1100933658/"
+   }
+  },
+  {
+   "src_id": "event:aikido-classes-west-marin-1984",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "place:dance-palace",
+   "metadata": {
+    "source_url": "https://www.newspapers.com/image/1100933658/"
+   }
+  },
+  {
+   "src_id": "work:npc-1100933658",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:aikido-classes-west-marin-1984",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:aikido-dance-dance-palace-1992",
+   "metadata": {
+    "role": "instructor",
+    "date": "1992-09-12",
+    "source": "newspapers_com",
+    "source_url": "https://www.newspapers.com/image/1101035804/"
+   }
+  },
+  {
+   "src_id": "event:aikido-dance-dance-palace-1992",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "place:dance-palace",
+   "metadata": {
+    "source_url": "https://www.newspapers.com/image/1101035804/"
+   }
+  },
+  {
+   "src_id": "work:npc-1101035804",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:aikido-dance-dance-palace-1992",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "work:npc-1101035712",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:aikido-dance-dance-palace-1992",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:aiki-dance-workshop-1997",
+   "metadata": {
+    "role": "instructor",
+    "date": "1997-04-26",
+    "source": "newspapers_com",
+    "source_url": "https://www.newspapers.com/image/1100842220/"
+   }
+  },
+  {
+   "src_id": "event:aiki-dance-workshop-1997",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "place:dance-palace",
+   "metadata": {
+    "source_url": "https://www.newspapers.com/image/1100842220/"
+   }
+  },
+  {
+   "src_id": "work:npc-1100842220",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:aiki-dance-workshop-1997",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "work:npc-1100842319",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:aiki-dance-workshop-1997",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:aiki-dance-intro-1998",
+   "metadata": {
+    "role": "instructor",
+    "date": "1998-04-16",
+    "source": "newspapers_com",
+    "source_url": "https://www.newspapers.com/image/1100916418/"
+   }
+  },
+  {
+   "src_id": "event:aiki-dance-intro-1998",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "place:dance-palace",
+   "metadata": {
+    "source_url": "https://www.newspapers.com/image/1100916418/"
+   }
+  },
+  {
+   "src_id": "work:npc-1100916418",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:aiki-dance-intro-1998",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "work:npc-1100916601",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:aiki-dance-intro-1998",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:aikido-and-dialogue-durham-1997",
+   "metadata": {
+    "role": "instructor",
+    "date": "1997-10-07",
+    "source": "newspapers_com",
+    "source_url": "https://www.newspapers.com/image/793520210/"
+   }
+  },
+  {
+   "src_id": "work:npc-793520210",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:aikido-and-dialogue-durham-1997",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "work:npc-793548759",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:aikido-and-dialogue-durham-1997",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:aikido-and-dialogue-2001",
+   "metadata": {
+    "role": "instructor",
+    "date": "2001-09-23",
+    "source": "newspapers_com",
+    "source_url": "https://www.newspapers.com/image/795545627/"
+   }
+  },
+  {
+   "src_id": "work:npc-795545627",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:aikido-and-dialogue-2001",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "work:npc-1100894830",
+   "rel_type": "DESCRIBES",
+   "dst_id": "dojo:aikido-of-marin",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "work:npc-1100894910",
+   "rel_type": "DESCRIBES",
+   "dst_id": "dojo:aikido-of-marin",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "work:npc-1100894996",
+   "rel_type": "DESCRIBES",
+   "dst_id": "dojo:aikido-of-marin",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "work:npc-1100894742",
+   "rel_type": "DESCRIBES",
+   "dst_id": "dojo:aikido-of-marin",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "work:npc-1100898652",
+   "rel_type": "DESCRIBES",
+   "dst_id": "dojo:aikido-of-marin",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "work:npc-1100943036",
+   "rel_type": "DESCRIBES",
+   "dst_id": "dojo:aikido-of-marin",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "work:npc-1100943153",
+   "rel_type": "DESCRIBES",
+   "dst_id": "dojo:aikido-of-marin",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "work:npc-1100943276",
+   "rel_type": "DESCRIBES",
+   "dst_id": "dojo:aikido-of-marin",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "work:npc-1100943401",
+   "rel_type": "DESCRIBES",
+   "dst_id": "dojo:aikido-of-marin",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  },
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "FOUNDED",
+   "dst_id": "dojo:aikido-of-marin",
+   "metadata": {
+    "date": "1985",
+    "source": "newspapers_com",
+    "context": "filed fictitious business name 'Aikido of Marin', Feb 1985"
+   }
+  },
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "HEAD_INSTRUCTOR",
+   "dst_id": "dojo:aikido-of-marin",
+   "metadata": {
+    "source": "newspapers_com"
+   }
+  }
+ ]
+}
