@@ -44,3 +44,17 @@ than declaring one canonical truth.
 (See commit `ac8a894` for the fix that stopped polluting entity
 `source_urls` with `kkron://personal-communication` — that was a separate
 bug about edge source attribution, not about excluding kkron assertions.)
+
+## Wikipedia workflow — local drafts only, editor persona for review
+
+Wikipedia output is always a local draft/proposal — never posted to or
+edited on the live site. Pipeline: `prompts/graph_to_wikipedia_update.md`
+(update proposals, talk_page/direct_edit modes, COI rules),
+`scripts/32_generate_wikipedia_article.py` (graph → draft + SRS report),
+`scripts/57_fetch_wikipedia_article.py` + `scripts/58_compare_wikipedia_draft.py`
+(live fetch + mechanical deltas). For editorial review, drafting, and
+source adjudication of Wikipedia content, adopt the persona in
+`.devin/skills/martial-arts-journal-editor/SKILL.md` (authoritative
+martial-arts journalist + Wikipedia policy expertise). Sourcing rules,
+SRS tiers, and martial-arts source guidance live in
+`.devin/skills/wikipedia-article-generator/SKILL.md`.
