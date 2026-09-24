@@ -28,7 +28,6 @@ personally) — no speculative email needed. These drafts target the circle
 | `bob-noha.md` | Bob Noha | Co-author (2024); aikido teacher; Nadeau student |
 | `susan-spence.md` | Susan Spence | Co-author (2024); Nadeau circle |
 | `elaine-yoder.md` | Elaine Yoder | Co-author (2024); Nadeau circle |
-| `louise-diamond.md` | Louise Diamond | IMTD colleague — peace-building using aikido as conflict-resolution tool (Lake Trails 1999, Bosnia, Cyprus) |
 | `conrad-edwards.md` | Conrad Edwards | Riai Aikido (Auckland) — authored aikido.org.nz pages mentioning Moon; hosted Moon's Sep 2025 NZ teaching tour |
 | `peter-ralston.md` | Peter Ralston | Moon's documented teacher — tai chi, boxing, Cheng Hsin (related arts, **not** aikido) |
 
@@ -55,7 +54,7 @@ personally) — no speculative email needed. These drafts target the circle
 
 - **Richard Moon, Rochelle Moon** — direct contacts, not outreach targets
 - **Dan Whalen, John Combs** — executive-coaching clients (QuantumEdge), not aikido
-- **Jim Baker, Terry Dobson** — deceased; not aikido-teaching
+- **Jim Baker, Terry Dobson, Louise Diamond** — deceased (Diamond died per kkron, 2026-09-24; was IMTD colleague — peace-building using aikido as conflict-resolution tool, Lake Trails 1999/Bosnia/Cyprus)
 - **Yoshimitsu Yamada, Mitsugi Saotome** — Nadeau's teachers, no documented Moon link
 - **Tom Herrenberg, Diana Hubbell, Julian Jacobs, Elaine Baker** — graph person nodes with no documented connection to Moon's teaching
 - **Dojo/host organizations** — already covered by `docs/outreach/moon/` (10 org drafts)
