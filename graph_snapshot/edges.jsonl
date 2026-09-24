@@ -670,6 +670,7 @@
 {"dst_id": "person:morihei-ueshiba", "metadata": {"evidence": "https://aikido.org.nz/nadeauworkshop/"}, "rel_type": "ABOUT", "src_id": "claim:22ed28fcda6ed2a4"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://aikido.org.nz/nadeauworkshop/"}, "rel_type": "ABOUT", "src_id": "claim:22ed28fcda6ed2a4"}
 {"dst_id": "person:author", "metadata": {"evidence": "https://aikido.org.nz/nadeauworkshop/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:22ed28fcda6ed2a4"}
+{"dst_id": "person:unknown", "metadata": {"evidence": "https://aikido.org.nz/nadeauworkshop/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:22ed28fcda6ed2a4"}
 {"dst_id": "group:world-tournament", "metadata": {"evidence": "https://chenghsin.com/origins-interview-with-peter-ralston/"}, "rel_type": "ABOUT", "src_id": "claim:237803998938a2f0"}
 {"dst_id": "person:peter-ralston", "metadata": {"evidence": "https://chenghsin.com/origins-interview-with-peter-ralston/"}, "rel_type": "ABOUT", "src_id": "claim:237803998938a2f0"}
 {"dst_id": "person:peter-ralston", "metadata": {"evidence": "https://chenghsin.com/origins-interview-with-peter-ralston/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:237803998938a2f0"}
@@ -2386,6 +2387,8 @@
 {"dst_id": "person:fukiko-sunadomari", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/"}, "rel_type": "ABOUT", "src_id": "claim:5747078eaed57a54"}
 {"dst_id": "person:morihei-ueshiba", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/"}, "rel_type": "ABOUT", "src_id": "claim:5747078eaed57a54"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:5747078eaed57a54"}
+{"dst_id": "person:robert-nadeau", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html"}, "rel_type": "ABOUT", "src_id": "claim:578ca10560e8fb18"}
+{"dst_id": "person:null", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html"}, "rel_type": "ASSERTED_BY", "src_id": "claim:578ca10560e8fb18"}
 {"dst_id": "person:alan-keel", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117656408.html"}, "rel_type": "ABOUT", "src_id": "claim:57f799bf2070ec24"}
 {"dst_id": "person:cage-v-city-of-chicago-court", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117656408.html"}, "rel_type": "ASSERTED_BY", "src_id": "claim:57f799bf2070ec24"}
 {"dst_id": "group:oneida-community", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family"}, "rel_type": "ABOUT", "src_id": "claim:57ff39f23f53cd31"}
@@ -2585,6 +2588,7 @@
 {"dst_id": "person:\u682a\u5f0f\u4f1a\u793e\u30aa\u30ea\u30d9", "metadata": {"evidence": "https://www.oribe-jp.co.jp/mission/fdgrip/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:63913da6d0b0427f"}
 {"dst_id": "group:parabolic", "metadata": {"evidence": "https://github.com/NickvisionApps/Parabolic"}, "rel_type": "ABOUT", "src_id": "claim:639e0e519ff1bcce"}
 {"dst_id": "person:the-authors-of-parabolic", "metadata": {"evidence": "https://github.com/NickvisionApps/Parabolic"}, "rel_type": "ASSERTED_BY", "src_id": "claim:639e0e519ff1bcce"}
+{"dst_id": "person:unknown", "metadata": {"evidence": "https://aikido.org.nz/nadeauworkshop/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:63a790d82832d086"}
 {"dst_id": "person:peter-ralston", "metadata": {"evidence": "https://www.innertraditions.com/author/peter-ralston"}, "rel_type": "ABOUT", "src_id": "claim:63f10bddaafdf733"}
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.innertraditions.com/author/peter-ralston"}, "rel_type": "ASSERTED_BY", "src_id": "claim:63f10bddaafdf733"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ABOUT", "src_id": "claim:63f6a6107f5af143"}
@@ -4925,6 +4929,7 @@
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/"}, "rel_type": "ASSERTED_BY", "src_id": "claim:bfb1a271f1d19541"}
 {"dst_id": "group:quantum-aikido-the-power-of-harmony", "metadata": {"evidence": "https://budovideos.com/products/quantum-aikido-the-power-of-harmony-book-by-richard-moon"}, "rel_type": "ABOUT", "src_id": "claim:bfb534c24321002f"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html"}, "rel_type": "ABOUT", "src_id": "claim:bfc0b141a80b08ad"}
+{"dst_id": "person:null", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html"}, "rel_type": "ASSERTED_BY", "src_id": "claim:bfc0b141a80b08ad"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ABOUT", "src_id": "claim:bfe0c7d336c90082"}
 {"dst_id": "person:alyah-aquarian", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ABOUT", "src_id": "claim:bfe0c7d336c90082"}
 {"dst_id": "person:amy-aquarian", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food"}, "rel_type": "ABOUT", "src_id": "claim:bfe0c7d336c90082"}
@@ -14174,6 +14179,7 @@
 {"dst_id": "group:california-aikido-association", "metadata": {"note": "AANC (1980) -> CAA (2002)", "source": "https://ai-ki-do.org/about-the-caa"}, "rel_type": "PRECEDES", "src_id": "group:aikido-association-of-northern-california"}
 {"dst_id": "place:mountain-view", "metadata": {"evidence": "https://ai-ki-do.org/robert-nadeau", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:aikido-of-mountain-view"}
 {"dst_id": "group:aikido-association-of-northern-california", "metadata": {"note": "Yudansha Kai (1974) -> AANC (1980)", "source": "https://ai-ki-do.org/about-the-caa"}, "rel_type": "PRECEDES", "src_id": "group:aikido-of-northern-california-yudansha-kai"}
+{"dst_id": "place:petaluma", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:aikido-of-petaluma"}
 {"dst_id": "place:san-jose", "metadata": {"evidence": "https://ai-ki-do.org/robert-nadeau", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:aikido-of-san-jose"}
 {"dst_id": "place:500-howard-street-san-francisco-california-u-s", "metadata": {"evidence": "https://claude.ai/login-Claude", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:anthropic-pbc"}
 {"dst_id": "place:georgia", "metadata": {"evidence": "https://www.3ho.org/yogi-bhajan-our-founder/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "group:atlanta-pop-festival"}
@@ -14427,6 +14433,12 @@
 {"dst_id": "la-times-1971-source-review", "metadata": {"quote": "smiling swamis in white turbans and flowing eastern garments", "type": "cites"}, "rel_type": "MENTIONS", "src_id": "laist-meares-20191129-source"}
 {"dst_id": "la-times-1972-source-family-profile", "metadata": {"quote": "pie of crushed nuts topped by guacamole, sliced tomatoes and alfalfa sprouts", "type": "cites"}, "rel_type": "MENTIONS", "src_id": "laist-meares-20191129-source"}
 {"dst_id": "la-times-winchell-1961-aware-inn", "metadata": {"quote": "tiny Upstairs Aware provides a beautiful view of the city lights", "type": "cites"}, "rel_type": "MENTIONS", "src_id": "laist-meares-20191129-source"}
+{"dst_id": "group:new-aquarians", "metadata": {"type": "primary_subject"}, "rel_type": "MENTIONS", "src_id": "pbs-socal-artbound-new-aquarians-2012"}
+{"dst_id": "person-isis-aquarian", "metadata": {"type": "subject"}, "rel_type": "MENTIONS", "src_id": "pbs-socal-artbound-new-aquarians-2012"}
+{"dst_id": "person-jim-baker-father-yod", "metadata": {"type": "subject"}, "rel_type": "MENTIONS", "src_id": "pbs-socal-artbound-new-aquarians-2012"}
+{"dst_id": "person:djin-aquarian", "metadata": {"type": "subject"}, "rel_type": "MENTIONS", "src_id": "pbs-socal-artbound-new-aquarians-2012"}
+{"dst_id": "person:jodi-wille", "metadata": {"type": "subject"}, "rel_type": "MENTIONS", "src_id": "pbs-socal-artbound-new-aquarians-2012"}
+{"dst_id": "person:sky-saxon", "metadata": {"type": "subject"}, "rel_type": "MENTIONS", "src_id": "pbs-socal-artbound-new-aquarians-2012"}
 {"dst_id": "person-jim-baker-father-yod", "metadata": {"context": "Connection point between Bhajan ashram and Baker's restaurant", "relationship": "helped name The Source restaurant", "significance": "Named the restaurant, bridging spiritual and commercial domains"}, "rel_type": "MENTIONS", "src_id": "person-baba-don"}
 {"dst_id": "person-yogi-bhajan", "metadata": {"relationship": "member of ashram"}, "rel_type": "MENTIONS", "src_id": "person-baba-don"}
 {"dst_id": "group-cyprus-peace-training-team", "metadata": {"role": "co-trainer", "training_focus": "physical metaphor for dialogue"}, "rel_type": "MEMBER_OF", "src_id": "person-chris-thorsten"}
@@ -14485,12 +14497,21 @@
 {"dst_id": "person:djin-aquarian", "metadata": {"aquarian_name": "Shmuel", "relationship": "named by Sky Saxon and Djin"}, "rel_type": "MENTIONS", "src_id": "person:billy-corgan"}
 {"dst_id": "person:sky-saxon", "metadata": {"relationship": "played bass at Sky Saxon tribute (2009)"}, "rel_type": "MENTIONS", "src_id": "person:billy-corgan"}
 {"dst_id": "group:aikido-the-art-of-transformation", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:bob-noha"}
+{"dst_id": "dojo:aikido-of-buffalo", "metadata": {"source": "web_research", "year": 1975}, "rel_type": "FOUNDED", "src_id": "person:bob-noha"}
+{"dst_id": "dojo:aikido-of-college-park", "metadata": {"source": "web_research", "year": 1970}, "rel_type": "FOUNDED", "src_id": "person:bob-noha"}
+{"dst_id": "dojo:aikido-of-novato", "metadata": {"source": "web_research", "year": 1982}, "rel_type": "FOUNDED", "src_id": "person:bob-noha"}
+{"dst_id": "dojo:aikido-of-petaluma", "metadata": {"source": "web_research", "year": 1983}, "rel_type": "FOUNDED", "src_id": "person:bob-noha"}
+{"dst_id": "dojo:aikido-of-buffalo", "metadata": {"founded_year": 1975, "source": "web_research"}, "rel_type": "HEAD_INSTRUCTOR", "src_id": "person:bob-noha"}
+{"dst_id": "dojo:aikido-of-college-park", "metadata": {"founded_year": 1970, "source": "web_research"}, "rel_type": "HEAD_INSTRUCTOR", "src_id": "person:bob-noha"}
+{"dst_id": "dojo:aikido-of-novato", "metadata": {"founded_year": 1982, "source": "web_research"}, "rel_type": "HEAD_INSTRUCTOR", "src_id": "person:bob-noha"}
+{"dst_id": "dojo:aikido-of-petaluma", "metadata": {"founded_year": 1983, "source": "web_research"}, "rel_type": "HEAD_INSTRUCTOR", "src_id": "person:bob-noha"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:bob-noha"}
 {"dst_id": "group:aikido-of-petaluma", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:bob-noha"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://chenghsin.com/origins-interview-with-peter-ralston/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:brendan-lea"}
 {"dst_id": "group:consciousness-and-skill-worldwide", "metadata": {"evidence": "https://chenghsin.com/origins-interview-with-peter-ralston/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:brendan-lea"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://books.google.co.nz/books/about/Cheng_Hsin.html?id=KZ8TJAKaiUQC&redir_esc=y", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:bruce-thomas"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:c-girard"}
+{"dst_id": "pbs-socal-artbound-new-aquarians-2012", "metadata": {"role": "author"}, "rel_type": "CREATED", "src_id": "person:caroline-ryder"}
 {"dst_id": "source:pbs-artbound-new-aquarians", "metadata": {"role": "author"}, "rel_type": "CREATED", "src_id": "person:caroline-ryder"}
 {"dst_id": "group:dark-horse-comics", "metadata": {"evidence": "https://comicvine.gamespot.com/conan/4005-2438/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:cary-nord"}
 {"dst_id": "group:crazygames-f\u00f3rum", "metadata": {"evidence": "https://rfcrazygames.forumeiros.com/images", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:cerrenity"}
@@ -15312,6 +15333,18 @@
 {"dst_id": "event:aikiweb-seminar-with-hiroshi-ikeda-7-dan-lisa-tomoleoni-6-dan-patric-e41b1cc831", "metadata": {"dates": "January 15, 2022", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "https://www.sandiegomacc.com/2022-aikido-bridge.html"}, "rel_type": "CO_APPEARANCE", "src_id": "person:patrick-cassidy"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:patrick-lundborg"}
 {"dst_id": "group:crazygames-f\u00f3rum", "metadata": {"evidence": "https://rfcrazygames.forumeiros.com/images", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:pedropp123"}
+{"dst_id": "book:ancient-wisdom-new-spirit", "metadata": {"source": "openlibrary_api"}, "rel_type": "CO_AUTHORED", "src_id": "person:peter-ralston"}
+{"dst_id": "book:art-of-mastery", "metadata": {"source": "openlibrary_api"}, "rel_type": "CO_AUTHORED", "src_id": "person:peter-ralston"}
+{"dst_id": "book:cheng-hsin", "metadata": {"source": "openlibrary_api"}, "rel_type": "CO_AUTHORED", "src_id": "person:peter-ralston"}
+{"dst_id": "book:cheng-hsin-tui-shou", "metadata": {"source": "openlibrary_api"}, "rel_type": "CO_AUTHORED", "src_id": "person:peter-ralston"}
+{"dst_id": "book:consciousness-dialogues", "metadata": {"source": "openlibrary_api"}, "rel_type": "CO_AUTHORED", "src_id": "person:peter-ralston"}
+{"dst_id": "book:ending-unnecessary-suffering", "metadata": {"source": "openlibrary_api"}, "rel_type": "CO_AUTHORED", "src_id": "person:peter-ralston"}
+{"dst_id": "book:genius-of-being", "metadata": {"source": "openlibrary_api"}, "rel_type": "CO_AUTHORED", "src_id": "person:peter-ralston"}
+{"dst_id": "book:integrity-of-being", "metadata": {"source": "openlibrary_api"}, "rel_type": "CO_AUTHORED", "src_id": "person:peter-ralston"}
+{"dst_id": "book:pursuing-consciousness", "metadata": {"source": "openlibrary_api"}, "rel_type": "CO_AUTHORED", "src_id": "person:peter-ralston"}
+{"dst_id": "book:reflections-of-being", "metadata": {"source": "openlibrary_api"}, "rel_type": "CO_AUTHORED", "src_id": "person:peter-ralston"}
+{"dst_id": "book:the-book-of-not-knowing", "metadata": {"source": "openlibrary_api"}, "rel_type": "CO_AUTHORED", "src_id": "person:peter-ralston"}
+{"dst_id": "book:zen-body-being", "metadata": {"source": "openlibrary_api"}, "rel_type": "CO_AUTHORED", "src_id": "person:peter-ralston"}
 {"dst_id": "group:the-art-of-mastery", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:peter-ralston"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.innertraditions.com/author/peter-ralston", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:peter-ralston"}
 {"dst_id": "group:cheng-hsin", "metadata": {"evidence": "https://chenghsin.com/who-is-peter-ralston/", "year": 1975}, "rel_type": "FOUNDED", "src_id": "person:peter-ralston"}
@@ -15333,6 +15366,7 @@
 {"dst_id": "person:robert-nadeau", "metadata": {"context": "Both were part of the SF Bay Area consciousness/martial arts movement in the 1970s. Ralston contributed personal stories to the book about Nadeau.", "discovered_via": "relationship_search", "evidence": "https://budovideos.com/products/aikido-the-art-of-transformation-the-life-and-teachings-of-robert-nadeau"}, "rel_type": "MENTIONS", "src_id": "person:peter-ralston"}
 {"dst_id": "person:stewart-emery", "metadata": {"context": "Ralston worked for Emery in Actualizations", "evidence": "https://chenghsin.com/who-is-peter-ralston/"}, "rel_type": "MENTIONS", "src_id": "person:peter-ralston"}
 {"dst_id": "person:werner-erhard", "metadata": {"context": "Ralston helped Erhard create a fundamental shift from EST to the Forum", "evidence": "https://chenghsin.com/who-is-peter-ralston/"}, "rel_type": "MENTIONS", "src_id": "person:peter-ralston"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {"arts_studied": ["tai chi", "boxing", "Cheng Hsin"], "context": "studied tai chi, boxing, and Cheng Hsin with Ralston", "independent_corroboration": false, "note": "Both sources are Moon's own self-description (primary/first-person). Not independent corroboration. Per AGENTS.md, kkron assertions are first-class graph evidence.", "source_class": "primary_first_person", "source_urls": ["https://quantumaikido.com/", "https://www.nadeaushihan.com/authors"]}, "rel_type": "TEACHER_STUDENT", "src_id": "person:peter-ralston"}
 {"dst_id": "group:actualizations", "metadata": {"evidence": "https://www.usadojo.com/peter-ralston/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:peter-ralston"}
 {"dst_id": "group:institute-for-empowerment", "metadata": {"evidence": "https://www.usadojo.com/peter-ralston/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:peter-ralston"}
 {"dst_id": "group:institute-of-self-actualization-isa", "metadata": {"evidence": "https://www.usadojo.com/peter-ralston/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:peter-ralston"}
@@ -15419,6 +15453,7 @@
 {"dst_id": "person:kull", "metadata": {"evidence": "https://comicvine.gamespot.com/conan/4005-2438/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:robert-e-howard"}
 {"dst_id": "place:cross-plains-texas", "metadata": {"evidence": "https://comicvine.gamespot.com/conan/4005-2438/", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:robert-e-howard"}
 {"dst_id": "person:jack-wada", "metadata": {"source_url": "https://aikidosj.com/ref/instructors/", "student_started": 1969}, "rel_type": "TEACHER_STUDENT", "src_id": "person:robert-frager"}
+{"dst_id": "dojo:lenkai-aikido-club", "metadata": {"city": "Leningrad", "context": "Guest training at Lenkai club on Oct 27, 1990 \u2014 founding conference of USSR Aikido Federation", "country": "USSR", "date": "1990-10-27", "independent_source": true, "quote_ru": "27 \u043e\u043a\u0442\u044f\u0431\u0440\u044f 1990 \u0433\u043e\u0434\u0430, \u0432 \u0434\u0435\u043d\u044c \u043f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u044f \u0423\u0447\u0440\u0435\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u0438 \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u0438 \u0410\u0439\u043a\u0438\u0434\u043e \u0421\u0421\u0421\u0420, \u0432 \u043a\u043b\u0443\u0431\u0435 \"\u041b\u0435\u043d\u043a\u0430\u0439\" \u043f\u0440\u043e\u0432\u0435\u043b \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043a\u0443 \u0420\u043e\u0431\u0435\u0440\u0442 \u041d\u0410\u0414\u041e ( 6-\u0439 \u0414\u0430\u043d, \u0421\u0428\u0410 )", "rank_at_time": "6th dan", "source": "aikiclub.ru", "source_url": "http://www.aikiclub.ru/spb.html"}, "rel_type": "CO_APPEARANCE", "src_id": "person:robert-nadeau"}
 {"dst_id": "event:aikiweb-grand-opening-seminar-with-robert-nadeau-7th-dan-richard-moo-efd81a0f5d", "metadata": {"dates": "June 11, 2005", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "http://www.aikidoofmarin.com"}, "rel_type": "CO_APPEARANCE", "src_id": "person:robert-nadeau"}
 {"dst_id": "event:aikiweb-seminar-with-robert-nadeau-shihan-7th-dan-richard-moon-5th-d-d3694d611e", "metadata": {"dates": "April 13, 2013", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "http://aikidoofmarin.com"}, "rel_type": "CO_APPEARANCE", "src_id": "person:robert-nadeau"}
 {"dst_id": "event:aikiweb-seminar-with-robert-nadeau-shihan-7th-dan-richard-moon-5th-d-e0d548e2b2", "metadata": {"dates": "June 10, 2006", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "http://www.aikidoofmarin.com"}, "rel_type": "CO_APPEARANCE", "src_id": "person:robert-nadeau"}
@@ -15453,6 +15488,7 @@
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:robert-nadeau"}
 {"dst_id": "person:richard-bunch", "metadata": {"context": "Nadeau later shared space with Richard Bunch, who connected him to Ju-Jitsu schools", "discovered_via": "relationship_search", "evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "person:robert-nadeau"}
 {"dst_id": "person:sig-kufferath", "metadata": {"context": "Nadeau shared martial art school space with Professor Sig Kufferath", "discovered_via": "relationship_search", "evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "person:robert-nadeau"}
+{"dst_id": "person:bob-noha", "metadata": {"context": "Lifelong friendship and training since 1966", "source": "aikidopetaluma.com", "start_year": 1966}, "rel_type": "TEACHER_STUDENT", "src_id": "person:robert-nadeau"}
 {"dst_id": "person:jack-wada", "metadata": {"source_url": "http://aikidosj.com/old-site/public_html/instructors.html", "student_started": 1969}, "rel_type": "TEACHER_STUDENT", "src_id": "person:robert-nadeau"}
 {"dst_id": "group:aikido-of-mountain-view", "metadata": {"evidence": "https://ai-ki-do.org/robert-nadeau", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:robert-nadeau"}
 {"dst_id": "group:aikido-of-san-jose", "metadata": {"evidence": "https://ai-ki-do.org/robert-nadeau", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:robert-nadeau"}
@@ -15732,6 +15768,11 @@
 {"dst_id": "place:\u043a\u0430\u0437\u0430\u043d\u044c", "metadata": {"evidence": "https://rebenok-na-aikido.ru/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:\u0448\u043a\u043e\u043b\u0430-80"}
 {"dst_id": "place:\u8fbd\u5b81\u7701", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:\u5317\u9547\u53bf"}
 {"dst_id": "place:\u5927\u8fde\u6d77\u6ee8", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "place:\u9ec4\u9f99\u5c3e"}
+{"dst_id": "person:peter-ralston", "metadata": {"source": "youtube"}, "rel_type": "MENTIONS", "src_id": "pod:yt-GeJIcDLOa8Q"}
+{"dst_id": "person:peter-ralston", "metadata": {"source": "youtube"}, "rel_type": "MENTIONS", "src_id": "pod:yt-P_I8GC4e9YY"}
+{"dst_id": "person:peter-ralston", "metadata": {"source": "youtube"}, "rel_type": "MENTIONS", "src_id": "pod:yt-pXM4WCLnxS8"}
+{"dst_id": "person:peter-ralston", "metadata": {"source": "youtube"}, "rel_type": "MENTIONS", "src_id": "pod:yt-xZxLygFdW8A"}
+{"dst_id": "person:peter-ralston", "metadata": {"source": "youtube"}, "rel_type": "MENTIONS", "src_id": "pod:yt-xuf8ps0ZsAY"}
 {"dst_id": "work:e2088ab0e8f7da65", "metadata": {"context": "Scanned PDF of pp. 43-46 from Aikido in America, sent by Kenneth", "evidence": "kkron://personal-communication/kenneth-dobson-email", "note": "Pages are rotated"}, "rel_type": "DESCRIBES", "src_id": "source:kenneth-aia-scan-pdf"}
 {"dst_id": "group:new-aquarians", "metadata": {"type": "primary_subject"}, "rel_type": "MENTIONS", "src_id": "source:pbs-artbound-new-aquarians"}
 {"dst_id": "person-isis-aquarian", "metadata": {"type": "subject"}, "rel_type": "MENTIONS", "src_id": "source:pbs-artbound-new-aquarians"}
@@ -19534,6 +19575,7 @@
 {"dst_id": "work:dd7c7d0479e65758", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on https://annekelucas.com/writing/2020/9/17/beat-kick-slap"}, "rel_type": "MENTIONS", "src_id": "work:6a289114331763fb"}
 {"dst_id": "work:e52bcc5a994efefd", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on https://annekelucas.com/writing/2020/9/17/beat-kick-slap"}, "rel_type": "MENTIONS", "src_id": "work:6a289114331763fb"}
 {"dst_id": "work:f603f358de3a5ddb", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on https://annekelucas.com/writing/2020/9/17/beat-kick-slap"}, "rel_type": "MENTIONS", "src_id": "work:6a289114331763fb"}
+{"dst_id": "image:1eea19b159d571f7d0ce162e394ea1df5fcf42927c69f2280ede791e21fcdb58", "metadata": {"evidence": "https://alchetron.com/Dan-Millman"}, "rel_type": "DEPICTS", "src_id": "work:6be2ff723d3e7a21"}
 {"dst_id": "image:5d57015cd2928b61087bf7c91f99e85fc8e7fc0d688ab29adf8daade731fa24c", "metadata": {"evidence": "https://alchetron.com/Dan-Millman"}, "rel_type": "DEPICTS", "src_id": "work:6be2ff723d3e7a21"}
 {"dst_id": "image:832832a960f903f6eea74cc54f9ba351c6ff61d78d38c47c122faa947a490196", "metadata": {"evidence": "https://alchetron.com/Dan-Millman"}, "rel_type": "DEPICTS", "src_id": "work:6be2ff723d3e7a21"}
 {"dst_id": "image:9de6bd3d6a54097cc5cae4b9a0d00032cc817ccd1d78eb87b9a4d1891c3e0a07", "metadata": {"evidence": "https://alchetron.com/Dan-Millman"}, "rel_type": "DEPICTS", "src_id": "work:6be2ff723d3e7a21"}
@@ -20219,6 +20261,7 @@
 {"dst_id": "place:san-francisco-bay-area", "metadata": {"evidence": "https://www.innertraditions.com/author/peter-ralston"}, "rel_type": "MENTIONS", "src_id": "work:7ba69e121ecb5b6c"}
 {"dst_id": "place:singapore", "metadata": {"evidence": "https://www.innertraditions.com/author/peter-ralston"}, "rel_type": "MENTIONS", "src_id": "work:7ba69e121ecb5b6c"}
 {"dst_id": "claim:22ed28fcda6ed2a4", "metadata": {"evidence": "https://aikido.org.nz/nadeauworkshop/"}, "rel_type": "CONTAINS", "src_id": "work:7c03c359bd289958"}
+{"dst_id": "claim:63a790d82832d086", "metadata": {"evidence": "https://aikido.org.nz/nadeauworkshop/"}, "rel_type": "CONTAINS", "src_id": "work:7c03c359bd289958"}
 {"dst_id": "claim:f86fe982fe92a7b0", "metadata": {"evidence": "https://aikido.org.nz/nadeauworkshop/"}, "rel_type": "CONTAINS", "src_id": "work:7c03c359bd289958"}
 {"dst_id": "event:o-sensei-revisited-down-under-workshop", "metadata": {"evidence": "https://aikido.org.nz/nadeauworkshop/"}, "rel_type": "DESCRIBES", "src_id": "work:7c03c359bd289958"}
 {"dst_id": "person:morihei-ueshiba", "metadata": {"evidence": "https://aikido.org.nz/nadeauworkshop/"}, "rel_type": "MENTIONS", "src_id": "work:7c03c359bd289958"}
@@ -22532,6 +22575,7 @@
 {"dst_id": "work:f550f2d090fc030b", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on http://www.moonsensei.com"}, "rel_type": "MENTIONS", "src_id": "work:b0b53e646a2cdd0e"}
 {"dst_id": "work:fb56bbbc94fa9f4e", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on http://www.moonsensei.com"}, "rel_type": "MENTIONS", "src_id": "work:b0b53e646a2cdd0e"}
 {"dst_id": "claim:1b725cacce7f7963", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html"}, "rel_type": "CONTAINS", "src_id": "work:b79ca4b0a17e609d"}
+{"dst_id": "claim:578ca10560e8fb18", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html"}, "rel_type": "CONTAINS", "src_id": "work:b79ca4b0a17e609d"}
 {"dst_id": "claim:bfc0b141a80b08ad", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html"}, "rel_type": "CONTAINS", "src_id": "work:b79ca4b0a17e609d"}
 {"dst_id": "image:568408d3565ff17603aeb500786598f0e0daa2914b0d6e1d191218016f15e86a", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html"}, "rel_type": "DEPICTS", "src_id": "work:b79ca4b0a17e609d"}
 {"dst_id": "image:7a713651be8ae793548daa47c24004b7e05f8c38e4de7d6586992e65bb968311", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html"}, "rel_type": "DEPICTS", "src_id": "work:b79ca4b0a17e609d"}
@@ -22544,6 +22588,7 @@
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html"}, "rel_type": "MENTIONS", "src_id": "work:b79ca4b0a17e609d"}
 {"dst_id": "place:europe", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html"}, "rel_type": "MENTIONS", "src_id": "work:b79ca4b0a17e609d"}
 {"dst_id": "place:israel", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html"}, "rel_type": "MENTIONS", "src_id": "work:b79ca4b0a17e609d"}
+{"dst_id": "place:petaluma", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html"}, "rel_type": "MENTIONS", "src_id": "work:b79ca4b0a17e609d"}
 {"dst_id": "place:russia", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html"}, "rel_type": "MENTIONS", "src_id": "work:b79ca4b0a17e609d"}
 {"dst_id": "place:united-states", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html"}, "rel_type": "MENTIONS", "src_id": "work:b79ca4b0a17e609d"}
 {"dst_id": "work:004ed6fd719381e7", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on https://proquest.com/historical-newspapers"}, "rel_type": "MENTIONS", "src_id": "work:b7ee4eef7aa03d48"}
@@ -22678,8 +22723,10 @@
 {"dst_id": "image:11c770b3f97e285eaf4fccc1d18baec87809826d1ccf4c5279fd80f348f059d4", "metadata": {"evidence": "https://usagym.org/halloffame/inductee/millman-dan"}, "rel_type": "DEPICTS", "src_id": "work:bf2f4a20a618fc1d"}
 {"dst_id": "image:233cdf52dd8ed180ecf7afd32f82ec0466719b0a7a2f0d6d4c200e297339a191", "metadata": {"evidence": "https://usagym.org/halloffame/inductee/millman-dan"}, "rel_type": "DEPICTS", "src_id": "work:bf2f4a20a618fc1d"}
 {"dst_id": "image:4b5d331944178a1838017243f3f7d6be75cefbd114dca364ebfd17bd3a4282e6", "metadata": {"evidence": "https://usagym.org/halloffame/inductee/millman-dan"}, "rel_type": "DEPICTS", "src_id": "work:bf2f4a20a618fc1d"}
+{"dst_id": "image:67bc5783c3cab882eac60415ed05e68a3e0377694712acc07630b7a3a82ff147", "metadata": {"evidence": "https://usagym.org/halloffame/inductee/millman-dan"}, "rel_type": "DEPICTS", "src_id": "work:bf2f4a20a618fc1d"}
 {"dst_id": "image:69e562a2ddd1bbddfd6834d046c10da0588ffd506108201d610c65113a85272a", "metadata": {"evidence": "https://usagym.org/halloffame/inductee/millman-dan"}, "rel_type": "DEPICTS", "src_id": "work:bf2f4a20a618fc1d"}
 {"dst_id": "image:7e89fda7903d0640fcb748e39742f7edb41ea077e4cb0fadafc88de9a50d68e5", "metadata": {"evidence": "https://usagym.org/halloffame/inductee/millman-dan"}, "rel_type": "DEPICTS", "src_id": "work:bf2f4a20a618fc1d"}
+{"dst_id": "image:8f580beae84b6e9520f160ce4eb8ab31bade182d852069b30071ab0eee52b8fd", "metadata": {"evidence": "https://usagym.org/halloffame/inductee/millman-dan"}, "rel_type": "DEPICTS", "src_id": "work:bf2f4a20a618fc1d"}
 {"dst_id": "image:fb4a5a37088ecf52a4b508e5c0ebb260d839057b6fd781ecf3ded5915ccfe9e8", "metadata": {"evidence": "https://usagym.org/halloffame/inductee/millman-dan"}, "rel_type": "DEPICTS", "src_id": "work:bf2f4a20a618fc1d"}
 {"dst_id": "event:aside-from-his-athletic-success-millman-served-as-director-of-gymnastics-at-stanford-university-joined-the-faculty-of", "metadata": {"evidence": "https://usagym.org/halloffame/inductee/millman-dan"}, "rel_type": "DESCRIBES", "src_id": "work:bf2f4a20a618fc1d"}
 {"dst_id": "place:los-angeles", "metadata": {"evidence": "https://usagym.org/halloffame/inductee/millman-dan"}, "rel_type": "MENTIONS", "src_id": "work:bf2f4a20a618fc1d"}
