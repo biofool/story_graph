@@ -6211,6 +6211,10 @@
 {"dst_id": "event:interview-of-richard-moon-by-kkron", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:bc1a0f29158e98d7"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:bc1a0f29158e98d7"}
 {"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:bc1a0f29158e98d7"}
+{"dst_id": "group:city-aikido", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:kkron:city-aikido-friday-fillin"}
+{"dst_id": "person:kkron-project-owner", "metadata": {}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:city-aikido-friday-fillin"}
+{"dst_id": "event:city-aikido-thursday-evening-class", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:kkron:city-aikido-thursday-class"}
+{"dst_id": "person:kkron-project-owner", "metadata": {}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:city-aikido-thursday-class"}
 {"dst_id": "event:recruitment-of-richard-moon-and-christopher-thorsen-into-the-cyprus-fulbright-conflict-resolution-programme", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:d357c59ad9199e69"}
 {"dst_id": "person:louise-diamond", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ABOUT", "src_id": "claim:kkron:d357c59ad9199e69"}
 {"dst_id": "person:kkron-project-owner", "metadata": {"evidence": "kkron://personal-communication"}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:d357c59ad9199e69"}
@@ -6225,6 +6229,9 @@
 {"dst_id": "person-richard-moon", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:kkron:moon-unified-identity"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:kkron:moon-unified-identity"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:moon-unified-identity"}
+{"dst_id": "group:aikido-of-mountain-view", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:kkron:ran-dojo-websites"}
+{"dst_id": "group:city-aikido", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:kkron:ran-dojo-websites"}
+{"dst_id": "person:kkron-project-owner", "metadata": {}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:ran-dojo-websites"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"source": "web_research_issue50"}, "rel_type": "ABOUT", "src_id": "claim:moon-born-1946"}
 {"dst_id": "group:smashing-pumpkins", "metadata": {"evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"}, "rel_type": "ABOUT", "src_id": "claim:pbs-artbound-2012-billy-corgan-aquarian-name-shmuel"}
 {"dst_id": "group:yahowha33", "metadata": {"evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"}, "rel_type": "ABOUT", "src_id": "claim:pbs-artbound-2012-billy-corgan-aquarian-name-shmuel"}
@@ -7573,6 +7580,7 @@
 {"dst_id": "event:writing-of-the-source-family-history-book", "metadata": {"date1": "2000s-XX-XX", "date2": "2006"}, "rel_type": "PRECEDES", "src_id": "event:business-contents-sale-at-bodds-caf\u00e9-katoomba"}
 {"dst_id": "event:yogi-bhajan-s-education-at-panjab-university", "metadata": {"date1": "2000s-XX-XX", "date2": "null"}, "rel_type": "PRECEDES", "src_id": "event:business-contents-sale-at-bodds-caf\u00e9-katoomba"}
 {"dst_id": "event:yogi-bhajan-s-education-at-university-for-humanistic-studies", "metadata": {"date1": "2000s-XX-XX", "date2": "null"}, "rel_type": "PRECEDES", "src_id": "event:business-contents-sale-at-bodds-caf\u00e9-katoomba"}
+{"dst_id": "group:city-aikido", "metadata": {"context": "weekly Thursday evening class at City Aikido, San Francisco"}, "rel_type": "LOCATED_IN", "src_id": "event:city-aikido-thursday-evening-class"}
 {"dst_id": "event:awarded-the-sir-muhammad-zafrulla-khan-distinguished-public-service-award", "metadata": {"date1": "2020-03", "date2": "2023-07-15"}, "rel_type": "PRECEDES", "src_id": "event:commissioning-of-an-olive-branch-report"}
 {"dst_id": "event:charlene-peters-legally-changed-name-to-isis-aquarian", "metadata": {"date1": "2020-03", "date2": "null"}, "rel_type": "PRECEDES", "src_id": "event:commissioning-of-an-olive-branch-report"}
 {"dst_id": "event:cremation-and-resting-of-yahowha-s-ashes", "metadata": {"date1": "2020-03", "date2": "null"}, "rel_type": "PRECEDES", "src_id": "event:commissioning-of-an-olive-branch-report"}
@@ -15193,6 +15201,7 @@
 {"dst_id": "group:cinespia", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:john-wyatt"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:jonathan-kauffman"}
 {"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:joni-mitchell"}
+{"dst_id": "event:city-aikido-thursday-evening-class", "metadata": {"context": "co-taught Thursday 6:15-8:15pm with Kenneth Kron", "dates": "c. 2004-2006", "evidence": "https://web.archive.org/web/20061123153813/http://www.cityaikido.com/schedule.html", "role": "instructor"}, "rel_type": "CO_APPEARANCE", "src_id": "person:joseph-arceneaux"}
 {"dst_id": "place:northern-japan", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:julian-jacobs"}
 {"dst_id": "place:oakland", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:julian-jacobs"}
 {"dst_id": "place:los-angeles", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:julie-christie"}
@@ -15208,6 +15217,8 @@
 {"dst_id": "group:aikikai-hombu-dojo", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:kisaburo-osawa"}
 {"dst_id": "group:aikikai-hombu-dojo", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:kisshomaru-ueshiba"}
 {"dst_id": "group:aikikai-hombu-dojo", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:kisshomaru-ueshiba"}
+{"dst_id": "event:city-aikido-thursday-evening-class", "metadata": {"asserted_by": "kkron", "context": "co-taught Thursday 6:15-8:15pm with Joseph Arceneaux; took over the slot Richard Moon previously held", "dates": "c. 2004-2006", "evidence": "https://web.archive.org/web/20061123153813/http://www.cityaikido.com/schedule.html", "role": "instructor"}, "rel_type": "CO_APPEARANCE", "src_id": "person:kkron-project-owner"}
+{"dst_id": "group:city-aikido", "metadata": {"asserted_by": "kkron", "corroboration": "archived 2004-2006 schedules list 'Joseph Arceneaux, Kenneth Kron' on Thursdays", "evidence": "kkron://personal-communication/kkron-city-aikido-teaching", "role": "instructor (fill-in Fridays for Nadeau; Thursday evening class)"}, "rel_type": "WORKED_AT", "src_id": "person:kkron-project-owner"}
 {"dst_id": "group:aikikai-hombu-dojo", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:koichi-tohei"}
 {"dst_id": "group:aikikai-hombu-dojo", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:koichi-tohei"}
 {"dst_id": "place:sangareddy", "metadata": {"evidence": "https://www.schools360.in/ap-tg-gpf-final-payment-and-loan-software/", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:kota-vijaya-kumar"}
@@ -15398,6 +15409,7 @@
 {"dst_id": "event:aikiweb-seminar-with-robert-nadeau-shihan-7th-dan-richard-moon-5th-d-e0d548e2b2", "metadata": {"dates": "June 10, 2006", "region": "CA", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "http://www.aikidoofmarin.com"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:aikiweb-seminar-with-robert-nadeau-shihan-and-richard-moon-5th-dan-e6100ccad4", "metadata": {"dates": "September 29, 2007", "region": "CA", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "http://www.aikidoofmarin.com"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:aikiweb-spring-retreat-with-richard-moon-sensei-5th-dan-3616069211", "metadata": {"dates": "May 17-19, 2002", "region": "CA", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "http://www.aikidoofmarin.com/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "event:city-aikido-thursday-evening-class", "metadata": {"context": "taught the Thursday evening class as 'Jiu Waza (freestyle)'; went periodic by 2006 ('check news page for Moon Sensei classes')", "dates": "c. 2002-2003", "evidence": "https://web.archive.org/web/20020603111003/http://www.cityaikido.com/schedule.html", "role": "instructor"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:imtd-lake-trails-camp-1999", "metadata": {"date": "1999", "role": "instructor", "source": "web_research_issue60"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:international-peace-building-project-in-bosnia", "metadata": {"context": "IMTD Bosnia peace-building (per IMTD, Nautilus, Riai, Quantum Aikido bios)", "role": "consultant/instructor", "source_url": "https://imtdsite.wordpress.com/about/associates/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:moon-aikido-maastricht-2010", "metadata": {"date": "2010-03", "role": "instructor", "source": "web_research_issue60"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}

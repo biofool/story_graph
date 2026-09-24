@@ -1,0 +1,282 @@
+{
+ "name": "kkron_city_aikido_teaching",
+ "description": "kkron's teaching at City Aikido (fill-in Fridays for Nadeau; took over Richard Moon's Thursday evening class) and his role running the City Aikido and Aikido of Mountain View websites \u2014 asserted by kkron 2026-09-24, partially corroborated by Wayback captures of cityaikido.com schedule pages listing 'Joseph Arceneaux, Kenneth Kron' teaching Thursday 6:15-8:15pm (Dec 2004, Aug 2005, Nov 2006 captures), following Moon's Thursday class (2002-2003 captures) and preceding unnamed/Johnston slots (2007+). Also records DNS findings: cityaikido.com registered 2001-03-14 (Verisign RDAP; Apr 2001 capture is a Network Solutions parked page, so originally registered via Network Solutions); aikidomv.com and aikidomtview.com and aikidoofmarin.com are now unregistered (RDAP 404). Original registrant names are not publicly recoverable from free sources (whois history is paywalled: DomainTools/Whoxy/SecurityTrails).",
+ "sources": [
+  {
+   "url": "kkron://personal-communication/kkron-city-aikido-teaching",
+   "platform": "kkron (personal communication)",
+   "source_class": "primary_first_person",
+   "bias_hint": "neutral_ish",
+   "title": "kkron: taught Thursday class at City Aikido, fill-in Fridays for Nadeau, ran both dojo websites",
+   "id": "src:kkron-city-aikido-teaching"
+  },
+  {
+   "url": "https://web.archive.org/web/20041205012138/http://www.cityaikido.com/schedule.html",
+   "platform": "wayback",
+   "source_class": "archival",
+   "bias_hint": "neutral_ish",
+   "title": "City Aikido class schedule, Dec 2004 capture \u2014 Thursday 6:15-8:15pm 'Joseph Arceneaux, Kenneth Kron'",
+   "id": "src:wayback-schedule.html-20041205"
+  },
+  {
+   "url": "https://web.archive.org/web/20050829121656/http://www.cityaikido.com/schedule.html",
+   "platform": "wayback",
+   "source_class": "archival",
+   "bias_hint": "neutral_ish",
+   "title": "City Aikido class schedule, Aug 2005 capture \u2014 Thursday 6:15-8:15pm 'Joseph Arceneaux, Kenneth Kron'",
+   "id": "src:wayback-schedule.html-20050829"
+  },
+  {
+   "url": "https://web.archive.org/web/20061123153813/http://www.cityaikido.com/schedule.html",
+   "platform": "wayback",
+   "source_class": "archival",
+   "bias_hint": "neutral_ish",
+   "title": "City Aikido class schedule, Nov 2006 capture \u2014 Thursday 6:15-8:15pm 'Joseph Arceneaux, Kenneth Kron'; 'Check news page for Moon Sensei classes'",
+   "id": "src:wayback-schedule.html-20061123"
+  },
+  {
+   "url": "https://web.archive.org/web/20031228084544/http://www.cityaikido.com/schedule.html",
+   "platform": "wayback",
+   "source_class": "archival",
+   "bias_hint": "neutral_ish",
+   "title": "City Aikido class schedule, Dec 2003 capture \u2014 Thursday 7:15-8:30pm Richard Moon",
+   "id": "src:wayback-schedule.html-20031228"
+  },
+  {
+   "url": "https://web.archive.org/web/20020603073004/http://www.cityaikido.com/city-info.html",
+   "platform": "wayback",
+   "source_class": "archival",
+   "bias_hint": "neutral_ish",
+   "title": "City Aikido info page, 2002 \u2014 teaching staff Nadeau/Moon/Scoggin/Yoder; Moon a named contact; 'Maintained by Arceneaux Consulting'",
+   "id": "src:wayback-city-info.html-20020603"
+  },
+  {
+   "url": "https://web.archive.org/web/20020603111003/http://www.cityaikido.com/schedule.html",
+   "platform": "wayback",
+   "source_class": "archival",
+   "bias_hint": "neutral_ish",
+   "title": "City Aikido class schedule, 2002 \u2014 Thursday 6:15-8:00pm Richard Moon 'Jiu Waza (freestyle)'",
+   "id": "src:wayback-schedule.html-20020603"
+  },
+  {
+   "url": "https://web.archive.org/web/20120806001316/http://www.cityaikido.com/richard-moon",
+   "platform": "wayback",
+   "source_class": "archival",
+   "bias_hint": "neutral_ish",
+   "title": "City Aikido Richard Moon instructor bio, 2012 \u2014 'Periodically at City Aikido'; guest classes Aug 7+14 2012",
+   "id": "src:wayback-richard-moon-20120806"
+  },
+  {
+   "url": "https://web.archive.org/web/20160618165002/https://cityaikido.com/frontpage",
+   "platform": "wayback",
+   "source_class": "archival",
+   "bias_hint": "neutral_ish",
+   "title": "City Aikido frontpage, Jun 2016 \u2014 instructor nav still lists 'Richard Moon (6th Dan)'",
+   "id": "src:wayback-frontpage-20160618"
+  },
+  {
+   "url": "https://web.archive.org/web/20190826002343/https://www.cityaikido.com/instructors",
+   "platform": "wayback",
+   "source_class": "archival",
+   "bias_hint": "neutral_ish",
+   "title": "City Aikido instructors page, Aug 2019 \u2014 Moon no longer on roster (Nadeau, Wada, Herr, Madden, Johnston, Shelley)",
+   "id": "src:wayback-instructors-20190826"
+  },
+  {
+   "url": "https://web.archive.org/web/20080509122509/http://aikidomv.com/instructors.shtml",
+   "platform": "wayback",
+   "source_class": "archival",
+   "bias_hint": "neutral_ish",
+   "title": "Aikido of Mountain View instructors, 2008 \u2014 Nadeau head; Moskowitz/Green/Roth/Cossmon/Manske assistants; 'Maintained by Eric'",
+   "id": "src:wayback-instructors.shtml-20080509"
+  },
+  {
+   "url": "https://web.archive.org/web/20120413123853/http://aikidomv.com/instructors.shtml",
+   "platform": "wayback",
+   "source_class": "archival",
+   "bias_hint": "neutral_ish",
+   "title": "Aikido of Mountain View instructors, 2012 \u2014 Nadeau head; Green/Adams/Cossmon/Manske/Bohlman; no Kron or Moon",
+   "id": "src:wayback-instructors.shtml-20120413"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "person:joseph-arceneaux",
+   "type": "Person",
+   "label": "Joseph Arceneaux",
+   "canonical_name": "Joseph Arceneaux",
+   "metadata": {
+    "note": "Arceneaux Consulting (arceneaux.com), San Francisco \u2014 built/maintained cityaikido.com per 2002 site credit; co-taught City Aikido Thursday evening class with Kenneth Kron per 2004-2006 archived schedules; early Emacs/Epoch developer"
+   },
+   "source_urls": [
+    "https://web.archive.org/web/20020603073004/http://www.cityaikido.com/city-info.html",
+    "https://web.archive.org/web/20061123153813/http://www.cityaikido.com/schedule.html"
+   ]
+  },
+  {
+   "id": "event:city-aikido-thursday-evening-class",
+   "type": "Event",
+   "label": "City Aikido Thursday evening class (San Francisco)",
+   "canonical_name": "City Aikido Thursday evening class",
+   "metadata": {
+    "note": "Recurring weekly Thursday evening class at City Aikido (790 Eddy St, later 1339 Mission St). Richard Moon taught it as 'Jiu Waza (freestyle)' in 2002-2003; Joseph Arceneaux + Kenneth Kron co-taught it 2004-2006 after Moon went periodic; unnamed 'All Levels' 2007-08; Roy Johnston by 2010.",
+    "host_org": "group:city-aikido"
+   },
+   "source_urls": [
+    "https://web.archive.org/web/20020603111003/http://www.cityaikido.com/schedule.html",
+    "https://web.archive.org/web/20061123153813/http://www.cityaikido.com/schedule.html"
+   ]
+  },
+  {
+   "id": "claim:kkron:city-aikido-thursday-class",
+   "type": "Claim",
+   "label": "kkron took over Richard Moon's Thursday evening class at City Aikido when Moon stopped teaching it",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "kkron states (2026-09-24) he took over Richard Moon's Thursday evening class at City Aikido when Moon stopped teaching it. Corroborated by Wayback captures: Moon held Thursday 6:15-8:00pm 'Jiu Waza (freestyle)' in 2002 and Thursday 7:15-8:30pm in Dec 2003; 'Joseph Arceneaux, Kenneth Kron' co-taught Thursday 6:15-8:15pm in Dec 2004, Aug 2005, and Nov 2006 captures; Moon reduced to 'check news page for Moon Sensei classes' from 2006.",
+    "claim_type": "biographical",
+    "confidence": 0.95,
+    "evidence_mode": "first_person",
+    "stance": "neutral",
+    "asserted_by": "kkron",
+    "corroboration": "wayback:captures 2004/2005/2006 name Arceneaux+Kron in the Thursday slot previously held by Moon"
+   },
+   "source_urls": [
+    "kkron://personal-communication/kkron-city-aikido-teaching",
+    "https://web.archive.org/web/20061123153813/http://www.cityaikido.com/schedule.html"
+   ]
+  },
+  {
+   "id": "claim:kkron:city-aikido-friday-fillin",
+   "type": "Claim",
+   "label": "kkron was fill-in teacher for Robert Nadeau on Fridays at City Aikido",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "kkron states (2026-09-24) he was fill-in teacher for Bob Nadeau on Fridays at City Aikido. Not separately corroborated \u2014 archived schedules list Friday slots under 'Nadeau Sensei' or 'Staff', and fill-in teachers would not appear by name.",
+    "claim_type": "biographical",
+    "confidence": 0.85,
+    "evidence_mode": "first_person",
+    "stance": "neutral",
+    "asserted_by": "kkron"
+   },
+   "source_urls": [
+    "kkron://personal-communication/kkron-city-aikido-teaching"
+   ]
+  },
+  {
+   "id": "claim:kkron:ran-dojo-websites",
+   "type": "Claim",
+   "label": "kkron ran both the City Aikido (cityaikido.com) and Aikido of Mountain View (aikidomv.com) websites",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "kkron states (2026-09-24) he ran both the City Aikido and Aikido of Mountain View websites. Note on timing: the 2002 cityaikido.com site credits 'Arceneaux Consulting' (Joseph Arceneaux), and aikidomv.com credits 'Eric' (mvaikidoweb@comcast.net) in 2008-2011 captures \u2014 so kkron's role was likely later or shared. cityaikido.com was registered 2001-03-14 via Network Solutions (Apr 2001 capture is a NetSol parked page); aikidomv.com, aikidomtview.com, and aikidoofmarin.com are all now unregistered (RDAP 404). Original registrant names are not publicly recoverable from free sources.",
+    "claim_type": "biographical",
+    "confidence": 0.9,
+    "evidence_mode": "first_person",
+    "stance": "neutral",
+    "asserted_by": "kkron",
+    "open_question": "Original domain registrants unknown \u2014 free whois-history is paywalled (DomainTools, Whoxy API $25/5k, SecurityTrails). Registrar account records or a paid whois-history lookup could confirm."
+   },
+   "source_urls": [
+    "kkron://personal-communication/kkron-city-aikido-teaching"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "person:kkron-project-owner",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:city-aikido-thursday-evening-class",
+   "metadata": {
+    "role": "instructor",
+    "dates": "c. 2004-2006",
+    "context": "co-taught Thursday 6:15-8:15pm with Joseph Arceneaux; took over the slot Richard Moon previously held",
+    "evidence": "https://web.archive.org/web/20061123153813/http://www.cityaikido.com/schedule.html",
+    "asserted_by": "kkron"
+   }
+  },
+  {
+   "src_id": "person:joseph-arceneaux",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:city-aikido-thursday-evening-class",
+   "metadata": {
+    "role": "instructor",
+    "dates": "c. 2004-2006",
+    "context": "co-taught Thursday 6:15-8:15pm with Kenneth Kron",
+    "evidence": "https://web.archive.org/web/20061123153813/http://www.cityaikido.com/schedule.html"
+   }
+  },
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:city-aikido-thursday-evening-class",
+   "metadata": {
+    "role": "instructor",
+    "dates": "c. 2002-2003",
+    "context": "taught the Thursday evening class as 'Jiu Waza (freestyle)'; went periodic by 2006 ('check news page for Moon Sensei classes')",
+    "evidence": "https://web.archive.org/web/20020603111003/http://www.cityaikido.com/schedule.html"
+   }
+  },
+  {
+   "src_id": "event:city-aikido-thursday-evening-class",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "group:city-aikido",
+   "metadata": {
+    "context": "weekly Thursday evening class at City Aikido, San Francisco"
+   }
+  },
+  {
+   "src_id": "person:kkron-project-owner",
+   "rel_type": "WORKED_AT",
+   "dst_id": "group:city-aikido",
+   "metadata": {
+    "role": "instructor (fill-in Fridays for Nadeau; Thursday evening class)",
+    "asserted_by": "kkron",
+    "evidence": "kkron://personal-communication/kkron-city-aikido-teaching",
+    "corroboration": "archived 2004-2006 schedules list 'Joseph Arceneaux, Kenneth Kron' on Thursdays"
+   }
+  },
+  {
+   "src_id": "claim:kkron:city-aikido-thursday-class",
+   "rel_type": "ASSERTED_BY",
+   "dst_id": "person:kkron-project-owner",
+   "metadata": {}
+  },
+  {
+   "src_id": "claim:kkron:city-aikido-thursday-class",
+   "rel_type": "ABOUT",
+   "dst_id": "event:city-aikido-thursday-evening-class",
+   "metadata": {}
+  },
+  {
+   "src_id": "claim:kkron:city-aikido-friday-fillin",
+   "rel_type": "ASSERTED_BY",
+   "dst_id": "person:kkron-project-owner",
+   "metadata": {}
+  },
+  {
+   "src_id": "claim:kkron:city-aikido-friday-fillin",
+   "rel_type": "ABOUT",
+   "dst_id": "group:city-aikido",
+   "metadata": {}
+  },
+  {
+   "src_id": "claim:kkron:ran-dojo-websites",
+   "rel_type": "ASSERTED_BY",
+   "dst_id": "person:kkron-project-owner",
+   "metadata": {}
+  },
+  {
+   "src_id": "claim:kkron:ran-dojo-websites",
+   "rel_type": "ABOUT",
+   "dst_id": "group:city-aikido",
+   "metadata": {}
+  },
+  {
+   "src_id": "claim:kkron:ran-dojo-websites",
+   "rel_type": "ABOUT",
+   "dst_id": "group:aikido-of-mountain-view",
+   "metadata": {}
+  }
+ ]
+}
