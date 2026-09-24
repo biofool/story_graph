@@ -26,6 +26,7 @@
     "publish_date": "1982-03-07",
     "work_type": "newspaper_column_item",
     "page": "18",
+    "url": "https://archive.org/details/assassxxxxxx00linc",
     "contains_interview": true,
     "provenance_note": "Bound into LFFC clipbook 'The assassination of Abraham Lincoln' (vol. Assassination-Harris) because the same page carried 'Jinx of the President's Box'; scanned by Internet Archive 2012-11-13, uploaded to Wikimedia Commons 2021-04-08 by Fae."
    },
@@ -60,6 +61,20 @@
     "asserted_by": "Significa columnists (Wallace/Wallechinsky/Wallace), Parade magazine"
    },
    "source_urls": ["https://archive.org/details/assassxxxxxx00linc"]
+  }
+ ],
+ "claim_sources": [
+  {
+   "claim_id": "claim:parade:ralston-1978-championship",
+   "source_id": "work:parade-significa-yankee-judo-dandy-1982"
+  },
+  {
+   "claim_id": "claim:parade:ralston-early-life-and-insight",
+   "source_id": "work:parade-significa-yankee-judo-dandy-1982"
+  },
+  {
+   "claim_id": "claim:ralston-1978-world-championship",
+   "source_id": "work:parade-significa-yankee-judo-dandy-1982"
   }
  ],
  "edges": [
