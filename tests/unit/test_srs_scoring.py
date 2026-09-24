@@ -224,6 +224,26 @@ class TestComputeSRS:
         assert srs <= -50
         assert tier == "BLACKLISTED"
 
+    def test_wikipedia_never_citable(self, wp):
+        """Wikipedia articles are never citable sources on Wikipedia
+        (WP:CIRCULAR), regardless of domain rank — they are leads to
+        underlying references, not sources themselves."""
+        for url in (
+            "https://en.wikipedia.org/wiki/Terry_Dobson_(aikidoka)",
+            "https://wikipedia.org/wiki/Aikido",
+            "https://fr.wikipedia.org/wiki/Aikido",
+        ):
+            source = {"url": url, "source_class": "journalistic"}
+            canonical = {"id": "person:test", "label": "Test Person"}
+            # Even with a maxed-out domain rank, Wikipedia scores UNRELIABLE
+            tiers = {d: 40 for d in ("en.wikipedia.org", "wikipedia.org", "fr.wikipedia.org")}
+            srs, tier, breakdown = wp.compute_srs(
+                source, canonical, [], [], {}, tiers, {},
+            )
+            assert tier == "UNRELIABLE", url
+            assert srs < 50, url  # below the citable threshold
+            assert breakdown["note"] == "wikipedia_not_citable"
+
     def test_affiliated_personal_site(self, wp):
         """A subject's own website scores poorly for Wikipedia purposes."""
         source = {

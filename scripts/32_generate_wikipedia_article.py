@@ -622,6 +622,21 @@ def compute_srs(
     url = source.get("url", "") or ""
     domain = get_domain(url)
 
+    # WP:CIRCULAR — a Wikipedia article is never a citable source on
+    # Wikipedia, regardless of its domain rank. Wikipedia URLs are leads
+    # to underlying references, which must be located and cited directly.
+    # Score them UNRELIABLE so they can never count toward WP:GNG or
+    # appear as "Citable? Yes" in the reliability report.
+    if domain == "wikipedia.org" or domain.endswith(".wikipedia.org"):
+        return 0, "UNRELIABLE", {
+            "domain_rank": 0,
+            "wp_rsp": 0,
+            "source_class": 0,
+            "independence": 0,
+            "domain": domain,
+            "note": "wikipedia_not_citable",
+        }
+
     dr = domain_rank_points(domain, tranco, tiers)
     wr = wp_rsp_points(domain, rsp_cache)
     sc = source_class_points(source.get("source_class", ""))
@@ -994,6 +1009,8 @@ def generate_report(
             f"sc={s['_breakdown']['source_class']} "
             f"ind={s['_breakdown']['independence']}"
         )
+        if s["_breakdown"].get("note"):
+            reason += f" ({s['_breakdown']['note']})"
         title = s.get("title", "") or s.get("url", "")[:40]
         lines.append(
             f"| {i} | {title[:40]} | {domain} | {srs} | {tier} | {citable} | {reason} |"

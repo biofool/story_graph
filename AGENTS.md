@@ -58,3 +58,8 @@ source adjudication of Wikipedia content, adopt the persona in
 martial-arts journalist + Wikipedia policy expertise). Sourcing rules,
 SRS tiers, and martial-arts source guidance live in
 `.devin/skills/wikipedia-article-generator/SKILL.md`.
+
+If a source page is repeatedly blocked (HTTP 429, paywall, bot wall),
+record the URL in the relevant Wikipedia tracking issue (e.g. #70) so the
+blocked pages stay visible and retriable — do not let them disappear into
+script logs.

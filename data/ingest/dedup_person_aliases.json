@@ -1,0 +1,36 @@
+{
+ "name": "dedup_person_aliases",
+ "description": "ALIAS_OF edges for remaining duplicate person nodes of Robert Nadeau and Richard Moon, continuing the issue-#50 dedup (scripts/50_dedup_moon_nadeau_aliases.py already linked person-richard-moon and person:nadeau-shihan). These are extraction artifacts — possessive fragments and name-junction nodes — all confirmed to refer to the same individuals via their edges (aikido seminar CO_APPEARANCEs, MENTIONS from aikido works). Deliberately NOT aliased: person:richard-moon-law-professor (a different human — Canadian law professor at uOttawa).",
+ "edges": [
+  {
+   "src_id": "person:nadeau-sensei",
+   "rel_type": "ALIAS_OF",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {"context": "duplicate node for Robert Nadeau — CO_APPEARANCEs on aikido seminars with Ikeda; dedup per issue #50 / #70"}
+  },
+  {
+   "src_id": "person:nadeau-sensei-s",
+   "rel_type": "ALIAS_OF",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {"context": "duplicate node for Robert Nadeau — possessive fragment 'Nadeau Sensei's' from work:a2141cac8e8c09c1; dedup per issue #50 / #70"}
+  },
+  {
+   "src_id": "person:robert-nadeau-sensei",
+   "rel_type": "ALIAS_OF",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {"context": "duplicate node for Robert Nadeau — CO_APPEARANCE on AikiWeb summer retreat; dedup per issue #50 / #70"}
+  },
+  {
+   "src_id": "person:robert-nadeau-josh-gold",
+   "rel_type": "ALIAS_OF",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {"context": "duplicate node for Robert Nadeau — name-junction artifact 'Robert Nadeau Josh Gold' from work:a2141cac8e8c09c1; dedup per issue #50 / #70"}
+  },
+  {
+   "src_id": "person:richard-moon-chef",
+   "rel_type": "ALIAS_OF",
+   "dst_id": "person:richard-moon-aikido",
+   "metadata": {"context": "same human — aikido instructor Richard Moon worked as a chef (Source Family / Aware Inn era); unified identity asserted by kkron (claim:kkron:moon-unified-identity); dedup per issue #50 / #70"}
+  }
+ ]
+}
