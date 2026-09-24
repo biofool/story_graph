@@ -1,48 +1,48 @@
-'''Robert Nadeau'''  is a martial arts teacher and founder of Menlo Park Dojo, San Francisco dojo. It was an old dream of mine. I use to think about it at the old Kojimaya coffee shop near Hombu when I was in Japan. I would write out notes about how I would start a Hombu Dojo-type thing in San Fran <ref name="ref3"/> Not everyone reacted positively. <ref name="ref3"/> I think that period was the real beginning of aikido in Northern California. <ref name="ref3"/>
+'''Robert Nadeau'''  is a martial arts teacher and founder of Aikido Association of Northern California, California Aikido Association, Menlo Park Dojo. It’s not just about techniques—it’s about becoming a better person, as O-Sensei said <ref name="ref2"/> Ed Dreeson helped me as a financial manager by donating his time, but I knew we still needed more than two teachers if it was going to be a Hombu Dojo. <ref name="ref3"/> Not everyone reacted positively. <ref name="ref3"/>
 
 == Career ==
 
-Robert Nadeau founded Menlo Park Dojo, San Francisco dojo.<ref name="ref7"/>
+Robert Nadeau founded Aikido Association of Northern California, California Aikido Association, Menlo Park Dojo, San Francisco dojo.<ref name="ref7"/>
 
-It was an old dream of mine. I use to think about it at the old Kojimaya coffee shop near Hombu when I was in Japan. I would write out notes about how I would start a Hombu Dojo-type thing in San Fran<ref name="ref3"/>
+It’s not just about techniques—it’s about becoming a better person, as O-Sensei said<ref name="ref2"/>
+
+Ed Dreeson helped me as a financial manager by donating his time, but I knew we still needed more than two teachers if it was going to be a Hombu Dojo.<ref name="ref3"/>
 
 Not everyone reacted positively.<ref name="ref3"/>
 
-I think that period was the real beginning of aikido in Northern California.<ref name="ref3"/>
+I was a fast learner and an athlete. When I went there I had well-developed, functioning muscles. I had been training in physical development daily for over ten years. Also, my devotion to the martial<ref name="ref3"/>
 
-Again, if I hadn’t met O-Sensei I would have followed this man because of his energy capability plus his fighting skills. But again, O-Sensei was so much more than all of these guys.<ref name="ref3"/>
+It sort of validated what I was doing.<ref name="ref3"/>
 
-He is not too well-known but was quite an exceptional individual. He was a good writer and researcher.<ref name="ref3"/>
+He said that with my body I should be a judo 3rd dan and invited me to train with him.<ref name="ref3"/>
 
-I thought we did a fantastic thing. That was to have people come together in a “show and tell” form to talk about a technique.<ref name="ref3"/>
+At no time did I ever feel anything on his part but a desire to communicate and be honest with me. Never did I get any negative reaction to my questions.<ref name="ref3"/>
+
+I think where I lucked out was in keeping my areas of interest separated.<ref name="ref3"/>
+
+He was very intent on trying to get the essence of Aikido across to us.<ref name="ref3"/>
+
+You should never quit on a bad day!<ref name="ref3"/>
 
 Later, there was a sense that he was going to make a move away from Hombu. That became apparent.<ref name="ref3"/>
 
 I think I was lucky in a certain way that I was able to pick up on things like “Seicho no Ie” in California before I went to Japan.<ref name="ref3"/>
 
-We used to talk about it in the nearby coffee shop, the Kojimaya. We would talk about what was going to happen when O-Sensei died.<ref name="ref3"/>
+I knew he was out of town a lot.<ref name="ref3"/>
 
-I realized that aikido was for me although it was hard to leave the other arts because I had a lot of years practicing them and was about ready to get rank.<ref name="ref3"/>
+More important, it was noted by many that his attitude changed each time he returned from Hawaii.<ref name="ref3"/>
 
-I don’t know if he was the dominant force, but he certainly was a dominant force; remember he was the head teacher.<ref name="ref3"/>
+Again, if I hadn’t met O-Sensei I would have followed this man because of his energy capability plus his fighting skills. But again, O-Sensei was so much more than all of these guys.<ref name="ref3"/>
 
-Ed Dreeson helped me as a financial manager by donating his time, but I knew we still needed more than two teachers if it was going to be a Hombu Dojo.<ref name="ref3"/>
+It was later that the questions came up of Tohei Sensei’s changing things.<ref name="ref3"/>
 
-Morihei Ueshiba, who would remain a constant source of inspiration and guidance to the young foreigner.<ref name="ref3"/>
+And they were frustrated when we trained together because I had continued to progress.<ref name="ref3"/>
 
-My judo teacher said that I took to it like a duck to water!<ref name="ref3"/>
-
-A family member said that she had met a fantastic psychic who could even name names.<ref name="ref3"/>
-
-I think where I lucked out was in keeping my areas of interest separated.<ref name="ref3"/>
+I was very impressed with O-Sensei…<ref name="ref3"/>
 
 ” When I arrived, they said I was “Gestalt on the move,” though I didn’t know what Gestalt meant<ref name="ref2"/>
 
-As such, the lessons described can benefit both Aikidoists and non-Aikidoists alike<ref name="ref2"/>
-
-I had been on the police force before my first trip.<ref name="ref3"/>
-
-After a while it was just the aikido that interested me. Slowly, I dropped out of the other arts. It could have turned out differently.<ref name="ref3"/>
+Koichi Tohei comes to California—and I know him very well because we used to hang out together and I attended all of his classes in Japan. I mean we even did private lessons together and I was a part <ref name="ref3"/>
 
 == Seminars in Russia ==
 
