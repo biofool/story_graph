@@ -237,15 +237,18 @@ state only what the image source and reliable citations establish:
 
 ### Scope and weight
 
-Proportion is an editorial judgment: the article is about the subject, not
-a general history of postwar aikido.
+Proportion is an editorial judgment: focus on what the article is about.
+For the Nadeau article, that work tangentially supports establishing
+Richard Moon as a notable teacher — context demonstrating the
+significance of Nadeau's Hombu cohort and his documented students bears
+on Moon's notability. It is not a general history of postwar aikido.
 
 - Brief context on contemporaries (Yamada, Sugano, Kanai, Saotome) can
   show why the subject's Hombu cohort matters.
-- Long descriptions of their later organisations, membership counts, or
+- Long descriptions of their later organisations, ASU's membership, or
   COVID-era decline are tangential.
 - The best context is one concise, separately sourced sentence — not a
-  chain of detail assembled by the editor.
+  chain of unrelated detail.
 - Space follows what reliable independent sources emphasize, not what
   contributors know to be true or find meaningful.
 
