@@ -6253,6 +6253,9 @@
 {"dst_id": "work:npc-1223363307", "metadata": {}, "rel_type": "SUPPORTED_BY", "src_id": "claim:nadeau-redwood-city-police"}
 {"dst_id": "dojo:aikido-of-tamalpais", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:palmer-nadeau-tamalpais"}
 {"dst_id": "person:wendy-palmer", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:palmer-nadeau-tamalpais"}
+{"dst_id": "event:peter-ralston-wins-world-championship", "metadata": {"stance": "supports"}, "rel_type": "ABOUT", "src_id": "claim:parade:ralston-1978-championship"}
+{"dst_id": "person:peter-ralston", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:parade:ralston-1978-championship"}
+{"dst_id": "person:peter-ralston", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:parade:ralston-early-life-and-insight"}
 {"dst_id": "group:smashing-pumpkins", "metadata": {"evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"}, "rel_type": "ABOUT", "src_id": "claim:pbs-artbound-2012-billy-corgan-aquarian-name-shmuel"}
 {"dst_id": "group:yahowha33", "metadata": {"evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"}, "rel_type": "ABOUT", "src_id": "claim:pbs-artbound-2012-billy-corgan-aquarian-name-shmuel"}
 {"dst_id": "person:billy-corgan", "metadata": {"evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"}, "rel_type": "ABOUT", "src_id": "claim:pbs-artbound-2012-billy-corgan-aquarian-name-shmuel"}
@@ -24507,6 +24510,8 @@
 {"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "work:npc-840615951"}
 {"dst_id": "event:aikido-of-idaho-nadeau-seminar-1992-10", "metadata": {"source_url": "https://www.newspapers.com/image/915930505/"}, "rel_type": "DESCRIBES", "src_id": "work:npc-915930505"}
 {"dst_id": "person:dave-bendigkeit", "metadata": {"source_url": "https://www.newspapers.com/image/920116428/"}, "rel_type": "DESCRIBES", "src_id": "work:npc-920116428"}
+{"dst_id": "event:peter-ralston-wins-world-championship", "metadata": {"note": "independent contemporaneous coverage of the 1978 win"}, "rel_type": "ABOUT", "src_id": "work:parade-significa-yankee-judo-dandy-1982"}
+{"dst_id": "person:peter-ralston", "metadata": {"note": "subject of the 'Yankee Judo Dandy' item"}, "rel_type": "ABOUT", "src_id": "work:parade-significa-yankee-judo-dandy-1982"}
 {"dst_id": "work:85eba8cdb9b35388", "metadata": {"note": "Same article, KCET merged with PBS SoCal"}, "rel_type": "ALIAS_OF", "src_id": "work:pbs-artbound-new-aquarians"}
 {"dst_id": "claim:pbs-artbound-2012-billy-corgan-aquarian-name-shmuel", "metadata": {"evidence": "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"}, "rel_type": "CONTAINS", "src_id": "work:pbs-artbound-new-aquarians"}
 {"dst_id": "claim:pbs-artbound-2012-cafe-gratitude-source-burger", "metadata": {"evidence": "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"}, "rel_type": "CONTAINS", "src_id": "work:pbs-artbound-new-aquarians"}

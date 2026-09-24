@@ -1,0 +1,97 @@
+{
+ "name": "parade_significa_ralston_1982",
+ "description": "Parade magazine 'Significa' column (Irving Wallace, David Wallechinsky, Amy Wallace), March 7 1982, p.18 — item 'Yankee Judo Dandy' on Peter Ralston's 1978 World Martial Arts Championship win in Taiwan, including direct interview quotes. Found bound into the Lincoln Financial Foundation Collection clipbook 'The assassination of Abraham Lincoln' (vol. 'Assassination - Harris', IA assassxxxxxx00linc, PDF p.19) — the page was clipped for the adjacent 'Jinx of the President's Box' item; Ralston coverage is incidental to the clipbook's Lincoln purpose. Digitized by Internet Archive (Indiana scanning center, 2012); copy on Wikimedia Commons (uploaded by Fae, 2021). Independent mass-market corroboration of the 1978 win — the flagship Ralston claim was previously sourced only to his own books/site.",
+ "sources": [
+  {
+   "id": "src:parade-significa-1982-03-07",
+   "url": "https://archive.org/details/assassxxxxxx00linc",
+   "title": "Significa — 'Yankee Judo Dandy' (Parade magazine, p.18)",
+   "author": "Irving Wallace; David Wallechinsky; Amy Wallace",
+   "publish_date": "1982-03-07",
+   "platform": "Parade magazine (syndicated Sunday supplement)",
+   "source_class": "journalistic",
+   "bias_hint": "neutral_ish",
+   "note": "Page 19 of the LFFC clipbook PDF (IA assassxxxxxx00linc); Commons mirror: https://commons.wikimedia.org/wiki/File:The_assassination_of_Abraham_Lincoln_(IA_assassxxxxxx00linc).pdf. Footer reads 'PARADE MARCH 7, 1982'."
+  }
+ ],
+ "nodes": [
+  {
+   "id": "work:parade-significa-yankee-judo-dandy-1982",
+   "type": "Work",
+   "label": "Yankee Judo Dandy — Significa, Parade (March 7, 1982)",
+   "canonical_name": "Yankee Judo Dandy (Significa column, Parade)",
+   "metadata": {
+    "author": "Irving Wallace, David Wallechinsky, Amy Wallace",
+    "platform": "Parade magazine",
+    "publish_date": "1982-03-07",
+    "work_type": "newspaper_column_item",
+    "page": "18",
+    "contains_interview": true,
+    "provenance_note": "Bound into LFFC clipbook 'The assassination of Abraham Lincoln' (vol. Assassination-Harris) because the same page carried 'Jinx of the President's Box'; scanned by Internet Archive 2012-11-13, uploaded to Wikimedia Commons 2021-04-08 by Fae."
+   },
+   "source_urls": ["https://archive.org/details/assassxxxxxx00linc"]
+  },
+  {
+   "id": "claim:parade:ralston-1978-championship",
+   "type": "Claim",
+   "label": "Independent corroboration: 1978 World Martial Arts Championship in Taiwan won by a non-Oriental for the first time — Peter Ralston, 28, of San Francisco",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "Significa (Parade, 1982-03-07): 'A similar tournament actually takes place in Taiwan. In 1978 the World Martial Arts Championship was won, for the first time, by a non-Oriental — a 28-year-old blond native of San Francisco named Peter Ralston. The Asian martial arts world was stunned.' Independent of Ralston's own books/website — the prior sourcing for the flagship claim was self-published. '28 in 1978' implies birth ~1949-1950, consistent with existing birth_place San Francisco. Accompanied by a captioned photo: 'Champion Peter Ralston (l) in action.'",
+    "claim_type": "event_history",
+    "confidence": 0.95,
+    "evidence_mode": "secondary_report",
+    "stance": "supports",
+    "asserted_by": "Significa columnists (Wallace/Wallechinsky/Wallace), Parade magazine"
+   },
+   "source_urls": ["https://archive.org/details/assassxxxxxx00linc"]
+  },
+  {
+   "id": "claim:parade:ralston-early-life-and-insight",
+   "type": "Claim",
+   "label": "Ralston early life per Significa interview: raised in the Far East, judo at age 9 in Singapore, t'ai chi ch'uan insight at 17",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "Per the 1982 Significa item (which cites 'an interview with Significa' — original reporting, not just aggregation): Ralston grew up in the Far East where his father worked; in Singapore at age 9 a friend persuaded him to take judo classes; he showed no special aptitude until 17, when he had 'a sudden insight about t'ai chi ch'uan, subtlest of the martial arts' — 'I had the realization that the essence of the art is supposed to be easy, that it's not supposed to be a struggle.' At the 1978 win he was 5'10\" and 156 lbs.",
+    "claim_type": "biographical",
+    "confidence": 0.85,
+    "evidence_mode": "secondary_report",
+    "stance": "neutral",
+    "asserted_by": "Significa columnists (Wallace/Wallechinsky/Wallace), Parade magazine"
+   },
+   "source_urls": ["https://archive.org/details/assassxxxxxx00linc"]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "work:parade-significa-yankee-judo-dandy-1982",
+   "rel_type": "ABOUT",
+   "dst_id": "person:peter-ralston",
+   "metadata": {"note": "subject of the 'Yankee Judo Dandy' item"}
+  },
+  {
+   "src_id": "work:parade-significa-yankee-judo-dandy-1982",
+   "rel_type": "ABOUT",
+   "dst_id": "event:peter-ralston-wins-world-championship",
+   "metadata": {"note": "independent contemporaneous coverage of the 1978 win"}
+  },
+  {
+   "src_id": "claim:parade:ralston-1978-championship",
+   "rel_type": "ABOUT",
+   "dst_id": "person:peter-ralston",
+   "metadata": {}
+  },
+  {
+   "src_id": "claim:parade:ralston-1978-championship",
+   "rel_type": "ABOUT",
+   "dst_id": "event:peter-ralston-wins-world-championship",
+   "metadata": {"stance": "supports"}
+  },
+  {
+   "src_id": "claim:parade:ralston-early-life-and-insight",
+   "rel_type": "ABOUT",
+   "dst_id": "person:peter-ralston",
+   "metadata": {}
+  }
+ ]
+}
