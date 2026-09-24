@@ -6238,7 +6238,11 @@
 {"dst_id": "group:city-aikido", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:kkron:ran-dojo-websites"}
 {"dst_id": "person:kkron-project-owner", "metadata": {}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:ran-dojo-websites"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"source": "web_research_issue50"}, "rel_type": "ABOUT", "src_id": "claim:moon-born-1946"}
+{"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:nadeau-aikido-of-san-francisco-1983"}
+{"dst_id": "work:npc-1223363307", "metadata": {}, "rel_type": "SUPPORTED_BY", "src_id": "claim:nadeau-aikido-of-san-francisco-1983"}
 {"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:nadeau-director-norcal-aikido-1978"}
+{"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:nadeau-redwood-city-police"}
+{"dst_id": "work:npc-1223363307", "metadata": {}, "rel_type": "SUPPORTED_BY", "src_id": "claim:nadeau-redwood-city-police"}
 {"dst_id": "dojo:aikido-of-tamalpais", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:palmer-nadeau-tamalpais"}
 {"dst_id": "person:wendy-palmer", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:palmer-nadeau-tamalpais"}
 {"dst_id": "group:smashing-pumpkins", "metadata": {"evidence": "Ryder, C. (2012). Meet The New Aquarians. Artbound, PBS SoCal. Retrieved from https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"}, "rel_type": "ABOUT", "src_id": "claim:pbs-artbound-2012-billy-corgan-aquarian-name-shmuel"}
@@ -6329,6 +6333,10 @@
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"}, "rel_type": "ABOUT", "src_id": "claim:search:nadeau-millman-student"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"}, "rel_type": "ABOUT", "src_id": "claim:search:nadeau-moon-student"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"}, "rel_type": "ABOUT", "src_id": "claim:search:nadeau-moon-student"}
+{"dst_id": "person:meg-wheatley", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:wheatley-used-thorsen-moon"}
+{"dst_id": "person:christopher-thorsen", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:wheatley-used-thorsen-moon"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:wheatley-used-thorsen-moon"}
+{"dst_id": "work:npc-793520210", "metadata": {}, "rel_type": "SUPPORTED_BY", "src_id": "claim:wheatley-used-thorsen-moon"}
 {"dst_id": "group:yoga-the-hugging-saint", "metadata": {"evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"}, "rel_type": "ABOUT", "src_id": "claim:yoga-abuse-amma-fd3727e6"}
 {"dst_id": "person:yoga-amma", "metadata": {"evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"}, "rel_type": "ABOUT", "src_id": "claim:yoga-abuse-amma-fd3727e6"}
 {"dst_id": "person:reddit-ronswansong87", "metadata": {"evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"}, "rel_type": "ASSERTED_BY", "src_id": "claim:yoga-abuse-amma-fd3727e6"}
@@ -6852,6 +6860,8 @@
 {"dst_id": "event:yogi-bhajan-started-khalsa-women-training-camps", "metadata": {"date1": "1974-12-26", "date2": "1976"}, "rel_type": "PRECEDES", "src_id": "event:6-death-edit-on-december-26-1974-the-source-family-sold-their-restaurant-and-moved-to-hawaii"}
 {"dst_id": "place:dance-palace", "metadata": {"source_url": "https://www.newspapers.com/image/1100916418/"}, "rel_type": "LOCATED_IN", "src_id": "event:aiki-dance-intro-1998"}
 {"dst_id": "place:dance-palace", "metadata": {"source_url": "https://www.newspapers.com/image/1100842220/"}, "rel_type": "LOCATED_IN", "src_id": "event:aiki-dance-workshop-1997"}
+{"dst_id": "place:dance-palace", "metadata": {"source_url": "https://www.newspapers.com/image/1100842220/"}, "rel_type": "LOCATED_IN", "src_id": "event:aiki-dance-workshop-1997-04-26"}
+{"dst_id": "place:dance-palace", "metadata": {"note": "Dance Palace context per PRL listing series", "source_url": "https://www.newspapers.com/image/1100916601/"}, "rel_type": "LOCATED_IN", "src_id": "event:aikido-and-dance-1998-04-25"}
 {"dst_id": "place:dance-palace", "metadata": {"source_url": "https://www.newspapers.com/image/1125183831/"}, "rel_type": "LOCATED_IN", "src_id": "event:aikido-class-dance-palace-1980"}
 {"dst_id": "place:dance-palace", "metadata": {"source_url": "https://www.newspapers.com/image/1100933658/"}, "rel_type": "LOCATED_IN", "src_id": "event:aikido-classes-west-marin-1984"}
 {"dst_id": "place:dance-palace", "metadata": {"source_url": "https://www.newspapers.com/image/1101035804/"}, "rel_type": "LOCATED_IN", "src_id": "event:aikido-dance-dance-palace-1992"}
@@ -14544,6 +14554,9 @@
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:charlie-kitchings"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:christina-ward"}
 {"dst_id": "group:murell-law-firm", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117213731.html", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:christopher-j-murell"}
+{"dst_id": "event:herald-sun-conference-1997-aikido-dialogue", "metadata": {"role": "co-presenter 'Aikido and Dialogue' via Performance Edge", "source_url": "https://www.newspapers.com/image/793520210/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:christopher-thorsen"}
+{"dst_id": "event:herald-sun-conference-2001-aikido", "metadata": {"role": "speaker \u2014 'Chris Thorsen & Richard Moon: Aikido'", "source_url": "https://www.newspapers.com/image/795545627/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:christopher-thorsen"}
+{"dst_id": "organization:performance-edge", "metadata": {"note": "co-founder with Richard Moon", "source_url": "https://www.newspapers.com/image/793520210/"}, "rel_type": "FOUNDED", "src_id": "person:christopher-thorsen"}
 {"dst_id": "group:cyprus-consortium", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "MEMBER_OF", "src_id": "person:christopher-thorsen"}
 {"dst_id": "group:cyprus-fulbright-commission", "metadata": {"asserted_by": "cited_source", "evidence": "https://openmindadventures.com/chris-thorsen/", "trigger": "cited_source_lead", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:christopher-thorsen"}
 {"dst_id": "group:california-aikido-federation", "metadata": {"asserted_by": "kkron", "era": "1960s", "role": "leader (with Rod Kobayashi)", "source": "kkron://personal-communication/dojo-origins-caa"}, "rel_type": "MEMBER_OF", "src_id": "person:clem-yoshida"}
@@ -14573,6 +14586,7 @@
 {"dst_id": "group:american-jujitsu-institute", "metadata": {"evidence": "https://www.usadojo.com/sig-kufferath", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:danzan-ryu-jujitsu"}
 {"dst_id": "group:okazaki", "metadata": {"evidence": "https://www.usadojo.com/sig-kufferath", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:danzan-ryu-jujitsu"}
 {"dst_id": "group:crazygames-f\u00f3rum", "metadata": {"evidence": "https://rfcrazygames.forumeiros.com/images", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:dark"}
+{"dst_id": "dojo:aikido-of-san-leandro", "metadata": {"source_url": "https://www.newspapers.com/image/920116428/"}, "rel_type": "MEMBER_OF", "src_id": "person:dave-bendigkeit"}
 {"dst_id": "group:david-b-shanies-law-office", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117213731.html", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:david-b-shanies"}
 {"dst_id": "group:children-of-god", "metadata": {"evidence": "https://podscripts.co/podcasts/timesuck-with-dan-cummins/161-the-source-family-cult", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:david-berg"}
 {"dst_id": "group:world-religions-and-spirituality-project", "metadata": {"evidence": "https://divinity.interactivelion.com/new-religious-movements/the-source-family", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:david-g-bromley"}
@@ -15375,6 +15389,8 @@
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:p-babie"}
 {"dst_id": "group:subud-commune", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:patricia-arquette"}
 {"dst_id": "group:orleans-parish-coroner-s-office", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117213731.html", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:patricia-daniels"}
+{"dst_id": "person:dave-bendigkeit", "metadata": {"note": "awarded black belt at Aikido of San Leandro", "source_url": "https://www.newspapers.com/image/920116428/"}, "rel_type": "TEACHER_STUDENT", "src_id": "person:patricia-hendricks"}
+{"dst_id": "dojo:aikido-of-san-leandro", "metadata": {"source_url": "https://www.newspapers.com/image/920116428/"}, "rel_type": "WORKED_AT", "src_id": "person:patricia-hendricks"}
 {"dst_id": "event:aikiweb-seminar-with-hiroshi-ikeda-7-dan-lisa-tomoleoni-6-dan-patric-e41b1cc831", "metadata": {"dates": "January 15, 2022", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "https://www.sandiegomacc.com/2022-aikido-bridge.html"}, "rel_type": "CO_APPEARANCE", "src_id": "person:patrick-cassidy"}
 {"dst_id": "event:riviera-seminar-montreux-2025", "metadata": {"role": "panelist/instructor", "source_url": "https://www.facebook.com/AikidoKashin/videos/1886811665397048/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:patrick-cassidy"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:patrick-lundborg"}
@@ -15430,6 +15446,8 @@
 {"dst_id": "group:nikko-jujitsu-school", "metadata": {"asserted_by": "kkron", "role": "Chief Instructor", "source": "kkron://personal-communication/kufferath-nadeau-bunch"}, "rel_type": "MEMBER_OF", "src_id": "person:richard-bunch"}
 {"dst_id": "event:aiki-dance-intro-1998", "metadata": {"date": "1998-04-16", "role": "instructor", "source": "newspapers_com", "source_url": "https://www.newspapers.com/image/1100916418/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:aiki-dance-workshop-1997", "metadata": {"date": "1997-04-26", "role": "instructor", "source": "newspapers_com", "source_url": "https://www.newspapers.com/image/1100842220/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "event:aiki-dance-workshop-1997-04-26", "metadata": {"role": "workshop leader", "source_url": "https://www.newspapers.com/image/1100842220/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "event:aikido-and-dance-1998-04-25", "metadata": {"role": "workshop leader \u2014 'Aikido and Dance with Richard Moon'", "source_url": "https://www.newspapers.com/image/1100916601/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:aikido-and-dialogue-2001", "metadata": {"date": "2001-09-23", "role": "instructor", "source": "newspapers_com", "source_url": "https://www.newspapers.com/image/795545627/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:aikido-and-dialogue-durham-1997", "metadata": {"date": "1997-10-07", "role": "instructor", "source": "newspapers_com", "source_url": "https://www.newspapers.com/image/793520210/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:aikido-class-dance-palace-1980", "metadata": {"date": "1980-11-24", "role": "instructor", "source": "newspapers_com", "source_url": "https://www.newspapers.com/image/1125183831/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
@@ -15445,6 +15463,8 @@
 {"dst_id": "event:aikiweb-seminar-with-robert-nadeau-shihan-and-richard-moon-5th-dan-e6100ccad4", "metadata": {"dates": "September 29, 2007", "region": "CA", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "http://www.aikidoofmarin.com"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:aikiweb-spring-retreat-with-richard-moon-sensei-5th-dan-3616069211", "metadata": {"dates": "May 17-19, 2002", "region": "CA", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "http://www.aikidoofmarin.com/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:city-aikido-thursday-evening-class", "metadata": {"context": "taught the Thursday evening class as 'Jiu Waza (freestyle)'; went periodic by 2006 ('check news page for Moon Sensei classes')", "dates": "c. 2002-2003", "evidence": "https://web.archive.org/web/20020603111003/http://www.cityaikido.com/schedule.html", "role": "instructor"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "event:herald-sun-conference-1997-aikido-dialogue", "metadata": {"role": "co-presenter 'Aikido and Dialogue' via Performance Edge", "source_url": "https://www.newspapers.com/image/793520210/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "event:herald-sun-conference-2001-aikido", "metadata": {"role": "speaker \u2014 'Chris Thorsen & Richard Moon: Aikido'", "source_url": "https://www.newspapers.com/image/795545627/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:imtd-lake-trails-camp-1999", "metadata": {"date": "1999", "role": "instructor", "source": "web_research_issue60"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:international-peace-building-project-in-bosnia", "metadata": {"context": "IMTD Bosnia peace-building (per IMTD, Nautilus, Riai, Quantum Aikido bios)", "role": "consultant/instructor", "source_url": "https://imtdsite.wordpress.com/about/associates/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:moon-aikido-maastricht-2010", "metadata": {"date": "2010-03", "role": "instructor", "source": "web_research_issue60"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
@@ -15461,6 +15481,7 @@
 {"dst_id": "work:moonsic:rmoon", "metadata": {"source": "moonsic.com R. Moon Moon Music; kkron 2026-09-22"}, "rel_type": "CREATED", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "work:teriyaki-age", "metadata": {}, "rel_type": "CREATED", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "dojo:aikido-of-marin", "metadata": {"context": "filed fictitious business name 'Aikido of Marin', Feb 1985", "date": "1985", "source": "newspapers_com"}, "rel_type": "FOUNDED", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "organization:performance-edge", "metadata": {"note": "co-founder with Chris Thorsen; 'their company' per Herald-Sun 1997", "source_url": "https://www.newspapers.com/image/793520210/"}, "rel_type": "FOUNDED", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "dojo:aikido-of-marin", "metadata": {"source": "newspapers_com"}, "rel_type": "HEAD_INSTRUCTOR", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "group-cyprus-peace-training-team", "metadata": {"source": "mirrored from alias node; Riai bio / IMTD"}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "group:hombu-dojo-aikido-world-headquarters", "metadata": {"evidence": "https://budovideos.com/products/quantum-aikido-the-power-of-harmony-book-by-richard-moon", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:richard-moon-aikido"}
@@ -15540,7 +15561,9 @@
 {"dst_id": "person:richard-bunch", "metadata": {"context": "Nadeau later shared space with Richard Bunch, who connected him to Ju-Jitsu schools", "discovered_via": "relationship_search", "evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "person:robert-nadeau"}
 {"dst_id": "person:sig-kufferath", "metadata": {"context": "Nadeau shared martial art school space with Professor Sig Kufferath", "discovered_via": "relationship_search", "evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"}, "rel_type": "MENTIONS", "src_id": "person:robert-nadeau"}
 {"dst_id": "person:bob-noha", "metadata": {"context": "Lifelong friendship and training since 1966", "source": "aikidopetaluma.com", "start_year": 1966}, "rel_type": "TEACHER_STUDENT", "src_id": "person:robert-nadeau"}
+{"dst_id": "person:dave-bendigkeit", "metadata": {"note": "began training 1967 at Mountain View Aiki Kai per Pacifica Tribune 2010", "source_url": "https://www.newspapers.com/image/920116428/", "start_date": "1967"}, "rel_type": "TEACHER_STUDENT", "src_id": "person:robert-nadeau"}
 {"dst_id": "person:jack-wada", "metadata": {"source_url": "http://aikidosj.com/old-site/public_html/instructors.html", "student_started": 1969}, "rel_type": "TEACHER_STUDENT", "src_id": "person:robert-nadeau"}
+{"dst_id": "person:steve-gengo", "metadata": {"note": "'An experienced student at the black-belt level' per SF Chronicle 1983", "source_url": "https://www.newspapers.com/image/1223363307/"}, "rel_type": "TEACHER_STUDENT", "src_id": "person:robert-nadeau"}
 {"dst_id": "person:wendy-palmer", "metadata": {"source_url": "https://www.facebook.com/AikiWeb/posts/10159373624383063/", "student_started": 1971}, "rel_type": "TEACHER_STUDENT", "src_id": "person:robert-nadeau"}
 {"dst_id": "group:aikido-of-mountain-view", "metadata": {"evidence": "https://ai-ki-do.org/robert-nadeau", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:robert-nadeau"}
 {"dst_id": "group:aikido-of-san-jose", "metadata": {"evidence": "https://ai-ki-do.org/robert-nadeau", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:robert-nadeau"}
@@ -15837,6 +15860,8 @@
 {"dst_id": "person:djin-aquarian", "metadata": {"type": "subject"}, "rel_type": "MENTIONS", "src_id": "source:pbs-artbound-new-aquarians"}
 {"dst_id": "person:jodi-wille", "metadata": {"type": "subject"}, "rel_type": "MENTIONS", "src_id": "source:pbs-artbound-new-aquarians"}
 {"dst_id": "person:sky-saxon", "metadata": {"type": "subject"}, "rel_type": "MENTIONS", "src_id": "source:pbs-artbound-new-aquarians"}
+{"dst_id": "group:city-aikido", "metadata": {"note": "'A community inspired by the teachings of Robert Nadeau Shihan and his process of personal development through Aikido'; 976 followers; direct-browsed Sep 2026"}, "rel_type": "DESCRIBES", "src_id": "src:fb-city-aikido-page"}
+{"dst_id": "person:robert-nadeau", "metadata": {"note": "Page bills Nadeau Shihan as the inspiring teacher of the City Aikido community"}, "rel_type": "DESCRIBES", "src_id": "src:fb-city-aikido-page"}
 {"dst_id": "work:023add372f9f9222", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on http://www.culteducation.com/faq.html"}, "rel_type": "MENTIONS", "src_id": "work:00b9d3220d817d05"}
 {"dst_id": "work:029e6c1619ddd274", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on http://www.culteducation.com/faq.html"}, "rel_type": "MENTIONS", "src_id": "work:00b9d3220d817d05"}
 {"dst_id": "work:04f96e9bc59e5cdd", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on http://www.culteducation.com/faq.html"}, "rel_type": "MENTIONS", "src_id": "work:00b9d3220d817d05"}
@@ -24411,6 +24436,7 @@
 {"dst_id": "group:new-improved-night-nurses", "metadata": {"evidence": "The New Improved Night Nurses", "source": "moonsic.com"}, "rel_type": "MENTIONS", "src_id": "work:moonsic:nn"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "R. Moon", "source": "moonsic.com"}, "rel_type": "MENTIONS", "src_id": "work:moonsic:rmoon"}
 {"dst_id": "event:aiki-dance-workshop-1997", "metadata": {"source": "newspapers_com"}, "rel_type": "DESCRIBES", "src_id": "work:npc-1100842220"}
+{"dst_id": "event:aiki-dance-workshop-1997-04-26", "metadata": {"source_url": "https://www.newspapers.com/image/1100842220/"}, "rel_type": "DESCRIBES", "src_id": "work:npc-1100842220"}
 {"dst_id": "event:aiki-dance-workshop-1997", "metadata": {"source": "newspapers_com"}, "rel_type": "DESCRIBES", "src_id": "work:npc-1100842319"}
 {"dst_id": "dojo:aikido-of-marin", "metadata": {"source": "newspapers_com"}, "rel_type": "DESCRIBES", "src_id": "work:npc-1100894742"}
 {"dst_id": "dojo:aikido-of-marin", "metadata": {"source": "newspapers_com"}, "rel_type": "DESCRIBES", "src_id": "work:npc-1100894830"}
@@ -24421,7 +24447,9 @@
 {"dst_id": "person:richard-moon-aikido", "metadata": {"context": "'Richard Moon - Aikido of Marin' in Dance Palace Friends donor list"}, "rel_type": "MENTIONS", "src_id": "work:npc-1100898652"}
 {"dst_id": "event:aiki-dance-intro-1998", "metadata": {"source": "newspapers_com"}, "rel_type": "DESCRIBES", "src_id": "work:npc-1100916418"}
 {"dst_id": "event:aiki-dance-intro-1998", "metadata": {"source": "newspapers_com"}, "rel_type": "DESCRIBES", "src_id": "work:npc-1100916601"}
+{"dst_id": "event:aikido-and-dance-1998-04-25", "metadata": {"source_url": "https://www.newspapers.com/image/1100916601/"}, "rel_type": "DESCRIBES", "src_id": "work:npc-1100916601"}
 {"dst_id": "event:aikido-classes-west-marin-1984", "metadata": {"source": "newspapers_com"}, "rel_type": "DESCRIBES", "src_id": "work:npc-1100933658"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {"note": "Wednesday aikido class 'taught by Richard Moon' at Dance Palace, Sep 1984", "source_url": "https://www.newspapers.com/image/1100933658/"}, "rel_type": "DESCRIBES", "src_id": "work:npc-1100933658"}
 {"dst_id": "dojo:aikido-of-marin", "metadata": {"source": "newspapers_com"}, "rel_type": "DESCRIBES", "src_id": "work:npc-1100943036"}
 {"dst_id": "dojo:aikido-of-marin", "metadata": {"source": "newspapers_com"}, "rel_type": "DESCRIBES", "src_id": "work:npc-1100943153"}
 {"dst_id": "dojo:aikido-of-marin", "metadata": {"source": "newspapers_com"}, "rel_type": "DESCRIBES", "src_id": "work:npc-1100943276"}
@@ -24432,13 +24460,18 @@
 {"dst_id": "dojo:aikido-of-marin", "metadata": {"context": "'Noon: Aikido with Aikido of Marin' in Dance Palace class sampler"}, "rel_type": "MENTIONS", "src_id": "work:npc-1103978619"}
 {"dst_id": "event:aikido-class-dance-palace-1980", "metadata": {"source": "newspapers_com"}, "rel_type": "DESCRIBES", "src_id": "work:npc-1125183831"}
 {"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "work:npc-1223017121"}
+{"dst_id": "person:robert-nadeau", "metadata": {"source_url": "https://www.newspapers.com/image/1223363307/"}, "rel_type": "DESCRIBES", "src_id": "work:npc-1223363307"}
 {"dst_id": "person:richard-strozzi-heckler", "metadata": {"context": "Whole Earth Review column reviews his edited anthology 'Aikido and the New Warrior' (North Atlantic 1985)"}, "rel_type": "MENTIONS", "src_id": "work:npc-1225255364"}
 {"dst_id": "person:robert-nadeau", "metadata": {"context": "'Aikido Class \u2014 Robert Nadeau, instructor in the Oriental art of Aikido' \u2014 earliest NPC mention found"}, "rel_type": "MENTIONS", "src_id": "work:npc-38997462"}
 {"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "work:npc-461867771"}
 {"dst_id": "event:aikido-and-dialogue-durham-1997", "metadata": {"source": "newspapers_com"}, "rel_type": "DESCRIBES", "src_id": "work:npc-793520210"}
+{"dst_id": "event:herald-sun-conference-1997-aikido-dialogue", "metadata": {"source_url": "https://www.newspapers.com/image/793520210/"}, "rel_type": "DESCRIBES", "src_id": "work:npc-793520210"}
+{"dst_id": "organization:performance-edge", "metadata": {"source_url": "https://www.newspapers.com/image/793520210/"}, "rel_type": "DESCRIBES", "src_id": "work:npc-793520210"}
 {"dst_id": "event:aikido-and-dialogue-durham-1997", "metadata": {"source": "newspapers_com"}, "rel_type": "DESCRIBES", "src_id": "work:npc-793548759"}
 {"dst_id": "event:aikido-and-dialogue-2001", "metadata": {"source": "newspapers_com"}, "rel_type": "DESCRIBES", "src_id": "work:npc-795545627"}
+{"dst_id": "event:herald-sun-conference-2001-aikido", "metadata": {"source_url": "https://www.newspapers.com/image/795545627/"}, "rel_type": "DESCRIBES", "src_id": "work:npc-795545627"}
 {"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "work:npc-840615951"}
+{"dst_id": "person:dave-bendigkeit", "metadata": {"source_url": "https://www.newspapers.com/image/920116428/"}, "rel_type": "DESCRIBES", "src_id": "work:npc-920116428"}
 {"dst_id": "work:85eba8cdb9b35388", "metadata": {"note": "Same article, KCET merged with PBS SoCal"}, "rel_type": "ALIAS_OF", "src_id": "work:pbs-artbound-new-aquarians"}
 {"dst_id": "claim:pbs-artbound-2012-billy-corgan-aquarian-name-shmuel", "metadata": {"evidence": "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"}, "rel_type": "CONTAINS", "src_id": "work:pbs-artbound-new-aquarians"}
 {"dst_id": "claim:pbs-artbound-2012-cafe-gratitude-source-burger", "metadata": {"evidence": "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"}, "rel_type": "CONTAINS", "src_id": "work:pbs-artbound-new-aquarians"}
