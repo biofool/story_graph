@@ -6240,6 +6240,9 @@
 {"dst_id": "group:aikido-of-mountain-view", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:kkron:ran-dojo-websites"}
 {"dst_id": "group:city-aikido", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:kkron:ran-dojo-websites"}
 {"dst_id": "person:kkron-project-owner", "metadata": {}, "rel_type": "ASSERTED_BY", "src_id": "claim:kkron:ran-dojo-websites"}
+{"dst_id": "dojo:floating-bridge-aikido", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:klein:ikeda-floating-bridge-seminars"}
+{"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:klein:ikeda-floating-bridge-seminars"}
+{"dst_id": "person:bob-klein", "metadata": {}, "rel_type": "ASSERTED_BY", "src_id": "claim:klein:ikeda-floating-bridge-seminars"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"source": "web_research_issue50"}, "rel_type": "ABOUT", "src_id": "claim:moon-born-1946"}
 {"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:nadeau-6th-dan-1992"}
 {"dst_id": "work:npc-915930505", "metadata": {}, "rel_type": "SUPPORTED_BY", "src_id": "claim:nadeau-6th-dan-1992"}
@@ -6567,6 +6570,8 @@
 {"dst_id": "work:yoga-from-maharaj-to-mahan-tantric-the-constr-1955def3", "metadata": {"evidence": "From Maharaj to Mahan Tantric: The Construction of Yogi Bhaja's KY - Philip Deslippe Paper", "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:yoga-abuse-yogi-bhajan-ada8c385"}
 {"dst_id": "work:yoga-premka-white-bird-in-a-golden-cage-book-c9f598b3", "metadata": {"evidence": "Premka: White Bird in a Golden Cage (book)", "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:yoga-abuse-yogi-bhajan-ada8c385"}
 {"dst_id": "work:yoga-youtube-search-kundalini-yoga-abuse-for--b020e2d5", "metadata": {"evidence": "Youtube search - \"kundalini yoga abuse\" for more videos than I have time to link", "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:yoga-abuse-yogi-bhajan-ada8c385"}
+{"dst_id": "place:big-island", "metadata": {"note": "Ka'u district, Big Island of Hawaii"}, "rel_type": "LOCATED_IN", "src_id": "dojo:floating-bridge-aikido"}
+{"dst_id": "dojo:floating-bridge-aikido", "metadata": {"note": "same organization operating under two names per Bob Klein", "source_url": "email://bob-klein-aikido-of-hilo/2026-09-25"}, "rel_type": "ALIAS_OF", "src_id": "dojo:kau-aikikai"}
 {"dst_id": "event:10-000-laughs-comedy-festival-minneapolis", "metadata": {"date1": "1994", "date2": "2019-10-19"}, "rel_type": "PRECEDES", "src_id": "event:3ho-became-un-ngo"}
 {"dst_id": "event:awarded-the-sir-muhammad-zafrulla-khan-distinguished-public-service-award", "metadata": {"date1": "1994", "date2": "2023-07-15"}, "rel_type": "PRECEDES", "src_id": "event:3ho-became-un-ngo"}
 {"dst_id": "event:bodds-colleagues-took-over-indian-restaurant-premises", "metadata": {"date1": "1994", "date2": "1996"}, "rel_type": "PRECEDES", "src_id": "event:3ho-became-un-ngo"}
@@ -9037,6 +9042,10 @@
 {"dst_id": "dojo:allegheny-aikido", "metadata": {"role": "host_dojo"}, "rel_type": "LOCATED_IN", "src_id": "event:ikeda-seminar-allegheny-2024"}
 {"dst_id": "dojo:allegheny-aikido", "metadata": {"role": "host_dojo"}, "rel_type": "LOCATED_IN", "src_id": "event:ikeda-seminar-allegheny-2025"}
 {"dst_id": "dojo:allegheny-aikido", "metadata": {"role": "host_dojo", "status": "planned"}, "rel_type": "LOCATED_IN", "src_id": "event:ikeda-seminar-allegheny-2027-08-planned"}
+{"dst_id": "dojo:floating-bridge-aikido", "metadata": {"role": "host_dojo"}, "rel_type": "LOCATED_IN", "src_id": "event:ikeda-seminar-floating-bridge-2024"}
+{"dst_id": "dojo:floating-bridge-aikido", "metadata": {"role": "host_dojo"}, "rel_type": "LOCATED_IN", "src_id": "event:ikeda-seminar-floating-bridge-2025"}
+{"dst_id": "dojo:floating-bridge-aikido", "metadata": {"role": "host_dojo"}, "rel_type": "LOCATED_IN", "src_id": "event:ikeda-seminar-floating-bridge-2026"}
+{"dst_id": "dojo:floating-bridge-aikido", "metadata": {"role": "host_dojo", "status": "planned"}, "rel_type": "LOCATED_IN", "src_id": "event:ikeda-seminar-floating-bridge-2027-01-planned"}
 {"dst_id": "dojo:three-rivers-aikikai", "metadata": {"note": "at Carnegie Mellon University", "role": "host_dojo", "source_url": "email://garth-jones-allegheny-aikido/2026-09-24"}, "rel_type": "LOCATED_IN", "src_id": "event:ikeda-seminar-three-rivers-2001"}
 {"dst_id": "group:imtd", "metadata": {"context": "IMTD program event"}, "rel_type": "MEMBER_OF", "src_id": "event:imtd-lake-trails-camp-1999"}
 {"dst_id": "event:international-peace-building-project-in-bosnia", "metadata": {"context": "Lake Trails 1999 -> IMTD Bosnia YLA/Peace Trails work Moon participated in"}, "rel_type": "PRECEDES", "src_id": "event:imtd-lake-trails-camp-1999"}
@@ -14539,6 +14548,7 @@
 {"dst_id": "group:yahowha33", "metadata": {"role": "bass at first performance (2009)"}, "rel_type": "MEMBER_OF", "src_id": "person:billy-corgan"}
 {"dst_id": "person:djin-aquarian", "metadata": {"aquarian_name": "Shmuel", "relationship": "named by Sky Saxon and Djin"}, "rel_type": "MENTIONS", "src_id": "person:billy-corgan"}
 {"dst_id": "person:sky-saxon", "metadata": {"relationship": "played bass at Sky Saxon tribute (2009)"}, "rel_type": "MENTIONS", "src_id": "person:billy-corgan"}
+{"dst_id": "dojo:aikido-of-hilo", "metadata": {"evidence": "sender address aikidoofhilo@gmail.com matches contact email already on dojo:aikido-of-hilo", "role": "dojo representative"}, "rel_type": "MEMBER_OF", "src_id": "person:bob-klein"}
 {"dst_id": "group:aikido-the-art-of-transformation", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:bob-noha"}
 {"dst_id": "dojo:aikido-of-buffalo", "metadata": {"source": "web_research", "year": 1975}, "rel_type": "FOUNDED", "src_id": "person:bob-noha"}
 {"dst_id": "dojo:aikido-of-college-park", "metadata": {"source": "web_research", "year": 1970}, "rel_type": "FOUNDED", "src_id": "person:bob-noha"}
@@ -14672,6 +14682,7 @@
 {"dst_id": "place:brisbane", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:frank-doran"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:galaxy-aquarian"}
 {"dst_id": "dojo:allegheny-aikido", "metadata": {"evidence": "signed 'Garth Jones, Allegheny Aikido' \u2014 email 2026-09-24", "role": "dojo representative"}, "rel_type": "MEMBER_OF", "src_id": "person:garth-jones"}
+{"dst_id": "dojo:floating-bridge-aikido", "metadata": {"evidence": "named by Bob Klein as the contact for the dojo (greissoffice@gmail.com)", "role": "dojo contact"}, "rel_type": "MEMBER_OF", "src_id": "person:gary-reiss"}
 {"dst_id": "event:festival-of-happy-martial-arts-1978", "metadata": {"role": "billed presenter \u2014 aikido instructor and author", "source_url": "https://www.newspapers.com/image/1223017121/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:george-leonard"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:george-leonard"}
 {"dst_id": "dojo:aikido-of-tamalpais", "metadata": {"date": "1976", "source_url": "https://www.facebook.com/AikiWeb/posts/10159373624383063/", "with": ["person:wendy-palmer", "person:richard-strozzi-heckler"]}, "rel_type": "FOUNDED", "src_id": "person:george-leonard"}
@@ -15114,6 +15125,10 @@
 {"dst_id": "event:ikeda-seminar-allegheny-2024", "metadata": {"role": "instructor", "source_url": "email://garth-jones-allegheny-aikido/2026-09-24"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
 {"dst_id": "event:ikeda-seminar-allegheny-2025", "metadata": {"role": "instructor", "source_url": "email://garth-jones-allegheny-aikido/2026-09-24"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
 {"dst_id": "event:ikeda-seminar-allegheny-2027-08-planned", "metadata": {"role": "instructor", "source_url": "email://garth-jones-allegheny-aikido/2026-09-24", "status": "planned"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
+{"dst_id": "event:ikeda-seminar-floating-bridge-2024", "metadata": {"role": "instructor", "source_url": "email://bob-klein-aikido-of-hilo/2026-09-25"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
+{"dst_id": "event:ikeda-seminar-floating-bridge-2025", "metadata": {"role": "instructor", "source_url": "email://bob-klein-aikido-of-hilo/2026-09-25"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
+{"dst_id": "event:ikeda-seminar-floating-bridge-2026", "metadata": {"role": "instructor", "source_url": "email://bob-klein-aikido-of-hilo/2026-09-25"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
+{"dst_id": "event:ikeda-seminar-floating-bridge-2027-01-planned", "metadata": {"role": "instructor", "source_url": "email://bob-klein-aikido-of-hilo/2026-09-25", "status": "planned"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
 {"dst_id": "event:ikeda-seminar-three-rivers-2001", "metadata": {"note": "first Pittsburgh visit per Garth Jones", "role": "instructor", "source_url": "email://garth-jones-allegheny-aikido/2026-09-24"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
 {"dst_id": "event:kyoto-friendship-seminar-2025", "metadata": {"date": "2025-10-31", "role": "instructor", "source": "web_research_issue50"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
 {"dst_id": "event:kyoto-friendship-seminar-2026", "metadata": {"date": "2026-10-30", "role": "instructor", "source": "web_research_issue50"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
