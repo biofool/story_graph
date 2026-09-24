@@ -1,0 +1,299 @@
+{
+ "name": "garth_jones_allegheny_reply",
+ "description": "Email reply from Garth Jones (Allegheny Aikido, Pittsburgh) to the Ikeda outreach (issue #64), received 2026-09-24. Reports: Ikeda promoted to 8th dan in 2024 or 2025 (year uncertain in his words); Ikeda's first Pittsburgh visit was Three Rivers Aikikai at Carnegie Mellon University in 2001; Ikeda has visited Allegheny Aikido in 2015 and annually 2021-2026, all weekend seminars; a further visit planned 'next August' (August 2027 by email date) with the 2026 flier attached as a sample. Also supplied outreach contacts: Aikido Chuseikan info@tampaaikido.com; Aikido Shobukan Dojo manager@aikido-shobukan.org. Note: all existing graph event listings still say 7th dan — the 8th-dan report is new and uncorroborated.",
+ "sources": [
+  {
+   "id": "src:email-garth-jones-2026-09-24",
+   "url": "email://garth-jones-allegheny-aikido/2026-09-24",
+   "title": "Garth Jones (Allegheny Aikido) — reply to Ikeda outreach",
+   "author": "Garth Jones",
+   "publish_date": "2026-09-24",
+   "platform": "email correspondence",
+   "source_class": "primary_first_person",
+   "bias_hint": "neutral_ish"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "person:garth-jones",
+   "type": "Person",
+   "label": "Garth Jones",
+   "canonical_name": "Garth Jones",
+   "metadata": {
+    "note": "Allegheny Aikido, Pittsburgh — replied to the Ikeda outreach (issue #64) with dojo visit history and contacts",
+    "role": "dojo representative / correspondent"
+   },
+   "source_urls": ["email://garth-jones-allegheny-aikido/2026-09-24"]
+  },
+  {
+   "id": "dojo:three-rivers-aikikai",
+   "type": "Dojo",
+   "label": "Three Rivers Aikikai",
+   "canonical_name": "Three Rivers Aikikai",
+   "metadata": {
+    "city": "Pittsburgh",
+    "country": "United States",
+    "note": "Pittsburgh dojo associated with Carnegie Mellon University; hosted Ikeda's first Pittsburgh visit in 2001 per Garth Jones"
+   },
+   "source_urls": ["email://garth-jones-allegheny-aikido/2026-09-24"]
+  },
+  {
+   "id": "event:ikeda-seminar-three-rivers-2001",
+   "type": "Event",
+   "label": "Hiroshi Ikeda seminar at Three Rivers Aikikai (2001)",
+   "canonical_name": "Hiroshi Ikeda seminar at Three Rivers Aikikai, 2001",
+   "metadata": {
+    "date": "2001",
+    "city": "Pittsburgh",
+    "event_type": "seminar",
+    "note": "Ikeda's first Pittsburgh visit, at Three Rivers Aikikai / Carnegie Mellon University, per Garth Jones"
+   },
+   "source_urls": ["email://garth-jones-allegheny-aikido/2026-09-24"]
+  },
+  {
+   "id": "event:ikeda-seminar-allegheny-2015",
+   "type": "Event",
+   "label": "Hiroshi Ikeda weekend seminar at Allegheny Aikido (2015)",
+   "canonical_name": "Hiroshi Ikeda seminar at Allegheny Aikido, 2015",
+   "metadata": {"date": "2015", "city": "Pittsburgh", "event_type": "weekend seminar"},
+   "source_urls": ["email://garth-jones-allegheny-aikido/2026-09-24"]
+  },
+  {
+   "id": "event:ikeda-seminar-allegheny-2021",
+   "type": "Event",
+   "label": "Hiroshi Ikeda weekend seminar at Allegheny Aikido (2021)",
+   "canonical_name": "Hiroshi Ikeda seminar at Allegheny Aikido, 2021",
+   "metadata": {"date": "2021", "city": "Pittsburgh", "event_type": "weekend seminar"},
+   "source_urls": ["email://garth-jones-allegheny-aikido/2026-09-24"]
+  },
+  {
+   "id": "event:ikeda-seminar-allegheny-2022",
+   "type": "Event",
+   "label": "Hiroshi Ikeda weekend seminar at Allegheny Aikido (2022)",
+   "canonical_name": "Hiroshi Ikeda seminar at Allegheny Aikido, 2022",
+   "metadata": {"date": "2022", "city": "Pittsburgh", "event_type": "weekend seminar"},
+   "source_urls": ["email://garth-jones-allegheny-aikido/2026-09-24"]
+  },
+  {
+   "id": "event:ikeda-seminar-allegheny-2023",
+   "type": "Event",
+   "label": "Hiroshi Ikeda weekend seminar at Allegheny Aikido (2023)",
+   "canonical_name": "Hiroshi Ikeda seminar at Allegheny Aikido, 2023",
+   "metadata": {"date": "2023", "city": "Pittsburgh", "event_type": "weekend seminar"},
+   "source_urls": ["email://garth-jones-allegheny-aikido/2026-09-24"]
+  },
+  {
+   "id": "event:ikeda-seminar-allegheny-2024",
+   "type": "Event",
+   "label": "Hiroshi Ikeda weekend seminar at Allegheny Aikido (2024)",
+   "canonical_name": "Hiroshi Ikeda seminar at Allegheny Aikido, 2024",
+   "metadata": {"date": "2024", "city": "Pittsburgh", "event_type": "weekend seminar"},
+   "source_urls": ["email://garth-jones-allegheny-aikido/2026-09-24"]
+  },
+  {
+   "id": "event:ikeda-seminar-allegheny-2025",
+   "type": "Event",
+   "label": "Hiroshi Ikeda weekend seminar at Allegheny Aikido (2025)",
+   "canonical_name": "Hiroshi Ikeda seminar at Allegheny Aikido, 2025",
+   "metadata": {"date": "2025", "city": "Pittsburgh", "event_type": "weekend seminar"},
+   "source_urls": ["email://garth-jones-allegheny-aikido/2026-09-24"]
+  },
+  {
+   "id": "event:ikeda-seminar-allegheny-2027-08-planned",
+   "type": "Event",
+   "label": "Hiroshi Ikeda seminar at Allegheny Aikido (planned August 2027)",
+   "canonical_name": "Hiroshi Ikeda seminar at Allegheny Aikido, planned August 2027",
+   "metadata": {
+    "date": "2027-08",
+    "city": "Pittsburgh",
+    "event_type": "weekend seminar",
+    "status": "planned",
+    "note": "'He is planning to be here next August as well' — Garth Jones email dated 2026-09-24, so next August = 2027. He attached the 2026 seminar flier as a sample ('the fliers are all pretty similar'); flier itself not retained in graph."
+   },
+   "source_urls": ["email://garth-jones-allegheny-aikido/2026-09-24"]
+  },
+  {
+   "id": "dojo:aikido-chuseikan-of-tampa-bay",
+   "type": "Dojo",
+   "label": "Aikido Chuseikan of Tampa Bay",
+   "metadata": {
+    "contact_email": "info@tampaaikido.com",
+    "contact_source": "Garth Jones (Allegheny Aikido) email, 2026-09-24"
+   }
+  },
+  {
+   "id": "dojo:aikido-shobukan-dojo",
+   "type": "Dojo",
+   "label": "Aikido Shobukan Dojo",
+   "metadata": {
+    "contact_email": "manager@aikido-shobukan.org",
+    "contact_source": "Garth Jones (Allegheny Aikido) email, 2026-09-24"
+   }
+  },
+  {
+   "id": "claim:jones:ikeda-8th-dan",
+   "type": "Claim",
+   "label": "Hiroshi Ikeda was promoted to 8th dan in 2024 or 2025 (per Garth Jones; year uncertain)",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "Garth Jones (Allegheny Aikido) reports Ikeda Sensei was promoted to 8th dan in 2024 or 2025 — 'I forget which'. All existing graph event listings still describe him as 7th dan; the promotion is uncorroborated. Needs a dated source (Hombu/ASU announcement, seminar flier post-promotion) to fix the year.",
+    "claim_type": "biographical",
+    "confidence": 0.8,
+    "evidence_mode": "respondent_report",
+    "stance": "neutral",
+    "asserted_by": "Garth Jones",
+    "open_question": "Exact promotion year (2024 or 2025) and promoting body (likely Aikikai Hombu)"
+   },
+   "source_urls": ["email://garth-jones-allegheny-aikido/2026-09-24"]
+  },
+  {
+   "id": "claim:jones:ikeda-pittsburgh-visits",
+   "type": "Claim",
+   "label": "Ikeda's Pittsburgh seminar history: Three Rivers/CMU 2001, then Allegheny Aikido 2015 and annually 2021-2026",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "Garth Jones reports Ikeda first visited Pittsburgh at Three Rivers Aikikai / Carnegie Mellon University in 2001; has since come to Allegheny Aikido in 2015 and 2021-2026 (all weekend seminars); and is planning a further visit 'next August' (August 2027 by email date). Corroborates the existing DOJO_AFFILIATION edge person:hiroshi-ikeda -> dojo:allegheny-aikido (frequent_visited_teacher) and the ikeda-cal June 2026 Allegheny event.",
+    "claim_type": "event_history",
+    "confidence": 0.9,
+    "evidence_mode": "respondent_report",
+    "stance": "neutral",
+    "asserted_by": "Garth Jones"
+   },
+   "source_urls": ["email://garth-jones-allegheny-aikido/2026-09-24"]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "person:garth-jones",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "dojo:allegheny-aikido",
+   "metadata": {"role": "dojo representative", "evidence": "signed 'Garth Jones, Allegheny Aikido' — email 2026-09-24"}
+  },
+  {
+   "src_id": "person:hiroshi-ikeda",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:ikeda-seminar-three-rivers-2001",
+   "metadata": {"role": "instructor", "note": "first Pittsburgh visit per Garth Jones", "source_url": "email://garth-jones-allegheny-aikido/2026-09-24"}
+  },
+  {
+   "src_id": "event:ikeda-seminar-three-rivers-2001",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "dojo:three-rivers-aikikai",
+   "metadata": {"role": "host_dojo", "note": "at Carnegie Mellon University", "source_url": "email://garth-jones-allegheny-aikido/2026-09-24"}
+  },
+  {
+   "src_id": "person:hiroshi-ikeda",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:ikeda-seminar-allegheny-2015",
+   "metadata": {"role": "instructor", "source_url": "email://garth-jones-allegheny-aikido/2026-09-24"}
+  },
+  {
+   "src_id": "person:hiroshi-ikeda",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:ikeda-seminar-allegheny-2021",
+   "metadata": {"role": "instructor", "source_url": "email://garth-jones-allegheny-aikido/2026-09-24"}
+  },
+  {
+   "src_id": "person:hiroshi-ikeda",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:ikeda-seminar-allegheny-2022",
+   "metadata": {"role": "instructor", "source_url": "email://garth-jones-allegheny-aikido/2026-09-24"}
+  },
+  {
+   "src_id": "person:hiroshi-ikeda",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:ikeda-seminar-allegheny-2023",
+   "metadata": {"role": "instructor", "source_url": "email://garth-jones-allegheny-aikido/2026-09-24"}
+  },
+  {
+   "src_id": "person:hiroshi-ikeda",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:ikeda-seminar-allegheny-2024",
+   "metadata": {"role": "instructor", "source_url": "email://garth-jones-allegheny-aikido/2026-09-24"}
+  },
+  {
+   "src_id": "person:hiroshi-ikeda",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:ikeda-seminar-allegheny-2025",
+   "metadata": {"role": "instructor", "source_url": "email://garth-jones-allegheny-aikido/2026-09-24"}
+  },
+  {
+   "src_id": "person:hiroshi-ikeda",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:ikeda-seminar-allegheny-2027-08-planned",
+   "metadata": {"role": "instructor", "status": "planned", "source_url": "email://garth-jones-allegheny-aikido/2026-09-24"}
+  },
+  {
+   "src_id": "event:ikeda-seminar-allegheny-2015",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "dojo:allegheny-aikido",
+   "metadata": {"role": "host_dojo"}
+  },
+  {
+   "src_id": "event:ikeda-seminar-allegheny-2021",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "dojo:allegheny-aikido",
+   "metadata": {"role": "host_dojo"}
+  },
+  {
+   "src_id": "event:ikeda-seminar-allegheny-2022",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "dojo:allegheny-aikido",
+   "metadata": {"role": "host_dojo"}
+  },
+  {
+   "src_id": "event:ikeda-seminar-allegheny-2023",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "dojo:allegheny-aikido",
+   "metadata": {"role": "host_dojo"}
+  },
+  {
+   "src_id": "event:ikeda-seminar-allegheny-2024",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "dojo:allegheny-aikido",
+   "metadata": {"role": "host_dojo"}
+  },
+  {
+   "src_id": "event:ikeda-seminar-allegheny-2025",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "dojo:allegheny-aikido",
+   "metadata": {"role": "host_dojo"}
+  },
+  {
+   "src_id": "event:ikeda-seminar-allegheny-2027-08-planned",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "dojo:allegheny-aikido",
+   "metadata": {"role": "host_dojo", "status": "planned"}
+  },
+  {
+   "src_id": "claim:jones:ikeda-8th-dan",
+   "rel_type": "ASSERTED_BY",
+   "dst_id": "person:garth-jones",
+   "metadata": {}
+  },
+  {
+   "src_id": "claim:jones:ikeda-8th-dan",
+   "rel_type": "ABOUT",
+   "dst_id": "person:hiroshi-ikeda",
+   "metadata": {}
+  },
+  {
+   "src_id": "claim:jones:ikeda-pittsburgh-visits",
+   "rel_type": "ASSERTED_BY",
+   "dst_id": "person:garth-jones",
+   "metadata": {}
+  },
+  {
+   "src_id": "claim:jones:ikeda-pittsburgh-visits",
+   "rel_type": "ABOUT",
+   "dst_id": "person:hiroshi-ikeda",
+   "metadata": {}
+  },
+  {
+   "src_id": "claim:jones:ikeda-pittsburgh-visits",
+   "rel_type": "ABOUT",
+   "dst_id": "dojo:allegheny-aikido",
+   "metadata": {}
+  }
+ ]
+}
