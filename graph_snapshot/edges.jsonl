@@ -6187,6 +6187,9 @@
 {"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:aj-site-sweep-2026-09"}
 {"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:asu-independence-2015"}
 {"dst_id": "person:mitsugi-saotome", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:asu-independence-2015"}
+{"dst_id": "fed:aikido-schools-of-ueshiba", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:asu-letter-2015-01-19"}
+{"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:asu-letter-2015-01-19"}
+{"dst_id": "person:mitsugi-saotome", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:asu-letter-2015-01-19"}
 {"dst_id": "fed:aikido-schools-of-ueshiba", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:asu-vice-president"}
 {"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:asu-vice-president"}
 {"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:birthplace-hachijojima"}

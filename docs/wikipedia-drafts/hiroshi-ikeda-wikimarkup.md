@@ -79,8 +79,20 @@ proposed only as attributed wording, or left to editors to decide:
 ```wikitext
 Ikeda served as vice president of Saotome's [[Aikido Schools of
 Ueshiba]] before being recognized as an independent instructor in
-2015; he joined [[Aikido Shimbokukai]] as vice president in 2016.
+2015;<ref name="asu-letter">{{cite web |title=Letter to ASU Members
+ |last=Saotome |first=Patty |publisher=Aikido Schools of Ueshiba
+ |date=2015-01-19 |url=http://asu.org/letter-to-asu-members2/
+ |archive-url=https://web.archive.org/web/20150122062113/http://asu.org/letter-to-asu-members2/
+ |archive-date=2015-01-22 |access-date=2026-09-26}}</ref> he joined
+[[Aikido Shimbokukai]] as vice president in 2016.
 ```
+
+The ASU sentence is now backed by the **organization's own letter**
+(Wayback, 2015-01-19) — primary record, citable for the fact of the
+announcement; it explicitly names the VP role and states he would "no
+longer have a direct affiliation with ASU." The 2016 Shimbokukai half
+still rests on MAYTT 2023 (attributed). The letter also resolves the
+timing question — "early 2015" is now **January 19, 2015**, exact.
 
 Also available from the same source (all self-reported): three years of
 high-school judo before aikido; the Sarasota dojo where he assisted

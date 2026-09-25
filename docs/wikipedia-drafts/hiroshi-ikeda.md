@@ -27,6 +27,11 @@
   Turkey 2018). NOTE: this interview's intro dates aikido start 1969
   and Reimei Juku 1971 — **conflicts with 1968/1970** elsewhere;
   recorded as `claim:ikeda:aikido-start-year-discrepancy`, unresolved.
+- **ASU independence now org-sourced** — the official ASU "Letter to
+  ASU Members" (Patty Saotome, **19 Jan 2015**, Wayback) confirms the
+  VP role and announces his recognition as independent instructor;
+  "no longer a direct affiliation with ASU." Upgrades the MAYTT
+  self-report to the organization's own contemporaneous record.
 - **Aikido Bridge corroborated beyond affiliated sites** — MAYTT 2023
   captions + AJ "Aikido for Tomorrow" (Feb 2020, Boulder Aikikai,
   conceived as a youth offshoot of a Bridge seminar). Still

@@ -118,7 +118,7 @@ New citable-sort additions since the AJ sweep (2026-09-25):
 | Claim | Source(s) | class | Verdict |
 |---|---|---|---|
 | Boulder Aikikai established August 1980 | AJ Aloia interview 2020 + AJ Encyclopedia + MAYTT 2023 | RELIABLE 70 ×2, MARGINAL 50 | CITABLE (month precision) |
-| ASU vice president; independent instructor early 2015; Shimbokukai VP 2016 | MAYTT 2023 (Ikeda's own account) | MARGINAL 50, self-reported | CITABLE attributed only — editor judgment |
+| ASU vice president; independent instructor early 2015 → now **Jan 19, 2015** exact | ASU "Letter to ASU Members" (Wayback, Patty Saotome) + MAYTT 2023 | primary organizational record + self-report | **CITABLE** — ASU's own announcement of its own action; Shimbokukai 2016 half still attributed-only |
 | 3 yrs high-school judo; Sarasota "12th Street Dojo"; McIntyre invitation 1976 | MAYTT 2023 | MARGINAL 50, self-reported | CITABLE attributed only — editor judgment |
 | Aikido Bridge: 10th Anniv. San Diego ~2015, Turkey Friendship Seminar 2018 | MAYTT 2023 photo captions + AJ "Aikido for Tomorrow" 2020 | MARGINAL/RELIABLE venues, caption-level | supports series' existence/reach; 2005 founding still affiliated-only |
 | San Rafael summer-camp circuit (w/ Nadeau, Doran camps) | AJ #104 interview + Kayla Feder AJ interview 2022 | RELIABLE 70 | CITABLE — co-appearance circuit, not affiliation |
