@@ -14,6 +14,32 @@ Reliability report: `docs/wikipedia-drafts/generated/peter-ralston-reliability-r
 
 ---
 
+## Open action items
+
+From the §5 sourcing checklist — the items that still need work
+(`[ ]` open / `[~]` partial):
+
+- **[F] Identify the 1978 tournament's organizer / governing body** —
+  likely the Republic of China / World Kuoshu federation; needs a
+  primary check.
+- **[B] Full read of the Blitz piece** — determine whether it is an
+  edited interview vs. promotional, and whether it relies on Ralston's
+  own account for the 1978 result (it hedges: "It's said…").
+- **[A] Black Belt page-image pass** — confirm byline spelling (scan
+  OCRs "Cressey"; refs give "Cressy") and map every paragraph covering
+  Ralston directly.
+- **[D] Locate the Nov 1979 *East West Journal* interview** —
+  library/microfilm lookup (WorldCat); also the unverified "Karate
+  Illustrated 1981" citation.
+- **[D] WorldCat / library-catalogue pass** — books or edited volumes
+  discussing Ralston substantially.
+- **[D] Academic / independent-discussion check** — the five current
+  sources are journalistic; no academic coverage found yet.
+- **[F] Rules/division detail** — light-heavyweight confirmed; the
+  tournament's ruleset is unrecorded.
+
+---
+
 ## 1. MODE USED
 
 **talk_page / AfC** — two independent reasons:

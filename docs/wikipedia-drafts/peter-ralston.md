@@ -4,6 +4,25 @@
 > 3 maintained files per subject — this index, `-wikimarkup.md`, `-talk.md`.
 > Generated artifacts live under `generated/` and are regenerable, not maintained.
 
+## Open action items
+
+- Identify the 1978 tournament's **organizer / governing body**
+  (checklist F — the one real factual gap).
+- Black Belt page-image pass: **byline spelling** (OCR "Cressey" vs
+  "Cressy") + paragraph-level coverage map (A).
+- **Full read of the Blitz piece** — edited vs. promotional; does it
+  rely on Ralston's own account for the 1978 result? (B)
+- **Nov 1979 *East West Journal* interview** — library/microfilm lookup;
+  "Karate Illustrated 1981" citation also unverified (D).
+- **WorldCat / books pass** for substantial coverage + academic-source
+  check (D).
+- Birth year: contemporaneous "28" → ~1949–50; kept `Year of birth
+  missing` pending an exact-year source.
+- Tournament **ruleset** unrecorded (F — light-heavyweight confirmed).
+- Submission wording asks reviewers to **assess** GNG; the draft does
+  not claim it (G — talk §4 "Request for assessment").
+- Nothing is posted to Wikipedia — drafts await operator review.
+
 ## Status
 
 - **Live article**: none. `Peter Ralston` deleted at AfD twice — 2010 and
@@ -39,24 +58,5 @@
   — source scoring; regenerate via
   `scripts/32_generate_wikipedia_article.py "peter ralston" --report <path>`
 
-## Open items before any submission
-
-Sourcing-checklist gaps (full status in `peter-ralston-talk.md` §5):
-
-- **Tournament organizer/governing body** unidentified — likely the ROC /
-  World Kuoshu federation; needs a primary check (checklist F).
-- Verify Black Belt byline against the page image (scan OCRs "Cressey";
-  secondary refs give "Cressy") and map every paragraph covering Ralston
-  directly (A).
-- Full read of the Blitz piece — edited interview vs. promotional, and
-  whether it relies on Ralston's own account for the 1978 result (B).
-- Locate Nov 1979 *East West Journal* interview via library/microfilm
-  (D). "Karate Illustrated 1981" citation also unverified (D).
-- WorldCat/library-catalogue pass for books or edited volumes discussing
-  Ralston substantially (D).
-- Birth year: contemporaneous Tribune + Parade both say "28" in/around
-  1978 → ~1949–50, but kept as `Year of birth missing`.
-- Submission wording asks reviewers to **assess** GNG — the draft does
-  not claim it is satisfied (checklist G; talk §4 "Request for
-  assessment").
-- Nothing is posted to Wikipedia — drafts await operator review.
+Full per-item status (verified / partial / open with evidence) is in
+`peter-ralston-talk.md` §5 "Sourcing checklist — status".

@@ -10,6 +10,21 @@ used only for uncontroversial attributed detail and never for notability.
 
 > Do NOT post to Wikipedia without operator approval (PRD Appendix C).
 
+## Open action items
+
+Blocking or qualifying items before submission (full detail in
+`peter-ralston-talk.md` §5):
+
+- Confirm Black Belt byline spelling on the page image (OCR "Cressey"
+  vs refs' "Cressy") — citation currently uses "Cressy".
+- Identify the 1978 tournament's organizer / governing body.
+- Full read of the Blitz piece (edited vs. promotional; reliance on
+  Ralston's own account).
+- Nov 1979 *East West Journal* interview — unverified, excluded until a
+  library copy surfaces.
+- Birth year kept `Year of birth missing` — contemporaneous "28" points
+  to ~1949–50 but no exact-year source.
+
 ```wikitext
 {{Short description|American martial artist and author}}
 {{Use mdy dates|date=September 2026}}
