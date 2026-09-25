@@ -1,9 +1,24 @@
-# Richard Moon (aikidoka) — Wikipedia Article Draft
+# Richard Moon — article draft (wikimarkup)
 
 > Do NOT submit directly to Wikipedia without review. This is a draft for a
 > **new** article (none exists; `Hiroshi Ikeda (aikidoka)` and
 > `Robert Nadeau (aikidoka)` already exist).
 > Target title: `Richard Moon (aikidoka)` or `Richard Moon (martial artist)`.
+
+## Open action items
+
+- **GNG borderline** — coverage is mostly local/regional; the honest
+  notability assessment below is the argument, reviewers decide.
+- `{{better source needed}}` flags in the draft: **Source/Aware Inn
+  era** and **Teriyaki Age / La Cocina** — currently kkron/Bramblet
+  verbal confirmations only.
+- 6th dan **promotion date** unsourced (Riai page still shows 5th dan
+  as of 1997).
+- **NZ first-visit ~1987** — LinkedIn only; needs a secondary source.
+- **Maastricht seminar exact date** — on or before Mar 2010.
+- **FOSBO** acronym on the Bicom map unresolved.
+- **Music facet** thin for WP:NMG; birth **date** unknown (year 1946
+  resolved via copyright records).
 
 ## Notability assessment (honest)
 

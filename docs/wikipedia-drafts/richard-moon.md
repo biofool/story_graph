@@ -1,53 +1,60 @@
-'''Richard Moon Sensei'''  is a martial arts teacher. We used to talk about it in the nearby coffee shop, the Kojimaya. We would talk about what was going to happen when O-Sensei died. <ref name="ref3"/> Later there was a schism between Doshu Kisshomaru Ueshiba and Tohei, and Tohei Sensei eventually separated from Hombu Dojo. <ref name="ref3"/> The author's creative, flow-oriented approach illustrates how to negotiate challenges by absorbing and using the energy of any given situation to create innovative solutions. <ref name="ref6"/>
+# Wikipedia — Richard Moon
 
-== Career ==
+> Status index. Convention per [#73](https://github.com/biofool/story_graph/issues/73):
+> 3 maintained files per subject — this index, `-wikimarkup.md`, `-talk.md`.
+> Generated artifacts live under `generated/` and are regenerable, not maintained.
 
-We used to talk about it in the nearby coffee shop, the Kojimaya. We would talk about what was going to happen when O-Sensei died.<ref name="ref3"/>
+## Open action items
 
-Later there was a schism between Doshu Kisshomaru Ueshiba and Tohei, and Tohei Sensei eventually separated from Hombu Dojo.<ref name="ref3"/>
+- **GNG is borderline** — coverage is mostly local/regional (Point
+  Reyes Light, Novato Advance, Herald-Sun). The draft honestly flags
+  this; reviewers must assess, the draft does not claim GNG is met.
+- **Source/Aware Inn era** — marked `{{better source needed}}`: kkron +
+  Bramblet verbal confirmations only; needs a published Source Family
+  source or interview citation.
+- **Teriyaki Age / La Cocina** — `{{better source needed}}`; Bramblet
+  verbal only, check La Cocina festival records.
+- **Rank promotion date** — 6th dan confirmed (nadeaushihan.com, Simon
+  & Schuster, awase.fi) but promotion date unsourced; older Riai page
+  says 5th dan (1997).
+- **NZ first-visit year (~1987)** — sourced only to Moon's own
+  LinkedIn; needs a secondary source.
+- **Maastricht seminar date** — videos uploaded Mar 2010; seminar on or
+  before that, exact date unsourced.
+- **FOSBO (Switzerland)** — acronym on the Bicom groups map unresolved.
+- **Music facet** — moonsic.com is primary; copyright records support
+  releases + birth year but coverage is thin for WP:NMG.
+- **Exact birth date** — year resolved (1946, US copyright records +
+  LinkedIn); exact date unknown.
+- Nothing is posted to Wikipedia — drafts await operator review.
 
-The author's creative, flow-oriented approach illustrates how to negotiate challenges by absorbing and using the energy of any given situation to create innovative solutions.<ref name="ref6"/>
+## Status
 
-Tohei Sensei was a dominant force in the sense that he would get on the case of the younger teachers and correct them.<ref name="ref3"/>
+- **Live article**: none. Target title `Richard Moon (aikidoka)` or
+  `Richard Moon (martial artist)` — disambiguation needed (multiple
+  same-named people; see name-collision note in wikimarkup).
+- **Mode**: `talk_page` / AfC — new article + COI (kkron's
+  personal-knowledge claims are graph evidence, not publishable
+  sources).
+- **GNG**: **BORDERLINE** (honest internal assessment) — 45+ years of
+  independent newspaper mentions but mostly local; Inner Traditions
+  books (Quantum Aikido 2025; co-author Aikido: The Art of
+  Transformation 2024) + lineage + international guest teaching are the
+  counter-argument. Reviewers to assess.
+- **Name collision**: verified 73/73 collision labels via
+  `scripts/55_jev_moon_analysis.py`; subject's own facets (chef,
+  musician, coach, peace worker) confirmed unified via
+  `claim:kkron:moon-unified-identity`.
 
-It was later that the questions came up of Tohei Sensei’s changing things.<ref name="ref3"/>
+## Files
 
-And, of course, O-Sensei was still there and I’d say he was the dominant force.<ref name="ref3"/>
-
-Again, if I hadn’t met O-Sensei I would have followed this man because of his energy capability plus his fighting skills. But again, O-Sensei was so much more than all of these guys.<ref name="ref3"/>
-
-Laurin Herr: As O-Sensei said, and Nadeau Sensei emphasizes, Aikido’s purpose is to make better people—more sincere, fulfilling their destiny as doctors, horse trainers, or golfers<ref name="ref2"/>
-
-It’s not just about techniques—it’s about becoming a better person, as O-Sensei said<ref name="ref2"/>
-
-” When I arrived, they said I was “Gestalt on the move,” though I didn’t know what Gestalt meant<ref name="ref2"/>
-
-I would ask O-Sensei about something I was doing and she would interpret and say no, that wasn’t right. Then O-Sensei would contradict her and say I was right.<ref name="ref3"/>
-
-It also made me realize that in understanding O-Sensei you are on your own.<ref name="ref3"/>
-
-Richard Moon applies the insights of quantum mechanics to explore key concepts of Aikido-such as musubi (to tie together), connection, unification, and reconcili-ation—to re-link the individual with t<ref name="ref6"/>
-
-As such, the lessons described can benefit both Aikidoists and non-Aikidoists alike<ref name="ref2"/>
-
-O-Sensei said, 'I walked the same Path as Taniguchi Sensei.'<ref name="ref3"/>
-
-I was very impressed with O-Sensei…<ref name="ref3"/>
-
-== Seminars in Russia ==
-
-According to usadojo.com, Richard Moon Sensei conducted aikido seminars in the Soviet Union during the late 1980s and early 1990s.<ref name="ref4"/>
-
-According to usadojo.com, Richard Moon Sensei conducted aikido seminars in the Soviet Union during the late 1980s and early 1990s.<ref name="ref5"/>
-
-== References ==
-
-<references>
-<ref name="ref1">[https://www.simonandschuster.com/authors/Richard-Moon/221805059 Richard Moon | Official Publisher Page | Simon & Schuster, simonandschuster.com]</ref>
-<ref name="ref2">[https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/ A Journey Through Aikido: Robert Nadeau on Spirituality, O-Sensei, and the Golden Age of Aikido in California – Aikido Journal, 2025-05-13T13:49:39-08:00, aikidojournal.com]</ref>
-<ref name="ref3">[https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/ Interview with Robert Nadeau – Aikido Journal, 2019-09-02T15:47:33-08:00, aikidojournal.com]</ref>
-<ref name="ref4">[https://www.usadojo.com/sig-kufferath Sig Kufferath Danzan Ryu Jujitsu | USAdojo.com — USAdojo, 1999-05-07T02:35:41+00:00, usadojo.com]</ref>
-<ref name="ref5">[https://www.usadojo.com/peter-ralston/ Peter Ralston Cheng Hsin | USAdojo.com — USAdojo, 2000-11-02T23:30:44+00:00, usadojo.com]</ref>
-<ref name="ref6">[https://budovideos.com/products/quantum-aikido-the-power-of-harmony-book-by-richard-moon Quantum Aikido: The Power of Harmony Book by Richard Moon
- – Budovideos Inc, budovideos.com]</ref>
-</references>
+- [`richard-moon-wikimarkup.md`](richard-moon-wikimarkup.md) — article
+  draft wikitext + notability assessment + name-collision note + source
+  inventory.
+- [`richard-moon-talk.md`](richard-moon-talk.md) — AfC/talk-page
+  proposal with COI disclosure and request-for-assessment framing.
+- `generated/`
+  - `richard-moon-article.md`, `richard-moon-report.md`,
+    `richard-moon-reliability-report.md` — script-32 outputs
+    (regenerate via `scripts/32_generate_wikipedia_article.py "richard
+    moon" ...`).

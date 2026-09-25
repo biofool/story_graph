@@ -7,10 +7,25 @@ subgraph for Robert Nadeau / Soviet-era aikido. Target article:
 [Talk:Robert Nadeau (aikidoka)](https://en.wikipedia.org/wiki/Talk:Robert_Nadeau_(aikidoka)).
 
 Background draft with full source notes:
-`docs/wikipedia-nadeau-russia-section.md`; archive-search record:
-`docs/wikipedia-drafts/robert-nadeau-russia-entry.md`.
+`docs/wikipedia-drafts/robert-nadeau-wikimarkup.md`; archive-search record:
+`docs/wikipedia-drafts/generated/robert-nadeau-russia-entry.md`.
 
 > Do NOT post or edit Wikipedia without operator approval (PRD Appendix C).
+
+---
+
+## Open action items
+
+- Whether the Russian organizational/archival sources suffice under
+  WP:PRIMARY for this addition — **left to editors** (§3 open question).
+- Aikido Today Magazine e-book — check for USSR-trip coverage (most
+  likely English-language source).
+- *Aikido: The Art of Transformation* (2024) — check for Russia
+  coverage.
+- Aikido Shimbun (Japanese aikido press) — unsearched.
+- Travel companions of the 1990 visit — undocumented in all sources.
+- Separate pending item: live-article defect repairs ("Nadeua" typo,
+  broken `sfn` cites) — see index open items.
 
 ---
 

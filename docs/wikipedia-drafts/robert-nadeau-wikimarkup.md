@@ -1,4 +1,4 @@
-# Draft Wikipedia section: Robert Nadeau — Seminars in the Soviet Union
+# Robert Nadeau — proposed section: Seminars in the Soviet Union
 
 > Draft section for proposed addition to the existing Wikipedia article
 > [Robert Nadeau (aikidoka)](https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)).
@@ -9,6 +9,24 @@
 >
 > Do NOT edit Wikipedia directly without operator approval. This is a local
 > draft per the project's Wikipedia work policy (PRD Appendix C).
+
+## Open action items
+
+- **No independent secondary journalism** — all four Russian sources are
+  organizational/archival; the sourcing-rationale section argues
+  WP:PRIMARY use, but editors must judge acceptability.
+- Check **Aikido Today Magazine** (1986–2005 e-book) for USSR-trip
+  coverage — most likely English-language source.
+- Check the 2024 bio book *Aikido: The Art of Transformation* for
+  Russia-trip coverage.
+- Search **Aikido Shimbun** (Japanese aikido press) for international
+  seminar coverage.
+- Ask Nadeau (via kkron) for visit dates/cities — personal-knowledge
+  evidence stays in the graph, not in the article.
+- **Travel companions** undocumented — negative finding recorded below.
+- **Live-article defects** found by the compare report ("Nadeua" typo,
+  2 `sfn error: no target`, image-split sentence) — repair proposal is
+  a separate pending item (see index).
 
 ## Proposed insertion point
 
