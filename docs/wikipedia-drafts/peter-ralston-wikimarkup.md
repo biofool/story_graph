@@ -21,12 +21,14 @@ used only for uncontroversial attributed detail and never for notability.
 }}
 
 '''Peter Ralston''' is an American martial artist and author, the founder of
-the Cheng Hsin school of internal martial arts. In 1978 he became the first
-non-Asian competitor to win the World Championship full-contact martial arts
-tournament in Taiwan, a result reported at the time by ''[[Black Belt
-(magazine)|Black Belt]]'' magazine and later recounted by ''[[Parade
-(magazine)|Parade]]'' and the Australasian martial arts magazine
-''Blitz''.<ref name="cressy">{{cite magazine |last=Cressy |first=Scott
+the Cheng Hsin school of internal martial arts. In 1978 he won the
+light-heavyweight title at the Second World Kuoshu Martial Arts Tournament
+in Taiwan;<ref name="tribune1978"/> the ''[[Oakland Tribune]]'' reported
+weeks later that he was the first American to win a championship at the
+event, while ''[[Black Belt (magazine)|Black Belt]]'' magazine and later
+''[[Parade (magazine)|Parade]]'' and the Australasian martial arts magazine
+''Blitz'' describe him as the first non-Asian winner.<ref
+name="cressy">{{cite magazine |last=Cressy |first=Scott
  |title=Cheng Hsin: Essence of All Martial Arts
  |magazine=[[Black Belt (magazine)|Black Belt]]
  |volume=16 |issue=12 |date=December 1978 |pages=46–49
@@ -37,7 +39,7 @@ name="significa">{{cite news |last1=Wallace |first1=Irving
  |date=March 7, 1982 |page=18
  |url=https://archive.org/details/assassxxxxxx00linc}}</ref><ref
 name="blitz">{{cite magazine |last=Grzic |first=Mark
- |title=The Man Behind Bloodsport |magazine=Blitz
+ |title=The Man Behind Bloodsport? |magazine=Blitz
  |volume=25 |issue=8 |date=August 2011 |pages=70–74
  |url=https://doczz.net/doc/3878299/effortless-grab-defences}}</ref>
 
@@ -62,7 +64,7 @@ University of California, Berkeley.<ref name="usadojo">{{cite web
 In 1975 Ralston founded Cheng Hsin, an internal martial art he calls the
 "Art of Effortless Power," and two years later opened the Cheng Hsin School
 of Internal Martial Arts and Center for Ontological Research in Oakland,
-California.<ref name="usadojo"/>
+California.<ref name="usadojo"/><ref name="chronicle1979"/>
 
 === 1978 world championship ===
 
@@ -137,10 +139,11 @@ name="taijivizier">{{cite interview |last=Ralston |first=Peter
 
 - **Title**: `Peter Ralston (martial artist)` per the AfD nominator's own
   suggestion — a same-named photographer may be separately notable.
-- **Birth year deliberately omitted** — the only age data point is
-  ambiguous ("a 28-year-old" in a 1982 piece about a 1978 event reads as
-  either 1949–50 or 1953–54). `Year of birth missing` category used rather
-  than guess.
+- **Birth year deliberately omitted** — Parade's "a 28-year-old" describes
+  1978 in a 1982 piece (ambiguous: 1949–50 vs 1953–54), but the
+  contemporaneous Oakland Tribune also gives "28" in April 1978, which
+  supports ~1949–50. Still kept as `Year of birth missing` — "circa 1950"
+  could be argued but a cited exact year remains unverifiable.
 - **"Seminars in Russia" dropped** — rested solely on the USAdojo profile;
   no independent corroboration exists and the same claim pattern was
   flagged in the Nadeau/Moon reviews.

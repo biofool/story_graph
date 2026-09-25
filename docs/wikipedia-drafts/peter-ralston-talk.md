@@ -32,23 +32,25 @@ Reliability report: `docs/wikipedia-drafts/generated/peter-ralston-reliability-r
 
 | AfD objection (2nd nom) | Response in this draft |
 |---|---|
-| "everything covering him is trivial or self-pub" (nom) | Three independent edited publications now cited: **Black Belt** (Dec 1978, pp. 46–49, contemporaneous feature), **Blitz** (Aug 2011, pp. 70–74, retrospective feature), **Parade** "Significa" (Mar 7, 1982, p. 18, incl. original interview). |
-| "no supporting evidence for his world championship claim" (Papaursa) | The 1978 win is cited to all three independent sources above — no longer resting on chenghsin.com or publisher bios. |
-| "hasn't gained notability since last deletion" (Nswix) | Notability argument now rests on print-era magazine coverage, not web bios; see reliability report (2 RELIABLE + citable specialist-press interviews). |
+| "everything covering him is trivial or self-pub" (nom) | Five independent sources now cited, two contemporaneous: **Oakland Tribune** (Apr 12, 1978, p. 25 — weeks after the event), **Black Belt** (Dec 1978, pp. 46–49, contemporaneous feature), **SF Chronicle** (Sep 19, 1979, p. 4 — bills him "World martial arts champion"), **Parade** "Significa" (Mar 7, 1982, p. 18, incl. original interview), **Blitz** (Aug 2011, pp. 70–74, retrospective feature). |
+| "no supporting evidence for his world championship claim" (Papaursa) | The 1978 win is now corroborated contemporaneously — the Tribune names the actual event ("Second World Kuoshu Martial Arts Tournament," light-heavyweight title) within weeks, and Black Belt's Dec 1978 feature covers it the same year — plus Parade and Blitz retrospectives. No longer resting on chenghsin.com or publisher bios. |
+| "hasn't gained notability since last deletion" (Nswix) | Notability argument rests on print-era newspaper + magazine coverage 1978–2011, not web bios; see reliability report (5 RELIABLE independent sources). |
 | disambiguation — photographer of same name (nom) | Draft targets `Peter Ralston (martial artist)` as the nom itself suggested. |
 
 ## 3. Citable / not-citable sort
 
 | Claim | Source(s) | class | Verdict |
 |---|---|---|---|
-| 1978 World Championship win, Taiwan; first non-Asian winner | Black Belt Dec 1978; Parade Mar 1982; Blitz Aug 2011 | independent secondary (edited magazines) | **CITABLE** — core notability claim |
+| 1978 Second World Kuoshu Tournament win, Taiwan; light-heavyweight title | Oakland Tribune Apr 1978 (contemporaneous); Black Belt Dec 1978; SF Chronicle 1979 billing; Parade Mar 1982; Blitz Aug 2011 | independent secondary | **CITABLE** — core notability claim |
+| "first American / first non-Asian" framing | Tribune says "first American ever to win a championship"; non-Asian framing begins with Black Belt | independent secondary | **CITABLE** — both framings attributed; not merged |
 | Early life: SF native; Far East childhood; judo at 9 in Singapore; t'ai chi insight at 17 | Parade "Significa" interview | secondary with original interview | **CITABLE** — attributed quotes |
-| Founded Cheng Hsin 1975; Oakland school/center 1977 | USAdojo profile | mid-tier profile, likely self-supplied | CITABLE with attribution for uncontroversial facts only |
-| Sumo champion (HS, Japan); judo/fencing at UC Berkeley | USAdojo profile | same | CITABLE attributed; flag for better source if challenged |
+| Founded Cheng Hsin 1975; Oakland school/center 1977 | USAdojo profile + SF Chronicle 1979 (academy documented operating in Oakland) | profile + independent corroboration | CITABLE with attribution for uncontroversial facts only |
+| Sumo champion (HS, Japan); judo/fencing at UC Berkeley | USAdojo profile | mid-tier profile, likely self-supplied | CITABLE attributed; flag for better source if challenged |
 | Teaching approach ("effortlessly effective," direct inquiry) | tqj.de interview; Taijivizier/STN interview | specialist union-journal interviews | CITABLE as attributed self-description |
 | Bibliography | the books themselves / Open Library | bibliographic fact | listed without inline refs per convention |
 | kkron personal-communication material | `kkron://…` | personal communication | **NOT CITABLE** — disclosed, excluded |
 | "Seminars in Russia," "deaths of competitors," promo bio language | usadojo / derivative bios | unverified or promotional | **NOT USED** |
+| Nov 1979 *East West Journal* interview quote | cited by later bios, never independently verified | unverifiable | **NOT USED** — needs library/microfilm lookup |
 
 ## 4. Proposal for the draft talk page
 
@@ -63,26 +65,40 @@ submitted for review by uninvolved editors.
 
 The prior deletions (2010; September 2026, 2nd nomination) found the
 coverage trivial or self-published and the world-championship claim
-unsupported. This draft responds to those findings with three independent
-edited publications — *Black Belt* (December 1978), *Parade*'s Significa
-column (March 7, 1982), and *Blitz* (August 2011) — each carrying
-significant coverage of Ralston and the 1978 tournament. Self-published
-and affiliated material is confined to uncontroversial attributed detail
-and the bibliography.
+unsupported. This draft responds with five independent sources — two of
+them contemporaneous: the *Oakland Tribune* reported the win weeks after
+the April 1978 event (naming the "Second World Kuoshu Martial Arts
+Tournament" and the light-heavyweight title), *Black Belt* covered it in
+its December 1978 issue, and the *San Francisco Chronicle* billed him
+"World martial arts champion" in a 1979 feature. *Parade*'s Significa
+column (March 7, 1982) and *Blitz* (August 2011) provide retrospective
+coverage. Self-published and affiliated material is confined to
+uncontroversial attributed detail and the bibliography.
+
+### Source verification notes (for reviewer confidence)
+
+- **Black Belt**: verified inside the Google Books scan of the Dec 1978
+  issue — article begins p. 46; scan OCRs the byline "Cressey" (secondary
+  refs give "Cressy"; flagged).
+- **Parade**: the clipbook scan is corroborated by ~60 newspapers that
+  carried the identical Significa page on Sunday, March 7, 1982 — e.g.
+  the Peoria Journal Star's OCR matches verbatim; the Mississippi Press
+  teased the item on March 4 as "the story in Sunday's PARADE."
+- **Blitz**: publisher's own reproduction archived at web.archive.org
+  (blitzmag.net, captures 2014–2016); issue identity confirmed by the
+  MA-Mags index (Vol 25 No 8 = Aug 2011); doczz.net hosts the issue scan.
 
 ### Open questions to reviewers
 
-1. Does the Black Belt 1978 feature (Cressy, pp. 46–49) plus the Parade
-   and Blitz pieces satisfy GNG "significant coverage," or is a further
-   independent profile needed?
-2. The Blitz citation links a doczz.net mirror of the print magazine —
-   acceptable as access URL, or should the scan be relocated (e.g., the
-   physical issue via a library)?
-3. The Parade source surfaced inside an unrelated Lincoln Financial
-   Foundation clipbook at the Internet Archive
-   (`archive.org/details/assassxxxxxx00linc`, PDF p.19) — is the IA copy
-   acceptable verification, or is a direct Parade microfilm/newspaper
-   citation preferred?
+1. Does the combination — contemporaneous newspaper report + same-year
+   trade-magazine feature + later Parade/Blitz retrospectives — satisfy
+   GNG "significant coverage" for a martial artist?
+2. For the Blitz citation: doczz.net issue scan vs. Wayback capture of
+   the publisher's own blitzmag.net reproduction — which is the
+   preferred access URL (or both)?
+3. The newspapers.com image links for the Tribune and Chronicle items
+   are subscription-gated; is `via=Newspapers.com` + page/date sufficient
+   for verification, or should a clipping link be provided?
 
 ### Proposed wording
 
