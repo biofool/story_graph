@@ -6285,9 +6285,9 @@
 {"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:aanc-principal-instructor"}
 {"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:aikikai-dispatch-to-mountain-view"}
 {"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:aj-encyclopedia-bio"}
+{"dst_id": "book:aikido-art-of-transformation", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:art-of-transformation-authorship"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:art-of-transformation-authorship"}
 {"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:art-of-transformation-authorship"}
-{"dst_id": "work:c790dae87877e829", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:art-of-transformation-authorship"}
 {"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:human-potential-movement-circle"}
 {"dst_id": "person:george-leonard", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:leonard-first-teacher"}
 {"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:leonard-first-teacher"}
@@ -14579,6 +14579,7 @@
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:a-kaushal"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:a-kenyon"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:ahom"}
+{"dst_id": "person:robert-tann", "metadata": {"context": "malformed spaCy junction artifact 'Aikikai Hombu Dojo Bob Tann' from work:a2141cac8e8c09c1 \u2014 same human; dedup per #75 cleanup"}, "rel_type": "ALIAS_OF", "src_id": "person:aikikai-hombu-dojo-bob-tann"}
 {"dst_id": "group:stress-less-achieve-more", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:aimee-bernstein"}
 {"dst_id": "group:open-mind-adventures", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:aimee-bernstein"}
 {"dst_id": "group:crazygames-f\u00f3rum", "metadata": {"evidence": "https://rfcrazygames.forumeiros.com/images", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:aioros"}
@@ -14609,6 +14610,7 @@
 {"dst_id": "person:djin-aquarian", "metadata": {"aquarian_name": "Shmuel", "relationship": "named by Sky Saxon and Djin"}, "rel_type": "MENTIONS", "src_id": "person:billy-corgan"}
 {"dst_id": "person:sky-saxon", "metadata": {"relationship": "played bass at Sky Saxon tribute (2009)"}, "rel_type": "MENTIONS", "src_id": "person:billy-corgan"}
 {"dst_id": "dojo:aikido-of-hilo", "metadata": {"evidence": "sender address aikidoofhilo@gmail.com matches contact email already on dojo:aikido-of-hilo", "role": "dojo representative"}, "rel_type": "MEMBER_OF", "src_id": "person:bob-klein"}
+{"dst_id": "book:aikido-art-of-transformation", "metadata": {"source": "src:maytt-noha-herr-2025-part2"}, "rel_type": "CO_AUTHORED", "src_id": "person:bob-noha"}
 {"dst_id": "group:aikido-the-art-of-transformation", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:bob-noha"}
 {"dst_id": "dojo:aikido-of-buffalo", "metadata": {"source": "web_research", "year": 1975}, "rel_type": "FOUNDED", "src_id": "person:bob-noha"}
 {"dst_id": "dojo:aikido-of-college-park", "metadata": {"source": "web_research", "year": 1970}, "rel_type": "FOUNDED", "src_id": "person:bob-noha"}
@@ -14620,6 +14622,7 @@
 {"dst_id": "dojo:aikido-of-petaluma", "metadata": {"founded_year": 1983, "source": "web_research"}, "rel_type": "HEAD_INSTRUCTOR", "src_id": "person:bob-noha"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:bob-noha"}
 {"dst_id": "group:aikido-of-petaluma", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:bob-noha"}
+{"dst_id": "person:robert-tann", "metadata": {"context": "same human \u2014 Bob/Robert Tann, Nadeau's pre-Hombu aikido teacher; dedup per #75 cleanup"}, "rel_type": "ALIAS_OF", "src_id": "person:bob-tann"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://chenghsin.com/origins-interview-with-peter-ralston/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:brendan-lea"}
 {"dst_id": "group:consciousness-and-skill-worldwide", "metadata": {"evidence": "https://chenghsin.com/origins-interview-with-peter-ralston/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:brendan-lea"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://books.google.co.nz/books/about/Cheng_Hsin.html?id=KZ8TJAKaiUQC&redir_esc=y", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:bruce-thomas"}
@@ -14698,6 +14701,7 @@
 {"dst_id": "place:topanga-canyon", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:elaine-baker"}
 {"dst_id": "group:aware-inn", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:elaine-baker"}
 {"dst_id": "place:aware-inn", "metadata": {"evidence": "https://uw.manifoldapp.org/read/issue-2-stoking-the-counterculture-father-yod-and-the-bliss-of-guruhood/section/ad4cebb4-5b08-42ed-b89a-ecd2198a5b99", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:elaine-baker"}
+{"dst_id": "book:aikido-art-of-transformation", "metadata": {"source": "src:maytt-noha-herr-2025-part2"}, "rel_type": "CO_AUTHORED", "src_id": "person:elaine-yoder"}
 {"dst_id": "group:aikido-the-art-of-transformation", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:elaine-yoder"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:elaine-yoder"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:electricity-aquarian"}
@@ -15372,6 +15376,7 @@
 {"dst_id": "group:dark-horse-comics", "metadata": {"evidence": "https://comicvine.gamespot.com/conan/4005-2438/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:kurt-busiek"}
 {"dst_id": "place:l-s-s-home", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117213731.html", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:l-s"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.penguin.co.nz/authors/peter-ralston", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:laura-ralston"}
+{"dst_id": "book:aikido-art-of-transformation", "metadata": {"source": "src:maytt-noha-herr-2025-part2"}, "rel_type": "CO_AUTHORED", "src_id": "person:laurin-herr"}
 {"dst_id": "group:aikido-the-art-of-transformation", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:laurin-herr"}
 {"dst_id": "group:nadeau", "metadata": {"evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:laurin-herr"}
 {"dst_id": "group:sensei", "metadata": {"evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:laurin-herr"}
@@ -15579,7 +15584,7 @@
 {"dst_id": "event:o-sensei-revisited-down-under-workshop", "metadata": {"dates": "2019-03-16..18", "role": "instructor", "source_url": "https://aikidotravel.com/seminar/481/the-osensei-revisited-down-under-workshop"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:riviera-seminar-2025", "metadata": {"date": "2025-06-07", "role": "instructor", "source": "web_research_issue60"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:riviera-seminar-montreux-2025", "metadata": {"role": "panelist/instructor \u2014 'Takemusu Aiki and Jiyuwaza' discussion", "source_url": "https://www.facebook.com/AikidoKashin/videos/1886811665397048/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
-{"dst_id": "work:c790dae87877e829", "metadata": {"notes": "Moon is one of six co-authors of Aikido: The Art of Transformation (Nadeau biography). NOTE: duplicate work node work:e45a467deb9c9e11 exists \u2014 dedupe ticketed.", "source": "src:maytt-noha-herr-2025-part2"}, "rel_type": "CO_AUTHORED", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "book:aikido-art-of-transformation", "metadata": {"source": "src:maytt-noha-herr-2025-part2"}, "rel_type": "CO_AUTHORED", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "group:aikido-the-art-of-transformation", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "group:quantum-aikido-the-power-of-harmony", "metadata": {"evidence": "https://budovideos.com/products/quantum-aikido-the-power-of-harmony-book-by-richard-moon", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "work:b0b53e646a2cdd0e", "metadata": {"source": "extraordinarylistening.com; kkron 2026-09-22"}, "rel_type": "CREATED", "src_id": "person:richard-moon-aikido"}
@@ -15755,6 +15760,7 @@
 {"dst_id": "group:louisiana-supreme-court", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117656408.html", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:sullivan-walter"}
 {"dst_id": "group:yahowha13", "metadata": {"role": "musician"}, "rel_type": "MEMBER_OF", "src_id": "person:sunflower-aquarian"}
 {"dst_id": "group:the-hidden-power-of-aikido", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:susan-perry"}
+{"dst_id": "book:aikido-art-of-transformation", "metadata": {"source": "src:maytt-noha-herr-2025-part2"}, "rel_type": "CO_AUTHORED", "src_id": "person:susan-spence"}
 {"dst_id": "group:aikido-the-art-of-transformation", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:susan-spence"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:susan-spence"}
 {"dst_id": "group:yoga-sivananda", "metadata": {"evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)", "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit", "verified_independently": false}, "rel_type": "MEMBER_OF", "src_id": "person:swami-vishnudevananda"}
@@ -15762,6 +15768,7 @@
 {"dst_id": "place:california", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:tau"}
 {"dst_id": "place:hawaii", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:tau"}
 {"dst_id": "place:los-feliz", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:tau"}
+{"dst_id": "book:aikido-art-of-transformation", "metadata": {"notes": "initiated the project during the pandemic", "source": "src:maytt-noha-herr-2025-part2"}, "rel_type": "CO_AUTHORED", "src_id": "person:teja-bell"}
 {"dst_id": "group:aikido-the-art-of-transformation", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:teja-bell"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:teja-bell"}
 {"dst_id": "work:116c108149768f38", "metadata": {"context": "Terry Dobson wrote the subway story; Ram Dass narrated it on YouTube", "corroborating_sources": ["kkron://personal-communication/kenneth-dobson-email"], "discovered_via": "kkron_personal_communication", "evidence": "kkron://personal-communication/kenneth-dobson-email", "note": "Same story as the laurentnajman.org reprint and the Reader's Digest pickup"}, "rel_type": "CREATED", "src_id": "person:terry-dobson"}
@@ -23233,6 +23240,7 @@
 {"dst_id": "image:3764a0fc2d1d02455a2f94f21ddf3801c6e70bd14fa768d8c437a6fd6295bc56", "metadata": {"evidence": "https://github.com/0xk1h0/ChatGPT_DAN"}, "rel_type": "DEPICTS", "src_id": "work:c6ce06ad3d388e0e"}
 {"dst_id": "image:7240451d7dcfd781a82e1decc2fbb5bb6a0fba63f120b60fd7f54322305cc73d", "metadata": {"evidence": "https://github.com/0xk1h0/ChatGPT_DAN"}, "rel_type": "DEPICTS", "src_id": "work:c6ce06ad3d388e0e"}
 {"dst_id": "image:b100b69f607a726820acb7910deb275df28478af6ef9c0c6d04f77856160a476", "metadata": {"evidence": "https://github.com/0xk1h0/ChatGPT_DAN"}, "rel_type": "DEPICTS", "src_id": "work:c6ce06ad3d388e0e"}
+{"dst_id": "book:aikido-art-of-transformation", "metadata": {"context": "Budovideos product page for the book"}, "rel_type": "ABOUT", "src_id": "work:c790dae87877e829"}
 {"dst_id": "image:5f31653b92628538f33b0baa86233a9ec59e23a90b929c8018f10ad72b6e803d", "metadata": {"evidence": "https://basicfreetools.com/tally-counter/"}, "rel_type": "DEPICTS", "src_id": "work:c84000b7c29c41d4"}
 {"dst_id": "image:8cf67a3a6ef7ae9f0d8e7d3edda4740603bfdc4b78e29ba64e848f7adfe8fae9", "metadata": {"evidence": "https://www.easyhindityping.com/hindi-alphabet"}, "rel_type": "DEPICTS", "src_id": "work:c958a1976b73b95a"}
 {"dst_id": "image:9f8018b07fbc76bfa0bc3aeae922762ef87201c36be30543e609be11d54cd7a4", "metadata": {"evidence": "https://www.easyhindityping.com/hindi-alphabet"}, "rel_type": "DEPICTS", "src_id": "work:c958a1976b73b95a"}
@@ -23767,6 +23775,7 @@
 {"dst_id": "place:vietnam", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "work:e3b0c44298fc1c14"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "work:e3b0c44298fc1c14"}
 {"dst_id": "person:kevin-harris", "metadata": {"evidence": "https://divinity.interactivelion.com/new-religious-movements/the-source-family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "work:e3b0c44298fc1c14"}
+{"dst_id": "book:aikido-art-of-transformation", "metadata": {"context": "kitothecity.substack.com article about the book (2025-07-10)"}, "rel_type": "ABOUT", "src_id": "work:e45a467deb9c9e11"}
 {"dst_id": "image:69b8ff6b3fb51e5064f380c813a3d63bf5c198000df072954f40e638f1ded20a", "metadata": {"evidence": "https://kitothecity.substack.com/p/aikido-the-art-of-transformation"}, "rel_type": "DEPICTS", "src_id": "work:e45a467deb9c9e11"}
 {"dst_id": "claim:49317a28e3aaf5e4", "metadata": {"evidence": "https://www.schools360.in/ap-tg-gpf-final-payment-and-loan-software/"}, "rel_type": "CONTAINS", "src_id": "work:e486020e91252c98"}
 {"dst_id": "claim:ba014dfe8c39573a", "metadata": {"evidence": "https://www.schools360.in/ap-tg-gpf-final-payment-and-loan-software/"}, "rel_type": "CONTAINS", "src_id": "work:e486020e91252c98"}

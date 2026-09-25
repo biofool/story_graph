@@ -1,0 +1,47 @@
+{
+    "name": "dedup_authority_sweep_cleanup",
+    "description": "Cleanup items surfaced by the #75 authority sweep. (1) person:bob-tann and malformed person:aikikai-hombu-dojo-bob-tann (spaCy junction artifact 'Aikikai Hombu Dojo Bob Tann' from work:a2141cac8e8c09c1) are the same human as person:robert-tann — alias, don't delete, per the issue-#50 dedup convention. (2) The Nadeau biography had no real book node: CO_AUTHORED/claim MENTIONS edges pointed at the Budovideos product page (work:c790dae87877e829). Create book:aikido-art-of-transformation per the book:<slug> Work-node convention, retarget edges to it, attach both web-resource nodes as ABOUT the book (they are distinct resources — product page vs. Substack article — not duplicates), and add the remaining five documented co-authors.",
+    "nodes": [
+        {
+            "id": "book:aikido-art-of-transformation",
+            "type": "Work",
+            "label": "Aikido: The Art of Transformation",
+            "metadata": {
+                "full_title": "Aikido: The Art of Transformation: The Life and Teachings of Robert Nadeau",
+                "work_subtype": "book",
+                "publish_year": 2024,
+                "authors": "Bob Noha, Laurin Herr, Teja Bell, Richard Moon, Susan Spence, Elaine Yoder",
+                "subject": "Robert Nadeau — biography and teachings",
+                "isbn": null,
+                "notes": "Bibliographic entity for the Nadeau biography. Six student co-authors; project initiated by Teja Bell during the COVID pandemic; built from 82 collected stories + Nadeau's personal scrapbook (src:maytt-noha-herr-2025-part2). Publisher/ISBN unverified — pending."
+            }
+        }
+    ],
+    "edges": [
+        {"src_id": "person:bob-tann", "rel_type": "ALIAS_OF", "dst_id": "person:robert-tann",
+         "metadata": {"context": "same human — Bob/Robert Tann, Nadeau's pre-Hombu aikido teacher; dedup per #75 cleanup"}},
+        {"src_id": "person:aikikai-hombu-dojo-bob-tann", "rel_type": "ALIAS_OF", "dst_id": "person:robert-tann",
+         "metadata": {"context": "malformed spaCy junction artifact 'Aikikai Hombu Dojo Bob Tann' from work:a2141cac8e8c09c1 — same human; dedup per #75 cleanup"}},
+        {"src_id": "work:c790dae87877e829", "rel_type": "ABOUT", "dst_id": "book:aikido-art-of-transformation",
+         "metadata": {"context": "Budovideos product page for the book"}},
+        {"src_id": "work:e45a467deb9c9e11", "rel_type": "ABOUT", "dst_id": "book:aikido-art-of-transformation",
+         "metadata": {"context": "kitothecity.substack.com article about the book (2025-07-10)"}},
+        {"src_id": "claim:nadeau:art-of-transformation-authorship", "rel_type": "MENTIONS", "dst_id": "book:aikido-art-of-transformation", "metadata": {}},
+        {"src_id": "person:richard-moon-aikido", "rel_type": "CO_AUTHORED", "dst_id": "book:aikido-art-of-transformation",
+         "metadata": {"source": "src:maytt-noha-herr-2025-part2"}},
+        {"src_id": "person:bob-noha", "rel_type": "CO_AUTHORED", "dst_id": "book:aikido-art-of-transformation",
+         "metadata": {"source": "src:maytt-noha-herr-2025-part2"}},
+        {"src_id": "person:laurin-herr", "rel_type": "CO_AUTHORED", "dst_id": "book:aikido-art-of-transformation",
+         "metadata": {"source": "src:maytt-noha-herr-2025-part2"}},
+        {"src_id": "person:teja-bell", "rel_type": "CO_AUTHORED", "dst_id": "book:aikido-art-of-transformation",
+         "metadata": {"source": "src:maytt-noha-herr-2025-part2", "notes": "initiated the project during the pandemic"}},
+        {"src_id": "person:susan-spence", "rel_type": "CO_AUTHORED", "dst_id": "book:aikido-art-of-transformation",
+         "metadata": {"source": "src:maytt-noha-herr-2025-part2"}},
+        {"src_id": "person:elaine-yoder", "rel_type": "CO_AUTHORED", "dst_id": "book:aikido-art-of-transformation",
+         "metadata": {"source": "src:maytt-noha-herr-2025-part2"}}
+    ],
+    "delete_edges": [
+        {"src_id": "person:richard-moon-aikido", "rel_type": "CO_AUTHORED", "dst_id": "work:c790dae87877e829"},
+        {"src_id": "claim:nadeau:art-of-transformation-authorship", "rel_type": "MENTIONS", "dst_id": "work:c790dae87877e829"}
+    ]
+}
