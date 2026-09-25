@@ -20,9 +20,13 @@ Usage:
     # Specify a different repo
     python scripts/33_post_wikipedia_drafts.py --repo biofool/story_graph
 
-The script pairs files by stem:
-    peter-ralston.md         → article
-    peter-ralston-report.md  → reliability report
+The script pairs files by stem (convention per issue #73):
+    peter-ralston-wikimarkup.md                        → article
+    generated/peter-ralston-reliability-report.md      → reliability report
+
+Maintained files per subject: `<slug>.md` (status index),
+`<slug>-wikimarkup.md` (article), `<slug>-talk.md` (talk proposal).
+Generated artifacts live in `generated/` and are not maintained docs.
 """
 
 import argparse
@@ -47,13 +51,11 @@ def find_draft_pairs(drafts_dir: Path) -> list[tuple[str, Path, Path]]:
     if not drafts_dir.exists():
         return pairs
 
-    article_files = sorted(drafts_dir.glob("*-*.md"))
-    # Exclude report files — they end with -report.md
-    article_files = [f for f in article_files if not f.name.endswith("-report.md")]
+    article_files = sorted(drafts_dir.glob("*-wikimarkup.md"))
 
     for article_path in article_files:
-        slug = article_path.stem  # e.g. "peter-ralston"
-        report_path = drafts_dir / f"{slug}-report.md"
+        slug = article_path.stem.removesuffix("-wikimarkup")  # e.g. "peter-ralston"
+        report_path = drafts_dir / "generated" / f"{slug}-reliability-report.md"
         if report_path.exists():
             pairs.append((slug, article_path, report_path))
         else:
@@ -118,7 +120,7 @@ ready for Wikipedia — it needs human review for:
 
 ### How this was generated
 
-1. `scripts/32_generate_wikipedia_article.py "{title.lower()}" --article {article_path.relative_to(PROJECT_ROOT)} --report {report_path.relative_to(PROJECT_ROOT) if report_path else "(none)"}`
+1. `scripts/32_generate_wikipedia_article.py "{title.lower()}" --article docs/wikipedia-drafts/generated/{person_slug}-article.md --report docs/wikipedia-drafts/generated/{person_slug}-reliability-report.md`
 2. Sources scored using the Source Reliability Score (SRS) per `.devin/skills/wikipedia-article-generator/SKILL.md`
 3. kkron personal-communication claims are excluded from article text per AGENTS.md (listed in reliability report)
 4. The draft reads from `graph_snapshot/` JSONL (committed, reviewable state)

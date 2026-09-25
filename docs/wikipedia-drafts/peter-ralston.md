@@ -1,51 +1,41 @@
-'''Peter Ralston'''  is a martial arts teacher and founder of Cheng Hsin, Cheng Hsin Center, Cheng Hsin School. The first non-Asian ever to win the World Championship full-contact martial arts tournament <ref name="ref3"/> Ralston is author of Zen Body-Being, Cheng Hsin: Principles of Effortless Power, and other books. <ref name="ref3"/> creator of the Art of Effortless Power, an internal martial art based on effortlessly effective interaction. <ref name="ref4"/>
+# Wikipedia — Peter Ralston
 
-== Career ==
+> Status index. Convention per [#73](https://github.com/biofool/story_graph/issues/73):
+> 3 maintained files per subject — this index, `-wikimarkup.md`, `-talk.md`.
+> Generated artifacts live under `generated/` and are regenerable, not maintained.
 
-Peter Ralston founded Cheng Hsin, Cheng Hsin Center, Cheng Hsin School, The Cheng Hsin School of Internal Martial Arts and Center for Ontological Research.<ref name="ref5"/>
+## Status
 
-The first non-Asian ever to win the World Championship full-contact martial arts tournament<ref name="ref3"/>
+- **Live article**: none. `Peter Ralston` deleted at AfD twice — 2010 and
+  **2026-09-15** ([2nd nomination](https://en.wikipedia.org/wiki/Wikipedia:Articles_for_deletion/Peter_Ralston_(2nd_nomination))).
+- **Target title**: `Peter Ralston (martial artist)` (AfD nominator's
+  suggestion; a same-named photographer exists).
+- **Mode**: **AfC + talk page** — AfD history makes mainspace recreation
+  G4-eligible; COI (requester authored the deleted article) requires
+  uninvolved-editor review. `direct_edit` unavailable.
+- **GNG**: PASS — 3 independent edited publications cover the 1978
+  championship: *Black Belt* Dec 1978, *Parade* Mar 1982, *Blitz* Aug 2011.
+- **Last reviewed**: 2026-09-25 (post-AfD draft prepared).
+- **Tracking**: [#53](https://github.com/biofool/story_graph/issues/53) —
+  Peter Ralston Wikipedia open items.
 
-Ralston is author of Zen Body-Being, Cheng Hsin: Principles of Effortless Power, and other books.<ref name="ref3"/>
+## Files
 
-creator of the Art of Effortless Power, an internal martial art based on effortlessly effective interaction.<ref name="ref4"/>
+- [`peter-ralston-wikimarkup.md`](peter-ralston-wikimarkup.md) — article
+  draft (wikitext) + editorial notes on what was dropped and why
+- [`peter-ralston-talk.md`](peter-ralston-talk.md) — talk-page/AfC proposal:
+  mode rationale, AfD objection→response table, citable/not-citable sort,
+  COI disclosure
+- [`generated/peter-ralston-reliability-report.md`](generated/peter-ralston-reliability-report.md)
+  — source scoring; regenerate via
+  `scripts/32_generate_wikipedia_article.py "peter ralston" --report <path>`
 
-Ralston’s main focus in his teaching has been to uncover and communicate the principles behind any subject matter; frequently it is about being effortlessly effective.<ref name="ref5"/>
+## Open items before any submission
 
-in 1978 he became the first non-Asian ever to win the World Championship full-contact martial arts tournament held in the Republic of China.<ref name="ref5"/>
-
-His main focus in his facilitation work is to uncover the truth of things, to break through assumptions and beliefs, and to assist others in having a direct, authentic, and experiential increase in Co<ref name="ref5"/>
-
-In 1978 he became the first non-Asian ever to win the World Championship full-contact martial arts tournament held in the Republic of China.<ref name="ref4"/>
-
-The founder of the Cheng Hsin Center and the author of several books, including The Book of Not Knowing<ref name="ref4"/>
-
-Peter Ralston is a founder of the consciousness movement in the San Francisco Bay area<ref name="ref4"/>
-
-Peter Ralston reveals how to free yourself from mentally created suffering by exploring the dynamics of the mind.<ref name="ref4"/>
-
-His exceptional commitment (often practicing for more than eight hours a day) and depth of study, his intense meditation and open inquiry have led Ralston to profound levels of skill and understanding<ref name="ref5"/>
-
-two years later opened The Cheng Hsin School of Internal Martial Arts and Center for Ontological Research in Oakland, California.<ref name="ref3"/>
-
-He is a highly trained and insightful facilitator, freely and openly teaching what he has learned from years of insight and direct experience.<ref name="ref5"/>
-
-By the age of 28 he had black belts or expertise in almost every martial art there is and was developing his own Art of Effortless Power.<ref name="ref4"/>
-
-Peter Ralston explores the foundational skills and operating principles that empower mastery, including accurate perceptive-awareness and effective interaction.<ref name="ref4"/>
-
-In 1975, Peter Ralston founded Cheng Hsin, a dogma-free approach to using direct experience in body/mind training<ref name="ref3"/>
-
-== Seminars in Russia ==
-
-According to usadojo.com, Peter Ralston conducted aikido seminars in the Soviet Union during the late 1980s and early 1990s.<ref name="ref5"/>
-
-== References ==
-
-<references>
-<ref name="ref1">[https://www.simonandschuster.com/authors/Richard-Moon/221805059 Richard Moon | Official Publisher Page | Simon & Schuster, simonandschuster.com]</ref>
-<ref name="ref2">[https://www.simonandschuster.com/authors/Peter-Ralston/199333325 Peter Ralston | Official Publisher Page | Simon & Schuster, simonandschuster.com]</ref>
-<ref name="ref3">[https://www.penguin.co.nz/authors/peter-ralston Peter Ralston - Penguin Books New Zealand, penguin.co.nz]</ref>
-<ref name="ref4">[https://www.innertraditions.com/author/peter-ralston Peter Ralston, innertraditions.com]</ref>
-<ref name="ref5">[https://www.usadojo.com/peter-ralston/ Peter Ralston Cheng Hsin | USAdojo.com — USAdojo, 2000-11-02T23:30:44+00:00, usadojo.com]</ref>
-</references>
+- Resolve ambiguous birth year (Parade says "28" in a 1982 piece about a
+  1978 event — 1949–50 vs 1953–54). Currently `Year of birth missing`.
+- Verify deaths-in-tournament claim against Black Belt/Blitz directly.
+- Reviewer question: is doczz.net an acceptable access link for the Blitz
+  article; is the IA Lincoln-clipbook scan acceptable provenance for the
+  Parade page.
+- Nothing is posted to Wikipedia — drafts await operator review.

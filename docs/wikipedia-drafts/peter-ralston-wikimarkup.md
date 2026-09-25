@@ -2,7 +2,7 @@
 
 Editor-reviewed draft for `Draft:Peter Ralston (martial artist)`, prepared
 after the article's second AfD deletion (closed 2026-09-15). Companion talk
-proposal: `docs/wikipedia-drafts/peter-ralston-talk-proposal.md`.
+proposal: `docs/wikipedia-drafts/peter-ralston-talk.md`.
 
 Every sentence is matched to a citation that supports it. Self-published and
 affiliated material (chenghsin.com, publisher pages, the USAdojo profile) is

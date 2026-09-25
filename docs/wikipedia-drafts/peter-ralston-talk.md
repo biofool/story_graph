@@ -7,8 +7,8 @@ subgraph for Peter Ralston / Cheng Hsin. Target: a recreated article at
 (`Draft talk:Peter Ralston (martial artist)`), via **Articles for
 Creation**, since the subject's previous article was deleted at AfD.
 
-Companion draft: `docs/wikipedia-drafts/peter-ralston-afc-draft.md`.
-Reliability report: `docs/wikipedia-drafts/peter-ralston-reliability-report.md`.
+Companion draft: `docs/wikipedia-drafts/peter-ralston-wikimarkup.md`.
+Reliability report: `docs/wikipedia-drafts/generated/peter-ralston-reliability-report.md`.
 
 > Do NOT post or edit Wikipedia without operator approval (PRD Appendix C).
 
@@ -86,7 +86,7 @@ and the bibliography.
 
 ### Proposed wording
 
-See `docs/wikipedia-drafts/peter-ralston-afc-draft.md` (full wikitext
+See `docs/wikipedia-drafts/peter-ralston-wikimarkup.md` (full wikitext
 in a fenced block, ready for `Draft:Peter Ralston (martial artist)`).
 
 ## 5. Policy checklist
