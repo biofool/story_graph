@@ -8,17 +8,58 @@
 
 ## Open action items
 
+- Birthplace refinement — Hachijō-jima now citable via Aikido Journal
+  #104 (1995); proposed below.
+- Kona seminars — Aiki Kai o Kona 31st Anniversary (Jan 2019) is a
+  published host-dojo record; inclusion judgment left to editors.
+- Bermuda 2011 — independent news coverage (Bernews); same question.
 - Aikido Bridge sentence — **affiliated sources only**; attribution
   used, editors judge.
 - Live-article repairs: empty `[[ ]]` link; "based in the Boulder, CO".
 - "Scheduled seminars" staleness — dated-update convention needed.
-- Hawaii (Floating Bridge / Ka'u Aikikai) seminars — **not citable
-  yet**; pending published announcements/flyers.
+- Ka'u / Floating Bridge — **no web/FB presence found**; remains
+  personal-communication only.
+- Black Belt — no Ikeda coverage confirmed (Google Books rate-limited;
+  retry pending). Bu Jin Newsletter is his own company — affiliated.
 - "Visited frequently" dojo edges — leads, not affiliations; excluded.
 - Ingest the live article's 3 Newspapers.com seminar citations into the
   graph (Missoulian 1982, Bradenton 1991, Pensacola 2000).
 
 ## Proposed additions
+
+### 0. Birthplace refinement — Hachijō-jima
+
+The live article says only "born ... Tokyo, Japan". His precise
+hometown is **Hachijō-jima (八丈島)**, a volcanic island ~290 km south
+of central Tokyo administered as part of Tokyo Metropolis — confirmed
+independently by the Aikido Journal #104 (1995) interview profile, not
+just his own site:
+
+```wikitext
+— Ikeda was born in Tokyo and began studying aikido in 1968 ...
++ Ikeda was born on [[Hachijō-jima]], Tokyo, and began studying aikido
+  in 1968 ...<ref name="aj-1995">{{cite magazine |title=Interview with
+  Hiroshi Ikeda |magazine=[[Aikido Journal]] |issue=104 |date=1995
+  |url=https://aikidojournal.com/2002/08/26/interview-with-hiroshi-ikeda/
+  |access-date=2026-09-25}}</ref>
+```
+
+### 0b. Historical-seminar additions with published sources
+
+Two additions now have published (non-Ikeda) sourcing — inclusion is an
+editor judgment (the existing list uses newspaper/dojo sources):
+
+- **Bermuda, June 2011** — Bermuda Aikikai hosted Ikeda and Rick
+  Stickles for a weekend seminar; covered by Bernews (independent news
+  site, photos). Citable.
+- **Kailua-Kona, Hawaii, January 2019** — Aiki Kai o Kona's 31st
+  Anniversary Seminar with Ikeda, published by the host dojo
+  (aikikaiokona.wixsite.com; dojo also covered twice by West Hawaii
+  Today). Organizational but independent of Ikeda.
+
+(The Santa Barbara Independent's 2013 AKSB seminar piece is a dojo
+press release hosted on a news site — held in Needs support, not
+proposed.)
 
 ### 1. Aikido Bridge (new sentence, end of career paragraph)
 
@@ -63,7 +104,7 @@ single sentence noting that Boulder Aikikai publishes the schedule
 
 | Material | Graph status | Why excluded |
 |---|---|---|
-| Hawaii seminars — Floating Bridge / Ka'u Aikikai, Big Island (2024–2026; Jan 2027 planned) | Bob Klein (Aikido of Hilo) personal email, 2026-09-25 | Personal communication — not a published source. Becomes citable if the dojo publishes announcements or flyers (2024/2025 flyers exist per Klein; Gary Reiss outreach pending). |
+| Hawaii seminars — Floating Bridge / Ka'u Aikikai, Ka'u district, Big Island (2024–2026; Jan 2027 planned) | Bob Klein (Aikido of Hilo) personal email, 2026-09-25 | Personal communication — and no web/FB presence found for the dojo (searched 2026-09-25). Becomes citable via published announcements or the 2024/2025 flyers (Gary Reiss outreach pending). NOTE: the separate Kona dojo (Aiki Kai o Kona) IS published — see 0b. |
 | "Schools he visited frequently" — Harmonie Club 87 (Limoges), Instituto Takemussu (São Paulo), Two Cranes Aikido, and similar | Outreach lead edges (`DOJO_AFFILIATION` pending confirmation) | A visit ≠ an affiliation; must not be asserted (the Varjan incident — Kohala Aikikai's denial is preserved in the graph). Only includable if a published record of a specific seminar exists. |
 | Seminar calendar data (docs.google.com published sheet) | Organizational data dump | Mirrors the Boulder Aikikai schedule already cited; not an independent source. |
 | Kristina Varjan denial, Garth Jones reply, other email replies | `email://`/`kkron://` sources | Personal communication — graph evidence only. |
@@ -76,11 +117,14 @@ single sentence noting that Boulder Aikikai publishes the schedule
   Pensacola News Journal 2000-09-30 p.34) are not in the graph —
   ingest candidates, useful corroboration for the seminar-history
   pattern.
-- **Reliability report**: 0 RELIABLE sources in the Ikeda subgraph;
-  every source is his own site, the Google-sheets calendar, or
-  personal communication. The article's current sourcing (Pranin's
-  Encyclopedia of Aikido + newspaper listings) is stronger than
-  anything the graph can currently add.
+- **Reliability report**: after the 2026-09-25 source hunt the Ikeda
+  subgraph has **1 RELIABLE** (Aikido Journal #104 interview) + **4
+  MARGINAL** (Bernews 65, elephant journal 60, MAYTT×2 50) sources.
+  Before the hunt it had zero — every source was his own site, the
+  Google-sheets calendar, or personal communication.
+- **Facebook**: dojo FB pages corroborate seminars organizationally
+  (facebook.com/AikiKaiOKona); no FB or web presence exists for
+  "Floating Bridge Aikido" / "Ka'u Aikikai".
 - Compare report: 452 candidate additions, 0 citable uncited sources,
   4 heuristic date mismatches all false positives (2026 seminar rows
   sharing venue names with historical entries).

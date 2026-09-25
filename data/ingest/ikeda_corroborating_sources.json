@@ -1,0 +1,235 @@
+{
+ "name": "ikeda_corroborating_sources",
+ "description": "Independent/organizational corroboration for Hiroshi Ikeda's seminar schedule + birthplace, found during the Wikipedia-update source hunt (2026-09-25). Key finds: Aikido Journal #104 (1995) interview — the first RELIABLE martial-arts source in the Ikeda subgraph; Aiki Kai o Kona's published record of its 31st Anniversary Seminar with Ikeda (Jan 2019) corroborating Kona-side Hawaii seminars; Bernews + Santa Barbara Independent news coverage; MAYTT and elephant journal interviews. Hachijojima (Hachijo Island), Tokyo now confirmed as birthplace by Aikido Journal independently of his own site. NOT found: any web/FB presence for 'Floating Bridge Aikido' / 'Ka'u Aikikai' (Ka'u claim remains personal-communication only); Black Belt coverage unverified (Google Books API rate-limited).",
+ "sources": [
+  {
+   "id": "src:aj-interview-ikeda-1995",
+   "title": "Interview with Hiroshi Ikeda (Aikido Journal #104, 1995)",
+   "url": "https://aikidojournal.com/2002/08/26/interview-with-hiroshi-ikeda/",
+   "platform": "aikidojournal.com",
+   "source_class": "journalistic",
+   "publish_date": "1995",
+   "author": "Aikido Journal",
+   "raw_text": "Aikido Journal #104 (1995) interview. Profile of Hiroshi Ikeda: Born January 1950 in Hachijojima, Tokyo. Learned aikido from Mitsugi Saotome Shihan while in the aikido club at Kokugakuin University. Entered Saotome Shihan's Reimeijuku dojo in 1970. Moved to Sarasota, Florida in the United States in 1976 and instructed at the Sarasota Aikikai during 1978-9. Moved to Boulder, Colorado in 1980 and established the Boulder Aikikai. Travels in the United States two to three times a month. Also operates Bu Jin Design. Aikido 7th Dan. Describes attending summer intensives by Robert Nadeau, Frank Doran and Mitsugi Saotome, plus his own Rocky Mountain summer camp."
+  },
+  {
+   "id": "src:maytt-ikeda-2019",
+   "title": "Interview with Hiroshi Ikeda: Aikido's Current State in the United States",
+   "url": "https://maytt.home.blog/2020/07/01/interview-with-hiroshi-ikeda-aikidos-current-state-in-the-united-states/",
+   "platform": "maytt.home.blog",
+   "source_class": "journalistic",
+   "publish_date": "2019",
+   "author": "Martial Arts of Yesterday, Today and Tomorrow",
+   "raw_text": "Interview conducted summer 2019, previously appeared in Aikido Journal. Covers growth of aikido in the US, dojo membership, cross-training, and Ikeda's teaching activity."
+  },
+  {
+   "id": "src:maytt-ikeda-2023",
+   "title": "Interview with Boulder Aikikai Founder Hiroshi Ikeda: A Journey with Mitsugi Saotome",
+   "url": "https://maytt.home.blog/2023/03/24/interview-with-boulder-aikikai-founder-hiroshi-ikeda-a-journey-with-mitsugi-saotome/",
+   "platform": "maytt.home.blog",
+   "source_class": "journalistic",
+   "publish_date": "2023-03-24",
+   "author": "Martial Arts of Yesterday, Today and Tomorrow",
+   "raw_text": "Interview on Ikeda's aikido journey: judo in high school, aikido at Kokugakuin University 1969 under Mitsugi Saotome, Reimei Juku Dojo, followed Saotome to Florida 1976 at Bill McIntyre's invitation, Boulder Aikikai 1980, Aikido Shimbokukai."
+  },
+  {
+   "id": "src:elephant-ikeda-2009",
+   "title": "feature interview: Hiroshi Ikeda Sensei of Boulder Aikikai",
+   "url": "https://www.elephantjournal.com/2009/01/elephantjournalcom-feature-interview-ikeda-sensei-martial-arts-aikido-bujin-design/",
+   "platform": "elephantjournal.com",
+   "source_class": "journalistic",
+   "publish_date": "2009-01-25",
+   "author": "elephant journal (Waylon Lewis)",
+   "raw_text": "Feature interview reprinted from elephant Magazine, Spring 2005. Boulder-based independent magazine. Covers Boulder Aikikai (est. 1980), Ikeda's teaching philosophy, Bu Jin Design, family with wife/business partner Ginger Ikeda."
+  },
+  {
+   "id": "src:bernews-ikeda-2011",
+   "title": "Bermuda Aikikai Hosts Top Aikido Masters",
+   "url": "https://bernews.com/2011/06/bermuda-aikikai-hosts-top-aikido-masters/",
+   "platform": "bernews.com",
+   "source_class": "journalistic",
+   "publish_date": "2011-06-06",
+   "author": "Bernews",
+   "raw_text": "Independent Bermuda news coverage: Bermuda Aikikai under Collins Smith Sensei hosted Hiroshi Ikeda Shihan and Rick Stickles for a weekend seminar (early June 2011). Photos. Notes Ikeda: founder/chief instructor Boulder Aikikai, 7th dan via Saotome Shihan, began aikido 1968 at Kokugakuin University, followed Saotome to Sarasota 1978, moved to Boulder 1980."
+  },
+  {
+   "id": "src:sb-independent-ikeda-2013",
+   "title": "Santa Barbara Martial Arts School to Host Hiroshi Ikeda Shihan",
+   "url": "https://www.independent.com/2013/05/31/santa-barbara-martial-arts-school-host-hiroshi-ikeda-shihan/",
+   "platform": "independent.com",
+   "source_class": "documentary_promotional",
+   "publish_date": "2013-05-31",
+   "author": "Aikido Kenkyukai Santa Barbara (press release)",
+   "raw_text": "Press release published on The Santa Barbara Independent site: AKSB (Lia Suzuki Sensei) hosting Ikeda for a Summer Aikido Seminar June 5-9, 2013 at 121A East Mason St; ~40 attendees the prior year. Bio: 7th dan, began aikido 1968 Tokyo, US 1978, Boulder Aikikai 1980, founded Aikido Bridge 2005."
+  },
+  {
+   "id": "src:aikikaiokona-ikeda-2019",
+   "title": "Hiroshi Ikeda in Kona — Aiki Kai o Kona 31st Anniversary Seminar",
+   "url": "https://aikikaiokona.wixsite.com/aiki/single-post/2019/01/26/hiroshi-ikeda-in-kona",
+   "platform": "aikikaiokona.wixsite.com",
+   "source_class": "documentary_promotional",
+   "publish_date": "2019-01-27",
+   "author": "Aiki Kai o Kona",
+   "raw_text": "Host-dojo announcement: 'Aiki Kai o Kona's 31st Anniversary Seminar with Hiroshi Ikeda Shihan' (posted Jan 27, 2019). Corroborates Ikeda's recurring Kona, Big Island seminars — separate dojo/venue from Klein's reported Ka'u district dojo (Floating Bridge Aikido / Ka'u Aikikai). Dojo FB page: facebook.com/AikiKaiOKona. Same site documents West Hawaii Today front-page coverage of the dojo's 25th anniversary (June 2013, Carolyn Lucas-Zenk)."
+  }
+ ],
+ "nodes": [
+  {
+   "id": "event:aikikaiokona-31st-anniversary-2019",
+   "type": "Event",
+   "label": "Aiki Kai o Kona 31st Anniversary Seminar with Hiroshi Ikeda Shihan",
+   "canonical_name": "Aiki Kai o Kona 31st Anniversary Seminar (2019)",
+   "metadata": {
+    "event_type": "seminar",
+    "location": "Kailua-Kona, Hawaii, USA",
+    "start_date": "2019-01",
+    "host_dojo": "dojo:aiki-kai-o-kona",
+    "guest_instructor": "Hiroshi Ikeda Shihan"
+   }
+  },
+  {
+   "id": "dojo:aiki-kai-o-kona",
+   "type": "Dojo",
+   "label": "Aiki Kai o Kona",
+   "canonical_name": "Aiki Kai o Kona",
+   "metadata": {
+    "location": "Kailua-Kona, Big Island, Hawaii",
+    "instructors": "Sharon Gilbert and Bill Stockton (both 6th dan, 50+ years training, teaching since ~1988)",
+    "venue": "Hale Halawai",
+    "url": "https://aikikaiokona.wixsite.com/aiki",
+    "facebook": "https://www.facebook.com/AikiKaiOKona",
+    "note": "Founded ~1988; offers free aikido classes; anniversary seminars host visiting shihan (Ikeda 2019, Yamashima 2018, Yoshimoto 2025)"
+   },
+   "source_urls": [
+    "https://aikikaiokona.wixsite.com/aiki",
+    "https://www.westhawaiitoday.com/2023/04/09/hawaii-news/aiki-kai-o-kona-celebrates-35-years-aikido-dojo-continues-to-offer-free-classes-for-all/"
+   ]
+  },
+  {
+   "id": "event:bermuda-aikikai-ikeda-seminar-2011",
+   "type": "Event",
+   "label": "Bermuda Aikikai seminar with Hiroshi Ikeda and Rick Stickles",
+   "canonical_name": "Bermuda Aikikai Ikeda/Stickles seminar (2011)",
+   "metadata": {
+    "event_type": "seminar",
+    "location": "Bermuda",
+    "start_date": "2011-06",
+    "host_dojo": "Bermuda Aikikai (Collins Smith Sensei)",
+    "guest_instructors": "Hiroshi Ikeda Shihan, Rick Stickles"
+   }
+  },
+  {
+   "id": "event:aksb-summer-seminar-2013",
+   "type": "Event",
+   "label": "Aikido Kenkyukai Santa Barbara Summer Aikido Seminar with Hiroshi Ikeda",
+   "canonical_name": "AKSB Summer Seminar (2013)",
+   "metadata": {
+    "event_type": "seminar",
+    "location": "Santa Barbara, California",
+    "start_date": "2013-06-05",
+    "end_date": "2013-06-09",
+    "host_dojo": "Aikido Kenkyukai Santa Barbara (Lia Suzuki)",
+    "guest_instructor": "Hiroshi Ikeda Shihan (with Lia Suzuki co-teaching)"
+   }
+  },
+  {
+   "id": "claim:ikeda:birthplace-hachijojima",
+   "type": "Claim",
+   "label": "Hiroshi Ikeda was born in January 1950 on Hachijojima (Hachijo Island), Tokyo Metropolis, Japan",
+   "metadata": {
+    "claim_text": "Hiroshi Ikeda was born January 1950 in Hachijojima, Tokyo — a volcanic island ~290 km south of central Tokyo administered as part of Tokyo Metropolis. Confirmed independently by Aikido Journal #104 (1995) interview profile; his own site (hiroshi-ikeda.com/about) also states 'born in Hachijojima, Tokyo'. The live Wikipedia article says only 'Tokyo, Japan' — Hachijojima is the precise hometown.",
+    "claim_type": "biographical",
+    "stance": "supports",
+    "evidence_mode": "secondary_report",
+    "confidence": 0.95
+   }
+  },
+  {
+   "id": "claim:ikeda:kona-seminars-corroborated",
+   "type": "Claim",
+   "label": "Ikeda has taught recurring seminars on the Big Island of Hawaii at Aiki Kai o Kona (Kailua-Kona), incl. the dojo's 31st Anniversary Seminar (Jan 2019)",
+   "metadata": {
+    "claim_text": "Aiki Kai o Kona (Kailua-Kona, Big Island) publicly documents hosting Hiroshi Ikeda Shihan for its 31st Anniversary Seminar (posted Jan 27, 2019). This corroborates the Kona side of the Hawaii seminar record — DISTINCT from the Ka'u district dojo (Floating Bridge Aikido / Ka'u Aikikai) reported by Bob Klein, which has no web/FB presence found as of 2026-09-25.",
+    "claim_type": "biographical",
+    "stance": "supports",
+    "evidence_mode": "secondary_report",
+    "confidence": 0.9
+   }
+  },
+  {
+   "id": "claim:ikeda:floating-bridge-no-web-presence",
+   "type": "Claim",
+   "label": "No web or Facebook presence found for 'Floating Bridge Aikido' / 'Ka'u Aikikai' as of 2026-09-25",
+   "metadata": {
+    "claim_text": "Web and Facebook searches on 2026-09-25 found no online presence for the Ka'u district dojo Bob Klein reported under two names (Floating Bridge Aikido / Ka'u Aikikai). His report of Ikeda seminars there 2024-2026 + Jan 2027 remains personal-communication evidence only; corroboration path is the 2024/2025 flyers Klein referenced or Gary Reiss (greissoffice@gmail.com) follow-up.",
+    "claim_type": "meta_research",
+    "stance": "neutral",
+    "evidence_mode": "researcher_note",
+    "confidence": 0.9
+   }
+  }
+ ],
+ "claim_sources": [
+  {
+   "claim_id": "claim:ikeda:birthplace-hachijojima",
+   "source_id": "src:aj-interview-ikeda-1995"
+  },
+  {
+   "claim_id": "claim:ikeda:kona-seminars-corroborated",
+   "source_id": "src:aikikaiokona-ikeda-2019"
+  },
+  {
+   "claim_id": "claim:ikeda:floating-bridge-no-web-presence",
+   "source_id": "src:aikikaiokona-ikeda-2019"
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "person:hiroshi-ikeda",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:aikikaiokona-31st-anniversary-2019",
+   "metadata": {
+    "role": "guest instructor",
+    "source": "src:aikikaiokona-ikeda-2019"
+   }
+  },
+  {
+   "src_id": "event:aikikaiokona-31st-anniversary-2019",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "dojo:aiki-kai-o-kona",
+   "metadata": {
+    "context": "host dojo, Kailua-Kona"
+   }
+  },
+  {
+   "src_id": "person:hiroshi-ikeda",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:bermuda-aikikai-ikeda-seminar-2011",
+   "metadata": {
+    "role": "guest instructor",
+    "source": "src:bernews-ikeda-2011"
+   }
+  },
+  {
+   "src_id": "person:hiroshi-ikeda",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:aksb-summer-seminar-2013",
+   "metadata": {
+    "role": "guest instructor",
+    "source": "src:sb-independent-ikeda-2013"
+   }
+  },
+  {
+   "src_id": "claim:ikeda:birthplace-hachijojima",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:hiroshi-ikeda",
+   "metadata": {}
+  },
+  {
+   "src_id": "claim:ikeda:kona-seminars-corroborated",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:hiroshi-ikeda",
+   "metadata": {}
+  }
+ ]
+}

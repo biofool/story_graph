@@ -17,11 +17,15 @@ Compare report: `docs/wikipedia-drafts/generated/hiroshi-ikeda-compare-report.md
 
 - Whether the affiliated Aikido Bridge sources suffice for one
   attributed sentence — **left to editors** (§3 question 1).
-- Hawaii seminars await published sourcing (dojo announcements /
-  flyers via Gary Reiss outreach) — not proposed today.
+- Ka'u / Floating Bridge seminars — **no web/FB presence found**;
+  personal-communication only until flyers/announcements surface.
 - Minor repairs (empty link, "the Boulder") — proposed as
   non-controversial fixes.
 - "Scheduled seminars" staleness convention — editor question 3.
+- New since the source hunt (§2): Hachijō-jima birthplace now citable
+  via Aikido Journal; Bermuda 2011 (Bernews) and Kona 2019 (Aiki Kai o
+  Kona) seminars now have published sources — inclusion left to
+  editors.
 
 ---
 
@@ -38,6 +42,9 @@ affiliated organizational sources, which warrants editor review.
 
 | Claim | Source(s) | class | Verdict |
 |---|---|---|---|
+| Born January 1950 on Hachijō-jima, Tokyo | Aikido Journal #104 (1995) interview profile; also hiroshi-ikeda.com/about | independent martial-arts press (RELIABLE, SRS 70) | **CITABLE** — proposed refinement of bare "Tokyo" |
+| Bermuda Aikikai seminar, June 2011 (w/ Rick Stickles) | Bernews 2011-06-06 | independent news (MARGINAL 65) | **CITABLE** — editor judgment on seminar-list inclusion |
+| Aiki Kai o Kona 31st Anniversary Seminar, Kailua-Kona, Jan 2019 | aikikaiokona.wixsite.com post 2019-01-27; dojo also covered by West Hawaii Today | host-dojo organizational record (independent of subject) | **CITABLE with attribution** — editor judgment |
 | Ikeda started the Aikido Bridge seminar series in 2005; first event "Un Pont" International Friendship Seminar at Jiai Aikido, San Diego | aikidobridge.com/about + hiroshi-ikeda.com/aikido-bridge | affiliated organizational (series' own site + subject's own site) | **CITABLE only with attribution** (WP:ABOUTSELF); editors judge |
 | Empty `[[ ]]` link → "Boulder Aikikai"; "based in the Boulder, CO" → "Boulder, Colorado" | — | mechanical repair | CITABLE — non-controversial fix |
 | "Scheduled seminars" dated 17 Sep 2026 will go stale | — | maintenance | Talk-page question, not an edit |
@@ -58,12 +65,19 @@ visited" from "a dojo he is affiliated with."
 
 ### Proposed wording
 
-One attributed sentence (see wikimarkup file for full reference syntax):
+Three small items (see wikimarkup file for full reference syntax):
 
-> In 2005, Ikeda started the Aikido Bridge seminar series, which brings
-> together teachers and students from different aikido organizations;
-> the series began with the "Un Pont" International Friendship Seminar
-> held at Jiai Aikido in San Diego.
+1. **Birthplace refinement** — "born in Tokyo" → "born on
+   Hachijō-jima, Tokyo", cited to Aikido Journal #104 (1995).
+2. **Aikido Bridge** — one attributed sentence: "In 2005, Ikeda
+   started the Aikido Bridge seminar series, which brings together
+   teachers and students from different aikido organizations; the
+   series began with the 'Un Pont' International Friendship Seminar
+   held at Jiai Aikido in San Diego."
+3. **Two seminar-list candidates with published sources** — Bermuda
+   (June 2011, Bernews) and Kailua-Kona (Jan 2019, Aiki Kai o Kona's
+   31st Anniversary Seminar, host-dojo record). Inclusion is an editor
+   judgment consistent with the article's existing curation.
 
 Plus two non-controversial repairs: restore "Boulder Aikikai" as the
 empty link's target in the 1980 sentence, and fix "based in the
