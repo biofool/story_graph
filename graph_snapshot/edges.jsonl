@@ -6182,8 +6182,25 @@
 {"dst_id": "person:null", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars"}, "rel_type": "ASSERTED_BY", "src_id": "claim:ff4765119aa7f595"}
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:ff53f49d37731e62"}
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:ff53f49d37731e62"}
+{"dst_id": "group:aikido-bridge", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:aikido-bridge-corroborated-aj"}
+{"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:aikido-start-year-discrepancy"}
+{"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:aj-site-sweep-2026-09"}
+{"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:asu-independence-2015"}
+{"dst_id": "person:mitsugi-saotome", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:asu-independence-2015"}
+{"dst_id": "fed:aikido-schools-of-ueshiba", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:asu-vice-president"}
+{"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:asu-vice-president"}
 {"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:birthplace-hachijojima"}
+{"dst_id": "dojo:boulder-aikikai", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:boulder-aikikai-founded-aug-1980"}
+{"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:boulder-aikikai-founded-aug-1980"}
+{"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:judo-before-aikido"}
 {"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:kona-seminars-corroborated"}
+{"dst_id": "person:bill-mcintyre", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:saotome-florida-invitation-1976"}
+{"dst_id": "person:mitsugi-saotome", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:saotome-florida-invitation-1976"}
+{"dst_id": "dojo:12th-street-dojo-sarasota", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:sarasota-12th-street-dojo"}
+{"dst_id": "fed:aikido-shimbokukai", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:shimbokukai-vp-2016"}
+{"dst_id": "person:frank-doran", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:summer-camp-circuit-1995"}
+{"dst_id": "person:kayla-feder", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:summer-camp-circuit-1995"}
+{"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:summer-camp-circuit-1995"}
 {"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:jones:ikeda-8th-dan"}
 {"dst_id": "person:garth-jones", "metadata": {}, "rel_type": "ASSERTED_BY", "src_id": "claim:jones:ikeda-8th-dan"}
 {"dst_id": "dojo:allegheny-aikido", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:jones:ikeda-pittsburgh-visits"}
@@ -6882,11 +6899,15 @@
 {"dst_id": "place:dance-palace", "metadata": {"source_url": "https://www.newspapers.com/image/1100842220/"}, "rel_type": "LOCATED_IN", "src_id": "event:aiki-dance-workshop-1997"}
 {"dst_id": "place:dance-palace", "metadata": {"source_url": "https://www.newspapers.com/image/1100842220/"}, "rel_type": "LOCATED_IN", "src_id": "event:aiki-dance-workshop-1997-04-26"}
 {"dst_id": "place:dance-palace", "metadata": {"note": "Dance Palace context per PRL listing series", "source_url": "https://www.newspapers.com/image/1100916601/"}, "rel_type": "LOCATED_IN", "src_id": "event:aikido-and-dance-1998-04-25"}
+{"dst_id": "group:aikido-bridge", "metadata": {"context": "10th anniversary event of the Bridge series"}, "rel_type": "MENTIONS", "src_id": "event:aikido-bridge-10th-anniversary-san-diego"}
+{"dst_id": "group:aikido-bridge", "metadata": {"context": "Bridge-series international event"}, "rel_type": "MENTIONS", "src_id": "event:aikido-bridge-friendship-seminar-turkey-2018"}
 {"dst_id": "place:dance-palace", "metadata": {"source_url": "https://www.newspapers.com/image/1125183831/"}, "rel_type": "LOCATED_IN", "src_id": "event:aikido-class-dance-palace-1980"}
 {"dst_id": "place:dance-palace", "metadata": {"source_url": "https://www.newspapers.com/image/1100933658/"}, "rel_type": "LOCATED_IN", "src_id": "event:aikido-classes-west-marin-1984"}
 {"dst_id": "place:dance-palace", "metadata": {"source_url": "https://www.newspapers.com/image/1101035804/"}, "rel_type": "LOCATED_IN", "src_id": "event:aikido-dance-dance-palace-1992"}
 {"dst_id": "place:dance-palace", "metadata": {"source_url": "https://www.newspapers.com/image/1101135895/"}, "rel_type": "LOCATED_IN", "src_id": "event:aikido-demo-dance-palace-1983"}
+{"dst_id": "dojo:boulder-aikikai", "metadata": {"context": "host dojo, Boulder CO"}, "rel_type": "LOCATED_IN", "src_id": "event:aikido-for-tomorrow-2020"}
 {"dst_id": "dojo:aikido-of-idaho", "metadata": {"source_url": "https://www.newspapers.com/image/915930505/"}, "rel_type": "LOCATED_IN", "src_id": "event:aikido-of-idaho-nadeau-seminar-1992-10"}
+{"dst_id": "dojo:aikijuku-dojo", "metadata": {"context": "host dojo"}, "rel_type": "LOCATED_IN", "src_id": "event:aikijuku-ikeda-seminar-2017-06"}
 {"dst_id": "dojo:aiki-kai-o-kona", "metadata": {"context": "host dojo, Kailua-Kona"}, "rel_type": "LOCATED_IN", "src_id": "event:aikikaiokona-31st-anniversary-2019"}
 {"dst_id": "group:aikido-bridge", "metadata": {"source_url": "http://aikidobridge.com/?page_id=17"}, "rel_type": "MEMBER_OF", "src_id": "event:aikiweb-autumn-camp-with-hiroshi-ikeda-and-others-tba-3afbe55a2c"}
 {"dst_id": "dojo:aikido-of-marin", "metadata": {"source_url": "http://www.aikidoofmarin.com"}, "rel_type": "LOCATED_IN", "src_id": "event:aikiweb-fall-retreat-with-richard-moon-5th-dan-4af92261aa"}
@@ -14667,6 +14688,7 @@
 {"dst_id": "group:district-attorney", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117656408.html", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:emily-mall"}
 {"dst_id": "group:crazygames-f\u00f3rum", "metadata": {"evidence": "https://rfcrazygames.forumeiros.com/images", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:enrico24"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:eric-heinze"}
+{"dst_id": "dojo:boulder-aikikai", "metadata": {"role": "member; event organizer", "source": "src:aj-aikido-for-tomorrow-2020"}, "rel_type": "MEMBER_OF", "src_id": "person:evolene-premillieu"}
 {"dst_id": "group:crazygames-f\u00f3rum", "metadata": {"evidence": "https://rfcrazygames.forumeiros.com/images", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:family153"}
 {"dst_id": "event:aikiweb-seminar-with-christian-tisser-shihan-hiroshi-ikeda-shihan-fr-c6524afb9e", "metadata": {"dates": "January 14-18, 2016", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "http://sandiego.aikidobridge.com/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:frank-doran"}
 {"dst_id": "event:aikiweb-seminar-with-frank-doran-shihan-hiroshi-ikeda-shihan-christi-aa6ba2281a", "metadata": {"dates": "January 15-19, 2015", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "http://www.JiaiAikido.com"}, "rel_type": "CO_APPEARANCE", "src_id": "person:frank-doran"}
@@ -14711,6 +14733,10 @@
 {"dst_id": "group:new-orleans-police-department", "metadata": {"evidence": "https://caselaw.findlaw.com/court/la-court-of-appeal/117213731.html", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:harry-o-neal"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:harvest"}
 {"dst_id": "group:\u00e6sir", "metadata": {"evidence": "https://comicvine.gamespot.com/conan/4005-2438/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:henga"}
+{"dst_id": "event:aikido-bridge-10th-anniversary-san-diego", "metadata": {"role": "instructor (photo caption)", "source": "src:maytt-ikeda-2023"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
+{"dst_id": "event:aikido-bridge-friendship-seminar-turkey-2018", "metadata": {"role": "instructor (photo caption)", "source": "src:maytt-ikeda-2023"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
+{"dst_id": "event:aikido-for-tomorrow-2020", "metadata": {"role": "host dojo chief instructor / senior supporter (attended as participant)", "source": "src:aj-aikido-for-tomorrow-2020"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
+{"dst_id": "event:aikijuku-ikeda-seminar-2017-06", "metadata": {"role": "guest instructor (photo caption)", "source": "src:aj-interview-ikeda-aloia-2020"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
 {"dst_id": "event:aikikaiokona-31st-anniversary-2019", "metadata": {"role": "guest instructor", "source": "src:aikikaiokona-ikeda-2019"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
 {"dst_id": "event:aikiweb-autumn-camp-with-hiroshi-ikeda-7th-dan-3bb9485ebd", "metadata": {"dates": "September 4-7, 2008", "region": "AZ", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "http://www.azaikido.com/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
 {"dst_id": "event:aikiweb-autumn-camp-with-hiroshi-ikeda-7th-dan-50f926ec81", "metadata": {"dates": "September 10-13, 2015", "region": "AZ", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "http://www.azaikido.com/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
@@ -15166,6 +15192,10 @@
 {"dst_id": "dojo:boulder-aikikai", "metadata": {"date": "1980", "source_url": "https://www.aikidoshimbokukai.org/events-master/2026-midwest-bridge"}, "rel_type": "FOUNDED", "src_id": "person:hiroshi-ikeda"}
 {"dst_id": "group:aikido-bridge", "metadata": {"context": "started the Aikido Bridge seminar series with the 'Un Pont' International Friendship Seminar", "date": "2005", "source_url": "http://aikidobridge.com/about/"}, "rel_type": "FOUNDED", "src_id": "person:hiroshi-ikeda"}
 {"dst_id": "dojo:boulder-aikikai", "metadata": {"source_url": "https://www.aikidoshimbokukai.org/events-master/2026-midwest-bridge"}, "rel_type": "HEAD_INSTRUCTOR", "src_id": "person:hiroshi-ikeda"}
+{"dst_id": "fed:aikido-schools-of-ueshiba", "metadata": {"note": "ended when Saotome recognized him as independent instructor early 2015", "role": "vice president", "source": "src:maytt-ikeda-2023", "until": "2015-early"}, "rel_type": "MEMBER_OF", "src_id": "person:hiroshi-ikeda"}
+{"dst_id": "fed:aikido-shimbokukai", "metadata": {"note": "self-reported in interview; Shimbokukai lists him as shihan", "role": "vice president", "since": "2016", "source": "src:maytt-ikeda-2023"}, "rel_type": "MEMBER_OF", "src_id": "person:hiroshi-ikeda"}
+{"dst_id": "person:mitsugi-saotome", "metadata": {"context": "Kokugakuin University aikido club ~1968-69; Reimei Juku; followed him to Florida 1976 as assistant", "source": "src:maytt-ikeda-2023"}, "rel_type": "TEACHER_STUDENT", "src_id": "person:hiroshi-ikeda"}
+{"dst_id": "dojo:12th-street-dojo-sarasota", "metadata": {"role": "instructor/assistant to Saotome", "source": "src:maytt-ikeda-2023", "years": "1976-1979"}, "rel_type": "WORKED_AT", "src_id": "person:hiroshi-ikeda"}
 {"dst_id": "group:aikikai-hombu-dojo", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:hiroshi-tada"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:howard-kislowicz"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://books.google.co.nz/books/about/Cheng_Hsin.html?id=KZ8TJAKaiUQC&redir_esc=y", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:hugh-milne"}
@@ -15702,6 +15732,7 @@
 {"dst_id": "group:western-martial-artists", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:terry-dobson"}
 {"dst_id": "group:ya-ho-wha-13", "metadata": {"evidence": "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:thurston-moore"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:tom-herrenberg"}
+{"dst_id": "dojo:boulder-aikikai", "metadata": {"role": "senior instructor, 7th dan", "source": "src:aj-aikido-for-tomorrow-2020"}, "rel_type": "MEMBER_OF", "src_id": "person:tres-hofmeister"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:venus-aquarian"}
 {"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:venus-aquarian"}
 {"dst_id": "group:theater", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:venus-aquarian"}

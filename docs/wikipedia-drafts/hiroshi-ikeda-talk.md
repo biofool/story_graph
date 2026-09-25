@@ -26,6 +26,12 @@ Compare report: `docs/wikipedia-drafts/generated/hiroshi-ikeda-compare-report.md
   via Aikido Journal; Bermuda 2011 (Bernews) and Kona 2019 (Aiki Kai o
   Kona) seminars now have published sources — inclusion left to
   editors.
+- New since the aikidojournal.com sweep (2026-09-25): ASU
+  Vice-Presidency / 2015 independence / 2016 Shimbokukai VP — all
+  self-reported in MAYTT 2023; attribute or leave to editors (§3
+  question 4). Date discrepancy 1968/1969 + 1970/1971 — editor
+  question 5. MAYTT 2019 post identified as a verbatim reprint of the
+  AJ original — do not cite it as a second source.
 
 ---
 
@@ -95,6 +101,29 @@ Boulder, CO" → "based in Boulder, Colorado".
    preferred threshold for which seminars belong (e.g., only those
    with independent coverage like the newspaper-cited 1982/1991/2000
    entries)?
+4. Organizational history — the MAYTT 2023 interview (Aloia) supplies
+   Ikeda's own account of serving as ASU vice president, being
+   recognized as an independent instructor in early 2015, and joining
+   Aikido Shimbokukai as VP in 2016. Is a single self-reported
+   interview sufficient for one attributed sentence, or should this
+   wait for an independent source (e.g., ASU/Shimbokukai announcements)?
+5. Date discrepancy — the same interview's introduction gives aikido
+   start 1969 and Reimei Juku entry 1971, versus 1968 (his own site,
+   AJ intros) and 1970 (AJ Encyclopedia) elsewhere. We propose keeping
+   the article's 1968 and flagging the conflict here rather than
+   silently choosing; is that the right handling?
+
+New citable-sort additions since the AJ sweep (2026-09-25):
+
+| Claim | Source(s) | class | Verdict |
+|---|---|---|---|
+| Boulder Aikikai established August 1980 | AJ Aloia interview 2020 + AJ Encyclopedia + MAYTT 2023 | RELIABLE 70 ×2, MARGINAL 50 | CITABLE (month precision) |
+| ASU vice president; independent instructor early 2015; Shimbokukai VP 2016 | MAYTT 2023 (Ikeda's own account) | MARGINAL 50, self-reported | CITABLE attributed only — editor judgment |
+| 3 yrs high-school judo; Sarasota "12th Street Dojo"; McIntyre invitation 1976 | MAYTT 2023 | MARGINAL 50, self-reported | CITABLE attributed only — editor judgment |
+| Aikido Bridge: 10th Anniv. San Diego ~2015, Turkey Friendship Seminar 2018 | MAYTT 2023 photo captions + AJ "Aikido for Tomorrow" 2020 | MARGINAL/RELIABLE venues, caption-level | supports series' existence/reach; 2005 founding still affiliated-only |
+| San Rafael summer-camp circuit (w/ Nadeau, Doran camps) | AJ #104 interview + Kayla Feder AJ interview 2022 | RELIABLE 70 | CITABLE — co-appearance circuit, not affiliation |
+| MAYTT "Aikido's Current State" post 2020-07-01 | — | verbatim reprint of AJ 2020 interview | **NOT an additional source** — reclassed documentary_promotional |
+| Aikido start 1968 vs 1969 / Reimei Juku 1970 vs 1971 | MAYTT 2023 vs AJ Encyclopedia + own site | conflicting | **NOT RESOLVED** — discrepancy claim, editor question 5 |
 
 ## 4. Policy checklist
 

@@ -10,10 +10,28 @@
   (八丈島), ~290 km south of Tokyo, administered as Tokyo Metropolis.
   Confirmed independently by **Aikido Journal #104 (1995)** — proposed
   birthplace refinement in the wikimarkup.
-- **First citable martial-arts source found** — Aikido Journal #104
-  interview (SRS 70 RELIABLE), plus MARGINAL: Bernews 2011 (65),
-  elephant journal 2009 (60), MAYTT interviews 2019/2023 (50). The
-  subgraph went from 0 → 1 RELIABLE + 4 MARGINAL citable.
+- **Citable martial-arts sources — now 5 RELIABLE** — full
+  aikidojournal.com sweep ingested (2026-09-25): AJ #104 interview,
+  Encyclopedia entry, Aloia interview 2020, "Aikido for Tomorrow"
+  feature, Kayla Feder interview — all SRS 70 RELIABLE. MARGINAL:
+  Bernews 2011 (65), elephant journal 2009 (60), MAYTT 2023 (50).
+- **MAYTT 2019 demoted — verbatim reprint** — the MAYTT "Aikido's
+  Current State" post (2020-07-01) is word-for-word the AJ March 2020
+  Aloia interview (MAYTT is Aloia's own blog, says so on the page).
+  Reclassed `documentary_promotional` so it doesn't double-count.
+- **MAYTT 2023 = distinct, fact-rich** — "A Journey with Mitsugi
+  Saotome" adds: ASU Vice-Presidency, early-2015 independence from ASU,
+  2016 Aikido Shimbokukai VP under Lisa Tomoleoni, 3 yrs high-school
+  judo, Bill McIntyre's 1976 Florida invitation, Sarasota "12th Street
+  Dojo", and Aikido Bridge captions (10th Anniv. San Diego ~2015,
+  Turkey 2018). NOTE: this interview's intro dates aikido start 1969
+  and Reimei Juku 1971 — **conflicts with 1968/1970** elsewhere;
+  recorded as `claim:ikeda:aikido-start-year-discrepancy`, unresolved.
+- **Aikido Bridge corroborated beyond affiliated sites** — MAYTT 2023
+  captions + AJ "Aikido for Tomorrow" (Feb 2020, Boulder Aikikai,
+  conceived as a youth offshoot of a Bridge seminar). Still
+  interview/caption-level — strengthens existence/reach, not formal-org
+  claims.
 - **Kona seminars corroborated** — Aiki Kai o Kona (Kailua-Kona)
   published its 31st Anniversary Seminar with Ikeda (Jan 2019); host-
   dojo record, independent of Ikeda's own properties. FB page

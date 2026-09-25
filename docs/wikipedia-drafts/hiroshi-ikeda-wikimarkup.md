@@ -24,6 +24,13 @@
 - "Visited frequently" dojo edges — leads, not affiliations; excluded.
 - Ingest the live article's 3 Newspapers.com seminar citations into the
   graph (Missoulian 1982, Bradenton 1991, Pensacola 2000).
+- **New from AJ sweep (§0c below)** — organizational-history additions
+  (ASU VP, 2015 independence, 2016 Shimbokukai VP) are self-reported in
+  one interview — attribute or leave to editors.
+- **Date discrepancy** — aikido start 1968 vs 1969; Reimei Juku entry
+  1970 vs 1971 (`claim:ikeda:aikido-start-year-discrepancy`). Keep the
+  article's existing 1968; flag for editors, don't switch.
+- **MAYTT 2019 = reprint** — never cite; canonical is the AJ original.
 
 ## Proposed additions
 
@@ -60,6 +67,45 @@ editor judgment (the existing list uses newspaper/dojo sources):
 (The Santa Barbara Independent's 2013 AKSB seminar piece is a dojo
 press release hosted on a news site — held in Needs support, not
 proposed.)
+
+### 0c. Organizational history (from MAYTT 2023 interview — all
+self-reported, attribute if used)
+
+The MAYTT "A Journey with Mitsugi Saotome" interview (2023-03-24,
+Antonio Aloia) is a distinct interview supplying organizational-history
+detail absent from the live article. All of it is Ikeda's own account —
+proposed only as attributed wording, or left to editors to decide:
+
+```wikitext
+Ikeda served as vice president of Saotome's [[Aikido Schools of
+Ueshiba]] before being recognized as an independent instructor in
+2015; he joined [[Aikido Shimbokukai]] as vice president in 2016.
+```
+
+Also available from the same source (all self-reported): three years of
+high-school judo before aikido; the Sarasota dojo where he assisted
+Saotome 1976–79 was the "12th Street Dojo"; Bill McIntyre extended the
+1976 invitation to Saotome that brought Ikeda to the US (Ikeda had been
+planning to go to Australia).
+
+CAUTION — date discrepancy, do not silently merge: this interview's
+intro gives aikido start **1969** and Reimei Juku entry **1971**, while
+the AJ Encyclopedia gives 1970 for Reimei Juku and his own site/AJ
+intros give 1968 for the start. The live article's 1968 stands; the
+conflict is recorded in
+`claim:ikeda:aikido-start-year-discrepancy` and flagged as an editor
+question in the talk file.
+
+### 0d. Aikido Bridge — corroboration upgrade (still not independent)
+
+The series is now corroborated beyond Ikeda-affiliated sites by
+Aikido-Journal-published material: MAYTT 2023 photo captions show the
+"10th Anniversary of Aikido Bridge in San Diego" (consistent with a
+2005 founding) and a "Bridge Friendship Seminar in Turkey, 2018", and
+AJ's "Aikido for Tomorrow" feature documents a 2020 youth-seminar
+offshoot at Boulder Aikikai. This strengthens the §1 sentence's
+factual basis but the venues (San Diego 2005 host, year) still rest on
+affiliated pages — attribution stands.
 
 ### 1. Aikido Bridge (new sentence, end of career paragraph)
 
