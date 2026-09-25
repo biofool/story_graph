@@ -992,16 +992,14 @@ def generate_report(
     lines.append("---")
     lines.append("")
 
-    # Source scoring table
-    lines.append("## Source scoring (all sources in subgraph)")
-    lines.append("")
-    lines.append("| # | Source | Domain | SRS | Tier | Citable? | Reason |")
-    lines.append("|---|--------|--------|-----|------|----------|--------|")
+    # Source scoring — lead table: citable sources (RELIABLE then MARGINAL,
+    # SRS >= 50). All other sources go in a second "Needs support" table.
+    lead = [s for s in scored_sources if s["_srs"] >= 50]
+    needs_support = [s for s in scored_sources if s["_srs"] < 50]
 
-    for i, s in enumerate(scored_sources, 1):
+    def _score_row(i: int, s: dict) -> str:
         domain = s["_breakdown"]["domain"]
         srs = s["_srs"]
-        tier = s["_tier"]
         citable = "Yes" if srs >= 50 else "No"
         reason = (
             f"dr={s['_breakdown']['domain_rank']} "
@@ -1012,11 +1010,36 @@ def generate_report(
         if s["_breakdown"].get("note"):
             reason += f" ({s['_breakdown']['note']})"
         title = s.get("title", "") or s.get("url", "")[:40]
-        lines.append(
-            f"| {i} | {title[:40]} | {domain} | {srs} | {tier} | {citable} | {reason} |"
+        return (
+            f"| {i} | {title[:40]} | {domain} | {srs} | {s['_tier']} "
+            f"| {citable} | {reason} |"
         )
 
+    _table_header = [
+        "| # | Source | Domain | SRS | Tier | Citable? | Reason |",
+        "|---|--------|--------|-----|------|----------|--------|",
+    ]
+
+    lines.append("## Source scoring — Reliable, then Marginal")
     lines.append("")
+    lines.extend(_table_header)
+    for i, s in enumerate(lead, 1):
+        lines.append(_score_row(i, s))
+    lines.append("")
+
+    if needs_support:
+        lines.append("## Needs support")
+        lines.append("")
+        lines.append(
+            "SRS < 50 — not cited in article text. Claims resting only on "
+            "these sources need better sourcing before they can appear in "
+            "the article."
+        )
+        lines.append("")
+        lines.extend(_table_header)
+        for i, s in enumerate(needs_support, 1):
+            lines.append(_score_row(i, s))
+        lines.append("")
 
     # Date metadata section — event, recorded, retrieved dates
     lines.append("## Source date metadata")
@@ -1116,22 +1139,15 @@ def generate_report(
         )
         lines.append("")
 
-    for s in excluded:
-        if "kkron://" in (s.get("url", "") or ""):
-            continue  # Already covered above
-        url = s.get("url", "")
-        title = s.get("title", "") or "(untitled)"
-        tier = s["_tier"]
-        reason = (
-            f"SRS={s['_srs']} ({tier}): "
-            f"dr={s['_breakdown']['domain_rank']} "
-            f"rsp={s['_breakdown']['wp_rsp']} "
-            f"sc={s['_breakdown']['source_class']} "
-            f"ind={s['_breakdown']['independence']}"
+    non_kkron_excluded = [
+        s for s in excluded if "kkron://" not in (s.get("url", "") or "")
+    ]
+    if non_kkron_excluded:
+        lines.append(
+            f"- {len(non_kkron_excluded)} source(s) below the citation "
+            f"threshold — see the *Needs support* table above."
         )
-        lines.append(f"- [{title}]({url}) — {reason}")
-
-    lines.append("")
+        lines.append("")
 
     # Citation-pending claims
     pending = [c for c in claims if not c.get("_source_ids")]

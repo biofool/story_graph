@@ -66,15 +66,15 @@
  "claim_sources": [
   {
    "claim_id": "claim:parade:ralston-1978-championship",
-   "source_id": "work:parade-significa-yankee-judo-dandy-1982"
+   "source_id": "src:parade-significa-1982-03-07"
   },
   {
    "claim_id": "claim:parade:ralston-early-life-and-insight",
-   "source_id": "work:parade-significa-yankee-judo-dandy-1982"
+   "source_id": "src:parade-significa-1982-03-07"
   },
   {
    "claim_id": "claim:ralston-1978-world-championship",
-   "source_id": "work:parade-significa-yankee-judo-dandy-1982"
+   "source_id": "src:parade-significa-1982-03-07"
   }
  ],
  "edges": [
