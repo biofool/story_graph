@@ -125,14 +125,17 @@ name="taijivizier">{{cite interview |last=Ralston |first=Peter
 
 == Selected works ==
 
-* ''Cheng Hsin: The Principles of Effortless Power'' (1989)
-* ''Reflections of Being'' (1991)
-* ''Ancient Wisdom, New Spirit'' (1994)
-* ''Zen Body-Being: An Enlightened Approach to Physical Skill, Grace, and Power'' (2006)
-* ''The Book of Not Knowing'' (2010)
-* ''Pursuing Consciousness'' (2015)
-* ''The Genius of Being'' (2017)
-* ''The Art of Mastery'' (2023)
+<!-- Selected list; fuller bibliography on the official site (see External links).
+     ISBNs verified via Open Library editions + publisher catalogs (issue #74). -->
+
+* {{cite book |last=Ralston |first=Peter |title=Cheng Hsin: The Principles of Effortless Power |year=1989 |publisher=North Atlantic Books |isbn=978-1-55643-048-0}}
+* {{cite book |last=Ralston |first=Peter |title=Reflections of Being |year=1991 |publisher=North Atlantic Books |isbn=978-1-55643-119-7}}
+* {{cite book |last=Ralston |first=Peter |title=Ancient Wisdom, New Spirit |year=1994 |publisher=Frog |isbn=978-1-883319-21-2}}
+* {{cite book |last=Ralston |first=Peter |title=Zen Body-Being: An Enlightened Approach to Physical Skill, Grace, and Power |year=2006 |publisher=Frog |isbn=978-1-58394-159-1}}
+* {{cite book |last=Ralston |first=Peter |title=The Book of Not Knowing |year=2010 |publisher=North Atlantic Books |isbn=978-1-55643-857-8}}
+* {{cite book |last=Ralston |first=Peter |title=Pursuing Consciousness |year=2015 |publisher=North Atlantic Books |isbn=978-1-58394-872-9}}
+* {{cite book |last=Ralston |first=Peter |title=The Genius of Being |year=2017 |publisher=North Atlantic Books |isbn=978-1-62317-112-4}}
+* {{cite book |last=Ralston |first=Peter |title=The Art of Mastery: Principles of Effective Interaction |year=2023 |publisher=Park Street Press |isbn=978-1-64411-643-2}}
 
 == References ==
 
