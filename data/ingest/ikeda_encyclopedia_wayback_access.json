@@ -1,0 +1,15 @@
+{
+  "name": "ikeda_encyclopedia_wayback_access",
+  "description": "Adds the pre-migration Wayback capture of AJ Encyclopedia entryID=811 as an archived access point on the existing src:aj-encyclopedia-ikeda record. NOT a new source — the Wayback page is the same Pranin encyclopedia entry, captured 2011-06-05 before the 2011-08-27 WordPress migration. raw_text updated to record the access URL.",
+  "sources": [
+    {
+      "id": "src:aj-encyclopedia-ikeda",
+      "url": "https://aikidojournal.com/2011/08/27/hiroshi-ikeda/",
+      "title": "Hiroshi Ikeda 池田裕 — Encyclopedia of Aikido entry",
+      "author": "Stanley Pranin / Josh Gold (eds.)",
+      "source_class": "journalistic",
+      "publish_date": "2011-08-27",
+      "raw_text": "Encyclopedia of Aikido entry (the Pranin encyclopedia already cited in the live Wikipedia article): '(b. 1950). 7th dan Aikikai. B. in Hachiojima [sic], Tokyo. Began aikido training under Mitsugi Saotome while a student in the aikido club of Kokugakuin University. Entered Saotome's Reimeijuku dojo in 1970. Relocated to Sarasota, Florida, USA in 1976 and taught in Florida from 1978-79. Moved to Boulder, Colorado in 1980 and established the Boulder Aikikai. Travels extensively around the USA and abroad conducting seminars. Also operates Bujin Design, a martial arts supply company.' Note: 'Hachiojima' is AJ's spelling of Hachijo-jima. Same publisher as the 1995 interview — same editorial entity, not a fully independent confirmation. Archived access point: pre-migration capture https://web.archive.org/web/20110605115217/http://www.aikidojournal.com/encyclopedia?entryID=811 (entryID=811 = IKEDA, HIROSHI; text identical to the migrated entry)."
+    }
+  ]
+}
