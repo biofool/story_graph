@@ -32,6 +32,9 @@
   (Murphy/Esalen/*Golf in the Kingdom*, Leonard, Frager). Leonard's
   entry confirms "first taught by Robert Nadeau" + Tamalpais chief
   instructor. Reliability report now scores **19 RELIABLE** sources.
+  Proposed Tann sentence for the Early life section lives in
+  `bob-tann.md` (Tann has no standalone-article case — one encyclopedia
+  entry; his citable home is inside this article).
 - **Aikido Shimbun** — Japanese aikido press, unsearched for
   international seminar coverage.
 - **Travel companions** — no source documents who traveled with Nadeau

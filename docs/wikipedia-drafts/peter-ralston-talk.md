@@ -73,6 +73,7 @@ From the §5 sourcing checklist — the items that still need work
 | Founded Cheng Hsin 1975; Oakland school/center 1977 | USAdojo profile + SF Chronicle 1979 (academy documented operating in Oakland) | profile + independent corroboration | CITABLE with attribution for uncontroversial facts only |
 | Sumo champion (HS, Japan); judo/fencing at UC Berkeley | USAdojo profile | mid-tier profile, likely self-supplied | CITABLE attributed; flag for better source if challenged |
 | Teaching approach ("effortlessly effective," direct inquiry) | tqj.de interview; Taijivizier/STN interview | specialist union-journal interviews | CITABLE as attributed self-description |
+| Aikido teacher Patrick Cassidy (Saito student, Aikido Montreux founder) trained under Ralston | Cassidy's contributor bio, "Aikido: Past, Present and Future," AJ Dec 2020 | published self-description — incidental mention, not coverage of Ralston | CITABLE for the single attributed sentence; does not count toward GNG |
 | Bibliography | the books themselves / Open Library | bibliographic fact | listed without inline refs per convention |
 | kkron personal-communication material | `kkron://…` | personal communication | **NOT CITABLE** — disclosed, excluded |
 | "Seminars in Russia," "deaths of competitors," promo bio language | usadojo / derivative bios | unverified or promotional | **NOT USED** |

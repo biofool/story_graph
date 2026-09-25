@@ -107,6 +107,26 @@ offshoot at Boulder Aikikai. This strengthens the §1 sentence's
 factual basis but the venues (San Diego 2005 host, year) still rest on
 affiliated pages — attribution stands.
 
+**Authority sweep (#75) adds:** MAYTT's news report documents the
+**first virtual Bridge seminar** (3 May 2020 via Zoom, hosted by
+**Aikido Shimbokukai** — independently corroborating the §0c
+Shimbokukai item — 130+ participants, six instructors, Ikeda closing);
+the **Premillieu interview** confirms she moved to Boulder to train
+under Ikeda and that AfT was created at his encouragement; the
+**Aikido of Madison interview** carries a 1980s photo of Ikeda at that
+dojo (visit corroboration — deliberately NOT affiliation). Optional
+addition to the §1 sentence, if editors accept MAYTT as a source:
+
+```wikitext
+  In May 2020 the series held its first virtual seminar, hosted by
+  Aikido Shimbokukai and drawing over 130 participants.<ref
+  name="maytt-bridge2020">{{cite web |title=The COVID-19 Aikido Bridge
+  Seminar |work=Martial Arts of Yesterday, Today and Tomorrow
+  |date=2020-05-06
+  |url=https://maytt.home.blog/2020/05/06/the-covid-19-aikido-bridge-seminar/
+  |access-date=2026-09-26}}</ref>
+```
+
 ### 1. Aikido Bridge (new sentence, end of career paragraph)
 
 The live article links the International Aikido Friendship Seminar in

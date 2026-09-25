@@ -125,6 +125,14 @@ New citable-sort additions since the AJ sweep (2026-09-25):
 | MAYTT "Aikido's Current State" post 2020-07-01 | — | verbatim reprint of AJ 2020 interview | **NOT an additional source** — reclassed documentary_promotional |
 | Aikido start 1968 vs 1969 / Reimei Juku 1970 vs 1971 | MAYTT 2023 vs AJ Encyclopedia + own site | conflicting | **NOT RESOLVED** — discrepancy claim, editor question 5 |
 
+Authority sweep additions (issue #75, 2026-09-26):
+
+| Claim | Source(s) | class | Verdict |
+|---|---|---|---|
+| First virtual Aikido Bridge seminar, 3 May 2020 — hosted by Aikido Shimbokukai, 130+ participants, Ikeda closing instructor | MAYTT news report 2020-05-06 | MARGINAL blog journalism (independent of subject) | CITABLE as optional Bridge detail — also corroborates the Shimbokukai link |
+| Premillieu moved to Boulder to train under Ikeda/Hofmeister; AfT created at Ikeda's encouragement | MAYTT Premillieu interview 2020-05-22 | MARGINAL, interviewee account | CITABLE attributed — corroborates AfT item |
+| Ikeda at Aikido of Madison, 1980s (photo caption); founders still train with him | MAYTT Cooper/Stone interview 2022 | MARGINAL, caption-level | visit corroboration — deliberately NOT affiliation |
+
 ## 4. Policy checklist
 
 - [x] COI disclosed; talk_page mode over direct edit

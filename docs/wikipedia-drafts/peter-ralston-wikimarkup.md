@@ -123,6 +123,16 @@ name="taijivizier">{{cite interview |last=Ralston |first=Peter
  |work=Taijivizier |publisher=Stichting Taijiquan Nederland
  |url=https://www.chenghsin.nl/wp-content/uploads/2020/04/Tai-Chi-Interview-met-Peter-Ralston.pdf}}</ref>
 
+Among the aikido teachers who trained under Ralston is Patrick
+Cassidy, who studied seven years under [[Morihiro Saito]] in Japan and
+later founded Aikido Montreux in Switzerland.<ref
+name="cassidy">{{cite web |last=Cassidy |first=Patrick
+ |title=Aikido: Past, Present and Future |work=Aikido Journal
+ |date=2020-12-16
+ |url=https://aikidojournal.com/2020/12/16/aikido-past-present-and-future/
+ |access-date=2026-09-26 |quote=continued his training with Peter
+ Ralston, Robert Nadeau Shihan and Richard Moon Sensei}}</ref>
+
 == Selected works ==
 
 <!-- Selected list; fuller bibliography on the official site (see External links).
