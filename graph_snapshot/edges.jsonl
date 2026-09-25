@@ -5238,6 +5238,8 @@
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ABOUT", "src_id": "claim:cff3b5e2edeb1b1f"}
 {"dst_id": "person:electricity-aquarian", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family"}, "rel_type": "ASSERTED_BY", "src_id": "claim:cff3b5e2edeb1b1f"}
 {"dst_id": "claim:ca562c81c6adefce", "metadata": {"reason": "opposite stances: critical vs supportive"}, "rel_type": "CONTRADICTS", "src_id": "claim:cff3b5e2edeb1b1f"}
+{"dst_id": "event:peter-ralston-wins-world-championship", "metadata": {"note": "independent 'world martial arts champion' billing"}, "rel_type": "ABOUT", "src_id": "claim:chronicle:ralston-world-champion-oakland-academy"}
+{"dst_id": "person:peter-ralston", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:chronicle:ralston-world-champion-oakland-academy"}
 {"dst_id": "event:peace-building-initiatives-of-richard-moon-with-louise-diamond", "metadata": {"evidence": "https://thetaichinotebook.com/2026/01/31/the-first-podcast-of-2026-quantum-aikido-with-richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:citation:2dd618d53cb7adba"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "https://thetaichinotebook.com/2026/01/31/the-first-podcast-of-2026-quantum-aikido-with-richard-moon/"}, "rel_type": "ABOUT", "src_id": "claim:citation:2dd618d53cb7adba"}
 {"dst_id": "work:cf339d689b742d52", "metadata": {"evidence": "https://thetaichinotebook.com/2026/01/31/the-first-podcast-of-2026-quantum-aikido-with-richard-moon/"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:citation:2dd618d53cb7adba"}
@@ -6253,6 +6255,7 @@
 {"dst_id": "work:npc-1223363307", "metadata": {}, "rel_type": "SUPPORTED_BY", "src_id": "claim:nadeau-redwood-city-police"}
 {"dst_id": "dojo:aikido-of-tamalpais", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:palmer-nadeau-tamalpais"}
 {"dst_id": "person:wendy-palmer", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:palmer-nadeau-tamalpais"}
+{"dst_id": "work:parade-significa-yankee-judo-dandy-1982", "metadata": {"note": "documents the item's national syndicated reach"}, "rel_type": "ABOUT", "src_id": "claim:parade-significa-1982-syndication"}
 {"dst_id": "event:peter-ralston-wins-world-championship", "metadata": {"stance": "supports"}, "rel_type": "ABOUT", "src_id": "claim:parade:ralston-1978-championship"}
 {"dst_id": "person:peter-ralston", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:parade:ralston-1978-championship"}
 {"dst_id": "person:peter-ralston", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:parade:ralston-early-life-and-insight"}
@@ -6344,6 +6347,8 @@
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"}, "rel_type": "ABOUT", "src_id": "claim:search:nadeau-millman-student"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"}, "rel_type": "ABOUT", "src_id": "claim:search:nadeau-moon-student"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"}, "rel_type": "ABOUT", "src_id": "claim:search:nadeau-moon-student"}
+{"dst_id": "event:peter-ralston-wins-world-championship", "metadata": {"note": "names the tournament + weight class, contemporaneous"}, "rel_type": "ABOUT", "src_id": "claim:tribune:ralston-1978-kuoshu-light-heavyweight"}
+{"dst_id": "person:peter-ralston", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:tribune:ralston-1978-kuoshu-light-heavyweight"}
 {"dst_id": "person:meg-wheatley", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:wheatley-used-thorsen-moon"}
 {"dst_id": "person:christopher-thorsen", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:wheatley-used-thorsen-moon"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:wheatley-used-thorsen-moon"}
@@ -15894,6 +15899,10 @@
 {"dst_id": "person:sky-saxon", "metadata": {"type": "subject"}, "rel_type": "MENTIONS", "src_id": "source:pbs-artbound-new-aquarians"}
 {"dst_id": "group:city-aikido", "metadata": {"note": "'A community inspired by the teachings of Robert Nadeau Shihan and his process of personal development through Aikido'; 976 followers; direct-browsed Sep 2026"}, "rel_type": "DESCRIBES", "src_id": "src:fb-city-aikido-page"}
 {"dst_id": "person:robert-nadeau", "metadata": {"note": "Page bills Nadeau Shihan as the inspiring teacher of the City Aikido community"}, "rel_type": "DESCRIBES", "src_id": "src:fb-city-aikido-page"}
+{"dst_id": "event:peter-ralston-wins-world-championship", "metadata": {}, "rel_type": "ABOUT", "src_id": "src:oakland-tribune-1978-04-12"}
+{"dst_id": "person:peter-ralston", "metadata": {}, "rel_type": "ABOUT", "src_id": "src:oakland-tribune-1978-04-12"}
+{"dst_id": "event:peter-ralston-wins-world-championship", "metadata": {}, "rel_type": "ABOUT", "src_id": "src:sf-chronicle-1979-09-19"}
+{"dst_id": "person:peter-ralston", "metadata": {}, "rel_type": "ABOUT", "src_id": "src:sf-chronicle-1979-09-19"}
 {"dst_id": "work:023add372f9f9222", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on http://www.culteducation.com/faq.html"}, "rel_type": "MENTIONS", "src_id": "work:00b9d3220d817d05"}
 {"dst_id": "work:029e6c1619ddd274", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on http://www.culteducation.com/faq.html"}, "rel_type": "MENTIONS", "src_id": "work:00b9d3220d817d05"}
 {"dst_id": "work:04f96e9bc59e5cdd", "metadata": {"discovery_method": "reference_discoverer", "evidence": "Link found on http://www.culteducation.com/faq.html"}, "rel_type": "MENTIONS", "src_id": "work:00b9d3220d817d05"}

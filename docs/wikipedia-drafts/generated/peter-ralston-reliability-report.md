@@ -2,10 +2,12 @@
 
 ## Notability check
 
-- RELIABLE independent secondary sources with significant coverage: 3
-  - books.google.com (https://books.google.com/books?id=w9QDAAAAMBAJ)
+- RELIABLE independent secondary sources with significant coverage: 5
+  - Oakland Tribune (https://www.newspapers.com/image/735945355/)
+  - Black Belt magazine (Google Books scan) (https://books.google.com/books?id=w9QDAAAAMBAJ)
+  - San Francisco Chronicle (https://www.newspapers.com/image/1223258844/)
   - Parade magazine (syndicated Sunday supplement) (https://archive.org/details/assassxxxxxx00linc)
-  - doczz.net (https://doczz.net/doc/3878299/effortless-grab-defences)
+  - Blitz Australasian Martial Arts (doczz.net issue scan) (https://doczz.net/doc/3878299/effortless-grab-defences)
 
 - WP:GNG status: **PASS**
 
@@ -15,12 +17,14 @@
 
 | # | Source | Domain | SRS | Tier | Citable? | Reason |
 |---|--------|--------|-----|------|----------|--------|
-| 1 | Black Belt Magazine, December 1978 (Vol. | books.google.com | 75 | RELIABLE | Yes | dr=40 rsp=0 sc=25 ind=10 |
-| 2 | Significa — 'Yankee Judo Dandy' (Parade  | archive.org | 75 | RELIABLE | Yes | dr=40 rsp=0 sc=25 ind=10 |
-| 3 | Blitz Magazine, August 2011 (Vol. 25, No | doczz.net | 70 | RELIABLE | Yes | dr=35 rsp=0 sc=25 ind=10 |
-| 4 | Interview with Peter Ralston (Tai Chi Ch | tqj.de | 65 | MARGINAL | Yes | dr=35 rsp=0 sc=20 ind=10 |
-| 5 | Peter Ralston Cheng Hsin — USAdojo.com P | usadojo.com | 50 | MARGINAL | Yes | dr=15 rsp=0 sc=25 ind=10 |
-| 6 | Tai Chi Interview met Peter Ralston (Tai | chenghsin.nl | 50 | MARGINAL | Yes | dr=20 rsp=0 sc=20 ind=10 |
+| 1 | 'Sweeping Up' sports column — Peter Rals | newspapers.com | 75 | RELIABLE | Yes | dr=40 rsp=0 sc=25 ind=10 |
+| 2 | Black Belt Magazine, December 1978 (Vol. | books.google.com | 75 | RELIABLE | Yes | dr=40 rsp=0 sc=25 ind=10 |
+| 3 | 'Parrying the Martial Arts Ripoff' — Bay | newspapers.com | 75 | RELIABLE | Yes | dr=40 rsp=0 sc=25 ind=10 |
+| 4 | Significa — 'Yankee Judo Dandy' (Parade  | archive.org | 75 | RELIABLE | Yes | dr=40 rsp=0 sc=25 ind=10 |
+| 5 | Blitz Magazine, August 2011 (Vol. 25, No | doczz.net | 70 | RELIABLE | Yes | dr=35 rsp=0 sc=25 ind=10 |
+| 6 | Interview with Peter Ralston (Tai Chi Ch | tqj.de | 65 | MARGINAL | Yes | dr=35 rsp=0 sc=20 ind=10 |
+| 7 | Peter Ralston Cheng Hsin — USAdojo.com P | usadojo.com | 50 | MARGINAL | Yes | dr=15 rsp=0 sc=25 ind=10 |
+| 8 | Tai Chi Interview met Peter Ralston (Tai | chenghsin.nl | 50 | MARGINAL | Yes | dr=20 rsp=0 sc=20 ind=10 |
 
 ## Needs support
 
@@ -66,39 +70,41 @@ Three temporal dimensions are tracked for each source:
 
 | # | Source | Event date | Recorded date | Retrieved | Conflicts |
 |---|--------|------------|---------------|-----------|-----------|
-| 1 | Black Belt Magazine, December 1978  | 1978-12 | 1978-12 | 2026-09-10 | — |
-| 2 | Significa — 'Yankee Judo Dandy' (Pa | n.d. | 1982-03-07 | 2026-09-25 | — |
-| 3 | Blitz Magazine, August 2011 (Vol. 2 | 1978 | 2011-08 | 2026-09-10 | alternative date 2011-08 (month): source title: 'August 2011' |
-| 4 | Interview with Peter Ralston (Tai C | n.d. | n.d. | 2026-09-10 | — |
-| 5 | Peter Ralston Cheng Hsin — USAdojo. | 1975 | 2000-11-02 | 2026-09-10 | alternative date 1977 (year): source text: '1977'; alternative date 1978 (year): |
-| 6 | Tai Chi Interview met Peter Ralston | n.d. | n.d. | 2026-09-10 | — |
-| 7 | Episode 672 - Mr. Dan Millman — whi | n.d. | n.d. | 2026-09-08 | — |
-| 8 | Robert Nadeau Shihan | n.d. | n.d. | 2026-09-10 | — |
-| 9 | Origins Interview with Peter Ralsto | 1978 | n.d. | 2026-09-10 | — |
-| 10 | Peter Ralston Shares Profound Insig | 1978 | 2025-06-18 | 2026-09-10 | — |
-| 11 | Peter Ralston Shares Profound Insig | 2025-06 | 2025-06-09 | 2026-09-10 | — |
-| 12 | Peter Ralston — Academic Dictionari | n.d. | n.d. | 2026-09-24 | — |
-| 13 | Zen in the Martial Arts — AWMA Blog | 1978 | 1978 | 2026-09-24 | — |
-| 14 | Our Shared Reality is Made Up — Pet | n.d. | n.d. | 2026-09-24 | — |
-| 15 | Honesty — Peter Ralston interview | n.d. | n.d. | 2026-09-24 | — |
-| 16 | Improving Relationships — Peter Ral | n.d. | n.d. | 2026-09-24 | — |
-| 17 | Perception is Based On Survival — P | n.d. | n.d. | 2026-09-24 | — |
-| 18 | Peter Ralston — Chris Remspecher Bl | n.d. | n.d. | 2026-09-24 | — |
-| 19 | History — Taijiquan Association Net | 1978 | 1978 | 2026-09-24 | — |
-| 20 | Peter Ralston - Wikitia | 1978 | n.d. | 2026-09-10 | alternative date 1978-12 (month): source text: 'December 1978'; alternative date |
-| 21 | Cheng Hsin: The Principles of Effor | 1999-01 | n.d. | 2026-09-10 | — |
-| 22 | Authors — Robert Nadeau Shihan (Bob | n.d. | n.d. | 2026-09-24 | — |
-| 23 | Cheng Hsin Montage - Promoting Chen | 2026 | n.d. | 2026-09-10 | — |
-| 24 | The Book of Not Knowing — Amazon | n.d. | n.d. | 2026-09-24 | — |
-| 25 | DAOI Talks (21): Body Being, Martia | 2026 | n.d. | 2026-09-10 | — |
-| 26 | Richard Moon | Official Publisher P | 1969 | n.d. | 2026-09-10 | alternative date 1971 (year): source text: '1971' |
-| 27 | Peter Ralston — Penguin Books New Z | 1975 | n.d. | 2026-09-10 | — |
-| 28 | Peter Ralston — Inner Traditions | 1978 | n.d. | 2026-09-10 | — |
-| 29 | Peter Ralston — Simon & Schuster Au | 1978 | n.d. | 2026-09-10 | — |
-| 30 | Books and More — Peter Ralston | n.d. | n.d. | 2026-09-08 | — |
-| 31 | Who is Peter Ralston? — Cheng Hsin | n.d. | n.d. | 2026-09-08 | — |
-| 32 | Open Library: Peter Ralston books | n.d. | n.d. | 2026-09-08 | — |
-| 33 | Peter Ralston Holland Interview (20 | 2016 | 2016 | 2026-09-10 | alternative date 2016 (year): source text: '2016'; alternative date 2017 (year): |
+| 1 | 'Sweeping Up' sports column — Peter | 1978 | 1978-04-12 | 2026-09-25 | — |
+| 2 | Black Belt Magazine, December 1978  | 1978-12 | 1978-12 | 2026-09-10 | — |
+| 3 | 'Parrying the Martial Arts Ripoff'  | 1979-09 | 1979-09-19 | 2026-09-25 | alternative date 1979-09-19 (day): claim text: '1979-09-19' |
+| 4 | Significa — 'Yankee Judo Dandy' (Pa | n.d. | 1982-03-07 | 2026-09-25 | — |
+| 5 | Blitz Magazine, August 2011 (Vol. 2 | 1978 | 2011-08 | 2026-09-10 | alternative date 2011-08 (month): source title: 'August 2011' |
+| 6 | Interview with Peter Ralston (Tai C | n.d. | n.d. | 2026-09-10 | — |
+| 7 | Peter Ralston Cheng Hsin — USAdojo. | 1975 | 2000-11-02 | 2026-09-10 | alternative date 1977 (year): source text: '1977'; alternative date 1978 (year): |
+| 8 | Tai Chi Interview met Peter Ralston | n.d. | n.d. | 2026-09-10 | — |
+| 9 | Episode 672 - Mr. Dan Millman — whi | n.d. | n.d. | 2026-09-08 | — |
+| 10 | Robert Nadeau Shihan | n.d. | n.d. | 2026-09-10 | — |
+| 11 | Origins Interview with Peter Ralsto | 1978 | n.d. | 2026-09-10 | — |
+| 12 | Peter Ralston Shares Profound Insig | 1978 | 2025-06-18 | 2026-09-10 | — |
+| 13 | Peter Ralston Shares Profound Insig | 2025-06 | 2025-06-09 | 2026-09-10 | — |
+| 14 | Peter Ralston — Academic Dictionari | n.d. | n.d. | 2026-09-24 | — |
+| 15 | Zen in the Martial Arts — AWMA Blog | 1978 | 1978 | 2026-09-24 | — |
+| 16 | Our Shared Reality is Made Up — Pet | n.d. | n.d. | 2026-09-24 | — |
+| 17 | Honesty — Peter Ralston interview | n.d. | n.d. | 2026-09-24 | — |
+| 18 | Improving Relationships — Peter Ral | n.d. | n.d. | 2026-09-24 | — |
+| 19 | Perception is Based On Survival — P | n.d. | n.d. | 2026-09-24 | — |
+| 20 | Peter Ralston — Chris Remspecher Bl | n.d. | n.d. | 2026-09-24 | — |
+| 21 | History — Taijiquan Association Net | 1978 | 1978 | 2026-09-24 | — |
+| 22 | Peter Ralston - Wikitia | 1978 | n.d. | 2026-09-10 | alternative date 1978-12 (month): source text: 'December 1978'; alternative date |
+| 23 | Cheng Hsin: The Principles of Effor | 1999-01 | n.d. | 2026-09-10 | — |
+| 24 | Authors — Robert Nadeau Shihan (Bob | n.d. | n.d. | 2026-09-24 | — |
+| 25 | Cheng Hsin Montage - Promoting Chen | 2026 | n.d. | 2026-09-10 | — |
+| 26 | The Book of Not Knowing — Amazon | n.d. | n.d. | 2026-09-24 | — |
+| 27 | DAOI Talks (21): Body Being, Martia | 2026 | n.d. | 2026-09-10 | — |
+| 28 | Richard Moon | Official Publisher P | 1969 | n.d. | 2026-09-10 | alternative date 1971 (year): source text: '1971' |
+| 29 | Peter Ralston — Penguin Books New Z | 1975 | n.d. | 2026-09-10 | alternative date 1975 (year): claim text: '1975' |
+| 30 | Peter Ralston — Inner Traditions | 1978 | n.d. | 2026-09-10 | — |
+| 31 | Peter Ralston — Simon & Schuster Au | 1978 | n.d. | 2026-09-10 | — |
+| 32 | Books and More — Peter Ralston | n.d. | n.d. | 2026-09-08 | — |
+| 33 | Who is Peter Ralston? — Cheng Hsin | n.d. | n.d. | 2026-09-08 | — |
+| 34 | Open Library: Peter Ralston books | n.d. | n.d. | 2026-09-08 | — |
+| 35 | Peter Ralston Holland Interview (20 | 2016 | 2016 | 2026-09-10 | alternative date 2016 (year): source text: '2016'; alternative date 2017 (year): |
 
 ### Date provenance
 
@@ -118,16 +124,16 @@ Three temporal dimensions are tracked for each source:
 
 3 claim(s) have no linked source in the graph. These need source verification before they can be cited.
 - `work:parade-significa-yankee-judo-dandy-1982`: Yankee Judo Dandy — Significa, Parade (March 7, 1982)
-- `claim:ralston-wikipedia-gap`: Peter Ralston has no Wikipedia page despite clear notability (martial arts pioneer, author of 9+ boo
 - `claim:search:nadeau-millman-student`: Dan Millman is a notable student of Robert Nadeau (Wikipedia + multiple sources)
+- `claim:ralston-wikipedia-gap`: Peter Ralston has no Wikipedia page despite clear notability (martial arts pioneer, author of 9+ boo
 
 ---
 
 ## Graph evidence summary
 
 - Total matched nodes: 42
-- Total claims collected: 45
-- Total sources scored: 33
-- Citable sources (SRS >= 50): 6
-- RELIABLE sources (SRS >= 70): 3
-- Independent RELIABLE sources: 3
+- Total claims collected: 48
+- Total sources scored: 35
+- Citable sources (SRS >= 50): 8
+- RELIABLE sources (SRS >= 70): 5
+- Independent RELIABLE sources: 5

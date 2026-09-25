@@ -786,6 +786,7 @@
 {"claim_id": "claim:cfdb75a30380767d", "quote_span_end": null, "quote_span_start": null, "source_id": "work:e9f954a4f17fd9ec"}
 {"claim_id": "claim:cfea9644413933ee", "quote_span_end": null, "quote_span_start": null, "source_id": "work:ab260c68c6cd27d4"}
 {"claim_id": "claim:cff3b5e2edeb1b1f", "quote_span_end": null, "quote_span_start": null, "source_id": "work:1e03e9ebf75ff821"}
+{"claim_id": "claim:chronicle:ralston-world-champion-oakland-academy", "quote_span_end": null, "quote_span_start": null, "source_id": "src:sf-chronicle-1979-09-19"}
 {"claim_id": "claim:citation:2dd618d53cb7adba", "quote_span_end": null, "quote_span_start": null, "source_id": "work:cf339d689b742d52"}
 {"claim_id": "claim:citation:583b893760f88efa", "quote_span_end": null, "quote_span_start": null, "source_id": "work:0359843f058e0a76"}
 {"claim_id": "claim:citation:8b3e7a083f57ed92", "quote_span_end": null, "quote_span_start": null, "source_id": "work:3ceaefb5ffac8d5b"}
@@ -997,6 +998,8 @@
 {"claim_id": "claim:kkron:bc1a0f29158e98d7", "quote_span_end": null, "quote_span_start": null, "source_id": "work:kkron-personal-communication"}
 {"claim_id": "claim:kkron:d357c59ad9199e69", "quote_span_end": null, "quote_span_start": null, "source_id": "work:kkron-personal-communication"}
 {"claim_id": "claim:kkron:f27d36ff1e898050", "quote_span_end": null, "quote_span_start": null, "source_id": "work:kkron-personal-communication"}
+{"claim_id": "claim:parade-significa-1982-syndication", "quote_span_end": null, "quote_span_start": null, "source_id": "src:parade-significa-1982-03-07"}
+{"claim_id": "claim:parade:ralston-1978-championship", "quote_span_end": null, "quote_span_start": null, "source_id": "src:oakland-tribune-1978-04-12"}
 {"claim_id": "claim:parade:ralston-1978-championship", "quote_span_end": null, "quote_span_start": null, "source_id": "src:parade-significa-1982-03-07"}
 {"claim_id": "claim:parade:ralston-early-life-and-insight", "quote_span_end": null, "quote_span_start": null, "source_id": "src:parade-significa-1982-03-07"}
 {"claim_id": "claim:pbs-artbound-2012-billy-corgan-aquarian-name-shmuel", "quote_span_end": null, "quote_span_start": null, "source_id": "source:pbs-artbound-new-aquarians"}
@@ -1013,7 +1016,10 @@
 {"claim_id": "claim:pbs-artbound-2012-new-aquarians-postmodern-movement", "quote_span_end": null, "quote_span_start": null, "source_id": "source:pbs-artbound-new-aquarians"}
 {"claim_id": "claim:pbs-artbound-2012-sky-saxon-source-family-member", "quote_span_end": null, "quote_span_start": null, "source_id": "source:pbs-artbound-new-aquarians"}
 {"claim_id": "claim:pbs-artbound-2012-yahowha13-reunion-echoplex-2007", "quote_span_end": null, "quote_span_start": null, "source_id": "source:pbs-artbound-new-aquarians"}
+{"claim_id": "claim:ralston-1978-world-championship", "quote_span_end": null, "quote_span_start": null, "source_id": "src:oakland-tribune-1978-04-12"}
 {"claim_id": "claim:ralston-1978-world-championship", "quote_span_end": null, "quote_span_start": null, "source_id": "src:parade-significa-1982-03-07"}
+{"claim_id": "claim:ralston-1978-world-championship", "quote_span_end": null, "quote_span_start": null, "source_id": "src:sf-chronicle-1979-09-19"}
+{"claim_id": "claim:tribune:ralston-1978-kuoshu-light-heavyweight", "quote_span_end": null, "quote_span_start": null, "source_id": "src:oakland-tribune-1978-04-12"}
 {"claim_id": "claim:yoga-abuse-amma-fd3727e6", "quote_span_end": null, "quote_span_start": null, "source_id": "source:googlesheets:yoga-abuse-research"}
 {"claim_id": "claim:yoga-abuse-amma-fd3727e6", "quote_span_end": null, "quote_span_start": null, "source_id": "source:reddit:yoga-1mxe4ua"}
 {"claim_id": "claim:yoga-abuse-amma-fd3727e6", "quote_span_end": null, "quote_span_start": null, "source_id": "source:yoga-ammas-empire-sex-lies-hugs-scofield-arti-5c02d996"}

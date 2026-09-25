@@ -66,16 +66,30 @@ California.<ref name="usadojo"/>
 
 === 1978 world championship ===
 
-In 1978 Ralston won the World Championship full-contact martial arts
-tournament held in Taiwan, the first non-Asian competitor to win the
-event.<ref name="cressy"/><ref name="significa"/><ref name="blitz"/>
+In 1978 Ralston won the light-heavyweight title at the Second World Kuoshu
+Martial Arts Tournament in Taiwan.<ref name="tribune1978">{{cite news
+ |title=Sweeping Up |newspaper=[[Oakland Tribune]] |date=April 12, 1978
+ |page=25 |url=https://www.newspapers.com/image/735945355/
+ |via=[[Newspapers.com]]}}</ref> The ''Oakland Tribune'' reported weeks
+after the event that he was "the first American ever to win a championship"
+at the tournament;<ref name="tribune1978"/> later accounts, beginning with
+a contemporaneous feature in ''Black Belt'' magazine, describe him as the
+first non-Asian competitor to win the event.<ref name="cressy"/><ref
+name="significa"/><ref name="blitz"/> The ''[[San Francisco Chronicle]]''
+billed him as "World martial arts champion" in a 1979 feature on Bay Area
+martial-arts schools, photographing him leading a class at his Cheng Hsin
+academy in Oakland.<ref name="chronicle1979">{{cite news |last=Rapoport
+ |first=Roger |title=Parrying the Martial Arts Ripoff
+ |newspaper=[[San Francisco Chronicle]] |date=September 19, 1979 |page=4
+ |url=https://www.newspapers.com/image/1223258844/
+ |via=[[Newspapers.com]]}}</ref>
 ''Parade''{{'}}s account — which likened the tournament to the fictional
 free-form competition depicted in [[Bruce Lee]]'s ''[[Enter the Dragon]]'' —
 described Ralston as "a 28-year-old blond native of San Francisco,"
 5&nbsp;ft&nbsp;10&nbsp;in (1.78&nbsp;m) tall and 156&nbsp;lb (71&nbsp;kg), and
 reported that "the Asian martial arts world was stunned."<ref
 name="significa"/> In a 2011 retrospective, ''Blitz'' profiled him under the
-headline "The Man Behind Bloodsport."<ref name="blitz"/>
+headline "The Man Behind Bloodsport?"<ref name="blitz"/>
 
 == Teaching and writing ==
 
@@ -137,4 +151,26 @@ name="taijivizier">{{cite interview |last=Ralston |first=Peter
   bios; needs a direct check of the Black Belt/Blitz text before use.
 - The Blitz piece is hosted on doczz.net (document mirror); the underlying
   publication is the edited Australasian magazine — the citation names the
-  magazine, the URL is access-only.
+  magazine, the URL is access-only. The publisher's own reproduction is
+  archived at web.archive.org (blitzmag.net, captures 2014–2016); the
+  article title carries a question mark: "The Man Behind Bloodsport?"
+- **"First American" vs "first non-Asian"** — the contemporaneous Oakland
+  Tribune item (1978-04-12) says "first American ever to win a
+  championship"; the non-Asian framing appears from the Black Belt feature
+  onward. Draft keeps both framings attributed rather than silently
+  upgrading the contemporaneous wording.
+- **Black Belt byline** — the Google Books scan OCRs the author as "Scott
+  Cressey"; secondary references (e.g. the deleted Wikipedia article's
+  citation) give "Cressy". Verify against the page image before finalizing.
+- **Tournament name** — contemporaneous sources call it the "Second World
+  Kuoshu Martial Arts Tournament" (Tribune) / "Second World Championship
+  Chinese Martial Arts (kuoshu) Tournament" (Black Belt), near Taipei —
+  not a generic "world championship." Weight class: light-heavyweight
+  (Tribune; consistent with Parade's 156 lb).
+- **Parade syndication verified** — ~60 newspapers.com-indexed papers
+  carried the identical Significa page on Sunday 1982-03-07; the Journal
+  Star (Peoria) OCR matches the clipbook scan verbatim.
+- **Still unverified**: the November 1979 *East West Journal* interview
+  quoted by later bios ("One of the fundamental reasons I fought in a
+  world tournament…"). Not on Internet Archive or newspapers.com; needs a
+  library/microfilm check before use.
