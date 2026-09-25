@@ -13,7 +13,9 @@
 - **Mode**: **AfC + talk page** — AfD history makes mainspace recreation
   G4-eligible; COI (requester authored the deleted article) requires
   uninvolved-editor review. `direct_edit` unavailable.
-- **GNG**: PASS — 5 independent sources cover the 1978 championship:
+- **GNG**: PASS (internal assessment — submission wording asks reviewers
+  to judge, does not claim it) — 5 independent sources cover the 1978
+  championship:
   *Oakland Tribune* Apr 1978 + *Black Belt* Dec 1978 (both contemporaneous),
   *SF Chronicle* Sep 1979, *Parade* Mar 1982, *Blitz* Aug 2011.
 - **Source verification (2026-09-25)**: Black Belt verified in the Google
@@ -39,16 +41,22 @@
 
 ## Open items before any submission
 
-- Verify Black Belt byline spelling against the page image (scan OCRs
-  "Cressey"; secondary refs give "Cressy").
-- Resolve ambiguous birth year (Parade and the Oakland Tribune both say
-  "28" — 1978 report makes ~1949–50 the better reading, vs. 1953–54 from
-  derivative bios). Currently `Year of birth missing`.
-- Verify deaths-in-tournament claim against Black Belt/Blitz directly.
+Sourcing-checklist gaps (full status in `peter-ralston-talk.md` §5):
+
+- **Tournament organizer/governing body** unidentified — likely the ROC /
+  World Kuoshu federation; needs a primary check (checklist F).
+- Verify Black Belt byline against the page image (scan OCRs "Cressey";
+  secondary refs give "Cressy") and map every paragraph covering Ralston
+  directly (A).
+- Full read of the Blitz piece — edited interview vs. promotional, and
+  whether it relies on Ralston's own account for the 1978 result (B).
 - Locate Nov 1979 *East West Journal* interview via library/microfilm
-  (WorldCat holdings) before using the quoted passage.
-- Reviewer question: is doczz.net an acceptable access link for the Blitz
-  article (Wayback blitzmag.net capture available as alternative); is the
-  IA Lincoln-clipbook scan acceptable provenance for the Parade page
-  (newspapers.com prints available as corroboration).
+  (D). "Karate Illustrated 1981" citation also unverified (D).
+- WorldCat/library-catalogue pass for books or edited volumes discussing
+  Ralston substantially (D).
+- Birth year: contemporaneous Tribune + Parade both say "28" in/around
+  1978 → ~1949–50, but kept as `Year of birth missing`.
+- Submission wording asks reviewers to **assess** GNG — the draft does
+  not claim it is satisfied (checklist G; talk §4 "Request for
+  assessment").
 - Nothing is posted to Wikipedia — drafts await operator review.

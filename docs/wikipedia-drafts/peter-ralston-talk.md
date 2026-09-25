@@ -88,6 +88,14 @@ uncontroversial attributed detail and the bibliography.
   (blitzmag.net, captures 2014–2016); issue identity confirmed by the
   MA-Mags index (Vol 25 No 8 = Aug 2011); doczz.net hosts the issue scan.
 
+### Request for assessment
+
+This draft is submitted for reviewer judgment, not as a claim that the
+subject meets WP:GNG. I ask editors to assess whether the sourcing above
+satisfies the notability and sourcing standards, and whether any claim
+should be attributed, trimmed, or removed. The sourcing checklist in
+§5 records what has been verified and what remains open.
+
 ### Open questions to reviewers
 
 1. Does the combination — contemporaneous newspaper report + same-year
@@ -105,7 +113,135 @@ uncontroversial attributed detail and the bibliography.
 See `docs/wikipedia-drafts/peter-ralston-wikimarkup.md` (full wikitext
 in a fenced block, ready for `Draft:Peter Ralston (martial artist)`).
 
-## 5. Policy checklist
+## 5. Sourcing checklist — status
+
+Per the final sourcing checklist. `[x]` verified, `[~]` partial,
+`[ ]` open.
+
+### A. Black Belt, December 1978
+
+- [x] Obtain the complete issue or a library-quality scan — Google Books
+  scan of the issue is searchable (id `w9QDAAAAMBAJ`)
+- [x] Confirm the exact article title — "Cheng Hsin: Essence of All
+  Martial Arts"; byline OCRs "**Cressey**" (secondary refs give
+  "Cressy" — page-image check still wanted)
+- [x] Confirm volume, issue number, and pages 46–49 — Vol. 16, No. 12,
+  Dec 1978
+- [x] Determine whether Ralston is the principal subject — the feature
+  opens on his win and continues on his art; substantial coverage
+- [~] Mark every paragraph that discusses Ralston directly — snippets on
+  pp. 46/48/49 confirmed; full paragraph map pending page images
+- [x] Record whether the article independently calls the event a world
+  championship — yes: "Second World Championship Chinese Martial Arts
+  (kuoshu) Tournament"
+- [~] Record the event name, location, date, rules, organizer, and result
+  exactly as printed — name + "outside Taipei" + "earlier this year"
+  recorded; rules/organizer not yet extracted
+- [x] Separate what the article states from later claims made by Ralston
+  or his organization — done in drafting; self-pub claims attributed
+- [ ] Assess whether the coverage is substantial enough to support GNG —
+  left for reviewers (see §4 Request for assessment)
+
+### B. Blitz, August 2011
+
+- [x] Obtain the original issue or a stable scan — doczz.net issue scan;
+  Wayback captures of the official blitzmag.net reproduction (2014–16)
+- [x] Confirm volume 25, issue 8, page 70 — Vol 25 No 8 via scan cover +
+  MA-Mags index; article pp. 70–74
+- [x] Confirm the article title — "**The Man Behind Bloodsport?**" (with
+  question mark, per publisher reproduction)
+- [x] Record the author or interviewer — Mark Grzic
+- [~] Determine whether it is an edited interview, profile, or
+  promotional article — reported profile with interview elements;
+  full read pending
+- [x] Count or estimate the amount of direct coverage of Ralston —
+  ~4–5 pages (pp. 70–74)
+- [ ] Check whether the article relies on Ralston's own account for the
+  1978 result — open; it hedges ("It's said…") on the Bloodsport link
+- [x] Cite the Fit Multimedia index only as a finding aid unless the
+  article itself is accessible there — noted; Fit Multimedia reproduces
+  Blitz content but is used only as an index
+
+### C. Parade, March 7, 1982
+
+- [x] Locate a direct Parade scan, newspaper database copy, or library
+  record — ~60 newspapers.com papers carried the identical page that
+  Sunday; Journal Star (Peoria) npc-1349528770 OCRs it verbatim
+- [x] Confirm the headline, author, page, and publication date —
+  "Yankee Judo Dandy," Wallace/Wallechinsky/Wallace, p. 18, 1982-03-07
+- [x] Verify that the Internet Archive clipbook reproduces the original
+  page — verbatim match against the newspaper prints confirmed
+- [x] Record whether the article profiles Ralston or merely mentions the
+  tournament — a ~200-word trivia item naming him the 1978 winner with
+  an original interview quote; substantial mention, not a full profile
+- [x] Preserve the archive URL and page number — IA
+  `assassxxxxxx00linc` p.19 (printed p.18) + newspaper image links
+
+### D. Additional independent profiles
+
+- [~] Search East West Journal, especially November 1979 — not on IA or
+  newspapers.com; library/microfilm lookup still needed
+- [x] Search newspaper databases from 1975–1990 — found Oakland Tribune
+  1978-04-12 and SF Chronicle 1979-09-19; 129-hit corpus triaged
+- [x] Search contemporary martial-arts magazines other than Black Belt
+  and Blitz — none found to date; "Karate Illustrated 1981" appears in
+  old citations but is unverified (lead)
+- [x] Search general-interest publications — Parade located; general
+  web corpus otherwise thin
+- [ ] Search library catalogues for books or edited volumes that discuss
+  Ralston substantially — open (WorldCat pass pending)
+- [~] Verify whether any academic or journalistic source discusses
+  Ralston independently — the five current sources are journalistic and
+  independent; no academic coverage found
+
+### E. Independence audit
+
+- [x] Mark each source as independent, affiliated, self-published, or
+  derivative — done in §3 sort and the reliability report
+- [x] Do not count Cheng Hsin, Peter Ralston's websites, or his own
+  interviews as independent notability sources — excluded from GNG count
+- [x] Treat Penguin's author biography as affiliated publisher material —
+  marked affiliated
+- [x] Treat USAdojo and similar martial-arts profiles as secondary
+  leads, not decisive GNG evidence — used only for attributed detail
+- [x] Do not count multiple websites that repeat the same biography as
+  separate confirmations — derivative bios excluded (wikitia,
+  en-academic, readershouse, novelistpost)
+
+### F. World-championship claim
+
+- [x] Identify the official name of the 1978 event — "Second World
+  Kuoshu Martial Arts Tournament" (Tribune) / "Second World Championship
+  Chinese Martial Arts (kuoshu) Tournament" (Black Belt)
+- [ ] Identify the organizer or governing body — open; likely the
+  Republic of China / World Kuoshu federation — needs a primary check
+- [x] Verify the location and date — Taipei area, early 1978
+  ("earlier this year" per Dec 1978 issue; Tribune reports Apr 12, 1978)
+- [~] Verify the rules and division in which Ralston competed —
+  light-heavyweight confirmed (Tribune); rules not recorded
+- [x] Determine whether "world championship" was the contemporary
+  official title or a later description — contemporaneous sources use
+  "World Kuoshu / World Championship" variants; recorded verbatim
+- [x] Do not state "first non-Asian" unless an independent source
+  supports it — supported by Black Belt + Parade; Tribune's "first
+  American" framing kept separate and attributed
+- [x] If the claim cannot be independently verified, attribute it or
+  omit it — all framings attributed; nothing asserted in wiki-voice
+
+### G. Wikipedia submission
+
+- [x] Use inline citations for every contested or likely-to-be-contested
+  claim
+- [x] Cite page numbers for print sources — pp. 46–49, p. 18, pp. 70–74,
+  p. 25, p. 4
+- [x] Use neutral wording and avoid promotional descriptions
+- [x] Do not claim that GNG is satisfied; ask reviewers to assess it —
+  §4 "Request for assessment"
+- [x] Submit through AfC or another uninvolved-editor review process
+  because of COI
+- [x] Keep the COI disclosure on the draft talk page
+
+## 6. Policy checklist
 
 - **WP:V** — every factual sentence carries an inline citation to a
   source that supports that exact claim; quotes are quoted in the source.
