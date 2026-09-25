@@ -1,0 +1,10 @@
+{
+ "subject": "richard moon",
+ "query": "richard moon",
+ "domain": "elephantjournal.com",
+ "tier": "MARGINAL",
+ "collection_type": "web_search_fallback",
+ "pending_queries": [
+  "site:elephantjournal.com \"richard moon\""
+ ]
+}

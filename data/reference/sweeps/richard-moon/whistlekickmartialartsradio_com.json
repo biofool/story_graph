@@ -1,0 +1,10 @@
+{
+ "subject": "richard moon",
+ "query": "richard moon",
+ "domain": "whistlekickmartialartsradio.com",
+ "tier": "MID_TIER",
+ "collection_type": "web_search_fallback",
+ "pending_queries": [
+  "site:whistlekickmartialartsradio.com \"richard moon\""
+ ]
+}

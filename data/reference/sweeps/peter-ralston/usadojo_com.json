@@ -1,0 +1,10 @@
+{
+ "subject": "peter ralston",
+ "query": "peter ralston",
+ "domain": "usadojo.com",
+ "tier": "MID_TIER",
+ "collection_type": "web_search_fallback",
+ "pending_queries": [
+  "site:usadojo.com \"peter ralston\""
+ ]
+}

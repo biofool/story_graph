@@ -19,6 +19,12 @@
 - Birth year: contemporaneous "28" → ~1949–50; kept `Year of birth
   missing` pending an exact-year source.
 - Tournament **ruleset** unrecorded (F — light-heavyweight confirmed).
+- **Authority sweep (#75)**: no new Ralston-specific citable sources —
+  the only substantive hit is Patrick Cassidy's AJ contributor bio
+  ("continued his training with Peter Ralston, Robert Nadeau Shihan
+  and Richard Moon Sensei"), ingested as a RELIABLE-class mention tying
+  a common student to all three subjects. MayTT "peter ralston" hits
+  were incidental name matches, not ingested.
 - Submission wording asks reviewers to **assess** GNG; the draft does
   not claim it (G — talk §4 "Request for assessment").
 - Nothing is posted to Wikipedia — drafts await operator review.

@@ -1,0 +1,93 @@
+{
+ "subject": "peter ralston",
+ "query": "peter ralston",
+ "domains": {
+  "aikidojournal.com": {
+   "tier": "HIGH_AUTHORITY",
+   "collection_type": "wordpress_search",
+   "pages_fetched": 1,
+   "new_urls": 1,
+   "results": 1,
+   "pending_queries": []
+  },
+  "maytt.home.blog": {
+   "tier": "MARGINAL",
+   "collection_type": "wordpress_search",
+   "pages_fetched": 1,
+   "new_urls": 6,
+   "results": 6,
+   "pending_queries": []
+  },
+  "aikiweb.com": {
+   "tier": "MID_TIER",
+   "collection_type": "dedicated_crawler",
+   "note": "covered by: scripts/45_aikiweb_seminars_crawl.py, scripts/48_ingest_aikiweb_seminars.py",
+   "results": 0,
+   "pending_queries": []
+  },
+  "newspapers.com": {
+   "tier": "ACCESS_HOST",
+   "collection_type": "dedicated_crawler",
+   "note": "covered by: scripts/42_newspapers_search_download.py, scripts/43_npc_extract_articles.py",
+   "results": 0,
+   "pending_queries": []
+  },
+  "blackbeltmag.com": {
+   "tier": "HIGH_AUTHORITY",
+   "collection_type": "web_search_fallback",
+   "results": 0,
+   "pending_queries": [
+    "site:blackbeltmag.com \"peter ralston\"",
+    "site:books.google.com \"peter ralston\" \"Black Belt\""
+   ]
+  },
+  "usadojo.com": {
+   "tier": "MID_TIER",
+   "collection_type": "web_search_fallback",
+   "results": 0,
+   "pending_queries": [
+    "site:usadojo.com \"peter ralston\""
+   ]
+  },
+  "tqj.de": {
+   "tier": "HIGH_AUTHORITY",
+   "collection_type": "web_search_fallback",
+   "results": 0,
+   "pending_queries": [
+    "site:tqj.de \"peter ralston\""
+   ]
+  },
+  "aikido-health.com": {
+   "tier": "MID_TIER",
+   "collection_type": "web_search_fallback",
+   "results": 0,
+   "pending_queries": [
+    "site:aikido-health.com \"peter ralston\""
+   ]
+  },
+  "whistlekickmartialartsradio.com": {
+   "tier": "MID_TIER",
+   "collection_type": "web_search_fallback",
+   "results": 0,
+   "pending_queries": [
+    "site:whistlekickmartialartsradio.com \"peter ralston\""
+   ]
+  },
+  "budovideos.com": {
+   "tier": "MID_TIER",
+   "collection_type": "web_search_fallback",
+   "results": 0,
+   "pending_queries": [
+    "site:budovideos.com \"peter ralston\""
+   ]
+  },
+  "elephantjournal.com": {
+   "tier": "MARGINAL",
+   "collection_type": "web_search_fallback",
+   "results": 0,
+   "pending_queries": [
+    "site:elephantjournal.com \"peter ralston\""
+   ]
+  }
+ }
+}

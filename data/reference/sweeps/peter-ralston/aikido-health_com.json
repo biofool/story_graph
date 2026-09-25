@@ -1,0 +1,10 @@
+{
+ "subject": "peter ralston",
+ "query": "peter ralston",
+ "domain": "aikido-health.com",
+ "tier": "MID_TIER",
+ "collection_type": "web_search_fallback",
+ "pending_queries": [
+  "site:aikido-health.com \"peter ralston\""
+ ]
+}

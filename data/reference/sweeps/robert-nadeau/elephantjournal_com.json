@@ -1,0 +1,10 @@
+{
+ "subject": "robert nadeau",
+ "query": "robert nadeau",
+ "domain": "elephantjournal.com",
+ "tier": "MARGINAL",
+ "collection_type": "web_search_fallback",
+ "pending_queries": [
+  "site:elephantjournal.com \"robert nadeau\""
+ ]
+}

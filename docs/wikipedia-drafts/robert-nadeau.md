@@ -19,8 +19,19 @@
 - **Aikido Today Magazine** (1986–2005) — most likely English-language
   publication to have covered the USSR trips; complete e-book available
   (Budovideos). Check for Nadeau/Russia coverage.
-- **Nadeau bio book** — *Aikido: The Art of Transformation* (2024) may
-  contain Russia-trip coverage; check.
+- **Nadeau bio book** — *Aikido: The Art of Transformation* (2024),
+  co-authored by six students: **Noha, Herr, Teja Bell, Richard Moon,
+  Susan Spence, Elaine Yoder** (confirmed via MAYTT interview, #75
+  sweep). May contain Russia-trip coverage; check.
+- **New sourced material to fold into proposals** — authority sweep
+  (#75) added: Nadeau's AJ Encyclopedia entry; **Robert Tann named as
+  Nadeau's pre-Japan aikido teacher** (Marine/SSF police officer,
+  taught 1960–72); **Aikikai dispatched Nadeau to the Mountain View
+  dojo** (~1966, per Noha); AANC encyclopedia entry names Nadeau a
+  principal instructor; Human Potential Movement circle corroborated
+  (Murphy/Esalen/*Golf in the Kingdom*, Leonard, Frager). Leonard's
+  entry confirms "first taught by Robert Nadeau" + Tamalpais chief
+  instructor. Reliability report now scores **19 RELIABLE** sources.
 - **Aikido Shimbun** — Japanese aikido press, unsearched for
   international seminar coverage.
 - **Travel companions** — no source documents who traveled with Nadeau

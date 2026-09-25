@@ -1,0 +1,11 @@
+{
+ "subject": "richard moon",
+ "query": "richard moon",
+ "domain": "blackbeltmag.com",
+ "tier": "HIGH_AUTHORITY",
+ "collection_type": "web_search_fallback",
+ "pending_queries": [
+  "site:blackbeltmag.com \"richard moon\"",
+  "site:books.google.com \"richard moon\" \"Black Belt\""
+ ]
+}

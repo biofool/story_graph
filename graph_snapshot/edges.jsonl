@@ -6192,8 +6192,14 @@
 {"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:birthplace-hachijojima"}
 {"dst_id": "dojo:boulder-aikikai", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:boulder-aikikai-founded-aug-1980"}
 {"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:boulder-aikikai-founded-aug-1980"}
+{"dst_id": "event:covid-19-bridge-seminar-2020", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:covid-virtual-bridge-seminar"}
+{"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:covid-virtual-bridge-seminar"}
 {"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:judo-before-aikido"}
 {"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:kona-seminars-corroborated"}
+{"dst_id": "dojo:aikido-of-madison", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:madison-visit-1980s"}
+{"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:madison-visit-1980s"}
+{"dst_id": "person:evolene-premillieu", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:premillieu-and-aft-encouragement"}
+{"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:premillieu-and-aft-encouragement"}
 {"dst_id": "person:bill-mcintyre", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:saotome-florida-invitation-1976"}
 {"dst_id": "person:mitsugi-saotome", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:saotome-florida-invitation-1976"}
 {"dst_id": "dojo:12th-street-dojo-sarasota", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:ikeda:sarasota-12th-street-dojo"}
@@ -6265,6 +6271,9 @@
 {"dst_id": "person:hiroshi-ikeda", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:klein:ikeda-floating-bridge-seminars"}
 {"dst_id": "person:bob-klein", "metadata": {}, "rel_type": "ASSERTED_BY", "src_id": "claim:klein:ikeda-floating-bridge-seminars"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"source": "web_research_issue50"}, "rel_type": "ABOUT", "src_id": "claim:moon-born-1946"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:moon:aj-published-author"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:moon:bosnia-post-war-teaching"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:moon:yoga-instructor-at-aikido-start"}
 {"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:nadeau-6th-dan-1992"}
 {"dst_id": "work:npc-915930505", "metadata": {}, "rel_type": "SUPPORTED_BY", "src_id": "claim:nadeau-6th-dan-1992"}
 {"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:nadeau-aikido-of-san-francisco-1983"}
@@ -6272,6 +6281,19 @@
 {"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:nadeau-director-norcal-aikido-1978"}
 {"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:nadeau-redwood-city-police"}
 {"dst_id": "work:npc-1223363307", "metadata": {}, "rel_type": "SUPPORTED_BY", "src_id": "claim:nadeau-redwood-city-police"}
+{"dst_id": "fed:aikido-association-of-northern-california", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:aanc-principal-instructor"}
+{"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:aanc-principal-instructor"}
+{"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:aikikai-dispatch-to-mountain-view"}
+{"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:aj-encyclopedia-bio"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:art-of-transformation-authorship"}
+{"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:art-of-transformation-authorship"}
+{"dst_id": "work:c790dae87877e829", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:art-of-transformation-authorship"}
+{"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:human-potential-movement-circle"}
+{"dst_id": "person:george-leonard", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:leonard-first-teacher"}
+{"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:leonard-first-teacher"}
+{"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:pre-aikido-background"}
+{"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:tann-pre-japan-teacher"}
+{"dst_id": "person:robert-tann", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:nadeau:tann-pre-japan-teacher"}
 {"dst_id": "dojo:aikido-of-tamalpais", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:palmer-nadeau-tamalpais"}
 {"dst_id": "person:wendy-palmer", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:palmer-nadeau-tamalpais"}
 {"dst_id": "work:parade-significa-yankee-judo-dandy-1982", "metadata": {"note": "documents the item's national syndicated reach"}, "rel_type": "ABOUT", "src_id": "claim:parade-significa-1982-syndication"}
@@ -6361,11 +6383,16 @@
 {"dst_id": "work:pbs-artbound-new-aquarians", "metadata": {"evidence": "https://www.pbssocal.org/shows/artbound/meet-the-new-aquarians"}, "rel_type": "SUPPORTED_BY", "src_id": "claim:pbs-artbound-2012-yahowha13-reunion-echoplex-2007"}
 {"dst_id": "person:peter-ralston", "metadata": {"evidence": "https://chenghsin.com/who-is-peter-ralston/"}, "rel_type": "ABOUT", "src_id": "claim:ralston-1978-world-championship"}
 {"dst_id": "person:peter-ralston", "metadata": {"evidence": "https://chenghsin.com/who-is-peter-ralston/"}, "rel_type": "ABOUT", "src_id": "claim:ralston-wikipedia-gap"}
+{"dst_id": "person:mitsugi-saotome", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:saotome:san-rafael-aanc-camp-1977"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"}, "rel_type": "ABOUT", "src_id": "claim:search:nadeau-bunch-kufferath"}
 {"dst_id": "person:dan-millman", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"}, "rel_type": "ABOUT", "src_id": "claim:search:nadeau-millman-student"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"}, "rel_type": "ABOUT", "src_id": "claim:search:nadeau-millman-student"}
 {"dst_id": "person:richard-moon-aikido", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"}, "rel_type": "ABOUT", "src_id": "claim:search:nadeau-moon-student"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"}, "rel_type": "ABOUT", "src_id": "claim:search:nadeau-moon-student"}
+{"dst_id": "person:patrick-cassidy", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:shared:cassidy-trained-under-three"}
+{"dst_id": "person:peter-ralston", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:shared:cassidy-trained-under-three"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:shared:cassidy-trained-under-three"}
+{"dst_id": "person:robert-nadeau", "metadata": {}, "rel_type": "MENTIONS", "src_id": "claim:shared:cassidy-trained-under-three"}
 {"dst_id": "event:peter-ralston-wins-world-championship", "metadata": {"note": "names the tournament + weight class, contemporaneous"}, "rel_type": "ABOUT", "src_id": "claim:tribune:ralston-1978-kuoshu-light-heavyweight"}
 {"dst_id": "person:peter-ralston", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:tribune:ralston-1978-kuoshu-light-heavyweight"}
 {"dst_id": "person:meg-wheatley", "metadata": {}, "rel_type": "ABOUT", "src_id": "claim:wheatley-used-thorsen-moon"}
@@ -14560,6 +14587,7 @@
 {"dst_id": "group:chez-panisse", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:alice-waters"}
 {"dst_id": "group:oakland-dojo", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:allen-grow"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:amy-aquarian"}
+{"dst_id": "event:covid-19-bridge-seminar-2020", "metadata": {"source": "src:maytt-covid-bridge-seminar-2020"}, "rel_type": "CO_APPEARANCE", "src_id": "person:andy-mclean"}
 {"dst_id": "group:moving-into-meditation", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:anne-cushman"}
 {"dst_id": "group:the-mama-sutra", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:anne-cushman"}
 {"dst_id": "group:parts-unknown", "metadata": {"evidence": "https://www.tasteatlas.com/best-rated-dishes-in-vietnam", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:anthony-bourdain"}
@@ -14653,6 +14681,7 @@
 {"dst_id": "group:western-martial-artists", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:donn-draeger"}
 {"dst_id": "group:kodokan", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:donn-draeger"}
 {"dst_id": "group:old-world-restaurant", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:dora"}
+{"dst_id": "event:covid-19-bridge-seminar-2020", "metadata": {"source": "src:maytt-covid-bridge-seminar-2020"}, "rel_type": "CO_APPEARANCE", "src_id": "person:dorin-marchis"}
 {"dst_id": "group:cyprus-consortium", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "MEMBER_OF", "src_id": "person:douglas-stone-negotiation"}
 {"dst_id": "group:cyprus-fulbright-commission", "metadata": {"asserted_by": "kkron", "evidence": "kkron://personal-communication", "trigger": "kkron_first_hand_account", "verified_independently": false}, "rel_type": "WORKED_AT", "src_id": "person:douglas-stone-negotiation"}
 {"dst_id": "group:crazygames-f\u00f3rum", "metadata": {"evidence": "https://rfcrazygames.forumeiros.com/images", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:draken"}
@@ -14689,6 +14718,8 @@
 {"dst_id": "group:crazygames-f\u00f3rum", "metadata": {"evidence": "https://rfcrazygames.forumeiros.com/images", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:enrico24"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.uwindsor.ca/law/rmoon/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:eric-heinze"}
 {"dst_id": "dojo:boulder-aikikai", "metadata": {"role": "member; event organizer", "source": "src:aj-aikido-for-tomorrow-2020"}, "rel_type": "MEMBER_OF", "src_id": "person:evolene-premillieu"}
+{"dst_id": "person:hiroshi-ikeda", "metadata": {"notes": "Moved to Boulder specifically to train under Ikeda (and Tres Hofmeister) at Boulder Aikikai.", "source": "src:maytt-premillieu-interview-2020"}, "rel_type": "TEACHER_STUDENT", "src_id": "person:evolene-premillieu"}
+{"dst_id": "person:tres-hofmeister", "metadata": {"source": "src:maytt-premillieu-interview-2020"}, "rel_type": "TEACHER_STUDENT", "src_id": "person:evolene-premillieu"}
 {"dst_id": "group:crazygames-f\u00f3rum", "metadata": {"evidence": "https://rfcrazygames.forumeiros.com/images", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:family153"}
 {"dst_id": "event:aikiweb-seminar-with-christian-tisser-shihan-hiroshi-ikeda-shihan-fr-c6524afb9e", "metadata": {"dates": "January 14-18, 2016", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "http://sandiego.aikidobridge.com/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:frank-doran"}
 {"dst_id": "event:aikiweb-seminar-with-frank-doran-shihan-hiroshi-ikeda-shihan-christi-aa6ba2281a", "metadata": {"dates": "January 15-19, 2015", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "http://www.JiaiAikido.com"}, "rel_type": "CO_APPEARANCE", "src_id": "person:frank-doran"}
@@ -14715,12 +14746,15 @@
 {"dst_id": "place:brisbane", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:frank-doran"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:galaxy-aquarian"}
 {"dst_id": "dojo:allegheny-aikido", "metadata": {"evidence": "signed 'Garth Jones, Allegheny Aikido' \u2014 email 2026-09-24", "role": "dojo representative"}, "rel_type": "MEMBER_OF", "src_id": "person:garth-jones"}
+{"dst_id": "event:covid-19-bridge-seminar-2020", "metadata": {"source": "src:maytt-covid-bridge-seminar-2020"}, "rel_type": "CO_APPEARANCE", "src_id": "person:gary-marks"}
 {"dst_id": "dojo:floating-bridge-aikido", "metadata": {"evidence": "named by Bob Klein as the contact for the dojo (greissoffice@gmail.com)", "role": "dojo contact"}, "rel_type": "MEMBER_OF", "src_id": "person:gary-reiss"}
 {"dst_id": "event:festival-of-happy-martial-arts-1978", "metadata": {"role": "billed presenter \u2014 aikido instructor and author", "source_url": "https://www.newspapers.com/image/1223017121/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:george-leonard"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "http://dev.aikidoofpetaluma.com/energy.html", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:george-leonard"}
 {"dst_id": "dojo:aikido-of-tamalpais", "metadata": {"date": "1976", "source_url": "https://www.facebook.com/AikiWeb/posts/10159373624383063/", "with": ["person:wendy-palmer", "person:richard-strozzi-heckler"]}, "rel_type": "FOUNDED", "src_id": "person:george-leonard"}
+{"dst_id": "dojo:aikido-of-tamalpais", "metadata": {"notes": "Chief instructor of Aikido of Tamalpais, Mill Valley CA \u2014 establishes Tamalpais as Nadeau-lineage context for Ikeda's documented visits there.", "source": "src:aj-encyclopedia-george-leonard"}, "rel_type": "HEAD_INSTRUCTOR", "src_id": "person:george-leonard"}
 {"dst_id": "person:robert-nadeau", "metadata": {"context": "George Leonard is listed as a notable student of Robert Nadeau", "corroborating_sources": ["https://www.cityaikido.com/nadeau-shihan", "https://www.usadojo.com/robert-nadeau/"], "discovered_via": "relationship_search", "evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)", "relationship": "student_of"}, "rel_type": "MEMBER_OF", "src_id": "person:george-leonard"}
 {"dst_id": "person:terry-dobson", "metadata": {"context": "George Leonard and Terry Dobson were contemporaries in the aikido world. Leonard was up in Marin. Leonard's books were the most successful by an aikido person for non-aiki audiences.", "corroborating_sources": ["kkron://personal-communication/kenneth-dobson-email"], "discovered_via": "kkron_personal_communication", "evidence": "kkron://personal-communication/kenneth-dobson-email"}, "rel_type": "MENTIONS", "src_id": "person:george-leonard"}
+{"dst_id": "person:robert-nadeau", "metadata": {"notes": "Encyclopedia: 'first taught by Robert Nadeau'. Noha/Herr corroborate Leonard became Nadeau's student and an aikido teacher in his own right.", "source": "src:aj-encyclopedia-george-leonard"}, "rel_type": "TEACHER_STUDENT", "src_id": "person:george-leonard"}
 {"dst_id": "group:the-entrance-band", "metadata": {"role": "frontman"}, "rel_type": "MEMBER_OF", "src_id": "person:guy-blakeslee"}
 {"dst_id": "group:new-aquarians", "metadata": {"relationship": "early adopter of Source Family"}, "rel_type": "MENTIONS", "src_id": "person:guy-blakeslee"}
 {"dst_id": "person:djin-aquarian", "metadata": {"aquarian_name": "Sir Guyser Aquarian", "relationship": "named by Djin; regular contact"}, "rel_type": "MENTIONS", "src_id": "person:guy-blakeslee"}
@@ -15126,6 +15160,7 @@
 {"dst_id": "event:aikiweb-winter-intensive-2005-with-hiroshi-ikeda-7th-dan-boulder-aik-c91a2c4f16", "metadata": {"dates": "January 14-17, 2005", "region": "CA", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "http://www.tam-aikido.org"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
 {"dst_id": "event:aksb-summer-seminar-2013", "metadata": {"role": "guest instructor", "source": "src:sb-independent-ikeda-2013"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
 {"dst_id": "event:bermuda-aikikai-ikeda-seminar-2011", "metadata": {"role": "guest instructor", "source": "src:bernews-ikeda-2011"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
+{"dst_id": "event:covid-19-bridge-seminar-2020", "metadata": {"notes": "MAYTT report; Ikeda gave thanks to attendees/hosts at close.", "role": "instructor (closing session)", "source": "src:maytt-covid-bridge-seminar-2020"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
 {"dst_id": "event:ikeda-cal-hiroshi-ikeda-shihan-and-others-at-17th-aikido-wor-126360bb01", "metadata": {"end_date": "2026-10-25", "location": "Kumamoto, JAPAN", "role": "instructor", "source": "hiroshi-ikeda.com seminar calendar", "source_url": "https://www.aikidoshimbokukai.org/events", "start_date": "2026-10-23", "status": "Confirmed"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
 {"dst_id": "event:ikeda-cal-hiroshi-ikeda-shihan-and-others-at-kyoto-internati-114b619877", "metadata": {"end_date": "2026-11-01", "location": "Kyoto, JAPAN", "role": "instructor", "source": "hiroshi-ikeda.com seminar calendar", "source_url": "https://www.aikidoshimbokukai.org/events", "start_date": "2026-10-30", "status": "Confirmed"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
 {"dst_id": "event:ikeda-cal-hiroshi-ikeda-shihan-at-aiki-kai-z-rich-1c330d8b88", "metadata": {"end_date": "2026-09-27", "location": "Z\u00fcrich, SWITZERLAND", "role": "instructor", "source": "hiroshi-ikeda.com seminar calendar", "source_url": "https://www.aikidoshimbokukai.org/events", "start_date": "2026-09-25", "status": "Confirmed"}, "rel_type": "CO_APPEARANCE", "src_id": "person:hiroshi-ikeda"}
@@ -15309,6 +15344,7 @@
 {"dst_id": "group:gastro-obscura-and-atlas-obscura-event", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:john-harry"}
 {"dst_id": "place:los-angeles", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:john-lennon"}
 {"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:john-lennon"}
+{"dst_id": "dojo:aikido-of-madison", "metadata": {"source": "src:maytt-madison-cooper-stone-part1-2022", "year": "1984"}, "rel_type": "FOUNDED", "src_id": "person:john-stone"}
 {"dst_id": "group:cinespia", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:john-wyatt"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:jonathan-kauffman"}
 {"dst_id": "group:the-source-restaurant", "metadata": {"evidence": "https://grokipedia.com/page/The_Source_Family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:joni-mitchell"}
@@ -15340,6 +15376,7 @@
 {"dst_id": "group:nadeau", "metadata": {"evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:laurin-herr"}
 {"dst_id": "group:sensei", "metadata": {"evidence": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:laurin-herr"}
 {"dst_id": "person:robert-nadeau", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:laurin-herr"}
+{"dst_id": "event:covid-19-bridge-seminar-2020", "metadata": {"source": "src:maytt-covid-bridge-seminar-2020"}, "rel_type": "CO_APPEARANCE", "src_id": "person:liese-klein"}
 {"dst_id": "group:journey-to-the-heart-of-aikido", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:linda-holiday"}
 {"dst_id": "group:the-curated-feast", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:liz-birnbaum"}
 {"dst_id": "group:gastro-obscura-and-atlas-obscura-event", "metadata": {"evidence": "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:liz-birnbaum"}
@@ -15459,6 +15496,9 @@
 {"dst_id": "dojo:aikido-of-san-leandro", "metadata": {"source_url": "https://www.newspapers.com/image/920116428/"}, "rel_type": "WORKED_AT", "src_id": "person:patricia-hendricks"}
 {"dst_id": "event:aikiweb-seminar-with-hiroshi-ikeda-7-dan-lisa-tomoleoni-6-dan-patric-e41b1cc831", "metadata": {"dates": "January 15, 2022", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "https://www.sandiegomacc.com/2022-aikido-bridge.html"}, "rel_type": "CO_APPEARANCE", "src_id": "person:patrick-cassidy"}
 {"dst_id": "event:riviera-seminar-montreux-2025", "metadata": {"role": "panelist/instructor", "source_url": "https://www.facebook.com/AikidoKashin/videos/1886811665397048/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:patrick-cassidy"}
+{"dst_id": "person:peter-ralston", "metadata": {"notes": "Same bio: 'continued his training with Peter Ralston...' \u2014 published evidence that Cassidy trained under all three subjects.", "source": "src:aj-cassidy-past-present-future-2020"}, "rel_type": "TEACHER_STUDENT", "src_id": "person:patrick-cassidy"}
+{"dst_id": "person:richard-moon-aikido", "metadata": {"notes": "Same bio: '...and Richard Moon Sensei'.", "source": "src:aj-cassidy-past-present-future-2020"}, "rel_type": "TEACHER_STUDENT", "src_id": "person:patrick-cassidy"}
+{"dst_id": "person:robert-nadeau", "metadata": {"notes": "Cassidy's AJ contributor bio: 'continued his training with ... Robert Nadeau Shihan' while Dojo-cho of Aikido of Fresno.", "source": "src:aj-cassidy-past-present-future-2020"}, "rel_type": "TEACHER_STUDENT", "src_id": "person:patrick-cassidy"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:patrick-lundborg"}
 {"dst_id": "group:crazygames-f\u00f3rum", "metadata": {"evidence": "https://rfcrazygames.forumeiros.com/images", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:pedropp123"}
 {"dst_id": "book:ancient-wisdom-new-spirit", "metadata": {"source": "openlibrary_api"}, "rel_type": "CO_AUTHORED", "src_id": "person:peter-ralston"}
@@ -15539,6 +15579,7 @@
 {"dst_id": "event:o-sensei-revisited-down-under-workshop", "metadata": {"dates": "2019-03-16..18", "role": "instructor", "source_url": "https://aikidotravel.com/seminar/481/the-osensei-revisited-down-under-workshop"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:riviera-seminar-2025", "metadata": {"date": "2025-06-07", "role": "instructor", "source": "web_research_issue60"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "event:riviera-seminar-montreux-2025", "metadata": {"role": "panelist/instructor \u2014 'Takemusu Aiki and Jiyuwaza' discussion", "source_url": "https://www.facebook.com/AikidoKashin/videos/1886811665397048/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:richard-moon-aikido"}
+{"dst_id": "work:c790dae87877e829", "metadata": {"notes": "Moon is one of six co-authors of Aikido: The Art of Transformation (Nadeau biography). NOTE: duplicate work node work:e45a467deb9c9e11 exists \u2014 dedupe ticketed.", "source": "src:maytt-noha-herr-2025-part2"}, "rel_type": "CO_AUTHORED", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "group:aikido-the-art-of-transformation", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "group:quantum-aikido-the-power-of-harmony", "metadata": {"evidence": "https://budovideos.com/products/quantum-aikido-the-power-of-harmony-book-by-richard-moon", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:richard-moon-aikido"}
 {"dst_id": "work:b0b53e646a2cdd0e", "metadata": {"source": "extraordinarylistening.com; kkron 2026-09-22"}, "rel_type": "CREATED", "src_id": "person:richard-moon-aikido"}
@@ -15618,6 +15659,7 @@
 {"dst_id": "group:san-francisco-dojo", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "FOUNDED"}, "rel_type": "FOUNDED", "src_id": "person:robert-nadeau"}
 {"dst_id": "place:united-states", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "person:robert-nadeau"}
 {"dst_id": "place:west", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "LOCATED_IN"}, "rel_type": "LOCATED_IN", "src_id": "person:robert-nadeau"}
+{"dst_id": "fed:aikido-association-of-northern-california", "metadata": {"notes": "AANC: established c.1974, 50+ dojos, direct Aikikai Hombu affiliation; Nadeau named a principal instructor alongside Frank Doran and William Witt.", "role": "principal instructor", "source": "src:aj-encyclopedia-aanc"}, "rel_type": "MEMBER_OF", "src_id": "person:robert-nadeau"}
 {"dst_id": "group:army", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:robert-nadeau"}
 {"dst_id": "group:california-aikido-association", "metadata": {"asserted_by": "kkron", "role": "division head", "source": "kkron://personal-communication/kufferath-nadeau-bunch"}, "rel_type": "MEMBER_OF", "src_id": "person:robert-nadeau"}
 {"dst_id": "group:western-martial-artists", "metadata": {"evidence": "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:robert-nadeau"}
@@ -15636,6 +15678,7 @@
 {"dst_id": "person:bob-noha", "metadata": {"context": "Lifelong friendship and training since 1966", "source": "aikidopetaluma.com", "start_year": 1966}, "rel_type": "TEACHER_STUDENT", "src_id": "person:robert-nadeau"}
 {"dst_id": "person:dave-bendigkeit", "metadata": {"note": "began training 1967 at Mountain View Aiki Kai per Pacifica Tribune 2010", "source_url": "https://www.newspapers.com/image/920116428/", "start_date": "1967"}, "rel_type": "TEACHER_STUDENT", "src_id": "person:robert-nadeau"}
 {"dst_id": "person:jack-wada", "metadata": {"source_url": "http://aikidosj.com/old-site/public_html/instructors.html", "student_started": 1969}, "rel_type": "TEACHER_STUDENT", "src_id": "person:robert-nadeau"}
+{"dst_id": "person:robert-tann", "metadata": {"notes": "Tann taught aikido in South San Francisco 1960-1972; Nadeau among his students \u2014 Nadeau's pre-Japan teacher. Consistent with encyclopedia: 'began practice late 1950s, 2+ years at Hombu early 60s'.", "source": "src:aj-encyclopedia-robert-tann"}, "rel_type": "TEACHER_STUDENT", "src_id": "person:robert-nadeau"}
 {"dst_id": "person:steve-gengo", "metadata": {"note": "'An experienced student at the black-belt level' per SF Chronicle 1983", "source_url": "https://www.newspapers.com/image/1223363307/"}, "rel_type": "TEACHER_STUDENT", "src_id": "person:robert-nadeau"}
 {"dst_id": "person:wendy-palmer", "metadata": {"source_url": "https://www.facebook.com/AikiWeb/posts/10159373624383063/", "student_started": 1971}, "rel_type": "TEACHER_STUDENT", "src_id": "person:robert-nadeau"}
 {"dst_id": "group:aikido-of-mountain-view", "metadata": {"evidence": "https://ai-ki-do.org/robert-nadeau", "trigger": "WORKED_AT"}, "rel_type": "WORKED_AT", "src_id": "person:robert-nadeau"}
@@ -15663,6 +15706,7 @@
 {"dst_id": "event:riviera-seminar-montreux-2025", "metadata": {"role": "panelist/instructor", "source_url": "https://www.facebook.com/AikidoKashin/videos/1886811665397048/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:roberto-martucci"}
 {"dst_id": "event:aikiweb-seminar-with-hiroshi-ikeda-shihan-7-dan-robin-cooper-sensei-a3dcf1885d", "metadata": {"dates": "March 25-27, 2022", "role": "instructor", "source": "aikiweb_seminars_db", "source_url": "https://www.aikidoshimbokukai.org/events/midwest-bridge-2022"}, "rel_type": "CO_APPEARANCE", "src_id": "person:robin"}
 {"dst_id": "group:the-source-family", "metadata": {"evidence": "https://www.interviewmagazine.com/film/the-source-family", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:robin"}
+{"dst_id": "dojo:aikido-of-madison", "metadata": {"source": "src:maytt-madison-cooper-stone-part1-2022", "year": "1984"}, "rel_type": "FOUNDED", "src_id": "person:robin-cooper"}
 {"dst_id": "place:california", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:robin-popper"}
 {"dst_id": "place:hawaii", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:robin-popper"}
 {"dst_id": "place:los-feliz", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "LIVED_AT"}, "rel_type": "LIVED_AT", "src_id": "person:robin-popper"}
@@ -15743,6 +15787,7 @@
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://zhidao.baidu.com/question/584677258.html", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:wang-yongquan"}
 {"dst_id": "event:festival-of-happy-martial-arts-1978", "metadata": {"role": "billed presenter \u2014 aikido and energy awareness instructor", "source_url": "https://www.newspapers.com/image/1223017121/"}, "rel_type": "CO_APPEARANCE", "src_id": "person:wendy-palmer"}
 {"dst_id": "dojo:aikido-of-tamalpais", "metadata": {"city": "Mill Valley", "date": "1976", "source_url": "https://www.facebook.com/AikiWeb/posts/10159373624383063/", "with": ["person:george-leonard", "person:richard-strozzi-heckler"]}, "rel_type": "FOUNDED", "src_id": "person:wendy-palmer"}
+{"dst_id": "event:covid-19-bridge-seminar-2020", "metadata": {"source": "src:maytt-covid-bridge-seminar-2020"}, "rel_type": "CO_APPEARANCE", "src_id": "person:wendy-whited"}
 {"dst_id": "group:aikido-and-words-of-power", "metadata": {"evidence": "https://www.nadeaushihan.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:william-gleason"}
 {"dst_id": "work:e3b0c44298fc1c14", "metadata": {"evidence": "https://quantumaikido.com/", "trigger": "CREATED"}, "rel_type": "CREATED", "src_id": "person:william-isaacs"}
 {"dst_id": "group:nature-boys", "metadata": {"evidence": "https://en.wikipedia.org/wiki/Father_Yod", "trigger": "MEMBER_OF"}, "rel_type": "MEMBER_OF", "src_id": "person:william-pester"}

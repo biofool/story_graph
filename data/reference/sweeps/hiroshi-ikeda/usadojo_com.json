@@ -1,0 +1,10 @@
+{
+ "subject": "hiroshi ikeda",
+ "query": "hiroshi ikeda",
+ "domain": "usadojo.com",
+ "tier": "MID_TIER",
+ "collection_type": "web_search_fallback",
+ "pending_queries": [
+  "site:usadojo.com \"hiroshi ikeda\""
+ ]
+}

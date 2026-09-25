@@ -1,0 +1,10 @@
+{
+ "subject": "robert nadeau",
+ "query": "robert nadeau",
+ "domain": "budovideos.com",
+ "tier": "MID_TIER",
+ "collection_type": "web_search_fallback",
+ "pending_queries": [
+  "site:budovideos.com \"robert nadeau\""
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "subject": "peter ralston",
+ "query": "peter ralston",
+ "domain": "maytt.home.blog",
+ "tier": "MARGINAL",
+ "collection_type": "wordpress_search",
+ "pages_fetched": 1,
+ "results": [
+  {
+   "url": "https://maytt.home.blog/2022/12/09/interview-with-aikido-of-madison-cofounders-robin-cooper-and-john-stone-their-journey-through-aikido-and-beyond-part-iii/",
+   "title": "Interview with Aikido of Madison Cofounders Robin Cooper and John Stone: Their Journey Through Aikido and Beyond, Part\u00a0III",
+   "in_graph": false
+  },
+  {
+   "url": "https://maytt.home.blog/2026/09/10/interview-with-historical-fencer-connor-wood-between-hema-and-the-sca-part-i/",
+   "title": "Interview with Historical Fencer Connor Wood: Between HEMA and the SCA Part\u00a0I",
+   "in_graph": false
+  },
+  {
+   "url": "https://maytt.home.blog/2026/09/11/interview-with-historical-fencer-connor-wood-between-hema-and-the-sca-part-ii/",
+   "title": "Interview with Historical Fencer Connor Wood: Between HEMA and the SCA Part\u00a0II",
+   "in_graph": false
+  },
+  {
+   "url": "https://maytt.home.blog/2026/09/14/interview-with-american-aikido-institute-founder-garry-howard-growing-with-haruo-matsuoka-part-i/",
+   "title": "Interview with American Aikido Institute Founder Garry Howard: Growing with Haruo Matsuoka Part\u00a0I",
+   "in_graph": false
+  },
+  {
+   "url": "https://maytt.home.blog/2026/09/15/interview-with-american-aikido-institute-founder-garry-howard-growing-with-haruo-matsuoka-part-ii/",
+   "title": "Interview with American Aikido Institute Founder Garry Howard: Growing with Haruo Matsuoka Part\u00a0II",
+   "in_graph": false
+  },
+  {
+   "url": "https://maytt.home.blog/2026/09/24/hand-to-hand-combat-training-in-krasnodar-russia-with-a-a-kadochnikov-by-michael-martin/",
+   "title": "Hand-to-Hand Combat Training in Krasnodar, Russia with A.A. Kadochnikov by Michael\u00a0Martin",
+   "in_graph": false
+  }
+ ],
+ "new_urls": 6
+}

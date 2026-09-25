@@ -7,8 +7,21 @@
 ## Open action items
 
 - **GNG is borderline** — coverage is mostly local/regional (Point
-  Reyes Light, Novato Advance, Herald-Sun). The draft honestly flags
-  this; reviewers must assess, the draft does not claim GNG is met.
+  Reyes Light, Novato Advance, Herald-Sun). The regenerated machine
+  report scores 16 RELIABLE (PASS) but most are *incidental* mentions
+  inside other people's coverage; the editorial assessment stays
+  BORDERLINE. The draft honestly flags this; reviewers must assess,
+  the draft does not claim GNG is met.
+- **New sourced material from the authority sweep (#75)** —
+  Moon is a confirmed **co-author of *Aikido: The Art of
+  Transformation*** (Nadeau biography, six authors); Moon authored
+  **two contributed articles in Aikido Journal** (2014, 2015 —
+  `primary_first_person`, evidence of standing in the aikido press,
+  not independent coverage); Patrick Cassidy's published AJ bio
+  documents training under Moon (and Nadeau and Ralston). Moon's own
+  article states he was a yoga instructor when he started aikido
+  ~early 1970s and taught a blending exercise in post-war Bosnia —
+  usable as attributed self-description.
 - **Source/Aware Inn era** — marked `{{better source needed}}`: kkron +
   Bramblet verbal confirmations only; needs a published Source Family
   source or interview citation.

@@ -1,0 +1,108 @@
+{
+ "comment": "Authority-domain registry — shared source of truth for BOTH source scoring (scripts/36, 32) and collection sweeps (scripts/60_authority_domain_sweep.py). Root-cause fix for issue #75: high-authority domains were classified but never enumerated as collection targets. collection.type: wordpress_search = enumerable ?s= endpoint (verified 2026-09-25); dedicated_crawler = one-off script already exists; web_search_fallback = endpoint blocked/JS/absent — use site:domain queries via agent/02/03.",
+ "domains": {
+  "aikidojournal.com": {
+   "tier": "HIGH_AUTHORITY",
+   "label": "Aikido Journal — long-running edited publication, authoritative on aikido history",
+   "collection": {
+    "type": "wordpress_search",
+    "search_url": "https://aikidojournal.com/?s={query}",
+    "page_url": "https://aikidojournal.com/page/{page}/?s={query}",
+    "article_pattern": "https://aikidojournal.com/\\d{4}/\\d{2}/\\d{2}/[^/]+/"
+   },
+   "notes": "Verified server-rendered ?s= pagination. Also carries Encyclopedia entries at /YYYY/MM/DD/<name>/ paths."
+  },
+  "maytt.home.blog": {
+   "tier": "MARGINAL",
+   "label": "Martial Arts of Yesterday, Today and Tomorrow — Antonio Aloia's interview blog; original interviews, watch for AJ reprints",
+   "collection": {
+    "type": "wordpress_search",
+    "search_url": "https://maytt.home.blog/?s={query}",
+    "page_url": "https://maytt.home.blog/page/{page}/?s={query}",
+    "article_pattern": "https://maytt.home.blog/\\d{4}/\\d{2}/\\d{2}/[^/]+/"
+   },
+   "notes": "WordPress.com. CAUTION: MAYTT republishes AJ originals verbatim — check 'previously appeared in' notes before counting as a separate source (see src:maytt-ikeda-2019 demotion)."
+  },
+  "aikiweb.com": {
+   "tier": "MID_TIER",
+   "label": "AikiWeb — aikido seminar/dojo database",
+   "collection": {
+    "type": "dedicated_crawler",
+    "scripts": ["scripts/45_aikiweb_seminars_crawl.py", "scripts/48_ingest_aikiweb_seminars.py"]
+   },
+   "notes": "Seminar listings already covered by dedicated per-country/state crawl."
+  },
+  "newspapers.com": {
+   "tier": "ACCESS_HOST",
+   "label": "Newspapers.com — newspaper scan access host",
+   "collection": {
+    "type": "dedicated_crawler",
+    "scripts": ["scripts/42_newspapers_search_download.py", "scripts/43_npc_extract_articles.py"]
+   },
+   "notes": "NPC corpus pipeline exists; coverage is query-driven per subject."
+  },
+  "blackbeltmag.com": {
+   "tier": "HIGH_AUTHORITY",
+   "label": "Black Belt Magazine — legacy martial arts magazine",
+   "collection": {
+    "type": "web_search_fallback",
+    "queries": ["site:blackbeltmag.com \"{subject}\"", "site:books.google.com \"{subject}\" \"Black Belt\""]
+   },
+   "notes": "Wix site — ?s= returns JS app shell, not results. Legacy print coverage best found via Google Books volumes."
+  },
+  "usadojo.com": {
+   "tier": "MID_TIER",
+   "label": "USAdojo — dojo directory + articles",
+   "collection": {
+    "type": "web_search_fallback",
+    "queries": ["site:usadojo.com \"{subject}\""]
+   },
+   "notes": "406 to non-browser agents."
+  },
+  "tqj.de": {
+   "tier": "HIGH_AUTHORITY",
+   "label": "Tai Chi Chuan Journal (TQJ) — German tai chi magazine",
+   "collection": {
+    "type": "web_search_fallback",
+    "queries": ["site:tqj.de \"{subject}\""]
+   },
+   "notes": "?s= returns 500."
+  },
+  "aikido-health.com": {
+   "tier": "MID_TIER",
+   "label": "Aikido Health — commentary site",
+   "collection": {
+    "type": "web_search_fallback",
+    "queries": ["site:aikido-health.com \"{subject}\""]
+   },
+   "notes": "Static site; ?s= returns nav only, no real search."
+  },
+  "whistlekickmartialartsradio.com": {
+   "tier": "MID_TIER",
+   "label": "Whistlekick Martial Arts Radio — podcast",
+   "collection": {
+    "type": "web_search_fallback",
+    "queries": ["site:whistlekickmartialartsradio.com \"{subject}\""]
+   },
+   "notes": "?s= returns 200 but no server-rendered result links (JS)."
+  },
+  "budovideos.com": {
+   "tier": "MID_TIER",
+   "label": "Budovideos — retailer with some editorial content",
+   "collection": {
+    "type": "web_search_fallback",
+    "queries": ["site:budovideos.com \"{subject}\""]
+   },
+   "notes": "403 (Cloudflare)."
+  },
+  "elephantjournal.com": {
+   "tier": "MARGINAL",
+   "label": "elephant journal — Boulder-based independent magazine",
+   "collection": {
+    "type": "web_search_fallback",
+    "queries": ["site:elephantjournal.com \"{subject}\""]
+   },
+   "notes": "?s= 404s — no WP search endpoint."
+  }
+ }
+}

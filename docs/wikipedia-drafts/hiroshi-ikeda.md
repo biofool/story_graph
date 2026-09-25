@@ -32,6 +32,16 @@
   conceived as a youth offshoot of a Bridge seminar). Still
   interview/caption-level — strengthens existence/reach, not formal-org
   claims.
+- **Authority sweep (#75) additions** — MAYTT news report on the
+  **first virtual Aikido Bridge seminar** (3 May 2020, hosted by
+  Aikido Shimbokukai, 130+ participants, six instructors, Ikeda
+  closing) — independent corroboration of Bridge + Shimbokukai;
+  **Premillieu MAYTT interview** — she moved to Boulder to train under
+  Ikeda/Hofmeister, AfT created at Ikeda's encouragement, photo
+  corroborates the ~2015 San Diego Bridge anniversary; **Aikido of
+  Madison MAYTT interview** — 1980s photo of Ikeda at the dojo +
+  founders still train with him (visit corroboration, NOT
+  affiliation — flagged in-graph).
 - **Kona seminars corroborated** — Aiki Kai o Kona (Kailua-Kona)
   published its 31st Anniversary Seminar with Ikeda (Jan 2019); host-
   dojo record, independent of Ikeda's own properties. FB page

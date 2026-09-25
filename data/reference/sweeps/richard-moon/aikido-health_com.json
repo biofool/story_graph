@@ -1,0 +1,10 @@
+{
+ "subject": "richard moon",
+ "query": "richard moon",
+ "domain": "aikido-health.com",
+ "tier": "MID_TIER",
+ "collection_type": "web_search_fallback",
+ "pending_queries": [
+  "site:aikido-health.com \"richard moon\""
+ ]
+}

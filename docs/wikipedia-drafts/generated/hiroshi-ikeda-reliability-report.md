@@ -25,6 +25,9 @@
 | 6 | Bermuda Aikikai Hosts Top Aikido Masters | bernews.com | 65 | MARGINAL | Yes | dr=30 rsp=0 sc=25 ind=10 |
 | 7 | feature interview: Hiroshi Ikeda Sensei  | elephantjournal.com | 60 | MARGINAL | Yes | dr=25 rsp=0 sc=25 ind=10 |
 | 8 | Interview with Boulder Aikikai Founder H | maytt.home.blog | 50 | MARGINAL | Yes | dr=15 rsp=0 sc=25 ind=10 |
+| 9 | Interview with Evolene Premillieu: Aikid | maytt.home.blog | 50 | MARGINAL | Yes | dr=15 rsp=0 sc=25 ind=10 |
+| 10 | The COVID-19 Aikido Bridge Seminar | maytt.home.blog | 50 | MARGINAL | Yes | dr=15 rsp=0 sc=25 ind=10 |
+| 11 | Interview with Aikido of Madison Cofound | maytt.home.blog | 50 | MARGINAL | Yes | dr=15 rsp=0 sc=25 ind=10 |
 
 ## Needs support
 
@@ -58,25 +61,28 @@ Three temporal dimensions are tracked for each source:
 |---|--------|------------|---------------|-----------|-----------|
 | 1 | Aikido for Tomorrow | 2015 | 2020-04-08 | 2026-09-25 | alternative date 2018 (year): claim text: '2018'; alternative date 2020 (year):  |
 | 2 | Hiroshi Ikeda 池田裕 — Encyclopedia of | 1950 | 2011-08-27 | 2026-09-25 | alternative date 1970 (year): source text: '1970'; alternative date 1976 (year): |
-| 3 | Interview with Hiroshi Ikeda (Aikid | 1950-01 | 1995 | 2026-09-25 | alternative date 1995 (year): source title: '1995'; alternative date 1995 (year) |
+| 3 | Interview with Hiroshi Ikeda (Aikid | 1950-01 | 1995 | 2026-09-25 | alternative date 1950-01 (month): claim text: 'January 1950'; alternative date 1 |
 | 4 | Hiroshi Ikeda on Tradition and Chan | 1980-08 | 2020-03-06 | 2026-09-25 | alternative date 1980-08 (month): claim text: 'August 1980'; alternative date 20 |
 | 5 | Kayla Feder: Never Stop Growing | 1995 | 2022-06-10 | 2026-09-25 | alternative date 1995 (year): claim text: '1995' |
 | 6 | Bermuda Aikikai Hosts Top Aikido Ma | 2011-06 | 2011-06-06 | 2026-09-25 | — |
 | 7 | feature interview: Hiroshi Ikeda Se | 1980 | 2009-01-25 | 2026-09-25 | alternative date 2005 (year): source text: '2005' |
-| 8 | Interview with Boulder Aikikai Foun | 2023-03 | 2023-03-24 | 2026-09-25 | alternative date 2023-03-24 (day): source text: '2023-03-24' |
-| 9 | Video: Hiroshi Ikeda, 7th dan, inst | 2002 | 2002 | 2026-09-25 | alternative date 2002 (year): source text: '2002'; alternative date 2002 (year): |
-| 10 | Hiroshi Ikeda video: His Aikido is  | n.d. | 2012-03-16 | 2026-09-25 | — |
-| 11 | Santa Barbara Martial Arts School t | 1968 | 2013-05-31 | 2026-09-25 | alternative date 1978 (year): source text: '1978'; alternative date 1980 (year): |
-| 12 | Interview with Hiroshi Ikeda: Aikid | 2020-03 | 2020-07-01 | 2026-09-25 | alternative date 2020-03-06 (day): source text: '2020-03-06'; alternative date 2 |
-| 13 | About — Hiroshi Ikeda Shihan | 1969 | n.d. | 2026-09-24 | alternative date 1976 (year): source text: '1976'; alternative date 1980 (year): |
-| 14 | Kanji Art — Hiroshi Ikeda Shihan | n.d. | n.d. | 2026-09-24 | — |
-| 15 | Hiroshi Ikeda Shihan | 2022-12 | n.d. | 2026-09-24 | alternative date 2023-06 (month): source text: 'June 2023'; alternative date 202 |
-| 16 | Aikido Bridge — Hiroshi Ikeda Shiha | 2005 | n.d. | 2026-09-24 | — |
-| 17 | Hiroshi Ikeda in Kona — Aiki Kai o  | 2013-06 | 2019-01-27 | 2026-09-25 | alternative date 2019-01 (month): claim text: 'Jan 2019' |
-| 18 | Hiroshi Ikeda seminar calendar (pub | 2025-12 | n.d. | 2026-09-24 | alternative date 2025-12-31 (day): source text: '2025-12-31'; alternative date 2 |
-| 19 | Kristina Varjan (Kohala Aikikai) em | 2026-09 | 2026-09 | 2026-09-24 | alternative date 2026-09 (month): claim text: '2026-09'; alternative date 2026-0 |
-| 20 | Bob Klein (Aikido of Hilo) — reply  | n.d. | 2026-09-25 | 2026-09-25 | — |
-| 21 | Garth Jones (Allegheny Aikido) — re | n.d. | 2026-09-24 | 2026-09-24 | — |
+| 8 | Interview with Boulder Aikikai Foun | 1976 | 2023-03-24 | 2026-09-25 | alternative date 2023-03 (month): source text: '2023-03'; alternative date 2023- |
+| 9 | Interview with Evolene Premillieu:  | n.d. | n.d. | 2026-09-25 | — |
+| 10 | The COVID-19 Aikido Bridge Seminar | 2020-05 | n.d. | 2026-09-25 | — |
+| 11 | Interview with Aikido of Madison Co | n.d. | n.d. | 2026-09-25 | — |
+| 12 | Video: Hiroshi Ikeda, 7th dan, inst | 2002 | 2002 | 2026-09-25 | alternative date 2002 (year): source text: '2002'; alternative date 2002 (year): |
+| 13 | Hiroshi Ikeda video: His Aikido is  | n.d. | 2012-03-16 | 2026-09-25 | — |
+| 14 | Santa Barbara Martial Arts School t | 1968 | 2013-05-31 | 2026-09-25 | alternative date 1978 (year): source text: '1978'; alternative date 1980 (year): |
+| 15 | Interview with Hiroshi Ikeda: Aikid | 2020-03 | 2020-07-01 | 2026-09-25 | alternative date 2020-03-06 (day): source text: '2020-03-06'; alternative date 2 |
+| 16 | About — Hiroshi Ikeda Shihan | 1969 | n.d. | 2026-09-24 | alternative date 1976 (year): source text: '1976'; alternative date 1980 (year): |
+| 17 | Kanji Art — Hiroshi Ikeda Shihan | n.d. | n.d. | 2026-09-24 | — |
+| 18 | Hiroshi Ikeda Shihan | 2022-12 | n.d. | 2026-09-24 | alternative date 2023-06 (month): source text: 'June 2023'; alternative date 202 |
+| 19 | Aikido Bridge — Hiroshi Ikeda Shiha | 2005 | n.d. | 2026-09-24 | — |
+| 20 | Hiroshi Ikeda in Kona — Aiki Kai o  | 2013-06 | 2019-01-27 | 2026-09-25 | alternative date 2019-01 (month): claim text: 'Jan 2019' |
+| 21 | Hiroshi Ikeda seminar calendar (pub | 2025-12 | n.d. | 2026-09-24 | alternative date 2025-12-31 (day): source text: '2025-12-31'; alternative date 2 |
+| 22 | Kristina Varjan (Kohala Aikikai) em | 2026-09 | 2026-09 | 2026-09-24 | alternative date 2026-09 (month): claim text: '2026-09'; alternative date 2026-0 |
+| 23 | Bob Klein (Aikido of Hilo) — reply  | n.d. | 2026-09-25 | 2026-09-25 | — |
+| 24 | Garth Jones (Allegheny Aikido) — re | n.d. | 2026-09-24 | 2026-09-24 | — |
 
 ### Date provenance
 
@@ -87,7 +93,7 @@ Three temporal dimensions are tracked for each source:
 
 ## Excluded sources (not cited in article)
 
-- **kkron personal-communication claims** (25 source(s)) — primary_first_person, excluded per WP:RS (requires independent secondary reporting). These remain first-class evidence in the Story Graph but are not citable in a Wikipedia article.
+- **kkron personal-communication claims** (27 source(s)) — primary_first_person, excluded per WP:RS (requires independent secondary reporting). These remain first-class evidence in the Story Graph but are not citable in a Wikipedia article.
   - The Story Graph considers kkron a high-trust witness, but Wikipedia requires independent secondary sources.
 
 - 12 source(s) below the citation threshold — see the *Needs support* table above.
@@ -97,16 +103,16 @@ Three temporal dimensions are tracked for each source:
 4 claim(s) have no linked source in the graph. These need source verification before they can be cited.
 - `claim:jones:ikeda-8th-dan`: Hiroshi Ikeda was promoted to 8th dan in 2024 or 2025 (per Garth Jones; year uncertain)
 - `claim:ikeda:aj-site-sweep-2026-09`: aikidojournal.com site-search sweep for 'Hiroshi Ikeda' (2026-09-25): 2 substantive interviews + enc
-- `claim:jones:ikeda-pittsburgh-visits`: Ikeda's Pittsburgh seminar history: Three Rivers/CMU 2001, then Allegheny Aikido 2015 and annually 2
 - `claim:klein:ikeda-floating-bridge-seminars`: Ikeda taught seminars at Ka'u Aikikai / Floating Bridge Aikido in 2024, 2025, 2026; slated to return
+- `claim:jones:ikeda-pittsburgh-visits`: Ikeda's Pittsburgh seminar history: Three Rivers/CMU 2001, then Allegheny Aikido 2015 and annually 2
 
 ---
 
 ## Graph evidence summary
 
 - Total matched nodes: 414
-- Total claims collected: 18
-- Total sources scored: 21
-- Citable sources (SRS >= 50): 8
+- Total claims collected: 21
+- Total sources scored: 24
+- Citable sources (SRS >= 50): 11
 - RELIABLE sources (SRS >= 70): 5
 - Independent RELIABLE sources: 5
