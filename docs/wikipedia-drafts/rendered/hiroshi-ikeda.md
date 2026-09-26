@@ -11,7 +11,7 @@
 ## Item counts
 
 - 8 addition(s); 6 excluded(s); 5 question(s); 2 repair(s)
-- freshness: 5 item(s) flagged against live revid 1376549637
+- freshness: 4 item(s) flagged against live revid 1376549637
 
 ## Open action items
 
@@ -25,10 +25,10 @@
 - **Q** `upd:ikeda:q-seminar-list-threshold` — The article's seminar list is curated — is there a guideline-preferred threshold for inclusion (e.g., only seminars with independent coverage like the newspaper-cited 1982/1991/2000 entries)? (citable)
 - `upd:ikeda:repair-boulder-co` — 'based in the Boulder, CO' — grammar/proper link. (citable)
 - `upd:ikeda:repair-empty-boulder-link` — The 1980 sentence renders an empty link ('established [ ]') — the wikitext contains a bare external URL inside a wikilink. (citable)
-- `upd:ikeda:aikido-bridge-2005` — In 2005 Ikeda started the Aikido Bridge seminar series; first event was the 'Un Pont' International Friendship Seminar at Jiai Aikido, San Diego. (citable-attributed)
-- `upd:ikeda:kona-2019` — In January 2019 Ikeda taught Aiki Kai o Kona's 31st Anniversary Seminar in Kailua-Kona, Hawaii. (citable-attributed)
 - **Q** `upd:ikeda:q-bridge-aboutself` — Are the Aikido Bridge sources (the series' own site and Ikeda's official site) acceptable for one attributed sentence under WP:ABOUTSELF, or should the claim wait for independent coverage? (citable-attributed)
 - **Q** `upd:ikeda:q-maytt-org-history` — Is the MAYTT 2023 interview (Ikeda's own account) sufficient for attributed org-history detail (ASU VP, 2015 independence, 2016 Shimbokukai VP), or should this wait for independent sources? The ASU half now has the org's own letter; the 2016 half remains self-report. (citable-attributed)
+- `upd:ikeda:aikido-bridge-2005` — In 2005 Ikeda started the Aikido Bridge seminar series; first event was the 'Un Pont' International Friendship Seminar at Jiai Aikido, San Diego. (citation-pending)
+- `upd:ikeda:kona-2019` — In January 2019 Ikeda taught Aiki Kai o Kona's 31st Anniversary Seminar in Kailua-Kona, Hawaii. (citation-pending)
 - **Q** `upd:ikeda:q-date-discrepancy` — Aikido start: 1968 (his site, AJ intros) vs 1969 (MAYTT 2023 intro); Reimei Juku entry: 1970 (AJ Encyclopedia) vs 1971 (MAYTT 2023). Proposal: keep the article's 1968 and flag the conflict rather than silently choosing. (not-citable)
 - [task] Ingest the live article's three Newspapers.com citations into the graph (Missoulian 1982-04-13 p.11; Bradenton Herald 1991-09-29 p.22; Pensacola News Journal 2000-09-30 p.34)
 - [task] Black Belt check — Google Books rate-limited; retry for Ikeda coverage (Bu Jin Newsletter is his own company — affiliated)

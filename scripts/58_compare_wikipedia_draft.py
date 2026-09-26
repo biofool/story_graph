@@ -32,9 +32,9 @@ Outputs are local drafts only — never post to or edit Wikipedia
 
 Usage:
     python scripts/58_compare_wikipedia_draft.py "robert nadeau" \
-        --draft docs/wikipedia-drafts/robert-nadeau-article.md \
-        --live docs/wikipedia-drafts/robert-nadeau-live-wikipedia.md \
-        --report docs/wikipedia-drafts/robert-nadeau-compare-report.md
+        --draft docs/wikipedia-drafts/generated/robert-nadeau-article-draft.md \
+        --live data/cache/wikipedia/robert-nadeau.md \
+        --report data/audit/wikipedia-compare/robert-nadeau.md
 """
 
 import argparse
@@ -213,7 +213,7 @@ def extract_cap_phrases(text: str) -> set[str]:
             words = words[1:]
         while words and words[-1].lower() in _STOPWORDS:
             words = words[:-1]
-        phrase = " ".join(words)
+        phrase = " ".join(words).strip(".,;:!?")
         if len(phrase) < 5 or len(words) < 2:
             continue
         if all(w.lower() in _STOPWORDS for w in words):
@@ -248,7 +248,7 @@ def signals_present(sig_values: set[str], live_blob: str) -> set[str]:
     case-insensitive) in the normalized live-article blob."""
     found = set()
     for s in sig_values:
-        s = s.strip()
+        s = s.strip().rstrip(".")
         if not s:
             continue
         if re.search(r"\b" + re.escape(s.lower()) + r"\b", live_blob):
@@ -389,15 +389,22 @@ def classify_edge_priority(rel: str, dst_type: str, meta: dict,
     ctx = str(meta.get("context") or "").lower()
     assoc = str(meta.get("association") or "").lower()
     ev_status = str(meta.get("evidence_status") or "").lower()
-    src = f"{meta.get('source') or ''} {meta.get('source_url') or ''}".lower()
+    # join only non-empty parts — a blank `source` must not leave a
+    # leading space that defeats startswith/endswith checks (#81 §1)
+    src = " ".join(p for p in (str(meta.get("source") or ""),
+                             str(meta.get("source_url") or ""))
+                   if p).lower()
     if rel == "DOJO_AFFILIATION" and (
         "unverified" in ev_status
         or "frequent_visited" in assoc or "visit" in assoc
-        or "visited frequently" in ctx or "outreach" in ctx
-        or "lead" in ctx
+        or "visited frequently" in ctx
+        # (?<![A-Za-z])…(?![a-z]) — \b treats _ as a word char, so it
+        # missed "city_or_country_lead" yet matched inside "leadership"
+        or re.search(r"(?<![A-Za-z])(visit|visits|outreach|leads?)"
+                     r"(?![a-z])", ctx)
     ):
         return "lead"
-    if src.startswith("email://") or src.startswith("kkron://"):
+    if "email://" in src or "kkron://" in src:
         return "noncitable"
     if rel == "CO_APPEARANCE" and (
         meta.get("source") == "aikiweb_seminars_db"
@@ -482,6 +489,40 @@ def edge_facts(sub: dict) -> list[dict]:
             "edge_id": f"{e.get('src_id')} -[{rel}]-> {e.get('dst_id')}",
         })
     return facts
+
+
+def partition_edge_facts(efacts: list[dict], live_blob: str,
+                         vocab_re: re.Pattern | None):
+    """Split edge facts into candidates vs filtered diagnostics.
+
+    The filter runs AFTER the live-article signal check (issue #81 §1):
+    a filtered edge the article already covers counts as covered, not
+    filtered, so `candidates + filtered + covered` accounts for every
+    non-suspect edge.
+
+    Returns (missing_edge, filtered_facts, filtered_covered) where
+    filtered_facts maps bucket -> [facts that would have been
+    candidates] and filtered_covered maps bucket -> count already
+    covered by the live text.
+    """
+    missing_edge = []
+    filtered_facts = {"lead": [], "noncitable": [], "routine": []}
+    filtered_covered = {"lead": 0, "noncitable": 0, "routine": 0}
+    for f in efacts:
+        if f["priority"] == "suspect":
+            continue  # reported as data-quality flags, not additions
+        sig = extract_signals(f["text"], vocab_re)
+        res = classify_fact(f["text"], sig, live_blob)
+        if f["priority"] in filtered_facts:
+            if res["missing"]:
+                filtered_facts[f["priority"]].append(f)
+            else:
+                filtered_covered[f["priority"]] += 1
+            continue
+        if res["missing"]:
+            res["_fact"] = f
+            missing_edge.append(res)
+    return missing_edge, filtered_facts, filtered_covered
 
 
 def claim_is_citable(claim: dict, citable_source_ids: set[str]) -> bool:
@@ -719,6 +760,7 @@ def generate_compare_report(
     non_citable_material: dict,
     live_sentence_count: int,
     filtered_facts: dict | None = None,
+    filtered_covered: dict | None = None,
 ) -> str:
     label = sub["canonical"].get("label", search_term)
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -882,9 +924,13 @@ def generate_compare_report(
                   "routine": "Bulk seminar/calendar listings"}
         for key in ("lead", "noncitable", "routine"):
             bucket = filtered_facts.get(key) or []
-            if not bucket:
+            cov = (filtered_covered or {}).get(key, 0)
+            if not bucket and not cov:
                 continue
-            lines.append(f"**{labels[key]}** — {len(bucket)} edge(s):")
+            covered_note = (f" ({cov} already covered by the live article)"
+                            if cov else "")
+            lines.append(f"**{labels[key]}** — {len(bucket)} edge(s)"
+                         f"{covered_note}:")
             for fx in bucket[:15]:
                 lines.append(f"- {fx['text'][:140]}")
             if len(bucket) > 15:
@@ -1156,19 +1202,8 @@ def main():
         else:
             covered_draft.append(f)
 
-    missing_edge = []
-    filtered_facts = {"lead": [], "noncitable": [], "routine": []}
-    for f in efacts:
-        if f["priority"] == "suspect":
-            continue  # reported as data-quality flags, not additions
-        if f["priority"] in filtered_facts:
-            filtered_facts[f["priority"]].append(f)
-            continue  # filtered before ranking — reported in diagnostics
-        sig = extract_signals(f["text"], vocab_re)
-        res = classify_fact(f["text"], sig, live_blob)
-        if res["missing"]:
-            res["_fact"] = f
-            missing_edge.append(res)
+    missing_edge, filtered_facts, filtered_covered = partition_edge_facts(
+        efacts, live_blob, vocab_re)
     # Sort: facts with missing dates/entities first
     missing_edge.sort(key=lambda r: -len(dedupe_signals(r["missing"])))
     missing_draft.sort(key=lambda r: -len(dedupe_signals(r["missing"])))
@@ -1258,6 +1293,7 @@ def main():
         corroborated, no_evidence, contra, contradicted_live, mismatches,
         not_cited_citable, not_cited_other, cited_sources,
         non_citable_material, len(live_sig_pairs), filtered_facts,
+        filtered_covered,
     )
 
     if args.report:

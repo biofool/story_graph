@@ -9,11 +9,11 @@ Mechanical comparison of the graph-derived draft against the live Wikipedia arti
 - Live article: `data/cache/wikipedia/draft-peter-ralston.md`
   - title: Draft:Peter Ralston | revid: 1376596028 | retrieved: 2026-09-26T03:34:12Z
   - permalink: https://en.wikipedia.org/w/index.php?title=Draft%3APeter_Ralston&oldid=1376596028
-- Snapshot: `graph_snapshot/` | compare run: 2026-09-26T04:09:55Z
+- Snapshot: `graph_snapshot/` | compare run: 2026-09-26T06:22:28Z
 
 ## Summary
 
-- Candidate additions: **36** fact(s) with signal tokens absent from the live article
+- Candidate additions: **26** fact(s) with signal tokens absent from the live article
 - Graph data-quality flags: **1** edge(s) with suspect relation/target typing
 - Draft lines already fully covered by the live article: **7**
 - Live statements with graph corroboration: **12** corroborated + **19** partially corroborated of 46 analyzed sentences
@@ -27,46 +27,24 @@ A fact is listed when at least one of its signal tokens (graph entity label, cap
 
 ### From graph edges
 
-- **Peter Ralston co-authored Cheng Hsin Tui Shou.**
-  - edge `person:peter-ralston -[CO_AUTHORED]-> book:cheng-hsin-tui-shou`; missing signals: Cheng Hsin Tui Shou, Cheng Hsin Tui Shou.
-- **Peter Ralston co-authored Consciousness Dialogues.**
-  - edge `person:peter-ralston -[CO_AUTHORED]-> book:consciousness-dialogues`; missing signals: Consciousness Dialogues, Consciousness Dialogues.
-- **Peter Ralston co-authored Ending Unnecessary Suffering.**
-  - edge `person:peter-ralston -[CO_AUTHORED]-> book:ending-unnecessary-suffering`; missing signals: Ending Unnecessary Suffering, Ending Unnecessary Suffering.
-- **Peter Ralston co-authored Integrity of Being.**
-  - edge `person:peter-ralston -[CO_AUTHORED]-> book:integrity-of-being`; missing signals: Integrity of Being, Integrity of Being.
-- **Peter Ralston founded Cheng Hsin Center.**
-  - edge `person:peter-ralston -[FOUNDED]-> group:cheng-hsin-center`; missing signals: Cheng Hsin Center, Cheng Hsin Center.
-- **Peter Ralston founded Cheng Hsin School.**
-  - edge `person:peter-ralston -[FOUNDED]-> group:cheng-hsin-school`; missing signals: Cheng Hsin School., founded Cheng Hsin School
 - **Peter Ralston was a member of Aikido — Studied Aikido as part of broad martial arts training.**
   - edge `person:peter-ralston -[MEMBER_OF]-> group:aikido`; missing signals: Aikido, Studied Aikido
+- **Peter Ralston co-authored Cheng Hsin Tui Shou.**
+  - edge `person:peter-ralston -[CO_AUTHORED]-> book:cheng-hsin-tui-shou`; missing signals: Cheng Hsin Tui Shou
+- **Peter Ralston co-authored Consciousness Dialogues.**
+  - edge `person:peter-ralston -[CO_AUTHORED]-> book:consciousness-dialogues`; missing signals: Consciousness Dialogues
+- **Peter Ralston co-authored Ending Unnecessary Suffering.**
+  - edge `person:peter-ralston -[CO_AUTHORED]-> book:ending-unnecessary-suffering`; missing signals: Ending Unnecessary Suffering
+- **Peter Ralston co-authored Integrity of Being.**
+  - edge `person:peter-ralston -[CO_AUTHORED]-> book:integrity-of-being`; missing signals: Integrity of Being
+- **Peter Ralston founded Cheng Hsin Center.**
+  - edge `person:peter-ralston -[FOUNDED]-> group:cheng-hsin-center`; missing signals: Cheng Hsin Center
+- **Peter Ralston founded Cheng Hsin School.**
+  - edge `person:peter-ralston -[FOUNDED]-> group:cheng-hsin-school`; missing signals: founded Cheng Hsin School
 - **Peter Ralston was a member of Consciousness Team.**
-  - edge `person:peter-ralston -[MEMBER_OF]-> group:consciousness-team`; missing signals: Consciousness Team, Consciousness Team.
+  - edge `person:peter-ralston -[MEMBER_OF]-> group:consciousness-team`; missing signals: Consciousness Team
 - **Peter Ralston was a member of UC Berkeley.**
-  - edge `person:peter-ralston -[MEMBER_OF]-> group:uc-berkeley`; missing signals: UC Berkeley, UC Berkeley.
-- **Peter Ralston worked at Oakland, California as Founder and teacher at Cheng Hsin Center.**
-  - edge `person:peter-ralston -[WORKED_AT]-> place:oakland-california`; missing signals: Cheng Hsin Center, Cheng Hsin Center.
-- **Peter Ralston co-authored Art of Mastery.**
-  - edge `person:peter-ralston -[CO_AUTHORED]-> book:art-of-mastery`; missing signals: Art of Mastery.
-- **Peter Ralston co-authored Cheng Hsin.**
-  - edge `person:peter-ralston -[CO_AUTHORED]-> book:cheng-hsin`; missing signals: Cheng Hsin.
-- **Peter Ralston co-authored Genius of Being.**
-  - edge `person:peter-ralston -[CO_AUTHORED]-> book:genius-of-being`; missing signals: Genius of Being.
-- **Peter Ralston co-authored Pursuing Consciousness.**
-  - edge `person:peter-ralston -[CO_AUTHORED]-> book:pursuing-consciousness`; missing signals: Pursuing Consciousness.
-- **Peter Ralston co-authored Reflections of Being.**
-  - edge `person:peter-ralston -[CO_AUTHORED]-> book:reflections-of-being`; missing signals: Reflections of Being.
-- **Peter Ralston co-authored The Book of Not Knowing.**
-  - edge `person:peter-ralston -[CO_AUTHORED]-> book:the-book-of-not-knowing`; missing signals: Book of Not Knowing.
-- **Peter Ralston co-authored Zen Body-Being.**
-  - edge `person:peter-ralston -[CO_AUTHORED]-> book:zen-body-being`; missing signals: Zen Body-Being.
-- **Peter Ralston created The Art of Mastery.**
-  - edge `person:peter-ralston -[CREATED]-> group:the-art-of-mastery`; missing signals: Art of Mastery.
-- **Peter Ralston founded Cheng Hsin.**
-  - edge `person:peter-ralston -[FOUNDED]-> group:cheng-hsin`; missing signals: Cheng Hsin.
-- **Peter Ralston founded The Cheng Hsin School of Internal Martial Arts and Center for Ontological Research.**
-  - edge `person:peter-ralston -[FOUNDED]-> group:the-cheng-hsin-school-of-internal-martial-arts-and-center-for-ontological-research`; missing signals: Ontological Research.
+  - edge `person:peter-ralston -[MEMBER_OF]-> group:uc-berkeley`; missing signals: UC Berkeley
 - **Peter Ralston was a member of University of California at Berkeley.**
   - edge `person:peter-ralston -[MEMBER_OF]-> group:university-of-california-at-berkeley`; missing signals: University of California at Berkeley
 - **Peter Ralston has a teacher/student relationship with Richard Moon Sensei — studied tai chi, boxing, and Cheng Hsin with Ralston.**
@@ -81,21 +59,23 @@ A fact is listed when at least one of its signal tokens (graph entity label, cap
   - edge `person:peter-ralston -[WORKED_AT]-> group:lifesprings`; missing signals: Lifesprings
 - **Peter Ralston worked at Robbins Research Institute (NLP).**
   - edge `person:peter-ralston -[WORKED_AT]-> group:robbins-research-institute-nlp`; missing signals: Robbins Research Institute
+- **Peter Ralston worked at Oakland, California as Founder and teacher at Cheng Hsin Center.**
+  - edge `person:peter-ralston -[WORKED_AT]-> place:oakland-california`; missing signals: Cheng Hsin Center
 - **Peter Ralston worked at UC Berkeley as Student; Judo and fencing champion.**
   - edge `person:peter-ralston -[WORKED_AT]-> place:uc-berkeley`; missing signals: UC Berkeley
 
 ### From the generated draft
 
 - in 1978 he became the first non-Asian ever to win the World Championship full-contact martial arts tournament held in the Republic of China.
-  - missing signals: Republic of China, Republic of China., World Championship, World Championship full-contact martial arts tournament
-- Peter Ralston is a martial arts teacher and founder of Cheng Hsin, Cheng Hsin Center, Cheng Hsin School. His exceptional commitment (often practicing for more than eight hours a day) and depth of study, his intense medit
-  - missing signals: Cheng Hsin Center, Cheng Hsin School., SF Chronicle
+  - missing signals: Republic of China, World Championship, World Championship full-contact martial arts tournament
 - Peter Ralston was the first non-Asian to win the World Championship full-contact martial arts tournament in the Republic of China (Taiwan) in 1978
   - missing signals: Republic of China, World Championship, World Championship full-contact martial arts tournament
-- Peter Ralston founded Cheng Hsin, Cheng Hsin Center, Cheng Hsin School, The Cheng Hsin School of Internal Martial Arts and Center for Ontological Research.
-  - missing signals: Cheng Hsin Center, Ontological Research.
+- Peter Ralston is a martial arts teacher and founder of Cheng Hsin, Cheng Hsin Center, Cheng Hsin School. His exceptional commitment (often practicing for more than eight hours a day) and depth of study, his intense medit
+  - missing signals: Cheng Hsin Center, SF Chronicle
 - According to usadojo.com, Peter Ralston conducted aikido seminars in the Soviet Union during the late 1980s and early 1990s.
   - missing signals: Soviet Union, aikido
+- Peter Ralston founded Cheng Hsin, Cheng Hsin Center, Cheng Hsin School, The Cheng Hsin School of Internal Martial Arts and Center for Ontological Research.
+  - missing signals: Cheng Hsin Center
 - SF Chronicle (1979-09-19) bills Ralston 'World martial arts champion' leading his Cheng Hsin academy class in Oakland
   - missing signals: SF Chronicle
 - Independent corroboration: 1978 World Martial Arts Championship in Taiwan won by a non-Oriental for the first time — Peter Ralston, 28, of San Francisco
@@ -134,6 +114,9 @@ A live sentence is 'corroborated' when a graph claim, draft line, or source-text
 - A USAdojo profile reports that he was a sumo champion at his high school in Japan and later a judo and fencing champion at the University of California, Berkeley.
   - corroborated (non-citable material only) via source text (https://books.google.co.nz/books/about/Cheng_Hsin.html?id=KZ8TJAKaiUQC&redir_esc)
   - shared: Japan, University of California
+- Ralston, Peter (1989). Cheng Hsin: The Principles of Effortless Power.
+  - corroborated (non-citable material only) via claim (https://www.penguin.co.nz/authors/peter-ralston)
+  - shared: Cheng Hsin, Principles of Effortless Power
 - In 1978, he won the light-heavyweight division at the Second World Kuoshu Martial Arts Tournament in Taiwan, according to contemporary newspaper and magazine accounts.
   - corroborated via draft (generated draft)
   - shared: 1978, Second World Kuoshu Martial Arts
@@ -146,9 +129,6 @@ A live sentence is 'corroborated' when a graph claim, draft line, or source-text
 - Ralston founded Cheng Hsin in 1975.
   - corroborated (non-citable material only) via claim (https://www.penguin.co.nz/authors/peter-ralston)
   - shared: 1975, Cheng Hsin
-- Ralston, Peter (1989). Cheng Hsin: The Principles of Effortless Power.
-  - corroborated (non-citable material only) via source text (https://books.google.co.nz/books/about/Cheng_Hsin.html?id=KZ8TJAKaiUQC&redir_esc)
-  - shared: 1989, Cheng Hsin
 - Style Cheng Hsin
   - partially corroborated via draft (generated draft)
   - shared: Cheng Hsin
@@ -278,8 +258,8 @@ Each row: a live sentence with a single year, and a graph item sharing an entity
 
 - ['Sweeping Up' sports column — Peter Ralston item](https://www.newspapers.com/image/735945355/) — SRS=75 (RELIABLE), class=journalistic
 - [Black Belt Magazine, December 1978 (Vol. 16, No. 12) — 'Cheng Hsin: Es](https://books.google.com/books?id=w9QDAAAAMBAJ) — SRS=75 (RELIABLE), class=journalistic
-- [Significa — 'Yankee Judo Dandy' (Parade magazine, p.18)](https://archive.org/details/assassxxxxxx00linc) — SRS=75 (RELIABLE), class=journalistic
 - ['Parrying the Martial Arts Ripoff' — Bay Area martial arts feature](https://www.newspapers.com/image/1223258844/) — SRS=75 (RELIABLE), class=journalistic
+- [Significa — 'Yankee Judo Dandy' (Parade magazine, p.18)](https://archive.org/details/assassxxxxxx00linc) — SRS=75 (RELIABLE), class=journalistic
 - [Interview with Peter Ralston (Tai Chi Chuan Journal / TQJ)](https://tqj.de/wp-content/uploads/2024/09/tqj-online-Interview-Ralston-407.pdf) — SRS=65 (MARGINAL), class=archival
 - [Peter Ralston Cheng Hsin — USAdojo.com Profile](https://www.usadojo.com/peter-ralston/) — SRS=50 (MARGINAL), class=journalistic
 - [Tai Chi Interview met Peter Ralston (Taijivizier magazine, STN)](https://www.chenghsin.nl/wp-content/uploads/2020/04/Tai-Chi-Interview-met-Peter-Ralston.pdf) — SRS=50 (MARGINAL), class=archival
@@ -293,11 +273,11 @@ Each row: a live sentence with a single year, and a graph item sharing an entity
 The following are first-class graph evidence but must not appear as proposed article text (WP:RS): `kkron://` personal-communication assertions and `primary_first_person` / `comment_thread` / `documentary_promotional` sources.
 
 - only non-citable sources (34):
-  - In 1928, the first big tournament was held in mainland China. It was very dangerous; lots of people were killed or injured. The officials fi
-  - There is no such thing as a fight. There never was and there never will be.
-  - In 1975, Peter Ralston founded Cheng Hsin, a dogma-free approach to using direct experience in body/mind training
+  - In 1978 Peter Ralston became the first non-Asian to win a gold medal at the World Championship full-contact martial arts tournament in the R
+  - For a time there was an annual tradition called the Asian Martial Arts tournament, though I suppose anyone could have entered.
+  - By the age of 28 he had black belts or expertise in almost every martial art there is and was developing his own Art of Effortless Power.
   - I was the first non-Asian ever to win.
-  - The founder of the Cheng Hsin Center and the author of several books, including The Book of Not Knowing
+  - Peter Ralston is a founder of the consciousness movement in the San Francisco Bay area
 - source: https://chenghsin.com/books-and-more/ (class=documentary_promotional)
 - source: https://chenghsin.com/who-is-peter-ralston/ (class=documentary_promotional)
 - source: https://openlibrary.org/search.json?author=Peter+Ralston (class=documentary_promotional)

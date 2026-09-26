@@ -8,7 +8,6 @@
 {{short description|American aikido teacher and peace activist}}
 {{Infobox martial artist
 | name            = Richard Moon
-| birth_date      = {{Birth year and age|1946}}
 | martial_art     = [[Aikido]]
 | teacher         = [[Robert Nadeau (aikidoka)|Robert Nadeau]]
 | rank            = 6th ''[[dan rank|dan]]''
@@ -17,12 +16,9 @@
 | website         = 
 }}
 
-'''Richard Moon''' (born 1946) is an American [[aikido]] teacher,
+'''Richard Moon''' is an American [[aikido]] teacher,
 executive coach, and peace activist holding the rank of 6th
-''[[dan rank|dan]]''.<ref name="copyright-1946">{{cite
-web |title=Copyright registrations — Richard Moon, 1946-
- |work=Copyright Encyclopedia |access-date=2026-09-21
- |url=https://www.copyrightencyclopedia.com/radical-militant-vegetarians-in-naziland-against-the-odds/}}</ref><ref name="nadeau-bio">{{cite web
+''[[dan rank|dan]]''.<ref name="nadeau-bio">{{cite web
  |title=Authors — Robert Nadeau Shihan
  |url=https://www.nadeaushihan.com/authors
  |access-date=2026-09-17}}</ref> He is the founder and chief instructor of
@@ -181,9 +177,7 @@ Moon has recorded and published music under the name "R. Moon" through
 his site Moonsic.com, including the collections ''Moon Rocks'' and
 ''Moon Tunes''.<ref name="moonsic">{{cite web |title=R. Moon — Moon
 Music |work=Moonsic.com |url=http://moonsic.com/rmoon/moonrocks/moonrocks.html
- |access-date=2026-09-22}}</ref> US copyright records for his San
-Anselmo music releases give his birth year as 1946.<ref
-name="copyright-1946"/> He has also pursued food ventures — among them
+ |access-date=2026-09-22}}</ref> He has also pursued food ventures — among them
 a tofu-based product called "Teriyaki Age", which he presented at
 La Cocina SF's Street Food Festival.{{better source
 needed|date=September 2026}}
@@ -213,7 +207,6 @@ He lives in [[Nicasio, California]].<ref name="linkedin-2025"/>
 [[Category:American aikidoka]]
 [[Category:Living people]]
 [[Category:People from Marin County, California]]
-[[Category:1946 births]]
 ```
 
 ## Item decisions (evidence → decision → rationale)
@@ -228,14 +221,6 @@ He lives in [[Nicasio, California]].<ref name="linkedin-2025"/>
 
 **Rationale:** Regional press for the program's existence; own site for its name/description.
 
-### `upd:moon:birth-year-1946` — addition, citable
-
-**Claim:** Born 1946 (exact date unknown) — US copyright records on his San Anselmo music releases give 'Richard Moon, 1946-'.
-
-- Copyright Encyclopedia — Richard Moon, 1946- (https://www.copyrightencyclopedia.com/radical-militant-vegetarians-in-naziland-against-the-odds/) — unscored/secondary/incidental — Public copyright records — supports year only, not exact date
-
-**Rationale:** Public record; year only — exact date remains unknown and is not guessed.
-
 ### `upd:moon:books` — addition, citable
 
 **Claim:** Author of 'Quantum Aikido: The Power of Harmony' (Inner Traditions, ISBN 9781644119778); co-author of 'Aikido: The Art of Transformation' (2024, with Bell, Herr, Noha, Spence, Yoder); creator of 'Aikido in Three Easy Lessons'.
@@ -244,16 +229,6 @@ He lives in [[Nicasio, California]].<ref name="linkedin-2025"/>
 - book:aikido-art-of-transformation (book:aikido-art-of-transformation) — reliable/secondary/significant — Moon confirmed as one of six co-authors (MAYTT Noha/Herr Part II)
 
 **Rationale:** Bibliographic facts — publisher catalog + book itself.
-
-### `upd:moon:peace-work` — addition, citable
-
-**Claim:** Peace-building via IMTD (joined at first Lake Trails camp 1999, aikido as conflict-resolution tool feeding Bosnia Youth Leadership work); Cyprus CRTG-seeding project (with Cyprus Fulbright Commission, US Embassy, Conflict Management Group, Harvard Negotiation Project); Nautilus Institute senior associate.
-
-- IMTD Associates page (https://imtdsite.wordpress.com/about/associates/) — unscored/primary-org/significant
-- Hadjipavlou & Kanol, 'The Impacts of Peacebuilding Work on the Cyprus Conflict', CDA Collaborative 2008 (https://www.cdacollaborative.org/) — unscored/secondary/mention — Academic report — bicommunal timeline 1995 entry 'Aikido, Chris Thorsen, hired by Cyprus Consortium'
-- Nautilus Institute — Richard Moon (https://nautilus.org/network/associates/richard-moon/) — unscored/primary-org/significant
-
-**Rationale:** Organizational bios + academic report for the Cyprus timeline entry.
 
 ### `upd:moon:q-gng-sufficiency` — question, citable
 
@@ -273,6 +248,12 @@ He lives in [[Nicasio, California]].<ref name="linkedin-2025"/>
 
 - Point Reyes Light — Dance Palace 5-day aikido class listing, 'Instructor: Richard Moon' (Nov 20, 1980, p.13) (https://www.newspapers.com/image/1125183831/) — marginal/secondary/incidental — Point Reyes Light 1980-11-20 p.13 — class listing naming Moon as instructor; one of 8+ PRL items (see draft source inventory)
 - Point Reyes Light — FBN filing, 'AIKIDO OF MARIN / Richard Moon' (1985-02-28 p.16) (https://www.newspapers.com/image/1100894910/) — marginal/secondary/incidental — Cited in the draft source inventory; clipping not yet ingested into the graph
+- Point Reyes Light — 'AIKI-DANCE WORKSHOP Led by Richard Moon' Apr 26 listing (Apr 17, 1997, p.13) (https://www.newspapers.com/image/1100842220/) — marginal/secondary/incidental — PRL 1981 event listing 'AIKI-DANCE WORKSHOP Led by Richard Moon'
+- Point Reyes Light — 'Aikido and Dance with Richard Moon' Apr 25 event listing (Apr 23, 1998, p.13) (https://www.newspapers.com/image/1100916601/) — marginal/secondary/incidental — PRL 1981 'Aikido and Dance with Richard Moon'
+- Point Reyes Light — 'Aikido, taught by Richard Moon, 6 to 8 p.m.' Wednesday class listing (Sep 6, 1984, p.14) (https://www.newspapers.com/image/1100933658/) — marginal/secondary/incidental — PRL 'Aikido, taught by Richard Moon, 6 to 8 p.m.'
+- Point Reyes Light — Dance Palace open house: 'Aikido demonstration by Richard Moon, David Gamble and Sandy Jacobs' (Sep 8, 1983, p.9) (https://www.newspapers.com/image/1101135895/) — marginal/secondary/incidental — PRL Dance Palace open house, aikido demo by Moon
+- Point Reyes Light clipping (1980s) (https://www.newspapers.com/image/1100943036/) — marginal/secondary/incidental — cited in draft; clipping not yet ingested into the graph
+- moonsensei in maastricht: Aiki - Energy State (2010) (https://www.youtube.com/watch?v=MedDDBQHt6Y) — unscored/self-report/incidental — subject's own channel — attributed video evidence only
 
 **Rationale:** Local/regional press; class-listing-level coverage — real but the draft's weakest GNG leg, flagged honestly in the notability assessment.
 
@@ -297,29 +278,55 @@ He lives in [[Nicasio, California]].<ref name="linkedin-2025"/>
 
 **Claim:** Europe guest teaching: Aikido Maastricht hosted-teachers list (videos Mar 2010); Riviera Seminar Lake Geneva Jun 2025 with Cassidy, Martucci, Messisco; Awase Helsinki Jun 2025.
 
-- Aikido Maastricht — hosted guest teachers (http://www.aikido-maastricht.nl/index.php/english) — unscored/primary-org/incidental — Dojo's hosted-teachers list — names Moon alongside Nadeau, Cassidy, Kessler
-- Riviera Seminar 2025 — Novum Experience (https://www.novumexperience.com/2025/06/09/riviera-seminar-2025-the-heart-of-freedom/) — unscored/primary-org/incidental
+- Aikido Maastricht — hosted guest teachers (http://www.aikido-maastricht.nl/index.php/english) — marginal/primary-org/incidental — Dojo's hosted-teachers list — names Moon alongside Nadeau, Cassidy, Kessler
+- Riviera Seminar 2025 — Novum Experience (https://www.novumexperience.com/2025/06/09/riviera-seminar-2025-the-heart-of-freedom/) — marginal/primary-org/incidental
 
 **Rationale:** Host-organization records for specific events; Maastricht exact date unrecorded (videos Mar 2010).
+
+### `upd:moon:music-ventures` — addition, citable-attributed
+
+**Claim:** Moon records and publishes music under the name 'R. Moon' via his site Moonsic.com (collections incl. Moon Rocks, Moon Tunes); he has also pursued food ventures.
+
+- R. Moon — Moon Music (Moonsic.com) (http://moonsic.com/rmoon/moonrocks/moonrocks.html) — marginal/self-report/significant — subject's own site — WP:ABOUTSELF, attributed only
+
+**Rationale:** Uncontroversial self-description of his own releases; attributed. The Teriyaki Age food claim carries an inline better-source-needed flag in the draft.
 
 ### `upd:moon:nz-teaching` — addition, citable-attributed
 
 **Claim:** Guest teaching in New Zealand since ~1987 (first invited by the Riai Aikido community); Auckland 2019 with Nadeau; September 2025 three-weekend tour.
 
 - Moon LinkedIn post, 2025-09-13 (https://www.linkedin.com/posts/richard-moon-00891714_just-about-to-start-last-day-teaching-in-activity-7372723745481936896-fgKy) — unreliable/self-report/significant — PRIMARY/self — only source for the ~1987 first-visit year
-- O Sensei Revisited Down Under - Riai Aikido (https://aikido.org.nz/nadeauworkshop/) — unscored/primary-org/significant — Riai Aikido 'O Sensei Revisited Down Under' — Auckland Mar 2019, Moon + Nadeau
+- O Sensei Revisited Down Under - Riai Aikido (https://aikido.org.nz/nadeauworkshop/) — marginal/primary-org/significant — Riai Aikido 'O Sensei Revisited Down Under' — Auckland Mar 2019, Moon + Nadeau Riai Aikido org event record — attributed use
 
 **Rationale:** LinkedIn used only for attributed chronology; org records for specific events.
+
+### `upd:moon:peace-work` — addition, citable-attributed
+
+**Claim:** Peace-building via IMTD (joined at first Lake Trails camp 1999, aikido as conflict-resolution tool feeding Bosnia Youth Leadership work); Cyprus CRTG-seeding project (with Cyprus Fulbright Commission, US Embassy, Conflict Management Group, Harvard Negotiation Project); Nautilus Institute senior associate.
+
+- IMTD Associates page (https://imtdsite.wordpress.com/about/associates/) — marginal/primary-org/significant
+- Hadjipavlou & Kanol, 'The Impacts of Peacebuilding Work on the Cyprus Conflict', CDA Collaborative 2008 (https://www.cdacollaborative.org/) — marginal/secondary/mention — Academic report — bicommunal timeline 1995 entry 'Aikido, Chris Thorsen, hired by Cyprus Consortium'
+- Nautilus Institute — Richard Moon (https://nautilus.org/network/associates/richard-moon/) — marginal/primary-org/significant
+
+**Rationale:** Organizational bios + academic report for the Cyprus timeline entry. Affiliated org bios — attributed claims only (#81).
 
 ### `upd:moon:rank-and-affiliations` — addition, citable-attributed
 
 **Claim:** 6th dan; founder/chief instructor of Aikido of Marin; co-founder/senior instructor of City Aikido SF with Nadeau; 50+ year student of Nadeau; also trained under Mestre Acordeon (capoeira), Peter Ralston (Cheng Hsin), B.K. Frantzis (qigong).
 
-- Authors — Robert Nadeau Shihan (Bob Noha bio) (https://www.nadeaushihan.com/authors) — unscored/primary-org/significant — Authors page on Nadeau's site — organizational bio
-- Riai Aikido — Richard Moon bio (http://www.conradedwards.net/riaiaikido/index.php/Main/RichardMoon) — unscored/primary-org/significant — NZ host organization's bio — shows 5th dan as of 1997 (older)
-- Richard Moon, 6. dan Awasessa 12.6.2025 — Awase Helsinki (https://www.awase.fi/aikido/language/fi/richard-moon-6-dan-awasessa-12-6-2025) — unscored/primary-org/mention — Jun 2025 billing confirms current 6th dan
+- Authors — Robert Nadeau Shihan (Bob Noha bio) (https://www.nadeaushihan.com/authors) — marginal/primary-org/significant — Authors page on Nadeau's site — organizational bio
+- Riai Aikido — Richard Moon bio (http://www.conradedwards.net/riaiaikido/index.php/Main/RichardMoon) — marginal/primary-org/significant — NZ host organization's bio — shows 5th dan as of 1997 (older)
+- Richard Moon, 6. dan Awasessa 12.6.2025 — Awase Helsinki (https://www.awase.fi/aikido/language/fi/richard-moon-6-dan-awasessa-12-6-2025) — marginal/primary-org/mention — Jun 2025 billing confirms current 6th dan
 
 **Rationale:** Organizational bios — attributed; promotion date unsourced (open task).
+
+### `upd:moon:birth-year-1946` — addition, citation-pending
+
+**Claim:** Born 1946 (exact date unknown) — US copyright records on his San Anselmo music releases give 'Richard Moon, 1946-'.
+
+- Copyright Encyclopedia — Richard Moon, 1946- (https://www.copyrightencyclopedia.com/radical-militant-vegetarians-in-naziland-against-the-odds/) — unscored/secondary/incidental — Public copyright records — supports year only, not exact date
+
+**Rationale:** Single unscored copyright-records aggregator; under BLP the year is not stated in wiki voice, infobox, or categories — held pending an independent source (#81).
 
 ### `upd:moon:q-better-source-flags` — question, not-citable
 

@@ -11,7 +11,7 @@
 ## Item counts
 
 - 5 addition(s); 3 excluded(s); 1 question(s); 2 repair(s)
-- freshness: 4 item(s) flagged against live revid 1376726726
+- freshness: 5 item(s) flagged against live revid 1376726726
 
 ## Open action items
 

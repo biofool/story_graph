@@ -22,8 +22,8 @@ The following are disclosed and deliberately excluded as sources:
 
 ## Policy checklist
 
-- [x] COI disclosed; talk_page/AfC mode over direct edit
+- [ ] COI disclosed; talk_page/AfC mode over direct edit
 - [x] Affiliated sources attributed, not asserted in wiki-voice
 - [x] Personal communications and outreach leads excluded
-- [x] Visits not promoted to affiliations
+- [x] Not-citable / excluded items absent from the patch
 - [x] No posting without operator approval

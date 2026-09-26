@@ -23,6 +23,7 @@ Usage:
 """
 
 import argparse
+import hashlib
 import importlib.util
 import json
 import re
@@ -38,7 +39,7 @@ ITEM_TYPES = {"addition", "repair", "question", "excluded"}
 DECISIONS = {"citable", "citable-attributed", "citation-pending", "not-citable"}
 STATUSES = {"proposed", "posted", "accepted", "rejected", "superseded"}
 TRANSITIONS = {
-    "proposed": {"posted", "superseded"},
+    "proposed": {"posted", "rejected", "superseded"},
     "posted": {"accepted", "rejected", "superseded"},
     "accepted": {"superseded"},
     "rejected": {"proposed"},
@@ -50,6 +51,20 @@ COVERAGE = {"significant", "incidental", "mention"}
 SUPPORTS = {"full", "partial"}
 
 CITABLE_DECISIONS = {"citable", "citable-attributed", "citation-pending"}
+# Decisions that qualify an item for the paste-ready patch. Latent
+# "citation-pending" items are held out (issue #81 §2).
+PATCH_DECISIONS = {"citable", "citable-attributed"}
+# Reliability floor for patch items without an explicit override.
+FLOOR_RELIABILITY = {"reliable", "marginal"}
+
+_SENT_START_RE = re.compile(
+    r"^(in|on|at|the|a|an|by|from|after|before|during|he|she|it|they)\s+",
+    re.I)
+_MONTH_WORDS = {
+    "january", "february", "march", "april", "may", "june", "july",
+    "august", "september", "october", "november", "december",
+}
+_REF_URL_RE = re.compile(r"https?://[^\s\]|}<>]+")
 
 _YEAR_RE = re.compile(r"\b(1[89]\d{2}|20[0-2]\d)\b")
 _CAP_RE = re.compile(r"\b[A-Z][A-Za-z'’.\-]+(?:\s+[A-Z][A-Za-z'’.\-]+)+\b")
@@ -96,7 +111,51 @@ def load_source_meta() -> dict:
     return meta
 
 
-def validate(store: dict, graph_ids: set[str]) -> tuple[list, list]:
+def _evidence_urls(store: dict, src_meta: dict) -> set[str]:
+    """URLs carried by evidence on items with a patch-eligible decision."""
+    urls = set()
+    for it in store.get("items") or []:
+        if it.get("decision") not in PATCH_DECISIONS:
+            continue
+        for ev in it.get("evidence") or []:
+            if "source" in ev:
+                u = (src_meta.get(ev["source"]) or {}).get("url")
+                if u:
+                    urls.add(u.rstrip("/"))
+            elif "external" in ev:
+                urls.add(ev["external"]["url"].rstrip("/"))
+    return urls
+
+
+def _draft_gate_errors(store: dict, src_meta: dict) -> list[str]:
+    """Every <ref> URL in an AfC draft must resolve to evidence on a
+    patch-eligible item — otherwise draft text bypasses the item gates
+    (issue #81 §4).
+    """
+    rel = store["article"]["draft_wikitext_file"]
+    p = PROJECT_ROOT / rel
+    if not p.exists():
+        return [f"draft_wikitext_file not found: {rel}"]
+    urls = _REF_URL_RE.findall(p.read_text())
+    allowed = _evidence_urls(store, src_meta)
+    errors = []
+    for u in sorted(set(urls)):
+        u = u.rstrip("/")
+        ok = u in allowed
+        if not ok:
+            # archive.org wrappers: check the wrapped target URL too
+            inner = re.search(r"/(https?://.+)$", u)
+            if inner and inner.group(1).rstrip("/") in allowed:
+                ok = True
+        if not ok:
+            errors.append(
+                f"draft cites {u} — no citable/citable-attributed item "
+                "carries it as evidence")
+    return errors
+
+
+def validate(store: dict, graph_ids: set[str],
+             src_meta: dict | None = None) -> tuple[list, list]:
     """Return (errors, warnings). Empty errors means the store is renderable."""
     errors, warnings = [], []
     if not store.get("subject"):
@@ -110,6 +169,7 @@ def validate(store: dict, graph_ids: set[str]) -> tuple[list, list]:
 
     seen = set()
     live_exists = bool(store.get("article", {}).get("exists"))
+    has_draft = bool(store.get("article", {}).get("draft_wikitext_file"))
     for i, it in enumerate(items):
         tag = it.get("id") or f"item[{i}]"
         for field in ("id", "type", "claim", "decision", "status", "history"):
@@ -127,6 +187,8 @@ def validate(store: dict, graph_ids: set[str]) -> tuple[list, list]:
 
         # lifecycle: history append-only, legal transitions, agrees w/ status
         hist = it.get("history") or []
+        if hist and hist[0].get("status") != "proposed":
+            errors.append(f"{tag}: history must start at 'proposed'")
         prev = None
         for h in hist:
             st = h.get("status")
@@ -136,6 +198,12 @@ def validate(store: dict, graph_ids: set[str]) -> tuple[list, list]:
                   and st not in TRANSITIONS[prev]):
                 errors.append(
                     f"{tag}: illegal transition {prev} -> {st} in history")
+            if st == "accepted" and not (
+                    (h.get("diff") or h.get("revid"))
+                    and h.get("reviewer")):
+                errors.append(
+                    f"{tag}: 'accepted' entry needs a recorded diff/revid "
+                    "and a reviewer")
             prev = st
         if hist and hist[-1].get("status") != it.get("status"):
             errors.append(f"{tag}: status != last history entry")
@@ -179,16 +247,34 @@ def validate(store: dict, graph_ids: set[str]) -> tuple[list, list]:
                     f"{tag}: {it.get('decision')}/{it.get('type')} item "
                     "must not carry proposal.wikitext")
 
+        # evidence floor (#81 §2): an item eligible for the paste-ready
+        # patch needs at least one reliable|marginal piece of evidence,
+        # unless an explicit override states why (e.g. mechanical repair).
+        patch_eligible = (it.get("type") in {"addition", "repair"}
+                          and it.get("decision") in PATCH_DECISIONS
+                          and it.get("status") in {"proposed", "posted"})
+        evs = it.get("evidence") or []
+        if patch_eligible and not it.get("override"):
+            if not any(e.get("reliability") in FLOOR_RELIABILITY
+                       for e in evs):
+                errors.append(
+                    f"{tag}: patch item has no reliable|marginal evidence "
+                    "and no override")
+        # 'citable' (wiki-voice) needs at least one graph-resolved source;
+        # outside-only support can at most be 'citable-attributed' (#81 §2)
+        if (it.get("decision") == "citable" and evs
+                and not it.get("override")
+                and not any("source" in e for e in evs)):
+            errors.append(
+                f"{tag}: 'citable' needs ≥1 graph-resolved evidence "
+                "(or 'citable-attributed'/override)")
+
         # citable additions/repairs that patch a live article need an
         # anchored, revid-stamped proposal. AfC/draft-mode subjects carry
         # the proposed article as article.draft_wikitext_file — the draft
         # IS the proposal, so per-item wikitext is not required.
-        patching_live = (live_exists
-                         and not store["article"].get("draft_wikitext_file"))
-        if (it.get("type") in {"addition", "repair"}
-                and it.get("decision") in CITABLE_DECISIONS
-                and it.get("status") in {"proposed", "posted"}
-                and patching_live):
+        patching_live = live_exists and not has_draft
+        if (patch_eligible and patching_live):
             if not proposal.get("wikitext"):
                 errors.append(f"{tag}: citable item missing proposal.wikitext")
             if not proposal.get("base_revid"):
@@ -197,6 +283,18 @@ def validate(store: dict, graph_ids: set[str]) -> tuple[list, list]:
             anchor = proposal.get("anchor") or {}
             if not anchor.get("passage"):
                 errors.append(f"{tag}: repair missing anchor.passage")
+        # optional recorded hash of the reviewed base passage
+        if proposal.get("base_passage_hash"):
+            passage = (proposal.get("anchor") or {}).get("passage", "")
+            digest = "sha1:" + hashlib.sha1(
+                " ".join(passage.split()).encode()).hexdigest()
+            if proposal["base_passage_hash"] != digest:
+                errors.append(
+                    f"{tag}: base_passage_hash does not match "
+                    "anchor.passage")
+
+    if has_draft:
+        errors.extend(_draft_gate_errors(store, src_meta or {}))
     return errors, warnings
 
 
@@ -222,8 +320,18 @@ def load_live(cache_file: str) -> dict:
 
 
 def claim_signals(claim: str) -> list[str]:
-    """Cheap signal tokens: years + capitalized multi-word phrases."""
-    return _YEAR_RE.findall(claim) + _CAP_RE.findall(claim)
+    """Cheap signal tokens: years + capitalized multi-word phrases.
+
+    Sentence-start scaffolding ("In May", "On July") is dropped — a bare
+    month or stopword-led fragment carries no identifying power (#81 §5).
+    """
+    toks = list(_YEAR_RE.findall(claim))
+    for ph in _CAP_RE.findall(claim):
+        ph = _SENT_START_RE.sub("", ph).strip()
+        if not ph or ph.lower() in _MONTH_WORDS:
+            continue
+        toks.append(ph)
+    return toks
 
 
 def freshness(store: dict) -> dict:
@@ -253,7 +361,8 @@ def freshness(store: dict) -> dict:
             intact = (passage in wikitext) or (passage in text)
             flags.append("passage_intact" if intact
                          else "rebase_needed (anchor passage not found)")
-        hits = [t for t in claim_signals(it.get("claim", "")) if t in text]
+        hits = sorted({t for t in claim_signals(it.get("claim", ""))
+                       if t in text})
         if len(hits) >= 2:
             flags.append(f"possible_already_present ({', '.join(hits[:5])})")
         out["items"][it["id"]] = flags
@@ -288,7 +397,7 @@ def build_ir(store: dict) -> dict:
         "gng": store.get("gng", {}),
         "items": items,
         "patch_items": [i for i in decided
-                        if i["decision"] in CITABLE_DECISIONS
+                        if i["decision"] in PATCH_DECISIONS
                         and i["status"] in {"proposed", "posted"}
                         and (i.get("proposal") or {}).get("wikitext")],
         "questions": [i for i in items if i["type"] == "question"],
@@ -364,17 +473,34 @@ def render_wikimarkup(ir: dict, fresh: dict) -> str:
         L += ["## Article draft wikitext", "", "```wikitext",
               draft.strip(), "```", ""]
     if ir["patch_items"]:
-        L += ["## Proposed patch (complete, single block)", "",
-              "```wikitext"]
+        # freshness gates the paste-ready block: items whose anchor or
+        # base revid drifted are held, not pasted (issue #81 §2)
+        ready, held = [], []
         for it in ir["patch_items"]:
             flags = (fresh.get("items") or {}).get(it["id"], [])
-            L.append(f"<!-- {it['id']} — {it['decision']}"
-                     + (f" | freshness: {'; '.join(flags)}" if flags else "")
-                     + " -->")
-            L.append(it["proposal"]["wikitext"])
+            if any("rebase_needed" in f or "needs_review" in f
+                   for f in flags):
+                held.append((it, flags))
+            else:
+                ready.append((it, flags))
+        if ready:
+            L += ["## Proposed patch (complete, single block)", "",
+                  "```wikitext"]
+            for it, flags in ready:
+                L.append(f"<!-- {it['id']} — {it['decision']}"
+                         + (f" | freshness: {'; '.join(flags)}"
+                            if flags else "")
+                         + " -->")
+                L.append(it["proposal"]["wikitext"])
+                L.append("")
+            L.append("```")
             L.append("")
-        L.append("```")
-        L.append("")
+        if held:
+            L += ["## Held — do not paste until re-verified", ""]
+            for it, flags in held:
+                L.append(f"- `{it['id']}` ({it['decision']}): {it['claim']}"
+                         f" — {'; '.join(flags)}")
+            L.append("")
     L += ["## Item decisions (evidence → decision → rationale)", ""]
     for it in ir["items"]:
         if it["type"] == "excluded":
@@ -445,13 +571,53 @@ def render_talk(ir: dict, fresh: dict) -> str:
         for it in ir["excluded"]:
             L.append(f"- {it['claim']} — {it['rationale']}")
         L.append("")
-    L += ["## Policy checklist", "",
-          "- [x] COI disclosed; talk_page/AfC mode over direct edit",
-          "- [x] Affiliated sources attributed, not asserted in wiki-voice",
-          "- [x] Personal communications and outreach leads excluded",
-          "- [x] Visits not promoted to affiliations",
-          "- [x] No posting without operator approval", ""]
+    L += _policy_checklist(ir)
     return "\n".join(L)
+
+
+def _policy_checklist(ir: dict) -> list[str]:
+    """Compute the policy checklist from the IR — no hardcoded ticks
+    (issue #81 §6).
+    """
+    art = ir["article"]
+    patch = ir["patch_items"]
+
+    def ev_urls(it):
+        urls = []
+        for e in it.get("evidence") or []:
+            if "external" in e:
+                urls.append(e["external"]["url"])
+            else:
+                urls.append((_SRC_META.get(e["source"]) or {})
+                            .get("url", ""))
+        return urls
+
+    no_personal = not any(
+        any(u.startswith(("kkron://", "email://")) for u in ev_urls(it))
+        for it in patch)
+    affiliated_attributed = all(
+        it["decision"] != "citable"
+        or it.get("override")
+        or any(e.get("independence") == "secondary"
+               for e in it.get("evidence") or [])
+        for it in patch)
+    checks = [
+        ("COI disclosed; talk_page/AfC mode over direct edit",
+         bool(art.get("coi")) and art.get("mode") in {"talk_page", "afc"}),
+        ("Affiliated sources attributed, not asserted in wiki-voice",
+         affiliated_attributed),
+        ("Personal communications and outreach leads excluded",
+         no_personal),
+        ("Not-citable / excluded items absent from the patch",
+         all(it["decision"] in PATCH_DECISIONS for it in patch)),
+        ("No posting without operator approval",
+         True),  # structural: these files are local artifacts only
+    ]
+    out = ["## Policy checklist", ""]
+    for label, ok in checks:
+        out.append(f"- [{'x' if ok else ' '}] {label}")
+    out.append("")
+    return out
 
 
 def main() -> int:
@@ -480,7 +646,7 @@ def main() -> int:
             rc = 1
             continue
         store = json.loads(path.read_text())
-        errors, warnings = validate(store, graph_ids)
+        errors, warnings = validate(store, graph_ids, _SRC_META)
         for w in warnings:
             print(f"  WARN {slug}: {w}")
         if errors:

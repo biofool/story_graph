@@ -20,12 +20,13 @@ Usage:
     # Specify a different repo
     python scripts/33_post_wikipedia_drafts.py --repo biofool/story_graph
 
-The script pairs files by stem (convention per issue #73):
-    peter-ralston-wikimarkup.md                        → article
+The script pairs files by stem (convention per issues #73/#80):
+    rendered/peter-ralston-wikimarkup.md               → article view
     generated/peter-ralston-reliability-report.md      → reliability report
 
-Maintained files per subject: `<slug>.md` (status index),
-`<slug>-wikimarkup.md` (article), `<slug>-talk.md` (talk proposal).
+Rendered views per subject: `<slug>.md` (status index),
+`<slug>-wikimarkup.md` (patch), `<slug>-talk.md` (talk proposal) —
+all generated from `data/wikipedia-updates/<slug>.json` by script 61.
 Generated artifacts live in `generated/` and are not maintained docs.
 """
 
@@ -37,7 +38,7 @@ import tempfile
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DRAFTS_DIR = PROJECT_ROOT / "docs" / "wikipedia-drafts"
+DRAFTS_DIR = PROJECT_ROOT / "docs" / "wikipedia-drafts" / "rendered"
 
 LABEL = "wikipedia-draft"
 

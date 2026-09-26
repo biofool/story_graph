@@ -9,17 +9,17 @@ Mechanical comparison of the graph-derived draft against the live Wikipedia arti
 - Live article: `data/cache/wikipedia/hiroshi-ikeda.md`
   - title: Hiroshi Ikeda (aikidoka) | revid: 1376549637 | retrieved: 2026-09-26T03:34:11Z
   - permalink: https://en.wikipedia.org/w/index.php?title=Hiroshi_Ikeda_(aikidoka)&oldid=1376549637
-- Snapshot: `graph_snapshot/` | compare run: 2026-09-26T04:09:33Z
+- Snapshot: `graph_snapshot/` | compare run: 2026-09-26T06:22:27Z
 
 ## Summary
 
-- Candidate additions: **39** fact(s) with signal tokens absent from the live article
+- Candidate additions: **26** fact(s) with signal tokens absent from the live article
 - Draft lines already fully covered by the live article: **3**
-- Live statements with graph corroboration: **4** corroborated + **14** partially corroborated of 27 analyzed sentences
-- Explicit CONTRADICTS edges on this subject's claims: **0**; heuristic date mismatches: **4**
+- Live statements with graph corroboration: **5** corroborated + **13** partially corroborated of 27 analyzed sentences
+- Explicit CONTRADICTS edges on this subject's claims: **0**; heuristic date mismatches: **5**
 - Citable graph sources not cited in the live article: **6**
 - Non-citable graph material held as context only: **4** claim(s), **10** source(s)
-- Filtered before ranking (issue #80 §5): **17** affiliation-lead edge(s), **418** routine seminar/calendar edge(s) — see Filtered facts (diagnostics)
+- Filtered before ranking (issue #80 §5): **17** affiliation-lead edge(s), **12** personal-communication edge(s), **417** routine seminar/calendar edge(s) — see Filtered facts (diagnostics)
 
 ## Candidate additions (in graph/draft, missing from live article)
 
@@ -35,11 +35,8 @@ A fact is listed when at least one of its signal tokens (graph entity label, cap
   - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:aikido-bridge-friendship-seminar-turkey-2018`; missing signals: 2018, Aikido Bridge, Aikido Bridge Friendship Seminar
 - **Hiroshi Ikeda made an appearance at Bermuda Aikikai seminar with Hiroshi Ikeda and Rick Stickles as guest instructor.**
   - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:bermuda-aikikai-ikeda-seminar-2011`; missing signals: Bermuda Aikikai, Bermuda Aikikai seminar with Hiroshi Ikeda and Rick Stickles, Rick Stickles
-- **Hiroshi Ikeda made an appearance at Hiroshi Ikeda seminar at Three Rivers Aikikai (2001) as instructor.**
-  - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:ikeda-seminar-three-rivers-2001`; missing signals: 2001, Rivers Aikikai, Three Rivers Aikikai
-  - source: email://garth-jones-allegheny-aikido/2026-09-24
 - **Hiroshi Ikeda founded Aikido Bridge dated 2005 — started the Aikido Bridge seminar series with the 'Un Pont' International Friendship Seminar.**
-  - edge `person:hiroshi-ikeda -[FOUNDED]-> group:aikido-bridge`; missing signals: 2005, Aikido Bridge, Un Pont' International Friendship Seminar.
+  - edge `person:hiroshi-ikeda -[FOUNDED]-> group:aikido-bridge`; missing signals: 2005, Aikido Bridge, Un Pont' International Friendship Seminar
   - source: http://aikidobridge.com/about/
 - **Hiroshi Ikeda made an appearance at Hiroshi Ikeda seminar at Aikijuku Dojo (June 2017) as guest instructor (photo caption).**
   - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:aikijuku-ikeda-seminar-2017-06`; missing signals: 2017, Aikijuku Dojo
@@ -47,48 +44,12 @@ A fact is listed when at least one of its signal tokens (graph entity label, cap
   - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:aksb-summer-seminar-2013`; missing signals: Aikido Kenkyukai Santa Barbara Summer, Seminar with Hiroshi Ikeda
 - **Hiroshi Ikeda made an appearance at COVID-19 Aikido Bridge Seminar (virtual) as instructor (closing session).**
   - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:covid-19-bridge-seminar-2020`; missing signals: Aikido Bridge, Aikido Bridge Seminar
-- **Hiroshi Ikeda made an appearance at Hiroshi Ikeda weekend seminar at Allegheny Aikido (2015) as instructor.**
-  - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:ikeda-seminar-allegheny-2015`; missing signals: 2015, Allegheny Aikido
-  - source: email://garth-jones-allegheny-aikido/2026-09-24
-- **Hiroshi Ikeda made an appearance at Hiroshi Ikeda weekend seminar at Allegheny Aikido (2021) as instructor.**
-  - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:ikeda-seminar-allegheny-2021`; missing signals: 2021, Allegheny Aikido
-  - source: email://garth-jones-allegheny-aikido/2026-09-24
-- **Hiroshi Ikeda made an appearance at Hiroshi Ikeda weekend seminar at Allegheny Aikido (2022) as instructor.**
-  - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:ikeda-seminar-allegheny-2022`; missing signals: 2022, Allegheny Aikido
-  - source: email://garth-jones-allegheny-aikido/2026-09-24
-- **Hiroshi Ikeda made an appearance at Hiroshi Ikeda weekend seminar at Allegheny Aikido (2024) as instructor.**
-  - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:ikeda-seminar-allegheny-2024`; missing signals: 2024, Allegheny Aikido
-  - source: email://garth-jones-allegheny-aikido/2026-09-24
-- **Hiroshi Ikeda made an appearance at Hiroshi Ikeda seminar at Floating Bridge Aikido (2024) as instructor.**
-  - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:ikeda-seminar-floating-bridge-2024`; missing signals: 2024, Floating Bridge Aikido
-  - source: email://bob-klein-aikido-of-hilo/2026-09-25
 - **Hiroshi Ikeda made an appearance at Aikido for Tomorrow seminar at Boulder Aikikai as host dojo chief instructor / senior supporter (attended as participant).**
   - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:aikido-for-tomorrow-2020`; missing signals: Aikido for Tomorrow seminar at Boulder Aikikai
-- **Hiroshi Ikeda made an appearance at Hiroshi Ikeda weekend seminar at Allegheny Aikido (2023) as instructor.**
-  - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:ikeda-seminar-allegheny-2023`; missing signals: Allegheny Aikido
-  - source: email://garth-jones-allegheny-aikido/2026-09-24
-- **Hiroshi Ikeda made an appearance at Hiroshi Ikeda weekend seminar at Allegheny Aikido (2025) as instructor.**
-  - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:ikeda-seminar-allegheny-2025`; missing signals: Allegheny Aikido
-  - source: email://garth-jones-allegheny-aikido/2026-09-24
-- **Hiroshi Ikeda made an appearance at Hiroshi Ikeda seminar at Allegheny Aikido (planned August 2027) as instructor.**
-  - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:ikeda-seminar-allegheny-2027-08-planned`; missing signals: Allegheny Aikido
-  - source: email://garth-jones-allegheny-aikido/2026-09-24
-- **Hiroshi Ikeda made an appearance at Hiroshi Ikeda seminar at Floating Bridge Aikido (2025) as instructor.**
-  - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:ikeda-seminar-floating-bridge-2025`; missing signals: Floating Bridge Aikido
-  - source: email://bob-klein-aikido-of-hilo/2026-09-25
-- **Hiroshi Ikeda made an appearance at Hiroshi Ikeda seminar at Floating Bridge Aikido (2026) as instructor.**
-  - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:ikeda-seminar-floating-bridge-2026`; missing signals: Floating Bridge Aikido
-  - source: email://bob-klein-aikido-of-hilo/2026-09-25
-- **Hiroshi Ikeda made an appearance at Hiroshi Ikeda seminar at Floating Bridge Aikido (planned January 2027) as instructor.**
-  - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:ikeda-seminar-floating-bridge-2027-01-planned`; missing signals: Floating Bridge Aikido
-  - source: email://bob-klein-aikido-of-hilo/2026-09-25
 - **Hiroshi Ikeda made an appearance at International Aikido Friendship Seminar, Kyoto Butokuden (Oct 31-Nov 2, 2025) on 2025-10-31 as instructor.**
   - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:kyoto-friendship-seminar-2025`; missing signals: Kyoto Butokuden
 - **Hiroshi Ikeda made an appearance at International Aikido Friendship Seminar, Kyoto Butokuden (Oct 30-Nov 1, 2026) on 2026-10-30 as instructor.**
   - edge `person:hiroshi-ikeda -[CO_APPEARANCE]-> event:kyoto-friendship-seminar-2026`; missing signals: Kyoto Butokuden
-- **Hiroshi Ikeda is head instructor of Boulder Aikikai.**
-  - edge `person:hiroshi-ikeda -[HEAD_INSTRUCTOR]-> dojo:boulder-aikikai`; missing signals: Boulder Aikikai.
-  - source: https://www.aikidoshimbokukai.org/events-master/2026-midwest-bridge
 - **Hiroshi Ikeda has a teacher/student relationship with Mitsugi Saotome — Kokugakuin University aikido club ~1968-69; Reimei Juku; followed him to Florida 1976 as assistant.**
   - edge `person:hiroshi-ikeda -[TEACHER_STUDENT]-> person:mitsugi-saotome`; missing signals: Reimei Juku
 - **Hiroshi Ikeda worked at 12th Street Dojo (Sarasota) as instructor/assistant to Saotome.**
@@ -104,8 +65,6 @@ A fact is listed when at least one of its signal tokens (graph entity label, cap
   - missing signals: 1969, 1970, 1971, Reimei Juku
 - Circa 1995 Ikeda's annual circuit: 2-3 seminar weekends/month + San Rafael (Nadeau/Doran), D.C. (Saotome), and own Rocky Mountain summer camps
   - missing signals: 1995, Rocky Mountain, San Rafael
-- Hiroshi Ikeda founded Boulder Aikikai, Aikido Bridge.
-  - missing signals: Aikido Bridge, Aikido Bridge.
 - The Sarasota dojo where Ikeda taught 1976-79 was the '12th Street Dojo'
   - missing signals: 12, Street Dojo'
 - First virtual Aikido Bridge seminar (May 2020) hosted by Shimbokukai, Ikeda closing
@@ -116,6 +75,8 @@ A fact is listed when at least one of its signal tokens (graph entity label, cap
   - missing signals: 2015, Ikeda's ASU
 - Hiroshi Ikeda was born in January 1950 on Hachijojima (Hachijo Island), Tokyo Metropolis, Japan
   - missing signals: Hachijo Island, Tokyo Metropolis
+- Hiroshi Ikeda founded Boulder Aikikai, Aikido Bridge.
+  - missing signals: Aikido Bridge
 - Bill McIntyre invited Saotome to Florida in 1976; Ikeda followed as his assistant (having planned to go to Australia)
   - missing signals: Bill McIntyre
 - Ikeda at Aikido of Madison in the 1980s (visit, not affiliation)
@@ -145,7 +106,21 @@ Edges excluded BEFORE candidate ranking — visit/outreach affiliation leads (Va
 - Hiroshi Ikeda is affiliated with Oberlin Aikikai — User is building Hiroshi Ikeda's Wikipedia page; Ikeda listed this school as one he visit
 - … plus 2 more
 
-**Bulk seminar/calendar listings** — 418 edge(s):
+**Personal-communication-sourced** — 12 edge(s):
+- Hiroshi Ikeda made an appearance at Hiroshi Ikeda weekend seminar at Allegheny Aikido (2015) as instructor.
+- Hiroshi Ikeda made an appearance at Hiroshi Ikeda weekend seminar at Allegheny Aikido (2021) as instructor.
+- Hiroshi Ikeda made an appearance at Hiroshi Ikeda weekend seminar at Allegheny Aikido (2022) as instructor.
+- Hiroshi Ikeda made an appearance at Hiroshi Ikeda weekend seminar at Allegheny Aikido (2023) as instructor.
+- Hiroshi Ikeda made an appearance at Hiroshi Ikeda weekend seminar at Allegheny Aikido (2024) as instructor.
+- Hiroshi Ikeda made an appearance at Hiroshi Ikeda weekend seminar at Allegheny Aikido (2025) as instructor.
+- Hiroshi Ikeda made an appearance at Hiroshi Ikeda seminar at Allegheny Aikido (planned August 2027) as instructor.
+- Hiroshi Ikeda made an appearance at Hiroshi Ikeda seminar at Floating Bridge Aikido (2024) as instructor.
+- Hiroshi Ikeda made an appearance at Hiroshi Ikeda seminar at Floating Bridge Aikido (2025) as instructor.
+- Hiroshi Ikeda made an appearance at Hiroshi Ikeda seminar at Floating Bridge Aikido (2026) as instructor.
+- Hiroshi Ikeda made an appearance at Hiroshi Ikeda seminar at Floating Bridge Aikido (planned January 2027) as instructor.
+- Hiroshi Ikeda made an appearance at Hiroshi Ikeda seminar at Three Rivers Aikikai (2001) as instructor.
+
+**Bulk seminar/calendar listings** — 417 edge(s) (1 already covered by the live article):
 - Hiroshi Ikeda made an appearance at Autumn Camp with Hiroshi Ikeda, 7th dan on September 4-7, 2008 as instructor.
 - Hiroshi Ikeda made an appearance at Autumn Camp with Hiroshi Ikeda, 7th dan on September 10-13, 2015 as instructor.
 - Hiroshi Ikeda made an appearance at Autumn Camp with Hiroshi Ikeda, 7th dan on September 4-7, 2014 as instructor.
@@ -161,21 +136,24 @@ Edges excluded BEFORE candidate ranking — visit/outreach affiliation leads (Va
 - Hiroshi Ikeda made an appearance at Seminar & Dan Exams with Hiroshi Ikeda Shihan, 7th dan on November 4-6, 2005 as instructor.
 - Hiroshi Ikeda made an appearance at Seminar with Abel Villcorta Sensei, Seji Tanaka Sensei, Toby Threadgill Sensei, Kei Izawa Sensei, Hirosh
 - Hiroshi Ikeda made an appearance at Seminar with Abel Villcorta Sensei, Seji Tanaka Sensei, Toby Threadgill Sensei, Kei Izawa Sensei, Hirosh
-- … plus 403 more
+- … plus 402 more
 
 ## Live-article statements corroborated by the graph
 
 A live sentence is 'corroborated' when a graph claim, draft line, or source-text sentence shares at least one entity/capitalized phrase plus additional signals (year/ordinal/more entities). Shared-token overlap is not semantic verification.
 
+- In 1980, Ikeda moved to Boulder, Colorado, where he established [[ ](https://www.boulderaikikai.org/)] under Saotome's ASU organization. Boulder Aikikai describes itself as having been established by Ikeda in 1980 and as
+  - corroborated via source text (https://www.hiroshi-ikeda.com/about)
+  - shared: Aikido Shimbokukai, Boulder Aikikai
 - In March 2011, Ikeda taught a three-day seminar at Aikido of Tamalpais in Corte Madera, California.
   - corroborated (non-citable material only) via source text (https://docs.google.com/spreadsheets/d/e/2PACX-1vSVKDcmv_f3fA4nkwSVkt4GDDzWZMKGy)
   - shared: Aikido of Tamalpais, Corte Madera
 - In May 2023, Ikeda taught at an Aikido Summer Seminar hosted by Aikido Kenkyukai in Los Angeles at Aikido Kenkyukai 2936 West 8th Street, Los Angeles.
   - corroborated (non-citable material only) via source text (https://docs.google.com/spreadsheets/d/e/2PACX-1vSVKDcmv_f3fA4nkwSVkt4GDDzWZMKGy)
   - shared: Aikido Kenkyukai, Los Angeles
-- In 1980, Ikeda moved to Boulder, Colorado, where he established [[ ](https://www.boulderaikikai.org/)] under Saotome's ASU organization. Boulder Aikikai describes itself as having been established by Ikeda in 1980 and as
-  - corroborated via draft (generated draft)
-  - shared: 1980, Boulder Aikikai
+- Ikeda was born in Tokyo and began studying aikido in 1968 while attending Kokugakuin University.
+  - corroborated via source text (https://bernews.com/2011/06/bermuda-aikikai-hosts-top-aikido-masters/)
+  - shared: 1968, Kokugakuin University
 - Boulder Aikikai's published schedule lists Ikeda teaching at Aikido of Tamalpais in January 2026 and again in August 2026. Aikido of Tamalpais currently lists Ikeda as a future guest instructor for January 2027.
   - corroborated (non-citable material only) via source text (https://docs.google.com/spreadsheets/d/e/2PACX-1vSVKDcmv_f3fA4nkwSVkt4GDDzWZMKGy)
   - shared: 2026, Boulder Aikikai
@@ -197,30 +175,27 @@ A live sentence is 'corroborated' when a graph claim, draft line, or source-text
 - He holds the rank of 8th dan (shihan) from the Aikikai. He is a senior student of Mitsugi Saotome and is affiliated with the Aikido Schools of Ueshiba (ASU).
   - partially corroborated via source text (https://aikidojournal.com/2011/08/27/hiroshi-ikeda/)
   - shared: Mitsugi Saotome
-- Ikeda was born in Tokyo and began studying aikido in 1968 while attending Kokugakuin University.
-  - partially corroborated via source text (https://aikidojournal.com/2011/08/27/hiroshi-ikeda/)
-  - shared: Kokugakuin University.
 - Ikeda continues to teach at Boulder Aikikai and travels internationally to conduct aikido seminars.
   - partially corroborated via draft (generated draft)
   - shared: Boulder Aikikai
 - Boulder Aikikai publishes a schedule of his seminars and special teaching engagements.
   - partially corroborated via draft (generated draft)
   - shared: Boulder Aikikai
+- 18–20 September 2026: Bond Street Dojo, New York City, United States.
+  - partially corroborated via source text (https://aikidojournal.com/2002/08/26/interview-with-hiroshi-ikeda/)
+  - shared: United States
+- 13–15 November 2026: Shindai Aikido, Orlando, Florida, United States.
+  - partially corroborated via source text (https://aikidojournal.com/2002/08/26/interview-with-hiroshi-ikeda/)
+  - shared: United States
+- 18–20 December 2026: Arizona Aikido, Phoenix, Arizona, United States.
+  - partially corroborated via source text (https://aikidojournal.com/2002/08/26/interview-with-hiroshi-ikeda/)
+  - shared: United States
 - In August 2014, he returned to Aikido of Tamalpais for a seminar held from August 7 to 10.
   - partially corroborated (non-citable material only) via source text (https://docs.google.com/spreadsheets/d/e/2PACX-1vSVKDcmv_f3fA4nkwSVkt4GDDzWZMKGy)
   - shared: Aikido of Tamalpais
 - Aikido of Tamalpais advertised further Ikeda seminars in January 2023 and January 2025.
   - partially corroborated (non-citable material only) via source text (https://docs.google.com/spreadsheets/d/e/2PACX-1vSVKDcmv_f3fA4nkwSVkt4GDDzWZMKGy)
   - shared: Aikido of Tamalpais
-- 18–20 September 2026: Bond Street Dojo, New York City, United States.
-  - partially corroborated (non-citable material only) via claim ((no linked source))
-  - shared: 2026
-- 13–15 November 2026: Shindai Aikido, Orlando, Florida, United States.
-  - partially corroborated (non-citable material only) via claim ((no linked source))
-  - shared: 2026
-- 18–20 December 2026: Arizona Aikido, Phoenix, Arizona, United States.
-  - partially corroborated (non-citable material only) via claim ((no linked source))
-  - shared: 2026
 
 ### Live statements with no graph evidence (3)
 
@@ -238,6 +213,9 @@ No `CONTRADICTS` edges touch this subject's claims in the current snapshot.
 
 Each row: a live sentence with a single year, and a graph item sharing an entity that records only different year(s). This is a weak signal — different events legitimately have different dates — but worth an editor's eye.
 
+- Live: "Ikeda was born in Tokyo and began studying aikido in 1968 while attending Kokugakuin University." (1968)
+  - Graph (citable): "New biographical detail in Ikeda's own words + intro: 3 years of high-school judo before finding aikido at Kokugakuin University (intro dates this 1969 — cf." — year(s) 1969
+  - shared: Kokugakuin University | attribution: https://maytt.home.blog/2023/03/24/interview-with-boulder-aikikai-founder-hirosh
 - Live: "In 1980, Ikeda moved to Boulder, Colorado, where he established [[ ](https://www.boulderaikikai.org/)] under Saotome's ASU organization. Boulder Aikikai describes itself as having been established by " (1980)
   - Graph (citable): "Hiroshi Ikeda is a martial arts teacher and founder of Boulder Aikikai, Aikido Bridge. Premillieu trained under Ikeda in Boulder; AfT created at his encouragement Bill McIntyre invited Saotome to Flor" — year(s) 1976
   - shared: Boulder Aikikai | attribution: generated draft
@@ -258,8 +236,8 @@ Each row: a live sentence with a single year, and a graph item sharing an entity
 - [Bermuda Aikikai Hosts Top Aikido Masters](https://bernews.com/2011/06/bermuda-aikikai-hosts-top-aikido-masters/) — SRS=65 (MARGINAL), class=journalistic
 - [feature interview: Hiroshi Ikeda Sensei of Boulder Aikikai](https://www.elephantjournal.com/2009/01/elephantjournalcom-feature-interview-ikeda-sensei-martial-arts-aikido-bujin-design/) — SRS=60 (MARGINAL), class=journalistic
 - [Interview with Boulder Aikikai Founder Hiroshi Ikeda: A Journey with M](https://maytt.home.blog/2023/03/24/interview-with-boulder-aikikai-founder-hiroshi-ikeda-a-journey-with-mitsugi-saotome/) — SRS=50 (MARGINAL), class=journalistic
-- [Interview with Evolene Premillieu: Aikido for Tomorrow](https://maytt.home.blog/2020/05/22/interview-with-evolene-premillieu-aikido-for-tomorrow/) — SRS=50 (MARGINAL), class=journalistic
 - [The COVID-19 Aikido Bridge Seminar](https://maytt.home.blog/2020/05/06/the-covid-19-aikido-bridge-seminar/) — SRS=50 (MARGINAL), class=journalistic
+- [Interview with Evolene Premillieu: Aikido for Tomorrow](https://maytt.home.blog/2020/05/22/interview-with-evolene-premillieu-aikido-for-tomorrow/) — SRS=50 (MARGINAL), class=journalistic
 - [Interview with Aikido of Madison Cofounders Robin Cooper and John Ston](https://maytt.home.blog/2022/12/05/interview-with-aikido-of-madison-cofounders-robin-cooper-and-john-stone-their-journey-through-aikido-and-beyond-part-i/) — SRS=50 (MARGINAL), class=journalistic
 
 ### Below citation threshold (SRS < 50) — context only
@@ -293,9 +271,9 @@ The following are first-class graph evidence but must not appear as proposed art
 - kkron:// personal communication (1):
   - Kristina Varjan, owner of Kohala Aikikai (Kapaau, Big Island, HI), stated by email on 2026-09-24 that Hiroshi Ikeda Shih
 - only non-citable sources (3):
-  - Ikeda has taught recurring seminars on the Big Island of Hawaii at Aiki Kai o Kona (Kailua-Kona), incl. the dojo's 31st Anniversary Seminar 
-  - ASU letter (19 Jan 2015): Ikeda recognized as independent instructor, ending ASU VP role
   - No web or Facebook presence found for 'Floating Bridge Aikido' / 'Ka'u Aikikai' as of 2026-09-25
+  - ASU letter (19 Jan 2015): Ikeda recognized as independent instructor, ending ASU VP role
+  - Ikeda has taught recurring seminars on the Big Island of Hawaii at Aiki Kai o Kona (Kailua-Kona), incl. the dojo's 31st Anniversary Seminar 
 - source: https://docs.google.com/spreadsheets/d/e/2PACX-1vSVKDcmv_f3fA4nkwSVkt4GDDzWZMKGy (class=primary_first_person)
 - source: kkron://personal-communication/kristina-varjan-kohala-email (class=primary_first_person)
 - source: https://aikikaiokona.wixsite.com/aiki/single-post/2019/01/26/hiroshi-ikeda-in-ko (class=documentary_promotional)

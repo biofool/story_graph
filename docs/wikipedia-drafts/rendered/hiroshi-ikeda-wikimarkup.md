@@ -14,10 +14,10 @@ Ikeda served as vice president of Saotome's [[Aikido Schools of Ueshiba]] before
 <!-- upd:ikeda:bermuda-2011 — citable -->
 In June 2011, Bermuda Aikikai hosted Ikeda and Rick Stickles for a weekend seminar.<ref>{{cite news |title=Bermuda Aikikai Hosts Top Aikido Masters |work=Bernews |date=2011-06-06 |url=https://bernews.com/2011/06/bermuda-aikikai-hosts-top-aikido-masters/ |access-date=2026-09-25}}</ref>
 
-<!-- upd:ikeda:boulder-august-1980 — citable | freshness: passage_intact; possible_already_present (1980, 1980, Boulder Aikikai) -->
+<!-- upd:ikeda:boulder-august-1980 — citable | freshness: passage_intact; possible_already_present (1980, Boulder Aikikai) -->
 In 1980, Ikeda moved to [[Boulder, Colorado]], where he established Boulder Aikikai in August 1980 under Saotome's ASU organization.
 
-<!-- upd:ikeda:bridge-virtual-2020 — citable | freshness: possible_already_present (In May, Aikido Shimbokukai) -->
+<!-- upd:ikeda:bridge-virtual-2020 — citable -->
 In May 2020 the series held its first virtual seminar, hosted by Aikido Shimbokukai and drawing over 130 participants.<ref name="maytt-bridge2020">{{cite web |title=The COVID-19 Aikido Bridge Seminar |work=Martial Arts of Yesterday, Today and Tomorrow |date=2020-05-06 |url=https://maytt.home.blog/2020/05/06/the-covid-19-aikido-bridge-seminar/ |access-date=2026-09-26}}</ref>
 
 <!-- upd:ikeda:hachijojima-birthplace — citable | freshness: passage_intact -->
@@ -28,12 +28,6 @@ based in [[Boulder, Colorado]]
 
 <!-- upd:ikeda:repair-empty-boulder-link — citable | freshness: passage_intact -->
 where he established [[Boulder Aikikai]] under Saotome's ASU organization.
-
-<!-- upd:ikeda:aikido-bridge-2005 — citable-attributed -->
-In 2005, Ikeda started the Aikido Bridge seminar series, which brings together teachers and students from different aikido organizations; the series began with the "Un Pont" International Friendship Seminar held at Jiai Aikido in San Diego.<ref name="aikidobridge">{{cite web |title=About Bridge Events |work=Aikido Bridge |url=http://aikidobridge.com/about/ |access-date=2026-09-25}}</ref><ref name="ikeda-bridge">{{cite web |title=Aikido Bridge |work=Hiroshi Ikeda Shihan (official site) |url=https://www.hiroshi-ikeda.com/aikido-bridge |access-date=2026-09-25}}</ref>
-
-<!-- upd:ikeda:kona-2019 — citable-attributed -->
-In January 2019, Ikeda taught the 31st Anniversary Seminar hosted by Aiki Kai o Kona in [[Kailua-Kona, Hawaii]].<ref>{{cite web |title=Hiroshi Ikeda in Kona |work=Aiki Kai o Kona |date=2019-01-27 |url=https://aikikaiokona.wixsite.com/aikikaiokona/blank-4 |access-date=2026-09-25}}</ref>
 
 ```
 
@@ -115,23 +109,6 @@ In January 2019, Ikeda taught the 31st Anniversary Seminar hosted by Aiki Kai o 
 
 **Rationale:** Mechanical repair — non-controversial.
 
-### `upd:ikeda:aikido-bridge-2005` — addition, citable-attributed
-
-**Claim:** In 2005 Ikeda started the Aikido Bridge seminar series; first event was the 'Un Pont' International Friendship Seminar at Jiai Aikido, San Diego.
-
-- About Bridge Events — Aikido Bridge (http://aikidobridge.com/about/) — unscored/self-report/significant — The series' own site — affiliated
-- Aikido Bridge — Hiroshi Ikeda Shihan (https://www.hiroshi-ikeda.com/aikido-bridge) — unreliable/self-report/significant — Subject's own site (hiroshi-ikeda.com/aikido-bridge) — WP:ABOUTSELF only
-
-**Rationale:** Affiliated sources only; attributed sentence per WP:ABOUTSELF, acceptability left to editors.
-
-### `upd:ikeda:kona-2019` — addition, citable-attributed
-
-**Claim:** In January 2019 Ikeda taught Aiki Kai o Kona's 31st Anniversary Seminar in Kailua-Kona, Hawaii.
-
-- Hiroshi Ikeda in Kona — Aiki Kai o Kona 31st Anniversary Seminar (https://aikikaiokona.wixsite.com/aiki/single-post/2019/01/26/hiroshi-ikeda-in-kona) — unreliable/primary-org/significant — Host dojo's own record — organizational but independent of the subject; dojo also covered by West Hawaii Today
-
-**Rationale:** Host-dojo record; attributed, editor judgment on the seminar list.
-
 ### `upd:ikeda:q-bridge-aboutself` — question, citable-attributed
 
 **Claim:** Are the Aikido Bridge sources (the series' own site and Ikeda's official site) acceptable for one attributed sentence under WP:ABOUTSELF, or should the claim wait for independent coverage?
@@ -143,6 +120,23 @@ In January 2019, Ikeda taught the 31st Anniversary Seminar hosted by Aiki Kai o 
 **Claim:** Is the MAYTT 2023 interview (Ikeda's own account) sufficient for attributed org-history detail (ASU VP, 2015 independence, 2016 Shimbokukai VP), or should this wait for independent sources? The ASU half now has the org's own letter; the 2016 half remains self-report.
 
 **Rationale:** Editor question accompanying upd:ikeda:asu-independence-2015.
+
+### `upd:ikeda:aikido-bridge-2005` — addition, citation-pending
+
+**Claim:** In 2005 Ikeda started the Aikido Bridge seminar series; first event was the 'Un Pont' International Friendship Seminar at Jiai Aikido, San Diego.
+
+- About Bridge Events — Aikido Bridge (http://aikidobridge.com/about/) — unscored/self-report/significant — The series' own site — affiliated
+- Aikido Bridge — Hiroshi Ikeda Shihan (https://www.hiroshi-ikeda.com/aikido-bridge) — unreliable/self-report/significant — Subject's own site (hiroshi-ikeda.com/aikido-bridge) — WP:ABOUTSELF only
+
+**Rationale:** Affiliated sources only; attributed sentence per WP:ABOUTSELF, acceptability left to editors. Held out of the paste-ready patch under the evidence floor (#81): all sources are affiliated/self-report, no reliable|marginal evidence.
+
+### `upd:ikeda:kona-2019` — addition, citation-pending
+
+**Claim:** In January 2019 Ikeda taught Aiki Kai o Kona's 31st Anniversary Seminar in Kailua-Kona, Hawaii.
+
+- Hiroshi Ikeda in Kona — Aiki Kai o Kona 31st Anniversary Seminar (https://aikikaiokona.wixsite.com/aiki/single-post/2019/01/26/hiroshi-ikeda-in-kona) — unreliable/primary-org/significant — Host dojo's own record — organizational but independent of the subject; dojo also covered by West Hawaii Today
+
+**Rationale:** Host-dojo record; attributed, editor judgment on the seminar list. Held pending independent coverage (e.g. West Hawaii Today) — only evidence is the host dojo's own record rated unreliable (#81).
 
 ### `upd:ikeda:q-date-discrepancy` — question, not-citable
 

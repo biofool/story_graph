@@ -9,13 +9,13 @@ Mechanical comparison of the graph-derived draft against the live Wikipedia arti
 - Live article: `data/cache/wikipedia/dan-millman.md`
   - title: Dan Millman | revid: 1376752367 | retrieved: 2026-09-26T03:34:13Z
   - permalink: https://en.wikipedia.org/w/index.php?title=Dan_Millman&oldid=1376752367
-- Snapshot: `graph_snapshot/` | compare run: 2026-09-26T04:10:03Z
+- Snapshot: `graph_snapshot/` | compare run: 2026-09-26T06:22:28Z
 
 ## Summary
 
-- Candidate additions: **5** fact(s) with signal tokens absent from the live article
+- Candidate additions: **0** fact(s) with signal tokens absent from the live article
 - Graph data-quality flags: **1** edge(s) with suspect relation/target typing
-- Draft lines already fully covered by the live article: **58**
+- Draft lines already fully covered by the live article: **61**
 - Live statements with graph corroboration: **33** corroborated + **8** partially corroborated of 53 analyzed sentences
 - Explicit CONTRADICTS edges on this subject's claims: **0**; heuristic date mismatches: **10**
 - Citable graph sources not cited in the live article: **0**
@@ -25,21 +25,7 @@ Mechanical comparison of the graph-derived draft against the live Wikipedia arti
 
 A fact is listed when at least one of its signal tokens (graph entity label, capitalized phrase, year, or ordinal) does not appear anywhere in the live article. Absence of a token ≠ absence of the fact — the article may state it in different words. Triage needed.
 
-### From graph edges
-
-- **Dan Millman worked at Oberlin College as Assistant Professor of Physical Education.**
-  - edge `person:dan-millman -[WORKED_AT]-> place:oberlin-college`; missing signals: Assistant Professor of Physical Education.
-- **Dan Millman worked at Stanford University as Director of Gymnastics.**
-  - edge `person:dan-millman -[WORKED_AT]-> place:stanford-university`; missing signals: Director of Gymnastics.
-
-### From the generated draft
-
-- Millman has authored 17 books as of 2015 which have been published in 29 languages. In 2006, his first book, Way of the Peaceful Warrior, was adapted for a film, Peaceful Warrior. The movie stars Nick Nolte, distributed 
-  - missing signals: Peaceful Warrior.
-- - ^ "About Dan Millman and his Work". Peaceful Warrior Services. 2014. Archived from the original on April 2, 2015. Retrieved March 4, 2015. a former world champion athlete, Stanford University gymnastics coach, martial 
-  - missing signals: Peaceful Warrior Services.
-- Wikiquote has quotations related to Dan Millman.
-  - missing signals: Dan Millman.
+- None detected.
 
 ### Graph data-quality flags (1 edge(s))
 
@@ -53,7 +39,7 @@ A live sentence is 'corroborated' when a graph claim, draft line, or source-text
 
 - Millman has authored 17 books as of 2015 which have been published in 29 languages. In 2006, his first book, Way of the Peaceful Warrior, was adapted for a film, Peaceful Warrior. The movie stars Nick Nolte, distributed 
   - corroborated via draft (generated draft)
-  - shared: 2006, 2007, 2015, Lionsgate Films, Nick Nolte, Peaceful Warrior, Peaceful Warrior., Universal Pictures
+  - shared: 2006, 2007, 2015, Lionsgate Films, Nick Nolte, Peaceful Warrior, Universal Pictures
 - 2009: Bridge Between Worlds: Extraordinary Experiences that Changed Lives (with co-author Doug Childers)
   - corroborated via draft (generated draft)
   - shared: 2009, Bridge Between Worlds, Changed Lives, Doug Childers, Extraordinary Experiences
@@ -128,7 +114,7 @@ A live sentence is 'corroborated' when a graph claim, draft line, or source-text
   - shared: Los Angeles, Vivian Millman
 - At Oberlin, on a travel research grant from the college, he went to San Francisco, where he completed the Arica 40-Day Intensive Training.
   - corroborated via source text (https://en.wikipedia.org/wiki/Dan_Millman)
-  - shared: Day Intensive Training., San Francisco
+  - shared: Day Intensive Training, San Francisco
 - Dan Millman and his wife, Joy, live in Brooklyn, New York and before that in San Rafael, California.
   - corroborated via draft (generated draft)
   - shared: Dan Millman, San Rafael
@@ -249,11 +235,11 @@ Each row: a live sentence with a single year, and a graph item sharing an entity
 The following are first-class graph evidence but must not appear as proposed article text (WP:RS): `kkron://` personal-communication assertions and `primary_first_person` / `comment_thread` / `documentary_promotional` sources.
 
 - only non-citable sources (29):
-  - And she said, “Dad, this is really meandering, this literary advice
-  - ” And I said, “I'll call it The Way of the Peaceful Warrior
-  - She said I am right-handed, but I've injured my right hand, so I'm going to have to use my left hand and I've never done this before
-  - And just as you said, where are you
-  - Jeremy Lesniak: One of the things I appreciate about what you just said the number of books of yours that I've read and I guess really the w
+  - Dan Millman: Well, you know, there's a saying about Koichi Tohei and Aikido and also Ueshiba , the founder of Aikido, they said the differen
+  - And it was only years later when I wrote the book that I said, “Hey, you know, what is this book going to be about
+  - You know, I asked him, I said, you know, Nadeau is like a French name
+  - Seeing how small or people can throw larger ones, I said, “I want some of that
+  - (laughter) He said in his grumbling kind of raspy voice, “You want to get self-defense, get a piece, you know, get a gun
 
 ## Limitations — read before acting on this report
 

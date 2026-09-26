@@ -147,7 +147,8 @@ class TestCoverageDepth:
         ev = {"external": {"url": "https://x.test/a", "title": "Ext"},
               "reliability": "marginal"}
         errors, warnings = render.validate(
-            _store([_item(evidence=[ev])]), set())
+            _store([_item(evidence=[ev], decision="citable-attributed")]),
+            set())
         assert not errors
         assert warnings  # external sources warn — not in graph
 
@@ -180,6 +181,68 @@ class TestVarjanGuard:
             "CO_APPEARANCE", "Dojo",
             {"source": "email://garth-jones/2026-09-24"}, "dojo:x")
         assert pri == "noncitable"
+
+    def test_email_in_source_url_only_noncitable(self, cmp):
+        # #81 §1: blank `source` left a leading space that broke
+        # startswith — the filter must also fire on source_url
+        pri = cmp.classify_edge_priority(
+            "CO_APPEARANCE", "Dojo",
+            {"source_url": "email://garth-jones/2026-09-24"}, "dojo:x")
+        assert pri == "noncitable"
+
+    def test_leadership_is_not_a_lead(self, cmp):
+        # #81 §1: 'lead' substring matched 'leadership'/'pleaded'
+        pri = cmp.classify_edge_priority(
+            "DOJO_AFFILIATION", "Dojo",
+            {"context": "took a leadership role at the dojo"}, "dojo:x")
+        assert pri == "normal"
+
+    def test_period_suffixed_signal_matches(self, cmp):
+        # #81 §1: "Boulder Aikikai." never matched live text
+        sig = cmp.extract_signals("He is head instructor of Boulder Aikikai.",
+                                  None)
+        live = " he is head instructor of boulder aikikai and teaches. "
+        assert "Boulder Aikikai" in cmp.signals_present(
+            sig["caps"], live)
+
+    def test_lead_edges_not_ranked_in_partition(self, cmp):
+        # #81 §1+§7: exclusion must hold in the actual ranking path
+        sub = {
+            "canonical": {"id": "person:p", "label": "P"},
+            "nodes": [
+                {"id": "person:p", "type": "Person", "label": "P"},
+                {"id": "dojo:k", "type": "Dojo", "label": "Kohala Aikikai"},
+            ],
+            "edges": [{"src_id": "person:p", "rel_type": "DOJO_AFFILIATION",
+                       "dst_id": "dojo:k",
+                       "metadata": {"association": "frequent_visited_teacher",
+                                    "context": "visited frequently"}}],
+        }
+        facts = cmp.edge_facts(sub)
+        live_blob = " p never visited kohala. "
+        missing, filtered, covered = cmp.partition_edge_facts(
+            facts, live_blob, None)
+        assert not missing                      # no candidate produced
+        assert len(filtered["lead"]) == 1       # counted in diagnostics
+
+    def test_filtered_counts_are_post_check(self, cmp):
+        # an edge the live article already covers is 'covered', not
+        # 'filtered' — counts account for what the article lacks
+        sub = {
+            "canonical": {"id": "person:p", "label": "P"},
+            "nodes": [
+                {"id": "person:p", "type": "Person", "label": "P"},
+                {"id": "dojo:k", "type": "Dojo", "label": "Kohala Aikikai"},
+            ],
+            "edges": [{"src_id": "person:p", "rel_type": "DOJO_AFFILIATION",
+                       "dst_id": "dojo:k",
+                       "metadata": {"association": "frequent_visited_teacher"}}],
+        }
+        facts = cmp.edge_facts(sub)
+        live = " p kohala aikikai visited frequently. "
+        _, filtered, covered = cmp.partition_edge_facts(facts, live, None)
+        assert filtered["lead"] == []
+        assert covered["lead"] == 1
 
     def test_calendar_co_appearance_routine(self, cmp):
         pri = cmp.classify_edge_priority(
@@ -263,19 +326,58 @@ class TestFreshness:
                    for f in flags)
 
     def test_token_match_never_accepted(self, render, tmp_path):
+        # #81 §7: assert the flag lands in rendered output AND the store
+        # stays 'proposed' — acceptance needs a recorded diff + reviewer
         cache = self._write_cache(
             tmp_path, 200,
             "He trained under Robert Tann in 1960 near South San Francisco.")
         item = _item(
             id="upd:t:m",
-            claim="Taught by Robert Tann, South San Francisco, 1960.",
+            claim="Taught by Robert Tann, South San Francisco, in 1960.",
             proposal={"wikitext": "x", "base_revid": 200})
         store = _store([item], exists=True, mode="talk_page",
                        live_page={"cache_file": cache, "revid": 200})
-        flags = render.freshness(store)["items"]["upd:t:m"]
+        fresh = render.freshness(store)
+        flags = fresh["items"]["upd:t:m"]
         assert any("possible_already_present" in f for f in flags)
-        # status untouched — acceptance needs a recorded diff + reviewer
         assert item["status"] == "proposed"
+        ir = render.build_ir(store)
+        talk = render.render_talk(ir, fresh)
+        assert "possible_already_present" in talk
+        assert "ACCEPTED" not in talk
+
+    def test_deduped_signals_no_double_count(self, render, tmp_path):
+        # "1980" twice in the claim must not reach the 2-hit threshold
+        cache = self._write_cache(tmp_path, 200, "In 1980 he moved.")
+        item = _item(
+            id="upd:t:y",
+            claim="Moved in 1980; dojo founded 1980.",
+            proposal={"wikitext": "x", "base_revid": 200})
+        store = _store([item], exists=True, mode="talk_page",
+                       live_page={"cache_file": cache, "revid": 200})
+        flags = render.freshness(store)["items"]["upd:t:y"]
+        assert not any("possible_already_present" in f for f in flags)
+
+    def test_sentence_start_tokens_dropped(self, render):
+        # "In May" matched live "In May" text and produced false positives
+        assert "May" not in render.claim_signals("In May 2020 he taught")
+        assert "Aikido Shimbokukai" in render.claim_signals(
+            "hosted by Aikido Shimbokukai in May 2020")
+
+    def test_rebase_holds_item_out_of_patch(self, render, tmp_path):
+        cache = self._write_cache(tmp_path, 200, "Rewritten passage.")
+        item = _item(
+            id="upd:t:r", type="repair", claim="Fix it.",
+            evidence=[{"external": {"url": "https://x.test", "title": "X"},
+                       "reliability": "marginal"}],
+            proposal={"wikitext": "new text", "base_revid": 200,
+                      "anchor": {"passage": "the old passage"}})
+        store = _store([item], exists=True, mode="talk_page",
+                       live_page={"cache_file": cache, "revid": 200})
+        fresh = render.freshness(store)
+        out = render.render_wikimarkup(render.build_ir(store), fresh)
+        assert "new text" not in out          # no paste block at all
+        assert "Held" in out and "upd:t:r" in out
 
 
 # ---------------------------------------------------------------------------
@@ -334,6 +436,7 @@ class TestValidator:
 
     def test_same_status_history_allowed(self, render):
         item = _item(
+            override="lifecycle fixture",
             history=[{"at": "2026-01-01", "status": "proposed"},
                      {"at": "2026-01-02", "status": "proposed",
                       "note": "re-scoped"}],
@@ -345,6 +448,199 @@ class TestValidator:
         store = _store([_item(id="upd:t:x"), _item(id="upd:t:x")])
         errors, _ = render.validate(store, set())
         assert any("duplicate id" in e for e in errors)
+
+    # -- #81 §2: evidence floor --
+
+    def test_patch_item_needs_reliable_or_marginal_evidence(self, render):
+        item = _item(evidence=[{"external": {"url": "https://x.test",
+                                             "title": "X"},
+                               "reliability": "unreliable"}])
+        errors, _ = render.validate(_store([item]), set())
+        assert any("no reliable|marginal evidence" in e for e in errors)
+
+    def test_override_satisfies_floor(self, render):
+        item = _item(evidence=[], override="mechanical repair")
+        errors, _ = render.validate(_store([item]), set())
+        assert not errors
+
+    def test_citable_needs_graph_resolved_evidence(self, render):
+        item = _item(decision="citable",
+                     evidence=[{"external": {"url": "https://x.test",
+                                             "title": "X"},
+                                "reliability": "marginal"}])
+        errors, _ = render.validate(_store([item]), set())
+        assert any("graph-resolved evidence" in e for e in errors)
+
+    def test_citable_attributed_allows_external_only(self, render):
+        item = _item(decision="citable-attributed",
+                     evidence=[{"external": {"url": "https://x.test",
+                                             "title": "X"},
+                                "reliability": "marginal"}])
+        errors, _ = render.validate(_store([item]), set())
+        assert not errors
+
+    def test_citation_pending_not_in_patch(self, render):
+        item = _item(decision="citation-pending",
+                     proposal={"wikitext": "sneaky"})
+        store = _store([item])
+        errors, _ = render.validate(store, set())
+        # citation-pending may carry draft wording, but never renders
+        assert not any("proposal.wikitext" in e for e in errors)
+        ir = render.build_ir(store)
+        assert ir["patch_items"] == []
+
+    # -- #81 §3: lifecycle --
+
+    def test_history_must_start_proposed(self, render):
+        item = _item(
+            status="posted", override="lifecycle fixture",
+            history=[{"at": "2026-01-01", "status": "posted"}])
+        errors, _ = render.validate(_store([item]), set())
+        assert any("must start at 'proposed'" in e for e in errors)
+
+    def test_accepted_needs_diff_and_reviewer(self, render):
+        item = _item(
+            status="accepted", override="lifecycle fixture",
+            history=[{"at": "2026-01-01", "status": "proposed"},
+                     {"at": "2026-01-02", "status": "posted"},
+                     {"at": "2026-01-03", "status": "accepted"}])
+        errors, _ = render.validate(_store([item]), set())
+        assert any("diff/revid" in e and "reviewer" in e for e in errors)
+
+    def test_accepted_with_diff_and_reviewer_ok(self, render):
+        item = _item(
+            status="accepted", override="lifecycle fixture",
+            history=[{"at": "2026-01-01", "status": "proposed"},
+                     {"at": "2026-01-02", "status": "posted"},
+                     {"at": "2026-01-03", "status": "accepted",
+                      "revid": 1377000000, "reviewer": "kkron"}])
+        errors, _ = render.validate(_store([item]), set())
+        assert not errors
+
+    def test_proposed_to_rejected_allowed(self, render):
+        item = _item(
+            status="rejected", override="lifecycle fixture",
+            history=[{"at": "2026-01-01", "status": "proposed"},
+                     {"at": "2026-01-02", "status": "rejected"}])
+        errors, _ = render.validate(_store([item]), set())
+        assert not errors
+
+    # -- #81 §4: AfC draft gate --
+
+    def test_missing_draft_file_is_error(self, render):
+        errors, _ = render.validate(
+            _store([_item()], exists=False, mode="afc",
+                   draft_wikitext_file="does/not/exist.wikitext"),
+            set(), {})
+        assert any("draft_wikitext_file not found" in e for e in errors)
+
+    def test_draft_ref_must_resolve_to_item_evidence(self, render,
+                                                     tmp_path):
+        draft = tmp_path / "d.wikitext"
+        draft.write_text("He won.<ref>{{cite web |url=https://unbacked.test"
+                         "/x}}</ref>")
+        item = _item(decision="citable-attributed",
+                     evidence=[{"external": {"url": "https://unbacked.test/x",
+                                             "title": "X"},
+                                "reliability": "marginal"}])
+        # absolute path works: PROJECT_ROOT / "/abs" resolves to /abs
+        ok_store = _store([item], exists=False, mode="afc",
+                          draft_wikitext_file=str(draft))
+        errors, _ = render.validate(ok_store, set(), {})
+        assert not errors
+
+        bad_store = _store([item], exists=False, mode="afc",
+                           draft_wikitext_file=str(draft))
+        bad_store["items"][0]["evidence"][0]["external"]["url"] = (
+            "https://other.test/y")
+        errors, _ = render.validate(bad_store, set(), {})
+        assert any("draft cites https://unbacked.test/x" in e
+                   for e in errors)
+
+    def test_draft_gate_checks_inner_archive_url(self, render, tmp_path):
+        draft = tmp_path / "d.wikitext"
+        draft.write_text(
+            "<ref>{{cite web |archive-url=https://web.archive.org/web/"
+            "2020/https://real.test/page}}</ref>")
+        item = _item(decision="citable-attributed",
+                     evidence=[{"external": {"url": "https://real.test/page",
+                                             "title": "X"},
+                                "reliability": "marginal"}])
+        store = _store([item], exists=False, mode="afc",
+                       draft_wikitext_file=str(draft))
+        errors, _ = render.validate(store, set(), {})
+        assert not errors
+
+    # -- #81 §5: passage hash --
+
+    def test_base_passage_hash_mismatch_rejected(self, render):
+        passage = "He trained under Robert Tann."
+        import hashlib
+        good = "sha1:" + hashlib.sha1(
+            " ".join(passage.split()).encode()).hexdigest()
+        item = _item(
+            type="repair", override="fixture",
+            proposal={"wikitext": "x", "base_revid": 200,
+                      "anchor": {"passage": passage},
+                      "base_passage_hash": good})
+        errors, _ = render.validate(_store([item]), set())
+        assert not errors
+        item["proposal"]["anchor"]["passage"] = "Edited passage."
+        errors, _ = render.validate(_store([item]), set())
+        assert any("base_passage_hash" in e for e in errors)
+
+
+class TestPolicyChecklist:
+    """#81 §6: ticks are computed from the IR, never hardcoded."""
+
+    def test_personal_comm_in_patch_item_unticks_check(self, render):
+        ev = {"external": {"url": "email://x/1", "title": "Mail"},
+              "reliability": "unreliable"}
+        item = _item(decision="citable-attributed", evidence=[ev],
+                     proposal={"wikitext": "x", "base_revid": 1})
+        lines = render._policy_checklist(
+            render.build_ir(_store([item])))
+        assert any(l.startswith("- [ ] Personal communications")
+                   for l in lines)
+
+    def test_clean_store_ticks_all(self, render):
+        ev = {"external": {"url": "https://x.test", "title": "X"},
+              "reliability": "marginal", "independence": "secondary"}
+        item = _item(decision="citable-attributed", evidence=[ev],
+                     proposal={"wikitext": "x", "base_revid": 1})
+        lines = render._policy_checklist(
+            render.build_ir(_store([item], mode="talk_page")))
+        assert all("- [x]" in l for l in lines if l.startswith("- ["))
+
+
+# ---------------------------------------------------------------------------
+# Golden test — rendered output must match committed views
+# ---------------------------------------------------------------------------
+
+
+class TestGoldenRendered:
+    RENDERED = PROJECT_ROOT / "docs" / "wikipedia-drafts" / "rendered"
+
+    @pytest.mark.parametrize("slug", [
+        "hiroshi-ikeda", "robert-nadeau", "richard-moon",
+        "peter-ralston", "bob-tann",
+    ])
+    def test_rendered_matches_store(self, render, slug):
+        store = json.loads(
+            (PROJECT_ROOT / "data" / "wikipedia-updates" / f"{slug}.json")
+            .read_text())
+        render._SRC_META = render.load_source_meta()
+        errors, _ = render.validate(
+            store, render.load_graph_ids(), render._SRC_META)
+        assert errors == []
+        fresh = render.freshness(store)
+        ir = render.build_ir(store)
+        for suffix, fn in (("", render.render_index),
+                           ("-wikimarkup", render.render_wikimarkup),
+                           ("-talk", render.render_talk)):
+            committed = (self.RENDERED / f"{slug}{suffix}.md").read_text()
+            assert fn(ir, fresh) == committed, (
+                f"{slug}{suffix}.md drifted — re-render")
 
 
 # ---------------------------------------------------------------------------
@@ -361,7 +657,8 @@ class TestMigratedStores:
     ])
     def test_store_validates_against_graph(self, render, slug):
         store = json.loads((self.STORE_DIR / f"{slug}.json").read_text())
-        errors, _ = render.validate(store, render.load_graph_ids())
+        errors, _ = render.validate(store, render.load_graph_ids(),
+                                    render.load_source_meta())
         assert errors == []
 
     @pytest.mark.parametrize("slug", [

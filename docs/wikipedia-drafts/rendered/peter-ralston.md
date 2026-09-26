@@ -25,8 +25,8 @@
 - **Q** `upd:ralston:q-newspaperscom-gating` — The newspapers.com image links for the Tribune/Chronicle items are subscription-gated — is 'via=Newspapers.com' + page/date sufficient for verification, or should clipping links be provided? (citable)
 - `upd:ralston:tournament-1978` — In 1978 Ralston won the light-heavyweight title at the Second World Kuoshu Martial Arts Tournament near Taipei, Taiwan. (citable)
 - `upd:ralston:cheng-hsin-founding` — Founded Cheng Hsin 1975; opened the Oakland school/center 1977. (citable-attributed)
-- `upd:ralston:sumo-berkeley` — Sumo champion at his high school in Japan; judo/fencing champion at UC Berkeley. (citable-attributed)
 - `upd:ralston:teaching-approach` — Teaching approach — 'effortlessly effective' interaction, direct experiential inquiry rather than fixed technique. (citable-attributed)
+- `upd:ralston:sumo-berkeley` — Sumo champion at his high school in Japan; judo/fencing champion at UC Berkeley. (citation-pending)
 - [task] [F] Identify the 1978 tournament's organizer/governing body — likely Republic of China / World Kuoshu federation; needs a primary check
 - [task] [B] Full read of the Blitz piece — edited vs promotional; does it rely on Ralston's own account for the 1978 result (it hedges 'It's said…')
 - [task] [A] Black Belt page-image pass — byline spelling (scan OCRs 'Cressey', refs give 'Cressy') + paragraph-level coverage map

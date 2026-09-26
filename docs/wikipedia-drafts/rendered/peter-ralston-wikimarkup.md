@@ -234,6 +234,9 @@ Among the aikido teachers who trained under Ralston is Patrick Cassidy, who stud
 **Claim:** Selected-works list — eight books 1989–2023, ISBNs verified via Open Library editions + publisher catalogs.
 
 - Open Library: Peter Ralston books (https://openlibrary.org/search.json?author=Peter+Ralston) — unscored/secondary/significant — Bibliographic fact — listed without inline refs per convention
+- Ancient Wisdom, New Spirit — Google Books (https://books.google.com/books/about/Ancient_Wisdom_New_Spirit.html?id=EBQcDYYGqqMC) — marginal/secondary/significant
+- The Book of Not Knowing — Google Books (https://books.google.com/books/about/The_Book_of_Not_Knowing.html?id=IUljRhRPq6gC) — marginal/secondary/significant
+- The Art of Mastery — Simon & Schuster (https://www.simonandschuster.com.au/books/The-Art-of-Mastery/Peter-Ralston/9781644116432) — marginal/secondary/significant
 
 **Rationale:** Bibliographic facts; the books themselves are the evidence.
 
@@ -289,6 +292,7 @@ Among the aikido teachers who trained under Ralston is Patrick Cassidy, who stud
 - 'Parrying the Martial Arts Ripoff' — Bay Area martial arts feature (https://www.newspapers.com/image/1223258844/) — reliable/secondary/significant — Bills him 'World martial arts champion' in a Bay-Area feature
 - Significa — 'Yankee Judo Dandy' (Parade magazine, p.18) (https://archive.org/details/assassxxxxxx00linc) — reliable/secondary/significant — Syndicated ~60 papers on 1982-03-07; ~200-word item with original interview
 - Blitz Magazine, August 2011 (Vol. 25, No. 8) — 'The Man Behind Bloodsport?' by Mark Grzic, pp. 70-74 (https://doczz.net/doc/3878299/effortless-grab-defences) — marginal/secondary/significant — Blitz Aug 2011 pp.70–74 retrospective via doczz scan + Wayback captures of blitzmag.net
+- Blitz Martial Arts Magazine Vol.25 No.8 — preview (fitmultimedia) (https://www.fitmultimedia.com.au/magazinepreview/blitz-martial-arts-magazine-vol-25-issue-8) — marginal/secondary/incidental — alternate access URL for the Blitz issue already in the graph as work:31c61b56873a
 
 **Rationale:** Core notability claim — two contemporaneous + three retrospective independent sources. Organizer/governing body still unidentified (open task).
 
@@ -298,25 +302,28 @@ Among the aikido teachers who trained under Ralston is Patrick Cassidy, who stud
 
 - Peter Ralston Cheng Hsin — USAdojo profile (2000) (https://www.usadojo.com/peter-ralston/) — unreliable/self-report/significant — Mid-tier profile, likely self-supplied — attributed detail only
 - 'Parrying the Martial Arts Ripoff' — Bay Area martial arts feature (https://www.newspapers.com/image/1223258844/) — reliable/secondary/incidental — Independently documents the Oakland academy operating in 1979
+- Cheng Hsin — official website (https://chenghsin.com) — unscored/self-report/significant — external-links entry only
 
 **Rationale:** Uncontroversial institutional facts; independent corroboration of the academy's existence.
-
-### `upd:ralston:sumo-berkeley` — addition, citable-attributed
-
-**Claim:** Sumo champion at his high school in Japan; judo/fencing champion at UC Berkeley.
-
-- Peter Ralston Cheng Hsin — USAdojo profile (2000) (https://www.usadojo.com/peter-ralston/) — unreliable/self-report/incidental — Single mid-tier profile, likely self-supplied
-
-**Rationale:** Attributed to the profile in-text; flag for better source if challenged.
 
 ### `upd:ralston:teaching-approach` — addition, citable-attributed
 
 **Claim:** Teaching approach — 'effortlessly effective' interaction, direct experiential inquiry rather than fixed technique.
 
-- Interview with Peter Ralston (Tai Chi Chuan Journal / TQJ) (https://tqj.de/wp-content/uploads/2024/09/tqj-online-Interview-Ralston-407.pdf) — unscored/self-report/significant — Tai Chi Chuan Journal interview (tqj.de)
-- work:ec2b299118a4723f (https://www.chenghsin.nl/wp-content/uploads/2020/04/The-art-of-effortless-power.pdf) — unscored/self-report/significant — Taijivizier / Stichting Taijiquan Nederland interview
+- Interview with Peter Ralston (Tai Chi Chuan Journal / TQJ) (https://tqj.de/wp-content/uploads/2024/09/tqj-online-Interview-Ralston-407.pdf) — marginal/self-report/significant — Tai Chi Chuan Journal interview (tqj.de)
+- work:ec2b299118a4723f (https://www.chenghsin.nl/wp-content/uploads/2020/04/The-art-of-effortless-power.pdf) — marginal/self-report/significant — Taijivizier / Stichting Taijiquan Nederland interview
+- Tai Chi Interview met Peter Ralston (chenghsin.nl PDF) (https://www.chenghsin.nl/wp-content/uploads/2020/04/Tai-Chi-Interview-met-Peter-Ralston.pdf) — marginal/self-report/significant — interview mirror; attributed self-description
+- Pursuing Consciousness — Ralston interview (https://lammastide.com/pursuing-consciousness) — marginal/secondary/significant
 
 **Rationale:** Specialist union-journal interviews; used as attributed self-description.
+
+### `upd:ralston:sumo-berkeley` — addition, citation-pending
+
+**Claim:** Sumo champion at his high school in Japan; judo/fencing champion at UC Berkeley.
+
+- Peter Ralston Cheng Hsin — USAdojo profile (2000) (https://www.usadojo.com/peter-ralston/) — unreliable/self-report/incidental — Single mid-tier profile, likely self-supplied
+
+**Rationale:** Attributed to the profile in-text; flag for better source if challenged. Held: only evidence is the USAdojo self-report profile rated unreliable (#81).
 
 ## Explicitly NOT proposed
 

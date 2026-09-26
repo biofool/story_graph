@@ -9,18 +9,18 @@ Mechanical comparison of the graph-derived draft against the live Wikipedia arti
 - Live article: `data/cache/wikipedia/robert-nadeau.md`
   - title: Robert Nadeau (aikidoka) | revid: 1376726726 | retrieved: 2026-09-26T03:34:10Z
   - permalink: https://en.wikipedia.org/w/index.php?title=Robert_Nadeau_(aikidoka)&oldid=1376726726
-- Snapshot: `graph_snapshot/` | compare run: 2026-09-26T04:09:55Z
+- Snapshot: `graph_snapshot/` | compare run: 2026-09-26T06:22:27Z
 
 ## Summary
 
-- Candidate additions: **43** fact(s) with signal tokens absent from the live article
+- Candidate additions: **38** fact(s) with signal tokens absent from the live article
 - Graph data-quality flags: **8** edge(s) with suspect relation/target typing
 - Draft lines already fully covered by the live article: **15**
 - Live statements with graph corroboration: **9** corroborated + **22** partially corroborated of 38 analyzed sentences
 - Explicit CONTRADICTS edges on this subject's claims: **0**; heuristic date mismatches: **2**
 - Citable graph sources not cited in the live article: **16**
 - Non-citable graph material held as context only: **52** claim(s), **11** source(s)
-- Filtered before ranking (issue #80 §5): **3** personal-communication edge(s), **11** routine seminar/calendar edge(s) — see Filtered facts (diagnostics)
+- Filtered before ranking (issue #80 §5): **1** personal-communication edge(s), **11** routine seminar/calendar edge(s) — see Filtered facts (diagnostics)
 
 ## Candidate additions (in graph/draft, missing from live article)
 
@@ -29,7 +29,7 @@ A fact is listed when at least one of its signal tokens (graph entity label, cap
 ### From graph edges
 
 - **Robert Nadeau made an appearance at Lenkai Aikido Club in Leningrad (USSR) on 1990-10-27 — Guest training at Lenkai club on Oct 27, 1990 — founding conference of USSR Aikido Federation.**
-  - edge `person:robert-nadeau -[CO_APPEARANCE]-> dojo:lenkai-aikido-club`; missing signals: 1990, Leningrad, Lenkai Aikido Club, USSR, USSR Aikido Federation.
+  - edge `person:robert-nadeau -[CO_APPEARANCE]-> dojo:lenkai-aikido-club`; missing signals: 1990, Leningrad, Lenkai Aikido Club, USSR, USSR Aikido Federation
   - source: http://www.aikiclub.ru/spb.html
 - **Robert Nadeau made an appearance at Aikido of Idaho seminar with Robert Nadeau Sensei (6th Dan) (Oct 9-11, 1992, Boise) as guest instructor — billed 'Robert Nadeau Sensei (6th Dan)'.**
   - edge `person:robert-nadeau -[CO_APPEARANCE]-> event:aikido-of-idaho-nadeau-seminar-1992-10`; missing signals: 1992, 6, Aikido of Idaho, Robert Nadeau Sensei
@@ -38,10 +38,10 @@ A fact is listed when at least one of its signal tokens (graph entity label, cap
   - edge `person:robert-nadeau -[CO_APPEARANCE]-> event:esalen-aikido-lecture-1970-09-23`; missing signals: 1970, Esalen, Esalen Institute, Way of Mind-Body Harmony'
   - source: https://www.newspapers.com/image/460368716/
 - **Robert Nadeau made an appearance at A Festival of the Happy Martial Arts — Frost Amphitheater, Stanford (May 21, 1978) as billed presenter — 'Spiritual teacher and Director of Northern California Aikido'.**
-  - edge `person:robert-nadeau -[CO_APPEARANCE]-> event:festival-of-happy-martial-arts-1978`; missing signals: 1978, Director of Northern California Aikido'., Frost Amphitheater, Happy Martial Arts
+  - edge `person:robert-nadeau -[CO_APPEARANCE]-> event:festival-of-happy-martial-arts-1978`; missing signals: 1978, Director of Northern California Aikido', Frost Amphitheater, Happy Martial Arts
   - source: https://www.newspapers.com/image/1223017121/
 - **Robert Nadeau made an appearance at Lecture 'Mind-Body Harmony; Energy Awareness; Aikido' — Robert Frager Ph.D. & Robert Nadeau (Mar 5, 1971) as co-presenter.**
-  - edge `person:robert-nadeau -[CO_APPEARANCE]-> event:frager-nadeau-lecture-1971-03-05`; missing signals: 1971, Energy Awareness, Mind-Body Harmony, Robert Frager Ph.D.
+  - edge `person:robert-nadeau -[CO_APPEARANCE]-> event:frager-nadeau-lecture-1971-03-05`; missing signals: 1971, Energy Awareness, Mind-Body Harmony, Robert Frager Ph.D
   - source: https://www.newspapers.com/image/840104711/
 - **Robert Nadeau made an appearance at O Sensei Revisited Down Under Workshop on 2019-03-16..18 as instructor.**
   - edge `person:robert-nadeau -[CO_APPEARANCE]-> event:o-sensei-revisited-down-under-workshop`; missing signals: 2019, O Sensei Revisited Down Under Workshop, Sensei Revisited Down Under Workshop
@@ -49,41 +49,17 @@ A fact is listed when at least one of its signal tokens (graph entity label, cap
 - **Robert Nadeau made an appearance at Public aikido demonstration by Robert Nadeau at Mayfield Mall (Sep 1968) as demonstrator — 1:30-2:30 p.m. slot.**
   - edge `person:robert-nadeau -[CO_APPEARANCE]-> event:mayfield-mall-aikido-demo-1968-09`; missing signals: 1968, Mayfield Mall
   - source: https://www.newspapers.com/image/839885757/
-- **Robert Nadeau made an appearance at Energy workshop by aikido master Robert Nadeau at Florida International University (Sep 19, 1999, Miami) as workshop leader — billed 'aikido master Robert Nadeau'.**
-  - edge `person:robert-nadeau -[CO_APPEARANCE]-> event:nadeau-fiu-workshop-1999-09-19`; missing signals: Florida International University, Robert Nadeau'.
-  - source: https://www.newspapers.com/image/238942076/
-- **Robert Nadeau founded Menlo Park Dojo.**
-  - edge `person:robert-nadeau -[FOUNDED]-> group:menlo-park-dojo`; missing signals: Menlo Park Dojo, Menlo Park Dojo.
 - **Robert Nadeau has a teacher/student relationship with Robert Noha — Lifelong friendship and training since 1966.**
   - edge `person:robert-nadeau -[TEACHER_STUDENT]-> person:bob-noha`; missing signals: 1966, Robert Noha
-- **Robert Nadeau has a teacher/student relationship with Dave Bendigkeit.**
-  - edge `person:robert-nadeau -[TEACHER_STUDENT]-> person:dave-bendigkeit`; missing signals: Dave Bendigkeit, Dave Bendigkeit.
-  - source: https://www.newspapers.com/image/920116428/
-- **Robert Nadeau has a teacher/student relationship with Jack Wada.**
-  - edge `person:robert-nadeau -[TEACHER_STUDENT]-> person:jack-wada`; missing signals: Jack Wada, Jack Wada.
-  - source: http://aikidosj.com/old-site/public_html/instructors.html
-- **Robert Nadeau has a teacher/student relationship with Steve Gengo.**
-  - edge `person:robert-nadeau -[TEACHER_STUDENT]-> person:steve-gengo`; missing signals: Steve Gengo, Steve Gengo.
-  - source: https://www.newspapers.com/image/1223363307/
-- **Robert Nadeau has a teacher/student relationship with Wendy Palmer.**
-  - edge `person:robert-nadeau -[TEACHER_STUDENT]-> person:wendy-palmer`; missing signals: Wendy Palmer, Wendy Palmer.
-  - source: https://www.facebook.com/AikiWeb/posts/10159373624383063/
-- **Robert Nadeau worked at Esalen group in San Francisco.**
-  - edge `person:robert-nadeau -[WORKED_AT]-> group:esalen-group-in-san-francisco`; missing signals: Esalen group in San Francisco, San Francisco.
-- **Robert Nadeau worked at Friends of Esalen.**
-  - edge `person:robert-nadeau -[WORKED_AT]-> group:friends-of-esalen`; missing signals: Friends of Esalen, Friends of Esalen.
-- **Robert Nadeau worked at Japan Karate Association.**
-  - edge `person:robert-nadeau -[WORKED_AT]-> group:japan-karate-association`; missing signals: Japan Karate Association, Japan Karate Association.
-- **Robert Nadeau worked at Menlo Park Dojo.**
-  - edge `person:robert-nadeau -[WORKED_AT]-> group:menlo-park-dojo`; missing signals: Menlo Park Dojo, Menlo Park Dojo.
-- **Robert Nadeau worked at Los Angeles.**
-  - edge `person:robert-nadeau -[WORKED_AT]-> place:los-angeles`; missing signals: Los Angeles, Los Angeles.
-- **Robert Nadeau worked at Menlo Park.**
-  - edge `person:robert-nadeau -[WORKED_AT]-> place:menlo-park`; missing signals: Menlo Park, Menlo Park.
 - **Robert Nadeau worked at University of California, Berkeley.**
   - edge `person:robert-nadeau -[WORKED_AT]-> place:university-of-california-berkeley`; missing signals: University of California, University of California, Berkeley
+- **Robert Nadeau made an appearance at Energy workshop by aikido master Robert Nadeau at Florida International University (Sep 19, 1999, Miami) as workshop leader — billed 'aikido master Robert Nadeau'.**
+  - edge `person:robert-nadeau -[CO_APPEARANCE]-> event:nadeau-fiu-workshop-1999-09-19`; missing signals: Florida International University
+  - source: https://www.newspapers.com/image/238942076/
 - **Robert Nadeau founded Aikido Association of Northern California as co-founder.**
   - edge `person:robert-nadeau -[FOUNDED]-> group:aikido-association-of-northern-california`; missing signals: Aikido Association of Northern California
+- **Robert Nadeau founded Menlo Park Dojo.**
+  - edge `person:robert-nadeau -[FOUNDED]-> group:menlo-park-dojo`; missing signals: Menlo Park Dojo
 - **Robert Nadeau founded San Francisco dojo.**
   - edge `person:robert-nadeau -[FOUNDED]-> group:san-francisco-dojo`; missing signals: San Francisco dojo
 - **Robert Nadeau was a member of Aikido Association of Northern California (AANC) as principal instructor.**
@@ -92,22 +68,36 @@ A fact is listed when at least one of its signal tokens (graph entity label, cap
   - edge `person:robert-nadeau -[MEMBER_OF]-> group:army`; missing signals: Army
 - **Robert Nadeau was a member of Western martial artists.**
   - edge `person:robert-nadeau -[MEMBER_OF]-> group:western-martial-artists`; missing signals: Western martial artists
-- **Robert Nadeau has a teacher/student relationship with Robert Tann.**
-  - edge `person:robert-nadeau -[TEACHER_STUDENT]-> person:robert-tann`; missing signals: Robert Tann.
-- **Robert Nadeau worked at Aikido of Mountain View.**
-  - edge `person:robert-nadeau -[WORKED_AT]-> group:aikido-of-mountain-view`; missing signals: Aikido of Mountain View.
-- **Robert Nadeau worked at Aikido of San Jose.**
-  - edge `person:robert-nadeau -[WORKED_AT]-> group:aikido-of-san-jose`; missing signals: Aikido of San Jose.
-- **Robert Nadeau worked at Aikikai Hombu Dojo.**
-  - edge `person:robert-nadeau -[WORKED_AT]-> group:aikikai-hombu-dojo`; missing signals: Aikikai Hombu Dojo.
+- **Robert Nadeau has a teacher/student relationship with Dave Bendigkeit.**
+  - edge `person:robert-nadeau -[TEACHER_STUDENT]-> person:dave-bendigkeit`; missing signals: Dave Bendigkeit
+  - source: https://www.newspapers.com/image/920116428/
+- **Robert Nadeau has a teacher/student relationship with Jack Wada.**
+  - edge `person:robert-nadeau -[TEACHER_STUDENT]-> person:jack-wada`; missing signals: Jack Wada
+  - source: http://aikidosj.com/old-site/public_html/instructors.html
+- **Robert Nadeau has a teacher/student relationship with Steve Gengo.**
+  - edge `person:robert-nadeau -[TEACHER_STUDENT]-> person:steve-gengo`; missing signals: Steve Gengo
+  - source: https://www.newspapers.com/image/1223363307/
+- **Robert Nadeau has a teacher/student relationship with Wendy Palmer.**
+  - edge `person:robert-nadeau -[TEACHER_STUDENT]-> person:wendy-palmer`; missing signals: Wendy Palmer
+  - source: https://www.facebook.com/AikiWeb/posts/10159373624383063/
 - **Robert Nadeau worked at Brisbane police department.**
   - edge `person:robert-nadeau -[WORKED_AT]-> group:brisbane-police-department`; missing signals: Brisbane police department
-- **Robert Nadeau worked at City Aikido.**
-  - edge `person:robert-nadeau -[WORKED_AT]-> group:city-aikido`; missing signals: City Aikido.
+- **Robert Nadeau worked at Esalen group in San Francisco.**
+  - edge `person:robert-nadeau -[WORKED_AT]-> group:esalen-group-in-san-francisco`; missing signals: Esalen group in San Francisco
+- **Robert Nadeau worked at Friends of Esalen.**
+  - edge `person:robert-nadeau -[WORKED_AT]-> group:friends-of-esalen`; missing signals: Friends of Esalen
+- **Robert Nadeau worked at Japan Karate Association.**
+  - edge `person:robert-nadeau -[WORKED_AT]-> group:japan-karate-association`; missing signals: Japan Karate Association
 - **Robert Nadeau worked at Kodokan.**
   - edge `person:robert-nadeau -[WORKED_AT]-> group:kodokan`; missing signals: Kodokan
+- **Robert Nadeau worked at Menlo Park Dojo.**
+  - edge `person:robert-nadeau -[WORKED_AT]-> group:menlo-park-dojo`; missing signals: Menlo Park Dojo
 - **Robert Nadeau worked at Mountain View dojo.**
   - edge `person:robert-nadeau -[WORKED_AT]-> group:mountain-view-dojo`; missing signals: Mountain View dojo
+- **Robert Nadeau worked at Los Angeles.**
+  - edge `person:robert-nadeau -[WORKED_AT]-> place:los-angeles`; missing signals: Los Angeles
+- **Robert Nadeau worked at Menlo Park.**
+  - edge `person:robert-nadeau -[WORKED_AT]-> place:menlo-park`; missing signals: Menlo Park
 
 ### From the generated draft
 
@@ -147,10 +137,8 @@ These edges use an organizational relation (MEMBER_OF/WORKED_AT/CO_APPEARANCE/�
 
 Edges excluded BEFORE candidate ranking — visit/outreach affiliation leads (Varjan guard) and personal-communication-sourced edges. Counts are kept visible so an overbroad filter can be audited:
 
-**Personal-communication-sourced** — 3 edge(s):
-- Robert Nadeau was a member of California Aikido Association as division head.
+**Personal-communication-sourced** — 1 edge(s) (2 already covered by the live article):
 - Robert Nadeau worked at 194-198 Castro Street, Mountain View, CA (Jurian Building).
-- Robert Nadeau worked at Mountain View as head Aikido instructor (after return from Japan, post-1964).
 
 **Bulk seminar/calendar listings** — 11 edge(s):
 - Robert Nadeau made an appearance at Grand Opening Seminar with Robert Nadeau 7th dan, Richard Moon 5th dan dated June 11, 2005 as instructor
@@ -245,7 +233,7 @@ A live sentence is 'corroborated' when a graph claim, draft line, or source-text
   - partially corroborated via draft (generated draft)
   - shared: Northern California
 - After training in Japan Nadeua was granted a teaching
-  - partially corroborated via claim (https://aikidojournal.com/2011/08/27/robert-tann/)
+  - partially corroborated via claim (https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/)
   - shared: Japan
 - certificate signed by Morihei Ueshiba and Kisshomaru Ueshiba.
   - partially corroborated via draft (generated draft)
@@ -339,8 +327,8 @@ Each row: a live sentence with a single year, and a graph item sharing an entity
 - [Interview with Robert Nadeau – Aikido Journal](https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/) — SRS=70 (RELIABLE), class=journalistic
 - [Aikido: Past, Present and Future (contributed editorial by Patrick Cas](https://aikidojournal.com/2020/12/16/aikido-past-present-and-future/) — SRS=70 (RELIABLE), class=journalistic
 - [George Leonard (Encyclopedia of Aikido)](https://aikidojournal.com/2011/08/27/george-leonard/) — SRS=70 (RELIABLE), class=journalistic
-- [Robert Tann (Encyclopedia of Aikido)](https://aikidojournal.com/2011/08/27/robert-tann/) — SRS=70 (RELIABLE), class=journalistic
 - [Aikido Association of Northern California (Encyclopedia of Aikido)](https://aikidojournal.com/2011/08/27/aikido-association-of-northern-california/) — SRS=70 (RELIABLE), class=journalistic
+- [Robert Tann (Encyclopedia of Aikido)](https://aikidojournal.com/2011/08/27/robert-tann/) — SRS=70 (RELIABLE), class=journalistic
 - [Robert Nadeau — CAA](https://ai-ki-do.org/robert-nadeau) — SRS=45 (WEAK), class=journalistic
 - [About the CAA — California Aikido Association](https://ai-ki-do.org/about-the-caa) — SRS=45 (WEAK), class=journalistic
 - [Robert Nadeau (aikidoka) - Wikipedia](https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)) — SRS=0 (UNRELIABLE), class=journalistic
@@ -350,17 +338,17 @@ Each row: a live sentence with a single year, and a graph item sharing an entity
 The following are first-class graph evidence but must not appear as proposed article text (WP:RS): `kkron://` personal-communication assertions and `primary_first_person` / `comment_thread` / `documentary_promotional` sources.
 
 - kkron:// personal communication (15):
-  - Kufferath joined the American Judo & Jujitsu Federation (AJJF) in 1983, which awarded him the title of Shihan in 1988. H
-  - When Nadeau expanded his schools, he transitioned from sharing space with Kufferath directly to sharing space with Richa
-  - Richard Bunch began training under Professor Kufferath as a teenager and became Kufferath's Associate and Chief Instruct
   - Following Okazaki's death in 1951, Kufferath was promoted to Shichidan (7th degree black belt) and named Professor by th
+  - Kufferath began studying Danzan-ryu Jujitsu under Seishiro Henry Okazaki in 1937 at the Kodenkan dojo in Honolulu. Becau
+  - Robert Nadeau and Sig Kufferath shared dojo space at 194-198 Castro Street, Mountain View (the Jurian Building) starting
+  - Sig Kufferath was born on February 16, 1911 in Honolulu, Hawaii, one of eleven children, of German/Japanese descent. His
   - The California Aikido Association was already in existence even before Nadeau Sensei's return from Japan. It was headqua
 - only non-citable sources (37):
-  - This amazing book not only chronicles the life of Robert Nadeau, a living master of the art of Aikido, but it also carefully explains his un
+  - I was very fortunate to get his attention.
+  - This book presents, for the first time, the profound lessons and deep impact of a pioneering teacher who’s been central to the spread of Aik
+  - With Aikido I found a practice that related mind and body in a way I had not found in other martial arts.
   - A beautiful tribute and journey into the life of an Aikido master. We move with him as he grows and delight in his skills of transforming th
-  - This book has touched me deeply, taking me back to my days of training with Nadeau Sensei. I am moved by reading the testimonials of the peo
-  - I first noticed that the meditation practice seemed to be having a positive effect on my judo - the questions that immediately interested me
-  - Aikido is an essential art and teaching for the construction of a truly human society. Robert Nadeau is one of the earliest pioneers in brin
+  - From that point on he became more than my martial arts teacher: he became my 'spiritual mentor'.
 - source: kkron://personal-communication/kufferath-nadeau-bunch (class=primary_first_person)
 - source: http://aikidosj.com/old-site/public_html/instructors.html (class=primary_first_person)
 - source: https://aikidosj.com/ref/instructors/ (class=primary_first_person)

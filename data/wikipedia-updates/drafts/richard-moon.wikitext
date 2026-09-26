@@ -1,7 +1,6 @@
 {{short description|American aikido teacher and peace activist}}
 {{Infobox martial artist
 | name            = Richard Moon
-| birth_date      = {{Birth year and age|1946}}
 | martial_art     = [[Aikido]]
 | teacher         = [[Robert Nadeau (aikidoka)|Robert Nadeau]]
 | rank            = 6th ''[[dan rank|dan]]''
@@ -10,12 +9,9 @@
 | website         = 
 }}
 
-'''Richard Moon''' (born 1946) is an American [[aikido]] teacher,
+'''Richard Moon''' is an American [[aikido]] teacher,
 executive coach, and peace activist holding the rank of 6th
-''[[dan rank|dan]]''.<ref name="copyright-1946">{{cite
-web |title=Copyright registrations — Richard Moon, 1946-
- |work=Copyright Encyclopedia |access-date=2026-09-21
- |url=https://www.copyrightencyclopedia.com/radical-militant-vegetarians-in-naziland-against-the-odds/}}</ref><ref name="nadeau-bio">{{cite web
+''[[dan rank|dan]]''.<ref name="nadeau-bio">{{cite web
  |title=Authors — Robert Nadeau Shihan
  |url=https://www.nadeaushihan.com/authors
  |access-date=2026-09-17}}</ref> He is the founder and chief instructor of
@@ -174,9 +170,7 @@ Moon has recorded and published music under the name "R. Moon" through
 his site Moonsic.com, including the collections ''Moon Rocks'' and
 ''Moon Tunes''.<ref name="moonsic">{{cite web |title=R. Moon — Moon
 Music |work=Moonsic.com |url=http://moonsic.com/rmoon/moonrocks/moonrocks.html
- |access-date=2026-09-22}}</ref> US copyright records for his San
-Anselmo music releases give his birth year as 1946.<ref
-name="copyright-1946"/> He has also pursued food ventures — among them
+ |access-date=2026-09-22}}</ref> He has also pursued food ventures — among them
 a tofu-based product called "Teriyaki Age", which he presented at
 La Cocina SF's Street Food Festival.{{better source
 needed|date=September 2026}}
@@ -206,4 +200,3 @@ He lives in [[Nicasio, California]].<ref name="linkedin-2025"/>
 [[Category:American aikidoka]]
 [[Category:Living people]]
 [[Category:People from Marin County, California]]
-[[Category:1946 births]]

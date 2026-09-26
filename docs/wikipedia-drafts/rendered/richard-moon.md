@@ -10,22 +10,23 @@
 
 ## Item counts
 
-- 10 addition(s); 2 excluded(s); 3 question(s)
+- 11 addition(s); 2 excluded(s); 3 question(s)
 
 ## Open action items
 
 - `upd:moon:aikido-and-dialogue` — With Chris Thorsen, Moon co-led 'Aikido and Dialogue' corporate/conference programs via Performance Edge (Herald-Sun Durham 1997, 2001) plus 'Extraordinary Listening'. (citable)
-- `upd:moon:birth-year-1946` — Born 1946 (exact date unknown) — US copyright records on his San Anselmo music releases give 'Richard Moon, 1946-'. (citable)
 - `upd:moon:books` — Author of 'Quantum Aikido: The Power of Harmony' (Inner Traditions, ISBN 9781644119778); co-author of 'Aikido: The Art of Transformation' (2024, with Bell, Herr, Noha, Spence, Yoder); creator of 'Aikido in Three Easy Lessons'. (citable)
-- `upd:moon:peace-work` — Peace-building via IMTD (joined at first Lake Trails camp 1999, aikido as conflict-resolution tool feeding Bosnia Youth Leadership work); Cyprus CRTG-seeding project (with Cyprus Fulbright Commission, US Embassy, Conflict Management Group, Harvard Negotiation Project); Nautilus Institute senior associate. (citable)
 - **Q** `upd:moon:q-gng-sufficiency` — Does the sourcing satisfy GNG? Newspaper coverage is real and spans decades but is largely local event/class coverage rather than feature profiles. (citable)
 - **Q** `upd:moon:q-target-title` — Target title: 'Richard Moon (aikidoka)' vs '(martial artist)' — six other notable Richard Moons documented in the collision note. (citable)
 - `upd:moon:teaching-career-1980-98` — Teaching career 1980–1998: Dance Palace classes (Point Reyes Station, from Nov 1980), Aikido of Marin fictitious-business-name filing Feb 1985 (renewed Novato 1996), Aiki-Dance workshops through the 1990s. (citable)
 - `upd:moon:aj-authored-articles` — Moon authored two Aikido Journal articles — 'Bestowed Mission' (2014, reveals yoga-instructor origin ~early 1970s, fifth decade in aikido) and 'The Skills, the Art and the Path' (2015, mentions teaching a blending exercise in post-war Bosnia). (citable-attributed)
 - `upd:moon:cassidy-mention` — Patrick Cassidy's published AJ contributor bio names Moon among his teachers ('trained with Peter Ralston, Robert Nadeau Shihan and Richard Moon Sensei'). (citable-attributed)
 - `upd:moon:europe-teaching` — Europe guest teaching: Aikido Maastricht hosted-teachers list (videos Mar 2010); Riviera Seminar Lake Geneva Jun 2025 with Cassidy, Martucci, Messisco; Awase Helsinki Jun 2025. (citable-attributed)
+- `upd:moon:music-ventures` — Moon records and publishes music under the name 'R. Moon' via his site Moonsic.com (collections incl. Moon Rocks, Moon Tunes); he has also pursued food ventures. (citable-attributed)
 - `upd:moon:nz-teaching` — Guest teaching in New Zealand since ~1987 (first invited by the Riai Aikido community); Auckland 2019 with Nadeau; September 2025 three-weekend tour. (citable-attributed)
+- `upd:moon:peace-work` — Peace-building via IMTD (joined at first Lake Trails camp 1999, aikido as conflict-resolution tool feeding Bosnia Youth Leadership work); Cyprus CRTG-seeding project (with Cyprus Fulbright Commission, US Embassy, Conflict Management Group, Harvard Negotiation Project); Nautilus Institute senior associate. (citable-attributed)
 - `upd:moon:rank-and-affiliations` — 6th dan; founder/chief instructor of Aikido of Marin; co-founder/senior instructor of City Aikido SF with Nadeau; 50+ year student of Nadeau; also trained under Mestre Acordeon (capoeira), Peter Ralston (Cheng Hsin), B.K. Frantzis (qigong). (citable-attributed)
+- `upd:moon:birth-year-1946` — Born 1946 (exact date unknown) — US copyright records on his San Anselmo music releases give 'Richard Moon, 1946-'. (citation-pending)
 - **Q** `upd:moon:q-better-source-flags` — Two {{better source needed}} flags in the draft (Source/Aware Inn era; Teriyaki Age/La Cocina) — leave flagged, or trim the sentences entirely? (not-citable)
 - [task] 6th dan promotion date unsourced (Riai page still shows 5th dan as of 1997)
 - [task] NZ first-visit ~1987 — LinkedIn only; needs a secondary source
