@@ -3,6 +3,10 @@
 > Status index. Convention per [#73](https://github.com/biofool/story_graph/issues/73):
 > 3 maintained files per subject — this index, `-wikimarkup.md`, `-talk.md`.
 > Generated artifacts live under `generated/` and are regenerable, not maintained.
+> Pipeline v2 (#80): `data/wikipedia-updates/<slug>.json` is now the
+> decision record; `rendered/<slug>{,-wikimarkup,-talk}.md` are the generated
+> views (scripts/61_render_wikipedia_updates.py). This file is frozen pending
+> review that the rendered views cover it.
 
 ## Open action items
 

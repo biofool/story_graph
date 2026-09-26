@@ -4,6 +4,10 @@
 > 3 maintained files per subject — this index, `-wikimarkup.md`, `-talk.md`.
 > Only the index exists for this subject: assessment is **no standalone
 > article**, so there is no draft to maintain.
+> Pipeline v2 (#80): `data/wikipedia-updates/<slug>.json` is now the
+> decision record; `rendered/<slug>{,-wikimarkup,-talk}.md` are the generated
+> views (scripts/61_render_wikipedia_updates.py). This file is frozen pending
+> review that the rendered views cover it.
 
 ## Open action items
 

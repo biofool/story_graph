@@ -1,0 +1,66 @@
+{
+  "subject": "bob-tann",
+  "article": {
+    "title": null,
+    "talk": null,
+    "exists": false,
+    "mode": "none",
+    "coi": "None beyond the project's general dojo-outreach COI.",
+    "live_page": null
+  },
+  "gng": {
+    "status": "fail",
+    "note": "No standalone article is warranted — sourcing is a single Encyclopedia of Aikido entry plus two comment-section reminiscences (Naughton-Wright 2011, Kemp 2013); not significant coverage. Checked 2026-09-26 (enwiki search returns nothing relevant). His citable home is inside Robert Nadeau's article — see upd:nadeau:tann-teacher."
+  },
+  "items": [
+    {
+      "id": "upd:tann:ex-standalone",
+      "type": "excluded",
+      "claim": "A standalone Robert 'Bob' Tann article.",
+      "target_section": "n/a",
+      "evidence": [
+        {
+          "source": "src:aj-encyclopedia-robert-tann",
+          "reliability": "reliable",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "partial",
+          "note": "1931 – 26 Jan 2001; USMC veteran; SSF police officer; taught aikido in South San Francisco 1960–72; Nadeau among his students"
+        }
+      ],
+      "decision": "not-citable",
+      "rationale": "One reference entry + two blog comments is not 'significant coverage in reliable independent sources'. Reopen if Aikido Today archives, SSF PD/obit records, or the Nadeau biography give him real coverage.",
+      "status": "proposed",
+      "history": [{"at": "2026-09-26", "status": "proposed", "note": "assessment — no standalone article"}]
+    },
+    {
+      "id": "upd:tann:ex-comment-texture",
+      "type": "excluded",
+      "claim": "Comment-thread texture: Rocky Kemp trained under Tann 1958–59 at MCRD San Diego (Tann SSgt self-defense section; CO MSgt B.J. Carlisle); Edward Naughton was Tann's first SSF student 1962; Tann medically retired after a police-duty crash.",
+      "target_section": "n/a",
+      "evidence": [
+        {
+          "external": {"url": "https://aikidojournal.com/2011/08/27/robert-tann/", "title": "Comment threads under the AJ Tann encyclopedia entry (Naughton Wright 2011, Kemp 2013)"},
+          "reliability": "unreliable",
+          "independence": "self-report",
+          "coverage_depth": "incidental",
+          "supports": "partial",
+          "note": "comment_thread class — corroborating leads only, never citations"
+        }
+      ],
+      "decision": "not-citable",
+      "rationale": "Comment-section reminiscences — preserved as leads, not citable.",
+      "status": "proposed",
+      "history": [{"at": "2026-09-26", "status": "proposed", "note": "leads preserved"}]
+    }
+  ],
+  "open_tasks": [
+    "Reopen paths if coverage surfaces: Aikido Today Magazine archives, South San Francisco PD records/clippings, Marin/SSF obituaries (d. 26 Jan 2001), 'Aikido: The Art of Transformation' (2024)"
+  ],
+  "rationale_blocks": [
+    {
+      "title": "Why he matters without an article",
+      "body": "Tann is Nadeau's pre-Japan aikido teacher — the AJ Encyclopedia names Nadeau among his students, and the timeline is consistent (Nadeau began late 1950s, Hombu early 1960s; Tann's SSF window 1960–72). The proposed Nadeau-article sentence lives in robert-nadeau.json (upd:nadeau:tann-teacher). Graph hygiene done: person:bob-tann and the malformed person:aikikai-hombu-dojo-bob-tann (spaCy junction artifact) are ALIAS_OF person:robert-tann, nodes retained for provenance."
+    }
+  ]
+}

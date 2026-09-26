@@ -372,12 +372,52 @@ def draft_fact_lines(draft_text: str) -> list[dict]:
     return unique
 
 
+def classify_edge_priority(rel: str, dst_type: str, meta: dict,
+                           dst_id: str) -> str:
+    """Bucket a candidate-fact edge BEFORE ranking (issue #80 §5).
+
+    'lead'      — DOJO_AFFILIATION edges that are visit/outreach leads.
+                  The Varjan guard, enforced in code: a visit is not an
+                  affiliation and must never surface as a candidate fact.
+    'noncitable'— edges sourced to personal communication (email://,
+                  kkron://) — context only, never candidates.
+    'routine'   — bulk seminar/calendar CO_APPEARANCE listings.
+    'suspect'   — organizational relations pointing at Person nodes
+                  (mis-typed graph data; reported as data-quality flags).
+    'normal'    — everything else.
+    """
+    ctx = str(meta.get("context") or "").lower()
+    assoc = str(meta.get("association") or "").lower()
+    ev_status = str(meta.get("evidence_status") or "").lower()
+    src = f"{meta.get('source') or ''} {meta.get('source_url') or ''}".lower()
+    if rel == "DOJO_AFFILIATION" and (
+        "unverified" in ev_status
+        or "frequent_visited" in assoc or "visit" in assoc
+        or "visited frequently" in ctx or "outreach" in ctx
+        or "lead" in ctx
+    ):
+        return "lead"
+    if src.startswith("email://") or src.startswith("kkron://"):
+        return "noncitable"
+    if rel == "CO_APPEARANCE" and (
+        meta.get("source") == "aikiweb_seminars_db"
+        or "calendar" in src
+        or src.rstrip("/").endswith("/events")
+    ):
+        return "routine"
+    if (rel in {"MEMBER_OF", "WORKED_AT", "WORKED_FOR", "HEAD_INSTRUCTOR",
+                "DOJO_AFFILIATION", "CO_APPEARANCE"}
+            and dst_type == "Person"):
+        return "suspect"
+    return "normal"
+
+
 def edge_facts(sub: dict) -> list[dict]:
     """Render key graph edges as candidate fact statements.
 
-    Returns [{"text", "kind", "date", "source_url", "priority"}] where
-    priority 'routine' marks bulk seminar-listing edges (aikiweb) that
-    are individually minor.
+    Returns [{"text", "kind", "date", "source_url", "priority"}]; the
+    priority bucket comes from classify_edge_priority and controls
+    whether a fact is ranked, collapsed, or filtered out entirely.
     """
     node_map = {n["id"]: n for n in sub["nodes"]}
     canonical = sub["canonical"]
@@ -411,14 +451,10 @@ def edge_facts(sub: dict) -> list[dict]:
         if not dst_label:
             continue
         meta = e.get("metadata") or {}
-        # Data-quality flag: organizational relations pointing at a Person
-        # node are almost certainly mis-typed graph data (e.g.
-        # "MEMBER_OF -> person:morihei-ueshiba"). Report separately.
         dst_type = dst.get("type", "")
-        suspect = rel in {
-            "MEMBER_OF", "WORKED_AT", "WORKED_FOR", "HEAD_INSTRUCTOR",
-            "DOJO_AFFILIATION", "CO_APPEARANCE",
-        } and dst_type == "Person"
+        priority = classify_edge_priority(rel, dst_type, meta,
+                                          e.get("dst_id", ""))
+        suspect = priority == "suspect"
         verb = rel_templates.get(rel, rel.lower().replace("_", " "))
         text = f"{person} {verb} {dst_label}"
         extras = []
@@ -436,12 +472,6 @@ def edge_facts(sub: dict) -> list[dict]:
             text += " " + " ".join(extras)
         if meta.get("context"):
             text += f" — {meta['context']}"
-        if suspect:
-            priority = "suspect"
-        elif meta.get("source") == "aikiweb_seminars_db":
-            priority = "routine"
-        else:
-            priority = "normal"
         facts.append({
             "text": text + ".",
             "kind": rel,
@@ -688,6 +718,7 @@ def generate_compare_report(
     cited_sources: list[dict],
     non_citable_material: dict,
     live_sentence_count: int,
+    filtered_facts: dict | None = None,
 ) -> str:
     label = sub["canonical"].get("label", search_term)
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -757,6 +788,20 @@ def generate_compare_report(
         f"**{non_citable_material['claim_count']}** claim(s), "
         f"**{non_citable_material['source_count']}** source(s)"
     )
+    if filtered_facts:
+        parts = [f"**{len(v)}** {name}" for name, v in (
+            ("affiliation-lead edge(s)", filtered_facts.get("lead", [])),
+            ("personal-communication edge(s)",
+             filtered_facts.get("noncitable", [])),
+            ("routine seminar/calendar edge(s)",
+             filtered_facts.get("routine", [])),
+        ) if v]
+        if parts:
+            lines.append(
+                "- Filtered before ranking (issue #80 §5): "
+                + ", ".join(parts)
+                + " — see Filtered facts (diagnostics)"
+            )
     lines.append("")
 
     # --- Candidate additions ---
@@ -770,11 +815,7 @@ def generate_compare_report(
     )
     lines.append("")
 
-    routine = [f for f in missing_edge if f["_fact"].get("priority") == "routine"]
-    notable_edge = [
-        f for f in missing_edge
-        if f["_fact"].get("priority") == "normal"
-    ]
+    notable_edge = missing_edge
 
     if notable_edge:
         lines.append("### From graph edges")
@@ -803,23 +844,7 @@ def generate_compare_report(
             lines.append(f"- … plus {len(missing_draft) - 25} more draft lines")
         lines.append("")
 
-    if routine:
-        lines.append(
-            f"### Routine seminar listings ({len(routine)} collapsed)"
-        )
-        lines.append("")
-        lines.append(
-            "Bulk `CO_APPEARANCE` records from the aikiweb seminar calendar — "
-            "individually minor; listed as a group rather than as proposed "
-            "article text:"
-        )
-        for f in routine[:15]:
-            lines.append(f"- {f['_fact']['text'][:140]}")
-        if len(routine) > 15:
-            lines.append(f"- … plus {len(routine) - 15} more")
-        lines.append("")
-
-    if not (notable_edge or missing_draft or routine):
+    if not (notable_edge or missing_draft):
         lines.append("- None detected.")
         lines.append("")
 
@@ -841,6 +866,30 @@ def generate_compare_report(
                 f"node"
             )
         lines.append("")
+
+    if filtered_facts and any(filtered_facts.values()):
+        lines.append("### Filtered facts (diagnostics)")
+        lines.append("")
+        lines.append(
+            "Edges excluded BEFORE candidate ranking — visit/outreach "
+            "affiliation leads (Varjan guard) and personal-communication-"
+            "sourced edges. Counts are kept visible so an overbroad filter "
+            "can be audited:"
+        )
+        lines.append("")
+        labels = {"lead": "Affiliation leads (visit ≠ affiliation)",
+                  "noncitable": "Personal-communication-sourced",
+                  "routine": "Bulk seminar/calendar listings"}
+        for key in ("lead", "noncitable", "routine"):
+            bucket = filtered_facts.get(key) or []
+            if not bucket:
+                continue
+            lines.append(f"**{labels[key]}** — {len(bucket)} edge(s):")
+            for fx in bucket[:15]:
+                lines.append(f"- {fx['text'][:140]}")
+            if len(bucket) > 15:
+                lines.append(f"- … plus {len(bucket) - 15} more")
+            lines.append("")
 
     # --- Corroborated ---
     lines.append("## Live-article statements corroborated by the graph")
@@ -1108,9 +1157,13 @@ def main():
             covered_draft.append(f)
 
     missing_edge = []
+    filtered_facts = {"lead": [], "noncitable": [], "routine": []}
     for f in efacts:
         if f["priority"] == "suspect":
             continue  # reported as data-quality flags, not additions
+        if f["priority"] in filtered_facts:
+            filtered_facts[f["priority"]].append(f)
+            continue  # filtered before ranking — reported in diagnostics
         sig = extract_signals(f["text"], vocab_re)
         res = classify_fact(f["text"], sig, live_blob)
         if res["missing"]:
@@ -1204,7 +1257,7 @@ def main():
         missing_edge, missing_draft, suspect_facts, len(covered_draft),
         corroborated, no_evidence, contra, contradicted_live, mismatches,
         not_cited_citable, not_cited_other, cited_sources,
-        non_citable_material, len(live_sig_pairs),
+        non_citable_material, len(live_sig_pairs), filtered_facts,
     )
 
     if args.report:
