@@ -240,7 +240,7 @@ He lives in [[Nicasio, California]].<ref name="linkedin-2025"/>
 
 **Claim:** Target title: 'Richard Moon (aikidoka)' vs '(martial artist)' — six other notable Richard Moons documented in the collision note.
 
-**Rationale:** Disambiguation question for reviewers; collision analysis verified 73/73 via scripts/55_jev_moon_analysis.py.
+**Rationale:** Disambiguation question for reviewers; JEV identity_match screening excluded all 73 collision listings as non-subject (49 different_person, 24 insufficient_evidence) via scripts/55_jev_moon_analysis.py.
 
 ### `upd:moon:teaching-career-1980-98` — addition, citable
 

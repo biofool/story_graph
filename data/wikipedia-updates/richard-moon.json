@@ -472,7 +472,7 @@
       "target_section": "AfC review",
       "evidence": [],
       "decision": "citable",
-      "rationale": "Disambiguation question for reviewers; collision analysis verified 73/73 via scripts/55_jev_moon_analysis.py.",
+      "rationale": "Disambiguation question for reviewers; JEV identity_match screening excluded all 73 collision listings as non-subject (49 different_person, 24 insufficient_evidence) via scripts/55_jev_moon_analysis.py.",
       "status": "proposed",
       "history": [
         {
@@ -529,7 +529,7 @@
         {
           "at": "2026-09-22",
           "status": "proposed",
-          "note": "73/73 collision labels verified, scripts/55_jev_moon_analysis.py"
+          "note": "all 73 collision listings safely excluded by JEV identity_match (49 different_person, 24 insufficient_evidence), scripts/55_jev_moon_analysis.py"
         }
       ]
     },
@@ -580,7 +580,7 @@
     },
     {
       "title": "Name-collision note",
-      "body": "Multiple people named Richard Moon appear in newspaper archives: railway chairman Sir Richard Moon (d. 1899); Rosslyn Park rugby scrum-half (1980s); Grande Prairie AB painter (1980s\u201390s); Hanover NH photographer (1991); Australian chef; Canadian constitutional-law professor (U. Windsor). None is the aikido teacher \u2014 only Marin County CA, Durham NC, and NZ-connected aikido hits qualify. Conversely the subject himself spans facets that look like different people (Source-era chef, moonsic.com musician, executive coach, Cyprus/Bosnia peace worker) \u2014 all confirmed by kkron 2026-09-22 as the same man (claim:kkron:moon-unified-identity). JEV identity_match verified 73/73 collision labels (scripts/55_jev_moon_analysis.py, data/audit/jev_moon_2026-09-22.json)."
+      "body": "Multiple people named Richard Moon appear in newspaper archives: railway chairman Sir Richard Moon (d. 1899); Rosslyn Park rugby scrum-half (1980s); Grande Prairie AB painter (1980s\u201390s); Hanover NH photographer (1991); Australian chef; Canadian constitutional-law professor (U. Windsor). None is the aikido teacher \u2014 only Marin County CA, Durham NC, and NZ-connected aikido hits qualify. Conversely the subject himself spans facets that look like different people (Source-era chef, moonsic.com musician, executive coach, Cyprus/Bosnia peace worker) \u2014 all confirmed by kkron 2026-09-22 as the same man (claim:kkron:moon-unified-identity). JEV identity_match screening excluded all 73 collision listings (49 different_person, 24 insufficient_evidence; scripts/55_jev_moon_analysis.py, data/audit/jev_moon_2026-09-22.json) — a safe-exclusion check, not a claim of 73 correct labels."
     }
   ]
 }

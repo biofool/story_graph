@@ -64,18 +64,28 @@ EVENT_PAIRS = [
     ("event:aikido-and-dialogue-durham-1997", "event:aikido-and-dialogue-2001", "different_event"),
 ]
 
-# Wikipedia-draft claims -> source file (verify each cited sentence)
+# Labeled claim-verification set: (claim, source file, expected verdict).
+# Negatives are deliberately wrong claims against the same sources so the
+# eval measures accuracy, not just the supported rate.
 CLAIM_CHECKS = [
-    ("By November 1980 Moon was teaching adult aikido classes at the Dance Palace in Point Reyes Station.",
-     "1105183831__a15.txt", "1105183831__a15.txt"),
     ("In September 1983 he gave an aikido demonstration at the Dance Palace with David Gamble and Sandy Jacobs.",
-     "1101135895__a6.txt", "1101135895__a6.txt"),
+     "1101135895__a6.txt", "supported"),
     ("In February 1985 Moon registered the fictitious business name 'Aikido of Marin' in Marin County.",
-     "1100894910__a2.txt", "1100894910__a2.txt"),
+     "1100894910__a2.txt", "supported"),
     ("With Chris Thorsen, Moon co-led 'Aikido and Dialogue' programs through their consultancy Performance Edge.",
-     "793520210__a0.txt", "793520210__a0.txt"),
-    ("In March 2019 he taught alongside Nadeau at the 'O Sensei Revisited Down Under' workshop hosted by Riai Aikido in Auckland.",
-     None, "../moon/awase_fi_2025.html"),  # placeholder; web cites checked via archived files
+     "793520210__a0.txt", "supported"),
+    ("Moon gave the September 1983 Dance Palace aikido demonstration alone.",
+     "1101135895__a6.txt", "contradicted"),
+    ("Aikido of Marin was registered as a partnership.",
+     "1100894910__a2.txt", "contradicted"),
+    ("Moon co-led 'Aikido and Dialogue' programs with George Leonard.",
+     "793520210__a0.txt", "contradicted"),
+    ("Moon held the rank of fifth dan in September 1983.",
+     "1101135895__a6.txt", "unresolved"),
+    ("Aikido of Marin was Moon's second Marin County business.",
+     "1100894910__a2.txt", "unresolved"),
+    ("Performance Edge was headquartered in Durham, North Carolina.",
+     "793520210__a0.txt", "unresolved"),
 ]
 
 WEB_SOURCES = {
@@ -88,28 +98,34 @@ WEB_SOURCES = {
     "quantum": "data/reference/moon/quantumaikido_home.html",
 }
 
+# (claim, WEB_SOURCES key, expected verdict) — verified against the
+# archived sources 2026-09-26; all are supported by their cited source.
 WEB_CLAIMS = [
     ("Moon worked on the Cyprus conflict-resolution project developed by IMTD with the Cyprus Fulbright Commission.",
-     "riai"),
+     "riai", "supported"),
     ("Moon joined IMTD at its first Lake Trails camp in 1999, teaching aikido as a conflict-resolution tool.",
-     "imtd"),
+     "imtd", "supported"),
     ("Aikido Maastricht lists Moon among its hosted guest teachers.",
-     "maastricht"),
+     "maastricht", "supported"),
     ("In June 2025 Moon taught at the annual Riviera Seminar on Lake Geneva.",
-     "riviera"),
+     "riviera", "supported"),
     ("Moon led guest sessions at the Awase dojo in Helsinki in June 2025.",
-     "awase"),
+     "awase", "supported"),
     ("Moon is a senior associate of the Nautilus Institute.",
-     "nadeau"),
+     "nadeau", "supported"),
 ]
 
+# (claim, node id holding the source text, expected verdict)
 NODE_CLAIMS = [
-    ("Moon was born in 1946.", "claim:moon-born-1946"),
+    ("Moon was born in 1946.", "claim:moon-born-1946", "supported"),
     ("Moon presented 'Teriyaki Age' at La Cocina SF's Street Food Festival.",
-     "event:richard-moon-at-la-cocina-street-food-festival"),
+     "event:richard-moon-at-la-cocina-street-food-festival", "supported"),
     ("Moon worked at The Source restaurant on the Sunset Strip during the Source Family era.",
-     "claim:kkron:218252fe4b9771cb"),
-    ("Moon also worked at the Aware Inn.", "claim:kkron:0e842747e2d98504"),
+     "claim:kkron:218252fe4b9771cb", "supported"),
+    ("Moon also worked at the Aware Inn.", "claim:kkron:0e842747e2d98504", "supported"),
+    ("Moon was born in 1952.", "claim:moon-born-1946", "contradicted"),
+    ("Moon presented 'Teriyaki Age' at La Cocina SF's Street Food Festival in 2019.",
+     "event:richard-moon-at-la-cocina-street-food-festival", "unresolved"),
 ]
 
 
@@ -129,10 +145,44 @@ def ask(client, state, instr, criteria):
         "type": "choice", "instructions": instr, "criteria": criteria}})
 
 
+def identity_match_metrics(run):
+    """Score an identity_match run on the three axes triage needs.
+
+    - safe_exclusion: of non-subject items, the fraction NOT judged
+      same_person. A different_person-vs-insufficient_evidence mix-up is
+      a labeling error, not a safety failure — both keep the article out.
+    - subject_recall: of real-subject items, the fraction judged
+      same_person. Missing a real subject article is the costly error.
+    - exact_label: overall got == expected.
+    """
+    subj = [r for r in run if r["expected"] == "same_person"]
+    non = [r for r in run if r["expected"] != "same_person"]
+    return {
+        "safe_exclusion": {
+            "n": sum(1 for r in non if r["got"] != "same_person"),
+            "of": len(non)},
+        "subject_recall": {
+            "n": sum(1 for r in subj if r["got"] == "same_person"),
+            "of": len(subj)},
+        "exact_label": {
+            "n": sum(1 for r in run if r["got"] == r["expected"]),
+            "of": len(run)},
+        "false_inclusions": [r.get("id") for r in non if r["got"] == "same_person"],
+        "missed_subjects": [r.get("id") for r in subj if r["got"] != "same_person"],
+    }
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--rescore", metavar="AUDIT_JSON",
+                    help="recompute metrics from a prior audit file, no API calls")
     a = ap.parse_args()
+    if a.rescore:
+        run = (json.loads(Path(a.rescore).read_text())
+               .get("tasks", {}).get("identity_match", []))
+        print(json.dumps(identity_match_metrics(run), indent=2))
+        return 0
     client = JevClient()
     if not a.dry_run and not client.is_available():
         print("JEV_API_KEY not configured"); return 1
@@ -188,7 +238,7 @@ def main():
             exp = "different_person" if m.get("reason", "").startswith("collision") else "insufficient_evidence"
             run.append({"id": nid, "expected": exp, "got": got,
                         "reason": m.get("reason", ""),
-                        "correct": got == exp or (exp == "different_person" and got == "insufficient_evidence")})
+                        "correct": got == exp})
             time.sleep(0.15)
         for name, t in pos:
             got = ((ask(client, t,
@@ -201,6 +251,7 @@ def main():
                         "correct": got == "same_person"})
             time.sleep(0.15)
         res["tasks"]["identity_match"] = run
+        res["tasks"]["identity_match_metrics"] = identity_match_metrics(run)
 
     # ---------- 3. event_dedup ----------
     print(f"event_dedup: {len(EVENT_PAIRS)} pairs")
@@ -220,29 +271,35 @@ def main():
             time.sleep(0.15)
         res["tasks"]["event_dedup"] = run
 
-    # ---------- 4. claim_verification ----------
+    # ---------- 4. claim_verification (labeled set) ----------
     checks = []
-    for claim, af, _ in CLAIM_CHECKS[:4]:
+    for claim, af, expected in CLAIM_CHECKS:
         p = ARTICLES / af
         if p.exists():
-            checks.append({"claim": claim, "source_id": af,
+            checks.append({"claim": claim, "source_id": af, "expected": expected,
                            "text": p.read_text(errors="ignore")[:6000]})
-    for claim, key in WEB_CLAIMS:
+        else:
+            print(f"  skip (missing source): {af}")
+    for claim, key, expected in WEB_CLAIMS:
         p = Path(WEB_SOURCES[key])
         if p.exists():
             text = re.sub(r"<[^>]+>", " ", p.read_text(errors="ignore"))
-            checks.append({"claim": claim, "source_id": key,
+            checks.append({"claim": claim, "source_id": key, "expected": expected,
                            "text": re.sub(r"\s+", " ", text)[:6000]})
-    for claim, nid in NODE_CLAIMS:
+    for claim, nid, expected in NODE_CLAIMS:
         _, m = node_meta(cur, nid)
         st = m.get("description") or m.get("claim_text") or json.dumps(m)
-        checks.append({"claim": claim, "source_id": nid, "text": st[:6000]})
-    print(f"claim_verification: {len(checks)} claims")
+        checks.append({"claim": claim, "source_id": nid, "expected": expected,
+                       "text": st[:6000]})
+    print(f"claim_verification: {len(checks)} labeled claims")
     if not a.dry_run:
         run = []
         for c in checks:
             r = verify_claim(c["claim"], c["text"], client=client)
+            got = (r or {}).get("jev_verdict", "unverified")
             run.append({"claim": c["claim"], "source": c["source_id"],
+                        "expected": c["expected"], "got": got,
+                        "correct": got == c["expected"],
                         "result": r})
             time.sleep(0.15)
         res["tasks"]["claim_verification"] = run
@@ -255,15 +312,27 @@ def main():
     out.write_text(json.dumps(res, indent=2))
     print(f"\nwrote {out}\n")
     for task, run in res["tasks"].items():
+        if task == "identity_match_metrics":
+            continue  # printed alongside identity_match below
         if task == "claim_verification":
+            n = len(run)
+            ok = sum(1 for r in run if r["correct"])
             dist = {}
             for r in run:
-                v = (r["result"] or {}).get("jev_verdict", "unverified")
-                dist[v] = dist.get(v, 0) + 1
-            print(f"{task}: verdicts {dist}")
+                dist[r["got"]] = dist.get(r["got"], 0) + 1
+            print(f"{task}: {ok}/{n} correct — dist {dist}")
             for r in run:
-                if (r["result"] or {}).get("jev_verdict") != "supported":
-                    print(f"    CHECK {r['source']}: {r['claim'][:70]} -> {r['result']}")
+                if not r["correct"]:
+                    print(f"    MISS {r['source']}: exp {r['expected']} got {r['got']} — {r['claim'][:70]}")
+        elif task == "identity_match":
+            m = res["tasks"]["identity_match_metrics"]
+            print(f"{task}: safe-exclusion {m['safe_exclusion']['n']}/{m['safe_exclusion']['of']}, "
+                  f"subject-recall {m['subject_recall']['n']}/{m['subject_recall']['of']}, "
+                  f"exact-label {m['exact_label']['n']}/{m['exact_label']['of']}")
+            for mid in m["missed_subjects"]:
+                print(f"    MISSED SUBJECT {mid}")
+            for fid in m["false_inclusions"]:
+                print(f"    FALSE INCLUSION {fid}")
         else:
             n = len(run); ok = sum(1 for r in run if r["correct"])
             dist = {}
