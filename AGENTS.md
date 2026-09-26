@@ -16,6 +16,13 @@ Only keep parameterized/reusable tooling as scripts (e.g.
 `ingest_a_person.py`, `17_ingest_from_kv.py`, `48_ingest_aikiweb_seminars.py`,
 `11_ingest_cdnc.py`).
 
+`scripts/ingest_news_feeds.py` runs daily via GitHub Actions
+(`.github/workflows/news_ingest.yml`, issue #78) and commits
+`graph_snapshot/` diffs back itself — it also refreshes
+`data/audit/reingest_candidates.json` via `scripts/reingest_audit.py`,
+the standing report of graph areas worth reingesting when algorithms
+improve.
+
 ## kkron's assertions always go in the graph
 
 Always add kkron's assertions (claims, evidence, verbal confirmations,
