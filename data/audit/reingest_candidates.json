@@ -1,0 +1,2371 @@
+{
+  "generated_at": "2026-09-26T02:27:31+00:00",
+  "snapshot_dir": "/home/kkron/projects/github/story_graph/graph_snapshot",
+  "mojibake": [],
+  "raw_text_no_claims": [
+    {
+      "id": "kkron:wikipedia-draft-sig-kufferath",
+      "url": "kkron://wikipedia-draft/sig-kufferath",
+      "platform": "kkron (personal communication)"
+    },
+    {
+      "id": "moonsic:about",
+      "url": "http://moonsic.com/about.html",
+      "platform": "moonsic.com (Wayback Machine)"
+    },
+    {
+      "id": "moonsic:contact",
+      "url": "http://moonsic.com/contact.html",
+      "platform": "moonsic.com (Wayback Machine)"
+    },
+    {
+      "id": "moonsic:home",
+      "url": "http://moonsic.com/",
+      "platform": "moonsic.com (Wayback Machine)"
+    },
+    {
+      "id": "moonsic:jook",
+      "url": "http://moonsic.com/jook/jook.html",
+      "platform": "moonsic.com (Wayback Machine)"
+    },
+    {
+      "id": "moonsic:lesser",
+      "url": "http://moonsic.com/lesser/lesserindex.html",
+      "platform": "moonsic.com (Wayback Machine)"
+    },
+    {
+      "id": "moonsic:liko",
+      "url": "http://moonsic.com/liko/likoindex.html",
+      "platform": "moonsic.com (Wayback Machine)"
+    },
+    {
+      "id": "moonsic:links",
+      "url": "http://moonsic.com/links.html",
+      "platform": "moonsic.com (Wayback Machine)"
+    },
+    {
+      "id": "moonsic:nn",
+      "url": "http://moonsic.com/nn/nn.html",
+      "platform": "moonsic.com (Wayback Machine)"
+    },
+    {
+      "id": "moonsic:rmoon",
+      "url": "http://moonsic.com/rmoon/moonindex.html",
+      "platform": "moonsic.com (Wayback Machine)"
+    },
+    {
+      "id": "news:09db99ab67eee828",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YUEp2T2ZsZW5UM0UwbTJvX3JCcGJLamFSYlhRT251blhpQ0NZTW9TNUw4eExtQkd2UlRpcmU1Z0hRWE5xZWtybWVsa2Jidk5lYWFmRTVzX2E1RFZaZ3FNU011QkZjU1hiM3d2MEd4dzc?oc=5",
+      "platform": "BOMB Magazine"
+    },
+    {
+      "id": "news:0d688651d8ca38a6",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcTBLYkZCQ3FNbVJld0hNZXhPV1hNTzZzVTBpXzRYRkM4WWpoZDk5cjBzTFZRMmxaVl85VnpiVGVPRm9kVXZaLTF3bWdoUnFHRmFTWHlXQ1dqSFMtWEtXOXo0a2J1U1FOZkFKb1VWbWJxbmg4RFVBZ1hXUjFRRFRHQmo1S2NONk1mVUE?oc=5",
+      "platform": "LAist"
+    },
+    {
+      "id": "news:11863b6780f171a2",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPU2lyUno2MHZiRGVxTko2SXFyQ1hsdGowSmJ1bExnMFJERzI3VnRid01PNXlaUmZOdnBPWW9lanFCbkhETkVHNTZHOURWelM2WTJUcWtfX3RJRTIwWGx3c0QwWkdKNVdsbG9YY3VfNVdER082MDByXzkzR2RJUWFIUVhkalR4UEwyUHIwbFhOcHR5cXNpYnF0a0RZTFZFZ0dGa1pTRUlwM1J3b1VBN29mSWJkNHUtbTJGNVNxeW5QY0tHbWJYTmZsX1RWVVgtWHF4TDZ3WkRlNGFmLW93dHVVZVY0NA?oc=5",
+      "platform": "The Washington Post"
+    },
+    {
+      "id": "news:174e02ec3aa7c890",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdFFwNkN1NEFOR0xRTW5IaFFrUjFHMllidHJFTXZ0X1NTN25qX01UNXprcEZrOGFtbXlzdnFRd0FyY2xsVFM5eUt6WmR3TDROMjhTZ3pNX2xRd1pYZXFvUHpFc3BtMGhfd0dlT1kyZ1hsVWN3QjY0d1VPMzdlUGdmbEF2SQ?oc=5",
+      "platform": "grunge.com"
+    },
+    {
+      "id": "news:1f03cfd7372c2c3e",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd201RnEwYUdlZmlDQ0ZWODE0ZmFSSjd6dlR6b3hHYTJzZWZnTTNadlItaGZNdnFmN3NneEhTTktrSWhCeVEyVkdydXMwR0tHY3ZSQlM4bWJZWVZ4eEh4QUVVSUg1d0lmX3VxVDdUOEtYZUUyQXA3OTJaaE1Jb294MDFjWFBmd1p4YnpjT01hakRjd3FaU05LQ0NhalZldGxY?oc=5",
+      "platform": "Forbes"
+    },
+    {
+      "id": "news:1f80e94a54feb516",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORVh4T0ZIMnFEUnZlRXphbTF3UWNMSmJHWnFjSFdRcHZTZlk2dDhVbnM1VGdYM05RbG15WEdzZW9rZndPSHdnV3ZmUE5Nb1lBR3ZDMHpBMkZhSXNVcVY2Z2xJdUlGUy1tUXBsRjBkdlBycHBnZmFhb25lX0thc3BEd1JZNU1idw?oc=5",
+      "platform": "Pitchfork"
+    },
+    {
+      "id": "news:20771684b52be2c7",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5YeV91ZDZ4NGVNYmxocllmQWxROWJOUzlNSUpsWHVvREhDSE02am43OHNfSllCMWxBcTZscnEtVGM5OF9kY0h6ZkRybkFGQjNSTWtuZ0o4RjFKMWdid0JvcUdGV2dCRlFSTFJ3T1JmYw?oc=5",
+      "platform": "IMDb"
+    },
+    {
+      "id": "news:2176a562cc3cc4cd",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONGtoV1RIUDBielBMUGlIa0dLTTdYQmY4UUJOSlpOakh2V043LUlsSTFsMDVQSThabFpzRUVGNHYwSVg4RU13Z0FETU9ucFJxbFpWeUxuQ1ZVaml0RkE1R0xzNnh1YmZURFVfTy05dXBuMzZ1WFVURGI3X1BMYUQ0S1E2bEx2VC1jcllsWk05Q21SbXZ2TFVN?oc=5",
+      "platform": "The Globe and Mail"
+    },
+    {
+      "id": "news:2188a148a105a866",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONkV3dnI0T2I1WERCUDdfTWNoYlI2NDFldHQydFdxWmFDeFA0YXVMTzRpN1NZaGRDZHlXTzB2amxPQmFtaW5kaHJqTjVMMlY1ak1RLW5KYXFkQkJYck15U0owaW5QaEd3UHIyeUw3RURYVWppYTF4N0VRc0ktbjhJYjBESkZwMTZjdkowcEs4Z1RSZ1ZmTkRiaFhEN3RjMExpdGMtT29semRkTF92d3Fabw?oc=5",
+      "platform": "cracked.com"
+    },
+    {
+      "id": "news:237eb69b2efc9a57",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUzljV1JickdGUTFPa0xzNnpKQzBmRXlmN0xYemdsV0dQOXgteHNqenl0NDFhM3BGeGFZcDZVaWxuYmJvWjhOTFItVWpEUkpOdUpVZEJia01VUVdWUFBoTTgweXIwTVl4eDU1LU5lZUpDS01UckFhaWpha3hESjVtdEhEN1VGTHNWd1cwWHdFbTdxa0xiRGRjSFpkS1BOTWdxLTB3dGRNRzljUdIBrwFBVV95cUxQcEE0UzFQMEctb3pYYS1pRW96OTJ6S2NmNG15OThXSnh4WVg4NEpwNWpkNVpmcVljaHpyVGZZQkxXc2NUZEZabmdxdVhIWUdNa3ZqcFFhbGdVOVNHTl9DY0ZVdWdtOHhGUVBMX2xMZjM4Z1lOTHBPNjl2Y2RQanpjSlRqZmQzVzNNNU5QbHZxcnBlb1JHR1R4MVhSbU9Zd1dPRWVnQjI2aHpuZ0F6OVVn?oc=5",
+      "platform": "Daily Mail"
+    },
+    {
+      "id": "news:273d986db8b576b3",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNV0hTcGVsUDdBbE1XamRpMzFpM2tYdzhLdTd0TU9UQVFsRllUV21SOXpKS1dzQ01vX0lCT2wwMWsyN2lRVl9UMlVlSnh5SmFuYk1fZVN1aXJtVXFkQldITE1XQnA1RGx0RnAzUzBHYWVpOFJKdm16eENZelRydjEzNlBrZGN4QnNocDhDUGp2T0NhekdVWE5YMTVpVVI0UHN3NVp3ajNTbmUwYTRPek5SdTMtdUFzTklfWkRSN3F3?oc=5",
+      "platform": "thefader.com"
+    },
+    {
+      "id": "news:29e0404eebb9bc3c",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBsZjludEpaQ2RULUxMcVIwSG9Ra0FURFlzc0hLdDhUVGlVdTl1NXhEaUxlbEI2MDVXUC16VGQzUVBoUkdLNi1ybm5fYUlZcHVJaUF5U2NaWXczOUpjeWdyOFRGcU54MkJQZ3JQRGRSQ2hmaW1ZOE1SZA?oc=5",
+      "platform": "The Santa Barbara Independent"
+    },
+    {
+      "id": "news:2bee530b0338b8a7",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWThTYjBKTGRfVk5hVUJnbXBBbFFlVFJwblBUZm5YdGdkNlJGcTN2OEhvX0V3dVRZOHVxUk5sZFFxYjRPb2xod2xZdURTRUhFQ1A5VnpYczZDRGhpN2ZIQ1lEX3hucmNKb3ozXzRpZVctcW5nazZnZklCdXZQOEw5eGVMTHJ5SVkzMkJRRHZZZVhBd0lkMjZEZk9pWUhadXM4NnRlYWN3?oc=5",
+      "platform": "The Berkshire Edge"
+    },
+    {
+      "id": "news:2e4be8e35b4e8c8f",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcEtmMDNEMDE1dzdNV19Lc0ZxOHF6ckRXZzhuOW1QNWx4ck1QWmlDdjQyWVZNd1gzZ0RVdm9yVnR0Y2MwTnNpOFRyUmNzUkFnUmtuMHk1X0tUVGJUTkRCaDFyQzBnSVcxMzFoTGYwZVJId2ZEcmlaX29GYkd5bEZ0VlA1TEwxWjlua0lGWEVZcEJrQQ?oc=5",
+      "platform": "LAmag"
+    },
+    {
+      "id": "news:37888182eae68fed",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE56ajVKY1YwaldOTTdyM2dCYUk3dHhsUktmNzhNcDFabEpqUFJVakxsa2c3X3VndUMxclY4TTVucWg4RlVORVQ1TVA0cXBkYU5vNVZyeDlLZ2lzRUlIdzZ5aGdPa0JpTlZ2Ym9BaGs2blUyYkRIV0Y0VA?oc=5",
+      "platform": "Glide Magazine"
+    },
+    {
+      "id": "news:37f7fb415a44ccc0",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA1RzNiWk1pYy1xR0dyNzlmVk5qNEJuQ3RxWDNrQXc3Uk91UXdLQ2hlNU1xczUyd1hpMFVydVNmLVpuQTlEc295eDFoVGYwNXJfZkhxSDg5aWktZ240SGsydnM4VHQ3RVFreVRKN2hfYw?oc=5",
+      "platform": "IMDb"
+    },
+    {
+      "id": "news:39e747669fc183e3",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZlpHNUdNUU8zLXNsOW93MU8wSi1HQjZIQmEtMElsemJ4TjdWd01ZREFscUhabmNhdFh3VjVfelJvOHdTQ3lIWE5oajllemkwa2ZQdWRacFBWeUtyYmIwR2tYV1plLUJCOVo2U3BSSzVKQllJM2NRUFRUMG13TmRCY3lHN0NNV0FWdWc?oc=5",
+      "platform": "dangerousminds.net"
+    },
+    {
+      "id": "news:3da67cb0025e0a3c",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOVNHQlAtY3hsemxIX0NrTnZMeE5OV3hKZGFCc2RKTHJHRTVUUFpVd0N5VC1kMjJxbmZYS29rZE5zeE9Tcy1YLWkxRXdacnJ6Vm8zZjFhcGRHdVllTlZOblpuMk9EenRMcXZPSWF3ZVNjNlVsMDFWdTNKZ1BMemlXVFZ4ajJ2d1drbk5oajVad2lYVE9Leks2OUVmTnR4N3VrbDU1dlB5dWs0ZlBPMURTeGhfZUU5NDRyZkFxOThVeV9EemJ5M0hUVA?oc=5",
+      "platform": "SF Weekly"
+    },
+    {
+      "id": "news:3dc81d4e917e552b",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUi0tdVFFV05kUzdUZFZIMnMyLWNmeE85RlZydmZSbkV4cFFqeTRRblJ4TmdQSEpOdGs4RDMwbzZTYm5FTEEtcEo2TkF5OFQ2U2JlVGhvY1pfSFRwUlk5YnAwZTR3alJlUHpha0tfWWpIYUtxNkZrVV9GbDB4dGxqTkc4dGJzX2M4LVE?oc=5",
+      "platform": "breakingmuscle.com"
+    },
+    {
+      "id": "news:3f8c70d2330e2add",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT3hCQ1dOMU9hZFRLNHRMODI5UXJlUjBtb1VXcXF4RVM5dmVtUFAtSGxzN0MtSUlNczBWQWYxQUItNzdGc0xlMUQtQUZ2cllSMWhhekFiWnlVb3dhYktTQ2phVUlfNWFOSXJrMnRKbXNfTjVpSHR2NXBjNWRHMVJxb2NweDhRTjkyRng5Qm9sSWo3Y19jOVhkdlJveXlUUzdVRHMzT25MbkdMeVI1d0xzY29Mb2laN0M2Z1MzcmZFVWVDZFh6V2c?oc=5",
+      "platform": "edhat"
+    },
+    {
+      "id": "news:40a0165ec2c97e32",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5oX2p1NGtUT2RWMnRCSDJDdGxyaVVSMEg3ZkF3T21Hb3hBSldoalJUODZ4SC1EUTZYSjhRclcwTEFfd0swR3ZyMndSUXFZYWVpR2dQc29SMkc2MElVZm9leGhlLVA1Q2ZYUFBlSURpVFhOd0pNZm5rSnE4R3g?oc=5",
+      "platform": "Boston Herald"
+    },
+    {
+      "id": "news:4114c884d5b04073",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zS250TUxTUUdDbzdDVm10TnlCQm5keVNwNEd4Zkx3cklhSnRybng5RXFVZXRKaWFBak90eWNsZGdYS0VveVZQVjNTR1hBazBVWThlZlNvMEF5WUpZYktnaEc4SlpxNHZIZVBKRHFpU3A?oc=5",
+      "platform": "WBEZ Chicago"
+    },
+    {
+      "id": "news:4234d87ee50c6c6e",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE96Rlp4b3JDNUdUTGxHbTk0N2JVNVNMWTNBazRkVWF2aW00d25FcS10Z2ZxMnB4b2xjTW1FdmRtRTdaWC1xa2VFeHJnOFZRaE5uc3dqMzBQWnNrcGh5VHBEc25R?oc=5",
+      "platform": "Decider"
+    },
+    {
+      "id": "news:454d3183377cb4f7",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdlB2YTFpeWh2SHVPbk5JR1JoYjRTdnZDX3QxUEp2aEdHcWxiUDgzNm1rc0tETy1nZzlpY0NhRlNveE1ZNjR0SEdWU1hmM0tRcDlBVWdhZHBlRWViYkE4LURRSUNaMUtTUFdKb3pxT2I2RmNlZmRyelE2UlpyVmhTRDFpMnRSU3N5TV9Z?oc=5",
+      "platform": "Gizmodo"
+    },
+    {
+      "id": "news:4d8a0d7d9715bb05",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjSkNzR25YUWVzUlc2dEhoMkhsUWxxU2k3MVp5dmNvVDUxemgzSUZTa0s3aXFMeVpHZ2RadEpWcHhxbzFud09ic2l6OEpzWDJqUS1NZENkWlgwVkduYmRMTVp3OEdzXzlVWWt2NDBuekplb25X0gF6QVVfeXFMUDRDbTg4RkF1Si1PQjc5N3NncVZHNWlMWnRCR3pSS25lMFlncExwZGlyX1FvdEtJeWR2TGJVUGNwWDNWLXFPcVduWC1nRWlUSUs2YjNMQmVNRkdHVGtEcTVRQnpMNEdnZm5IczdYR2RZSXZ0QjktS0lBaGc?oc=5",
+      "platform": "huffpost.com"
+    },
+    {
+      "id": "news:4dbffb0a010ccbdc",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOc1pVdkQwblc1X0FiUGJBd3RrM29ldndLbGVwcFdKei1QZG5yZ3hUVlRzSmRKdE04dVpKVERJakpTLVJlakp5LU9tMUhCM1RwWmpYWVVDQ01sbTNQd3BkRl91bElwcGtKN0M4eEhKdmdzNUFVNHVnb19WazU1TDdJUXBRa3VsRko2V2w4TTl5cUpXWDNpMVd6UFlGNGlQbnVOMUM4N1FyMndZdVBaczI3TkZmRVY3WDhYN21RN3hpOTRVWnVXTm8zTHpnc211cEE?oc=5",
+      "platform": "The Boston Globe"
+    },
+    {
+      "id": "news:50cfbb89b55a7d34",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5zLTBHb3M0STFES05zR1lnem0zNGtRc2xxMUVnWXl1akdJc1RXYmtPalNCY0VYNVo2RlhFOVc0ZzREY1BjSFVudktxNEdlclhzMWRKQk1RbmdXVnlPai0yVnJ4SG1uUmFySW9JZVdn?oc=5",
+      "platform": "IMDb"
+    },
+    {
+      "id": "news:50e7c75ad4f780c9",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcUJobTh1d1Q4ekNqVUtGWlY2aDJPVVFuakhSY2piVGI4c0NwRTMtUVBwZ0FwaHFuUHdnU19iU2lxa3FEVXl1VjN3c1FVVXV0Z2hLTGROZ0kyMzA5S1NYQlVxVEVXdWJ0aHlvTnBmMTYxYTJqV1JLbV9VY2VPclRoVEVnNGlNblcteDZySTVYbXJKblBfdVE0VkJyTlhEd2s?oc=5",
+      "platform": "The Guardian"
+    },
+    {
+      "id": "news:51edd2fccb1c02e6",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaHREZGp1NThkbjc3anVGRjRCeVlxS05ZczZCbk8xNDMtbU9VTThNazhNbGRRemZWaExIWnFPeHc4M0FBRmp3bmMzdGR6al9iU1Iyd2lhOHFaaUdFQXpOaEZVR2JETDc3QlFrTWFpT0xuMy1FUFdPYUgxcXR6UkFzMW5tMHdzaXBTbklfaXM2ZzdIam9kMllFU2lnemJjYmw0ZEM0NVBzZmdWNG9XajB4ZE9INXdUbGRoSGVxZ0JSSW5qTGh0ZV9lbUVIMGNMSlZZSUgzb3gtUE1xSzc2WFE?oc=5",
+      "platform": "Los Angeles Times"
+    },
+    {
+      "id": "news:54f72c1763afe447",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdWU3WVBLTUhvWFdfMmEzTlgzdFcyTG1BV3ZzNHJiTG5PTC1Vd0NHNnBHQjRCS3kyanhZZEVwTXZ3bDFMZ0JnRldoTklDYWRQN1lLendOZlZCWkNRR1VpTjlYM0RibGl0NXA3dXROVWZGbVlzQUZaWXM4YlV5aEdtNmR0eDBucFRUQ05Vcno1RTM4Nm9fWWFack50T19sSVhIdE9iblJMY3NnOEhPNGJIQ2NfZw?oc=5",
+      "platform": "Columbus Monthly"
+    },
+    {
+      "id": "news:5a66df30eb4d6784",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSm1XVEViZEh2dnhPbVhaVjhlX0FsMUZEc18wX0lWU1haWTJhT05nemNYZFg0VS1JNEQ2dGZ0VTEtcE40SkRxVVNzbE96S0tGbE1MQ290TWJFNEFCRXRkS19PNlg0V2YyV0lIQmlIWElvUU5UNWNWby1xcEVQS3NTUTlLQmR1MnI3d1dBaW1hbm43Z21v?oc=5",
+      "platform": "LAmag"
+    },
+    {
+      "id": "news:5e41c4985cbe5493",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9BZWJTeVRjQXppUllCUXo2VEl4ZTEtcG5BUDhIY0RULW5KVVpuOW8tdE9PMTlJdVVDX0gxSmhyMVBWYi1MWHpEQzhHOW45RVJuVkNVOGh2TTc0MEQtN2xDaGtObDk4WXVwang4NkJB?oc=5",
+      "platform": "The Quietus"
+    },
+    {
+      "id": "news:6af2078bd575f0db",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRmFZellORTNubnAwVnJzS2lDSVVidExtZGZ2cWxnMURvRTV2aHNZUF8zQ1ZOb1lGRDJZT1U3a1NPVEdQdmo2bzVPcmNtbjV2YVVETUVWV0h0ZjZCZ2NFVk1kTFVNakhnXzFsU2JMZVBTY192ZXZBYVZNcVVoLTVka0E1MVVzTk9XZEZFd05Dd1JBZU5LdDlXWnBxSlhnZzFnYUFRTWtib0dFeDhmY0MwODc5V0Y4a2fSAbcBQVVfeXFMTUZhWXpZTkUzbm5wMFZyc0tpQ0lVYnRMbWRmdnFsZzFEb0U1dmhzWVBfM0NWTm9ZRkQyWU9VN2tTT1RHUHZqNm81T3JjbW41dmFVRE1FVldIdGY2QmdjRVZNZExVTWpIZ18xbFNiTGVQU2NfdmV2QWFWTXFVaC01ZGtBNTFVc05PV2RGRXdOQ3dSQWVOS3Q5V1pwcUpYZ2cxZ2FBUU1rYm9HRXg4ZmNDMDg3OVdGOGtn?oc=5",
+      "platform": "alarm-magazine.com"
+    },
+    {
+      "id": "news:6dadd1010e2a544f",
+      "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxOLXAwWTFzMHBvbmRoR2pjRUx4WlJCUUJ3Zlc2YUVLdXJ1YnFGU3FrTjZPeVhGUlJ1MS16SFUzdUFTTlJjV2NTTXBmZERnTlFieURvY2JpTDQ1UmdEUVpNeXg0UnJKcXgwclRPeUhNNzhKUW41Z3FOSlg5bU1mSURtUExaLWZ2Wm1aNTlrZ3AtMjFNTmN5dkVqbllJWFM1MDB6VEJ2OFJBYWZJWHJOcDNVMEMxUjNjWXJEeTlmdUtiTW1kWFQwTTdYVC1PV2x3MV9tYW90eXJ5ajlmY0ktbkI3Q3ZOb2t6clhtdF9Fa1JCeXpqV2VaWjA4Ri1LdGQ5LWdRb1d4NjBhdUxMcHRLZW1qZmhaWFRmUjJJbkQ2M0JfRVBhQ3dSZUVGVW9oTnRPbmUwMUtLc3JhSlR0WE9KSXNwZlRnWmoxQU5qa0NOejJ0UFc2SnNZMFo4ZUN1N3UwQ0RSd1NR0gHoAkFVX3lxTE9tUUtQQm1CY0tTaDRmS3RmS3BkcjdWb1pKV08wTHp3NEJpbGFZY08wWnBpZmRROUVjeGI3WUhoUTVDeV9YcURIRFYxU0VBUExmSmF1MDI1WVRENDNsZWxyRlIxeFF2cDlJTEFxd0lqTjQyOGEzMW9wUE5KV2pxMHFvRGpPd1dobU5CakVhcjkzWnhrUXZMaVJlOFRjY3N1Z3V2dEw5NDZRNDJaUDJSb1V1OUdpcWNWeEVpMG5pdXBiTlJyZnFnN1JFRmpHZmNtN0pvdnhIRHhpa3RFQlhMcmdxYnNnODMtaVV1WFJsU1pmS3RLWXJrMEVlclBib1RwMnV4TndQQkVMUjNaaDQ1R1VrOC1GTXpRQWdzVHh5dWVEWElVMFhJdEdNU3N5bmZEVHZWeUc5ZUxELXkwUDRoN3BXYUhIcmJVOUhZSlpmT0JoX3gycmt5TXppcm5pc1U5NlF6WmlPTDRyZA?oc=5",
+      "platform": "The Economic Times"
+    },
+    {
+      "id": "news:7415bb07839ecf05",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX0l5TGdza1o5bTF6MnNhRlFKNWdrcFhyRi10M3BZUEhZZUdqaDR1V1VLTTdxdzdiQ0JXU0lGR1B0ZmMwd1k5eGtxa2NaZnV5QjRXN01rQTFGVTRHSTRZdndTeFlmdnl2VWI0OERDVnJzOThxVU9EQVNUS1VZZHJJZVVMM3VLdGdNS2hwV1RwWVlXVHk3cERVcmJ0Q29ISmtmWUtYVHJabFBaNHJMMUE?oc=5",
+      "platform": "Los Angeles Times"
+    },
+    {
+      "id": "news:788a53d6f7de3c8d",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNV25kd095N3dXV0RhWGhGZW12UkM3amJfalhHZzR2akZyU3NScU8zVDQwTi0tc0tCeVZFMmM0aGhoY1Nvemh4Mngta0xUMDRrdDdJNUs5YXJlM1FsSGRmUUJUZ2pVVl9mVmQ3cUlFTVdpX1dFaGx1UVVEN2lDWXRsX21vMVlzd0otNFFlb0dxRDNybDVfdTdFcENfTktUU2x6SkJJcEl6R1hUTzNGQWJLQnVmaGloTHdTSy1wTkVvVQ?oc=5",
+      "platform": "seattletimes.com"
+    },
+    {
+      "id": "news:7ccfc880e8de3a35",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBSZlU3VnRCWjJiYktpSnpST09qYjBfZ0VjZENCT1FVRDAwVDMydDZseUFtSEZabFRnS0pUZE55ODJVWnl3Z3JtN2hyZU5IVi1nU3Z6bm5pVFpPbC1iMVEwRVc4ZHZJYm42Z1dGSkk2RDR2RWpneXZYcmxONndyUQ?oc=5",
+      "platform": "USA Today"
+    },
+    {
+      "id": "news:8085500e08101df9",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9hOTBBYVZ5QWVkZzlzMUFNVngzQ3d1Q2pnSEdhMHB3WFZzbmdtNDJpUzJFQ3c0bWVhMl96M1VySjZzdlUzaWNfSjdoYnRWYlU3aDQydlQ0dXhqM1JYUW9TQU0zNVJWZHp0VXFZMEZkYWdfRWh6?oc=5",
+      "platform": "Columbus Underground"
+    },
+    {
+      "id": "news:80a88a0251f28d94",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1WZ1pScWt6WmxZTGQwbEREVGw5UGUxNzZjUUVwOTM5MGFpRHRsUFVyRlQ0UW1RTVRzalE4THNiNkNhc1pfRkVwNkFLUkRZeG5DaWN0N2ZDLThUaHdIYnN1aHZPcllNZHRYVFhoelVyVmRfZw?oc=5",
+      "platform": "Newcity Film"
+    },
+    {
+      "id": "news:80dc25eee319c726",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ0Ixb0xlV1otak1mZnVpN1hRcFJPQl9iT0dyTk1Wd1h1RklJMlVCR0xXV1EyZXRiSmdKTVk1ZzJVM1hXXzVNVmJHTElFeHdVUXRuWDhscnVaOWVRa0c4ZzdzdVo2RTI3aTBmR0hvLW1NbzMxU1N6bjJDb0dmcnBOSFlDQmVETUxFdlpIOVUwRGQ0QQ?oc=5",
+      "platform": "The Hollywood Reporter"
+    },
+    {
+      "id": "news:8100cff060f4adf4",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9YbENNdFJhOTNpOEFicFp3SVhieHcyTFpraU5SblZSeFk2UEVWQVN6SEdqTmpxV3VYTjBLNEoxMGwycTBzblgweFVZWkdDdkloM2ZPVERxM08?oc=5",
+      "platform": "All That's Interesting"
+    },
+    {
+      "id": "news:82ab698079515c40",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1wNEdxTC1XLVpnbjFsQTRBLWdXTUtEdmt5ZkZhbk8wVmxkSEhpUlJoTWNzOHVEcmlhTVpOZ0RGWGk4aVdkTkFMSThESnlvNnVidElHLV9SSDE4aTd5S1lrS1FTSjE1a3pJQ19mQVl2eGpyRmJwVjBRa191RQ?oc=5",
+      "platform": "AspenTimes.com"
+    },
+    {
+      "id": "news:833acdcdb8bfe44e",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSElzVlI3UEhwWDhsOUxKZ01HMkhIbWtwR0lKMFRfNUxRbG00bE82cmFSUkdzR29NQVQ4Yk5SVUgyQlRUVVRibnYyR0hNenM0a2FtSGpXT1lqU0tDWGZDNXFBN05UYUtDWVl0YXF2dWxtXzZpLXJfNTVGS3QwVFNJT2Q2b1d1aE9pWHZfS3p1UFN5aUs5Z2t0ZmxuY0lwamhjSFE?oc=5",
+      "platform": "PopMatters"
+    },
+    {
+      "id": "news:84c8660da8d3635d",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLUhLbW9HT0dYZGh1X2xDNE0yRkduOHZYckl2aXZzdmlVSXNGWGNuekFwTG1Xbm94MlhxUkhvazdkbVZ0Z1lERW51MWFtT1lVcWZZVFB1NUtzVnlBYXBBVnM3Qi1NOHZvRDhkWXhseXBEMGZiaS0yQUhMQXJtZjNXckhsN29CZ3NLcEZVTjh5aTdHM3pUODN1c3VkZTU1VVpZNDdEekJBeFdkNXlXbnAyVFU2MXJUcXBfSExBOQ?oc=5",
+      "platform": "The Independent"
+    },
+    {
+      "id": "news:8558755fddcd52de",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNHhuSXc0QUZSdm1WWXNla3kyTi1yLUVuRl9XNFp5cVlQQm1mNTBmOV9QRGNBb1Q5bHlWYnpJVC1manR2R1ZEQTA5d0gyZlJ0T3pIOVFJaDlhakVmcXJ3Q3JHTEJSbTVXdkg1Rkl3RzEwTzBPMDRaQ2NhTlNuWHJxa2VxNA?oc=5",
+      "platform": "oregonlive.com"
+    },
+    {
+      "id": "news:8c2db68c4e81fe3e",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVSmNJa01sek4tYWNNbjJEOWlhZ0k1SFRMb211N29HakwwY1lSX2Vla3p1LTdUMkV4UGRybERacktNeWtGTm9lU2dwejA3aDI1d2x1ZGh6aWRvRWNwZWNIU3RhWnR1ZzdiOVpzQ0MySGtwV3BqMkRJ0gF8QVVfeXFMT21jaUhSN1N2bWo5OE9pZkRmYlBsQ0NvUF84NTVWNDNLN2lncVRTWjI2TUNxaXpoS3RiNWZpREJhTWhWR3UxRkZUc2lGN2ZzUjJXbHdITkt2OUZkV0JQZFhlNDBIeFJNSGZTV1dsZnlmZUdLSlN6eDFLMF9QNg?oc=5",
+      "platform": "Boing Boing"
+    },
+    {
+      "id": "news:8d8665a21ad9a654",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdVdhZ01zNl9QcnBMZUJlblNrdTJDcjNMRDdFQ2h6NXFSUFRIVFB0VEVjX2x2Smh3RjFKaVgya2dHTmZyd2g1U1pLcFBVc0ZMMGQwTTFlTkFLXzBUc3FRMXlOVTNnSFBvRElYZW00T0MxSG5QV2I5RjR0Q2ZVMkRIWU5jdXRkdGNZWVBVa1pCckZrWUxCSUJNQTlkLUZaZw?oc=5",
+      "platform": "Vogue"
+    },
+    {
+      "id": "news:9307d5a7211cd8a5",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZmJmeEJXZ0lHNEpEbmRrY09ieU9WRnBUU29tTm1JZndOYm9HMmZLYjN6NU5mODU3R093ak5rNkJMTWN5R1ZlY0RCY21tVldHZHNrOThycmJPNUp2LUVZQmhmQ0ZxeTZkSGIzbjd2MnhnbXcwMXhPXzJHdmxIUVJvUmVGdzJHRm94aHVfa3Vsb1hkQ1lhT1gw?oc=5",
+      "platform": "Showbiz Cheat Sheet"
+    },
+    {
+      "id": "news:93cdfe71d59bd501",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1waHJ2WjNxbGJBMHJNUk41cHJsdjN3Z3ViUlR2TTJhTWk2aDdlclhjc2Z4VzZZLVQzb1NEcVlSVmdaZUZFbVBCTDljUmVVY0pBQ3piNjNodTJoUlRrT0VQTlA4eVZpUTFETVFWQmxLRVRFdw?oc=5",
+      "platform": "Daily Bruin"
+    },
+    {
+      "id": "news:9714717d9d1e0061",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBOOHRMclJTaVFRSWdnWll6UmZJRnhYRkpZYzVVb1FLQkJaQnRrM3pIRGFfb2JOYWQ5aDZ5WEFEWklPZkw0OHdpWWlHbnphRmZRVl9ZSU9jQnhuUkN2ODh6WTR1VjdtT1d4VlRKTjVLNlhrVTdsX1Q5WA?oc=5",
+      "platform": "Bernews"
+    },
+    {
+      "id": "news:9b1ad6c365a4db50",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYzlydVQyTDN3QnVVMkFHb2FrVVBHMEVrVHdQOUJXcmRoXzktdzJsSzlRdlAxdExicU9BdGxRRVNDWjk4RmNXT1VWV0VxaFhPaTZVaUE1WXpFV2lVMUVoUUZSTFd0LVo0RzlIMl82eldkWWVkM3hVM05JcUd2dnUwdV8wZFlDdXZORzBwcG0zUTBJWjlHdkFJU1hGak1iZ0RoWTBUQlRpeDFGQUlmbEJJVUVB?oc=5",
+      "platform": "dangerousminds.net"
+    },
+    {
+      "id": "news:9b697c86005f95d4",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYWUdXZUZFUzVDT1JYRFRxZWRVYUxLamhISUEyTkhZUFh6eTZzTzZxdF91TGY5dHlCTjhVZXlSekRTejV6OWpIcldER3hqYi1KRWE5SG53emNGeFN2ck90SmNGTzdOZw?oc=5",
+      "platform": "UNCUT"
+    },
+    {
+      "id": "news:a2223954e67d45b1",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNckhCSnFmZUVBME0tZXVDX2tKTDhEN0FKcTVzNG9XSDVOTWZMN1M5ZzljWHNuQ2M3M0VEbHk5ZGxqel9leEJNczFDWVNtSDZmNzhUM1BuTUVSX1dPeUJrd1BkVF9fNEQ5SFQwbXlqZldXaDFIOUc0bmoyMlctM3dZTlMxNTM4bHhUb0ZKQ0ExbDZrUGJwbkJlN0o0SFVkcnJEcEdsUGliTGg1TXgzemYtaEZOYzlkaDBQTDhFQUNrWm43QTF3NElQeEQ5bw?oc=5",
+      "platform": "News.com.au"
+    },
+    {
+      "id": "news:a6fab8fb85f69d05",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQYmd6Qy00bnpiUWxvdGotVXJrWVB0NlVYNWtpVFUtOUJSM0ZSTXRqcUlycUlvNEtXeExodUUyQ0ViSXkyd0tCMjJOQXF5UGNGSmMtWG5jbHlIT1VweWZhNzI3SE8tTFV6a3gzWGxiVGc1RE5ZZ2hTZzk5UDVWZGdVU1gxWWFjYmE1bjg0M1lvNjIybWFFUWJJbEo2dUVNRHppa2s1VlBSS3Fla25oVEpmQUhoMjV3VGROTTJvNmNMY0ZHdHZNLXZ4UEtMRGdCZnlLNTR0X09GSm1wc2pxRUR2MDdkZUdfZnc2MjdVMUtEazBZNjI0enVMai14ZkFhejZhekE?oc=5",
+      "platform": "Monterey County NOW"
+    },
+    {
+      "id": "news:ae0faea93016412e",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU2hIUjhwbXNFbUhiVEs4UV9qMDR0QjFKMkF2M3BUMFpKbmpab3hWVGxfdVVrNUlGcGV4T0hoaUFZMW40UUV0Zzk1cE9nYXltUWdfeDFTZzhURkIxRm5kOVMwWTRrUXVWNzN4Z1p3Mm5ic2FlTktsMEpZdm1RUnAyal9la2lMT1YyZHJOVlJnSTc0a2c?oc=5",
+      "platform": "The Guardian"
+    },
+    {
+      "id": "news:ae926e5cc54d1ad6",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOV0JUT3dETzZTWHozYXQ2ZjdBdHMwUWh4bUhiZDRrMzVXT2RXMWItWVdiX1dvbnJDQlNVSEFrM1lmZm1scUVlRVJDOTlTNzBjQ3VyVEN3TlRXU04tSE9FQTdtVGNuMGFkRWV1UVl5QnZBZ2NmMjJod09ESjVoUkJIV2pudUlfMUNySmhsVGFoUzk?oc=5",
+      "platform": "IndieWire"
+    },
+    {
+      "id": "news:b036a39236d669e9",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9MaXFXR2w0YmdQS2JBcFo3M2lRNVZaVTFKTVpVRWNKQk9za3BhZnB4emNQY2ZCX1l6WjFITkhYWGxBOWtURXNCY1ZNS1VrOVJMclpvSU5VcVFLVmhSR3JIakh5TQ?oc=5",
+      "platform": "KLOF Mag"
+    },
+    {
+      "id": "news:b34da041be9e9bf8",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZU1GQVhPUGo5ZktWZ2p3Y3prajltNFJWZ1NObWRrV2ZXTU5PRlE0bEpkTll2WXF0bEFUSFlya01XWjRFQ2Z6N2t0ODVXUFBIZ2JlcWZEazdPUlhNSC1fQVhlUlBQcHpiWnFHb09JUHlFQVJmZFpyZHFaLVJzQzV5NElLVHlWYkpMa2ptdWhxZEFjYTJDYlFPTVhlRnJNdVBRM0RGUnZVaHo5QzFUSS04Y1VYdHB3WWYyN19maTRTd0tWeENEbk13bk9PbjFpRWlSd3dyWXRsWkl4OEh4bndB?oc=5",
+      "platform": "The Guardian"
+    },
+    {
+      "id": "news:b7396d5934fa5c06",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1kV2hrbTF4dlBfSkFQQ1NnckN0UUVsN3pOajJabTl1ZHN1TXRMSHRDQUtXc0tIZnRKRzlIWjR3REFNVUVxcmcxaDFKZV9HMUZXdFUySw?oc=5",
+      "platform": "huffpost.com"
+    },
+    {
+      "id": "news:b8cd6b22434a07b3",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLXNRMUVpemtsLVVmbzZ4UWszeWswVkgybDNMeXNHemFHSmFvZ0RRcVFtRHlVMlNnUjQxMzctNHBmYnBSSTJsU0s4UXY2aHFJMllPclBxVGdiQWxqZkVCNHNXY2ZXWENUd2VrOW44d2FXMXV5LXBJMm1rdlJKLUROV2RvaVFlUmRUbzhUamx0VHZIT1ZPdWhHLTg2Vlo2VEg4NU0ySVd6S2w?oc=5",
+      "platform": "grantland.com"
+    },
+    {
+      "id": "news:bd42b99ff5b703d1",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1TMXRnNHRNZC1oS3l1TF9TOXJBeHJGLVdlelNHVGJNQjFZSmRyN3VrTVBoZTdpdWJ1bXRKeUpDMGdmeURXSzUzWGpjNTU0M2MzblcxZS1B?oc=5",
+      "platform": "dazeddigital.com"
+    },
+    {
+      "id": "news:c39afdb409d519dc",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObURna3BTeXZxS0tTeUoxa3VfY1QzTWg4bG5jT0NEY1hjZk1fWFhzOXBOTUttRmZjZkMtVDNBby1KU3NwRWgtdnpBaWR2MUdhOURldWJ6aGFRaEJCRWN0UmpQM3RVclg5cVFHcWVMSlZGNmFwVHlhNUI1VjNtYWhIc2NaQWlodktwazFoT3pMR1RaLTlOVXpuRFZOdE5zbjcxeTd2Z01iaXhoZw?oc=5",
+      "platform": "WFSU News"
+    },
+    {
+      "id": "news:c5f75b1ac955bfb9",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaDQyVUhkblRYV05xUkZXRE9GQVluem11ZEFOYWVUV1BqbkpuVFRrdnZnMTk0SEhNbC1BUnFFSjlvREJxTUtnTEtIY3JGUHdIV080WTgzd1ZhS2lHMjdqa2FSem94SWJyZ3lmNmlvMXRXMW5iTm14RFgtOHVfbEY1VW5NX1l3YnRLZUswdlgtMTJYSXB2UVhkNVRB?oc=5",
+      "platform": "PopMatters"
+    },
+    {
+      "id": "news:c9628562ee7fa863",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ycktVbmFlRXE1Y0xicmtsRkFkb0RtWWZldkJwd2JzQkd0X0s4TVVtdmVQN3FxdlFHb0l1VFVTMk5oYmtTdEJKZjFyWGpDQjFyWmJRRnIwUlpuVEpWYzlvX3dR?oc=5",
+      "platform": "Collider"
+    },
+    {
+      "id": "news:cf2e064ce7a32724",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT3FJdnRSNG9xZVZVVmk5WEtyWmZvNDV5eXZadGh6UWZpdThnU0QxU0g5OXI2elZUcXVsbm1QYXFUeHJ5Q25XdHZhbzFaSDQ3RjMxZzVCOFpIQ0dhVkFyS2VCS0ZRTjViejRnQnJtWkhNNy1aYzVXRUV1LVBfVTI0bjZINFY1d21VOEZUal9lMU1fU3FnXzRCUTVLNl84WU5f?oc=5",
+      "platform": "Nwemail.co.uk"
+    },
+    {
+      "id": "news:d32ab4c7484726ba",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYm5EY2FwOWYwUGx4eUsxcmpxRmwwQXdTS0d0RExVdlk5RHZXVHEwWHE4c1M2SnlrdWhGdWVXV05HVmoyMTBfbHllYTRLNXFrNVZPVUZhX3pBS1pjRmNyZXpDTXlRdWp1eHlObUpaaU1oaGhsSEZ3QnpTQ3BTd3NMdjlqei1QNU1KR3d5UDEzTEwybDdGeFVz?oc=5",
+      "platform": "The Singju Post"
+    },
+    {
+      "id": "news:d68bb60061e5d2fc",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNlF6bm4tWEpfWlRaMEdnUkhadTRQM2taM1hhUXFvTVk4cmQ4SDM1Qk9EZUtCZFl4d2xaUlc2Q0dsblJtVXp0X2FJeHhqQkxlODl2Rkx6VVNfdWdGclByQk15dDdENm1IVm5KNVFGZHU2VGltOUpEYTU1QW9Wb2FuODRkQ0xHSmlnUTgxNDVhS3lzRkhSMXFiMkpsQk1RU0E5cl9JOA?oc=5",
+      "platform": "filmmakermagazine.com"
+    },
+    {
+      "id": "news:da3c2fc7485a0926",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPN29taDZxYkhMU2JEYVhyS2pETE8taTdlU2duaTRqRUhDQTUwRExTem1xZk1wZjdheTd1SmtHQzByVUtib3JEYTYzOWhjVm03RXRkUi15MkxqWWtjeUtaUlVsSmtjWVRSaTFuSGNBMGFWRWdrTlh4by1CVHpFQUlMTFFCSXRfNDE4eG9sLXd5NGkta2Q2WVdibFJqb1BQR3hMUkFv0gGoAUFVX3lxTE9HWGtoRHNucVRzNUpMbEhCNUtFN1VITVpoMlNRTXBEWjg0OUFCeU03UlJCYVBCR2dGcDExcGVvcmo3dFJCWDBUNFV2TTJSc1RTSGtlb1dQc1lTY0JubzBaVzV4aFBjcExKY1BTb041TWI0Q091ZXVDblgwdzA4QUI5VzlfeVNoU1FmbWhvRTRwNDFueFJrcW9xdGY0bzRQd29LWEdlUDVLeA?oc=5",
+      "platform": "ScreenAnarchy"
+    },
+    {
+      "id": "news:e47048b5eaa83377",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeGZncnlUVkd0ZUd5ZHQ4QktuNGdmV3h2NVdia1hWcTZZNjFHbDlOcDk2UV84QlBhUVdLZ2lYdm5OMjZKS1ZVWnZWNWwteVh5bEVGMmxaY09tYWJfMmE5aU9fX0l3OHZWdG9wMkF1S1BCdWdxLTBjRnZ5Sk85VnlhWXNEN2F0VjhGdkFLUTJzU0pzbkhYYW1wSV9QVzZLYkFUV0NfOFJuc3FTX1lhQ0ZUdDAtOEpJNEFQczFBYmRVMjQ4VTk0dU9RaThoWFFEYXNS?oc=5",
+      "platform": "Newcity Music"
+    },
+    {
+      "id": "news:e96263cbbc328975",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE91Ty1iRGIyeXpqU1lXNVR0TnB2ZXlrMWJMb3NJd09TS2ZHYXRFdGR4VUUzY19ZR0FhLUxfTjFlem5kWUpFTE1HY1lLUnduYk5JR3dEaXFfbWxMNkJiLWdSM2tveFk0WnZiOExRalRXNkN6MWl6VV9qem9ZT3M?oc=5",
+      "platform": "rogersmovienation.com"
+    },
+    {
+      "id": "news:ea5b216255c3d7b9",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUVlJM3gxT0l6czg0VGl5OEVfNHlpdmp0a2wzQkJDTXk3b2oyajBsZWlBTlJ3SjJvR1VUUUZUc1lYSjROWjRJc09oQXRJdnp6NzdNMDFVTlk4MkUzaHlPZUlqWXdMVFZEYzdNR3FQNkdaOXAycXFQMllmeG1vbHZlRjYtMXNXMzF0dEhRNk9XcGxhUnkyUFJaQUpUTm90ZXRSYk1jS2x0WnFBb1UzTXhQOUc3YUdTNm11WmtQeXJSYjRiOUxEaFhpYWlaQzJkTmc4RHNWMXdrQy0?oc=5",
+      "platform": "SF Weekly"
+    },
+    {
+      "id": "news:eee3c9c050fc1182",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX254T1VMM09oLTJXSkJsMTZCcngtb2NLYXJpSjZ2XzQ3R2ZQNWtwc18ydXk0OUxTQ3FoeUs2d2lkeUIzNjVVNWxUUEM2UHo5NjE0b0p4XzFpeF93Z2lPRldMZ0VlZG1OUkY5cXVYWEZCeVRJaG40X0JFODN6bWdsRHM5Q05iNUo0YmFJRmtlN1dGSE1iaG5KSVZzRmZJME1tRHVIcXRndmM3dnJFS05PMDBlSFNIRmRpd3Q1dQ?oc=5",
+      "platform": "Westword"
+    },
+    {
+      "id": "news:f1e1688fc612144a",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBGWEFPLXZxQ2sxQ3p0TG5VZlZDbWs0azdMT09la0Job0szaXZLY0xmLWVUb2tBUXJLaWxUZ1lIdVRBZk9NZEJna1hlblVBaENIQnItOElhTlZsUnVUQlRScVBTMzFtVmRQNUxIVUFNTTJ4WkN0bjlPdkptbU8?oc=5",
+      "platform": "thefader.com"
+    },
+    {
+      "id": "news:f2c0bfec0df7c44f",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxORWRLekNYZFhOVTBXOEZEWm5LaS1zSmFDZVJXRjg2anRQWURGaUI5REtKM2dPaW9qeFRQd2VIc3hNRHNBaHVRaGEzUkwxMm84ZFV4eTVvT0ZBMFZvdzIyZURGYzhfN0lRWmd4TEFJeW5BNVRuMktGazF0LVRaTTB3SGtzNGJGV3dFMm5RRzlQbU8yYVpxQXJIcGVwSlZCeUNXWF9YQWhPc21RT3h3OFZneFdVTlo2TnRfR2cwRlllQVFyN19UYWU2UWtwVElPY3MzdnVRWmhQQlgyTlhlMV9SQVUzV202eC1uVzY5WkVPeV9hUU1sdC1yc0JhdEQ0ZlRMMXY5d1gxdU5xSXUzX2c?oc=5",
+      "platform": "Nashville Scene"
+    },
+    {
+      "id": "news:fdaf2e0f4ebc3e92",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNenA5RHJXQTdOWEN3R2Fraks4d2htR3JuRWFmMjI4YUhnYWFldTJGMXk1dzFPeDlfY3Fzb0duM0xtUEJwTmF0VFFDMHM3RXBJSjlMVkZCQkl0ZTg2bjdERVJiNmFnU1JMWUd1MFF4dWNCUmM3SFZOQm1oUEZhS0x5eWVOdW9HUEV4NFpndGpNWE90TDRlSVNtaE0tTktHS1RFN2V6cm1QbFpIVDJtSHBQdTEyaw?oc=5",
+      "platform": "Spectrum News"
+    },
+    {
+      "id": "source:ikeda-seminar-calendar",
+      "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSVKDcmv_f3fA4nkwSVkt4GDDzWZMKGyohp9mW7LXWPm9m76AxuJ3nGW8iQAsBcyPPYfwHp0tvnUnLt/pub?gid=501055104&single=true&output=csv",
+      "platform": "hiroshi-ikeda.com"
+    },
+    {
+      "id": "source:kenneth-email-dobson-2026",
+      "url": "kkron://personal-communication/kenneth-dobson-email",
+      "platform": "personal_communication"
+    },
+    {
+      "id": "src:5ed2a1ed5b2befb5",
+      "url": "http://aikidosj.com/old-site/public_html/instructors.html",
+      "platform": "Aikido of San Jose"
+    },
+    {
+      "id": "src:8a0cb3c0342e3765",
+      "url": "https://aikidosj.com/ref/instructors/",
+      "platform": "Aikido of San Jose"
+    },
+    {
+      "id": "src:8c737f47e8f43e10",
+      "url": "https://aikidosj.com/",
+      "platform": "Aikido of San Jose"
+    },
+    {
+      "id": "src:aj-video-ikeda-aikiexpo-2002",
+      "url": "https://aikidojournal.com/2012/01/08/video-hiroshi-ikeda-7th-dan-instructs-at-aiki-expo-2002-2/",
+      "platform": "aikidojournal.com"
+    },
+    {
+      "id": "src:aj-video-ikeda-crazy-good-2012",
+      "url": "https://aikidojournal.com/2012/03/16/hiroshi-ikeda-video-his-aikido-is-crazy-good/",
+      "platform": "aikidojournal.com"
+    },
+    {
+      "id": "src:bernews-ikeda-2011",
+      "url": "https://bernews.com/2011/06/bermuda-aikikai-hosts-top-aikido-masters/",
+      "platform": "bernews.com"
+    },
+    {
+      "id": "src:cityaikido:nadeau-shihan",
+      "url": "https://www.cityaikido.com/nadeau-shihan",
+      "platform": "cityaikido.com"
+    },
+    {
+      "id": "src:e2e9ba54fe91308d",
+      "url": "https://www.cityaikido.com/jack-wada",
+      "platform": "City Aikido"
+    },
+    {
+      "id": "src:elephant-ikeda-2009",
+      "url": "https://www.elephantjournal.com/2009/01/elephantjournalcom-feature-interview-ikeda-sensei-martial-arts-aikido-bujin-design/",
+      "platform": "elephantjournal.com"
+    },
+    {
+      "id": "src:maytt-ikeda-2019",
+      "url": "https://maytt.home.blog/2020/07/01/interview-with-hiroshi-ikeda-aikidos-current-state-in-the-united-states/",
+      "platform": "maytt.home.blog"
+    },
+    {
+      "id": "src:sb-independent-ikeda-2013",
+      "url": "https://www.independent.com/2013/05/31/santa-barbara-martial-arts-school-host-hiroshi-ikeda-shihan/",
+      "platform": "independent.com"
+    },
+    {
+      "id": "work:0187facbb849e778",
+      "url": "https://forum.lowyat.net/topic/5519991",
+      "platform": "forum.lowyat.net"
+    },
+    {
+      "id": "work:0195a33879aacc9e",
+      "url": "https://www.whatsapp.com/download/desktop",
+      "platform": "whatsapp.com"
+    },
+    {
+      "id": "work:01c029414b2b8544",
+      "url": "https://www.simonandschuster.com/authors/Richard-Moon/221805059",
+      "platform": "simonandschuster.com"
+    },
+    {
+      "id": "work:0284c6ca09383a54",
+      "url": "https://www.youtube.com/youtube/main%20page",
+      "platform": "youtube.com"
+    },
+    {
+      "id": "work:05d6fb4ba8b7e338",
+      "url": "https://claude.ai/login-Claude",
+      "platform": "claude.ai"
+    },
+    {
+      "id": "work:08071b7b422c72fb",
+      "url": "https://tally-counter.com/",
+      "platform": "tally-counter.com"
+    },
+    {
+      "id": "work:0b3f71ba9bcf7e9f",
+      "url": "https://crazygames.forumattivo.com/t282-psp-go",
+      "platform": "crazygames.forumattivo.com"
+    },
+    {
+      "id": "work:0cad3ad937af3940",
+      "url": "https://www.hiroshi-ikeda.com/about",
+      "platform": "hiroshi-ikeda.com"
+    },
+    {
+      "id": "work:0e0fd7864b6de7b9",
+      "url": "https://downloads.claude.ai/claude-code-releases/2.1.259/manifest.json",
+      "platform": "downloads.claude.ai"
+    },
+    {
+      "id": "work:0f29e7fb792ab136",
+      "url": "https://education.qld.gov.au/parents-and-carers/school-information/oneschool",
+      "platform": "education.qld.gov.au"
+    },
+    {
+      "id": "work:12752aadf69ce083",
+      "url": "https://www.kuialuaopuna.com/mi/news/sig-kufferath",
+      "platform": "kuialuaopuna.com"
+    },
+    {
+      "id": "work:132f8536f3c877d4",
+      "url": "https://www.douban.com/note/842179715/",
+      "platform": "douban.com"
+    },
+    {
+      "id": "work:1388ad490f4bb20b",
+      "url": "https://www.microsoft.com/de-de/bing?msockid=11365e6d1cdb68080bd049bd1d1e692f",
+      "platform": "microsoft.com"
+    },
+    {
+      "id": "work:15dc9fa9b9125474",
+      "url": "https://support.google.com/youtube/answer/174084?hl=ja&co=GENIE.Platform%3DDesktop",
+      "platform": "support.google.com"
+    },
+    {
+      "id": "work:182202eafb075943",
+      "url": "https://wanwang.aliyun.com/whois/itkis.site",
+      "platform": "wanwang.aliyun.com"
+    },
+    {
+      "id": "work:185ab1ff4f9130a4",
+      "url": "https://www.uottawa.ca/faculty-law/common-law/faculty/moon-richard",
+      "platform": "uottawa.ca"
+    },
+    {
+      "id": "work:1870ba5a5399ace0",
+      "url": "https://baike.baidu.com/item/%E8%8D%89%E6%A6%B4%E7%A4%BE%E5%8C%BA/4883078",
+      "platform": "baike.baidu.com"
+    },
+    {
+      "id": "work:19245298cdebf2e5",
+      "url": "https://publiccourtrecords.org/court-records-search/",
+      "platform": "publiccourtrecords.org"
+    },
+    {
+      "id": "work:1a0e275f68edc0b2",
+      "url": "https://cfe.torontomu.ca/people/richard-moon",
+      "platform": "cfe.torontomu.ca"
+    },
+    {
+      "id": "work:1c23b8dfd3270e1f",
+      "url": "https://www.hostinger.com/hk/whois",
+      "platform": "hostinger.com"
+    },
+    {
+      "id": "work:1ddbe0773c1b5b94",
+      "url": "https://www.goodreturns.in/gold-rates/ramanathapuram.html",
+      "platform": "goodreturns.in"
+    },
+    {
+      "id": "work:1dec9e1c81cf5c56",
+      "url": "https://blog.sejda.com/",
+      "platform": "blog.sejda.com"
+    },
+    {
+      "id": "work:1e554c4206e55947",
+      "url": "https://de.bing.com/",
+      "platform": "de.bing.com"
+    },
+    {
+      "id": "work:23bdea804f107bdf",
+      "url": "https://www.videoindian.com/romantic/",
+      "platform": "videoindian.com"
+    },
+    {
+      "id": "work:24739909900cf60b",
+      "url": "https://www.easyhindityping.com/type-hindi",
+      "platform": "easyhindityping.com"
+    },
+    {
+      "id": "work:25bec9625ac740ca",
+      "url": "https://stayhappening.com/cebu-ph--sports",
+      "platform": "stayhappening.com"
+    },
+    {
+      "id": "work:27353d6b09841e77",
+      "url": "https://aikidojournal.com/terry-dobson/",
+      "platform": "aikidojournal.com"
+    },
+    {
+      "id": "work:275a1a97925089a0",
+      "url": "https://www.zhanlian.net/doubao/index.html",
+      "platform": "zhanlian.net"
+    },
+    {
+      "id": "work:27d83faf6ec2de4a",
+      "url": "https://www.lobstertube.com/category/romantic",
+      "platform": "lobstertube.com"
+    },
+    {
+      "id": "work:284b0e7c0037382d",
+      "url": "https://encikhotel.com/panduan/tempat-percutian-menarik-di-malaysia/",
+      "platform": "encikhotel.com"
+    },
+    {
+      "id": "work:29ba78f78b1fbe87",
+      "url": "https://t-kizai.co.jp/order/2_304.html",
+      "platform": "t-kizai.co.jp"
+    },
+    {
+      "id": "work:2cd9e0762828b854",
+      "url": "https://zhidao.baidu.com/home/partnerhome",
+      "platform": "zhidao.baidu.com"
+    },
+    {
+      "id": "work:2d0d160215f452a0",
+      "url": "https://www.youtube.com/watch?v=jWeV3nZGCeQ",
+      "platform": "youtube.com"
+    },
+    {
+      "id": "work:2eb8f51c503dbb28",
+      "url": "https://en.wikipedia.org/wiki/Microsoft",
+      "platform": "en.wikipedia.org"
+    },
+    {
+      "id": "work:2f9739cfa85829ca",
+      "url": "https://www.goodreturns.in/gold-rates/",
+      "platform": "goodreturns.in"
+    },
+    {
+      "id": "work:3138f94dd596b43a",
+      "url": "https://desktop.github.com/download/",
+      "platform": "desktop.github.com"
+    },
+    {
+      "id": "work:31957e5f04478a61",
+      "url": "https://www.easyhindityping.com/english-to-hindi-translation",
+      "platform": "easyhindityping.com"
+    },
+    {
+      "id": "work:31c61b56873a",
+      "url": "https://doczz.net/doc/3878299/effortless-grab-defences",
+      "platform": "Blitz Australasian Martial Arts (doczz.net issue scan)"
+    },
+    {
+      "id": "work:3310cc9a54e3b7f8",
+      "url": "https://web.whatsapp.com/",
+      "platform": "web.whatsapp.com"
+    },
+    {
+      "id": "work:354d9c5dd6bb713e",
+      "url": "https://www.hiroshi-ikeda.com/kanji-art",
+      "platform": "hiroshi-ikeda.com"
+    },
+    {
+      "id": "work:36d3a4fb364c9434",
+      "url": "https://jingyan.baidu.com/article/c33e3f483b65d5ea15cbb516.html",
+      "platform": "jingyan.baidu.com"
+    },
+    {
+      "id": "work:38dfe39d96df0fd0",
+      "url": "https://en.wikipedia.org/wiki/Dan_Millman",
+      "platform": "en.wikipedia.org"
+    },
+    {
+      "id": "work:3f3590f3b96c5517",
+      "url": "https://www.youtube.com/watch?v=Pl4prtHiXxA",
+      "platform": "youtube.com"
+    },
+    {
+      "id": "work:415cb4ec85aad7ef",
+      "url": "https://github.com/zzhihao2017/CN-Malicious-website-list",
+      "platform": "github.com"
+    },
+    {
+      "id": "work:43aa52afb21f36ee",
+      "url": "https://courtcasefinder.com/",
+      "platform": "courtcasefinder.com"
+    },
+    {
+      "id": "work:43f7c0694d0787fb",
+      "url": "https://createabeautifulworld.org/blog/",
+      "platform": "createabeautifulworld.org"
+    },
+    {
+      "id": "work:442ec369bc65fa27",
+      "url": "https://www.roblox.com/Login",
+      "platform": "roblox.com"
+    },
+    {
+      "id": "work:444d9763a40527eb",
+      "url": "https://comicvine.gamespot.com/fourth-tsuchikage/4005-90445/",
+      "platform": "comicvine.gamespot.com"
+    },
+    {
+      "id": "work:488e541b966b1bdf",
+      "url": "https://kodenkan.com/kufferath",
+      "platform": "kodenkan.com"
+    },
+    {
+      "id": "work:4c58ced4a56cff26",
+      "url": "https://support.google.com/youtube/",
+      "platform": "support.google.com"
+    },
+    {
+      "id": "work:4f0cf2caadcaac4c",
+      "url": "https://map.yahoo.co.jp/v3/place/z2sGFnK9iDQ",
+      "platform": "map.yahoo.co.jp"
+    },
+    {
+      "id": "work:4fdb2b30f9c39096",
+      "url": "https://github.com/imsyy/yt-dlp-gui",
+      "platform": "github.com"
+    },
+    {
+      "id": "work:53084cf51f418c19",
+      "url": "https://www.audible.in/podcast/Ep-42-Quantum-Aikido-with-Richard-Moon/B0GKWZ2GYB",
+      "platform": "audible.in"
+    },
+    {
+      "id": "work:538bd8eac365a910",
+      "url": "https://forum.lowyat.net/topic/5538738",
+      "platform": "forum.lowyat.net"
+    },
+    {
+      "id": "work:53c485f5b860b0f3",
+      "url": "https://www.bing.com/",
+      "platform": "bing.com"
+    },
+    {
+      "id": "work:5589760aed0cb37b",
+      "url": "https://xhamster19.com/categories/romantic",
+      "platform": "xhamster19.com"
+    },
+    {
+      "id": "work:5621eaad16d3669d",
+      "url": "https://chenghsin.com/peter-ralston-holland-interview/",
+      "platform": "chenghsin.com"
+    },
+    {
+      "id": "work:588cbd41efe61d67",
+      "url": "https://github.com/yt-dlp/yt-dlp/issues/16380",
+      "platform": "github.com"
+    },
+    {
+      "id": "work:59f6c1b7e6f07925",
+      "url": "https://www.youtube.com/@________________.",
+      "platform": "youtube.com"
+    },
+    {
+      "id": "work:5be19395e25afa81",
+      "url": "https://translate.google.com/;anything",
+      "platform": "translate.google.com"
+    },
+    {
+      "id": "work:5c5d4db66603a505",
+      "url": "https://www.mapion.co.jp/phonebook/M02029/13220/21330991480/",
+      "platform": "mapion.co.jp"
+    },
+    {
+      "id": "work:5ce9ab60755534ac",
+      "url": "https://wa.me/",
+      "platform": "wa.me"
+    },
+    {
+      "id": "work:5e37f9a45baa38b9",
+      "url": "https://tallycount.app/",
+      "platform": "tallycount.app"
+    },
+    {
+      "id": "work:6982b94795f66d2d",
+      "url": "https://blog.darkthread.net/blog/github-copilot-hang/",
+      "platform": "blog.darkthread.net"
+    },
+    {
+      "id": "work:6be2ff723d3e7a21",
+      "url": "https://alchetron.com/Dan-Millman",
+      "platform": "alchetron.com"
+    },
+    {
+      "id": "work:6d56f0bae2487fe7",
+      "url": "https://www.putta.in/2015/04/zpgpf-part-final-loans-rps-2015-prc-2015-software-putta-prc-software.html",
+      "platform": "putta.in"
+    },
+    {
+      "id": "work:6dd636fcc0ea47ee",
+      "url": "https://www.youtube.com/watch?v=CiqtOMsaP2U",
+      "platform": "youtube.com"
+    },
+    {
+      "id": "work:6fcb532f6a75ad41",
+      "url": "https://novelistpost.com/peter-ralston-shares-profound-insights-on-consciousness-and-mastery/",
+      "platform": "novelistpost.com"
+    },
+    {
+      "id": "work:71ccc2c8ecabef33",
+      "url": "https://crazygames.forumattivo.com/t77-ciao",
+      "platform": "crazygames.forumattivo.com"
+    },
+    {
+      "id": "work:71defcfc6f0ca06a",
+      "url": "https://readershouse.co.uk/peter-ralston-shares-profound-insights-on-consciousness-mastery-and-the-art-of-effortless-power/",
+      "platform": "readershouse.co.uk"
+    },
+    {
+      "id": "work:71e306cb34cd1e62",
+      "url": "https://www.traveloka.com/ms-my/explore/destination/mly-tempat-menarik-di-malaysia/547722",
+      "platform": "traveloka.com"
+    },
+    {
+      "id": "work:737d8176807a0abf",
+      "url": "https://rfcrazygames.forumeiros.com/",
+      "platform": "rfcrazygames.forumeiros.com"
+    },
+    {
+      "id": "work:76a99a3c941c1890",
+      "url": "https://www.morelaw.com/",
+      "platform": "morelaw.com"
+    },
+    {
+      "id": "work:77b839ad2e2f8c09",
+      "url": "https://tqj.de/wp-content/uploads/2024/09/tqj-online-Interview-Ralston-407.pdf",
+      "platform": "tqj.de"
+    },
+    {
+      "id": "work:7a13f120a2dfef9a",
+      "url": "https://www.ucl.ac.uk/laws/global-centre-democratic-constitutionalism/about-global-centre-democratic-constitutionalism/members/professor-richard-moon",
+      "platform": "ucl.ac.uk"
+    },
+    {
+      "id": "work:7d5172818324c791",
+      "url": "https://education.qld.gov.au/sitesearch?k=oneschool",
+      "platform": "education.qld.gov.au"
+    },
+    {
+      "id": "work:8033965021b7b875",
+      "url": "https://www.sejda.com/merge-pdf",
+      "platform": "sejda.com"
+    },
+    {
+      "id": "work:82bac7a7d532e7cc",
+      "url": "https://oslp.eq.edu.au/",
+      "platform": "oslp.eq.edu.au"
+    },
+    {
+      "id": "work:830cb08e1b8eaa41",
+      "url": "https://doubao.zube.cn/index.html",
+      "platform": "doubao.zube.cn"
+    },
+    {
+      "id": "work:8420ea8a01fceeee",
+      "url": "https://pineriversshs.eq.edu.au/SupportAndResources/FormsAndDocuments/Documents/Information%20Technology/Help%20Documents/02.%20HOW%20TO%20-%20Log%20in%20to%20OneSchool.pdf",
+      "platform": "pineriversshs.eq.edu.au"
+    },
+    {
+      "id": "work:85f5e6e4e287d660",
+      "url": "https://bujutsu.ru/aikido/",
+      "platform": "bujutsu.ru"
+    },
+    {
+      "id": "work:865d05d00a87ed06",
+      "url": "https://forum.lowyat.net/topic/5556445",
+      "platform": "forum.lowyat.net"
+    },
+    {
+      "id": "work:891e75d676fe4b20",
+      "url": "https://www.youtube.com/Roblox",
+      "platform": "youtube.com"
+    },
+    {
+      "id": "work:8a408cf079e1dbf8",
+      "url": "https://www.microsoft.com/en-us?msockid=3728b5c6d7926cc40501a216d69c6d01",
+      "platform": "microsoft.com"
+    },
+    {
+      "id": "work:8a88e528bd2f057b",
+      "url": "https://my.trip.com/guide/activity/percutian-menarik-di-malaysia.html",
+      "platform": "my.trip.com"
+    },
+    {
+      "id": "work:8ae2f46afd11ecce",
+      "url": "https://www.youtube.com/watch?v=cJIms3jhpeM",
+      "platform": "youtube.com"
+    },
+    {
+      "id": "work:8b94e8ebd2fff7fa",
+      "url": "https://support.google.com/youtube/answer/171664?hl=en",
+      "platform": "support.google.com"
+    },
+    {
+      "id": "work:8ff92a73d1caee20",
+      "url": "https://recordsfinder.com/judgment/",
+      "platform": "recordsfinder.com"
+    },
+    {
+      "id": "work:909676fb6b3e2312",
+      "url": "https://mobile-xvideos.com/tags/romantic-sex",
+      "platform": "mobile-xvideos.com"
+    },
+    {
+      "id": "work:92b539b35cb4aff3",
+      "url": "https://doubao.aigc.cn/",
+      "platform": "doubao.aigc.cn"
+    },
+    {
+      "id": "work:93d4bd5d4cba4c4a",
+      "url": "https://zhidao.baidu.com/question/278127107.html",
+      "platform": "zhidao.baidu.com"
+    },
+    {
+      "id": "work:94c02640857a8fa0",
+      "url": "https://allevents.in/cebu-ph/sports",
+      "platform": "allevents.in"
+    },
+    {
+      "id": "work:952d26e598722f9e",
+      "url": "https://www.walmart.com/blocked?url=L2lwL0Fpa2lkby1UaGUtQXJ0LW9mLVRyYW5zZm9ybWF0aW9uLVRoZS1MaWZlLWFuZC1UZWFjaGluZ3Mtb2YtUm9iZXJ0LU5hZGVhdS1QYXBlcmJhY2stOTc5ODg4ODUwMDcxMi81MjcyMTQ4NDky&uuid=3c77fa1b-acd7-11f1-9e58-3a27ea8c0d60&vid=&g=b",
+      "platform": "walmart.com"
+    },
+    {
+      "id": "work:952f99e1d2a224e8",
+      "url": "https://kitothecity.substack.com/p/quantum-aikido",
+      "platform": "kitothecity.substack.com"
+    },
+    {
+      "id": "work:9afef04b68c0647d",
+      "url": "https://assets.claude.ai/Fonts/AnthropicSans-Text-SemiboldItalic-Static.otf",
+      "platform": "assets.claude.ai"
+    },
+    {
+      "id": "work:9c00fb4cb766af89",
+      "url": "https://rfcrazygames.forumeiros.com/images",
+      "platform": "rfcrazygames.forumeiros.com"
+    },
+    {
+      "id": "work:a0723914ce6365c0",
+      "url": "https://www.sexvideos.tel/porn/romantic",
+      "platform": "sexvideos.tel"
+    },
+    {
+      "id": "work:a13b00e46ffce504",
+      "url": "https://account.microsoft.com/account",
+      "platform": "account.microsoft.com"
+    },
+    {
+      "id": "work:a2e85dc126f580a3",
+      "url": "https://foodvietnamese.com/best-food-in-vietnam/",
+      "platform": "foodvietnamese.com"
+    },
+    {
+      "id": "work:a3be90dad2b61ff2",
+      "url": "https://support.google.com/youtube/answer/2802168?hl=en",
+      "platform": "support.google.com"
+    },
+    {
+      "id": "work:a6aaadf40ac29da0",
+      "url": "https://vietnam.travel/things-to-do/21-must-try-vietnamese-dishes",
+      "platform": "vietnam.travel"
+    },
+    {
+      "id": "work:a6e10f7a50243308",
+      "url": "https://www.whatsapp.com/download",
+      "platform": "whatsapp.com"
+    },
+    {
+      "id": "work:a71eb1fe854d6d76",
+      "url": "https://ecourt.fifthcircuit.org/dashboard.aspx",
+      "platform": "ecourt.fifthcircuit.org"
+    },
+    {
+      "id": "work:a9b513f956581bbb",
+      "url": "https://www.goldratetodaylive.com/gold-rate-ramanathapuram",
+      "platform": "goldratetodaylive.com"
+    },
+    {
+      "id": "work:ac2dabb96bf59d72",
+      "url": "https://support.google.com/youtube/answer/174084?hl=en&co=GENIE.Platform%3DDesktop",
+      "platform": "support.google.com"
+    },
+    {
+      "id": "work:ac6cd3d58a5d9542",
+      "url": "https://support.google.com/youtube/answer/7682560?hl=en",
+      "platform": "support.google.com"
+    },
+    {
+      "id": "work:ad31e86caf09341e",
+      "url": "https://downloads.claude.ai/claude-code-releases/2.1.257/manifest.json",
+      "platform": "downloads.claude.ai"
+    },
+    {
+      "id": "work:ad4b762cd3dc293d",
+      "url": "https://zhidao.baidu.com/question/1843356132244347660.html",
+      "platform": "zhidao.baidu.com"
+    },
+    {
+      "id": "work:ad64cd5105fbb8db",
+      "url": "https://ivry.jp/telsearch/0425621334/",
+      "platform": "ivry.jp"
+    },
+    {
+      "id": "work:af38979eb02acced",
+      "url": "https://www.tasteatlas.com/best-rated-street-food-in-vietnam",
+      "platform": "tasteatlas.com"
+    },
+    {
+      "id": "work:b02a3263317c948d",
+      "url": "https://www.youtube.com/@en.---",
+      "platform": "youtube.com"
+    },
+    {
+      "id": "work:b2e0f3a91e0f7f73",
+      "url": "https://www.medakbadi.in/2015/09/gpf-loanpart-final-software.html",
+      "platform": "medakbadi.in"
+    },
+    {
+      "id": "work:b7cc9e1fa52362c1",
+      "url": "https://www.youtube.com/feed/homepage",
+      "platform": "youtube.com"
+    },
+    {
+      "id": "work:ba987a8a879c230e",
+      "url": "https://www.youtube.com/watch?v=JVMNTZOS3nk",
+      "platform": "youtube.com"
+    },
+    {
+      "id": "work:bb4efdb39cce0535",
+      "url": "https://map.apahotel.com/map/587",
+      "platform": "map.apahotel.com"
+    },
+    {
+      "id": "work:bc33a594587a1328",
+      "url": "https://www.open-public-records.com/louisiana",
+      "platform": "open-public-records.com"
+    },
+    {
+      "id": "work:bd9ea3fbd69bd09c",
+      "url": "https://music.youtube.com/playlist?list=PLRZlMhcYkA2EV9Ak5fQUzBK_6mBfwNaO2",
+      "platform": "music.youtube.com"
+    },
+    {
+      "id": "work:bf24841e9ddaccf9",
+      "url": "https://map.apahotel.com/map/78",
+      "platform": "map.apahotel.com"
+    },
+    {
+      "id": "work:c0a8565124152102",
+      "url": "https://www.pgatour.com/schedule",
+      "platform": "pgatour.com"
+    },
+    {
+      "id": "work:c1c58216f662bd59",
+      "url": "https://blog.sejda.com/post/144162708524/new-sejdas-online-pdf-editor",
+      "platform": "blog.sejda.com"
+    },
+    {
+      "id": "work:c255c39d419817f7",
+      "url": "http://www.tsutfmedak.com/2022/07/gpf-loan-part-final-software-rps2020.html",
+      "platform": "tsutfmedak.com"
+    },
+    {
+      "id": "work:c4187315aaffc382",
+      "url": "https://www.simonandschuster.com/authors/Peter-Ralston/199333325",
+      "platform": "simonandschuster.com"
+    },
+    {
+      "id": "work:c603f377e1ee9cd7",
+      "url": "https://www.youtube.com/watch?v=Y46KPsdEKV0",
+      "platform": "youtube.com"
+    },
+    {
+      "id": "work:c6ce06ad3d388e0e",
+      "url": "https://github.com/0xk1h0/ChatGPT_DAN",
+      "platform": "github.com"
+    },
+    {
+      "id": "work:c84000b7c29c41d4",
+      "url": "https://basicfreetools.com/tally-counter/",
+      "platform": "basicfreetools.com"
+    },
+    {
+      "id": "work:c8c9c530d6bec00b",
+      "url": "https://support.google.com/youtube/answer/6159254?hl=en",
+      "platform": "support.google.com"
+    },
+    {
+      "id": "work:c958a1976b73b95a",
+      "url": "https://www.easyhindityping.com/hindi-alphabet",
+      "platform": "easyhindityping.com"
+    },
+    {
+      "id": "work:cb6d6d3f310d809a",
+      "url": "https://www.youtube.com/watch?v=tZb87tLd6DY",
+      "platform": "youtube.com"
+    },
+    {
+      "id": "work:d1843aff163a36fd",
+      "url": "https://martinostimemachine.blogspot.com/2021/06/the-source-restaurant.html",
+      "platform": "martinostimemachine.blogspot.com"
+    },
+    {
+      "id": "work:d18506700dc673ce",
+      "url": "https://forum.lowyat.net/",
+      "platform": "forum.lowyat.net"
+    },
+    {
+      "id": "work:d2e6ce2e18ba",
+      "url": "https://books.google.com/books?id=w9QDAAAAMBAJ",
+      "platform": "Black Belt magazine (Google Books scan)"
+    },
+    {
+      "id": "work:d3e86e4983ff566b",
+      "url": "https://burgewords.com/tag/richard-moon/",
+      "platform": "burgewords.com"
+    },
+    {
+      "id": "work:d4044ce2091a5b9a",
+      "url": "https://www.fujibolt.co.jp/product_fd_h.html",
+      "platform": "fujibolt.co.jp"
+    },
+    {
+      "id": "work:d479b91fb271d1b7",
+      "url": "https://www.fujibolt.co.jp/product_fd_top.html",
+      "platform": "fujibolt.co.jp"
+    },
+    {
+      "id": "work:d65a7271384fd951",
+      "url": "https://www.sejda.com/pt/pdf-editor",
+      "platform": "sejda.com"
+    },
+    {
+      "id": "work:db95570c4264fe63",
+      "url": "https://www.asiaodysseytravel.com/vietnam/food.html",
+      "platform": "asiaodysseytravel.com"
+    },
+    {
+      "id": "work:dbae2d0204aa489e",
+      "url": "https://www.youtube.com/",
+      "platform": "youtube.com"
+    },
+    {
+      "id": "work:ded2b16c40b97397",
+      "url": "https://zhidao.baidu.com/question/2073760346883207148.html",
+      "platform": "zhidao.baidu.com"
+    },
+    {
+      "id": "work:df33424db96805e8",
+      "url": "https://www.espn.com/golf/schedule",
+      "platform": "espn.com"
+    },
+    {
+      "id": "work:dfb88a01d1355893",
+      "url": "https://www.cbssports.com/golf/schedules/",
+      "platform": "cbssports.com"
+    },
+    {
+      "id": "work:dfd14c080e5c65ab",
+      "url": "https://kishi-tech.jp/pages/77/",
+      "platform": "kishi-tech.jp"
+    },
+    {
+      "id": "work:e0696e9938748f13",
+      "url": "https://www.chenghsin.nl/wp-content/uploads/2020/04/Tai-Chi-Interview-met-Peter-Ralston.pdf",
+      "platform": "chenghsin.nl"
+    },
+    {
+      "id": "work:e0ed76c18c65c524",
+      "url": "https://www.espn.com/golf/leaderboard",
+      "platform": "espn.com"
+    },
+    {
+      "id": "work:e1bb8ae447434ed5",
+      "url": "https://zhidao.baidu.com/question/1681500000403918787.html",
+      "platform": "zhidao.baidu.com"
+    },
+    {
+      "id": "work:e28db7e2aeefe9bd",
+      "url": "https://www.hiroshi-ikeda.com/",
+      "platform": "hiroshi-ikeda.com"
+    },
+    {
+      "id": "work:e45a467deb9c9e11",
+      "url": "https://kitothecity.substack.com/p/aikido-the-art-of-transformation",
+      "platform": "kitothecity.substack.com"
+    },
+    {
+      "id": "work:e5f86ee2ef01825b",
+      "url": "https://www.melancong.com.my/tempat-menarik-di-malaysia/",
+      "platform": "melancong.com.my"
+    },
+    {
+      "id": "work:e8677b96db9130c6",
+      "url": "https://support.google.com/youtube/answer/72857",
+      "platform": "support.google.com"
+    },
+    {
+      "id": "work:e89ca3eb51d79111",
+      "url": "https://www.youtube.com/watch?v=HAxMb0bXSOM",
+      "platform": "youtube.com"
+    },
+    {
+      "id": "work:e90e106390e88a67",
+      "url": "https://www.goldsrate.com/india/tamil-nadu/gold-rate-in-ramanathapuram.html",
+      "platform": "goldsrate.com"
+    },
+    {
+      "id": "work:eb246b8555eb0064",
+      "url": "https://recordsfinder.com/court/courthouses/la/",
+      "platform": "recordsfinder.com"
+    },
+    {
+      "id": "work:ec2b299118a4723f",
+      "url": "https://www.chenghsin.nl/wp-content/uploads/2020/04/The-art-of-effortless-power.pdf",
+      "platform": "chenghsin.nl"
+    },
+    {
+      "id": "work:edda15947d54730f",
+      "url": "https://www.kuialuaopuna.com/to/news/sig-kufferath",
+      "platform": "kuialuaopuna.com"
+    },
+    {
+      "id": "work:eed29a570cec1ac3",
+      "url": "https://www.easyhindityping.com/english-to-hindi-typing",
+      "platform": "easyhindityping.com"
+    },
+    {
+      "id": "work:f0b0c588982fa6ce",
+      "url": "https://www.sos.wa.gov/",
+      "platform": "sos.wa.gov"
+    },
+    {
+      "id": "work:f1eb9fd262d1c142",
+      "url": "https://static1.squarespace.com/static/5744a782d210b89c3e14ad35/t/581cc812f5e2313c7cbc82c8/1478281234320/RMoon.pdf",
+      "platform": "static1.squarespace.com"
+    },
+    {
+      "id": "work:f2fe5bb6a7abaecd",
+      "url": "https://aikido.org.nz/aikido-harmony-unity-peace/",
+      "platform": "aikido.org.nz"
+    },
+    {
+      "id": "work:f46c85c0bf7fca41",
+      "url": "https://www.rapidtables.com/tools/click-counter.html",
+      "platform": "rapidtables.com"
+    },
+    {
+      "id": "work:f58b0ef7c7be40bf",
+      "url": "https://forum.lowyat.net/topic/5556449",
+      "platform": "forum.lowyat.net"
+    },
+    {
+      "id": "work:f6d48bb13b4aa36f",
+      "url": "https://www.sejda.com/en/pdf-editor",
+      "platform": "sejda.com"
+    },
+    {
+      "id": "work:fb4016c55175b7b3",
+      "url": "https://play.google.com/store/apps/details?id=com.roblox.client&hl=en_US",
+      "platform": "play.google.com"
+    },
+    {
+      "id": "work:fd92f580d3d2382a",
+      "url": "https://www.ekiten.jp/shop_236221/",
+      "platform": "ekiten.jp"
+    },
+    {
+      "id": "work:fe0a630be44f71db",
+      "url": "https://everpet.jp/salon/detail/31768",
+      "platform": "everpet.jp"
+    },
+    {
+      "id": "work:fe88ead9b25f608d",
+      "url": "https://www.hiroshi-ikeda.com/aikido-bridge",
+      "platform": "hiroshi-ikeda.com"
+    },
+    {
+      "id": "work:fff6adeec536db2d",
+      "url": "https://www.bing.com/webhp",
+      "platform": "bing.com"
+    }
+  ],
+  "stub_no_raw_text": {
+    "count": 3834,
+    "by_platform": {
+      "en.wikipedia.org": 928,
+      "cultnews.com": 344,
+      "timesofindia.indiatimes.com": 317,
+      "culteducation.com": 149,
+      "grokipedia.com": 117,
+      "lifeinthesourcefamily.blogspot.com": 101,
+      "archive.org": 99,
+      "evz.ro": 77,
+      "web.archive.org": 55,
+      "about.proquest.com": 53,
+      "blogger.com": 50,
+      "nothingmajor.com": 37,
+      "proquest.com": 34,
+      "doi.org": 33,
+      "moonsic.com": 32,
+      "youtube.com": 27,
+      "alchetron.com": 25,
+      "Reddit research compilation (listed source)": 23,
+      "blogger.googleusercontent.com": 18,
+      "burgewords.com": 18,
+      "wordpress.org": 18,
+      "data.bibliotheken.nl": 17,
+      "stelling.nl": 15,
+      "journal.equinoxpub.com": 15,
+      "moonsensei.com": 14,
+      "podscripts.co": 12,
+      "facebook.com": 12,
+      "null": 10,
+      "thetaichinotebook.com": 10,
+      "groups.yahoo.com": 10,
+      "search.worldcat.org": 9,
+      "google.com": 9,
+      "twitter.com": 9,
+      "openmindadventures.com": 9,
+      "wikidata.org": 8,
+      "angelfire.com": 7,
+      "quantumedge.org": 7,
+      "fatheryod.org": 6,
+      "hotnews.ro": 6,
+      "members.tripod.com": 6,
+      "stirileprotv.ro": 6,
+      "clarivate.com": 5,
+      "support.proquest.com": 5,
+      "agerpres.ro": 5,
+      "Wikipedia": 4,
+      "newspapers.com": 4,
+      "marianne.net": 4,
+      "digi24.ro": 4,
+      "watchman.org": 4,
+      "xenu.net": 4,
+      "xs4all.nl": 4,
+      "archive-it.org": 4,
+      "bbc.co.uk": 4,
+      "www-2.cs.cmu.edu": 4,
+      "los_angeles_times": 3,
+      "play.google.com": 3,
+      "fbi.gov": 3,
+      "recipes.timesofindia.com": 3,
+      "jurnalul.ro": 3,
+      "laist.com": 3,
+      "monsterfresh.com": 3,
+      "cs.cmu.edu": 3,
+      "libertatea.ro": 3,
+      "en.wikiquote.org": 3,
+      "ex-cult.org": 3,
+      "nicematin.com": 3,
+      "kcet.org": 3,
+      "alexa.com": 3,
+      "lepoint.fr": 3,
+      "publiceye.org": 3,
+      "midwestoutreach.org": 3,
+      "archive.seattletimes.com": 3,
+      "mediafax.ro": 3,
+      "likomartin.com": 3,
+      "imdb.com": 3,
+      "commons.wikimedia.org": 3,
+      "cultnews.net": 3,
+      "geocities.com": 3,
+      "kuow.org": 3,
+      "id.oclc.org": 3,
+      "sacredbonesrecords.com": 3,
+      "vice.com": 3,
+      "discover.clarivate.com": 3,
+      "martinostimemachine.blogspot.com": 3,
+      "romaniatv.net": 3,
+      "instagram.com": 3,
+      "id.loc.gov": 3,
+      "viaf.org": 3,
+      "sv.wikipedia.org": 2,
+      "esotericfreedom.com": 2,
+      "sudouest.fr": 2,
+      "asiasamachar.com": 2,
+      "blog.archive.org": 2,
+      "yogajournal.com": 2,
+      "csicop.org": 2,
+      "economictimes.indiatimes.com": 2,
+      "secretprisonsforteens.dk": 2,
+      "pbs.org": 2,
+      "ziaruldeiasi.ro": 2,
+      "bbb.org": 2,
+      "trinityfi.org": 2,
+      "linkedin.com": 2,
+      "nypost.com": 2,
+      "unitypublishing.com": 2,
+      "cultsinsideout.com": 2,
+      "bishopaccountability.org": 2,
+      "scholar.google.com": 2,
+      "harekrishnacultexposed.blogspot.com": 2,
+      "quackwatch.com": 2,
+      "dlapiper.com": 2,
+      "epaper.indiatimes.com": 2,
+      "forum.culteducation.com": 2,
+      "pokrov.org": 2,
+      "lyndonlarouche.org": 2,
+      "b1tv.ro": 2,
+      "home.earthlink.net": 2,
+      "adl.org": 2,
+      "lemonde.fr": 2,
+      "paulmorantz.com": 2,
+      "nytimes.com": 2,
+      "youtu.be": 2,
+      "cocs.com": 2,
+      "thesourcedoc.com": 2,
+      "forums.delphiforums.com": 2,
+      "myballard.com": 2,
+      "rarehistoricalphotos.com": 2,
+      "frauddiscovery.net": 2,
+      "seattlerefined.com": 2,
+      "timesinternet.in": 2,
+      "adevarul.ro": 2,
+      "cultsoncampus.com": 2,
+      "id.worldcat.org": 2,
+      "healthwatcher.net": 2,
+      "content.time.com": 2,
+      "fr.wikipedia.org": 2,
+      "stopbadtherapy.com": 2,
+      "brahmakumaris.info": 2,
+      "photogallery.indiatimes.com": 2,
+      "open.spotify.com": 2,
+      "yle.fi": 2,
+      "skepdic.com": 2,
+      "indiatimes.com": 2,
+      "jstor.org": 2,
+      "washingtonpost.com": 2,
+      "d-nb.info": 2,
+      "minet.org": 2,
+      "navbharattimes.indiatimes.com": 2,
+      "apps.apple.com": 2,
+      "theguardian.com": 2,
+      "themakersshed.org": 2,
+      "newcovpub.com": 2,
+      "portal.just.ro": 2,
+      "lamag.com": 2,
+      "neirr.org": 2,
+      "news.google.com": 2,
+      "health.groups.yahoo.com": 2,
+      "dci.dk": 2,
+      "maxpages.com": 2,
+      "npr.org": 2,
+      "cultclinic.org": 2,
+      "laist_nonprofit_news": 1,
+      "maytt.home.blog": 1,
+      "en-academic.com": 1,
+      "blog.awma.com": 1,
+      "medium.com": 1,
+      "aikidopetaluma.com": 1,
+      "thebrendanlea.com": 1,
+      "taijiquan.nl": 1,
+      "aikido-health.com": 1,
+      "blog.chrisremspecher.de": 1,
+      "bujutsu.ru": 1,
+      "aikidojournal.com": 1,
+      "facebook": 1,
+      "official": 1,
+      "Oakland Tribune": 1,
+      "Parade magazine (syndicated Sunday supplement)": 1,
+      "San Francisco Chronicle": 1,
+      "usadojo.com": 1,
+      "musicbrainz.org": 1,
+      "exposedd.wordpress.com": 1,
+      "helpthechildbrides.com": 1,
+      "teenchallengeexposed.com": 1,
+      "sikhnet.com": 1,
+      "allentwood.com": 1,
+      "kidscomefirst.info": 1,
+      "antena3.ro": 1,
+      "strippingthegurus.com": 1,
+      "molyneuxrevealed.com": 1,
+      "vedemjust.ro": 1,
+      "cyprusreview.org": 1,
+      "copout.org": 1,
+      "geohack.toolforge.org": 1,
+      "huffpost.com": 1,
+      "whatenlightenment.blogspot.com": 1,
+      "kpfa.org": 1,
+      "adherents.com": 1,
+      "romaniapress.ro": 1,
+      "mormonconspiracy.com": 1,
+      "ministrywatch.org": 1,
+      "bragg.com": 1,
+      "mercantile.wordpress.org": 1,
+      "peterellis.org.nz": 1,
+      "mediamoogle.com": 1,
+      "twelvetribeswinnipeg.blogspot.com": 1,
+      "cgiaonline.org": 1,
+      "undermuchgrace.blogspot.com": 1,
+      "bible.ca": 1,
+      "exjw-reunited.co.uk": 1,
+      "quatloos.com": 1,
+      "usc.edu": 1,
+      "landmarkforumredflags.homestead.com": 1,
+      "tagesschau.de": 1,
+      "teenmaniawatch.blogspot.com": 1,
+      "xfamily.org": 1,
+      "humanrightsactioncenter.org": 1,
+      "as.wvu.edu": 1,
+      "turnulsfatului.ro": 1,
+      "fourthwaycult.net": 1,
+      "frankcass.com": 1,
+      "lifewithoutfaith.com": 1,
+      "ncjwny.org": 1,
+      "tcnj.edu": 1,
+      "denniskingblog.typepad.com": 1,
+      "onelist.com": 1,
+      "missingkids.com": 1,
+      "gadgetsnow.indiatimes.com": 1,
+      "scholarworks.umass.edu": 1,
+      "la.curbed.com": 1,
+      "mental-health-matters.com": 1,
+      "grandvalleybaptistchurch.blogspot.com": 1,
+      "eff.org": 1,
+      "revistadrepturileomului.ro": 1,
+      "ads.colombiaonline.com": 1,
+      "lfcc.on.ca": 1,
+      "baskeptics.org": 1,
+      "sec.gov": 1,
+      "acasa.ro": 1,
+      "exlibrisgroup.com": 1,
+      "larouchecontinued.org": 1,
+      "partnersagainsthate.org": 1,
+      "michaelreidmiseries.org": 1,
+      "life-after-potters-house.org.uk": 1,
+      "footstepsorg.org": 1,
+      "screwedkenoshastyle.com": 1,
+      "cultofthehuggingsaint4.blogspot.ca": 1,
+      "racismagainstindians.org": 1,
+      "cahro.org": 1,
+      "elinewberger.com": 1,
+      "start.umd.edu": 1,
+      "samvak.tripod.com": 1,
+      "srmhp.org": 1,
+      "nli.org.il": 1,
+      "religionnews.com": 1,
+      "criticalthinking.org": 1,
+      "ziarulprahova.ro": 1,
+      "cristoiublog.ro": 1,
+      "barrypittard.wordpress.com": 1,
+      "messiahtruth.com": 1,
+      "ambassadorwatch.blogspot.com": 1,
+      "natephelps.com": 1,
+      "reveal.org": 1,
+      "telugu.samayam.com": 1,
+      "perefound.com": 1,
+      "wellspringretreat.org": 1,
+      "de.wikipedia.org": 1,
+      "exjehovahswitnessforum.yuku.com": 1,
+      "citynews.ro": 1,
+      "antisemitism.typepad.com": 1,
+      "filmschoolrejects.com": 1,
+      "ajc.org": 1,
+      "tamil.samayam.com": 1,
+      "ffrf.org": 1,
+      "docs.google.com": 1,
+      "findagrave.com": 1,
+      "johnhorgan.org": 1,
+      "ur.wikipedia.org": 1,
+      "observatorcultural.ro": 1,
+      "hrw.org": 1,
+      "ptreyeslight.com": 1,
+      "network54.com": 1,
+      "pottershousefreedom.org": 1,
+      "splcenter.org": 1,
+      "ccmostwanted.com": 1,
+      "criminology.fsu.edu": 1,
+      "ro.wikipedia.org": 1,
+      "teenchallengecult.blogspot.com": 1,
+      "forum.exscn.net": 1,
+      "techgig.com": 1,
+      "anandauncovered.com": 1,
+      "ushmm.org": 1,
+      "randi.org": 1,
+      "dedicatedmemorial.org": 1,
+      "wbur.org": 1,
+      "goldtv.ro": 1,
+      "privacyrights.org": 1,
+      "durbinhypnosis.com": 1,
+      "wikipedia-watch.org": 1,
+      "mediaflux.ro": 1,
+      "stopbaptistpredators.org": 1,
+      "the-independent.com": 1,
+      "vimeo.com": 1,
+      "ndtv.com": 1,
+      "antimove.blogspot.com": 1,
+      "pitchforkmusicfestival.fr": 1,
+      "abhinamyogaschool.wixsite.com": 1,
+      "montrosebaptist.org": 1,
+      "gaymangate.com": 1,
+      "egroups.com": 1,
+      "qtm.net": 1,
+      "nmha.org": 1,
+      "jwfacts.com": 1,
+      "fellowshipoffriends.wordpress.com": 1,
+      "careers.timesgroup.com": 1,
+      "injury-settlement-guide.com": 1,
+      "tmb.ro": 1,
+      "home.sprintmail.com": 1,
+      "madmagz.com": 1,
+      "seeksafely.org": 1,
+      "jloughnan.tripod.com": 1,
+      "spiritualabuserecovery.com": 1,
+      "icsworld.com": 1,
+      "laroucheplanet.info": 1,
+      "drive.google.com": 1,
+      "childpro.org": 1,
+      "watchtowerlies.com": 1,
+      "bfms.org.uk": 1,
+      "unhcc.unh.edu": 1,
+      "digitalmusicnews.com": 1,
+      "sspx.agenda.tripod.com": 1,
+      "odan.org": 1,
+      "solidnews.ro": 1,
+      "discord.org": 1,
+      "originalwebsites.com": 1,
+      "dbn.bn.org.pl": 1,
+      "recognizeheresy.com": 1,
+      "geftakysassembly.com": 1,
+      "exmormon.org": 1,
+      "mauraschmierer.com": 1,
+      "hrea.org": 1,
+      "skeptic.org.uk": 1,
+      "apple.com": 1,
+      "fornits.com": 1,
+      "bbc.com": 1,
+      "outreachjudaism.org": 1,
+      "thewildmountaincafe.com": 1,
+      "newkadampatruths.org": 1,
+      "waltermartin.com": 1,
+      "utlm.org": 1,
+      "info-buddhism.com": 1,
+      "nodahncult.com": 1,
+      "adc.org": 1,
+      "exmormonfoundation.org": 1,
+      "te.wikipedia.org": 1,
+      "rediff.com": 1,
+      "urbanlegends.about.com": 1,
+      "leparisien.fr": 1,
+      "dc.state.fl.us": 1,
+      "civilrights.org": 1,
+      "lamar.colostate.edu": 1,
+      "give.org": 1,
+      "cbintel.com": 1,
+      "iii.com": 1,
+      "avataruncovered.is": 1,
+      "thestraights.com": 1,
+      "awolfamongthesheep.com": 1,
+      "antimanmin.tripod.com": 1,
+      "shop.nothingmajor.com": 1,
+      "parentwatch.org": 1,
+      "fmsfonline.org": 1,
+      "mycultlife.com": 1,
+      "true-ramakrishnananda.com": 1,
+      "law.cornell.edu": 1,
+      "movingon.org": 1,
+      "dn.se": 1,
+      "polygamy.org": 1,
+      "laweekly.com": 1,
+      "tolc.org": 1,
+      "therapistlocator.net": 1,
+      "ojp.usdoj.gov": 1,
+      "hutch.demon.co.uk": 1,
+      "nclnet.org": 1,
+      "safepassagefoundation.org": 1,
+      "institutefordemocracy.org": 1,
+      "gurusexabuse.com": 1,
+      "arcapologetics.org": 1,
+      "subscribe.timesgroup.com": 1,
+      "articles2.icsahome.com": 1,
+      "consciouscityguide.com": 1,
+      "rottentomatoes.com": 1,
+      "oak.cats.ohiou.edu": 1,
+      "viataromaneasca.eu": 1,
+      "researchgate.net": 1,
+      "leavingsrf.blogspot.com": 1,
+      "lisamcpherson.org": 1,
+      "torontosun.com": 1,
+      "artoflivingfree.blogspot.com": 1,
+      "savethearchive.com": 1,
+      "silentlambs.org": 1,
+      "ccsurveys.com": 1,
+      "afma.asn.au": 1,
+      "religiondispatches.org": 1,
+      "gq-magazine.co.uk": 1,
+      "buildingequality.us": 1,
+      "consumerworld.org": 1,
+      "factualamerica.com": 1,
+      "metcouncil.org": 1,
+      "txdps.state.tx.us": 1,
+      "seattlepi.com": 1,
+      "learn.wordpress.org": 1,
+      "mahikariexposed.com": 1,
+      "4missingwomen.com": 1,
+      "eutychus.free.fr": 1,
+      "empirenet.com": 1,
+      "barrons.com": 1,
+      "odos.uiuc.edu": 1,
+      "crackedpots.topcities.com": 1,
+      "campsci.com": 1,
+      "letusreason.org": 1,
+      "oblivion.net": 1,
+      "cryonicsfactsheet.co.uk": 1,
+      "arz.wikipedia.org": 1,
+      "blgoldberg.com": 1,
+      "bbkabbalah-thetruth.com": 1,
+      "isni.org": 1,
+      "9am.ro": 1,
+      "failedmessiah.typepad.com": 1,
+      "chillingeffects.org": 1,
+      "i4m.com": 1,
+      "leavingshivayoga.guru": 1,
+      "ecfa.org": 1,
+      "p212.ezboard.com": 1,
+      "larrybren.blogspot.com": 1,
+      "abusivecontrollingrelationships.com": 1,
+      "lib.jjay.cuny.edu": 1,
+      "towerwatch.com": 1,
+      "flyingfree.zoomshare.com": 1,
+      "timespoints.com": 1,
+      "decommissioned.wordpress.com": 1,
+      "behind-the-tm-facade.org": 1,
+      "tr.wikipedia.org": 1,
+      "nimh.nih.gov": 1,
+      "amnesty.org": 1,
+      "api.semanticscholar.org": 1,
+      "reportcogicabuse.com": 1,
+      "professing.proboards16.com": 1,
+      "vremeanoua.ro": 1,
+      "cricbuzz.com": 1,
+      "ru.wikipedia.org": 1,
+      "tvindalert.com": 1,
+      "cesletter.com": 1,
+      "educationtimes.com": 1,
+      "uk.finance.yahoo.com": 1,
+      "usps.gov": 1,
+      "mumbaimirror.indiatimes.com": 1,
+      "gotquestions.org": 1,
+      "kooapp.com": 1,
+      "iamgujarat.com": 1,
+      "developer.wordpress.org": 1,
+      "ladiesroomla.org": 1,
+      "chrome.google.com": 1,
+      "whbw.org": 1,
+      "ex-morninglanders.com": 1,
+      "jesusarmywatch.org.uk": 1,
+      "lagaceta.com.ar": 1,
+      "scamshield.com": 1,
+      "caic.org.au": 1,
+      "twelvetribesteachings.com": 1,
+      "olenydahl.wordpress.com": 1,
+      "dailymail.co.uk": 1,
+      "jwactivists.org": 1,
+      "mission.org": 1,
+      "library.thinkquest.org": 1,
+      "marathi.indiatimes.com": 1,
+      "tarayogacentre.co.uk": 1,
+      "truthaboutwest.org": 1,
+      "traveltips.usatoday.com": 1,
+      "tradingstandards.net": 1,
+      "calvarychapelabuse.com": 1,
+      "exjws.net": 1,
+      "lds-mormon.com": 1,
+      "guruethics.net": 1,
+      "edition.cnn.com": 1,
+      "infosect.freeshell.org": 1,
+      "restaurant-ingthroughhistory.com": 1,
+      "fi.wikipedia.org": 1,
+      "arts.ualberta.ca": 1,
+      "ca.wikipedia.org": 1,
+      "idref.fr": 1,
+      "crikey.com.au": 1,
+      "ajwrb.org": 1,
+      "ncahf.org": 1,
+      "microsoftedge.microsoft.com": 1,
+      "woffwatch.blogspot.com": 1,
+      "pac-c.org": 1,
+      "fluxhawaii.com": 1,
+      "lanazione.it": 1,
+      "louderthanwar.com": 1,
+      "truthaboutsynergyyoga.com": 1,
+      "huffingtonpost.fr": 1,
+      "religiouscultsinfo.com": 1,
+      "seriousgivers.org": 1,
+      "monacomatin.mc": 1,
+      "wsj.com": 1,
+      "medexplorer.com": 1,
+      "stopkiruvnow.blogspot.com": 1,
+      "perkel.com": 1,
+      "windofchanges.org": 1,
+      "saibaba-x.org.uk": 1,
+      "equilibra.uk.com": 1,
+      "greasespotcafe.com": 1,
+      "dailyscript.com": 1,
+      "bigrock-aikikai.com": 1,
+      "ardaudiothek.de": 1,
+      "tonyalamonews.com": 1,
+      "uw.manifoldapp.org": 1,
+      "carlstevens.org": 1,
+      "ha.wikipedia.org": 1,
+      "aolfree.wordpress.com": 1,
+      "mlmsurvivor.com": 1,
+      "help.archive.org": 1,
+      "twelvetribes-ex.org": 1,
+      "forum1.aimoo.com": 1,
+      "vpc.org": 1,
+      "aleph.nkp.cz": 1,
+      "actu.fr": 1,
+      "cracked.com": 1,
+      "protv.ro": 1,
+      "studentsofyogibhajan.com": 1,
+      "europa.eu.int": 1,
+      "bkwsuwatch.com": 1,
+      "homelandsecurity.org": 1,
+      "cyber.law.harvard.edu": 1,
+      "infidels.org": 1,
+      "tribuneindia.com": 1,
+      "satyoga.exposed": 1,
+      "exfamily.org": 1,
+      "stop-the-hate.org": 1,
+      "icocb.org": 1,
+      "mipt.org": 1,
+      "dragcity.com": 1,
+      "wingsfortruth.info": 1,
+      "dvsheltertour.org": 1,
+      "vandruff.com": 1,
+      "jhu.edu": 1,
+      "malayalam.samayam.com": 1,
+      "voiceofwarning.net": 1,
+      "wordpress.com": 1,
+      "miracleoflove.org": 1,
+      "regainnetwork.org": 1,
+      "cultinformation.org.uk": 1,
+      "affirmation.org": 1,
+      "discogs.com": 1,
+      "kashiashram.com": 1,
+      "blownforgood.com": 1,
+      "americanguru.net": 1,
+      "wiesenthal.com": 1,
+      "nothingmajor.tumblr.com": 1,
+      "childrenshealthcare.org": 1,
+      "gangpreventioninc.com": 1,
+      "jbfcs.com": 1,
+      "snbw.org": 1,
+      "pooterland.com": 1,
+      "jehovahswitnessrecovery.com": 1,
+      "goodmoney.com": 1,
+      "revealed1001.blogspot.com": 1,
+      "unc.edu": 1,
+      "dhhs.gov": 1,
+      "michaelbluejay.com": 1,
+      "religio.de": 1,
+      "eumostwanted.eu": 1,
+      "seattleweekly.com": 1,
+      "data.bnf.fr": 1,
+      "ccat.sas.upenn.edu": 1,
+      "fecris.org": 1,
+      "rtl.fr": 1,
+      "ritualsofdisenchantment.blogspot.com": 1,
+      "ankerberg.com": 1,
+      "brci.org": 1,
+      "diggerfortruth.wordpress.com": 1,
+      "eo.wikipedia.org": 1,
+      "formerfccmembers.com": 1,
+      "merieweiss.blogspot.com": 1,
+      "cultinsider.com": 1,
+      "scambusters.org": 1,
+      "bfmtv.com": 1,
+      "cageyconsumer.com": 1,
+      "mond.at": 1,
+      "usedforjesus.com": 1,
+      "spiritualabuse.org": 1,
+      "cultorjustweird.com": 1,
+      "santafenewmexican.com": 1,
+      "ahnsahnghong3.blogspot.com": 1,
+      "sgmsurvivors.com": 1,
+      "impacttrainingscritic.com": 1,
+      "cftf.com": 1,
+      "iglhrc.org": 1,
+      "query.nytimes.com": 1,
+      "cultvirginmary.blogspot.com": 1,
+      "dana.nutter.net": 1,
+      "utoronto.ca": 1,
+      "babel.hathitrust.org": 1,
+      "ultra-authority.20m.com": 1,
+      "pl.wikipedia.org": 1,
+      "believersweb.org": 1,
+      "howcultswork.com": 1,
+      "religiousstudies.as.nyu.edu": 1,
+      "scamclub.com": 1,
+      "factnet.org": 1,
+      "molyneux-cult-watch.blogspot.com": 1,
+      "selfhelpfraud.com": 1,
+      "brennancult.info": 1,
+      "prem-rawat-talk.org": 1,
+      "robertearlburton.blogspot.com": 1,
+      "pyramidschemealert.org": 1,
+      "veteransoftruth.com": 1,
+      "transilvaniatv.ro": 1,
+      "scp-inc.org": 1,
+      "freeyellow.com": 1,
+      "consumerwatch.com": 1,
+      "bwss.org": 1,
+      "studentaffairs.rutgers.edu": 1,
+      "churchcorruption.com": 1,
+      "annekelucas.com": 1,
+      "tmfree.blogspot.com": 1,
+      "amishabuse.com": 1,
+      "ex-iwp.org": 1,
+      "cisneoinc.org": 1,
+      "sonofaswami.com": 1,
+      "pseudo-prophet.tripod.com": 1,
+      "moshiachtalk.com": 1,
+      "france3-regions.francetvinfo.fr": 1,
+      "dcnews.ro": 1,
+      "equip.org": 1,
+      "toride.org": 1,
+      "stopkiruvnow.blogspot.my": 1,
+      "events.wordpress.org": 1,
+      "imposemagazine.com": 1,
+      "buffaloscientologyinfo.com": 1,
+      "animamrecro.wordpress.com": 1,
+      "sunnetworks.net": 1,
+      "cbsnews.com": 1,
+      "timesmobile.in": 1,
+      "womenwholovepsychopaths.com": 1,
+      "abusivechurches.org": 1,
+      "securityoncampus.org": 1,
+      "flameout.org": 1,
+      "gratitudekitchenandbar.com": 1,
+      "backupsrfwalrus.com": 1,
+      "gazetadecluj.ro": 1,
+      "bju.typepad.com": 1,
+      "state.gov": 1,
+      "atmanyogafederation.org": 1,
+      "waldorfcritics.org": 1,
+      "enlightenmefree.com": 1,
+      "consumer.ftc.gov": 1,
+      "ftc.gov": 1,
+      "home.comcast.net": 1,
+      "icsahome.com": 1,
+      "jwfiles.com": 1,
+      "francetvinfo.fr": 1,
+      "english.elpais.com": 1,
+      "fraud.org": 1,
+      "apa.org": 1,
+      "pubmed.ncbi.nlm.nih.gov": 1,
+      "sg.news.yahoo.com": 1,
+      "lifeafterhate.org": 1,
+      "academic.oup.com": 1,
+      "staff.hum.ku.dk": 1,
+      "forensicptsd.com": 1,
+      "en.believethesign.com": 1,
+      "ripoffreport.com": 1,
+      "jihadwatch.org": 1,
+      "life-after-rc.com": 1,
+      "sfo.gov.uk": 1,
+      "saibabadeceptions.wordpress.com": 1,
+      "prejudiceinstitute.org": 1,
+      "kabbalahvictims.com": 1,
+      "exteammembers.blogspot.com": 1,
+      "ex-premie2.org": 1,
+      "mybillionyearcontract.com": 1,
+      "latimes.com": 1,
+      "parentsagainstxenos.wordpress.com": 1,
+      "coupondunia.in": 1,
+      "batteredwomensnetwork.org": 1,
+      "esama.ca": 1,
+      "acquiretheevidence.com": 1,
+      "senate.gov": 1,
+      "ikyta.org": 1,
+      "full-stop.net": 1,
+      "br.de": 1,
+      "lermanet.com": 1,
+      "spiritualabuse.com": 1,
+      "falseprofits.com": 1,
+      "members.aol.com": 1,
+      "skeptic.com": 1,
+      "swamishyamshadows.info": 1,
+      "donnaback.org": 1,
+      "cancan.ro": 1,
+      "rc.cultweb.net": 1,
+      "slatkinfraud.com": 1,
+      "jewelleryworld.net.au": 1,
+      "cs.wikipedia.org": 1,
+      "anchorabuse.org": 1,
+      "scientology-cult.com": 1,
+      "whathappenedtodeerfield.wordpress.com": 1,
+      "freeminds.org": 1,
+      "pfo.org": 1,
+      "njcd.org": 1,
+      "charitywatch.org": 1,
+      "sahajamataji.wordpress.com": 1,
+      "jewsforjudaism.org": 1,
+      "intelweb.janes.com": 1,
+      "mikefinch.com": 1,
+      "luju.ro": 1,
+      "pitfallsofspirituality.blogspot.com": 1,
+      "techgnosis.com": 1,
+      "blurtonline.com": 1,
+      "cy.wikipedia.org": 1,
+      "sonic.net": 1,
+      "cardhouse.com": 1,
+      "indianapoliscult.com": 1,
+      "au.af.mil": 1,
+      "indiakids.blogspot.com": 1,
+      "childrenintherapy.org": 1,
+      "naspa.com.au": 1,
+      "whatshot.in": 1,
+      "topix.com": 1,
+      "theatlantic.com": 1,
+      "dailyhive.com": 1,
+      "realmaharaji.bravepages.com": 1,
+      "ex.ac.uk": 1,
+      "mimesisinternational.com": 1,
+      "bombmagazine.org": 1,
+      "fas.org": 1,
+      "danielshawlcsw.com": 1,
+      "users.rcn.com": 1,
+      "joinusthemovie.com": 1,
+      "thepoisonedwell.org": 1,
+      "exscientologykids.com": 1,
+      "la.eater.com": 1,
+      "3ho.org": 1,
+      "t.me": 1,
+      "sheriffs.org": 1,
+      "drazin.com": 1,
+      "fatheryodthesourcefamily.bandcamp.com": 1,
+      "iamnotastalker.com": 1,
+      "interpol.int": 1,
+      "iottc.blogspot.com": 1,
+      "hazinglaw.com": 1,
+      "sfweekly.com": 1,
+      "stop-narconon.org": 1,
+      "events.humanitix.com": 1,
+      "imotta.cn": 1,
+      "ou.org": 1,
+      "addons.mozilla.org": 1,
+      "bn.wikipedia.org": 1,
+      "unspy.wordpress.com": 1,
+      "thewritingdisorder.com": 1,
+      "merchantsofdeception.com": 1,
+      "24heures.ch": 1,
+      "crusadewatch.org": 1,
+      "ks.wikipedia.org": 1,
+      "aumegaproject.com": 1,
+      "progarchives.com": 1,
+      "mentalhealth.com": 1,
+      "jones-town.org": 1,
+      "aclu.org": 1,
+      "lux.collections.yale.edu": 1,
+      "mlmlaw.com": 1,
+      "guidestar.org": 1,
+      "ramsss.com": 1,
+      "journeyfree.org": 1,
+      "sahajacult.com": 1,
+      "influenceatwork.com": 1,
+      "outofthecocoon.net": 1,
+      "churchofgodrestorationexposed.us": 1,
+      "pa.wikipedia.org": 1,
+      "womenverse.com": 1,
+      "sektehulp.nl": 1,
+      "gl.wikipedia.org": 1,
+      "lesoir.be": 1,
+      "damanhurinsideout.wordpress.com": 1,
+      "lcinfo.org": 1,
+      "dangerousgames.com": 1,
+      "colombiaonline.com": 1,
+      "s-t.com": 1,
+      "iinet.net.au": 1,
+      "ex-pentecostals.org": 1,
+      "timesjobs.com": 1,
+      "examiningthewmscog.com": 1,
+      "prem-rawat-maharaji.info": 1,
+      "sustainedaction.org": 1,
+      "home.netcom.com": 1,
+      "dallascult.com": 1,
+      "blank.org": 1,
+      "psychologicalscience.org": 1,
+      "consumerjusticefoundation.com": 1,
+      "stiri.rol.ro": 1,
+      "decider.com": 1,
+      "docbob.org": 1,
+      "suppressiveperson.org": 1,
+      "everynationexposed.blogspot.com": 1,
+      "productliabilitylawyer.com": 1,
+      "iicdwatch.bravepages.com": 1,
+      "justcfcmihelp.com": 1,
+      "bangaloremirror.indiatimes.com": 1,
+      "stillpointpress.net": 1,
+      "kqed.org": 1,
+      "freefromthegrip.com": 1,
+      "thenetteam.net": 1,
+      "mormonwikileaks.com": 1,
+      "brandcapital.co.in": 1,
+      "dustedmagazine.com": 1,
+      "postmormon.org": 1,
+      "pathfinder.com": 1,
+      "mcbw.org": 1,
+      "infokatot.com": 1,
+      "exitsupportnetwork.com": 1,
+      "glad.org": 1,
+      "familiesagainstcultteachings.org": 1,
+      "vijaykarnataka.com": 1,
+      "ziare.com": 1,
+      "learningtoletgosrf.blogspot.com": 1,
+      "ezzo.info": 1,
+      "gregorianbivolaru.yoga": 1,
+      "romania-insider.com": 1,
+      "thedissolve.com": 1,
+      "poynter.org": 1,
+      "webspawner.com": 1,
+      "anti-racist-action.org": 1,
+      "watchtowerinformationservice.org": 1,
+      "tvr.ro": 1,
+      "deutsche-digitale-bibliothek.de": 1,
+      "users.bigpond.com": 1,
+      "nndb.com": 1,
+      "oxfordreference.com": 1,
+      "exbaba.nl": 1,
+      "bwlap.org": 1,
+      "citizen.org": 1,
+      "uhv.edu": 1,
+      "liberation.fr": 1,
+      "sapphirepress.com": 1,
+      "thevespiary.com": 1,
+      "support.laist.com": 1,
+      "studentaffairs.umd.edu": 1,
+      "evzcomunicate.ro": 1,
+      "jimmccotter.wordpress.com": 1,
+      "lib.msu.edu": 1,
+      "yogaesoteric.net": 1,
+      "businesslyceum.com": 1,
+      "tgia.net": 1,
+      "atoxicfaith.com": 1,
+      "fashmaps.com": 1,
+      "book": 1,
+      "icocinvestigation.com": 1,
+      "jdc.org": 1,
+      "leavingsiddhayoga.net": 1,
+      "adidaarchives.org": 1,
+      "encircletogether.org": 1,
+      "hrc.org": 1,
+      "lgattruth.blogspot.com": 1,
+      "helpyourteens.com": 1,
+      "christianaggression.org": 1,
+      "mlmwatch.org": 1,
+      "recoveringalumni.com": 1,
+      "snapnetwork.org": 1,
+      "gospelassemblyfree.com": 1,
+      "selectsmart.com": 1,
+      "terrorism.com": 1,
+      "9news.com.au": 1,
+      "alterboys.tripod.com": 1,
+      "straightdope.com": 1,
+      "muse.jhu.edu": 1,
+      "facts.org.cn": 1,
+      "exjw.meetup.com": 1,
+      "gcmwarning.com": 1,
+      "hln.be": 1,
+      "hatemonitor.csusb.edu": 1,
+      "hatewatch.org": 1,
+      "nl.wikipedia.org": 1,
+      "usdoj.gov": 1,
+      "mormonsformarriage.com": 1,
+      "ih2000.net": 1,
+      "revistapresei.hotnews.ro": 1,
+      "breaking-free.info": 1,
+      "mille.org": 1,
+      "kipmckean.com": 1,
+      "suggestibility.org": 1,
+      "freedomsring.org": 1,
+      "anandainfo.com": 1,
+      "amma-taavi-kassila-sex-cover-up.blogspot.ca": 1,
+      "american-lycurgus.blogspot.com": 1,
+      "timesprime.com": 1,
+      "quotes-watchtower.co.uk": 1,
+      "groups.google.com": 1,
+      "fofdiscussion.wordpress.com": 1,
+      "careers.clarivate.com": 1,
+      "examineiglesianicristo.com": 1,
+      "cargocollective.com": 1,
+      "robertpriddy.wordpress.com": 1,
+      "ncvc.org": 1,
+      "markrathbun.wordpress.com": 1,
+      "thequietus.com": 1,
+      "dexonline.ro": 1,
+      "accounts.google.com": 1,
+      "oyc.yale.edu": 1,
+      "pleasekillme.com": 1,
+      "rnz.co.nz": 1,
+      "furious.com": 1,
+      "dialog.com": 1,
+      "b365.ro": 1,
+      "onto.provocation.net": 1,
+      "equinoxpub.com": 1,
+      "king5.com": 1,
+      "cincinnati.newspapers.com": 1,
+      "psychicabuse.com": 1,
+      "onepeoplesproject.com": 1,
+      "whatsapp.com": 1,
+      "catalogue.bnf.fr": 1,
+      "leavingcalvarytemple.blogspot.com": 1,
+      "the-guru-looked-good.blogspot.com": 1,
+      "asian-nation.org": 1,
+      "themanbehindthename.com": 1,
+      "religious-studies.cornell.edu": 1,
+      "es.wikipedia.org": 1,
+      "exjewsforjesus.blogspot.com": 1,
+      "charitynavigator.org": 1,
+      "librariaeminescu.ro": 1,
+      "bpdcentral.com": 1,
+      "pitchfork.com": 1,
+      "cafegratitude.com": 1,
+      "rationalrevelation.com": 1,
+      "kidshealth.org": 1,
+      "diamondwaycult.blogspot.com": 1,
+      "bwjp.org": 1,
+      "pitchforkmusicfestival.com": 1,
+      "weirdcrap.com": 1,
+      "longehawaii.blogspot.com": 1,
+      "gcxweb.org": 1,
+      "w3.org": 1,
+      "preventinghate.org": 1
+    },
+    "sample_urls": [
+      "archival://los-angeles-times/1971/source-sunset-strip",
+      "archival://los-angeles-times/1972/source-family-profile",
+      "https://proquest.com/historical-newspapers",
+      "https://laist.com/news/la-history/source-family-restaurant-vegetarian-dinner-gratitude-kitchen-dec-5",
+      "reddit://yoga-sheet-source/92d45f24",
+      "reddit://yoga-sheet-source/74e7c999",
+      "reddit://yoga-sheet-source/2bffd060",
+      "https://abhinamyogaschool.wixsite.com/truth?fbclid=IwZXh0bgNhZW0CMTAAc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHpdJTN7XtUUN0SAFFraQGY592Ynos-V3vkKw8widtEaago4vsvXAxfCFCXpn_aem_p3ozGN7MIteJr-D1G6YLWA",
+      "https://annekelucas.com/writing/2020/9/17/beat-kick-slap",
+      "https://archive.is/CsBC0",
+      "https://digthyself.medium.com/breath-to-speak-c5606af5db69",
+      "https://journal.equinoxpub.com/ROSA/article/view/25506",
+      "https://ktla.com/news/local-news/pasadena-yoga-instructor-convicted-for-sexually-assaulting-students/",
+      "https://leavingsiddhayoga.net/staging/9195/o_guru_english/",
+      "https://web.archive.org/web/20170703063510/http://leadbeater.org/tillettcwlchap10.htm",
+      "https://www.bbc.co.uk/mediacentre/2024/world-of-secrets-the-bad-guru",
+      "https://www.childabuseroyalcommission.gov.au/media-releases/report-satyananda-yoga-ashram-released",
+      "https://www.cracked.com/article_27850_dumb-moments-in-history-when-rich-weirdos-hand-picked-next-jesus.html",
+      "https://www.google.com/search?q=dahn+yoga+cult+abuse&ie=UTF-8&oe=UTF-8&hl=en-us&client=safari",
+      "https://www.google.com/search?q=mark+whitwell+abuse&ie=UTF-8&oe=UTF-8&hl=en-us&client=safari",
+      "https://www.gurumag.com/the-guru-who-tried-to-outrun-yoga-alliance/",
+      "https://www.instagram.com/1percenttruth_?igsh=Yno2MGo5bXQxbnI4",
+      "https://www.reddit.com/r/ashtanga/search/?q=Taylor+hunt&cId=ea4fa911-7dbd-4ab0-8b63-54a3d5d711d5&iId=ec3dcd5e-b96e-4752-8eb0-b12724893a72",
+      "https://www.risiexposed.com/",
+      "https://www.theguardian.com/australia-news/2014/dec/04/yoga-ashram-didnt-consider-sex-abuse-crime-royal-commission",
+      "https://yogaanatomy.org/wp-content/uploads/2023/11/Seizing-the-Whip-B.-K.-S.-Iyengar-and-the-Making-of-Modern-Yoga-.-Eric-Shaw.-December-2016.pdf",
+      "https://youtu.be/2F9uptI0LE0?si=l4xjwTLrfaZ-onz6",
+      "https://maytt.home.blog/2021/02/17/interview-with-californian-aikidoka-robert-noha-aikidos-spiritual-aspect/",
+      "https://en-academic.com/dic.nsf/enwiki/10270380",
+      "https://blog.awma.com/zen-in-the-martial-arts/",
+      "https://medium.com/authority-magazine/bob-noha-on-how-martial-arts-helped-teach-self-confidence-bravery-career-success-d92975e5da46",
+      "https://www.aikidopetaluma.com/2015/09/20/profile-robert-noha-article-from-the-argus-courier-may-14-2003/",
+      "https://thebrendanlea.com/radical-relaxation/",
+      "https://www.youtube.com/watch?v=GeJIcDLOa8Q",
+      "https://www.youtube.com/watch?v=P_I8GC4e9YY",
+      "https://www.taijiquan.nl/912-2/",
+      "https://www.aikido-health.com/robert-nadeau.html",
+      "https://aikidojournal.com/2020/12/16/aikido-past-present-and-future/",
+      "https://aikidojournal.com/2011/08/27/aikido-association-of-northern-california/",
+      "https://aikidojournal.com/2011/08/27/george-leonard/",
+      "https://aikidojournal.com/2011/08/27/robert-nadeau/",
+      "https://aikidojournal.com/2011/08/27/robert-tann/",
+      "https://www.youtube.com/watch?v=pXM4WCLnxS8",
+      "https://www.youtube.com/watch?v=xZxLygFdW8A",
+      "https://www.youtube.com/watch?v=xuf8ps0ZsAY",
+      "https://blog.chrisremspecher.de/tag/peter-ralston",
+      "https://www.bujutsu.ru/aikido/",
+      "https://aikidojournal.com/2020/06/09/aikido-as-an-art-of-personal-development-and-spiritual-growth-by-bob-noha/",
+      "https://www.facebook.com/AikiWeb/posts/10159373624383063/",
+      "http://www.danmillman.com/",
+      "https://en.wikipedia.org/wiki/George_Leonard",
+      "https://en.wikipedia.org/wiki/Michael_Murphy_(author)",
+      "https://en.wikipedia.org/wiki/Richard_Strozzi-Heckler",
+      "https://maytt.home.blog/2020/05/06/the-covid-19-aikido-bridge-seminar/",
+      "https://maytt.home.blog/2022/12/05/interview-with-aikido-of-madison-cofounders-robin-cooper-and-john-stone-their-journey-through-aikido-and-beyond-part-i/",
+      "https://maytt.home.blog/2025/07/29/interview-with-aikido-authors-bob-noha-and-laurin-herr-robert-nadeau-and-the-art-of-transformation-part-i/",
+      "https://maytt.home.blog/2025/07/29/interview-with-aikido-authors-bob-noha-and-laurin-herr-robert-nadeau-and-the-art-of-transformation-part-ii/",
+      "https://maytt.home.blog/2020/05/22/interview-with-evolene-premillieu-aikido-for-tomorrow/",
+      "https://www.newspapers.com/image/1223363307/",
+      "https://www.newspapers.com/image/744984443/",
+      "https://www.newspapers.com/image/744987762/",
+      "https://www.newspapers.com/image/920116428/",
+      "https://www.newspapers.com/image/735945355/",
+      "https://archive.org/details/assassxxxxxx00linc",
+      "https://www.newspapers.com/image/1223258844/",
+      "https://www.usadojo.com/robert-nadeau/",
+      "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)",
+      "https://musicbrainz.org/artist/b7317cbe-de95-422e-bbd8-105e431173f5",
+      "https://sv.wikipedia.org/wiki/Yogi_Bhajan",
+      "http://www.culteducation.com/component/mailto/?tmpl=component&template=protostar&link=c471efb324170a59f7f82655f929adef2e65f252",
+      "https://grokipedia.com/page/Counterculture",
+      "https://www.proquest.com/indexol.pagelayout.featuremodal.loginoverlay_1:createloginoverlay/loginOverlayLinkZone_2?_csrf=cc967dcf-d622-4463-9349-acb0d5efd6ba",
+      "http://exposedd.wordpress.com/doyle-forum/",
+      "https://timesofindia.indiatimes.com/city/kanpur",
+      "http://www.esotericfreedom.com:80/",
+      "http://moonsic.com/liko/rightnow/songpages/fathers daughter.html",
+      "https://play.google.com/store/apps/details?id=com.amazon.dee.app",
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPNagLkgwIp0W-KQEi6rAYN69IY4xm_ovhIMVcYf9f2tiPY88QwAuxCjCWAOUDOObTicOPf8CyE8_0PFFNTc65K-LCSrIeTivY8i2l6oeJ83lFpeQchx6fwRCv0pkuC9RFLyiXTFNNeakGgrLmV5GcWQTyk5vHbPFBzkuTtX6WNgZ6Ox51ZQ65R8qn69dm/s860/Jim%20bumps%20off%20Zim.jpg",
+      "http://www.culteducation.com/faq.html",
+      "http://helpthechildbrides.com/",
+      "https://en.wikipedia.org/wiki/KPFA",
+      "https://lifeinthesourcefamily.blogspot.com/2018/09/",
+      "https://grokipedia.com/page/Tarzan",
+      "https://alchetron.com/Organic-food",
+      "https://burgewords.com/2026/09/01/taking-a-shine-to-silver/?share=print",
+      "http://www.teenchallengeexposed.com/",
+      "http://www.sikhnet.com/yogibhajan",
+      "http://www.allentwood.com",
+      "https://archive.org/account/login.php",
+      "https://en.wikipedia.org/wiki/World_War_II",
+      "http://lifeinthesourcefamily.blogspot.com/2021/",
+      "http://www.KidsComeFirst.INFO",
+      "https://www.antena3.ro/actualitate/justitie/gregorian-bivolaru-inchisoare-nebunie-344451.html",
+      "https://en.wikipedia.org/wiki/Coping_Cookies",
+      "https://www.blogger.com/share-post.g?blogID=5330999227512932268&postID=3299204536920918541&target=pinterest",
+      "https://en.wikipedia.org/wiki/Julie_Christie",
+      "https://cultnews.com/category/westborobaptistchurch/",
+      "http://www.strippingthegurus.com/",
+      "https://en.wikipedia.org/wiki/Rupee_Bar",
+      "http://www.fbi.gov/"
+    ]
+  },
+  "work_no_mentions": []
+}
