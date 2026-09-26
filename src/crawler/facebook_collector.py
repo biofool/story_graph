@@ -6,8 +6,10 @@ Extracts public posts and comments using Meta Graph API (Page Public Content Acc
 from __future__ import annotations
 
 import logging
+import re
 from dataclasses import dataclass, field
 from typing import Optional, Any
+
 import requests
 from tenacity import retry, stop_after_attempt, wait_exponential
 
@@ -226,3 +228,24 @@ class FacebookGraphCollector:
             )
 
         return results
+
+
+# ── Facebook URL helpers ─────────────────────────────────────────────────────
+# Slug extraction shared by the Graph API collector and the direct-browser
+# fetcher (scripts/59_facebook_browser_fetch.py). The direct-browse technique
+# is ported from WorldStudioFinder scripts/acquire_fb_browser.py: anonymous
+# HTTP fetches of facebook.com (desktop or m.*) all redirect to login, so
+# public Page browsing requires a persistent logged-in Chrome profile.
+
+_FB_SLUG_RE = re.compile(r"facebook\.com/([^/?#\s]+)", re.I)
+_FB_SKIP_SLUGS = {"pages", "groups", "events", "watch", "login", "profile.php"}
+
+
+def facebook_slug(page: str) -> Optional[str]:
+    """Extract a Page slug from a Facebook URL or bare slug."""
+    m = _FB_SLUG_RE.search(page)
+    if m and m.group(1) not in _FB_SKIP_SLUGS:
+        return m.group(1)
+    if "facebook.com" not in page and "/" not in page and page not in _FB_SKIP_SLUGS:
+        return page
+    return None

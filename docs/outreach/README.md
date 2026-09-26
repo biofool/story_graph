@@ -5,6 +5,9 @@ photos, co-instructors) for documented teaching visits. One file
 per host organization. **Drafts — review before sending.**
 
 - `moon/` — 10 hosts of Richard Moon seminars/events
+- `moon-persons/` — 19 individuals suspected of connection to Richard
+  Moon's teaching; **speculative wording** (confirm-or-correct framing,
+  post-#65) — hand-curated, see its README for tiers and exclusions
 - `ikeda/` — 99 hosts of Hiroshi Ikeda seminars/events
 - `ralston/` — 10 Cheng Hsin schools/branches (Peter Ralston)
 

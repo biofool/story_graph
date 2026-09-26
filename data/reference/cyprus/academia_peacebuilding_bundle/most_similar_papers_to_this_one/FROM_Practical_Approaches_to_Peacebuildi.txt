@@ -1,0 +1,411 @@
+EXCERPTED FROM
+
+Practical Approaches
+to Peacebuilding:
+Putting Theory to Work
+edited by
+
+Pamina Firchow
+and Harry Anastasiou
+Copyright © 2016
+ISBNs: 978-1-62637-457-7 hc
+978-1-62637-458-4 pb
+
+1800 30th Street, Suite 314
+Boulder, CO 80301 USA
+telephone 303.444.6684
+fax 303.444.0824
+
+This excerpt was downloaded from the
+Lynne Rienner Publishers website
+www.rienner.com
+
+Contents
+
+Foreword, Peter Wallensteen
+Acknowledgments
+
+ix
+xi
+
+1
+
+Peacebuilding in Theory and Practice
+Pamina Firchow and Harry Anastasiou
+
+1
+
+2
+
+The Peace Triangle:
+Capturing Peace After Military Victory in Sri Lanka
+Kristine Höglund, Mimmi Söderberg Kovacs, and
+Waradas Thiyagaraja
+
+3
+
+4
+
+5
+
+6
+
+7
+
+9
+
+Development and Peacebuilding:
+Dam Construction and Violence in the Amazon
+Anderson Freitas and Francis Lethem
+
+35
+
+Religion and Peacebuilding:
+Human Insecurity and the Colonial Legacy in Myanmar
+Giorgio Shani and Sana Saeed
+
+65
+
+Gender and Peacebuilding:
+Hybridity and Friction in the Pacific Islands
+Nicole George and Chantelle Doerksen
+
+81
+
+Refugees and Peacebuilding:
+“Poor Country Problems” in
+Cambodia and Bosnia-Herzegovina
+Sharon Edington and Caroline Hughes
+Engaging the Liberal Peace Paradigm:
+The Case of Rotary International
+Pamina Firchow
+vii
+
+109
+
+127
+
+viii
+
+Contents
+
+Appendix: Rotary International’s Contribution to Peace
+Harry Anastasiou
+
+137
+
+References
+The Contributors
+Index
+About the Book
+
+145
+166
+169
+180
+
+1
+Peacebuilding in
+Theory and Practice
+Pamina Firchow and Harry Anastasiou
+
+Peacebuilding is a term that spans a wide array of activities
+influencing sustainable peace in different phases of conflict. It can be found
+at all points on the war to peace continuum, but it attends primarily to the
+requirements of conflict-affected communities. This includes concerns
+related to development, security, legal and institutional reform, peace education, and indigenous peacemaking efforts. Because the term is so broad, it
+can also be easily co-opted and used by local and international actors to
+promote programs that do not build peace. In this regard, there are examples, such as the Iraq war, where conflict resolution and peacebuilding
+processes have been used to win over factions in violent conflicts in an
+attempt to build a bigger coalition to militarily defeat a targeted enemy. In
+instances like these, conflict resolution and peacebuilding knowledge and
+skills can be nefariously coopted into functions of warfare, transforming
+them into instruments of war efforts and skewing their original intentions to
+work for sustainable peace. Yet, many communities have benefited from
+international peacebuilding efforts and studies have found that multilateral,
+United Nations peace operations have made a positive difference on sustainable peace (Doyle and Sambanis 2000), but many others have become
+political pawns or, worse, have borne the brunt of harmful policies that
+were carried out thoughtlessly or, worse yet, imposed on communities without their inclusion. With these communities in mind, we developed this
+book about peacebuilding. We believe that the path to peace is paved with
+good intentions, but can be perilous to maneuver. Therefore, reflection on
+experience and the rigorous study of the components of peace must be a
+fundamental part of any discussions on peacebuilding.
+Most conflicts around the world share some similar general features.
+Scholars in peace and conflict studies have studied the dynamics of conflict
+escalation and the ensuing alienation between rival parties that result in the
+construction of divergent narratives, which often portray mutually exclusive
+worldviews and become a part of the collective memory, precipitating
+1
+
+2
+
+Pamina Firchow and Harry Anastasiou
+
+inverse perspectives, where one side’s hero is the other side’s villain
+(Anastasiou 2002). Although these crucial, dynamic features tend to be
+common to conflicts in general, they do not suffice for helping us understand a particular conflict, especially in diagnosing specific conflicts and
+developing case-specific, appropriate peacebuilding strategies. It is also
+important to acknowledge and attend to the equally crucial fact that the specific structure and content of conflicts—be they local, national, international, or global—vary widely. For this very reason, any elaboration on peacebuilding theories and practice requires not only knowledge of the general
+features of certain conflict dynamics but also a focused knowledge of the
+unique and localized features of each conflict, that is, of the sui generis
+nature of each conflict analyzed.
+In peace and conflict studies, the relationship between theory and practice is historically dynamic and highly interactive. The momentum of this
+relationship flows not only from theory to practice but from practice to theory. On one hand, the professional peacebuilding community seeks to
+develop intellectual frameworks on the theoretical plane that are credible,
+stable, and sustainable enough to facilitate understanding and accurate
+appraisal of conflict and peacebuilding pathways. On the other hand, the
+professional peacebuilding community is challenged to be cognizant of historical change and varying cultural contexts, with the emergence of new
+phenomena that inevitably test and pose critical questions for theories of
+conflict and peacebuilding. At this critical juncture, the interactivity
+between theory and practice gravitates from the latter to the former.
+We are presently at a historical juncture where the practice of peacebuilding is encountering novel phenomena that must inform and further
+develop peace and conflict theory. These include rising postsecularist
+trends with the resurgence of religiosity in nationalist and civilizational
+narratives; the novel challenges that globalization poses to the traditional
+role of the nation-state; the crisis in legitimacy in the sphere of governance vis-à-vis populist discontentment, minority rights, and militant
+insurgencies; the religiously justified militancy of terrorism; the increasing examination of the liberal peace perspective as one that tacitly endorses and is party to economic injustices and power asymmetries—these are
+but a few of the pressing phenomena the peace and conflict studies community is called to attend. Many of these challenges inevitably and intentionally become the focus of attention for peace scholars and peace practitioners, who strive to effectively contribute to the theory and practice of
+peacebuilding as catalytic mechanisms for positive and constructive
+sociopolitical change in the world.
+In light of this perspective, the chapters in this volume integrate peacebuilding theories and the practical exigencies of the conflicts analyzed. The
+authors not only take conflict analysis and peacebuilding theories deep into
+
+Peacebuilding in Theory and Practice
+
+3
+
+the unique structure and content of the conflicts, but they also elaborate further theoretical perspectives that update and facilitate the development of
+peace and conflict theory, including peacebuilding theory in particular.
+Why Peacebuilding in Theory and Practice?
+Peace and conflict studies has had an active place in academia since the
+1950s and secured its role with the establishment of important journals such
+as the Journal of Peace Research and the Journal of Conflict Resolution,
+which are now among some of the highest ranked and well-respected journals in the social sciences. Several university programs sprung up during
+this time, such as the University of Bradford’s program, which began with
+the appointment of Adam Curle in 1973, and the establishment of the
+Department of Peace and Conflict Research at Uppsala University in 1971.
+Today, there are more than 400 university peace and conflict studies programs, with more emerging. Journals such as the Journal of Peacebuilding
+and Development and the journal Peacebuilding have been more recently
+established. The field continues to grow, and this has allowed for a progression of theories to develop surrounding questions on the causes of peace,
+the causes of war, the mitigation of peace and war, models of conflict resolution and transformation, protracted social conflict, the relationship
+between human rights and peace and between development and peacebuilding, etc. In contrast to war studies and security studies, the field of peace
+and conflict studies (also referred to as peace research or conflict analysis
+and resolution) focuses on the normative goal of resolving conflicts and
+moving toward what Johan Galtung called positive peace—the goal of
+peace through legitimacy and justice, eliminating the underlying structural
+issues that lead to war (Galtung 1969b).
+Unlike classical political science and current security studies, the perspective of peace and conflict studies is not exclusively concerned with raw
+power dynamics and potential or actual hard power as the dominant determinants of the political world. Peace and conflict studies assumes a stance
+that is critically cognizant of the degree to which these elements are maintained as the dominant determinants and how the political world, nationally
+and internationally, becomes increasingly shaped in the direction of conflict
+and uncertainty, creating and sustaining the very anarchic world that the socalled realist theory of international relations promotes in its prioritization
+of raw power as the primary modality of international relations. Rather, in
+transcending but also complementing key aspects of classical political science and current security studies, the perspective of peace and conflict studies prioritizes a normative approach, where power relations are diagnostically attended and equally as important as the nature of relationships
+between groups, nations, and civilizations. In doing so, the approach of
+
+4
+
+Pamina Firchow and Harry Anastasiou
+
+peace and conflict studies lies in seeking and fostering perspectives and
+strategies that facilitate and orient historical change toward power symmetries, socioeconomic justice, human rights, and sustainable cultural diversities as the foundations for restructured relationships in the interest of peace
+and thus security.
+The Practice and Theory Divide
+The application and utility of peace and conflict studies theories for students of peace have not always been apparent, and there is an underlying
+tension in the field between peacebuilding practitioners and those who
+study peace. The applicability of theories created by scholars is sometimes
+contested, and there is a disconnect between the realities practitioners face
+and the theories scholars produce. Students are often eager to grasp how
+these lacunae may be bridged and how they can find ways for real-world
+application of what they learn in the classroom.
+When dealing with concrete problems in the international development
+and peacebuilding fields, practitioners have often seen academic social scientists as esoteric. The ivory tower that surrounds these so-called experts
+gives them the immunity to debate trivial minutiae and impractical theories.
+The value attributed to critical thinking in scholarly work creates an environment where scholars are encouraged to criticize but do little to be constructive apart from offering some abstract policy recommendations every
+now and then. However, as Robert Chambers has pointed out, this can be
+salutary (Chambers 1983). Critical thinking can lead scholars to find that
+women’s involvement in peace processes is fundamental to their success,
+that trickle-down economics usually doesn’t work, or that development
+projects can sometimes harm the lives of their intended recipients. These
+are all ways scholars have helped dispel myths and assumptions held by
+practitioners and policymakers by applying a critical lens to their research.
+Yet these studies often don’t offer alternatives, or in the cases where alternatives are offered, these are not always empirically tested.
+Arguably, this division has diminished since the advent of the Internet
+with communication between scholars and practitioners through blogs and
+online magazine and newspaper articles. However, this is often more of a
+one-way street, with academics promoting their findings to policymakers
+with little discussion or interaction. The agenda of what is researched and
+highlighted is led by the scholar rather than the practitioner—and definitely
+not by the recipient of any policy or social analysis.
+Many scholars are removed from their communities and the individuals
+they study through surveys or statistical analysis and, more recently, units
+established by research universities to conduct fieldwork. These research
+units have become common at most of the top research universities in the
+United States and allow faculty to get grants to support fieldwork they don’t
+
+Peacebuilding in Theory and Practice
+
+5
+
+actually conduct themselves. Of course, this kind of distance from the
+researched has existed for decades through the survey process and by hiring
+fieldworkers and enumerators in the field to conduct survey work for later
+analysis by experts.
+Among other objectives, this book constitutes an effort at filling this
+gap—tackling peacebuilding challenges from both theoretical and practical
+perspectives. The authors include the faculty and students (former or current) of the Rotary Peace Centers at the University of Bradford, UK;
+Uppsala University, Sweden; International Christian University, Japan; the
+University of Queensland, Australia; and the joint center of Duke
+University and the University of North Carolina at Chapel Hill, United
+States. Founded and supported by Rotary International since 2002, the centers offer a master’s program of academic and practical training in peace
+and conflict studies for Rotary Peace Fellows, students selected from
+around the world. This book provides a window on the important work of
+these centers, as well as a basis for current and future scholars, alumni,
+Rotarians, and faculty to understand the work and perspective of other centers in the area of peacebuilding.
+A Global Cross Section of
+the State of the Art in Peacebuilding
+Peace and conflict studies is inevitably a multidisciplinary and sometimes
+interdisciplinary field, and this is reflected in the chapters in this volume.
+Although the majority of the chapters are admittedly heavily influenced by
+political science and international relations, they also demonstrate how
+methods and literature from anthropology, psychology, sociology, and other
+disciplines influence peace and conflict studies. The topics represent the
+current wider debates that exist in the literature on peacebuilding and
+engage with questions of the effect of development on peacebuilding, the
+liberal peace, interfaith peacebuilding, the role of gender and peacebuilding,
+and the evolution of traditional peace theories, among others.
+Following this introduction, Chapter 2, by Kristine Höglund, Mimmi
+Söderberg Kovacs, and Waradas Thiyagaraja, makes use of a conceptual
+tool—the Peace Triangle—which was developed to capture the character
+and quality of peace in postwar societies. The Peace Triangle has its theoretical foundation in the Conflict Triangle, originally developed by Johan
+Galtung for analyzing the complexity of armed conflicts. The Peace
+Triangle analyzes three essential dimensions on which to determine the
+quality of peace in postwar societies: residual conflict issues, conflict
+behavior, and attitudes between the parties. Though it was initially designed
+to capture the nature of peace in societies where the parties have reached a
+negotiated settlement, here the framework is applied to the case of Sri
+Lanka, where the war between the government and the separatist Liberation
+
+6
+
+Pamina Firchow and Harry Anastasiou
+
+Tigers of Tamil Eelam came to an end with military victory in 2009. As part
+of their analysis, the authors discuss the relationship among the elements of
+the Peace Triangle, the challenges those elements pose for establishing a
+sustainable peace, and the implications for policymakers concerned with
+peacebuilding efforts. Chapter 2 is reflective of efforts to uncover the structural basis for peace in postconflict contexts and, in this case, after military
+victory.
+Chapter 3, by Anderson Freitas and Francis Lethem, exemplifies the multidisciplinary and holistic approach to peacebuilding and conflict-sensitive
+sustainable development adopted by the Duke-UNC Rotary Peace Center.
+The chapter deals with the Brazilian government’s plan to construct several
+large hydropower dams in the Amazon region. These dams play a central
+role in the country’s current energy strategy, which is designed to ensure
+that energy supply meets the demand generated by anticipated economic
+growth in the next two decades. Nevertheless, they have become the object
+of violent conflict involving the indigenous groups that oppose them and
+the workers who are building them. As they examine the various factors
+leading to that conflict and consider strategies for mitigation, Freitas and
+Lethem look into the history of Brazil’s relations with indigenous peoples,
+the emergence of national development priorities that affect areas traditionally occupied by them, environmental issues, and international concerns
+about human rights.
+Chapter 4, by Giorgio Shani and Sana Saeed, reflects the growing interest in religion and interfaith peacebuilding in the field of peace and conflict
+studies. The authors approach peace and conflict studies from a “postsecular” standpoint, which entails an engagement with the multiple religiouscultural contexts in which human dignity is embedded. They focus in this
+chapter on the nexus between human security, secularism, and religion in
+Myanmar, and in particular on the statelessness of the Rohingya Muslim
+community in Rakhine State. They also provide some more general reflections on the role of religion and interfaith movements in peacebuilding and
+reconciliation today.
+In Chapter 5, Nicole George and Chantelle Doerksen engage scholarly
+discussions on the liberal peace and present a critique of hybrid approaches
+to conflict transformation. Approaching these issues from a gendered perspective, they examine the complex politics that surround women’s peacebuilding work in the Pacific Islands. The case study is that of FemLINK, a
+Fiji-based women’s media organization committed to promoting gender
+security in a country that has experienced four coups in the past thirty years.
+Chapter 6, by Sharon Edington and Caroline Hughes, focuses on how
+liberal approaches to peacebuilding and humanitarian intervention—considered radical during the Cold War—have been increasingly co-opted to
+
+Peacebuilding in Theory and Practice
+
+7
+
+oppressive ends since the 1990s. Presenting the cases of the resettlement
+of Cambodian refugees in the early 1990s and the plight of the stateless
+Roma populations in the Baltic states today, the authors demonstrate how
+the treatment of displaced populations, excluded from liberal models of
+citizenship, is a key example of the uneven and typically unquestioned
+power relations implicit in the post–Cold War liberal peace. They also
+assess alternatives that incorporate respect for the dignity and knowledge
+of local populations.
+In the concluding chapter, Pamina Firchow presents the example of
+Rotary International as a case study of a civil society organization that joins
+actors from the global North and global South to implement service projects
+that emulate liberal models and integrate indigenous knowledge and
+prowess. She discusses some of the limitations of this model and the serviceoriented approach. Finally, the Appendix by Harry Anastasiou provides a
+historical overview of Rotary’s role in peacebuilding.
+The Parameters of Peacebuilding
+The contributions to this volume demonstrate the expansive and elastic
+nature of peacebuilding. As we have already discussed, the concept spans a
+vast amount of interventions and activities in conflict-affected contexts and
+is often difficult to delineate. As illustrated by the contributions herein,
+peacebuilding clearly overlaps significantly with many other types of interventions, including development, human rights, and humanitarianism
+(Firchow and Mac Ginty 2013).
+Figure 1.1 on the next page demonstrates the parameters of peacebuilding. Although peacebuilding constitutes a subset of activities in conflictaffected contexts such as mediation, negotiation, and dialogue, it also
+encompasses elements from other areas. For example, there is significant
+overlap between peacebuilding and rule of law interventions, as there is
+between statebuilding and peacebuilding activities, and so on. Essentially,
+those activities with an explicit normative goal of establishing peace and the
+transformation of conflict are considered part of the extended sphere of
+peacebuilding activities. This volume gives us an intimation of many of
+these sectors and presents the tensions that often arise between them. By
+better understanding the relationship between peacebuilding and its overlapping areas, we begin to make the transformation of conflict into a palpable
+reality. The following chapters represent an attempt to understand these
+intersections and apply theoretical approaches to real-world problems in the
+pursuit of peace.
+
+8
+
+Figure 1.1 Parameters of Peacebuilding
+
+STATEBUILDING
+
+Peacekeeping,
+Humanitarian
+Aid, and
+Emergency
+Relief
+
+WAR
+
+Power Sharing,
+Constitution Building,
+Multilateral Engagement
+
+RULE OF LAW
+
+Human Rights,
+Transitional Justice
+
+PEACEBUILDING
+
+Mediation, Negotiation, Dialogue,
+Memorialization, Truth Telling, Reconciliation,
+Indigenous Forms of Peacemaking
+
+PEACE CULTURE
+
+Peace Education,
+Journalism, Art
+
+DEVELOPMENT
+
+Infrastructure,
+Public Health,
+Agriculture
+
+SECURITY
+
+Stabilization, Disarmament,
+Security Sector Reform
+
+RECONCILIATION
+
+

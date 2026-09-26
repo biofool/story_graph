@@ -1,0 +1,3136 @@
+{
+ "name": "yoga_abuse_sheet",
+ "description": "Migrated from scripts/13_ingest_yoga_abuse_sheet.py (now deleted).",
+ "migrated_from": "scripts/13_ingest_yoga_abuse_sheet.py",
+ "nodes": [
+  {
+   "id": "person:reddit-ronswansong87",
+   "type": "Person",
+   "label": "u/RonSwanSong87 (Reddit)",
+   "canonical_name": "u/RonSwanSong87 (Reddit)",
+   "metadata": {
+    "role": "reddit_researcher",
+    "username": "RonSwanSong87",
+    "subreddit": "yoga",
+    "note": "Reddit user who compiled and shared the 'Your Guru Was Probably An Abuser' yoga abuse research spreadsheet. Claims ASSERTED_BY this node are their research compilation, pending independent corroboration."
+   },
+   "source_urls": [
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "work:reddit:yoga-1mxe4ua",
+   "type": "Work",
+   "label": "Your Guru Was Probably An Abuser - resource to educate about abuse in Yoga",
+   "canonical_name": null,
+   "metadata": {
+    "url": "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/",
+    "platform": "reddit",
+    "subreddit": "yoga",
+    "work_type": "reddit_post",
+    "post_id": "1mxe4ua",
+    "post_date": "2025-08-22",
+    "note": "Reddit post sharing a yoga/spiritual abuse research compilation. Links to a Google Sheet with per-guru abuse profiles, sources, and background resources."
+   },
+   "source_urls": [
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "work:googlesheets:yoga-abuse-research",
+   "type": "Work",
+   "label": "Yoga/Spiritual Abuse Research Compilation (Google Sheets)",
+   "canonical_name": null,
+   "metadata": {
+    "url": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "platform": "Google Sheets",
+    "work_type": "research_compilation",
+    "shared_via": "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/",
+    "note": "Google Sheets research compilation by u/RonSwanSong87 tracking yoga/spiritual gurus and organizations with abuse allegations, their sources, and background resources. Shared via Reddit post r/yoga/1mxe4ua."
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yogi-bhajan",
+   "type": "Person",
+   "label": "Yogi Bhajan",
+   "canonical_name": "yogi bhajan",
+   "metadata": {
+    "abuse_profile": "Cult dynamics, sexual abuse, rape, child abuse, psychological abuse, financial abuse, fraud, drug smuggling, physical abuse, questionable lineage / origins, lies and deceit, power abuse",
+    "aliases": [],
+    "extraction_source": "known_list",
+    "life_dates": "8/26/1929 - 10/6/2004 (75)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://alchetron.com/Father-Yod",
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://en.wikipedia.org/wiki/Father_Yod",
+    "https://en.wikipedia.org/wiki/Yogi_Bhajan",
+    "https://escholarship.org/content/qt6r63q6qn/qt6r63q6qn_noSplash_fbbba186685c0619c35208f88b1f29ec.pdf",
+    "https://grokipedia.com/page/The_Source_Family",
+    "https://military-history.fandom.com/wiki/Father_Yod",
+    "https://pleasekillme.com/father-yod/",
+    "https://www.3ho.org/yogi-bhajan-our-founder/",
+    "https://www.atlasobscura.com/articles/the-source-family-father-yod-cult-roots-of-health-food",
+    "https://www.latimes.com/entertainment-arts/music/story/2023-04-12/source-family-cult-l-a-father-yod-mark-ruffalo-rick-rubin-vegetarian-restaurant",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/",
+    "https://www.theguardian.com/music/2022/dec/21/father-yod-the-1970s-cult-leader-whose-wild-psychedelia-was-more-suited-to-disneyland-than-dive-bars"
+   ]
+  },
+  {
+   "id": "person:yoga-harbhajan-singh-puri",
+   "type": "Person",
+   "label": "Harbhajan Singh Puri",
+   "canonical_name": "Harbhajan Singh Puri",
+   "metadata": {
+    "abuse_profile": "Cult dynamics, sexual abuse, rape, child abuse, psychological abuse, financial abuse, fraud, drug smuggling, physical abuse, questionable lineage / origins, lies and deceit, power abuse",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "8/26/1929 - 10/6/2004 (75)",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-guru-jagat",
+   "type": "Person",
+   "label": "Guru Jagat",
+   "canonical_name": "Guru Jagat",
+   "metadata": {
+    "abuse_profile": "Cult dynamics, psychological/emotional abuse, financial abuse, labor abuse, rape apologist, power abuse extension of Kundalini Yoga abuse (see above)",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "8/30/1979 - 8/1/2021 (41)",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-katie-griggs",
+   "type": "Person",
+   "label": "Katie Griggs",
+   "canonical_name": "Katie Griggs",
+   "metadata": {
+    "abuse_profile": "Cult dynamics, psychological/emotional abuse, financial abuse, labor abuse, rape apologist, power abuse extension of Kundalini Yoga abuse (see above)",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "8/30/1979 - 8/1/2021 (41)",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-bikram-choudhury",
+   "type": "Person",
+   "label": "Bikram Choudhury",
+   "canonical_name": "Bikram Choudhury",
+   "metadata": {
+    "abuse_profile": "Cult dynamics, rape, sexual assault, psychological / emotional abuse, racial abuse lies and deceit, questionable / false origin story, power abuse, physical abuse attempting to copyright \"yoga\", physical abuse, malice/oppression/fraud harassment, fugitive (fled US after allegations)",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "b: 1944. (81)",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-osho",
+   "type": "Person",
+   "label": "Osho",
+   "canonical_name": "Osho",
+   "metadata": {
+    "abuse_profile": "***Cult dynamics, rape, sexual abuse, child sexual abuse, exploitation, biochemical terrorism mass sterilization, psychological / emotional abuse, physical abuse, labor abuse financial abuse",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "12/11/1931 - 1/19/1990 (58)",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:bhagwan-shree-rajneesh",
+   "type": "Person",
+   "label": "Bhagwan Shree Rajneesh",
+   "canonical_name": "bhagwan shree rajneesh",
+   "metadata": {
+    "abuse_profile": "***Cult dynamics, rape, sexual abuse, child sexual abuse, exploitation, biochemical terrorism mass sterilization, psychological / emotional abuse, physical abuse, labor abuse financial abuse",
+    "aliases": [],
+    "extraction_source": "gemini",
+    "life_dates": "12/11/1931 - 1/19/1990 (58)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.interviewmagazine.com/film/the-source-family",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-ma-anand-sheela",
+   "type": "Person",
+   "label": "Ma Anand Sheela",
+   "canonical_name": "Ma Anand Sheela",
+   "metadata": {
+    "abuse_profile": "***Cult dynamics, rape, sexual abuse, child sexual abuse, exploitation, biochemical terrorism mass sterilization, psychological / emotional abuse, physical abuse, labor abuse financial abuse",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "12/11/1931 - 1/19/1990 (58)",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-k-pattabhi-jois",
+   "type": "Person",
+   "label": "K. Pattabhi Jois",
+   "canonical_name": "K. Pattabhi Jois",
+   "metadata": {
+    "abuse_profile": "cult dynamics, sexual abuse (inappropriate assists / adjustments), psychological / emotional abuse, physical abuse (assists / adjustments), financial abuse",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "7/26/1915 - 5/18/2009",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-swami-satchidananda-saraswati",
+   "type": "Person",
+   "label": "(Swami) Satchidananda Saraswati",
+   "canonical_name": "(Swami) Satchidananda Saraswati",
+   "metadata": {
+    "abuse_profile": "rape, sexual manipulation and abuse",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "12/22/1914 - 8/19/2002",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-muktananda",
+   "type": "Person",
+   "label": "Muktananda",
+   "canonical_name": "Muktananda",
+   "metadata": {
+    "abuse_profile": "rape, sexual abuse, molestation (minors)",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "5/16/1908 - 10/2/1982",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-krishna-ravi",
+   "type": "Person",
+   "label": "Krishna Ravi",
+   "canonical_name": "Krishna Ravi",
+   "metadata": {
+    "abuse_profile": "rape, sexual abuse, molestation (minors)",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "5/16/1908 - 10/2/1982",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-swami-akhandananda-saraswati",
+   "type": "Person",
+   "label": "Swami Akhandananda Saraswati",
+   "canonical_name": "Swami Akhandananda Saraswati",
+   "metadata": {
+    "abuse_profile": "sexual abuse",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:swami-vishnudevananda",
+   "type": "Person",
+   "label": "Swami Vishnudevananda",
+   "canonical_name": "swami vishnudevananda",
+   "metadata": {
+    "abuse_profile": "rape, coercion, sexual abuse",
+    "aliases": [],
+    "extraction_source": "gemini",
+    "life_dates": "12/31/1927 - 11/9/1993",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.3ho.org/yogi-bhajan-our-founder/",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-senior-teachers",
+   "type": "Person",
+   "label": "senior teachers",
+   "canonical_name": "senior teachers",
+   "metadata": {
+    "abuse_profile": "rape, coercion, sexual abuse",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "12/31/1927 - 11/9/1993",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-kausthub-desikachar",
+   "type": "Person",
+   "label": "Kausthub Desikachar",
+   "canonical_name": "Kausthub Desikachar",
+   "metadata": {
+    "abuse_profile": "psycholigical abuse / initimidation, sexual assault",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "1975",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-neem-karoli-baba",
+   "type": "Person",
+   "label": "Neem Karoli Baba",
+   "canonical_name": "Neem Karoli Baba",
+   "metadata": {
+    "abuse_profile": "sexual abuse, psychological abuse, physical abuse",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "d. 9/11/1973",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-sathya-sai-baba",
+   "type": "Person",
+   "label": "Sathya Sai Baba",
+   "canonical_name": "Sathya Sai Baba",
+   "metadata": {
+    "abuse_profile": "sexual abuse, money laundering, fraud, murder",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "11/23/1926 - 4/24/2011",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-swami-rama",
+   "type": "Person",
+   "label": "Swami Rama",
+   "canonical_name": "Swami Rama",
+   "metadata": {
+    "abuse_profile": "sexual abuse",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-manouso-manos",
+   "type": "Person",
+   "label": "Manouso Manos",
+   "canonical_name": "Manouso Manos",
+   "metadata": {
+    "abuse_profile": "sexual misconduct, emotional abuse, verbal abuse, inappropriate touching / adjustments",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-rod-stryker",
+   "type": "Person",
+   "label": "Rod Stryker",
+   "canonical_name": "Rod Stryker",
+   "metadata": {
+    "abuse_profile": "psychological manipulation / abuse, sexual abuse",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-amrit-desai",
+   "type": "Person",
+   "label": "Amrit Desai",
+   "canonical_name": "Amrit Desai",
+   "metadata": {
+    "abuse_profile": "sexual abuse",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-baron-baptisite",
+   "type": "Person",
+   "label": "Baron Baptisite",
+   "canonical_name": "Baron Baptisite",
+   "metadata": {
+    "abuse_profile": "cult dynamics, psychological / emotional abuse, sexual abuse,",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-john-friend",
+   "type": "Person",
+   "label": "John Friend",
+   "canonical_name": "John Friend",
+   "metadata": {
+    "abuse_profile": "sexual affairs (w/ students), economic / financial abuse, drug smuggling, psychological abuse",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-ruth-lauer-manenti",
+   "type": "Person",
+   "label": "Ruth Lauer Manenti",
+   "canonical_name": "Ruth Lauer Manenti",
+   "metadata": {
+    "abuse_profile": "psychological / emotional abuse, sexual coercion / affair (w/ student)",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-geshe-michael-roach",
+   "type": "Person",
+   "label": "Geshe Michael Roach",
+   "canonical_name": "Geshe Michael Roach",
+   "metadata": {
+    "abuse_profile": "cult dynamics, psychological / emotional abuse, sexual abuse / affair, manslaughter / murder",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-christie-mcnally",
+   "type": "Person",
+   "label": "Christie McNally",
+   "canonical_name": "Christie McNally",
+   "metadata": {
+    "abuse_profile": "cult dynamics, psychological / emotional abuse, sexual abuse / affair, manslaughter / murder",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-sri-sri-ravi-shankar",
+   "type": "Person",
+   "label": "Sri Sri Ravi Shankar",
+   "canonical_name": "Sri Sri Ravi Shankar",
+   "metadata": {
+    "abuse_profile": "cult dynamics, psychological / emotional abuse, financial abuse, land rights abuse,",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-sadhguru",
+   "type": "Person",
+   "label": "Sadhguru",
+   "canonical_name": "Sadhguru",
+   "metadata": {
+    "abuse_profile": "Cult dynamics, corruption, emotional / psychological abuse, financial abuse, labor exploitation land abuse, suspected murder / mysterious deaths, sexual assault / abuse / rape including children immigration, identity, tax fraud",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-jaggi-vasudev",
+   "type": "Person",
+   "label": "Jaggi Vasudev",
+   "canonical_name": "Jaggi Vasudev",
+   "metadata": {
+    "abuse_profile": "Cult dynamics, corruption, emotional / psychological abuse, financial abuse, labor exploitation land abuse, suspected murder / mysterious deaths, sexual assault / abuse / rape including children immigration, identity, tax fraud",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-ana-forrest",
+   "type": "Person",
+   "label": "Ana Forrest",
+   "canonical_name": "Ana Forrest",
+   "metadata": {
+    "abuse_profile": "cult dynamics, psychological abuse, financial abuse, blatant cultural appropriation, trauma abuse",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-bks-iyengar",
+   "type": "Person",
+   "label": "BKS Iyengar",
+   "canonical_name": "BKS Iyengar",
+   "metadata": {
+    "abuse_profile": "physical abuse, corporal punishment, verbal / psychological abuse",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-t-krishnamacharya",
+   "type": "Person",
+   "label": "T Krishnamacharya",
+   "canonical_name": "T Krishnamacharya",
+   "metadata": {
+    "abuse_profile": "physical abuse, corporal punishment, verbal / psychological abuse",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-johnny-kest",
+   "type": "Person",
+   "label": "Johnny Kest",
+   "canonical_name": "Johnny Kest",
+   "metadata": {
+    "abuse_profile": "",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-gregorian-bivolaru",
+   "type": "Person",
+   "label": "Gregorian Bivolaru",
+   "canonical_name": "Gregorian Bivolaru",
+   "metadata": {
+    "abuse_profile": "rape, sex trafficking, sexual abuse, psychological abuse, cult dynamics - large scale",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-amma",
+   "type": "Person",
+   "label": "Amma",
+   "canonical_name": "Amma",
+   "metadata": {
+    "abuse_profile": "sexual abuse, psychological abuse, financial abuse, coercion, cult / high control dynamics",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-taylor-hunt",
+   "type": "Person",
+   "label": "Taylor Hunt",
+   "canonical_name": "Taylor Hunt",
+   "metadata": {
+    "abuse_profile": "sexual misconduct with students, inappropriate / violent adjustments, psychological / verbal abuse",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-mark-whitwell",
+   "type": "Person",
+   "label": "Mark Whitwell",
+   "canonical_name": "Mark Whitwell",
+   "metadata": {
+    "abuse_profile": "rape / sexual abuse / misconduct with students,",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-helena-blavatsky",
+   "type": "Person",
+   "label": "Helena Blavatsky",
+   "canonical_name": "Helena Blavatsky",
+   "metadata": {
+    "abuse_profile": "fraud, grifting, spiritual abuse, financial abuse, extreme racism",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-charles-webster-leadbeater",
+   "type": "Person",
+   "label": "Charles Webster Leadbeater",
+   "canonical_name": "Charles Webster Leadbeater",
+   "metadata": {
+    "abuse_profile": "pedophilia, spiritual abuse,",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "group:yoga-unknown",
+   "type": "Group",
+   "label": "\".  \"",
+   "canonical_name": "\".  \"",
+   "metadata": {
+    "description": "Yoga/spiritual organization researched in Reddit yoga abuse research compilation.",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   },
+   "source_urls": [
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/",
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit"
+   ]
+  },
+  {
+   "id": "person:yoga-guru-namito",
+   "type": "Person",
+   "label": "Guru Namito",
+   "canonical_name": "Guru Namito",
+   "metadata": {
+    "abuse_profile": "sexual abuse, fraud, deception, psychological abuse, coercion, cult / high control group dynamics",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-risi-srivaso",
+   "type": "Person",
+   "label": "Risi SriVaso",
+   "canonical_name": "Risi SriVaso",
+   "metadata": {
+    "abuse_profile": "sexual abuse, fraud, deception, psychological abuse, coercion, cult / high control group dynamics",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-rakesh-ranjan",
+   "type": "Person",
+   "label": "Rakesh Ranjan",
+   "canonical_name": "Rakesh Ranjan",
+   "metadata": {
+    "abuse_profile": "sexual abuse, fraud, deception, psychological abuse, coercion, cult / high control group dynamics",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-naadar-shagigi",
+   "type": "Person",
+   "label": "Naadar Shagigi",
+   "canonical_name": "Naadar Shagigi",
+   "metadata": {
+    "abuse_profile": "sexual abuse, psychological abuse",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-swami-akhandananda",
+   "type": "Person",
+   "label": "Swami Akhandananda",
+   "canonical_name": "Swami Akhandananda",
+   "metadata": {
+    "abuse_profile": "child sexual abuse, rape, psychological abuse / manipulation, torture, coercion, physical abuse",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  },
+  {
+   "id": "person:yoga-swami-satyananda-saraswati",
+   "type": "Person",
+   "label": "Swami Satyananda Saraswati",
+   "canonical_name": "Swami Satyananda Saraswati",
+   "metadata": {
+    "abuse_profile": "",
+    "description": "Yoga/spiritual teacher researched in Reddit yoga abuse research compilation.",
+    "life_dates": "",
+    "source": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "yoga_abuse_sheet": true
+   },
+   "source_urls": [
+    "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "DESCRIBES",
+   "dst_id": "work:googlesheets:yoga-abuse-research",
+   "metadata": {
+    "evidence": "Reddit post links to the Google Sheet"
+   }
+  },
+  {
+   "src_id": "person:yogi-bhajan",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:international-kundalini-yoga-teachers-association",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yogi-bhajan",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-3ho-happy-healthy-holy-organization",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yogi-bhajan",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:sikh-dharma-international",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yogi-bhajan",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-kri",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yogi-bhajan",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yogi-tea",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-harbhajan-singh-puri",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:international-kundalini-yoga-teachers-association",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-harbhajan-singh-puri",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-3ho-happy-healthy-holy-organization",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-harbhajan-singh-puri",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:sikh-dharma-international",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-harbhajan-singh-puri",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-kri",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-harbhajan-singh-puri",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yogi-tea",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yogi-bhajan",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yogi-bhajan",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-harbhajan-singh-puri",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-harbhajan-singh-puri",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:international-kundalini-yoga-teachers-association",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:international-kundalini-yoga-teachers-association",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-3ho-happy-healthy-holy-organization",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-3ho-happy-healthy-holy-organization",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:sikh-dharma-international",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:sikh-dharma-international",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-kri",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-kri",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yogi-tea",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yogi-tea",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-guru-jagat",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:international-kundalini-yoga-teachers-association",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-guru-jagat",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-ra-ma-institute",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-guru-jagat",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-guru-jagat-ig",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-guru-jagat",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-reality-riffing-with-guru-jagat-podcast",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-katie-griggs",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:international-kundalini-yoga-teachers-association",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-katie-griggs",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-ra-ma-institute",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-katie-griggs",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-guru-jagat-ig",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-katie-griggs",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-reality-riffing-with-guru-jagat-podcast",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-guru-jagat",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-guru-jagat",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-katie-griggs",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-katie-griggs",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-ra-ma-institute",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-ra-ma-institute",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-guru-jagat-ig",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-guru-jagat-ig",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-reality-riffing-with-guru-jagat-podcast",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-reality-riffing-with-guru-jagat-podcast",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-bikram-choudhury",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-bikram-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-bikram-choudhury",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-bikram-choudhury",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-bikram-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-bikram-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-osho",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-osho",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-osho",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-rajneeshpuram",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-osho",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-dynamic-meditation",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:bhagwan-shree-rajneesh",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-osho",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:bhagwan-shree-rajneesh",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-rajneeshpuram",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:bhagwan-shree-rajneesh",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-dynamic-meditation",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-ma-anand-sheela",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-osho",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-ma-anand-sheela",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-rajneeshpuram",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-ma-anand-sheela",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-dynamic-meditation",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-osho",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-osho",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:bhagwan-shree-rajneesh",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:bhagwan-shree-rajneesh",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-ma-anand-sheela",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-ma-anand-sheela",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-osho",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-osho",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-rajneeshpuram",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-rajneeshpuram",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-dynamic-meditation",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-dynamic-meditation",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-k-pattabhi-jois",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-ashtanga-vinyasa",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-k-pattabhi-jois",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-kpjayi",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-k-pattabhi-jois",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-k-pattabhi-jois",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-ashtanga-vinyasa",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-ashtanga-vinyasa",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-kpjayi",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-kpjayi",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-swami-satchidananda-saraswati",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-integral-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-swami-satchidananda-saraswati",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-swami-satchidananda-saraswati",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-integral-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-integral-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-muktananda",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-siddha-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-krishna-ravi",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-siddha-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-muktananda",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-muktananda",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-krishna-ravi",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-krishna-ravi",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-siddha-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-siddha-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-swami-akhandananda-saraswati",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-sathya",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-swami-akhandananda-saraswati",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-swami-akhandananda-saraswati",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-sathya",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-sathya",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:swami-vishnudevananda",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-sivananda",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-senior-teachers",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-sivananda",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:swami-vishnudevananda",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:swami-vishnudevananda",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-senior-teachers",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-senior-teachers",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-sivananda",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-sivananda",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-kausthub-desikachar",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-son-of-tvk-desikachar-grandson-of-t-krishnamacharya",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-kausthub-desikachar",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-kausthub-desikachar",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-son-of-tvk-desikachar-grandson-of-t-krishnamacharya",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-son-of-tvk-desikachar-grandson-of-t-krishnamacharya",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-neem-karoli-baba",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-bhakti",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-neem-karoli-baba",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-love-serve-remember-foundation-posthumous",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-neem-karoli-baba",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-neem-karoli-baba",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-bhakti",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-bhakti",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-love-serve-remember-foundation-posthumous",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-love-serve-remember-foundation-posthumous",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-sathya-sai-baba",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-sri-sathya-sai",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-sathya-sai-baba",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-sathya-sai-baba",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-sri-sathya-sai",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-sri-sathya-sai",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-swami-rama",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-himalayan-institute-of-yoga-science-and-philosophy",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-swami-rama",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-swami-rama",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-himalayan-institute-of-yoga-science-and-philosophy",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-himalayan-institute-of-yoga-science-and-philosophy",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-manouso-manos",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-iyengar-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-manouso-manos",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-manouso-manos",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-iyengar-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-iyengar-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-rod-stryker",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-para-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-rod-stryker",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-rod-stryker",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-para-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-para-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-amrit-desai",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-kripalu",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-amrit-desai",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-amrit-desai",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-kripalu",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-kripalu",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-baron-baptisite",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-baptiste-power-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-baron-baptisite",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-baron-baptisite",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-baptiste-power-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-baptiste-power-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-john-friend",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-anusara",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-john-friend",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-sridaiva-bowspring",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-john-friend",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-john-friend",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-anusara",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-anusara",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-sridaiva-bowspring",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-sridaiva-bowspring",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-ruth-lauer-manenti",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-jivamukti",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-ruth-lauer-manenti",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-ruth-lauer-manenti",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-jivamukti",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-jivamukti",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-geshe-michael-roach",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-diamond-mountain",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-christie-mcnally",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-diamond-mountain",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-geshe-michael-roach",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-geshe-michael-roach",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-christie-mcnally",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-christie-mcnally",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-diamond-mountain",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-diamond-mountain",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-sri-sri-ravi-shankar",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-art-of-living-aol",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-sri-sri-ravi-shankar",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-sri-sri-ravi-shankar",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-art-of-living-aol",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-art-of-living-aol",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-sadhguru",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-isha-foundation",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-jaggi-vasudev",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-isha-foundation",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-sadhguru",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-sadhguru",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-jaggi-vasudev",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-jaggi-vasudev",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-isha-foundation",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-isha-foundation",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-ana-forrest",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-forrest-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-ana-forrest",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-ana-forrest",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-forrest-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-forrest-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-bks-iyengar",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-bks-iyengar",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-t-krishnamacharya",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-t-krishnamacharya",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-johnny-kest",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-johnny-kest",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-dahn-yoga-body-brain-tai-chi",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-dahn-yoga-body-brain-tai-chi",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-gregorian-bivolaru",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-misa",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-gregorian-bivolaru",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-atman",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-gregorian-bivolaru",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-tara-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-gregorian-bivolaru",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-natha",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-gregorian-bivolaru",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-siddha-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-gregorian-bivolaru",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-different-names-in-different-locations",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-gregorian-bivolaru",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-gregorian-bivolaru",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-misa",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-misa",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-atman",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-atman",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-tara-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-tara-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-natha",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-natha",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-different-names-in-different-locations",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-different-names-in-different-locations",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-amma",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-the-hugging-saint",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-amma",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-amma",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-the-hugging-saint",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-the-hugging-saint",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-taylor-hunt",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-ashtanga-vinyasa",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-taylor-hunt",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-taylor-hunt",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-mark-whitwell",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-the-heart-of-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-mark-whitwell",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-mark-whitwell",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-the-heart-of-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-the-heart-of-yoga",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-helena-blavatsky",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-theosophical-society",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-helena-blavatsky",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-helena-blavatsky",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-theosophical-society",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-theosophical-society",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-charles-webster-leadbeater",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-unknown",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-charles-webster-leadbeater",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-charles-webster-leadbeater",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-unknown",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-unknown",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-guru-namito",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-abhinam-yoga-india-myt-yoga-school-bali",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-risi-srivaso",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-abhinam-yoga-india-myt-yoga-school-bali",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "person:yoga-rakesh-ranjan",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-abhinam-yoga-india-myt-yoga-school-bali",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-guru-namito",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-guru-namito",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-risi-srivaso",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-risi-srivaso",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-rakesh-ranjan",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-rakesh-ranjan",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-abhinam-yoga-india-myt-yoga-school-bali",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-abhinam-yoga-india-myt-yoga-school-bali",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-iskcon-hare-krishna",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-iskcon-hare-krishna",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-iskcon",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-iskcon",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:hare-krishna-movement",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:hare-krishna-movement",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-naadar-shagigi",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-yoga-kingdom-sanctuary-pasadena-ca",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-naadar-shagigi",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-naadar-shagigi",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-yoga-kingdom-sanctuary-pasadena-ca",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-yoga-kingdom-sanctuary-pasadena-ca",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "person:yoga-swami-akhandananda",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:yoga-satyananda-ashram",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)",
+    "source": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+    "verified_independently": false
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-swami-akhandananda",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-swami-akhandananda",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-satyananda-ashram",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:yoga-satyananda-ashram",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:googlesheets:yoga-abuse-research",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-swami-satyananda-saraswati",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  },
+  {
+   "src_id": "work:reddit:yoga-1mxe4ua",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:yoga-swami-satyananda-saraswati",
+   "metadata": {
+    "evidence": "Reddit yoga abuse research compilation (u/RonSwanSong87)"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "source:reddit:yoga-1mxe4ua",
+   "url": "https://www.reddit.com/r/yoga/comments/1mxe4ua/your_guru_was_probably_an_abuser_resource_to/",
+   "title": "Your Guru Was Probably An Abuser - resource to educate about abuse in Yoga",
+   "author": "RonSwanSong87",
+   "publish_date": "2025-08-22",
+   "platform": "reddit/r/yoga",
+   "raw_text": null,
+   "source_class": "comment_thread",
+   "bias_hint": "neutral_ish"
+  },
+  {
+   "id": "source:googlesheets:yoga-abuse-research",
+   "url": "https://docs.google.com/spreadsheets/d/1-pAxlL2_3QvUYtHCb_19t6aHqwH_ZawRH_7h4GDMf3A/edit",
+   "title": "Yoga/Spiritual Abuse Research Compilation",
+   "author": "RonSwanSong87",
+   "publish_date": null,
+   "platform": "Google Sheets (shared via Reddit)",
+   "raw_text": null,
+   "source_class": "comment_thread",
+   "bias_hint": "neutral_ish"
+  }
+ ]
+}

@@ -33,6 +33,10 @@ class FakeGeminiClient:
     def is_available(self) -> bool:
         return True
 
+    @property
+    def stats(self):
+        return {"free_calls": 0, "paid_calls": 0}
+
     def generate_text(self, prompt, *, model=None, system_instruction=None):
         self.calls.append({"prompt": prompt, "system_instruction": system_instruction})
         return self._text

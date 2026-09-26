@@ -1,0 +1,53 @@
+# Daily news-feed ingest + reingest audit (issue #78).
+#
+# ingest_news_feeds.py needs no secrets — it polls public Google News RSS
+# feeds and regex-matches items against the graph's entity surface forms.
+# Its output (graph_snapshot/) is the git-tracked source of truth, so the
+# workflow commits any snapshot diff straight back to the repo. The audit
+# step refreshes data/audit/reingest_candidates.json, the standing report
+# of graph areas worth reingesting when algorithms improve.
+
+name: news-ingest
+
+on:
+  schedule:
+    - cron: "0 7 * * *" # daily, 07:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news-ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # ingest_news_feeds.py + reingest_audit.py only need these three
+      # packages — installing full requirements.txt would pull in spacy,
+      # google-genai, datasette etc. that this job never imports.
+      - run: pip install requests pydantic python-dotenv
+
+      - run: python scripts/ingest_news_feeds.py
+
+      - run: python scripts/reingest_audit.py
+
+      - name: Commit snapshot + audit updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add graph_snapshot data/audit/reingest_candidates.json
+          if git diff --cached --quiet; then
+            echo "No graph changes."
+          else
+            git commit -m "data: scheduled news-feed ingest + reingest audit (#78) [skip ci]"
+            git push
+          fi

@@ -54,6 +54,9 @@ class RelationType(str, Enum):
     HEAD_INSTRUCTOR = "HEAD_INSTRUCTOR"
     RANK_AWARDED = "RANK_AWARDED"
     PUBLISHED = "PUBLISHED"
+    # Facet/work-history extensions
+    WORKED_FOR = "WORKED_FOR"  # person -> person (client/employer)
+    PRODUCED = "PRODUCED"      # group/person -> event/program
 
 
 class ClaimStance(str, Enum):

@@ -1,0 +1,121 @@
+{
+ "name": "ralston_1978_contemporaneous_coverage",
+ "description": "Contemporaneous newspaper corroboration of Ralston's 1978 win (Oakland Tribune Apr 1978, SF Chronicle Sep 1979) + verification notes for the three pillar sources (Black Belt, Parade, Blitz) per 2026-09-25 source-verification pass.",
+ "sources": [
+  {
+   "id": "src:oakland-tribune-1978-04-12",
+   "url": "https://www.newspapers.com/image/735945355/",
+   "title": "'Sweeping Up' sports column — Peter Ralston item",
+   "author": "Oakland Tribune",
+   "publish_date": "1978-04-12",
+   "platform": "Oakland Tribune",
+   "source_class": "journalistic",
+   "bias_hint": "neutral_ish",
+   "note": "Page 25, 'Sweeping Up' sports notes column. Item: 'Peter Ralston, 28, of Oakland recently became the first American ever to win a championship at the Second World Kuoshu Martial Arts Tournament in Taiwan. Ralston, a martial arts instructor himself, won the light-heavyweight title.' OCR extracted via NPC article pipeline; article c484ff0c-3856-11ed-9712-be6fde26ffc7."
+  },
+  {
+   "id": "src:sf-chronicle-1979-09-19",
+   "url": "https://www.newspapers.com/image/1223258844/",
+   "title": "'Parrying the Martial Arts Ripoff' — Bay Area martial arts feature",
+   "author": "Roger Rapoport",
+   "publish_date": "1979-09-19",
+   "platform": "San Francisco Chronicle",
+   "source_class": "journalistic",
+   "bias_hint": "neutral_ish",
+   "note": "Page 4 feature on Bay Area martial-arts-school quality ('Assignment Bay Area' by Roger Rapoport). Photo caption: 'World martial arts champion Peter Ralston (center) leads exercises in his class at the Chen Hsin academy in Oakland.' Ralston used as the exemplar of a legitimate school; billing as world champion is independent editorial usage."
+  },
+  {
+   "id": "src:parade-significa-1982-03-07",
+   "url": "https://archive.org/details/assassxxxxxx00linc",
+   "title": "Significa — 'Yankee Judo Dandy' (Parade magazine, p.18)",
+   "author": "Irving Wallace; David Wallechinsky; Amy Wallace",
+   "publish_date": "1982-03-07",
+   "platform": "Parade magazine (syndicated Sunday supplement)",
+   "source_class": "journalistic",
+   "bias_hint": "neutral_ish",
+   "note": "Page 19 of the LFFC clipbook PDF (IA assassxxxxxx00linc); Commons mirror: https://commons.wikimedia.org/wiki/File:The_assassination_of_Abraham_Lincoln_(IA_assassxxxxxx00linc).pdf. Footer reads 'PARADE MARCH 7, 1982'. SYNDICATION CONFIRMED 2026-09-25: ~60 newspapers.com-indexed papers carried the identical Significa page on Sunday 1982-03-07 (e.g. Journal Star Peoria npc-1349528770 — OCR verbatim match incl. 'weighed 156'; Houston Post, Oregonian, Detroit Free Press...). Mississippi Press 1982-03-04 teased 'The story in Sunday's PARADE' (npc-1158441467)."
+  },
+  {
+   "id": "work:d2e6ce2e18ba",
+   "url": "https://books.google.com/books?id=w9QDAAAAMBAJ",
+   "title": "Black Belt Magazine, December 1978 (Vol. 16, No. 12) — 'Cheng Hsin: Essence of All Martial Arts' pp. 46-49",
+   "author": "Scott Cressey (per Google Books OCR; some secondary refs give 'Cressy')",
+   "publish_date": "1978-12",
+   "platform": "Black Belt magazine (Google Books scan)",
+   "source_class": "journalistic",
+   "bias_hint": "neutral_ish",
+   "note": "VERIFIED 2026-09-25 via Google Books search-within-volume: article begins p.46 ('by Scott Cressey — When the Second World Championship Chinese Martial Arts (kuoshu) Tournament came to a close earlier this year in an auditorium outside Taipei, Taiwan'), continues pp.48-49. Substantial contemporaneous feature in the martial-arts trade press."
+  },
+  {
+   "id": "work:31c61b56873a",
+   "url": "https://doczz.net/doc/3878299/effortless-grab-defences",
+   "title": "Blitz Magazine, August 2011 (Vol. 25, No. 8) — 'The Man Behind Bloodsport?' by Mark Grzic, pp. 70-74",
+   "author": "Mark Grzic",
+   "publish_date": "2011-08",
+   "platform": "Blitz Australasian Martial Arts (doczz.net issue scan)",
+   "source_class": "journalistic",
+   "bias_hint": "neutral_ish",
+   "note": "VERIFIED 2026-09-25: Wayback captures (2014-07-13, 2015-12-22, 2016-01-17) of the official blitzmag.net reproduction 'The Man Behind Bloodsport?' by mark grzic (Masters > Kung Fu section). MA-Mags index confirms Vol 25 No 8 = August 2011. doczz.net hosts the full-issue scan (Blitz Publications, barcode 977081895900). Fit Multimedia reproduces Blitz content."
+  }
+ ],
+ "nodes": [
+  {
+   "id": "claim:tribune:ralston-1978-kuoshu-light-heavyweight",
+   "type": "Claim",
+   "label": "Contemporaneous corroboration: Oakland Tribune (1978-04-12) reports Ralston won the light-heavyweight title at the Second World Kuoshu Martial Arts Tournament in Taiwan",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "Oakland Tribune 'Sweeping Up' column, 1978-04-12: 'Peter Ralston, 28, of Oakland recently became the first American ever to win a championship at the Second World Kuoshu Martial Arts Tournament in Taiwan. Ralston, a martial arts instructor himself, won the light-heavyweight title.' Contemporaneous (weeks after the event), independent, and names the actual tournament — 'Second World Kuoshu Martial Arts Tournament' — matching the Black Belt feature's 'Second World Championship Chinese Martial Arts (kuoshu) Tournament'. NOTE: Tribune says 'first American'; later sources say 'first non-Asian' — preserve the wording difference. '28, of Oakland' corroborates birth ~1949-50 and Oakland residence; 'light-heavyweight' consistent with Parade's 'weighed 156'.",
+    "claim_type": "event_history",
+    "confidence": 0.95,
+    "asserted_by": "src:oakland-tribune-1978-04-12",
+    "status": "asserted"
+   }
+  },
+  {
+   "id": "claim:chronicle:ralston-world-champion-oakland-academy",
+   "type": "Claim",
+   "label": "SF Chronicle (1979-09-19) bills Ralston 'World martial arts champion' leading his Cheng Hsin academy class in Oakland",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "SF Chronicle feature 'Parrying the Martial Arts Ripoff' (Roger Rapoport, 1979-09-19) photo caption: 'World martial arts champion Peter Ralston (center) leads exercises in his class at the Chen Hsin academy in Oakland.' Independent editorial billing of the championship in the hometown metro daily, one year after the win; also documents the Oakland Cheng Hsin academy operating in 1979.",
+    "claim_type": "event_history",
+    "confidence": 0.9,
+    "asserted_by": "src:sf-chronicle-1979-09-19",
+    "status": "asserted"
+   }
+  },
+  {
+   "id": "claim:parade-significa-1982-syndication",
+   "type": "Claim",
+   "label": "The Parade 'Significa' Ralston item ran in ~60 newspapers on Sunday 1982-03-07 — national mass-market reach confirmed",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "Newspapers.com search for the exact item 'Yankee Judo Dandy' returns 10+ papers all dated Sunday 1982-03-07; 'Peter Ralston' martial-arts query returns ~50 more same-date pages (the Parade supplement page in each Sunday paper). Journal Star (Peoria) OCR of npc-1349528770 reproduces the item verbatim, including details not in the truncated clipbook OCR ('5-feet-10, weighed 156'). Mississippi Press 1982-03-04 ran a teaser: 'The story in Sunday's PARADE.' Confirms the Parade citation's date, page (p.18), and national syndicated reach.",
+    "claim_type": "source_verification",
+    "confidence": 0.95,
+    "asserted_by": "src:parade-significa-1982-03-07",
+    "status": "asserted"
+   }
+  }
+ ],
+ "claim_sources": [
+  {"claim_id": "claim:tribune:ralston-1978-kuoshu-light-heavyweight", "source_id": "src:oakland-tribune-1978-04-12"},
+  {"claim_id": "claim:chronicle:ralston-world-champion-oakland-academy", "source_id": "src:sf-chronicle-1979-09-19"},
+  {"claim_id": "claim:parade-significa-1982-syndication", "source_id": "src:parade-significa-1982-03-07"},
+  {"claim_id": "claim:ralston-1978-world-championship", "source_id": "src:oakland-tribune-1978-04-12"},
+  {"claim_id": "claim:ralston-1978-world-championship", "source_id": "src:sf-chronicle-1979-09-19"},
+  {"claim_id": "claim:parade:ralston-1978-championship", "source_id": "src:oakland-tribune-1978-04-12"}
+ ],
+ "edges": [
+  {"src_id": "claim:tribune:ralston-1978-kuoshu-light-heavyweight", "rel_type": "ABOUT", "dst_id": "person:peter-ralston", "metadata": {}},
+  {"src_id": "claim:tribune:ralston-1978-kuoshu-light-heavyweight", "rel_type": "ABOUT", "dst_id": "event:peter-ralston-wins-world-championship", "metadata": {"note": "names the tournament + weight class, contemporaneous"}},
+  {"src_id": "claim:chronicle:ralston-world-champion-oakland-academy", "rel_type": "ABOUT", "dst_id": "person:peter-ralston", "metadata": {}},
+  {"src_id": "claim:chronicle:ralston-world-champion-oakland-academy", "rel_type": "ABOUT", "dst_id": "event:peter-ralston-wins-world-championship", "metadata": {"note": "independent 'world martial arts champion' billing"}},
+  {"src_id": "claim:parade-significa-1982-syndication", "rel_type": "ABOUT", "dst_id": "work:parade-significa-yankee-judo-dandy-1982", "metadata": {"note": "documents the item's national syndicated reach"}},
+  {"src_id": "src:oakland-tribune-1978-04-12", "rel_type": "ABOUT", "dst_id": "person:peter-ralston", "metadata": {}},
+  {"src_id": "src:oakland-tribune-1978-04-12", "rel_type": "ABOUT", "dst_id": "event:peter-ralston-wins-world-championship", "metadata": {}},
+  {"src_id": "src:sf-chronicle-1979-09-19", "rel_type": "ABOUT", "dst_id": "person:peter-ralston", "metadata": {}},
+  {"src_id": "src:sf-chronicle-1979-09-19", "rel_type": "ABOUT", "dst_id": "event:peter-ralston-wins-world-championship", "metadata": {}}
+ ]
+}

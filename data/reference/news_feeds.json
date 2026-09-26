@@ -1,0 +1,78 @@
+{
+  "_comment": "RSS/Atom news feeds polled by scripts/ingest_news_feeds.py. Only items that name an existing Person/Group/Dojo/Federation node (multi-word label or alias) are written to the graph; everything else is ignored. Feeds originate from the quantum-aikido newsjack monitor profile (2026-09-26). ignore_entities lists peripheral graph entities too common in general news to indicate relevance; add to it when a run shows false positives. Entity feeds cover every Wikipedia-draft subject plus the Source Family (#77); names with dominant namesakes are qualified in the query. entity_id (only on feeds whose query is disambiguated) links every item in that feed to the node even when the RSS snippet omits the name.",
+  "feeds": [
+    {
+      "id": "gnews-difficult-conversations",
+      "name": "Google News search: difficult conversations / workplace conflict",
+      "url": "https://news.google.com/rss/search?q=%22difficult+conversations%22+OR+%22workplace+conflict%22&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "id": "gnews-martial-arts-mindfulness",
+      "name": "Google News search: martial arts + mindfulness/meditation/leadership",
+      "url": "https://news.google.com/rss/search?q=%22martial+arts%22+(mindfulness+OR+meditation+OR+leadership)&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "id": "gnews-richard-moon",
+      "name": "Google News search: Richard Moon (aikido)",
+      "query": "\"Richard Moon\" aikido",
+      "url": "https://news.google.com/rss/search?q=%22Richard+Moon%22+aikido&hl=en-US&gl=US&ceid=US%3Aen",
+      "entity_id": "person-richard-moon"
+    },
+    {
+      "id": "gnews-robert-nadeau",
+      "name": "Google News search: Robert Nadeau (aikido)",
+      "query": "\"Robert Nadeau\" aikido",
+      "url": "https://news.google.com/rss/search?q=%22Robert+Nadeau%22+aikido&hl=en-US&gl=US&ceid=US%3Aen",
+      "entity_id": "person:robert-nadeau"
+    },
+    {
+      "id": "gnews-peter-ralston",
+      "name": "Google News search: Peter Ralston (Cheng Hsin / martial arts)",
+      "query": "\"Peter Ralston\" (\"Cheng Hsin\" OR \"martial\" OR \"tai chi\" OR \"zen body\")",
+      "url": "https://news.google.com/rss/search?q=%22Peter+Ralston%22+%28%22Cheng+Hsin%22+OR+%22martial%22+OR+%22tai+chi%22+OR+%22zen+body%22%29&hl=en-US&gl=US&ceid=US%3Aen",
+      "entity_id": "person:peter-ralston"
+    },
+    {
+      "id": "gnews-hiroshi-ikeda",
+      "name": "Google News search: Hiroshi Ikeda (aikido)",
+      "query": "\"Hiroshi Ikeda\" aikido",
+      "url": "https://news.google.com/rss/search?q=%22Hiroshi+Ikeda%22+aikido&hl=en-US&gl=US&ceid=US%3Aen",
+      "entity_id": "person:hiroshi-ikeda"
+    },
+    {
+      "id": "gnews-terry-dobson",
+      "name": "Google News search: Terry Dobson (aikido)",
+      "query": "\"Terry Dobson\" aikido",
+      "url": "https://news.google.com/rss/search?q=%22Terry+Dobson%22+aikido&hl=en-US&gl=US&ceid=US%3Aen",
+      "entity_id": "person:terry-dobson"
+    },
+    {
+      "id": "gnews-bob-tann",
+      "name": "Google News search: Bob Tann",
+      "query": "\"Bob Tann\"",
+      "url": "https://news.google.com/rss/search?q=%22Bob+Tann%22&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "id": "gnews-bob-noha",
+      "name": "Google News search: Bob Noha",
+      "query": "\"Bob Noha\"",
+      "url": "https://news.google.com/rss/search?q=%22Bob+Noha%22&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "id": "gnews-dan-millman",
+      "name": "Google News search: Dan Millman",
+      "query": "\"Dan Millman\"",
+      "url": "https://news.google.com/rss/search?q=%22Dan+Millman%22&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "id": "gnews-source-family",
+      "name": "Google News search: The Source Family / Father Yod",
+      "query": "\"The Source Family\" OR \"Father Yod\" OR \"YaHoWha\" OR \"Ya Ho Wha\"",
+      "url": "https://news.google.com/rss/search?q=%22The+Source+Family%22+OR+%22Father+Yod%22+OR+%22YaHoWha%22+OR+%22Ya+Ho+Wha%22&hl=en-US&gl=US&ceid=US%3Aen"
+    }
+  ],
+  "ignore_entities": [
+    "Donald Trump",
+    "Marine Corps"
+  ]
+}

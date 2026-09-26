@@ -31,7 +31,7 @@ import requests
 
 from config.settings import settings
 from scripts._pipeline_helpers import process_page
-from scripts.16_ingest_aikidojournal import fetch_page
+from src.crawler.fetch_page import fetch_page
 from src.extractor.claim_extractor import ClaimExtractor
 from src.extractor.entity_extractor import EntityExtractor
 from src.storage.graph_db import GraphDB

@@ -30,6 +30,11 @@ DEFAULT_BASE_URL = "https://openrouter.ai/api/alpha/decisions"
 # Bounded verdict set for claim verification — see verify_claim().
 VERDICTS = ("supported", "contradicted", "unresolved")
 
+# Max characters of source text sent as the Jev state. Longer pages are
+# windowed around the claim (see _state_window) so claims late in a page
+# are not judged against text the model never saw.
+MAX_STATE_CHARS = 12000
+
 
 class JevClient:
     """Thin wrapper over the OpenRouter Decisions API for Jev.
@@ -122,11 +127,62 @@ def answer_confidence(answer: dict) -> float:
     return 0.0
 
 
+def _verdict_question(claim_text: str) -> dict[str, Any]:
+    """The bounded supported/contradicted/unresolved question for a claim."""
+    return {
+        "type": "choice",
+        "instructions": (
+            "Does the source text support this claim? Claim: "
+            f"\"{claim_text[:1000]}\". Answer 'supported' only when the "
+            "text directly states or clearly entails it; 'contradicted' "
+            "when the text says the opposite; 'unresolved' when the "
+            "text is silent or ambiguous."
+        ),
+        "criteria": {
+            "supported": "The source text directly supports the claim.",
+            "contradicted": "The source text contradicts the claim.",
+            "unresolved": "The source text neither supports nor contradicts it.",
+        },
+    }
+
+
+def _state_window(source_text: str, claim_text: str,
+                  limit: int = MAX_STATE_CHARS) -> tuple[str, bool]:
+    """Return ``(state, truncated)`` for a page that may exceed ``limit``.
+
+    When truncation is needed and the claim text is found verbatim in the
+    page, the window is centered on it — a claim extracted from the tail
+    of a long page would otherwise always be judged against a truncated
+    head and come back ``unresolved``. When the claim cannot be located
+    (paraphrased extraction), the head of the page is used and the flag
+    still records that the verdict saw only part of the source.
+    """
+    if len(source_text) <= limit:
+        return source_text, False
+    pos = source_text.find(claim_text[:200]) if claim_text else -1
+    if pos < 0:
+        return source_text[:limit], True
+    start = min(max(0, pos - limit // 2), len(source_text) - limit)
+    return source_text[start:start + limit], True
+
+
+def _verdict_from_answer(answer: Any, truncated: bool) -> Optional[dict[str, Any]]:
+    verdict = (answer or {}).get("choice") if isinstance(answer, dict) else None
+    if verdict not in VERDICTS:
+        return None
+    return {
+        "jev_verdict": verdict,
+        "jev_confidence": answer_confidence(answer),
+        "jev_truncated": truncated,
+    }
+
+
 def verify_claim(claim_text: str, source_text: str,
                  client: Optional[JevClient] = None) -> Optional[dict[str, Any]]:
     """Verify a claim against its source text via a bounded Jev choice.
 
-    Returns ``{"jev_verdict": ..., "jev_confidence": ...}`` with verdict in
+    Returns ``{"jev_verdict": ..., "jev_confidence": ...,
+    "jev_truncated": ...}`` with verdict in
     {supported, contradicted, unresolved}, or ``None`` when Jev is
     unavailable or the answer is malformed. Verification is metadata only
     — it annotates claims, it never drops them.
@@ -134,29 +190,31 @@ def verify_claim(claim_text: str, source_text: str,
     client = client or JevClient()
     if not client.is_available() or not claim_text:
         return None
+    state, truncated = _state_window(source_text, claim_text)
+    answers = client.decide(state=state,
+                            questions={"verdict": _verdict_question(claim_text)})
+    return _verdict_from_answer((answers or {}).get("verdict"), truncated)
+
+
+def verify_claims(claim_texts: list[str], source_text: str,
+                  client: Optional[JevClient] = None) -> list[Optional[dict[str, Any]]]:
+    """Verify several claims against one source page.
+
+    When the page fits the state window this is a single ``decide()``
+    call (one HTTP request per page instead of one per claim). On longer
+    pages it falls back to per-claim calls so each claim gets a window
+    centered on it. Returns a list parallel to ``claim_texts``; each
+    entry is a verdict dict or ``None``.
+    """
+    client = client or JevClient()
+    if not client.is_available() or not claim_texts:
+        return [None] * len(claim_texts)
+    if len(source_text) > MAX_STATE_CHARS:
+        return [verify_claim(c, source_text, client) for c in claim_texts]
     answers = client.decide(
-        state=source_text[:12000],
-        questions={"verdict": {
-            "type": "choice",
-            "instructions": (
-                "Does the source text support this claim? Claim: "
-                f"\"{claim_text[:1000]}\". Answer 'supported' only when the "
-                "text directly states or clearly entails it; 'contradicted' "
-                "when the text says the opposite; 'unresolved' when the "
-                "text is silent or ambiguous."
-            ),
-            "criteria": {
-                "supported": "The source text directly supports the claim.",
-                "contradicted": "The source text contradicts the claim.",
-                "unresolved": "The source text neither supports nor contradicts it.",
-            },
-        }},
+        state=source_text,
+        questions={f"c{i}": _verdict_question(t)
+                   for i, t in enumerate(claim_texts)},
     )
-    answer = (answers or {}).get("verdict")
-    verdict = (answer or {}).get("choice")
-    if verdict not in VERDICTS:
-        return None
-    return {
-        "jev_verdict": verdict,
-        "jev_confidence": answer_confidence(answer),
-    }
+    return [_verdict_from_answer((answers or {}).get(f"c{i}"), False)
+            for i in range(len(claim_texts))]

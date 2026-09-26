@@ -1,0 +1,2137 @@
+{
+ "name": "dan_millman_sources",
+ "description": "Migrated from scripts/20_ingest_dan_millman.py (now deleted).",
+ "migrated_from": "scripts/20_ingest_dan_millman.py",
+ "nodes": [
+  {
+   "id": "work:38dfe39d96df0fd0",
+   "type": "Work",
+   "label": "Dan Millman - Wikipedia",
+   "canonical_name": "Dan Millman - Wikipedia",
+   "metadata": {
+    "url": "https://en.wikipedia.org/wiki/Dan_Millman",
+    "publish_date": null,
+    "author": null,
+    "platform": "en.wikipedia.org",
+    "work_type": "web_page"
+   },
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Dan_Millman"
+   ]
+  },
+  {
+   "id": "place:los-angeles",
+   "type": "Place",
+   "label": "Los Angeles",
+   "canonical_name": "Los Angeles",
+   "metadata": {},
+   "source_urls": [
+    "https://alchetron.com/Dan-Millman"
+   ]
+  },
+  {
+   "id": "place:san-francisco",
+   "type": "Place",
+   "label": "San Francisco",
+   "canonical_name": "San Francisco",
+   "metadata": {},
+   "source_urls": [
+    "https://alchetron.com/Dan-Millman"
+   ]
+  },
+  {
+   "id": "event:citation-needed-during-millman-s-tenure-at-stanford-he-trained-in-aikido-eventually-earning-a-shodan-black-belt",
+   "type": "Event",
+   "label": "[ citation needed ] During Millman's tenure at Stanford, he trained in aikido , eventually earning a shodan (black belt)",
+   "canonical_name": "[ citation needed ] During Millman's tenure at Stanford, he trained in aikido , eventually earning a shodan (black belt)",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "[ citation needed ] During Millman's tenure at Stanford, he trained in aikido , eventually earning a shodan (black belt) ranking; he studied tai chi and other martial arts"
+   },
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Dan_Millman"
+   ]
+  },
+  {
+   "id": "event:citation-needed-in-1972-at-the-invitation-of-jack-scott-a-sports-activist-millman-joined-a-program-of-athletic-r",
+   "type": "Event",
+   "label": "[ citation needed ] In 1972, at the invitation of Jack Scott , a sports activist, Millman joined a program of athletic r",
+   "canonical_name": "[ citation needed ] In 1972, at the invitation of Jack Scott , a sports activist, Millman joined a program of athletic r",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "[ citation needed ] In 1972, at the invitation of Jack Scott , a sports activist, Millman joined a program of athletic reform at Oberlin College in Oberlin, Ohio as an assistant professor of physical education"
+   },
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Dan_Millman"
+   ]
+  },
+  {
+   "id": "event:next-he-traveled-to-hawaii-india-hong-kong-and-japan-he-studied-various-disciplines-including-yoga-and-martial-a",
+   "type": "Event",
+   "label": "Next he traveled to Hawaii , India , Hong Kong , and Japan ; he studied various disciplines including yoga and martial a",
+   "canonical_name": "Next he traveled to Hawaii , India , Hong Kong , and Japan ; he studied various disciplines including yoga and martial a",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "Next he traveled to Hawaii , India , Hong Kong , and Japan ; he studied various disciplines including yoga and martial arts in Japan"
+   },
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Dan_Millman"
+   ]
+  },
+  {
+   "id": "event:he-also-started-presenting-seminars-and-professional-keynotes",
+   "type": "Event",
+   "label": "He also started presenting seminars and professional keynotes",
+   "canonical_name": "He also started presenting seminars and professional keynotes",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "He also started presenting seminars and professional keynotes"
+   },
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Dan_Millman"
+   ]
+  },
+  {
+   "id": "work:ab260c68c6cd27d4",
+   "type": "Work",
+   "label": "Episode 672 - Mr. Dan Millman — whistlekick Martial Arts Radio",
+   "canonical_name": "Episode 672 - Mr. Dan Millman — whistlekick Martial Arts Radio",
+   "metadata": {
+    "url": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman",
+    "publish_date": "Jan 3",
+    "author": null,
+    "platform": "whistlekickmartialartsradio.com",
+    "work_type": "web_page"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "image:b2727bbc8a117d4af77bb5b2dc6c349b9529611931b7210be03bbf1253309f82",
+   "type": "Image",
+   "label": "Dan Millman martial arts",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://images.squarespace-cdn.com/content/v1/5fdb733c16ce5117405ea7d0/44aa645c-e769-40f9-8c58-6c31980d62f6/dan-millman-martial-arts.jpg",
+    "content_hash": "b2727bbc8a117d4af77bb5b2dc6c349b9529611931b7210be03bbf1253309f82",
+    "mime": "image/webp",
+    "width": 1358,
+    "height": 1218,
+    "alt": "Dan Millman martial arts"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "image:c9cd1fbf787aa0fe74bfd641ab65094924fc7c4a14843c9cdca07c8ab5a7abd4",
+   "type": "Image",
+   "label": "https://images.squarespace-cdn.com/content/v1/5fdb733c16ce5117405ea7d0/d95d4cb9-de6c-4e95-aeb7-f9bcd",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://images.squarespace-cdn.com/content/v1/5fdb733c16ce5117405ea7d0/d95d4cb9-de6c-4e95-aeb7-f9bcd138bffe/ep672+wide.jpg",
+    "content_hash": "c9cd1fbf787aa0fe74bfd641ab65094924fc7c4a14843c9cdca07c8ab5a7abd4",
+    "mime": "image/webp",
+    "width": 1920,
+    "height": 1080,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "event:so-let-s-start-here-if-we-think-about-when-you-started-martial-arts-there-must-have-been-a-point-where-you-were-aware",
+   "type": "Event",
+   "label": "So let’s start here: If we think about when you started martial arts, there must have been a point where you were aware ",
+   "canonical_name": "So let’s start here: If we think about when you started martial arts, there must have been a point where you were aware ",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "So let’s start here: If we think about when you started martial arts, there must have been a point where you were aware of martial arts"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "event:in-fact-the-first-day-in-gymnastics-class-it-was-a-club-a-tumbling-and-trampoline-club-in-my-middle-school-my-homer",
+   "type": "Event",
+   "label": "In fact, the first day in gymnastics class, it was a club, a tumbling and trampoline club, in my middle school, my homer",
+   "canonical_name": "In fact, the first day in gymnastics class, it was a club, a tumbling and trampoline club, in my middle school, my homer",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "In fact, the first day in gymnastics class, it was a club, a tumbling and trampoline club, in my middle school, my homeroom teacher started it"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "event:and-later-on-after-i-started-coaching-at-stanford-university-in-gymnastics-i-took-up-aikido",
+   "type": "Event",
+   "label": "And later on, after I started coaching at Stanford University in gymnastics, I took up aikido",
+   "canonical_name": "And later on, after I started coaching at Stanford University in gymnastics, I took up aikido",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "And later on, after I started coaching at Stanford University in gymnastics, I took up aikido"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "event:but-after-that-i-took-up-tai-chi-and-learned-a-108-move-form-on-both-sides-right-and-left",
+   "type": "Event",
+   "label": "But after that, I took up tai chi and learned a 108 move form on both sides right and left",
+   "canonical_name": "But after that, I took up tai chi and learned a 108 move form on both sides right and left",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "But after that, I took up tai chi and learned a 108 move form on both sides right and left"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "event:and-finally-i-guess-one-of-the-most-interesting-arts-i-ever-studied-was-with-a-fellow-who-is-really-good-at-pak-silat",
+   "type": "Event",
+   "label": "And finally, I guess one of the most interesting arts I ever studied was with a fellow who is really good at pak silat",
+   "canonical_name": "And finally, I guess one of the most interesting arts I ever studied was with a fellow who is really good at pak silat",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "And finally, I guess one of the most interesting arts I ever studied was with a fellow who is really good at pak silat"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "event:i-also-trained-with-matthew-thomas-who-started-model-mugging",
+   "type": "Event",
+   "label": "I also trained with Matthew Thomas, who started model mugging",
+   "canonical_name": "I also trained with Matthew Thomas, who started model mugging",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "I also trained with Matthew Thomas, who started model mugging"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "event:and-i-left-to-do-more-creative-work-in-a-sense-at-oberlin-college",
+   "type": "Event",
+   "label": "And I left to do more creative work in a sense at Oberlin College",
+   "canonical_name": "And I left to do more creative work in a sense at Oberlin College",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "And I left to do more creative work in a sense at Oberlin College"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "event:i-started-school-early-with-kindergarten-and-from-then-on-i-was-one-of-the-younger-ones",
+   "type": "Event",
+   "label": "I started school early with kindergarten, and from then on I was one of the younger ones",
+   "canonical_name": "I started school early with kindergarten, and from then on I was one of the younger ones",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "I started school early with kindergarten, and from then on I was one of the younger ones"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "event:the-first-discipline-that-i-studied-was-modern-dance",
+   "type": "Event",
+   "label": "The first discipline that I studied was modern dance",
+   "canonical_name": "The first discipline that I studied was modern dance",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "The first discipline that I studied was modern dance"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "event:but-when-i-started-jumping-on-it-it-allowed-me-to-jump-like-a-kangaroo-higher-than-i-could-on-the-ground",
+   "type": "Event",
+   "label": "But when I started jumping on it, it allowed me to jump like a kangaroo higher than I could on the ground",
+   "canonical_name": "But when I started jumping on it, it allowed me to jump like a kangaroo higher than I could on the ground",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "But when I started jumping on it, it allowed me to jump like a kangaroo higher than I could on the ground"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "event:but-yet-when-i-started-coaching-i-was-doing-gymnastics-anymore",
+   "type": "Event",
+   "label": "But yet when I started coaching, I was doing gymnastics anymore",
+   "canonical_name": "But yet when I started coaching, I was doing gymnastics anymore",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "But yet when I started coaching, I was doing gymnastics anymore"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "event:she-said-i-am-right-handed-but-i-ve-injured-my-right-hand-so-i-m-going-to-have-to-use-my-left-hand-and-i-ve-never-done",
+   "type": "Event",
+   "label": "She said I am right-handed, but I've injured my right hand, so I'm going to have to use my left hand and I've never done",
+   "canonical_name": "She said I am right-handed, but I've injured my right hand, so I'm going to have to use my left hand and I've never done",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "She said I am right-handed, but I've injured my right hand, so I'm going to have to use my left hand and I've never done this before"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "event:and-so-i-started-to-renovate-and-restructure-test-it-against-reality",
+   "type": "Event",
+   "label": "And so I started to renovate and restructure, test it against reality",
+   "canonical_name": "And so I started to renovate and restructure, test it against reality",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "And so I started to renovate and restructure, test it against reality"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "event:he-opened-a-school-with-marcella-garcia-in-new-york-city",
+   "type": "Event",
+   "label": "He opened a school with Marcella Garcia in New York City",
+   "canonical_name": "He opened a school with Marcella Garcia in New York City",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "He opened a school with Marcella Garcia in New York City"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "event:some-of-them-haven-t-even-started-yet-but-they-feel-an-affinity-for-it-and-they-want-to-and-they-re-hoping-to-get-ther",
+   "type": "Event",
+   "label": "Some of them haven't even started yet, but they feel an affinity for it and they want to, and they're hoping to get ther",
+   "canonical_name": "Some of them haven't even started yet, but they feel an affinity for it and they want to, and they're hoping to get ther",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "Some of them haven't even started yet, but they feel an affinity for it and they want to, and they're hoping to get there soon"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "event:and-i-started-asking-bigger-questions-how-can-we-develop-talent-not-for-sport-or-martial-arts-if-you-will-but-talent",
+   "type": "Event",
+   "label": "And I started asking bigger questions, how can we develop talent not for sport or martial arts, if you will, but talent ",
+   "canonical_name": "And I started asking bigger questions, how can we develop talent not for sport or martial arts, if you will, but talent ",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "And I started asking bigger questions, how can we develop talent not for sport or martial arts, if you will, but talent for living"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "event:i-wish-i-had-started-my-martial-arts-career-with-this-art-or-this-instructor-or-or",
+   "type": "Event",
+   "label": "I wish I had started my martial arts career with this art or this instructor or or",
+   "canonical_name": "I wish I had started my martial arts career with this art or this instructor or or",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "I wish I had started my martial arts career with this art or this instructor or or"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "event:and-anyone-who-studied-the-martial-arts-or-any-form-of-movement",
+   "type": "Event",
+   "label": "And anyone who studied the martial arts or any form of movement",
+   "canonical_name": "And anyone who studied the martial arts or any form of movement",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "And anyone who studied the martial arts or any form of movement"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:2ade5bd415e7995f",
+   "type": "Claim",
+   "label": "I was so enthusiastic and what I did was my judo roll, and I was very embarrassed when she said, “Oh well, actually, in acrobatics, we do a roll directly forward over our head",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "I was so enthusiastic and what I did was my judo roll, and I was very embarrassed when she said, “Oh well, actually, in acrobatics, we do a roll directly forward over our head",
+    "claim_type": "historical_dispute",
+    "stance": "self-mythologizing",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:81bdea53373391a1",
+   "type": "Claim",
+   "label": "(laughter) He said in his grumbling kind of raspy voice, “You want to get self-defense, get a piece, you know, get a gun",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "(laughter) He said in his grumbling kind of raspy voice, “You want to get self-defense, get a piece, you know, get a gun",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "secondary_report"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:ef3bfeed8ac4f873",
+   "type": "Claim",
+   "label": "But he said, “You really want to do this",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "But he said, “You really want to do this",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "secondary_report"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:8eea6b8284cf9979",
+   "type": "Claim",
+   "label": "Dan Millman: Well, you know, there's a saying about Koichi Tohei and Aikido and also Ueshiba , the founder of Aikido, they said the difference between Tohei and Ueshiba is with Tohei you feel like you",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "Dan Millman: Well, you know, there's a saying about Koichi Tohei and Aikido and also Ueshiba , the founder of Aikido, they said the difference between Tohei and Ueshiba is with Tohei you feel like you're trying to move a mountain",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:058a2f17572773d8",
+   "type": "Claim",
+   "label": "I wrote a book called Way of the Peaceful Warrior , and it's become quite popular over the last … well since 1980, when it first came out in hardback",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "I wrote a book called Way of the Peaceful Warrior , and it's become quite popular over the last … well since 1980, when it first came out in hardback",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:601f9540179420e9",
+   "type": "Claim",
+   "label": "I said, “Wait a minute, I'll call it way of the peaceful warrior",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "I said, “Wait a minute, I'll call it way of the peaceful warrior",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:88c2b3967fd6a8f9",
+   "type": "Claim",
+   "label": "And it was only years later when I wrote the book that I said, “Hey, you know, what is this book going to be about",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "And it was only years later when I wrote the book that I said, “Hey, you know, what is this book going to be about",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:7c95974eb2875614",
+   "type": "Claim",
+   "label": "” And I said, “I'll call it The Way of the Peaceful Warrior",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "” And I said, “I'll call it The Way of the Peaceful Warrior",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:6dadb3134e93ed4d",
+   "type": "Claim",
+   "label": "Seeing how small or people can throw larger ones, I said, “I want some of that",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "Seeing how small or people can throw larger ones, I said, “I want some of that",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:d8fb06947d8a6903",
+   "type": "Claim",
+   "label": "And again, you said, Jeremy, that many people, you know, follow one art for a long time because they resonate with it",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "And again, you said, Jeremy, that many people, you know, follow one art for a long time because they resonate with it",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "secondary_report"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:536b8cc4263cf1d6",
+   "type": "Claim",
+   "label": "And just as you said, where are you",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "And just as you said, where are you",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "secondary_report"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:6a3c59fa32c6f4df",
+   "type": "Claim",
+   "label": "However, I didn't discover another trampoline until a couple of years later again, when my homeroom teacher in middle school the first day said, I'm starting a trampoline tumbling and boy, I wish ther",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "However, I didn't discover another trampoline until a couple of years later again, when my homeroom teacher in middle school the first day said, I'm starting a trampoline tumbling and boy, I wish there was something about it",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "person:however",
+   "type": "Person",
+   "label": "However",
+   "canonical_name": "however",
+   "metadata": {},
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:b4364e9e716134bc",
+   "type": "Claim",
+   "label": "You know, I asked him, I said, you know, Nadeau is like a French name",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "You know, I asked him, I said, you know, Nadeau is like a French name",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:f2c6c448e66e3f11",
+   "type": "Claim",
+   "label": "I said, Are you any good at this",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "I said, Are you any good at this",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:4ee110bd5f356ccd",
+   "type": "Claim",
+   "label": "And then he said, Well, you know what I trained with Uchiha Desi trained with the founder in Japan after the war",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "And then he said, Well, you know what I trained with Uchiha Desi trained with the founder in Japan after the war",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:116b57671e44a864",
+   "type": "Claim",
+   "label": "So but this time this tiny, diminutive woman came up and an elderly woman and she introduced herself as Maggie, and she said she told me several things",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "So but this time this tiny, diminutive woman came up and an elderly woman and she introduced herself as Maggie, and she said she told me several things",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "secondary_report"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:eab5f51964c3d07d",
+   "type": "Claim",
+   "label": "First, she said, Today is my 79th birthday",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "First, she said, Today is my 79th birthday",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "person:first",
+   "type": "Person",
+   "label": "First",
+   "canonical_name": "first",
+   "metadata": {},
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:05cd37aabafa28f0",
+   "type": "Claim",
+   "label": "She said I am right-handed, but I've injured my right hand, so I'm going to have to use my left hand and I've never done this before",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "She said I am right-handed, but I've injured my right hand, so I'm going to have to use my left hand and I've never done this before",
+    "claim_type": "biographical",
+    "stance": "self-mythologizing",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "person:she",
+   "type": "Person",
+   "label": "She",
+   "canonical_name": "she",
+   "metadata": {},
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:cfea9644413933ee",
+   "type": "Claim",
+   "label": "And so I wrote a first draft, showed it to my daughter, who I used to edit her papers",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "And so I wrote a first draft, showed it to my daughter, who I used to edit her papers",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:b615dc7efc036489",
+   "type": "Claim",
+   "label": "And she said, “Dad, this is really meandering, this literary advice",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "And she said, “Dad, this is really meandering, this literary advice",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "secondary_report"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:d62c981899882b0a",
+   "type": "Claim",
+   "label": "” She said, “Let me take a crack” at it, and I said that would be great",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "” She said, “Let me take a crack” at it, and I said that would be great",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:3691110d93ddb4c4",
+   "type": "Claim",
+   "label": "My daughter knew about them, but she wrote them in this way",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "My daughter knew about them, but she wrote them in this way",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:9f14cbe3a6d043b2",
+   "type": "Claim",
+   "label": "They came not because they were going to learn new movements necessarily, but they were very curious about reported results we got from this training",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "They came not because they were going to learn new movements necessarily, but they were very curious about reported results we got from this training",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:13fe76419dd0f68c",
+   "type": "Claim",
+   "label": "I said, Stay with it, stay with it",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "I said, Stay with it, stay with it",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:91f7eb03553b04bc",
+   "type": "Claim",
+   "label": "So it's been said many ways",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "So it's been said many ways",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "secondary_report"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:6f164ce9455c7f2a",
+   "type": "Claim",
+   "label": "Jeremy Lesniak: One of the things I appreciate about what you just said the number of books of yours that I've read and I guess really the way life unfolds is it has to happen in its own time",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "Jeremy Lesniak: One of the things I appreciate about what you just said the number of books of yours that I've read and I guess really the way life unfolds is it has to happen in its own time",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "claim:208f78c270bc63b5",
+   "type": "Claim",
+   "label": "Yeah, I think it was that Lord Chesterfield, who once said I cannot write a book commensurate to Shakespeare, but I can write a book by me",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "Yeah, I think it was that Lord Chesterfield, who once said I cannot write a book commensurate to Shakespeare, but I can write a book by me",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "first_person"
+   },
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "person:yeah",
+   "type": "Person",
+   "label": "Yeah",
+   "canonical_name": "yeah",
+   "metadata": {},
+   "source_urls": [
+    "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   ]
+  },
+  {
+   "id": "work:bf2f4a20a618fc1d",
+   "type": "Work",
+   "label": "Millman, Dan • USA Gymnastics",
+   "canonical_name": "Millman, Dan • USA Gymnastics",
+   "metadata": {
+    "url": "https://usagym.org/halloffame/inductee/millman-dan",
+    "publish_date": null,
+    "author": null,
+    "platform": "usagym.org",
+    "work_type": "web_page"
+   },
+   "source_urls": [
+    "https://usagym.org/halloffame/inductee/millman-dan"
+   ]
+  },
+  {
+   "id": "image:67bc5783c3cab882eac60415ed05e68a3e0377694712acc07630b7a3a82ff147",
+   "type": "Image",
+   "label": "Millman, Dan • USA Gymnastics",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://usagym.org/wp-content/uploads/Millman_Dan-250x259-1.jpg",
+    "content_hash": "67bc5783c3cab882eac60415ed05e68a3e0377694712acc07630b7a3a82ff147",
+    "mime": "image/jpeg",
+    "width": 250,
+    "height": 259,
+    "alt": "Millman, Dan • USA Gymnastics"
+   },
+   "source_urls": [
+    "https://usagym.org/halloffame/inductee/millman-dan"
+   ]
+  },
+  {
+   "id": "image:7e89fda7903d0640fcb748e39742f7edb41ea077e4cb0fadafc88de9a50d68e5",
+   "type": "Image",
+   "label": "https://usagym.org/wp-content/uploads/logo-usagym-horizontal.png",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://usagym.org/wp-content/uploads/logo-usagym-horizontal.png",
+    "content_hash": "7e89fda7903d0640fcb748e39742f7edb41ea077e4cb0fadafc88de9a50d68e5",
+    "mime": "image/png",
+    "width": 1885,
+    "height": 393,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://usagym.org/halloffame/inductee/millman-dan"
+   ]
+  },
+  {
+   "id": "image:8f580beae84b6e9520f160ce4eb8ab31bade182d852069b30071ab0eee52b8fd",
+   "type": "Image",
+   "label": "https://usagym.org/wp-content/uploads/HOF-USAG-logo.png",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://usagym.org/wp-content/uploads/HOF-USAG-logo.png",
+    "content_hash": "8f580beae84b6e9520f160ce4eb8ab31bade182d852069b30071ab0eee52b8fd",
+    "mime": "image/png",
+    "width": 1324,
+    "height": 666,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://usagym.org/halloffame/inductee/millman-dan"
+   ]
+  },
+  {
+   "id": "image:69e562a2ddd1bbddfd6834d046c10da0588ffd506108201d610c65113a85272a",
+   "type": "Image",
+   "label": "https://usagym.org/wp-content/uploads/logo-worldGymnastics-color-stacked.png",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://usagym.org/wp-content/uploads/logo-worldGymnastics-color-stacked.png",
+    "content_hash": "69e562a2ddd1bbddfd6834d046c10da0588ffd506108201d610c65113a85272a",
+    "mime": "image/png",
+    "width": 800,
+    "height": 800,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://usagym.org/halloffame/inductee/millman-dan"
+   ]
+  },
+  {
+   "id": "image:11c770b3f97e285eaf4fccc1d18baec87809826d1ccf4c5279fd80f348f059d4",
+   "type": "Image",
+   "label": "https://usagym.org/wp-content/uploads/logo-usopc.png",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://usagym.org/wp-content/uploads/logo-usopc.png",
+    "content_hash": "11c770b3f97e285eaf4fccc1d18baec87809826d1ccf4c5279fd80f348f059d4",
+    "mime": "image/png",
+    "width": 800,
+    "height": 800,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://usagym.org/halloffame/inductee/millman-dan"
+   ]
+  },
+  {
+   "id": "image:4b5d331944178a1838017243f3f7d6be75cefbd114dca364ebfd17bd3a4282e6",
+   "type": "Image",
+   "label": "https://usagym.org/wp-content/uploads/usagLogo-redWhite.png",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://usagym.org/wp-content/uploads/usagLogo-redWhite.png",
+    "content_hash": "4b5d331944178a1838017243f3f7d6be75cefbd114dca364ebfd17bd3a4282e6",
+    "mime": "image/png",
+    "width": 800,
+    "height": 510,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://usagym.org/halloffame/inductee/millman-dan"
+   ]
+  },
+  {
+   "id": "event:aside-from-his-athletic-success-millman-served-as-director-of-gymnastics-at-stanford-university-joined-the-faculty-of",
+   "type": "Event",
+   "label": "Aside from his athletic success, Millman served as Director of Gymnastics at Stanford University, joined the faculty of ",
+   "canonical_name": "Aside from his athletic success, Millman served as Director of Gymnastics at Stanford University, joined the faculty of ",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "Aside from his athletic success, Millman served as Director of Gymnastics at Stanford University, joined the faculty of Oberlin College, wrote 12 books, and worked as a motivational speaker"
+   },
+   "source_urls": [
+    "https://usagym.org/halloffame/inductee/millman-dan"
+   ]
+  },
+  {
+   "id": "claim:1c80d30ecc7fbeb0",
+   "type": "Claim",
+   "label": "Aside from his athletic success, Millman served as Director of Gymnastics at Stanford University, joined the faculty of Oberlin College, wrote 12 books, and worked as a motivational speaker",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "Aside from his athletic success, Millman served as Director of Gymnastics at Stanford University, joined the faculty of Oberlin College, wrote 12 books, and worked as a motivational speaker",
+    "claim_type": "biographical",
+    "stance": "critical",
+    "confidence": 0.5,
+    "evidence_mode": "secondary_report"
+   },
+   "source_urls": [
+    "https://usagym.org/halloffame/inductee/millman-dan"
+   ]
+  },
+  {
+   "id": "work:e06527e66dfbb97d",
+   "type": "Work",
+   "label": "Biography: MILLMAN, Dan",
+   "canonical_name": "Biography: MILLMAN, Dan",
+   "metadata": {
+    "url": "https://usghof.org/d_millman",
+    "publish_date": "2018-03-21T15:45:29+00:00",
+    "author": null,
+    "platform": "usghof.org",
+    "work_type": "web_page"
+   },
+   "source_urls": [
+    "https://usghof.org/d_millman"
+   ]
+  },
+  {
+   "id": "image:32300ec4267742bb617157b2ccc8ba573dc3733b389cc1bb36b4028d10517e90",
+   "type": "Image",
+   "label": "Biography: MILLMAN, Dan",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://usghof.org/wp-content/uploads/site/files/bio/d_millman/d_millman.jpg",
+    "content_hash": "32300ec4267742bb617157b2ccc8ba573dc3733b389cc1bb36b4028d10517e90",
+    "mime": "image/jpeg",
+    "width": 385,
+    "height": 400,
+    "alt": "Biography: MILLMAN, Dan"
+   },
+   "source_urls": [
+    "https://usghof.org/d_millman"
+   ]
+  },
+  {
+   "id": "event:general-in-1972-dan-joined-the-faculty-at-oberlin-college",
+   "type": "Event",
+   "label": "General : In 1972, Dan joined the faculty at Oberlin College",
+   "canonical_name": "General : In 1972, Dan joined the faculty at Oberlin College",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "General : In 1972, Dan joined the faculty at Oberlin College"
+   },
+   "source_urls": [
+    "https://usghof.org/d_millman"
+   ]
+  },
+  {
+   "id": "claim:6be30685f8bf224f",
+   "type": "Claim",
+   "label": "Publications : Dan has written 12 highly acclaimed books published in 29 languages",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "Publications : Dan has written 12 highly acclaimed books published in 29 languages",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.5,
+    "evidence_mode": "secondary_report"
+   },
+   "source_urls": [
+    "https://usghof.org/d_millman"
+   ]
+  },
+  {
+   "id": "work:6be2ff723d3e7a21",
+   "type": "Work",
+   "label": "Dan Millman ~ Detailed Biography with [ Photos | Videos ]",
+   "canonical_name": "Dan Millman ~ Detailed Biography with [ Photos | Videos ]",
+   "metadata": {
+    "url": "https://alchetron.com/Dan-Millman",
+    "publish_date": "2017-08-18T08:30:48+00:00",
+    "author": null,
+    "platform": "alchetron.com",
+    "work_type": "web_page"
+   },
+   "source_urls": [
+    "https://alchetron.com/Dan-Millman"
+   ]
+  },
+  {
+   "id": "image:1eea19b159d571f7d0ce162e394ea1df5fcf42927c69f2280ede791e21fcdb58",
+   "type": "Image",
+   "label": "Dan Millman ~ Detailed Biography with [ Photos | Videos ]",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://alchetron.com/cdn/dan-millman-9a4bcbec-3e1d-45ef-b761-42b2f10122a-resize-750.jpeg",
+    "content_hash": "1eea19b159d571f7d0ce162e394ea1df5fcf42927c69f2280ede791e21fcdb58",
+    "mime": "image/jpeg",
+    "width": 240,
+    "height": 260,
+    "alt": "Dan Millman ~ Detailed Biography with [ Photos | Videos ]"
+   },
+   "source_urls": [
+    "https://alchetron.com/Dan-Millman"
+   ]
+  },
+  {
+   "id": "image:832832a960f903f6eea74cc54f9ba351c6ff61d78d38c47c122faa947a490196",
+   "type": "Image",
+   "label": "Dan Millman smiling while wearing a black shirt and black coat",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://alchetron.com/cdn/dan-millman-375feee9-0da3-4872-9550-90ad77767bf-resize-750.jpeg",
+    "content_hash": "832832a960f903f6eea74cc54f9ba351c6ff61d78d38c47c122faa947a490196",
+    "mime": "image/jpeg",
+    "width": 750,
+    "height": 500,
+    "alt": "Dan Millman smiling while wearing a black shirt and black coat"
+   },
+   "source_urls": [
+    "https://alchetron.com/Dan-Millman"
+   ]
+  },
+  {
+   "id": "image:a7927108775fb78550b05cd6bc46587acf9b6f23c3a8cf80eedc52dff1755134",
+   "type": "Image",
+   "label": "Dan Millman smiling while wearing a black shirt and black coat",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://alchetron.com/cdn/dan-millman-d7acc83e-207f-4be6-a4b7-97195611738-resize-750.jpeg",
+    "content_hash": "a7927108775fb78550b05cd6bc46587acf9b6f23c3a8cf80eedc52dff1755134",
+    "mime": "image/jpeg",
+    "width": 250,
+    "height": 267,
+    "alt": "Dan Millman smiling while wearing a black shirt and black coat"
+   },
+   "source_urls": [
+    "https://alchetron.com/Dan-Millman"
+   ]
+  },
+  {
+   "id": "image:fa84b8c2c617fefb4f0b213a920257e86a76672aa3d2d9ca5be491dbed1e60be",
+   "type": "Image",
+   "label": "Dan Millman smiling and wearing a blue polo shirt beside the poster of the 2006 movie, Peaceful Warr",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://alchetron.com/cdn/dan-millman-c04077a6-ac5c-44c9-aa77-9c47f7383f5-resize-750.jpeg",
+    "content_hash": "fa84b8c2c617fefb4f0b213a920257e86a76672aa3d2d9ca5be491dbed1e60be",
+    "mime": "image/jpeg",
+    "width": 500,
+    "height": 348,
+    "alt": "Dan Millman smiling and wearing a blue polo shirt beside the poster of the 2006 movie, Peaceful Warrior"
+   },
+   "source_urls": [
+    "https://alchetron.com/Dan-Millman"
+   ]
+  },
+  {
+   "id": "image:9de6bd3d6a54097cc5cae4b9a0d00032cc817ccd1d78eb87b9a4d1891c3e0a07",
+   "type": "Image",
+   "label": "Dan Millman smiling and wearing a black coat and black shirt while  Sierra Prasada wearing a beige b",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://alchetron.com/cdn/dan-millman-e3016b8f-01c9-4a54-a778-d71a3516167-resize-750.jpeg",
+    "content_hash": "9de6bd3d6a54097cc5cae4b9a0d00032cc817ccd1d78eb87b9a4d1891c3e0a07",
+    "mime": "image/jpeg",
+    "width": 750,
+    "height": 500,
+    "alt": "Dan Millman smiling and wearing a black coat and black shirt while  Sierra Prasada wearing a beige blazer and polka dot inner top"
+   },
+   "source_urls": [
+    "https://alchetron.com/Dan-Millman"
+   ]
+  },
+  {
+   "id": "event:during-millman-s-tenure-at-stanford-he-trained-in-aikido-eventually-earning-a-shodan-black-belt-ranking-and-studied",
+   "type": "Event",
+   "label": "During Millman's tenure at Stanford, he trained in Aikido, eventually earning a shodan (black belt) ranking, and studied",
+   "canonical_name": "During Millman's tenure at Stanford, he trained in Aikido, eventually earning a shodan (black belt) ranking, and studied",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "During Millman's tenure at Stanford, he trained in Aikido, eventually earning a shodan (black belt) ranking, and studied T'ai chi (Taiji) and other martial arts"
+   },
+   "source_urls": [
+    "https://alchetron.com/Dan-Millman"
+   ]
+  },
+  {
+   "id": "event:in-1972-millman-joined-the-faculty-at-oberlin-college-in-oberlin-ohio-as-an-assistant-professor-of-physical-education",
+   "type": "Event",
+   "label": "In 1972, Millman joined the faculty at Oberlin College in Oberlin, Ohio as an assistant professor of physical education",
+   "canonical_name": "In 1972, Millman joined the faculty at Oberlin College in Oberlin, Ohio as an assistant professor of physical education",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "In 1972, Millman joined the faculty at Oberlin College in Oberlin, Ohio as an assistant professor of physical education"
+   },
+   "source_urls": [
+    "https://alchetron.com/Dan-Millman"
+   ]
+  },
+  {
+   "id": "event:at-oberlin-on-a-travel-research-grant-from-the-college-millman-traveled-to-san-francisco-where-he-completed-the-aric",
+   "type": "Event",
+   "label": "At Oberlin, on a travel-research grant from the college, Millman traveled to San Francisco , where he completed the Aric",
+   "canonical_name": "At Oberlin, on a travel-research grant from the college, Millman traveled to San Francisco , where he completed the Aric",
+   "metadata": {
+    "event_type": "unknown",
+    "start_date": null,
+    "end_date": null,
+    "description": "At Oberlin, on a travel-research grant from the college, Millman traveled to San Francisco , where he completed the Arica 40-Day Intensive Training, then to Hawaii , India , Hong Kong , and Japan , where he studied various disciplines including yoga and martial arts"
+   },
+   "source_urls": [
+    "https://alchetron.com/Dan-Millman"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "work:38dfe39d96df0fd0",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:los-angeles",
+   "metadata": {
+    "evidence": "https://en.wikipedia.org/wiki/Dan_Millman"
+   }
+  },
+  {
+   "src_id": "work:38dfe39d96df0fd0",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:san-francisco",
+   "metadata": {
+    "evidence": "https://en.wikipedia.org/wiki/Dan_Millman"
+   }
+  },
+  {
+   "src_id": "work:38dfe39d96df0fd0",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:citation-needed-during-millman-s-tenure-at-stanford-he-trained-in-aikido-eventually-earning-a-shodan-black-belt",
+   "metadata": {
+    "evidence": "https://en.wikipedia.org/wiki/Dan_Millman"
+   }
+  },
+  {
+   "src_id": "work:38dfe39d96df0fd0",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:citation-needed-in-1972-at-the-invitation-of-jack-scott-a-sports-activist-millman-joined-a-program-of-athletic-r",
+   "metadata": {
+    "evidence": "https://en.wikipedia.org/wiki/Dan_Millman"
+   }
+  },
+  {
+   "src_id": "work:38dfe39d96df0fd0",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:next-he-traveled-to-hawaii-india-hong-kong-and-japan-he-studied-various-disciplines-including-yoga-and-martial-a",
+   "metadata": {
+    "evidence": "https://en.wikipedia.org/wiki/Dan_Millman"
+   }
+  },
+  {
+   "src_id": "work:38dfe39d96df0fd0",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:he-also-started-presenting-seminars-and-professional-keynotes",
+   "metadata": {
+    "evidence": "https://en.wikipedia.org/wiki/Dan_Millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:b2727bbc8a117d4af77bb5b2dc6c349b9529611931b7210be03bbf1253309f82",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:c9cd1fbf787aa0fe74bfd641ab65094924fc7c4a14843c9cdca07c8ab5a7abd4",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:los-angeles",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:so-let-s-start-here-if-we-think-about-when-you-started-martial-arts-there-must-have-been-a-point-where-you-were-aware",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:in-fact-the-first-day-in-gymnastics-class-it-was-a-club-a-tumbling-and-trampoline-club-in-my-middle-school-my-homer",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:and-later-on-after-i-started-coaching-at-stanford-university-in-gymnastics-i-took-up-aikido",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:but-after-that-i-took-up-tai-chi-and-learned-a-108-move-form-on-both-sides-right-and-left",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:and-finally-i-guess-one-of-the-most-interesting-arts-i-ever-studied-was-with-a-fellow-who-is-really-good-at-pak-silat",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:i-also-trained-with-matthew-thomas-who-started-model-mugging",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:and-i-left-to-do-more-creative-work-in-a-sense-at-oberlin-college",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:i-started-school-early-with-kindergarten-and-from-then-on-i-was-one-of-the-younger-ones",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:the-first-discipline-that-i-studied-was-modern-dance",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:but-when-i-started-jumping-on-it-it-allowed-me-to-jump-like-a-kangaroo-higher-than-i-could-on-the-ground",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:but-yet-when-i-started-coaching-i-was-doing-gymnastics-anymore",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:she-said-i-am-right-handed-but-i-ve-injured-my-right-hand-so-i-m-going-to-have-to-use-my-left-hand-and-i-ve-never-done",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:and-so-i-started-to-renovate-and-restructure-test-it-against-reality",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:he-opened-a-school-with-marcella-garcia-in-new-york-city",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:some-of-them-haven-t-even-started-yet-but-they-feel-an-affinity-for-it-and-they-want-to-and-they-re-hoping-to-get-ther",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:and-i-started-asking-bigger-questions-how-can-we-develop-talent-not-for-sport-or-martial-arts-if-you-will-but-talent",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:i-wish-i-had-started-my-martial-arts-career-with-this-art-or-this-instructor-or-or",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:and-anyone-who-studied-the-martial-arts-or-any-form-of-movement",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:2ade5bd415e7995f",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:81bdea53373391a1",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:ef3bfeed8ac4f873",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:8eea6b8284cf9979",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:058a2f17572773d8",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:601f9540179420e9",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:88c2b3967fd6a8f9",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:7c95974eb2875614",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:6dadb3134e93ed4d",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:d8fb06947d8a6903",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:536b8cc4263cf1d6",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:6a3c59fa32c6f4df",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "claim:6a3c59fa32c6f4df",
+   "rel_type": "ASSERTED_BY",
+   "dst_id": "person:however",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:b4364e9e716134bc",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:f2c6c448e66e3f11",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:4ee110bd5f356ccd",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:116b57671e44a864",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:eab5f51964c3d07d",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "claim:eab5f51964c3d07d",
+   "rel_type": "ASSERTED_BY",
+   "dst_id": "person:first",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:05cd37aabafa28f0",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "claim:05cd37aabafa28f0",
+   "rel_type": "ASSERTED_BY",
+   "dst_id": "person:she",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:cfea9644413933ee",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:b615dc7efc036489",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:d62c981899882b0a",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:3691110d93ddb4c4",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:9f14cbe3a6d043b2",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:13fe76419dd0f68c",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:91f7eb03553b04bc",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:6f164ce9455c7f2a",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:ab260c68c6cd27d4",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:208f78c270bc63b5",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "claim:208f78c270bc63b5",
+   "rel_type": "ASSERTED_BY",
+   "dst_id": "person:yeah",
+   "metadata": {
+    "evidence": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman"
+   }
+  },
+  {
+   "src_id": "work:bf2f4a20a618fc1d",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:67bc5783c3cab882eac60415ed05e68a3e0377694712acc07630b7a3a82ff147",
+   "metadata": {
+    "evidence": "https://usagym.org/halloffame/inductee/millman-dan"
+   }
+  },
+  {
+   "src_id": "work:bf2f4a20a618fc1d",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:7e89fda7903d0640fcb748e39742f7edb41ea077e4cb0fadafc88de9a50d68e5",
+   "metadata": {
+    "evidence": "https://usagym.org/halloffame/inductee/millman-dan"
+   }
+  },
+  {
+   "src_id": "work:bf2f4a20a618fc1d",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:8f580beae84b6e9520f160ce4eb8ab31bade182d852069b30071ab0eee52b8fd",
+   "metadata": {
+    "evidence": "https://usagym.org/halloffame/inductee/millman-dan"
+   }
+  },
+  {
+   "src_id": "work:bf2f4a20a618fc1d",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:69e562a2ddd1bbddfd6834d046c10da0588ffd506108201d610c65113a85272a",
+   "metadata": {
+    "evidence": "https://usagym.org/halloffame/inductee/millman-dan"
+   }
+  },
+  {
+   "src_id": "work:bf2f4a20a618fc1d",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:11c770b3f97e285eaf4fccc1d18baec87809826d1ccf4c5279fd80f348f059d4",
+   "metadata": {
+    "evidence": "https://usagym.org/halloffame/inductee/millman-dan"
+   }
+  },
+  {
+   "src_id": "work:bf2f4a20a618fc1d",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:4b5d331944178a1838017243f3f7d6be75cefbd114dca364ebfd17bd3a4282e6",
+   "metadata": {
+    "evidence": "https://usagym.org/halloffame/inductee/millman-dan"
+   }
+  },
+  {
+   "src_id": "work:bf2f4a20a618fc1d",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:los-angeles",
+   "metadata": {
+    "evidence": "https://usagym.org/halloffame/inductee/millman-dan"
+   }
+  },
+  {
+   "src_id": "work:bf2f4a20a618fc1d",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:aside-from-his-athletic-success-millman-served-as-director-of-gymnastics-at-stanford-university-joined-the-faculty-of",
+   "metadata": {
+    "evidence": "https://usagym.org/halloffame/inductee/millman-dan"
+   }
+  },
+  {
+   "src_id": "work:bf2f4a20a618fc1d",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:1c80d30ecc7fbeb0",
+   "metadata": {
+    "evidence": "https://usagym.org/halloffame/inductee/millman-dan"
+   }
+  },
+  {
+   "src_id": "work:e06527e66dfbb97d",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:32300ec4267742bb617157b2ccc8ba573dc3733b389cc1bb36b4028d10517e90",
+   "metadata": {
+    "evidence": "https://usghof.org/d_millman"
+   }
+  },
+  {
+   "src_id": "work:e06527e66dfbb97d",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:los-angeles",
+   "metadata": {
+    "evidence": "https://usghof.org/d_millman"
+   }
+  },
+  {
+   "src_id": "work:e06527e66dfbb97d",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:general-in-1972-dan-joined-the-faculty-at-oberlin-college",
+   "metadata": {
+    "evidence": "https://usghof.org/d_millman"
+   }
+  },
+  {
+   "src_id": "work:e06527e66dfbb97d",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:6be30685f8bf224f",
+   "metadata": {
+    "evidence": "https://usghof.org/d_millman"
+   }
+  },
+  {
+   "src_id": "work:6be2ff723d3e7a21",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:1eea19b159d571f7d0ce162e394ea1df5fcf42927c69f2280ede791e21fcdb58",
+   "metadata": {
+    "evidence": "https://alchetron.com/Dan-Millman"
+   }
+  },
+  {
+   "src_id": "work:6be2ff723d3e7a21",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:832832a960f903f6eea74cc54f9ba351c6ff61d78d38c47c122faa947a490196",
+   "metadata": {
+    "evidence": "https://alchetron.com/Dan-Millman"
+   }
+  },
+  {
+   "src_id": "work:6be2ff723d3e7a21",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:a7927108775fb78550b05cd6bc46587acf9b6f23c3a8cf80eedc52dff1755134",
+   "metadata": {
+    "evidence": "https://alchetron.com/Dan-Millman"
+   }
+  },
+  {
+   "src_id": "work:6be2ff723d3e7a21",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:fa84b8c2c617fefb4f0b213a920257e86a76672aa3d2d9ca5be491dbed1e60be",
+   "metadata": {
+    "evidence": "https://alchetron.com/Dan-Millman"
+   }
+  },
+  {
+   "src_id": "work:6be2ff723d3e7a21",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:9de6bd3d6a54097cc5cae4b9a0d00032cc817ccd1d78eb87b9a4d1891c3e0a07",
+   "metadata": {
+    "evidence": "https://alchetron.com/Dan-Millman"
+   }
+  },
+  {
+   "src_id": "work:6be2ff723d3e7a21",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:los-angeles",
+   "metadata": {
+    "evidence": "https://alchetron.com/Dan-Millman"
+   }
+  },
+  {
+   "src_id": "work:6be2ff723d3e7a21",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:san-francisco",
+   "metadata": {
+    "evidence": "https://alchetron.com/Dan-Millman"
+   }
+  },
+  {
+   "src_id": "work:6be2ff723d3e7a21",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:during-millman-s-tenure-at-stanford-he-trained-in-aikido-eventually-earning-a-shodan-black-belt-ranking-and-studied",
+   "metadata": {
+    "evidence": "https://alchetron.com/Dan-Millman"
+   }
+  },
+  {
+   "src_id": "work:6be2ff723d3e7a21",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:in-1972-millman-joined-the-faculty-at-oberlin-college-in-oberlin-ohio-as-an-assistant-professor-of-physical-education",
+   "metadata": {
+    "evidence": "https://alchetron.com/Dan-Millman"
+   }
+  },
+  {
+   "src_id": "work:6be2ff723d3e7a21",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:at-oberlin-on-a-travel-research-grant-from-the-college-millman-traveled-to-san-francisco-where-he-completed-the-aric",
+   "metadata": {
+    "evidence": "https://alchetron.com/Dan-Millman"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "work:38dfe39d96df0fd0",
+   "url": "https://en.wikipedia.org/wiki/Dan_Millman",
+   "title": "Dan Millman - Wikipedia",
+   "author": null,
+   "publish_date": null,
+   "platform": "en.wikipedia.org",
+   "raw_text": "Toggle the table of contents Dan Millman 13 languages مصرى Български Čeština Deutsch Español Français Հայերեն Nederlands Polski Português Русский Українська 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser Print/export Download as PDF Printable version In other projects Wikimedia Commons Wikiquote Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia American author and lecturer Dan Millman Born ( 1946-02-22 ) February 22, 1946 (age 80) Los Angeles, California , U.S. Occupations Author, speaker Spouse Joy Millman Children Three daughters Parent(s) Herman and Vivian Millman Website peacefulwarrior.com Daniel Jay Millman (born February 22, 1946) is an American author and lecturer in the personal development field. He is best known for the movie Peaceful Warrior , based on his own life and taken from one of his books. Early life and education [ edit ] Millman was born in Los Angeles to Herman and Vivian Millman; he has an older sister Diane. Much of his early life included active pursuits like modern dance and martial arts and later trampoline , tumbling , and gymnastics . He attended John Marshall High School in Los Angeles, where he was recognized along with another student as a Co-Senior Athlete of the Year. [ citation needed ] During his senior year in high school, he won the United States Gymnastics Federation (USGF) national title on the trampoline. [ citation needed ] While a freshman at University of California, Berkeley he won the 1964 Trampoline World Championships in London earning All-American honors and won an NCAA Championship in vaulting . In 1966 he won the USGF championship in the floor exercise and vault. He represented the United States in the 1965 Maccabiah Games , winning four gold medals in gymnastics. [ 1 ] In September 1966, just before his senior year at the University of California, Berkeley , Millman's motorcycle collided with a car. He suffered a shattered right femur, requiring surgical repair and a bone marrow transplant with a steel nail inserted in his femur (which was removed a year later after the leg was healed). He actively pursued rehabilitation and was able to return to gymnastics as co-captain of his team which won the 1968 NCAA Gymnastics Championships in Tucson, Arizona . He was the last male athlete to perform for the college on the high bar; he had his best-ever routine and perfect landing which clinched the team title. [ citation needed ] In 1968 he was voted Senior Cal Athlete of the Year; he graduated with a Bachelor of Arts degree in psychology. [ citation needed ] Career [ edit ] In 1968, Millman served as director of gymnastics at Stanford University , where he coached U.S. Olympian Steve Hug and brought the Stanford team to national prominence. [ citation needed ] During Millman's tenure at Stanford, he trained in aikido , eventually earning a shodan (black belt) ranking; he studied tai chi and other martial arts . [ citation needed ] In 1972, at the invitation of Jack Scott , a sports activist, Millman joined a program of athletic reform at Oberlin College in Oberlin, Ohio as an assistant professor of physical education. At Oberlin, on a travel research grant from the college, he went to San Francisco , where he completed the Arica 40-Day Intensive Training. Next he traveled to Hawaii , India , Hong Kong , and Japan ; he studied various disciplines including yoga and martial arts in Japan. [ citation needed ] In 1985, Millman began to produce audio and video programs. He also started presenting seminars and professional keynotes. [ 2 ] His work is generally connected to the \" human potential movement \". [ 3 ] Millman has authored 17 [ 4 ] books as of 2015 which have been published in 29 languages. [ 5 ] In 2006, his first book, Way of the Peaceful Warrior , was adapted for a film, Peaceful Warrior . The movie stars Nick Nolte , distributed by Lionsgate Films and was re-released by Universal Pictures in 2007. [ 6 ] He credits the inspiration for his first book to a gas station attendant he met who reminded him of Socrates and to whom he gave that name. [ 7 ] Personal life [ edit ] Dan Millman and his wife, Joy, live in Brooklyn, New York [ 8 ] and before that in San Rafael, California . They have three grown daughters and five grandchildren. Works [ edit ] Works by Millman include the following: [ 8 ] 1979: Whole Body Fitness 1980: Way of the Peaceful Warrior : A Book That Changes Lives 1985: The Warrior Athlete (revised edition of Whole Body Fitness ) 1990: Sacred Journey of the Peaceful Warrior 1991: Secret of the Peaceful Warrior (for children, illustrated by Taylor Bruce) 1992: No Ordinary Moments: A Peaceful Warrior's Guide to Daily Life 1993: Quest for the Crystal Castle (for children, illustrated by Taylor Bruce) 1994: The Life You Were Born to Live: A Guide to Finding Your Life Purpose 1995: The Laws of Spirit: A Tale of Transformation 1998: Everyday Enlightenment: The Twelve Gateways to Personal Growth 1999: Body Mind Mastery (revised edition of The Warrior Athlete ) 2000: Living on Purpose: Straight Answers to Life's Tough Questions 2006: The Journeys of Socrates: The Way Begins 2007: Wisdom of the Peaceful Warrior: A Companion to the Book that Changes Lives 2009: Bridge Between Worlds: Extraordinary Experiences that Changed Lives (with co-author Doug Childers) 2010: Peaceful Warrior: The Graphic Novel (illustrated by Andrew Winegarner) 2011: The Four Purposes of Life: Finding Meaning and Direction in a Changing World 2013: The Creative Compass: Writing Your Way from Inspiration to Publication (with co-author Sierra Prasada) 2017: The Hidden School: Return of the Peaceful Warrior 2022: Peaceful Heart, Warrior Spirit: The True Story of my Spiritual Quest References [ edit ] ↑ \"Biography: Millman, Dan\" . U.S. Gymnastics Federation. March 21, 2018. ↑ \"Dan Millman - Bestselling Author, Athlete, Coach, Philosopher and Human Potential Expert\" . Big Speak. Archived from the original on February 22, 2015 . Retrieved May 30, 2006 . ↑ \"Dan Millman - World Champion\" . West View Trampoline Community. Archived from the original on May 12, 2003. ↑ Sura Dahn (March 3, 2014). Interview with Best-Selling Author, Dan Millman – The Way of the Peaceful Warrior . YouTube. Event occurs at 0:15 . Retrieved March 4, 2015 . Dan is a best-selling author of 17 books. ↑ \"About Dan Millman and his Work\" . Peaceful Warrior Services. 2014. Archived from the original on April 2, 2015 . Retrieved March 4, 2015 . a former world champion athlete, Stanford University gymnastics coach, martial arts instructor, and Oberlin College professor – is author 17 books, including Way of the Peaceful Warrior (released as a feature film by Universal Pictures in 2007). His books are published in 29 languages with several million copies in print worldwide. Dan's seminars and trainings in the US and overseas have influenced people from all walks of life, including leaders in the fields of health, psychology, education, business, politics, sports, entertainment and the arts. ↑ \"Peaceful Warrior\" at the Internet Movie Database ↑ Sura Dahn (March 3, 2014). Interview with Best-Selling Author, Dan Millman – The Way of the Peaceful Warrior . YouTube. Event occurs at 1:26 . Retrieved March 4, 2015 . The book was based upon autobiographical material, including meeting, in December 1966, an old service station attendant who reminded me of the old Greek sage, so I ended up calling him Socrates. 1 2 \"Peaceful Warrior Books\" . Dan Millman personal web site. Archived from the original on February 10, 2012 . Retrieved January 3, 2012 . External links [ edit ] Wikiquote has quotations related to Dan Millman . The Peaceful Warrior's Way – Dan Millman's personal website. Dan Millman at the USA Gymnastics Hall of Fame Dan Millman at InterSportStats Interviews Dan Millman Archived 2010-03-15 at the Wayback Machine – Video Interview with Conscious Media Network Interview with Spiritual Endeavors discusses training philosophy, fiction in book Working and Living Life Smarter Conference – keynoted by Dan Millman (November 2006) Dan Millman Discusses his Book The Hidden School - Audio Interview with Roger Nichols of Modern Signed Books v t e Trampoline Gymnastics World Champions – Men's Individual 1964 : Dan Millman ( USA ) 1965 : Gary Erwin ( USA ) 1966 : Wayne Miller ( USA ) 1967 : David Jacobs ( USA ) 1968 : David Jacobs ( USA ) 1970 : Wayne Miller ( USA ) 1972 : Paul Luxon ( GBR ) 1974 : Richard Tison ( FRA ) 1976 : Eugeni Janes ( URS ) 1978 : Eugeni Janes ( URS ) 1980 : Stewart Matthews ( GBR ) 1982 : Carl Furrer ( GBR ) 1984 : Lionel Pioline ( FRA ) 1986 : Lionel Pioline ( FRA ) 1988 : Vadim Krasnochapka ( URS ) 1990 : Alexander Moskalenko ( URS ) 1992 : Alexander Moskalenko ( RUS ) 1994 : Alexander Moskalenko ( RUS ) 1996 : Dmitri Poliaroush ( BLR ) 1998 : German Knytchev ( RUS ) 1999 : Alexander Moskalenko ( RUS ) 2001 : Alexander Moskalenko ( RUS ) 2003 : Henrik Stehlik ( GER ) 2005 : Alexander Rusakov ( RUS ) 2007 : Ye Shuai ( CHN ) 2009 : Dong Dong ( CHN ) 2010 : Dong Dong ( CHN ) 2011 : Lu Chunlong ( CHN ) 2013 : Dong Dong ( CHN ) 2014 : Tu Xiao ( CHN ) 2015 : Gao Lei ( CHN ) 2017 : Gao Lei ( CHN ) 2018 : Gao Lei ( CHN ) 2019 : Gao Lei ( CHN ) 2021 : Yan Langyu ( CHN ) 2022 : Dylan Schmidt ( AUS ) 2023 : Yan Langyu ( CHN ) United States National Championships for Dan Millman v t e United States Champions in Artistic Gymnastics – Men's Floor Exercise 1963: Tom Seward 1964: Rusty Mitchell 1965: Rusty Mitchell 1966: Dan Millman 1967: Katsu Kanzaki 1968: Katsu Kanzaki 1969: Steve Hug 1969 Dave Thor 1970: Makoto Sakamoto 1971: John Crosby Jr. 1972: Yoshi Takei 1973: John Crosby Jr. 1974: John Crosby Jr. 1975: Peter Kormann 1976: 1977: Ron Galimore 1978: Kurt Thomas 1979: Ron Galimore 1980: Ron Galimore 1981: Jim Hartung 1982: Jim Hartung 1983: Mitch Gaylord 1984: Peter Vidmar 1985: Mark Oates 1986: Robert Sundstrom 1987: John Sweeney 1988: Mark Oates 1988 Charles Lakes 1989: Mike Racanelli 1990: Bob Stelter 1991: Mike Racanelli 1992: Gregg Curtis 1993: Kerry Huston 1994: Jeremy Killen 1995: Daniel Stover 1996: Jay Thornton 1997: Jason Gatson 1998: Jason Gatson 1999: Jason Gatson 2000: Blaine Wilson 2001: Sean Townsend 2002: Morgan Hamm 2003: Morgan Hamm 2004: Paul Hamm 2005: Guillermo Alvarez 2006: Jonathan Horton 2007: Paul Hamm 2008: Morgan Hamm 2009: Steven Legendre 2010: Joshua Dixon 2011: Jake Dalton 2012: Jake Dalton 2013: Steven Legendre 2014: Jake Dalton 2015: Steven Legendre 2016: Jake Dalton 2017: Yul Moldauer 2017 Eddie Penev 2018: Sam Mikulak 2019: Sam Mikulak 2020: No competition 2021: Eddie Penev 2022: Brody Malone 2023: Paul Juda 2024: Fred Richard 2025: Asher Hong 2026: Fred Richard v t e United States Champions in Artistic Gymnastics – Men's Vault 1963: Art Shurlock 1964: George Hery 1965: Brent Williams 1966: Dan Millman 1967: Jack Kenan 1968: Rich Scorza 1969: Paul Tickenoff 1970: Makoto Sakamoto 1971: Gary Morava 1972: Mike Kelley 1973: Gary Morava 1974: John Crosby Jr. 1975: Tom Beach 1976: 1977: Ron Galimore 1978: Jim Hartung 1979: Ron Galimore 1980: Ron Galimore 1981: Ron Galimore 1982: Jim Hartung 1982 Jim Mikus 1983: Chris Reigel 1984: Chris Reigel 1985: Scott Johnson 1985 Mark Oates 1986: Scott Wilbanks 1987: John Sweeney 1988: Bill Paul 1988 John Sweeney 1989: Bill Roth 1990: Lance Ringnald 1991: Scott Keswick 1992: Trent Dimas 1993: Bill Roth 1994: Keith Wiley 1995: David St. Pierre 1996: Blaine Wilson 1997: Blaine Wilson 1998: Brent Klaus 1999: Guard Young 2000: Blaine Wilson 2001: Jason Furr 2002: Paul Hamm 2003: Raj Bhavsar 2004: David Sender 2005: Sean Golden 2006: David Sender 2007: Sean Golden 2008: David Sender 2009: Jake Dalton 2010: Steven Legendre 2011: Jake Dalton 2012: Jake Dalton 2012 Sean Senters 2013: Eddie Penev 2013 Sean Senters 2014: Donnell Whittenburg 2015: Sam Mikulak 2016: Jake Dalton 2017: Eddie Penev 2017 Donnell Whittenburg 2018: Anton Stephenson 2019: Shane Wiskus 2020: No competition 2021: Brody Malone 2022: Asher Hong 2023: Kameron Nelson 2024: Donnell Whittenburg 2025: Asher Hong 2026: Kameron Nelson NCAA Championships for Dan Millman v t e NCAA Gymnastics Championships – Men's Vault 1938 : Erwin Beyer ( Chicago ) 1939 : Marv Forman ( Illinois ) 1940 : Earl Shanken ( Chicago ) 1941 : Earl Shanken ( Chicago ) 1942 : Earl Shanken ( Chicago ) 1948 : Jim Peterson ( Minnesota ) 1952 : Dick Gutting ( Florida State ) 1961: Fred Orlofsky ( S. Illinois ) 1962: Bruno Klaus ( S. Illinois ) 1963: Gil Larose ( Michigan ) 1964: Sidney Oglesby ( Syracuse ) 1965: Dan Millman ( California ) 1966: Frank Schmitz ( S. Illinois ) 1967: Paul Mayer ( S. Illinois ) 1968: Bruce Colter ( Cal St LA ) 1969: Dan Bowles ( California ) 1969 Jack McCarthy ( Illinois ) 1970: Doug Boger ( Arizona ) 1971: Pat Mahoney ( CSUN ) 1972: Gary Morava ( S. Illinois ) 1973: John Crosby ( S. Conn. State ) 1974: Greg Goodhue ( Oklahoma ) 1975: Tom Beach ( California ) 1976: Sam Shaw ( Cal St Fullerton ) 1977: Steve Wejmar ( Washington ) 1978: Ron Galimore ( LSU ) 1979: Leslie Moore ( Oklahoma ) 1980: Ron Galimore ( Iowa State ) 1981: Randall Wickstrom ( California ) 1982: Steve Elliott ( Nebraska ) 1982 Randall Wickstrom ( California ) 1983: Mark Oates ( Oklahoma ) 1983 Chris Riegel ( Nebraska ) 1984: Chris Riegel ( Nebraska ) 1985: Derrick Cornelius ( SUNY Cortland ) 1986: Chad Fox ( New Mexico ) 1987: Chad Fox ( New Mexico ) 1988: Chad Fox ( New Mexico ) 1989: Chad Fox ( New Mexico ) 1990: Brad Hayashi ( UCLA ) 1991: Adam Carton ( Penn State ) 1992: Jason Hebert ( Syracuse ) 1993: Steve Wiegel ( New Mexico ) 1994: Steve McCain ( UCLA ) 1995: Ian Bachrach ( Stanford ) 1996: Jay Thornton ( Iowa ) 1997: Blaine Wilson ( Ohio State ) 1998: Travis Romagnoli ( Illinois ) 1999: Guard Young ( BYU ) 2000: Guard Young ( BYU ) 2001: Daren Lynch ( Ohio State ) 2002: Dan Gill ( Stanford ) 2003: Andrew DiGiore ( Michigan ) 2004: Graham Ackerman ( California ) 2005: Michael Reavis ( Iowa ) 2006: David Sender ( Stanford ) 2007: Pejman Ebrahimi ( Ohio State ) 2007 David Sender ( Stanford ) 2008: Steven Legendre ( Oklahoma ) 2009: Steven Legendre ( Oklahoma ) 2010: Eddie Penev ( Stanford ) 2011: Jake Dalton ( Oklahoma ) 2012: Eddie Penev ( Stanford ) 2012 Paul Ruggeri ( Illinois ) 2013: Fred Hartville ( Illinois ) 2014 : Alec Robin ( Oklahoma ) 2015: Sean Senters ( Stanford ) 2016: Anthony McCallum ( Michigan ) 2017: Anthony McCallum ( Michigan ) 2018: Yul Moldauer ( Oklahoma ) 2019 : Anthony McCallum ( Michigan ) 2021 : Gage Dyer ( Oklahoma ) 2022 : Paul Juda ( Michigan ) 2023 : Asher Hong ( Stanford ) 2024 : Asher Hong ( Stanford ) 2025 : Kameron Nelson ( Ohio State ) 2026 : Tyler Flores ( Oklahoma ) 2026 Jun Iwai ( Stanford ) Authority control databases International ISNI VIAF GND FAST National United States France BnF data Japan Czech Republic Spain Netherlands Norway Latvia Korea Poland 2 Israel Catalonia People DDB Other IdRef Open Library Yale LUX Retrieved from \" https://en.wikipedia.org/w/index.php?title=Dan_Millman&oldid=1363082677 \" Categories : 1946 births Living people American motivational speakers American motivational writers American self-help writers American spiritual writers American male trampolinists California Golden Bears men's gymnasts Gymnasts from Los Angeles Stanford Cardinal men's gymnastics coaches Writers from San Rafael, California Relationship education Competitors at the 1965 Maccabiah Games Maccabiah Games gold medalists for the United States Maccabiah Games medalists in gymnastics 21st-century American Jews 20th-century American sportsmen Hidden categories: Articles with short description Short description is different from Wikidata Use mdy dates from June 2025 Pages using infobox person with multiple parents Articles with hCards All articles with unsourced statements Articles with unsourced statements from December 2017 Articles with unsourced statements from June 2021 Articles using sports links with data from Wikidata Webarchive template wayback links",
+   "source_class": "journalistic",
+   "bias_hint": "hostile"
+  },
+  {
+   "id": "work:ab260c68c6cd27d4",
+   "url": "https://www.whistlekickmartialartsradio.com/blog/672-dan-millman",
+   "title": "Episode 672 - Mr. Dan Millman — whistlekick Martial Arts Radio",
+   "author": null,
+   "publish_date": "Jan 3",
+   "platform": "whistlekickmartialartsradio.com",
+   "raw_text": "Episode 672 - Mr. Dan Millman Podcasts Jan 3 Written By Mr. Dan Millman is a former world champion athlete, author, university coach, martial arts instructor, and college professor. To me, I was an athlete so I appreciated sports. In sports, you could lose a point or lose a match. In Martial Arts, it comes from a more sincere lineage. Where before it was a sport, it was about life and death. So, no martial artist could simply focus on physical skill alone. Mr. Dan Millman - Episode 672 For a person who doesn’t like to hit and be hit, boxing wasn’t the thing for him. Mr. Dan Millman found Judo growing up for the same reason that many of us went into Martial Arts, bullies. Mr. Millman, exposed to eastern and Japanese thought early in his life, later on, developed the Way of the Peaceful Warrior which is the central theme of his books. Aside from Judo, Mr. Millman trained with Karate, Aikido, and other self-defense arts as well. In this episode, Mr. Dan Millman talks about the way of the peaceful warrior and his journey as a martial artist. Listen and join the conversation! Show Notes You may check out Mr. Dan Millman’s books including the Way of the Peaceful Warrior at peacefulwarrior.com/books/ Show Transcript You can read the transcript below. Jeremy Lesniak: Dan Millman, welcome to whistlekick Martial Arts Radio. Dan Millman: Thank you, Jeremy. Good to be here with you. Jeremy Lesniak: It’s great to have you. The show itself is about six and a half years old. I’ve known some of the guests that have come on for a long time, but there is nobody that has come on who I’ve known of for a longer delta between knowing who they were and getting to talk with them, so this is kind of exciting for me. Thank you for the honor of your time. Dan Millman: My pleasure, really. Jeremy Lesniak: Now some of the folks who are listening may know your name, but they are probably not going to know much about you and your relationship to the martial arts. I know you have talked bits about it, you’ve hinted at it, and anybody that knows you work knows that this has been a part of your journey. But this is our opportunity to go deep into it and that’s what I’m excited about. So let’s start here: If we think about when you started martial arts, there must have been a point where you were aware of martial arts. Do you remember your first memory or awareness of martial arts and that it existed? Dan Millman: I do. As a matter of fact, in my entree to the martial arts began. Maybe as many young people's time in the martial arts begin. I faced some childhood bullies when I was eight, nine, 10 years old in elementary school and middle school primarily. Mm-Hmm. And. After several encounters, I asked my dad if I could learn some self-defense. And even though I'm known by many people as a former gymnast, people have seen the Peaceful Warrior movie based on my first book. I actually began martial arts before gymnastics. My father took me to a boxing gym he knew of, where I quickly discovered I didn't really like getting hit or hitting other people. So I didn't pursue as a 10 year old, or maybe it was nine year old, but I didn't pursue boxing. Then he took me to a Japanese part of town and my first judo dojo. Judo, the gentle way was my first introduction to the arts and very good teachers. I loved learning rolling and falling and various throws. That was my first study several times a week. In fact, it was a big, red-haired giant, big hearted guy who let the kids throw him around. His name is Gene LeBell, whom I think you've probably heard of and many of your listeners have. Jeremy Lesniak: I know of Mr. LeBell, yes. Dan Millman: Great guy. So I was exposed to him early on and in my first tournament I tried tomoe nage, which is like a circle throw where you lay backward, put your foot on someone's stomach and grab their lapel and throw them over your head. It used to be used in the movies a lot; it looked good. It didn't work very well for me. This young boy, my age, was heavier than I was, and my foot slipped and he fell on top of me and pinned me. That was my exposure to my first martial arts experience in a competition which I actually surprisingly didn't really care for much. I loved the training. I loved the terms and the rolls and the philosophy - as much as one 10-year-old can absorb. So that was my first exposure. The way I discovered judo was in our neighborhood in Los Angeles, there were many, many Hispanic and Asian people, and where we used to play up in a forest of trees was taken down and there was a Japanese Cultural Center built there right up our street. And so I was exposed to things Japanese and my first role model, he was a streetwise kid. He was about 13 and I was only 10. His name was Steve (USAW?) I used to see Japanese dolls in his house, these geishas and there were other artifacts, there was a samurai sword. So, I was kind of exposed to Eastern thought Japanese, particularly in judo early on. I'm not going to go into that much detail because we've all had our history of in the arts- either training in one art or many. I did later on take some karate with my cousin. In high school, I got pretty immersively involved with Okinawa-te with a man named Gordon Doversola. Whether someone has heard of Gordon or not, he actually choreographed that first fight scene in the original movie of The Manchurian Candidate. Maybe you remember that (yeah) was one of the earlier good martial arts fight scenes with Frank Sinatra, I believe. Jeremy Lesniak: Some have called it the first martial arts fight scene on film in the modern era. Dan Millman: I think James Cagney did some judo in one of his earlier films. It might have been one of the first time an Asian martial art was used other than just fight this fighter. But yes, it was an early one, and it was one of the better fight scenes. So Gordon choreographed that, but still, he was an excellent teacher. I learned the 108 move Falling Leaf form. Okinawan martial arts, as many of your listeners know, blend the linear style of Japanese karate and the more circular Chinese wushu type kung fu form. It's a very interesting style, and I just happened to be exposed to that in high school. Then I had a latency period of 10 years where I didn't really do martial arts, but I did get a seventh degree black belt from the trampoline because I got into gymnastics. In fact, the first day in gymnastics class, it was a club, a tumbling and trampoline club, in my middle school, my homeroom teacher started it. She asked if anyone could demonstrate a roll and my hand shot up. I was so enthusiastic and what I did was my judo roll, and I was very embarrassed when she said, “Oh well, actually, in acrobatics, we do a roll directly forward over our head.” So I learned the difference between those types of rolls and I've learned many others, of course, since. And later on, after I started coaching at Stanford University in gymnastics, I took up aikido. I ended up getting a shodan certificate. So now if I'm ever attacked on the street, I can whip out my certificate, maybe give someone a paper cut. Still, I consider myself a real beginner in aikido.-I love the philosophy, the physical movement of non resistance, getting out of the way. Of course that's the principle for any art. But the circular motions and the friendliness of it. Every art has its strengths and liabilities. I once asked my aikido sensei, Robert Nadeau, who taught George Leonard, who was well known for his philosophy. He's an author. Anyway, I asked him, “You know, can you really learn to defend yourself on the street with aikido?” This was before Steven Seagal. (laughter) He said in his grumbling kind of raspy voice, “You want to get self-defense, get a piece, you know, get a gun.” So he was very practical in his approach. But then he body slammed me to the mat, I guess to make a point. But after that, I took up tai chi and learned a 108 move form on both sides right and left. I also dabbled with the basics of kali, escrima, arnis, the Filipino arts, in order to teach a personal growth training for 14 years, using knife fighting as a means of self-knowledge and personal growth and making some shifts. It's a great metaphor. And finally, I guess one of the most interesting arts I ever studied was with a fellow who is really good at pak silat. he was an instructor. Twenty seven years doing this, he was very fast, named (Al mc….). He lives in the Midwest. I just took a seminar. This guy named Vladimir Vasiliev and this thing called Systema, and I'd never heard of it. But he said, “You really want to do this.” I ended up flying to Toronto, training with Vladimir for a couple of weeks. and really sore. But again, it's not a macho art, but it's very demanding physically and it was tremendous experience. And later I went to Moscow with the Systema, a group trained with Mikhail Ryabko, one of Vladimir’s colleagues and teachers as well. Yeah, he's amazing. Jeremy Lesniak: I've heard that. We've had a few folks on the show of trained directly with him, and they have nothing but amazing things to say. Dan Millman: Well, you know, there's a saying about Koichi Tohei and Aikido and also Ueshiba , the founder of Aikido, they said the difference between Tohei and Ueshiba is with Tohei you feel like you're trying to move a mountain. With O-sensei Ueshiba, it's like trying to move a feather and not being able to do it. So there is a certain different quality, and Vladimir is an amazing practitioner of Systema, as he's demonstrated many times with challenges. Ryabko doesn't even look like he's fighting. You just isn't there when you try to attack him and you're pinned and thrown whatever. He's amazing. Well, you've probably heard stories about that, but I'm just sharing a bit about my experience in the arts. And I went later to a training camp north of Toronto, Canada, where we were fighting in the water and in open spaces, in forest and night. All kinds of interesting environments, testing our intuition, all that sort of thing. I owe a great debt to the martial arts. And the reason I mention this is because, as many people know, not everyone. I wrote a book called Way of the Peaceful Warrior , and it's become quite popular over the last … well since 1980, when it first came out in hardback. And some people say, “Well, why do you use the term ‘warrior’? You were a gymnast, weren't you? So at least I had some grounding in the martial arts. I wouldn't say depth, but I did have breadth, a sense of perspective about the strengths and limitations of various arts and the understanding how self-defense is different from martial arts. There's martial science, martial art. I also trained with Matthew Thomas, who started model mugging. You may have heard of that self-defense system where the guys wear these overalls heavily padded and they teach full contact reality-based scenarios. And that evolved into FAST defense. FAST stands for fear adrenal stress training with a recognition that when you're under high stress, the fancy moves don't work. You need high percentage shots, large muscle groups and it's very practical is the best self-defense training per se, I’d ever had. A fellow named Bill Kipp, former Ranger, and many, many years in the martial arts was trained by Matt and then evolved it further. . Anyway, that's the background, so I can talk with at least some authority about the idea of warriorhood, budo, bushido and the philosophy. To me, I was an athlete and I appreciated sports. In sports, you could lose a point. You can lose a match in martial arts. It comes from a more sincere lineage where before it was a sport, it was about life and death. So no real martial artist could simply focus on physical skill alone - what if emotions were in turmoil or the mind distracted. I think there was a holistic sort of training from the beginning in martial arts where you had to train body, mind, emotions, spirit. That's one thing I appreciate that lineage of the arts and it's really about life. You know, it's funny in The Karate Kid, Pat Morita could get away with his character. You know, Mr. Miyagi could say, “Karate like life” and that's it. I mean, the road. The difference between expertise and mastery in my view is that in expertise you become physically skilled, but mastery even on beginning levels, if someone recognizes my training is really a training for life through the art, whatever that art may be, they are in the path of mastery. That's what connects it all up, I think. I was an assistant professor of physical education at Oberlin College after my coaching career at Stanford University for four years. I coached the top U.S. Olympian elite, turned the team into one of the top three teams in the U.S. in about three and a half years. And I left to do more creative work in a sense at Oberlin College. I taught courses like psychophysical development and mirthful movement, circus course,, juggling and teeter board acrobatics and so on. But I created a course that introduced students to both the basic elements of Taichi and Aikido. And for the catalog. I was going to call it “The Way of the Warrior,” which makes a lot of sense. We understand way meaning do or tao on a path to excellence and so on through training. But it didn't quite fit because these are a bit more internal arts, and they were not primarily aggressive arts, but defensive. Both of them. And so I ended up coming up with the idea. I said, “Wait a minute, I'll call it way of the peaceful warrior.” And this was the first time that I organically came up with the term. And it was only years later when I wrote the book that I said, “Hey, you know, what is this book going to be about? Like one of things living in the present day and so on and so forth.” And I said, “I'll call it The Way of the Peaceful Warrior.” And it stuck. That's another story, but that that kind of connects up for those who don't know my work, how I came up with the term peaceful warrior. And I probably should mention that I view everyone as a peaceful warrior in training. And what I mean by that is it's not some namby-pamby, new agey kind of label. I've never seen anybody who isn't striving to live with them with a peaceful heart, to live with a sense of serenity. Equanimity in the amidst the chaos of the daily news. And the challenges of everyday life. But also there are times we need to acknowledge that there are times we need a warrior spirit. And it's not necessarily about combat, except in the sense of the inner battle that sometimes goes on with demons of insecurity, fear of one kind or another, anxiety, self-doubt. But really, it's about standing up tall inside of ourselves and marching into life, rolling up our sleeves, tackling what we need to face in everyday life. And we all face adversity. Sometimes small, sometimes major – loss, grief, challenge, illness, accidents, various kinds of physical, emotional and mental pain. We've all had it. And so this is why I view all of us as peaceful warriors in training in the school of everyday life. So the term isn't some exclusive club you can join. You don't have to get some special initiation to become a peaceful warrior. It applies to human beings on planet Earth, which I view as a divine school for souls. Daily life is our classroom, so I hope that it gives a sense of a context where I'm coming. Jeremy Lesniak: There are about a hundred directions that we could go and question swimming in my head, which one to choose for. So I think I've got the one. And we're going to we're going to roll back a little bit. You talked about boxing not quite resonating for you, but you're talking about this cultural center, you're talking about Japanese arts, Okinawan arts, you're talking about experience with historical cultural elements, even outside of training and then for anyone who's read The Way of the Peaceful Warrior, which I did for the first time quite a long time ago, your approach even to your gymnastics training reminded me of martial arts training, just that mindset. So I'm curious because we’ve found over the years that when someone tries martial arts and finds something that works for them, something that's sticky, there's a reason, there's an element. Maybe it was something that was missing, something that they were dreaming of, whatever it is. So do you have a sense as to what it was when you first found judo that was clicking for you at least better than the boxing was? Dan Millman: Hmm. Good question. Some of it is just serendipity and good fortune. They happen to be at or near our neighborhood. My father was willing to take me. It was traditional. The instructors were Japanese, along with Gene, I think also. But he just went to train with us, so I wouldn't say that I made a conscious choice at 10 years old to find it art that resonated with me. And later, by the way, I did a little bit of boxing again. I dropped in to Peter Ralston's in Berkeley, has his place in Oakland, and again found out. I really didn't like getting hit much. I got hit a lot because these guys are much faster and better than I was. Whereas judo was more friendly, I used to like to wrestle as a kid and try to get out of holds. I mean, if I discovered Brazilian jiu jitsu, which I'm going to introduce my grandson to in a couple of weeks when things quiet down as far as our current situation. I probably would have liked that very much. But it was something about just moving with someone and trying to use leverage. That's what impressed me. You see, I never heard of judo, but I saw that exhibition at the Japanese Cultural Center and I saw kids and small people throwing larger people. And I'd always been small for my age, and I was one of the youngest kids in my class. I started school early with kindergarten, and from then on I was one of the younger ones. I explain all this in my new memoir called Peaceful Heart, Warrior Spirit , appropriately. Seeing how small or people can throw larger ones, I said, “I want some of that.” So that's probably what attracted me to try judo. It wasn't overall size and strength, but to a large degree leverage. And that's why I was attracted to that. And again, you said, Jeremy, that many people, you know, follow one art for a long time because they resonate with it. There are people who pick one thing and go in-depth and continue it for many, many years, even decades. And my interest somehow instinctively was not conscious, really, I just like to be exposed to different kinds of approaches, to movement, to self-expression, as Bruce Lee used to say. And so it gave me an appreciation for the various arts and their strengths and so on. I get the sense of discernment about the different arts and by the way, one of the one of the prime principles in this approach to living that I teach, called the peaceful warrior's way, is that there is no best martial art, no best teacher, no best book, no best religion, no best philosophy or path or diet or system of exercise. There's only the best for each of us at a given time of our life. So I have a respect for people's individual choices and their process. And what I've asked by people, and I am very often. “Dan, can you recommend a martial art for me to study?” I say, “Well, yeah, look, Google, what's near you? First of all, because I can tell you a great school that is 300 miles away. It's not going to be very practical.” Sure. And second, find a really good teacher where the students seem to be having a really good time. They're getting a lot out of it. A sample of class observe and also partake and pick a teacher that you resonate with. The style perhaps is less relevant than the teacher, and some teachers teach an art or subject in school. Others teach life through the art, through the teacher. And that's what I would look for. Jeremy Lesniak: I'm smiling. I suspect a number of the listeners are laughing because you're hitting all the points that I hit when that subject comes up. You know, people lead with style, and that's the least important of all the things you can go through. It's pretty much the least important. And just as you said, where are you? When do you want to train? What's your what's your reason for training things like that? You're talking about your entry to martial arts with some passion, with some conviction, and yet you set it down for gymnastics, which makes me wonder. Did you see gymnastics as something completely different or maybe something that had far more similarity than maybe someone who hasn't been a gymnast might notice? Dan Millman: Well, strangely enough, for a national and world champion on the trampoline to say, but I've never really liked competition. (laughter) I like collaboration. I like working with people. I also tended toward individual endeavors where my success didn't depend on someone else's failure. And that's more of a philosophical response to your question, Jeremy. But actually, what happened was after my exposure to judo. Now that, by the way, I should mention and let me take a step back, OK? First, physical discipline I was exposed to other than, you know, kids running, throwing frisbees, playing baseball and all that. The first discipline that I studied was modern dance. I was about nine years old, I think, before I took judo. My mother played the piano for a modern dance class, and she didn't want to pay for a babysitter. So she brought me and enrolled me in the class. It was me. You can imagine a nine year old boy and about ten or twelve girls. Yeah, I in tights and they were wearing tutus. I refused that, of course. But of. I learned to point my toes. I learned muscular control. I learned about movement, and that was a great foundation for all the physical disciplines I did afterward. So that was the first thing I was exposed to, but also about that age. I was at a summer day camp, going with my cousin and my sister, and she loved horses. She did horses. My cousin did all the things she liked to swim. But I discovered an old, really heavy duty trampoline, ground level trampoline never seen that kind of thing before. But when I started jumping on it, it allowed me to jump like a kangaroo higher than I could on the ground. And to most people today know backyard trampolines are all around everybody. But it was more rare, more a circus thing back then. And so it was rare to find that, and I just spent all my time jumping on that trampoline, trying to do see drops, belly drops, backdrops, and I wanted to learn flip and I was an autodidact. You know, that term I was trying to teach myself. And I kept trying to figure out how to spin around and just before one of the summer camp ended I did such a well-timed front somersault that was trying to get all the way around on my feet while I missed my feet entirely, landed on my face, scraped my whole face up, and I got scabs everywhere. But it didn't even dampen my enthusiasm. However, I didn't discover another trampoline until a couple of years later again, when my homeroom teacher in middle school the first day said, I'm starting a trampoline tumbling and boy, I wish there was something about it. I just knew I had to do. I needed so I'm so enthusiastic and I the previous story I told about doing the roll over my shoulder and the embarrassment led to some a lot of learning handstands, handstands, cartwheels, back handsprings. I even learned to stand on my instructor's shoulders on the trampoline, jump off his shoulders, land on the trampoline, do a backflip to lean back on his shoulders. And this was, you know, I was 11 years old, just starting middle school and that immersed me. I mean, it just completely drew me. And there's more to I tell the more the story in the memoir, but I ended up just getting better and better. And I was doing trampoline at its center in Burbank, California, and I ended up winning the state championship. I was 14 years old and the rest were college students. If anybody wants to look me up a life, I was on the cover of Life Magazine with some friends way back in May 1960. The trampoline craze was beginning their backyard trampoline centers, opening up everywhere around 1960. And so Life Magazine took an interest and they had a picture of me and a bunch of friends doing some trampoline in midair on that cover of Life magazine and inside the 14 year old Danny Millman was doing, demonstrating some flips with strobe lights going off and the trampoline led to tumbling, which led to gymnastics events in high school and a scholarship to UC Berkeley eventually. So I was just immersed in gymnastics and I liked it. There was no fighting and I didn’t have to get punched or hurt. I fell a lot. I mean, I showed a certain toughness that that one it can evoke in the in the martial arts. But it was with the apparatus that was showing spirit and determination and falling again and again. But I think my early exposure to judo, you know, being comfortable falling and I never minded, but I used to fail 50 times a day, you know, crashing until I learned the move. So failure was a totally different critter to me that many people fear it, but I was so used to failing. I failed my way into success. That's how I trained in gymnastics. But yet when I started coaching, I was doing gymnastics anymore. And so then I thought, maybe I can do some more training in the martial arts, and that's when I happen to find a local school in aikido and one of the foremost teachers. You know, I asked him, I said, you know, Nadeau is like a French name. I said, Are you any good at this? I actually had the chutzpah to ask him that. And then he said, Well, you know what I trained with Uchiha Desi trained with the founder in Japan after the war. And he used to tell me they trained on hardwood floors with nails sticking up, they hadn’t be pounded in improperly. It was tough training, and you probably know this. The beginnings of a lot of martial arts - they only attract the toughest guys, and later when they reach out to more people, they soften somewhat. And then, of course, later they become sports, even though aikido never became a sport. Jeremy Lesniak: It's interesting to think of something like aikido, which is seen so gently, so peaceful. Think of thinking of it in terms of rough around the edges in a sense. You talked about this transition from martial arts to gymnastics and you know, we can imagine the things that you bring from martial arts to gymnastics. But I'm also interested about that, that secondary transition. What was it you took from gymnastics into aikido? Dan Millman: Yeah. Well, not all good things. For example, when I began doing the aikido moves.., first of all, I was into perfection, symmetry, and control. But when you're dealing with another unpredictable partner, even though, you know, in aikido, they tend to have very rehearsed kind of attacks and defenses. Yeah, ritualized, almost. But still, they kept telling me, relax, Dan, relax. And I was like, I am relaxed because I was used to doing iron crosses and the rings, you know, and planges and all those strength moves. And so I had to unlearn the idea of being totally in control and start to flow and relax and extend energy and ki . If I'd returned to gymnastics after martial arts, it would have been even better. One fed the other. So it took me a while to overcome the whole control thing in gymnastics and learn to just flow and relate to my partner in that way because I was used to being such an individual, even though we had a team. We each did our individual routines. And so working with another person took some adjustment. But yes, definitely the concentration, the focus, the spirit that I learned in training for gymnastics did carry over later to the martial arts of aikido and the others that I practiced. So one thing you know, it's physical movement. You know, we have words, we have yoga. We have football, baseball, sports, martial arts, acrobatics. But what is it all have in common? Movement, attention, stillness and focus, dynamism, a certain dynamism. So it's really all about expressing yourself again through these different physical disciplines. But really, there's psychophysical disciplines as any martial artist knows, you have to have a certain mental ability, if you will and spirit. Some of my peaceful warrior seminars, the long weekend workshop, sometimes we do board breaking but we do it as a metaphor, not as learning to punch hard or kick hard or whatever. And it's a very powerful metaphor I've found, and it's been used by many people. And I tell this when I train people how to how to do it, you know how to break the board, the techniques and so on. I say I can teach you the technique. I'm responsible for teaching the proper technique to maximize your chances of going through this board. But I say the spirit part is up to you, and I can usually tell who is going to break the board because, you know, they had the eyes of the tiger, they would go right through that board. And I tell the story in in peaceful heart warrior spirit in the memoir that once I was down in Texas, in Austin, in the Hill Country, a place called the Crossing's, and I was teaching a weekend workshop there and we kind of did a thing on Sunday morning, awaken the warrior spirit. It wasn't a martial arts training, mind you, it's a peaceful warrior training about training the mind, doing some different kind of work, breathing exercises and so on. But on Sunday, we did the board braking. And normally, when asked for a volunteer after I trained them, how to do it, I say, who wants to be first? Normally, some larger guy, you know, maybe martial artist who has some experience will come up first confidently and they want to show their stuff. So but this time this tiny, diminutive woman came up and an elderly woman and she introduced herself as Maggie, and she said she told me several things. First, she said, Today is my 79th birthday. She said I am right-handed, but I've injured my right hand, so I'm going to have to use my left hand and I've never done this before. Well, when Maggie knelt down to bring her hand through that board, it was it was at that time I used the usual traditional pine board, you know, dried pine board. Anyway, I looked in her eyes because I was on the other side and I could see her eyes, and I knew this lady was going to go through that door and she just bam like knife through butter. Which surprised me, actually, because it is easier for people with larger mass to do it. I only learned later that she was a student, of Cheng Man-Ch’ing, and she had been teaching Tai Chi in New York City for probably 20 years. She's still alive at the time of this interview, but she's really getting on it in age, probably in her 90s. So maybe that had something to do with it. Jeremy Lesniak: It sounds like it. When you put together, whether it's a new book or, one of these, these seminars, these events, you know, I think anybody who's trained can understand, you know, you're never going to be able to separate the training. You know, the training is part of your gymnastics training as part of your aikido, your system. It's all part of you. But you do have a choice as to what of that context for who you are goes into whatever it is you're bringing forward, whether a book or an event. And you've written a number of books and they come in at different angles, they bring in different elements of who you are and thus in my mind, different parts of your martial arts context will call it. How do you make that decision? Because let me add a Part B real quick, because your audience is not a martial arts specifically audience. Dan Millman: Yes, I do have quite a following, I believe. Over the years when I taught seminars, the number of people who've been involved with the martial arts, I think people involved in the martial arts may gravitate toward of a book called The Way of the Peaceful Warrior . Anything with the word warrior in it in the broader capacity of that struggle. I'm not sure whether you're asking me what moved me to write my various books… Jeremy Lesniak: No, it's not that, it's in the creative process. So this memoir, I mean, I'm going to guess the memoir starts with a kind of a big idea, macro idea, and then you decide how you're going to fill that in. So the ingredients, which how do you choose the martial arts ingredients? Dan Millman: At one point in my career, after writing about 15,16 books over like 35 years, I decided it was time to get back to writing and share what I learned about the art of writing. And so I wrote a first draft, showed it to my daughter, who I used to edit her papers. But then she passed me in terms of writing ability. And she said, “Dad, this is really meandering, this literary advice.” She said, “Let me take a crack” at it, and I said that would be great. We ended up publishing this book where it was published by a established publisher, but the book is called The Creative Compass, Writing Your Way from Inspiration to Publication . And she structured it around five universal stages of the creative process, and I hadn't really thought about it how it might apply to martial arts. But I know it applies to any creative art. And the five stages of creating a book a painting, a sculpture, a musical composition, and maybe even some innovative martial arts. The first stage is dreaming. In other words, you come up with an idea, an approach, some innovation, but where it is in the life of the mind in the imagination. So that's the dreaming phase. And it has to start there. Then the next step, the next phase is drafting. In writing, it's putting it down. It's bringing what was unmanifest into reality on a computer screen, on a page. And drafting is like muscular effort, just like laying a brick wall 100 miles long. Just one word, one sentence, one paragraph at a time. And the next stage is the one most people skip. It's called development. Maybe you've heard in the movie making business, they call it Development Hell. It's when you step back and say, Is my creation? What was a castle in my mind right now kind of looks like a garden shed. And so I started to renovate and restructure, test it against reality. Is this what I wanted to express? And so that's what most people skip. They jump to the fourth level. The fourth stage, which is refinement, polishing, refining it and so on. And finally, of course, the sharing with other people teaching, learning, sharing, growing. And this probably happens in the development of any martial arts. Everything seems to go through these. We didn't make up these stages. My daughter knew about them, but she wrote them in this way. And then we structured the whole book around that. And each book goes through that process. An email that you want to compose carefully will go through that process. It's not just about writing, rewriting it, and you're done. So it goes through that whole idea of bringing it into the life in the mind and then manifest reality. I mean, how did people come up with various techniques and movements and counter movements? And it's it can be very, very creative. Obviously, Brazilian jujitsu is very much like that. I met a young man once named Josh Waitzkin, and maybe you recognize that name. But Josh, have you ever seen the movie Searching for Bobby Fischer ? Jeremy Lesniak: I'm familiar with the movie. I've never seen it. Dan Millman: I highly recommend it. There is some of the best acting you'll ever see among five or six ensemble people. It's a touching, deep movie about a young chess prodigy and how he discovers chess and discovers he loves it and he's good at. The Queen's Gambit is a more recent and more popular kind of movie about chess. And again, chess, Brazilian jiu jitsu. It's all about strategy, right? And figuring things out. What's interesting about Josh is after he became one of the youngest grandmasters ever in chess, he took up push hands and he won the World Pushhands Championships in China against some not very fair play sometimes. But he won that championships, and then later on he took up BJJ. He opened a school with Marcella Garcia in New York City. And Josh has been doing that. I don't know what he's up to now, but he really was training. I went to see him roll, as they say in BJJ. and in that in a school in in New York City, where I now live. I haven't seen Josh in a while, but how many grandmasters in chess end up being world class martial artists? That's unusual, Jeremy Lesniak: I would imagine few, but I bet any of them could. It's a mindset. Dan Millman: It's a mindset. You're right. Absolutely. Jeremy Lesniak:: Unpacking a puzzle? Dan Millman: Yes. Yes, it is. I don't know if I really responded to that, that question, but that's what came up. Jeremy Lesniak: That's OK. The questions are just to keep you talking. We don't have to go anywhere. I don't I don't have anything specific that we need to get through to call this a good or a success or done or anything like that. It's just it's us talking, it's us talking martial arts. And the beauty of the format is that everyone sees their relationship to martial arts and how it impacts their lives differently. And I like the variability of that because the people who are listening have different relationships to martial arts. Some of them are school owners. Some of them are dipping their toe in and went to their first class. Some of them haven't even started yet, but they feel an affinity for it and they want to, and they're hoping to get there soon. Yes, so too, to hear your stories is meaningful Dan Millman: Let me say something about I only referred briefly to studying the basic elements of kali, arnis, escrima, in order to teach a training I taught for 14 years, called the Courage Training, the Peaceful Warrior Courage Training, and it involved teaching the basic movements first. Five attacks in kali, first knife attacks, angular attacks, you know, level attacks and thrust and doing these movements with learning the movements. We worked a lot in slow motion. We emphasized deep relaxation while movement, and we got some amazing results. Now I could only take 40 people maximum and people came from all over the world to do this training, and it got a reputation of a certain kind. It was a three and a half three or four day training, an immersive training from before breakfast in the morning till bedtime at night in a retreat center in Northern California. I don't teach it anymore. It's so intensive. I needed a staff and it just got unwieldy after a while. But for 14 years, the people who showed up to this training, most were absolutely beginners in the martial arts. They'd never done a martial art before, but we got results. Well, actually, some of the people who came to the training were skilled martial artists, black belts. There was one fellow who was a seventh degree of black belt in taekwondo and another who had trained special forces and so on. They came not because they were going to learn new movements necessarily, but they were very curious about reported results we got from this training. Remember, the training was not to teach people to fight with knives or to become expert martial artists in four days. The training led to a test at the end of the training that was a culminating graduation ceremony some people passed the test, most did, some failed and those who failed to learn twice as much as those who passed. But it was about making fundamental shifts in their life, reflected in the way they faced the fear in the form of three attackers coming out of one at a time in rapid succession with steel knives. They were practice knives, they weren't sharp, but it was quite dry, mouth, high adrenal situational challenge. While the seventh degree black belt failed his test the first time. And it wasn't because he didn't have the physical skill or strength or stamina. He was a very good fighter, but he wasn't doing what we were looking for is flowing with life. He was the shift he needed to make was really relaxing and flowing with life, more being in relationship with us as we attacked. But he tested a second time, and he did beautifully, he made that shift. It's quite dramatic when that happens. Now the reason he took that training was to find out how we got the results we did. And what I mean by results is it's usually pretty much the equivalent of training six months to even a year in most martial arts in terms of being able to move instinctively without thinking. To trust the body to that degree where you don't think you know, one of my former mentors I describe in the in the memoir The Peaceful Hear Warrior Spirit, I call them the warrior priest. And he used to say combat like in life. If you start thinking too much, you're dead. And so they had to they were thinking and trying to figure out where we were going to come from next, it wouldn't work. They had to move absolutely instinctively and trust that. And that doesn't usually happen in four days. But it did in our training because of the slow motion we did. And because of the relaxation and drilling again and again, we told people that usually you're confused. I don't know what I'm doing. Then you do it right once. You go, OK, I'm bored. Let's move on. But we told them, No, that's just starting to get it. So we overtrained and people went through these confused places where they didn't know what they were doing or mentally confused, physically confused and yet if they persisted, they made a breakthrough. Let me share a story not about martial arts, but my 60th birthday. I wanted to do something different. So I ended up deciding I was going to learn to ride a unicycle. And I had a kind of a stiff back at the time, but nonetheless I wanted to learn to ride a unicycle. Now, I don't know, Jeremy, have you ever tried riding a unicycle? Jeremy Lesniak: Once and it did not go well. Dan Millman: OK, that's the universal response, and it's very humbling. Yeah, most people who tried it, it's just like, what? How do people do this? You know, I can ride a bike, but it's quite different. So a friend of mine loaned me his unicycle and told me to practice. He recommended a neighborhood tennis court in the morning because it's a good surface that I could get a death grip on the chain link fence, trying to ride around the perimeter on this unicycle, holding on. And at the end of every practice session and I was there alone, I just would leap forward and careen and see how many times I could pedal before it went out from under me. And I practiced for a week and I could get about six pedals before it went down. And then the second week, I actually think I got about almost 12 pedals, just like careening or not really riding. But by the end of the third week, I was able to ride figure eights around the tennis court. Now that I came back every day, the reason I'm relating the story and I think many martial artists are practitioners of anything will relate to this. I learned two things from learning to ride the unicycle. I relearned two things. First: Everything is difficult until it becomes easy. True in any physical goal, but the even more important principle, I learned was I confronted there were a couple of days in those three weeks where everything fell apart. There were horrible days. I couldn't do anything. I was worse than I was three or four days before that. Confused mentally, physically, but I came back and usually the day after those so-called bad days, I made a breakthrough. Sudden improvement and I realized that the learning was actually happening on those bad days. That's when the skill level was going from my front brain, my precognitive level to my back brain more instinctive. And I think that applies to martial arts for sure, and certainly did this knife fighting training. People are just going freaking out. I don't know what I'm doing. I can't. I can't even move anymore. I said, Stay with it, stay with it. And they made these breakthroughs and people amazed themselves. We couldn't predict who would pass and who wouldn't. It was one guy in Chinese tai chi shoes, was dressed all in black, perfect form. And we attacked him. He just stood there in place. And so we could never predict who was going to make a leap and rise to the occasion and who wasn't. So it revealed a lot about people. This is about self knowledge, not just about learning the fight with a knife, but it really is a metaphor. To me martial arts are a metaphor of how to live wisely and well. Jeremy Lesniak: I like it. Well, you've mentioned your book a couple of times, and it's coming out soon. And if I remember correctly as of when we're recording this… Dan Millman: Yes, when we're recording this, by the time it plays, I expect the book to be out. The official pub date is January 4th, 2022 – coming up in a couple of weeks. Jeremy Lesniak: I think this is scheduled for January 3rd, so I think this will, you know, for listeners who hit it the day of release - tomorrow. Dan Millman: Yeah, well, it's the book's officially published tomorrow. It'll be up on all the platforms and I'm not here like to promote the book because it may or may not be of interest… Jeremy Lesniak: Well tell people about it so they can get a sense as to whether or not they want to investigate. Dan Millman: Sure. The subtitle of the book Peaceful Heart Warrior Spirit is the true story of my spiritual quest, and I believe we're all on a spiritual quest. Whether or not we might use that term or recognize it consciously, who isn't looking for a deeper sense of meaning and connection and purpose, a sense we count for something asking, You know, where do I fit in life? What is it for? Maybe we don't think about that all the time. We're too busy with the conventional things in everyday life as we ought to be: kids, education, training, work, and so on, making a living. But there are times we wonder about these questions. So I would not presume to write a book just about me, assuming everyone wants to read about Dan Millman, especially if they haven't heard of me. But many people might be interested in this idea of a quest, and it's a bit of a cautionary tale. It offers guidance. I take people along for the ride of the four primary mentors I worked with over 20 years and one I call the professor, one I call the guru. I was with that person almost eight years on and off. One, the warrior priest who is a martial arts instructor and a better physician. Amazing guy and the fourth I called the Sage. And they represent different aspects to the search for enlightenment, illumination, peace, liberation, the transcendent search. So it's been said many ways. In search of the miraculous. You know, so I think that's what we're really looking for when we trained in the martial art do a sport or we pursue any endeavor. Maybe we're a physicist. We're looking for the edges of reality where reality meets a little bit of magic. And that was the larger quest. You know, I began my career kind of searching for ways to create more talent for sport. When I was an athlete and then a coach, I asked myself. Well is talent innate or can it be developed? And I defined talent. Jeremy has the ability to learn faster and easier and higher potential rise to higher levels. That seemed like a good definition of talent, and it seemed to me that talent was about 20 percent innate - certain body types. Physical characteristics. Psychological characteristics might lead one to some innate talent inborn born into the right stars, whatever. But it seemed to me that about 80 percent of talent for sports could be developed. And I asked myself if it could be developed: What qualities do you need to learn faster and easier and rise to higher levels? Well, strength, obviously. Muscular control, even if you're a violinist, you need muscular control. And suppleness range of motion, proper posture and range of motion and then stamina to be able to train and so on. But I think the most important was sensitivity. Elements like coordination, rhythm, timing, balance, reflex speed. So and of course, the master key to all these is the ability to relax in motion. So my theory is it turned out worked well in practice. When freshmen came to train in gymnastics with me at Stanford instead of focusing on new skills in gymnastics, we focused on that foundation of talent. All those qualities and the theories did bear out in practice. The team went from the bottom of their conference when I began coaching them to one of the top three teams in the nation, and as I mentioned. I trained the top U.S. Olympians as well. And I might still be coaching today, but that's when I realized that being able to do somersaults and cartwheels and handstands, those skills themselves didn't really help me when I went out on a date. You know, they didn't help me when I got married or had children or dealt with financial questions or career decisions, the things of everyday life. So that's when I made that fundamental shift. And I started asking bigger questions, how can we develop talent not for sport or martial arts, if you will, but talent for living? What qualities, what skill sets weren’t we taught at school and that led to, well, a lifelong search, the quest for illumination. Or just say life skills. And it took me around the world and eventually led me to these four rather unusual mentors who represent radically different people who represent different aspects of this bigger searching life. The spiritual search. So that's how I made that transition to what I do now. And the memoir Peaceful Hear, Warrior Spirit is about the foundational elements of my life that led up to and prepared me for these teachers. It's my life as a young athlete in the martial arts that led to a sort of a larger spiritual education is nothing to do with religion or beliefs. It was more of a psychophysical",
+   "source_class": "journalistic",
+   "bias_hint": "hostile"
+  },
+  {
+   "id": "work:bf2f4a20a618fc1d",
+   "url": "https://usagym.org/halloffame/inductee/millman-dan",
+   "title": "Millman, Dan • USA Gymnastics",
+   "author": null,
+   "publish_date": null,
+   "platform": "usagym.org",
+   "raw_text": "Disciplines Women’s Artistic Men’s Artistic Rhythmic Trampoline & Tumbling Acrobatic Parkour Gymnastics for All College News Events Upcoming Events Results History Safety Safety & Response Make a Report Safety & Response Policy U.S. Center for SafeSport For Parents Permanently Ineligible & Ineligible Members and Participants Suspended & Restricted Persons Member Services Member Services Home Education Sanctions Become a Member Resources Find a Gym Athlete Ombuds Store USA Gymnastics Foundation Health & Wellness Anti-Doping Industry Network Members Classified Ads About About USA Gymnastics Mission, Vision & Strategy Executive Leadership Team Governance Documents Board of Directors Athletes’ Council Partners & Suppliers Careers Hall of Fame My Profile My Profile Disciplines Women’s Artistic Men’s Artistic Rhythmic Trampoline & Tumbling Acrobatic Parkour Gymnastics for All College News Events Upcoming Events Results History Safety Safety & Response Make a Report Safety & Response Policy U.S. Center for SafeSport For Parents Permanently Ineligible & Ineligible Members and Participants Suspended & Restricted Persons Member Services Member Services Home Education Sanctions Become a Member Resources Find a Gym Athlete Ombuds Store USA Gymnastics Foundation Health & Wellness Anti-Doping Industry Network Members Classified Ads About About USA Gymnastics Mission, Vision & Strategy Executive Leadership Team Governance Documents Board of Directors Athletes’ Council Partners & Suppliers Careers Hall of Fame Disciplines Women’s Artistic Men’s Artistic Rhythmic Trampoline & Tumbling Acrobatic Parkour Gymnastics for All College News Events Upcoming Events Results History Safety Safety & Response Make a Report Safety & Response Policy U.S. Center for SafeSport For Parents Permanently Ineligible & Ineligible Members and Participants Suspended & Restricted Persons Member Services Member Services Home Education Sanctions Become a Member Resources Find a Gym Athlete Ombuds Store USA Gymnastics Foundation Health & Wellness Anti-Doping Industry Network Members Classified Ads About About USA Gymnastics Mission, Vision & Strategy Executive Leadership Team Governance Documents Board of Directors Athletes’ Council Partners & Suppliers Careers Hall of Fame Millman, Dan Hall of Fame Home By Name By Class By Discipline By Category Spirit of the Flame Award INDUCTEE Dan Millman Class of 1994 · Disciplines(s): Men's Artistic · Inducted as: Athlete Dan Millman got his first taste of national victory on the trampoline when he won the USGF Trampoline Championship at the age of 17. Adding floor exercise and vault to his arsenal, the Aikido black belt took gold at the World Trampoline Championship as well as national titles in floor exercise and vault, all during his freshman year at the University of California-Berkeley. The next year, Millman took gold twice at the Maccabiah Games in Israel. Aside from his athletic success, Millman served as Director of Gymnastics at Stanford University, joined the faculty of Oberlin College, wrote 12 books, and worked as a motivational speaker. He is also a Hall of Fame inductee at Cal-Berkeley. Disciplines Women’s Artistic Men’s Artistic Rhythmic Trampoline & Tumbling Acrobatic Parkour Gymnastics for All College FlipNow Hall of Fame Media Resources Pressbox History Contact Us Terms of Use COPYRIGHT © 2026 USA Gymnastics. All rights reserved. USA Gymnastics is the National Governing Body (NGB) for the sport of gymnastics in the United States, consistent with the Ted Stevens Olympic & Amateur Sports Act, the Bylaws of the United States Olympic Committee and the International Gymnastics Federation.",
+   "source_class": "journalistic",
+   "bias_hint": "hostile"
+  },
+  {
+   "id": "work:e06527e66dfbb97d",
+   "url": "https://usghof.org/d_millman",
+   "title": "Biography: MILLMAN, Dan",
+   "author": null,
+   "publish_date": "2018-03-21T15:45:29+00:00",
+   "platform": "usghof.org",
+   "raw_text": "Biography: MILLMAN, Dan July 31, 2023 March 21, 2018 by Mary Hudson MILLMAN, Dan Inducted: 1994 Born: February 26, 1946, L.A., California Dan Millman’s athletic training began at nine years of age in modern dance. He went on to study numerous martial arts, earning a black belt in Aikido. His early physical and mental training was probably a factor in his amazing recovery from a major injury suffered in a motorcycle accident. The injury would have been athletic career ending for many, but Dan came back to his beloved gymnastics and trampoline when others may have faltered. At 17, Dan won the United States Gymnastics Federation (USGF) Trampoline Championship and competed in gymnastics at John Marshall High School in Los Angeles. While a freshman at U.C. Berkeley, Dan won gold at the first World Trampoline Championship, London, England, (1964); The same year, he won three All-American titles, including national titles in FX and V. He found gold again winning the compulsory and optional exercises in FX and the compulsory and optional excercises in the Vault at the Maccabiah Games, Israel, (1965). In 1968, Dan was recovered from his injury and co-captained the Bears to an NCAA Championship. You may view Dan’s championship form on the trampoline by clicking on . Maccabiah Games : Compulsory Exercises: Gold-FX & V; Optional Exercises: FX & V, (1965). Honors/Awards : Dan Millman was a nominee for the Nissen Award; Senior Athlete of the Year; Gimbel Student-Athlete of the Year; Inducted into the UC Berkeley Athletic Hall of Fame and the USA Gymnastics Hall of Fame . Coaching : In 1968, Dan was appointed Director of Gymnastics at Stanford University. There he coached U.S. Olympian, Steve Hug, and brought the Stanford team to national prominence. General : In 1972, Dan joined the faculty at Oberlin College. He later traveled around the world, studying principles of various yogas and martial arts and returned home to find his calling as an author and motivational speaker. His seminars have influenced leaders in the fields of health, psychology, education, business, politics, entertainment, sports, and the arts. Publications : Dan has written 12 highly acclaimed books published in 29 languages. This writer recommends his best known work, Way of The Peaceful Warrior, soon to become a motion picture released worldwide starring Nick Nolte, The Life You Were born to Live, Everyday Enlightenment, and his latest The Journey of Socrates . You may view the complete list at . You may also receive his newsletter at . Family : m. Joy. Three children. Two grandchildren. Source: Dan Millman’s personal communications and resume. Editing courtesy of Abie Grossfeld. Introduction, Commentary, & Formatting by Larry Banner, Web Manager. Related posts: Biography: SCHIER, Karl Kurt (Schwenzfeier) Biography: BUFFA, William Biography: Maloney, Stacy Categories Gymnasts Biography: McCLEMENTS-FLANSAAS-KEPHART, Dale Biography: MINICUCCI, Dominick",
+   "source_class": "journalistic",
+   "bias_hint": "hostile"
+  },
+  {
+   "id": "work:6be2ff723d3e7a21",
+   "url": "https://alchetron.com/Dan-Millman",
+   "title": "Dan Millman ~ Detailed Biography with [ Photos | Videos ]",
+   "author": null,
+   "publish_date": "2017-08-18T08:30:48+00:00",
+   "platform": "alchetron.com",
+   "raw_text": "Nisha Rathode (Editor) I love writing and learning new things in order to better educate those in need. I also enjoy hackathons and adventures around the world. Dan Millman Updated on Apr 25, 2026 Edit Like Comment Share Share on Facebook Tweet on Twitter Share on LinkedIn Share on Reddit Sign in Residence San Rafael, California Name Dan Millman Occupation Author, speaker Role Author Children 3 daughters Spouse Joy Millman Website peacefulwarrior.com Movies Peaceful Warrior Full name Daniel Jay Millman Born February 22, 1946 (age 80) ( 1946-02-22 ) Parents Vivian Millman, Herman Millman Books Way of the Peaceful Warrior , The Life You Were Born to Li, Sacred journey of the peace, The Four Purposes of Life: Fi, The journeys of Socrates Similar People Scott Mechlowicz, Nick Nolte , Maria Szepes, Victor Salva, Amy Smart Dan millman the life you were born to live a guide to finding your life purpose Daniel Jay Millman (born February 22, 1946) is an American author and lecturer in the personal development field. Contents Dan millman the life you were born to live a guide to finding your life purpose Way of the peaceful warrior author dan millman with ike allen www ikeallen com Early life Career Personal life Works References Way of the peaceful warrior author dan millman with ike allen www ikeallen com Early life Millman was born in Los Angeles , California, to Herman and Vivian Millman (both deceased), and he has an older sister Diane. Much of his early life included active pursuits such as modern dance and martial arts , and then trampoline , tumbling , and gymnastics . During his senior year at John Marshall High School in Los Angeles, Millman won the United States Gymnastics Federation (USGF) national title on the trampoline and was voted Senior Athlete of the Year. In 1964, while a freshman at U.C. Berkeley, he won the 1964 Trampoline World Championships in London , and earned All-American honors and won an NCAA Championship in vaulting In 1966 he won the USGF championship in floor exercise. He represented the United States in the 1966 Maccabiah Games , winning four Gold Medals in Gymnastics. In September of that year, just prior to his senior year at U.C. Berkeley, Millman's motorcycle collided with a car. He suffered a shattered right femur, requiring surgical repair and bone marrow transplant with a steel nail inserted in his femur (which was removed a year later after the leg was healed). Millman actively pursued rehabilitation and was able to return to gymnastics as co-captain of his team which won the 1968 NCAA Gymnastics Championships in Tucson, Arizona . He was the last man to perform for U.C. on the high bar, and a best-ever routine and perfect landing clinched the team title. (This true event was later changed and fictionalized in his first book, Way of the Peaceful Warrior , and its film adaptation Peaceful Warrior , which depicted him instead competing in the Olympic Trials). In 1968 he was voted Senior U.C. Berkeley Athlete of the Year, and graduated with a B.A. degree in Psychology. Career In 1968, Millman served as director of gymnastics at Stanford University , where he coached U.S. Olympian Steve Hug and brought the Stanford team to national prominence. During Millman's tenure at Stanford, he trained in Aikido, eventually earning a shodan (black belt) ranking, and studied T'ai chi (Taiji) and other martial arts . In 1972, Millman joined the faculty at Oberlin College in Oberlin, Ohio as an assistant professor of physical education. At Oberlin, on a travel-research grant from the college, Millman traveled to San Francisco , where he completed the Arica 40-Day Intensive Training, then to Hawaii , India , Hong Kong , and Japan , where he studied various disciplines including yoga and martial arts. In 1985, Millman began to produce audio and video programs, and to present seminars and professional keynotes. His work is generally connected to the \"human potential movement\". Millman has authored 17 books as of 2015 which together have been published in 29 languages. In 2006, his first book, Way of the Peaceful Warrior , was adapted to a film, Peaceful Warrior , with Nick Nolte, distributed by Lionsgate Films and released by Universal Pictures in 2007. Dan credits the inspiration for his first book to a gas station attendant he met who reminded him of Socrates and to whom he gave that name. Personal life Dan Millman and his wife Joy live in Brooklyn, New York. They have three grown daughters. Works Works by Millman include the following: 1979: Whole Body Fitness 1980: Way of the Peaceful Warrior: A Book That Changes Lives 1985: The Warrior Athlete (revised edition of Whole Body Fitness ) 1990: Sacred Journey of the Peaceful Warrior 1991: Secret of the Peaceful Warrior (for children, illustrated by Taylor Bruce) 1992: No Ordinary Moments: A Peaceful Warrior's Guide to Daily Life 1993: Quest for the Crystal Castle (for children, illustrated by Taylor Bruce) 1994: The Life You Were Born to Live: A Guide to Finding Your Life Purpose 1995: The Laws of Spirit: A Tale of Transformation 1998: Everyday Enlightenment: The Twelve Gateways to Personal Growth 1999: Body Mind Mastery (revised edition of The Warrior Athlete ) 2000: Living on Purpose: Straight Answers to Life's Tough Questions 2006: The Journeys of Socrates: The Way Begins 2007: Wisdom of the Peaceful Warrior: A Companion to the Book that Changes Lives 2009: Bridge Between Worlds: Extraordinary Experiences that Changed Lives (with co-author Doug Childers) 2010: Peaceful Warrior: The Graphic Novel (illustrated by Andrew Winegarner) 2011: The Four Purposes of Life: Finding Meaning and Direction in a Changing World 2013: The Creative Compass: Writing Your Way from Inspiration to Publication (with co-author Sierra Prasada) 2017: The Hidden School: Return of the Peaceful Warrior More Alchetron Topics References Dan Millman Wikipedia (Text) CC BY-SA Similar Topics",
+   "source_class": "journalistic",
+   "bias_hint": "hostile"
+  }
+ ],
+ "claim_sources": [
+  {
+   "claim_id": "claim:2ade5bd415e7995f",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:81bdea53373391a1",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:ef3bfeed8ac4f873",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:8eea6b8284cf9979",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:058a2f17572773d8",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:601f9540179420e9",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:88c2b3967fd6a8f9",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:7c95974eb2875614",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:6dadb3134e93ed4d",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:d8fb06947d8a6903",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:536b8cc4263cf1d6",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:6a3c59fa32c6f4df",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:b4364e9e716134bc",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:f2c6c448e66e3f11",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:4ee110bd5f356ccd",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:116b57671e44a864",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:eab5f51964c3d07d",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:05cd37aabafa28f0",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:cfea9644413933ee",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:b615dc7efc036489",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:d62c981899882b0a",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:3691110d93ddb4c4",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:9f14cbe3a6d043b2",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:13fe76419dd0f68c",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:91f7eb03553b04bc",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:6f164ce9455c7f2a",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:208f78c270bc63b5",
+   "source_id": "work:ab260c68c6cd27d4",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:1c80d30ecc7fbeb0",
+   "source_id": "work:bf2f4a20a618fc1d",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:6be30685f8bf224f",
+   "source_id": "work:e06527e66dfbb97d",
+   "quote_span_start": null,
+   "quote_span_end": null
+  }
+ ]
+}

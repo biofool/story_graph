@@ -1,0 +1,11 @@
+{
+ "subject": "peter ralston",
+ "query": "peter ralston",
+ "domain": "blackbeltmag.com",
+ "tier": "HIGH_AUTHORITY",
+ "collection_type": "web_search_fallback",
+ "pending_queries": [
+  "site:blackbeltmag.com \"peter ralston\"",
+  "site:books.google.com \"peter ralston\" \"Black Belt\""
+ ]
+}

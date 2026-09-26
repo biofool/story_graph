@@ -1,0 +1,93 @@
+{
+ "subject": "hiroshi ikeda",
+ "query": "hiroshi ikeda",
+ "domains": {
+  "aikidojournal.com": {
+   "tier": "HIGH_AUTHORITY",
+   "collection_type": "wordpress_search",
+   "pages_fetched": 2,
+   "new_urls": 11,
+   "results": 18,
+   "pending_queries": []
+  },
+  "maytt.home.blog": {
+   "tier": "MARGINAL",
+   "collection_type": "wordpress_search",
+   "pages_fetched": 3,
+   "new_urls": 31,
+   "results": 33,
+   "pending_queries": []
+  },
+  "aikiweb.com": {
+   "tier": "MID_TIER",
+   "collection_type": "dedicated_crawler",
+   "note": "covered by: scripts/45_aikiweb_seminars_crawl.py, scripts/48_ingest_aikiweb_seminars.py",
+   "results": 0,
+   "pending_queries": []
+  },
+  "newspapers.com": {
+   "tier": "ACCESS_HOST",
+   "collection_type": "dedicated_crawler",
+   "note": "covered by: scripts/42_newspapers_search_download.py, scripts/43_npc_extract_articles.py",
+   "results": 0,
+   "pending_queries": []
+  },
+  "blackbeltmag.com": {
+   "tier": "HIGH_AUTHORITY",
+   "collection_type": "web_search_fallback",
+   "results": 0,
+   "pending_queries": [
+    "site:blackbeltmag.com \"hiroshi ikeda\"",
+    "site:books.google.com \"hiroshi ikeda\" \"Black Belt\""
+   ]
+  },
+  "usadojo.com": {
+   "tier": "MID_TIER",
+   "collection_type": "web_search_fallback",
+   "results": 0,
+   "pending_queries": [
+    "site:usadojo.com \"hiroshi ikeda\""
+   ]
+  },
+  "tqj.de": {
+   "tier": "HIGH_AUTHORITY",
+   "collection_type": "web_search_fallback",
+   "results": 0,
+   "pending_queries": [
+    "site:tqj.de \"hiroshi ikeda\""
+   ]
+  },
+  "aikido-health.com": {
+   "tier": "MID_TIER",
+   "collection_type": "web_search_fallback",
+   "results": 0,
+   "pending_queries": [
+    "site:aikido-health.com \"hiroshi ikeda\""
+   ]
+  },
+  "whistlekickmartialartsradio.com": {
+   "tier": "MID_TIER",
+   "collection_type": "web_search_fallback",
+   "results": 0,
+   "pending_queries": [
+    "site:whistlekickmartialartsradio.com \"hiroshi ikeda\""
+   ]
+  },
+  "budovideos.com": {
+   "tier": "MID_TIER",
+   "collection_type": "web_search_fallback",
+   "results": 0,
+   "pending_queries": [
+    "site:budovideos.com \"hiroshi ikeda\""
+   ]
+  },
+  "elephantjournal.com": {
+   "tier": "MARGINAL",
+   "collection_type": "web_search_fallback",
+   "results": 0,
+   "pending_queries": [
+    "site:elephantjournal.com \"hiroshi ikeda\""
+   ]
+  }
+ }
+}

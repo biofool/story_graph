@@ -1,0 +1,19 @@
+{
+ "name": "louise_diamond_deceased",
+ "description": "kkron states (2026-09-24) that Louise Diamond is deceased — she was an IMTD colleague of Richard Moon (aikido as conflict-resolution: Lake Trails 1999, Bosnia, Cyprus). Marks person:louise-diamond deceased and removes her from the person-outreach list (docs/outreach/moon-persons/).",
+ "nodes": [
+  {
+   "id": "person:louise-diamond",
+   "type": "Person",
+   "label": "Louise Diamond",
+   "metadata": {
+    "deceased": true,
+    "deceased_note": "Deceased per kkron (personal communication, 2026-09-24). IMTD colleague of Richard Moon — peace-building using aikido as conflict-resolution tool (Lake Trails 1999, Bosnia, Cyprus). Removed from moon-persons outreach list."
+   },
+   "source_urls": [
+    "kkron://personal-communication/louise-diamond-deceased",
+    "https://thetaichinotebook.com/2026/01/31/the-first-podcast-of-2026-quantum-aikido-with-richard-moon/"
+   ]
+  }
+ ]
+}

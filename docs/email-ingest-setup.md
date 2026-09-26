@@ -38,7 +38,7 @@ queued for batch processing into the graph.
 | Graph API Dockerfile | `Dockerfile.graph-api` | Slim container image (Flask + GraphDB only, no spaCy — ~57 MB RSS) |
 | Graph API requirements | `requirements-graph-api.txt` | Minimal deps: flask, pillow, requests, pydantic |
 | Batch ingestion script | `scripts/17_ingest_from_kv.py` | Pulls URLs from KV, processes into graph |
-| Aikidojournal ingestion | `scripts/16_ingest_aikidojournal.py` | Single-URL ingestion (used by batch script) |
+| Single-URL ingestion | `scripts/ingest.py` + a `data/ingest/*.json` spec | Declarative page ingest (the old 16_ingest_aikidojournal.py pattern) |
 | Terraform | `CloudManagement/terraform-oracle/` | Provisions the Oracle server + DNS + security list |
 
 ## Setup steps

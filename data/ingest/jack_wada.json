@@ -1,0 +1,169 @@
+{
+ "name": "jack_wada",
+ "description": "Migrated from scripts/31_ingest_jack_wada.py (now deleted).",
+ "migrated_from": "scripts/31_ingest_jack_wada.py",
+ "nodes": [
+  {
+   "id": "person:jack-wada",
+   "type": "Person",
+   "label": "Jack Wada",
+   "canonical_name": "Jack Wada",
+   "metadata": {
+    "art": "Aikido",
+    "rank": "7th dan",
+    "title": "Shihan",
+    "role": "Chief instructor (dojo-cho) and supervisor (kan-cho)",
+    "started_martial_arts": 1968,
+    "started_aikido": 1969,
+    "started_teaching": 1974,
+    "original_faculty_aikido_of_san_jose": 1976,
+    "chief_instructor_since": 1980,
+    "teachers": [
+     "Robert Nadeau",
+     "Robert Frager"
+    ],
+    "institutions_taught": [
+     "San Jose State University",
+     "University of California, Santa Cruz",
+     "West Valley Community College"
+    ],
+    "occupations": [
+     "Aikido instructor",
+     "kinesiologist",
+     "healer"
+    ],
+    "healing_ministry": "Kalos Healing Ministry"
+   },
+   "source_urls": [
+    "https://aikidosj.com/",
+    "https://aikidosj.com/ref/instructors/",
+    "https://www.cityaikido.com/jack-wada"
+   ]
+  },
+  {
+   "id": "person:robert-frager",
+   "type": "Person",
+   "label": "Robert Frager",
+   "canonical_name": "Robert Frager",
+   "metadata": {
+    "relationship_to_jack_wada": "Early Aikido instructor, beginning in 1969"
+   },
+   "source_urls": [
+    "https://aikidosj.com/ref/instructors/"
+   ]
+  },
+  {
+   "id": "dojo:aikido-of-san-jose",
+   "type": "Dojo",
+   "label": "Aikido of San Jose",
+   "canonical_name": "Aikido of San Jose",
+   "metadata": {
+    "website": "https://aikidosj.com/",
+    "city": "San Jose",
+    "state": "California",
+    "country": "United States",
+    "lineage": "Nadeau",
+    "address": "510 N 3rd Street #10, San Jose, CA 95112",
+    "opened": 1976,
+    "phone": "+1 408-294-3049",
+    "audiences": [
+     "children",
+     "teens",
+     "young adults",
+     "adults",
+     "seniors"
+    ],
+    "training_goals": [
+     "self-protection",
+     "personal growth",
+     "focus",
+     "relaxation under pressure",
+     "communication",
+     "teamwork"
+    ],
+    "environment": "Supportive and non-competitive"
+   },
+   "source_urls": [
+    "https://aikidosj.com/",
+    "https://aikidosj.com/ref/instructors/",
+    "https://www.cityaikido.com/jack-wada"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "person:jack-wada",
+   "rel_type": "HEAD_INSTRUCTOR",
+   "dst_id": "dojo:aikido-of-san-jose",
+   "metadata": {
+    "roles": [
+     "dojo-cho",
+     "kan-cho"
+    ],
+    "teaching_since": 1974,
+    "original_faculty_since": 1976,
+    "chief_instructor_since": 1980,
+    "source_urls": [
+     "https://aikidosj.com/ref/instructors/",
+     "https://www.cityaikido.com/jack-wada"
+    ]
+   }
+  },
+  {
+   "src_id": "person:robert-nadeau",
+   "rel_type": "TEACHER_STUDENT",
+   "dst_id": "person:jack-wada",
+   "metadata": {
+    "student_started": 1969,
+    "source_urls": [
+     "https://aikidosj.com/ref/instructors/",
+     "https://www.cityaikido.com/jack-wada"
+    ]
+   }
+  },
+  {
+   "src_id": "person:robert-frager",
+   "rel_type": "TEACHER_STUDENT",
+   "dst_id": "person:jack-wada",
+   "metadata": {
+    "student_started": 1969,
+    "source_url": "https://aikidosj.com/ref/instructors/"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:8c737f47e8f43e10",
+   "url": "https://aikidosj.com/",
+   "title": "Aikido of San Jose",
+   "author": null,
+   "publish_date": null,
+   "platform": "Aikido of San Jose",
+   "raw_text": "Classes taught by Jack Wada. He is also a 7th degree black belt in Aikido, and has been granted the shihan title by World Aikido Headquarters.",
+   "source_class": "primary_first_person",
+   "bias_hint": null
+  },
+  {
+   "id": "src:8a0cb3c0342e3765",
+   "url": "https://aikidosj.com/ref/instructors/",
+   "title": "Instructors - Aikido of San Jose",
+   "author": null,
+   "publish_date": null,
+   "platform": "Aikido of San Jose",
+   "raw_text": "Jack Wada Shihan is currently both chief instructor (dojo-cho) and the supervisor (kan-cho). He started in 1969 under Robert Frager and Robert Nadeau senseis. Teaching since 1974, Wada-Shihan holds a 7th-degree black belt. He also has taught Aikido for the Human Performance department at San Jose State University, UC Santa Cruz, and West Valley Community College. He is a kinesiologist and healer with his own Kalos Healing Ministry.",
+   "source_class": "primary_first_person",
+   "bias_hint": null
+  },
+  {
+   "id": "src:e2e9ba54fe91308d",
+   "url": "https://www.cityaikido.com/jack-wada",
+   "title": "Jack Wada — City Aikido",
+   "author": null,
+   "publish_date": null,
+   "platform": "City Aikido",
+   "raw_text": "Jack Wada began Aikido in 1969. In 1976 Jack was invited by Nadeau Sensei to be one of the original faculty of Aikido of San Jose. In 1980 he became chief instructor of that dojo, a role he continues to fill.",
+   "source_class": "primary_first_person",
+   "bias_hint": null
+  }
+ ]
+}

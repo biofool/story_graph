@@ -1,0 +1,391 @@
+{
+ "spec": "ikeda_aikido_journal_sweep",
+ "date": "2026-09-25",
+ "description": "Full aikidojournal.com site-search sweep for 'Hiroshi Ikeda' (2 pages of results). Adds: AJ Encyclopedia entry (already cited in live WP article), canonical AJ version of the 2019 Aloia interview (MAYTT 2020 post is a verbatim reprint — demoted to documentary_promotional to prevent double-counting), 'Aikido for Tomorrow' event feature, Kayla Feder interview (incidental mention corroborating San Rafael summer-camp circuit), two AJ video posts, and enrichment of src:maytt-ikeda-2023 (distinct interview with major new biographical detail incl. ASU VP tenure, 2015 independence, 2016 Shimbokukai move, pre-aikido judo). Date discrepancies (aikido start 1968 vs 1969; Reimei Juku 1970 vs 1971) recorded as a discrepancy claim, not resolved.",
+ "sources": [
+  {
+   "id": "src:aj-encyclopedia-ikeda",
+   "title": "Hiroshi Ikeda 池田裕 — Encyclopedia of Aikido entry",
+   "url": "https://aikidojournal.com/2011/08/27/hiroshi-ikeda/",
+   "platform": "aikidojournal.com",
+   "source_class": "journalistic",
+   "publish_date": "2011-08-27",
+   "author": "Stanley Pranin / Josh Gold (eds.)",
+   "raw_text": "Encyclopedia of Aikido entry (the Pranin encyclopedia already cited in the live Wikipedia article): '(b. 1950). 7th dan Aikikai. B. in Hachiojima [sic], Tokyo. Began aikido training under Mitsugi Saotome while a student in the aikido club of Kokugakuin University. Entered Saotome's Reimeijuku dojo in 1970. Relocated to Sarasota, Florida, USA in 1976 and taught in Florida from 1978-79. Moved to Boulder, Colorado in 1980 and established the Boulder Aikikai. Travels extensively around the USA and abroad conducting seminars. Also operates Bujin Design, a martial arts supply company.' Note: 'Hachiojima' is AJ's spelling of Hachijo-jima. Same publisher as the 1995 interview — same editorial entity, not a fully independent confirmation."
+  },
+  {
+   "id": "src:aj-interview-ikeda-aloia-2020",
+   "title": "Hiroshi Ikeda on Tradition and Change in Aikido",
+   "url": "https://aikidojournal.com/2020/03/06/hiroshi-ikeda-interview-by-antonio-aloia/",
+   "platform": "aikidojournal.com",
+   "source_class": "journalistic",
+   "publish_date": "2020-03-06",
+   "author": "Antonio Aloia",
+   "raw_text": "Aikido Journal interview by Antonio Aloia, published 2020-03-06; conducted at a seminar in summer 2019. Intro: Ikeda began aikido training in 1968 in Tokyo; 7th dan; founder and chief instructor of Boulder Aikikai (established August 1980). Topics: dojo recruitment history, membership demographics (7:3 male:female), instructor development, decline of aikido participation since ~2004/2012. Photo caption documents 'Hiroshi Ikeda teaching at the Aikijuku Dojo in June 2017.' This is the ORIGINAL publication — MAYTT (Aloia's own blog) reprinted it verbatim 2020-07-01 (src:maytt-ikeda-2019, reclassed documentary_promotional to avoid double-counting)."
+  },
+  {
+   "id": "src:aj-aikido-for-tomorrow-2020",
+   "title": "Aikido for Tomorrow",
+   "url": "https://aikidojournal.com/2020/04/08/aikido-for-tomorrow/",
+   "platform": "aikidojournal.com",
+   "source_class": "journalistic",
+   "publish_date": "2020-04-08",
+   "author": "Josh Gold (ed.)",
+   "raw_text": "AJ event feature on the 'Aikido for Tomorrow' seminar held at Hiroshi Ikeda's Boulder Aikikai, Feb 21-23, 2020 — 50+ practitioners from 27 dojos, under-40 focus, organized by Evolene Premillieu. Premillieu: 'A little over a year ago, I started talking to Hiroshi Ikeda Sensei about doing a Bridge seminar for young people. He told me to do something, but \"not just another Bridge seminar\"...' — corroborates the Aikido Bridge seminar series context and Ikeda's mentorship role. Ikeda and Tres Hofmeister (7th dan, Boulder Aikikai) supported the event and attended as participants."
+  },
+  {
+   "id": "src:aj-kayla-feder-2022",
+   "title": "Kayla Feder: Never Stop Growing",
+   "url": "https://aikidojournal.com/2022/06/10/kayla-feder-never-stop-growing/",
+   "platform": "aikidojournal.com",
+   "source_class": "journalistic",
+   "publish_date": "2022-06-10",
+   "author": "Josh Gold",
+   "raw_text": "AJ interview with Kayla Feder (7th dan, Aikido of Berkeley). Incidental Ikeda mentions: 'she has also practiced with and been strongly influenced by Frank Doran, Robert Nadeau, and Hiroshi Ikeda'; Feder attended the San Rafael Aikido summer camp annually where she 'met Frank Doran Sensei, Bob Nadeau Sensei, Terry Dobson, and got introduced to Ikeda Sensei.' Independent corroboration of Ikeda's presence on the San Rafael summer-camp circuit described in his own 1995 AJ interview."
+  },
+  {
+   "id": "src:aj-video-ikeda-crazy-good-2012",
+   "title": "Hiroshi Ikeda video: His Aikido is 'Crazy Good!'",
+   "url": "https://aikidojournal.com/2012/03/16/hiroshi-ikeda-video-his-aikido-is-crazy-good/",
+   "platform": "aikidojournal.com",
+   "source_class": "documentary_promotional",
+   "publish_date": "2012-03-16",
+   "author": "Josh Gold",
+   "raw_text": "Aikido Journal video post showcasing Ikeda's technique. Documentary footage of his aikido, not independent editorial coverage."
+  },
+  {
+   "id": "src:aj-video-ikeda-aikiexpo-2002",
+   "title": "Video: Hiroshi Ikeda, 7th dan, instructs at Aiki Expo 2002",
+   "url": "https://aikidojournal.com/2012/01/08/video-hiroshi-ikeda-7th-dan-instructs-at-aiki-expo-2002-2/",
+   "platform": "aikidojournal.com",
+   "source_class": "documentary_promotional",
+   "publish_date": "2012-01-08",
+   "author": "Josh Gold",
+   "raw_text": "AJ video post of Ikeda instructing at Aiki Expo 2002 (Stanley Pranin's Aikido Journal expo). Documentary footage; corroborates Aiki Expo 2002 participation."
+  },
+  {
+   "id": "src:maytt-ikeda-2019",
+   "title": "Interview with Hiroshi Ikeda: Aikido's Current State in the United States",
+   "url": "https://maytt.home.blog/2020/07/01/interview-with-hiroshi-ikeda-aikidos-current-state-in-the-united-states/",
+   "platform": "maytt.home.blog",
+   "source_class": "documentary_promotional",
+   "publish_date": "2020-07-01",
+   "author": "Antonio Aloia",
+   "raw_text": "VERBATIM REPRINT — identical questions/answers and same photo captions as the Aikido Journal original 'Hiroshi Ikeda on Tradition and Change in Aikido' (src:aj-interview-ikeda-aloia-2020, published 2020-03-06). Interview conducted summer 2019. MAYTT is interviewer Antonio Aloia's own blog; the post itself states 'This interview previously appeared in Aikido Journal.' Reclassed journalistic -> documentary_promotional 2026-09-25 so the same interview is not counted as two independent sources. Canonical source is the AJ original."
+  },
+  {
+   "id": "src:maytt-ikeda-2023",
+   "title": "Interview with Boulder Aikikai Founder Hiroshi Ikeda: A Journey with Mitsugi Saotome",
+   "url": "https://maytt.home.blog/2023/03/24/interview-with-boulder-aikikai-founder-hiroshi-ikeda-a-journey-with-mitsugi-saotome/",
+   "platform": "maytt.home.blog",
+   "source_class": "journalistic",
+   "publish_date": "2023-03-24",
+   "author": "Antonio Aloia",
+   "raw_text": "MAYTT interview by Antonio Aloia, 2023-03-24 — DISTINCT interview from the 2019/AJ one. New biographical detail in Ikeda's own words + intro: 3 years of high-school judo before finding aikido at Kokugakuin University (intro dates this 1969 — cf. 1968 in his own site/AJ intros; discrepancy recorded in claim:ikeda:aikido-start-year-discrepancy); 'joined Saotome's Reimei Juku Dojo in 1971' (encyclopedia says 1970 — same discrepancy note); Bill McIntyre invited Saotome to teach in Florida in 1976 and Ikeda followed as his assistant (Ikeda had been planning to go to Australia); Sarasota's '12th Street Dojo' was a small dojo, Florida aikido isolated; Ikeda served as Vice President of Saotome's Aikido Schools of Ueshiba (ASU); in early 2015 Saotome recognized Ikeda as an 'independent instructor', voiding the ASU association; in 2016 Ikeda joined Aikido Shimbokukai under Lisa Tomoleoni as vice president. Photo captions document: Ikeda at the 10th Anniversary of Aikido Bridge in San Diego (=> ~2015, consistent with 2005 founding) and Ikeda instructing at an Aikido Bridge Friendship Seminar in Turkey, 2018."
+  }
+ ],
+ "nodes": [
+  {
+   "id": "event:aikido-for-tomorrow-2020",
+   "type": "Event",
+   "label": "Aikido for Tomorrow seminar at Boulder Aikikai",
+   "canonical_name": "Aikido for Tomorrow (2020)",
+   "metadata": {
+    "event_type": "seminar",
+    "location": "Boulder Aikikai, Boulder, Colorado",
+    "start_date": "2020-02-21",
+    "end_date": "2020-02-23",
+    "organizer": "Evolene Premillieu",
+    "note": "Under-40 focused seminar; 50+ practitioners from 27 dojos; 11 instructors under 40; Ikeda and Tres Hofmeister (7th dan) supported and attended as participants. Originated from Ikeda pushing Premillieu to innovate beyond 'just another Bridge seminar'.",
+    "source": "src:aj-aikido-for-tomorrow-2020"
+   }
+  },
+  {
+   "id": "event:aikijuku-ikeda-seminar-2017-06",
+   "type": "Event",
+   "label": "Hiroshi Ikeda seminar at Aikijuku Dojo (June 2017)",
+   "canonical_name": "Aikijuku Dojo seminar with Ikeda (2017)",
+   "metadata": {
+    "event_type": "seminar",
+    "start_date": "2017-06",
+    "host_dojo": "dojo:aikijuku-dojo",
+    "note": "Documented only by photo caption 'Hiroshi Ikeda teaching at the Aikijuku Dojo in June 2017' in the AJ/MAYTT Aloia interview.",
+    "source": "src:aj-interview-ikeda-aloia-2020"
+   }
+  },
+  {
+   "id": "event:aikido-bridge-10th-anniversary-san-diego",
+   "type": "Event",
+   "label": "Aikido Bridge 10th Anniversary, San Diego",
+   "canonical_name": "Aikido Bridge 10th Anniversary (~2015)",
+   "metadata": {
+    "event_type": "seminar",
+    "location": "San Diego, California",
+    "note": "Documented by photo caption in MAYTT 2023 interview: 'Ikeda throwing a student at the 10th Anniversary of Aikido Bridge in San Diego.' If Bridge began 2005 (affiliated claim), 10th anniversary ~= 2015 — consistent.",
+    "source": "src:maytt-ikeda-2023"
+   }
+  },
+  {
+   "id": "event:aikido-bridge-friendship-seminar-turkey-2018",
+   "type": "Event",
+   "label": "Aikido Bridge Friendship Seminar, Turkey (2018)",
+   "canonical_name": "Aikido Bridge Friendship Seminar Turkey (2018)",
+   "metadata": {
+    "event_type": "seminar",
+    "location": "Turkey",
+    "start_date": "2018",
+    "note": "Documented by photo caption in MAYTT 2023 interview: 'Ikeda instructing at an Aikido Bridge Friendship Seminar in Turkey, 2018.' Corroborates international Bridge-series events.",
+    "source": "src:maytt-ikeda-2023"
+   }
+  },
+  {
+   "id": "fed:aikido-shimbokukai",
+   "type": "Federation",
+   "label": "Aikido Shimbokukai",
+   "canonical_name": "Aikido Shimbokukai",
+   "metadata": {
+    "note": "Aikido organization directed by Lisa Tomoleoni; Ikeda joined as vice president in 2016 after his 2015 independence from ASU (his own statement, MAYTT 2023 + own site).",
+    "url": "https://www.aikidoshimbokukai.org/"
+   }
+  },
+  {
+   "id": "fed:aikido-schools-of-ueshiba",
+   "type": "Federation",
+   "label": "Aikido Schools of Ueshiba (ASU)",
+   "canonical_name": "Aikido Schools of Ueshiba",
+   "metadata": {
+    "note": "Mitsugi Saotome's organization. Ikeda served as Vice President; association ended early 2015 when Saotome recognized him as an independent instructor (Ikeda's own account, MAYTT 2023).",
+    "url": "https://asu.org/"
+   }
+  },
+  {
+   "id": "person:lisa-tomoleoni",
+   "type": "Person",
+   "label": "Lisa Tomoleoni",
+   "canonical_name": "Lisa Tomoleoni",
+   "metadata": {"role": "aikido shihan; director of Aikido Shimbokukai"}
+  },
+  {
+   "id": "person:kayla-feder",
+   "type": "Person",
+   "label": "Kayla Feder",
+   "canonical_name": "Kayla Feder",
+   "metadata": {"role": "7th dan Aikikai; dojo-cho of Aikido of Berkeley; Iwama lineage (Saito)"}
+  },
+  {
+   "id": "person:bill-mcintyre",
+   "type": "Person",
+   "label": "Bill McIntyre",
+   "canonical_name": "Bill McIntyre",
+   "metadata": {"role": "American aikidoka who invited Saotome to teach in Florida in 1976 (per MAYTT 2023 Ikeda interview)"}
+  },
+  {
+   "id": "person:evolene-premillieu",
+   "type": "Person",
+   "label": "Evolene Premillieu",
+   "canonical_name": "Evolene Premillieu",
+   "metadata": {"role": "Boulder Aikikai member; founder/organizer of Aikido for Tomorrow"}
+  },
+  {
+   "id": "person:tres-hofmeister",
+   "type": "Person",
+   "label": "Tres Hofmeister",
+   "canonical_name": "Tres Hofmeister",
+   "metadata": {"role": "7th dan; senior Boulder Aikikai instructor (ASU senior member)"}
+  },
+  {
+   "id": "dojo:12th-street-dojo-sarasota",
+   "type": "Dojo",
+   "label": "12th Street Dojo (Sarasota)",
+   "canonical_name": "12th Street Dojo",
+   "metadata": {
+    "location": "Sarasota, Florida",
+    "note": "The Sarasota dojo where Ikeda taught/assisted Saotome 1976-79, named '12th Street Dojo' in the MAYTT 2023 interview. Florida aikido then was 'one small organization' of isolated dojos."
+   }
+  },
+  {
+   "id": "claim:ikeda:boulder-aikikai-founded-aug-1980",
+   "type": "Claim",
+   "label": "Boulder Aikikai was established August 1980",
+   "metadata": {
+    "claim_text": "Hiroshi Ikeda established Boulder Aikikai in August 1980 after moving to Boulder, Colorado. Stated in the AJ 2020 interview ('Boulder Aikikai was established in August of 1980'), the AJ Encyclopedia entry ('moved to Boulder in 1980 and established the Boulder Aikikai'), and MAYTT 2023. Live WP article already says 1980 — month is the added precision.",
+    "claim_type": "biographical",
+    "stance": "supports",
+    "evidence_mode": "secondary_report",
+    "confidence": 0.95
+   }
+  },
+  {
+   "id": "claim:ikeda:asu-vice-president",
+   "type": "Claim",
+   "label": "Ikeda served as Vice President of Saotome's Aikido Schools of Ueshiba",
+   "metadata": {
+    "claim_text": "Ikeda served as Vice President of the Aikido Schools of Ueshiba (ASU), Saotome's organization, during its growth era (his own statement in the MAYTT 2023 interview — self-reported but uncontested).",
+    "claim_type": "biographical",
+    "stance": "supports",
+    "evidence_mode": "self_reported_in_interview",
+    "confidence": 0.85
+   }
+  },
+  {
+   "id": "claim:ikeda:asu-independence-2015",
+   "type": "Claim",
+   "label": "In early 2015 Saotome recognized Ikeda as an 'independent instructor', ending Ikeda's ASU association",
+   "metadata": {
+    "claim_text": "In early 2015, Saotome recognized Ikeda as an 'independent instructor', voiding the association between Ikeda and ASU (Ikeda's own account in MAYTT 2023: 'Saotome recognized you as an independent instructor, thereby voiding all association between you and the ASU' — question premise Ikeda did not dispute). Sensitive organizational-history claim; should be attributed if ever used.",
+    "claim_type": "biographical",
+    "stance": "supports",
+    "evidence_mode": "self_reported_in_interview",
+    "confidence": 0.8
+   }
+  },
+  {
+   "id": "claim:ikeda:shimbokukai-vp-2016",
+   "type": "Claim",
+   "label": "Ikeda joined Aikido Shimbokukai as vice president in 2016 under Lisa Tomoleoni",
+   "metadata": {
+    "claim_text": "In 2016 Ikeda joined Aikido Shimbokukai (director Lisa Tomoleoni) as vice president — MAYTT 2023 + his own site (existing graph event). Shimbokukai independently lists him as shihan on its site (aikidoshimbokukai.org event pages in graph).",
+    "claim_type": "biographical",
+    "stance": "supports",
+    "evidence_mode": "self_reported_in_interview",
+    "confidence": 0.9
+   }
+  },
+  {
+   "id": "claim:ikeda:judo-before-aikido",
+   "type": "Claim",
+   "label": "Ikeda trained judo for three years in high school before taking up aikido",
+   "metadata": {
+    "claim_text": "Ikeda did judo for three years in high school before finding aikido at Kokugakuin University (MAYTT 2023: 'I did judo for three years in high school'). New biographical detail not in the live article.",
+    "claim_type": "biographical",
+    "stance": "supports",
+    "evidence_mode": "self_reported_in_interview",
+    "confidence": 0.9
+   }
+  },
+  {
+   "id": "claim:ikeda:aikido-start-year-discrepancy",
+   "type": "Claim",
+   "label": "Sources conflict on Ikeda's aikido start year (1968 vs 1969) and Reimei Juku entry (1970 vs 1971)",
+   "metadata": {
+    "claim_text": "DISCREPANCY: aikido start is 1968 per Ikeda's own site, the AJ 2020 interview intro, and arithmetic in the 1995 interview ('27 years ago'); but 1969 per the MAYTT 2023 interview intro. Reimei Juku entry is 1970 per the AJ Encyclopedia but 1971 per MAYTT 2023. Both pairs recorded unresolved — use 'began aikido at Kokugakuin University under Saotome, around 1968-69' style caution if drafted.",
+    "claim_type": "meta_research",
+    "stance": "neutral",
+    "evidence_mode": "researcher_note",
+    "confidence": 0.9
+   }
+  },
+  {
+   "id": "claim:ikeda:saotome-florida-invitation-1976",
+   "type": "Claim",
+   "label": "Bill McIntyre invited Saotome to Florida in 1976; Ikeda followed as his assistant (having planned to go to Australia)",
+   "metadata": {
+    "claim_text": "American aikidoka Bill McIntyre invited Saotome to teach in Florida in 1976; Ikeda followed and assisted him there (MAYTT 2023 intro + interview). Ikeda says he was planning to go to Australia when Saotome's invitation came. Sarasota's '12th Street Dojo' was a small dojo; Florida aikido then was isolated groups with no inter-dojo communication.",
+    "claim_type": "biographical",
+    "stance": "supports",
+    "evidence_mode": "secondary_report",
+    "confidence": 0.85
+   }
+  },
+  {
+   "id": "claim:ikeda:summer-camp-circuit-1995",
+   "type": "Claim",
+   "label": "Circa 1995 Ikeda's annual circuit: 2-3 seminar weekends/month + San Rafael (Nadeau/Doran), D.C. (Saotome), and own Rocky Mountain summer camps",
+   "metadata": {
+    "claim_text": "In the 1995 AJ interview Ikeda described his circuit: dojo in Boulder plus 2-3 seminar weekends per month across the US (California, Seattle, Montana etc.); summers split between the San Rafael camp co-sponsored by Robert Nadeau and Frank Doran, the D.C. camp sponsored by Saotome, and his own Rocky Mountain summer camp. CORROBORATED for San Rafael by Kayla Feder's 2022 AJ interview ('went to summer camps, including the San Rafael Aikido camp... got introduced to Ikeda Sensei' alongside Doran, Nadeau, Dobson). This is co-appearance on a recurring circuit — NOT an affiliation with Nadeau's or Doran's dojos.",
+    "claim_type": "biographical",
+    "stance": "supports",
+    "evidence_mode": "self_reported_in_interview",
+    "confidence": 0.9
+   }
+  },
+  {
+   "id": "claim:ikeda:aikido-bridge-corroborated-aj",
+   "type": "Claim",
+   "label": "Aikido Bridge seminar series corroborated in AJ-published material: 10th Anniversary San Diego (~2015), Turkey Friendship Seminar 2018, Boulder 'Aikido for Tomorrow' spinoff 2020",
+   "metadata": {
+    "claim_text": "Aikido Bridge evidence beyond Ikeda-affiliated sites: MAYTT 2023 photo captions show '10th Anniversary of Aikido Bridge in San Diego' (consistent with 2005 founding) and 'Aikido Bridge Friendship Seminar in Turkey, 2018'; AJ's 'Aikido for Tomorrow' feature (2020) shows Premillieu conceiving the event as a youth-oriented offshoot of 'a Bridge seminar'. Still interview/caption-level evidence — supports existence and international reach of the series, not a formal-organization claim.",
+    "claim_type": "biographical",
+    "stance": "supports",
+    "evidence_mode": "secondary_report",
+    "confidence": 0.85
+   }
+  },
+  {
+   "id": "claim:ikeda:sarasota-12th-street-dojo",
+   "type": "Claim",
+   "label": "The Sarasota dojo where Ikeda taught 1976-79 was the '12th Street Dojo'",
+   "metadata": {
+    "claim_text": "MAYTT 2023 names the Sarasota dojo '12th Street Dojo' — a small, isolated small-town dojo where Ikeda assisted Saotome after arriving in Florida in 1976. The AJ Encyclopedia says he taught in Florida 1978-79 before moving to Boulder in 1980.",
+    "claim_type": "biographical",
+    "stance": "supports",
+    "evidence_mode": "secondary_report",
+    "confidence": 0.8
+   }
+  },
+  {
+   "id": "claim:ikeda:aj-site-sweep-2026-09",
+   "type": "Claim",
+   "label": "aikidojournal.com site-search sweep for 'Hiroshi Ikeda' (2026-09-25): 2 substantive interviews + encyclopedia + 1 event feature + 2 videos + incidental mentions",
+   "metadata": {
+    "claim_text": "Full sweep of aikidojournal.com?s=Hiroshi+Ikeda (2 result pages) on 2026-09-25. Substantive: 1995/#104 interview (already ingested, online version posted 2002-08-26), Aloia interview 2020 (canonical; MAYTT copy is a reprint), MAYTT 2023 Saotome interview, Encyclopedia entry, 'Aikido for Tomorrow' 2020 feature. Incidental mentions: Kayla Feder interview (San Rafael corroboration), Kevin Choate obituary, California Women Instructors, Peter Goldsbury & Masaki Tani Aiki Expo interviews, Nishikaze/Ledyard/ukemi articles — evaluated as incidental, not ingested as Ikeda sources. Masatomi Ikeda encyclopedia entry is a DIFFERENT person (name collision note).",
+    "claim_type": "meta_research",
+    "stance": "neutral",
+    "evidence_mode": "researcher_note",
+    "confidence": 0.9
+   }
+  }
+ ],
+ "claim_sources": [
+  {"claim_id": "claim:ikeda:birthplace-hachijojima", "source_id": "src:aj-encyclopedia-ikeda"},
+  {"claim_id": "claim:ikeda:boulder-aikikai-founded-aug-1980", "source_id": "src:aj-interview-ikeda-aloia-2020"},
+  {"claim_id": "claim:ikeda:boulder-aikikai-founded-aug-1980", "source_id": "src:aj-encyclopedia-ikeda"},
+  {"claim_id": "claim:ikeda:boulder-aikikai-founded-aug-1980", "source_id": "src:maytt-ikeda-2023"},
+  {"claim_id": "claim:ikeda:asu-vice-president", "source_id": "src:maytt-ikeda-2023"},
+  {"claim_id": "claim:ikeda:asu-independence-2015", "source_id": "src:maytt-ikeda-2023"},
+  {"claim_id": "claim:ikeda:shimbokukai-vp-2016", "source_id": "src:maytt-ikeda-2023"},
+  {"claim_id": "claim:ikeda:judo-before-aikido", "source_id": "src:maytt-ikeda-2023"},
+  {"claim_id": "claim:ikeda:aikido-start-year-discrepancy", "source_id": "src:maytt-ikeda-2023"},
+  {"claim_id": "claim:ikeda:aikido-start-year-discrepancy", "source_id": "src:aj-encyclopedia-ikeda"},
+  {"claim_id": "claim:ikeda:saotome-florida-invitation-1976", "source_id": "src:maytt-ikeda-2023"},
+  {"claim_id": "claim:ikeda:summer-camp-circuit-1995", "source_id": "src:aj-interview-ikeda-1995"},
+  {"claim_id": "claim:ikeda:summer-camp-circuit-1995", "source_id": "src:aj-kayla-feder-2022"},
+  {"claim_id": "claim:ikeda:aikido-bridge-corroborated-aj", "source_id": "src:maytt-ikeda-2023"},
+  {"claim_id": "claim:ikeda:aikido-bridge-corroborated-aj", "source_id": "src:aj-aikido-for-tomorrow-2020"},
+  {"claim_id": "claim:ikeda:sarasota-12th-street-dojo", "source_id": "src:maytt-ikeda-2023"},
+  {"claim_id": "claim:ikeda:sarasota-12th-street-dojo", "source_id": "src:aj-encyclopedia-ikeda"}
+ ],
+ "edges": [
+  {"src_id": "person:hiroshi-ikeda", "rel_type": "CO_APPEARANCE", "dst_id": "event:aikido-for-tomorrow-2020", "metadata": {"role": "host dojo chief instructor / senior supporter (attended as participant)", "source": "src:aj-aikido-for-tomorrow-2020"}},
+  {"src_id": "event:aikido-for-tomorrow-2020", "rel_type": "LOCATED_IN", "dst_id": "dojo:boulder-aikikai", "metadata": {"context": "host dojo, Boulder CO"}},
+  {"src_id": "person:evolene-premillieu", "rel_type": "MEMBER_OF", "dst_id": "dojo:boulder-aikikai", "metadata": {"role": "member; event organizer", "source": "src:aj-aikido-for-tomorrow-2020"}},
+  {"src_id": "person:tres-hofmeister", "rel_type": "MEMBER_OF", "dst_id": "dojo:boulder-aikikai", "metadata": {"role": "senior instructor, 7th dan", "source": "src:aj-aikido-for-tomorrow-2020"}},
+  {"src_id": "person:hiroshi-ikeda", "rel_type": "CO_APPEARANCE", "dst_id": "event:aikijuku-ikeda-seminar-2017-06", "metadata": {"role": "guest instructor (photo caption)", "source": "src:aj-interview-ikeda-aloia-2020"}},
+  {"src_id": "event:aikijuku-ikeda-seminar-2017-06", "rel_type": "LOCATED_IN", "dst_id": "dojo:aikijuku-dojo", "metadata": {"context": "host dojo"}},
+  {"src_id": "person:hiroshi-ikeda", "rel_type": "CO_APPEARANCE", "dst_id": "event:aikido-bridge-10th-anniversary-san-diego", "metadata": {"role": "instructor (photo caption)", "source": "src:maytt-ikeda-2023"}},
+  {"src_id": "person:hiroshi-ikeda", "rel_type": "CO_APPEARANCE", "dst_id": "event:aikido-bridge-friendship-seminar-turkey-2018", "metadata": {"role": "instructor (photo caption)", "source": "src:maytt-ikeda-2023"}},
+  {"src_id": "event:aikido-bridge-10th-anniversary-san-diego", "rel_type": "MENTIONS", "dst_id": "group:aikido-bridge", "metadata": {"context": "10th anniversary event of the Bridge series"}},
+  {"src_id": "event:aikido-bridge-friendship-seminar-turkey-2018", "rel_type": "MENTIONS", "dst_id": "group:aikido-bridge", "metadata": {"context": "Bridge-series international event"}},
+  {"src_id": "person:hiroshi-ikeda", "rel_type": "MEMBER_OF", "dst_id": "fed:aikido-shimbokukai", "metadata": {"role": "vice president", "since": "2016", "source": "src:maytt-ikeda-2023", "note": "self-reported in interview; Shimbokukai lists him as shihan"}},
+  {"src_id": "person:hiroshi-ikeda", "rel_type": "MEMBER_OF", "dst_id": "fed:aikido-schools-of-ueshiba", "metadata": {"role": "vice president", "until": "2015-early", "source": "src:maytt-ikeda-2023", "note": "ended when Saotome recognized him as independent instructor early 2015"}},
+  {"src_id": "person:hiroshi-ikeda", "rel_type": "TEACHER_STUDENT", "dst_id": "person:mitsugi-saotome", "metadata": {"context": "Kokugakuin University aikido club ~1968-69; Reimei Juku; followed him to Florida 1976 as assistant", "source": "src:maytt-ikeda-2023"}},
+  {"src_id": "person:hiroshi-ikeda", "rel_type": "WORKED_AT", "dst_id": "dojo:12th-street-dojo-sarasota", "metadata": {"role": "instructor/assistant to Saotome", "years": "1976-1979", "source": "src:maytt-ikeda-2023"}},
+  {"src_id": "claim:ikeda:boulder-aikikai-founded-aug-1980", "rel_type": "MENTIONS", "dst_id": "dojo:boulder-aikikai", "metadata": {}},
+  {"src_id": "claim:ikeda:boulder-aikikai-founded-aug-1980", "rel_type": "MENTIONS", "dst_id": "person:hiroshi-ikeda", "metadata": {}},
+  {"src_id": "claim:ikeda:asu-vice-president", "rel_type": "MENTIONS", "dst_id": "person:hiroshi-ikeda", "metadata": {}},
+  {"src_id": "claim:ikeda:asu-vice-president", "rel_type": "MENTIONS", "dst_id": "fed:aikido-schools-of-ueshiba", "metadata": {}},
+  {"src_id": "claim:ikeda:asu-independence-2015", "rel_type": "MENTIONS", "dst_id": "person:hiroshi-ikeda", "metadata": {}},
+  {"src_id": "claim:ikeda:asu-independence-2015", "rel_type": "MENTIONS", "dst_id": "person:mitsugi-saotome", "metadata": {}},
+  {"src_id": "claim:ikeda:shimbokukai-vp-2016", "rel_type": "MENTIONS", "dst_id": "fed:aikido-shimbokukai", "metadata": {}},
+  {"src_id": "claim:ikeda:judo-before-aikido", "rel_type": "MENTIONS", "dst_id": "person:hiroshi-ikeda", "metadata": {}},
+  {"src_id": "claim:ikeda:aikido-start-year-discrepancy", "rel_type": "MENTIONS", "dst_id": "person:hiroshi-ikeda", "metadata": {}},
+  {"src_id": "claim:ikeda:saotome-florida-invitation-1976", "rel_type": "MENTIONS", "dst_id": "person:bill-mcintyre", "metadata": {}},
+  {"src_id": "claim:ikeda:saotome-florida-invitation-1976", "rel_type": "MENTIONS", "dst_id": "person:mitsugi-saotome", "metadata": {}},
+  {"src_id": "claim:ikeda:summer-camp-circuit-1995", "rel_type": "MENTIONS", "dst_id": "person:robert-nadeau", "metadata": {}},
+  {"src_id": "claim:ikeda:summer-camp-circuit-1995", "rel_type": "MENTIONS", "dst_id": "person:frank-doran", "metadata": {}},
+  {"src_id": "claim:ikeda:summer-camp-circuit-1995", "rel_type": "MENTIONS", "dst_id": "person:kayla-feder", "metadata": {}},
+  {"src_id": "claim:ikeda:aikido-bridge-corroborated-aj", "rel_type": "MENTIONS", "dst_id": "group:aikido-bridge", "metadata": {}},
+  {"src_id": "claim:ikeda:sarasota-12th-street-dojo", "rel_type": "MENTIONS", "dst_id": "dojo:12th-street-dojo-sarasota", "metadata": {}},
+  {"src_id": "claim:ikeda:aj-site-sweep-2026-09", "rel_type": "MENTIONS", "dst_id": "person:hiroshi-ikeda", "metadata": {}}
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "name": "bob_klein_hilo_floating_bridge_reply",
+ "description": "Email reply from Bob Klein (Aikido of Hilo) to the Ikeda outreach (issue #64), received 2026-09-25. Reports: Ikeda has taught seminars at a Ka'u-district dojo on the Big Island of Hawaii that has operated under two names — Ka'u Aikikai and Floating Bridge Aikido — in 2024, 2025, and 2026, and is slated to return in January 2027. Flyers for the first two years (2024, 2025) were attached to the email (attachments not yet in the reference corpus). Supplied contact: Gary Reiss, greissoffice@gmail.com. Klein's sender address (aikidoofhilo@gmail.com) matches the contact email already on dojo:aikido-of-hilo — Hilo is on the east side of the island, consistent with his 'other side of our Big Island' phrasing for Ka'u.",
+ "sources": [
+  {
+   "id": "src:email-bob-klein-2026-09-25",
+   "url": "email://bob-klein-aikido-of-hilo/2026-09-25",
+   "title": "Bob Klein (Aikido of Hilo) — reply to Ikeda outreach",
+   "author": "Bob Klein",
+   "publish_date": "2026-09-25",
+   "platform": "email correspondence",
+   "source_class": "primary_first_person",
+   "bias_hint": "neutral_ish"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "person:bob-klein",
+   "type": "Person",
+   "label": "Bob Klein",
+   "canonical_name": "Bob Klein",
+   "metadata": {
+    "note": "Aikido of Hilo — replied to the Ikeda outreach (issue #64) reporting Ikeda's Ka'u/Floating Bridge seminar history and supplying the Gary Reiss contact",
+    "role": "dojo representative / correspondent",
+    "email": "aikidoofhilo@gmail.com"
+   },
+   "source_urls": ["email://bob-klein-aikido-of-hilo/2026-09-25"]
+  },
+  {
+   "id": "dojo:floating-bridge-aikido",
+   "type": "Dojo",
+   "label": "Floating Bridge Aikido",
+   "canonical_name": "Floating Bridge Aikido",
+   "metadata": {
+    "art": "aikido",
+    "city": "Ka'u district",
+    "state": "HI",
+    "country": "United States",
+    "contact_email": "greissoffice@gmail.com",
+    "contact_name": "Gary Reiss",
+    "note": "Big Island of Hawaii dojo that 'has operated under two names — Ka'u Aikikai and Floating Bridge Aikido' per Bob Klein (Aikido of Hilo). Hosted Ikeda seminars 2024-2026 with a further visit slated for January 2027. Exact town within Ka'u not stated in the email."
+   },
+   "source_urls": ["email://bob-klein-aikido-of-hilo/2026-09-25"]
+  },
+  {
+   "id": "dojo:kau-aikikai",
+   "type": "Dojo",
+   "label": "Ka'u Aikikai",
+   "canonical_name": "Ka'u Aikikai",
+   "metadata": {
+    "note": "Alternate/earlier operating name of dojo:floating-bridge-aikido per Bob Klein — same organization, not a second dojo"
+   },
+   "source_urls": ["email://bob-klein-aikido-of-hilo/2026-09-25"]
+  },
+  {
+   "id": "person:gary-reiss",
+   "type": "Person",
+   "label": "Gary Reiss",
+   "canonical_name": "Gary Reiss",
+   "metadata": {
+    "note": "Contact for Floating Bridge Aikido / Ka'u Aikikai supplied by Bob Klein for further information on Ikeda's seminars there",
+    "email": "greissoffice@gmail.com",
+    "role": "dojo contact"
+   },
+   "source_urls": ["email://bob-klein-aikido-of-hilo/2026-09-25"]
+  },
+  {
+   "id": "event:ikeda-seminar-floating-bridge-2024",
+   "type": "Event",
+   "label": "Hiroshi Ikeda seminar at Floating Bridge Aikido (2024)",
+   "canonical_name": "Hiroshi Ikeda seminar at Floating Bridge Aikido, 2024",
+   "metadata": {
+    "date": "2024",
+    "event_type": "seminar",
+    "note": "Per Bob Klein; flyer for this year was attached to his email (attachment not yet ingested)"
+   },
+   "source_urls": ["email://bob-klein-aikido-of-hilo/2026-09-25"]
+  },
+  {
+   "id": "event:ikeda-seminar-floating-bridge-2025",
+   "type": "Event",
+   "label": "Hiroshi Ikeda seminar at Floating Bridge Aikido (2025)",
+   "canonical_name": "Hiroshi Ikeda seminar at Floating Bridge Aikido, 2025",
+   "metadata": {
+    "date": "2025",
+    "event_type": "seminar",
+    "note": "Per Bob Klein; flyer for this year was attached to his email (attachment not yet ingested)"
+   },
+   "source_urls": ["email://bob-klein-aikido-of-hilo/2026-09-25"]
+  },
+  {
+   "id": "event:ikeda-seminar-floating-bridge-2026",
+   "type": "Event",
+   "label": "Hiroshi Ikeda seminar at Floating Bridge Aikido (2026)",
+   "canonical_name": "Hiroshi Ikeda seminar at Floating Bridge Aikido, 2026",
+   "metadata": {
+    "date": "2026",
+    "event_type": "seminar",
+    "note": "Per Bob Klein; no flyer available ('Others I don't have'). Possible overlap with event:ikeda-cal-hiroshi-ikeda-shihan-at-hawaii-kona-winter-camp-c58e2eb24f (Jan 31-Feb 1 2026, billed Kailua-Kona on hiroshi-ikeda.com) — could be the same trip or a separate Ka'u event; kept distinct pending confirmation from Gary Reiss."
+   },
+   "source_urls": ["email://bob-klein-aikido-of-hilo/2026-09-25"]
+  },
+  {
+   "id": "event:ikeda-seminar-floating-bridge-2027-01-planned",
+   "type": "Event",
+   "label": "Hiroshi Ikeda seminar at Floating Bridge Aikido (planned January 2027)",
+   "canonical_name": "Hiroshi Ikeda seminar at Floating Bridge Aikido, planned January 2027",
+   "metadata": {
+    "date": "2027-01",
+    "event_type": "seminar",
+    "status": "planned",
+    "note": "'slated to do so again in January 2027' — Bob Klein email 2026-09-25"
+   },
+   "source_urls": ["email://bob-klein-aikido-of-hilo/2026-09-25"]
+  },
+  {
+   "id": "claim:klein:ikeda-floating-bridge-seminars",
+   "type": "Claim",
+   "label": "Ikeda taught seminars at Ka'u Aikikai / Floating Bridge Aikido in 2024, 2025, 2026; slated to return January 2027",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "Bob Klein (Aikido of Hilo) reports that Hiroshi Ikeda 'has taught seminars at another dojo on the other side of our Big Island of Hawaii. The dojo has operated under two names — Ka'u Aikikai and Floating Bridge Aikido. He has taught here 2024, 2025, 2026 and is slated to do so again in January 2027.' Flyers for 2024 and 2025 were attached to the email (not yet in the reference corpus). Klein's phrasing 'taught here' may indicate personal involvement at the host dojo or loose usage — worth confirming with Gary Reiss.",
+    "claim_type": "event_history",
+    "confidence": 0.9,
+    "evidence_mode": "respondent_report",
+    "stance": "neutral",
+    "asserted_by": "Bob Klein",
+    "open_question": "Whether the 2026 Ka'u seminar is the same event as the hiroshi-ikeda.com calendar listing 'Hawaii Kona Winter Camp' (Jan 31-Feb 1 2026, Kailua-Kona) or a separate event on the same trip"
+   },
+   "source_urls": ["email://bob-klein-aikido-of-hilo/2026-09-25"]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "person:bob-klein",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "dojo:aikido-of-hilo",
+   "metadata": {"role": "dojo representative", "evidence": "sender address aikidoofhilo@gmail.com matches contact email already on dojo:aikido-of-hilo"}
+  },
+  {
+   "src_id": "person:gary-reiss",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "dojo:floating-bridge-aikido",
+   "metadata": {"role": "dojo contact", "evidence": "named by Bob Klein as the contact for the dojo (greissoffice@gmail.com)"}
+  },
+  {
+   "src_id": "dojo:kau-aikikai",
+   "rel_type": "ALIAS_OF",
+   "dst_id": "dojo:floating-bridge-aikido",
+   "metadata": {"note": "same organization operating under two names per Bob Klein", "source_url": "email://bob-klein-aikido-of-hilo/2026-09-25"}
+  },
+  {
+   "src_id": "dojo:floating-bridge-aikido",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "place:big-island",
+   "metadata": {"note": "Ka'u district, Big Island of Hawaii"}
+  },
+  {
+   "src_id": "person:hiroshi-ikeda",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:ikeda-seminar-floating-bridge-2024",
+   "metadata": {"role": "instructor", "source_url": "email://bob-klein-aikido-of-hilo/2026-09-25"}
+  },
+  {
+   "src_id": "person:hiroshi-ikeda",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:ikeda-seminar-floating-bridge-2025",
+   "metadata": {"role": "instructor", "source_url": "email://bob-klein-aikido-of-hilo/2026-09-25"}
+  },
+  {
+   "src_id": "person:hiroshi-ikeda",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:ikeda-seminar-floating-bridge-2026",
+   "metadata": {"role": "instructor", "source_url": "email://bob-klein-aikido-of-hilo/2026-09-25"}
+  },
+  {
+   "src_id": "person:hiroshi-ikeda",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:ikeda-seminar-floating-bridge-2027-01-planned",
+   "metadata": {"role": "instructor", "status": "planned", "source_url": "email://bob-klein-aikido-of-hilo/2026-09-25"}
+  },
+  {
+   "src_id": "event:ikeda-seminar-floating-bridge-2024",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "dojo:floating-bridge-aikido",
+   "metadata": {"role": "host_dojo"}
+  },
+  {
+   "src_id": "event:ikeda-seminar-floating-bridge-2025",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "dojo:floating-bridge-aikido",
+   "metadata": {"role": "host_dojo"}
+  },
+  {
+   "src_id": "event:ikeda-seminar-floating-bridge-2026",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "dojo:floating-bridge-aikido",
+   "metadata": {"role": "host_dojo"}
+  },
+  {
+   "src_id": "event:ikeda-seminar-floating-bridge-2027-01-planned",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "dojo:floating-bridge-aikido",
+   "metadata": {"role": "host_dojo", "status": "planned"}
+  },
+  {
+   "src_id": "claim:klein:ikeda-floating-bridge-seminars",
+   "rel_type": "ASSERTED_BY",
+   "dst_id": "person:bob-klein",
+   "metadata": {}
+  },
+  {
+   "src_id": "claim:klein:ikeda-floating-bridge-seminars",
+   "rel_type": "ABOUT",
+   "dst_id": "person:hiroshi-ikeda",
+   "metadata": {}
+  },
+  {
+   "src_id": "claim:klein:ikeda-floating-bridge-seminars",
+   "rel_type": "ABOUT",
+   "dst_id": "dojo:floating-bridge-aikido",
+   "metadata": {}
+  }
+ ]
+}

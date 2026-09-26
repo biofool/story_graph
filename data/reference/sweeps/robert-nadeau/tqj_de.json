@@ -1,0 +1,10 @@
+{
+ "subject": "robert nadeau",
+ "query": "robert nadeau",
+ "domain": "tqj.de",
+ "tier": "HIGH_AUTHORITY",
+ "collection_type": "web_search_fallback",
+ "pending_queries": [
+  "site:tqj.de \"robert nadeau\""
+ ]
+}

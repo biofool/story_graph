@@ -1,0 +1,8 @@
+{
+ "subject": "peter ralston",
+ "query": "peter ralston",
+ "domain": "newspapers.com",
+ "tier": "ACCESS_HOST",
+ "collection_type": "dedicated_crawler",
+ "note": "covered by: scripts/42_newspapers_search_download.py, scripts/43_npc_extract_articles.py"
+}

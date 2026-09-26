@@ -622,6 +622,21 @@ def compute_srs(
     url = source.get("url", "") or ""
     domain = get_domain(url)
 
+    # WP:CIRCULAR — a Wikipedia article is never a citable source on
+    # Wikipedia, regardless of its domain rank. Wikipedia URLs are leads
+    # to underlying references, which must be located and cited directly.
+    # Score them UNRELIABLE so they can never count toward WP:GNG or
+    # appear as "Citable? Yes" in the reliability report.
+    if domain == "wikipedia.org" or domain.endswith(".wikipedia.org"):
+        return 0, "UNRELIABLE", {
+            "domain_rank": 0,
+            "wp_rsp": 0,
+            "source_class": 0,
+            "independence": 0,
+            "domain": domain,
+            "note": "wikipedia_not_citable",
+        }
+
     dr = domain_rank_points(domain, tranco, tiers)
     wr = wp_rsp_points(domain, rsp_cache)
     sc = source_class_points(source.get("source_class", ""))
@@ -977,16 +992,14 @@ def generate_report(
     lines.append("---")
     lines.append("")
 
-    # Source scoring table
-    lines.append("## Source scoring (all sources in subgraph)")
-    lines.append("")
-    lines.append("| # | Source | Domain | SRS | Tier | Citable? | Reason |")
-    lines.append("|---|--------|--------|-----|------|----------|--------|")
+    # Source scoring — lead table: citable sources (RELIABLE then MARGINAL,
+    # SRS >= 50). All other sources go in a second "Needs support" table.
+    lead = [s for s in scored_sources if s["_srs"] >= 50]
+    needs_support = [s for s in scored_sources if s["_srs"] < 50]
 
-    for i, s in enumerate(scored_sources, 1):
+    def _score_row(i: int, s: dict) -> str:
         domain = s["_breakdown"]["domain"]
         srs = s["_srs"]
-        tier = s["_tier"]
         citable = "Yes" if srs >= 50 else "No"
         reason = (
             f"dr={s['_breakdown']['domain_rank']} "
@@ -994,12 +1007,39 @@ def generate_report(
             f"sc={s['_breakdown']['source_class']} "
             f"ind={s['_breakdown']['independence']}"
         )
+        if s["_breakdown"].get("note"):
+            reason += f" ({s['_breakdown']['note']})"
         title = s.get("title", "") or s.get("url", "")[:40]
-        lines.append(
-            f"| {i} | {title[:40]} | {domain} | {srs} | {tier} | {citable} | {reason} |"
+        return (
+            f"| {i} | {title[:40]} | {domain} | {srs} | {s['_tier']} "
+            f"| {citable} | {reason} |"
         )
 
+    _table_header = [
+        "| # | Source | Domain | SRS | Tier | Citable? | Reason |",
+        "|---|--------|--------|-----|------|----------|--------|",
+    ]
+
+    lines.append("## Source scoring — Reliable, then Marginal")
     lines.append("")
+    lines.extend(_table_header)
+    for i, s in enumerate(lead, 1):
+        lines.append(_score_row(i, s))
+    lines.append("")
+
+    if needs_support:
+        lines.append("## Needs support")
+        lines.append("")
+        lines.append(
+            "SRS < 50 — not cited in article text. Claims resting only on "
+            "these sources need better sourcing before they can appear in "
+            "the article."
+        )
+        lines.append("")
+        lines.extend(_table_header)
+        for i, s in enumerate(needs_support, 1):
+            lines.append(_score_row(i, s))
+        lines.append("")
 
     # Date metadata section — event, recorded, retrieved dates
     lines.append("## Source date metadata")
@@ -1099,22 +1139,15 @@ def generate_report(
         )
         lines.append("")
 
-    for s in excluded:
-        if "kkron://" in (s.get("url", "") or ""):
-            continue  # Already covered above
-        url = s.get("url", "")
-        title = s.get("title", "") or "(untitled)"
-        tier = s["_tier"]
-        reason = (
-            f"SRS={s['_srs']} ({tier}): "
-            f"dr={s['_breakdown']['domain_rank']} "
-            f"rsp={s['_breakdown']['wp_rsp']} "
-            f"sc={s['_breakdown']['source_class']} "
-            f"ind={s['_breakdown']['independence']}"
+    non_kkron_excluded = [
+        s for s in excluded if "kkron://" not in (s.get("url", "") or "")
+    ]
+    if non_kkron_excluded:
+        lines.append(
+            f"- {len(non_kkron_excluded)} source(s) below the citation "
+            f"threshold — see the *Needs support* table above."
         )
-        lines.append(f"- [{title}]({url}) — {reason}")
-
-    lines.append("")
+        lines.append("")
 
     # Citation-pending claims
     pending = [c for c in claims if not c.get("_source_ids")]
@@ -1145,6 +1178,129 @@ def generate_report(
     lines.append("")
 
     return "\n".join(lines)
+
+
+def collect_subgraph(
+    search_term: str,
+    snapshot: Path,
+    tranco: dict | None = None,
+    rsp_cache: dict | None = None,
+    verbose: bool = True,
+) -> dict:
+    """Collect the person's subgraph from a graph_snapshot/ directory.
+
+    Shared by main() and by tools that need the same collection logic
+    (e.g. scripts/58_compare_wikipedia_draft.py). Loads the four JSONL
+    files, finds matching nodes, selects the canonical Person, collects
+    claims and sources (including Cyrillic name variants and claim-linked
+    sources), scores every source (SRS), and collects key edges.
+
+    Returns a dict with keys:
+        nodes, edges, sources, claim_sources, matches, canonical,
+        claims, matched_sources, scored_sources, key_edges
+
+    Returns an empty dict (and prints an ERROR to stderr) if the snapshot
+    has no nodes, no matches, or no canonical Person node.
+    """
+    def _log(msg: str) -> None:
+        if verbose:
+            print(msg, file=sys.stderr)
+
+    # Load snapshot
+    nodes = load_jsonl(snapshot / "nodes.jsonl")
+    edges = load_jsonl(snapshot / "edges.jsonl")
+    sources = load_jsonl(snapshot / "sources.jsonl")
+    claim_sources = load_jsonl(snapshot / "claim_sources.jsonl")
+
+    if not nodes:
+        print(f"ERROR: No nodes found in {snapshot / 'nodes.jsonl'}", file=sys.stderr)
+        return {}
+
+    # Find matching nodes
+    matches = find_matching_nodes(search_term, nodes)
+    if not matches:
+        print(f"ERROR: No nodes found matching '{search_term}'", file=sys.stderr)
+        return {}
+
+    canonical = select_canonical_person(matches)
+    if not canonical:
+        print(f"ERROR: No Person node found matching '{search_term}'", file=sys.stderr)
+        return {}
+
+    _log(f"Canonical person: {canonical['id']} — {canonical['label']}")
+
+    # Load reference data
+    tiers = load_domain_tiers()
+    if tranco is None:
+        tranco = {}
+    if rsp_cache is None:
+        rsp_cache = {}
+
+    # Collect sources — both by text matching AND via claim-source links
+    matched_sources = collect_sources(matches, sources)
+
+    # Also search sources using Cyrillic name variants
+    # (the default collect_sources only uses the English label)
+    # Note: json.dumps escapes non-ASCII by default, so we use
+    # ensure_ascii=False to match Cyrillic/CJK text properly
+    name_variants = get_name_variants(canonical, matches)
+    existing_urls = {s.get("url") for s in matched_sources}
+    for s in sources:
+        if s.get("url") in existing_urls:
+            continue
+        blob = json.dumps(s, ensure_ascii=False).lower()
+        if any(v in blob for v in name_variants if len(v) > 3):
+            matched_sources.append(s)
+            existing_urls.add(s.get("url"))
+            _log(f"  Added via name variant: {s.get('url', '')[:60]}")
+
+    # Also collect sources linked to claims about this person
+    # (handles cases where the source text uses a different name variant,
+    # e.g., Cyrillic "Роберт Надо" instead of "Robert Nadeau")
+    claims = collect_claims_for_person(
+        canonical, matches, nodes, edges, claim_sources,
+    )
+    claim_source_ids = set()
+    for c in claims:
+        for sid in c.get("_source_ids", []):
+            claim_source_ids.add(sid)
+
+    source_map = {s["id"]: s for s in sources if "id" in s}
+    for sid in claim_source_ids:
+        if sid in source_map and source_map[sid] not in matched_sources:
+            matched_sources.append(source_map[sid])
+            _log(f"  Added via claim link: {source_map[sid].get('url', sid)[:60]}")
+
+    # Score all sources
+    scored_sources = []
+    for s in matched_sources:
+        srs, tier, breakdown = compute_srs(
+            s, canonical, edges, nodes, tranco, tiers, rsp_cache,
+        )
+        scored = dict(s)
+        scored["_srs"] = srs
+        scored["_tier"] = tier
+        scored["_breakdown"] = breakdown
+        scored_sources.append(scored)
+
+    # Sort by SRS descending
+    scored_sources.sort(key=lambda x: x["_srs"], reverse=True)
+
+    # Collect key edges
+    key_edges = collect_key_edges(matches, edges)
+
+    return {
+        "nodes": nodes,
+        "edges": edges,
+        "sources": sources,
+        "claim_sources": claim_sources,
+        "matches": matches,
+        "canonical": canonical,
+        "claims": claims,
+        "matched_sources": matched_sources,
+        "scored_sources": scored_sources,
+        "key_edges": key_edges,
+    }
 
 
 def main():
@@ -1192,87 +1348,22 @@ def main():
 
     args = parser.parse_args()
 
-    # Load snapshot
-    snapshot = args.snapshot_dir
-    nodes = load_jsonl(snapshot / "nodes.jsonl")
-    edges = load_jsonl(snapshot / "edges.jsonl")
-    sources = load_jsonl(snapshot / "sources.jsonl")
-    claim_sources = load_jsonl(snapshot / "claim_sources.jsonl")
-
-    if not nodes:
-        print(f"ERROR: No nodes found in {snapshot / 'nodes.jsonl'}", file=sys.stderr)
-        sys.exit(1)
-
-    # Find matching nodes
-    matches = find_matching_nodes(args.search_term, nodes)
-    if not matches:
-        print(f"ERROR: No nodes found matching '{args.search_term}'", file=sys.stderr)
-        sys.exit(1)
-
-    canonical = select_canonical_person(matches)
-    if not canonical:
-        print(f"ERROR: No Person node found matching '{args.search_term}'", file=sys.stderr)
-        sys.exit(1)
-
-    print(f"Canonical person: {canonical['id']} — {canonical['label']}", file=sys.stderr)
-
-    # Load reference data
-    tiers = load_domain_tiers()
+    # Collect the person's subgraph (shared with compare tooling)
     tranco = load_tranco(args.tranco) if args.tranco else {}
-    rsp_cache = {}  # No WP:RSP cache yet — all domains get 0
-
-    # Collect sources — both by text matching AND via claim-source links
-    matched_sources = collect_sources(matches, sources)
-
-    # Also search sources using Cyrillic name variants
-    # (the default collect_sources only uses the English label)
-    # Note: json.dumps escapes non-ASCII by default, so we use
-    # ensure_ascii=False to match Cyrillic/CJK text properly
-    name_variants = get_name_variants(canonical, matches)
-    existing_urls = {s.get("url") for s in matched_sources}
-    for s in sources:
-        if s.get("url") in existing_urls:
-            continue
-        blob = json.dumps(s, ensure_ascii=False).lower()
-        if any(v in blob for v in name_variants if len(v) > 3):
-            matched_sources.append(s)
-            existing_urls.add(s.get("url"))
-            print(f"  Added via name variant: {s.get('url', '')[:60]}", file=sys.stderr)
-
-    # Also collect sources linked to claims about this person
-    # (handles cases where the source text uses a different name variant,
-    # e.g., Cyrillic "Роберт Надо" instead of "Robert Nadeau")
-    claims = collect_claims_for_person(
-        canonical, matches, nodes, edges, claim_sources,
+    sub = collect_subgraph(
+        args.search_term, args.snapshot_dir, tranco=tranco, rsp_cache={},
     )
-    claim_source_ids = set()
-    for c in claims:
-        for sid in c.get("_source_ids", []):
-            claim_source_ids.add(sid)
+    if not sub:
+        sys.exit(1)
 
-    source_map = {s["id"]: s for s in sources if "id" in s}
-    for sid in claim_source_ids:
-        if sid in source_map and source_map[sid] not in matched_sources:
-            matched_sources.append(source_map[sid])
-            print(f"  Added via claim link: {source_map[sid].get('url', sid)[:60]}", file=sys.stderr)
-
-    # Score all sources
-    scored_sources = []
-    for s in matched_sources:
-        srs, tier, breakdown = compute_srs(
-            s, canonical, edges, nodes, tranco, tiers, rsp_cache,
-        )
-        scored = dict(s)
-        scored["_srs"] = srs
-        scored["_tier"] = tier
-        scored["_breakdown"] = breakdown
-        scored_sources.append(scored)
-
-    # Sort by SRS descending
-    scored_sources.sort(key=lambda x: x["_srs"], reverse=True)
-
-    # Collect key edges
-    key_edges = collect_key_edges(matches, edges)
+    nodes = sub["nodes"]
+    edges = sub["edges"]
+    sources = sub["sources"]
+    matches = sub["matches"]
+    canonical = sub["canonical"]
+    claims = sub["claims"]
+    scored_sources = sub["scored_sources"]
+    key_edges = sub["key_edges"]
 
     # Notability check
     reliable_independent = [

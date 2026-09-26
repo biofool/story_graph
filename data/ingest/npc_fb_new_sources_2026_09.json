@@ -1,0 +1,226 @@
+{
+ "name": "npc_fb_new_sources_2026_09",
+ "description": "New sources from a 2026-09-24 newspapers.com search batch (first-ever Nadeau queries; City Aikido, Aikido of Marin, Ikeda-Pittsburgh, Ikeda 8th dan [0 hits — no corroboration of Jones claim], Strozzi-Heckler, Quantum Aikido, Aikido of Mountain View) plus public Facebook posts found via web search (FB Graph API unavailable — no FB_ACCESS_TOKEN). Highlights: May 1978 'Festival of the Happy Martial Arts' at Stanford Frost Amphitheater billing Nadeau as 'Spiritual teacher and Director of Northern California Aikido' alongside Saotome/Doran/Leonard/Palmer/Huang; earliest Nadeau newspaper mention (San Mateo Times, Jan 1 1968); Whole Earth Review column (SF Chronicle Jul 20 1988) reviewing Strozzi-Heckler's 'Aikido and the New Warrior'; Wendy Palmer obituary via AikiWeb FB post; Moon at Riviera Seminar Montreux Jun 2025 via Dojo Kashin Roma FB video post.",
+ "sources": [
+  {
+   "id": "src:fb-dojo-kashin-riviera-2025",
+   "url": "https://www.facebook.com/AikidoKashin/videos/1886811665397048/",
+   "title": "Dojo Kashin Roma FB video post — Riviera Seminar 2025 promo (Cassidy, Messisco, Moon, Martucci on 'Takemusu Aiki and Jiyuwaza')",
+   "author": "Dojo Kashin Roma",
+   "platform": "facebook",
+   "source_class": "documentary_promotional",
+   "bias_hint": "neutral_ish"
+  },
+  {
+   "id": "src:fb-aikiweb-wendy-palmer-obit-2022",
+   "url": "https://www.facebook.com/AikiWeb/posts/10159373624383063/",
+   "title": "AikiWeb FB post — Wendy Palmer obituary (Dec 3, 2022): started aikido 1971 with Bob Nadeau; co-founded Aikido of Tamalpais 1976 with Leonard & Strozzi-Heckler",
+   "author": "AikiWeb",
+   "publish_date": "2022-12-03",
+   "platform": "facebook",
+   "source_class": "journalistic",
+   "bias_hint": "neutral_ish"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "work:npc-38997462",
+   "type": "Work",
+   "label": "San Mateo Times — 'Aikido Class' listing naming Robert Nadeau as instructor (Jan 1, 1968, p.16)",
+   "canonical_name": null,
+   "metadata": {
+    "note": "Earliest newspapers.com mention of Nadeau found — 'Aikido Class... Robert Nadeau, instructor in the Oriental art of Aikido' on a page otherwise about the Blaiberg heart transplant",
+    "publish_date": "1968-01-01"
+   },
+   "source_urls": ["https://www.newspapers.com/image/38997462/"]
+  },
+  {
+   "id": "work:npc-461867771",
+   "type": "Work",
+   "label": "San Francisco Examiner — 'A Festival of the Happy Martial Arts' ad (May 21, 1978, p.322)",
+   "canonical_name": null,
+   "metadata": {"publish_date": "1978-05-21"},
+   "source_urls": ["https://www.newspapers.com/image/461867771/"]
+  },
+  {
+   "id": "work:npc-1223017121",
+   "type": "Work",
+   "label": "San Francisco Chronicle — 'A Festival of the Happy Martial Arts' ad (May 21, 1978, p.210)",
+   "canonical_name": null,
+   "metadata": {"publish_date": "1978-05-21"},
+   "source_urls": ["https://www.newspapers.com/image/1223017121/"]
+  },
+  {
+   "id": "work:npc-840615951",
+   "type": "Work",
+   "label": "Peninsula Times Tribune — 'A Festival of the Happy Martial Arts' ad (May 12, 1978, p.28)",
+   "canonical_name": null,
+   "metadata": {"publish_date": "1978-05-12"},
+   "source_urls": ["https://www.newspapers.com/image/840615951/"]
+  },
+  {
+   "id": "work:npc-1225255364",
+   "type": "Work",
+   "label": "San Francisco Chronicle — Whole Earth Review 'On Martial Arts' book column (Jul 20, 1988, p.118)",
+   "canonical_name": null,
+   "metadata": {
+    "publish_date": "1988-07-20",
+    "note": "Reviews 'Aikido and the New Warrior' ed. Richard Heckler (North Atlantic Books, 1985) and 'Aikido: The Way of Harmony' (Stevens & Shirata, Shambhala 1984). Third-party review — usable for Strozzi-Heckler notability."
+   },
+   "source_urls": ["https://www.newspapers.com/image/1225255364/"]
+  },
+  {
+   "id": "work:npc-1100898652",
+   "type": "Work",
+   "label": "Point Reyes Light — Friends of the Dance Palace donor list incl. 'Richard Moon - Aikido of Marin' (Dec 12, 1985, p.9)",
+   "canonical_name": null,
+   "metadata": {"publish_date": "1985-12-12"},
+   "source_urls": ["https://www.newspapers.com/image/1100898652/"]
+  },
+  {
+   "id": "work:npc-1103978619",
+   "type": "Work",
+   "label": "Point Reyes Light — Dance Palace class sampler incl. 'Noon: Aikido with Aikido of Marin' (Jan 2, 2003, p.14)",
+   "canonical_name": null,
+   "metadata": {"publish_date": "2003-01-02"},
+   "source_urls": ["https://www.newspapers.com/image/1103978619/"]
+  },
+  {
+   "id": "event:festival-of-happy-martial-arts-1978",
+   "type": "Event",
+   "label": "A Festival of the Happy Martial Arts — Frost Amphitheater, Stanford (May 21, 1978)",
+   "canonical_name": "Festival of the Happy Martial Arts, Stanford, 1978-05-21",
+   "metadata": {
+    "date": "1978-05-21",
+    "city": "Stanford",
+    "venue": "Frost Amphitheater, Stanford University",
+    "presented_by": "International Movement Arts Center + Stanford Aikido and Karate Clubs",
+    "billed": "Al Chung-liang Huang (tai chi), Frank Doran, George Leonard, Mark Mir (kenpo), Robert Nadeau ('Spiritual teacher and Director of Northern California Aikido'), Wendy Palmer, Mitsugi Saotome ('studied with M. Ueshiba for 15 years')",
+    "note": "Advertised same-day in SF Chronicle + SF Examiner; pre-ad May 12 in Peninsula Times Tribune"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1223017121/",
+    "https://www.newspapers.com/image/461867771/",
+    "https://www.newspapers.com/image/840615951/"
+   ]
+  },
+  {
+   "id": "event:riviera-seminar-montreux-2025",
+   "type": "Event",
+   "label": "Riviera Seminar 2025 — Montreux, Switzerland (Jun 6-8, 2025)",
+   "canonical_name": "Riviera Seminar 2025, Montreux",
+   "metadata": {
+    "date": "2025-06-06..08",
+    "city": "Montreux",
+    "country": "Switzerland",
+    "note": "Patrick Cassidy, Daniel Messisco, Richard Moon, Roberto Martucci — discussion 'Takemusu Aiki and Jiyuwaza' (director's-cut video posted by Dojo Kashin Roma on Facebook)"
+   },
+   "source_urls": ["https://www.facebook.com/AikidoKashin/videos/1886811665397048/"]
+  },
+  {
+   "id": "person:wendy-palmer",
+   "type": "Person",
+   "label": "Wendy Palmer",
+   "canonical_name": "Wendy Palmer",
+   "metadata": {
+    "note": "7th dan, Aikido of Tamalpais; founder of Leadership Embodiment. Started aikido 1971 in San Francisco with Bob Nadeau; met George Leonard and Richard Strozzi-Heckler at Aikido of San Francisco (Turk St); the three established Aikido of Tamalpais, Mill Valley, 1976. Died Dec 2, 2022 (lung cancer).",
+    "deceased": true,
+    "death_date": "2022-12-02"
+   },
+   "source_urls": ["https://www.facebook.com/AikiWeb/posts/10159373624383063/"]
+  },
+  {
+   "id": "person:daniel-messisco",
+   "type": "Person",
+   "label": "Daniel Messisco",
+   "canonical_name": "Daniel Messisco",
+   "metadata": {"note": "Aikido teacher (6th dan in AikiWeb listings); co-panelist Riviera Seminar 2025"},
+   "source_urls": ["https://www.facebook.com/AikidoKashin/videos/1886811665397048/"]
+  },
+  {
+   "id": "person:roberto-martucci",
+   "type": "Person",
+   "label": "Roberto Martucci",
+   "canonical_name": "Roberto Martucci",
+   "metadata": {"note": "Aikido teacher; co-panelist Riviera Seminar 2025 (Montreux)"},
+   "source_urls": ["https://www.facebook.com/AikidoKashin/videos/1886811665397048/"]
+  },
+  {
+   "id": "person:al-chung-liang-huang",
+   "type": "Person",
+   "label": "Al Chung-liang Huang",
+   "canonical_name": "Al Chung-liang Huang",
+   "metadata": {"note": "Tai chi master, dancer, author (Embrace Tiger, Return to Mountain); billed at Festival of the Happy Martial Arts 1978"},
+   "source_urls": ["https://www.newspapers.com/image/1223017121/"]
+  },
+  {
+   "id": "dojo:dojo-kashin-roma",
+   "type": "Dojo",
+   "label": "Dojo Kashin Roma",
+   "canonical_name": "Dojo Kashin Roma",
+   "metadata": {"city": "Rome", "country": "Italy", "note": "Posted Riviera Seminar 2025 director's-cut video on Facebook"},
+   "source_urls": ["https://www.facebook.com/AikidoKashin/videos/1886811665397048/"]
+  },
+  {
+   "id": "claim:nadeau-director-norcal-aikido-1978",
+   "type": "Claim",
+   "label": "Robert Nadeau billed as 'Spiritual teacher and Director of Northern California Aikido' (May 1978, Stanford festival)",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "May 1978 newspaper ads (SF Chronicle, SF Examiner, Peninsula Times Tribune) for 'A Festival of the Happy Martial Arts' at Frost Amphitheater describe Robert Nadeau as 'Spiritual teacher and Director of Northern California Aikido'. Documentary evidence of his organizational role in Northern California aikido by 1978.",
+    "claim_type": "biographical",
+    "confidence": 0.9,
+    "evidence_mode": "archival",
+    "stance": "neutral",
+    "asserted_by": "newspaper billing"
+   },
+   "source_urls": [
+    "https://www.newspapers.com/image/1223017121/",
+    "https://www.newspapers.com/image/461867771/"
+   ]
+  },
+  {
+   "id": "claim:palmer-nadeau-tamalpais",
+   "type": "Claim",
+   "label": "Wendy Palmer began aikido under Nadeau (1971) and co-founded Aikido of Tamalpais (1976) with Leonard and Strozzi-Heckler",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "AikiWeb obituary (Dec 2022): 'Wendy started aikido in 1971 in San Francisco with Bob Nadeau. She met George Leonard and Richard Strozzi-Heckler at Aikido of San Francisco on Turk Street; the three of them would establish Aikido of Tamalpais in Mill Valley in 1976.'",
+    "claim_type": "biographical",
+    "confidence": 0.9,
+    "evidence_mode": "secondary",
+    "stance": "neutral",
+    "asserted_by": "AikiWeb obituary"
+   },
+   "source_urls": ["https://www.facebook.com/AikiWeb/posts/10159373624383063/"]
+  }
+ ],
+ "edges": [
+  {"src_id": "person:robert-nadeau", "rel_type": "CO_APPEARANCE", "dst_id": "event:festival-of-happy-martial-arts-1978", "metadata": {"role": "billed presenter — 'Spiritual teacher and Director of Northern California Aikido'", "source_url": "https://www.newspapers.com/image/1223017121/"}},
+  {"src_id": "person:mitsugi-saotome", "rel_type": "CO_APPEARANCE", "dst_id": "event:festival-of-happy-martial-arts-1978", "metadata": {"role": "billed presenter — 'Master instructor of aikido, studied with M. Ueshiba for 15 years'", "source_url": "https://www.newspapers.com/image/1223017121/"}},
+  {"src_id": "person:frank-doran", "rel_type": "CO_APPEARANCE", "dst_id": "event:festival-of-happy-martial-arts-1978", "metadata": {"role": "billed presenter — aikido instructor", "source_url": "https://www.newspapers.com/image/1223017121/"}},
+  {"src_id": "person:george-leonard", "rel_type": "CO_APPEARANCE", "dst_id": "event:festival-of-happy-martial-arts-1978", "metadata": {"role": "billed presenter — aikido instructor and author", "source_url": "https://www.newspapers.com/image/1223017121/"}},
+  {"src_id": "person:wendy-palmer", "rel_type": "CO_APPEARANCE", "dst_id": "event:festival-of-happy-martial-arts-1978", "metadata": {"role": "billed presenter — aikido and energy awareness instructor", "source_url": "https://www.newspapers.com/image/1223017121/"}},
+  {"src_id": "person:al-chung-liang-huang", "rel_type": "CO_APPEARANCE", "dst_id": "event:festival-of-happy-martial-arts-1978", "metadata": {"role": "billed presenter — tai chi/dance master", "source_url": "https://www.newspapers.com/image/1223017121/"}},
+  {"src_id": "work:npc-38997462", "rel_type": "MENTIONS", "dst_id": "person:robert-nadeau", "metadata": {"context": "'Aikido Class — Robert Nadeau, instructor in the Oriental art of Aikido' — earliest NPC mention found"}},
+  {"src_id": "work:npc-461867771", "rel_type": "MENTIONS", "dst_id": "person:robert-nadeau", "metadata": {}},
+  {"src_id": "work:npc-1223017121", "rel_type": "MENTIONS", "dst_id": "person:robert-nadeau", "metadata": {}},
+  {"src_id": "work:npc-840615951", "rel_type": "MENTIONS", "dst_id": "person:robert-nadeau", "metadata": {}},
+  {"src_id": "work:npc-1225255364", "rel_type": "MENTIONS", "dst_id": "person:richard-strozzi-heckler", "metadata": {"context": "Whole Earth Review column reviews his edited anthology 'Aikido and the New Warrior' (North Atlantic 1985)"}},
+  {"src_id": "work:npc-1100898652", "rel_type": "MENTIONS", "dst_id": "person:richard-moon-aikido", "metadata": {"context": "'Richard Moon - Aikido of Marin' in Dance Palace Friends donor list"}},
+  {"src_id": "work:npc-1100898652", "rel_type": "MENTIONS", "dst_id": "dojo:aikido-of-marin", "metadata": {}},
+  {"src_id": "work:npc-1103978619", "rel_type": "MENTIONS", "dst_id": "dojo:aikido-of-marin", "metadata": {"context": "'Noon: Aikido with Aikido of Marin' in Dance Palace class sampler"}},
+  {"src_id": "person:robert-nadeau", "rel_type": "TEACHER_STUDENT", "dst_id": "person:wendy-palmer", "metadata": {"student_started": 1971, "source_url": "https://www.facebook.com/AikiWeb/posts/10159373624383063/"}},
+  {"src_id": "person:wendy-palmer", "rel_type": "FOUNDED", "dst_id": "dojo:aikido-of-tamalpais", "metadata": {"with": ["person:george-leonard", "person:richard-strozzi-heckler"], "date": "1976", "city": "Mill Valley", "source_url": "https://www.facebook.com/AikiWeb/posts/10159373624383063/"}},
+  {"src_id": "person:george-leonard", "rel_type": "FOUNDED", "dst_id": "dojo:aikido-of-tamalpais", "metadata": {"with": ["person:wendy-palmer", "person:richard-strozzi-heckler"], "date": "1976", "source_url": "https://www.facebook.com/AikiWeb/posts/10159373624383063/"}},
+  {"src_id": "person:richard-strozzi-heckler", "rel_type": "FOUNDED", "dst_id": "dojo:aikido-of-tamalpais", "metadata": {"with": ["person:wendy-palmer", "person:george-leonard"], "date": "1976", "source_url": "https://www.facebook.com/AikiWeb/posts/10159373624383063/"}},
+  {"src_id": "person:richard-moon-aikido", "rel_type": "CO_APPEARANCE", "dst_id": "event:riviera-seminar-montreux-2025", "metadata": {"role": "panelist/instructor — 'Takemusu Aiki and Jiyuwaza' discussion", "source_url": "https://www.facebook.com/AikidoKashin/videos/1886811665397048/"}},
+  {"src_id": "person:patrick-cassidy", "rel_type": "CO_APPEARANCE", "dst_id": "event:riviera-seminar-montreux-2025", "metadata": {"role": "panelist/instructor", "source_url": "https://www.facebook.com/AikidoKashin/videos/1886811665397048/"}},
+  {"src_id": "person:daniel-messisco", "rel_type": "CO_APPEARANCE", "dst_id": "event:riviera-seminar-montreux-2025", "metadata": {"role": "panelist/instructor", "source_url": "https://www.facebook.com/AikidoKashin/videos/1886811665397048/"}},
+  {"src_id": "person:roberto-martucci", "rel_type": "CO_APPEARANCE", "dst_id": "event:riviera-seminar-montreux-2025", "metadata": {"role": "panelist/instructor", "source_url": "https://www.facebook.com/AikidoKashin/videos/1886811665397048/"}},
+  {"src_id": "event:riviera-seminar-montreux-2025", "rel_type": "LOCATED_IN", "dst_id": "place:lake-geneva", "metadata": {"context": "Montreux, Switzerland (Lake Geneva region)"}},
+  {"src_id": "claim:nadeau-director-norcal-aikido-1978", "rel_type": "ABOUT", "dst_id": "person:robert-nadeau", "metadata": {}},
+  {"src_id": "claim:palmer-nadeau-tamalpais", "rel_type": "ABOUT", "dst_id": "person:wendy-palmer", "metadata": {}},
+  {"src_id": "claim:palmer-nadeau-tamalpais", "rel_type": "ABOUT", "dst_id": "dojo:aikido-of-tamalpais", "metadata": {}}
+ ]
+}

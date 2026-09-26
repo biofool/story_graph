@@ -1,0 +1,116 @@
+{
+ "name": "nadeau_russia_seminars",
+ "description": "Migrated from scripts/29_ingest_nadeau_russia_seminars.py (now deleted).",
+ "migrated_from": "scripts/29_ingest_nadeau_russia_seminars.py",
+ "nodes": [
+  {
+   "id": "dojo:lenkai-aikido-club",
+   "type": "Dojo",
+   "label": "Lenkai Aikido Club",
+   "canonical_name": "Lenkai Aikido Club",
+   "metadata": {
+    "city": "Leningrad",
+    "country": "USSR",
+    "lineage": "aikikai",
+    "historical": true,
+    "notes": "Hosted Robert Nadeau (6th dan, USA) on Oct 27, 1990 — the day of the founding conference of the USSR Aikido Federation"
+   },
+   "source_urls": [
+    "http://www.aikiclub.ru/spb.html"
+   ]
+  },
+  {
+   "id": "person:robert-nadeau",
+   "type": "Person",
+   "label": "Robert Nadeau",
+   "canonical_name": "robert nadeau",
+   "metadata": {
+    "aliases": [],
+    "asserted_by": "kkron",
+    "extraction_source": "gemini",
+    "kg_article_body": "Robert Nadeau is an American aikido teacher holding the rank of 8th dan and master teacher in the Aikikai. He is well known as a pioneer in the energy and awareness aspects of aikido, having dedicated his life's work to understanding and translating these principles handed down by Ueshiba into fields beyond aikido, including psychotherapy, personal development.",
+    "kg_description": "American teacher",
+    "kg_enriched": true,
+    "kg_id": "kg:/m/06g6xb",
+    "russia_seminars": [
+     {
+      "date": "1990-10-27",
+      "city": "Leningrad (St. Petersburg)",
+      "venue": "Lenkai club",
+      "event": "Founding conference of USSR Aikido Federation",
+      "rank_at_time": "6th dan",
+      "source": "http://www.aikiclub.ru/spb.html",
+      "source_type": "independent",
+      "source_author": "V. Matveev, Moscow Aiki Club",
+      "quote": "On October 27, 1990, the day of the founding conference of the USSR Aikido Federation, Robert NADO (6th dan, USA) conducted a training at the Lenkai club"
+     }
+    ],
+    "taught_in_russia": true,
+    "russia_seminar_independently_confirmed": true
+   },
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html",
+    "https://ai-ki-do.org/robert-nadeau",
+    "https://aikido.org.nz/nadeauworkshop/",
+    "https://aikidojournal.com/2002/11/28/interview-with-robert-nadeau/",
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/",
+    "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)",
+    "https://www.nadeaushihan.com/",
+    "kkron://personal-communication/kufferath-nadeau-bunch"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "person:robert-nadeau",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "dojo:lenkai-aikido-club",
+   "metadata": {
+    "source": "aikiclub.ru",
+    "source_url": "http://www.aikiclub.ru/spb.html",
+    "context": "Guest training at Lenkai club on Oct 27, 1990 — founding conference of USSR Aikido Federation",
+    "date": "1990-10-27",
+    "rank_at_time": "6th dan",
+    "city": "Leningrad",
+    "country": "USSR",
+    "independent_source": true,
+    "quote_ru": "27 октября 1990 года, в день проведения Учредительной конференции Федерации Айкидо СССР, в клубе \"Ленкай\" провел тренировку Роберт НАДО ( 6-й Дан, США )"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:9c12646dacf2facd",
+   "url": "http://www.aikiclub.ru/spb.html",
+   "title": "Развитие Айкидо в Санкт-Петербурге (Development of Aikido in St. Petersburg) — Moscow Aiki Club",
+   "author": null,
+   "publish_date": null,
+   "platform": "aikiclub.ru",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:da32c6d3b2f78801",
+   "url": "https://www.bujutsu.ru/aikido/",
+   "title": "Айкидо — Федерация Боевых Искусств России (Aikido — Federal Alliance of Bujutsu Russia)",
+   "author": null,
+   "publish_date": null,
+   "platform": "bujutsu.ru",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:5aa77b8944608532",
+   "url": "https://rebenok-na-aikido.ru/",
+   "title": "История Айкидо в Казани — Детская школа Айкидо (History of Aikido in Kazan — Children's Aikido School)",
+   "author": null,
+   "publish_date": null,
+   "platform": "rebenok-na-aikido.ru",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  }
+ ]
+}

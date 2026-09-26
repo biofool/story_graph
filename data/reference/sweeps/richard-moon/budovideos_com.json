@@ -1,0 +1,10 @@
+{
+ "subject": "richard moon",
+ "query": "richard moon",
+ "domain": "budovideos.com",
+ "tier": "MID_TIER",
+ "collection_type": "web_search_fallback",
+ "pending_queries": [
+  "site:budovideos.com \"richard moon\""
+ ]
+}

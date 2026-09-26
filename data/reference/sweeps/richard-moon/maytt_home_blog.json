@@ -1,0 +1,51 @@
+{
+ "subject": "richard moon",
+ "query": "richard moon",
+ "domain": "maytt.home.blog",
+ "tier": "MARGINAL",
+ "collection_type": "wordpress_search",
+ "pages_fetched": 1,
+ "results": [
+  {
+   "url": "https://maytt.home.blog/2021/02/17/interview-with-californian-aikidoka-robert-noha-aikidos-spiritual-aspect/",
+   "title": "Interview with Californian Aikidoka Robert Noha: Aikido\u2019s Spiritual\u00a0Aspect",
+   "in_graph": true
+  },
+  {
+   "url": "https://maytt.home.blog/2024/05/15/interview-with-longtime-aikidoka-corky-quakenbush-intention-performance-and-takemusu-aiki-part-i/",
+   "title": "Interview with Longtime Aikidoka Corky Quakenbush: Intention, Performance, and Takemusu Aiki, Part\u00a0I",
+   "in_graph": false
+  },
+  {
+   "url": "https://maytt.home.blog/2025/07/29/interview-with-aikido-authors-bob-noha-and-laurin-herr-robert-nadeau-and-the-art-of-transformation-part-ii/",
+   "title": "Interview with Aikido Authors Bob Noha and Laurin Herr: Robert Nadeau and the Art of Transformation, Part\u00a0II",
+   "in_graph": false
+  },
+  {
+   "url": "https://maytt.home.blog/2026/09/10/interview-with-historical-fencer-connor-wood-between-hema-and-the-sca-part-i/",
+   "title": "Interview with Historical Fencer Connor Wood: Between HEMA and the SCA Part\u00a0I",
+   "in_graph": false
+  },
+  {
+   "url": "https://maytt.home.blog/2026/09/11/interview-with-historical-fencer-connor-wood-between-hema-and-the-sca-part-ii/",
+   "title": "Interview with Historical Fencer Connor Wood: Between HEMA and the SCA Part\u00a0II",
+   "in_graph": false
+  },
+  {
+   "url": "https://maytt.home.blog/2026/09/14/interview-with-american-aikido-institute-founder-garry-howard-growing-with-haruo-matsuoka-part-i/",
+   "title": "Interview with American Aikido Institute Founder Garry Howard: Growing with Haruo Matsuoka Part\u00a0I",
+   "in_graph": false
+  },
+  {
+   "url": "https://maytt.home.blog/2026/09/15/interview-with-american-aikido-institute-founder-garry-howard-growing-with-haruo-matsuoka-part-ii/",
+   "title": "Interview with American Aikido Institute Founder Garry Howard: Growing with Haruo Matsuoka Part\u00a0II",
+   "in_graph": false
+  },
+  {
+   "url": "https://maytt.home.blog/2026/09/24/hand-to-hand-combat-training-in-krasnodar-russia-with-a-a-kadochnikov-by-michael-martin/",
+   "title": "Hand-to-Hand Combat Training in Krasnodar, Russia with A.A. Kadochnikov by Michael\u00a0Martin",
+   "in_graph": false
+  }
+ ],
+ "new_urls": 7
+}

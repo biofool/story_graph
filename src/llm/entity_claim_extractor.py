@@ -207,9 +207,7 @@ class GeminiExtractor:
             f"SOURCE TEXT:\n{text[:20000]}"
         )
         try:
-            # TieredGeminiClient.generate_json accepts allow_paid;
-            # plain GeminiClient.generate_json does not.
-            if hasattr(self._client, "stats"):
+            if getattr(self._client, "supports_paid_fallback", False):
                 data = self._client.generate_json(
                     prompt,
                     EXTRACTION_SCHEMA,
@@ -285,20 +283,27 @@ class GeminiClaimExtractor:
     def _verify(self, claims: list[dict], source_text: str) -> None:
         """Annotate each claim with a Jev verdict (in place).
 
-        Bounded supported/contradicted/unresolved choice per claim. On any
-        failure the claim gets ``jev_verdict: "unverified"`` — verification
-        is observational, never destructive.
+        Bounded supported/contradicted/unresolved choice per claim, sent
+        as one batched decision per page when the page fits the state
+        window. On any failure the claim gets ``jev_verdict`` —
+        ``"unavailable"`` when no Jev key is configured, ``"unverified"``
+        when the call ran but returned no usable answer — so an absent
+        field unambiguously means verification was not enabled.
+        Verification is observational, never destructive.
         """
-        from src.llm.jev_client import JevClient, verify_claim
+        from src.llm.jev_client import JevClient, verify_claims
         client = self._jev_client or JevClient()
         if not client.is_available():
             _log.warning("Jev claim verification enabled but unavailable.")
+            for claim in claims:
+                claim["jev_verdict"] = "unavailable"
             return
-        for claim in claims:
-            try:
-                verdict = verify_claim(claim.get("claim_text", ""), source_text, client)
-            except Exception:  # noqa: BLE001 — annotate, never crash extraction
-                verdict = None
+        texts = [claim.get("claim_text", "") for claim in claims]
+        try:
+            verdicts = verify_claims(texts, source_text, client)
+        except Exception:  # noqa: BLE001 — annotate, never crash extraction
+            verdicts = [None] * len(claims)
+        for claim, verdict in zip(claims, verdicts):
             if verdict:
                 claim.update(verdict)
             else:

@@ -175,6 +175,29 @@ class TestEnabledApproved:
         assert len(cm.calls["declare_intent"]) == 1
         assert cm.calls["declare_intent"][0]["job_id"] == "job-1"
         assert cm.calls["declare_intent"][0]["expected_calls"] == 10
+        assert tracker.paid_fallback_approved is False
+
+    def test_vertex_intent_marks_paid_fallback_approved(self):
+        cm = _FakeCMClient(
+            enabled=True,
+            intent_response=_IntentResponse(intent_id="vertex-123", approved=True),
+        )
+        tracker = GeminiCostTracker(cloud_management=cm, enabled=True)
+        tracker.declare_intent_for_run(
+            job_id="job-vertex", expected_calls=2, expected_cost_usd=0.02,
+            expected_tokens=4000, model="gemini-2.5-flash",
+            provider="vertex_ai", api="generate_content",
+            metadata={
+                "model": "gemini-2.5-flash",
+                "location": "us-central1",
+                "fallback_reason": "ai_studio_quota_exhausted",
+            },
+        )
+        assert tracker.paid_fallback_approved is True
+        declaration = cm.calls["declare_intent"][0]
+        assert declaration["provider"] == "vertex_ai"
+        assert declaration["api"] == "generate_content"
+        assert declaration["expected_tokens"] == 4000
 
     def test_report_call_increments_and_reports_to_hub(self):
         cm = _FakeCMClient(enabled=True)
@@ -430,3 +453,46 @@ class TestTieredGeminiClientReporting:
         stats = client.stats
         assert "total_cost_usd" not in stats
         assert "cost_tracker_enabled" not in stats
+
+    def test_vertex_fallback_requires_approved_intent(self):
+        from src.llm.gemini_client import GeminiError, TieredGeminiClient
+
+        client = TieredGeminiClient(
+            free_tier_keys=[],
+            vertexai_enabled=True,
+            cost_tracker=None,
+        )
+        with pytest.raises(GeminiError, match="approved CloudManagement intent"):
+            client.generate_content("test", allow_paid=True)
+
+    def test_vertex_fallback_runs_after_approved_intent(self):
+        from src.llm.gemini_client import TieredGeminiClient
+
+        tracker = MagicMock()
+        tracker.paid_fallback_approved = True
+        tracker.total_cost_usd = 0.0
+        client = TieredGeminiClient(
+            free_tier_keys=[],
+            vertexai_enabled=True,
+            cost_tracker=tracker,
+        )
+
+        class _Response:
+            text = "vertex response"
+
+        class _Models:
+            def generate_content(self, *, model, contents, config):
+                assert model == "gemini-2.5-flash"
+                assert contents == "test"
+                return _Response()
+
+        class _VertexClient:
+            models = _Models()
+
+        client._vertexai_client = _VertexClient()
+        result = client.generate_content("test", allow_paid=True)
+        assert result.text == "vertex response"
+        assert client.paid_calls == 1
+        tracker.report_call.assert_called_once_with(
+            tier="paid", model="gemini-2.5-flash", cost_usd=0.01,
+        )

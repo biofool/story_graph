@@ -1,0 +1,102 @@
+{
+ "name": "ralston_bibliography_identifiers",
+ "description": "Publisher + ISBN identifiers for Peter Ralston's principal books (issue #74 — Selected Works reader/purchase info). Verified against Open Library editions (keys already on the book:* nodes) and, for The Art of Mastery, the Inner Traditions/Park Street Press catalog page. ISBN-13 cited is the print edition. Pursuing Consciousness also has a 2025 Lammastide reprint (979-8-9876200-5-2) recorded in metadata.",
+ "nodes": [
+  {
+   "id": "book:cheng-hsin",
+   "type": "Work",
+   "metadata": {
+    "full_title": "Cheng Hsin: The Principles of Effortless Power",
+    "publisher": "North Atlantic Books",
+    "publish_year": 1989,
+    "isbn13": "9781556430480",
+    "isbn10": "1556430485"
+   },
+   "label": "Cheng Hsin"
+  },
+  {
+   "id": "book:reflections-of-being",
+   "type": "Work",
+   "metadata": {
+    "full_title": "Reflections of Being",
+    "publisher": "North Atlantic Books",
+    "publish_year": 1991,
+    "isbn13": "9781556431197",
+    "isbn10": "1556431198"
+   },
+   "label": "Reflections of Being"
+  },
+  {
+   "id": "book:ancient-wisdom-new-spirit",
+   "type": "Work",
+   "metadata": {
+    "full_title": "Ancient Wisdom, New Spirit",
+    "publisher": "Frog (distributed by North Atlantic Books)",
+    "publish_year": 1994,
+    "isbn13": "9781883319212",
+    "isbn10": "1883319218"
+   },
+   "label": "Ancient Wisdom, New Spirit"
+  },
+  {
+   "id": "book:zen-body-being",
+   "type": "Work",
+   "metadata": {
+    "full_title": "Zen Body-Being: An Enlightened Approach to Physical Skill, Grace, and Power",
+    "publisher": "Frog, Ltd.",
+    "publish_year": 2006,
+    "isbn13": "9781583941591",
+    "isbn10": "1583941592"
+   },
+   "label": "Zen Body-Being"
+  },
+  {
+   "id": "book:the-book-of-not-knowing",
+   "type": "Work",
+   "metadata": {
+    "full_title": "The Book of Not Knowing",
+    "publisher": "North Atlantic Books",
+    "publish_year": 2010,
+    "isbn13": "9781556438578",
+    "isbn10": "1556438575"
+   },
+   "label": "The Book of Not Knowing"
+  },
+  {
+   "id": "book:pursuing-consciousness",
+   "type": "Work",
+   "metadata": {
+    "full_title": "Pursuing Consciousness",
+    "publisher": "North Atlantic Books",
+    "publish_year": 2015,
+    "isbn13": "9781583948729",
+    "reprint": "Lammastide 2025, ISBN 9798987620052"
+   },
+   "label": "Pursuing Consciousness"
+  },
+  {
+   "id": "book:genius-of-being",
+   "type": "Work",
+   "metadata": {
+    "full_title": "The Genius of Being",
+    "publisher": "North Atlantic Books",
+    "publish_year": 2017,
+    "isbn13": "9781623171124"
+   },
+   "label": "Genius of Being"
+  },
+  {
+   "id": "book:art-of-mastery",
+   "type": "Work",
+   "metadata": {
+    "full_title": "The Art of Mastery: Principles of Effective Interaction",
+    "publisher": "Park Street Press (Inner Traditions)",
+    "publish_year": 2023,
+    "isbn13": "9781644116432",
+    "isbn10": "164411643X",
+    "ebook_isbn13": "9781644116449"
+   },
+   "label": "Art of Mastery"
+  }
+ ]
+}

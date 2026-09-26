@@ -1,0 +1,714 @@
+{
+ "name": "academia_peacebuilding_bundle",
+ "description": "Migrated from scripts/56_ingest_academia_peacebuilding_bundle.py (now deleted).",
+ "migrated_from": "scripts/56_ingest_academia_peacebuilding_bundle.py",
+ "nodes": [
+  {
+   "id": "claim:kkron:26412d9781ccb0ec",
+   "type": "Claim",
+   "label": "kkron reports (2026-08-25) that a 2008 case study records Chris Thorsen as hired by the Cyprus Consortium in 1995 under the title 'Aikido'. OPEN LEAD: the case study has not been located — searches fo",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "kkron reports (2026-08-25) that a 2008 case study records Chris Thorsen as hired by the Cyprus Consortium in 1995 under the title 'Aikido'. OPEN LEAD: the case study has not been located — searches for a 2008 Cyprus bicommunal case study naming Thorsen or an Aikido training returned nothing, so this records what kkron reports the study says, and carries no source_url until the document is in hand. It also sits in tension with Thorsen's own bio ('late nineties', five years, so roughly 1996-2001); both dates are stored as stated.",
+    "claim_type": "biographical",
+    "confidence": 0.4,
+    "evidence_mode": "first_person",
+    "open_lead": false,
+    "pending_independent_corroboration": true,
+    "raw_kkron_confidence": 0.4,
+    "resolution_note": "Document located in Academia.edu bundle: Hadjipavlou & Kanol (2008), CDA Reflecting on Peace Practice. Timeline p.63 entry for 1995 reads 'Aikido, Chris Thorsen, hired by Cyprus Consortium' — kkron's recollection corroborated.",
+    "resolved": true,
+    "resolved_at": "2026-09-23T23:33:28.998154+00:00",
+    "resolved_by": "work:academia:impacts-peacebuilding-cyprus-2008",
+    "stance": "neutral"
+   },
+   "source_urls": [
+    "kkron://personal-communication"
+   ]
+  },
+  {
+   "id": "work:academia:beyond-borders-understanding-the-differe",
+   "type": "Work",
+   "label": "Beyond_Borders_Understanding_the_Differe.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Beyond_Borders_Understanding_the_Differe.pdf",
+    "sha1": "b2dac8fa5dc29d67d91b07af1cc8f3a9a47a2669",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Beyond_Borders_Understanding_the_Differe.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:book-review-resolving-cyprus-new-approac",
+   "type": "Work",
+   "label": "Book_review_resolving_Cyprus_new_approac.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Book_review_resolving_Cyprus_new_approac.pdf",
+    "sha1": "dda6bf5f13b33b320343d8f3e10aeb4c1808b08c",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Book_review_resolving_Cyprus_new_approac.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:civil-society-active-dialogue-networks-i",
+   "type": "Work",
+   "label": "CIVIL_SOCIETY_ACTIVE_DIALOGUE_NETWORKS_I.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/CIVIL_SOCIETY_ACTIVE_DIALOGUE_NETWORKS_I.pdf",
+    "sha1": "897d21e41af2b29c64d75adcc60e593d6c695e44",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/CIVIL_SOCIETY_ACTIVE_DIALOGUE_NETWORKS_I.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:civil-society-can-reinvigorate-the-peace",
+   "type": "Work",
+   "label": "Civil_Society_Can_Reinvigorate_the_Peace.docx",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Civil_Society_Can_Reinvigorate_the_Peace.docx",
+    "sha1": "030e1f5f8de4e84303e4e803b6cb2f611730e1fa",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Civil_Society_Can_Reinvigorate_the_Peace.txt",
+    "work_type": "docx"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:conflict-alienation-and-the-hope-of-peac",
+   "type": "Work",
+   "label": "Conflict_Alienation_and_the_Hope_of_Peac.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Conflict_Alienation_and_the_Hope_of_Peac.pdf",
+    "sha1": "6cfb04717ff6c73d828c11cc2ea52436ad4232bd",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Conflict_Alienation_and_the_Hope_of_Peac.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:conflict-ending-strategies-in-cyprus",
+   "type": "Work",
+   "label": "Conflict_Ending_Strategies_in_Cyprus.doc",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Conflict_Ending_Strategies_in_Cyprus.doc",
+    "sha1": "efba6b3f816fb0035136f313f3077956d757ee83",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Conflict_Ending_Strategies_in_Cyprus.txt",
+    "work_type": "doc"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:cyprus-reunification-is-long-overdue-the",
+   "type": "Work",
+   "label": "Cyprus_Reunification_Is_Long_Overdue_The.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Cyprus_Reunification_Is_Long_Overdue_The.pdf",
+    "sha1": "0df1c25682cd8785dd0a5105d6d2f89823aa65aa",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Cyprus_Reunification_Is_Long_Overdue_The.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:cyprus-understanding-conflict-2009-stude",
+   "type": "Work",
+   "label": "Cyprus_Understanding_Conflict_2009_Stude.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Cyprus_Understanding_Conflict_2009_Stude.pdf",
+    "sha1": "30879717297046b5b3ab3aca334413e643c021c6",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Cyprus_Understanding_Conflict_2009_Stude.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:enhancing-civil-society-s-role-in-confli",
+   "type": "Work",
+   "label": "Enhancing_Civil_Society_s_Role_in_Confli.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Enhancing_Civil_Society_s_Role_in_Confli.pdf",
+    "sha1": "62ff95cfe81a9d8b87a8a44455e7f9af2b62a0a3",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Enhancing_Civil_Society_s_Role_in_Confli.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:escalating-for-peace-in-cyprus-roads-to",
+   "type": "Work",
+   "label": "Escalating_for_Peace_in_Cyprus_Roads_to.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Escalating_for_Peace_in_Cyprus_Roads_to.pdf",
+    "sha1": "0425fb2317e08e46c5bc65b55c85cea64e2399d8",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Escalating_for_Peace_in_Cyprus_Roads_to.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:evolution-of-the-missions-and-management",
+   "type": "Work",
+   "label": "Evolution_of_the_Missions_and_Management.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "more_papers_by_bulent_kanol",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/more_papers_by_bulent_kanol/Evolution_of_the_Missions_and_Management.pdf",
+    "sha1": "0785c8a4469145f7117659c165e1e392c4ecfd9a",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/more_papers_by_bulent_kanol/Evolution_of_the_Missions_and_Management.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:from-practical-approaches-to-peacebuildi",
+   "type": "Work",
+   "label": "FROM_Practical_Approaches_to_Peacebuildi.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/FROM_Practical_Approaches_to_Peacebuildi.pdf",
+    "sha1": "e48c8df906ccd556d4acfde88202f0b852e747e6",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/FROM_Practical_Approaches_to_Peacebuildi.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:impacts-peacebuilding-cyprus-2008",
+   "type": "Work",
+   "label": "The Impacts of Peacebuilding Work on the Cyprus Conflict",
+   "canonical_name": null,
+   "metadata": {
+    "authors": [
+     "Maria Hadjipavlou",
+     "Bulent Kanol"
+    ],
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "date": "2008-02",
+    "folder": null,
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "key_evidence": "p.63 timeline: 'Aikido, Chris Thorsen, hired by Cyprus Consortium' (1995)",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/The_Impacts_of_Peacebuilding_Work_on_the.pdf",
+    "publisher": "CDA Collaborative Learning Projects — Reflecting on Peace Practice",
+    "sha1": "6f07a098312518a2a4f371c91699d0de6061d1e1",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/The_Impacts_of_Peacebuilding_Work_on_the.txt",
+    "title": "The Impacts of Peacebuilding Work on the Cyprus Conflict",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:ma-thesis-second-track-diplomacy-efforts",
+   "type": "Work",
+   "label": "MA_Thesis_Second_Track_Diplomacy_Efforts.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/MA_Thesis_Second_Track_Diplomacy_Efforts.pdf",
+    "sha1": "9ed7dca1b36f2c12feaba403c4d74b7b12455ac2",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/MA_Thesis_Second_Track_Diplomacy_Efforts.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:multiparty-mediation-in-cyprus-1963-1965",
+   "type": "Work",
+   "label": "Multiparty_Mediation_in_Cyprus_1963_1965.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Multiparty_Mediation_in_Cyprus_1963_1965.pdf",
+    "sha1": "9d2a7d650f6cbf773a56061ff816780e8bbe39d0",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Multiparty_Mediation_in_Cyprus_1963_1965.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:organizational-change-and-culture-in-uni",
+   "type": "Work",
+   "label": "Organizational_Change_and_Culture_in_Uni.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "more_papers_by_bulent_kanol",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/more_papers_by_bulent_kanol/Organizational_Change_and_Culture_in_Uni.pdf",
+    "sha1": "dd6f27b28e691504dfeb5d32328571eb727fa19e",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/more_papers_by_bulent_kanol/Organizational_Change_and_Culture_in_Uni.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:peace-education-in-north-cyprus-a-phenom",
+   "type": "Work",
+   "label": "Peace_Education_in_North_Cyprus_A_Phenom.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Peace_Education_in_North_Cyprus_A_Phenom.pdf",
+    "sha1": "532752cf713ec09bc539ef353be91d325e9ecc7e",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Peace_Education_in_North_Cyprus_A_Phenom.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:peacebuilding-at-a-crossroads-dilemmas-a",
+   "type": "Work",
+   "label": "Peacebuilding_at_a_Crossroads_Dilemmas_a.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Peacebuilding_at_a_Crossroads_Dilemmas_a.pdf",
+    "sha1": "650af7643399dc7f4caf2743a4788209a043de9b",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Peacebuilding_at_a_Crossroads_Dilemmas_a.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:peacebuilding-interventions-re-examined",
+   "type": "Work",
+   "label": "Peacebuilding_Interventions_Re_Examined.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Peacebuilding_Interventions_Re_Examined.pdf",
+    "sha1": "1057ee9da3c09f165110329fc244addb5af08c6e",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Peacebuilding_Interventions_Re_Examined.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:peacebuilding-made-simple",
+   "type": "Work",
+   "label": "Peacebuilding_Made_Simple.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Peacebuilding_Made_Simple.pdf",
+    "sha1": "ce725f341bbff2f15673ce2181ba5a284b35318f",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Peacebuilding_Made_Simple.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:post-conflict-peacebuilding-revisited-ac",
+   "type": "Work",
+   "label": "POST_CONFLICT_PEACEBUILDING_REVISITED_AC.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/POST_CONFLICT_PEACEBUILDING_REVISITED_AC.pdf",
+    "sha1": "d8d30a03ef6137f9684df491540466b7567b1647",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/POST_CONFLICT_PEACEBUILDING_REVISITED_AC.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:pre-conditions-for-peace-a-civil-society",
+   "type": "Work",
+   "label": "Pre_Conditions_for_Peace_A_Civil_Society.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Pre_Conditions_for_Peace_A_Civil_Society.pdf",
+    "sha1": "a856cb10d256c55fd0c6efafa68e9ccd0fe596eb",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Pre_Conditions_for_Peace_A_Civil_Society.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:re-making-and-undoing-of-peace-conflict",
+   "type": "Work",
+   "label": "Re_Making_and_Undoing_of_Peace_Conflict.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Re_Making_and_Undoing_of_Peace_Conflict.pdf",
+    "sha1": "bb91da01f408c5714d364b7a19d29fa20affc50f",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Re_Making_and_Undoing_of_Peace_Conflict.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:reconciliation-and-peace-economics-in-cy",
+   "type": "Work",
+   "label": "Reconciliation_and_Peace_Economics_in_Cy.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Reconciliation_and_Peace_Economics_in_Cy.pdf",
+    "sha1": "89179d0b57f7cb203063747c4e7e460742a8f021",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Reconciliation_and_Peace_Economics_in_Cy.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:rethinking-the-cyprus-problem-are-frame",
+   "type": "Work",
+   "label": "Rethinking_the_Cyprus_Problem_Are_Frame.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Rethinking_the_Cyprus_Problem_Are_Frame.pdf",
+    "sha1": "8c7254c0d57178124c682e0ca6c32d529e2f93f4",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Rethinking_the_Cyprus_Problem_Are_Frame.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:review-rethinking-peacebuilding",
+   "type": "Work",
+   "label": "Review_Rethinking_Peacebuilding.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Review_Rethinking_Peacebuilding.pdf",
+    "sha1": "f4d876a50a0f138ac39666e7f687914f41c6ff4b",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Review_Rethinking_Peacebuilding.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:roadblocks-to-peacebuilding",
+   "type": "Work",
+   "label": "Roadblocks_to_Peacebuilding.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "more_papers_by_bulent_kanol",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/more_papers_by_bulent_kanol/Roadblocks_to_Peacebuilding.pdf",
+    "sha1": "2c1ff60cf65ee215d51319fe17e25b9a2678cf58",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/more_papers_by_bulent_kanol/Roadblocks_to_Peacebuilding.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:roadblocks-to-peacebuilding-in-cyprus-in",
+   "type": "Work",
+   "label": "Roadblocks_to_Peacebuilding_in_Cyprus_In.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "more_papers_by_bulent_kanol",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/more_papers_by_bulent_kanol/Roadblocks_to_Peacebuilding_in_Cyprus_In.pdf",
+    "sha1": "2d5f6a790cce1d939f10bf9638d0ead4339b0ead",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/more_papers_by_bulent_kanol/Roadblocks_to_Peacebuilding_in_Cyprus_In.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:sustainable-tourism-development-in-north",
+   "type": "Work",
+   "label": "Sustainable_Tourism_Development_in_North.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "more_papers_by_bulent_kanol",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/more_papers_by_bulent_kanol/Sustainable_Tourism_Development_in_North.pdf",
+    "sha1": "050a23e2c7c8d5d93ff4a6d4ab114b14ad3dd173",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/more_papers_by_bulent_kanol/Sustainable_Tourism_Development_in_North.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:the-cyprus-conflict-in-a-comparative-per",
+   "type": "Work",
+   "label": "The_Cyprus_conflict_in_a_comparative_per.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/The_Cyprus_conflict_in_a_comparative_per.pdf",
+    "sha1": "d3808ed22924bff3631b533f6ec27da6ac3240f1",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/The_Cyprus_conflict_in_a_comparative_per.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:the-cyprus-peace-talks-a-critical-apprai",
+   "type": "Work",
+   "label": "The_Cyprus_Peace_Talks_A_Critical_Apprai.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/The_Cyprus_Peace_Talks_A_Critical_Apprai.pdf",
+    "sha1": "4d0a807057b2b7d612be0d4aa645b2018dd4172b",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/The_Cyprus_Peace_Talks_A_Critical_Apprai.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:the-cyprus-problem-in-an-era-of-uncertai",
+   "type": "Work",
+   "label": "The_Cyprus_Problem_in_an_Era_of_Uncertai.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/The_Cyprus_Problem_in_an_Era_of_Uncertai.pdf",
+    "sha1": "e35526a5b32378922f4d22633a4b6be80fff3636",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/The_Cyprus_Problem_in_an_Era_of_Uncertai.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:the-cyprus-problem-the-assessment-of-the",
+   "type": "Work",
+   "label": "The_Cyprus_Problem_the_assessment_of_the.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/The_Cyprus_Problem_the_assessment_of_the.pdf",
+    "sha1": "09da54a49771b021f961651b36396b08ebbc316f",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/The_Cyprus_Problem_the_assessment_of_the.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:the-dilemmas-of-conflict-resolution-a-co",
+   "type": "Work",
+   "label": "The_dilemmas_of_conflict_resolution_a_co.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/The_dilemmas_of_conflict_resolution_a_co.pdf",
+    "sha1": "4227b77527265609e053e2c5a19d6ce0c62acec6",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/The_dilemmas_of_conflict_resolution_a_co.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:the-future-of-the-tourism-industry-in-cy",
+   "type": "Work",
+   "label": "THE_FUTURE_OF_THE_TOURISM_INDUSTRY_IN_CY.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "more_papers_by_bulent_kanol",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/more_papers_by_bulent_kanol/THE_FUTURE_OF_THE_TOURISM_INDUSTRY_IN_CY.pdf",
+    "sha1": "89ab24634505fb4f38881639a945704912c89989",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/more_papers_by_bulent_kanol/THE_FUTURE_OF_THE_TOURISM_INDUSTRY_IN_CY.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:the-shifting-sands-of-relational-peace-i",
+   "type": "Work",
+   "label": "The_shifting_sands_of_relational_peace_i.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/The_shifting_sands_of_relational_peace_i.pdf",
+    "sha1": "ff7465d2155e3a0e946eb73c1155125d2a51f0d6",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/The_shifting_sands_of_relational_peace_i.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:varieties-of-mediating-activities-and-th",
+   "type": "Work",
+   "label": "Varieties_of_Mediating_Activities_and_Th.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Varieties_of_Mediating_Activities_and_Th.pdf",
+    "sha1": "0184e9ef641872d665aecbd9770f3cdef13ff6ed",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/Varieties_of_Mediating_Activities_and_Th.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "work:academia:what-kind-of-peace-is-being-built-taking",
+   "type": "Work",
+   "label": "What_Kind_of_Peace_is_Being_Built_Taking.pdf",
+   "canonical_name": null,
+   "metadata": {
+    "bundle": "Academia.edu — Impacts of Peacebuilding Work (Cyprus)",
+    "folder": "most_similar_papers_to_this_one",
+    "ingested_at": "2026-09-23T23:33:28.998154+00:00",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/What_Kind_of_Peace_is_Being_Built_Taking.pdf",
+    "sha1": "2bd3679d8e1cf79e9fa01de5995d7b7546c6ce2b",
+    "text_archive": "data/reference/cyprus/academia_peacebuilding_bundle/most_similar_papers_to_this_one/What_Kind_of_Peace_is_Being_Built_Taking.txt",
+    "work_type": "pdf"
+   },
+   "source_urls": []
+  },
+  {
+   "id": "claim:citation:hadjipavlou-kanol-2008-aikido-thorsen",
+   "type": "Claim",
+   "label": "Hadjipavlou & Kanol (2008) timeline records for 1995: 'Aikido, Chris Thorsen, hired by Cyprus Consortium'",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "The Impacts of Peacebuilding Work on the Cyprus Conflict (CDA Reflecting on Peace Practice, Feb 2008), bicommunal-activities timeline p.63, entry for 1995: 'Aikido, Chris Thorsen, hired by Cyprus Consortium'.",
+    "claim_type": "biographical",
+    "stance": "asserting",
+    "confidence": 1.0,
+    "evidence_mode": "archival_clipping",
+    "local_archive": "data/reference/cyprus/academia_peacebuilding_bundle/The_Impacts_of_Peacebuilding_Work_on_the.pdf",
+    "source_url": null
+   },
+   "source_urls": []
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "work:academia:impacts-peacebuilding-cyprus-2008",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:christopher-thorsen",
+   "metadata": {
+    "source": "text grep of extracted PDF"
+   }
+  },
+  {
+   "src_id": "work:academia:impacts-peacebuilding-cyprus-2008",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:cyprus-consortium",
+   "metadata": {
+    "source": "text grep of extracted PDF"
+   }
+  },
+  {
+   "src_id": "work:academia:impacts-peacebuilding-cyprus-2008",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:cyprus-fulbright-commission",
+   "metadata": {
+    "source": "text grep of extracted PDF"
+   }
+  },
+  {
+   "src_id": "work:academia:impacts-peacebuilding-cyprus-2008",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:louise-diamond",
+   "metadata": {
+    "source": "text grep of extracted PDF"
+   }
+  },
+  {
+   "src_id": "claim:citation:hadjipavlou-kanol-2008-aikido-thorsen",
+   "rel_type": "ABOUT",
+   "dst_id": "person:christopher-thorsen",
+   "metadata": {}
+  },
+  {
+   "src_id": "claim:citation:hadjipavlou-kanol-2008-aikido-thorsen",
+   "rel_type": "ABOUT",
+   "dst_id": "group:cyprus-consortium",
+   "metadata": {}
+  },
+  {
+   "src_id": "claim:citation:hadjipavlou-kanol-2008-aikido-thorsen",
+   "rel_type": "SUPPORTED_BY",
+   "dst_id": "work:academia:impacts-peacebuilding-cyprus-2008",
+   "metadata": {}
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+  "description": "Deep-pass batch 2: Nadeau+Frager Esalen events (1970-71), Mayfield Mall aikido demo (Sep 1968), Nadeau FIU Miami workshop (1999), Nadeau 6th-dan Aikido of Idaho seminar (Oct 1992), Pacifica Tribune Bendigkeit profiles (2001/2002)",
+  "sources": [
+    {
+      "id": "src:npc-460368716",
+      "url": "https://www.newspapers.com/image/460368716/",
+      "title": "San Francisco Examiner — 'ESALEN INSTITUTE — Lecture, film and demonstration with Robert Frager and Robert Nadeau on Aikido: A Way of Mind-Body Harmony' (Sep 20, 1970, p.151)",
+      "author": "San Francisco Examiner",
+      "publish_date": "1970-09-20",
+      "platform": "newspapers.com",
+      "source_class": "archival",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:npc-840158912",
+      "url": "https://www.newspapers.com/image/840158912/",
+      "title": "Peninsula Times Tribune — ad for 'AIKIDO: Way of Mind-Body Harmony, lecture and demonstration by Robert Frager black belt, Robert Nadeau', Wed Sept 23, $3/$2 (Sep 23, 1970, p.43)",
+      "author": "Peninsula Times Tribune",
+      "publish_date": "1970-09-23",
+      "platform": "newspapers.com",
+      "source_class": "documentary_promotional",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:npc-840104711",
+      "url": "https://www.newspapers.com/image/840104711/",
+      "title": "Peninsula Times Tribune — lecture series listing: Mar 5 'MIND-BODY HARMONY; ENERGY AWARENESS; AIKIDO — Robert Frager, Ph.D.; Robert Nadeau' (Feb 26, 1971, p.12)",
+      "author": "Peninsula Times Tribune",
+      "publish_date": "1971-02-26",
+      "platform": "newspapers.com",
+      "source_class": "archival",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:npc-839885757",
+      "url": "https://www.newspapers.com/image/839885757/",
+      "title": "Peninsula Times Tribune — Mayfield Mall Saturday program: 'Aikido / Robert Nadeau / 1:30-2:30 P.M.' (Sep 20, 1968, p.16)",
+      "author": "Peninsula Times Tribune",
+      "publish_date": "1968-09-20",
+      "platform": "newspapers.com",
+      "source_class": "archival",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:npc-842687946",
+      "url": "https://www.newspapers.com/image/842687946/",
+      "title": "Redwood City Tribune — same Mayfield Mall program, 'Aikido / Robert Nadeau / 1:30-2:30 P.M.' (Sep 20, 1968, p.3)",
+      "author": "Redwood City Tribune",
+      "publish_date": "1968-09-20",
+      "platform": "newspapers.com",
+      "source_class": "archival",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:npc-238942076",
+      "url": "https://www.newspapers.com/image/238942076/",
+      "title": "South Florida Sun Sentinel — 'Energy workshop ... by aikido master Robert Nadeau, 10 a.m. to 4 p.m. Sept. 19 at Florida International University' Miami (Sep 11, 1999, p.75)",
+      "author": "South Florida Sun Sentinel",
+      "publish_date": "1999-09-11",
+      "platform": "newspapers.com",
+      "source_class": "archival",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:npc-915930505",
+      "url": "https://www.newspapers.com/image/915930505/",
+      "title": "The Idaho Statesman — 'Aikido of Idaho ... A special workshop with Robert Nadeau Sensei (6th Dan)' Oct 9-11, Boise (Oct 8, 1992, p.35)",
+      "author": "The Idaho Statesman",
+      "publish_date": "1992-10-08",
+      "platform": "newspapers.com",
+      "source_class": "archival",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:npc-744984443",
+      "url": "https://www.newspapers.com/image/744984443/",
+      "title": "Pacifica Tribune — Dave Bendigkeit profile: 'began his training in the martial art of Aikido in 1967 with Robert Nadeau Sensei. Nadeau Sensei helped to encourage his interest in the energy and healing aspects' (Mar 7, 2001, p.12)",
+      "author": "Pacifica Tribune",
+      "publish_date": "2001-03-07",
+      "platform": "newspapers.com",
+      "source_class": "journalistic",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:npc-744987762",
+      "url": "https://www.newspapers.com/image/744987762/",
+      "title": "Pacifica Tribune — repeat Dave Bendigkeit profile, same 1967 Nadeau/Mountain View origin (Jul 24, 2002, p.8)",
+      "author": "Pacifica Tribune",
+      "publish_date": "2002-07-24",
+      "platform": "newspapers.com",
+      "source_class": "journalistic",
+      "bias_hint": "neutral_ish"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "work:npc-460368716",
+      "type": "Work",
+      "label": "SF Examiner — Esalen Institute listing: Frager & Nadeau 'Aikido: A Way of Mind-Body Harmony' (Sep 20, 1970)",
+      "canonical_name": null,
+      "metadata": {"note": "ESALEN INSTITUTE — 'Lecture, film and demonstration with Robert Frager and Robert Nadeau on Aikido: A Way of Mind-Body Harmony. Wednesday, 8 p.m. to 10:30 p.m., First Unitarian Church, Franklin and Geary streets, San Francisco.'", "publish_date": "1970-09-20"},
+      "source_urls": ["https://www.newspapers.com/image/460368716/"]
+    },
+    {
+      "id": "work:npc-840104711",
+      "type": "Work",
+      "label": "Peninsula Times Tribune — lecture series: Frager & Nadeau 'Mind-Body Harmony; Energy Awareness; Aikido' Mar 5 (Feb 26, 1971)",
+      "canonical_name": null,
+      "metadata": {"note": "Lecture series, admission $3/evening; Feb 26 Jim Fadiman PhD 'Introduction to Altered States of Consciousness'; Mar 5 'Mind-Body Harmony; Energy Awareness; Aikido — Robert Frager, Ph.D.; Robert Nadeau'.", "publish_date": "1971-02-26"},
+      "source_urls": ["https://www.newspapers.com/image/840104711/"]
+    },
+    {
+      "id": "work:npc-839885757",
+      "type": "Work",
+      "label": "Mayfield Mall Saturday program listing — 'Aikido / Robert Nadeau / 1:30-2:30 P.M.' (Sep 1968)",
+      "canonical_name": null,
+      "metadata": {"note": "Public demo program at Mayfield Mall (San Antonio Rd & Alma, Palo Alto/Mountain View area): Sitar & Tabla, Folk Dances, then 'Aikido — Robert Nadeau, 1:30-2:30 P.M.' Exhibits thru Sept 28. Covered by both Peninsula Times Tribune and Redwood City Tribune, Sep 20, 1968.", "publish_date": "1968-09-20"},
+      "source_urls": ["https://www.newspapers.com/image/839885757/", "https://www.newspapers.com/image/842687946/"]
+    },
+    {
+      "id": "work:npc-238942076",
+      "type": "Work",
+      "label": "South Florida Sun Sentinel — Nadeau energy workshop at Florida International University (Sep 11, 1999)",
+      "canonical_name": null,
+      "metadata": {"note": "'Energy workshop, on integrating mind, body and spirit, by aikido master Robert Nadeau, 10 a.m. to 4 p.m. Sept. 19 at Florida International University, Tamiami Trail and SW 107th Avenue, Miami. ... Golden Panther Arena, Room 121. Fee: $100 in advance, $110 at the door. For information, call Aimee Bernstein at 954-630-9004.'", "publish_date": "1999-09-11"},
+      "source_urls": ["https://www.newspapers.com/image/238942076/"]
+    },
+    {
+      "id": "work:npc-915930505",
+      "type": "Work",
+      "label": "Idaho Statesman — Aikido of Idaho seminar with 'Robert Nadeau Sensei (6th Dan)' (Oct 8, 1992)",
+      "canonical_name": null,
+      "metadata": {"note": "'Aikido of Idaho 7-9 p.m., Oct. 9; 10 a.m.-noon, 2:30-4 p.m., 4:30-6 p.m., Oct. 10; 10 a.m.-noon, Oct. 11; 1512 N. 10th Street. A special workshop with Robert Nadeau Sensei (6th Dan). Fee: $85 for all sessions if paid by Oct. 1; $40 at the door. Information: Bill Misson 375-4596.'", "publish_date": "1992-10-08"},
+      "source_urls": ["https://www.newspapers.com/image/915930505/"]
+    },
+    {
+      "id": "work:npc-744984443",
+      "type": "Work",
+      "label": "Pacifica Tribune — Dave Bendigkeit profile, 1967 Nadeau/Mountain View origin + Ki Healing/Acupressure (Mar 7, 2001)",
+      "canonical_name": null,
+      "metadata": {"note": "'In 1967, Dave Bendigkeit began his training in the martial art of Aikido with Robert Nadeau Sensei. Nadeau Sensei helped to encourage his interest in the energy and healing aspects of the martial arts. Through years of study and practice with Ki Healing and Acupressure, along with Japanese and Western ...' — same profile reprinted Jul 24, 2002.", "publish_date": "2001-03-07"},
+      "source_urls": ["https://www.newspapers.com/image/744984443/", "https://www.newspapers.com/image/744987762/"]
+    },
+    {
+      "id": "event:esalen-aikido-lecture-1970-09-23",
+      "type": "Event",
+      "label": "Esalen Institute lecture 'Aikido: A Way of Mind-Body Harmony' — Frager & Nadeau (Sep 23, 1970, San Francisco)",
+      "canonical_name": null,
+      "metadata": {"date": "1970-09-23", "organizer": "Esalen Institute", "venue": "First Unitarian Church, Franklin and Geary streets, San Francisco", "note": "Lecture, film and demonstration, 8-10:30 p.m.; $3 general / $2 student per Peninsula Times Tribune ad. Frager billed as black belt."},
+      "source_urls": ["https://www.newspapers.com/image/460368716/", "https://www.newspapers.com/image/840158912/"]
+    },
+    {
+      "id": "event:frager-nadeau-lecture-1971-03-05",
+      "type": "Event",
+      "label": "Lecture 'Mind-Body Harmony; Energy Awareness; Aikido' — Robert Frager Ph.D. & Robert Nadeau (Mar 5, 1971)",
+      "canonical_name": null,
+      "metadata": {"date": "1971-03-05", "note": "Entry in a $3/evening Peninsula lecture series (same series as Jim Fadiman 'Altered States of Consciousness' talk); venue not named in listing, likely Peninsula/SF Esalen-adjacent series.", "confidence": "venue uncertain"},
+      "source_urls": ["https://www.newspapers.com/image/840104711/"]
+    },
+    {
+      "id": "event:mayfield-mall-aikido-demo-1968-09",
+      "type": "Event",
+      "label": "Public aikido demonstration by Robert Nadeau at Mayfield Mall (Sep 1968)",
+      "canonical_name": null,
+      "metadata": {"date": "1968-09", "date_note": "Saturday program in a listing published Fri Sep 20, 1968 — likely Sep 21", "location": "Mayfield Mall, San Antonio Rd & Alma (Palo Alto/Mountain View)", "note": "1:30-2:30 p.m. slot in a free public arts program alongside sitar/tabla and folk-dance acts."},
+      "source_urls": ["https://www.newspapers.com/image/839885757/", "https://www.newspapers.com/image/842687946/"]
+    },
+    {
+      "id": "event:nadeau-fiu-workshop-1999-09-19",
+      "type": "Event",
+      "label": "Energy workshop by aikido master Robert Nadeau at Florida International University (Sep 19, 1999, Miami)",
+      "canonical_name": null,
+      "metadata": {"date": "1999-09-19", "location": "FIU Golden Panther Arena Room 121, Miami, FL", "note": "'integrating mind, body and spirit'; 10 a.m.-4 p.m.; $100 advance / $110 door; contact Aimee Bernstein."},
+      "source_urls": ["https://www.newspapers.com/image/238942076/"]
+    },
+    {
+      "id": "event:aikido-of-idaho-nadeau-seminar-1992-10",
+      "type": "Event",
+      "label": "Aikido of Idaho seminar with Robert Nadeau Sensei (6th Dan) (Oct 9-11, 1992, Boise)",
+      "canonical_name": null,
+      "metadata": {"date": "1992-10-09", "end_date": "1992-10-11", "location": "1512 N. 10th Street, Boise, ID", "note": "$85 all sessions by Oct 1 / $40 at door; contact Bill Misson."},
+      "source_urls": ["https://www.newspapers.com/image/915930505/"]
+    },
+    {
+      "id": "dojo:aikido-of-idaho",
+      "type": "Dojo",
+      "label": "Aikido of Idaho",
+      "canonical_name": "Aikido of Idaho",
+      "metadata": {"city": "Boise", "state": "ID", "country": "USA", "note": "Hosted Nadeau seminar Oct 1992 at 1512 N. 10th St."},
+      "source_urls": ["https://www.newspapers.com/image/915930505/"]
+    },
+    {
+      "id": "claim:nadeau-6th-dan-1992",
+      "type": "Claim",
+      "label": "Robert Nadeau billed as 6th Dan in Oct 1992",
+      "canonical_name": null,
+      "metadata": {"claim_text": "Idaho Statesman listing (Oct 8, 1992) bills the seminar guest as 'Robert Nadeau Sensei (6th Dan)'.", "claim_type": "rank_observation", "confidence": 0.9, "evidence_mode": "archival_listing", "stance": "neutral"},
+      "source_urls": ["https://www.newspapers.com/image/915930505/"]
+    },
+    {
+      "id": "claim:bendigkeit-ki-healing",
+      "type": "Claim",
+      "label": "Nadeau encouraged Bendigkeiten's interest in the energy/healing aspects of martial arts; Bendigkeit went on to years of Ki Healing and Acupressure study",
+      "canonical_name": null,
+      "metadata": {"claim_text": "Pacifica Tribune profiles (2001/2002): 'Nadeau Sensei helped to encourage his interest in the energy and healing aspects of the martial arts. Years of study and practice with Ki Healing and Acupressure, along with Japanese and Western [modalities].'", "claim_type": "biographical", "confidence": 0.85, "evidence_mode": "journalistic_profile", "stance": "supportive"},
+      "source_urls": ["https://www.newspapers.com/image/744984443/", "https://www.newspapers.com/image/744987762/"]
+    }
+  ],
+  "edges": [
+    {"src_id": "person:robert-nadeau", "rel_type": "CO_APPEARANCE", "dst_id": "event:esalen-aikido-lecture-1970-09-23", "metadata": {"role": "co-presenter — lecture, film and demonstration", "source_url": "https://www.newspapers.com/image/460368716/"}},
+    {"src_id": "person:robert-frager", "rel_type": "CO_APPEARANCE", "dst_id": "event:esalen-aikido-lecture-1970-09-23", "metadata": {"role": "co-presenter — billed 'Robert Frager black belt' in PTT ad", "source_url": "https://www.newspapers.com/image/840158912/"}},
+    {"src_id": "work:npc-460368716", "rel_type": "DESCRIBES", "dst_id": "event:esalen-aikido-lecture-1970-09-23", "metadata": {"source_url": "https://www.newspapers.com/image/460368716/"}},
+    {"src_id": "event:esalen-aikido-lecture-1970-09-23", "rel_type": "LOCATED_IN", "dst_id": "group:esalen-group-in-san-francisco", "metadata": {"note": "Esalen's SF lecture series at First Unitarian Church", "source_url": "https://www.newspapers.com/image/460368716/"}},
+    {"src_id": "person:robert-nadeau", "rel_type": "CO_APPEARANCE", "dst_id": "event:frager-nadeau-lecture-1971-03-05", "metadata": {"role": "co-presenter", "source_url": "https://www.newspapers.com/image/840104711/"}},
+    {"src_id": "person:robert-frager", "rel_type": "CO_APPEARANCE", "dst_id": "event:frager-nadeau-lecture-1971-03-05", "metadata": {"role": "co-presenter — billed 'Robert Frager, Ph.D.'", "source_url": "https://www.newspapers.com/image/840104711/"}},
+    {"src_id": "work:npc-840104711", "rel_type": "DESCRIBES", "dst_id": "event:frager-nadeau-lecture-1971-03-05", "metadata": {"source_url": "https://www.newspapers.com/image/840104711/"}},
+    {"src_id": "person:robert-nadeau", "rel_type": "CO_APPEARANCE", "dst_id": "event:mayfield-mall-aikido-demo-1968-09", "metadata": {"role": "demonstrator — 1:30-2:30 p.m. slot", "source_url": "https://www.newspapers.com/image/839885757/"}},
+    {"src_id": "work:npc-839885757", "rel_type": "DESCRIBES", "dst_id": "event:mayfield-mall-aikido-demo-1968-09", "metadata": {"source_url": "https://www.newspapers.com/image/839885757/"}},
+    {"src_id": "person:robert-nadeau", "rel_type": "CO_APPEARANCE", "dst_id": "event:nadeau-fiu-workshop-1999-09-19", "metadata": {"role": "workshop leader — billed 'aikido master Robert Nadeau'", "source_url": "https://www.newspapers.com/image/238942076/"}},
+    {"src_id": "work:npc-238942076", "rel_type": "DESCRIBES", "dst_id": "event:nadeau-fiu-workshop-1999-09-19", "metadata": {"source_url": "https://www.newspapers.com/image/238942076/"}},
+    {"src_id": "person:robert-nadeau", "rel_type": "CO_APPEARANCE", "dst_id": "event:aikido-of-idaho-nadeau-seminar-1992-10", "metadata": {"role": "guest instructor — billed 'Robert Nadeau Sensei (6th Dan)'", "source_url": "https://www.newspapers.com/image/915930505/"}},
+    {"src_id": "work:npc-915930505", "rel_type": "DESCRIBES", "dst_id": "event:aikido-of-idaho-nadeau-seminar-1992-10", "metadata": {"source_url": "https://www.newspapers.com/image/915930505/"}},
+    {"src_id": "event:aikido-of-idaho-nadeau-seminar-1992-10", "rel_type": "LOCATED_IN", "dst_id": "dojo:aikido-of-idaho", "metadata": {"source_url": "https://www.newspapers.com/image/915930505/"}},
+    {"src_id": "claim:nadeau-6th-dan-1992", "rel_type": "ABOUT", "dst_id": "person:robert-nadeau", "metadata": {}},
+    {"src_id": "claim:nadeau-6th-dan-1992", "rel_type": "SUPPORTED_BY", "dst_id": "work:npc-915930505", "metadata": {}},
+    {"src_id": "work:npc-744984443", "rel_type": "DESCRIBES", "dst_id": "person:dave-bendigkeit", "metadata": {"source_url": "https://www.newspapers.com/image/744984443/"}},
+    {"src_id": "claim:bendigkeit-ki-healing", "rel_type": "ABOUT", "dst_id": "person:dave-bendigkeit", "metadata": {}},
+    {"src_id": "claim:bendigkeit-ki-healing", "rel_type": "MENTIONS", "dst_id": "person:robert-nadeau", "metadata": {}},
+    {"src_id": "claim:bendigkeit-ki-healing", "rel_type": "SUPPORTED_BY", "dst_id": "work:npc-744984443", "metadata": {}}
+  ]
+}

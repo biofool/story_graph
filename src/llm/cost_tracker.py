@@ -132,6 +132,10 @@ class GeminiCostTracker:
         expected_cost_usd: float,
         model: str,
         rate_limit_rpm: int = 0,
+        provider: str = "google",
+        api: str | None = None,
+        expected_tokens: int | None = None,
+        metadata: dict[str, Any] | None = None,
     ) -> str | None:
         """Declare intent with the CloudManagement hub before a pipeline run.
 
@@ -141,6 +145,10 @@ class GeminiCostTracker:
             expected_cost_usd: Estimated total cost in USD.
             model: Model name (e.g. "gemini-2.5-flash").
             rate_limit_rpm: Rate limit in requests per minute (0 = unlimited).
+            provider: CloudManagement provider identifier.
+            api: CloudManagement API identifier; defaults to the model name.
+            expected_tokens: Estimated total tokens for token-priced providers.
+            metadata: Provider-specific admission metadata.
 
         Returns:
             The intent_id if approved, or None if the tracker is disabled
@@ -156,18 +164,20 @@ class GeminiCostTracker:
         assert cb is not None  # for type checkers; is_available() checked
 
         self._job_id = job_id
-        self._provider = "google"
-        self._api = model
+        self._provider = provider
+        self._api = api or model
 
         try:
             intent = cb.declare_intent(
                 job_id=job_id,
                 job_name="story-graph-targeted-research",
                 provider=self._provider,
-                api=model,
+                api=self._api,
                 expected_calls=expected_calls,
                 expected_cost_usd=expected_cost_usd,
+                expected_tokens=expected_tokens,
                 rate_limit_rpm=rate_limit_rpm,
+                metadata=metadata or {"model": model},
                 source_repo=self._source_repo,
                 application=self._application,
             )
@@ -375,6 +385,10 @@ class GeminiCostTracker:
     def intent_id(self) -> str:
         """The CloudManagement intent_id for the current run (empty if not declared)."""
         return self._intent_id
+
+    @property
+    def paid_fallback_approved(self) -> bool:
+        return bool(self._intent_id and self._provider == "vertex_ai")
 
 
 def make_cost_tracker_from_settings() -> GeminiCostTracker:

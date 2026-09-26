@@ -1,0 +1,16 @@
+{
+ "subject": "peter ralston",
+ "query": "peter ralston",
+ "domain": "aikidojournal.com",
+ "tier": "HIGH_AUTHORITY",
+ "collection_type": "wordpress_search",
+ "pages_fetched": 1,
+ "results": [
+  {
+   "url": "https://aikidojournal.com/2020/12/16/aikido-past-present-and-future/",
+   "title": "Aikido: Past, Present and Future",
+   "in_graph": false
+  }
+ ],
+ "new_urls": 1
+}

@@ -1,0 +1,381 @@
+{
+  "description": "Deep-pass Newspapers.com finds: 1983 SF Chronicle Nadeau feature, Herald-Sun Performance Edge conference programs (1997/2001), Point Reyes Light Moon listings (1980-1998), Pacifica Tribune Bendigkeit 1967 Mountain View Aiki Kai, City Aikido FB page (direct-browsed via WSF persistent-profile technique)",
+  "sources": [
+    {
+      "id": "src:npc-1223363307",
+      "url": "https://www.newspapers.com/image/1223363307/",
+      "title": "San Francisco Chronicle — feature on 'presence' incl. extended Robert Nadeau interview (Jul 31, 1983, p.267)",
+      "author": "San Francisco Chronicle",
+      "publish_date": "1983-07-31",
+      "platform": "newspapers.com",
+      "source_class": "journalistic",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:npc-793520210",
+      "url": "https://www.newspapers.com/image/793520210/",
+      "title": "The Herald-Sun (Durham NC) — conference program: Chris Thorsen & Richard Moon, 'Aikido and Dialogue' via Performance Edge (Oct 7, 1997, p.18)",
+      "author": "The Herald-Sun",
+      "publish_date": "1997-10-07",
+      "platform": "newspapers.com",
+      "source_class": "documentary_promotional",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:npc-795545627",
+      "url": "https://www.newspapers.com/image/795545627/",
+      "title": "The Herald-Sun (Durham NC) — conference speaker lineup incl. 'Chris Thorsen & Richard Moon: Aikido' (Sep 23, 2001, p.80)",
+      "author": "The Herald-Sun",
+      "publish_date": "2001-09-23",
+      "platform": "newspapers.com",
+      "source_class": "documentary_promotional",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:npc-1125183831",
+      "url": "https://www.newspapers.com/image/1125183831/",
+      "title": "Point Reyes Light — Dance Palace 5-day aikido class listing, 'Instructor: Richard Moon' (Nov 20, 1980, p.13)",
+      "author": "Point Reyes Light",
+      "publish_date": "1980-11-20",
+      "platform": "newspapers.com",
+      "source_class": "archival",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:npc-1100933658",
+      "url": "https://www.newspapers.com/image/1100933658/",
+      "title": "Point Reyes Light — 'Aikido, taught by Richard Moon, 6 to 8 p.m.' Wednesday class listing (Sep 6, 1984, p.14)",
+      "author": "Point Reyes Light",
+      "publish_date": "1984-09-06",
+      "platform": "newspapers.com",
+      "source_class": "archival",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:npc-1101135895",
+      "url": "https://www.newspapers.com/image/1101135895/",
+      "title": "Point Reyes Light — Dance Palace open house: 'Aikido demonstration by Richard Moon, David Gamble and Sandy Jacobs' (Sep 8, 1983, p.9)",
+      "author": "Point Reyes Light",
+      "publish_date": "1983-09-08",
+      "platform": "newspapers.com",
+      "source_class": "archival",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:npc-1100842220",
+      "url": "https://www.newspapers.com/image/1100842220/",
+      "title": "Point Reyes Light — 'AIKI-DANCE WORKSHOP Led by Richard Moon' Apr 26 listing (Apr 17, 1997, p.13)",
+      "author": "Point Reyes Light",
+      "publish_date": "1997-04-17",
+      "platform": "newspapers.com",
+      "source_class": "archival",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:npc-1100842319",
+      "url": "https://www.newspapers.com/image/1100842319/",
+      "title": "Point Reyes Light — 'AIKI-DANCE WORKSHOP Led by Richard Moon' Apr 26 listing, repeat (Apr 24, 1997, p.17)",
+      "author": "Point Reyes Light",
+      "publish_date": "1997-04-24",
+      "platform": "newspapers.com",
+      "source_class": "archival",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:npc-1100916601",
+      "url": "https://www.newspapers.com/image/1100916601/",
+      "title": "Point Reyes Light — 'Aikido and Dance with Richard Moon' Apr 25 event listing (Apr 23, 1998, p.13)",
+      "author": "Point Reyes Light",
+      "publish_date": "1998-04-23",
+      "platform": "newspapers.com",
+      "source_class": "archival",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:npc-1100916418",
+      "url": "https://www.newspapers.com/image/1100916418/",
+      "title": "Point Reyes Light — 'Aikido and Dance with Richard Moon' Apr 25 event listing, repeat (Apr 16, 1998, p.13)",
+      "author": "Point Reyes Light",
+      "publish_date": "1998-04-16",
+      "platform": "newspapers.com",
+      "source_class": "archival",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:npc-920116428",
+      "url": "https://www.newspapers.com/image/920116428/",
+      "title": "Pacifica Tribune — Dave Bendigkeit aikido classes: 'began his training in Aikido in 1967 with Robert Nadeau Sensei at the Mountain View Aiki Kai' (Jan 13, 2010, p.11)",
+      "author": "Pacifica Tribune",
+      "publish_date": "2010-01-13",
+      "platform": "newspapers.com",
+      "source_class": "journalistic",
+      "bias_hint": "neutral_ish"
+    },
+    {
+      "id": "src:fb-city-aikido-page",
+      "url": "https://www.facebook.com/CityAikido",
+      "title": "City Aikido Facebook page — 'A community inspired by the teachings of Robert Nadeau Shihan and his process of personal development through Aikido' (976 followers, direct-browsed Sep 2026)",
+      "author": "City Aikido",
+      "platform": "facebook",
+      "source_class": "documentary_promotional",
+      "bias_hint": "defensive"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "work:npc-1223363307",
+      "type": "Work",
+      "label": "SF Chronicle 'presence' feature — extended Robert Nadeau interview (Jul 31, 1983, p.267)",
+      "canonical_name": null,
+      "metadata": {
+        "note": "Substantial feature: Nadeau described as 'one of its most creative teachers... a former policeman'; interviewed 'at Aikido of San Francisco'; Redwood City cop anecdotes; 'several years' study in Japan under Ueshiba; black-belt student Steve Gengo (psychiatric technician, McAuley Neuropsychiatric Institute, St. Mary's Hospital); 'the Bay area — where the art is most strongly established in the U.S.'",
+        "publish_date": "1983-07-31"
+      },
+      "source_urls": ["https://www.newspapers.com/image/1223363307/"]
+    },
+    {
+      "id": "work:npc-793520210",
+      "type": "Work",
+      "label": "Herald-Sun conference program — Thorsen & Moon 'Aikido and Dialogue' (Oct 7, 1997)",
+      "canonical_name": null,
+      "metadata": {
+        "note": "'For the past 20 years, their company, Performance Edge, has been consulting to many of our nations leading edge industries such as Apple, Federal Express, Ericsson and Cellular One. Dr. Meg Wheatley, last year's conference keynote speaker, uses Chris and Richard regularly in her Sundance workshops.' Interactive 'Aikido and Dialogue' session billed 'first-of-its-kind' for attendees.",
+        "publish_date": "1997-10-07"
+      },
+      "source_urls": ["https://www.newspapers.com/image/793520210/"]
+    },
+    {
+      "id": "work:npc-795545627",
+      "type": "Work",
+      "label": "Herald-Sun conference speaker lineup — 'Chris Thorsen & Richard Moon: Aikido' (Sep 23, 2001)",
+      "canonical_name": null,
+      "metadata": {
+        "note": "Speaker program alongside 'Founder and Chairman Emeritus of VISA', 'Chris Turner: 4// Hat and No Cattle', '1998: Self Mastery & Leadership' (prior-year theme), 'Charlotte Roberts: The Dance of Change', 'Anson Dorrance: UNC Women's Soccer Head Coach'.",
+        "publish_date": "2001-09-23"
+      },
+      "source_urls": ["https://www.newspapers.com/image/795545627/"]
+    },
+    {
+      "id": "work:npc-1125183831",
+      "type": "Work",
+      "label": "Point Reyes Light — Dance Palace aikido class listing naming Richard Moon instructor (Nov 20, 1980)",
+      "canonical_name": null,
+      "metadata": {
+        "note": "5-day class Nov 24 & Dec 1, 10:30 a.m.-1:30 p.m. at Dance Palace; 'Instructor: Richard Moon (383-9362)'. Earliest newspaper mention of Moon found to date.",
+        "publish_date": "1980-11-20"
+      },
+      "source_urls": ["https://www.newspapers.com/image/1125183831/"]
+    },
+    {
+      "id": "work:npc-1100933658",
+      "type": "Work",
+      "label": "Point Reyes Light — Wednesday aikido class 'taught by Richard Moon, 6 to 8 p.m.' (Sep 6, 1984)",
+      "canonical_name": null,
+      "metadata": {"note": "Weekly class listing alongside Dance Jam and Childbirth Preparation.", "publish_date": "1984-09-06"},
+      "source_urls": ["https://www.newspapers.com/image/1100933658/"]
+    },
+    {
+      "id": "work:npc-1101135895",
+      "type": "Work",
+      "label": "Point Reyes Light — Dance Palace open house aikido demo by Moon, Gamble, Jacobs (Sep 8, 1983)",
+      "canonical_name": null,
+      "metadata": {"note": "'Other activities will include an Aikido demonstration by Richard Moon, David Gamble and Sandy Jacobs, and a yoga demonstration with David Clarkson.'", "publish_date": "1983-09-08"},
+      "source_urls": ["https://www.newspapers.com/image/1101135895/"]
+    },
+    {
+      "id": "work:npc-1100842220",
+      "type": "Work",
+      "label": "Point Reyes Light — 'AIKI-DANCE WORKSHOP Led by Richard Moon' (Apr 17, 1997)",
+      "canonical_name": null,
+      "metadata": {"note": "'the funnest part of aikido and dance' — Sunday, April 26, 7-9 p.m., $25, Dance Palace.", "publish_date": "1997-04-17"},
+      "source_urls": ["https://www.newspapers.com/image/1100842220/", "https://www.newspapers.com/image/1100842319/"]
+    },
+    {
+      "id": "work:npc-1100916601",
+      "type": "Work",
+      "label": "Point Reyes Light — 'Aikido and Dance with Richard Moon' Apr 25 event (Apr 23, 1998)",
+      "canonical_name": null,
+      "metadata": {"note": "'exciting new approach to Aikido and Dance with Richard Moon; for info call 507-0194 ... Saturday, April 25, 7:30-9:30 pm, $25'.", "publish_date": "1998-04-23"},
+      "source_urls": ["https://www.newspapers.com/image/1100916601/", "https://www.newspapers.com/image/1100916418/"]
+    },
+    {
+      "id": "work:npc-920116428",
+      "type": "Work",
+      "label": "Pacifica Tribune — Dave Bendigkeit aikido class profile (Jan 13, 2010)",
+      "canonical_name": null,
+      "metadata": {
+        "note": "'Sensei Dave Bendigkeit ... began his training in Aikido in 1967 with Robert Nadeau Sensei at the Mountain View Aiki Kai, and trained throughout the succeeding years, finally becoming a student of Patricia Hendricks Sensei at Aikido of San Leandro and receiving his Black Belt.'",
+        "publish_date": "2010-01-13"
+      },
+      "source_urls": ["https://www.newspapers.com/image/920116428/"]
+    },
+    {
+      "id": "organization:performance-edge",
+      "type": "Group",
+      "label": "Performance Edge",
+      "canonical_name": "Performance Edge",
+      "metadata": {
+        "note": "Consulting company of Chris Thorsen and Richard Moon; 'for the past 20 years' consulting as of Oct 1997 (→ est. ~1977). Named clients: Apple, Federal Express, Ericsson, Cellular One. Offerings incl. 'Aikido and Dialogue' interactive sessions; Thorsen & Moon used regularly in Meg Wheatley's Sundance workshops.",
+        "founded_estimate": "~1977",
+        "confidence": "medium — single conference-program source, promotional register"
+      },
+      "source_urls": ["https://www.newspapers.com/image/793520210/"]
+    },
+    {
+      "id": "person:dave-bendigkeit",
+      "type": "Person",
+      "label": "Dave Bendigkeit",
+      "canonical_name": "Dave Bendigkeit",
+      "metadata": {"note": "Began aikido training 1967 with Robert Nadeau Sensei at Mountain View Aiki Kai; later student of Patricia Hendricks Sensei at Aikido of San Leandro, where he received black belt. Teaching own classes by 2010 (Pacifica Tribune)."},
+      "source_urls": ["https://www.newspapers.com/image/920116428/"]
+    },
+    {
+      "id": "person:steve-gengo",
+      "type": "Person",
+      "label": "Steve Gengo",
+      "canonical_name": "Steve Gengo",
+      "metadata": {"note": "Black-belt-level student of Robert Nadeau as of 1983; psychiatric technician at McAuley Neuropsychiatric Institute, St. Mary's Hospital (SF)."},
+      "source_urls": ["https://www.newspapers.com/image/1223363307/"]
+    },
+    {
+      "id": "person:patricia-hendricks",
+      "type": "Person",
+      "label": "Patricia Hendricks Sensei",
+      "canonical_name": "Patricia Hendricks",
+      "metadata": {"note": "Teacher at Aikido of San Leandro; awarded Dave Bendigkeit his black belt."},
+      "source_urls": ["https://www.newspapers.com/image/920116428/"]
+    },
+    {
+      "id": "dojo:aikido-of-san-leandro",
+      "type": "Dojo",
+      "label": "Aikido of San Leandro",
+      "canonical_name": "Aikido of San Leandro",
+      "metadata": {"city": "San Leandro", "state": "CA", "country": "USA", "note": "Patricia Hendricks Sensei's dojo per Pacifica Tribune 2010."},
+      "source_urls": ["https://www.newspapers.com/image/920116428/"]
+    },
+    {
+      "id": "person:meg-wheatley",
+      "type": "Person",
+      "label": "Margaret (Meg) Wheatley",
+      "canonical_name": "Meg Wheatley",
+      "metadata": {"note": "Organizational-consulting author; 'uses Chris and Richard regularly in her Sundance workshops' (Herald-Sun 1997 conference program)."},
+      "source_urls": ["https://www.newspapers.com/image/793520210/"]
+    },
+    {
+      "id": "event:herald-sun-conference-1997-aikido-dialogue",
+      "type": "Event",
+      "label": "Conference presentation 'Aikido and Dialogue' by Thorsen & Moon / Performance Edge (Oct 1997, Durham NC)",
+      "canonical_name": null,
+      "metadata": {
+        "note": "Interactive 'Aikido and Dialogue' session in a leadership/organizational-learning conference program printed in The Herald-Sun; billed 'first-of-its-kind, interactive experience'. Conference name not identified in the listing.",
+        "date": "1997-10",
+        "location": "Durham, NC (presumed — Herald-Sun program)"
+      },
+      "source_urls": ["https://www.newspapers.com/image/793520210/"]
+    },
+    {
+      "id": "event:herald-sun-conference-2001-aikido",
+      "type": "Event",
+      "label": "Conference presentation 'Aikido' by Chris Thorsen & Richard Moon (Sep 2001, Durham NC)",
+      "canonical_name": null,
+      "metadata": {"note": "Speaker lineup incl. 'Chris Thorsen & Richard Moon: Aikido'; program references prior theme '1998: Self Mastery & Leadership'.", "date": "2001-09", "location": "Durham, NC (presumed)"},
+      "source_urls": ["https://www.newspapers.com/image/795545627/"]
+    },
+    {
+      "id": "event:aiki-dance-workshop-1997-04-26",
+      "type": "Event",
+      "label": "Aiki-Dance Workshop led by Richard Moon at Dance Palace (Apr 26, 1997)",
+      "canonical_name": null,
+      "metadata": {"date": "1997-04-26", "note": "'the funnest part of aikido and dance' — 7-9 p.m., $25."},
+      "source_urls": ["https://www.newspapers.com/image/1100842220/", "https://www.newspapers.com/image/1100842319/"]
+    },
+    {
+      "id": "event:aikido-and-dance-1998-04-25",
+      "type": "Event",
+      "label": "'Aikido and Dance' with Richard Moon (Apr 25, 1998)",
+      "canonical_name": null,
+      "metadata": {"date": "1998-04-25", "note": "7:30-9:30 p.m., $25; info 507-0194 (Moon's number per City Aikido 2002 contact listing)."},
+      "source_urls": ["https://www.newspapers.com/image/1100916601/", "https://www.newspapers.com/image/1100916418/"]
+    },
+    {
+      "id": "claim:nadeau-redwood-city-police",
+      "type": "Claim",
+      "label": "Robert Nadeau was a police officer in Redwood City before devoting himself to aikido",
+      "canonical_name": null,
+      "metadata": {
+        "claim_text": "Robert Nadeau worked as a police officer in Redwood City, CA before his aikido career; credited aikido with cultivating the 'hunches' he experienced on patrol.",
+        "claim_type": "biographical",
+        "confidence": 0.9,
+        "evidence_mode": "journalistic_profile",
+        "stance": "supportive"
+      },
+      "source_urls": ["https://www.newspapers.com/image/1223363307/"]
+    },
+    {
+      "id": "claim:wheatley-used-thorsen-moon",
+      "type": "Claim",
+      "label": "Meg Wheatley used Chris Thorsen and Richard Moon regularly in her Sundance workshops",
+      "canonical_name": null,
+      "metadata": {
+        "claim_text": "Dr. Meg Wheatley 'uses Chris and Richard regularly in her Sundance workshops' (Herald-Sun conference program, 1997).",
+        "claim_type": "professional_association",
+        "confidence": 0.8,
+        "evidence_mode": "documentary_promotional",
+        "stance": "neutral"
+      },
+      "source_urls": ["https://www.newspapers.com/image/793520210/"]
+    },
+    {
+      "id": "claim:nadeau-aikido-of-san-francisco-1983",
+      "type": "Claim",
+      "label": "Nadeau interviewed 'at Aikido of San Francisco' in 1983",
+      "canonical_name": null,
+      "metadata": {
+        "claim_text": "The SF Chronicle interviewed Robert Nadeau 'at Aikido of San Francisco' in 1983 — possibly the same organization later known as City Aikido, but the name relationship is unverified.",
+        "claim_type": "organizational",
+        "confidence": 0.7,
+        "evidence_mode": "journalistic_profile",
+        "stance": "neutral",
+        "open_question": "Is 'Aikido of San Francisco' (1983) the same dojo as City Aikido?"
+      },
+      "source_urls": ["https://www.newspapers.com/image/1223363307/"]
+    }
+  ],
+  "edges": [
+    {"src_id": "work:npc-1223363307", "rel_type": "DESCRIBES", "dst_id": "person:robert-nadeau", "metadata": {"source_url": "https://www.newspapers.com/image/1223363307/"}},
+    {"src_id": "claim:nadeau-redwood-city-police", "rel_type": "ABOUT", "dst_id": "person:robert-nadeau", "metadata": {}},
+    {"src_id": "claim:nadeau-redwood-city-police", "rel_type": "SUPPORTED_BY", "dst_id": "work:npc-1223363307", "metadata": {}},
+    {"src_id": "claim:nadeau-aikido-of-san-francisco-1983", "rel_type": "ABOUT", "dst_id": "person:robert-nadeau", "metadata": {}},
+    {"src_id": "claim:nadeau-aikido-of-san-francisco-1983", "rel_type": "SUPPORTED_BY", "dst_id": "work:npc-1223363307", "metadata": {}},
+    {"src_id": "person:robert-nadeau", "rel_type": "TEACHER_STUDENT", "dst_id": "person:steve-gengo", "metadata": {"note": "'An experienced student at the black-belt level' per SF Chronicle 1983", "source_url": "https://www.newspapers.com/image/1223363307/"}},
+    {"src_id": "person:robert-nadeau", "rel_type": "TEACHER_STUDENT", "dst_id": "person:dave-bendigkeit", "metadata": {"note": "began training 1967 at Mountain View Aiki Kai per Pacifica Tribune 2010", "start_date": "1967", "source_url": "https://www.newspapers.com/image/920116428/"}},
+    {"src_id": "person:patricia-hendricks", "rel_type": "TEACHER_STUDENT", "dst_id": "person:dave-bendigkeit", "metadata": {"note": "awarded black belt at Aikido of San Leandro", "source_url": "https://www.newspapers.com/image/920116428/"}},
+    {"src_id": "person:patricia-hendricks", "rel_type": "WORKED_AT", "dst_id": "dojo:aikido-of-san-leandro", "metadata": {"source_url": "https://www.newspapers.com/image/920116428/"}},
+    {"src_id": "person:dave-bendigkeit", "rel_type": "MEMBER_OF", "dst_id": "dojo:aikido-of-san-leandro", "metadata": {"source_url": "https://www.newspapers.com/image/920116428/"}},
+    {"src_id": "work:npc-920116428", "rel_type": "DESCRIBES", "dst_id": "person:dave-bendigkeit", "metadata": {"source_url": "https://www.newspapers.com/image/920116428/"}},
+    {"src_id": "person:richard-moon-aikido", "rel_type": "FOUNDED", "dst_id": "organization:performance-edge", "metadata": {"note": "co-founder with Chris Thorsen; 'their company' per Herald-Sun 1997", "source_url": "https://www.newspapers.com/image/793520210/"}},
+    {"src_id": "person:christopher-thorsen", "rel_type": "FOUNDED", "dst_id": "organization:performance-edge", "metadata": {"note": "co-founder with Richard Moon", "source_url": "https://www.newspapers.com/image/793520210/"}},
+    {"src_id": "work:npc-793520210", "rel_type": "DESCRIBES", "dst_id": "organization:performance-edge", "metadata": {"source_url": "https://www.newspapers.com/image/793520210/"}},
+    {"src_id": "person:richard-moon-aikido", "rel_type": "CO_APPEARANCE", "dst_id": "event:herald-sun-conference-1997-aikido-dialogue", "metadata": {"role": "co-presenter 'Aikido and Dialogue' via Performance Edge", "source_url": "https://www.newspapers.com/image/793520210/"}},
+    {"src_id": "person:christopher-thorsen", "rel_type": "CO_APPEARANCE", "dst_id": "event:herald-sun-conference-1997-aikido-dialogue", "metadata": {"role": "co-presenter 'Aikido and Dialogue' via Performance Edge", "source_url": "https://www.newspapers.com/image/793520210/"}},
+    {"src_id": "work:npc-793520210", "rel_type": "DESCRIBES", "dst_id": "event:herald-sun-conference-1997-aikido-dialogue", "metadata": {"source_url": "https://www.newspapers.com/image/793520210/"}},
+    {"src_id": "person:richard-moon-aikido", "rel_type": "CO_APPEARANCE", "dst_id": "event:herald-sun-conference-2001-aikido", "metadata": {"role": "speaker — 'Chris Thorsen & Richard Moon: Aikido'", "source_url": "https://www.newspapers.com/image/795545627/"}},
+    {"src_id": "person:christopher-thorsen", "rel_type": "CO_APPEARANCE", "dst_id": "event:herald-sun-conference-2001-aikido", "metadata": {"role": "speaker — 'Chris Thorsen & Richard Moon: Aikido'", "source_url": "https://www.newspapers.com/image/795545627/"}},
+    {"src_id": "work:npc-795545627", "rel_type": "DESCRIBES", "dst_id": "event:herald-sun-conference-2001-aikido", "metadata": {"source_url": "https://www.newspapers.com/image/795545627/"}},
+    {"src_id": "claim:wheatley-used-thorsen-moon", "rel_type": "ABOUT", "dst_id": "person:meg-wheatley", "metadata": {}},
+    {"src_id": "claim:wheatley-used-thorsen-moon", "rel_type": "MENTIONS", "dst_id": "person:christopher-thorsen", "metadata": {}},
+    {"src_id": "claim:wheatley-used-thorsen-moon", "rel_type": "MENTIONS", "dst_id": "person:richard-moon-aikido", "metadata": {}},
+    {"src_id": "claim:wheatley-used-thorsen-moon", "rel_type": "SUPPORTED_BY", "dst_id": "work:npc-793520210", "metadata": {}},
+    {"src_id": "work:npc-1125183831", "rel_type": "DESCRIBES", "dst_id": "event:aikido-class-dance-palace-1980", "metadata": {"source_url": "https://www.newspapers.com/image/1125183831/", "note": "newspaper corroboration of existing event"}},
+    {"src_id": "work:npc-1100933658", "rel_type": "DESCRIBES", "dst_id": "person:richard-moon-aikido", "metadata": {"source_url": "https://www.newspapers.com/image/1100933658/", "note": "Wednesday aikido class 'taught by Richard Moon' at Dance Palace, Sep 1984"}},
+    {"src_id": "work:npc-1101135895", "rel_type": "DESCRIBES", "dst_id": "event:aikido-demo-dance-palace-1983", "metadata": {"source_url": "https://www.newspapers.com/image/1101135895/", "note": "newspaper corroboration of existing event"}},
+    {"src_id": "person:richard-moon-aikido", "rel_type": "CO_APPEARANCE", "dst_id": "event:aiki-dance-workshop-1997-04-26", "metadata": {"role": "workshop leader", "source_url": "https://www.newspapers.com/image/1100842220/"}},
+    {"src_id": "work:npc-1100842220", "rel_type": "DESCRIBES", "dst_id": "event:aiki-dance-workshop-1997-04-26", "metadata": {"source_url": "https://www.newspapers.com/image/1100842220/"}},
+    {"src_id": "event:aiki-dance-workshop-1997-04-26", "rel_type": "LOCATED_IN", "dst_id": "place:dance-palace", "metadata": {"source_url": "https://www.newspapers.com/image/1100842220/"}},
+    {"src_id": "person:richard-moon-aikido", "rel_type": "CO_APPEARANCE", "dst_id": "event:aikido-and-dance-1998-04-25", "metadata": {"role": "workshop leader — 'Aikido and Dance with Richard Moon'", "source_url": "https://www.newspapers.com/image/1100916601/"}},
+    {"src_id": "work:npc-1100916601", "rel_type": "DESCRIBES", "dst_id": "event:aikido-and-dance-1998-04-25", "metadata": {"source_url": "https://www.newspapers.com/image/1100916601/"}},
+    {"src_id": "event:aikido-and-dance-1998-04-25", "rel_type": "LOCATED_IN", "dst_id": "place:dance-palace", "metadata": {"source_url": "https://www.newspapers.com/image/1100916601/", "note": "Dance Palace context per PRL listing series"}},
+    {"src_id": "src:fb-city-aikido-page", "rel_type": "DESCRIBES", "dst_id": "group:city-aikido", "metadata": {"note": "'A community inspired by the teachings of Robert Nadeau Shihan and his process of personal development through Aikido'; 976 followers; direct-browsed Sep 2026"}},
+    {"src_id": "src:fb-city-aikido-page", "rel_type": "DESCRIBES", "dst_id": "person:robert-nadeau", "metadata": {"note": "Page bills Nadeau Shihan as the inspiring teacher of the City Aikido community"}}
+  ]
+}

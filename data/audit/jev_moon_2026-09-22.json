@@ -1,0 +1,1952 @@
+{
+  "date": "2026-09-22",
+  "scope": "moon",
+  "tasks": {
+    "entity_resolution": [
+      {
+        "a": "person-richard-moon",
+        "b": "person:richard-moon-aikido",
+        "expected": "same_entity",
+        "got": "same_entity",
+        "correct": true
+      },
+      {
+        "a": "person:richard-moon-aikido",
+        "b": "person:richard-moon-chef",
+        "expected": "different_entities",
+        "got": "different_entities",
+        "correct": true
+      },
+      {
+        "a": "person:richard-moon-aikido",
+        "b": "person:richard-moon-law-professor",
+        "expected": "different_entities",
+        "got": "different_entities",
+        "correct": true
+      },
+      {
+        "a": "person:richard-moon-aikido",
+        "b": "person:rochelle-moon",
+        "expected": "different_entities",
+        "got": "different_entities",
+        "correct": true
+      },
+      {
+        "a": "person-richard-moon",
+        "b": "person:richard-moon-chef",
+        "expected": "different_entities",
+        "got": "different_entities",
+        "correct": true
+      },
+      {
+        "a": "person-richard-moon",
+        "b": "person:rochelle-moon",
+        "expected": "different_entities",
+        "got": "different_entities",
+        "correct": true
+      }
+    ],
+    "identity_match": [
+      {
+        "id": "work:npc-1043273070",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-1043470952",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-1054804048",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1055200064",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-1055578459",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1056877052",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1056877810",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1056878523",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1056878987",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1056879392",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1056879673",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1056879997",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1058090276",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1058457310",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1058458460",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1058459579",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1058462044",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1058466211",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1058467627",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1058468893",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1058469958",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1058471181",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1058472392",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1058473825",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1058500360",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1073431457",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-1103332696",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1108963740",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-1113804097",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-1136846182",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: sir richard moon (railway chairman)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1145011239",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1147396394",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1147398192",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1163925461",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: richard moon (painter, grande prairie)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1163936438",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1163998921",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1164678894",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1165366907",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1165453599",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: richard moon (painter, grande prairie)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1171806592",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-1190663227",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-120042506",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: sir richard moon (railway chairman)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-120114652",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: sir richard moon (railway chairman)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-120422521",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: sir richard moon (railway chairman)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-120615440",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: sir richard moon (railway chairman)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1208940512",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-1215540867",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-1227010574",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-1231165433",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-1237930569",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-124097773",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-1246498193",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": false
+      },
+      {
+        "id": "work:npc-1251286207",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1259275293",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1261022745",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: sir richard moon (railway chairman)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-126107854",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-1261687446",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1261693060",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1267552521",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1268047596",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: richard moon (painter, grande prairie)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-129099146",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": false
+      },
+      {
+        "id": "work:npc-1309389185",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1311783784",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1312449892",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1326063688",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (painter, grande prairie)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-1367734577",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-1372179019",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-1372269369",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-18276597",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-20364289",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: sir richard moon (railway chairman)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-219393404",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-257583772",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-257850433",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-257986002",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-259645909",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: pm hayato ikeda",
+        "correct": true
+      },
+      {
+        "id": "work:npc-259914730",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-259925841",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-260070736",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-260296310",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-260344142",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-270685697",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-275919778",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-32915832",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-33142241",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-33161619",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-33162066",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-33163286",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-346882118",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-382891340",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-382909378",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-382923819",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-382949890",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-390574800",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-390662221",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-390697084",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-391084067",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-391169018",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-391300471",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-391316243",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-392475941",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-392569364",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-392815497",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-394424738",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-401406285",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-401677313",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-409268714",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-409283166",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-409306810",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-409311176",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-409513802",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-409658080",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-409735660",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-409737397",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-409973478",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-413697655",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": false
+      },
+      {
+        "id": "work:npc-471563405",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-556138900",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: richard moon (painter, grande prairie)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-568782474",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-672592379",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-681983435",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-717893655",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-718966091",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-725323676",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": false
+      },
+      {
+        "id": "work:npc-725324044",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": false
+      },
+      {
+        "id": "work:npc-725600717",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-730222499",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: richard moon (painter, grande prairie)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-730224193",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: richard moon (painter, grande prairie)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-730226478",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: richard moon (painter, grande prairie)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-730232438",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: richard moon (painter, grande prairie)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-730246028",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (painter, grande prairie)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-731239984",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: richard moon (painter, grande prairie)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-731243983",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: richard moon (painter, grande prairie)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-731247871",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (painter, grande prairie)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-751064652",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-751065412",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-751073341",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-751387773",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-751441318",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-751465976",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-751471805",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-751607464",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-754311782",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-766139034",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-774946218",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-784747120",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-787429273",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-788303494",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-789435419",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-790270931",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-790592179",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": false
+      },
+      {
+        "id": "work:npc-790594652",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-790617804",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-790651885",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-793196397",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-796845950",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-797479573",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-797549400",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-799720058",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-799888889",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-800094257",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-800107620",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-800113519",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-800291497",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-800298981",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-800301308",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-800852424",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-800889220",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-800891586",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-801474628",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-801998653",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-802016100",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": false
+      },
+      {
+        "id": "work:npc-811786523",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-813961787",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-813964902",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-814329552",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-814806162",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-815170000",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-815215995",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-815292129",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-815324374",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-815624649",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-815659259",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-815723392",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-816189061",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-816190965",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-816385305",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-816921250",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-816990247",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-817144202",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-818159411",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-820399642",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-820442313",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-820653104",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-823801605",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-833853382",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-847770693",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-877270768",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": false
+      },
+      {
+        "id": "work:npc-87853631",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-883925750",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-885318436",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-885319009",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": false
+      },
+      {
+        "id": "work:npc-885319572",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-885320182",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-885321112",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-885321597",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-885322065",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": false
+      },
+      {
+        "id": "work:npc-885322495",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-885323314",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-886204757",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-887161541",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-888560419",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-904386935",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-904392264",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-904769389",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-912326948",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-913534954",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-914082693",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-914082725",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": false
+      },
+      {
+        "id": "work:npc-914082745",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-923004025",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-925742621",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: sir richard moon (railway chairman)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-926648034",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-929412651",
+        "expected": "different_person",
+        "got": "insufficient_evidence",
+        "reason": "collision: richard moon (painter, grande prairie)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-930180367",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: sir richard moon (railway chairman)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-934643253",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-935971624",
+        "expected": "different_person",
+        "got": "different_person",
+        "reason": "collision: richard moon (rugby player)",
+        "correct": true
+      },
+      {
+        "id": "work:npc-941000531",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": false
+      },
+      {
+        "id": "work:npc-942056095",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-943505255",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-956605484",
+        "expected": "insufficient_evidence",
+        "got": "insufficient_evidence",
+        "reason": "unassociated: no subject-relevant article on page",
+        "correct": true
+      },
+      {
+        "id": "work:npc-965251713",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-969272609",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-971608662",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-97202876",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-989721949",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-990713228",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "work:npc-990911217",
+        "expected": "insufficient_evidence",
+        "got": "different_person",
+        "reason": "unassociated: not extracted (outside priority set or fetch blocked)",
+        "correct": false
+      },
+      {
+        "id": "1100842220__a10.txt",
+        "expected": "same_person",
+        "got": "same_person",
+        "reason": "verified article",
+        "correct": true
+      },
+      {
+        "id": "1100842319__a2.txt",
+        "expected": "same_person",
+        "got": "same_person",
+        "reason": "verified article",
+        "correct": true
+      },
+      {
+        "id": "1100894830__a3.txt",
+        "expected": "same_person",
+        "got": "same_person",
+        "reason": "verified article",
+        "correct": true
+      },
+      {
+        "id": "1100894910__a2.txt",
+        "expected": "same_person",
+        "got": "same_person",
+        "reason": "verified article",
+        "correct": true
+      },
+      {
+        "id": "1100894996__a4.txt",
+        "expected": "same_person",
+        "got": "different_person",
+        "reason": "verified article",
+        "correct": false
+      },
+      {
+        "id": "1100916418__a4.txt",
+        "expected": "same_person",
+        "got": "insufficient_evidence",
+        "reason": "verified article",
+        "correct": false
+      },
+      {
+        "id": "1100916601__a7.txt",
+        "expected": "same_person",
+        "got": "insufficient_evidence",
+        "reason": "verified article",
+        "correct": false
+      },
+      {
+        "id": "1100933658__a5.txt",
+        "expected": "same_person",
+        "got": "same_person",
+        "reason": "verified article",
+        "correct": true
+      },
+      {
+        "id": "1100943036__a15.txt",
+        "expected": "same_person",
+        "got": "same_person",
+        "reason": "verified article",
+        "correct": true
+      },
+      {
+        "id": "1100943153__a4.txt",
+        "expected": "same_person",
+        "got": "different_person",
+        "reason": "verified article",
+        "correct": false
+      },
+      {
+        "id": "1100943276__a4.txt",
+        "expected": "same_person",
+        "got": "insufficient_evidence",
+        "reason": "verified article",
+        "correct": false
+      },
+      {
+        "id": "1100943401__a8.txt",
+        "expected": "same_person",
+        "got": "different_person",
+        "reason": "verified article",
+        "correct": false
+      },
+      {
+        "id": "1101035804__a8.txt",
+        "expected": "same_person",
+        "got": "same_person",
+        "reason": "verified article",
+        "correct": true
+      },
+      {
+        "id": "1101135895__a6.txt",
+        "expected": "same_person",
+        "got": "insufficient_evidence",
+        "reason": "verified article",
+        "correct": false
+      },
+      {
+        "id": "793520210__a0.txt",
+        "expected": "same_person",
+        "got": "same_person",
+        "reason": "verified article",
+        "correct": true
+      }
+    ],
+    "event_dedup": [
+      {
+        "a": "event:aiki-dance-workshop-1997",
+        "b": "event:aiki-dance-intro-1998",
+        "expected": "different_event",
+        "got": "different_event",
+        "correct": true
+      },
+      {
+        "a": "event:aikiweb-spring-retreat-with-richard-moon-sensei-5th-dan-3616069211",
+        "b": "event:aikiweb-fall-retreat-with-richard-moon-5th-dan-4af92261aa",
+        "expected": "different_event",
+        "got": "different_event",
+        "correct": true
+      },
+      {
+        "a": "event:aikiweb-grand-opening-seminar-with-robert-nadeau-7th-dan-richard-moo-efd81a0f5d",
+        "b": "event:aikiweb-seminar-with-robert-nadeau-shihan-7th-dan-richard-moon-5th-d-d3694d611e",
+        "expected": "different_event",
+        "got": "different_event",
+        "correct": true
+      },
+      {
+        "a": "event:aikido-and-dialogue-durham-1997",
+        "b": "event:aikido-and-dialogue-2001",
+        "expected": "different_event",
+        "got": "different_event",
+        "correct": true
+      }
+    ],
+    "claim_verification": [
+      {
+        "claim": "In September 1983 he gave an aikido demonstration at the Dance Palace with David Gamble and Sandy Jacobs.",
+        "source": "1101135895__a6.txt",
+        "result": {
+          "jev_verdict": "supported",
+          "jev_confidence": 0.49
+        }
+      },
+      {
+        "claim": "In February 1985 Moon registered the fictitious business name 'Aikido of Marin' in Marin County.",
+        "source": "1100894910__a2.txt",
+        "result": {
+          "jev_verdict": "supported",
+          "jev_confidence": 0.71
+        }
+      },
+      {
+        "claim": "With Chris Thorsen, Moon co-led 'Aikido and Dialogue' programs through their consultancy Performance Edge.",
+        "source": "793520210__a0.txt",
+        "result": {
+          "jev_verdict": "supported",
+          "jev_confidence": 0.9
+        }
+      },
+      {
+        "claim": "Moon worked on the Cyprus conflict-resolution project developed by IMTD with the Cyprus Fulbright Commission.",
+        "source": "riai",
+        "result": {
+          "jev_verdict": "supported",
+          "jev_confidence": 1.0
+        }
+      },
+      {
+        "claim": "Moon joined IMTD at its first Lake Trails camp in 1999, teaching aikido as a conflict-resolution tool.",
+        "source": "imtd",
+        "result": {
+          "jev_verdict": "unresolved",
+          "jev_confidence": 1.0
+        }
+      },
+      {
+        "claim": "Aikido Maastricht lists Moon among its hosted guest teachers.",
+        "source": "maastricht",
+        "result": {
+          "jev_verdict": "supported",
+          "jev_confidence": 1.0
+        }
+      },
+      {
+        "claim": "In June 2025 Moon taught at the annual Riviera Seminar on Lake Geneva.",
+        "source": "riviera",
+        "result": {
+          "jev_verdict": "unresolved",
+          "jev_confidence": 0.65
+        }
+      },
+      {
+        "claim": "Moon led guest sessions at the Awase dojo in Helsinki in June 2025.",
+        "source": "awase",
+        "result": {
+          "jev_verdict": "supported",
+          "jev_confidence": 0.84
+        }
+      },
+      {
+        "claim": "Moon is a senior associate of the Nautilus Institute.",
+        "source": "nadeau",
+        "result": {
+          "jev_verdict": "supported",
+          "jev_confidence": 1.0
+        }
+      },
+      {
+        "claim": "Moon was born in 1946.",
+        "source": "claim:moon-born-1946",
+        "result": {
+          "jev_verdict": "supported",
+          "jev_confidence": 0.99
+        }
+      },
+      {
+        "claim": "Moon presented 'Teriyaki Age' at La Cocina SF's Street Food Festival.",
+        "source": "event:richard-moon-at-la-cocina-street-food-festival",
+        "result": {
+          "jev_verdict": "supported",
+          "jev_confidence": 1.0
+        }
+      },
+      {
+        "claim": "Moon worked at The Source restaurant on the Sunset Strip during the Source Family era.",
+        "source": "claim:kkron:218252fe4b9771cb",
+        "result": {
+          "jev_verdict": "supported",
+          "jev_confidence": 0.95
+        }
+      },
+      {
+        "claim": "Moon also worked at the Aware Inn.",
+        "source": "claim:kkron:0e842747e2d98504",
+        "result": {
+          "jev_verdict": "supported",
+          "jev_confidence": 0.96
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,332 @@
+{
+ "name": "nadeau_relationships",
+ "description": "Migrated from scripts/23_ingest_nadeau_relationships.py (now deleted).",
+ "migrated_from": "scripts/23_ingest_nadeau_relationships.py",
+ "nodes": [
+  {
+   "id": "claim:search:nadeau-millman-student",
+   "type": "Claim",
+   "label": "Dan Millman is a notable student of Robert Nadeau (Wikipedia + multiple sources)",
+   "canonical_name": "Dan Millman student of Robert Nadeau",
+   "metadata": {
+    "claim_type": "biographical",
+    "stance": "supportive",
+    "evidence_mode": "secondary_report",
+    "discovered_via": "relationship_search",
+    "search_query": "\"Dan Millman\" \"Robert Nadeau\" aikido",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)",
+     "https://budovideos.com/products/aikido-the-art-of-transformation-the-life-and-teachings-of-robert-nadeau",
+     "https://www.aikido-health.com/robert-nadeau.html",
+     "https://www.cityaikido.com/nadeau-shihan",
+     "https://www.usadojo.com/robert-nadeau/"
+    ],
+    "wikipedia_quote": "Notable students: George Leonard, Richard Strozzi-Heckler, Dan Millman, Richard Moon",
+    "budovideos_quote": "Presents inspiring personal stories about Nadeau contributed by students, including Dan Millman, Richard Strozzi-Heckler, Peter Ralston, and Renee Gregorio"
+   },
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)",
+    "https://budovideos.com/products/aikido-the-art-of-transformation-the-life-and-teachings-of-robert-nadeau"
+   ]
+  },
+  {
+   "id": "claim:search:nadeau-moon-student",
+   "type": "Claim",
+   "label": "Richard Moon is a notable student of Robert Nadeau (Wikipedia)",
+   "canonical_name": "Richard Moon student of Robert Nadeau",
+   "metadata": {
+    "claim_type": "biographical",
+    "stance": "supportive",
+    "evidence_mode": "secondary_report",
+    "discovered_via": "relationship_search",
+    "search_query": "\"Dan Millman\" \"Robert Nadeau\" aikido",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"
+    ],
+    "wikipedia_quote": "Notable students: George Leonard, Richard Strozzi-Heckler, Dan Millman, Richard Moon"
+   },
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"
+   ]
+  },
+  {
+   "id": "claim:search:nadeau-bunch-kufferath",
+   "type": "Claim",
+   "label": "Robert Nadeau shared dojo space with Sig Kufferath, later with Richard Bunch (Wikipedia)",
+   "canonical_name": "Nadeau shared space with Kufferath and Bunch",
+   "metadata": {
+    "claim_type": "biographical",
+    "stance": "supportive",
+    "evidence_mode": "secondary_report",
+    "discovered_via": "relationship_search",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"
+    ],
+    "wikipedia_quote": "he opened a series of martial art schools sharing space with first Professor Sig Kufferath and later Richard Bunch through whom he has had on-going contact with several notable Ju-Jitsu schools"
+   },
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"
+   ]
+  },
+  {
+   "id": "person:richard-strozzi-heckler",
+   "type": "Person",
+   "label": "Richard Strozzi-Heckler",
+   "canonical_name": "Richard Strozzi-Heckler",
+   "metadata": {
+    "role": "Aikido teacher, author, somatics practitioner",
+    "context": "Notable student of Robert Nadeau (Wikipedia)"
+   },
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)",
+    "https://budovideos.com/products/aikido-the-art-of-transformation-the-life-and-teachings-of-robert-nadeau"
+   ]
+  },
+  {
+   "id": "person:peter-ralston",
+   "type": "Person",
+   "label": "Peter Ralston",
+   "canonical_name": "Peter Ralston",
+   "metadata": {
+    "role": "Martial arts teacher",
+    "context": "Contributed personal stories about training with Nadeau (budovideos.com)"
+   },
+   "source_urls": [
+    "https://budovideos.com/products/aikido-the-art-of-transformation-the-life-and-teachings-of-robert-nadeau"
+   ]
+  },
+  {
+   "id": "person:george-leonard",
+   "type": "Person",
+   "label": "George Leonard",
+   "canonical_name": "George Leonard",
+   "metadata": {
+    "role": "Author, aikido practitioner",
+    "context": "Notable student of Robert Nadeau (Wikipedia); founder of Esalen-related work"
+   },
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)",
+    "https://www.aikido-health.com/robert-nadeau.html",
+    "https://www.cityaikido.com/nadeau-shihan",
+    "https://www.usadojo.com/robert-nadeau/"
+   ]
+  },
+  {
+   "id": "person:michael-murphy",
+   "type": "Person",
+   "label": "Michael Murphy",
+   "canonical_name": "Michael Murphy",
+   "metadata": {
+    "role": "Founder of Esalen Institute",
+    "context": "Featured Nadeau in his books; mentioned alongside Dan Millman"
+   },
+   "source_urls": [
+    "https://www.aikido-health.com/robert-nadeau.html",
+    "https://www.cityaikido.com/nadeau-shihan",
+    "https://www.usadojo.com/robert-nadeau/"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "person:dan-millman",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {
+    "relationship": "student_of",
+    "context": "Dan Millman is listed as a notable student of Robert Nadeau",
+    "evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)",
+    "corroborating_sources": [
+     "https://budovideos.com/products/aikido-the-art-of-transformation-the-life-and-teachings-of-robert-nadeau",
+     "https://www.aikido-health.com/robert-nadeau.html",
+     "https://www.cityaikido.com/nadeau-shihan",
+     "https://www.usadojo.com/robert-nadeau/"
+    ],
+    "discovered_via": "relationship_search"
+   }
+  },
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {
+    "relationship": "student_of",
+    "context": "Richard Moon is listed as a notable student of Robert Nadeau",
+    "evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)",
+    "discovered_via": "relationship_search"
+   }
+  },
+  {
+   "src_id": "person:richard-strozzi-heckler",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {
+    "relationship": "student_of",
+    "context": "Richard Strozzi-Heckler is listed as a notable student of Robert Nadeau",
+    "evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)",
+    "corroborating_sources": [
+     "https://budovideos.com/products/aikido-the-art-of-transformation-the-life-and-teachings-of-robert-nadeau"
+    ],
+    "discovered_via": "relationship_search"
+   }
+  },
+  {
+   "src_id": "person:george-leonard",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {
+    "relationship": "student_of",
+    "context": "George Leonard is listed as a notable student of Robert Nadeau",
+    "evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)",
+    "corroborating_sources": [
+     "https://www.aikido-health.com/robert-nadeau.html",
+     "https://www.cityaikido.com/nadeau-shihan",
+     "https://www.usadojo.com/robert-nadeau/"
+    ],
+    "discovered_via": "relationship_search"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {
+    "relationship": "student_of",
+    "context": "Peter Ralston contributed personal stories about training with Nadeau",
+    "evidence": "https://budovideos.com/products/aikido-the-art-of-transformation-the-life-and-teachings-of-robert-nadeau",
+    "discovered_via": "relationship_search"
+   }
+  },
+  {
+   "src_id": "claim:search:nadeau-millman-student",
+   "rel_type": "ABOUT",
+   "dst_id": "person:dan-millman",
+   "metadata": {
+    "evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"
+   }
+  },
+  {
+   "src_id": "claim:search:nadeau-millman-student",
+   "rel_type": "ABOUT",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {
+    "evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"
+   }
+  },
+  {
+   "src_id": "claim:search:nadeau-moon-student",
+   "rel_type": "ABOUT",
+   "dst_id": "person:richard-moon-aikido",
+   "metadata": {
+    "evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"
+   }
+  },
+  {
+   "src_id": "claim:search:nadeau-moon-student",
+   "rel_type": "ABOUT",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {
+    "evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"
+   }
+  },
+  {
+   "src_id": "claim:search:nadeau-bunch-kufferath",
+   "rel_type": "ABOUT",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {
+    "evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)"
+   }
+  },
+  {
+   "src_id": "person:robert-nadeau",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:sig-kufferath",
+   "metadata": {
+    "context": "Nadeau shared martial art school space with Professor Sig Kufferath",
+    "evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)",
+    "discovered_via": "relationship_search"
+   }
+  },
+  {
+   "src_id": "person:robert-nadeau",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:richard-bunch",
+   "metadata": {
+    "context": "Nadeau later shared space with Richard Bunch, who connected him to Ju-Jitsu schools",
+    "evidence": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)",
+    "discovered_via": "relationship_search"
+   }
+  },
+  {
+   "src_id": "person:michael-murphy",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {
+    "context": "Michael Murphy (founder of Esalen) featured Nadeau in his books, alongside Dan Millman",
+    "evidence": "https://www.aikido-health.com/robert-nadeau.html",
+    "corroborating_sources": [
+     "https://www.cityaikido.com/nadeau-shihan",
+     "https://www.usadojo.com/robert-nadeau/"
+    ],
+    "discovered_via": "relationship_search"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:wikipedia:nadeau-aikidoka",
+   "url": "https://en.wikipedia.org/wiki/Robert_Nadeau_(aikidoka)",
+   "title": "Robert Nadeau (aikidoka) - Wikipedia",
+   "author": null,
+   "publish_date": null,
+   "platform": "Wikipedia",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:aikido-health:nadeau",
+   "url": "https://www.aikido-health.com/robert-nadeau.html",
+   "title": "Robert Nadeau - Aikido Master",
+   "author": null,
+   "publish_date": null,
+   "platform": "aikido-health.com",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:budovideos:nadeau-book",
+   "url": "https://budovideos.com/products/aikido-the-art-of-transformation-the-life-and-teachings-of-robert-nadeau",
+   "title": "Aikido: The Art of Transformation: The Life and Teachings of Robert Nadeau",
+   "author": null,
+   "publish_date": null,
+   "platform": "budovideos.com",
+   "raw_text": null,
+   "source_class": "documentary_promotional",
+   "bias_hint": null
+  },
+  {
+   "id": "src:cityaikido:nadeau-shihan",
+   "url": "https://www.cityaikido.com/nadeau-shihan",
+   "title": "Robert Nadeau Shihan - City Aikido",
+   "author": null,
+   "publish_date": null,
+   "platform": "cityaikido.com",
+   "raw_text": null,
+   "source_class": "documentary_promotional",
+   "bias_hint": null
+  },
+  {
+   "id": "src:usadojo:nadeau",
+   "url": "https://www.usadojo.com/robert-nadeau/",
+   "title": "Robert Nadeau Aikido - USAdojo.com",
+   "author": null,
+   "publish_date": null,
+   "platform": "usadojo.com",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  }
+ ]
+}

@@ -1,0 +1,1374 @@
+{
+ "name": "nadeau_russia_sources",
+ "description": "Migrated from scripts/ingest_nadeau_russia_sources.py (now deleted).",
+ "migrated_from": "scripts/ingest_nadeau_russia_sources.py",
+ "nodes": [
+  {
+   "id": "work:9c12646dacf2facd",
+   "type": "Work",
+   "label": "Московский Айки Клуб",
+   "canonical_name": "Московский Айки Клуб",
+   "metadata": {
+    "url": "http://www.aikiclub.ru/spb.html",
+    "publish_date": null,
+    "author": null,
+    "platform": "aikiclub.ru",
+    "work_type": "web_page"
+   },
+   "source_urls": [
+    "http://www.aikiclub.ru/spb.html"
+   ]
+  },
+  {
+   "id": "image:5ed3adccce481cdb12e81676870fd96ca303d806993f491c0e234d0a8af42da4",
+   "type": "Image",
+   "label": "Альфат Макашев",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "http://www.aikiclub.ru/spb_f/alfat2.jpg",
+    "content_hash": "5ed3adccce481cdb12e81676870fd96ca303d806993f491c0e234d0a8af42da4",
+    "mime": "image/jpeg",
+    "width": 283,
+    "height": 213,
+    "alt": "Альфат Макашев"
+   },
+   "source_urls": [
+    "http://www.aikiclub.ru/spb.html"
+   ]
+  },
+  {
+   "id": "image:9d300dcc047b4dd4961f769a46208dbf9b36cb3da4e303c2b5e2d2b7371024eb",
+   "type": "Image",
+   "label": "Владислав Рукавишников",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "http://www.aikiclub.ru/spb_f/rv.jpg",
+    "content_hash": "9d300dcc047b4dd4961f769a46208dbf9b36cb3da4e303c2b5e2d2b7371024eb",
+    "mime": "image/jpeg",
+    "width": 286,
+    "height": 214,
+    "alt": "Владислав Рукавишников"
+   },
+   "source_urls": [
+    "http://www.aikiclub.ru/spb.html"
+   ]
+  },
+  {
+   "id": "image:a2509d8c5f3a6bcb2604de5e3808487f528a8fe97be679a4f7195494601b6f11",
+   "type": "Image",
+   "label": "Сергей Киселев",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "http://www.aikiclub.ru/spb_f/kiselev2.jpg",
+    "content_hash": "a2509d8c5f3a6bcb2604de5e3808487f528a8fe97be679a4f7195494601b6f11",
+    "mime": "image/jpeg",
+    "width": 283,
+    "height": 213,
+    "alt": "Сергей Киселев"
+   },
+   "source_urls": [
+    "http://www.aikiclub.ru/spb.html"
+   ]
+  },
+  {
+   "id": "image:a455923217c482b19654a760cabda178375e79739d4c9591622042e2694ae1dd",
+   "type": "Image",
+   "label": "Владимир Тагиров",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "http://www.aikiclub.ru/spb_f/tagirov.jpg",
+    "content_hash": "a455923217c482b19654a760cabda178375e79739d4c9591622042e2694ae1dd",
+    "mime": "image/jpeg",
+    "width": 286,
+    "height": 215,
+    "alt": "Владимир Тагиров"
+   },
+   "source_urls": [
+    "http://www.aikiclub.ru/spb.html"
+   ]
+  },
+  {
+   "id": "image:7799ca3e11db12996268db7402623c8848d672149630b6f0af5243c563a484d0",
+   "type": "Image",
+   "label": "Валерий Скрылев",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "http://www.aikiclub.ru/spb_f/skryliov.jpg",
+    "content_hash": "7799ca3e11db12996268db7402623c8848d672149630b6f0af5243c563a484d0",
+    "mime": "image/jpeg",
+    "width": 283,
+    "height": 212,
+    "alt": "Валерий Скрылев"
+   },
+   "source_urls": [
+    "http://www.aikiclub.ru/spb.html"
+   ]
+  },
+  {
+   "id": "work:85f5e6e4e287d660",
+   "type": "Work",
+   "label": "Айкидо",
+   "canonical_name": "Айкидо",
+   "metadata": {
+    "url": "https://bujutsu.ru/aikido/",
+    "publish_date": null,
+    "author": null,
+    "platform": "bujutsu.ru",
+    "work_type": "web_page"
+   },
+   "source_urls": [
+    "https://bujutsu.ru/aikido/"
+   ]
+  },
+  {
+   "id": "work:5aa77b8944608532",
+   "type": "Work",
+   "label": "Лучшая школа Айкидо для детей в Казани",
+   "canonical_name": "Лучшая школа Айкидо для детей в Казани",
+   "metadata": {
+    "url": "https://rebenok-na-aikido.ru/",
+    "publish_date": null,
+    "author": null,
+    "platform": "rebenok-na-aikido.ru",
+    "work_type": "web_page"
+   },
+   "source_urls": [
+    "https://rebenok-na-aikido.ru/"
+   ]
+  },
+  {
+   "id": "image:2b21d048553ddb8490c2984046b4ad9aa179f989c650eb26616439725fdbef27",
+   "type": "Image",
+   "label": "Лучшая школа Айкидо для детей в Казани",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://thb.tildacdn.com/tild6137-6530-4433-b832-313931333632/-/resize/504x/scale_1200.jpg",
+    "content_hash": "2b21d048553ddb8490c2984046b4ad9aa179f989c650eb26616439725fdbef27",
+    "mime": "image/jpeg",
+    "width": 504,
+    "height": 370,
+    "alt": "Лучшая школа Айкидо для детей в Казани"
+   },
+   "source_urls": [
+    "https://rebenok-na-aikido.ru/"
+   ]
+  },
+  {
+   "id": "image:1d4ac001faef866dc252ed3c89c72ab12a52bb4866a5654116494fce56b24eec",
+   "type": "Image",
+   "label": "https://thb.tildacdn.com/tild3237-3534-4266-a332-356466623065/-/empty/vospitanie.png",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://thb.tildacdn.com/tild3237-3534-4266-a332-356466623065/-/empty/vospitanie.png",
+    "content_hash": "1d4ac001faef866dc252ed3c89c72ab12a52bb4866a5654116494fce56b24eec",
+    "mime": "image/png",
+    "width": 400,
+    "height": 400,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://rebenok-na-aikido.ru/"
+   ]
+  },
+  {
+   "id": "image:ba83199c335592ebe65b3aae9aa9e4ab12a468a4c9efca6346d9ccfa1d2e771c",
+   "type": "Image",
+   "label": "https://thb.tildacdn.com/tild3034-6133-4661-b866-333666663835/-/empty/94107.png",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://thb.tildacdn.com/tild3034-6133-4661-b866-333666663835/-/empty/94107.png",
+    "content_hash": "ba83199c335592ebe65b3aae9aa9e4ab12a468a4c9efca6346d9ccfa1d2e771c",
+    "mime": "image/png",
+    "width": 630,
+    "height": 533,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://rebenok-na-aikido.ru/"
+   ]
+  },
+  {
+   "id": "image:b9eb23408f26ac181966ee9588fc549db39585fe3028f84bbb0301ba34967862",
+   "type": "Image",
+   "label": "https://thb.tildacdn.com/tild3762-3962-4731-a562-333634653165/-/empty/kisspng-computer-ico.png",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://thb.tildacdn.com/tild3762-3962-4731-a562-333634653165/-/empty/kisspng-computer-ico.png",
+    "content_hash": "b9eb23408f26ac181966ee9588fc549db39585fe3028f84bbb0301ba34967862",
+    "mime": "image/png",
+    "width": 696,
+    "height": 980,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://rebenok-na-aikido.ru/"
+   ]
+  },
+  {
+   "id": "image:2d7ee4515cc5751f9b717ecb484ff41e3986e331c5c698a52ed690939e51c083",
+   "type": "Image",
+   "label": "https://thb.tildacdn.com/tild3632-3337-4666-b762-333632346438/-/empty/pngwingcom.png",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://thb.tildacdn.com/tild3632-3337-4666-b762-333632346438/-/empty/pngwingcom.png",
+    "content_hash": "2d7ee4515cc5751f9b717ecb484ff41e3986e331c5c698a52ed690939e51c083",
+    "mime": "image/png",
+    "width": 1600,
+    "height": 1600,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://rebenok-na-aikido.ru/"
+   ]
+  },
+  {
+   "id": "image:4cfeb5d009d8be1e099dc5cbf7d01a8276f85441dc7c08692b906c6023b79806",
+   "type": "Image",
+   "label": "https://thb.tildacdn.com/tild6539-3730-4737-b933-646434626463/-/empty/i.jpg",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://thb.tildacdn.com/tild6539-3730-4737-b933-646434626463/-/empty/i.jpg",
+    "content_hash": "4cfeb5d009d8be1e099dc5cbf7d01a8276f85441dc7c08692b906c6023b79806",
+    "mime": "image/png",
+    "width": 270,
+    "height": 270,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://rebenok-na-aikido.ru/"
+   ]
+  },
+  {
+   "id": "image:2d1007ddf7ffead4540543e67b0df5875a7143affd82e8beffe1bca54f39d012",
+   "type": "Image",
+   "label": "https://thb.tildacdn.com/tild6535-3766-4064-a233-623738383134/-/empty/kisspng-portable-net.png",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://thb.tildacdn.com/tild6535-3766-4064-a233-623738383134/-/empty/kisspng-portable-net.png",
+    "content_hash": "2d1007ddf7ffead4540543e67b0df5875a7143affd82e8beffe1bca54f39d012",
+    "mime": "image/png",
+    "width": 1286,
+    "height": 1188,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://rebenok-na-aikido.ru/"
+   ]
+  },
+  {
+   "id": "image:0d1bc6b48dccad0513830d8f9758da0fe9ee921dae79e675e5523de0220abe6d",
+   "type": "Image",
+   "label": "https://thb.tildacdn.com/tild3662-6237-4765-b461-356161636165/-/empty/DSC02781.jpeg",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://thb.tildacdn.com/tild3662-6237-4765-b461-356161636165/-/empty/DSC02781.jpeg",
+    "content_hash": "0d1bc6b48dccad0513830d8f9758da0fe9ee921dae79e675e5523de0220abe6d",
+    "mime": "image/png",
+    "width": 329,
+    "height": 560,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://rebenok-na-aikido.ru/"
+   ]
+  },
+  {
+   "id": "image:935815fe4b0649cc451719e542e0d7e1ed16c0982061e6f3df3bd70c52e2ccda",
+   "type": "Image",
+   "label": "https://thb.tildacdn.com/tild6264-3037-4337-a536-363630626265/-/empty/DSC02697.JPG",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://thb.tildacdn.com/tild6264-3037-4337-a536-363630626265/-/empty/DSC02697.JPG",
+    "content_hash": "935815fe4b0649cc451719e542e0d7e1ed16c0982061e6f3df3bd70c52e2ccda",
+    "mime": "image/png",
+    "width": 379,
+    "height": 560,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://rebenok-na-aikido.ru/"
+   ]
+  },
+  {
+   "id": "image:16599c684fad6e91eade226f223bff8dbc0b7750c2b72b2544b2f6b2431991a0",
+   "type": "Image",
+   "label": "https://thb.tildacdn.com/tild3962-3533-4238-a262-626138373163/-/empty/__2022-10-06__145222.png",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://thb.tildacdn.com/tild3962-3533-4238-a262-626138373163/-/empty/__2022-10-06__145222.png",
+    "content_hash": "16599c684fad6e91eade226f223bff8dbc0b7750c2b72b2544b2f6b2431991a0",
+    "mime": "image/png",
+    "width": 720,
+    "height": 1062,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://rebenok-na-aikido.ru/"
+   ]
+  },
+  {
+   "id": "image:a1e3d8fad378862df71b7c10dbe890528914b1dff963066f636800074d7b8848",
+   "type": "Image",
+   "label": "https://thb.tildacdn.com/tild3034-3234-4931-a265-356361656466/-/empty/__2022-10-09__063115.png",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://thb.tildacdn.com/tild3034-3234-4931-a265-356361656466/-/empty/__2022-10-09__063115.png",
+    "content_hash": "a1e3d8fad378862df71b7c10dbe890528914b1dff963066f636800074d7b8848",
+    "mime": "image/png",
+    "width": 702,
+    "height": 1006,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://rebenok-na-aikido.ru/"
+   ]
+  },
+  {
+   "id": "image:36e79fe5cde818b03c9329c918e5035185287df83496c8b86c5167ca79a324aa",
+   "type": "Image",
+   "label": "https://thb.tildacdn.com/tild3730-6563-4262-b162-363738326664/-/empty/__2022-10-06__145238.png",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://thb.tildacdn.com/tild3730-6563-4262-b162-363738326664/-/empty/__2022-10-06__145238.png",
+    "content_hash": "36e79fe5cde818b03c9329c918e5035185287df83496c8b86c5167ca79a324aa",
+    "mime": "image/png",
+    "width": 742,
+    "height": 1022,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://rebenok-na-aikido.ru/"
+   ]
+  },
+  {
+   "id": "image:cba8da21c54bc496afaddbaa59f7df9dca78a2669041051e860300b1f88a46f9",
+   "type": "Image",
+   "label": "https://thb.tildacdn.com/tild6637-3435-4231-a235-366465386232/-/empty/__2022-10-09__063123.png",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://thb.tildacdn.com/tild6637-3435-4231-a235-366465386232/-/empty/__2022-10-09__063123.png",
+    "content_hash": "cba8da21c54bc496afaddbaa59f7df9dca78a2669041051e860300b1f88a46f9",
+    "mime": "image/png",
+    "width": 712,
+    "height": 1006,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://rebenok-na-aikido.ru/"
+   ]
+  },
+  {
+   "id": "image:09df8783b1f7ffae8a9e1d8de1332f749a93c6f7cff34dbf23e4897b66257acf",
+   "type": "Image",
+   "label": "https://thb.tildacdn.com/tild3065-3065-4233-a362-626238303736/-/empty/__2022-10-06__153125.png",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://thb.tildacdn.com/tild3065-3065-4233-a362-626238303736/-/empty/__2022-10-06__153125.png",
+    "content_hash": "09df8783b1f7ffae8a9e1d8de1332f749a93c6f7cff34dbf23e4897b66257acf",
+    "mime": "image/png",
+    "width": 692,
+    "height": 984,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://rebenok-na-aikido.ru/"
+   ]
+  },
+  {
+   "id": "image:39f19300b65560179983af8db71c099764f513456c5584f454f41bdedd4fe36f",
+   "type": "Image",
+   "label": "https://thb.tildacdn.com/tild6462-3330-4334-b933-643537306362/-/empty/__2022-10-06__152951.png",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://thb.tildacdn.com/tild6462-3330-4334-b933-643537306362/-/empty/__2022-10-06__152951.png",
+    "content_hash": "39f19300b65560179983af8db71c099764f513456c5584f454f41bdedd4fe36f",
+    "mime": "image/png",
+    "width": 694,
+    "height": 988,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://rebenok-na-aikido.ru/"
+   ]
+  },
+  {
+   "id": "image:816f06f4c4bc53d9b6751a8d6b9ad0e89f52b0c423d1b0c00e6907b54e406451",
+   "type": "Image",
+   "label": "https://thb.tildacdn.com/tild3333-6564-4362-b161-643066303361/-/empty/vippngcom-statistics.png",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://thb.tildacdn.com/tild3333-6564-4362-b161-643066303361/-/empty/vippngcom-statistics.png",
+    "content_hash": "816f06f4c4bc53d9b6751a8d6b9ad0e89f52b0c423d1b0c00e6907b54e406451",
+    "mime": "image/png",
+    "width": 980,
+    "height": 898,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://rebenok-na-aikido.ru/"
+   ]
+  },
+  {
+   "id": "image:699cf0bca687e4691941ace89fd6a69663a757d102a63f339f96756dbfaead15",
+   "type": "Image",
+   "label": "https://thb.tildacdn.com/tild6163-3537-4362-b030-633965383862/-/empty/105-1052194_aikido-p.png",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "https://thb.tildacdn.com/tild6163-3537-4362-b030-633965383862/-/empty/105-1052194_aikido-p.png",
+    "content_hash": "699cf0bca687e4691941ace89fd6a69663a757d102a63f339f96756dbfaead15",
+    "mime": "image/png",
+    "width": 727,
+    "height": 804,
+    "alt": ""
+   },
+   "source_urls": [
+    "https://rebenok-na-aikido.ru/"
+   ]
+  },
+  {
+   "id": "work:882d546bb27fa821",
+   "type": "Work",
+   "label": "Nadeau Shihan — City Aikido",
+   "canonical_name": "Nadeau Shihan — City Aikido",
+   "metadata": {
+    "url": "https://www.cityaikido.com/nadeau-shihan",
+    "publish_date": null,
+    "author": null,
+    "platform": "cityaikido.com",
+    "work_type": "web_page"
+   },
+   "source_urls": [
+    "https://www.cityaikido.com/nadeau-shihan"
+   ]
+  },
+  {
+   "id": "work:b79ca4b0a17e609d",
+   "type": "Work",
+   "label": "Energy Process work",
+   "canonical_name": "Energy Process work",
+   "metadata": {
+    "url": "http://dev.aikidoofpetaluma.com/energy.html",
+    "publish_date": null,
+    "author": null,
+    "platform": "dev.aikidoofpetaluma.com",
+    "work_type": "web_page"
+   },
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html"
+   ]
+  },
+  {
+   "id": "image:7a713651be8ae793548daa47c24004b7e05f8c38e4de7d6586992e65bb968311",
+   "type": "Image",
+   "label": "http://dev.aikidoofpetaluma.com/images/andrewthrow.jpg",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "http://dev.aikidoofpetaluma.com/images/andrewthrow.jpg",
+    "content_hash": "7a713651be8ae793548daa47c24004b7e05f8c38e4de7d6586992e65bb968311",
+    "mime": "image/jpeg",
+    "width": 300,
+    "height": 257,
+    "alt": ""
+   },
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html"
+   ]
+  },
+  {
+   "id": "image:a9c3ffb54210c1ef35d8cbb9411b01883c1aaaddc1de85c12cd70978d2a64257",
+   "type": "Image",
+   "label": "http://dev.aikidoofpetaluma.com/images/sasunthrow.jpg",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "http://dev.aikidoofpetaluma.com/images/sasunthrow.jpg",
+    "content_hash": "a9c3ffb54210c1ef35d8cbb9411b01883c1aaaddc1de85c12cd70978d2a64257",
+    "mime": "image/jpeg",
+    "width": 300,
+    "height": 280,
+    "alt": ""
+   },
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html"
+   ]
+  },
+  {
+   "id": "image:568408d3565ff17603aeb500786598f0e0daa2914b0d6e1d191218016f15e86a",
+   "type": "Image",
+   "label": "http://dev.aikidoofpetaluma.com/images/aopsplash.jpg",
+   "canonical_name": null,
+   "metadata": {
+    "original_url": "http://dev.aikidoofpetaluma.com/images/aopsplash.jpg",
+    "content_hash": "568408d3565ff17603aeb500786598f0e0daa2914b0d6e1d191218016f15e86a",
+    "mime": "image/jpeg",
+    "width": 390,
+    "height": 250,
+    "alt": ""
+   },
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html"
+   ]
+  },
+  {
+   "id": "person:bob-noha",
+   "type": "Person",
+   "label": "Bob Noha",
+   "canonical_name": "bob noha",
+   "metadata": {
+    "aliases": [],
+    "extraction_source": "gemini"
+   },
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html"
+   ]
+  },
+  {
+   "id": "person:robert-nadeau",
+   "type": "Person",
+   "label": "Robert Nadeau",
+   "canonical_name": "robert nadeau",
+   "metadata": {},
+   "source_urls": [
+    "https://aikido.org.nz/nadeauworkshop/"
+   ]
+  },
+  {
+   "id": "person:morihei-uyeshiba",
+   "type": "Person",
+   "label": "Morihei Uyeshiba",
+   "canonical_name": "morihei uyeshiba",
+   "metadata": {
+    "aliases": [],
+    "extraction_source": "gemini"
+   },
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html"
+   ]
+  },
+  {
+   "id": "person:michael-murphy",
+   "type": "Person",
+   "label": "Michael Murphy",
+   "canonical_name": "michael murphy",
+   "metadata": {
+    "aliases": [],
+    "extraction_source": "gemini"
+   },
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html"
+   ]
+  },
+  {
+   "id": "person:george-leonard",
+   "type": "Person",
+   "label": "George Leonard",
+   "canonical_name": "george leonard",
+   "metadata": {
+    "aliases": [],
+    "extraction_source": "gemini"
+   },
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html"
+   ]
+  },
+  {
+   "id": "group:aikido-of-petaluma",
+   "type": "Group",
+   "label": "Aikido of Petaluma",
+   "canonical_name": "Aikido of Petaluma",
+   "metadata": {},
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html"
+   ]
+  },
+  {
+   "id": "place:petaluma",
+   "type": "Place",
+   "label": "Petaluma",
+   "canonical_name": "Petaluma",
+   "metadata": {},
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html"
+   ]
+  },
+  {
+   "id": "place:united-states",
+   "type": "Place",
+   "label": "United States",
+   "canonical_name": "United States",
+   "metadata": {},
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html"
+   ]
+  },
+  {
+   "id": "place:israel",
+   "type": "Place",
+   "label": "Israel",
+   "canonical_name": "Israel",
+   "metadata": {},
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html"
+   ]
+  },
+  {
+   "id": "place:europe",
+   "type": "Place",
+   "label": "Europe",
+   "canonical_name": "Europe",
+   "metadata": {},
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html"
+   ]
+  },
+  {
+   "id": "place:russia",
+   "type": "Place",
+   "label": "Russia",
+   "canonical_name": "Russia",
+   "metadata": {},
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html"
+   ]
+  },
+  {
+   "id": "claim:578ca10560e8fb18",
+   "type": "Claim",
+   "label": "Energy Process Work focuses on opening the system to allow us to experience, acknowledge and integrate all aspects of ourselves.",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "Energy Process Work focuses on opening the system to allow us to experience, acknowledge and integrate all aspects of ourselves.",
+    "claim_type": "biographical",
+    "stance": "supportive",
+    "confidence": 0.9,
+    "evidence_mode": "commentary"
+   },
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html"
+   ]
+  },
+  {
+   "id": "person:null",
+   "type": "Person",
+   "label": "null",
+   "canonical_name": "null",
+   "metadata": {},
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html"
+   ]
+  },
+  {
+   "id": "claim:bfc0b141a80b08ad",
+   "type": "Claim",
+   "label": "Energy Process Work promotes spiritual growth and improved functioning in our daily lives.",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "Energy Process Work promotes spiritual growth and improved functioning in our daily lives.",
+    "claim_type": "biographical",
+    "stance": "supportive",
+    "confidence": 0.9,
+    "evidence_mode": "commentary"
+   },
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html"
+   ]
+  },
+  {
+   "id": "work:7c03c359bd289958",
+   "type": "Work",
+   "label": "O Sensei Revisited Down Under - Riai Aikido",
+   "canonical_name": "O Sensei Revisited Down Under - Riai Aikido",
+   "metadata": {
+    "url": "https://aikido.org.nz/nadeauworkshop/",
+    "publish_date": "2019-02-18T21:44:15+00:00",
+    "author": "Conrad Edwards",
+    "platform": "aikido.org.nz",
+    "work_type": "web_page"
+   },
+   "source_urls": [
+    "https://aikido.org.nz/nadeauworkshop/"
+   ]
+  },
+  {
+   "id": "person:morihei-ueshiba",
+   "type": "Person",
+   "label": "Morihei Ueshiba",
+   "canonical_name": "morihei ueshiba",
+   "metadata": {},
+   "source_urls": [
+    "https://aikido.org.nz/nadeauworkshop/"
+   ]
+  },
+  {
+   "id": "person:richard-moon-aikido",
+   "type": "Person",
+   "label": "Richard Moon Sensei",
+   "canonical_name": "richard moon aikido",
+   "metadata": {
+    "aliases": [],
+    "extraction_source": "gemini"
+   },
+   "source_urls": [
+    "https://aikido.org.nz/nadeauworkshop/"
+   ]
+  },
+  {
+   "id": "place:usa",
+   "type": "Place",
+   "label": "USA",
+   "canonical_name": "USA",
+   "metadata": {},
+   "source_urls": [
+    "https://aikido.org.nz/nadeauworkshop/"
+   ]
+  },
+  {
+   "id": "place:new-zealand",
+   "type": "Place",
+   "label": "New Zealand",
+   "canonical_name": "New Zealand",
+   "metadata": {},
+   "source_urls": [
+    "https://aikido.org.nz/nadeauworkshop/"
+   ]
+  },
+  {
+   "id": "place:auckland",
+   "type": "Place",
+   "label": "Auckland",
+   "canonical_name": "Auckland",
+   "metadata": {},
+   "source_urls": [
+    "https://aikido.org.nz/nadeauworkshop/"
+   ]
+  },
+  {
+   "id": "event:o-sensei-revisited-down-under-workshop",
+   "type": "Event",
+   "label": "O Sensei Revisited Down Under Workshop",
+   "canonical_name": "O Sensei Revisited Down Under Workshop",
+   "metadata": {
+    "event_type": "workshop",
+    "start_date": "2019-03-01",
+    "end_date": "2019-03-31",
+    "description": "Aikido workshop conducted by Robert Nadeau Shihan and Richard Moon Sensei in Auckland, New Zealand in March 2019."
+   },
+   "source_urls": [
+    "https://aikido.org.nz/nadeauworkshop/"
+   ]
+  },
+  {
+   "id": "claim:22ed28fcda6ed2a4",
+   "type": "Claim",
+   "label": "He received personal instruction from O Sensei in the spiritual, philosophical, and energy aspects of Aikido.",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "He received personal instruction from O Sensei in the spiritual, philosophical, and energy aspects of Aikido.",
+    "claim_type": "biographical",
+    "stance": "neutral",
+    "confidence": 0.95,
+    "evidence_mode": "secondary_report"
+   },
+   "source_urls": [
+    "https://aikido.org.nz/nadeauworkshop/"
+   ]
+  },
+  {
+   "id": "person:unknown",
+   "type": "Person",
+   "label": "Unknown",
+   "canonical_name": "unknown",
+   "metadata": {},
+   "source_urls": [
+    "https://aikido.org.nz/nadeauworkshop/"
+   ]
+  },
+  {
+   "id": "claim:63a790d82832d086",
+   "type": "Claim",
+   "label": "This workshop was an amazing experience.",
+   "canonical_name": null,
+   "metadata": {
+    "claim_text": "This workshop was an amazing experience.",
+    "claim_type": "documentary_critique",
+    "stance": "supportive",
+    "confidence": 0.9,
+    "evidence_mode": "commentary"
+   },
+   "source_urls": [
+    "https://aikido.org.nz/nadeauworkshop/"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "work:9c12646dacf2facd",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:5ed3adccce481cdb12e81676870fd96ca303d806993f491c0e234d0a8af42da4",
+   "metadata": {
+    "evidence": "http://www.aikiclub.ru/spb.html"
+   }
+  },
+  {
+   "src_id": "work:9c12646dacf2facd",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:9d300dcc047b4dd4961f769a46208dbf9b36cb3da4e303c2b5e2d2b7371024eb",
+   "metadata": {
+    "evidence": "http://www.aikiclub.ru/spb.html"
+   }
+  },
+  {
+   "src_id": "work:9c12646dacf2facd",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:a2509d8c5f3a6bcb2604de5e3808487f528a8fe97be679a4f7195494601b6f11",
+   "metadata": {
+    "evidence": "http://www.aikiclub.ru/spb.html"
+   }
+  },
+  {
+   "src_id": "work:9c12646dacf2facd",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:a455923217c482b19654a760cabda178375e79739d4c9591622042e2694ae1dd",
+   "metadata": {
+    "evidence": "http://www.aikiclub.ru/spb.html"
+   }
+  },
+  {
+   "src_id": "work:9c12646dacf2facd",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:7799ca3e11db12996268db7402623c8848d672149630b6f0af5243c563a484d0",
+   "metadata": {
+    "evidence": "http://www.aikiclub.ru/spb.html"
+   }
+  },
+  {
+   "src_id": "work:5aa77b8944608532",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:2b21d048553ddb8490c2984046b4ad9aa179f989c650eb26616439725fdbef27",
+   "metadata": {
+    "evidence": "https://rebenok-na-aikido.ru/"
+   }
+  },
+  {
+   "src_id": "work:5aa77b8944608532",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:1d4ac001faef866dc252ed3c89c72ab12a52bb4866a5654116494fce56b24eec",
+   "metadata": {
+    "evidence": "https://rebenok-na-aikido.ru/"
+   }
+  },
+  {
+   "src_id": "work:5aa77b8944608532",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:ba83199c335592ebe65b3aae9aa9e4ab12a468a4c9efca6346d9ccfa1d2e771c",
+   "metadata": {
+    "evidence": "https://rebenok-na-aikido.ru/"
+   }
+  },
+  {
+   "src_id": "work:5aa77b8944608532",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:b9eb23408f26ac181966ee9588fc549db39585fe3028f84bbb0301ba34967862",
+   "metadata": {
+    "evidence": "https://rebenok-na-aikido.ru/"
+   }
+  },
+  {
+   "src_id": "work:5aa77b8944608532",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:2d7ee4515cc5751f9b717ecb484ff41e3986e331c5c698a52ed690939e51c083",
+   "metadata": {
+    "evidence": "https://rebenok-na-aikido.ru/"
+   }
+  },
+  {
+   "src_id": "work:5aa77b8944608532",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:4cfeb5d009d8be1e099dc5cbf7d01a8276f85441dc7c08692b906c6023b79806",
+   "metadata": {
+    "evidence": "https://rebenok-na-aikido.ru/"
+   }
+  },
+  {
+   "src_id": "work:5aa77b8944608532",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:2d1007ddf7ffead4540543e67b0df5875a7143affd82e8beffe1bca54f39d012",
+   "metadata": {
+    "evidence": "https://rebenok-na-aikido.ru/"
+   }
+  },
+  {
+   "src_id": "work:5aa77b8944608532",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:0d1bc6b48dccad0513830d8f9758da0fe9ee921dae79e675e5523de0220abe6d",
+   "metadata": {
+    "evidence": "https://rebenok-na-aikido.ru/"
+   }
+  },
+  {
+   "src_id": "work:5aa77b8944608532",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:935815fe4b0649cc451719e542e0d7e1ed16c0982061e6f3df3bd70c52e2ccda",
+   "metadata": {
+    "evidence": "https://rebenok-na-aikido.ru/"
+   }
+  },
+  {
+   "src_id": "work:5aa77b8944608532",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:16599c684fad6e91eade226f223bff8dbc0b7750c2b72b2544b2f6b2431991a0",
+   "metadata": {
+    "evidence": "https://rebenok-na-aikido.ru/"
+   }
+  },
+  {
+   "src_id": "work:5aa77b8944608532",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:a1e3d8fad378862df71b7c10dbe890528914b1dff963066f636800074d7b8848",
+   "metadata": {
+    "evidence": "https://rebenok-na-aikido.ru/"
+   }
+  },
+  {
+   "src_id": "work:5aa77b8944608532",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:36e79fe5cde818b03c9329c918e5035185287df83496c8b86c5167ca79a324aa",
+   "metadata": {
+    "evidence": "https://rebenok-na-aikido.ru/"
+   }
+  },
+  {
+   "src_id": "work:5aa77b8944608532",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:cba8da21c54bc496afaddbaa59f7df9dca78a2669041051e860300b1f88a46f9",
+   "metadata": {
+    "evidence": "https://rebenok-na-aikido.ru/"
+   }
+  },
+  {
+   "src_id": "work:5aa77b8944608532",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:09df8783b1f7ffae8a9e1d8de1332f749a93c6f7cff34dbf23e4897b66257acf",
+   "metadata": {
+    "evidence": "https://rebenok-na-aikido.ru/"
+   }
+  },
+  {
+   "src_id": "work:5aa77b8944608532",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:39f19300b65560179983af8db71c099764f513456c5584f454f41bdedd4fe36f",
+   "metadata": {
+    "evidence": "https://rebenok-na-aikido.ru/"
+   }
+  },
+  {
+   "src_id": "work:5aa77b8944608532",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:816f06f4c4bc53d9b6751a8d6b9ad0e89f52b0c423d1b0c00e6907b54e406451",
+   "metadata": {
+    "evidence": "https://rebenok-na-aikido.ru/"
+   }
+  },
+  {
+   "src_id": "work:5aa77b8944608532",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:699cf0bca687e4691941ace89fd6a69663a757d102a63f339f96756dbfaead15",
+   "metadata": {
+    "evidence": "https://rebenok-na-aikido.ru/"
+   }
+  },
+  {
+   "src_id": "work:b79ca4b0a17e609d",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:7a713651be8ae793548daa47c24004b7e05f8c38e4de7d6586992e65bb968311",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "work:b79ca4b0a17e609d",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:a9c3ffb54210c1ef35d8cbb9411b01883c1aaaddc1de85c12cd70978d2a64257",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "work:b79ca4b0a17e609d",
+   "rel_type": "DEPICTS",
+   "dst_id": "image:568408d3565ff17603aeb500786598f0e0daa2914b0d6e1d191218016f15e86a",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "work:b79ca4b0a17e609d",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:bob-noha",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "work:b79ca4b0a17e609d",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "work:b79ca4b0a17e609d",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:morihei-uyeshiba",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "work:b79ca4b0a17e609d",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:michael-murphy",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "work:b79ca4b0a17e609d",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:george-leonard",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "work:b79ca4b0a17e609d",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:aikido-of-petaluma",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "work:b79ca4b0a17e609d",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:petaluma",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "work:b79ca4b0a17e609d",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:united-states",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "work:b79ca4b0a17e609d",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:israel",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "work:b79ca4b0a17e609d",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:europe",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "work:b79ca4b0a17e609d",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:russia",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "work:b79ca4b0a17e609d",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:578ca10560e8fb18",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "claim:578ca10560e8fb18",
+   "rel_type": "ASSERTED_BY",
+   "dst_id": "person:null",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "claim:578ca10560e8fb18",
+   "rel_type": "ABOUT",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "work:b79ca4b0a17e609d",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:bfc0b141a80b08ad",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "claim:bfc0b141a80b08ad",
+   "rel_type": "ASSERTED_BY",
+   "dst_id": "person:null",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "claim:bfc0b141a80b08ad",
+   "rel_type": "ABOUT",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html"
+   }
+  },
+  {
+   "src_id": "person:bob-noha",
+   "rel_type": "WORKED_AT",
+   "dst_id": "group:aikido-of-petaluma",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html",
+    "trigger": "WORKED_AT"
+   }
+  },
+  {
+   "src_id": "person:robert-nadeau",
+   "rel_type": "CREATED",
+   "dst_id": "work:e3b0c44298fc1c14",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html",
+    "trigger": "CREATED"
+   }
+  },
+  {
+   "src_id": "group:aikido-of-petaluma",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "place:petaluma",
+   "metadata": {
+    "evidence": "http://dev.aikidoofpetaluma.com/energy.html",
+    "trigger": "LOCATED_IN"
+   }
+  },
+  {
+   "src_id": "work:7c03c359bd289958",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {
+    "evidence": "https://aikido.org.nz/nadeauworkshop/"
+   }
+  },
+  {
+   "src_id": "work:7c03c359bd289958",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:morihei-ueshiba",
+   "metadata": {
+    "evidence": "https://aikido.org.nz/nadeauworkshop/"
+   }
+  },
+  {
+   "src_id": "work:7c03c359bd289958",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:richard-moon-aikido",
+   "metadata": {
+    "evidence": "https://aikido.org.nz/nadeauworkshop/"
+   }
+  },
+  {
+   "src_id": "work:7c03c359bd289958",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:usa",
+   "metadata": {
+    "evidence": "https://aikido.org.nz/nadeauworkshop/"
+   }
+  },
+  {
+   "src_id": "work:7c03c359bd289958",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:new-zealand",
+   "metadata": {
+    "evidence": "https://aikido.org.nz/nadeauworkshop/"
+   }
+  },
+  {
+   "src_id": "work:7c03c359bd289958",
+   "rel_type": "MENTIONS",
+   "dst_id": "place:auckland",
+   "metadata": {
+    "evidence": "https://aikido.org.nz/nadeauworkshop/"
+   }
+  },
+  {
+   "src_id": "work:7c03c359bd289958",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:o-sensei-revisited-down-under-workshop",
+   "metadata": {
+    "evidence": "https://aikido.org.nz/nadeauworkshop/"
+   }
+  },
+  {
+   "src_id": "work:7c03c359bd289958",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:22ed28fcda6ed2a4",
+   "metadata": {
+    "evidence": "https://aikido.org.nz/nadeauworkshop/"
+   }
+  },
+  {
+   "src_id": "claim:22ed28fcda6ed2a4",
+   "rel_type": "ASSERTED_BY",
+   "dst_id": "person:unknown",
+   "metadata": {
+    "evidence": "https://aikido.org.nz/nadeauworkshop/"
+   }
+  },
+  {
+   "src_id": "claim:22ed28fcda6ed2a4",
+   "rel_type": "ABOUT",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {
+    "evidence": "https://aikido.org.nz/nadeauworkshop/"
+   }
+  },
+  {
+   "src_id": "claim:22ed28fcda6ed2a4",
+   "rel_type": "ABOUT",
+   "dst_id": "person:morihei-ueshiba",
+   "metadata": {
+    "evidence": "https://aikido.org.nz/nadeauworkshop/"
+   }
+  },
+  {
+   "src_id": "work:7c03c359bd289958",
+   "rel_type": "CONTAINS",
+   "dst_id": "claim:63a790d82832d086",
+   "metadata": {
+    "evidence": "https://aikido.org.nz/nadeauworkshop/"
+   }
+  },
+  {
+   "src_id": "claim:63a790d82832d086",
+   "rel_type": "ASSERTED_BY",
+   "dst_id": "person:unknown",
+   "metadata": {
+    "evidence": "https://aikido.org.nz/nadeauworkshop/"
+   }
+  },
+  {
+   "src_id": "place:auckland",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "place:new-zealand",
+   "metadata": {
+    "evidence": "https://aikido.org.nz/nadeauworkshop/",
+    "trigger": "LOCATED_IN"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "work:9c12646dacf2facd",
+   "url": "http://www.aikiclub.ru/spb.html",
+   "title": "Московский Айки Клуб",
+   "author": null,
+   "publish_date": null,
+   "platform": "aikiclub.ru",
+   "raw_text": "13.01.2003 начало | содержание http://www.aikiclub.ru/ Без этой статьи вряд ли можно правильно осознать начало развития Айкидо в России. Матвеев В.А. www.aikido.spb.ru/aikido_spb_history.html История развития Айкидо в Санкт-Петербурге В.Скрылев, Президент Федерации Айкидо Санкт-Петербурга. Речь в предлагаемой статье пойдет о первых шагах Айкидо именно в Санкт-Петербурге. Тем не менее, автор считает необходимым выказать свое уважение людям, которые внесли большой вклад в процесс становления Айкидо в СССР, но по указанной выше причине практически не упоминаются в последующем изложении, а именно, В. Матвееву, Н. Егорову, А.Кочану, В. Подорольскому, О. Глушко, В. Барановскому (Москва), И. Таратину (Ростов-на-Дону), И. Шмыгину, В. Горюнову (Киев), И. Дмитриеву (Курск), Р. Халидову (Ташкент), В.Шемерянкину (Череповец), А. Дикареву (Таллинн). ИНТЕРЕС В середине 1960-х годов благодаря вышедшему на экран фильму режиссера Акиро Куросава \"Гений Дзюдо\" широкая публика впервые познакомилась с Каратэ. В Ленинграде сложилась группа энтузиастов, практиковавшая это искусство под руководством Альфата Махмудовича МАКАШЕВА и его тогдашнего ученика Владимира Николаевича ШУСТОВА . При переводе и штудировании в Публичной библиотеке книги Хидэтака Нисиямы \"Каратэ -- искусство пустой руки\", являвшейся для них одним из главных письменных руководств, в их поле зрения появились заинтересовавшие их книги по другим видам воинского искусства, в том числе и учебник по Айкидо, написанный сыном Основателя Айкидо Уэсиба Киссомару . Результатом этого знакомства явилось то, что изучая Каратэ, они большое внимание уделяли приемам Айкидо. ПЕРВЫЕ ОПЫТЫ С 1967 по 1969 г. Владислав Алексеевич РУКАВИШНИКОВ , сотрудник Политехнического института им.М.И.Калинина, работал преподавателем в Национальной школе инженеров в г.Бомако, столице Республики Мали. Под воздействием модных тогда фильмов, популяризировавших Каратэ и Ушу, он приступил к самостоятельным занятиям, пробуя отрабатывать увиденное на экране. Заметив это, его коллеги по преподаванию в Национальной школе инженеров Борис НЕСТЕРОВ (Ульяновск) и Вячеслав ГЛИСМАН (Москва) предложили ему присоединиться к ним и тренироваться у сенсея Ван Бая , который в \"Дзюдо-клубе Бомако\" преподавал Айкидо. Мэтр Ван Бай, вьетнамец по национальности, преподаватель колледжа, имел 2-й Дан по Дзюдо и 2-й Дан по Айкидо Айкикай, вел занятия с военными, готовил специальные отряды охраны. То, что Рукавишников увидел в додзе Ван Бая, произвело на него ошеломляющее впечатление, он готов был идти на любые материальные затраты, лишь бы тренироваться у этого мастера. Добросовестное отношение \"русской тройки\" к занятиям предопределило внимательное отношение мэтра к ученикам из СССР и сделало возможным даже дополнительные занятия. В конце концов, взаимоотношения русских учеников с мастером стали дружескими. В 1969 году В. Рукавишников вернулся в Ленинград аттестованным на 3-й кю. Через полгода, желая продолжать занятия в большем объеме, нежели выполнение разминочных упражнений по утрам, он пришел в группу практиковавшую Каратэ в ЛЭТИ им.В.И.Ульянова-Ленина. Тренер группы Гряколов заметил определенные особенности в системе передвижений пришедшего на занятия Рукавишникова, поинтересовался, чем он занимался ранее и попросил продемонстрировать что-нибудь из техники Айкидо. В течении 10 минут Владислав Алексеевич демонстрировал технику, но затем при проведении приема санкье травмировал руку своему партнеру и прекратил показ. Через несколько дней, предварительно созвонившись, к нему приехал Альфат Макашев, Олег Андреев и Валерий Седунов. По характеру задаваемых вопросов было видно, что они давно интересуются Айкидо. Рукавишников сразу же согласился научить их тому, что знал сам. Зал для тренировок был найден, и группа энтузиастов приступила к работе. Занимались по 1-2 месяца в одном зале, затем место тренировок меняли. Официально говорили, что занимаются Дзюдо. Эти занятия продолжались с 1971 по 1983 г., состав группы периодически менялся, постоянными членами этого коллектива оставались лишь В. Рукавишников, А. Макашев, О. Андреев. В 1970 г. в Таллинн в очередной раз приехала сборная Финляндии по Каратэ, с которой встречались каратэки Эстонии, возглавляемые Рейном Сиймом, и Ленинграда, возглавляемые А. Макашевым. Руководителем финской делегации был Вице-президент Федерации Каратэ Финляндии, имевший 3-й Дан Каратэ и одновременно практиковавший Айкидо. Это был один из первых специалистов Айкидо, приехавших в СССР. В том же году на первые в СССР соревнования по Каратэ -- 1-й неофициальный чемпионат Ленинграда приехал незадолго до этого вернувшийся из Бирмы признанный специалист в области восточных единоборств Герман Васильевич ПОПОВ, объяснивший тогда А. Макашеву основы некоторых техник Айкидо. Г.В. Попов рассказал А. Макашеву, что его учитель, бирманский мастер Туан-Дин , отмечал: \"Дзюдо -- это борьба для всех, Каратэ -- для избранных, а Айкидо -- искусство для интеллектуалов\". Сам Туан-Дин, будучи наследным мастером школы Чой (\"школа удава\"), имел высокие мастерские разряды (Даны) по таким видам традиционных японских единоборств, как Каратэ и Дзюдо. Кроме того, в течении 6 лет Туан-Дин учился у Основателя Айкидо О'Сенсея Морихея Уэсиба . СЕРГЕЙ КИСЕЛЕВ В 1975 году А. Макашев познакомился с Сергеем Викторовичем КИСЕЛЕВЫМ , который с 1973 года работал тренером по Самбо и Дзюдо в Ленинградском Инженерно-Строительном Институте. В этот период Киселев серьезно занимался Сериндзи Кемпо, был хорошим бойцом, особенно его интересовала бросковая техника, которая шла в Кемпо особым разделом. Человек, учивший Киселева Кемпо, говорил, что техника этого раздела является упрощенным вариантом бросков Айкидо, выполняемых в сжатых и коротких формах. Эта техника позволяла справиться с нападающим, имеющим значительное превосходство по своим физическим данным. Ни самбо, ни дзюдо таких вариантов не предлагали. Макашев и Киселев понравились друг другу, они стали обмениваться информацией и опытом. В 1971 году в руки С.Киселева впервые попадает учебник по Айкидо, который по его просьбе переводится и старательно им штудируется. Первоначальный интерес Киселева к Айкидо был связан с поисками отдельных элементов, привлекающих своей эффективностью; скорее это были занятия для удовлетворения, для развития кругозора в сфере воинских искусств, нежели чем серьезная практика. Тем не менее, приступив в 1976 году к работе тренером по Дзюдо в подростковом клубе \"Прометей\", Киселев использует оказавшиеся в его распоряжении спортивный зал для более серьезной и обстоятельной работы над разбором техник Айкидо. Знакомство с А. Макашевым дало возможность С. Киселеву общаться с группой Рукавишникова. Совместный поиск, анализ литературы все время ставили перед ними новые и новые вопросы. Некоторые вещи не были понятны, казались не реальными, поэтому с каждым месяцем возрастала необходимость контакта с мастером Айкидо. Приход в Айкидо таких специалистов в Каратэ и Кемпо, как А.Макашев и С. Киселев, оказался предопределенным их интеллектуальным подходом к воинским искусствам: анализ всех доступных систем единоборств показал, что Айкидо, как плод деятельности самураев, т.е. наиболее подготовленного и образованного сословия профессиональных воинов, представляет собой наиболее универсальную и сбалансированную боевую систему, которая проявляет свою универсальность лишь в результате длительного культивирования. По-видимому, этот вывод как нельзя более соответствовал поискам, которые А. Макашев и С. Киселев вели в области воинских искусств в течение многих лет. ЧЕРЕЗ ТЕРНИИ Запрещение в СССР Каратэ включало в себя и запрет занятий Айкидо. Все тренировки стали проводиться только под прикрытием Дзюдо. А. Макашев стал преподавать Дзюдо в Школе Высшего Спортивного Мастерства, и вся группа энтузиастов Айкидо стала встречаться там. К ней активно подключился еще один тренер по Дзюдо -- Александр Сергеевич КОРНЕЕВ (впоследствии Государственный тренер по Дзюдо в Ленинграде). В 1984 году в поисках людей, занимающихся Айкидо, в группу к А. Макашеву пришел Владимир Тагирович ТАГИРОВ (впоследствии руководитель клуба Айкидо \"Айкикай\"). Там же появился и Василий Иванович ЕМЕЛЬЯНЕНКО , пришедший в Айкидо из Каратэ, создавший впоследствии российско-датский клуб Айкидо \"Такемусу Айки\". Параллельно с этими занятиями В. Рукавишников работал в Военном институте физической культуры им. Комарова с руководителем секции рукопашного боя подполковником Владимиром Петровичем ЛИПОВКОЙ , Липовку интересовало применение техники Айкидо в системе подготовки подразделений боевых пловцов. С 1983 по 1985 год В. Рукавишников опять выезжает за границу в Республику Бурунди, где продолжает тренировки Айкидо под руководством мастера, являющегося учеником известного французского айкидоки Кристиана Тессье . После возвращения в Советский Союз в 1985 году В. Рукавишников продолжил совместную работу в группе подполковника В.П. Липовки. Тем временем на волне развернувшегося в стране кооперативного движения в 1986 году на базе Ленинградского педиатрического института был создан спортивно-оздоровительный кооператив \"Ювентус\", председатель которого очень хотел организовать в нем занятия по Айкидо. С. Киселев ставит вопрос о создании экспериментальной секции Айкидо перед городским спорткомитетом, который поддерживает эту идею и дает разрешение на организацию такой группы. В сентябре 1986 года в клубе \"Ювентус\" под руководством А. Макашева и С. Киселева начали работу первые официальные группы Айкидо в Ленинграде. Занятия велись по программе, взятой из печатных работ Киссомару Уэсиба. Это была большая брешь в системе запретов и крупный шаг в легализации восточных единоборств. Важным шагом на пути развития воинских искусств в Ленинграде явилось создание Союза Восточных Единоборств Ленинграда (СВЕЛ) , образованного по инициативе Олега Риша. Айкидо в СВЕЛ представляли А. Макашев и С. Киселев. Создание СВЕЛ дало возможность популяризировать и интенсивно развивать все виды восточных единоборств, в том числе и Айкидо. Свидетельством дружеского и гармоничного взаимодействия ленинградских мастеров воинских искусств является, например, такой факт: в 1987 и 1988 годах Вячеслав Цой , известный ленинградский мастер, предоставил возможность группе инструкторов Айкидо заниматься у него в зале на Барочной улице два раза в неделю. Первая в Ленинграде аттестация инструкторов по восточным единоборствам состоялась в марте 1988 года. По Айкидо аттестацию проводили С. Киселев и А.Макашев. Среди тех, кто приняли в ней участие, должны быть упомянуты В.Тагиров, В. Емельяненко, И. Калашников, 3. Гаджиев, Р. Гатаулин, В.Шадрин. Аттестованным инструкторам было предложено открывать новые секции, и с 1988 года в ряде ленинградских физкультурно-оздоровительных кооперативов (\"Здоровье\", \"Сакура\", \"Иппон\") вместе с С. Киселевым А. Макашевым и В.Рукавишниковым к тренерской практике приступили В. Тагиров, В.Емельяненко, И. Калашников. Это было начало широкого распространения Айкидо в Ленинграде. Отражением этого процесса было участие названных ленинградских преподавателей Айкидо в показательных выступлениях по воинским искусствам, состоявшихся в конце 1988 года во Дворце молодежи и в начале 1989 года в Кронштадте, в Выборге, в Ледовом Дворце СКА на Ждановской набережной. Выход Айкидо на уровень официальной практики и его поддержка в партийных и советских органах стали возможны благодаря активной работе в этом направлении С. Киселева и всесторонней поддержке со стороны 0. Риша и А. Риша. В 1989 году были открыты первые специализированные клубы Айкидо в мае клуб \"Ленкай\", а в сентябре -- советско-датский клуб \"Такемусу Айки\". ОРГАНИЗАЦИЯ 7 января 1989 года была создана Федерация Айкидо Ленинграда и области , руководителем которой был избран С. Киселев.Это была первая Федерация Айкидо в СССР. В первый состав Президиума Федерации входили также А.Макашев, В. Рукавишников, В. Тагиров, И. Калашников, 0. Никитин, С.Чепраков, чуть позднее в его состав был введен В.Емельяненко. Эти люди внесли большой вклад в развитие методики преподавания, организации практических занятий Айкидо в нашем городе. После выхода Постановления Совета Министров СССР, которое регламентировало работу секций восточных единоборств, по инициативе и при помощи СВЕЛа в 1989 году при Ленинградском Государственном институте Физической культуры им.П.Ф.Лесгафта были организованы единственные на всю Страну курсы инструкторов восточных единоборств. Одним из направлений работы курсов было Айкидо. Большой вклад в подготовку молодых инструкторов Айкидо на этих курсах внесли С.Киселев, А.Макашев и В.Рукавишников, отдавшие массу времени и сил проведению практических занятий. В феврале 1990 года Вячеслав МАТВЕЕВ и Игорь ТАРАТИН собрали в Москве первый Всесоюзный семинар Айкидо, на который приехали 120 делегатов из разных городов страны. В состав ленинградской делегации входили члены Президиума Федерации Айкидо Ленинграда и области и их ученики. На этом семинаре была создана Всесоюзная комиссия Айкидо. Дальнейший процесс естественного объединения людей, занимающихся Айкидо, в одну организацию привел к тому, что 27 октября 1990 года в Олимпийском зале Ленинградского городского спорткомитета состоялась Учредительная конференция Федерации Айкидо СССР , на которую приехали делегаты из крупнейших центров Айкидо Советского Союза (Москва, Киев, Ростов-на-Дону, Ташкент и др.) и их филиалов. Президентом Федерации был избран С. Киселев, в состав Президиума от Ленинграда вошли А.Макашев, В.Рукавишников, В.Тагиров. ОТ АВТОРА По делам службы в 1986 году я оказался в Щецине (Польша). Желая продолжить свои занятия Каратэ, я обратился за помощью к местным товарищам. Они и порекомендовали мне посетить занятия, которые проводил основатель Айкидо в Польше Марьян Осински . Благодаря личной симпатии и вниманию М.Осински, мне удалось в течение пяти месяцев (по девять тренировок в неделю), под руководством Марьяна и его учеников изучать новое для меня воинское искусство. Кроме практических занятий два раза в неделю Марьян приходил ко мне на корабль и проводил теоретический курс. Вот тогда я впервые услышал имя Тамура сенсея, который в последствии и стал моим учителем. Три года спустя я впервые встретил в Ленинграде людей практиковавших Айкидо. Я стал посещать тренировки, которые вели И.Калашников и А.Макашев, таким образом, я и познакомился с людьми представлявшими тогда Федерацию Айкидо Ленинграда и области. МЕЖДУНАРОДНЫЕ КОНТАКТЫ Практически полное отсутствие информации по Айкидо в Советском Союзе делало невероятно ценными живые контакты с иностранными мастерами. В 1987 году из Цюриха в Ленинград приезжала девушка по имени Каролла , имевшая 1-й Дан Айкидо. Это был первый контакт на ленинградской земле с человеком, постоянно практикующим Айкидо, который позволил определить ряд ошибок и неточностей в технике ленинградцев, внести ясность в интересующие моменты. Летом 1989 года представители ленинградского Айкидо выезжали в Москву на семинар, который проводил американский мастер Айкидо Коичи БЕРЕШ. Установленные на этом семинаре контакты с московскими айкидоками В.ПОДОРОЛЬСКИМ, О.ГЛУШКО и А.ОРЛОВЫМ стали предвестником визита в Ленинград делегации американских мастеров Айкидо под руководством очаровательной Джеми ЗИМРОН (3 Дан), состоявшегося осенью 1989 года после проведения ими тренировок в Москве. Дальнейшим развитием контактов с московским Айкидо была зимняя поездка ленинградских айкидок в Москву на семинар, который проводили Шери ДАЙЕР (3-й Дан) и Джек ВАДА (5-й Дан). Поздней осенью 1990 года по приглашению Василия Емельяненко в Ленинграде провели семинар мастера Айкидо из Дании. Этот семинар явился началом устойчивого развития на территории СССР направления Айкидо, ориентирующегося на сенсеев Такедзи ТОМИТА (7-й Дан) и Морихиро САЙТО (в то время 8-й, ныне 9-й Дан), и послужил толчком к созданию советско- датского клуба Айкидо \"Такемусу Айки\". В конце мая 1990 года Ленинград с однодневным визитом посетила делегация мастеров Айкидо из Америки, возглавляемая Коичи Беришем. В проведенной им тренировке участвовали и двое молодых польских айкидок из Щецина Томаш Сплавский и Роберт Плихта (ученики Марьяна ОСИНСКИ), гостившие в Ленинграде по приглашению Федерации Айкидо Ленинграда и проводившие тренировки в клубе \"Ленкай\" в течение недели. В июне 1990 года Ленинград посетил Жак БОНЕМЕЗОН (6-й Дан, Франция), ученик сенсея Нобуйоши ТАМУРА (8-й Дан), который в течение недели проводил занятия в клубе \"Ленкай\". 27 октября 1990 года, в день проведения Учредительной конференции Федерации Айкидо СССР, в клубе \"Ленкай\" провел тренировку Роберт НАДО ( 6-й Дан, США ), посетивший Советский Союз по приглашению айкидок из Москвы. 1990 год ознаменовался также семинаром, проведенным в \"Ленкае\" Любомиром ВРАЧАРОВИЧЕМ (5-й Дан Айкидо, 6-й Дан джиу-джитсу), и визитом большой женской делегации из Айкикай Хомбу Додзе, посетившей ранее Москву. В декабре 1990 года В.Тагиров посетил семинар по Айкидо, проводимый сенсеем Ясунари КИТАУРА (7-й Дан) в Мадриде. В результате проведенной после этого организационной работы в июне 1991 года состоялся семинар сенсея Китаура в Ленинграде, в котором участвовали гости из многих городов СССР. Одним из итогов семинара явилась аттестация С.Киселева, А.Макашева, В.Рукавишникова, В.Тагирова на 1-й Дан. Интересно, что еще в начале 1970-х годов А.Макашев и С.Киселев были знакомы с учеником ленинградского каратэки В.Ковязина по имени Альберто Маринеро, который в середине 70-х годов переехал в Испанию, где стал посещать тренировки сенсея Китаура. Восторженные письма об Айкидо и сенсее Китаура, которые Альберто писал А.Макашеву, вызывали огромное желание встретиться с сенсеем лично. Увы, осуществиться этому желанию было суждено лишь через полтора десятка лет. В 1991 году семинары в Ленинграде (Санкт-Петербурге) проводили: Наоми НОМУРА (3 Дан, Япония); Жак Бонмезон; Марьян ОСИНСКИ (2 Дан, Польша), стоявший у истоков польского Айкидо; Джеми Зимрон (4 Дан); Альберто Маринеро (тогда 2, ныне 3 Дан). 23 и 24 февраля 1992 года Санкт-Петербург посетил внук Основателя Айкидо -- господин Моритеру УЕСИБА (Вака-сенсей, директор Международной штаб-квартиры Айкидо Айкикай Хомбу Додзе), проводивший семинар в Москве. Этот визит вселил надежду на возможность дальнейшего расширения и углубления контактов с Хомбу Додзе. В конце февраля 1992 года в Санкт-Петербурге проводил тренировки Хосе РИВАС (3-й Дан, Испания), ученик сенсея Китаура, повторно посетивший Россию весной (Республику Алтай в апреле и Санкт-Петербург в мае). В середине марта 1992 года в Санкт-Петербург приезжали Генеральный секретарь Айкикай Хомбу Додзе господин Масатаке ФУДЗИТА (8-й Дан) и Председатель Всемирной Федерации Айкидо господин Джорджио ВЕНЕРИ (5-й Дан), с которыми были проведены переговоры о перспективах развития Айкидо в СНГ, а также совместная тренировка в клубе \"Такемусу Айки\". С 23 по 27 июня 1992 года в Санкт-Петербурге был проведен 1-й Международный Фестиваль Айкидо \"Белые ночи\", в котором участвовали представители Японии, Франции, Швеции, Португалии, Дании, Югославии и практически всех Республик бывшего Советского Союза -- всего 147 участников из стран \"ближнего зарубежья\" и 124 человека из Санкт-Петербурга. Тренировки во время Фестиваля проводили два выдающихся мастера Айкидо, работающих в Европе, - сенсей Нобуеси ТАМУРА (8-й Дан) и сенсей Такедзи ТОМИТА (7-й Дан). Благодаря их благосклонности удалось даже обогатить программу Фестиваля: до его начала 4-х-дневный семинар провел сенсей Томита после окончания Фестиваля состоялся 4-х-дневный семинар сенсея Тамура. 24 июня, после торжественного открытия Фестиваля, было проведено заседание координационного совета Федерации Айкидо СНГ, на котором было принято решение о ее переименовании в Международную Евро-Азиатскую Федерацию Айкидо. Это решение было связано с тем, что в состав Федерации входили представители государств, не вошедших в СНГ. Президентом МЕАФА был избран С.Киселев. Тогда же было принято решение о создании Федерации Айкидо России, которую также возглавил С. Киселев. В конце августа 1992 года группа представителей санкт-петербургского клуба \"Такемусу Айки\" посетила семинар, проводимый в Дании сенсеем Морихиро САЙТО (8-й Дан). Установленные на этом семинаре контакты с сенсеем и его последователями из разных стран послужили основой дальнейшего развития международных контактов санкт-петербургского Айкидо. Так, на 2-й Фестиваль \"Белые ночи-93\" в июне 1993 года приехали представители Клуба Айкидо полиции Лондона, а в июле 1993 года в Санкт- Петербурге провел семинар Ульф ЭВИНААС (6-й Дан, Швеция), ученик Сайто сенсея. Осенью 1992 года семинар в Санкт-Петербурге провел Карлос ГОНСАЛЕС (4-й Дан, Испания), ученик сенсея Китаура. В январе 1993 года группа Cанкт-Петербургских последователей сенсея Китаура участвовала в его семинаре, состоявшемся в Ташкенте. В июне 1993 года сенсей Китаура провел семинар в Санкт-Петербурге. 27 сентября 1993 года Санкт-Петербург посетила официальная делегация Айкикай Хомбу Додзе, которую возглавляли сенсей КУРИБАЯСИ (6-й Дан) и сенсей СОМЕМИЯ (6-й Дан). Состоялись переговоры о возможном вступлении Федерации Айкидо России в Международную Федерацию Айкидо. С 1993 года проведение Фестиваля и от 7 до 12 семинаров в год стало обычной практикой для Федерации Айкидо Санкт-Петербурга. 21 октября 1996 года сенсей Тамура назначил Президента Федерации Айкидо Санкт-Петербурга СКРЫЛЕВА Валерия Анатольевича своим официальным представителем в РОССИИ. Сегодня в Санкт-Петербурге действуют 15 Профессиональных клубов Айкидо, которые объединяют около 5000 человек. В заключении хотелось бы отметить, что за всеми упомянутыми в статье событиями стоит кропотливая работа, бесконечные согласования, бессонные ночи. Это не просто частные эпизоды из жизни, а человеческие судьбы. Статья помещена на сервер в авторском варианте WWW design by Leonid Ryzhyck , Peterlink ISP Last modified: April 24, 1999 WEB-мастер Матвеев В.А. т.ф 422-97-21 , E-mail: <sfox@online.ru> начало | содержание",
+   "source_class": "journalistic",
+   "bias_hint": "neutral_ish"
+  },
+  {
+   "id": "work:85f5e6e4e287d660",
+   "url": "https://bujutsu.ru/aikido/",
+   "title": "Айкидо",
+   "author": null,
+   "publish_date": null,
+   "platform": "bujutsu.ru",
+   "raw_text": "vk.com/bujutsuru instagram.com/bujutsuru Инструкторы Программа контакты | карта сайта История Курсы Инструкторы Программа Айкидо ИСТОРИЧЕСКАЯ СПРАВКА Интернациональная организация Айкидо Айкикай Республики Татарстан зарегистрирована 12 июня 1991 года на базе Казанского Айки клуба, созданного в 1987 году. Во главе Федерации стали Александр Леонидович Сивков и Алексей Георгиевич Мищенко, имеющие к тому времени, более чем десятилетнюю практику занятий Kyokushinkai Karate. В 1980 году Александр Сивков стал серебряным призёром чемпионата СССР по Kyokushinkai Karate (категодия -70). Его родной брат Анатолий, на этом чемпионате, занял 3 место в весовой категории 80+. Уже начав заниматься Айкидо, А.Сивков, в 1994 году аттестуется на 1-й Дан по Kyokushinkai Karate, к тому времени, имея звание \"Мастер спорта СССР\" по рукопашному бою - защитился в июле 1982 года на всесоюзном семинаре в г. Челябинске. В Августе 2001 года А.Л.Сивков успешно сдаёт экзамены на II Дан по Kyokushinkai Karate. Образование - высшее. Мищенко А.Г., помимо прочего, имеет звание \"Мастер спорта СССР\" по рукопашному бою, полковник РА в отставке, доцент, к.т.н. На период с 1987 по 1994 год приходятся и много-численные поездки на международные семинары по Айкидо в Москве, Ленинграде, Владивостоке, Хабаровске, Киеве, Минске, Баку и других городах СССР. Александру Леонидовичу и Алексею Георгиевичу, именно в тот период времени, посчастливилось тренироваться у таких известных мастеров Айкидо, как Джек Вада (7 Дан Aikido Aikikai США), Роберт Надо (6 Дан Aikido Aikikai, Канада), Кристиан Тисьер (7 Дан Aikido Aikikai, Франция) и многих других. В мае 1994 года в связи с приездом в Казань известного мастера Айкидо из США Сенсея Койче Бериша был проведён первый международный семинар по Айкидо в РТ. Именно тогда успешно сдали Дан-тесты и получили 1-е Даны по Айкидо – Александр Сивков и Алексей Мищенко. Новый этап в жизни Федерации Татарстана – знакомство с частным японским мастером Кашима Шинрю (дисциплина внешне очень похожая на Айкидо) господином Takayanagi Kiyotaka (7 – Дан Кашима Шинрю). Для знакомства с ним была предпринята поездка в Японию. Во время этой поездки Александр Леонидович принял участие в семинаре (г. Нагано) под техническим руководством Шигехо Танака и Киотаки Такаянаги (Shigeho Tanaka -8 Дан Айкидо – ученик Kunii Zenya /1894-1966/ Кашима Шин рю). Начиная с 1996 года, господин Takayanagi K. регулярно два раза в год проводил в Казани учебно-методические и аттестационные семинары. Организаторы мероприятий - Сивков и Мищенко. К сожалению, г-н Takayanagi K весной 2005 года скоропостижно скончался . В Мае 1998 года начали развиваться официальные взаимоотношения с полномочным представителем Дошу Айкидо Моритеру Уесиба Сиханом Масатаке Фудзита (8 дан Айкидо, Айкикай) - одним из самых высокопоставленных должностных лиц в мире Aikido Aikika в тот период времени. Подтверждение тёплых и дружеских отношений со стороны Шихана Фудзиты, (а значит и головной Токийской организации) и признание заслуженного уровня техники Айкидо в Республике Татарстан - его первый приезд в Казань с целью проведения семинара в июле 2000 года. Семинар собрал любителей этого воинского искусства из 12 городов стран Содружества. Всего в семинаре приняло участие 70 человек. В феврале 2001 года семинар под его техническим руководством собрал уже 120 взрослых и 80 детей в возрасте от 5 до 14 лет. А в феврале 2002 года общее количество принявших участие в семинаре достигло 280 человек. К нашему величайшему сожалению в 2007 году наш Учитель перенёс тяжелейший инсульт, долго лечился, но ему так и не удалось справиться со своим недугом... в мае 2014 года Фудзита сенсей скончался. Сегодня имена А.Л. Сивкова и А.Г. Мищенко известны не только в Республике Татарстан, не только в России, но и во многих странах мира. Они оба начали добросовестно зарабатывать свою репутацию ещё во времена СССР. В настоящее время, в Казани, зная уровень их профессионализма, именно к ним ведут своих детей и внуков те, кто тренировался под их руководством в середине 70-х годов прошлого века.. Ими накоплен богатейший боевой и методический опыт, который в свою очередь и обратил на себя внимание мастеров высшего мирового уровня не только Айкидо, но и Ju Jutsu. В настоящее время Александром Сивковым и Алексеем Мищенко разработаны не только программы, позволяющие совершенствовать спортивное мастерство, но и социальные программы, направленные на гармоничное развитие подрастающего поколения. В рамках организации разработана программа детской воскресной студии \"Цветок Сакуры\". Интернациональная организация Айкидо Айкикай Республики Татарстан, совместно с Министерством по делам молодёжи, спорту и туризму вот уже 16 лет организует специализированные детские профильные спортивный смены. С сентября 2000 года начала свою работу Академия Айкидо (Aikikai) РТ (срок обучения 3 года). При успешной сдаче вступительных экзаменов в неё зачисляются члены организации с возраста 12 лет. На семинаре, прошедшем в 6-10 ноября 2002 года, 8 слушателей Академии Aikido Aikikai успешно и досрочно сдали экзамены на чёрные пояса (1 Даны). В то время Технический директор Федерации Айкидо РТ A.H. Bacas отметил, что детская группа федерации - самая лучшая группа Айкидо Айкикай во всей Европе. Ректором Академии до своей болезни был Шихан Фудзита (8 Дан Aikido, Aikikai). В настоящее время его место достойно занял один лучших мастеров мира президент Takemusu Aikido Association, 7 Dan Aikido Aikikai, 7 Dan Iwama Ryu Маэстро Паоло Кораллини (Осимо, Италия). International Aikikai Organization (Токио, Япония) официально назначило его техническим директором и куратором нашей организации 14 апреля 2010 года. Общественные организации РТ «Интернациональная организация Айкидо Айкикай» и «Интернациональный Альянс Буджитсу» входит в состав Ассоциации Восточных Единоборств Республики Татарстан, у истоков создания которой они стояли ещё с момента организации Городского Клуба Чёрных Поясов (1996 год). В 2001 году «Интернациональная организация Айкидо Айкикай» совместно с издательством \"ХЕТЕР\" впервые в истории единоборств России подготовила к печати и выпустила в свет (тираж 5000 экземпляров) полноцветную русскоязычную версию книги господина Масатаке Фудзита \"Методы тренировок Айкидо\", книга была рекомендована головной организацией Айкидо (IAO), как пособие для углублённого изучения техник Айкидо в России. В начале мая 2002 года делегация из 40 человек, в состав которой вошли лучшие спортсмены Республики Татарстан, спортсмены из Башкортостана и Тольятти, представитель телевизионной компании \"Эфир\" побывали на Всеевропейском фестивале Айкидо, который состоялся в столице Венгрии Будапеште. Фестиваль был посвящён 65-ти летию Фудзита Сенсея. В период с февраля 2003 года по настоящее время организованы регулярные международные мероприятия с участием мастеров из США, Великобритании, Франции, Италии, Дании, Маврикия, ЮАР, Швецарии. Впервые в истории развития Айкидо в России весной 2006 года Сивкова А.Л. и Мищенко А.Г провели персональный Семинар по Айкидо и Джиу Джитсу в Италии (Неаполь,Сорренто). В мае 2004 года – лидеры федерации получили приглашение в Японию (Токио) на всемирный Будокай (Конгресс и показательные выступления). К сожалению воспользоваться этим приглашением так и не удалось, однако сам факт говорит о том, что мастера нашей Республики замечены на самом высоком международном уровне, что поднимает спортивный и политический престиж Татарстана на новую высоту. 13-15 мая 2005 года Александр Сивков и Алексей Мищенко во взаимодействии с Министерством по делам молодёжи, спорту и туризму и при участии Союза Боевых Искусств Республики Татарстан подготовили и провели I Международный Конгресс Будо под лозунгом «Ведущие мастера Воинских искусств Мира против наркотиков, насилия и террора». Общее количество участников конгресса превысило рекордную отметку – в мероприятии приняло участие более 1500 спортсменов из разных стран ближнего и дальнего зарубежья. Проведённое на высочайшем уровне мероприятие имело колоссальный резонанс по всему миру. В настоящее время «Интернациональная организация Айкидо Айкикай» насчитывает в своих рядах более 700 членов. И имеет филиалы не только в Республике Татарстан, но и за её пределами. На сегодняшний день более 100 членов организации «Интернациональная организация Айкидо Айкикай» имеют чёрные пояса. 20 мая 2007 года Президенту «Интернациональной организации Айкидо Айкикай» - Сивкову А.Л. и Президенту «Интернационального Альянса Буджитсу РТ» Мищенко А.Г. за выдающиеся заслуги в развитии международного спортивного движения и за личные достижения – подготовку мастеров по Айкидо и Джиу Джитсу высокого международного уровня были присвоены 7 даны по Джиу Джитсу. 11.01.2012 По распоряжению Дошу Айкидо Моритеру Уесиба Александру Сивкову и Алексею Мищенко присвоены V Даны Айкидо Айкикай. В 2011 году Федеральный Альянс Буджитсу России стоял у истоков создания World Alliance of Martial Arts (штаб квартира Харрогейт, Англия). В 2013 году WAMA, который проводился в 13-14-15 июня 2014 в Германии (Куксхафен) Сивкову Александру Леонидовичу был присвоен 8 Дан Джиу джитсу. Общественная организация Республики Татарстан «Интернациональная организация Айкидо Айкикай» Федеральный альянс Буджитсу России Интернациональный альянс Буджитсу РТ © 2026 год",
+   "source_class": "journalistic",
+   "bias_hint": "neutral_ish"
+  },
+  {
+   "id": "work:5aa77b8944608532",
+   "url": "https://rebenok-na-aikido.ru/",
+   "title": "Лучшая школа Айкидо для детей в Казани",
+   "author": null,
+   "publish_date": null,
+   "platform": "rebenok-na-aikido.ru",
+   "raw_text": "Результат Учителя Расписание и стоимость Адреса залов Контакты 8 (987) 205-08-01 Результат Учителя Расписание и стоимость Адреса залов Контакты 8 (987) 205-08-01 АЙКИДО ДЛЯ ДЕТЕЙ ОТ 5 ЛЕТ В КАЗАНИ Прокачайте физическое здоровье, развитие и социализацию вашего ребёнка с помощью айкидо Записаться на бесплатное пробное занятие АЙКИДО ДЛЯ ДЕТЕЙ ОТ 5 ЛЕТ В КАЗАНИ Прокачайте физическое здоровье, развитие и социализацию вашего ребёнка с помощью айкидо Записаться на бесплатное пробное занятие Запишитесь на первое бесплатное пробное занятие! Выберите зал Маяковского, 11 Спортивный комплекс КГМУ Горького, 10А Стадион ДИНАМО ул. Татарстан 40 ( 80 школа) Отправить Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и соглашаетесь с политикой конфиденциальности. Ваш ребёнок получит от занятий Ваш ребёнок получит от занятий ВОСПИТАНИЕ Одно из главных преимуществ айкидо является необходимость постоянно проявлять вежливость и уважение ко всем своим партнерам по тренировкам, учителю. Дети, изучающие айкидо, отличаются уверенностью в своих решениях и твёрдыми жизненными принципами. САМОЗАЩИТА Благодаря регулярным занятиям ребенок научится грамотно вести себя в стрессовых ситуациях, грамотно выходить из конфликта. КООРДИНАЦИЯ Научившись правильно падать и двигаться, ребенок в разы снизит для себя вероятность серьезных травм при падении на льду, с велосипеда и тд. Физическое развитие и здоровье Айкидо повышает выносливость, укрепляет опорно-двигательный аппарат, способствует улучшению осанки и делает организм менее восприимчивым к различным заболеваниям. Духовное развитие Обучаясь принципам, ребенок, совершенствует свою личность, развивает возможности не только тела, но и сознания. Социализация В айкидо внимание уделяется не только технике приемов, но и психологической составляющей боевых искусств. Ребенок станет более открытым, общительным и уверенным в себе. ВОСПИТАНИЕ Одно из главных преимуществ айкидо является практическая необходимость постоянно проявлять вежливость и уважение ко всем своим партнерам по тренировкам, сенсею. Дети, изучающие айкидо, отличаются уверенностью в своих решениях и твёрдыми жизненными принципами. САМОЗАЩИТА Благодаря регулярным занятиям ребенок научится грамотно вести себя в стрессовых ситуациях и грамотно выходить из конфликта. КООРДИНАЦИЯ Научившись правильно падать и двигаться, ребенок в разы снизит для себя вероятность серьезных травм при падении на льду, с велосипеда и тд. Физическое развитие и здоровье Айкидо улучшает физическую форму ребенка, повышает выносливость, совершенствует растяжку, способствует улучшению осанки и делает организм менее восприимчивым к различным заболеваниям. Духовное развитие Обучаясь принципам, ребенок, совершенствует свою личность, развивает возможности не только тела, но и сознания. Социализация В айкидо внимание уделяется не только технике приемов, но и психологической составляющей боевых искусств. Благодаря регулярным тренировкам ребенок станет более открытым, общительным и уверенным в себе. Познакомьтесь с нашими учителями Познакомьтесь с нашими учителями Сивков Александр Леонидович 6 ДАН Айкидо Айкикай Shihan 8 ДАН Джиу-Джитсу ﻿(WAMA Goshinryu International) Изучение Воинских Искусств с 20 февраля 1977 года Основатель и Президент Федерального Альянса Буджитсу России Заслуженный наставник Боевых Искусств РФ Подробнее Мищенко Алексей Георгиевич 6 ДАН Айкидо Айкикай Shihan 7 ДАН Джиу-Джитсу (WAMA Goshinryu International) Изучение Воинских Искусств с сентября 1978 года. Со-основатель и Генеральный секретарь Федерального Альянса Буджитсу России Подробнее Кузнецов Дмитрий Владимирович 5 ДАН Джиу-Джитсу (Renshi) Шишкин Сергей Борисович 4 ДАН Айкидо Айкикай Кривошеев Михаил Алексеевич 2 ДАН Айкидо Айкикай Сивков Александр Леонидович 6 ДАН Айкидо Айкикай Shihan 8 ДАН Джиу-Джитсу (WAMA Goshinryu International) Изучение Воинских Искусств с 20 февраля 1977 года Основатель и Президент Федерального Альянса Буджитсу России. Основатель и Президент Общественной организации Республики Татарстан «Интернациональная организация Айкидо Айкикай» Заслуженный наставник Боевых Искусств РФ Подробнее → Мищенко Алексей Георгиевич 6 ДАН Айкидо Айкикай Shihan 7 ДАН Джиу-Джитсу (WAMA Goshinryu International) Изучение Воинских Искусств с сентября 1978 года. Со-основатель и Генеральный секретарь Федерального Альянса Буджитсу России Основатель и Вице-президент Общественной организации Республики Татарстан «Интернациональная организация Айкидо Айкикай» Подробнее → Дата рождения: 27 октября 1954 года Изучение Воинских Искусств с 20 февраля 1977 года *Серебряный призёр Чемпионата СССР по Киокушинкай Каратэ (1980 г) *Основатель Айкидо в Республике Татарстан; *Основатель и первый Президент Союза Боевых Искусств Республики Татарстан (2007 год); *Основатель и Президент Федерального Альянса Буджитсу России (2005 года); *Председатель общественной организации «Ассоциация Восточных Единоборств Республики Татарстан»(1998 г); *Основатель и Президент Общественной организации Республики Татарстан «Интернациональная организация Айкидо Айкикай» (с 1987 г.); *Основатель и Вице-президент региональной общественной организации «Интернациональный Альянс Буджитсу Республики Татарстан» (с 1998 г.) Аттестации: *Kashimashinryu -2 Дан. *Karate Kyokushinkai - II Дан /IKO-I #2002-333/); *Aikido Aikikai - VI Дан /registered № IAF-S 1014/); *Джиу Джитсу - VIII Дан (2012) ранг - Hanshi, Goshinryu International.World Alliance of Martial Arts (www.waofma.com)(Kokusai * Fudojitsu - Ryu Kenkokai Karate - Do renmei)/ www.combat-karate.org/officials.htm /(LM-STR-0-28-08 International Combat Union); www.internatiomalcombatunion.com Специализация: Джиу Джитсу , Айкидо Айкикай и Ивама Рю , Каратэ, Рукопашный и ножевой бой. Дата рождения: 9 января 1954 года Изучение Воинских Искусств с сентября 1978 года *Бронзовый призёр Чемпионата СССР по Киокушинкай Каратэ (1980 г); *Основатель Айкидо в Республике Татарстан; *Основатель и первый Вице-президент Союза Боевых Искусств Республики Татарстан (2007 год); *Основатель и Генеральный секретарь Федерального Альянса Буджитсу России (2005 г.); *Основатель и Вице-Президент Общественной организации Республики Татарстан «Интернациональная организация Айкидо Айкикай» (1987 г.); *Основатель и Вице-президент региональной общественной организации «Интернациональный Альянс Буджитсу Республики Татарстан» (с 1998 г.) Аттестации: *Kashimashinryu -2 Дан. *Aikido Aikikai - VI Дан /registered № IAF-S 1015/); *Джиу Джитсу - VIII Дан, присвоение январь 2024. Ранг - Shihan. Goshinryu International.World Alliance of Martial Arts (www.waofma.com)(Kokusai * Fudojitsu - Ryu Kenkokai Karate - Do renmei)/ www.combat-karate.org/officials.htm Специализация: Джиу Джитсу , Айкидо Айкикай Кузнецов Дмитрий Владимирович 5 ДАН Джиу-Джитсу Renshi Шишкин Сергей Борисович 5 ДАН Айкидо Айкикай Sensei Кривошеев Михаил Алексеевич 2 ДАН Айкидо Айкикай Расписание и стоимость Расписание и стоимость Маяковского, 11 (ОСЦ \"КГМУ\") Татарстан,40 (Школа 80) Маяковского, 11 (ОСЦ \"КГМУ\") Татарстан,40 (Школа 80) Маяковского, 11 (ОСЦ \"КГМУ\") Татарстан,40 (Школа 80) Маяковского, 11 (ОСЦ \"КГМУ\") Татарстан,40 (Школа 80) Стоимость занятий для детей, кадетов и взрослых 6 000 руб. в месяц. Занятия проводятся 3 раза в неделю. Стоимость занятий - 6 000 руб в месяц для детей, кадетов и взрослых Занятия проводятся 3 раза в неделю. ПОНЕДЕЛЬНИК 18:00 - 19:00 Дети 8-12 лет - группа универсальной боевой подготовки. Айкидо +ДЖИУ Джитсу 19:00 - 20:30 Кадеты (юноши и девушки 15+) и взрослые Традиционное ДЖИУ Джитсу. Учителя: Сивков Александр Леонидович и Мищенко Алексей Георгиевич ВТОРНИК 18:00 - 19:00 младшая детская группа АЙКИДО 5-8 лет 19:00 - 20:30 Академия Айкидо Айкикай группа 10+, кадеты и взрослые. Учителя: Сивков Александр Леонидович и Мищенко Алексей Георгиевич СРЕДА 18:00 - 19:00 Дети 8-12 лет - группа универсальной боевой подготовки. Айкидо +ДЖИУ Джитсу 19:00 - 20:30 Кадеты (юноши и девушки 15+) и взрослые Традиционное ДЖИУ Джитсу. Учителя: Сивков Александр Леонидович и Мищенко Алексей Георгиевич ЧЕТВЕРГ 18:00 - 19:00 младшая детская группа АЙКИДО 5-8 лет 19:00 - 20:30 Академия Айкидо Айкикай группа 10+, кадеты и взрослые. Учителя: Сивков Александр Леонидович и Мищенко Алексей Георгиевич ПЯТНИЦА 18:00 - 19:00 Дети 8-12 лет - группа универсальной боевой подготовки. Айкидо +ДЖИУ Джитсу 19:00 - 20:30 Кадеты (юноши и девушки 15+) и взрослые Традиционное ДЖИУ Джитсу. Учител : Кузнецов Дмитрий Владимирович Renshi (V Dan Ju Jutsu. /Goshinryu International/)) СУББОТА 18:00 - 19:00 младшая детская группа АЙКИДО 5-8 лет 19:00 - 20:30 Академия Айкидо Айкикай группа 10+, кадеты и взрослые. Учителя: Шишкин Сергей Борисович (IV Dan Aikido Aikikai) Кривошеев Михаил Алексеевич (II Dan Aikido Aikikai) ВТОРНИК 18:30 - 19:30 1-я группа: д ети 5-6 лет 19:30 - 20:30 2-я группа: д ети 7-8 лет Учитель: Сайфуллин Айдар ﻿Исламович ЧЕТВЕРГ 18:30 - 19:30 1-я группа: д ети 5-6 лет 19:30 - 20:30 2-я группа: д ети 7-8 лет Учитель: Сайфуллин Айдар ﻿Исламович СУББОТА 14:30 - 15:30 1-я группа: д ети 5-6 лет 15:30 - 16:30 2-я группа: д ети 7-8 лет Учитель: Сайфуллин Айдар ﻿Исламович Хочу пробный урок Адреса залов Адреса залов Маяковского, 11 (ОСЦ \"КГМУ\") На карте Татарстан,40 (Школа 80) На карте Казань Улица Горького, 10А — Яндекс.Карты Казань Улица Маяковского, 11 — Яндекс.Карты Казань Улица Татарстан, 40 — Яндекс.Карты Что еще получит ваш ребёнок Что еще получит ваш ребёнок: Аттестации на ученические и мастерские степени до V дана включительно Учителя с более чем 40 летним стажем 2 раза в год проводятся Межрегиональные и Международные семинары всемирно известных Мастеров Летний детский учебно-тренировочный лагерь ( 23 года подряд) Безопасность во время занятий Дружелюбная атмосфера Единственная организация на территории Республики Татарстан, имеющая официальное признание головной штаб квартиры Айкикай (Токио. Япония) Хочу пробный урок Новости Новости Итоги семинара, который прошёл 23 и 24 апреля 2022 года 26 и 27 марта 2022 года, завершился очередной семинар по Джиу джитсу. 20 мая 2021 года прошел детский весенний семинар в Казани. Подошла к концу очередная смена летнего детского спортивного лагеря Отзывы Отзывы Часто задаваемые вопросы Часто задаваемые вопросы Что нужно для занятий? Белое кимоно, белый пояс и сменная обувь. Первое пробное занятие в любой спортивной форме. Со скольки лет? от 5 лет Как часто проходят тренировки? Занятия проходят 3 раза в неделю. Как долго идут тренировки? Занятия идут 1-1,5 часа, в зависимости от возрастной группы. О школе О школе Интернациональная организация Айкидо Айкикай Республики Татарстан зарегистрирована 12 июня 1991 года на базе Казанского Айки клуба, созданного в 1987 году. На период с 1987 по 1994 год приходятся и многочисленные поездки на международные семинары по Айкидо в Москве, Ленинграде, Владивостоке, Хабаровске, Киеве, Минске, Баку и других городах СССР. Александру Леонидовичу и Алексею Георгиевичу, именно в тот период времени, посчастливилось тренироваться у таких известных мастеров Айкидо, как Джек Вада (7 Дан Aikido Aikikai США), Роберт Надо (7 Дан Aikido Aikikai, Канада), Кристиан Тисьер (8 Дан Aikido Aikikai, Франция) и многих других. Читать далее В 2011 году Федеральный Альянс Буджитсу России стоял у истоков создания World Alliance of Martial Arts (штаб квартира Харрогейт, Англия). В 2013 году WAMA, который проводился в 13-14-15 июня 2014 в Германии (Куксхафен) Сивкову Александру Леонидовичу был присвоен 8 Дан Джиу джитсу. Сегодня имена А.Л. Сивкова и А.Г. Мищенко известны не только в Республике Татарстан, не только в России, но и во многих странах мира. Они оба начали добросовестно зарабатывать свою репутацию ещё во времена СССР. В настоящее время, в Казани, зная уровень их профессионализма, именно к ним ведут своих детей и внуков те, кто тренировался под их руководством в середине 70-х годов прошлого века.. Ими накоплен богатейший боевой и методический опыт, который в свою очередь и обратил на себя внимание мастеров высшего мирового уровня не только Айкидо, но и Ju Jutsu. В настоящее время Александром Сивковым и Алексеем Мищенко разработаны не только программы, позволяющие совершенствовать спортивное мастерство, но и социальные программы, направленные на гармоничное развитие подрастающего поколения. Интернациональная организация Айкидо Айкикай Республики Татарстан, совместно с Министерством по делам молодёжи, спорту и туризму вот уже 16 лет организует специализированные детские профильные спортивный смены. В период с февраля 2003 года по настоящее время организованы регулярные международные мероприятия с участием мастеров из США, Великобритании, Франции, Италии, Дании, Маврикия, ЮАР, Швецарии. Впервые в истории развития Айкидо в России весной 2006 года Сивков А.Л. и Мищенко А.Г провели персональный Семинар по Айкидо и Джиу Джитсу в Италии (Неаполь,Сорренто). 20 мая 2007 года Президенту «Интернациональной организации Айкидо Айкикай» - Сивкову А.Л. и Президенту «Интернационального Альянса Буджитсу РТ» Мищенко А.Г. за выдающиеся заслуги в развитии международного спортивного движения и за личные достижения – подготовку мастеров по Айкидо и Джиу Джитсу высокого международного уровня были присвоены 7 даны по Джиу Джитсу. По распоряжению 11.01.2012 Дошу Айкидо Моритеру Уесиба Александру Сивкову и Алексею Мищенко присвоены V Даны Айкидо Айкикай. В 2011 году Федеральный Альянс Буджитсу России стоял у истоков создания World Alliance of Martial Arts (штаб квартира Харрогейт, Англия). В 2013 году WAMA, который проводился в 13-14-15 июня 2014 в Германии (Куксхафен) Сивкову Александру Леонидовичу был присвоен 8 Дан Джиу джитсу. Приходите на бесплатное пробное занятие! Записаться Интернациональная организация \"Айкидо Айкикай\" Федеральный Альянс Буджитсу России Общественная Организация Республики Татарстан Маяковского, 11 Спортивный комплекс КГМУ ул. Татарстан 40 ( 80 школа) +7 987 205 08 01 8 (843) 290-22-61 E-mail: aikikai@inbox.ru aikido-kazan@yandex.ru политика конфидицальности Phone WhatsApp",
+   "source_class": "journalistic",
+   "bias_hint": "neutral_ish"
+  },
+  {
+   "id": "work:882d546bb27fa821",
+   "url": "https://www.cityaikido.com/nadeau-shihan",
+   "title": "Nadeau Shihan — City Aikido",
+   "author": null,
+   "publish_date": null,
+   "platform": "cityaikido.com",
+   "raw_text": "Robert Nadeau Shihan Get Nadeau Shihan's Book Robert Nadeau Shihan (left) | Morihei Ueshiba O’Sensei (right) Robert Nadeau was a personal student of the founder of Aikido, Morihei Ueshiba, and is one of the most senior teachers of Aikido active in the world today. He holds the rank of 8th dan and was certified as shihan (master teacher) by Aikido World Headquarters (Hombu Dojo). Nadeau Shihan led regularly scheduled classes several times a week at City Aikido of San Francisco and Aikido of Mountain View. His teaching approach is deeply rooted in O’Sensei’s process for using the practice of Aikido techniques — throws, pins, locks, posture, breathing, and body movement — and the context of martial arts ( budo ) as a path for personal development. Nadeau Shihan has been a key figure in the growth and development of Aikido in America. He co-founded first the Aikido Association of Northern California (AANC), and then the California Aikido Association (CAA), which has grown into an international community of more than 100 affiliated dojos. Nadeau Shihan began his martial arts training in the 1950's, studying judo, karate and defensive tactics as a police officer in Redwood City, California, and in the US Marine Corps. He also studied yoga and bodybuilding with Walt Baptiste in San Francisco. In the early 1960's he left police work and traveled to Japan to study Aikido at Hombu Dojo in Tokyo. Eventually he became a personal student of Morihei Ueshiba O’Sensei, receiving direct instruction in the spiritual, philosophical, and energetic aspects of Aikido from the founder. In the late 1960s, Nadeau Shihan returned to California to teach Aikido, establishing dojos in Mountain View, San Francisco and San Jose. Starting in the 1970s, he introduced Aikido concepts into the fields of psychology and the human potential movement, bodywork, business, sports, and art through numerous seminars at the Esalen Institute in California, and at other personal growth centers across the country and abroad. Nadeau Shihan continues to teach Aikido seminars in California and elsewhere. Robert Nadeau has been widely recognized for his contribution to the teaching of the spiritual aspects of Aikido training, profoundly influencing generations of Aikido teachers in America, Europe, Russia, Israel, and New Zealand. His work is featured in more than a dozen books by well-known authors including Michael Murphy, George Leonard and Dan Millman. If you'd like to learn more about Nadeau Shihan – in his own words – please read the Aikido Journal interview here . Or pre-order the new biography about him, coming out this fall! Nadeau Shihan continues to teach in a “virtual dojo.” This is a weekly Zoom session where he discusses the spiritual and energetic aspects of Aikido; that is, “the Aikido that cannot be seen by the human eye.” Click the button below for some sample sessions. The Virtual Dojo Nadeau Shihan’s book is now available Buy",
+   "source_class": "journalistic",
+   "bias_hint": "defensive"
+  },
+  {
+   "id": "work:b79ca4b0a17e609d",
+   "url": "http://dev.aikidoofpetaluma.com/energy.html",
+   "title": "Energy Process work",
+   "author": null,
+   "publish_date": null,
+   "platform": "dev.aikidoofpetaluma.com",
+   "raw_text": "Welcome About The School Bob Noha - Head Instructor Instructors Classes Aikido T'ai Chi Energy Process Work Schedule Location Links External Links Gallery Newsletter Store Getting Started Dojo Etiquitte Schedule Contact Welcome About The School Bob Noha - Head Instructor Instructors Classes Aikido T'ai Chi Energy Process Work Schedule Location Links External Links Gallery Newsletter Store Getting Started Dojo Etiquitte Contact Energy Process Work This work is the creation of Robert Nadeau. It is based on over 40 years of practice and teaching. He is a direct student of Aikido Founder Morihei Uyeshiba. Robert Nadeau teaches throughout the United States, Israel, Europe and Russia. His work is highlighted in numerous books and magazine articles including Michael Murphy’s Golf in the Kingdom and George Leonard’s The Ultimate Athlete. Energy Process Work focuses on opening the system to allow us to experience, acknowledge and integrate all aspects of ourselves. It also includes practices that bring to conscious experience our deeper and higher dimensions. It is compatible with other practices and does not require knowledge of specialized movements. This makes it accessible to new students. Energy Process Work promotes spiritual growth and improved functioning in our daily lives. It also helps to make these two important aspects of life more mutually supportive. Welcome • About • Classes • Instructors Calendar Cost Location • Links • Contact Us © Copyright Aikido of Petaluma, all rights reserved.",
+   "source_class": "journalistic",
+   "bias_hint": "defensive"
+  },
+  {
+   "id": "work:7c03c359bd289958",
+   "url": "https://aikido.org.nz/nadeauworkshop/",
+   "title": "O Sensei Revisited Down Under - Riai Aikido",
+   "author": "Conrad Edwards",
+   "publish_date": "2019-02-18T21:44:15+00:00",
+   "platform": "aikido.org.nz",
+   "raw_text": "O Sensei Revisited Down Under February 19, 2019 Robert Nadeau Shihan, 8th Dan from USA, visited New Zealand in March 2019 to conduct the O Sensei Revisited Down Under Workshop , in Auckland. Nadeau Shihan, has trained and influenced Aikido teachers in America, Europe, New Zealand, Russia, and Israel. In the 1960’s he studied as a personal student of Aikido founder Morihei Ueshiba (O Sensei). He received personal instruction from O Sensei in the spiritual, philosophical, and energy aspects of Aikido. Richard Moon Sensei also taught at the workshop. This workshop was an amazing experience. « Previous Next »",
+   "source_class": "journalistic",
+   "bias_hint": "defensive"
+  }
+ ],
+ "claim_sources": [
+  {
+   "claim_id": "claim:578ca10560e8fb18",
+   "source_id": "work:b79ca4b0a17e609d",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:bfc0b141a80b08ad",
+   "source_id": "work:b79ca4b0a17e609d",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:22ed28fcda6ed2a4",
+   "source_id": "work:7c03c359bd289958",
+   "quote_span_start": null,
+   "quote_span_end": null
+  },
+  {
+   "claim_id": "claim:63a790d82832d086",
+   "source_id": "work:7c03c359bd289958",
+   "quote_span_start": null,
+   "quote_span_end": null
+  }
+ ]
+}

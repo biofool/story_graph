@@ -1,0 +1,46 @@
+{
+ "subject": "richard moon",
+ "query": "richard moon",
+ "domain": "aikidojournal.com",
+ "tier": "HIGH_AUTHORITY",
+ "collection_type": "wordpress_search",
+ "pages_fetched": 1,
+ "results": [
+  {
+   "url": "https://aikidojournal.com/2002/11/18/california-women-instructors-2/",
+   "title": "Interview with Pat Hendricks, Bernice Tom, and Danielle Molles Evans: Californian Women Instructors, Part 2",
+   "in_graph": false
+  },
+  {
+   "url": "https://aikidojournal.com/2012/03/23/the-practical-application-of-aikido-technique-by-charles-mccarty/",
+   "title": "The Practical Application of Aikido Technique by Charles McCarty",
+   "in_graph": false
+  },
+  {
+   "url": "https://aikidojournal.com/2013/03/17/aikido-ukemi-its-pathology-treatment-by-chetan-prakash/",
+   "title": "Aikido Ukemi: its Pathology & Treatment,\u201d by Chetan Prakash",
+   "in_graph": false
+  },
+  {
+   "url": "https://aikidojournal.com/2014/05/28/bestowed-mission-by-richard-moon/",
+   "title": "\u201cBestowed Mission,\u201d by Richard Moon",
+   "in_graph": false
+  },
+  {
+   "url": "https://aikidojournal.com/2015/10/11/the-skills-the-art-and-the-path-by-richard-moon/",
+   "title": "The Skills, the Art, and the Path by Richard Moon",
+   "in_graph": false
+  },
+  {
+   "url": "https://aikidojournal.com/2020/12/16/aikido-past-present-and-future/",
+   "title": "Aikido: Past, Present and Future",
+   "in_graph": false
+  },
+  {
+   "url": "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/",
+   "title": "A Journey Through Aikido: Robert Nadeau on Spirituality, O-Sensei, and the Golden Age of Aikido in California",
+   "in_graph": true
+  }
+ ],
+ "new_urls": 6
+}

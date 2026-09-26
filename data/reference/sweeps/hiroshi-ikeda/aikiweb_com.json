@@ -1,0 +1,8 @@
+{
+ "subject": "hiroshi ikeda",
+ "query": "hiroshi ikeda",
+ "domain": "aikiweb.com",
+ "tier": "MID_TIER",
+ "collection_type": "dedicated_crawler",
+ "note": "covered by: scripts/45_aikiweb_seminars_crawl.py, scripts/48_ingest_aikiweb_seminars.py"
+}

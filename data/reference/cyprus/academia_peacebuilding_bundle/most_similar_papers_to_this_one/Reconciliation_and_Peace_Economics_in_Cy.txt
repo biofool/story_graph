@@ -1,0 +1,2469 @@
+Reconciliation and Peace Economics
+in Cyprus
+Summary of Findings (February 2012)
+
+EuropeAid Cypriot Civil Society in Action II
+Programme
+Stream C: Support to NGOs and international organisations
+promoting reconciliation projects including research leading to
+a better understanding of issues affecting trust between the two
+communities
+
+Project Leader: Dr. M. K. Flynn
+Reconciliation Head: Dr. Tony King
+Peace Economics Head: Prof. Derek Braddon
+EU Legal Affairs Advisor: Christian Dadomo
+Project Signatory: University of the West of England
+(UWE), Bristol, UK
+Project Dates: April 2010 Π February 2012
+
+ii
+
+DISCLAIMER: The text compiled in this publication, including the
+terminology used, is the sole responsibility of the University of the West
+of England (UWE), Bristol, UK as one of the beneficiaries of the EUfunded project ΥReconciliation and Peace Economics in CyprusΦ
+(EuropeAid Cypriot Civil Society in Action II Programme). In no way
+can the contents of this publication be attributed to the European
+Commission. The EU does not recognise the ΥTurkish Republic of
+Northern CyprusΦ but only the Republic of Cyprus, its Member State.
+Article 1 (3) of Council Regulation 389/2006 applies which reads: ΥThe
+granting of such assistance shall not imply recognition of any public
+authority in the areas other than the Government of the Republic of
+CyprusΦ.
+
+The entire content of this report is copyright of the University of the West of
+England, Bristol, UK - © The University of the West of England 2012. All
+rights reserved. Any redistribution or reproduction of part or all of the contents
+in any form is prohibited other than for personal and educational use only.
+
+iii
+
+Contents
+
+I. Notes ................................................................................................................................... 1-3
+II. Executive Summary ........................................................................................................ 4-5
+III. Project Introduction (M.K. Flynn) ............................................................................. 6-10
+IV. The EU Context (C. Dadomo) .................................................................................. 11-14
+V. Reconciliation (T. King) .............................................................................................. 15-66
+Figures .............................................................................................................................................................. 29-66
+
+VI. Peace Economics (D. Braddon and T. King) .......................................................... 67-97
+Figures .............................................................................................................................................................. 81-96
+
+VII. Project Delivery (M.K. Flynn) ............................................................................... 97-101
+VIII. Concluding Comments .............................................................................................. 102
+IX. Project Team ................................................................................................................... 103
+
+1
+
+I. Notes
+Abbreviations:
+
+
+
+
+
+
+GC Π Greek Cypriot
+GCC Π Greek Cypriot community; GCC surveys included a very small
+number of non-Cypriots able to respond to surveys in Greek.
+TC Π Turkish Cypriot
+TCC Π Turkish Cypriot community; TCC surveys included a minority of nonCypriots able to respond to surveys in Turkish.
+TO Π Turkish-origin residents in northern Cyprus often otherwise referred to
+as ΥsettlersΦ or immigrants.Φ
+
+Although ethnic and national differentiation is important in Cyprus for a variety of
+reasons, the study did not exclude people who did not identify specifically as
+Cypriot, on the grounds that anyone who is ordinarily resident in Cyprus has a stake
+in the future of the island.
+
+Terminology:
+The question of how to refer to the constituent entities of the island of Cyprus is a
+thorny one. The project team, through any terminological use or inference, does not
+take a stand on the future political dispensation for the island.
+The Turkish Cypriot-administered north of the island is recognised as the Turkish
+Republic of Northern Cyprus (TRNC) only by Turkey, and its ports and airports are
+closed to international traffic. The only institutions in the north that are formally
+recognised are the Nicosia Turkish Municipality and the Turkish Cypriot Chamber
+of Commerce. The GC-dominated Republic of Cyprus is not recognised by Turkey,
+but is recognised internationally as the legitimate government of the island, and
+therefore enjoys all the consequent privileges under international law. Terminology
+revolves around the question of formally recognising institutions, something that the
+GCC and Republic of Cyprus resist vis à vis the north.
+
+2
+
+In this project we refer to the south of the island as the ΥRepublic of CyprusΦ (RoC) or
+Υthe southΦ, and the north as Υnorthern CyprusΦ or Υthe northΦ. We use both the Greek
+and Turkish names for Green Line crossing points, as well as some cities, mentioned.
+
+Acknowledgements:
+The project is indebted to Christos Marangos (CYMAR, RoC) and Mine Yucel
+(Prologue Consulting, northern Cyprus) for carrying out surveys and focus groups.
+The survey questions and discussion guide for the focus groups were developed in
+collaboration between UWE project staff, CYMAR and Prologue. The project
+application could not have been successfully tendered without the help of Vanessa
+Luk at UWEΦs Office for Research, Business and Innovation. Later in the project, Dr.
+Kieran McCartan (Applied Social Sciences Π Criminology / Faculty of Health and
+Life Sciences, UWE) provided invaluable assistance with the survey data.
+
+The project also benefitted at various times from advice, discussion and/or
+assistance provided especially by: Tulin Aker (Association for Historical Dialogue
+and Research / Home for Cooperation); Dr. Umut Bozkurt (Eastern Mediterranean
+University); Prof. Diana Chigas (Tufts University and the Reflecting on Peace
+Practice Project of CDA-Collaborative Learning Projects, USA); Yeshim Harris (All
+Party Parliamentary Group on Conflict Issues and Engi, UK); Dr. James Ker-Lindsay
+(London School of Economics, UK); Alexandros Lordos (Cyprus 2015); Mary
+Southcott (Friends of Cyprus, UK); Dr. Craig Webster (University of Nicosia);
+Nicholas Whyte (Independent Diplomat, Brussels office); Zoe Wilkinson (INTRAC,
+UK); Panayiota Xenophontos (Expert Panel); and Dr. Christalla Yakinthou
+(International Centre for Transitional Justice, USA).
+
+Personnel working in Cyprus for UNDP-ACT, the US Embassy, British High
+Commission and the Peace Research Institute Oslo (PRIO) are thanked, as are all
+Cypriot interviewees. This is in addition to acknowledging the help of the Nicosiabased Management Centre and NGO Support Centre for disseminating information
+
+3
+
+about project events. Staff at the EU office in northern Nicosia provided crucial
+advice as to negotiating EU bureaucracy.
+
+However, all views and interpretations of data appearing in this report are those of
+the project team alone and do not reflect or infer opinions of others.
+
+4
+
+II. Executive Summary
+Funding and Aims of Project
+
+
+
+
+
+
+This report presents summary findings from the project ΥReconciliation and
+Peace Economics in CyrusΦ (April 2010 Π February 2012).
+The project was funded by the EuropeAid Cypriot Civil Society in Action II
+programme aiming to promote Υa conducive environment for the further
+development of trust, dialogue, cooperation and closer relationship between
+the Turkish Cypriot and Greek Cypriot communities...Φ
+Funding was as Stream C support for ΥNGOs and international organisations
+promoting reconciliation projects including research leading to a better
+understanding of issues affecting trust between the two communities.Φ
+From the start of project, it was apparent that there was little hope for a
+settlement and the project concluded as the UN-sponsored talks again failed.
+
+Project Activities
+
+
+
+
+
+Activities involved research, dialogue and dissemination.
+Research in Cyprus was based on: a general household survey; a crossingpoint survey; focus groups; and interviews. All research took place on both
+sides of the Green Line.
+Dialogue took place in four symposia and one bi-communal event.
+Dissemination has taken place through provision of findings at a bicommunal event and this report. There were also meetings with personnel
+from NGOs and overseas missions in Cyprus.
+
+The EU Context
+
+
+
+The Republic of Cyprus is highly unusual as an EU member which does not
+have full control over its constitutionally claimed territory.
+The Green Line Regulation severely restricts the scope of trade and movement
+between the Republic of Cyprus and northern Cyprus.
+
+Reconciliation
+
+
+
+
+The two communities do not agree on what the Cyprus problem is and there
+is little agreement about arrangements for a post-solution state.
+There is marked reluctance to recognise the other side, as well as interact even
+with the checkpoints open.
+Most Cypriots do not cross the Green Line or have only done so once or twice,
+so bi-communal contact is limited to a small percentage of the population.
+
+5
+
+
+
+
+
+
+
+
+There is notable societal mistrust both within as well as between communities.
+There is suspicion about political leadership and the direction of the talks.
+While the Turkish Cypriot community tends to view the cause of the Cyprus
+problem as an issue between the communities, the Greek Cypriot community
+tends to view the cause as external.
+Given this fundamental disagreement, it is highly problematic from the outset
+to effectively apply reconciliation initiatives.
+The low level of interaction and interdependence between the communities
+also means that a starting point of moves towards reconciliation is absent.
+EU policy in Cyprus could more usefully at this time move to addressing
+societal trust issues within each community rather than between them.
+
+Peace Economics
+
+
+
+
+
+
+
+
+
+
+Both Cypriot economies are developing separately and in different directions.
+Increased economic interaction may not be required for future prosperity, but
+it is a crucial component to anchor an effective peace process.
+While the economy of northern Cyprus is clearly weaker than that of the
+Republic of Cyprus, this does not equate to actual household poverty.
+Comparatively, Turkish Cypriots reported greater access to capital and a
+greater ability to save money than Greek Cypriots.
+Each side engages in different activity when they cross; Greek Cypriots tend
+to visit places of interest, worship or their familiesΦ former home areas, while
+Turkish Cypriots more often shop, consume and access public hospitals.
+Greek Cypriots especially are resistant to spending money in the north to
+avoid supporting its economy, and spend less than Turkish Cypriots crossing.
+Significant regulatory obstacles to economic interaction remain in place, while
+economic relations cannot be divorced from considerations of social trust.
+Substantive change in economic relations depends on political movement and
+a transformation of the rules of engagement across the Green Line.
+Assumptions about the relative strengths and weaknesses of both
+communitiesΦ economies need to be realistically re-examined.
+
+Delivery
+
+
+
+
+
+Evaluation of the project confirms that the research and dissemination
+elements were appropriate. However, dialogue was less successful.
+There is a lack of wide interest in attending participatory events, in part
+because the Cyprus talks have dragged on for so long without result.
+The number of projects and events funded by the EU and others suggests that
+project fatigue detracts from significant interest in individual events.
+With no apparent programme coordination among the Cypriot Civil Society
+in Action projects, the EU is not making best use of its EuropeAid investment.
+
+6
+
+III. Project Introduction (M. K. Flynn)
+This report presents summary findings to the EU from the project ΥReconciliation
+and Peace Economics in CyprusΦ (April 2010 Π February 2012). Dr. M.K. Flynn, on
+behalf of the University of the West of England (UWE), Bristol (UK) ran the project
+with the support of UWE colleagues Dr. Tony King, Prof. Derek Braddon and
+Christian Dadomo.
+
+Additional work and services were provided mainly by
+
+Cypriots and Cypriot organizations and paid by project funds. While the EU,
+through EuropeAid, provided financial support, the projectΦs development,
+implementation and conclusion were left solely to the project team. EU personnel
+exercised no editorial influence over this report, and maintained a hands-off
+approach to project execution throughout.
+This project was awarded €212,997.08 under EuropeAidΦs Cypriot Civil Society in
+Action II programme (€2.5 million) which aims to promote Υa conducive
+environment for the further development of trust, dialogue, cooperation and closer
+relationship between the Turkish Cypriot and Greek Cypriot communities as an
+important step towards a solution to the Cyprus problem.Φ Specifically funding was
+allocated from Stream C support (€500,000) earmarked for ΥNGOs and international
+organisations promoting reconciliation projects including research leading to a better
+understanding of issues affecting trust between the two communities.Φ The funding
+call went out in June 2008. The concept note (first stage of the application process)
+was due in September 2008. Successful applicants were invited to submit full
+applications for February 2009, and funding awards were announced in October
+2009. This project commenced six months later.
+The UWE project team comprised an interdisciplinary set of scholars with
+backgrounds primarily in politics, history, economics and law. The researchers had a
+broad range of country and regional familiarity, including not only Cyprus but also
+Northern Ireland, Israel, southern Africa, the former USSR and Yugoslavia, as well
+as a number of EU countries (especially Greece, France, Spain, Ireland and the UK).
+
+7
+
+Project execution revolved around three broad sets of activities: research; dialogue;
+and dissemination. Research throughout the project involved the primary work of
+surveys, focus groups and interviews in Cyprus, as well as the secondary work of
+desk-based research using printed and electronic materials. Dialogue with Cypriots
+about research in progress took place in four symposia (two TCC and two GCC;
+May-June 2011) and one larger bi-communal event (October 2011).1 Dissemination
+was undertaken through this report, and at the bi-communal event by way of a
+discussion document in English, Greek and Turkish, and presentations with
+provision for simultaneous translation. There was also a number of meetings
+(January Π February 2012) to discuss project outcomes with personnel from NGOs
+and overseas missions in Cyprus.
+With regards to primary research, much of the data Π in addition to semi-structured
+interviews - was drawn from three sources: a) a general household survey; b) a
+crossing-point survey; and c) focus groups.
+a) One general household survey, applied to both the GCC and TCC, was based on
+representative sampling of 600 persons on each side (total 1,200) and took place 8 Π
+16 June 2010. In the RoC respondents were in Nicosia, Limassol, Larnaca, Famagusta
+district and Paphos; in northern Cyprus respondents were in Nicosia, Famagusta,
+Kyrenia/Girne, Morphou/Güzelyurt and Iskele.
+Data was collected through individual interviews of forty-five minutes each and
+solicited responses to questions relevant to both the reconciliation and economic
+themes. Participants were selected through the stratification of urban and rural areas
+based on the Republic of CyprusΦs 2001 census, and northern CyprusΦs State
+Planning OrganisationΦs 2006 geographical distribution percentages. The next stage
+involved random selection of primary sampling units, and thereafter random
+
+1 The bi-communal event was a collaborative effort at the Home for Cooperation (Nicosia) in the U.N.
+
+Buffer Zone. The event, ΥBuilding Trust: Civil Society, Trade and CooperationΦ (20-21 October 2011),
+was undertaken in cooperation with INTRAC (www.intrac.org) and its EuropeAid project
+ΥDeveloping Trust and Cooperation: Research to Improve Civil Society Practice.Φ
+
+8
+
+selection of households. The respondent within a household was chosen on the
+grounds of the most recent birthday. Significantly almost all GCC respondents, 597
+of 600, identified themselves Cypriots but only 528 of 600 from the TCC sample did.
+The overwhelming remainder from the TCC set were identified as TO.
+Also noteworthy is that the GCC sample was considerably older than the TCC one.
+The age factor inevitably impacts on the data collected and subsequent analyses.
+Summer 2010 general household survey
+Age
+
+GCC %
+
+TCC %
+
+18-25
+
+9.3
+
+24.2
+
+26-45
+
+31.5
+
+49.0
+
+46-65
+
+39.8
+
+23.0
+
+66+
+
+19.3
+
+3.8
+
+b) One crossing-point survey of 1,000 persons was undertaken on each side (total:
+2,000) at checkpoints in Nicosia. (28 June Π 23 July 2010; Ledra Street / Lokmaci Π
+pedestrians; Agios Dometios / Metehan / Kermia Π pedestrians and vehicles; and
+Ledra Palace Π pedestrians on the northern side only).
+Data was based on five-minute interviews to elicit responses primarily about
+economic issues. Noted here is that, of the seven open crossings, only three Π those in
+Nicosia used for this survey Π are in an urban area. The other four are rural, and two
+of those pass through Dhekelia Sovereign Base (UK) between Famagusta and
+Larnaca. It is noteworthy that, of those surveyed crossing from the GCC side, 15%
+identified themselves as neither Cypriot nor Greek Cypriot. Crossings from the TCC
+side were more demographically uniform with 95% born on the island. It should be
+noted that, while EU nationals can move freely both ways across the Green Line, the
+great majority of TOs do not have the documentation allowing them to do so.
+
+9
+
+c) Ten focus groups were convened with five GC, four TC and one TO (GC: 7-9
+February 2011, Strovolos, Nicosia; TC: 28 February Π 3 March 2011, northern Nicosia;
+and TO: 4 March 2011, Famagusta). Participants were filtered by age and broad leftwing (LW), right-wing (RW) and centrist political affiliation, with the exception of
+the TO group, and recruited through snowball techniques. Focus groups averaged
+eight to nine participants. Members of the project team observed, with translator
+when required, all focus groups.
+With regard to the project context, three elements are worth noting here as
+impacting on the findingsΦ relevance. First, the timeframes for the surveys (June Π
+July 2010) and focus groups (February Π March 2011) exclude the likely influence on
+popular opinion of, for example: the explosion at the Mari power station in July 2011
+in the RoC; controversy around the discovery of offshore natural gas reserves in late
+2011; and the further deepening of the economic crisis. However, findings still
+provide indicative data contributing to a better understanding of issues around trust.
+Second, this project was contingent on a EuropeAid funding call issued in June 2008.
+A commitment to project rationale, as well as methodology, was necessarily
+included in the concept note submitted in September 2008, and shortly thereafter
+evaluated against the stated criteria of Υpromoting reconciliation.Φ Given that the
+work concluded in February 2012, more than three and a half years elapsed between
+the projectΦs inception and conclusion. This is a substantial length of time and
+potentially raises questions about the relevance of project intent based on funding
+criteria determined several years beforehand.
+Third, and related to the point above, findings and related recommendations were to
+be applicable whether or not a political settlement had been reached by the time the
+project ended. However, it was abundantly clear from the start of work in Cyprus
+that there was little anticipation of an imminent settlement. While some Cypriots
+wanted to be hopeful and provided constructive views, few informed observers,
+commentators or activists were optimistic that a settlement would be concluded.
+
+10
+
+This cast a pessimistic pall over the project throughout and severely tested the
+funding rationale for research Υleading to a better understanding of issues affecting
+trust between the two communities.Φ This is especially the case given that the project
+concluded against the backdrop of a repeat failure in the UN-sponsored talks
+process at Greentree, New York, late in January 2012.
+
+11
+
+IV. The EU Context (C. Dadomo)
+This section of the report gives an overview of the legal dimension and framework
+on which the search for a settlement in Cyprus currently lies. Cyprus is in a unique
+situation and, although accession by a re-united Cyprus would have been the ideal
+situation, its historical legacy has proven difficult to overcome. Hence the RoC
+became an EU Member State in May 2004 without settlement of the Cyprus problem.
+Cyprus is highly unusual as an EU Member that does not have effective control over
+all areas envisaged by its own constitution. Protocol No. 10 on Cyprus to the Act of
+Accession 20032 fully recognises this situation while its Preamble reaffirms the
+commitment by the EU and acceding states to a comprehensive settlement. Until
+such a settlement is reached, Article 1(1) of Protocol No. 10 suspends application of
+the whole body of European law Υin those areas of the Republic of Cyprus in which
+the Government of the Republic of Cyprus does not exercise effective control.Φ
+However, this suspension - being by definition territorial - does not affect the rights
+of Turkish Cypriots, who are regarded as citizens of an EU Member State, even
+though they live in northern Cyprus. To this effect, on the basis of Article 2 of the
+Protocol, the Council adopted Regulation No 866/2004 or the Green Line
+Regulation3 on 29 April 2004 to deal with the movement of persons, goods and
+services across the line. As a result of the suspension, it is down to the Green Line
+Regulation to define the application of EU law provisions on the free movement of
+persons. It gives authority to the RoC to Υcarry out checks on all persons crossing the
+line with the aim to combat illegal immigration of third country nationals and to
+detect and prevent any threat to public security and public policy.Φ These include
+checks on vehicles and objects in the possession of persons. The line can be crossed
+only at crossing points authorised by the competent RoC authorities. Third country
+
+2 Official Journal of the European Community 2003, L 236 p. 955.
+3 Official Journal of the European Community 2004, L 161 p. 128 as amended by Council regulation (EC)
+
+No 587/2008 (Official Journal of the European Community 2008, L 163, p. 1).
+
+12
+
+nationals (i.e. persons who are not EU citizens) are only allowed to cross the line
+provided that they are in possession of a residence permit or valid travel document
+issued by the RoC and, if required, a valid visa for the RoC, and also do not
+represent a threat to public policy or security.
+In its 2011 report on the implementation of the Green Line Regulation,4 the
+Commission reiterated that Υ(t)he Regulation provides for a stable legal framework
+for the free movement of Cypriots, other EU citizens and third country nationals
+who cross the Green Line at the crossing points.Φ But it notes that Υ(t)here was a slight
+fall in the number of Greek Cypriots and Turkish Cypriots crossing.Φ It also observes
+a sharp drop in the number of non-Cypriot EU citizens and third country nationals
+crossing the line compared to the previous year of reference, and a further decrease
+in irregular migration across the line from northern Cyprus to the governmentcontrolled areas.
+With regard to goods, the Green Line Regulation and Regulation 1480/2004 have set
+out a special regime for the crossing of goods. The main principle is that ΥΙgoods
+may be introduced in the areas under the effective control of the Government of the
+Republic of Cyprus, on condition that they are wholly obtained in the areas not
+under effective control of the Government of the Republic of Cyprus.Φ Unless eligible
+for export refunds or intervention measures, such goods cannot be subject to
+customs duties or charges having equivalent effect, nor to a customs declaration.
+Goods lawfully crossing the line are to be treated as not being imported if they are
+destined for consumption in the RoC. Provided they comply with the conditions set
+out in the regulation, such products have the status of EU goods and hence benefit
+from free circulation within the EU.
+
+4
+
+Seventh Report on the Implementation of Council Regulation (EC) 866/2004 of 29 April 2004 and the
+Situation Resulting from its Application Covering the Period 1 May until December 2010 (COM (2011) 284
+final).
+
+13
+
+Although reported figures showed an annual increase in the total value of goods
+crossing the line, in comparison to the previous reporting year5 (with the exception
+of the last two years),6 the overall scale of Green Line trade has remained limited
+owing to the narrow scope of the Regulation. Furthermore, the Commission services
+keep reporting that many obstacles to trade across the line continue to exist. Notably,
+according to the 2011 Annual Report, ΥTurkish Cypriot commercial vehicles, in
+particular lorries above 7.5 tonnes and buses, can only move freely across the whole
+island if driving licences and roadworthiness certificates are obtained in the
+government-controlled areas.Φ7
+However, more importantly, it is worth noting that the Green Line Regulation
+appears to have failed to enable goods originating in the areas not under the control
+of the RoC to penetrate the EU market. As reported in the 2007 report, Υonly in one
+single case, goods crossed the Green Line and were subsequently subject to an intracommunity transaction with another Member State.Φ8 This figure increased to 3 in
+2007 to come back to 1 in 2009, but no further cases were reported in the following
+years. Generally, 96-97% of the trade volume across the line is intra-island trade9. If,
+as the Commission reiterates in annual reports, the Υoverall conclusion is that the
+Green Line Regulation continues to provide a workable basis for allowing the
+passage of persons and goods to and from the government-controlled areas of the
+Republic of CyprusΦ10 and if one can agree that it is an important device for bringing
+the two communities closer, its overall impact could be regarded as mixed,
+especially with regards to the crossing of goods.11
+
+5 See especially Commission Report 2007, p. 11; Commission Report 2008, p. 9; and Commission Report
+
+2009, p. 10.
+6 Commission Report 2010, p. 9, and Commission Report 2011, p. 7.
+7 Commission Report 2011, p. 7. See also Commission Report 2009, p. 10 and 2010, p.10.
+8 Commission Report 2007, p. 11.
+9 See Commission Report 2010, p. 6 and 2011, p. 5.
+10 See Commission Report 2010, p.10 and 2011, p. 7.
+11 In this respect, see also N. Skoutaris, ΥThe Application of the Acquis Communautaire in the Areas not
+under the Effective Control of the Republic of Cyprus: the Green Line RegulationΦ (2008) 45 C. M. L.
+Rev. 727, at 755.
+
+14
+
+As pointed out in Section VI of this report ΥΙdespite some recent progress in
+economic convergence, Cyprus remains economically divided.Φ Yet, it remains
+unclear whether the broadening of the scope of the Green Line Regulation or even
+the adoption of further trade regulations, like the Direct Trade Regulation (assuming
+the related legal and political issues are resolved), would accelerate the process of
+economic convergence and integration of Cyprus since effective economic policies
+have to wait on political barriers to be lifted. In this respect, given the repeated
+failure of UN-sponsored talks, the EU is faced with a politico-legal challenge. This
+could, however, present an opportunity for the EU to play a more active and
+positive role in supporting an eventual settlement in line with the principles on
+which it is built.
+
+15
+
+V. Reconciliation (T. King)
+This section concerns questions of whether or not post-conflict reconciliation can be
+applied to Cyprus as interpreted through our data. Cyprus has been physically
+divided since Turkish military action responded to a Greek-inspired coup on the
+island in July-August 1974. Ever since, repeated efforts to negotiate the reunification
+of the island have yielded few results, and consequently the isolation of the two
+communities from each other continues. For almost thirty years the Green Line was
+a hermetically sealed frontier. In April 2003 the Turkish Cypriot authorities
+unilaterally opened two checkpoints, an unexpected move. There was a rush of
+people anxious to cross over from both sides, and there were very few incidents to
+warrant ending this experiment. Since then, a total of seven checkpoints have
+opened and operate twenty-four hours a day.
+This section focuses especially on consideration of the potential for reconciliation
+based on views regarding: the Cyprus problem; the post-solution state; recognition,
+settlers/immigrants and property; societal trust; and trust in political institutions
+and leadership. It draws on and complements the work done by UNFICYP;12
+Kaymak, Lordos, and Tocci;13 Georgiades;14 Webster;15 Webster and Timothy;16 Sitas,
+Latif and Loizou;17 and Ladisch.18 This work primarily considers attitudinal reasons
+
+12 UNFICYP, Υ
+
+αΗ ω
+αΈ
+:
+α α
+Έ ε α
+α
+Φ [The UN in Cyprus: An Inter-communal Survey of Public Opinion by UNFICYP], April
+
+2007.
+13 Erol Kaymak, Alexandros Lordos and Nathalie Tocci, Building Confidence in Peace: Public Opinion and
+the Cyprus Peace Process (Brussles: Centre for European Policy Studies, 2008).
+14 S.D. Georgiades, ΥPublic Attitudes Towards Peace: The Greek-Cypriot PositionΦ, Journal of Peace
+Research, 44, 5, 2007, pp. 573-586.
+15 Craig Webster, ΥDivision or Unification in Cyprus? The Role of Demographics, Attitudes and Party
+Inclination on Greek Cypriot Preferences for a Solution to the Cyprus ProblemΦ, Ethnopolitics, 4, 3,
+2005, pp. 299-309.
+16 Craig Webster and Dallen J. Timothy, ΥTravelling to the ΥOther SideΦ: the Occupied Zone and Greek
+Cypriot Views of Crossing the Green LineΦ, Tourism Geographies, 8, 2, 2006, pp. 162-181.
+17 Ari Sitas, Dilek Latif and Natasa Loizou, Prospects of Reconciliation, Co-Existence and Forgiveness in
+Cyprus in the Post-Referendum Period (Oslo: PRIO, 2007).
+18 Virginie Ladisch, ΥThe Challenge of Peacebuilding: Cypriot Views on ReconciliationΦ, The Cyprus
+Review, 19, 1, 2007, pp. 91-108.
+
+16
+
+for impediments the peace process has faced. Diplomatic obstacles to uniting the
+island have been discussed elsewhere.19
+Ladisch has argued that research on the Cyprus problem Υis based on the premise
+that there is a conflict in Cyprus; although latent and non-violent, it is a conflict
+nonetheless. In other words, there is a division that needs to be reconciled or
+resolvedΦ.20 Our work, supported by the data, tends to the opinion that Cyprus is no
+longer a divided society that ought to be reconciled, but could better be considered
+as discrete societies that are qualitatively different. These societies have little
+interaction, exhibit a marked reluctance to engage in wider cross-community activity
+or commerce, and harbour deep mutual suspicion. Given that they were completely
+divided for almost thirty years and have had only limited interaction since 2003, we
+believe that it is of limited value now to argue that Cyprus is a single society that has
+been riven asunder. Our data, especially on what the Cyprus problem is, societal
+trust and the shape of a post-solution state, leads us to believe that policy direction
+in Cyprus could more usefully move to addressing societal trust issues within each
+community rather than between them.
+Reconciliation
+In a post-conflict situation, reconciliation is commonly understood to mean that once
+Υthere is a common understanding of each communityΦs views about the past Ι
+reconciliation involves an acknowledgement of the other.Φ21 Programmes to effect
+reconciliation are generally undertaken in societies that have suffered some kind of
+severe domestic trauma or dislocation, such as civil conflict or dictatorship. In some
+cases, truth commissions have been set up to lustrate aspects of that trauma as a way
+to enable not only personal healing, but also judicial and institutional processes that
+
+19
+
+See for example: James Ker-Lindsay, EU Accession and UN Peacemaking in Cyprus (Basingstoke:
+Palgrave Macmillan, 2005); and Michális S. Michael, Resolving the Cyprus Conflict: Negotiating History
+(Basingstoke: Palgrave Macmillan, 2009).
+20 Ladisch, ΥThe Challenge of PeacebuildingΦ, p. 97.
+21 Ladisch, ΥThe Challenge of PeacebuildingΦ, p. 98.
+
+17
+
+may or may not include prosecutions. Common premises throughout are that
+reconciliation should contribute to a societyΦs post-trauma cohesion, and that
+understanding the otherΦs point of view is a prerequisite.22 Reconciliation initiatives
+generally do not take place in a society that has suffered outside invasion or
+occupation.
+Moves towards reconciliation do not happen in a vacuum. They have to be
+supported by recognised organs of society and the state, because they must be seen
+to be legitimate. They invariably take place where the perpetrators and their victims
+continue to live in the same society. While outside experts are frequently involved in
+reconciliation programmes, these initiatives work best if they are locally inspired
+and grounded so that the society emerging from conflict can claim ownership of the
+process and its results. The purpose of reconciliation is not only to reveal
+wrongdoing or expose abuses, but also to draw a line under the conflict by
+providing a framework of common experience of the conflict. In essence, it marks
+the end of the transition process, not just one more step on the road. Unlike certain
+types of truth commission, reconciliation does not generally suggest a prosecutorial
+remit.
+There are several salient issues concerning reconciliation in Cyprus. Post-conflict
+reconciliation is considered a way of ending the transition period from conflict.
+Therefore, is there a sense that Cyprus is actually emerging from conflict? Will the
+perpetrators and victims live in a single society? Can each community acknowledge
+the viewpoint and suffering of the other, and do the organs and institutions of the
+state support this initiative? Or could the status quo continue in perpetuity?
+Cyprus is complicated because the roots of its division are simultaneously internal
+and external, and there is fundamental disagreement over what caused the Cyprus
+
+22 See Priscilla B. Hayner, Unspeakable Truths: Facing the Challenge of Truth Commissions (London:
+
+Routledge, 2002); and Robert I. Rotberg and Dennis Thompson (eds.), Truth v. Justice: The Morality of
+Truth Commissions (Princeton NJ: Princeton UP, 2000).
+
+18
+
+problem. Of the two main communities on the island, the GCC maintains that
+division was mainly caused by outside invasion and the interests of foreign powers.
+The TCC, on the other hand, primarily believes that it was caused by the existence of
+two communities and nationalist tensions between them. Both contain a large
+element of truth, and, bolstered by decadesΦ worth of education and public
+discourse, are consequently hard to dislodge, as we discovered in our focus groups.
+These competing narratives expose how keenly both communities feel about their
+own perceived insecurity. Indeed, the lack of violent conflict notwithstanding, the
+underlying sense from our interviews and contacts was that Υthe Cyprus problemΦ
+was shorthand for ΥsecurityΦ. This was corroborated by focus groups from both sides,
+and also confirms UNFICYPΦs findings from 2007.
+Furthermore, reconciliation initiatives will be of limited utility if there is no need for
+either side to acknowledge the point of view of the other. This is especially relevant
+concerning the GCC viewpoint, because if they believe that the cause of the problem
+was external, then reconciliation initiatives fundamentally cannot apply to them. The
+very low level of interaction and interdependence between north and south means
+that the starting point of moves towards reconciliation, namely a single society
+divided through domestic conflict, is also largely absent.
+The Cyprus Problem
+In the general household survey we asked what were the three major issues that
+Cyprus faces at present. Not surprisingly Υthe Cyprus problemΦ was the top response
+(42%)
+
+from
+
+both
+
+communities,
+
+followed
+
+by
+
+Υthe
+
+economic
+
+crisisΦ
+
+and
+
+ΥunemploymentΦ (Figure 1). Therefore, despite growing economic unease, the
+Cyprus problem came top of both communitiesΦ responses. Our focus groups also
+discussed the Cyprus problem, and there was consensus, especially among GCs, that
+it was something that they had become habituated to thinking of as the islandΦs
+biggest issue, but which did not actually affect their everyday life. ΥWe have our own
+problems; we donΦt bother with the Cyprus problem but itΦs at the back of our mindΦ
+
+19
+
+(GC 18-35 RW). This sentiment was largely echoed by TC focus groups. Meanwhile,
+the TO focus group strongly felt that their right to live in Cyprus was continually
+questioned by all sides, and they lacked any representation at the talks.
+Interestingly, survey results indicate that the Cyprus problem is a primary issue
+more for younger respondents from the TCC and older ones from the GCC (Figure
+2). To the former, the northΦs liminality continues to pose obstacles regarding
+opportunities both within and outside the territory. For the latter, there is the issue
+of living memory of conflict and dispossession. Younger GCs tend not to see
+compelling reasons why the conflict should continue to be at the top of the political
+agenda, and older TCs often consider Turkish actions in 1974 as deliverance from the
+threat of violence by GC groups. As one interviewee stated, for GCs 1974 was a
+sudden rupture and dislocation that marked the start of history; for TCs, the
+intervention of the Turkish military on their behalf marked the end of history.
+One of the fundamental reasons why the conflict has proved intractable is that
+neither community agrees on what the Cyprus problem is, and each sideΦs narratives
+have left little room for negotiation. In the general household survey, we asked what
+respondents thought was the primary cause of the Cyprus problem. Opinions
+diverged sharply, and there was no broad agreement as to what caused the islandΦs
+division in the first place. GCC respondents believed it was chiefly down to the
+machinations and military involvement of foreign powers. TCC respondents,
+conversely, believed it was mainly due to nationalistic elements of the two
+communities (Figure 3). Further analysis of the data also revealed that this opinion
+was shared by a surprisingly large number of GCs aged 66+ who would remember
+the communal violence of the early 1960s. This divergence is mirrored in similarly
+intractable opinions on what the shape and structure of a post-solution Cyprus
+should be, as will be discussed below.
+The danger is that the longevity of the Cyprus problem has allowed these competing
+narratives to assume overriding legitimacy and hence ossify the process. GCC
+
+20
+
+respondents primarily place responsibility for the Cyprus problem on invasion by a
+foreign power (37.5%) and the machinations of foreign powers (35%). This strongly
+suggests that they consider GCs themselves as powerless and blameless. TCC
+respondents, on the other hand, thought that the problem had been caused by the
+existence of two communities (46.2%), and to a lesser extent on their respective
+nationalistic elements (20.1%). This indicates that for the TCC blame for the problem
+is largely domestic. Therefore, the two communities are qualitatively different in how
+they view the fundamental problem, and there are few signs of convergence or
+mutual understanding.
+Furthermore and although the checkpoints are now open, it appears that that most
+Cypriots do not cross often and the rate of people crossing has, in fact, sloped off in
+recent years (see Section IV above). While the TCC sample included a minority of
+TOs who are unable to cross into the RoC, all GCC participants possessed the right
+papers to travel north. Yet only a minority did so with any regularity at all (Figures 4
+and 5). As one source commented, the two communities are no longer curious about
+one another.
+The pattern of crossing is different as well. While GCs tend not to cross to make a
+political or ethical point, most TCC respondents who had not crossed said it was
+simply because it had not happened yet or that they were unable to do so (Figure 6).
+It should be emphasised that in both the GCC and TCC samples, a very large
+proportion either had never crossed or crossed only once. Of the GCC respondents,
+just over 60% had either never crossed or done so only once. Of the TCC sample, just
+under half had never crossed or only crossed once. Only 1.2% of the GCC and 5.8%
+of the TCC crossed once a week or more. Regarding the emotional impact of crossing
+the Green Line, large numbers of GCs in particular reported that they had stopped
+crossing because it left them sad and with negative feelings, in complete contrast to
+TC respondents (Figure 7).
+
+21
+
+In other words, the proportion of both communities who regularly access the other
+side is very small, and GCs in particular have emotional, political and ethical reasons
+for not accessing the other side. This suggests that Cyprus has become, in essence,
+separate societies. It should also be noted that although seven checkpoints are now
+open, only three are in an urban area (Nicosia), and of those only one (Ledra
+St./Lokmaci) is situated in a busy part of town easily accessible by foot. In other
+words, the Green Line and its checkpoints are not, in fact, a part of most peopleΦs
+everyday life.23
+The Post-Solution State
+As well as fundamental disagreement over what caused the Cyprus problem, the
+GCC and TCC disagree over what shape the post-solution state should take.
+Underpinning their opinions is the issue of security, which became apparent in our
+focus groups on both sides. GCs fear the Turkish military and TCs are apprehensive
+about a central government that might be dominated by GCs, as well as their
+minority status within Cyprus without the security afforded by TurkeyΦs presence.
+Much of the UN-sponsored talks process has been dominated by discussions about
+what kind of unitary, federal or confederal/bi-communal model a post-solution
+Cyprus would follow. According to general household survey results, the status quo
+with checkpoints open was largely unacceptable for the GCC (73.2%), while the TCC
+found it an acceptable compromise (69.5%) (Figure 8). Both sides found the status
+quo with closed crossing points unacceptable (GCC 59.3%, TCC 52%) (Figure 9).
+The option on the table is for a bi-zonal, bi-communal federation. The GCC tended to
+favour a single unitary state with equal rights for all Cypriots Π which would almost
+certainly be dominated by GCs given their demographic superiority Π to the
+exclusion of other options. The TCC, on the other hand, demonstrated a more
+
+23 Thanks to Dr Ahmet Sözen for highlighting this point.
+
+22
+
+nuanced response. A unitary state with equal rights for all citizens (no mention of
+preferred form of government) was favoured by 58% (Figure 10). While the TCC
+support for a unitary state in which they would be the minority seems high, the
+inclusion of the wording Υequal rightsΦ, strongly suggesting protection against
+domination by the GCC, would have pushed up the approval for a unitary state in
+this case.24
+The option of a weak federation with strong constituent states was unpopular
+(Figure 11), while that of a strong federal government with weak constituent states
+was less so (Figure 12). The option of two independent states was rejected
+overwhelmingly by the GCC, whereas it was the most popular option for the TCC
+(Figure 13). However, focus group data suggested that, in fact, people do not
+necessarily think in great detail about the structure of a post-solution Cyprus,
+although a number of GCs clearly wished for a return to how it was Υlike in the past
+when we had controlΦ (GC 40+ centrist).
+More broadly, the GCC in particular was divided about making crossing easier and
+opening more crossing points (Figures 14 and 15). These particular questions are
+relevant because, in the absence of progress in the talks, the status quo with open
+checkpoints is what will remain. As Yakinthou argues, it has outlasted almost forty
+years of negotiations and, if it continues, will cement the de facto partition.25 One
+interviewee commented that the current situation may not be ideal, but it is very
+stable. Others contended that the open crossing points and lack of incident have
+normalised the division; one in particular argued that the UN Buffer Zone at the
+Ledra Palace crossing point, where various bi-communal events take place, had
+become an accepted third space.
+
+24 Thanks to Alexandros Lordos for pointing out the complexity of the responses.
+
+25 Christalla Yakinthou, ΥA never-ending story: CyprusΦ, in Stefan Wolff and Christalla Yakinthou
+
+(eds.), Conflict Management in Divided Societies: Theories and Practice (London: Routledge, 2012), p. 245.
+
+23
+
+Recognition, Settlers/Immigrants and Property
+Recognising the other sideΦs existence is obviously a crucial element of any solution.
+The north is unrecognised internationally, which poses practical problems regarding
+raising money or trading legitimately: ΥOur state is not free and independentΦ (TC
+35+ LW). It is also an issue concerning access to (and by) international institutions
+and best practice Π two interviewees commented, by way of an example, that the
+north cannot access UNESCO to aid the protection of antiquities. Avoiding anything
+that could imply recognition or acknowledgement of the other side has become an
+article of faith, especially among GCs. For example, we asked whether university
+degrees and school qualifications from the other side should be recognised.
+Unsurprisingly, a large majority of the GCC (71.9%) argued that no qualifications
+from the north should be recognised. Conversely, most TCC respondents (56.5%) felt
+that qualifications from the south should be recognised (Figure 16).
+On a similar note, we asked whether it was acceptable to buy goods and services
+from the other side, which would effectively confer recognition for anything above
+small-scale ad hoc transactions. Again, almost two-thirds of the GCC exhibited
+widespread resistance, as did almost half the TCC (Figure 17). This strongly suggests
+that the GCC largely accept the continuation of an effective boycott of the north. The
+TCC, on the other hand, while preferring not to buy goods and services from the
+south, are more willing to accept its degrees and qualifications. We would argue that
+willingness to both trade and recognise educational qualifications are basic
+prerequisites for a single state to function; the level of societal resistance to such
+reciprocity discourages optimism.
+On the divisive question of what should happen to TOs and their children living in
+the north, opinion was sharply divided. Almost half (45.7%) the GCC sample
+thought that all first-generation arrivals should leave, although a large minority
+(37.5%) believed that a TO married to a TC could stay. TCC respondents
+overwhelmingly (72.7%) thought that all first-generation TOs should remain (Figure
+
+24
+
+18). On the question of TOsΦ children, over two-fifths (41.3%) of the GCC sample
+responded that they should leave, while almost a third (30%) argued that those with
+one TC parent could stay. Meanwhile TCC participants argued - by a large majority that all children of first-generation TOs should stay (Figure 19). Focus groups on
+both sides equated the demographic question here with security. Both sides
+expressed alarm at being ΥoverrunΦ Π GCs by TCs and TOs, and the TCs by the GCsΦ
+demographic superiority, as well as by increasing immigration from Turkey. It is
+significant that returning to the demographic balance of 1974 is considered a red line
+by GC negotiators.
+Similarly, the issue of restitution of, or compensation for, property lost or
+appropriated during the division of Cyprus is controversial. Both the GCC and TCC
+samples countenanced compensation, with few respondents arguing that no
+compensation should be paid at all. The GCC was more likely to want an actual
+property, while the TCC largely preferred cash compensation (Figure 20). However,
+on the question of what compensation should be paid to those vacating properties
+that were to be returned, GCC respondents was much less likely to support any kind
+of compensation than those from the TCC (Figure 21).
+Societal Trust
+The issue of societal trust in Cyprus has usually been taken as referring to trust
+between TCs and GCs, to the extent that it overrides questions of trust within each
+community. Our data suggests that trust within each community is low, and
+therefore it is understandable that they exhibit mistrust towards the other side, quite
+apart from the issue of the division of Cyprus. This also resonates with our data
+suggesting a high level of mistrust - especially within the GCC - regarding the role of
+international actors in the talks process, as will be discussed below.
+The general household survey tabled a range of queries touching on interpersonal
+issues and found that both the GCC and TCC exhibit notable levels of mistrust. In
+response to the question ΥDo you think most people would try to take advantage of
+
+25
+
+you?Φ, 80.9% of the GCC sample answered ΥDefinitelyΦ or ΥProbablyΦ, indicating that
+the overwhelming majority are distrustful of people in general. The corresponding
+figure from the TCC was 56.8%, lower but still a majority (Figure 22). Interestingly,
+when the question was phrased ΥDo you think most [from the other community] would
+try to take advantage of you?Φ, the GCC score for ΥDefinitely/ProbablyΦ was little
+different at 81.9%. However, the TCC score jumped to 79.4% (Figure 23). In essence,
+four-fifths of both the GCC and TCC believe that members of the other community
+will try to take advantage of them personally, although the GCC is more generally
+distrustful.
+Regarding the straightforward question ΥDo you trust the other community?,Φ about
+two-thirds from both samples answered ΥNo.Φ However the GCC sample was only
+half as likely to answer ΥYesΦ as the TCC (GCC 8%, TCC 16.5%). (Figure 24) Almost
+half of both the GCC and TCC respondents disagreed with the statement ΥI feel
+members of the GCC/TCC have grown more trusting of us over timeΦ (Figure 25).
+Meanwhile, a significant minority (GCC 37.6%, TCC 24.2%) feels unwelcome when
+they cross the Green Line (Figure 26).
+To get a sense of how an integrated Cypriot society and economy might work, we
+asked how people would feel about having a boss from the other community; a
+majority of neither the GCC (59.7%) nor TCC (63.8%) samples found this acceptable
+(Figure 27). The GCC were also unwilling (43%) to have a foreign boss from outside
+Cyprus, whereas TCC respondents were not necessarily averse (Figure 28). Outside
+of the power relationship that working for a boss from the other community or
+overseas entails, we asked about whether having GC, TC and foreign neighbours
+was acceptable. Our data showed that both the GCC and TCC were more willing to
+countenance foreign neighbours than those of the other community, a feeling more
+pronounced among TCC respondents (Figures 29 and 30). Both GCC and TCC
+respondents were also more willing to accept their sibling or child marrying a
+foreigner than someone of the other community (Figures 31 and 32).
+
+26
+
+As part of exploring trust issues, we also asked whether Cyprus should have a truth
+commission and whether it should be comprised of Cypriots, outside experts or
+both. Both the TCC and GCC broadly agreed that such a commission should take
+place, and both very broadly accepted that it could have foreign members as well as
+Cypriots (Figures 33 and 34). However, truth commission discourse is low-profile in
+Cyprus, and we add the caveat that, as one prominent interviewee made clear, both
+communities see such a commission mainly as a way of confirming their own version
+of history. This is very much at odds with the accepted reasoning for a truth
+commission, which is to acknowledge the other sideΦs point of view.
+Overall our data strongly suggests that the greater and easier contact between TCs
+and GCs over the last few years has not translated into increased levels of trust, with
+most from both communities answering that their levels of trust had actually
+diminished or remained the same. When asked about the influence of contact on
+their degree of trust, almost half of both GCC (46.1%) and TCC (49%) respondents
+said increased contact had, in fact, negatively affected their trust. Only a minority
+indicated that trust had improved through more contact, although there is
+noteworthy variation as over a quarter of TCC respondents thought their level of
+trust had improved, compared to just over 10% from the GCC (Figure 35).
+Trust in Political Institutions and Leadership
+According to our data, the GCC generally believes that political parties (44.7%) and
+their president (39.2%) wielded the most political influence in the RoC. Regarding
+who had most influence in northern Cyprus, the GCC also thought Turkey (80.8%)
+and the Turkish army (35%) were the most influential. TCC respondents believed
+that in northern Cyprus political decisions were most heavily influenced by Turkey
+(63%), followed by the northΦs own government (30%). TCC respondents also
+thought the political decisions in the RoC were most influenced by the church
+(42.2%) closely followed by Greece (38%) (Figure 36). Nevertheless, whoever is
+thought to influence the political process most in either community is not necessarily
+
+27
+
+seen as representative. Both GCC and TCC respondents believed that their political
+leadership formed policies and strategies without consulting their supporters
+(Figure 37).
+With regards to the talks process, some four-fifths of the GCC sample were likely to
+believe that it was driven mostly or exclusively by the interests of foreign powers.
+Conversely, TCC respondents were more likely to argue that political leadership of
+the two communities was driving the process (Figure 38). The GCC opinion - that
+the talks are mostly or exclusively directed by outside powers - suggests two things.
+First, the average GC feels a high level of disconnection with the talks process,
+something echoed in the focus groups. Second, the GCC does not view itself as
+responsible for the direction the talks take, a point especially relevant after decades
+of failed negotiations. The TCC result, on the other hand, shows a higher level of
+trust in their own leadership.
+However, more than one interviewee commented that the political leadership on
+both sides has a high level of inertia. They argued that the negotiations have become
+an independent dynamic of their own, and that continuation meant that key players
+could keep ownership, control and status. Some focus group participants reiterated
+this sentiment: ΥI hate to see politicians taking advantage of the situation, living from
+it.Φ (GC 18-35 LW)
+Conclusion
+Our data indicates that the two communities in Cyprus hold qualitatively different
+views and opinions. They exist separately with little interaction and virtually no
+interdependence. Thus space for convergence in any solution is extremely limited.
+Moreover, our data supported by fieldwork suggest that there is little societal or
+political will to use that space for convergence. While virtually all our interviewees
+want a solution, and most of them were engaging actively with the process, they
+were all pessimistic about the prospects of one emerging in the foreseeable future.
+
+28
+
+Our data demonstrates that even the causes of CyprusΦs division are contentious.
+The questions of personal trust regarding relations with the other community might
+be expected to point to mutual suspicion, but these attitudes are supported by
+similar levels of mistrust within each community. Our view is that, if each
+community displays a high level of mistrust towards its own members and
+leadership, it is highly unlikely that it will express less mistrust towards the other
+side. The mistrust between the two sides is grounded in mistrust within each.
+We believe therefore that Cyprus is not entirely ready for reconciliation measures.
+The two communities exhibit entrenched and qualitatively different views about the
+cause, nature and urgency of the Cyprus problem. Meanwhile, people on both sides
+demonstrate little confidence in their own political leadership. Social attitudes that
+have developed for decades show little sign of softening, and there is little space in
+which to challenge received wisdom. All this poses a challenge to finding common
+ground for engaging in the necessary dialogue in which each side not only talks but
+acknowledges the otherΦs concerns and interests.
+
+29
+
+Figure 1 (all figures from the General Household Survey)
+Can you tell me which three are the major issues that our society faces at present?
+(first response)
+GCC
+
+TCC
+
+30
+
+Figure 2
+The importance of the Cyprus problem by age
+GCC
+
+TCC
+
+31
+
+Figure 3
+Do you consider the Cyprus problem to be primarily…
+GCC
+
+TCC
+
+32
+
+Figure 4
+GCC
+Since the opening of the crossing points, have you visited the other
+side? IF YES: How often?
+Valid
+Cumulative
+Frequency Percent
+Percent
+Percent
+4-5 times a week
+1
+.2
+.2
+.2
+2-3 times a week
+Once a week
+Once a month
+Once every two
+months
+Four times a year
+Three times a year
+Twice a year
+Less often
+I only ever visited
+once
+No/ Never
+Total
+
+1
+5
+7
+5
+
+.2
+.8
+1.2
+.8
+
+.2
+.8
+1.2
+.8
+
+.3
+1.2
+2.3
+3.2
+
+18
+11
+49
+140
+
+3.0
+1.8
+8.2
+23.3
+
+3.0
+1.8
+8.2
+23.3
+
+6.2
+8.0
+16.2
+39.5
+
+149
+
+24.8
+
+24.8
+
+64.3
+
+214
+600
+
+35.7
+100.0
+
+35.7
+100.0
+
+100.0
+
+33
+
+Figure 5
+TCC
+Since the opening of the crossing points, have you visited the other
+side? IF YES: How often?
+Valid
+Cumulative
+Frequency Percent Percent
+Percent
+Daily
+7
+1.2
+1.2
+1.2
+4-5 times a week
+2-3 times a week
+Once a week
+Three times a
+month
+Once every two
+weeks
+Once a month
+Once every two
+months
+
+5
+11
+17
+34
+
+.8
+1.8
+2.8
+5.7
+
+.8
+1.9
+2.9
+5.7
+
+2.0
+3.9
+6.8
+12.5
+
+8
+
+1.3
+
+1.4
+
+13.9
+
+45
+38
+
+7.5
+6.3
+
+7.6
+6.4
+
+21.5
+27.9
+
+Four times a year
+Three times a year
+Twice a year
+Less often
+I only ever visited
+once
+No/Never
+Total
+Missing
+Total
+
+35
+29
+43
+22
+32
+
+5.8
+4.8
+7.2
+3.7
+5.3
+
+5.9
+4.9
+7.3
+3.7
+5.4
+
+33.8
+38.7
+45.9
+49.7
+55.1
+
+266
+592
+8
+600
+
+44.3
+98.7
+1.3
+100.0
+
+44.9
+100.0
+
+100.0
+
+34
+
+Figure 6
+Are there some specific reasons for which you haven’t visited the other side?
+GCC
+
+TCC
+
+35
+
+Figure 7
+The emotional effect of crossing to the other side left me feeling sad and with
+negative feelings so I stopped visiting.
+GCC
+
+TCC
+
+36
+
+Figure 8
+What is your position on the following possible forms of solution to the Cyprus
+issue? Do you completely reject it, ACCEPT it as a compromise, or consider it very
+satisfactory?
+GCC
+
+TCC
+
+Status quo with open crossing points
+
+37
+
+Figure 9
+What is your position on the following possible forms of solution to the Cyprus
+issue? Do you completely reject it, ACCEPT it as a compromise, or consider it very
+satisfactory?
+GCC
+
+TCC
+
+Status quo with closed crossing points
+
+38
+
+Figure 10
+What is your position on the following possible forms of solution to the Cyprus
+issue? Do you completely reject it, ACCEPT it as a compromise, or consider it very
+satisfactory?
+GCC
+
+TCC
+
+One unitary state with equal rights for all Cypriot citizens
+
+39
+
+Figure 11
+What is your position on the following possible forms of solution to the Cyprus
+issue? Do you completely reject it, ACCEPT it as a compromise, or consider it very
+satisfactory?
+-
+
+GCC
+
+TCC
+
+A federal solution with a weak central government and two strong
+constituent states.
+
+40
+
+Figure 12
+What is your position on the following possible forms of solution to the Cyprus
+issue? Do you completely reject it, ACCEPT it as a compromise, or consider it very
+satisfactory?
+-
+
+GCC
+
+TCC
+
+A federal solution with a strong central government and two weak
+constituent states.
+
+41
+
+Figure 13
+What is your position on the following possible forms of solution to the Cyprus
+issue? Do you completely reject it, ACCEPT it as a compromise, or consider it very
+satisfactory?
+GCC
+
+TCC
+
+Two independent, internationally recognised states.
+
+42
+
+Figure 14
+Steps should be taken to make crossing to the other side easier
+GCC
+
+TCC
+
+43
+
+Figure 15
+I would like to see more crossing points opening in the near future
+GCC
+
+TCC
+
+44
+
+Figure 16
+On a scale of 1 to 5, where 1 means “Not at all acceptable” and 5 means “totally
+acceptable” how acceptable or unacceptable would it be for you personally to
+recognise degrees and qualifications from schools on the other side?
+GCC
+
+TCC
+
+45
+
+Figure 17
+On a scale of 1 to 5, where 1 means “Not at all acceptable” and 5 means “totally
+acceptable” how acceptable or unacceptable would it be for you personally to buy
+goods and services from TC companies and people
+GCC
+
+On a scale of 1 to 5, where 1 means “Not at all acceptable” and 5 means “totally
+acceptable” how acceptable or unacceptable would it be for you personally to buy
+goods and services from GC companies and people
+TCC
+
+46
+
+Figure 18
+Which of the following statements comes closer to your opinion with respect to
+what should happen with first generation settlers from Turkey to TRNC/occupied
+areas following a settlement?
+GCC
+
+TCC
+
+47
+
+Figure 19
+Which of the following statements comes closer to your opinion with respect to
+what should happen with the children of settlers from Turkey to TRNC/occupied
+areas following a settlement?
+GCC
+
+TCC
+
+48
+
+Figure 20
+Given that a compromise between the two communities is reached, what do you
+believe is the most appropriate course of action for compensating people who will
+not be returning to their properties?
+GCC
+
+TCC
+
+49
+
+Figure 21
+And with respect to the people who will have to move out of properties they are
+currently using because they will be returned to the original owners? What do you
+believe is the most appropriate course of action for compensating these people?
+GCC
+
+TCC
+
+50
+
+Figure 22
+Do you think most people in general would try to take advantage of you if they
+got a chance, or would they try to be fair?
+GCC
+
+TCC
+
+51
+
+Figure 23
+GCC: Do you think most TCs would try to take advantage of you if they got a
+chance, or would they try to be fair?
+
+TCC: Do you think most GCs would try to take advantage of you if they got a
+chance, or would they try to be fair?
+
+52
+
+Figure 24
+On a scale from 1 to 5 where 1 means “not at all” and 5 means “completely”, to
+what extent, would you say that you trust the other community?
+GCC
+
+TCC
+
+53
+
+Figure 25
+I feel member of the other community have grown more trusting of us over time
+GCC
+
+TCC
+
+54
+
+Figure 26
+I feel welcome when I visit the other side
+GCC
+
+TCC
+
+55
+
+Figure 27
+GCC: On a scale of 1 to 5, where 1 means “Not at all acceptable” and 5 means
+“totally acceptable” how acceptable or unacceptable would it be for you to have a
+TC boss?
+
+TCC: On a scale of 1 to 5, where 1 means “Not at all acceptable” and 5 means
+“totally acceptable” how acceptable or unacceptable would it be for you to have a
+GC boss?
+
+56
+
+Figure 28
+On a scale of 1 to 5, where 1 means “Not at all acceptable” and 5 means “totally
+acceptable” how acceptable or unacceptable would it be for you to have a
+foreigner as a boss?
+GCC
+
+TCC
+
+57
+
+Figure 29
+GCC: On a scale of 1 to 5, where 1 means “Not at all acceptable” and 5 means
+“totally acceptable” how acceptable or unacceptable would it be for you to have
+TC neighbours?
+
+TCC: On a scale of 1 to 5, where 1 means “Not at all acceptable” and 5 means
+“totally acceptable” how acceptable or unacceptable would it be for you to have
+GC neighbours?
+
+58
+
+Figure 30
+On a scale of 1 to 5, where 1 means “Not at all acceptable” and 5 means “totally
+acceptable” how acceptable or unacceptable would it be for you to have foreign
+neighbours?
+GCC
+
+TCC
+
+59
+
+Figure 31
+GCC: On a scale of 1 to 5, where 1 means “Not at all acceptable” and 5 means
+“totally acceptable” how acceptable or unacceptable would it be for your
+children/sibling to marry a TC
+
+TCC: On a scale of 1 to 5, where 1 means “Not at all acceptable” and 5 means
+“totally acceptable” how acceptable or unacceptable would it be for your
+children/sibling to marry a GC
+
+60
+
+Figure 32
+On a scale of 1 to 5, where 1 means “Not at all acceptable” and 5 means “totally
+acceptable” how acceptable or unacceptable would it be for your children/sibling
+to marry a foreigner?
+GCC
+
+TCC
+
+61
+
+Figure 33
+On a scale of 1 to 5, where 1 means “Not at all acceptable” and 5 means “totally
+acceptable” how acceptable or unacceptable would it be for you personally for an
+independent body to prepare an unbiased and comprehensive report of what
+happened in the past?
+GCC
+
+TCC
+
+62
+
+Figure 34
+If an independent body was set up to examine what has occurred in the past in
+order to provide a comprehensive and unbiased report on events, would you
+prefer that such a body were…
+GCC
+
+TCC3
+
+63
+
+Figure 35
+On a scale from 1 to 5 where 1 means “very negatively” and 5 means “very
+positively”, to what extent, would you say, that your contact with people on the
+other side has influenced positively or negatively the degree to which you trust
+the other community?
+GCC
+
+TCC
+
+64
+
+Figure 36 (top four answers only)
+GCC: Who do you think influences political decisions in the GCC?
+
+Political parties
+The people
+The government
+The president
+
+Yes
+228
+107
+106
+62
+
+No
+372
+493
+494
+538
+
+Total
+600
+600
+600
+600
+
+GCC: Who do you think influences political decisions in the TCC?
+
+Turkey
+The Turkish army
+The government
+Political parties
+The TC army
+
+Yes
+254
+157
+47
+31
+31
+
+No
+346
+443
+553
+569
+569
+
+Total
+600
+600
+600
+600
+600
+
+TCC: Who do you think influences political decisions in the GCC?
+
+The church
+Greece
+The president
+The government
+
+Yes
+253
+228
+184
+168
+
+No
+341
+366
+410
+426
+
+Total
+594
+594
+594
+594
+
+TCC: Who do you think influences political decisions in the TCC?
+
+Turkey
+The president
+Political parties
+The government
+
+Yes
+378
+171
+108
+108
+
+No
+216
+423
+414
+414
+
+Total
+594
+594
+594
+594
+
+65
+
+Figure 37
+GCC: On a scale of 1 to 5, where 1 means “I totally disagree” and 5 means “I
+totally agree” to what extent do you agree that the leaderships of political parties
+in the GCC formulate policies and strategies without consulting their supporters?
+
+TCC: On a scale of 1 to 5, where 1 means “I totally disagree” and 5 means “I totally
+agree” to what extent do you agree that the leaderships of political parties in the
+TCC formulate policies and strategies without consulting their supporters?
+
+66
+
+Figure 38
+With respect to the Cyprus problem and the direction of the discussions do you
+believe that ...
+1. The process is driven and directed SOLELY by the political leadership of the two
+communities
+2. The process is driven to a LARGE EXTENT by the political leadership of the two
+communities and to a SMALL EXTENT by foreign powers
+3. The process is driven to a SMALL EXTENT by the political leadership of the two
+communities and to a LARGE EXTENT by foreign powers
+4. The process is driven and directed SOLELY by foreign powers
+GC
+
+TCC
+
+67
+
+VI. Peace Economics (D. Braddon and T. King)
+This section of the report focuses on the economic dimension of the project. Peace
+economics examines the extent to which economic factors can help explain conflict
+and also be incorporated into an effective reconciliation process. This involves taking
+into account the role of economic activity in promoting peace by establishing and
+maintaining mutual interests, such as considering economic integration, the role of
+business and the relationship between peace and levels of prosperity.
+Therefore the role of economics envisioned here is not as a single factor divorced
+from political and social change. Rather, it is viewed as a supportive and important
+complement to other developments. While enhanced cross-line trade may not be
+essential for the future of both communities, it is crucial for the holistic anchoring of
+an effective peace process. Coverage below looks specifically at a range of issues
+regarding perceptions of economic problems, personal circumstances, management
+and business relationships, and cross-line activity. This section draws on and adds to
+work on cross-line trade undertaken by: Hatay, Mullen and Kalimeri;26 Jacobson,
+Musyck, Orphanides and Webster;27 Mullen, Oğuz and Kyriacou;28 Çilsal, Kyriacou
+and Mullen;29 and Trimikliniotis.30 It also draws on the report by Sureç and Akifler.31
+However, we first must acknowledge that economic circumstances in both the RoC
+and northern Cyprus are also significantly impacted by factors outside the island.
+Any emphasis on the absolute necessity of encouraging trade across the Green Line
+as concomitant to future prosperity in Cyprus rests on two, possibly contentious,
+
+M. Hatay, F. Mullen and J. Kalimeri, Intra-island trade in Cyprus: Obstacles, oppositions and
+psychological barriers (Oslo: PRIO, 2008).
+27 D. Jacobson, B. Musyck, S. Orphanides and C. Webster, The Opening of Ledra Street/Lokmaci Crossing
+in April 2008: Reactions from Citizens and Shopkeepers (Oslo: PRIO, 2009).
+28 F. Mullen, Ö. Oğuz and P. Kyriacou, The Day After: Commercial opportunities following a solution to the
+Cyprus problem (Oslo: PRIO, 2008)
+29 Ö. Oğuz Çilsal, P. Kyriacou and F. Mullen, The day after III: the Cyprus peace dividend for Turkey and
+Greece (Oslo: PRIO, 2010).
+30 N. Trimikliniotis, Free Movement of Workers in Cyprus and the EU (Oslo: PRIO, 2010)
+31 Y. Sureç and U. Akifler, ΥThe Turkish Cypriot Competitiveness Report 2008-2009Φ (Turkish Cypriot
+Chamber of Commerce, 2010).
+
+26
+
+68
+
+assumptions. The first assumption is that the effective boycott of the other side,
+notably by GCs refusing to spend money in the north or on northern Cypriot or
+Turkish products, is holding the north back. The northern Cypriot economy is
+characterised by market inefficiency due to high production costs and the inability to
+trade legitimately.32 However, its isolation can be exaggerated. As one interviewee
+pointed out, international franchises penetrate northern Cyprus via Turkey,33 and
+the existence of a number of franchises and international brands in the north are
+illustrative of the interconnection between the northern Cypriot and Turkish
+economies. Indeed northern CyprusΦs unrecognised and liminal status has meant
+that it is perforce integrated into the Turkish economy,34 while the north is actively
+expanding its networks separate from any political solution. In January 2012, for
+example, the Organisation of Islamic Cooperation confirmed that it would
+encourage its members to cooperate with northern Cyprus Υto overcome unfair
+isolations imposed on the TRNC.Φ35 The fact that the Turkish economy itself is doing
+well at a time of global uncertainty questions the view that future prosperity for the
+north must necessarily rely on the RoC or even the EU.
+The second assumption, that a lack of extensive trade across the Green Line denies
+the RoC a key economic opportunity, tends to overlook the primary impact of
+economic globalisation. While some GCs can envisage greater opportunity through
+access to northern Cypriot and perhaps Turkish markets, the potential significance
+of cross-line trade is diminished with the RoCΦs increasing economic integration into
+European, regional and global currents. For example and beyond EU trade and
+relations, Russia has recently agreed to lend the RoC €2.5 billion and Russians are
+the source of a quarter of all bank deposits and a third of foreign investment.36
+
+32 ibid, p. 2.
+33 Interview by M.K. Flynn, Sept. 2010.
+34 Interview by M.K. Flynn, Sept. 2010.
+
+35 ΥIslamic conference issues final declaration in IndonesiaΦ
+
+http://www.worldbulletin.net/?aType=haber&ArticleID=85131 (accessed 7 Feb 2012 by T. King)
+36 L. Harding, ΥRussian expat invasion of Cyprus also has sinister overtonesΦ, The Guardian, 26 January
+2012.
+http://www.guardian.co.uk/world/2012/jan/26/cyprus-russian-invasion?INTCMP=SRCH
+(accessed by T. King, 6 February 2012).
+
+69
+
+Meanwhile, many RoC households benefit from the low cost labour of domestic
+workers, usually women from Asian countries such as the Philippines, Sri Lanka,
+Vietnam and Thailand. An estimated 120,000 Π 160,000 migrants live in the RoC,37
+which maintains a non-Schengen immigration regime and has relatively lenient
+conditions for residency permits. Indeed, within the EU the RoC in 2009 had “the
+highest relative number of permits issued [to non-EU nationals]Ι. (320 for every 1000
+residents).Υ38
+Meanwhile, and despite some recent progress in economic convergence, Cyprus
+remains economically divided. Trade across the Green Line is regulated by the
+rather narrow scope of the Green Line Regulation (see Section IV) which treats the
+line as, effectively, an EU border in terms of what can be imported and under what
+conditions.39 Therefore, in addition to attitudinal obstacles, economic activity
+between the GCC and TCC faces regulatory impediments as well.
+The RoCΦs GDP is €17.3 billion, while per capita GDP stands at €21,600. 40 By way of
+contrast, 2009 figures showed that northern CyprusΦs GNP was US$3.5 billion and
+per capita GNP stood at US$13,900.41 The difference in economic performance of the
+two parts of Cyprus has much to do with the TCCΦs lower economic activity rate
+due, in large part, to its difficulty in accessing international markets and its overreliance on direct support from Turkey. Economic recession hit the GCC in 2009,
+sharply reducing living standards as well as reducing employment opportunities
+south of the Green Line for TCs. North of the Green Line, economic contraction
+began in 2008 and turned into a deeper recession in 2009. It is against this economic
+background that our project took place.
+
+N. Triminikliniotis, ΥCyprusΦ, Migration, Employment and Labour Market Integration Policies in the
+European Union (Brussels: IOM, 2010): 64-67.
+38 ΥResident permits issued to non-EU nationals in 2009Φ
+http://epp.eurostat.ec.europa.eu/cache/ITY_OFFPUB/KS-SF-11-043/EN/KS-SF-11-043-EN.PDF
+(accessed 10 Feb. 2012 by M. K.Flynn)
+39 See Hatay et al., pp. 27-30.
+40 http://www.datosmacro.com/en/gdp/cyprus (accessed by T. King, 11 February 2012)
+41 http://www.trnc.eu/eco-generalinfo.html (accessed by T. King, 11 February 2012)
+
+37
+
+70
+
+Perceptions of Economic Problems
+In the general household survey, GCC and TCC respondents were asked to specify
+their three most important concerns. The two communities clearly saw the ΥCyprus
+problemΦ as the major issue, as discussed in Section V above. However, some 25.5%
+of the GCC respondents and 11.9% of the TCC sample felt that the economic
+situation generally was another key problem, while 7.7% of the GCC and a much
+higher proportion (22.1%) of TCC survey participants listed unemployment in the
+top three (see Section V, Figure 1). Few respondents indicated infrastructure as a
+concern. This important issue for economic progress was, however, identified by
+participants at the GCC economics symposium as having major significance.
+Particular concern focused on the water shortage problem as well as sewage
+infrastructure upgrading, while construction of an island-wide light railway system
+was suggested.
+Meanwhile GC focus group participants from the political left and centre felt that the
+current economic climate made it difficult for small and medium sized enterprises to
+compete with larger corporations, further extending the gap between rich and poor.
+Interestingly they also perceived fellow GCs to be highly materialistic and
+demanding an expensive lifestyle beyond their financial means, thereby generating
+long-term adverse effects on the economy. Right-wing participants were more
+concerned about declining levels of foreign investment and tourism income.
+All GC focus groups expected that, in the future, Cyprus will face rapid price
+increases, wage cuts, higher unemployment (especially among the young) and
+higher taxation, all of which will undermine their standard of living. They were fully
+aware of the economic malaise currently affecting key parts of the eurozone; as one
+respondent put it: Υif we donΦt act immediately, we will face similar economic
+problems with GreeceΦ(18-45, RW). There was also a strong perception that economic
+problems facing Cyprus had close links with immigration. The economic burden
+associated with immigration revolved around the perceived demand immigrants
+
+71
+
+place on public resources and their impact on Cypriot unemployment as a source of
+cheap labour. Furthermore, some GC discussants felt that the sending remittances
+home by non-European workers represented further loss for the RoC.
+Participants in the TC focus groups, while agreeing with the main problems
+identified by GC participants, also expressed a wider range of economic concerns.
+This may be related to a factor inferred from the data collection for the general
+household survey. As already noted, the GCC sample was considerably older than
+the TCC one. This suggests that younger people from the TCC are more likely to be
+at home during the day and hence infers both a lower level of employment and
+economic activity in the north. Furthermore, the TC focus groups were undoubtedly
+influenced by the furore over an economic stability package announced in early 2011
+for northern Cyprus. This was criticised for neglecting social welfare, education and
+health issues while focusing principally on economic policy changes such as
+privatization, public spending cuts and higher taxes.
+Personal Economic Circumstances
+Respondents to the general household survey were asked whether their householdΦs
+economic situation, compared to a year earlier, had improved, deteriorated or
+remained the same. There was a remarkable difference here between the two parts of
+the island. Hardly any GCC respondents (1.8%) had experienced improvement while
+some 60.3% felt that it had deteriorated. The position appears less extreme in the
+north, perhaps counter-intuitively given the poorer state of the TCC economy
+overall.
+
+For the TCC over one-fifth of respondents (22.2%) felt their economic
+
+situation had improved while about only one-quarter (25.7%) felt it had deteriorated.
+(Figure 1). Within the TCC sample, TC and TO respondents reported about the same
+proportion with an improved economic situation (22.5% and 20.0% respectively).
+However, TO respondents had experienced more extensive deterioration in their
+personal economic circumstances (35.7% compared with 24.6% for TCs).
+
+72
+
+Survey respondents were further asked whether they were able to save some of their
+monthly household income. Less than one fifth (19.8%) of the GCC respondents felt
+able to do so with over 78% finding saving impossible. TCC respondents, on the
+other hand, revealed a much greater propensity to save with over 41% found saving
+to be possible while only 56.8% were not able to (Figure 2). Further analysis of the
+data showed a clear difference between TCs and TOs on this issue; half of TCs could
+save whereas almost two-thirds of TO respondents could not.
+But the most striking aspect of our economic data concerned a range of comparative
+personal and household indicators. It is a common belief, especially in the GCC, that
+the north is backward and poor, although a lack of public expenditure (and
+consequent public shabbiness) is not the same as actual poverty. Indeed we found
+that the TCC self-reported a higher savings rate, more access to ready capital and
+more access to property that could be sold when compared with the GCC sample.
+This is important for two reasons. First, it strongly suggests that the north is not
+impoverished and lack of capital is not a pressing problem. Second, it debunks the
+GCC notion that the north is necessarily poor, and suggests that GCC thinking about
+the TCCΦs economic potential may be outdated.
+This, in turn, suggests that a critical reconsideration is needed regarding a common
+assumption that the TCC will automatically be in the position of the supplicant to
+the GCC if the Cypriot economies are integrated. As one TC source commented, GCs
+consider themselves as the gatekeepers to prosperity and economic opportunity. The
+economic data collected is also significant because it points to a possible overestimation of problems northern Cyprus would face in the event of a solution;
+indeed some TC interviewees strongly believed that growing capital investment in
+northern Cyprus could compete with the RoC in the key tourism industry if a
+settlement did not transpire.42
+
+42 Interviews for this paragraph by M.K. Flynn, Sept. 2010.
+
+73
+
+Access to capital for ordinary citizens is essential in almost any economy, whether it
+be for consumption or investment purposes. With this in mind, the general
+household survey asked respondents, first, how easily they could acquire €2,000 of
+emergency capital. A clear difference was observed here between the two
+communities. While 43.2% of GCC respondents would find it either impossible or
+very difficult and 35% easy or relatively easy, TCC respondents indicated that only
+18% would find it impossible or very difficult and 68% easy or relatively easy
+(Figure 3). Closer analysis of the data indicated that it was especially TCs and not
+TOs who had greater access to this emergency finance.
+Respondents were further asked Υdoes your family own property that it can sell to
+raise money if it needed to?Φ Just over one third (37.2%) of GCC respondents felt this
+was possible while 62.8% did not. Again, TCC respondents appeared better placed
+with over two-thirds stating that this was possible and only 31.9% stating it was not
+(Figure 4). Closer consideration of the TCC data again revealed TCs were especially
+advantaged with just under three-quarters reporting they could sell property
+compared with just under half of the TOs.
+Survey participants were also asked how easy it would be for them as individuals to
+obtain a loan from a bank for €10,000 and €40,000 respectively. For GCC
+respondents, 53.2% said they would find it extremely difficult or impossible to
+borrow €10,000 and almost three-quarters (74.3%) would be unable to borrow
+€40,000. About one quarter (24.3%) would find €10,000 relatively easy to borrow and
+only about one in ten (9.9%) could borrow €40,000. Again, responses from TCC
+participants suggested better access to capital. 34% would find €10,000 relatively
+easy to borrow while some 15.7% could borrow €40,000. Significantly fewer TCC
+(40.2%) than GCC respondents would find it almost impossible to borrow €10,000
+although the proportion who would find it almost impossible to borrow €40,000
+(73.7%) was much the same as for the GCC (Figures 5 and 6).
+
+74
+
+Interestingly the relationship between age of respondents and access to credit
+appeared to matter most for GCC respondents. The oldest group (56+), for example,
+found a €40,000 loan harder to acquire (75.5%) compared with those in the 18 to 35
+and 36 to 55 age groups (50.3% and 53.7% respectively). However, in the TCC there
+was no significant difference across age groups in accessing loans. Overall, the
+surprising find here is that capital availability in the north may be more substantial
+than previously realised, and therefore offers greater economic potential for
+investment in the future than is commonly recognised.
+Economic Management and Business Relationships
+Respondents to the general household survey were furthermore asked whether
+those responsible for the economy in the GCC and TCC cared about the interests of
+ordinary people. Over half (55.8%) of GCC respondents answered in the negative
+compared with 44.1% from the TCC (Figure 7). The survey also asked whether there
+were institutional safeguards of their economic interests. Some 47.4% of GCC and
+44.8% of TCC respondents felt that there were no such institutional safeguards
+(Figure 8).
+Additional questioning concerned views about adoption of the euro. For the RoC,
+this happened in 2008; for northern Cyprus the issue remains a distant prospect.
+Interestingly, there were some very different responses here. GCC respondents were
+almost equally divided on the issue with 35% of respondents stating it had been
+entirely or quite a bad thing for the RoC economy and 38.5% believing it had been
+entirely or quite good. On the TCC side, however, asked what the effect would be if
+the euro were to be adopted in the north, only 17% felt it would be a bad thing while
+almost 47% stated that it would be a good thing (Figure 9).43
+
+43
+
+We emphasise here, however, that the survey results predate the current eurozone crisis, so
+opinions may very well have changed on this particular point.
+
+75
+
+As already noted in Section V, survey respondents from both sides are wary of
+relationships that could put them at a disadvantage, such as having a boss from the
+other community. They are also very resistant Π especially in the GCC Π to doing
+anything that could support the other sideΦs economy, and this is linked to the wider
+issue of recognition and legitimacy. But participants in the focus groups appeared
+more open to changing employment relationships. The left-wing and centre GC
+participants, for example, stated a willingness to maintain personal and professional
+relationships with people from the other community as based on mutual respect and
+understanding. As importantly, they expressed a willingness to support
+comprehensive access by TCs to all sectors of employment, whether public or
+private, and on an equal footing with GCs. While TC focus groups also found that
+individuals were willing to engage with the GCC, some expressed concern. Others
+argued that they would be more willing to do so only after a solution, while at
+present some participants also resisted greater interaction because they found GCs
+Υpatronising ... I donΦt like their attitudeΦ (TC 35+ Left).
+Overall, however, findings have not indicated that a process of moving towards a
+single economic system for the island will be straightforward. Survey responses
+suggest deep concern in both parts of Cyprus about the possibility of future
+economic interaction in any form ranging from the simplest of routine economic
+transactions to more complex personal relationships, like working with colleagues
+and bosses from the other community. Earlier in this report, the issue of a lack of
+trust between the two communities was discussed and this clearly remains an
+important barrier to progress as well from the economic perspective.
+Economic Activity and the Crossing Points
+The crossing point survey, as opposed to the general household polling, was
+designed to identify patterns of economic activity for those actually crossing from
+one side to the other. The frequency (or not) of crossing points was already
+addressed in Section V. Crossing point survey respondents were asked to select from
+
+76
+
+a range of possible activities they might undertake on a visit to the other side and the
+results are noteworthy. Of those travelling from the RoC, over three-quarters (76.6%)
+crossed the line to visit places of interest or worship or their familyΦs place of origin.
+In other words, most visits by GCs would seem to involve no necessary economic
+activity. Only 11.5% of this sample shopped or used restaurants/cafes compared
+with just over 38% of those crossing from northern Cyprus into the RoC (Figure 10).
+TCs were also far more likely to spend money when crossing than Greek Cypriots
+(Figure 11).
+Disaggregating the crossing point data by profession also produced interesting
+findings. For those crossing from the RoC the only really significant group in terms
+of economic activity on the other side were unskilled labourers, manual workers and
+domestic workers of whom 57.3% visited shops, restaurants and cafes. The next
+highest was the company owner group (33.3%) and then self-employed professionals
+(15.4%). The picture for those crossing from the north into the RoC, however, was
+quite different by profession. Those having the greatest impact through economic
+activities were: students and drafted soldiers (56.2%); non-desk job service sector
+employees (50%); middle managers (50.7%) and desk job/clerical employees (46.9%).
+Thus it is clear that the principal rationale for those crossing from the RoC is
+primarily to undertake activities with little economic impact while those crossing the
+other way more often undertake significant economic activities.44
+Crossing point survey respondents were also asked how much money they spent on
+their last visit. Of those coming from the RoC who spent money on the other side
+(669 responses), the largest number (239) spent between €20 and €50 with a further
+119 spending between €50 and €100. For those making the crossing from the north
+who spent money (691 responses), 238 spent between €20 and €50 while 125 spent
+between €50 and €100 (Figure 12). Therefore, more money is spent by people
+crossing from the north than vice versa. While expenditure estimates here are slightly
+44
+
+This confirms findings by Hatay et al., and Jacobson et al.
+
+77
+
+lower than reported in other surveys,45 it remains the case that visitors from the
+north spend significantly more than those from the RoC on visits across the Green
+Line.
+In terms of what money was spent on, visitors from the RoC to the north spent
+mainly on clothing and accessories (76.2%), and household goods and foodstuffs
+(16.3%). In terms of services purchased, some 59.4% spent money in cafes, bars and
+clubs while significant expenditure was also made in restaurants (21.6%) and casinos
+(16.5%). For those crossing from the north, 56.6% purchased clothes and accessories,
+14.5% household goods and foodstuffs, 10.8% alcohol and tobacco, and 5.1%
+cosmetics. With regards to services, 45.1% spent money in cafes, bars and clubs,
+47.2% in restaurants, and 5% on healthcare (Figures 13 and 14).
+However and as already noted in the general household survey, a significant
+proportion of those crossing, especially GCs crossing into the north, are reluctant to
+spend money on the other side for political and ethical reasons. The pattern was
+largely replicated in the crossing point survey. Of those from the RoC who had not
+spent money, three quarters (74.7%) stated that the need to spend money had simply
+not arisen. However, almost two in five (18.5%) said that they did not wish to
+support the economy of northern Cyprus, while only 2.4% said this was because
+they did not trust the quality of the other sideΦs products. For those crossing from
+the north into the RoC who had not spent money, almost four in five (79.3%) stated
+that the issue simply had not arisen yet. However, 15.8% admitted that it was
+because they did not wish to support the economy of the other side while a further
+4.9% felt that prices were too high (Figure 15).
+
+45 Peace Economics Consortium, ΥEconomic Interdependence in CyprusΦ (Nicosia: Cyprus Chamber of
+
+Commerce & Industry and Turkish Cypriot Chamber of Commerce, 2011).
+
+78
+
+Conclusion
+The profile of Cyprus based upon these survey results and other project data
+suggests that, while some economic interaction has been stimulated as a result of the
+opening of more crossing points, widespread attitudinal obstacles remain to greater
+economic interaction, aside from the issue of Green Line regulations. There is also a
+notable degree of cynicism regarding the ability and will of politicians to look after
+peopleΦs economic wellbeing (Figure 16). However, focus group discussants and
+contributors to the economics symposia suggested that reaching a satisfactory
+settlement to the Cyprus problem was actually in the economic interests of both
+communities, with the potential to both generate increased cross-border trading and
+create significant economies of scale with associated cost savings.46 In turn this
+would likely make Cyprus overall more globally competitive; as one interviewee
+noted,47 Cyprus could then profit from its important ΥhubΦ location as a central point
+between markets in the EU, North Africa and the Middle East. GCC symposium
+participants further observed that the best strategy for the future might be to focus
+more on maximising this economic potential and less on the ΥCyprus problemΦ itself.
+There is a school of thought arguing that increasing economic activity across the
+Green Line might blur it almost by stealth.48 While this may be a hopeful approach,
+it is also inconsistent with the very real hurdle created by the special regime around
+Green Line Regulation as implemented by the EU. Obstacles presented by the
+Regulation furthermore chime with social and political attitudes as shown through
+our polling data. Moreover, our data indicates that the types of economic activity
+conducted by visitors crossing the Green Line are not the same on each side with
+those crossing often motivated by very different reasons. Those coming from the
+north to the RoC tend to shop, use public services, enjoy cafes and restaurants as
+well as work, and hence spend considerable amounts. Conversely, visitors from the
+
+46
+
+See also Mullen et al.
+
+47 Interview by T. King, February 2011.
+48 See Peace Economics Consortium.
+
+79
+
+RoC more often cross north to visit areas of origin or places of interest or worship.
+This generates much lower levels of spending, often accompanied by a high level of
+grievance linked to visiting areas from which they or their families were displaced.
+Meanwhile a large proportion of both TCs and GCs do not cross at all or have only
+done so once. This is linked to a marked reluctance by significant numbers of GCs
+and TCs to do anything that could support the economy of the other side. Therefore,
+economic transactions remain overwhelmingly at the ad hoc micro-level, while
+formal, large-scale economic interaction is virtually non-existent. The kind of
+personal economic activity we have observed is symptomatic of low levels of societal
+trust on both sides. Developing economic policy approaches that could support
+broader moves towards reconciliation for Cyprus, then, have to confront these
+issues. Focused financial support for cross-border small and medium-sized
+enterprise initiatives, possibly involving simultaneous infrastructure developments
+to improve communications and transport, could be considered for example. Trade
+fairs, designed to encourage the inflow of foreign capital, could also encourage
+greater trust and bi-communal interaction, if they are genuinely open to both sides
+and on equal terms.49 Ongoing engagement with and between the two Chambers of
+Commerce should continue and be supported. But at the same time, an in-depth
+reconsideration of the relative economic strengths and weaknesses Π based
+specifically on the contemporary situation for both communities - is also needed, as
+existing preconceptions may no longer hold true.
+However, full scale change in economic relations between the two communities
+depends on political movement and substantial transformation of the rules of
+engagement across the Green Line. Whatever economic adjustments can be brought
+about are very limited without discernible political progress in resolving the Cyprus
+problem and - crucially Π creating a sympathetic regulatory framework. Economics
+
+49 See also Hatay et al., pp. 73-78
+
+80
+
+can support a process of change but cannot work in isolation from other factors, such
+as questions of social trust within and between the two communities.
+
+81
+
+Figure 1 (General Household Survey - GHS)
+Compared to a year ago, would you say your household’s economic situation has
+improved, deteriorated or remained the same?
+GCC
+
+TCC
+
+82
+
+Figure 2 (GHS)
+Do you save some of your monthly household income in a savings account?
+GCC
+
+TCC
+
+83
+
+Figure 3 (GHS)
+On a scale from 1 to 5 where 1 means ‘impossible’ and 5 means ‘very easy’, how
+easy or hard would it be for you personally to cover some emergency expenses up
+to €2000?
+GCC
+
+TCC
+
+84
+
+Figure 4 (GHS)
+Does your family own property that it can sell to raise money if it needed to?
+GCC
+
+TCC
+
+85
+
+Figure 5 (GHS)
+On a scale from 1 to 5 where 1 means ‘impossible’ and 5 means ‘very easy’, how
+easy or hard would it be for you personally to get a loan from a bank for €10,000?
+GCC
+
+TCC
+
+86
+
+Figure 6 (GHS)
+On a scale from 1 to 5 where 1 means ‘impossible’ and 5 means ‘very easy’, how
+easy or hard would it be for you personally to get a loan from a bank for €40,000
+GCC
+
+TCC
+
+87
+
+Figure 7 (GHS)
+On a scale of 1 to 5, where 1 means “I totally disagree” and 5 means “I totally
+agree” to what extent do you agree that those responsible for the economy in the
+GCC/ TCC care about the interests of the common people?
+GCC
+
+TCC
+
+88
+
+Figure 8 (GHS)
+On a scale of 1 to 5, where 1 means ‘I totally disagree’ and 5 means ‘I totally agree’
+to what extent do you agree that there are institutions that safeguard my economic
+interests?
+GCC
+
+TCC
+
+89
+
+Figure 9 (GHS)
+Do you consider Cyprus’ adoption of the euro as the national currency is…
+GCC
+
+Would you consider the adoption of the euro as the national currency as…
+TCC
+
+90
+
+Figure 10 (Crossing Point Survey - CPS)
+Which of the following activities do you usually engage in when you visit the
+other side?
+GCC
+
+TCC
+
+91
+
+Figure 11 (GHS)
+Do you usually spend money when you visit the other side?
+GCC
+
+TCC
+
+92
+
+Figure 12 (CPS)
+Did you spend money on the other side today, and if yes, how much?
+GCC
+
+TCC
+
+93
+
+Figure 13 (CPS)
+What goods did your purchase on the other side?
+GCC
+
+TCC
+
+94
+
+Figure 14 (CPS)
+What services did you purchase on the other side?
+GCC
+
+TCC
+
+95
+
+Figure 15 (CPS)
+Are there some specific reasons for which you don’t spend money on the other
+side?
+GCC
+
+TCC
+
+96
+
+Figure 16 (GHS)
+Those responsible for the economy in the GCC/ TCC care about the interests of
+the common people.
+GCC
+
+TCC
+
+97
+
+VII. Project Delivery (M.K. Flynn)
+This project was based on a combination of research, dialogue and dissemination
+(see Section III) with aspects of project delivery therefore relevant to consider as part
+of these summary findings. In particular what specific challenges were encountered
+in realizing the full intent of the project? This is in addition to assuming the routine
+challenges of fieldwork in different cultural, social, political and linguistic
+environments requiring the development of new contacts, relationships and sources
+of information. Furthermore the team had always expected that there would be some
+political objections to the project; as Ergün Olgun, former undersecretary to the
+presidency of northern Cyprus and well known for his uncompromising views,
+critically observed: ΥThe EU and the international community are obsessed with a
+federal model for reconciliation and peace economics in Cyprus.Φ (email, 16
+September 2009).
+
+But beyond these noted issues, the main challenges we
+
+encountered as a project team can be briefly summarized under two related
+headings: project and programme relevance; and programme coordination.
+Project and Programme Relevance
+The question of relevance has already been flagged near the end of Section III above.
+For example, we should evaluate if project methodology was valid and pertinent
+throughout, especially considering the lengthy timeframe of more than three and a
+half years from inception to conclusion. And indeed the research methodology
+(surveys, focus groups and interviews) remained robust, and dissemination
+(delivery of preliminary and summary findings) has been unproblematic. To a great
+extent these successes were due to the high calibre of Cypriot service delivery on
+both sides of the Green Line. This included services provided by survey
+organizations, translators, printers and caterers, as well as for venue hire and events
+support. All payments were transparently accounted for in full by receipts and
+invoices. Individuals working at Cypriot NGOs and universities were relatively easy
+to contact for interview, as were staff at a number of foreign missions and those
+
+98
+
+working for internationally funded organizations and projects. However, politicians
+and policy-makers were less available, with the notable exception of the Republican
+Turkish Party (CTP)50 in northern Cyprus.
+However, the assumption of broad interest on the part of Cypriots in the dialogue
+aspect of the project, regarding both its reconciliation and economic themes, was
+misplaced. Most telling was the low turn-out at the four stakeholder symposia,
+although subsequent attendance at the collaborative bi-communal event was
+comparatively better. Due to different communal perspectives and concerns (as
+apparent in the survey data), separate GCC and TCC symposia were scheduled for
+each of the reconciliation and economic themes. These were scheduled at different
+venues, days and times determined in consultation with a Cypriot event organiser
+with bi-communal links, and all venues were chosen in part due to their central
+locations. Three symposia took place in Nicosia and one in Limassol. Invitations Π
+translated into Turkish or Greek as appropriate for each community - were sent to
+both targeted individuals and organizations, as well as circulated more generally.
+Cypriots working in event support followed up a number of invitations with phone
+calls in the run up to specific symposia.
+Yet turnout at each event was sparse despite the different days, times, venues, cities
+and themes. Furthermore some Cypriots who had indicated their intent to attend
+simply did not show up. Follow-up discussion with a number of Cypriots who work
+with or organize similar functions was enlightening as they said that low attendance
+at such events was often a known problem. One contact observed that their
+organization estimated that only 2-5% of invitees would attend events; personnel
+working with a few other NGOs concurred. The main reason given was that many
+people had lost interest in attending events intended to complement a peace process
+because the Cyprus talks had dragged on for so long without result. Interestingly, a
+few Cypriots who did not attend asked instead to be provided with symposia
+
+50 The CTP is a social democratic party in favour of the reunification of Cyprus.
+
+99
+
+materials (i.e. project research in progress). However, low turnout across all the
+symposia does suggest that there was little interest in the dialogue element of the
+project, and that the situation on the ground, in fact, lacks a sense of urgency with
+regards to the project topics.
+Reflecting on project relevance also means considering the value of the EUΦs Cypriot
+Civil Society in Action programme51 which is intended, for example, to foster
+dialogue. Furthermore, project themes that the EuropeAid programme encompasses,
+such as trust, cooperation, reconciliation and civil society, are also funded from other
+sources, notably UNDP-ACT52 and PRIO53 but also, for example, the EEA54, Council
+of Europe and Freidrich Ebert Stiftung.55 Additionally there is another USAIDfunded programme, CyPEG, focusing on economic issues. Revealingly, a good
+number of NGO and academic staff said that sometimes the sheer number of similar
+projects and events, usually taking place in Nicosia, meant that attending more than
+a few was difficult without detracting from oneΦs own work, social and family
+commitments.
+As one Cypriot conjectured about the low symposia participation: ΥIt is almost
+always the usual suspects who participate and they cannot attend all the
+events.... There were quite a few events going on in May and June. This is not only
+my view but the view of all those involved in bi-communal workΦ (email, 12 August
+2011). Understandably, event attendance can then tend towards those aligned with
+oneΦs own organization or that of oneΦs friends, family or immediate colleagues, thus
+fragmenting a donor constituency with supposedly common interests. The
+segmented character of this constituency, what many in Cyprus refer to as the Υusual
+suspectsΦ, must certainly limit the impact and outreach of various funded activities.
+
+51 By December 2010 the Cypriot Civil Society in Action programme had awarded up to €5.4 million
+
+to over forty projects.
+52 Co-funded by the UNDP and USAID
+53 The Cyprus office of the Peace Research Institute Oslo, Norway
+54 European Economic Area grants are funded by Iceland, Liechtenstein and Norway.
+55 A non-profit political foundation affiliated with the German social democrats.
+
+100
+
+In short, an element of project fatigue and overload may detract from significant
+interest in individual projects and events. This situation is not peculiar to Cyprus
+and is instead often found in places where foreign assistance is funded by multiple,
+crosscutting donors.
+Programme Coordination
+The last point above raises questions regarding programme coordination, at least
+insofar as it impacted on this project. The most salient issue here is that the EUΦs
+Civil Society Support Team, which provided practical assistance to grantees of the
+Cypriot Civil Society in Action Programme, closed permanently in February 2011.
+This was four months prior to the projectΦs first symposium, and coincides with
+when the project team had planned to make use of its assistance. Thereafter there
+was no apparent coordination at the programme level to, for example, encourage
+project managers in sharing experience of best practice or discussing challenges to
+work in progress. Nor was there any apparent coordination between the Cypriot
+Civil Society in Action Programme and like projects funded by other donors, as
+already inferred above.
+Without some element of coordination, or at least technical knowledge sharing
+between projects, the EU is not making best use of its EuropeAid money as an
+investment in Cyprus. Indeed, there was a number of other projects undertaking
+work complementary to this one on reconciliation and peace economics, and an
+element of facilitated dialogue or programmatic cooperation may well have been
+mutually beneficial. These other Cypriot Civil Society in Action projects could have
+included, for example:
+
+
+
+Cyprus Six Years after the Referenda: Re-Unification or Two-State Solution (Arnold
+Bergstraesser Institut, Germany)
+Developing Trust and Cooperation Research to Improve Civil Society Practice
+(INTRAC, UK)
+
+101
+
+
+
+
+
+
+
+
+Establishing a Think Tank on Migration, Identity and Rights Studies (Centre for
+Migration, Identity and Rights Studies)
+Minority Rights: A Contribution to the Cyprus Problem (Minority Rights Group
+International, UK)
+Right to Access Information Point (Cyprus EU Association)
+Towards Trust Building: Reconciliation through a Common Purpose (Turkish
+Economic and Social Studies Foundation, Turkey)
+Truth-seeking and Trust-Building in Cyprus (International Centre for Transitional
+Justice, USA)
+
+Additionally, the simple provision of an EU-supported website for posting various
+projectsΦ findings and other disseminated materials could have been helpful. This
+would also have promoted the overall public profile and impact of the Cypriot Civil
+Society in Action programme
+
+102
+
+VIII. Concluding Comments
+The question of uniting Cyprus has often hinged on the hopeful premise that
+increased social and economic interaction will encourage the GCC and TCC to
+reconcile their differences and develop common interests. Preliminary project
+findings do not necessarily support this view. The data shows that neither
+community agrees on what the Cyprus problem actually is, and there is widespread
+disagreement and suspicion about not only the shape of a post-solution Cyprus, but
+also the measures that could be taken to get there. There is a notable and pervasive
+deficit of social trust between the two, manifested in the large number of ways in
+which mistrust is expressed. Indeed, enhanced opportunity for contact has not
+necessarily improved trust levels but may have had Π according to survey
+respondents - the opposite effect. However, the issue of trust between the
+communities is not an isolated factor. It should be considered as part of a related
+deficit of trust within the two communities and, significantly, of citizens on both
+sides regarding their own institutions.
+While the Cyprus problem is cited as a primary concern by Cypriots across the
+island, in actuality it has little relevance to most peopleΦs daily lives, and so reasons
+as to why it should be mutually resolved are ill-defined and nebulous.
+Considerations of a beneficial economic future for everyone could be one binding
+element, but our data suggests that northern CyprusΦs economy is not in the grim
+state that many people, especially in the south, commonly assume. This then begs
+the question of just how far the benefits of unification may or may not outweigh
+other factors. Economic interests alone do not supersede questions of social and
+political trust which must be at the heart of a successfully negotiated settlement in
+the future.
+
+103
+
+IX. Project Team (UWE)
+Dr. M.K. Flynn is Senior Lecturer in Politics and convenes the University Peace and
+Conflict Research Cluster. She took a DPhil in Politics from the University of Oxford
+and has worked at universities in Ukraine, Israel and South Africa as well as the UK.
+Her expertise includes: ethnicity and conflict; peacebuilding; democratisation;
+transitional justice; and the politics of contested history and heritage. Prior to work
+in Cyprus she has specialized in work on Northern Ireland, South Africa, Spain and
+parts of the former USSR. She serves on the editorial board for the leading academic
+journal Ethnic and Racial Studies and is an Honorary University Fellow at the Exeter
+Centre for Ethno-Political Studies at the University of Exeter, UK.
+Dr. Tony King originally trained as an historian of colonial and post-colonial
+societies, and his DPhil (Oxon.) was on political discourse in colonial Zimbabwe.
+Before returning to the UK with UWE he worked for the academic and policyadvocacy NGO sector in South Africa. He has subsequently developed expertise on
+heritage in post-apartheid South Africa, contested history, democratisation, and
+transition societies, and undertook research on the development of Constitution Hill,
+Johannesburg. He has authored and co-authored a number of academic articles,
+book chapters, reviews and reports.
+Prof. (Emeritus) Derek Braddon has expertise in defence, industrial and
+international economics and also undertakes research and consultancy about:
+stakeholding and corporate governance; the transitional economies of Eastern
+Europe; new industrial economics, regional economics and the aerospace industry.
+He has been: Director of the Defence Economics Research Group at UWE; Fellow of
+the UKΦs Royal Society for the encouragement of Arts, Manufactures and Commerce;
+and Visiting Professor at the European Centre for Peace and Development, United
+Nations University, Belgrade, Serbia. His latest publication is the co-authored and edited volume, D. Braddon and K. Hartley, eds., The Handbook on the Economics of
+Conflict (Edward Elgar 2011).
+Christian Dadomo is a Senior Lecturer in European Law. Prior to this, he was
+lecturing at the Institut dΦEtudes Politiques and the Institut des Hautes Etudes
+Européennes in Strasbourg (France). He has also been a visiting lecturer at Deakin
+University (Melbourne, Australia) and Münster University (Germany). His
+particular expertise is in European Union constitutional law, the European internal
+market, and environmental and competition law. He has been involved in a number
+of programmes on EU-related issues in Cyprus before and after Accession, and in
+EU-funded programmes within a number of EU and non-EU countries. Among a
+variety of journal articles and conference papers on EU and French law, his main
+publications include two textbooks on the French legal system and French
+substantive law. He is currently writing a book on the French legal system and law,
+and co-writing a textbook on EU law.
+
+104
+
+

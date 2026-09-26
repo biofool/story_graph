@@ -1,0 +1,10 @@
+{
+ "subject": "peter ralston",
+ "query": "peter ralston",
+ "domain": "elephantjournal.com",
+ "tier": "MARGINAL",
+ "collection_type": "web_search_fallback",
+ "pending_queries": [
+  "site:elephantjournal.com \"peter ralston\""
+ ]
+}

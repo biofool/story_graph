@@ -1,0 +1,2619 @@
+What Kind of Peace is Being Built?
+Taking Stock of Post-Conflict Peacebuilding
+and Charting Future Directions
+
+A Discussion Paper
+
+Michael Lund
+Senior Associate
+Management Systems International, Inc. and
+Center for Strategic and International Studies, Washington, D.C.
+
+Prepared on the occasion of the tenth anniversary of Agenda for Peace for the
+International Development Research Centre (IDRC)
+Ottawa, Canada
+
+January 2003
+The views expressed are those of the author and do not necessarily represent
+those of the International Development Research Centre.
+
+I.
+FOCUS:
+PEACEBUILDING TEN YEARS AFTER AGENDA FOR PEACE
+The tenth anniversary of the UN Secretary General’s influential Agenda for
+Peace in 2002 is a fitting time to examine the nature and accomplishments of the
+expanding field of international involvement in intra-state conflicts, and to
+consider what researchers might contribute to better understand and improve this
+phenomenon.
+In the late 1980s and early 1990s, a new international attitude began to emerge
+toward what were then called “regional conflicts” in the “third world.” Though
+many intra-state conflicts had served in part as proxy fights for the two
+contending blocs, as the Cold War came to an end, conflicts were no longer
+approached as fronts in a worldwide confrontation. Instead, they became viewed
+as regional or global problems that should be addressed multilaterally. Various
+ad hoc governmental and NGO actors, regional bodies and UN diplomats helped
+to mediate the end to internal wars such as in Mozambique and Central America.
+If the wars reached peace settlements, the UN and other third parties dispatched
+traditional peacekeeping or monitoring forces. This was also done regarding new
+violent civil conflicts that erupted, such as in the former Yugoslavia, Tajikistan,
+Georgia, Rwanda, Kosovo, and East Timor. Soon they called forth not only
+peacekeepers but a growing number of other international governmental and
+NGO actors, who implemented a variety of economic, political, and social
+programs. During this same period, the international community also extended
+conflict prevention initiatives into societies like Macedonia, Kyrgyzstan, and the
+Crimean area of Ukraine. Though they had not experienced any recent war, they
+were seen as threatened by inter-ethnic or other upheaval.
+Most countries that were the focus of these efforts have been small and of little
+geo-political significance in the traditional sense. Yet, the aftermaths of what one
+insensitive commentary called these “tea-cup wars” and the prospects of future
+ones rose unexpectedly throughout the 1990s to a rather high place on the
+international agenda. Increasingly, they influenced the diplomacy, development
+and military policies and budgets of major powers, other third party states,
+multilateral institutions, and non-governmental organizations. The bitter
+experiences with the conflicts in Somalia, Bosnia, and Rwanda even made them
+into symbols of the international affairs of the final years of the Twentieth
+Century. Although most of these conflicts were known mainly to the
+professionals whose jobs was to deal with them, the human drama in some of
+them eventually led to their becoming the basis for films marketed to mass
+audiences.
+As the international responsibilities for intra-state conflicts were expanding, key
+documents such as Agenda for Peace in 1992 and the “Brahimi Report” in 2000
+attempted to conceptualize and legitimate the expanding international mandate in
+intra-state conflicts, and to establish some strategic directions. Developments on
+
+2
+
+the ground often fell short of what high level rhetoric and new visions outlined.
+Yet in some instances and over time, actual practice not only reflected many of
+the principles the documents articulated; it occasionally exceeded or superceded
+them.
+Examining the status and accomplishments of the emerging forms of
+international engagement could easily delve into wide-ranging important issues
+and address a host of unresolved questions. At this particular stage in its
+development, however, taking on a variety of outstanding concerns may not be
+the best way to advance this field. While it is often said that international action
+toward conflicts lacks sufficient “political will,” its problem may actually be that a
+surfeit of political wills is going off in too many different directions. Energies are
+highly dispersed and unfocused. Although the diversity of peacebuilding is a
+source of vitality, it also suffers from an overload of problems on the agenda and
+a myriad of perspectives from which to view them. What may be most useful
+now, both for this paper’s sponsors and peacebuilding as a whole, is not more
+controversy but some consolidation.
+Accordingly, the main focus of this paper is the clearly stated but still large topic
+of what post-conflict peacebuilding has achieved overall and where the IDRC and
+its partners could do value-added research work on the subject. The paper
+offers a kind of “bottom-line” performance report of the upshot of the deliberate
+efforts by the UN and many other actors in the 1990s to rebuild and revive postwar countries. It also highlights developments and accomplishments in the
+parallel subject of conflict prevention – meaning international engagement in
+countries generally at peace but vulnerable to major violent conflicts -- and its
+latest version, “preventive peacebuilding.”
+Specifically, the paper:
+1. traces briefly the enlarging scope of peacebuilding in post-conflict situations,
+as well as the extension of the idea into presumed “pre”-conflict situations
+2. reviews some of the main impacts of peacebuilding on the achievement of
+sustainable peace in post-conflict settings in particular, at the macro (national)
+level
+3. identifies factors that comparative research has found to be associated with
+relatively effective post-conflict peacebuilding
+4. describes basic alternatives to post-conflict peacebuilding and identifies
+issues that need to be addressed in order to see whether they are
+significantly better
+
+3
+
+5. suggests some fruitful avenues for future research on post-conflict
+peacebuilding.1
+Regarding these tasks, the paper seeks only to make some basic points, identify
+key findings and suggest how this subject might be pursued further. Further
+caveats are needed to set out the limits of the paper in relation to peace and
+conflict as a whole. It does not take on international conflict, international
+development policy, international political economy, or international relations in
+general. Nor does it get into the huge empirical literature on the causes of socalled ethnic and other varieties of intra-state conflicts. The latter are discussed
+in many studies and incorporated in early warning databases that are readily
+available.2 The paper also does not examine specific intra-state or inter-state
+conflicts. This also means it does not bear directly on major ongoing conflicts
+such as the Israeli-Palestinian, the India-Pakistan, or the Northern Ireland
+conflicts, which periodically garner so much of the world’s attention (though
+disproportionably to the numbers actually killed). In part because these more
+discussed conflicts are waged at high levels of confrontation and occupy globallevel diplomats, they have not been at the center of studies of international “pre”conflict or post-conflict peacekeeping and peacebuilding. The latter activities
+tend to apply to “orphan” or marginalized conflicts, where the UN and other
+bodies are handed major peacebuilding assignments. We also do not look here
+at home-grown activities and institutions that promote peace and help to resolve
+conflicts within countries, such as the many projects and initiatives that are in
+effect at the local community level.
+II.
+THE EMERGENCE AND EVOLUTION
+OF A GLOBAL PEACEBUILDING ENTERPRISE:
+FROM EMERGENCY RELIEF TO NATION-BUILDING
+Before tackling the evaluative concerns of the paper, it is useful to map the
+present boundaries of the peacebuilding activities that have expanded in the
+1990s and to define the notion of peacebuilding that has resulted. This broadbrush treatment points out major trends in peacebuilding in terms of the generic
+activities it has come to include, and it proposes a resulting operative meaning
+for the concept.3
+1
+
+This revised version of an earlier draft has benefitted from the detailed and apt comments of
+several people within the IDRC network, as well as from the commentators and participants at the
+IDRC conference in October, 2002.
+2
+On the generic questions of causation, there is actually little fundamental disagreement, only
+differences in emphasis. Different studies look at different samples, types of conflicts and effects
+but many have essentially the same kinds of underlying and more immediate factors on their
+respective lists.
+3
+Although peacebuilding has a small place in the wider domain of international affairs, ideally, a
+mapping exercise should do a survey that inventories and quantifies comprehensively the
+incidence, scope, scale, and elements of the twenty or so peacekeeping missions that have
+increasingly taken on the features of peacebuilding. But because it has grown tremendously over
+the past ten years, this limited study does not aspire to describe the exact shape and parameters
+of peacebuilding worldwide or describe its many facets. Nor could we synthesize or critique the
+
+4
+
+All in all, though the configuration of activities in each international engagement
+in a given country is different, the lively fiction called the “international
+community” has exercised wider, deeper and longer involvement in many wartorn as well as war-threatened national societies. One way to trace the
+expanding scope of peacebuilding is to sketch how this practice has broadened
+laterally in terms of the policy sectors that are implicated, deepened in terms of
+engagement with the internal workings of societies, and lengthened in terms of
+stages of conflict when it operates.4 These dimensions are explored with regard
+to both the “back end” of conflicts and the “front end.”
+From Alleviating Human Suffering to Post-Conflict Peacebuilding
+As peace settlements were reached after longstanding internal wars (e.g.
+Guatemala) as well as in some new conflict areas (e.g. Bosnia, Somalia), the
+number of peacekeeping missions undertaken by the UN and other bodies far
+exceeded all previous peacekeeping missions since the UN was founded.
+Despite their chronic underfunding, this proliferation of peacekeeping was
+followed by a process of international mission creep. After the provision of
+humanitarian aid to a war’s victims, the mediation of peace accords and the
+enforcement of ceasefires, international agencies have gradually taken on many
+more tasks in post-conflict areas.
+In addition to the reconstruction of the physical infra-structure of a war-torn
+country, they have undertaken “track-two” diplomacy, the demobilization and
+reintegration of soldiers, election monitoring and assistance, refugee and
+displace persons resettlement, democratic institution-building, police training,
+economic restructuring, establishment of courts, human rights monitoring,
+constitution drafting, anti-corruption campaigns, created financial institutions, civil
+society empowerment, civil service capacity-building, security sector reform,
+inter-group reconciliation, trauma counseling, professionalization of media, microenterprise development, and mechanisms to address past atrocities. A current
+example is the effort in the Democratic Republic of Congo (DRC) to fulfill the
+Lusaka peace accords with the assistance of the UN Mission not only by
+decommissioning the contending armies and monitoring the truce where it can be
+found, but also by arranging for a nation-wide political dialogue that deliberately
+aims to mobilize civil society groups as a cross-cutting counterweight to the
+contending armed groups.
+Observing relapses into conflicts in Angola and Cambodia, for example, but
+desiring to limit their military presence and outlays, third party actors have
+employed many methods for creating the conditions for a sustainable peace,
+through programs that work through but also around a country’s major
+vast literature, many theorists, and policy papers that this practical activity has generated over the
+years.
+4
+For other treatments of the evolution of peacebuilding, see Richmond and Chopra.
+
+5
+
+powerbrokers or warlords. This approach has involved a widening range of
+global and regional organizations, including states, multilateral agencies, IFIs,
+and international NGOs of many varieties, along with domestic counterparts or
+so-called “partners.”
+Of course, these various activities have not been applied everywhere or followed
+a set sequence. But what used to be called just “peacekeeping” in post-conflict
+settings has evolved into “second generation peacekeeping,” then transmogrified
+into “peace operations,” and now military activities are intricately linked to civil
+administration and other functions under the rubric of “post-conflict
+peacebuilding.” With the issuing of the Brahimi Report in 2000, the
+interdependency of ensuring post-conflict security and achieving broader
+peacebuilding was made explicit and more official. Hence, in one analysis, all
+these humanitarian, security, political, human rights, civil and governance
+functions should simply be called “peace-maintenance.”5 In a similar analysis, a
+“third generation of multidimensional approaches to ending conflict… are
+becoming increasingly interventionary in nature as a result of the legitimization of
+claims for human security.”6
+From Post-War Rebuilding to Pre-War Prevention
+A similar broadening has occurred in another post-Cold War concept about
+international involvement in intra-state conflicts that had its debut in Agenda for
+Peace: conflict prevention (or what it called “preventive diplomacy.”). As the
+1990s unfolded, more and more intra-state conflicts were being added to the UN
+and other organizations’ caseload. Like their predecessors, the newer conflicts
+caused immense human suffering, death, and destruction, and required the
+intensive kinds of post-conflict peacekeeping and development efforts that we
+have just described. The financial costs of humanitarian relief and peacekeeping
+in conflict countries were mounting, and the difficulties of doing post-conflict
+peacebuilding interventions in war settings were stretching the limited personnel
+and other resources as well as the credibility of the UN and the other
+organizations who were taking on the messy business of cleaning up and
+rebuilding in the aftermaths of intra-state conflicts.
+As the political hand-wringing over these demanding burdens increased, more
+and more observers turned to the attractive notion of preventing these bloody
+and devastating intra-state wars in the first place. This entailed also the
+providing of early warning of potential conflicts. The seeming series of new intrastate conflicts that broke out since the early 1990s, and the human suffering and
+diplomatic and peacekeeping travails that they each caused over and over again
+swayed leaders and organizations to the argument that it would be more costeffective, not to mention more humane, to try to keep as many as possible of
+these horrible and costly wars from occurring at all. The concept spread due in
+5
+6
+
+Jarat Chopra, ed., The Politics of Peace-Maintenance (Boulder: Lynne Rienner, 1998)
+Richmond, p. 140.
+
+6
+
+part to the widely subscribed premise that social tensions and political disputes
+can be addressed more easily before they spiral into destructive violence, than
+after major violence has escalated. Conflict prevention was also a response to
+the embarassing criticisms of widely publicized failures by the UN and others to
+avert escalations of violence such as in Rwanda. When every half-year or so,
+another major outbreak followed upon an earlier one, more fuel was added to the
+argument for pro-active war prevention, and thus for going beyond primarily
+reactive war alleviation, termination, and remediation.
+Of course, the interest in post-conflict peace operations already entailed not only
+maintaining a peace that has broken out in a post-war society but also preventing
+it from re-erupting into violent conflict. But the more distinctive meaning of
+conflict prevention tended to focus on places where no violent conflicts have
+occurred in recent history, including forestalling the spill-over of already-active
+nearby hostilities into new areas.
+Agendas Numerous intergovernmental and NGO international conferences and
+study groups have taken up conflict prevention in Europe, North America, Africa
+and Asia, and several institutes have sponsored policy research on it.7 Although
+not a household word – indeed some have called conflict prevention a “best kept
+secret” of the post-Cold War era -- conflict prevention is now frequently urged in
+the policy statements of major governments, the UN, the EU, and many regional
+bodies. The topic of two UN Security Council discussions in 2000 and 2001, a
+priority urged in July, 2000 by the G-8 Okinawa Summit, and the focus of a report
+of the UN Secretary General in June 2001, conflict prevention has become quite
+prominent on the international policy agenda.
+Practices and Programs Although it is still not widely realized, this interest in
+prevention has progressed considerably beyond exhortation, talk, and research.
+It is being consciously practiced more and more through a variety of concrete
+initiatives – usually little publicized and not always explicitly referred to as such -in Eastern Europe, Africa, Latin America, Central Asia, and East Asia. In
+addition, the UN Secretariat, the European Commission, regional
+intergovernmental bodies (e.g. OSCE, OAU, OAS) and sub-regional bodies (e.g.
+SADC, IGAD, ECOWAS) have created mechanisms with small units that assign
+a few staff to look for early warning signs and consider preventive responses.8
+7
+
+Although the NGO, International Alert, has called attention to the need for conflict prevention,
+the first post-Cold War project focused exclusively on it (in the sense defined above) may have
+been the Preventive Diplomacy Initiative at the US Institute of Peace (USIP) from 1994-1995,
+which grew out of a USIP/U.S. State Department Study Group on Preventive Diplomacy from
+1993-1994. The subject was subsequently taken up by the Carnegie Commission on Preventing
+Deadly Conflict until 1999, the Center for Preventive Action at the Council of Foreign Relations,
+from about 1995 to the end of 1999, the Conflict Prevention Network of the Stifftung Wissenschaft
+und Politik from 1996 to 2001, and most recently, the International Peace Academy and the
+Woodrow Wilson Center.
+8
+Even ASEAN has addressed the subject informally through the Asian Regional Forum (ARF),
+largely under the rubric of inter-state military confidence building measures.
+
+7
+
+These fledgling mechanisms have been used to respond to a few threatening
+situations arising in countries, with some at least partial successes such as in
+Congo-Brazzaville (1993), and against the attempted executive coups in
+Guatemala, Peru, and Venezuela. NGOs have sprouted up that are specifically
+dedicated to advocacy, analysis, and action in conflict prevention (e.g. Forum for
+Early Warning and Early Response [FEWER], International Crisis Group [ICG]),
+and they forward country situation reports to the governmental bodies, often
+accompanied by prevention policy recommendations.9
+Procedures Furthermore, the procedures in doing early warning and identifying
+and implementing appropriate preventive responses are beginning to be
+“mainstreamed” in the routine ongoing operations both at the headquarters and
+country-mission level of the European Commission, the UN, and other major
+multilateral and bilateral development agencies.10 Practical analytical tools have
+been developed for early warning and preventive policy responses.11 A series of
+week-long training workshops by the UN Staff College since January 1999 has
+“graduated” over 900 desk officers from all the major UN agencies, each of
+whom have been introduced to issues in conflict analysis and the range of
+possible preventive responses. At the UN headquarters level, the Secretariat
+now operates a Prevention Team that meets regularly to monitor potential trouble
+spots and recommend appropriate action. At the country level, the UN and some
+donor and multilateral organizations are trying to establish a regular process of
+drawing up country-specific development assistance plans. Examples include
+the UN Common Country Assessments (CCA), and the Development Assistance
+Framework (DAF), although so far only some such procedures explicitly build in
+reducing conflict sources or strengthening peace capacities as planning criteria.
+Mainstreaming stems from the idea, not accepted even a few years ago, that
+conflict prevention is not a specific policy sector in itself nor a single technique or
+method of intervention. It is a pro-active orientation, a potential policy and
+bureaucratic “culture of prevention” that ideally cuts across a wide range of major
+policy sectors and organizations. Such sectors include not only diplomacy and
+conflict resolution (thus the declining usage of the too-narrow “preventive
+diplomacy”). They also could include economic development, democracy9
+
+What one book described a decade ago as the „emerging global watch“ seems to be gradually
+taking some form. See B.G. Ramcharan, The International Law and Practice of Early Warning
+and Preventive Diplomacy: The Emerging Global Watch (Dordrecht: Martinus Nijhoff, 1991). The
+increasing interest that International Crisis Group has show in pre-crisis situations is another
+reflection of the general shift toward pro-active responses.
+10
+For recent developments, see the overview by Manuela Leonhardt in Lund and Rasemoelina,
+eds. Op. Cit..
+11
+The recent trends are surveyed in Manuela Leonhardt’s chapter in The Impact of Conflict
+Prevention Policy: Cases, Measures, Assessments (op. cit.), and in her monograph, Conflict
+Impact Assessment of EU Development Cooperation with ACP Countries: A Review of Literature
+and Practice (International Alert and Saferworld, 2000). An example of such an analytical tool is
+Lund and Mehler, et. al., Peacebuilding and Conflict Prevention in Developing Countries (Conflict
+Prevention Network, Stiftung Wissenschaft und Politik, 1999), which was prepared for country
+desk officers of the European Commission.
+
+8
+
+building, human rights, military affairs, environment, education, health,
+agriculture, and so on, as well as commercial activity such as international trade,
+finance and natural resource development. In principle, these might be carried
+out at the global, regional, national or local levels by any governmental or nongovernmental actor.12 In fact, the UN Secretariat is now seeking to engage
+regional organizations, NGOs from civil society, and the business community in
+conflict prevention as well. Prevention also of course relies in the first instance
+on actors within the affected countries themselves. The title of the 1999 annual
+report on the activities of the UN as a whole summed them all up as “Preventing
+War and Disaster.”
+The effort to spread a culture of prevention through mainstreaming conflict
+prevention logically leads to the recognition that in most developing countries that
+are now facing strains over transition issues, the “international community” is
+already present in various guises in the form of diplomatic missions, development
+programs, structural adjustment programmes, trade and commercial activities,
+military assistance, and, as we have noted, efforts to promote democracy, human
+rights, and civil society. In other words, many actors are already engaged in
+places that may be in the early stages of potential conflicts. So it is no longer a
+matter of receiving an early warning and then rushing to a Kenya or a Nigeria or
+a Kyrgyzstan before a crisis erupts. International actors are already there, and
+sometimes in sizeable numbers – helping to dig wells, funding school curricula,
+training nurses, teaching good business practices, you name it. It is expected
+that a significant difference could be made cumulatively if these multiple
+multilateral and domestic efforts were each modified somewhat to address
+potential violent conflicts, so their aggregate impact in a given country would
+begin to be more “conflict-smart” than is currently the case. Ideally, conflict
+prevention might become a rather humdrum matter of re-orienting the analyses
+and re-engineering the bureaucratic procedures of many of the diplomatic,
+development and other programs and routines that are already operating in
+developing countries, so that they serve conflict prevention objectives – on an
+ongoing basis and in a more concerted way.13
+Already, many efforts in potential conflict settings have been conflict-preventive
+in their impact or intent, even though they are not labeled as such, thus receiving
+little attention in those terms. One example was the World Bank offer in 2000 to
+help fund a land reform in Zimbabwe as its political crisis worsened. One of the
+arguments made on behalf of the International Criminal Court and for the War
+Crimes Tribunals for Yugoslavia and Rwanda has been that they can deter future
+human rights violations, not just prosecute those who have already committed
+12
+
+Thus all the hope for prevention does not lie with international action. To the contrary,
+domestic forces for peaceful change often exist as well, within and outside governments. In fact,
+these are seen as the first line of defense against emerging violent conflicts if they can be
+enlisted.
+13
+See Michael S. Lund, “Not only When, But How: From ‚Early Warning‘ to Rolling Prevention”, in
+Peter Wallensteen, ed. Preventing Violent Conflict: Past Record and Future Challenges (Uppsala:
+Uppsala University, Department of Peace and Conflict Research, 1998)
+
+9
+
+crimes against humanity. Another example is the very recent efforts of the OAS
+Secretary-General, in response to an established OAS procedure, to mediate the
+escalating dispute between opponents and supporters of the President in
+Venezuela.
+Instruments In sum, the same increasingly broadened multi-dimensional style of
+international intervention has become applied to preventing conflicts as was
+evident in ending them and rebuilding after them. The notion is accepted of a
+large policy “toolbox” on which prevention potentially can draw. In places like the
+Baltics, Macedonia and Kenya, a variety of dialogues, civil society building,
+security sector reform, peace media, and many other programmes are also
+integral to the policy toolbox of prevention and other internationally sponsored
+programs have been applied to try to mediate the resolution of emerging political
+disputes in order to keep them from becoming violent and to strengthen the
+capacities of susceptible societies to withstand the threat of mass violence.
+Put another way, just as with the evolution of an inclusive concept of
+peacebuilding, the definition of conflict prevention or preventive action also has
+been deepened and widened. It now includes both structural and interactive (i.e.
+diplomatic, official or non-official) means of engaging to keep intrastate or
+interstate tensions and disputes from escalating into significant violence, to
+strengthen the capabilities to resolve such disputes peacefully, and to alleviate
+the underlying problems that produce them. Thus it aims not only at avoiding the
+eruption of violence (sometimes called direct, operational, or light prevention),
+but also addressing the deeper sources of potential conflicts (sometimes called
+structural or deep prevention), and everything in between. In terms of its
+methods, conflict prevention can in principle involve the peaceful means of any
+policy sector, whether they are labeled prevention or not (e.g. sanctions,
+conditional development aid, mediation, structural adjustment, humanitarian
+assistance, media, preventive military deployment, democratic institutionbuilding, etc.).
+Of course, whether any such means are in fact conflict-preventive depends on
+how, when and where they are specifically applied. As the actually operate, they
+could in fact be doing the opposite. To be part of the “culture of prevention,”
+sectoral policies are not necessarily carried out in the usual ways. So far, most
+of the existing international activities are implemented without specific analysis or
+intention as to whether they are helping or hurting the larger process at stake of
+managing socio-political change without violence. Most policies that are already
+at work and the considerable resources that are already being spent in
+developing countries are not yet being effectively mobilized specifically for
+conflict prevention purposes. Programs are initiated and resources allocated for
+many sectoral reasons, but with little thought as to how such choices might be
+oriented to preventing violent conflicts, such as by buttressing the peaceful
+capacities of these societies to navigate the perils of wrenching change, or at a
+minimum, not worsening divisions and tensions. The difference must come when
+
+10
+
+these activities begin to be seen through a “conflict lens” and are modified to give
+them a time-sensitivity, a place-sensitivity, an outcome-sensitivity, and an
+operational-sensitivity that enhance their impacts on preventing violent or armed
+conflicts and on building capacities for peaceful settlement of disputes. A small
+but growing field of analysis is evaluating the effectiveness of various such
+instruments.14
+Norms In addition, although it is ignored most of the time, a new international
+norm seems to be emerging that invokes an obligation to respond to potentially
+major eruptions of violence, especially genocide. The international climate in
+which conflicts are perceived and discussed seems to be accepting the
+imperative at the normative level, albeit slowly and tacitly, of engaging early to
+keep internal wars from breaking out. As each successive bloody war has hit the
+headlines, there is now much less heard about how they are inevitable tragedies
+resulting from age-old animosities. Instead, more doubts seem to be publicly
+voiced that perhaps the calamity could have been avoided. Questions are asked
+about what went wrong and who is responsible. Both UN Secretary General Kofi
+Annan and US President Clinton publicly acknowledged in 1998 that their
+organizations could have acted earlier to prevent the Rwanda genocide in 1994.
+Parliamentary public inquiries have been made in France and Belgium into the
+roles that their governments may have played in neglecting or worsening that
+14
+
+Instruments such as mediation, negotiations, and sanctions have received libraries of attention,
+although not usually from a prevention perspective. A recent book that probes the preventive
+value of negotiations, however, is William Zartman, ed. Preventive Negotiations (Rowman and
+Little field, 2001). But surprisingly little has been done on the wide range of other possible
+preventive measures. Work that has begun to do the latter includes Cortright, David (ed.), The
+Price of Peace: The Role of Incentives in International Conflict Prevention, Rowman & Littlefield
+Publishers, Lanham, MD, 1998); Esman, Milton J., “Can Foreign Aid Moderate Ethnic Conflict?”
+Peaceworks, no. 13, (Washington, D.C.: US Institute of Peace, March 1998); Carment, David and
+Patrick James, eds. Peace in the Midst of Wars: Preventing and Managing International Ethnic
+Conflicts (Columbia, SC: University of South Carolina Press, 1998); and Ben Reilly, Michael
+Lund, et. al., Democracy and Deep-Rooted Conflict: Options for Negotiators (Stockholm, Sweden:
+Institute for Democracy and Electoral Assistance, 1998). A forthcoming USAID-funded study
+under the Greater Horn of Africa Peacebuilding Project at Management Systems International,
+Inc. (MSI) is evaluating the peace and conflict impacts of peace radio, traditional local-level peace
+processes, and national “track-two” political dialogues in five countries. Earlier rudimentary
+efforts to apply various criteria to evaluate the conflict prevention capacities and limits of nineteen
+diverse prevention policy instruments are found in Preventing and Mitigating Violent Conflicts: A
+Guide for Practitioners (op. cit.) and Lund, “Impacts of Development Aid as Incentives or
+Disincentives in Reducing Internal and Inter-state Conflicts: A Review of Findings from
+Documented Experience,” Unpublished report to the Development Assistance Committee (DAC),
+Task Force on Peace, Conflict And Development, (OECD), 1998. The case-studies in Do No
+Harm: How Aid Can Support Peace – Or War (Lynne Rienner, 1999) and subsequent studies
+organized and analyzed by Mary Anderson and her associates at Collaborating for Development
+Associates, Inc. are also very relevant here. Some products are putting instrument assessments
+into forms that can be used by country desk officers and other practitioners. See, for example,
+the brief assessments of election observers, human rights observers, and other instruments in
+Lund and Mehler, et. al., Peacebuilding and Conflict Prevention in Developing Countries (op. cit).
+A manual of UN „preventive measures“ such as fact-finding missions, humanitarian aid, and local
+community economic development is also being prepared for the Framework Team in the UN
+Secretariat.
+
+11
+
+horrendous human calamity. A legal suit has been brought by families of victims
+of the Rwandan genocide against the UN Secretary General for failing to prevent
+it. A Dutch government recently resigned after it was documented that Dutch
+soldiers had partly enabled the Sbrenica massacre to occur. Evidently, the
+potential for violent conflicts is even beginning to establish some higher moral
+and legal stakes for at least the most capable international actors, for they now
+may be held more accountable for purported lapses of duty on their presumed
+conflict prevention watch (“Daddy, what were you doing before the war?”).
+Despite some dramatic failures to act preventively, or perhaps because of them,
+an implicit new international code may be receiving gradual acceptance. It
+reads: if major violent conflicts are not inevitable and can be prevented with
+reasonable effort, international actors are morally bound to act to do what is
+possible wherever these situations could very likely lead to massive violence.
+Indicatively, the International Commission on Intervention and Sovereignty
+recently concluded that the obligation to protect ordinary people at risk for their
+lives because their states are unwilling or unable to protect them “implies an
+accompanying responsibility to prevent” any likely deadly conflicts.15
+None of this is to claim that budgets have shifted significantly from peacekeeping
+or post-conflict peacebuilding to conflict prevention, however (pace Mack, 2002),
+or that vigorous conflict prevention is now the order of the day. Although
+humanitarian and development aid have declined, money explicitly for conflict
+prevention most likely has not appreciably increased. And as seen over the last
+year regarding Zimbabwe, international efforts still fail to address in a robust way
+serious potential breakdowns of whole societies. Although the idea has gained
+increasing attention, conflict prevention continues to receive relatively less
+attention and resources than post-conflict peacebuilding. Even at this late date,
+its rudiments are still just being discovered by many professionals in the larger
+field.16 Although “conflict prevention” has become the term of choice by a
+widening larger circle where “conflict resolution” or “conflict management” once
+served, conceptual and empirical confusion continue about fundamental
+differences between potential and post-conflict settings. Oddly, despite similar
+concerns and the fact that prevention includes post-conflict settings as well as
+potential conflict settings, the people who have worked on post-conflict issues
+after all these years tend not to study conflict prevention as we define it here, and
+vice-versa.
+In short, the nomenclature in this part of the field has become wider and deeper
+in meaning, too. For pre-emptive action toward conflicts, Agenda for Peace
+resurrected Dag Hammerskjold’s 1960 coinage “preventive diplomacy,” thus
+connoting the mediating role of third party emissaries in relation to disputing
+15
+
+ICISS, The Responsibility to Protect (IDRC, 2001).
+See, e.g. Peter Uvin, “The Development/Peacebuilding Nexus: A Typology and History of
+Changing Paradigms”, Journal of Peacebuilding and Development Volume 1, Number 1, 2002,
+pp.14-17.
+16
+
+12
+
+parties. But now even the UN prefers to use the more inclusive term “preventive
+action.” Current discussions of conflict prevention increasingly define its task not
+only as using “direct prevention” to particular disputes between emergent parties
+in the foreground but also as creating capable states and immunizing societies
+against violence through “structural prevention” efforts at many levels in the
+background. The term “preventive peacebuilding” is sometimes now used to
+suggest that many of the same wide spectrum of sectoral policies that have been
+used in post-conflict settings.
+A Multi-Dimensional Concept
+This discussion could also go into how even in some unresolved mid-conflict
+situations international agencies are investing funds to build peace, despite the
+fact that armies have not stopped fighting. An illustration is the local civil society
+capacity-building efforts in southern Sudan and Somalia. In those settings, the
+spectrum that runs from short-term humanitarian relief through transitional
+rehabilitation to long-term development has been seriously up-ended.17 But that
+would simply give further support to the case we are making here that the upshot
+of many international actors’ recent engagements with post-conflict or pre-conflict
+situations has been the emergence of an overarching multidimensional concept
+of peacebuilding. In essence, the field has arrived at an operating concept of
+peacebuilding that calls for addressing all the main sources of past and potential
+conflicts, from their historical and structural sources to their immediate
+manifestations, and at all stages in their “life-cycle.”18 A unified concept of
+deliberate international peacebuilding thus has emerged that is not only multilateral but also multi-sectoral in terms of what the international community should
+be doing on the ground, multi-leveled in terms of how much should be done, and
+multi-staged, in terms of when the international community should be involved.19
+Of course, huge financial and political constraints and policy blindspots still keep
+international actors from addressing many conflicts in a timely, adequately17
+
+Whether the latter notion’s ambitiousness is very cost-effective is of course another question
+altogether.
+18
+The idea that conflicts eventually evolve through a “life-cycle” or history, which was long
+implied in the UN Charter‘s Chapters VI and VII, was developed more explicitly in Michael Lund,
+et.al., Preventing and Mitigating Violent Conflicts: A Guide for Practitioners (Creative Associates
+International, Inc., 1997, viewable at www.caii-dc.com/ghai). To clear up the terminological
+confusion in the field, the framework presented there took pains to distinguish the differing
+moments at which peaceful intervention can occur. These include normal diplomacy/politics,
+conflict prevention/preventive diplomacy, crisis prevention, conflict management/peacemaking,
+peacekeeping, peace enforcement, and post-conflict peacebuilding/conflict resolution (and one
+could add reconciliation). It also suggested that some policy goals and corresponding policy
+tools are more appropriate at given stages than others. More recently, differing stages of conflict,
+such as emergence, escalation, de-escalation, (re)construction, and reconciliation, have been
+adopted as the organizing framework in textbooks in the conflict field (see. e.g. Louis Kriesberg,
+Constructive Conflicts: From Escalation to Resolution (Lanham, Maryland: Rowman and
+Littlefield, 1998); Hugh Miall, et. al., Contemporary Conflict Resolution (Cambridge, England:
+Polity Press, 1999)
+19
+The aim in pointing out this emergent definition is not to seek to impose it on all practice, but
+simply to put into relief the dominant operating assumptions.
+
+13
+
+supplied and coordinated way, especially in countries that are strategically
+insignificant to the major powers. Even strategic Afghanistan is not getting the
+security protection it vitally needs. Although it is still an ideal that is usually not
+fully applied, this robust notion of peacebuilding is now increasingly presumed to
+be needed -- and not only for helping countries to limit the spread of a major war
+and recover from it as violence declines but also to avoid wars from erupting, and
+re-erupting.20 The overall international trend has been toward more and more
+engagement at more levels in terminating, mitigating, and increasingly,
+preventing, a variety of differing intra-state conflict situations.
+One effect of all this is that many new functional and transnational relationships
+and professional networks have come into being. Characterizing these
+developments in the 1990s as the emergence of a global peacebuilding
+“enterprise” is inspired by the way that a multitude of non-profit and for-profit nongovernmental organizations now compete to get contracts, grants, or other
+funding in order to implement many of the programmes under the peacebuilding
+agenda. A related indicator of the growth of a peacebuilding field is how it has
+generated demand for a wide range of new professional skills and expanded the
+market for training workshops, and even new graduate programmes and
+degrees, in various aspects of conflict analysis, management, humanitarianism
+and peacebuilding. A look at the training courses, events and jobs listed in trade
+newsletters, for example, reveals the variety of skills that are currently required
+and in demand by organizations whose staff run programmes as diverse as
+women’s legal advocacy centres and police training. The idea that originally
+inspired the US Peace Corps in the 1960s -- to create a people-to-people
+program that transfers a variety of skills and capacities to developing countries
+has been carried forward in the programs of all the major international donors in
+conflict settings. An international version of the Peace Corps has become an
+international vocation for thousands of ex-patriots.
+From Peacebuilding to Nation-building
+The story does not end with the unified concept of pre- and post-conflict
+peacebuilding. In the evolution just described, international activities in conflict
+areas increasingly have exceeded the aspiration simply to keep and to sustain
+peace, in the sense of preventing or avoiding relapse into armed conflict in the
+short and long run. In many instances, post-Cold War international engagement
+into conflicts virtually has become nation-building. In effect, this activity is
+seeking to weave a whole new cloth for the national society and to set up
+20
+
+Beyond describing peacebuilding’s overall aims generically and when it comes into the stages
+of a conflict, it is no longer especially fruitful to debate which specific instruments or actors are or
+are not to be included in peacebuilding. Henning Haugerudbraaten identifies six dimensions on
+which various peacebuilding definitions differ: aims, means, timing, actors, part versus whole, and
+organization (See “Peacebuilding: Six Dimensions and Two Concepts”). But this paper considers
+it useful -- when defining the concept -- to include only the first and third dimensions. Using the
+others to define the term either gets into many possible variations and situational differences, or it
+begs important policy and empirical issues.
+
+14
+
+unprecedented new forms of governing in the affected countries along with new
+rules for economies and politics. Kosovo and East Timor are especially
+indicative examples. In a mission to a formerly war-torn developing society, an
+international agency could just as likely be sending the president of a national
+association of plumbers, a constitutional scholar, a child psychologist, and an
+anti-trust consultant as it would a soldier, doctor, teacher, or agronomist. In this
+light, the term “reconstruction” in these contemporary post-conflict situations is a
+misnomer (as it was also when it came to the political systems transplanted in
+Germany and Japan after World War II). It is actually national construction.
+In the absence of a compelling alternative theory of development, this nationbuilding cum peacebuilding is based intellectually on the current consensus
+around liberal values that prevail among mainly the major Western powers and
+are now also deeply ensconced in donor agencies as well as in the UN system,
+including not only the World Bank and IMF but smaller development agencies
+such as UNDP as well. Most officials and professionals in these organizations
+tend to assume that any and all of these liberal values advance peace and
+prevent conflict ipso facto, in any context, form and increment in which they can
+be applied. In this pervasive world view, market-oriented economic reform,
+democratization, civil society building, human rights, rule of law, and good
+governance are assumed to be the most promising approach both to preventing
+intra-state and inter-state conflicts as well as to developing poor societies and
+organizing nations. Findings from research such as that democracies seldom go
+to war with each other have become the basis for making societies into
+democracies. Every component of liberalism, whether economic reform or war
+crimes tribunals, now has a theory of peace and long-term conflict prevention
+lying behind it. Since its policy components are often applied in many different
+settings in an automatic, one-size-fits-all manner, liberalism has come to fit the
+classic definition of an ideology, i.e., a general world view into which many
+complex and contradictory facts are squeezed.
+The liberal model is most conspicuously grafted onto societies by international
+agencies associated with post-conflict peace operations, where the destruction of
+many institutions has often left more of an institutional and values vacuum. It is
+crucial to identify what theory of development lies behind bilateral, multilateral,
+and NGO engagements in the poorest developing societies, and the goals and
+values that they pursue, because in those countries, activities that affect national
+development get more of their funds from ODA monies, whereas in the smaller
+number of more economically successful developing economies, private direct
+investment plays a bigger role.21 But the model also drives most international
+development activities in developing societies that have not experienced recent
+conflicts but are believed to be at risk. If, as some predict, further turmoil occurs
+
+21
+
+Shepard Forman, et.al., Recovering from Conflict: Strategy for An International Response (New
+York: Center on International Cooperation, n.d.)
+
+15
+
+in some countries and regions, these international involvements in internationally
+sponsored de facto nation-building may continue to ramify.22
+At the international level, the liberal paradigm that is being implanted in
+developing countries takes the form of spreading normative and economic
+regimes that enshrine and seek to promote and/or enforce these same values
+and international organizations such as the new International Criminal Court.
+The credo of liberal internationalism is globalization’s manifestation on the plane
+of societal and political values.
+Rethinking Peacebuilding
+However, just as the international community has become more intimately
+involved in the affairs of more national societies, it is also reaching a more
+mature stage of being somewhat more reflective about how it goes about this
+work and its wider implications. As the peacebuilding enterprise and the
+normative culture of service to human security have become more influential,
+doubts are being voiced regarding some fundamental aspects of the new forms
+of international intervention that are occurring under the aegis of peacebuilding.
+These questions can be divided into two sets of fundamental concerns that
+overlap but are distinguishable: the issues of efficacy and legitimacy.
+The Issue of Efficacy. The first set of concerns focuses on the huge practical
+challenges and difficulties that are entailed in doing the recent peacebuilding
+activities in many post-conflict and potential conflict countries. The basic
+question is whether peacebuilding in its various forms is really effective, or not.
+As post-conflict and potential conflict peacebuilding interventions have been
+tried, have they produced more stability and fewer conflicts or are they doing
+harm? The largely unanswered question now is whether the many activities of
+peacebuilding actually achieve the results that they seek in the countries in which
+they are carried out. Despite the documents seeking to explain and legitimate its
+expansion, the ambitions of peacebuilding have come about gradually in
+response to practical problems and events. It still constitutes a huge, hopeful
+experiment whose results are not clear.
+Certain recent developments and events have stimulated this pressure for
+greater attention to the evaluation of what is effective and thus more
+accountability in conflict interventions. These events included errors of omission
+and missed opportunities such as the reversals or setbacks in international postconflict missions that were at one time celebrated as successes (e.g. Angola,
+Cambodia, Rwanda). For example, the two worst humanitarian emergencies of
+the 1990s, Angola in 1993 and Rwanda in 1994, followed failed peace
+
+22
+
+On the linkiing of liberalism and conflict engagements, see also Oliver Richmond, Maintaining
+order, Making Peace (Houndsmill: Palgrave, 2002).
+
+16
+
+agreements; more people died after those agreements failed than had died in the
+previous civil wars.23
+The events that have given pause also include errors of commission such as the
+unintended consequences of ostensibly preventive or peacebuilding actions,
+such as conferring diplomatic recognition on Croatia in 1991 without
+guaranteeing its security, and failing to vigorously enforce aid conditionalities in
+Rwanda in 1993-94.24 Increasing questioning of whether humanitarian aid often
+has adverse effects on conflicts, such as in the maintaining of the Hutu
+Interhamwe militants in the refugee camps of eastern Zaire from 1994 to 1997,
+after their exodus from Rwanda, has also influenced discussion of
+peacebuilding.25 A similar question is whether internationally-promoted
+majoritarian elections in highly divided societies in the interest of democracy can
+increase the risks of violent backlash by factions who see themselves losing.26
+For example, the violence that broke out in Burundi in October 1993, a few
+months after a multi-party democratic election had put in office its first Hutu
+president, escalated further and has waged on ever since, causing many more
+deaths than all the previous outbreaks of inter-ethnic violence put together during
+Burundi’s earlier, more authoritarian post-independence years. Empirical studies
+of both early warning and conflict prevention have also aroused concern by
+suggesting that international preventive interventions that are half-hearted may
+be interpreted by determined oppressors as a go-ahead signal that they can
+carry out more oppression with impunity.27
+Still other concerns arise from the lack of rigor in the strategies behind
+interventions and the lack of attention to whether results are really being
+obtained. For example, recent program evaluations contracted by funding
+agencies and foundations who are concerned whether their money is being wellspent are revealing in some instances the limitations of frequently used and wellmeaning types of initiatives such as NGO ‘track two’ diplomacy.
+Overall, these sobering experiences have led to a deeper awareness that
+existing policies and actions by international community inevitably become part
+and parcel of the factors that determine the course and outcomes of conflicts,
+and often can worsen the situation.28 We speak here not about the important
+question of the possible harmful effects of many policies that are not usually
+explicitly intended to build peace, such as international arms sales, the diamond
+trade, protectionist policies, or structural adjustment programs, but only about
+23
+
+Stedman, p. 668-9
+See for example, the joint evaluation of the international engagement in Rwanda, Vol I.
+25
+See, for example, Mary B. Anderson, Do No Harm: How Aid Can Support Peace – or War
+(Boulder: Lynne Rienner, 1999).
+26
+See for example, Ben Reilly, “Voting is Good, Except When It Guarantees War,” Washington
+Post, Sunday, October 17, 1999, Page B2.
+27
+See studies by Barbara Harff.
+28
+See for example, Peter Uvin, Summary Report to the DAC Task Force on Peace and
+Development, OECD, page 4.
+24
+
+17
+
+those actions that are deliberately aimed at peacebuilding and conflict
+prevention. As a result, evaluation methods that have long been used to assess
+the impacts of development and other programs are now being developed in
+various forms in order to be applied to peacebuilding initiatives. These “peace
+and conflict impact assessments,” on the analogy with environmental impact
+assessments, are seeking to generate “best practices” and learn lessons from
+recent experience.29
+This question of efficacy thus remains a challenge to peacebuilders even though
+they can still also validly argue that a fundamental problem that affects their
+ability to be effective is the chronic lack of sufficient resources that are typically
+forthcoming from the international community to address post-conflict situations.
+For the point is that even when actions are taken with some level of resources,
+the policy choices made may have contributed to worsening the situation.
+In sum, in both potential- and post-conflict interventions, policymakers and fieldlevel practitioners are now increasingly expected, not simply to launch initiatives
+and run programs and projects, but also to be accountable for getting tangible
+positive results in achieving the ultimate goal of a sustainable peace, not
+withstanding the modest international resources that are available. More interest
+is being shown in finding ways to approach conflicts that: a) at a minimum, “do no
+harm” by taking care in changing vulnerable societies not to inadvertently
+increase the risks of destructive conflict, and b) if possible, “do some good” by
+deliberately and sensitively fostering peaceful and constructive political conflict
+and avoiding violent destructive expression of the inevitable clashes between
+interests during a period of strife.
+The Issue of Legitimacy. The previous concern largely assumes that the
+expansive notion of peacebuilding that is emerging is desirable in principle, and it
+asks whether it is working well and how it might be improved. A second set of
+concerns questions the basic validity of the peacebuilding enterprise, in view of
+the depth and quality of the peace that is being achieved even in the best cases
+when peacebuilding might be quite feasible. It also raises questions about the
+tutelary nature of peacebuilding.
+This issue has arisen more sharply in the last few years, in part as a response to
+the realization that peacebuilding-become-nation-building is mainly guided by the
+principles of liberalism. The concern here is not only that peacebuilding may not
+always “work”, but that it mainly serves the interests of the most powerful states
+that lie behind its values and promote them.30 Given globalization and other
+dominant world trends, are the essential goals and norms that are being
+29
+
+See for example, Anneke Galama and Paul van Tongeren, eds. Towards Better Peacebuilding
+Practice: On Lessons Learned, Evaluation Practices and Aid and Conflict (European Centre for
+Conflict Prevention, 2002).
+30
+A related recent criticism is that the trend to link humanitarian aid more closely to various
+agendas for political change sacrifices its essence as morally neutral aid to people in need. See
+David Rieff.
+
+18
+
+implemented in the peacebuilding enterprise reflecting the most desireable forms
+and values for developing nations and a global society? Whether or not
+peacebuilding has been generally effective in achieving stability or prolonged
+peace, this perspective questions the extent to which it is actually leading to
+greater general and sustainable improved standards of living, self-determination,
+social equality and human dignity – in short, wider panoply of dimensions of
+human security. Some question whether the idea that the developing world
+needs more capacity in conflict resolution and conflict prevention, for example, is
+an immense rationalization on the part of wealthy nations for their unwillingness
+to put substantial resources into promoting development in the poorest nations.
+Instead of creating new dynamic forms of national societies or a better world
+society that empowers ordinary people to take control of their lives and fosters
+social justice, some post-conflict peacebuilders are asking if they are merely
+being enlisted as the “social workers” of a world system that provides palliatives
+to alleviate the suffering of peoples who are forced to endure the worst economic
+and social costs of globalization, and in the bargain, are made aid-dependent.
+Critics wonder whether the main driving forces that shape world economics and
+politics are making the world not so much “safe for democracy” as convenient for
+multi-national corporate profitmaking. What has the veneer of multilateral action
+and international legitimacy is regarded as the vanguard of global capitalism
+because the UN, World Bank and other international organizations are regarded
+as dominated by the US and other Western powers, who themselves are
+ultimately beholden to multi-national corporations. Such attitudes have become
+most visible in the anti-globalization demonstrations at meetings of the WTO, the
+IMF, and the Davos Economic Forum, and echoes of this sentiment were heard
+as a part of the explanation for the September 11th attacks, although the
+perpetrators of the latter are not opposed to economic markets. That this is not
+entirely or even at all a “Southern” perspective is seen in its expression by
+“Northern” analysts.31
+The suspicion that hidden agendas of the major power basically animate
+peacebuilding has grown not only as its liberal premises become more exposed
+but also in response to recent exercises in “humanitarian intervention.” The
+peace enforcement action in the name of humanitarianism in Kosovo was
+criticized for its heavy-handedness and underlying service to Western interests
+and the agendas of certain organizations. More recently, two post-September
+11th policies of the United States have caused alarm as they began to adopt
+some of the terminology of nation-building and peacebuilding but took it to
+another level of intervention. After the war against the Taliban in Afghanistan
+was undertaken, the Bush administration was no longer reluctant to use the term
+“nation-building” to describe what was needed in Afghanistan after the Taliban
+were ousted. In connection with its avowed determination to force Saddam
+Hussein to turn over or destroy all weapons of mass destruction in Iraq, the
+Administration introduced a radically new version of pro-active conflict
+31
+
+See the writings of Mark Duffield.
+
+19
+
+prevention, i.e., launching preventive war now in order to pre-empt expected
+wars later. It also invoked the notion of peacebuilding by publicly considering
+various options for achieving post-conflict national construction after a postHussein “regime change.” Such arguments have been buttressed by frequent
+references to why Hussein ought to be overthrown because he had oppressed
+his own people. Thus it is not surprising that, accurately or not, the notion has
+been more widely expressed that the new concepts of peacebuilding may
+inevitably be followed by military intervention by major powers for their own
+purposes.
+The agenda of peacebuilding also received a post-September 11th boost of
+uncertain direction from those who see marginalized societies and failing states
+as the breeding grounds for terrorists and thus look to the development and
+democratization of these societies as necessary to “drain the swamp.” In
+response to the war on terrorism, the US and other donors’ are pumping new
+infusions of development funds into areas such as Central Asia, the Horn of
+Africa, and rural Georgia. An interventionist tone is also emitted by those
+observing that non-democratic Middle Eastern regimes provide support to
+zenophobic and militant forms of political Islam. To some, the end of ideology
+which was supposedly followed by an end of history in which violent political
+struggle was no longer required, now seems to have given way to a liberal
+triumphalism that is vanquishing its opponents.
+In view of these most recent trends, as well as the future of conflict, it is unclear
+whether peacebuilding is here to stay for a while or is a passing phenomenon.
+The question is open as to whether peacebuilding is still relevant in a post- 9/11
+world, at least politically. Whether the anti-terrorist agenda will now skew or
+subvert the decade-long process of formulating a multi-dimensional concept of
+peacebuilding and nation-building, or instead it will be tempered by them, is a
+crucial question that needs to be tracked, not pre-empted.
+Looking at the world’s prospects for future conflicts over land, water, population
+pressures and a host of other forecasted problems would suggest that an even
+more robust multi-dimensional and non-violent version of preventive
+peacebuilding would be essential to continue to promote, albeit in tailored forms
+for differing contexts.
+In any case, the increasing saliency of peacebuilding is putting it under pressure
+to demonstrate its real worth from at least two differing directions. As the new
+global peacebuilding enterprise has come into being, some of its practitioners
+have begun to express a desire to achieve more professionalism in what they
+do.32 Others, including some from within the would-be profession, wonder aloud
+if it should be professionalized at all, if its ultimate goals are still murky and its
+actual consequences are possibly harmful. While the one view regards more
+peacebuilding efficacy as valid but does not see it working, the other tends to
+assume peacebuilding is working but questions its values and methods.
+32
+
+See, e.g. Anneke Galama and Paul von Tongeren, eds.
+
+20
+
+Whatever direction peacebuilding may be heading in the coming years -- up or
+down, right or left -- it is useful to pause to take stock of what it hath wrought so
+far. The following section reviews one important empirical research literature that
+has attempted to derive some data-based findings regarding whether postconflict peacekeeping and peacebuilding missions have been effective and under
+what conditions. The subsequent section discusses major alternatives to postconflict peacebuilding, albeit more briefly, including the question of the legitimacy
+of liberal peacebuilding.
+III.
+
+THE RESULTS OF POST-CONFLICT PEACEBUILDING:
+A HARD LOOK AT WHAT WE KNOW
+
+In trying to meet critics, the peacebuilding field is often its own worst enemy. In
+much peacebuilding discussion and documents:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Terms are often poorly defined and the discussion of issues is imprecise;
+Emotive appeals are widely relied on as argument. Pieties are uttered
+without solid evidence about whether and where they may apply as
+reliable guidelines (e.g. “allow the parties to own the conflict” and “be
+inclusive”);
+Platitudes and truisms are invoked as if they provide specific guidance to
+action, such as “look at the situation” (look at what? with what questions?)
+and “coordinate activities” (when? with whom? about what?);
+Careful reasoning is not followed from diagnosis of defined problems to
+outlining and assessing possible responses;
+Solutions chase problems rather than the other way around. The sectoral
+agendas of particular organizations and institutions decide what they do in
+particular places rather than that being dictated by the situation on the
+ground. It is supply driven, not demand driven.
+Intentions are confused with actual results. The forms that peacebuilding
+action takes are not specified and classified so systematic observations of
+actual results can be made;
+Energies are dispersed in hundreds of different directions but the myriad
+of activities is not guided by any underlying grounded theory or overall
+strategy, only vague assumptions.
+Explicit criteria and indicators are rarely stated as to the aims of
+peacebuilding and what they would look like concretely if actually
+achieved. A systematic method is often not followed for gathering data on
+whether such results are obtained;
+Though the several values peacebuilding seeks to achieve are not always
+consistent with one another, because all have their own normative appeal,
+all are advocated, but without a sense that priorities need to be set among
+them and necessary tradeoffs must be faced. Everything can be achieved
+everywhere.
+
+21
+
+•
+
+Distinctions are often not made about the very different scales and levels
+on which conflict as well as peacebuilding activity operates, such as
+between local community environments and the environments of national
+politics, and thus the very different consequences that can be expected
+from efforts at those differing levels;
+
+Overall, the discourse one hears at public peacebuilding events is largely a
+Tower of Babel of differing options being hawked in a sprawling policy bazaar.
+While technical material on specific programs and budgets abounds, it is largely
+descriptive and promotional. NGO and government agency newsletters take on
+the role of public relations to keep up financial support.
+Most of these tendencies boil down to a common reluctance to carefully observe
+and evaluate what is actually being done in relation to basic goals, although there
+are exceptions. The bulk of what is written down in this field describes the
+various activities that are carried out, what aims are intended by them, and what
+various practitioners believe about the value of what they are doing.33 A vast
+“grey” literature that is largely advocacy in nature includes liberalism-inspired
+menus of the tasks to be done in post-conflict peacebuilding,34 but it offers little
+close analysis of first what is needed to be done in specific situations overall, and
+the actual detailed workings, let alone consequences, of peacebuilding efforts
+and their interactions. Little work has been done to apply rigorous methods of
+systematic evaluation research to ascertain whether there actual measureable
+results and why they were or were not obtained, i.e., to detemine just what is
+being accomplished in terms of explicit notions of desired impacts.
+Even when results are projected through methods such as a logical framework or
+actual peace and conflict impact evaluations are done, they generally focus at
+the micro-level of programs or projects, not the macro-level of the overall
+outcomes in a country. Little attention is paid to what kinds and combinations of
+interventions actually have various vaunted impacts, what side effects they may
+have, and what conditions and features are necessary for them to perform well.
+The single unifying element of all this well-intentioned activity is apparently the
+overall theme of “peace” as a goal, however defined. Apparently, much of the
+field is driven mainly by a moral commitment to this worthy but vaguely defined
+ideal, captured in honorific terms such as “peacebuilding” itself. Peacebuilding is
+thus approached largely as an expressive activity, i.e. a way to stand for and
+promote certain ideals, rather than an instrumental activity, that is a way to
+actually achieve specific goals. Given the relative dearth of solid assessments of
+results, it may be that peacebuilders are assuming that because their cause is
+morally valid, that alone justifies its pursuit and absolves the field of responsibility
+for examining the soundness of its operations. Similarly, the primacy placed in
+33
+
+See for example, Kumar, ed.; Quaker United Nations Office, Peacebuilding in War-Time
+Societies: Workshop Report, December, 1996.
+34
+USIP. See also Forman, Appendix 4.
+
+22
+
+peacebuilding circles on the norms of consultation and consensus may often
+come in conflict with the need for objective, methodically-derived knowledge
+based on relevant expertises, and thus many supposed conclusions that emerge
+are at best a most common denominator, and at worst, pooled ignorance.
+Perhaps one reason for this general lack of rigor in peacebuilding was that it was
+part of a larger trend in the 1990s to put new goals on an emerging world
+agenda, such as was done through the various global summits on the
+environment, children, women, and development. But to project a number of
+desirable goals for the world as a whole is not to fashion a realistic and coherent
+strategy for any particular country, or to take into account contexts of conflict.
+Another explanation for the lack of rigor may be that the discussion of
+peacebuilding is tied in too closely with the policy concerns of particular groups of
+decisionmakers in various governmental and non-governmental agencies, with
+specific expectations of particular funders, and with the daily operational
+questions facing practitioners working on specific projects in the field or activists
+on the ground. There seems to be little interest in or room for examining the
+validity of the theory or theories that may be implicitly driving the whole process
+and in developing a data-based intervention strategy.
+However, as the saying goes, “any practical pursuit is only as good as the theory
+on which it is based.” Clearly, we must look more critically at the actual record of
+peacebuilding to assess how well it has performed in its overall thrusts in
+comparison to what is assumed to be happening. This may be as important for
+dispelling self-doubts and uncovering unknown accomplishments as it is for
+addressing external criticism. In an attempt to get a handle on how to move
+forward in an informed way, a variety of conceptual frameworks for parsing the
+field into manageable issues to tackle in analysis have been developed and
+published, but few have been followed to the next step of being used to structure
+systematic research.35
+To make some solid headway in finding out about what has or has not been
+achieved by peacebuilding, we can state the fundamental issues facing the field
+in the form of distinct and explicit questions that lead to testable propositions that
+can be addressed empirically by gathering relevant knowledge. Those basic
+questions seem to be:
+
+35
+
+One attempt to bring some order out of the chaos through constructing a framework that
+deconstructs and reconstructs basic analytical elements in the conflict and peace field such as
+causes of intra-state conflicts, the levels and stages of conflict, the alternative instruments for
+intervening into conflict, and the value criteria by which one might judge the results of such
+interventions is found in a primer on conflict analysis and prevention that was prepared for
+development practitioners: Michael Lund, et.al., Preventing and Mitigating Violent Conflicts: A
+Guide for Practitioners (Creative Associates International, Inc., 1997, viewable at www.caiidc.com/ghai).
+
+23
+
+1. To what extent is post-conflict peacebuilding achieving the various goals of
+security, democracy, development, and dignity, or is it making things worse?
+2. To the extent that this peacebuilding does achieve its goals, what factors -- in
+the way it is done and in the context in which it is done -- are associated with
+those results so that it can be improved?
+3. In view of its performance, is post-conflict peacebuilding better or worse than
+the main alternative ways for dealing with violent conflict in developing
+societies?
+In the remainder of this section, we review some sources that have addressed
+the first two questions. Question #3 is addressed in the subsequent section.
+Question #1: Is post-conflict peacebuilding working?
+This first question concerns whether peacebuilding is actually achieving its
+ostensible goals of achieving peace in various senses of the term. This question
+is often confused with the question of how to do peacebuilding better. Practical
+advice abounds for practitioners in answer to the latter question, usually
+regarding how to carry out various specific functions at a sectoral or subsectoral
+level, but not at macro (national), regional, or global levels. While answering the
+“how to” question obviously can be useful, it presumes that peacebuilding is
+worth doing, whereas the former question holds off on drawing that conclusion.
+Glib statements are often made about whether this or that approach to peace
+building works or not that are really about how to do it better.
+A related confusion arises from what is the “it.” Whether peacebuilding works or
+not can be answered in as many different ways as there are people involved in
+doing it at many different levels. Peacebuilding activity could mean, for example,
+individual actions, local projects, a given agency’s programs, the total range of
+outside and insider actions that are devoted to a conflict situation, and global
+human rights regimes. Thus, in asking about any “lessons learned,” one
+requirement for reaching a meaningful answer is to stipulate which level and unit
+of activity one is talking about, and therefore for analysis. Very different answers
+are likely to come out depending on the level and kind of activity that is being
+assessed, not to mention the differing specific settings in which activities are
+applied and the different criteria by which they are being judged.36
+To establish some grounding for cumulative knowledge building, this section will
+look at peacebuilding’s overall accomplishments – the “whether” question – by
+reviewing one major research genre and the particular unit of activity/analysis it
+focuses on. One of the rarely coherent corpuses of research in the field has
+36
+
+See the brief outline of current approaches to learning lessons in Anneke Galama and Paul van
+Tongeren, eds. Towards Better Peacebuilding Practice: On Lessons Learned, Evaluation
+Practices and Aid and Conflict (European Centre for Conflict Prevention, 2002).
+
+24
+
+evaluated the implementation and impacts of international peacekeeping and
+peacebuilding interventions that are carried out on a national scale in postconflict situations. The bulk of this work has been done by political scientists or
+economists who have followed one or other of the following methods:
+1. studying a large number of cases (sometimes into the 100s) of post-conflict
+peacebuilding in the post-World War II or post-Cold War periods through
+large “n” statistical analysis of the correlations of conflict features, intervention
+characteristics, and various results
+2. examining a much smaller set of cases (e.g., 3-10) and describing them in
+considerable depth, sometimes through the method of structured, focused
+comparison, and
+3. examining a single country case, often not using any comparative framework.
+Reflecting one of the virtues of academic research, examples of this genre are
+often cumulative, for the authors feel obliged to review previous research and to
+test explicitly-stated hypotheses with specified methods for collecting data.
+Criteria for Measuring “Sustainable Peace:” A Sliding Scale
+To make use of this research to discover peacebuilding’s evident achievements,
+we first need to set out explicit criteria or benchmarks by which “peace” can be
+defined and thus its achievement might be measured. Presumably, those criteria
+should include at a minimum the ending the level of armed conflict and
+widespread violence that characterized a war. Such a criterion of general
+physical security would mean that large numbers of people in the society have
+virtually no likelihood that they will be killed or threatened by major armed conflict
+or collective violence. But criteria for ascertaining whether peace has been
+achieved and thus post-conflict peacebuilding is effective cannot be limited to this
+single notion of security. They should also include the achievement of conditions
+that are required to sustain such security and to reduce threats to security to a
+virtual impossibility.
+But what other conditions are needed for such a “sustainable peace”? A fruitful
+approach is to look to the elimination or reduction of the major known causes of
+intra-state armed conflicts, direct and indirect, as they have been identified so far
+from empirical research. These causes could include “structural” societal
+conditions that tend to persist over the long run, such as competition over
+resources;37 chronic institutional and policy weaknesses such as widespread
+corruption and other signs of weak states and unresponsive polities, and finally,
+more immediate factors and fortuitous events that arise in the short term to spark
+37
+
+An example of tendentious discourse in the field is how these structural factors are often called
+“root” causes. That terminology itself begs the question of causation by implying that certain
+factors somehow have greater influence than other types of causes and may dominate other
+factors. But which causes are most powerful and how they relate to each other is an empirical
+question that can only be determined in particular cases and generalizing from many cases.
+
+25
+
+violence, such as incendiary conflict entrepreneurs. The evaluation of whether
+peacebuilding is effective would look at the extent to which – particular places
+and times -- it has reduced these particular factors that can lead up to intra-state
+conflicts or to relapsed major violence in post-conflict settings.38 In other words,
+the factors that have emerged from empirical research into the causes of
+conflicts can be recast as factors that would need to be reduced if the likelihood
+of relapsed conflicts is minimized, i.e., sustainable peace is to be achieved. This
+leads us to a relatively manageable list of things to look at.
+To illustrate how typical conflict causal factors can be posited as criteria that
+successful post-conflict peacebuilding would needs to achieve, we list below
+some key categories. These are arranged in a sliding scale from more
+immediate conditions to deeper and more long-term ones, as follows:
+1. Absence of actual or threatened widespread physical violence from armed
+force, including repression (“mere peace”)
+2. Accommodative political processes that allow access to decisions affecting
+the population’s lives and provide mechanisms for addressing social
+grievances of the kind that otherwise could produce major upheavals
+3. Functioning government sufficient to provide essential public services,
+including security
+4. Sufficient economic development to discernibly improve the well being of
+most people in the society and begin to reduce widespread poverty.
+5. Absence of egregious social divisions and material inequalities.
+But while these criteria are grounded in empirical research on the main causes of
+violent conflicts, the notion of what is “peace” attracts almost as many meanings
+as the numbers of people who utter the word. That spectrum ranges from the
+idea that “to achieve peace, prepare for war” to the belief that “the peace of God
+lies within you.” For achieving sustainable peace in post-conflict societies, many
+people want to go beyond evidence-based criteria and include many other
+preferred values and ideals, such as:
+•
+•
+•
+
+Absence of widespread crime and social dislocations
+Restitution for or acknowledgment of past wrongs to promote social
+healing and inter-group reconciliation
+Increased gender equity.39
+
+It is laudable to wish to improve society by eliminating as many of its deficiencies
+as possible and solving its many problems. Many such goals may be essential
+38
+
+Though whether the original causes of intra-state conflict are also the most likely causes of
+post-conflict violent relapse is a largely unresearched question. The issues and causes of conflict
+themselves not only increase but usually change as violent conflicts progress. An issue that
+tends to be more prominent in post-conflict settings, for example, is the legacy of bitterness that
+past violence creates, and the policy question thus arising of how to deal with the guilty.
+39
+This objective is, in fact, codified in UN Security Council Resolution 1325(2000).
+
+26
+
+for achieving a whole and healthy nation. However, such an approach risks
+making peacebuilding into a grab bag of unfulfilled human wants. It also may
+move the goalposts beyond expectations that usually are used to justify postconflict peacebuilding missions. Strictly speaking, it is not clear from the state of
+empirical research on intra-state conflict that the latter conditions and other ideals
+like them are essential for achieving a sustainable peace, if one thinks of that in
+more realistic terms. In the actual practice of post-conflict peacebuilding, it often
+seems that what are deemed causes of conflict that need to be eradicated in the
+name of overcoming wars and sustaining peace are empirically not causes of
+potential violent conflict at all. What they may be instead are the a priori policy
+and program goals that international agencies have adopted and are bringing to
+post-conflict settings. Or they may be social aspirations or political programs of
+groups within the societies that are experiencing post-conflict problems and
+policies. In either case, solutions are being presented as problems; the cart has
+been put in front of the horse. These may be required for long-term
+development, but not for peacebuilding. Just because peacebuilding would
+tackle many structural conditions that negate the peaceful life of a community
+does not mean that peacebuilding means eliminating every bad thing that is
+afflicting society and achieving every one of its esteemed values. Criteria of
+“negative peace” will gradually shade into criteria of “positive peace” that
+measure how far one is from reaching a good or ideal society. But we cannot
+reasonably use a completely open-ended notion of the attributes in a society that
+are to be expected from post-conflict peacebuilding if that gives it the burden of
+fulfilling all unmet social and human needs -- whether or not those needs are
+causes of intra-state conflict.
+Peacebuilding and development overlap at their boundaries, but they are not the
+same. Development efforts can accompany peacebuilding efforts in a given
+setting, and in many instances, the two kinds of activities and goals are
+congruent. But some conceptual distinction needs to be preserved, or
+peacebuilding becomes any good thing, and on the other hand, all development
+can be justified as necessary for peace. Both assumptions are misleading.
+Peacebuilding has to be distinguishable from development and other agendas.
+The muddling of the difference between peacebuilding and development is not
+simply an abstract, idle concern but could result in practical problems. The most
+important factors driving potential conflict may not be addressed. The best may
+become the enemy of the good. It also raises legitimacy questions because
+much more is being loaded onto the international mandate than was bargained
+for in terms of peacebuilding.
+Thus, the question is whether we should include these other values as criteria for
+evaluating peacebuilding, or instead, place them in a different category. They
+could be elevated to a higher normative plane where more expansive visions
+regarding ideal societies are contemplated. When it comes to defining the
+achievements of post-conflict peacebuilding, some limit needs to be put on the
+concept of peace by which the results of post-conflict peacebuilding are to be
+
+27
+
+measured. A line needs to be drawn between peacebuilding and maximizing the
+various levels of social, economic and political development possible in a given
+society. Otherwise, if the term peacebuilding becomes a synonym for all the
+positive things we would want to include in development in order to reduce any
+and all of a society’s ills, it becomes useless for guiding knowledge gathering and
+practical purposes.
+“Human Security” This need to distinguish short term and vital goals from longer
+term and less pressing goals also points to a possible danger in subsuming
+peacebuilding under a superordinate standard of “human security.“ The latter
+concept has been put forward primarily as an antidote to the conventional notion
+that deciding levels of security in the world is only a matter to be judged by states
+and their leaders. “Human security” puts the focus on the security of the
+individual human being not only of states. But what has also occurred in the
+process of developing this notion is that its content has been enlarged to include
+every imaginable limitation on an individual sense of well-being, including
+psychological states of mind.40 Also, these criteria are being proposed as a
+global touchstone by which the performance of all national development should
+be judged, whether the countries concerned are affected by or vulnerable to
+major violent conflicts or not.
+As the concept of peacebuilding expanded in meaning, it is not surprising that a
+further conceptual step would be taken to define a wide range of social,
+economic, political, and cultural goals and values as the essential ingredients
+that should be included in a comprehensive notion of what it is to achieve
+international security. But using such an extensive criterion for making policies in
+the developing world runs the risk of ignoring those societies or areas within
+them that are the most susceptible to one of the most basic threats to human
+beings’ well-being: immediate death of large numbers of people at the hands of
+others. Violent conflict becomes just one of many goals to be pursued in the
+interest of achieving a whole array of ambitious goals for all developing societies.
+But if this whole positive agenda is sought at the same time in the full sense and
+everywhere, even though many such ideals go way beyond what is needed to
+maintain stability and some movement toward positive development,
+peacebuilding as human security could end up achieving none of these values.
+There is of course nothing wrong with wanting developing countries to achieve a
+multi-dimensional condition of human security – freedom from poverty and
+disease, adequate education, etc. But while that standard rightly sets the sights
+high in terms of what should be ultimately achieved for the whole developing
+world, it may tend to shift attention away from the smaller number of societies
+within that universe which conflict analysis would identify as being on the edge
+of being torn apart by widespread violence. Aspiring to achieve a high level of
+general development for everyone everywhere may detract from the more urgent
+task of protecting the most vulnerable people from a massive loss of life due to
+40
+
+See CERTI.
+
+28
+
+the basic breakdown of their societies. In those places, the “human security”
+paradigm does not provide one with a strategy for deciding where to begin, and
+in the confusion, might instead do harm. To anticipate some of the findings
+reported below, it is possible that in some places some values (i.e. goals) need to
+be achieved to a greater degree before other values can be achieved in those
+places.
+In sum, seeking to preserve a distinction among differing priorities for
+peacebuilding, one is not giving up on those other ultimate goals. The broader
+goals may be very desirable for other reasons but it is best to call their pursuit by
+another name than “peacebuilding.” The focus is simply being limited in order to
+accomplish a certain imperative practical purpose: trying to keep large numbers
+of human beings from killing others and being killed.
+Findings on the Impacts of Post-Conflict Peacebuilding
+Having set aside some ideals as evaluative criteria for determining peacebuilding
+efficacy, we turn to look at what a certain sample of recent multi-case empirical
+research has discovered about the extent that post-conflict peacebuilding has
+succeeded -- using results criteria that arise from conflict analyses. This
+research genre has looked at many post-conflict instances where a major intrastate violent conflict has reached some significant reduction of the use of armed
+force or political violence and a some peace agreement has been agreed, and
+where the UN or other body has established peacekeeping and a varying range
+of other missions in order to enforce the peace, avoid recurrence of violence, and
+begin to move the country toward self-government and economic development.
+Absence of actual or threatened widespread violence. A number of studies of
+multiple peace agreements come to the conclusion that the record of recent
+peacebuilding has been quite mixed. Hampson (1996) was one of the first to
+evaluate peace agreements to find out what makes for their effective
+implementation. His study of five agreements does not look specifically at what
+ends violence, but at the fulfillment of agreed-on peace agreements, in which
+ceasefires and laying down of arms often appear. He concludes that Namibia
+and El Salvador operations were successful, while Cambodia was a partial
+success and Cyprus and Angola failed. Stedman et. al (2002) search for
+instances of sustainable peace among nine cases of post-conflict peace
+agreements implemented by the UN and other actors, such as in Somalia;
+regional organizations, such as ECOMOG in Liberia; and individual states, such
+as India in Sri Lanka. Using the criterion of whether there has been a reduction
+or recurrence in violence and the achievement of self-enforced restraint, he and
+his co-investigators rank Namibia at the top; El Salvador, Mozambique and
+Cambodia in the middle; and Angola and Rwanda at the bottom.
+In the most comprehensive study of post-conflict peacebuilding, Sambanis and
+Doyle look at 124 cases of civil wars since 1945 to determine how many ended in
+
+29
+
+peace and through what means. They apply both a “lenient” and a “strict” or
+more demanding definition of sustainable peace. The lenient criterion refers to
+the absence of major or lower-level violence and uncontested sovereignty two
+years after the end of the war. In those terms, they find 53 peace successes and
+71 failures, a success rate of about 43%. Other researchers reach similarly
+mixed conclusions. Table 1. summarizes the case rankings of several studies.
+Table 1.
+How Various Studies Rank Peace Operations’ Effectiveness
+(success, partial success, or failure in controlling large-scale violence)
+Post-Conflict
+Case
+Angola
+Bosnia
+
+Durch
+
+Stedman
+
+Hampson
+
+Paris41
+
+failure
+failure
+
+failure
+
+failure
+failure
+
+Cambodia
+
+failure
+
+failure
+partial
+success
+partial
+success
+
+partial
+success
+failure
+
+partial
+success
+
+success
+
+failure
+partial
+success
+
+Cyprus
+E Slavonia
+El Salvador
+Guatemala
+
+partial
+success
+success
+
+success
+success
+
+Bertram
+
+success
+failure
+Success (?)
+success
+
+partial
+success
+
+Haiti
+Lebanon
+Liberia
+Mozambique
+Nicaragua
+Namibia
+Rwanda
+Somalia
+Sri Lanka
+Zimbabwe
+
+Sambanis/
+Doyle42
+failure
+failure
+
+success
+success
+Success (?)
+
+failure
+success
+success
+
+success
+failure
+success
+success
+
+success
+failure
+
+success
+failure
+
+success
+
+failure
+failure
+
+success
+partial
+success
+success
+failure
+
+failure
+success
+success
+success
+failure
+
+success
+success (sic)
+failure
+success
+failure
+
+Though they differ in rating some of the missions, these several studies sort out
+successes from failures quite consistently. Except for a few like Cambodia
+where differing interpretations are given, there is considerable agreement about
+those countries where the minimum notion of peace has been achieved and
+where it has not. Post-conflict peacebuilding has produced positive results in
+41
+
+But using varying criteria for each including economic growth, reduced crime, social inequality,
+reduced “social tensions”, etc.
+42
+Using lenient and strict criteria involving both the absence of violence and political openness.
+
+30
+
+some places, but as many or more have been failures. Thus, peacebuilding
+effectiveness in terms of the absence of violence is not a yes or no matter. Quite
+different outcomes resulted from different cases, and success and failure each
+showed some gradations. That the overall picture is quite mixed, even on the
+most uncontested peacebuilding criterion of ending the threat of major violence,
+is an important finding.
+Accommodative political processes. Surprisingly, once we have examined the
+many studies that take an interest in the restoration of minimum physical
+security, it is much harder to find rigorous, data-based analyses of the other
+desired outcomes of macro-level peacebuilding, especially using comparative
+data across several countries. Durch, et. al (1997) and Sambanis and Doyle
+(2000) are among the few multi-case cross-national researchers who use
+somewhat more expansive criteria of peace that specifically look for increased
+political openness or elements of democratization.
+Durch and his colleagues use the richest definition. An “effective transition” is
+not only the absence of military conflict and of significant disruptions of public
+security, but also the survival of the political system through a second election.
+They identify various indicators for each of these criteria and apply them to peace
+operations that were led by the UN, regional actors or single countries in 13 postconflict countries plus Haiti. By giving a plus or minus score for the number of
+criteria that are met, they find that less than half of the 13 achieved some degree
+of this criterion for sustainable peace. Namibia and El Salvador rank at the top,
+for example, while Sri Lanka and Somalia have the lowest scores. Among the
+effective transitions, moreover, there is a considerable difference between topranking Namibia and the minimally effective Eastern Slavonia. The political
+criterion in the definition of peace that Sambanis and Doyle add to the absence
+of major violence in order to apply a “strict” test involves a minimum standard of
+political openness. Applying this expectation to their universe of cases, they find
+81 failures and 43 successes, a success rate of only 35%.
+To gain further insight into whether successful peacebuilding in terms of violence
+avoidance also achieves steps toward greater democratization, one could cull the
+existing case studies for generalizations to be tested. Several cases in
+Stedman’s volume and other cases suggest that it does not always follow that
+successes on the one score such as Guatemala and Lebanon lead to successes
+on the second score (Stanley and Holiday, Zahar, in Stedman, 2002; see also
+Makdisi and Sadaka, draft, 2002). Charles Call in Stedman (2002) sees El
+Salvador, for example, achieving only mixed progress toward democratization.
+In short, while the cessation of major violence may be a necessary condition for a
+political dimension of peace involving legitimate government, it is not sufficient for
+reaching such ends.
+
+31
+
+Economic growth prospects and reduction of poverty. Going further to see what
+evidence there is of other criteria being met by post-conflict peacebuilding, we
+would have to do comparisons of individual case-studies. This secondary
+analysis requires as many cases as possible, but it needs to be methodical if it is
+to be reliable in answering our question of concern: has post-conflict
+peacebuilding led to economic development? Here, we can only record some
+impressions.
+Looking at several cases in Stedman, et. al it appears that both strong and weak
+performers in terms of avoiding relapse of violence nevertheless have failed to
+make much headway so far in reducing poverty and achieving economic growth.
+A quick look at non-comparable data from available case-studies of individual
+countries such as Mozambique (success on the other criteria), El Salvador
+(success on the other criteria) and Lebanon (failure on the other criteria) reveals
+that while the first case has fared quite well economically so far, at least at the
+aggregate level, the other two are doing poorly at that level (See Weinsten and
+Francisco, draft 2002; Cruz and McElhinny, draft 2002; Makdisi and Sadaka,
+draft, 2002; Boyce, 1999).
+But a more thorough basis is needed for coming to an overall judgment about
+whether there are consistent patterns in the paths taken by countries
+experiencing post-conflict peacebuilding in terms of economic growth and
+poverty concerns. One possible approach could entail looking systematically at
+several cases (i.e., through structured, focused comparison) grouped by success
+and failure on the other measures. It could be especially revealing to use a “best
+case” approach, for example, by looking at how well successes from the point of
+view of “mere” peace, such as Namibia, have fared in terms of the deeper criteria
+of sustainable peace such as economic structural and social justice criteria. If
+most of the best cases have done just as poorly as the failures, then a serious
+gap may exist between short-term security results and longer-term economic and
+social welfare. On the other hand, if there is a considerable difference in
+economic performances, then achieving short-term post-conflict security may
+have some influence on improving economic performance and various factors
+could be examined to see what made the difference.
+Functioning governments. Few studies have looked specifically or systematically
+at whether effective post-conflict governments have been established for serving
+the public welfare, such as indicated by bureaucracies whose decision-making
+functions on relatively non-corrupt, non-political bases. So far, whether strong
+states in this sense are created does not seem to be of interest to many
+researchers, at least as a dependent variable (but see the next section). The
+prima facie evidence from a few case studies suggests, again, rather varied
+outcomes. Makdisi and Sadaka (2002) for example, suggest Lebanon has not
+progressed very far in this direction.
+
+32
+
+Societal integration Some of the case studies show some interest in the criteria
+of increased social equality and societal reconciliation and cohesion. The first
+criterion is among the structural factors that generally are believed to produce
+violent conflict in the first place. Although most of the empirical literature on the
+causes of relapsed conflict does not tackle the problem of gross social
+inequalities, several sources such as Paris (2002) and Call (2002) note the
+increased social inequality in Nicaragua, El Salvador, Guatemala, Mozambique.
+Even though we have argued that the latter criterion of increased inter-group
+reconciliation may not strictly be a peacebuilding requirement in a strict sense, it
+may reflect social inequalities and other criteria that are. One study that looks at
+the status of inter-group relations following a war (Zahar, 2002, cf. Paris, 2002),
+argues that in Bosnia, Serb-Muslim tensions have not significantly improved
+since the Dayton accords in 1995. Zahar is currently comparing that case with
+post-conflict Lebanon, another highly divided post-conflict society.
+Some cases also refer to another social good that may not be essential for
+peacebuilding (unless found of course in a gross form), the level of post-war
+crime. The jump in criminal violence in El Salvador and other post-conflict
+countries has been widely noted and sometimes examined in detail (e.g., Cruz
+and McIlhenny, 2002). Stedman, et. al. has evidence that suggests without
+detailed analysis that both strong and weak performers like Mozambique, El
+Salvador, and Cambodia still all fail to make much headway in the crime area, as
+does Paris (2002) regarding El Salvador. But several authors suggest that the
+high incidence of this should not necessarily be read as a portent of wider
+political violence.
+Conclusion: “What Kind of Peace is Being Built?”
+Most of the rigorous research that has been done on the impacts of
+peacebuilding has focused almost solely on whether the first criterion for peace
+has been achieved – i.e. whether violence and the threat of its recurrence has
+been accomplished. This research has not rigorously and comparatively
+evaluated peacebuilding terms of several other criteria for sustainable peace
+such as economic expansion, gross poverty reduction, adequate government,
+and social relations. Single case studies sometimes include data about such
+results, but this data is country-specific and tends not to be comparative, or even
+to compare the country’s post-conflict conditions to its pre-conflict conditions.
+Thus there is no consistent basis for judging their progress or lack of it on these
+measures relative to other post-conflict country cases, to other types of conflict
+situations, or to non-conflict situations. But unsettling evidence arises from
+several case studies, suggesting that some post-conflict countries may have
+achieved the end of violence but they have not achieved more legitimate
+governance, economic growth, or social reconciliation.
+
+33
+
+Question #2: What works best in peacebuilding?
+Given the variation in outcomes across the cases when looking at the same
+measures of peace, the issue of what explains success or failure becomes
+important. Where the most peacebuilding is being accomplished by various
+evaluative measures, what ingredients make that possible?
+Broadly speaking, the results may have to do with what kinds of post-conflict
+peacebuilding strategies are carried out and how they are applied, or they may
+not have to do with peacebuilding activity itself at all but instead, when and where
+these activities are applied, such as the nature of the conflict and other
+contextual factors.43 Obviously, any policy intervention may be carried out quite
+differently than other cases of the same type and reach differing results if they
+are introduced into varying contexts. It is crucial to identify what those variations
+are, so as to be able to apply the conclusions of any studies to prospective
+situations. One can think of the problem as filling in the unknowns in the
+following verbal equation: “Intervention type X tends to lead to impacts P and Q,
+under conditions A, B, and C.” Although practitioners may get impatient with the
+addition of qualifiers, it is only such contingent generalizations that will provide
+the most reliable policy advice.
+The sources cited above on the outcome of peace processes all yield findings
+about the features of the way peacebuilding interventions are carried out, and
+aspects of the conflict and the national and regional context that may be
+associated with success or failure. Although there is not complete consensus
+about the factors that are most crucial, partly this is because of differing
+terminology rather than essentially differing conclusions. Some suggestive
+patterns emerge.
+Nature of the Intervention The first set of factors that determines effectiveness
+has to do with the nature and degree of third party intervention. Especially
+important are the incentives provided by the content of agreements and the ways
+that third parties or others negotiate and implement them. Thus, Durch, et. al.,
+point to whether the parties come to the negotiating table under duress from third
+parties or simply to gain political points or other advantage. Hampson points to
+whether third parties demonstrate an interest in getting deeply engaged in the
+implementation of the specifics of the agreement, that is provide continuing
+“nurturance,” and the importance of whether the agreement itself provides for
+power-sharing. Similarly, Stedman and Rothchild (1998) considered that the
+extent the peace agreement is vague and limited, or instead, is precise and
+43
+
+Some tend to approach the issue of effectiveness in peacebuilding by assuming that out there
+somewhere there are general approaches that simply work, or not, no matter the situation. If
+conclusions cannot be reached in the simple form “What works?,” they may conclude that
+everything is idiosyncratic and no generic policy knowledge is possible. But this all-or-nothing
+assumption can be corrected by recognizing the need to look at not only the results of given kinds
+of interventions, but the particular conditions in which they are applied.
+
+34
+
+comprehensive, is crucial. That determines the extent they burden the
+implementation process to achieve goals of peace.44
+Several authors stress the importance of addressing the respective security fears
+and capacities of the parties if lasting peace is to be achieved. Stedman et. al.
+(2002) see the principal differences as turning on how difficult the warring parties’
+conflict behavior is to influence and in particular, whether their behavior is
+motivated by the desire to continue to exploit material gains from war or from fear
+of being annihilated by the other side. Walters (1999) draws on the idea of the
+“security dilemma” created in post-conflict environments, whereby defensive
+steps taken by one party may be interpreted as offensive steps by the other, thus
+triggering countermeasures that in turn trigger counter-countermeasures.
+Looking at a number of cases, she finds that violence was ended to the extent
+that strong security guarantees were provided to the former warring parties by
+the peace enforcers, and power sharing was included in the peace agreement.
+Although not couched in terms of military security guarantees but other kinds of
+payoffs, a similar argument is made by Hartzell (1997). She shows that
+successful peace outcomes were arrived at more often when the peace
+agreement provide the parties with “institutional guarantees,” by which she
+means specific assurances to the parties that they would receive concrete
+political, economic or other benefits from signing. Such guarantees might include
+power sharing in the central executive offices, territorial autonomy, and
+guaranteed proportions of their ethnic group in the new national army.
+Several other studies also call attention to the role that such positive incentives
+can play, which third parties can provide or influence. Thus, Peceny and Stanley
+(1999) question the “realist” assumptions behind the emphasis strictly on security
+guarantees. They point out that strong security guarantees were not always
+present in relatively successful peace settlements such as Guatemala and El
+Salvador, but arguably, such incentives were present in failed agreements such
+as Angola, Somalia, and Liberia. Thus, they consider instead that the set of
+programs of aid and reform in the successful cases provided sufficiently
+attractive “transformational” incentives that a new liberal political culture was
+created that actually changed the perspectives of parties of what was in their
+interests.
+Similarly, Doyle (1997) suggests that the international actors can improve the
+chances of consent by the parties through “enhancing consent.” This involves
+offering positive incentives in the form of various diplomatic and economic
+measures, such as economic assistance, good offices, and friends of the
+44
+
+This view that detailed and comprehensive peace agreements are the most likely to achieve
+sustainable peace was an underlying premise that inspired the volume by IDEA entitled
+Democracy and Deep-Rooted Conflict (1998). It goes into considerable detail on a wide range of
+policy instruments from which the parties could choose during their negotiations, in order to
+increase the chances that their agreement would last.
+
+35
+
+agreement. They might include support for a civil society that could put pressure
+on the parties to abide by what they had agreed to on paper. In Sambanis and
+Doyle (2000), the most effective interventions were those where the third party
+could apply a range of supports for peacebuilding. Muscular diplomacy and
+peace enforcement alone could not consolidate peace.
+A corollary arising from all these findings regarding the potency of various
+incentives is the finding that it is crucial whether regional powers or global
+powers see it in their security interest to intervene, for they are needed to support
+with significant resources the incentives that the peace process offers. Hampson
+finds that the more successful implementation stories are explained in part by the
+extent to which regional and outside powers were not only supportive of the
+peace agreement but also helped to nurture it along.
+Few of these studies look for unintended negative outcomes of international
+policies (i.e., other than failing to achieve their intended goals). But this
+possibility is raised by Paris (2002). In comparing a few of the same successful
+and unsuccessful cases reviewed above with regard to the reduction of violence
+as well as social inequalities and other peace measures, he argues that several
+elements of the liberal internationalist doctrine alluded to earlier, such as
+structural adjustment and majoritarian elections, can invite unwanted instability
+and even violent conflicts if they are applied too quickly and with insufficient
+attention to the existing local balance of power, the degree of polarization, and
+other contextual factors.45 Consequently, Paris advises peacebuilders as they
+apply peacebuilding strategies to look for appropriate balances in each situation
+between liberalizing efforts that fragment power and stabilizing emphases that
+consolidate power.46 He also recommends putting resources into the creation of
+45
+
+Earlier, Lund suggested a similar hypothesis with regard to the possible role in fostering the
+onset of some recent conflicts of well-intentioned international policies: “One might hypothesize
+that a certain pattern has characterized the international responses to pre-genocide Rwanda,
+1993-94; Burundi, 1993; Kosovo, 1992-98; and East Timor, 1999, and possibly other cases. The
+international community’s sympathetic political championing of an ethnic minority’s rights, such as
+through honoring unofficial referendums and denouncing the human rights violations of their
+oppressors, may tend to polarize the local political relations further by demonizing the
+perpetrators, and thus help to catalyze violence. The forces of violent backlash in those settings
+may be encouraged to pre-empt militarily the impending threat of political change, but the
+international community is not prepared to deter that reaction. Ostensible violence prevention
+can become violence precipitation, if well-intentioned advocacy of human rights promotion,
+provision of humanitarian aid, or other international measures are advanced on behalf of a
+vulnerable group, but actually puts them at greater risk by tempting the more powerful and betterarmed forces of reaction to strike while they can pre-empt the forces of change, because
+adequate international provision is not made to protect their victims. ”
+46
+Lund concluded similarly with regard to potential conflict situations: “The policy implication is
+that, rather than a “one-size fits all” approach in foreign policies and aid strategies that presses
+for the same liberalizing reforms everywhere, individual countries need to be differentiated
+according to their capacity to absorb disruptive shifts in unregulated power and consequent
+instability without violent conflict. A more balanced, holistic, contextualized approach to fostering
+desireable change needs to be applied. Clearly, moves toward democratization and other
+reforms can themselves often be among the adaptive mechanisms that help ensure a peaceful
+
+36
+
+strong state institutions that have enough influence on the contending parties that
+they can encompass competing political interests so as to force compromises.
+Settings As mentioned previously, another set of factors that are crucial in
+determining post-conflict peacebuilding outcomes are the various characteristics
+of the conflict that is being addressed and other aspects of the political, economic
+or other contexts into which peacebuilding is introduced. As Stedman puts it,
+Guatemala and Namibia may have more going for them than Sierra Leone and
+Bosnia.47 Here, there is considerable consensus that the severity and level of
+the conflict itself is essential. Hampson finds that the more successful
+implementation stories are explained by the ripeness of the conflict, which
+shapes whether the parties were motivated to make peace. Durch, et. al., also
+concludes that the effectiveness of transitions to peace depended in part on the
+nature and relative severity of the conflict.
+In particular, the easier contexts involved wars over control of the central
+government rather than an attempt to break away; differences between the
+parties that were political or ideological rather than religious, ethnic or tribal; and
+finally, situations where there was less destruction of the society and
+government. In the more effective transitions, the intervening armed forces did
+not have to actually enforce peace by first reducing the level of conflict. Similarly,
+Sambanis and Doyle identify the most amenable contexts as those with relatively
+high levels of development, non-identity conflicts, and low levels of hostility.
+Dubey (2002) finds that the longer the conflict and the higher level of its
+hostilities, the less likely peace can be restored.48 The activities of war
+themselves have a crucial impact on political negotiations and almost everything
+else. In short, post-conflict peacebuilding works best where the past violent
+conflict has been less.
+Stedman’s latest work focuses on spoils and spoilers more than agreements. He
+argues that the outcome is determined not so much by the quality of the peace
+agreement as by whether various kinds of military or political “spoilers” are
+operating inside or outside the peace negotiations. He argues that whether
+spoilers have different behaviors in their histories or they have current access to
+natural resources as the spoils they can use to support their armies, and thus
+perpetuate the conflict, will determine whether they enter peace agreements on
+the one hand, simply to gain advantages but ultimately to scuttle them (such as
+by deceptively conveying insecurities they do not actually feel), or on the other,
+they can be enticed to make and keep real concessions. Spoilers can subvert
+transition in particular settings. But the overarching and overriding policy goal perhaps should not
+be simply democracy or human rights or markets, etc., at any cost. It should rather be peaceful
+transition toward, ultimately, more democratic, or at least legitimate and effective governments,
+increasingly more productive economies, and more humane societies. ” Lund in Hampson and
+Malone (2001).
+47
+Stedman, 2002, p. 665.
+48
+Dubey (2002) adds that conflicts were more easily ended where chief executives had some
+constraints on their power.
+
+37
+
+the purposes of a peace agreement unless its third party implementers craft
+specific strategies that either positively induce the spoilers to follow along or
+coerce them to comply. For Stedman et. al. (2002), the difference turns mainly
+on how difficult the conflict behavior of the parties is to influence and in particular,
+whether the warring parties are strongly motivated to continue to exploit material
+gains from war or from fear of being annihilated by the other side.
+Reinforcing the importance of the economic context, Wood points out how the
+parties in the successful Namibia accord were more economically mutually
+dependent on each other because it was clear that its already somewhat
+developed economy would grow further only if they cooperated in adopting
+effective policies. But whereas those parties had incentives to cooperate to
+achieve an indivisible public good, in Angola the parties fought over the divisible
+resources of oil and diamonds, so their contest proceeded as a zero-sum game.
+Also regarding context, several sources also stress the essential need to identify
+how pressures from neighboring states in the conflicted country’s region will
+influence the direction of its conflict and any subsequent peace process.
+Policy Recommendations Various prescriptions to third party policymakers follow
+from these analyses of the ingredients in post-conflict settlements that have
+achieved various degrees of sustainable peace. While no simple, single
+blueprint can be sketched for all post-conflict situations, the comparative
+research does yield some policy-relevant guidelines as to what to do when and
+how for maximizing the changes of effectiveness. We include here those
+recommendations as well some taken from less formal studies done on one or
+more cases by other specialists (e.g., Woodward, Christian Michelson, Chopra),
+wherever they suggest similar lessons.
+Some of these lessons concern processes of planning and decisionmaking -how things are done as against what specifically is done in what circumstances.
+A lot of agreement from these several studies arises from their criticisms of the
+ad hoc and ill-prepared way the UN’s and others’ decisionmaking habits, and the
+perennial lack of adequate resources and delays in fudning, affect what is done
+or not done in the field. The advice thus centers around the importance of prior
+planning and developing a clear and coherent strategy. Although these generic
+conclusions often sound little more specific than the truisms that were criticized
+earlier, the consistency with which they appear is striking. This advice includes:
+•
+•
+•
+
+Assess the degree of difficulty of the situations on the ground before
+deciding whether to commit to it, thus setting realistic situation-specific
+goals.49
+Establish early on a plan or strategy with clear, explicit goals.
+Define and get agreement on end goals before initiating operations.
+
+49
+
+Stedman, et. al. advocate that more resources be put into prior assessment of the degree of
+difficulty of the situation on the ground and its changing nature, and they go so far as to
+recommend against even trying to tackle the hard cases.
+
+38
+
+•
+•
+•
+•
+•
+•
+
+At the same time, maintain flexibility, do contingency planning that looks to
+revising the strategy, and stay open to innovative risk-taking.
+Match what can be accomplished to the resources available. For
+example, be clear to the Security Council if their marching orders
+realistically cannot be implemented.
+Use policy mechanisms or procedures that ensure this planning and
+coordination among the several essential parties, as well as optimal unity
+of command on the ground.50
+Maintain political support from major powers and international coalitions.
+Avoid donor competition by setting up coordination conferences.
+Establish appropriate but finite periods as the time limits for missions.
+
+Several of these sources also give more substantive, as against process,
+guidance about what should be done and when. Most interesting here are the
+conclusions about what types of certain actions should get priority over others
+and the specific limits of various actions and actors. Such prioritizing advice
+begins to look like a strategy.51 In any case, it is crucial if peacebuilding is going
+to realistically get beyond the vain expectation that every mission will
+approximate the multi-dimensional ideal composite model that was sketched
+earlier. It is one thing to advocate that such an approach be aspired, it is quite
+another to actually realize it on the ground.52 Such points include:
+• Get a ceasefire before tackling other tasks.
+• Strengthen national institutions through budget support and employment
+generation, so that a functioning sovereign government exists that has
+financial and legal institutions to deploy resources and act as a
+counterpart to the international community.
+• Avoid relying solely on negotiating political power sharing and elite
+compacts as the sole means for creating a functioning government and
+sustaining peace; their tendency is simply to divide up a country’s spoils.
+• Consider using police instead of armies for maintaining public security.
+• Peacekeepers can use confidence building measures where the parties
+are already motivated to find peace.
+• If the parties are not thus motivated, peacekeepers must employ more
+forceful measures to deter conflict and compel the parties to restrain the
+use of force.
+• Concentrate more resources into inducing armies to transform themselves
+into political parties and into security sector reform.
+50
+
+But coherence need not mean an integrated structure. Based on looking at East Timor, Astri
+Suhrke (2002, p. 18) advises against the Brahimi Report’s recommendation to link civilian and
+peacekeeping functions.
+51
+To be clear, the point of gathering such findings is not to insist that each should always be
+followed rigidly in every specific case, as if they are laws. It is rather that many cases suggest
+that these courses of action be presumed to offer better advice than any competing general
+suggestions that can offer much less supporting evidence.
+52
+See the doubts raised in Chester Crocker’s Foreword and Duane Bratt’s concluding chapter in
+Chopra.
+
+39
+
+•
+•
+•
+•
+•
+•
+
+More resources are needed to ensuring civil security by strengthening the
+police and judicial system.
+Look beyond military operations to facilitate the broader goals such as
+building institutions and human capital.
+Adjust the pace of implementing activities to the capacity of domestic
+institutions to absorb the resources and handle the tasks. For example,
+introduce reconstruction funds gradually if warlords would otherwise
+capture them.
+A particularly cost-effective measure is to build up local capacity to
+monitor gross human rights violations.
+Focus resources on changing unreconciled contending political interests.
+Powerful positive incentives such as various forms of targeted
+development aid and other inducements should be focused directly on the
+parties or at least directly affect them, to forge buy-in by conflicting parties
+to comply with peace agreements.
+
+Conclusion
+Some of the findings that have been uncovered seem to run contrary to
+conventional wisdoms in peacebuilding circles. For example, it has sometimes
+been heard lately that the stages of conflicts are an obsolete criterion and cannot
+inform what kinds of interventions to deploy when. But to the extent that the level
+of violent conflict is high and the capacity of the society to handle it is low, more
+coercive measures apparently are essential to establishing some minimum
+physical order before other measures can make much of a difference. It is also
+interesting from the point of view of common assumptions that several of these
+studies resurrect the value of “top-down” military security and political power
+incentives such as power-sharing, and also that state-supporting measures are
+needed, rather than only “bottom-up” civil-society-supporting actions. Whereas
+peacebuilders may have seen themselves in “counter-culture” roles against the
+conventional wisdoms of the security specialists, these studies of several cases
+suggests that a more sophisticated balancing and blending of “hard” and “soft”
+approaches is called for.
+At the same time, however, although an end to violence seems the most
+important goal before others can be accomplished, and major powers providing
+security guarantees may be necessary to achieve that, neither of these elements
+alone or the other ingredients have been sufficient to move a post-conflict society
+to tackle effectively political and social problems such as establishing an effective
+government and reducing poverty. For this, a variety of positive and concrete
+incentives seems to be needed to more toward a fuller notion of sustainable
+peace, as long as they can operate in an environment that is basically stable and
+not immediately threatened by violence. We found practically no research of a
+methodical, comparative nature that pursued the crucial question of what
+ingredients are needed to move a poor but at least non-violent situation post-
+
+40
+
+conflict environment toward effective government, economic development, and
+social progress.
+All in all, the cross-sectional and case study research briefly reviewed above
+hardly provides a ringing endorsement of the peacebuilding done so far, but it
+does indicate that relatively effective peacebuilding has been implemented and
+can have positive results, at least in terms of certain limited effectiveness criteria.
+Under certain conditions and through applying various powerful means of
+influence, peacebuilding can achieve the beginnings at least of sustainable
+peace. While the research does not give peacebuilding a high rating, it also
+shows the ways and contexts in which peacebuilding can have definite value
+when done in a strategic way and by consulting guidelines that policy research
+on similar cases provides.
+It is crucial that policymakers and practitioners take findings of this kind seriously
+because they suggest which actions are likely to be most effective in given
+situations and the sequence in which different efforts are applied. We found that
+the empirical research yields a fairly specific and economic list of guidelines
+regarding what is most important to do in addressing post-conflict situations. No
+one technique or answer stands out about what is best to do, but certain patterns
+emerge about the relationships of various kinds of peacebuilding efforts and the
+settings in which they are introduced. Although mistakes are still going to be
+repeated that might have been avoided by a more serious look at this past
+experience, according to Woodward, there is in fact also a lot of learning going
+on from one instance of peacekeeping and peacebuilding to another. But more
+transfer of this kind of knowledge from one situation to the next is needed, taking
+into account of course that one is cannot step into exactly the same river.
+IV. ALTERNATIVES TO POST-CONFLICT PEACEBUILDING
+Looking at past performances, we have found some justification for deciding
+whether to continue to promote post-conflict peacebuilding as an option for
+international actors. A respectable case can be made. While no clear grounds
+arose for flatly rejecting peacebuilding, however, this choice still depends on
+one’s standards. Someone could conclude from the same evidence we have
+presented that the glass is half empty (or even two-thirds empty), instead of half
+full. For many people, that post-conflict peacebuilding works only here and there
+and only under certain fairly demanding conditions, and fails in many respects
+more than half of the time, may not add up to a sufficiently impressive record to
+justify any investment at all. Is the game worth the candle?
+Compared to what? To come up with meaningful answers to the basic concerns
+stated at the outset of this paper about the overall upshot of post-conflict
+peacebuilding, we cannot answer the question in isolation. We also need to
+consider whether peacebuilding is better or worse than other fundamentally
+different ways for dealing with conflicts in developing societies. How does
+peacebuilding compare to the main alternatives? Perhaps there are superior
+41
+
+approaches of vastly different natures. On the other hand, even though
+peacebuilding does not work well, like Churchill’s remark about the minimal
+virtues of democracy, peacebuilding may be the best choice that we’ve got
+among even worse alternatives.
+To answer this meta-peacebuilding question would require a systematic
+comparison of several entirely different options for approaching intra-state
+conflicts – that is, instead of only the option of doing the best possible job of
+peacebuilding itself. The main logical alternatives to post-conflict peacebuilding
+that could be pitted against one another for such a full comparison would appear
+to be: doing nothing and leaving intra-state wars to the actors themselves to work
+out if they want; intervening militarily to stop such wars; avoiding getting into
+post-conflict challenges unless absolutely necessary by preventing them from
+breaking out; or addressing the fundamental causes of conflicts in a significantly
+more “aggressive” way.53
+At the obvious risk of being accused of trying to play God by posing these basic
+alternatives, discussion of the pros and cons of these alternatives would be
+fruitful. After all, a major debate has been raging for years about whether to
+intervene or not, even though that covers only one of the five possible options: C.
+The aim below is merely to put all five options on the table so that a logical way
+to proceed is laid out for settling the fundamental question raised earlier about
+the ultimate worth of peacebuilding. A few words follow on Alternatives B and C.
+We subsequently treat Alternatives D and E at somewhat greater length.
+Alternative B: Benign Neglect One option would be to allow intra-state wars to
+continue by making no effort to mediate a settlement or to follow-up peace
+agreements with international peacekeeping and peacebuilding efforts.
+Heartless though it seems, allowing intra-state wars to go on and perhaps burn
+themselves out, has been followed in practice by the international community and
+states. This is essentially how the southern area of Somalia has been treated
+since the US and the UN pulled out in the early 1990s and left it to the warlords,
+some humanitarian agencies and NGOs. The war between the Taliban and the
+northern alliance in Afghanistan before October 6, 2001 is a more obvious
+example.
+A policy argument for benign neglect is seriously proposed by Edward Luttwak.
+The argument is that the intractable conflicts arising in some developing
+countries should be cordoned off and allowed to play out, rather than making
+fruitless international efforts to terminate or manage them. There is some
+evidence that the peace that follows a definitive defeat of one party by another
+may be more durable than one stopped before this occurs through third party
+mediations. However, other studies have examined the devastating human and
+53
+
+Another possible category would be for the international commuity to occupy “failed states”and
+assume more protectorates. But in the short term, this could be considered a strong variant of
+peacebuilding.
+
+42
+
+economic impacts of wars on national economies (Paul Collier). To weigh this
+option would require a much fuller analysis of cost and benefits and to whom.
+Alternative C: Mid-conflict Intervention Intervening militarily into the midst of
+wars, even when hostilities are in full swing, and thus through military or other
+powerful means, is another possibility. This approach has also been utilized in
+the 1990s as well as earlier, such as in the form of humanitarian intervention and
+indirect military support of one side or another (Croatia and Kosovo). The
+outcomes of this approach have been studied by researchers as well (e.g.
+Regan, 2002; Betts, 2000). Generally, this option faces immense difficulties both
+on the ground and politically.
+Although there do not seem to be strong grounds for advising either of these
+options, they are not pursued any further here, but not because they are rejected
+out of hand. They should be looked at further so as to have a balanced
+comparison of the effects of all the main international options.
+Alternative D: Prevention of Violent Conflict As we saw earlier, the prevention of
+future conflicts from erupting in the first place is being looked at very seriously by
+many actors in various forms such as through early warning efforts to anticipate
+the outbreak of wars and efforts to prevent them. It clearly is regarded as more
+attractive in almost every respect than the previous two. This view is that rather
+than seeing the principal international role as mainly that of waiting until conflicts
+have wound down and then preparing to help restore societies in their aftermath,
+or trying to arrest them in mid-course and then doing the rest, or neglecting to do
+either, international actors should prepare to avoid the next possible wars from
+breaking out at all.
+Virtually every organization and even analysts that take up conflict prevention
+have concluded that it is more cost-effective than mid- or post-conflict
+interventions. A more authoritative and compelling basis for such beliefs has
+been done by a methodical comparison of the costs of actual cases of prevention
+such as Slovakia versus the costs from humanitarian and peacekeeping
+interventions of actual like conflicts. Although more rigorous comparison perhaps
+could be done, the prima facie evidence is strong. In response to the recent
+increase in explicit prevention activity, a number of researchers have looked at
+cases of intra-state potential or actual violent conflicts in order to identify some of
+the elements that appear to be associated with the (unheralded) “successes” and
+the (more publicized ) “failures” (although most outcomes are not simply one or
+the other). Like the post-conflict research above, these studies have focussed on
+multi-actor, multi-instrument preventive engagements but in situations of
+potentially violent conflict where it has not occurred before. Appendix A
+presents some of the findings from this research.
+Alternative E: Fundamental Reordering of Global Priorities. This option is based
+on the view that conflicts and their underlying sources are brought about primarily
+
+43
+
+by various global trends and therefore changes in current global priorities and
+institutions of global governance would make peacebuilding -- as well as conflict
+prevention -- both easier to do and less necessary altogether. This perspective
+is often supported by those who make the argument discussed previously that
+current international approaches to peacebuilding are illegitimate. Many seem to
+attribute the kinds of failures of peacebuilding to achieve greater economic
+growth and social justice to the policies of the international organizations that
+decide on and carry out these missions and to the dominant world actors who are
+believed to manipulate them almost as if they are marionnettes. From this is
+inferred the idea that if altogether different actors were involved and different
+theories were applied, most conflict situations would be significantly if not totally
+alleviated.
+The neo-orthodox economic ideology that has sometimes been applied too
+hastily and harshly in post-conflict societies has increased not only social
+suffering but also possibly the degree of political stability in the short run.
+Studies by Boyce and others suggest that applying neo-orthodox economic
+policies to post-conflict economies is seriously misguided.54 Charbonnier
+suggests that economic policies toward such societies have to explicitly factor in
+the effect that they have on political stability so as not to impose severe strains
+and also to promote peace processes.
+But this does not mean those policies are the source of the whole problem. We
+need to be careful we do not misdiagnose the source of conflicts and of the
+problems in dealing with them, by confusing a part for the whole. It is not clear
+from research on structural adjustment policies, for example, that these lead to
+major political turmoil and wider violent conflict results (e.g. Bienen). And on the
+other hand, there is a great deal of large “n” research that shows that the policies
+of liberalization such as free trade, foreign direct investment of certain kinds, and
+other programs of economic reform – all sometimes lumped under the notion of
+“globalization” – are correlated quite impressively, not with the increase in violent
+conflict, but with its decrease (Gurr. et. al., 1999; Hegre and Gledditsch, 2001;
+Blanton, 2002). The same can be said about poverty. Where there is less
+liberalization, there tends to be more conflict and poverty. On the more political
+side of liberalism, there is of course the whole corpus of empirical research that
+shows that democracy is also strongly correlated with peace, although the
+transition from authoritarian systems toward more democratic systems is fraught
+with peril (Mansfield and Snyder).
+There are a number of reasons why caution in evaluating the criticism of neoliberal economics and politics is called for and careful research needs to be
+done. First, selective evidence of the immediate social consequences of
+structural adjustment policies, as harmful as the latter may be, may be
+erroneously used to paint a picture that is too sweeping in its indictment
+regarding the basic sources of the post-conflict societies’ lack of the achievement
+54
+
+James K. Boyce, Investing in Peace (IISS, 2002).
+
+44
+
+of the deeper conditions needed for sustainable peace. What may be
+fundamentally the problem is not the World Bank, the IMF, the UN, the US and
+the liberal ideology they all promulgate. It may be instead a lack of sufficient
+sensitivity in how and when those policies are implemented. Perhaps the baby
+needs to be thrown out but not the bath water. Second, to properly weigh these
+findings, Paris (2001) cautions rightly that the process of developing a functioning
+market economy is inherently difficult to achieve in the short term. Finally,
+domestic factors may be crucial such as the kinds of elite compacts that have
+formed in post-conflict societies between major parties that represent different
+elements in society, and the alliances set up between elected leaders and
+powerful economic interests.55
+Interestingly, this focus on righting the balance between social and economic
+policies is actually the same direction that much thinking is going in that is now
+found within the policy debates and discourse of these global institutions
+themselves. It is reflected in the promotion of a social agenda (e.g., social safety
+nets) by no less than the World Bank president himself. This is not an argument
+for the protesters against these organizations to go home and leave things to the
+technocrats. To the contrary, it is an argument for continuing to raise the
+temperature. But the most effective approach may be to add more light as well
+as more heat, by focusing the critique in more targetted ways, both at the generic
+level and especially in particular countries, through thorough methodical analysis
+of as many cases as possible.
+III.
+NEXT STEPS:
+WHAT FURTHER RESEARCH WOULD BE USEFUL?
+We conclude with ideas on what this review of existing research on key
+questions in peacebuilding might suggest as to fruitful further research efforts on
+peacebuilding.
+The preparation of this paper could not search all the case-studies or data bases
+that may be available that would reveal how well individual post-conflict countries
+have done in terms of criteria such as the above like more respect for human
+rights, and so on. But more such comparative studies would fill an important
+gap. To produce meaningful results that can generate policy-relevant
+conclusion, however, such an investigation needs to make conceptual and
+practical choices as to which and how many criteria for sustainable peace to
+examine and whether to define them as indicators of peace or indicators of postconflict development and nation-building. As we have argued, at some point, the
+results criteria shade into factors whose reduction or improvement are simply
+
+55
+
+Although not examining post-conflict cases, Teichman (2002), for example, see significant
+differences in the extent of social sensitivity of national policies between Chile, Argentina and
+Mexico based on the greater social emphasis and less capture of the state by narrow interests
+that she observes in the first country, but not the other two.
+
+45
+
+desireable as ends in themselves, not because they are necessarily known to be
+causes of conflict and necessary ingredients for sustainable peace.
+A value-added project that would help to close the obvious gaps in the existing
+post-conflict peacebuilding empirical research would look at some of the same
+cases and other cases but with an eye to a wider range of criteria for sustainable
+peace than has been examined so far. What kind of peace is being built in terms
+of building states and societies and improving societal conditions and policies
+that can effectively address the more chronic and fundamental dynamics in postconflict societies that may threaten in the medium if not short term to pull postconflict societies down once again into conflict? Where the most progress on
+desired goals is being made, what domestic and external factors are associated
+with these results?
+A focused comparative research project on a set of key “best” and “worst” cases
+could produce very solid and yet policy-relevant propositions about what further
+elements of sustainable peace are obtained under what contextual conditions,
+and when differing military, diplomatic, and development intervention “packages”
+are applied and in what sequences. Such a project could start by doing
+secondary analysis that applies a standardized comparative framework of
+research questions and peace criteria in order to cull the available case-studies
+on several post-conflict countries (and other available documentation on for
+example, social, economic and political indicators) and then codes the results.
+Initial commissioned papers might be a first step in delving further into what is
+being found in existing research, what is known or not known about the issues,
+and where gaps may exist that might be pursued through solid analysis.
+In any case, future research collaboration needs to focus on generic subjects
+such as these that have wide cross-regional significance and thus applicability to
+several particular contexts but also national resonance among the interested
+partners of IDRC. Such research also needs to be responsive to the needs of
+actual practitioners but at the same time, somewhat removed from the immediate
+constraints of political and bureaucratic pressures as well as those of advocacy
+politics. The boundaries between analysis and advocacy need to be kept clear.
+But there is no inherent reason why disciplined discourse and rigorous methods
+of quantitative and comparative research cannot be linked with the moral
+energies of practitioners who seek a better world -- through a process of focused
+analysis that leads to intelligent action. Clarity can be joined with conviction;
+evaluation can be linked to action.
+
+46
+
+Appendix A
+Key Ingredients in Effective Macro-level Conflict Prevention
+The following discussion pulls together some of the preliminary generalizations
+that are suggested by existing conflict prevention research. Though based on
+existing systematic research, the generalizations are preliminary hypotheses that
+additional research needs to test further.56 Recent case-study findings suggest
+that serious intra-state political tensions and issues will tend to be addressed
+peacefully, rather than escalate into violence, to the extent that the following
+ingredients are present:57
+Features of the Preventive Engagement Itself
+When is action taken?
+1. Timely, early action is taken as tensions are emerging, but before, rather than
+following, significant use of violence, or immediately after initial outbreaks.
+2. Engagement prioritizes the various goals of preventing violence (security,
+“peace”), managing issue disputes, and transforming overall institutions and
+societies, e.g. political and social justice) – i.e., “direct” and “structural”
+prevention -- in contextually-appropriate mixes and sequences. Such
+prioritization generally recognizes that when behaviors and actions
+56
+
+These findings are presented in a structured outline in which lessons can be cumulated in an
+ongoing data-base, which is currently under development. This data-base is being developed
+further so it can be continuously refined, and its findings continuously disseminated to those
+decisionmakers who can make best use of these lessons. Presented in this way, case studies
+can provide the basis for policy guidelines to effective conflict prevention practice for would-be
+conflict preventors.
+57
+This synthesis draws from, among others, Hugh Miall, The Peacemakers: Peaceful Settlement
+of Disputes since 1945 (New York: St. Martin’s Press, 1992); Gabriel Munuera, Preventing
+Armed Conflict in Europe: Lesson from Recent Experience (Paris: Institute for Security Studies,
+June, 1994); SusanWoodward, Balkan Tragedy: Chaos and Dissolution after the Cold War
+(Brookings Institution, Washington, D.C., 1995; Lund, Preventing Violent Conflict (U.S. Institute of
+Peace, 1996); Peter Wallensteen, ed. Preventing Violent Conflict: Past Record and Future
+Challenges (Uppsala: Uppsala University, Department of Peace and Conflict Research, 1998);
+Lund, Rubin and Hara, "Learning from Burundi’s Failed Democratic Transition, 1993-96: Did
+International Initiatives Match the Problem?" in Barnett Rubin, ed. Cases and Strategies of
+Preventive Action (Century Foundation Press, 1998); Vayrinen, et. al., Inventive and Preventive
+Diplomacy, (Notre Dame, Indiana:Joan Kroc Institute, University of Note Dame, 1999); Lund, “
+'Preventive Diplomacy' for Macedonia, 1992-1997: Containment becomes Nation-Building,” and
+other chapters in Bruce Jentleson, ed. Preventive Diplomacy in the Post Cold War World:
+Opportunities Missed, Opportunities Seized and Lessons to Be Learned (Lanham, Maryland:
+Rowman and Littlefield, 1999); Lund, “Why Are Some Ethnic Disputes Settled Peacefully, While
+Others Become Violent? Comparing Slovakia, Macedonia, and Kosovo,” in Hayward Alker, et. al.
+Eds. Journeys through Conflict (Lanham, Maryland: Rowman and Littlefield, forthcoming in 2001).
+Special note should also be made of an outstanding forthcoming book by Barnett Rubin, Blood on
+the Doorstep: The Politics of Preventive Action (Brookings Institution Press, 2002), which
+includes four case-studies.
+
+47
+
+immediately threaten major loss of life and destruction, they need to be
+deterred or stopped before more fundamental structures of power and socioeconomic advantage are addressed. But also that short-term crisis
+management needs to be followed by actions that credibly tackle more
+fundamental issues.
+What action is taken?
+3. Early action is robust, rather than half-hearted and equivocal, by exerting
+vigorous positive and negative inducements specifically on the major
+potentially conflicting parties’ leaders and their mobilized rank and file.58
+4. Early action thus brings an appropriate mix of sufficiently vigorous
+(conditional) carrots, (unconditioned) support, actual or potential sticks,
+negotiating “tables,” and other modes of influence to bear on the several most
+important short-term and long term sources of potential conflicts, the key
+“fronts” in which conflicts are being played out.
+5. Early action does not solely promote the cause of the weaker parties in the
+conflict but also addresses the fears and insecurities of dominant parties.
+(Hereagain, as in post-conflict peacebuiiling, preventive peacebuilding has to
+balance the priorities of maintaining minimum order and security as against
+achieving the other desired goals of political and social justice.)59
+6. Support and protection is provided to established governing formal institutions
+of the state, to the extent that they incorporate the leaders of the main
+contending communities in power-sharing in rough proportion to their
+distribution in the population, rather than buttressing an exclusionary
+governmental structure or alternatively, an anti-state political opposition.
+Responsible autonomous organs of the state and within the security forces
+are assisted to provide public services professionally. This enables the state
+58
+
+For example, empirical studies of the antecedents of “genocides” and “politicides” conflicts by
+Barbara Harff suggest that announcements of possible international preventive interventions that
+in fact do not happen or are half-hearted and largely symbolic may be interpreted by determined
+combatants as a go-ahead signal to pursue the conflict with impunity through further oppression
+or aggression.
+59
+Where needed to avoid backlash from a threatened but powerful ancien regime, such an
+approach seeks to keep lines out and open to moderates or other persuadable elites, rather than
+prematurely stamping them as pariahs and giving them no recourse for shifting their loyalties to
+join the forces of change. It looks for opportunities for quiet “constructive engagement” with
+existing regime leaders and their cliques, to point out the “handwriting on the wall” and conjure up
+historic roles for them as national invigorators. This avoids a sentimental or expressive moralistic
+approach in favor of an instrumental pragmatic approach. It eschews Manichean “good guys”
+versus “bad guys” campaigns in favor of tactics that address leaders’ specific political and
+economic incentives. If necessary because of the prevailing balance of power, it creates
+opportunities for amnesty or “soft landings” to avoid existing leaders from digging in their heels. It
+engages and supports existing moderate elements within hegemonic regimes, to exercise
+transformation from within.
+
+48
+
+to host a process of give-and-take politicking over public policy and
+constitutional issues and to carry out business for the benefit of the general
+population.
+7. Opportunities for joining regional security alliances and trade cooperation also
+create an overall climate of support for building liberal peaceful states.60
+8. Outside formal government, a broad-based “constituency for peace” is built
+up over time that cuts across the society’s main politicized identity groups,
+that is not solely interested in politics, is primarily interested in business and
+other peaceful pursuits and can generate wealth, and that thus has a vested
+interest in political stability and social prosperity.61
+9. A politically active but independent and cross-cutting civil society is
+encouraged to unify major identity groups. Peaceful people power campaigns
+are supported through training opposition leaders in non-violent tactics and
+non-incendiary rhetoric, but that exert significant pressure on incumbent
+leaders to take peaceful, responsible actions or retire from office.
+Who takes action?
+10. Preventive engagements are implemented by a sufficient number and kind of
+governmental and non-governmental actors, so as to provide the range of
+needed instruments (mediation, deterrence, institution-building, etc.) and
+resources to address the leading sources of the conflict. In the process,
+these actors form a “critical mass” that visibly symbolizes a significant
+international commitment to non-violent change.
+Rarely can any single actor or action prevent serious violent intra-state
+conflicts.
+11. The engagement is supported politically and in other ways, or at least
+tolerated and not blocked or undermined by:
+• major regional powers
+• major world powers.
+
+60
+
+As in Eastern Europe, this may involve offering specific attractive incentives to current or
+alternative leaders and elites which promise that, if their national policies achieve economic and
+political reforms, respect minorities, etc. they can hold power by gaining the political support of
+interest groups and publics who will see benefit from integration.
+61
+This guideline thus eschews reinforcing or coddling ethnic minority movements that tend to
+polarize national politics by boycotting a polity’s elections and declining other opportunities to
+participate in and thus leaven mainstream political life. It avoids polarizing the political conflict to
+dangerous lengths by siding only with political oppositions in “we versus them” struggles and thus
+keeps international support from being a catalyst that provokes violent backlash, unless it is also
+prepared to protect the innocent victims of repression.
+
+49
+
+12. The engagement is generally viewed as legitimate by its being carried out
+under the aegis of the UN or a regional multilateral organization involving the
+states affected.
+How is action taken?
+13. The early multi-faceted action is concerted and consistent among the major
+external actors, rather than scattered or contradictory.
+Features of the regional, national, and local context
+Where is action most likely to be effective?
+14. Past relations between the politically significant groups have been peaceful in
+the recent past, rather than violent.
+15. Moderate leaders from each of the contending communities are in positions of
+authority and in regular contact as they carry out the public’s business, and
+they show some progress in carrying out public policies that benefit all
+communities, including providing for physical security.
+16. The following regional actors adjacent or close to the immediate arena of
+conflict are neutral to an emerging conflict or actively promote its peaceful
+resolution, rather than supporting one side or another politically or militarily.
+• neighboring states,
+• refugee communities.
+17. The diasporas of the parties to a conflict that reside in major third party
+countries also support peaceful means of resolution, or at least are not highly
+mobilized behind their respective countrymen’s cause. Thus, they do not aid
+and abet coercive or violent ways to pursue the conflict and lobby their host
+governments to take a partisan stance toward the conflict.
+The reader may have noticed that several of these hypotheses sound similar to
+some of the generalizations reviewed earlier about post-conflict peacebuilding.
+Similar elements involved are the balance of power, the sequencing of actions,
+the differing potential of coercive and non-coercive techniques, power-sharing,
+the level and recency of conflict, and the stance taken by regional and global
+actors.
+Although such findings are accumulating, however, they have yet to be
+significantly recognized, boiled down, and utilized to inform decisionmaking and
+thus really “learned” by the very organizations to which they pertain. The lessons
+gathered from actual experience at the country and other levels of practice need
+to be reconnected to the actual routines and established processes of
+
+50
+
+decisionmaking and implementation so they can be incorporated as lessons in
+country-level strategies.62
+Some of the conclusions uncovered from the systematic empirical literature seem
+to run against the grain of conventional wisdoms among peacebuilding
+practitioners. There may thus be a serious “macro-micro gap” in the field
+between practitioner discourse and interests compared to some of the findings
+about overall results that is coming out of the existing research genres. This
+does not seem to be a matter of “different perspectives,” which suggests they are
+just using different optics to look at the same thing. It seems rather more a
+matter of looking at different levels of activity, albeit found within the same
+universe.
+On the one hand, many practitioners push on doggedly in doing their various
+assigned tasks in the field and perhaps define and measure effectiveness in
+terms of day-to-day or week-to-week accomplishments. But they are not trained
+in macro-political and statistical analysis, and rarely look at the whole question of
+whether peacebuilding missions achieve their overall goals or not, and why. On
+the other hand, however, the economist and political scientist researchers who
+do large “n” or comparative case-study research at the macro level of country
+cases do not take an interest in specific operational questions and examine only
+a very few bottom-line indicators of overall results from multi-actor peacebuilding
+interventions. Differing conclusions emerge from these micro and macro
+perspectives, although they may not be ultimately irreconciliable but simply
+operating at different levels.
+
+62
+
+Early outlines of the essential steps in tailoring country-specific strategies are found in Michael
+S. Lund, “Policymaking and Implementation,“ Chapter 4 in Preventing Violent Conflicts: A
+Strategy for Preventive Diplomacy (Washington, D.C.: U.S. Institute of Peace, 1996), and Michael
+S. Lund, “Developing Case-Based Conflict Prevention and Peacebuilding Strategies from Recent
+Experience in Europe,“ Chapter Two in G. Bonvicini, et. al. eds. Preventing Violent Conflict:
+Issues from the Baltics and the Caucasus (Baden-Baden: Nomos Verlagsgesellschaft, 1998).
+
+51
+
+Bibliography
+Anderson, Mary, 1999. Do No Harm: How Aid Can Support Peace – Or War. Boulder, CO.: Lynne
+Rienner
+Bailey, Allison. “United Nations Peacebuilding and Cultural Conflict: Is it Worth the Cost?”
+Presented at the International Studies Association conference, New Orleans, La, March 24, 2002.
+33 pages.
+Betts, Richard K. 2002. Conflict after the Cold War: arguments on causes of war and peace. New
+York, NY.: Longman.
+Boyce, Carole, Ali A. Mazrui, Isidore Okpewho, eds. 1999. The African diaspora : African origins
+and New World identities. Fort Wayne, IN.: Indiana University Press.
+Boyce, James K. 2002. Investing in Peace: Aid and Conditionality after Civil Wars, Adelphi
+Paper 351. London: IISS.
+Carment, David and Patrick James, eds. 1998. Peace in the Midst of Wars: Preventing and
+Managing International Ethnic Conflicts. Columbia, SC: University of South Carolina Press.
+Charbonnier, Gilles, 1998. „Conflict, Postwar Rebuilding and the Economy: A Critical Review of
+the Literature,“ War Torn Societies Paper No. 2, March 1998;
+Charbonnier, Gilles, 2002. „The Competing Agendas of Economic Reform and Peace Process: A
+Politico-Economic Model Applied to Guatemala,“ World Development August, 2002. Vol. 30,
+Issue 8. pp. 1323-1339.
+Chopra, Jarat ed., The Politics of Peace-Maintenance (Boulder: Lynne Rienner, 1998).
+Collier, Paul, and Jan Dehn. 2001. Aid, shocks, and growth. Washington, D.C.: World Bank,
+Development Research Group, Office of the Director, 2001.
+Cortright, David, ed. 1998. The Price of Peace: The Role of Incentives in International Conflict
+Prevention. Lanham, MD, Rowman & Littlefield.
+Doyle, Michael W. and Nicholas Sambanis. 2000. “International Peacebuilding: A Theoretical and
+Quantitative Analysis.” American Political Science Review. 94:779.
+Doyle, Michael W. 1997. Ways of war and peace : realism, liberalism, and socialism. New York,
+NY.: Norton.
+Dubey, Amitabh. “Domestic Settlements and the Duration of Civil War Settlements” Presented at
+the International Studies Association conference New Orleans, La, March 24-27, 2002. 28 pages.
+Cited with permission of author.
+Esman, Milton J. 1998. “Can Foreign Aid Moderate Ethnic Conflict?” Peaceworks, #13,
+Washington, D.C.: US Institute of Peace.
+Forman, Shepard, et.al., Recovering from Conflict: Strategy for An International Response (New
+York: Center on International Cooperation, n.d.)
+Galama, Annek, and Paul van Tongren, eds. 2002. Towards Better Peacebuilding Practice: On
+Lessons Learned, Evaluation Practices and Aid and Conflict. Utrecht, Netherlands: European
+Centre for Conflict Prevention.
+
+52
+
+Haugerudbraaten, Henning. “Peacebuilding: Six Dimensions and Two Concepts”, African
+Security Review. Vol. 7, No. 6, pp 17-26.
+Hampson, Fen Osler, David M. Malone. 2002. From reaction to conflict prevention: opportunities
+for the UN system. Boulder, Colo.: Lynne Rienner Publishers
+Hampson, Fen Osler and Judith Reppy, eds. 1996. Earthly goods : environmental change and
+social justice. Ithaca, N.Y.: Cornell University Press.
+Hartzel, Caroline A. 1999. “Explaining the Stability of Negotiated Settlements to Intrastate Wars.”
+The Journal of Conflict Resolution. 43: 3-22.
+Hartzel, Caroline A. 1997?
+International Commission on Intervention and State Sovereignty. 2001. The Responsibility to
+Protect. Ottawa: IDRC.
+Krain, Matthew. “Responding to Revolution: Repression, Accommodation, and Opposition in
+Post-Internal War States.” Presented at the Midwest Political Science Association conference,
+Chicago, Il, April 23-25, 1998. 24 pages.
+Kriesberg, Louis. 1998. Constructive Conflicts: From Escalation to Resolution. Lamham, MD.:
+Rowman and Littlefield.
+Kumar, Krishna, ed. Rebuilding Societies after Civil Wars: Critical Roles for International
+Assistance (Boulder, Colorado: Lynne Rienner, 1997).
+Leonhardt, Manuela. 2000. “ Towards a Unified Methodology: Reframing PCIA.” in The Impact of
+Conflict Prevention Policy: Cases, Measures, Assessments. Michael Lund and Guenola
+Rasamoelina, (eds.) Conflict Prevention Network. Baden, Germany: NOMOS.
+Lund, Michael S. 2001. “Why Are Some Ethnic Disputes Settled Peacefully, While Others
+Become Violent? Comparing Slovakia, Macedonia, and Kosovo,” in Hayward Alker, et. al. Eds.
+Journeys through Conflict. Lanham, MD.: Rowman and Littlefield.
+Lund, Michael S, and Mehler, et al. 1999. Peacebuilding and Conflict Prevention in Developing
+Countries. Conflict Prevention Network, Stiftung and Wissenschaft und Politik.
+Lund, Michael S. 1999. “ Preventive Diplomacy' for Macedonia, 1992-1997: Containment
+becomes Nation-Building,” and other chapters in Bruce Jentleson, ed. Preventive Diplomacy in
+the Post Cold War World: Opportunities Missed, Opportunities Seized and Lessons to Be
+Learned. Lanham, MD.: Rowman and Littlefield.
+Lund, Michael S. 1998. “Not only When, But How: From Early Warning to Rolling Prevention.” in
+Preventing Violent Conflict: Past Record and Future Challenge. Peter Wallensteen, ed. Uppsala,
+Sweden: Uppsala University, Department of Peace and Conflict Research.
+Lund, Michael S. 1998. “Impacts of Development Aid as Incentives or Disincentives in Reducing
+Internal and Inter-state Conflicts: A Review of Findings from Documented Experience.”
+Unpublished report to the Development Assistance Committee (DAC), Task Force on Peace,
+Conflict And Development, OECD.
+Lund, Michael S, Barnett Rubin and Hara, 1998. "Learning from Burundi’s Failed Democratic
+Transition, 1993-96: Did International Initiatives Match the Problem?" in Barnett Rubin, ed. Cases
+and Strategies of Preventive Action. New York, NT.: Century Foundation Press.
+
+53
+
+Lund, Michael S. 1998. “Developing Case-Based Conflict Prevention and Peacebuilding
+Strategies from Recent Experience in Europe,“ in G. Bonvicini, et. al. eds. Preventing Violent
+Conflict: Issues from the Baltics and the Caucasus. Baden-Baden, Germany: Nomos.
+Lund, Michael S, et al. 1997. Preventing and Mitigating Violent Conflicts: A Guide for
+Practitioners. Washington, DC: Creative Associates International, Inc.
+Lund, Michael S. 1996. Preventing Violent Conflict. Washington DC: U.S. Institute of Peace.
+Miall, Hugh, et al. 1999. Contemporary Conflict Resolution. Cambridge, England: Polity Press.
+Miall, Hugh. 1992. The Peacemakers: Peaceful Settlement of Disputes since 1945. New York,
+NY.: St. Martin’s Press.
+Munuera, Gabriel. 1994. Preventing Armed Conflict in Europe: Lesson from Recent Experience.
+Paris, France: Institute for Security Studies.
+Paris, Roland, 2001. “Human security: paradigm shift or hot air?” International Security v26, n2 :
+87
+Paris, Roland. “Constructing Liberal States: IR Theory and Post Conflict Peacebuilding.”
+Presented February 25, 1999. 39 pages.
+Peceny, Mark, 1999. Democracy at the point of bayonets. University Park, PA. : Pennsylvania
+State University Press, 1999.
+Quaker United Nations Office, Peacebuilding in War-Time Societies: Workshop Report, (Geneva:
+December, 1996).
+Ramcharan, B.G. 1991. the International Law and Practice of Early Warning and Preventive
+Diplomacy: The Emerging Global Watch. Dordrecht, The Netherlands: Marinus Nijhoff.
+Regan, Patrick M. 2002. “Third-party interventions and the duration of interstate conflicts.” Journal
+of Conflict Resolution Vol.46, No.1: 55.
+Reilly, Ben. “Voting is Good, Except When It Guarantees War.” Washington Post, October 17,
+1999. Page B2.
+Reilly, Ben, Peter Harris, and Michael Lund, et. al. 1998. Democracy and Deep-Rooted Conflict:
+Options for Negotiators Stockholm, Sweden: Institute for Democracy and Electoral Assistance.
+Richmond, Oliver P. Maintaining Order, Making Peace (Houndsmill: Palgrave, 2002).
+Riskin, Stephen Three Dimensions of Peac building in Bosnia, (Washington, D.C.: U.S. Institute
+of Peace, 1999)
+Rothchild, Donald. 2002. “Third Party Incentives” in Stedman, Stephen John, Donald Rothchild,
+and Elizabeth M. Cousens, eds. Ending Civil Wars: The Success and Failure of Negotiated
+Settlements in Civil War. Lanham, MD.: Lynne Rienner Publishers
+Schwank, Nicolas and Christoph Rohloff. “War is Over- Conflict Continues? Conditions for Stable
+Conflict Outcomes.” Presented at the Uppsala Conflict Data Conference, Uppsala, Sweden. June
+8-9, 2001. 19 pages.
+
+54
+
+Stedman, Stephen John, Donald Rothchild, and Elizabeth M. Cousens, eds. 2002. Ending Civil
+Wars: The Success and Failure of Negotiated Settlements in Civil War. Lanham, MD: Lynne
+Rienner Publishers.
+Uvin, Peter. Summary Report to the DAC Task Force on Peace and Development, OECD, page
+4.
+Uvin, Peter , “The Development/Peacebuilding Nexus: A Typology and History of Changing
+Paradigms”, Journal of Peacebuilding and Development. Volume 1, Number 1, 2002.
+Vayrinen, et. al., 1999. Inventive and Preventive Diplomacy. Notre Dame, Indiana: Joan Kroc
+Institute, University of Notre Dame.
+Wallensteen, Peter. ed. 1998. Preventing Violent Conflict: Past Record and Future Challenges
+(Uppsala, Sweden: Uppsala University, Department of Peace and Conflict Research.
+Walter, Barbara F. 1997. “The Critical Barrier to Civil War Settlement.” International
+Organization. 51:335-365.
+Walter, Barbara F. 1997. Designing Transitions from Violent Civil War. Policy Paper No. 31. San
+Diego, Ca: Institute on Global Conflict and Cooperation, University of California.
+Woodward, Susan. 1995. Balkan Tragedy: Chaos and Dissolution after the Cold War
+Washington, DC.: Brookings Institution.
+Zartman, William, ed. 2001. Preventive Negotiations. Lanham, MD: Rowman and Littlefield.
+
+55
+
+

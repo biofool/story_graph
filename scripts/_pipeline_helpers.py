@@ -232,18 +232,24 @@ def process_page(
     claims = claim_extractor.extract_claims(page.text, source_url=url)
     for claim in claims:
         cid = claim["id"]
+        metadata = {
+            "claim_text": claim["claim_text"],
+            "claim_type": claim["claim_type"],
+            "stance": claim["stance"],
+            "confidence": claim["confidence"],
+            "evidence_mode": claim["evidence_mode"],
+        }
+        # Jev verdicts are annotation-only metadata; persist them when the
+        # extractor produced them so verdicts survive to the graph.
+        for jk in ("jev_verdict", "jev_confidence", "jev_truncated"):
+            if jk in claim:
+                metadata[jk] = claim[jk]
         node = GraphNode(
             id=cid,
             type=NodeType.CLAIM,
             label=claim["claim_text"][:200],
             canonical_name=None,
-            metadata={
-                "claim_text": claim["claim_text"],
-                "claim_type": claim["claim_type"],
-                "stance": claim["stance"],
-                "confidence": claim["confidence"],
-                "evidence_mode": claim["evidence_mode"],
-            },
+            metadata=metadata,
             source_urls=[url],
         )
         db.add_node(node)

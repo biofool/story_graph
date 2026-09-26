@@ -1,0 +1,40 @@
+{
+  "name": "asu_letter_ikeda_independence_2015",
+  "description": "ASU's official 'Letter to ASU Members' (Patty Saotome, 2015-01-19, Wayback capture 2015-01-22) announcing Ikeda's recognition as an independent instructor — ends ASU Vice-Presidency and direct ASU affiliation. Primary organizational record; upgrades claim:ikeda:asu-independence-2015 from subject-self-report (own site + MAYTT 2023) to the organization's own contemporaneous announcement.",
+  "sources": [
+    {
+      "id": "src:asu-letter-ikeda-2015",
+      "url": "https://web.archive.org/web/20150122062113/http://asu.org/letter-to-asu-members2/",
+      "title": "Letter to ASU Members — Ikeda recognized as independent instructor",
+      "author": "Patty Saotome (for Mitsugi Saotome), Aikido Schools of Ueshiba",
+      "source_class": "documentary_promotional",
+      "publish_date": "2015-01-19",
+      "platform": "asu.org (via web.archive.org capture 2015-01-22)",
+      "raw_text": "Official ASU announcement dated 1/19/2015: 'Saotome Sensei has decided that it is now the time to recognize Ikeda Sensei as an independent instructor so he can focus on his own journey and priorities without the added burdens of being an official representative as Vice President of the Aikido Schools of Ueshiba... as an independent instructor Ikeda Sensei will no longer have a direct affiliation with ASU or the responsibility for conducting ASU yudansha examinations.' Primary organizational record of ASU's own action — WP:ABOUTSELF-class for the fact of the announcement, not independent coverage."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "claim:ikeda:asu-letter-2015-01-19",
+      "type": "Claim",
+      "label": "ASU letter (19 Jan 2015): Ikeda recognized as independent instructor, ending ASU VP role",
+      "metadata": {
+        "claim_text": "ASU's official letter to members (Patty Saotome, 19 January 2015) announced that Saotome recognized Ikeda as an independent instructor; the letter states he would 'no longer have a direct affiliation with ASU or the responsibility for conducting ASU yudansha examinations' and explicitly names his prior role as Vice President of ASU.",
+        "claim_type": "organizational",
+        "stance": "supports",
+        "evidence_mode": "primary",
+        "confidence": 0.95
+      }
+    }
+  ],
+  "edges": [
+    {"src_id": "claim:ikeda:asu-letter-2015-01-19", "rel_type": "MENTIONS", "dst_id": "person:hiroshi-ikeda", "metadata": {}},
+    {"src_id": "claim:ikeda:asu-letter-2015-01-19", "rel_type": "MENTIONS", "dst_id": "fed:aikido-schools-of-ueshiba", "metadata": {}},
+    {"src_id": "claim:ikeda:asu-letter-2015-01-19", "rel_type": "MENTIONS", "dst_id": "person:mitsugi-saotome", "metadata": {}}
+  ],
+  "claim_sources": [
+    {"claim_id": "claim:ikeda:asu-letter-2015-01-19", "source_id": "src:asu-letter-ikeda-2015"},
+    {"claim_id": "claim:ikeda:asu-independence-2015", "source_id": "src:asu-letter-ikeda-2015"},
+    {"claim_id": "claim:ikeda:asu-vice-president", "source_id": "src:asu-letter-ikeda-2015"}
+  ]
+}

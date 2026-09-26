@@ -1,0 +1,10 @@
+{
+ "subject": "hiroshi ikeda",
+ "query": "hiroshi ikeda",
+ "domain": "aikido-health.com",
+ "tier": "MID_TIER",
+ "collection_type": "web_search_fallback",
+ "pending_queries": [
+  "site:aikido-health.com \"hiroshi ikeda\""
+ ]
+}

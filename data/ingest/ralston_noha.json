@@ -1,0 +1,1045 @@
+{
+ "name": "ralston_noha",
+ "description": "Migrated from scripts/28_ingest_ralston_noha.py (now deleted).",
+ "migrated_from": "scripts/28_ingest_ralston_noha.py",
+ "nodes": [
+  {
+   "id": "book:the-book-of-not-knowing",
+   "type": "Work",
+   "label": "The Book of Not Knowing",
+   "canonical_name": "The Book of Not Knowing",
+   "metadata": {
+    "subtitle": null,
+    "openlibrary_key": "OL1957444W",
+    "first_publish_year": 2010,
+    "author": "Peter Ralston",
+    "source": "openlibrary_api"
+   },
+   "source_urls": [
+    "https://openlibrary.org/works/OL1957444W"
+   ]
+  },
+  {
+   "id": "book:cheng-hsin",
+   "type": "Work",
+   "label": "Cheng Hsin",
+   "canonical_name": "Cheng Hsin",
+   "metadata": {
+    "subtitle": "the principles of effortless power",
+    "openlibrary_key": "OL1957449W",
+    "first_publish_year": 1989,
+    "author": "Peter Ralston",
+    "source": "openlibrary_api"
+   },
+   "source_urls": [
+    "https://openlibrary.org/works/OL1957449W"
+   ]
+  },
+  {
+   "id": "book:zen-body-being",
+   "type": "Work",
+   "label": "Zen Body-Being",
+   "canonical_name": "Zen Body-Being",
+   "metadata": {
+    "subtitle": "An Enlightened Approach to Physical Skill, Grace, and Power",
+    "openlibrary_key": "OL14924459W",
+    "first_publish_year": 2006,
+    "author": "Peter Ralston",
+    "source": "openlibrary_api"
+   },
+   "source_urls": [
+    "https://openlibrary.org/works/OL14924459W"
+   ]
+  },
+  {
+   "id": "book:cheng-hsin-tui-shou",
+   "type": "Work",
+   "label": "Cheng Hsin Tui Shou",
+   "canonical_name": "Cheng Hsin Tui Shou",
+   "metadata": {
+    "subtitle": "The Art of Effortless Power",
+    "openlibrary_key": "OL1957446W",
+    "first_publish_year": 1991,
+    "author": "Peter Ralston",
+    "source": "openlibrary_api"
+   },
+   "source_urls": [
+    "https://openlibrary.org/works/OL1957446W"
+   ]
+  },
+  {
+   "id": "book:ancient-wisdom-new-spirit",
+   "type": "Work",
+   "label": "Ancient Wisdom, New Spirit",
+   "canonical_name": "Ancient Wisdom, New Spirit",
+   "metadata": {
+    "subtitle": "investigations into the nature of \"being\"",
+    "openlibrary_key": "OL1957443W",
+    "first_publish_year": 1994,
+    "author": "Peter Ralston",
+    "source": "openlibrary_api"
+   },
+   "source_urls": [
+    "https://openlibrary.org/works/OL1957443W"
+   ]
+  },
+  {
+   "id": "book:reflections-of-being",
+   "type": "Work",
+   "label": "Reflections of Being",
+   "canonical_name": "Reflections of Being",
+   "metadata": {
+    "subtitle": "To `I` or not to `I`",
+    "openlibrary_key": "OL1957447W",
+    "first_publish_year": 1991,
+    "author": "Peter Ralston",
+    "source": "openlibrary_api"
+   },
+   "source_urls": [
+    "https://openlibrary.org/works/OL1957447W"
+   ]
+  },
+  {
+   "id": "book:pursuing-consciousness",
+   "type": "Work",
+   "label": "Pursuing Consciousness",
+   "canonical_name": "Pursuing Consciousness",
+   "metadata": {
+    "subtitle": null,
+    "openlibrary_key": "OL21092788W",
+    "first_publish_year": 2015,
+    "author": "Peter Ralston",
+    "source": "openlibrary_api"
+   },
+   "source_urls": [
+    "https://openlibrary.org/works/OL21092788W"
+   ]
+  },
+  {
+   "id": "book:consciousness-dialogues",
+   "type": "Work",
+   "label": "Consciousness Dialogues",
+   "canonical_name": "Consciousness Dialogues",
+   "metadata": {
+    "subtitle": null,
+    "openlibrary_key": "OL21159368W",
+    "first_publish_year": 2018,
+    "author": "Peter Ralston",
+    "source": "openlibrary_api"
+   },
+   "source_urls": [
+    "https://openlibrary.org/works/OL21159368W"
+   ]
+  },
+  {
+   "id": "book:genius-of-being",
+   "type": "Work",
+   "label": "Genius of Being",
+   "canonical_name": "Genius of Being",
+   "metadata": {
+    "subtitle": null,
+    "openlibrary_key": "OL21131227W",
+    "first_publish_year": 2017,
+    "author": "Peter Ralston",
+    "source": "openlibrary_api"
+   },
+   "source_urls": [
+    "https://openlibrary.org/works/OL21131227W"
+   ]
+  },
+  {
+   "id": "book:art-of-mastery",
+   "type": "Work",
+   "label": "Art of Mastery",
+   "canonical_name": "Art of Mastery",
+   "metadata": {
+    "subtitle": null,
+    "openlibrary_key": "OL28728342W",
+    "first_publish_year": 2023,
+    "author": "Peter Ralston",
+    "source": "openlibrary_api"
+   },
+   "source_urls": [
+    "https://openlibrary.org/works/OL28728342W"
+   ]
+  },
+  {
+   "id": "book:ending-unnecessary-suffering",
+   "type": "Work",
+   "label": "Ending Unnecessary Suffering",
+   "canonical_name": "Ending Unnecessary Suffering",
+   "metadata": {
+    "subtitle": null,
+    "openlibrary_key": "OL42403134W",
+    "first_publish_year": 2025,
+    "author": "Peter Ralston",
+    "source": "openlibrary_api"
+   },
+   "source_urls": [
+    "https://openlibrary.org/works/OL42403134W"
+   ]
+  },
+  {
+   "id": "book:integrity-of-being",
+   "type": "Work",
+   "label": "Integrity of Being",
+   "canonical_name": "Integrity of Being",
+   "metadata": {
+    "subtitle": null,
+    "openlibrary_key": "OL39733123W",
+    "first_publish_year": 1977,
+    "author": "Peter Ralston",
+    "source": "openlibrary_api"
+   },
+   "source_urls": [
+    "https://openlibrary.org/works/OL39733123W"
+   ]
+  },
+  {
+   "id": "pod:yt-xZxLygFdW8A",
+   "type": "Podcast",
+   "label": "Improving Relationships — Peter Ralston interview",
+   "canonical_name": "Improving Relationships — Peter Ralston interview",
+   "metadata": {
+    "url": "https://www.youtube.com/watch?v=xZxLygFdW8A",
+    "platform": "YouTube",
+    "source_class": "video_interview",
+    "person": "person:peter-ralston"
+   },
+   "source_urls": [
+    "https://www.youtube.com/watch?v=xZxLygFdW8A"
+   ]
+  },
+  {
+   "id": "pod:yt-GeJIcDLOa8Q",
+   "type": "Podcast",
+   "label": "Our Shared Reality is Made Up — Peter Ralston interview",
+   "canonical_name": "Our Shared Reality is Made Up — Peter Ralston interview",
+   "metadata": {
+    "url": "https://www.youtube.com/watch?v=GeJIcDLOa8Q",
+    "platform": "YouTube",
+    "source_class": "video_interview",
+    "person": "person:peter-ralston"
+   },
+   "source_urls": [
+    "https://www.youtube.com/watch?v=GeJIcDLOa8Q"
+   ]
+  },
+  {
+   "id": "pod:yt-xuf8ps0ZsAY",
+   "type": "Podcast",
+   "label": "Perception is Based On Survival — Peter Ralston interview",
+   "canonical_name": "Perception is Based On Survival — Peter Ralston interview",
+   "metadata": {
+    "url": "https://www.youtube.com/watch?v=xuf8ps0ZsAY",
+    "platform": "YouTube",
+    "source_class": "video_interview",
+    "person": "person:peter-ralston"
+   },
+   "source_urls": [
+    "https://www.youtube.com/watch?v=xuf8ps0ZsAY"
+   ]
+  },
+  {
+   "id": "pod:yt-pXM4WCLnxS8",
+   "type": "Podcast",
+   "label": "Honesty — Peter Ralston interview",
+   "canonical_name": "Honesty — Peter Ralston interview",
+   "metadata": {
+    "url": "https://www.youtube.com/watch?v=pXM4WCLnxS8",
+    "platform": "YouTube",
+    "source_class": "video_interview",
+    "person": "person:peter-ralston"
+   },
+   "source_urls": [
+    "https://www.youtube.com/watch?v=pXM4WCLnxS8"
+   ]
+  },
+  {
+   "id": "pod:yt-P_I8GC4e9YY",
+   "type": "Podcast",
+   "label": "The Book of Not Knowing review, Part 1 — YouTube",
+   "canonical_name": "The Book of Not Knowing review, Part 1 — YouTube",
+   "metadata": {
+    "url": "https://www.youtube.com/watch?v=P_I8GC4e9YY",
+    "platform": "YouTube",
+    "source_class": "video_review",
+    "person": "person:peter-ralston"
+   },
+   "source_urls": [
+    "https://www.youtube.com/watch?v=P_I8GC4e9YY"
+   ]
+  },
+  {
+   "id": "dojo:aikido-of-college-park",
+   "type": "Dojo",
+   "label": "Aikido of College Park",
+   "canonical_name": "Aikido of College Park",
+   "metadata": {
+    "city": "College Park",
+    "state": "MD",
+    "country": "US",
+    "lineage": "nadeau",
+    "founded_year": 1970
+   },
+   "source_urls": []
+  },
+  {
+   "id": "dojo:aikido-of-buffalo",
+   "type": "Dojo",
+   "label": "Aikido of Buffalo",
+   "canonical_name": "Aikido of Buffalo",
+   "metadata": {
+    "city": "Buffalo",
+    "state": "NY",
+    "country": "US",
+    "lineage": "nadeau",
+    "founded_year": 1975
+   },
+   "source_urls": []
+  },
+  {
+   "id": "dojo:aikido-of-novato",
+   "type": "Dojo",
+   "label": "Aikido of Novato",
+   "canonical_name": "Aikido of Novato",
+   "metadata": {
+    "city": "Novato",
+    "state": "CA",
+    "country": "US",
+    "lineage": "nadeau",
+    "founded_year": 1982
+   },
+   "source_urls": []
+  },
+  {
+   "id": "dojo:aikido-of-petaluma",
+   "type": "Dojo",
+   "label": "Aikido of Petaluma",
+   "canonical_name": "Aikido of Petaluma",
+   "metadata": {
+    "city": "Petaluma",
+    "state": "CA",
+    "country": "US",
+    "lineage": "nadeau",
+    "founded_year": 1983
+   },
+   "source_urls": []
+  },
+  {
+   "id": "person:bob-noha",
+   "type": "Person",
+   "label": "Robert Noha",
+   "canonical_name": "Robert Noha",
+   "metadata": {
+    "canonical_name": "Robert Noha",
+    "aliases": [
+     "Bob Noha",
+     "Robert 'Bob' Noha",
+     "Sensei Robert Noha"
+    ],
+    "birth_place": "Chicago, Illinois",
+    "ethnicity": "Czechoslovakian-American",
+    "rank": "7th dan",
+    "rank_system": "Aikido",
+    "primary_art": "Aikido",
+    "cross_training": [
+     "T'ai Chi Ch'uan",
+     "Judo",
+     "Kenpo Karate",
+     "Pa Kua Chang",
+     "Hsing-I",
+     "Western boxing"
+    ],
+    "taichi_lineage": "Yang short form (Cheng Man-Ching → Robert W. Smith)",
+    "started_aikido": "1966, Mountain View, CA",
+    "first_teachers": [
+     "Ed Riggs",
+     "Sig Kufferath"
+    ],
+    "main_teacher": "Robert Nadeau",
+    "teacher_relationship": "Lifelong friendship and training with Robert Nadeau Shihan",
+    "education": "University of Maryland, Philosophy",
+    "military_service": "U.S. Air Force reserves",
+    "military_instruction": "Security Police Tactics instructor, Andrews Air Force Base (1974-1975)",
+    "dojos_founded": [
+     {
+      "name": "College Park Aikido",
+      "location": "College Park, MD",
+      "year": 1970
+     },
+     {
+      "name": "Aikido of Buffalo",
+      "location": "Buffalo, NY",
+      "year": 1975
+     },
+     {
+      "name": "Aikido of Novato",
+      "location": "Novato, CA",
+      "year": 1982
+     },
+     {
+      "name": "Aikido of Petaluma",
+      "location": "Petaluma, CA",
+      "year": 1983
+     }
+    ],
+    "current_dojo": "Aikido of Petaluma",
+    "current_role": "Chief Instructor",
+    "japan_training_trips": [
+     1998,
+     1999,
+     2006
+    ],
+    "co_author_of": "Aikido: The Art of Transformation — The Life and Teachings of Robert Nadeau",
+    "business_career": "Insurance industry, retired after 42 years",
+    "family": "Married 50 years, two children, four grandchildren",
+    "wikipedia_exists": false,
+    "official_url": "https://www.aikidopetaluma.com/our-sensei/"
+   },
+   "source_urls": [
+    "http://dev.aikidoofpetaluma.com/energy.html",
+    "https://aikidojournal.com/2025/05/12/a-journey-through-aikido-robert-nadeau-on-spirituality-o-sensei-and-the-golden-age-of-aikido-in-california/",
+    "https://www.nadeaushihan.com/"
+   ]
+  },
+  {
+   "id": "person:peter-ralston",
+   "type": "Person",
+   "label": "Peter Ralston",
+   "canonical_name": "peter ralston",
+   "metadata": {
+    "context": "Martial artist, consciousness teacher, author",
+    "birth_place": "San Francisco, California",
+    "raised": "Primarily in Asia (Singapore, Japan)",
+    "occupation": "Martial arts teacher, consciousness facilitator, author",
+    "martial_arts": [
+     "Judo",
+     "Jujitsu",
+     "Karate",
+     "Kempo",
+     "Ch'uan Fa",
+     "Northern Sil Lum Kung Fu",
+     "T'ai Chi Ch'uan",
+     "Hsing I Ch'uan",
+     "Pa Kua Chang",
+     "Aikido",
+     "Japanese fencing",
+     "Chinese fencing",
+     "Western boxing",
+     "Muay Thai"
+    ],
+    "ranks": [
+     "Black belt in Judo",
+     "Black belt in Jujitsu",
+     "Black belt in Karate"
+    ],
+    "achievements": [
+     "Sumo champion at high school in Japan",
+     "Judo and fencing champion at UC Berkeley",
+     "First non-Asian to win World Championship full-contact martial arts tournament (1978, Republic of China)"
+    ],
+    "founded": {
+     "name": "Cheng Hsin School",
+     "year": 1975,
+     "location": "Oakland, California",
+     "full_name": "The Cheng Hsin School of Internal Martial Arts and Center for Ontological Research"
+    },
+    "books": [
+     "The Book of Not Knowing",
+     "Cheng Hsin",
+     "Zen Body-Being",
+     "Cheng Hsin Tui Shou",
+     "Ancient Wisdom, New Spirit",
+     "Reflections of Being",
+     "Pursuing Consciousness",
+     "Consciousness Dialogues",
+     "Genius of Being",
+     "Art of Mastery",
+     "Ending Unnecessary Suffering",
+     "Integrity of Being"
+    ],
+    "movement": "Consciousness movement (San Francisco Bay Area, late 1960s-1970s)",
+    "collaborators": [
+     "Stewart Emery",
+     "Werner Erhard",
+     "Charles Berner"
+    ],
+    "wikipedia_exists": false,
+    "wikipedia_gap": true,
+    "official_url": "https://chenghsin.com",
+    "youtube_channel": "https://www.youtube.com/peterralston",
+    "facebook": "https://www.facebook.com/OfficialRalston/",
+    "instagram": "https://www.instagram.com/chenghsinarts/"
+   },
+   "source_urls": [
+    "https://books.google.co.nz/books/about/Cheng_Hsin.html?id=KZ8TJAKaiUQC&redir_esc=y",
+    "https://books.google.com/books?id=w9QDAAAAMBAJ",
+    "https://budovideos.com/products/aikido-the-art-of-transformation-the-life-and-teachings-of-robert-nadeau",
+    "https://chenghsin.com/about-the-cheng-hsin-center/",
+    "https://chenghsin.com/books-and-more/",
+    "https://chenghsin.com/origins-interview-with-peter-ralston/",
+    "https://chenghsin.com/who-is-peter-ralston/",
+    "https://doczz.net/doc/3878299/effortless-grab-defences",
+    "https://openlibrary.org/search.json?author=Peter+Ralston",
+    "https://wikitia.com/wiki/Peter_Ralston",
+    "https://www.innertraditions.com/author/peter-ralston",
+    "https://www.nadeaushihan.com/",
+    "https://www.penguin.co.nz/authors/peter-ralston",
+    "https://www.usadojo.com/peter-ralston/"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "CO_AUTHORED",
+   "dst_id": "book:the-book-of-not-knowing",
+   "metadata": {
+    "source": "openlibrary_api"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "CO_AUTHORED",
+   "dst_id": "book:cheng-hsin",
+   "metadata": {
+    "source": "openlibrary_api"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "CO_AUTHORED",
+   "dst_id": "book:zen-body-being",
+   "metadata": {
+    "source": "openlibrary_api"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "CO_AUTHORED",
+   "dst_id": "book:cheng-hsin-tui-shou",
+   "metadata": {
+    "source": "openlibrary_api"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "CO_AUTHORED",
+   "dst_id": "book:ancient-wisdom-new-spirit",
+   "metadata": {
+    "source": "openlibrary_api"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "CO_AUTHORED",
+   "dst_id": "book:reflections-of-being",
+   "metadata": {
+    "source": "openlibrary_api"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "CO_AUTHORED",
+   "dst_id": "book:pursuing-consciousness",
+   "metadata": {
+    "source": "openlibrary_api"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "CO_AUTHORED",
+   "dst_id": "book:consciousness-dialogues",
+   "metadata": {
+    "source": "openlibrary_api"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "CO_AUTHORED",
+   "dst_id": "book:genius-of-being",
+   "metadata": {
+    "source": "openlibrary_api"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "CO_AUTHORED",
+   "dst_id": "book:art-of-mastery",
+   "metadata": {
+    "source": "openlibrary_api"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "CO_AUTHORED",
+   "dst_id": "book:ending-unnecessary-suffering",
+   "metadata": {
+    "source": "openlibrary_api"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "CO_AUTHORED",
+   "dst_id": "book:integrity-of-being",
+   "metadata": {
+    "source": "openlibrary_api"
+   }
+  },
+  {
+   "src_id": "pod:yt-xZxLygFdW8A",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:peter-ralston",
+   "metadata": {
+    "source": "youtube"
+   }
+  },
+  {
+   "src_id": "pod:yt-GeJIcDLOa8Q",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:peter-ralston",
+   "metadata": {
+    "source": "youtube"
+   }
+  },
+  {
+   "src_id": "pod:yt-xuf8ps0ZsAY",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:peter-ralston",
+   "metadata": {
+    "source": "youtube"
+   }
+  },
+  {
+   "src_id": "pod:yt-pXM4WCLnxS8",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:peter-ralston",
+   "metadata": {
+    "source": "youtube"
+   }
+  },
+  {
+   "src_id": "pod:yt-P_I8GC4e9YY",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:peter-ralston",
+   "metadata": {
+    "source": "youtube"
+   }
+  },
+  {
+   "src_id": "person:robert-nadeau",
+   "rel_type": "TEACHER_STUDENT",
+   "dst_id": "person:bob-noha",
+   "metadata": {
+    "source": "aikidopetaluma.com",
+    "context": "Lifelong friendship and training since 1966",
+    "start_year": 1966
+   }
+  },
+  {
+   "src_id": "person:bob-noha",
+   "rel_type": "HEAD_INSTRUCTOR",
+   "dst_id": "dojo:aikido-of-college-park",
+   "metadata": {
+    "source": "web_research",
+    "founded_year": 1970
+   }
+  },
+  {
+   "src_id": "person:bob-noha",
+   "rel_type": "FOUNDED",
+   "dst_id": "dojo:aikido-of-college-park",
+   "metadata": {
+    "year": 1970,
+    "source": "web_research"
+   }
+  },
+  {
+   "src_id": "person:bob-noha",
+   "rel_type": "HEAD_INSTRUCTOR",
+   "dst_id": "dojo:aikido-of-buffalo",
+   "metadata": {
+    "source": "web_research",
+    "founded_year": 1975
+   }
+  },
+  {
+   "src_id": "person:bob-noha",
+   "rel_type": "FOUNDED",
+   "dst_id": "dojo:aikido-of-buffalo",
+   "metadata": {
+    "year": 1975,
+    "source": "web_research"
+   }
+  },
+  {
+   "src_id": "person:bob-noha",
+   "rel_type": "HEAD_INSTRUCTOR",
+   "dst_id": "dojo:aikido-of-novato",
+   "metadata": {
+    "source": "web_research",
+    "founded_year": 1982
+   }
+  },
+  {
+   "src_id": "person:bob-noha",
+   "rel_type": "FOUNDED",
+   "dst_id": "dojo:aikido-of-novato",
+   "metadata": {
+    "year": 1982,
+    "source": "web_research"
+   }
+  },
+  {
+   "src_id": "person:bob-noha",
+   "rel_type": "HEAD_INSTRUCTOR",
+   "dst_id": "dojo:aikido-of-petaluma",
+   "metadata": {
+    "source": "web_research",
+    "founded_year": 1983
+   }
+  },
+  {
+   "src_id": "person:bob-noha",
+   "rel_type": "FOUNDED",
+   "dst_id": "dojo:aikido-of-petaluma",
+   "metadata": {
+    "year": 1983,
+    "source": "web_research"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:32a473a20ad53426",
+   "url": "https://chenghsin.com/who-is-peter-ralston/",
+   "title": "Who is Peter Ralston? — Cheng Hsin",
+   "author": null,
+   "publish_date": null,
+   "platform": "chenghsin.com",
+   "raw_text": null,
+   "source_class": "documentary_promotional",
+   "bias_hint": null
+  },
+  {
+   "id": "src:1b3fd7e232200bb3",
+   "url": "https://chenghsin.com/origins-interview-with-peter-ralston/",
+   "title": "Origins Interview with Peter Ralston — Cheng Hsin",
+   "author": null,
+   "publish_date": null,
+   "platform": "chenghsin.com",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:d841011af3314c0d",
+   "url": "https://chenghsin.com",
+   "title": "Cheng Hsin — Official Site",
+   "author": null,
+   "publish_date": null,
+   "platform": "chenghsin.com",
+   "raw_text": null,
+   "source_class": "documentary_promotional",
+   "bias_hint": null
+  },
+  {
+   "id": "src:04dc5debe9b504ea",
+   "url": "https://www.penguin.co.nz/authors/peter-ralston",
+   "title": "Peter Ralston — Penguin Books New Zealand",
+   "author": null,
+   "publish_date": null,
+   "platform": "penguin.co.nz",
+   "raw_text": null,
+   "source_class": "documentary_promotional",
+   "bias_hint": null
+  },
+  {
+   "id": "src:7ba69e121ecb5b6c",
+   "url": "https://www.innertraditions.com/author/peter-ralston",
+   "title": "Peter Ralston — Inner Traditions",
+   "author": null,
+   "publish_date": null,
+   "platform": "innertraditions.com",
+   "raw_text": null,
+   "source_class": "documentary_promotional",
+   "bias_hint": null
+  },
+  {
+   "id": "src:e5fdcae47fc1c09e",
+   "url": "https://www.amazon.com.au/Book-Not-Knowing-Peter-Ralston/dp/1556438575",
+   "title": "The Book of Not Knowing — Amazon",
+   "author": null,
+   "publish_date": null,
+   "platform": "amazon.com.au",
+   "raw_text": null,
+   "source_class": "documentary_promotional",
+   "bias_hint": null
+  },
+  {
+   "id": "src:6fa26545d66f5037",
+   "url": "https://www.goodreads.com/en/book/show/9315473-the-book-of-not-knowing",
+   "title": "The Book of Not Knowing — Goodreads",
+   "author": null,
+   "publish_date": null,
+   "platform": "goodreads.com",
+   "raw_text": null,
+   "source_class": "documentary_promotional",
+   "bias_hint": null
+  },
+  {
+   "id": "src:f3dc1a4dbcad1d59",
+   "url": "https://cdn.bookey.app/files/pdf/book/en/the-book-of-not-knowing.pdf",
+   "title": "The Book of Not Knowing — Bookey PDF Summary",
+   "author": null,
+   "publish_date": null,
+   "platform": "bookey.app",
+   "raw_text": null,
+   "source_class": "documentary_promotional",
+   "bias_hint": null
+  },
+  {
+   "id": "src:cd719431d85a2a8f",
+   "url": "https://openlibrary.org/search.json?author=Peter+Ralston",
+   "title": "Open Library: Peter Ralston books",
+   "author": null,
+   "publish_date": null,
+   "platform": "openlibrary.org",
+   "raw_text": null,
+   "source_class": "documentary_promotional",
+   "bias_hint": null
+  },
+  {
+   "id": "src:d8a9c4533081f492",
+   "url": "https://blog.chrisremspecher.de/tag/peter-ralston",
+   "title": "Peter Ralston — Chris Remspecher Blog",
+   "author": null,
+   "publish_date": null,
+   "platform": "blog.chrisremspecher.de",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:68b03ca46bb6062b",
+   "url": "https://thebrendanlea.com/radical-relaxation/",
+   "title": "Radical Relaxation — The Brendan Lea",
+   "author": null,
+   "publish_date": null,
+   "platform": "thebrendanlea.com",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:c4187315aaffc382",
+   "url": "https://www.simonandschuster.com/authors/Peter-Ralston/199333325",
+   "title": "Peter Ralston — Simon & Schuster Author Page",
+   "author": null,
+   "publish_date": null,
+   "platform": "simonandschuster.com",
+   "raw_text": null,
+   "source_class": "documentary_promotional",
+   "bias_hint": null
+  },
+  {
+   "id": "src:1604c0a5618f5e6c",
+   "url": "https://en-academic.com/dic.nsf/enwiki/10270380",
+   "title": "Peter Ralston — Academic Dictionaries and Encyclopedias",
+   "author": null,
+   "publish_date": null,
+   "platform": "en-academic.com",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:92775c330ff73d10",
+   "url": "https://www.taijiquan.nl/912-2/",
+   "title": "History — Taijiquan Association Netherlands (mentions Ralston 1978 World Championship)",
+   "author": null,
+   "publish_date": null,
+   "platform": "taijiquan.nl",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:1fa3ac4895c30a82",
+   "url": "https://blog.awma.com/zen-in-the-martial-arts/",
+   "title": "Zen in the Martial Arts — AWMA Blog (Peter Ralston feature, 1978 World Championship)",
+   "author": null,
+   "publish_date": null,
+   "platform": "blog.awma.com",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:8c43066e9f7ef421",
+   "url": "https://www.usadojo.com/peter-ralston/",
+   "title": "Peter Ralston Cheng Hsin — USAdojo.com Profile",
+   "author": null,
+   "publish_date": null,
+   "platform": "usadojo.com",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:bea7545e0e76f039",
+   "url": "https://www.youtube.com/watch?v=xZxLygFdW8A",
+   "title": "Improving Relationships — Peter Ralston interview",
+   "author": null,
+   "publish_date": null,
+   "platform": "youtube.com",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:7fa8aad59659d8f9",
+   "url": "https://www.youtube.com/watch?v=GeJIcDLOa8Q",
+   "title": "Our Shared Reality is Made Up — Peter Ralston interview",
+   "author": null,
+   "publish_date": null,
+   "platform": "youtube.com",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:cfc343c61647a75b",
+   "url": "https://www.youtube.com/watch?v=xuf8ps0ZsAY",
+   "title": "Perception is Based On Survival — Peter Ralston interview",
+   "author": null,
+   "publish_date": null,
+   "platform": "youtube.com",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:b23a5088efb012d3",
+   "url": "https://www.youtube.com/watch?v=pXM4WCLnxS8",
+   "title": "Honesty — Peter Ralston interview",
+   "author": null,
+   "publish_date": null,
+   "platform": "youtube.com",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:868d314d3442b052",
+   "url": "https://www.youtube.com/watch?v=P_I8GC4e9YY",
+   "title": "The Book of Not Knowing review, Part 1 — YouTube",
+   "author": null,
+   "publish_date": null,
+   "platform": "youtube.com",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:c790dae87877e829",
+   "url": "https://budovideos.com/products/aikido-the-art-of-transformation-the-life-and-teachings-of-robert-nadeau",
+   "title": "Aikido: The Art of Transformation — The Life and Teachings of Robert Nadeau",
+   "author": null,
+   "publish_date": null,
+   "platform": "budovideos.com",
+   "raw_text": null,
+   "source_class": "documentary_promotional",
+   "bias_hint": null
+  },
+  {
+   "id": "src:5c54fd819f127c0a",
+   "url": "https://www.aikidopetaluma.com/our-sensei/",
+   "title": "Our Sensei — Robert 'Bob' Noha, Aikido of Petaluma",
+   "author": null,
+   "publish_date": null,
+   "platform": "aikidopetaluma.com",
+   "raw_text": null,
+   "source_class": "documentary_promotional",
+   "bias_hint": null
+  },
+  {
+   "id": "src:fcded29c957060a4",
+   "url": "https://www.aikidopetaluma.com/",
+   "title": "Aikido of Petaluma — Official Site",
+   "author": null,
+   "publish_date": null,
+   "platform": "aikidopetaluma.com",
+   "raw_text": null,
+   "source_class": "documentary_promotional",
+   "bias_hint": null
+  },
+  {
+   "id": "src:441e91dd15920e2f",
+   "url": "https://www.aikidopetaluma.com/2015/09/20/profile-robert-noha-article-from-the-argus-courier-may-14-2003/",
+   "title": "Profile: Robert Noha — Argus Courier, May 14, 2003",
+   "author": null,
+   "publish_date": null,
+   "platform": "aikidopetaluma.com",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:eb6e5dbc9791d339",
+   "url": "https://aikidojournal.com/2020/06/09/aikido-as-an-art-of-personal-development-and-spiritual-growth-by-bob-noha/",
+   "title": "Aikido as an Art of Personal Development and Spiritual Growth, by Bob Noha — Aikido Journal",
+   "author": null,
+   "publish_date": null,
+   "platform": "aikidojournal.com",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:7e1a9763902af869",
+   "url": "https://www.simonandschuster.net/authors/Bob-Noha/221805037",
+   "title": "Bob Noha — Simon & Schuster",
+   "author": null,
+   "publish_date": null,
+   "platform": "simonandschuster.net",
+   "raw_text": null,
+   "source_class": "documentary_promotional",
+   "bias_hint": null
+  },
+  {
+   "id": "src:a14dc129d9740603",
+   "url": "https://www.nadeaushihan.com/authors",
+   "title": "Authors — Robert Nadeau Shihan (Bob Noha bio)",
+   "author": null,
+   "publish_date": null,
+   "platform": "nadeaushihan.com",
+   "raw_text": null,
+   "source_class": "documentary_promotional",
+   "bias_hint": null
+  },
+  {
+   "id": "src:3bab268e3b4f8c36",
+   "url": "https://medium.com/authority-magazine/bob-noha-on-how-martial-arts-helped-teach-self-confidence-bravery-career-success-d92975e5da46",
+   "title": "Bob Noha On How Martial Arts Helped Teach Self-Confidence — Authority Magazine",
+   "author": null,
+   "publish_date": null,
+   "platform": "medium.com",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  },
+  {
+   "id": "src:02df042d73c5a0a9",
+   "url": "https://maytt.home.blog/2021/02/17/interview-with-californian-aikidoka-robert-noha-aikidos-spiritual-aspect/",
+   "title": "Interview with Californian Aikidoka Robert Noha: Aikido's Spiritual Aspect — Martial Arts of Yesterday, Today and Tomorrow",
+   "author": null,
+   "publish_date": null,
+   "platform": "maytt.home.blog",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  }
+ ]
+}

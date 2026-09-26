@@ -1,0 +1,674 @@
+{
+ "name": "moon_europe_peacework",
+ "description": "Migrated from scripts/49_ingest_moon_europe_peacework.py (now deleted).",
+ "migrated_from": "scripts/49_ingest_moon_europe_peacework.py",
+ "nodes": [
+  {
+   "id": "group:imtd",
+   "type": "Group",
+   "label": "Institute for Multi-Track Diplomacy",
+   "canonical_name": "Institute for Multi-Track Diplomacy",
+   "metadata": {
+    "group_type": "ngo",
+    "city": "Washington, D.C.",
+    "country": "USA",
+    "notes": "private non-profit focused on conflict management and systems change; ran the Cyprus conflict-management project (with Fulbright Commission / Conflict Management Group / Harvard Negotiation Project) and the Bosnia Youth Leadership Adventure / Peace Trails program"
+   },
+   "source_urls": [
+    "https://imtdsite.wordpress.com/about/associates/",
+    "http://www.conradedwards.net/riaiaikido/index.php/Main/RichardMoon",
+    "https://nautilus.org/network/associates/richard-moon/"
+   ]
+  },
+  {
+   "id": "dojo:aikido-maastricht",
+   "type": "Dojo",
+   "label": "Aikido Maastricht",
+   "canonical_name": "Aikido Maastricht",
+   "metadata": {
+    "city": "Maastricht",
+    "country": "Netherlands",
+    "notes": "dojo >20 yrs old (ex-Aikidoschool Tendo); hosts guest teachers incl. Nadeau, Moon, Kitabu Roshi, Cassidy, Kessler",
+    "url": "http://www.aikido-maastricht.nl/"
+   },
+   "source_urls": [
+    "http://www.aikido-maastricht.nl/index.php/english"
+   ]
+  },
+  {
+   "id": "place:lake-geneva",
+   "type": "Place",
+   "label": "Lake Geneva (Montreux-Vevey)",
+   "canonical_name": "Lake Geneva",
+   "metadata": {
+    "country": "Switzerland",
+    "notes": "Riviera Seminar location"
+   },
+   "source_urls": [
+    "https://www.novumexperience.com/2025/06/09/riviera-seminar-2025-the-heart-of-freedom/"
+   ]
+  },
+  {
+   "id": "dojo:awase-helsinki",
+   "type": "Dojo",
+   "label": "Awase",
+   "canonical_name": "Awase",
+   "metadata": {
+    "city": "Helsinki",
+    "country": "Finland",
+    "url": "https://www.awase.fi/"
+   },
+   "source_urls": [
+    "https://www.awase.fi/aikido/language/fi/richard-moon-6-dan-awasessa-12-6-2025"
+   ]
+  },
+  {
+   "id": "event:imtd-lake-trails-camp-1999",
+   "type": "Event",
+   "label": "First IMTD Lake Trails camp — Moon teaches aikido as conflict-resolution tool (1999)",
+   "canonical_name": "First IMTD Lake Trails camp — Moon teaches aikido as conflict-resolution tool (1999)",
+   "metadata": {
+    "start_date": "1999",
+    "description": "Richard Moon joined the Institute for Multi-Track Diplomacy at the first Lake Trails camp in 1999, showing young participants how to use aikido as a conflict-resolution tool. Per IMTD associates page. This camp fed into IMTD's Youth Leadership Adventure (YLA) program in Bosnia (Peace Trails lineage).",
+    "event_type": "peace_work",
+    "source": "web_research_issue60"
+   },
+   "source_urls": [
+    "https://imtdsite.wordpress.com/about/associates/"
+   ]
+  },
+  {
+   "id": "event:moon-aikido-maastricht-2010",
+   "type": "Event",
+   "label": "Richard Moon aikido course at Aikido Maastricht, Netherlands (c. early 2010)",
+   "canonical_name": "Richard Moon aikido course at Aikido Maastricht, Netherlands (c. early 2010)",
+   "metadata": {
+    "start_date": "2010-03",
+    "description": "Aikido Maastricht lists Richard Moon among hosted guest teachers (with Robert Nadeau, Kitabu Roshi, Patrick Cassidy, Miles Kessler). Three 'moonsensei in maastricht' videos on Moon's own YouTube channel ('Aiki - Energy State', 'introduction to aiki-dance', 'developing awareness') uploaded Mar 11-14, 2010 — seminar was on or before that date.",
+    "event_type": "seminar",
+    "source": "web_research_issue60"
+   },
+   "source_urls": [
+    "http://www.aikido-maastricht.nl/index.php/english",
+    "http://aikido-ro.blogspot.com/2010/10/richard-moon-sensei-aikido-lessons.html",
+    "https://www.youtube.com/watch?v=MedDDBQHt6Y",
+    "https://www.youtube.com/watch?v=MYgMVm1K1Fo",
+    "https://www.youtube.com/watch?v=OI9ZS55CPdE"
+   ]
+  },
+  {
+   "id": "event:riviera-seminar-2025",
+   "type": "Event",
+   "label": "Riviera Seminar 2025 'The Heart of Freedom' — Lake Geneva, Switzerland (Jun 2025)",
+   "canonical_name": "Riviera Seminar 2025 'The Heart of Freedom' — Lake Geneva, Switzerland (Jun 2025)",
+   "metadata": {
+    "start_date": "2025-06-07",
+    "description": "Annual Riviera Seminar (Cassidy/Kessler format) held around Pentecost on Lake Geneva between Montreux and Vevey, Switzerland. 2025 teaching team: Patrick Cassidy, Roberto Martucci, Dan Messisco, Richard Moon (Miles Kessler absent). Moon posted he was 'headed to Switzerland to join Patrick Daniel and Robert' Jun 2, 2025.",
+    "event_type": "seminar",
+    "source": "web_research_issue60"
+   },
+   "source_urls": [
+    "https://www.novumexperience.com/2025/06/09/riviera-seminar-2025-the-heart-of-freedom/",
+    "https://www.linkedin.com/posts/richard-moon-00891714_headed-to-switzerland-to-join-patrick-daniel-activity-7335354032279982082-wEOT"
+   ]
+  },
+  {
+   "id": "event:moon-awase-helsinki-2025",
+   "type": "Event",
+   "label": "Richard Moon guest sessions at Awase dojo, Helsinki (Jun 9-12, 2025)",
+   "canonical_name": "Richard Moon guest sessions at Awase dojo, Helsinki (Jun 9-12, 2025)",
+   "metadata": {
+    "start_date": "2025-06-09",
+    "description": "Moon (billed 6th dan) led separately-booked sessions at Awase, Helsinki, Jun 9-12 2025, organized by Elisabeth Lahti.",
+    "event_type": "seminar",
+    "source": "web_research_issue60"
+   },
+   "source_urls": [
+    "https://www.awase.fi/aikido/language/fi/richard-moon-6-dan-awasessa-12-6-2025"
+   ]
+  },
+  {
+   "id": "event:moon-nz-tour-2025",
+   "type": "Event",
+   "label": "Richard Moon three-weekend New Zealand teaching tour (Sep 2025)",
+   "canonical_name": "Richard Moon three-weekend New Zealand teaching tour (Sep 2025)",
+   "metadata": {
+    "start_date": "2025-09",
+    "description": "Three-weekend NZ seminar tour (South Island -> Wellington -> North Island), >200 attendees across aikido classes/workshops and 'Extraordinary Listening'. Moon notes '38 years since Johan Lloyd Sutton, Val, Mike Ashwell etc invited us' -> first NZ invitation ~1987.",
+    "event_type": "seminar",
+    "source": "web_research_issue60"
+   },
+   "source_urls": [
+    "https://www.linkedin.com/posts/richard-moon-00891714_just-about-to-start-last-day-teaching-in-activity-7372723745481936896-fgKy",
+    "http://www.conradedwards.net/riaiaikido/index.php/Main/RichardMoon"
+   ]
+  },
+  {
+   "id": "work:web-imtd-issue60",
+   "type": "Work",
+   "label": "IMTD — Associates page (Richard Moon bio)",
+   "canonical_name": "IMTD — Associates page (Richard Moon bio)",
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 60 Moon Europe/peace-work rescan",
+    "local_archive": "data/reference/moon/imtd_associates.html"
+   },
+   "source_urls": [
+    "https://imtdsite.wordpress.com/about/associates/"
+   ]
+  },
+  {
+   "id": "work:web-maastricht-issue60",
+   "type": "Work",
+   "label": "Aikido Maastricht — English welcome page (hosted teachers)",
+   "canonical_name": "Aikido Maastricht — English welcome page (hosted teachers)",
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 60 Moon Europe/peace-work rescan",
+    "local_archive": "data/reference/moon/aikido_maastricht_english.html"
+   },
+   "source_urls": [
+    "http://www.aikido-maastricht.nl/index.php/english"
+   ]
+  },
+  {
+   "id": "work:web-blog-issue60",
+   "type": "Work",
+   "label": "aikido-ro.blogspot.com — 'Richard Moon Sensei - Aikido Lessons' (Oct 2010)",
+   "canonical_name": "aikido-ro.blogspot.com — 'Richard Moon Sensei - Aikido Lessons' (Oct 2010)",
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 60 Moon Europe/peace-work rescan",
+    "local_archive": "data/reference/moon/moon_maastricht_blog.html"
+   },
+   "source_urls": [
+    "http://aikido-ro.blogspot.com/2010/10/richard-moon-sensei-aikido-lessons.html"
+   ]
+  },
+  {
+   "id": "work:web-yt1-issue60",
+   "type": "Work",
+   "label": "YouTube — 'moonsensei in maastricht: Aiki - Energy State' (uploaded 2010-03-14)",
+   "canonical_name": "YouTube — 'moonsensei in maastricht: Aiki - Energy State' (uploaded 2010-03-14)",
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 60 Moon Europe/peace-work rescan"
+   },
+   "source_urls": [
+    "https://www.youtube.com/watch?v=MedDDBQHt6Y"
+   ]
+  },
+  {
+   "id": "work:web-yt2-issue60",
+   "type": "Work",
+   "label": "YouTube — 'moonsensei in maastricht: introduction to aiki-dance' (uploaded 2010-03-11)",
+   "canonical_name": "YouTube — 'moonsensei in maastricht: introduction to aiki-dance' (uploaded 2010-03-11)",
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 60 Moon Europe/peace-work rescan"
+   },
+   "source_urls": [
+    "https://www.youtube.com/watch?v=MYgMVm1K1Fo"
+   ]
+  },
+  {
+   "id": "work:web-yt3-issue60",
+   "type": "Work",
+   "label": "YouTube — 'moonsensei in maastricht: developing awareness' (uploaded 2010-03-12)",
+   "canonical_name": "YouTube — 'moonsensei in maastricht: developing awareness' (uploaded 2010-03-12)",
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 60 Moon Europe/peace-work rescan"
+   },
+   "source_urls": [
+    "https://www.youtube.com/watch?v=OI9ZS55CPdE"
+   ]
+  },
+  {
+   "id": "work:web-novum-issue60",
+   "type": "Work",
+   "label": "Novum Experience — 'Riviera Seminar 2025: the heart of Freedom'",
+   "canonical_name": "Novum Experience — 'Riviera Seminar 2025: the heart of Freedom'",
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 60 Moon Europe/peace-work rescan",
+    "local_archive": "data/reference/moon/novum_riviera_2025.html"
+   },
+   "source_urls": [
+    "https://www.novumexperience.com/2025/06/09/riviera-seminar-2025-the-heart-of-freedom/"
+   ]
+  },
+  {
+   "id": "work:web-awase-issue60",
+   "type": "Work",
+   "label": "Awase.fi — 'Richard Moon, 6. dan Awasessa 12.6.2025'",
+   "canonical_name": "Awase.fi — 'Richard Moon, 6. dan Awasessa 12.6.2025'",
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 60 Moon Europe/peace-work rescan",
+    "local_archive": "data/reference/moon/awase_fi_2025.html"
+   },
+   "source_urls": [
+    "https://www.awase.fi/aikido/language/fi/richard-moon-6-dan-awasessa-12-6-2025"
+   ]
+  },
+  {
+   "id": "work:web-nautilus-issue60",
+   "type": "Work",
+   "label": "Nautilus Institute — Richard Moon associate bio",
+   "canonical_name": "Nautilus Institute — Richard Moon associate bio",
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 60 Moon Europe/peace-work rescan",
+    "local_archive": "data/reference/moon/nautilus_moon.html"
+   },
+   "source_urls": [
+    "https://nautilus.org/network/associates/richard-moon/"
+   ]
+  },
+  {
+   "id": "work:web-riai-issue60",
+   "type": "Work",
+   "label": "Riai Aikido — Richard Moon bio (Cyprus/IMTD paragraph)",
+   "canonical_name": "Riai Aikido — Richard Moon bio (Cyprus/IMTD paragraph)",
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 60 Moon Europe/peace-work rescan",
+    "local_archive": "data/reference/moon/riai_moon_bio.html"
+   },
+   "source_urls": [
+    "http://www.conradedwards.net/riaiaikido/index.php/Main/RichardMoon"
+   ]
+  },
+  {
+   "id": "work:web-qa-issue60",
+   "type": "Work",
+   "label": "Quantum Aikido — Richard Moon author bio",
+   "canonical_name": "Quantum Aikido — Richard Moon author bio",
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 60 Moon Europe/peace-work rescan",
+    "local_archive": "data/reference/moon/quantumaikido_home.html"
+   },
+   "source_urls": [
+    "https://quantumaikido.com/"
+   ]
+  },
+  {
+   "id": "work:web-sands-issue60",
+   "type": "Work",
+   "label": "Simon & Schuster — Richard Moon author page (6th Dan)",
+   "canonical_name": "Simon & Schuster — Richard Moon author page (6th Dan)",
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 60 Moon Europe/peace-work rescan"
+   },
+   "source_urls": [
+    "https://www.simonandschuster.com/authors/Richard-Moon/221805059"
+   ]
+  },
+  {
+   "id": "work:web-li_ch-issue60",
+   "type": "Work",
+   "label": "LinkedIn — Moon: 'Headed to Switzerland...' (Jun 2, 2025)",
+   "canonical_name": "LinkedIn — Moon: 'Headed to Switzerland...' (Jun 2, 2025)",
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 60 Moon Europe/peace-work rescan"
+   },
+   "source_urls": [
+    "https://www.linkedin.com/posts/richard-moon-00891714_headed-to-switzerland-to-join-patrick-daniel-activity-7335354032279982082-wEOT"
+   ]
+  },
+  {
+   "id": "work:web-li_nz-issue60",
+   "type": "Work",
+   "label": "LinkedIn — Moon: 'last day teaching in New Zealand' (Sep 13, 2025)",
+   "canonical_name": "LinkedIn — Moon: 'last day teaching in New Zealand' (Sep 13, 2025)",
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 60 Moon Europe/peace-work rescan"
+   },
+   "source_urls": [
+    "https://www.linkedin.com/posts/richard-moon-00891714_just-about-to-start-last-day-teaching-in-activity-7372723745481936896-fgKy"
+   ]
+  },
+  {
+   "id": "work:web-crtg-issue60",
+   "type": "Work",
+   "label": "Wikipedia — Cyprus Conflict Resolution Trainers Group",
+   "canonical_name": "Wikipedia — Cyprus Conflict Resolution Trainers Group",
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 60 Moon Europe/peace-work rescan",
+    "local_archive": "data/reference/cyprus/crtg_wikipedia_wikitext.txt"
+   },
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Cyprus_Conflict_Resolution_Trainers_Group"
+   ]
+  },
+  {
+   "id": "work:web-map-issue60",
+   "type": "Work",
+   "label": "Bicommunal Groups Map (Laouris 1997, rev. 2007)",
+   "canonical_name": "Bicommunal Groups Map (Laouris 1997, rev. 2007)",
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 60 Moon Europe/peace-work rescan",
+    "local_archive": "data/reference/cyprus/Bicom_Groups_Map_Revised2007_12_08.jpg"
+   },
+   "source_urls": [
+    "https://www.futureworlds.eu/wiki/1/d/d9/Bicom_Groups_Map_Revised2007_12_08.jpg"
+   ]
+  },
+  {
+   "id": "work:web-mapdesc-issue60",
+   "type": "Work",
+   "label": "Future Worlds wiki — historical overview of CRTG bicommunal groups",
+   "canonical_name": "Future Worlds wiki — historical overview of CRTG bicommunal groups",
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 60 Moon Europe/peace-work rescan",
+    "local_archive": "data/reference/cyprus/futureworlds_crtg_overview.html"
+   },
+   "source_urls": [
+    "https://www.futureworlds.eu/wiki/Historical_overview_of_all_bi-communal_groups_created_and_facilitated_by_the_CRTG"
+   ]
+  },
+  {
+   "id": "work:web-wolleh-issue60",
+   "type": "Work",
+   "label": "Wolleh (2001) — Local Peace Constituencies in Cyprus, Berghof Report 8",
+   "canonical_name": "Wolleh (2001) — Local Peace Constituencies in Cyprus, Berghof Report 8",
+   "metadata": {
+    "work_type": "web_page",
+    "ingested_for": "issue 60 Moon Europe/peace-work rescan",
+    "local_archive": "data/reference/cyprus/wolleh_berghof_br8e.pdf"
+   },
+   "source_urls": [
+    "https://berghof-foundation.org/files/publications/br8e.pdf"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:imtd-lake-trails-camp-1999",
+   "metadata": {
+    "role": "instructor",
+    "date": "1999",
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:moon-aikido-maastricht-2010",
+   "metadata": {
+    "role": "instructor",
+    "date": "2010-03",
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "event:moon-aikido-maastricht-2010",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "dojo:aikido-maastricht",
+   "metadata": {
+    "source_url": "http://www.aikido-maastricht.nl/index.php/english"
+   }
+  },
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:riviera-seminar-2025",
+   "metadata": {
+    "role": "instructor",
+    "date": "2025-06-07",
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "event:riviera-seminar-2025",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "place:lake-geneva",
+   "metadata": {
+    "source_url": "https://www.novumexperience.com/2025/06/09/riviera-seminar-2025-the-heart-of-freedom/"
+   }
+  },
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:moon-awase-helsinki-2025",
+   "metadata": {
+    "role": "instructor",
+    "date": "2025-06-09",
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "event:moon-awase-helsinki-2025",
+   "rel_type": "LOCATED_IN",
+   "dst_id": "dojo:awase-helsinki",
+   "metadata": {
+    "source_url": "https://www.awase.fi/aikido/language/fi/richard-moon-6-dan-awasessa-12-6-2025"
+   }
+  },
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:moon-nz-tour-2025",
+   "metadata": {
+    "role": "instructor",
+    "date": "2025-09",
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:imtd",
+   "metadata": {
+    "since": "1999",
+    "context": "joined at first Lake Trails camp; associate/consultant",
+    "source_url": "https://imtdsite.wordpress.com/about/associates/"
+   }
+  },
+  {
+   "src_id": "event:imtd-lake-trails-camp-1999",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:imtd",
+   "metadata": {
+    "context": "IMTD program event"
+   }
+  },
+  {
+   "src_id": "event:imtd-lake-trails-camp-1999",
+   "rel_type": "PRECEDES",
+   "dst_id": "event:international-peace-building-project-in-bosnia",
+   "metadata": {
+    "context": "Lake Trails 1999 -> IMTD Bosnia YLA/Peace Trails work Moon participated in"
+   }
+  },
+  {
+   "src_id": "person:richard-moon-aikido",
+   "rel_type": "CO_APPEARANCE",
+   "dst_id": "event:international-peace-building-project-in-bosnia",
+   "metadata": {
+    "role": "consultant/instructor",
+    "context": "IMTD Bosnia peace-building (per IMTD, Nautilus, Riai, Quantum Aikido bios)",
+    "source_url": "https://imtdsite.wordpress.com/about/associates/"
+   }
+  },
+  {
+   "src_id": "work:web-imtd-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:imtd-lake-trails-camp-1999",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-maastricht-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:moon-aikido-maastricht-2010",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-blog-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:moon-aikido-maastricht-2010",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-yt1-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:moon-aikido-maastricht-2010",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-yt2-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:moon-aikido-maastricht-2010",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-yt3-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:moon-aikido-maastricht-2010",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-novum-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:riviera-seminar-2025",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-li_ch-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:riviera-seminar-2025",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-awase-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:moon-awase-helsinki-2025",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-li_nz-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:moon-nz-tour-2025",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-riai-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "event:moon-nz-tour-2025",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-riai-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "person:richard-moon-aikido",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-nautilus-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "person:richard-moon-aikido",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-qa-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "person:richard-moon-aikido",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-sands-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "person:richard-moon-aikido",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-imtd-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "person:richard-moon-aikido",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-crtg-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "group:cyprus-consortium",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-map-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "group:cyprus-consortium",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-mapdesc-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "group:cyprus-consortium",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-wolleh-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "group:cyprus-consortium",
+   "metadata": {
+    "source": "web_research_issue60"
+   }
+  },
+  {
+   "src_id": "work:web-map-issue60",
+   "rel_type": "DESCRIBES",
+   "dst_id": "group:cyprus-peace-training-team",
+   "metadata": {
+    "source": "web_research_issue60",
+    "context": "Laouris 1997 illustration of ~40 bicommunal groups facilitated by the CRTG; fig. in Laouris & Laouri 2008 (Wikipedia cite_note-23)"
+   }
+  }
+ ]
+}

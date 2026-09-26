@@ -1,0 +1,642 @@
+{
+  "subject": "hiroshi-ikeda",
+  "article": {
+    "title": "Hiroshi Ikeda (aikidoka)",
+    "talk": "Talk:Hiroshi Ikeda (aikidoka)",
+    "exists": true,
+    "mode": "talk_page",
+    "coi": "The requester's research project actively corresponds with dojos about Ikeda's seminar history and holds personal communications (email replies from dojo members) as first-class graph evidence. None of that personal knowledge is used as a source for the proposed wording.",
+    "live_page": {
+      "cache_file": "data/cache/wikipedia/hiroshi-ikeda.md",
+      "revid": 1376549637
+    }
+  },
+  "gng": {
+    "status": "pass",
+    "note": "Live article exists; 5 RELIABLE sources (all Aikido Journal) + 4 MARGINAL per generated reliability report."
+  },
+  "items": [
+    {
+      "id": "upd:ikeda:hachijojima-birthplace",
+      "type": "addition",
+      "claim": "Ikeda was born in January 1950 on Hachij\u014d-jima (\u516b\u4e08\u5cf6), a volcanic island ~290 km south of central Tokyo administered as part of Tokyo Metropolis \u2014 live article says only 'Tokyo'.",
+      "target_section": "Early life",
+      "evidence": [
+        {
+          "source": "src:aj-interview-ikeda-1995",
+          "reliability": "reliable",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "full",
+          "note": "AJ #104 (1995) Pranin interview profile, independent of the subject's own site"
+        },
+        {
+          "source": "src:aj-encyclopedia-ikeda",
+          "reliability": "reliable",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "partial",
+          "note": "Encyclopedia spells it 'Hachiojima' [sic] \u2014 same island"
+        }
+      ],
+      "decision": "citable",
+      "rationale": "Two independent published sources; refines an existing claim, not a new one.",
+      "proposal": {
+        "wikitext": "Ikeda was born on [[Hachij\u014d-jima]], Tokyo, and began studying aikido in 1968 while attending [[Kokugakuin University]].<ref name=\"aj-1995\">{{cite magazine |title=Interview with Hiroshi Ikeda |magazine=[[Aikido Journal]] |issue=104 |date=1995 |url=https://aikidojournal.com/2002/08/26/interview-with-hiroshi-ikeda/ |access-date=2026-09-25}}</ref>",
+        "anchor": {
+          "section": "Early life",
+          "passage": "Ikeda was born in [[Tokyo]] and began studying aikido in 1968"
+        },
+        "base_revid": 1376549637
+      },
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "corroboration source hunt"
+        }
+      ]
+    },
+    {
+      "id": "upd:ikeda:asu-independence-2015",
+      "type": "addition",
+      "claim": "Ikeda served as ASU vice president before Saotome recognized him as an independent instructor on 19 January 2015, ending his direct ASU affiliation and ASU yudansha examination responsibility.",
+      "target_section": "Career",
+      "evidence": [
+        {
+          "source": "src:asu-letter-ikeda-2015",
+          "reliability": "unscored",
+          "independence": "primary-org",
+          "coverage_depth": "significant",
+          "supports": "partial",
+          "note": "Organization's own contemporaneous announcement \u2014 reliable for the fact of the announcement; covers the 2015/ASU half only"
+        },
+        {
+          "source": "src:maytt-ikeda-2023",
+          "reliability": "marginal",
+          "independence": "self-report",
+          "coverage_depth": "significant",
+          "supports": "full",
+          "note": "Ikeda's own account in interview; corroborates and supplies the Shimbokukai half"
+        }
+      ],
+      "decision": "citable",
+      "rationale": "Primary organizational record for the org's own action; attributed wording. Cannot carry significance claims.",
+      "proposal": {
+        "wikitext": "Ikeda served as vice president of Saotome's [[Aikido Schools of Ueshiba]] before being recognized as an independent instructor in January 2015;<ref name=\"asu-letter\">{{cite web |title=Letter to ASU Members |last=Saotome |first=Patty |publisher=Aikido Schools of Ueshiba |date=2015-01-19 |url=http://asu.org/letter-to-asu-members2/ |archive-url=https://web.archive.org/web/20150122062113/http://asu.org/letter-to-asu-members2/ |archive-date=2015-01-22 |access-date=2026-09-26}}</ref> he joined [[Aikido Shimbokukai]] as vice president in 2016.<ref name=\"maytt-2023\">{{cite web |title=Hiroshi Ikeda \u2014 A Journey with Mitsugi Saotome |work=Martial Arts of Yesterday, Today and Tomorrow |date=2023-03-24 |url=https://maytt.home.blog/2023/03/24/interview-with-hiroshi-ikeda-a-journey-with-mitsugi-saotome/ |access-date=2026-09-25}}</ref>",
+        "anchor": {
+          "section": "Career"
+        },
+        "base_revid": 1376549637
+      },
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-26",
+          "status": "proposed",
+          "note": "ASU letter ingested; upgraded from self-report to org record"
+        }
+      ]
+    },
+    {
+      "id": "upd:ikeda:aikido-bridge-2005",
+      "type": "addition",
+      "claim": "In 2005 Ikeda started the Aikido Bridge seminar series; first event was the 'Un Pont' International Friendship Seminar at Jiai Aikido, San Diego.",
+      "target_section": "Career",
+      "evidence": [
+        {
+          "external": {
+            "url": "http://aikidobridge.com/about/",
+            "title": "About Bridge Events \u2014 Aikido Bridge"
+          },
+          "reliability": "unscored",
+          "independence": "self-report",
+          "coverage_depth": "significant",
+          "supports": "full",
+          "note": "The series' own site \u2014 affiliated"
+        },
+        {
+          "source": "work:fe88ead9b25f608d",
+          "reliability": "unreliable",
+          "independence": "self-report",
+          "coverage_depth": "significant",
+          "supports": "full",
+          "note": "Subject's own site (hiroshi-ikeda.com/aikido-bridge) \u2014 WP:ABOUTSELF only"
+        }
+      ],
+      "decision": "citation-pending",
+      "rationale": "Affiliated sources only; attributed sentence per WP:ABOUTSELF, acceptability left to editors. Held out of the paste-ready patch under the evidence floor (#81): all sources are affiliated/self-report, no reliable|marginal evidence.",
+      "proposal": {
+        "wikitext": "In 2005, Ikeda started the Aikido Bridge seminar series, which brings together teachers and students from different aikido organizations; the series began with the \"Un Pont\" International Friendship Seminar held at Jiai Aikido in San Diego.<ref name=\"aikidobridge\">{{cite web |title=About Bridge Events |work=Aikido Bridge |url=http://aikidobridge.com/about/ |access-date=2026-09-25}}</ref><ref name=\"ikeda-bridge\">{{cite web |title=Aikido Bridge |work=Hiroshi Ikeda Shihan (official site) |url=https://www.hiroshi-ikeda.com/aikido-bridge |access-date=2026-09-25}}</ref>",
+        "anchor": {
+          "section": "Career"
+        },
+        "base_revid": 1376549637
+      },
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "initial Ikeda update package"
+        }
+      ]
+    },
+    {
+      "id": "upd:ikeda:bridge-virtual-2020",
+      "type": "addition",
+      "claim": "In May 2020 the Aikido Bridge series held its first virtual seminar, hosted by Aikido Shimbokukai, with 130+ participants and Ikeda as closing instructor.",
+      "target_section": "Career",
+      "evidence": [
+        {
+          "source": "src:maytt-covid-bridge-seminar-2020",
+          "reliability": "marginal",
+          "independence": "secondary",
+          "coverage_depth": "incidental",
+          "supports": "full",
+          "note": "Blog journalism independent of the subject; also corroborates the Shimbokukai link"
+        }
+      ],
+      "decision": "citable",
+      "rationale": "Independent report of a specific event; optional detail, editors judge.",
+      "proposal": {
+        "wikitext": "In May 2020 the series held its first virtual seminar, hosted by Aikido Shimbokukai and drawing over 130 participants.<ref name=\"maytt-bridge2020\">{{cite web |title=The COVID-19 Aikido Bridge Seminar |work=Martial Arts of Yesterday, Today and Tomorrow |date=2020-05-06 |url=https://maytt.home.blog/2020/05/06/the-covid-19-aikido-bridge-seminar/ |access-date=2026-09-26}}</ref>",
+        "anchor": {
+          "section": "Career"
+        },
+        "base_revid": 1376549637
+      },
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-26",
+          "status": "proposed",
+          "note": "authority sweep #75"
+        }
+      ]
+    },
+    {
+      "id": "upd:ikeda:boulder-august-1980",
+      "type": "addition",
+      "claim": "Boulder Aikikai was established in August 1980 (month precision over the live article's bare '1980').",
+      "target_section": "Career",
+      "evidence": [
+        {
+          "source": "src:aj-interview-ikeda-aloia-2020",
+          "reliability": "reliable",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "full"
+        },
+        {
+          "source": "src:aj-encyclopedia-ikeda",
+          "reliability": "reliable",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "partial",
+          "note": "year only"
+        }
+      ],
+      "decision": "citable",
+      "rationale": "Month precision confirmed by the AJ interview; encyclopedia corroborates the year.",
+      "proposal": {
+        "wikitext": "In 1980, Ikeda moved to [[Boulder, Colorado]], where he established Boulder Aikikai in August 1980 under Saotome's ASU organization.",
+        "anchor": {
+          "section": "Career",
+          "passage": "In 1980, Ikeda moved to [[Boulder, Colorado]], where he established"
+        },
+        "base_revid": 1376549637
+      },
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "AJ site-search sweep"
+        }
+      ]
+    },
+    {
+      "id": "upd:ikeda:bermuda-2011",
+      "type": "addition",
+      "claim": "In June 2011 Bermuda Aikikai hosted Ikeda and Rick Stickles for a weekend seminar.",
+      "target_section": "Historical seminars",
+      "evidence": [
+        {
+          "source": "src:bernews-ikeda-2011",
+          "reliability": "marginal",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "full",
+          "note": "Independent Bermuda news site, with photos"
+        }
+      ],
+      "decision": "citable",
+      "rationale": "Independent news coverage; inclusion is an editor judgment consistent with the article's curated seminar list.",
+      "proposal": {
+        "wikitext": "In June 2011, Bermuda Aikikai hosted Ikeda and Rick Stickles for a weekend seminar.<ref>{{cite news |title=Bermuda Aikikai Hosts Top Aikido Masters |work=Bernews |date=2011-06-06 |url=https://bernews.com/2011/06/bermuda-aikikai-hosts-top-aikido-masters/ |access-date=2026-09-25}}</ref>",
+        "anchor": {
+          "section": "Historical Seminars and public demonstrations"
+        },
+        "base_revid": 1376549637
+      },
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "corroboration source hunt"
+        }
+      ]
+    },
+    {
+      "id": "upd:ikeda:kona-2019",
+      "type": "addition",
+      "claim": "In January 2019 Ikeda taught Aiki Kai o Kona's 31st Anniversary Seminar in Kailua-Kona, Hawaii.",
+      "target_section": "Historical seminars",
+      "evidence": [
+        {
+          "source": "src:aikikaiokona-ikeda-2019",
+          "reliability": "unreliable",
+          "independence": "primary-org",
+          "coverage_depth": "significant",
+          "supports": "full",
+          "note": "Host dojo's own record \u2014 organizational but independent of the subject; dojo also covered by West Hawaii Today"
+        }
+      ],
+      "decision": "citation-pending",
+      "rationale": "Host-dojo record; attributed, editor judgment on the seminar list. Held pending independent coverage (e.g. West Hawaii Today) \u2014 only evidence is the host dojo's own record rated unreliable (#81).",
+      "proposal": {
+        "wikitext": "In January 2019, Ikeda taught the 31st Anniversary Seminar hosted by Aiki Kai o Kona in [[Kailua-Kona, Hawaii]].<ref>{{cite web |title=Hiroshi Ikeda in Kona |work=Aiki Kai o Kona |date=2019-01-27 |url=https://aikikaiokona.wixsite.com/aikikaiokona/blank-4 |access-date=2026-09-25}}</ref>",
+        "anchor": {
+          "section": "Historical Seminars and public demonstrations"
+        },
+        "base_revid": 1376549637
+      },
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "corroboration source hunt; distinct from the uncorroborated Ka'u claim"
+        }
+      ]
+    },
+    {
+      "id": "upd:ikeda:aikido-for-tomorrow-2020",
+      "type": "addition",
+      "claim": "Boulder Aikikai hosted the 'Aikido for Tomorrow' youth seminar, February 21\u201323 2020, drawing 50+ participants from 27 dojos; Ikeda encouraged organizer Evolene Premillieu to make it more than 'just another Bridge seminar'.",
+      "target_section": "Career",
+      "evidence": [
+        {
+          "source": "src:aj-aikido-for-tomorrow-2020",
+          "reliability": "reliable",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "full"
+        },
+        {
+          "source": "src:maytt-premillieu-interview-2020",
+          "reliability": "marginal",
+          "independence": "self-report",
+          "coverage_depth": "significant",
+          "supports": "partial",
+          "note": "Organizer's own account; Premillieu moved to Boulder to train under Ikeda/Hofmeister"
+        }
+      ],
+      "decision": "citable",
+      "rationale": "AJ-published feature on an event at his dojo; documents reach of the Bridge-adjacent youth initiative.",
+      "proposal": {
+        "wikitext": "In February 2020, Boulder Aikikai hosted 'Aikido for Tomorrow', a youth-oriented seminar conceived as an offshoot of the Bridge series, drawing over 50 participants from 27 dojos.<ref name=\"aft-2020\">{{cite web |title=Aikido for Tomorrow |work=Aikido Journal |date=2020-04-08 |url=https://aikidojournal.com/2020/04/08/aikido-for-tomorrow/ |access-date=2026-09-25}}</ref>",
+        "anchor": {
+          "section": "Career"
+        },
+        "base_revid": 1376549637
+      },
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-26",
+          "status": "proposed",
+          "note": "authority sweep #75"
+        }
+      ]
+    },
+    {
+      "id": "upd:ikeda:repair-empty-boulder-link",
+      "type": "repair",
+      "claim": "The 1980 sentence renders an empty link ('established [ ]') \u2014 the wikitext contains a bare external URL inside a wikilink.",
+      "target_section": "Career",
+      "evidence": [],
+      "decision": "citable",
+      "rationale": "Mechanical repair \u2014 non-controversial.",
+      "proposal": {
+        "wikitext": "where he established [[Boulder Aikikai]] under Saotome's ASU organization.",
+        "anchor": {
+          "section": "Career",
+          "passage": "where he established [[https://www.boulderaikikai.org/]] under Saotome's ASU organization."
+        },
+        "base_revid": 1376549637
+      },
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "found by compare report"
+        }
+      ],
+      "override": "mechanical repair \u2014 the wikilink renders empty in the live source; no external source needed"
+    },
+    {
+      "id": "upd:ikeda:repair-boulder-co",
+      "type": "repair",
+      "claim": "'based in the Boulder, CO' \u2014 grammar/proper link.",
+      "target_section": "Lead",
+      "evidence": [],
+      "decision": "citable",
+      "rationale": "Mechanical repair \u2014 non-controversial.",
+      "proposal": {
+        "wikitext": "based in [[Boulder, Colorado]]",
+        "anchor": {
+          "section": "Lead",
+          "passage": "based in the [[Boulder, CO]]"
+        },
+        "base_revid": 1376549637
+      },
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "found by compare report"
+        }
+      ],
+      "override": "mechanical repair \u2014 fixes grammar/link syntax visible in the live source; no external source needed"
+    },
+    {
+      "id": "upd:ikeda:q-bridge-aboutself",
+      "type": "question",
+      "claim": "Are the Aikido Bridge sources (the series' own site and Ikeda's official site) acceptable for one attributed sentence under WP:ABOUTSELF, or should the claim wait for independent coverage?",
+      "target_section": "Talk",
+      "evidence": [],
+      "decision": "citable-attributed",
+      "rationale": "Editor question accompanying upd:ikeda:aikido-bridge-2005.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "talk proposal"
+        }
+      ]
+    },
+    {
+      "id": "upd:ikeda:q-scheduled-seminars",
+      "type": "question",
+      "claim": "The 'Scheduled seminars' section is dated 'As of 17 September 2026' and will silently go stale \u2014 date-stamp explicitly, or replace with a pointer to Boulder Aikikai's published schedule?",
+      "target_section": "Talk",
+      "evidence": [],
+      "decision": "citable",
+      "rationale": "Maintenance question, not an edit.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "compare report finding"
+        }
+      ]
+    },
+    {
+      "id": "upd:ikeda:q-seminar-list-threshold",
+      "type": "question",
+      "claim": "The article's seminar list is curated \u2014 is there a guideline-preferred threshold for inclusion (e.g., only seminars with independent coverage like the newspaper-cited 1982/1991/2000 entries)?",
+      "target_section": "Talk",
+      "evidence": [],
+      "decision": "citable",
+      "rationale": "Editor question; governs whether Bermuda/Kona additions are appropriate.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "talk proposal"
+        }
+      ]
+    },
+    {
+      "id": "upd:ikeda:q-maytt-org-history",
+      "type": "question",
+      "claim": "Is the MAYTT 2023 interview (Ikeda's own account) sufficient for attributed org-history detail (ASU VP, 2015 independence, 2016 Shimbokukai VP), or should this wait for independent sources? The ASU half now has the org's own letter; the 2016 half remains self-report.",
+      "target_section": "Talk",
+      "evidence": [],
+      "decision": "citable-attributed",
+      "rationale": "Editor question accompanying upd:ikeda:asu-independence-2015.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-26",
+          "status": "proposed",
+          "note": "AJ sweep + ASU letter"
+        }
+      ]
+    },
+    {
+      "id": "upd:ikeda:q-date-discrepancy",
+      "type": "question",
+      "claim": "Aikido start: 1968 (his site, AJ intros) vs 1969 (MAYTT 2023 intro); Reimei Juku entry: 1970 (AJ Encyclopedia) vs 1971 (MAYTT 2023). Proposal: keep the article's 1968 and flag the conflict rather than silently choosing.",
+      "target_section": "Talk",
+      "evidence": [
+        {
+          "source": "src:maytt-ikeda-2023",
+          "reliability": "marginal",
+          "independence": "self-report",
+          "coverage_depth": "significant",
+          "supports": "partial",
+          "note": "intro dates 1969/1971"
+        },
+        {
+          "source": "src:aj-encyclopedia-ikeda",
+          "reliability": "reliable",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "partial",
+          "note": "1970 Reimei Juku"
+        }
+      ],
+      "decision": "not-citable",
+      "rationale": "Unresolved conflict \u2014 recorded in graph as claim:ikeda:aikido-start-year-discrepancy; flagged for editors, not asserted.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "AJ sweep; discrepancy preserved not resolved"
+        }
+      ]
+    },
+    {
+      "id": "upd:ikeda:ex-floating-bridge-kau",
+      "type": "excluded",
+      "claim": "Floating Bridge / Ka'u Aikikai seminars in Ka'u district, Big Island (2024\u20132026; Jan 2027 planned).",
+      "target_section": "n/a",
+      "evidence": [
+        {
+          "source": "src:email-bob-klein-2026-09-25",
+          "reliability": "unreliable",
+          "independence": "self-report",
+          "coverage_depth": "significant",
+          "supports": "full",
+          "note": "Personal email \u2014 graph evidence only"
+        }
+      ],
+      "decision": "not-citable",
+      "rationale": "Personal communication; zero web/FB presence found for the dojo (searched 2026-09-25). Becomes citable via published announcements or the 2024/2025 flyers (Gary Reiss outreach pending). The separate Kona dojo IS published \u2014 see upd:ikeda:kona-2019.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "outreach reply; negative web finding"
+        }
+      ]
+    },
+    {
+      "id": "upd:ikeda:ex-visited-dojo-leads",
+      "type": "excluded",
+      "claim": "'Schools he visited frequently' \u2014 Harmonie Club 87 (Limoges), Instituto Takemussu (S\u00e3o Paulo), Two Cranes Aikido, and ~14 similar DOJO_AFFILIATION edges.",
+      "target_section": "n/a",
+      "evidence": [],
+      "decision": "not-citable",
+      "rationale": "A visit is not an affiliation (the Varjan incident \u2014 Kohala Aikikai's denial is preserved in the graph). Outreach-pending edges are leads, not article claims; includable only via a published record of a specific seminar.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "Varjan discipline"
+        }
+      ]
+    },
+    {
+      "id": "upd:ikeda:ex-seminar-calendar",
+      "type": "excluded",
+      "claim": "Ikeda's published seminar calendar (Google Sheets) \u2014 organizational data dump.",
+      "target_section": "n/a",
+      "evidence": [
+        {
+          "external": {
+            "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQBR8H7J6o0KpQ1kg5T3a3ZLAXXWkNdty2TGjBLHTw/pubhtml",
+            "title": "Hiroshi Ikeda seminar calendar (published sheet)"
+          },
+          "reliability": "unreliable",
+          "independence": "self-report",
+          "coverage_depth": "significant",
+          "supports": "full",
+          "note": "Mirrors the Boulder Aikikai schedule already cited"
+        }
+      ],
+      "decision": "not-citable",
+      "rationale": "Organizational data dump; not an independent source.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "calendar ingest"
+        }
+      ]
+    },
+    {
+      "id": "upd:ikeda:ex-email-replies",
+      "type": "excluded",
+      "claim": "Kristina Varjan denial (Kohala Aikikai \u2014 Ikeda never visited), Garth Jones reply (Allegheny Aikido seminar ~2001), other outreach email replies.",
+      "target_section": "n/a",
+      "evidence": [
+        {
+          "source": "source:kristina-varjan-kohala-email-2026-09-24",
+          "reliability": "unreliable",
+          "independence": "self-report",
+          "coverage_depth": "significant",
+          "supports": "full",
+          "note": "Denial preserved \u2014 corrects an earlier affiliation inference"
+        },
+        {
+          "source": "src:email-garth-jones-2026-09-24",
+          "reliability": "unreliable",
+          "independence": "self-report",
+          "coverage_depth": "significant",
+          "supports": "partial",
+          "note": "Personal recollection of a 2001 seminar \u2014 lead, not citation"
+        }
+      ],
+      "decision": "not-citable",
+      "rationale": "Personal communication \u2014 graph evidence only, disclosed in COI, never cited.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "outreach round"
+        }
+      ]
+    },
+    {
+      "id": "upd:ikeda:ex-maytt-2019-reprint",
+      "type": "excluded",
+      "claim": "MAYTT 'Aikido's Current State' post (2020-07-01) \u2014 verbatim reprint of the AJ March 2020 Aloia interview.",
+      "target_section": "n/a",
+      "evidence": [
+        {
+          "source": "src:maytt-ikeda-2019",
+          "reliability": "unreliable",
+          "independence": "self-report",
+          "coverage_depth": "significant",
+          "supports": "full",
+          "note": "Reclassed documentary_promotional; canonical original is src:aj-interview-ikeda-aloia-2020"
+        }
+      ],
+      "decision": "not-citable",
+      "rationale": "Same interview counted twice would inflate the source count; MAYTT is interviewer Aloia's own blog and says so on the page.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "dedup during AJ sweep"
+        }
+      ]
+    },
+    {
+      "id": "upd:ikeda:ex-routine-seminar-listings",
+      "type": "excluded",
+      "claim": "~440 CO_APPEARANCE seminar listings (aikiweb DB, Boulder Aikikai calendar, Shimbokukai events).",
+      "target_section": "n/a",
+      "evidence": [],
+      "decision": "not-citable",
+      "rationale": "The live article already carries a representative seminar list; bulk additions would be a directory, not prose.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "compare-report flood"
+        }
+      ]
+    }
+  ],
+  "open_tasks": [
+    "Ingest the live article's three Newspapers.com citations into the graph (Missoulian 1982-04-13 p.11; Bradenton Herald 1991-09-29 p.22; Pensacola News Journal 2000-09-30 p.34)",
+    "Black Belt check \u2014 Google Books rate-limited; retry for Ikeda coverage (Bu Jin Newsletter is his own company \u2014 affiliated)",
+    "Ka'u / Floating Bridge corroboration path \u2014 2024/2025 flyers or Gary Reiss (greissoffice@gmail.com)",
+    "Aikido Today Magazine archive \u2014 unsearched for Ikeda coverage"
+  ],
+  "rationale_blocks": [
+    {
+      "title": "Why the personal-communication wall matters here",
+      "body": "This subject is the reason the project separates evidence classes: an incorrect dojo-affiliation inference was emailed to Kristina Varjan (Kohala Aikikai), who replied that Ikeda had never visited her dojo. The denial is preserved in the graph (source:kristina-varjan-kohala-email-2026-09-24), 'visited frequently' edges are leads only, and outreach is framed confirm-or-correct."
+    }
+  ]
+}

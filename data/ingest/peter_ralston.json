@@ -1,0 +1,302 @@
+{
+ "name": "peter_ralston",
+ "description": "Migrated from scripts/25_ingest_peter_ralston.py (now deleted).",
+ "migrated_from": "scripts/25_ingest_peter_ralston.py",
+ "nodes": [
+  {
+   "id": "person:peter-ralston",
+   "type": "Person",
+   "label": "Peter Ralston",
+   "canonical_name": "Peter Ralston",
+   "metadata": {
+    "birth_place": "San Francisco, California",
+    "raised": "Primarily in Asia (Singapore, Japan)",
+    "occupation": "martial arts teacher, author, consciousness facilitator",
+    "martial_arts": "Judo, Jujitsu, Karate, Aikido, Japanese/Chinese fencing, western boxing, Muay Thai, Sumo",
+    "ranks": "Black belts in Judo, Jujitsu, Karate (by age 20)",
+    "achievements": [
+     "Sumo champion at high school in Japan",
+     "Judo and fencing champion at UC Berkeley",
+     "1978: First non-Asian to win World Championship full-contact martial arts tournament in Republic of China (Taiwan)"
+    ],
+    "founded": "Cheng Hsin School (1975), Cheng Hsin Center in Oakland, CA (1977)",
+    "books": [
+     "The Book of Not Knowing (2010)",
+     "Zen Body-Being (2006)",
+     "Pursuing Consciousness (2015)",
+     "Cheng Hsin: The Principles of Effortless Power (1989)",
+     "Ancient Wisdom, New Spirit",
+     "Reflections of Being",
+     "Ending Unnecessary Suffering",
+     "Island Journal (1985)"
+    ],
+    "movement": "One of the founders of the consciousness movement in the San Francisco Bay Area",
+    "collaborators": "Stewart Emery (Actualizations), Werner Erhard (EST/Forum)",
+    "kg_description": "Author",
+    "kg_enriched": true,
+    "wikipedia_exists": false,
+    "wikipedia_gap": "Peter Ralston has no Wikipedia page despite being a notable martial arts pioneer, author of 9+ books, and the first non-Asian to win the World Championship full-contact martial arts tournament in Taiwan (1978)."
+   },
+   "source_urls": [
+    "https://chenghsin.com/who-is-peter-ralston/",
+    "https://chenghsin.com/about-the-cheng-hsin-center/",
+    "https://chenghsin.com/books-and-more/",
+    "https://openlibrary.org/search.json?author=Peter+Ralston"
+   ]
+  },
+  {
+   "id": "group:cheng-hsin",
+   "type": "Group",
+   "label": "Cheng Hsin",
+   "canonical_name": "Cheng Hsin School",
+   "metadata": {
+    "founded": 1975,
+    "location": "Oakland, California (from 1977)",
+    "type": "martial arts school + ontological research center",
+    "founder": "Peter Ralston",
+    "description": "Internal martial arts and consciousness research center. Creator of the Art of Effortless Power."
+   },
+   "source_urls": [
+    "https://chenghsin.com/who-is-peter-ralston/",
+    "https://chenghsin.com/about-the-cheng-hsin-center/"
+   ]
+  },
+  {
+   "id": "place:oakland-california",
+   "type": "Place",
+   "label": "Oakland, California",
+   "canonical_name": "Oakland",
+   "metadata": {
+    "location": "Alameda County, California"
+   },
+   "source_urls": [
+    "https://chenghsin.com/who-is-peter-ralston/"
+   ]
+  },
+  {
+   "id": "place:uc-berkeley",
+   "type": "Place",
+   "label": "UC Berkeley",
+   "canonical_name": "University of California, Berkeley",
+   "metadata": {
+    "location": "Berkeley, California",
+    "context": "Ralston was Judo and fencing champion here"
+   },
+   "source_urls": [
+    "https://chenghsin.com/who-is-peter-ralston/"
+   ]
+  },
+  {
+   "id": "person:stewart-emery",
+   "type": "Person",
+   "label": "Stewart Emery",
+   "canonical_name": "Stewart Emery",
+   "metadata": {
+    "role": "Founder of Actualizations",
+    "context": "Ralston worked for Emery in Actualizations"
+   },
+   "source_urls": [
+    "https://chenghsin.com/who-is-peter-ralston/"
+   ]
+  },
+  {
+   "id": "person:werner-erhard",
+   "type": "Person",
+   "label": "Werner Erhard",
+   "canonical_name": "Werner Erhard",
+   "metadata": {
+    "role": "Founder of EST and The Forum",
+    "context": "Ralston helped Erhard create a fundamental shift from EST to the Forum"
+   },
+   "source_urls": [
+    "https://chenghsin.com/who-is-peter-ralston/"
+   ]
+  },
+  {
+   "id": "claim:ralston-1978-world-championship",
+   "type": "Claim",
+   "label": "Peter Ralston was the first non-Asian to win the World Championship full-contact martial arts tournament in the Republic of China (Taiwan) in 1978",
+   "canonical_name": "Ralston 1978 World Championship win",
+   "metadata": {
+    "claim_type": "biographical",
+    "stance": "supportive",
+    "evidence_mode": "first_person",
+    "date": "1978",
+    "location": "Republic of China (Taiwan)",
+    "achievement": "First non-Asian to win World Championship full-contact martial arts tournament",
+    "source": "https://chenghsin.com/who-is-peter-ralston/",
+    "wikipedia_notability": "This achievement alone should meet Wikipedia notability criteria for sports figures"
+   },
+   "source_urls": [
+    "https://chenghsin.com/who-is-peter-ralston/"
+   ]
+  },
+  {
+   "id": "claim:ralston-wikipedia-gap",
+   "type": "Claim",
+   "label": "Peter Ralston has no Wikipedia page despite clear notability (martial arts pioneer, author of 9+ books, 1978 world champion)",
+   "canonical_name": "Peter Ralston Wikipedia gap",
+   "metadata": {
+    "claim_type": "historical_dispute",
+    "stance": "neutral",
+    "evidence_mode": "archival_clipping",
+    "wikipedia_urls_checked": [
+     "https://en.wikipedia.org/wiki/Peter_Ralston",
+     "https://en.wikipedia.org/wiki/Peter_Ralston_(martial_artist)",
+     "https://en.wikipedia.org/wiki/Peter_Ralston_(author)"
+    ],
+    "all_404": true,
+    "wikipedia_search": "No relevant results for 'Peter Ralston martial' on Wikipedia search",
+    "notability_criteria": [
+     "First non-Asian to win World Championship full-contact martial arts tournament (1978)",
+     "Author of 9+ published books (Open Library confirmed)",
+     "Founder of Cheng Hsin, a notable martial arts system",
+     "Founder of the consciousness movement in the SF Bay Area",
+     "Collaborator with Werner Erhard (EST/Forum) and Stewart Emery (Actualizations)"
+    ]
+   },
+   "source_urls": [
+    "https://chenghsin.com/who-is-peter-ralston/",
+    "https://openlibrary.org/search.json?author=Peter+Ralston"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "FOUNDED",
+   "dst_id": "group:cheng-hsin",
+   "metadata": {
+    "year": 1975,
+    "evidence": "https://chenghsin.com/who-is-peter-ralston/"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "WORKED_AT",
+   "dst_id": "place:oakland-california",
+   "metadata": {
+    "role": "Founder and teacher at Cheng Hsin Center",
+    "start_year": 1977,
+    "evidence": "https://chenghsin.com/who-is-peter-ralston/"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "WORKED_AT",
+   "dst_id": "place:uc-berkeley",
+   "metadata": {
+    "role": "Student; Judo and fencing champion",
+    "evidence": "https://chenghsin.com/who-is-peter-ralston/"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "MEMBER_OF",
+   "dst_id": "group:aikido",
+   "metadata": {
+    "context": "Studied Aikido as part of broad martial arts training",
+    "evidence": "https://chenghsin.com/who-is-peter-ralston/"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:robert-nadeau",
+   "metadata": {
+    "context": "Both were part of the SF Bay Area consciousness/martial arts movement in the 1970s. Ralston contributed personal stories to the book about Nadeau.",
+    "evidence": "https://budovideos.com/products/aikido-the-art-of-transformation-the-life-and-teachings-of-robert-nadeau",
+    "discovered_via": "relationship_search"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:stewart-emery",
+   "metadata": {
+    "context": "Ralston worked for Emery in Actualizations",
+    "evidence": "https://chenghsin.com/who-is-peter-ralston/"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:werner-erhard",
+   "metadata": {
+    "context": "Ralston helped Erhard create a fundamental shift from EST to the Forum",
+    "evidence": "https://chenghsin.com/who-is-peter-ralston/"
+   }
+  },
+  {
+   "src_id": "person:peter-ralston",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:esalen",
+   "metadata": {
+    "context": "Ralston facilitated workshops at Esalen",
+    "evidence": "https://chenghsin.com/who-is-peter-ralston/"
+   }
+  },
+  {
+   "src_id": "claim:ralston-1978-world-championship",
+   "rel_type": "ABOUT",
+   "dst_id": "person:peter-ralston",
+   "metadata": {
+    "evidence": "https://chenghsin.com/who-is-peter-ralston/"
+   }
+  },
+  {
+   "src_id": "claim:ralston-wikipedia-gap",
+   "rel_type": "ABOUT",
+   "dst_id": "person:peter-ralston",
+   "metadata": {
+    "evidence": "https://chenghsin.com/who-is-peter-ralston/"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:chenghsin:ralston-bio",
+   "url": "https://chenghsin.com/who-is-peter-ralston/",
+   "title": "Who is Peter Ralston? — Cheng Hsin",
+   "author": null,
+   "publish_date": null,
+   "platform": "chenghsin.com",
+   "raw_text": null,
+   "source_class": "primary_first_person",
+   "bias_hint": null
+  },
+  {
+   "id": "src:chenghsin:center",
+   "url": "https://chenghsin.com/about-the-cheng-hsin-center/",
+   "title": "About the Cheng Hsin Center",
+   "author": null,
+   "publish_date": null,
+   "platform": "chenghsin.com",
+   "raw_text": null,
+   "source_class": "documentary_promotional",
+   "bias_hint": null
+  },
+  {
+   "id": "src:chenghsin:books",
+   "url": "https://chenghsin.com/books-and-more/",
+   "title": "Books and More — Peter Ralston",
+   "author": null,
+   "publish_date": null,
+   "platform": "chenghsin.com",
+   "raw_text": null,
+   "source_class": "documentary_promotional",
+   "bias_hint": null
+  },
+  {
+   "id": "src:openlibrary:ralston",
+   "url": "https://openlibrary.org/search.json?author=Peter+Ralston",
+   "title": "Open Library: Peter Ralston books",
+   "author": null,
+   "publish_date": null,
+   "platform": "openlibrary.org",
+   "raw_text": null,
+   "source_class": "journalistic",
+   "bias_hint": null
+  }
+ ]
+}

@@ -1,0 +1,553 @@
+{
+ "name": "moonsic",
+ "description": "Migrated from scripts/12_ingest_moonsic.py (now deleted).",
+ "migrated_from": "scripts/12_ingest_moonsic.py",
+ "nodes": [
+  {
+   "id": "person:liko-martin",
+   "type": "Person",
+   "label": "Liko Martin",
+   "canonical_name": "Liko Martin",
+   "metadata": {
+    "description": "Musician featured on moonsic.com. Albums: 'Liko Martin Right Now', 'Surfin' Bay Blues'. External site: likomartin.com",
+    "source": "moonsic.com"
+   },
+   "source_urls": [
+    "http://moonsic.com/liko/likoindex.html"
+   ]
+  },
+  {
+   "id": "person:eugene-lesser",
+   "type": "Person",
+   "label": "Eugene Lesser",
+   "canonical_name": "Eugene Lesser",
+   "metadata": {
+    "description": "Poet/musician featured on moonsic.com. Described as 'The man, the myth, the poet'. Albums: 'More Lesser', 'The Greater Lesser'.",
+    "source": "moonsic.com"
+   },
+   "source_urls": [
+    "http://moonsic.com/lesser/lesserindex.html"
+   ]
+  },
+  {
+   "id": "group:new-improved-night-nurses",
+   "type": "Group",
+   "label": "The New Improved Night Nurses",
+   "canonical_name": "The New Improved Night Nurses",
+   "metadata": {
+    "description": "Band featured on moonsic.com. Shared song repertoire with the Jook Savages.",
+    "source": "moonsic.com"
+   },
+   "source_urls": [
+    "http://moonsic.com/nn/nn.html"
+   ]
+  },
+  {
+   "id": "group:new-improved-jook-savages",
+   "type": "Group",
+   "label": "The New Improved Jook Savages",
+   "canonical_name": "The New Improved Jook Savages",
+   "metadata": {
+    "description": "Band featured on moonsic.com. Songs include Sat Nam and Ahamkara (Sikh/Sanskrit spiritual terms).",
+    "source": "moonsic.com"
+   },
+   "source_urls": [
+    "http://moonsic.com/jook/jook.html"
+   ]
+  },
+  {
+   "id": "group:open-mind-adventures",
+   "type": "Group",
+   "label": "Open Mind Adventures",
+   "canonical_name": "Open Mind Adventures",
+   "metadata": {
+    "description": "Organization linked from moonsic.com 'Links We Like' page. Also hosts richard-moon and chris-thorsen pages.",
+    "url": "http://openmindadventures.com/",
+    "source": "moonsic.com/links.html"
+   },
+   "source_urls": [
+    "http://openmindadventures.com/"
+   ]
+  },
+  {
+   "id": "group:quantum-edge",
+   "type": "Group",
+   "label": "Quantum Edge",
+   "canonical_name": "Quantum Edge",
+   "metadata": {
+    "description": "Organization linked from moonsic.com 'Links We Like' page.",
+    "url": "http://www.quantumedge.org/",
+    "source": "moonsic.com/links.html"
+   },
+   "source_urls": [
+    "http://www.quantumedge.org/"
+   ]
+  },
+  {
+   "id": "group:moonsensei-com",
+   "type": "Group",
+   "label": "Moonsensei.com",
+   "canonical_name": "Moonsensei.com",
+   "metadata": {
+    "description": "Aikido video site linked from moonsic.com homepage. Described as 'For More about O'Sensei's Process or other Aikido videos'. Associated with Nadeau (button image).",
+    "url": "http://www.moonsensei.com",
+    "source": "moonsic.com homepage"
+   },
+   "source_urls": [
+    "http://www.moonsensei.com"
+   ]
+  },
+  {
+   "id": "work:moonsic:home",
+   "type": "Work",
+   "label": "Moonsic — Homepage",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "website_homepage",
+    "site": "moonsic.com",
+    "capture_date": "2007-06-30",
+    "note": "Richard Moon's music website. Linked to moonsensei.com for Aikido videos. Featured artists: Liko Martin, Eugene Lesser, R. Moon, Night Nurses, Jook Savages.",
+    "wayback_url": "https://web.archive.org/web/20070630014449/http://moonsic.com/",
+    "original_url": "http://moonsic.com/"
+   },
+   "source_urls": [
+    "https://web.archive.org/web/20070630014449/http://moonsic.com/",
+    "http://moonsic.com/"
+   ]
+  },
+  {
+   "id": "work:moonsic:about",
+   "type": "Work",
+   "label": "About Moonsic.com",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "web_page",
+    "site": "moonsic.com",
+    "capture_date": "2016-05-18",
+    "note": "Describes moonsic.com music as mantra-like, fostering self-control and harmonious movement with the universe.",
+    "wayback_url": "https://web.archive.org/web/20160518052810/http://extraordinarylistening.com:80/moonsic/about.html",
+    "original_url": "http://moonsic.com/about.html"
+   },
+   "source_urls": [
+    "https://web.archive.org/web/20160518052810/http://extraordinarylistening.com:80/moonsic/about.html",
+    "http://moonsic.com/about.html"
+   ]
+  },
+  {
+   "id": "work:moonsic:links",
+   "type": "Work",
+   "label": "Links We Like",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "web_page",
+    "site": "moonsic.com",
+    "capture_date": "2016-05-18",
+    "note": "Links page with two recommended sites: Open Mind Adventures and Quantum Edge.",
+    "wayback_url": "https://web.archive.org/web/20160518052752/http://extraordinarylistening.com:80/moonsic/links.html",
+    "original_url": "http://moonsic.com/links.html"
+   },
+   "source_urls": [
+    "https://web.archive.org/web/20160518052752/http://extraordinarylistening.com:80/moonsic/links.html",
+    "http://moonsic.com/links.html"
+   ]
+  },
+  {
+   "id": "work:moonsic:contact",
+   "type": "Work",
+   "label": "Moonsic — Contact",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "web_page",
+    "site": "moonsic.com",
+    "capture_date": "2016-05-18",
+    "email": "moon@moonsic.com",
+    "postal_address": "75 Los Piños Rd., Nicasio CA 94946",
+    "note": "Contact page for moonsic.com. Email moon@moonsic.com, postal address 75 Los Piños Rd, Nicasio CA 94946.",
+    "wayback_url": "https://web.archive.org/web/20160518052736/http://extraordinarylistening.com:80/moonsic/contact.html",
+    "original_url": "http://moonsic.com/contact.html"
+   },
+   "source_urls": [
+    "https://web.archive.org/web/20160518052736/http://extraordinarylistening.com:80/moonsic/contact.html",
+    "http://moonsic.com/contact.html"
+   ]
+  },
+  {
+   "id": "work:moonsic:rmoon",
+   "type": "Work",
+   "label": "R. Moon — Moon Music",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "artist_page",
+    "site": "moonsic.com",
+    "capture_date": "2016-05-18",
+    "artist": "R. Moon",
+    "albums": [
+     "Moon Tunes",
+     "Moon Rocks"
+    ],
+    "note": "Richard Moon's artist page on moonsic.com. Two albums: Moon Tunes, Moon Rocks.",
+    "wayback_url": "https://web.archive.org/web/20160518052827/http://extraordinarylistening.com:80/moonsic/rmoon/moonindex.html",
+    "original_url": "http://moonsic.com/rmoon/moonindex.html"
+   },
+   "source_urls": [
+    "https://web.archive.org/web/20160518052827/http://extraordinarylistening.com:80/moonsic/rmoon/moonindex.html",
+    "http://moonsic.com/rmoon/moonindex.html"
+   ]
+  },
+  {
+   "id": "work:moonsic:liko",
+   "type": "Work",
+   "label": "Liko Martin — A sleeping volcano awakens",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "artist_page",
+    "site": "moonsic.com",
+    "capture_date": "2016-05-18",
+    "artist": "Liko Martin",
+    "albums": [
+     "Liko Martin Right Now",
+     "Surfin' Bay Blues"
+    ],
+    "external_link": "http://likomartin.com",
+    "note": "Liko Martin's artist page on moonsic.com. Links to likomartin.com.",
+    "wayback_url": "https://web.archive.org/web/20160518052748/http://extraordinarylistening.com:80/moonsic/liko/likoindex.html",
+    "original_url": "http://moonsic.com/liko/likoindex.html"
+   },
+   "source_urls": [
+    "https://web.archive.org/web/20160518052748/http://extraordinarylistening.com:80/moonsic/liko/likoindex.html",
+    "http://moonsic.com/liko/likoindex.html"
+   ]
+  },
+  {
+   "id": "work:moonsic:lesser",
+   "type": "Work",
+   "label": "Eugene Lesser — A Man, A Plan, A Canal, Panama",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "artist_page",
+    "site": "moonsic.com",
+    "capture_date": "2016-05-18",
+    "artist": "Eugene Lesser",
+    "albums": [
+     "More Lesser",
+     "The Greater Lesser"
+    ],
+    "note": "Eugene Lesser's artist page on moonsic.com. Described as 'The man, the myth, the poet'.",
+    "wayback_url": "https://web.archive.org/web/20160518052822/http://extraordinarylistening.com:80/moonsic/lesser/lesserindex.html",
+    "original_url": "http://moonsic.com/lesser/lesserindex.html"
+   },
+   "source_urls": [
+    "https://web.archive.org/web/20160518052822/http://extraordinarylistening.com:80/moonsic/lesser/lesserindex.html",
+    "http://moonsic.com/lesser/lesserindex.html"
+   ]
+  },
+  {
+   "id": "work:moonsic:jook",
+   "type": "Work",
+   "label": "The New Improved Jook Savages Are Coming",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "artist_page",
+    "site": "moonsic.com",
+    "capture_date": "2016-05-18",
+    "artist": "The New Improved Jook Savages",
+    "songs": [
+     "Ain't It Good",
+     "Sukiyaki",
+     "Legalize It",
+     "Sat Nam",
+     "The Moon Song",
+     "You Were the One",
+     "I Won't Stop",
+     "Ahamkara",
+     "I Want You To Love Me",
+     "The Nighttime",
+     "Sometimes",
+     "Comes & Goes"
+    ],
+    "note": "The New Improved Jook Savages band page. Song list was in HTML comments (not visible on page). Songs include Sat Nam and Ahamkara — Sikh/Sanskrit spiritual terms consistent with the Aikido/yoga context.",
+    "wayback_url": "https://web.archive.org/web/20160518052742/http://extraordinarylistening.com:80/moonsic/jook/jook.html",
+    "original_url": "http://moonsic.com/jook/jook.html"
+   },
+   "source_urls": [
+    "https://web.archive.org/web/20160518052742/http://extraordinarylistening.com:80/moonsic/jook/jook.html",
+    "http://moonsic.com/jook/jook.html"
+   ]
+  },
+  {
+   "id": "work:moonsic:nn",
+   "type": "Work",
+   "label": "The New Improved Night Nurses",
+   "canonical_name": null,
+   "metadata": {
+    "work_type": "artist_page",
+    "site": "moonsic.com",
+    "capture_date": "2016-05-18",
+    "artist": "The New Improved Night Nurses",
+    "songs": [
+     "Ain't It Good",
+     "Sukiyaki",
+     "Legalize It",
+     "Sat Nam",
+     "The Moon Song",
+     "You Were the One",
+     "I Won't Stop",
+     "Ahamkara",
+     "I Want You To Love Me",
+     "The Nighttime",
+     "Sometimes",
+     "Comes & Goes"
+    ],
+    "note": "The New Improved Night Nurses band page. Same song list as Jook Savages (shared repertoire). Images titled 'radicalmilitant' and 'genderbias'.",
+    "wayback_url": "https://web.archive.org/web/20160518052757/http://extraordinarylistening.com:80/moonsic/nn/nn.html",
+    "original_url": "http://moonsic.com/nn/nn.html"
+   },
+   "source_urls": [
+    "https://web.archive.org/web/20160518052757/http://extraordinarylistening.com:80/moonsic/nn/nn.html",
+    "http://moonsic.com/nn/nn.html"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "src_id": "work:moonsic:home",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:richard-moon-aikido",
+   "metadata": {
+    "evidence": "R. Moon — Moon Music; site is Richard Moon's music website",
+    "source": "moonsic.com"
+   }
+  },
+  {
+   "src_id": "work:moonsic:home",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:liko-martin",
+   "metadata": {
+    "evidence": "Liko Martin",
+    "source": "moonsic.com",
+    "subpath": "liko/likoindex.html"
+   }
+  },
+  {
+   "src_id": "work:moonsic:home",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:eugene-lesser",
+   "metadata": {
+    "evidence": "Eugene Lesser",
+    "source": "moonsic.com",
+    "subpath": "lesser/lesserindex.html"
+   }
+  },
+  {
+   "src_id": "work:moonsic:home",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:new-improved-night-nurses",
+   "metadata": {
+    "evidence": "The New Improved Night Nurses",
+    "source": "moonsic.com",
+    "subpath": "nn/nn.html"
+   }
+  },
+  {
+   "src_id": "work:moonsic:home",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:new-improved-jook-savages",
+   "metadata": {
+    "evidence": "The New Improved Jook Savages",
+    "source": "moonsic.com",
+    "subpath": "jook/jook.html"
+   }
+  },
+  {
+   "src_id": "work:moonsic:home",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:moonsensei-com",
+   "metadata": {
+    "evidence": "Moonsensei.com",
+    "source": "moonsic.com"
+   }
+  },
+  {
+   "src_id": "work:moonsic:links",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:open-mind-adventures",
+   "metadata": {
+    "evidence": "Open Mind Adventures",
+    "source": "moonsic.com"
+   }
+  },
+  {
+   "src_id": "work:moonsic:links",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:quantum-edge",
+   "metadata": {
+    "evidence": "Quantum Edge",
+    "source": "moonsic.com"
+   }
+  },
+  {
+   "src_id": "work:moonsic:contact",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:richard-moon-aikido",
+   "metadata": {
+    "evidence": "moon@moonsic.com — site contact email",
+    "source": "moonsic.com"
+   }
+  },
+  {
+   "src_id": "work:moonsic:rmoon",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:richard-moon-aikido",
+   "metadata": {
+    "evidence": "R. Moon",
+    "source": "moonsic.com"
+   }
+  },
+  {
+   "src_id": "work:moonsic:liko",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:liko-martin",
+   "metadata": {
+    "evidence": "Liko Martin",
+    "source": "moonsic.com"
+   }
+  },
+  {
+   "src_id": "work:moonsic:lesser",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:eugene-lesser",
+   "metadata": {
+    "evidence": "Eugene Lesser",
+    "source": "moonsic.com"
+   }
+  },
+  {
+   "src_id": "work:moonsic:jook",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:new-improved-jook-savages",
+   "metadata": {
+    "evidence": "The New Improved Jook Savages",
+    "source": "moonsic.com"
+   }
+  },
+  {
+   "src_id": "work:moonsic:nn",
+   "rel_type": "MENTIONS",
+   "dst_id": "group:new-improved-night-nurses",
+   "metadata": {
+    "evidence": "The New Improved Night Nurses",
+    "source": "moonsic.com"
+   }
+  },
+  {
+   "src_id": "group:open-mind-adventures",
+   "rel_type": "MENTIONS",
+   "dst_id": "person:richard-moon-aikido",
+   "metadata": {
+    "evidence": "openmindadventures.com hosts a Richard Moon page",
+    "source": "moonsic.com/links.html"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "moonsic:home",
+   "url": "http://moonsic.com/",
+   "title": "Moonsic — Homepage",
+   "author": "Richard Moon (moonsic.com)",
+   "publish_date": "2007-06-30",
+   "platform": "moonsic.com (Wayback Machine)",
+   "raw_text": "Moonsic\n\nAbout | Links | Contact\n\nKeep the music flowin' — Donate to moonsic.com\n\nFor More about O'Sensei's Process or other Aikido videos, please visit: Moonsensei.com\n\nLiko Martin — \"Liko Martin Right Now\" / \"Surfin' Bay Blues\"\nEugene Lesser — The man, the myth, the poet\nR. Moon — Moon Music\nThe New Improved Night Nurses\nThe New Improved Jook Savages",
+   "source_class": "archival",
+   "bias_hint": "nostalgic"
+  },
+  {
+   "id": "moonsic:about",
+   "url": "http://moonsic.com/about.html",
+   "title": "About Moonsic.com",
+   "author": "Richard Moon (moonsic.com)",
+   "publish_date": "2016-05-18",
+   "platform": "moonsic.com (Wayback Machine)",
+   "raw_text": "About Moonsic.com\nMusical Streams of Conciousness\n\nThese songs are resonant of mantras heard in the caves of Tibet. They produce a state of human consciousness that aligns itself with the universal intelligence, a state of awareness that governs itself. A state where self control is fostered by an inner wisdom, common sense and harmonious movement with the universe.",
+   "source_class": "archival",
+   "bias_hint": "nostalgic"
+  },
+  {
+   "id": "moonsic:links",
+   "url": "http://moonsic.com/links.html",
+   "title": "Links We Like",
+   "author": "Richard Moon (moonsic.com)",
+   "publish_date": "2016-05-18",
+   "platform": "moonsic.com (Wayback Machine)",
+   "raw_text": "Links We Like\n\nOpen Mind Adventures — http://openmindadventures.com/\nQuantum Edge — http://www.quantumedge.org/",
+   "source_class": "archival",
+   "bias_hint": "nostalgic"
+  },
+  {
+   "id": "moonsic:contact",
+   "url": "http://moonsic.com/contact.html",
+   "title": "Moonsic — Contact",
+   "author": "Richard Moon (moonsic.com)",
+   "publish_date": "2016-05-18",
+   "platform": "moonsic.com (Wayback Machine)",
+   "raw_text": "Contact\n\nEmail: moon@moonsic.com\nSnail Mail: 75 Los Piños Rd., Nicasio CA 94946",
+   "source_class": "archival",
+   "bias_hint": "nostalgic"
+  },
+  {
+   "id": "moonsic:rmoon",
+   "url": "http://moonsic.com/rmoon/moonindex.html",
+   "title": "R. Moon — Moon Music",
+   "author": "Richard Moon (moonsic.com)",
+   "publish_date": "2016-05-18",
+   "platform": "moonsic.com (Wayback Machine)",
+   "raw_text": "R. Moon — Music for the masses\n\nMoon Tunes\nMoon Rocks",
+   "source_class": "archival",
+   "bias_hint": "nostalgic"
+  },
+  {
+   "id": "moonsic:liko",
+   "url": "http://moonsic.com/liko/likoindex.html",
+   "title": "Liko Martin — A sleeping volcano awakens",
+   "author": "Richard Moon (moonsic.com)",
+   "publish_date": "2016-05-18",
+   "platform": "moonsic.com (Wayback Machine)",
+   "raw_text": "Liko Martin\nA sleeping volcano awakens\n\nLiko Martin Right Now\nSurfin' Bay Blues (likomartin.com)\nmore to come",
+   "source_class": "archival",
+   "bias_hint": "nostalgic"
+  },
+  {
+   "id": "moonsic:lesser",
+   "url": "http://moonsic.com/lesser/lesserindex.html",
+   "title": "Eugene Lesser — A Man, A Plan, A Canal, Panama",
+   "author": "Richard Moon (moonsic.com)",
+   "publish_date": "2016-05-18",
+   "platform": "moonsic.com (Wayback Machine)",
+   "raw_text": "Eugene Lesser\nA Man, A Plan, A Canal, Panama\n\nMore Lesser\nThe Greater Lesser",
+   "source_class": "archival",
+   "bias_hint": "nostalgic"
+  },
+  {
+   "id": "moonsic:jook",
+   "url": "http://moonsic.com/jook/jook.html",
+   "title": "The New Improved Jook Savages Are Coming",
+   "author": "Richard Moon (moonsic.com)",
+   "publish_date": "2016-05-18",
+   "platform": "moonsic.com (Wayback Machine)",
+   "raw_text": "The New Improved Jook Savages Are Coming\n\nSongs (commented out in source, not displayed):\nAin't It Good, Sukiyaki, Legalize It, Sat Nam, The Moon Song, You Were the One, I Won't Stop, Ahamkara, I Want You To Love Me, The Nighttime, Sometimes, Comes & Goes",
+   "source_class": "archival",
+   "bias_hint": "nostalgic"
+  },
+  {
+   "id": "moonsic:nn",
+   "url": "http://moonsic.com/nn/nn.html",
+   "title": "The New Improved Night Nurses",
+   "author": "Richard Moon (moonsic.com)",
+   "publish_date": "2016-05-18",
+   "platform": "moonsic.com (Wayback Machine)",
+   "raw_text": "The New Improved Night Nurses\n\nSongs (commented out in source, not displayed):\nAin't It Good, Sukiyaki, Legalize It, Sat Nam, The Moon Song, You Were the One, I Won't Stop, Ahamkara, I Want You To Love Me, The Nighttime, Sometimes, Comes & Goes",
+   "source_class": "archival",
+   "bias_hint": "nostalgic"
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "subject": "hiroshi ikeda",
+ "query": "hiroshi ikeda",
+ "domain": "tqj.de",
+ "tier": "HIGH_AUTHORITY",
+ "collection_type": "web_search_fallback",
+ "pending_queries": [
+  "site:tqj.de \"hiroshi ikeda\""
+ ]
+}

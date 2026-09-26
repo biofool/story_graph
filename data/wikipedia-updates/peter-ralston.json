@@ -1,0 +1,516 @@
+{
+  "subject": "peter-ralston",
+  "article": {
+    "title": "Draft:Peter Ralston",
+    "talk": "Draft talk:Peter Ralston",
+    "exists": true,
+    "mode": "afc",
+    "coi": "The requester (Wikipedia user Biofuel) authored the previous article on this subject, deleted at AfD in 2010 and again 2026-09-15 (2nd nomination, closed by Vanamonde93), and knows practitioners in the subject's milieu. AfC review required \u2014 mainspace recreation is G4-eligible.",
+    "live_page": {
+      "cache_file": "data/cache/wikipedia/draft-peter-ralston.md",
+      "revid": 1376596028
+    },
+    "draft_wikitext_file": "data/wikipedia-updates/drafts/peter-ralston.wikitext",
+    "note": "A live Draft:Peter Ralston page now exists (revid 1376596028) \u2014 substantially this project's draft, posted and lightly edited. Items are assessed against that revision."
+  },
+  "gng": {
+    "status": "pass",
+    "note": "Internal assessment \u2014 5 independent sources cover the 1978 championship: Oakland Tribune Apr 1978 + Black Belt Dec 1978 (both contemporaneous), SF Chronicle Sep 1979, Parade Mar 1982, Blitz Aug 2011. Submission wording asks reviewers to assess; the draft does not claim it."
+  },
+  "items": [
+    {
+      "id": "upd:ralston:tournament-1978",
+      "type": "addition",
+      "claim": "In 1978 Ralston won the light-heavyweight title at the Second World Kuoshu Martial Arts Tournament near Taipei, Taiwan.",
+      "target_section": "1978 tournament",
+      "evidence": [
+        {
+          "source": "src:oakland-tribune-1978-04-12",
+          "reliability": "reliable",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "full",
+          "note": "Contemporaneous \u2014 reported Apr 12, 1978, weeks after the event; names event + division"
+        },
+        {
+          "source": "work:d2e6ce2e18ba",
+          "reliability": "reliable",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "full",
+          "note": "Black Belt Dec 1978 pp.46\u201349 feature \u2014 verified inside the Google Books scan (id w9QDAAAAMBAJ)"
+        },
+        {
+          "source": "src:sf-chronicle-1979-09-19",
+          "reliability": "reliable",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "partial",
+          "note": "Bills him 'World martial arts champion' in a Bay-Area feature"
+        },
+        {
+          "source": "src:parade-significa-1982-03-07",
+          "reliability": "reliable",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "partial",
+          "note": "Syndicated ~60 papers on 1982-03-07; ~200-word item with original interview"
+        },
+        {
+          "source": "work:31c61b56873a",
+          "reliability": "marginal",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "partial",
+          "note": "Blitz Aug 2011 pp.70\u201374 retrospective via doczz scan + Wayback captures of blitzmag.net"
+        },
+        {
+          "external": {
+            "url": "https://www.fitmultimedia.com.au/magazinepreview/blitz-martial-arts-magazine-vol-25-issue-8",
+            "title": "Blitz Martial Arts Magazine Vol.25 No.8 \u2014 preview (fitmultimedia)"
+          },
+          "reliability": "marginal",
+          "independence": "secondary",
+          "coverage_depth": "incidental",
+          "supports": "partial",
+          "note": "alternate access URL for the Blitz issue already in the graph as work:31c61b56873a"
+        }
+      ],
+      "decision": "citable",
+      "rationale": "Core notability claim \u2014 two contemporaneous + three retrospective independent sources. Organizer/governing body still unidentified (open task).",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "post-AfD verification pass; claim is present in live draft revid 1376596028"
+        }
+      ]
+    },
+    {
+      "id": "upd:ralston:first-american-vs-non-asian",
+      "type": "addition",
+      "claim": "Framing kept separate: contemporaneous Tribune says 'first American ever to win a championship'; the non-Asian framing begins with Black Belt and appears in Parade/Blitz. Both attributed, never merged.",
+      "target_section": "1978 tournament",
+      "evidence": [
+        {
+          "source": "src:oakland-tribune-1978-04-12",
+          "reliability": "reliable",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "partial",
+          "note": "'first American' framing only"
+        },
+        {
+          "source": "work:d2e6ce2e18ba",
+          "reliability": "reliable",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "partial",
+          "note": "'first non-Asian' framing begins here"
+        }
+      ],
+      "decision": "citable",
+      "rationale": "Attribution discipline \u2014 never silently upgrade the contemporaneous wording.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "present in live draft"
+        }
+      ]
+    },
+    {
+      "id": "upd:ralston:early-life",
+      "type": "addition",
+      "claim": "SF native; grew up partly in the Far East; judo at 9 in Singapore; t'ai chi insight at 17 ('the essence of the art is supposed to be easy').",
+      "target_section": "Early life",
+      "evidence": [
+        {
+          "source": "src:parade-significa-1982-03-07",
+          "reliability": "reliable",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "full",
+          "note": "Original interview \u2014 attributed quotes"
+        }
+      ],
+      "decision": "citable",
+      "rationale": "Secondary source carrying an original interview; attributed.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "present in live draft"
+        }
+      ]
+    },
+    {
+      "id": "upd:ralston:cheng-hsin-founding",
+      "type": "addition",
+      "claim": "Founded Cheng Hsin 1975; opened the Oakland school/center 1977.",
+      "target_section": "Martial arts career",
+      "evidence": [
+        {
+          "external": {
+            "url": "https://www.usadojo.com/peter-ralston/",
+            "title": "Peter Ralston Cheng Hsin \u2014 USAdojo profile (2000)"
+          },
+          "reliability": "unreliable",
+          "independence": "self-report",
+          "coverage_depth": "significant",
+          "supports": "partial",
+          "note": "Mid-tier profile, likely self-supplied \u2014 attributed detail only"
+        },
+        {
+          "source": "src:sf-chronicle-1979-09-19",
+          "reliability": "reliable",
+          "independence": "secondary",
+          "coverage_depth": "incidental",
+          "supports": "partial",
+          "note": "Independently documents the Oakland academy operating in 1979"
+        },
+        {
+          "external": {
+            "url": "https://chenghsin.com",
+            "title": "Cheng Hsin \u2014 official website"
+          },
+          "reliability": "unscored",
+          "independence": "self-report",
+          "coverage_depth": "significant",
+          "supports": "partial",
+          "note": "external-links entry only"
+        }
+      ],
+      "decision": "citable-attributed",
+      "rationale": "Uncontroversial institutional facts; independent corroboration of the academy's existence.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "present in live draft"
+        }
+      ]
+    },
+    {
+      "id": "upd:ralston:sumo-berkeley",
+      "type": "addition",
+      "claim": "Sumo champion at his high school in Japan; judo/fencing champion at UC Berkeley.",
+      "target_section": "Early life",
+      "evidence": [
+        {
+          "external": {
+            "url": "https://www.usadojo.com/peter-ralston/",
+            "title": "Peter Ralston Cheng Hsin \u2014 USAdojo profile (2000)"
+          },
+          "reliability": "unreliable",
+          "independence": "self-report",
+          "coverage_depth": "incidental",
+          "supports": "full",
+          "note": "Single mid-tier profile, likely self-supplied"
+        }
+      ],
+      "decision": "citation-pending",
+      "rationale": "Attributed to the profile in-text; flag for better source if challenged. Held: only evidence is the USAdojo self-report profile rated unreliable (#81).",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "present in live draft as attributed"
+        }
+      ]
+    },
+    {
+      "id": "upd:ralston:teaching-approach",
+      "type": "addition",
+      "claim": "Teaching approach \u2014 'effortlessly effective' interaction, direct experiential inquiry rather than fixed technique.",
+      "target_section": "Teaching and writing",
+      "evidence": [
+        {
+          "source": "work:77b839ad2e2f8c09",
+          "reliability": "marginal",
+          "independence": "self-report",
+          "coverage_depth": "significant",
+          "supports": "full",
+          "note": "Tai Chi Chuan Journal interview (tqj.de)"
+        },
+        {
+          "source": "work:ec2b299118a4723f",
+          "reliability": "marginal",
+          "independence": "self-report",
+          "coverage_depth": "significant",
+          "supports": "partial",
+          "note": "Taijivizier / Stichting Taijiquan Nederland interview"
+        },
+        {
+          "external": {
+            "url": "https://www.chenghsin.nl/wp-content/uploads/2020/04/Tai-Chi-Interview-met-Peter-Ralston.pdf",
+            "title": "Tai Chi Interview met Peter Ralston (chenghsin.nl PDF)"
+          },
+          "reliability": "marginal",
+          "independence": "self-report",
+          "coverage_depth": "significant",
+          "supports": "partial",
+          "note": "interview mirror; attributed self-description"
+        },
+        {
+          "external": {
+            "url": "https://lammastide.com/pursuing-consciousness",
+            "title": "Pursuing Consciousness \u2014 Ralston interview"
+          },
+          "reliability": "marginal",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "partial"
+        }
+      ],
+      "decision": "citable-attributed",
+      "rationale": "Specialist union-journal interviews; used as attributed self-description.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "present in live draft"
+        }
+      ]
+    },
+    {
+      "id": "upd:ralston:cassidy-sentence",
+      "type": "addition",
+      "claim": "Among the aikido teachers who trained under Ralston is Patrick Cassidy (seven years under Morihiro Saito; Aikido Montreux founder).",
+      "target_section": "Teaching and writing",
+      "evidence": [
+        {
+          "source": "src:aj-cassidy-past-present-future-2020",
+          "reliability": "reliable",
+          "independence": "self-report",
+          "coverage_depth": "mention",
+          "supports": "full",
+          "note": "Cassidy's published contributor bio \u2014 incidental mention, NOT coverage of Ralston; does not count toward GNG"
+        }
+      ],
+      "decision": "citable",
+      "rationale": "Citable for the single attributed sentence \u2014 documents cross-art reach. This item is NOT in the live draft (checked revid 1376596028) \u2014 a genuine addition candidate.",
+      "proposal": {
+        "wikitext": "Among the aikido teachers who trained under Ralston is Patrick Cassidy, who studied seven years under [[Morihiro Saito]] in Japan and later founded Aikido Montreux in Switzerland.<ref name=\"cassidy\">{{cite web |last=Cassidy |first=Patrick |title=Aikido: Past, Present and Future |work=Aikido Journal |date=2020-12-16 |url=https://aikidojournal.com/2020/12/16/aikido-past-present-and-future/ |access-date=2026-09-26 |quote=continued his training with Peter Ralston, Robert Nadeau Shihan and Richard Moon Sensei}}</ref>",
+        "anchor": {
+          "section": "Teaching and writing",
+          "passage": "effective interaction rather than fixed technique."
+        },
+        "base_revid": 1376596028
+      },
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-26",
+          "status": "proposed",
+          "note": "authority sweep #75"
+        }
+      ]
+    },
+    {
+      "id": "upd:ralston:bibliography",
+      "type": "addition",
+      "claim": "Selected-works list \u2014 eight books 1989\u20132023, ISBNs verified via Open Library editions + publisher catalogs.",
+      "target_section": "Selected works",
+      "evidence": [
+        {
+          "source": "src:openlibrary:ralston",
+          "reliability": "unscored",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "full",
+          "note": "Bibliographic fact \u2014 listed without inline refs per convention"
+        },
+        {
+          "external": {
+            "url": "https://books.google.com/books/about/Ancient_Wisdom_New_Spirit.html?id=EBQcDYYGqqMC",
+            "title": "Ancient Wisdom, New Spirit \u2014 Google Books"
+          },
+          "reliability": "marginal",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "partial"
+        },
+        {
+          "external": {
+            "url": "https://books.google.com/books/about/The_Book_of_Not_Knowing.html?id=IUljRhRPq6gC",
+            "title": "The Book of Not Knowing \u2014 Google Books"
+          },
+          "reliability": "marginal",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "partial"
+        },
+        {
+          "external": {
+            "url": "https://www.simonandschuster.com.au/books/The-Art-of-Mastery/Peter-Ralston/9781644116432",
+            "title": "The Art of Mastery \u2014 Simon & Schuster"
+          },
+          "reliability": "marginal",
+          "independence": "secondary",
+          "coverage_depth": "significant",
+          "supports": "partial"
+        }
+      ],
+      "decision": "citable",
+      "rationale": "Bibliographic facts; the books themselves are the evidence.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "issue #74 identifiers pass"
+        }
+      ],
+      "override": "bibliographic facts verified against the works themselves (publisher/catalogue records)"
+    },
+    {
+      "id": "upd:ralston:q-gng-assessment",
+      "type": "question",
+      "claim": "Does contemporaneous newspaper report + same-year trade-magazine feature + later Parade/Blitz retrospectives satisfy GNG 'significant coverage' for a martial artist?",
+      "target_section": "Draft talk",
+      "evidence": [],
+      "decision": "citable",
+      "rationale": "Request for assessment \u2014 GNG is not claimed.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "AfC framing"
+        }
+      ]
+    },
+    {
+      "id": "upd:ralston:q-blitz-access-url",
+      "type": "question",
+      "claim": "For the Blitz citation: doczz.net issue scan vs Wayback capture of the publisher's own blitzmag.net reproduction \u2014 which access URL is preferred (or both)?",
+      "target_section": "Draft talk",
+      "evidence": [],
+      "decision": "citable",
+      "rationale": "Citation-mechanics question for reviewers.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "verification pass"
+        }
+      ]
+    },
+    {
+      "id": "upd:ralston:q-newspaperscom-gating",
+      "type": "question",
+      "claim": "The newspapers.com image links for the Tribune/Chronicle items are subscription-gated \u2014 is 'via=Newspapers.com' + page/date sufficient for verification, or should clipping links be provided?",
+      "target_section": "Draft talk",
+      "evidence": [],
+      "decision": "citable",
+      "rationale": "Citation-mechanics question for reviewers.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "verification pass"
+        }
+      ]
+    },
+    {
+      "id": "upd:ralston:ex-kkron",
+      "type": "excluded",
+      "claim": "kkron personal-communication material.",
+      "target_section": "n/a",
+      "evidence": [],
+      "decision": "not-citable",
+      "rationale": "Personal communication \u2014 disclosed in COI, excluded.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "COI policy"
+        }
+      ]
+    },
+    {
+      "id": "upd:ralston:ex-ewj-1979",
+      "type": "excluded",
+      "claim": "November 1979 East West Journal interview quote ('One of the fundamental reasons I fought in a world tournament\u2026').",
+      "target_section": "n/a",
+      "evidence": [],
+      "decision": "not-citable",
+      "rationale": "Cited by later bios but never independently verified \u2014 not on IA or newspapers.com; needs library/microfilm lookup before use.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "checklist D \u2014 open"
+        }
+      ]
+    },
+    {
+      "id": "upd:ralston:ex-derivative-bios",
+      "type": "excluded",
+      "claim": "Derivative online bios (wikitia, en-academic, readershouse, novelistpost) and unverified profile claims \u2014 'seminars in Russia', 'deaths of competitors', promotional bio language.",
+      "target_section": "n/a",
+      "evidence": [],
+      "decision": "not-citable",
+      "rationale": "Repeats of the same biography don't count as separate confirmations; unverified/promotional claims dropped.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "independence audit E"
+        }
+      ]
+    },
+    {
+      "id": "upd:ralston:ex-birth-year",
+      "type": "excluded",
+      "claim": "Birth year \u2014 contemporaneous '28' in Apr 1978 points to ~1949\u201350 (Parade's '28-year-old' in a 1982 piece is ambiguous: 1949\u201350 vs 1953\u201354).",
+      "target_section": "n/a",
+      "evidence": [],
+      "decision": "not-citable",
+      "rationale": "Kept as 'Year of birth missing' \u2014 'circa 1950' could be argued but a cited exact year remains unverifiable; not guessed.",
+      "status": "proposed",
+      "history": [
+        {
+          "at": "2026-09-25",
+          "status": "proposed",
+          "note": "editorial note"
+        }
+      ]
+    }
+  ],
+  "open_tasks": [
+    "[F] Identify the 1978 tournament's organizer/governing body \u2014 likely Republic of China / World Kuoshu federation; needs a primary check",
+    "[B] Full read of the Blitz piece \u2014 edited vs promotional; does it rely on Ralston's own account for the 1978 result (it hedges 'It's said\u2026')",
+    "[A] Black Belt page-image pass \u2014 byline spelling (scan OCRs 'Cressey', refs give 'Cressy') + paragraph-level coverage map",
+    "[D] Locate Nov 1979 East West Journal interview \u2014 library/microfilm lookup (WorldCat); 'Karate Illustrated 1981' citation also unverified",
+    "[D] WorldCat/books pass for substantial coverage; academic/independent-discussion check \u2014 five current sources are journalistic",
+    "[F] Tournament ruleset unrecorded \u2014 light-heavyweight confirmed",
+    "Resolve whether live Draft diverges from local draft wording (live revid 1376596028 adds a Lammastide 2025 reprint entry)"
+  ],
+  "rationale_blocks": [
+    {
+      "title": "AfD point-by-point (why this draft is different)",
+      "body": "| AfD objection (2nd nom) | Response |\n|---|---|\n| 'everything covering him is trivial or self-pub' | Five independent sources now cited, two contemporaneous: Oakland Tribune 1978-04-12 p.25, Black Belt Dec 1978 pp.46\u201349, SF Chronicle 1979-09-19 p.4, Parade 1982-03-07 p.18, Blitz Aug 2011 pp.70\u201374 |\n| 'no supporting evidence for world championship' | Tribune names the actual event ('Second World Kuoshu Martial Arts Tournament', light-heavyweight) within weeks; Black Belt covered it same year |\n| 'hasn't gained notability since last deletion' | Argument rests on print-era coverage 1978\u20132011, not web bios |\n| disambiguation \u2014 same-named photographer | Draft targets 'Peter Ralston (martial artist)' per the nom's own suggestion |"
+    },
+    {
+      "title": "Source verification notes",
+      "body": "Black Belt: verified inside the Google Books scan of the Dec 1978 issue (article begins p.46; byline OCRs 'Cressey', secondary refs 'Cressy' \u2014 flagged). Parade: clipbook scan corroborated by ~60 newspapers carrying the identical Significa page 1982-03-07 (Peoria Journal Star OCR verbatim; Mississippi Press teased it Mar 4). Blitz: publisher's own reproduction archived at web.archive.org (blitzmag.net, captures 2014\u201316); issue identity via MA-Mags index (Vol 25 No 8 = Aug 2011); doczz.net hosts the issue scan."
+    },
+    {
+      "title": "Sourcing checklist status (detail)",
+      "body": "A. Black Belt Dec 1978: issue obtained (Google Books w9QDAAAAMBAJ), title 'Cheng Hsin: Essence of All Martial Arts', Vol 16 No 12 pp.46\u201349, Ralston principal subject, calls the event 'Second World Championship Chinese Martial Arts (kuoshu) Tournament'. OPEN: byline spelling on page image; full paragraph map; GNG sufficiency left to reviewers. B. Blitz Aug 2011: Vol 25 No 8 pp.70\u201374, title 'The Man Behind Bloodsport?' (question mark per publisher repro), interviewer Mark Grzic, ~4\u20135 pages direct coverage. OPEN: edited-vs-promotional read; reliance on Ralston's own account for the 1978 result. C. Parade 1982-03-07: 'Yankee Judo Dandy' (Wallace/Wallechinsky/Wallace) p.18, ~200-word item with original interview \u2014 substantial mention not full profile; IA clipbook p.19 (printed p.18) verified verbatim against newspaper prints. D. Additional profiles: EWJ Nov 1979 unlocated; 'Karate Illustrated 1981' unverified lead; newspaper DBs searched 1975\u20131990 (129-hit corpus triaged \u2014 found Tribune + Chronicle); WorldCat/academic passes open. E. Independence audit: chenghsin.com/Penguin author-bio/usadojo excluded from GNG count; derivative bios (wikitia, en-academic, readershouse, novelistpost) excluded. F. World-championship claim: official name recorded verbatim from both variants; Taipei area early 1978 verified; light-heavyweight confirmed; organizer + ruleset open; 'first American'/'first non-Asian' framings kept separate and attributed. G. Submission: inline citations on contested claims, page numbers for print, neutral wording, GNG not claimed, AfC path due to COI, COI disclosure kept on draft talk."
+    }
+  ]
+}
