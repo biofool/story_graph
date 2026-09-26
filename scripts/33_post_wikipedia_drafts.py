@@ -56,7 +56,8 @@ def find_draft_pairs(drafts_dir: Path) -> list[tuple[str, Path, Path]]:
 
     for article_path in article_files:
         slug = article_path.stem.removesuffix("-wikimarkup")  # e.g. "peter-ralston"
-        report_path = drafts_dir / "generated" / f"{slug}-reliability-report.md"
+        # Reports live in the sibling generated/ dir, not under rendered/.
+        report_path = drafts_dir.parent / "generated" / f"{slug}-reliability-report.md"
         if report_path.exists():
             pairs.append((slug, article_path, report_path))
         else:

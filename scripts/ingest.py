@@ -91,10 +91,15 @@ def parse_location(loc: str) -> dict:
     parts = [p.strip() for p in loc.split(",") if p.strip()]
     if not parts:
         return out
-    if re.fullmatch(r"[A-Z]{2}|USA|United States", parts[-1]):
+    # UK is a country, not a US state — everything else 2-letter is a state
+    if re.fullmatch(r"[A-Z]{2}|USA|United States", parts[-1]) and parts[-1] != "UK":
         if parts[-1].upper() in ("USA", "UNITED STATES"):
             out["country"] = "United States"
             parts = parts[:-1]
+        elif len(parts) >= 2:
+            # bare US state code — "Berkeley, CA": keep it in parts so it
+            # lands in state below, not in country
+            out["country"] = "United States"
         else:
             out["country"] = parts.pop()
     elif parts[-1].isupper() or parts[-1].lower() in (
